@@ -39,7 +39,7 @@ Analogamente ai linguaggi di programmazione, l&#39;If... In caso contrario, il n
 </tr>
 </table>
 
-Questo nodo verrà utilizzato insieme ai [ nodi logici](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/logical-nodes/logical-nodes.md) e ai [nodi di confronto](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/comparison-nodes/comparison-nodes.md) che consentono di creare la condizione da controllare.
+Questo nodo verrà utilizzato insieme ai [&#x200B; nodi logici](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/logical-nodes/logical-nodes.md) e ai [nodi di confronto](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/comparison-nodes/comparison-nodes.md) che consentono di creare la condizione da controllare.
 
 +++Connettori di ingresso
 <b>Condizione</b> *Booleano*\

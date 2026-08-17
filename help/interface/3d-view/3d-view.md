@@ -548,7 +548,7 @@ La barra degli strumenti <b>Visualizzazione</b>, disponibile per impostazione pr
 
 >[!NOTE]
 >
-> La barra degli strumenti può essere *riposizionata* attorno all&#39;ancoraggio **Vista 3**** D** utilizzando l&#39;*handle* più a sinistra rappresentato da tre linee parallele.
+> La barra degli strumenti può essere *riposizionata* attorno all&#39;ancoraggio **Vista 3**&#x200B;**&#x200B; D** utilizzando l&#39;*handle* più a sinistra rappresentato da tre linee parallele.
 
 ### Canali di colore
 

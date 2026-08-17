@@ -53,7 +53,7 @@ Genera una forma poligonale, con molte opzioni di regolazione. Per una versione 
   Imposta il numero di volte in cui il risultato deve essere affiancato.
 * **Non square expansion**: *Falso/Vero*\
   Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati.
-* **Affiancatura non quadrata****:** *False/True*Quando è attivato il Non square expansion, la forma verrà affiancata senza schiacciamenti.
+* **Affiancatura non quadrata**&#x200B;**:** *False/True*Quando è attivato il Non square expansion, la forma verrà affiancata senza schiacciamenti.
 
 ## Immagini di esempio
 

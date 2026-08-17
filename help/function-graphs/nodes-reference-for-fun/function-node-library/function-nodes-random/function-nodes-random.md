@@ -32,15 +32,15 @@ Distribuzione normale
 
 Casuale discreto [a, b]
 
-Uniforme casuale [-1, 1[
+Uniforme casuale &lbrack;-1, 1&lbrack;
 
-Uniforme casuale [a, b[
+Uniforme casuale &lbrack;a, b&lbrack;
 
-Variabile casuale uniforme 2 [a, b[
+Variabile casuale uniforme 2 &lbrack;a, b&lbrack;
 
-Variabile casuale uniforme 3 [a, b[
+Variabile casuale uniforme 3 &lbrack;a, b&lbrack;
 
-Variabile casuale uniforme 4 [a, b[
+Variabile casuale uniforme 4 &lbrack;a, b&lbrack;
 
 </td>
 <td style="border: 0;" valign="top">

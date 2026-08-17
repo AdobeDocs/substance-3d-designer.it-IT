@@ -51,10 +51,10 @@ Utilizza i dati di [Shape Splatter](../../../../../../compositing-graphs/nodes-r
 
 * **Numero motivo**: *1 - 8*
 * **Assegnazione di pattern casuali (solo colori)**: *0.0 - 1.0*
-* ** Mappa Normale **(Solo Colore)****: *False/True*
+* **&#x200B; Mappa Normale &#x200B;**(Solo Colore)**&#x200B;**: *False/True*
 * **Regolazione HSL/Luminanza**: *-1,0 - 1,0*
 * **HSL/Luminanza casuale**: *-1,0 - 1,0*
-* ** Angolo Normale A ** Casuale (Solo Colore)****: *0,0 - 1,0*
+* **&#x200B; Angolo Normale A &#x200B;** Casuale (Solo Colore)**&#x200B;**: *0,0 - 1,0*
 * **Opacità input colore**: *0,0 - 1,0*
 
 ## Immagini di esempio

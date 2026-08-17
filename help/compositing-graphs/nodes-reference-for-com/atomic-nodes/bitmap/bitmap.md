@@ -33,7 +33,7 @@ Carica una [risorsa bitmap](../../../../resources/bitmap-resource/bitmap-resourc
 
 Questo nodo viene utilizzato per importare una [bitmap](../../../../glossary/glossary.md) nel grafico oppure per creare una nuova bitmap da utilizzare con gli [strumenti di pittura bitmap](../../../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md).
 
-Esistono alcuni modi per creare questo nodo e tutti richiedono di comprendere[ la differenza tra il collegamento e l&#39;importazione delle risorse.](../../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
+Esistono alcuni modi per creare questo nodo e tutti richiedono di comprendere[&#x200B; la differenza tra il collegamento e l&#39;importazione delle risorse.](../../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
 
 </td>
 </tr>

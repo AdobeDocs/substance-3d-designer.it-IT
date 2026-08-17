@@ -34,7 +34,7 @@ Le modifiche possono essere *annullate singolarmente* e tutte le altre funzioni 
 
 >[!IMPORTANT]
 >
-> È possibile colorare *solo* su *risorse bitmap* [ [nuove o importate](../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md).](../../../resources/bitmap-resource/bitmap-resource.md)
+> È possibile colorare *solo* su *risorse bitmap* [&#128279;](../../../resources/bitmap-resource/bitmap-resource.md)&#x200B; [nuove o importate](../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md).
 
 >[!WARNING]
 >
