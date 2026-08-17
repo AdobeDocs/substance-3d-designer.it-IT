@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-5.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-5.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Dirt 5 per generare serie di dirt avanzate per la creazione di dettagli di superfici invecchiate e con temperature estreme.
 helpx_creative_field: ""

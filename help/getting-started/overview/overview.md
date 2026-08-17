@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/getting-started/overview.html"
 breadcrumb-title: ''
 description: Ottenete una panoramica di Substance 3D Designer e scoprite le sue funzionalità per la creazione di materiali e texture procedurali.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 # Panoramica
 
-[Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) è un&#39;applicazione progettata per la creazione di texture, materiali e filtri 2D in un&#39;interfaccia basata su nodi, con particolare attenzione alla generazione procedurale, alla parametrizzazione e ai flussi di lavoro non distruttivi. Si tratta dell&#39;applicazione più longeva dell&#39;ecosistema Substance 3D e le risorse che ne derivano sono le più versatili e dinamiche possibili.
+[Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html) è un&#39;applicazione progettata per la creazione di texture, materiali e filtri 2D in un&#39;interfaccia basata su nodi, con particolare attenzione alla generazione procedurale, alla parametrizzazione e ai flussi di lavoro non distruttivi. Si tratta dell&#39;applicazione più longeva dell&#39;ecosistema Substance 3D e le risorse che ne derivano sono le più versatili e dinamiche possibili.
 
 Ecco come viene confrontato con altre applicazioni:
 
@@ -155,7 +155,7 @@ Esistono i seguenti tipi di risorse:
 
 * [Bitmap](../../resources/bitmap-resource/bitmap-resource.md)
 * [Grafica vettoriale (SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
-* [Trama 3D e scena](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
+* [Trama 3D e scena](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
 * [Font](../../resources/font-resource/font-resource.md)
 * [AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)
 

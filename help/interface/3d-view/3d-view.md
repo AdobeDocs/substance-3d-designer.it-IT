@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/3d-view.html"
 breadcrumb-title: ''
 description: Utilizzate la vista 3D in Substance 3D Designer per visualizzare in anteprima i materiali sugli oggetti 3D e verificare le condizioni di illuminazione.
 helpx_creative_field: ""
@@ -122,9 +122,9 @@ Potete visualizzare interi materiali come materiale completo nella vista 3D. Que
 
 Per visualizzare tutti gli output di un grafico, fate clic su *RMB* un’area vuota nella [vista Grafico](../../interface/the-graph-view/the-graph-view.md) e scegliete l’opzione **Visualizza output in vista 3D** nel menu di scelta rapida.
 
-Potete anche visualizzare gli output di un grafico senza doverlo aprire, facendo clic su RMB su una risorsa grafico nell&#39;ancoraggio [Esplora risorse](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) e scegliendo l&#39;opzione **Visualizza output in visualizzazione 3D** nel menu di scelta rapida.
+Potete anche visualizzare gli output di un grafico senza doverlo aprire, facendo clic su RMB su una risorsa grafico nell&#39;ancoraggio [Esplora risorse](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) e scegliendo l&#39;opzione **Visualizza output in visualizzazione 3D** nel menu di scelta rapida.
 
-In alternativa al menu di scelta rapida del grafico, potete ottenere lo stesso risultato trascinando il grafico dall&#39;ancoraggio [Esplora risorse](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) alla [vista 3D](https://substance3d.adobe.com/).
+In alternativa al menu di scelta rapida del grafico, potete ottenere lo stesso risultato trascinando il grafico dall&#39;ancoraggio [Esplora risorse](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) alla [vista 3D](https://substance3d.adobe.com/).
 
 Quando *caricate un grafico*, per impostazione predefinita gli output vengono applicati automaticamente nella vista 3D. Puoi disabilitare questo comportamento nelle [Preferenze](../../interface/preferences-window/preferences-window.md). Vai a **Modifica > Preferenze > Grafico > Comune** e deseleziona l&#39;opzione **Visualizza output nella vista 3D quando apri un grafico**.
 
@@ -144,7 +144,7 @@ Puoi visualizzare un solo output in qualsiasi canale di materiale disponibile ne
 
 Puoi anche usare *RMB* per trascinare e rilasciare qualsiasi nodo dalla vista Grafico alla vista 3D. Verrà visualizzato un elenco con i canali disponibili a cui assegnare il nodo. Fai clic su qualsiasi per confermare.
 
-Potete visualizzare qualsiasi singolo output del grafico espandendo la risorsa del grafico nel dock di [Esplora risorse](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) e utilizzando *LMB* per trascinare l’output nella vista 3D. Verrà visualizzato un elenco con i canali disponibili a cui assegnare il nodo. Fai clic su qualsiasi per confermare.
+Potete visualizzare qualsiasi singolo output del grafico espandendo la risorsa del grafico nel dock di [Esplora risorse](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) e utilizzando *LMB* per trascinare l’output nella vista 3D. Verrà visualizzato un elenco con i canali disponibili a cui assegnare il nodo. Fai clic su qualsiasi per confermare.
 
 ![Visualizzazione di trame 3D personalizzate](../../assets/3d-mesh.gif "Visualizzazione di trame 3D personalizzate")
 
@@ -260,7 +260,7 @@ Il menu <b>Scena</b> riguarda la geometria (risorsa 3D) visualizzata e gli stati
 
 * Toroide
 
-<b>Visualizza UV nella vista 2D:</b> consente la visualizzazione degli UV per la trama attualmente selezionata come sovrapposizione nella [vista 2D](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html).
+<b>Visualizza UV nella vista 2D:</b> consente la visualizzazione degli UV per la trama attualmente selezionata come sovrapposizione nella [vista 2D](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html).
 
 <b>Crea risorsa 3D dalla scena corrente...:</b> Crea una nuova [risorsa scena 3D](../../resources/3d-scene-resource/3d-scene-resource.md) in un pacchetto esterno alla scena corrente.
 

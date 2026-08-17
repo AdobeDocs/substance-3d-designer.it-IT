@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/python-editor.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/scripting/python-editor.html"
 breadcrumb-title: ''
 description: Utilizza Python Editor in Substance 3D Designer per scrivere, testare ed eseguire il debug di script e plug-in Python.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
 breadcrumb-title: ''
 description: Utilizzate gli strumenti di pittura bitmap in Substance 3D Designer per disegnare direttamente sulle risorse bitmap per la modifica delle texture.
 helpx_creative_field: ""
@@ -54,7 +54,7 @@ Gli strumenti di pittura verranno attivati automaticamente nel pannello [Vista 2
 
 È possibile creare *nuove* bitmap nei modi seguenti:
 
-* Nel pannello [Esplora risorse](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), fate clic su RMB in un *pacchetto SBS* o in una *cartella* all&#39;interno di un pacchetto per aprire il relativo menu di scelta rapida, quindi aprite il sottomenu <b>Nuovo</b> e selezionate l&#39;opzione <b>Bitmap</b>
+* Nel pannello [Esplora risorse](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), fate clic su RMB in un *pacchetto SBS* o in una *cartella* all&#39;interno di un pacchetto per aprire il relativo menu di scelta rapida, quindi aprite il sottomenu <b>Nuovo</b> e selezionate l&#39;opzione <b>Bitmap</b>
 * In un [grafico](../../../interface/the-graph-view/the-graph-view.md), creare un [nodo bitmap](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) e selezionare l&#39;opzione <b>Da nuova risorsa...</b> nel menu di scelta rapida
 
 Verrà aperta la finestra <b>Nuova bitmap</b>, che consente di impostare il *nome*, la *risoluzione* e il *colore di sfondo* della nuova risorsa bitmap.

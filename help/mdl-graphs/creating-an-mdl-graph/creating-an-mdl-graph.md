@@ -60,7 +60,7 @@ L&#39;opzione <b>Progetto</b> consente di filtrare l&#39;elenco dei modelli in b
 L&#39;elenco dei modelli può essere visualizzato in modalità diverse utilizzando i *pulsanti* accanto alla casella combinata **Progetto**:
 
 * **![](../../assets/mdl-template-recent-icon.png)Visualizzazione utilizzata di recente**: consente di filtrare l&#39;elenco per visualizzare gli ultimi modelli utilizzati nell&#39;ordine *dal più recente al meno recente*. L&#39;elemento principale è il più recente.
-* **![](../../assets/mdl-template-graphs-icon.png)grafici di visualizzazione**: i modelli vengono visualizzati solo dalla relativa *etichetta*, nell&#39;ordine dei [file Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html) nella directory dei modelli
+* **![](../../assets/mdl-template-graphs-icon.png)grafici di visualizzazione**: i modelli vengono visualizzati solo dalla relativa *etichetta*, nell&#39;ordine dei [file Substance 3D](https://www.adobe.com/it/products/substance3d/3d-augmented-reality.html) nella directory dei modelli
 * **![](../../assets/mdl-template-packages-icon.png)Visualizza file Substance 3D**: i modelli vengono visualizzati dalla relativa etichetta come *elementi secondari del file Substance 3D a cui appartengono*, nell&#39;ordine dei file nella directory dei modelli
 * **![](../../assets/mdl-template-directory-icon.png)directory di visualizzazione**: i modelli vengono visualizzati dalla relativa etichetta come *figli della directory a cui appartengono*, nell&#39;ordine dei file nella directory dei modelli
 

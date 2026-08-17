@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/activation-and-licenses.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/getting-started/activation-and-licenses.html"
 breadcrumb-title: ''
 description: Scopri come attivare Substance 3D Designer e gestire le licenze per accedere a tutte le funzioni e le funzionalità.
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ Il processo di attivazione dipende da dove hai acquistato o hai accesso a Design
 
 | Edizione | Processo di attivazione |
 | --- | --- |
-| Creative Cloud desktop | Consulta la pagina dedicata nella [documentazione HelpX](https://helpx.adobe.com/support/substance-3d-designer.html). In caso di problemi, la [documentazione di Creative Cloud](https://helpx.adobe.com/creative-cloud/user-guide.html) può fornire risposte aggiuntive. |
+| Creative Cloud desktop | Consulta la pagina dedicata nella [documentazione HelpX](https://helpx.adobe.com/it/support/substance-3d-designer.html). In caso di problemi, la [documentazione di Creative Cloud](https://helpx.adobe.com/it/creative-cloud/user-guide.html) può fornire risposte aggiuntive. |
 | Vapore | Avvia il prodotto direttamente dalla libreria Steam. |
 | Substance (indipendente) | Consulta il processo di attivazione descritto di seguito. |
 
@@ -36,7 +36,7 @@ Sono disponibili tre opzioni:
 
 * <b>Valutazione del prodotto</b>: le versioni di prova precedenti non sono più disponibili. Puoi invece avviare una versione di prova di 30 giorni per ogni applicazione Substance 3D [qui](https://www.adobe.com/creativecloud/3d-augmented-reality.html) o con Creative Cloud Desktop. Ogni versione di prova è indipendente dalle altre applicazioni Substance 3D, quindi puoi provarle una alla volta o tutte contemporaneamente.
 * <b>Attivazione tramite un file di licenza</b>: attivare il prodotto con un file di licenza (<b>\*.key</b>) scaricato dalla pagina dell&#39;account nel [sito Web Substance 3D](https://store.substance3d.com/user) prima del 30 settembre 2022.
-* <b>Attiva utilizzando il tuo account</b>: gli account Substance legacy non possono più essere utilizzati per l&#39;attivazione. [Ulteriori informazioni sugli account di Substance sono disponibili qui](https://helpx.adobe.com/substance-3d/unlisted/faq-end-of-life-accounts.html).
+* <b>Attiva utilizzando il tuo account</b>: gli account Substance legacy non possono più essere utilizzati per l&#39;attivazione. [Ulteriori informazioni sugli account di Substance sono disponibili qui](https://helpx.adobe.com/it/substance-3d/unlisted/faq-end-of-life-accounts.html).
 
 >[!IMPORTANT]
 >

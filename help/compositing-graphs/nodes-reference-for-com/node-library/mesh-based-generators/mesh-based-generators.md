@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators.html"
 breadcrumb-title: ''
 description: Accedete ai nodi dei generatori basati su mesh in Substance 3D Designer per creare texture basate sulla geometria e sulle proprietà della trama 3D.
 helpx_creative_field: ""
@@ -30,5 +30,5 @@ Le categorie principali sono tre:
   Generatori di maschere in bianco e nero basati su una o più mappe con baking.
 * [Rilevamento meteorologico](../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/weathering/weathering.md)\
   Effetti meteorologici completi basati sulla mappa con baking.
-* [Utilità](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/utilities-mesh-adaptive-159449151.html)\
+* [Utilità](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/utilities-mesh-adaptive-159449151.html)\
   Utilità e strumenti aggiuntivi per lavorare con i dolci.

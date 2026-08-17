@@ -54,7 +54,7 @@ Il nodo principale include una miniatura che visualizza un&#39;anteprima dell&#3
 
 ![Nodo radice del grafico MDL](../../assets/mdl-root-hl.png "Nodo radice del grafico MDL")
 
-*Nodo principale in un grafico MDL e relative proprietà visualizzate nel [Pannello Proprietà](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)* *pannello*
+*Nodo principale in un grafico MDL e relative proprietà visualizzate nel [Pannello Proprietà](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)* *pannello*
 
 ## Connettori e tipi
 

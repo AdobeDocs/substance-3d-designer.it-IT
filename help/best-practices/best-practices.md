@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/best-practices.html"
 breadcrumb-title: ''
 description: Accedi alle guide sulle best practice per Substance 3D Designer per ottimizzare il tuo flusso di lavoro e creare materiali efficienti.
 helpx_creative_field: ""

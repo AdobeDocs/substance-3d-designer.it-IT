@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/substance-compositing-graph-key-concepts.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/substance-compositing-graph-key-concepts.html"
 breadcrumb-title: ''
 description: Scoprite i concetti chiave dei grafici per la composizione delle Substance, inclusi nodi, connessioni e nozioni di base del flusso di lavoro.
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ Questa pagina elenca i concetti importanti da comprendere per lavorare con i gra
 
 ## Sottografi/Pubblicazione
 
-[La pubblicazione di un grafico](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) o la creazione di un sottografo sono due concetti astratti molto simili. Ciò significa che qualsiasi grafico o rete di nodi può essere &quot;impacchettato&quot; insieme e trasformato in una risorsa riutilizzabile e autonoma. La creazione di [sottografi](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) viene eseguita principalmente all&#39;interno dell&#39;applicazione per rendere riutilizzabili determinati contenuti in un flusso di lavoro efficiente e intelligente, in quanto questo evita la duplicazione ripetuta di un set di nodi. La pubblicazione comporta un passaggio aggiuntivo per esportare nel formato [risorsa Substance 3D (SBSAR)](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html), rendendo il grafico della rete dei nodi utilizzabile al di fuori dell&#39;applicazione, ad esempio quando si crea un materiale per il motore irreale.
+[La pubblicazione di un grafico](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) o la creazione di un sottografo sono due concetti astratti molto simili. Ciò significa che qualsiasi grafico o rete di nodi può essere &quot;impacchettato&quot; insieme e trasformato in una risorsa riutilizzabile e autonoma. La creazione di [sottografi](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) viene eseguita principalmente all&#39;interno dell&#39;applicazione per rendere riutilizzabili determinati contenuti in un flusso di lavoro efficiente e intelligente, in quanto questo evita la duplicazione ripetuta di un set di nodi. La pubblicazione comporta un passaggio aggiuntivo per esportare nel formato [risorsa Substance 3D (SBSAR)](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html), rendendo il grafico della rete dei nodi utilizzabile al di fuori dell&#39;applicazione, ad esempio quando si crea un materiale per il motore irreale.
 
 Input, Output e Parametri esposti sono estremamente importanti per questo concetto, in quanto sono gli unici modi per interagire ancora con il grafico una volta utilizzato come sottografo o come risorsa Substance 3D pubblicata. I motivi sono i seguenti:
 

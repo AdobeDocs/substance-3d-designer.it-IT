@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/color-management.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/color-management.html"
 breadcrumb-title: ''
 description: Scoprite come gestire il colore in Substance 3D Designer, inclusi gli spazi colore, i profili e i flussi di lavoro per le tinte piatte.
 helpx_creative_field: ""
@@ -161,7 +161,7 @@ Designer *converte* le immagini negli spazi colore specificati prima di salvare 
 
 ![Finestra di dialogo per l’esportazione degli output](../assets/2019-3-0-clr-mgt-export-outputs.png "Finestra di dialogo per l’esportazione degli output"){width="512px"}
 
-Potete anche assegnare uno spazio colore (OCIO) o associare un profilo ICC (Adobe ACE) alle immagini *salvate* dalla [vista 2D](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html).
+Potete anche assegnare uno spazio colore (OCIO) o associare un profilo ICC (Adobe ACE) alle immagini *salvate* dalla [vista 2D](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html).
 
 ![Opzioni di esportazione vista 2D](../assets/2019-3-0-clr-mgt-save-image.png "Opzioni di esportazione vista 2D")
 
@@ -209,7 +209,7 @@ La [libreria](../interface/the-library/the-library.md) include i nodi seguenti p
 </tr>
 </table>
 
-Sono utili quando si utilizzano grafici creati *senza* Gestione colore o materiali dalla libreria [Risorse Substance 3D](https://helpx.adobe.com/substance-3d/unlisted/assets.html).
+Sono utili quando si utilizzano grafici creati *senza* Gestione colore o materiali dalla libreria [Risorse Substance 3D](https://helpx.adobe.com/it/substance-3d/unlisted/assets.html).
 
 ![Nodi di conversione colore nella libreria](../assets/2019-3-0-clr-mgt-nodes.png "Nodi di conversione colore nella libreria"){width="512px"}
 

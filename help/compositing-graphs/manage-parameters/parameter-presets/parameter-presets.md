@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters/parameter-presets.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/manage-parameters/parameter-presets.html"
 breadcrumb-title: ''
 description: Scoprite come creare e utilizzare i predefiniti dei parametri in Substance 3D Designer per salvare e applicare le configurazioni dei parametri.
 helpx_creative_field: ""
@@ -30,7 +30,7 @@ Esistono due modi per archiviare e caricare i predefiniti, entrambi con casi d�
 
 I Predefiniti esterni riguardano un file esterno sul disco, un file \*.SBSPRS. Possono essere trasferiti tra grafici e nodi diversi, ma solo all&#39;interno dell&#39;applicazione. Il loro scopo principale è esattamente questo: trasferire un numero di valori troppo grande per copiare uno ad uno.
 
-I predefiniti esterni sono disponibili per tutti i parametri specifici nelle [istanze del grafico](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md), per la maggior parte dei parametri specifici nei [nodi atomici](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) ([eccezioni sono i parametri che non possono essere esposti](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)) e per i parametri di input esposti nelle proprietà di un [grafico.](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)
+I predefiniti esterni sono disponibili per tutti i parametri specifici nelle [istanze del grafico](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md), per la maggior parte dei parametri specifici nei [nodi atomici](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) ([eccezioni sono i parametri che non possono essere esposti](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)) e per i parametri di input esposti nelle proprietà di un [grafico.](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)
 
 Vengono semplicemente salvati e caricati tramite questo menu. I file SBSPRS salvati possono essere caricati su qualsiasi altro nodo o grafico.
 

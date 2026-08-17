@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-main-toolbar.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/the-main-toolbar.html"
 breadcrumb-title: ''
 description: Scopri la barra degli strumenti principale di Substance 3D Designer per accedere a strumenti e comandi comuni per il tuo flusso di lavoro.
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-Questa pagina descrive la barra degli strumenti principale e il menu di [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html), visualizzati in alto a sinistra nella finestra principale.È costituito da due parti: i menu principali a discesa e i pulsanti di accesso rapido. È possibile accedere a tutte le funzioni dei pulsanti di accesso rapido anche dai menu <b>File</b> e <b>Modifica</b>.
+Questa pagina descrive la barra degli strumenti principale e il menu di [Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html), visualizzati in alto a sinistra nella finestra principale.È costituito da due parti: i menu principali a discesa e i pulsanti di accesso rapido. È possibile accedere a tutte le funzioni dei pulsanti di accesso rapido anche dai menu <b>File</b> e <b>Modifica</b>.
 
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
@@ -51,7 +51,7 @@ Questa pagina descrive la barra degli strumenti principale e il menu di [Substan
 
 <b>Nuovo:</b> apre un sottomenu per creare un grafico o un pacchetto:
 
-* <b>Nuovo grafico Substance...:</b>(Ctrl+N) Visualizza la finestra [Nuovo grafico Substance](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/create-a-graph-102400068.html) che consente di impostare un nuovo [grafico Substance](../../compositing-graphs/substance-compositing-graphs.md);
+* <b>Nuovo grafico Substance...:</b>(Ctrl+N) Visualizza la finestra [Nuovo grafico Substance](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/create-a-graph-102400068.html) che consente di impostare un nuovo [grafico Substance](../../compositing-graphs/substance-compositing-graphs.md);
 * <b>Nuovo grafico della funzione Substance:</b> Crea un nuovo pacchetto con [grafico della funzione Substance](../../function-graphs/function-graphs.md);
 * <b>Vuoto:</b> crea un pacchetto vuoto.
 
@@ -110,11 +110,11 @@ Questa pagina descrive la barra degli strumenti principale e il menu di [Substan
 
 <b>Ingrandisci finestra:</b> Quando un pannello è *ingrandito*, questa opzione lo ingrandisce e ripristina il layout come era *prima* che la finestra fosse ingrandita
 
-<b>Esplora risorse:</b> mostrare/nascondere le [finestre Esplora risorse.](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)
+<b>Esplora risorse:</b> mostrare/nascondere le [finestre Esplora risorse.](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)
 
 <b>Grafico:</b> mostra/nasconde le [finestre del grafico](../../interface/the-graph-view/the-graph-view.md).
 
-<b>Parametri:</b> Mostrare/Nascondere la [Finestra Proprietà](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html).
+<b>Parametri:</b> Mostrare/Nascondere la [Finestra Proprietà](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html).
 
 <b>Console:</b> mostrare/nascondere la finestra della console.
 
@@ -122,7 +122,7 @@ Questa pagina descrive la barra degli strumenti principale e il menu di [Substan
 
 <b>Gestione dipendenze:</b> mostrare/nascondere [Gestione dipendenze](../../interface/dependency-manager/dependency-manager.md).
 
-<b>Visualizzazioni 2D:</b> Mostrare/Nascondere [Visualizzazioni 2D.](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html)
+<b>Visualizzazioni 2D:</b> Mostrare/Nascondere [Visualizzazioni 2D.](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html)
 
 <b>Libreria:</b> Mostra/Nascondi la [finestra Libreria.](../../interface/the-library/the-library.md)
 
@@ -153,9 +153,9 @@ Questa pagina descrive la barra degli strumenti principale e il menu di [Substan
 
 <b>Invia feedback...:</b> Apre il browser Web nella home page della [community di supporto](https://www.adobe.com/go/Substance-3D-feedback-Designer_it) di Adobe.
 
-<b>Risorse Substance 3D:</b> sfoglia [contenuti 3D premium](https://helpx.adobe.com/substance-3d/unlisted/assets.html) per gli abbonati (in precedenza Substance Source).
+<b>Risorse Substance 3D:</b> sfoglia [contenuti 3D premium](https://helpx.adobe.com/it/substance-3d/unlisted/assets.html) per gli abbonati (in precedenza Substance Source).
 
-<b>Risorse della community di Substance 3D:</b> ti consente di sfogliare [risorse della community gratuite](https://helpx.adobe.com/substance-3d/unlisted/community-assets.html) (in precedenza Substance share).
+<b>Risorse della community di Substance 3D:</b> ti consente di sfogliare [risorse della community gratuite](https://helpx.adobe.com/it/substance-3d/unlisted/community-assets.html) (in precedenza Substance share).
 
 <b>Gestisci il mio account\*:</b> apre la pagina Web per il tuo account Adobe.
 
@@ -165,7 +165,7 @@ Questa pagina descrive la barra degli strumenti principale e il menu di [Substan
 
 <b>Novità...:</b> Visualizza una schermata che evidenzia le funzionalità aggiunte all&#39;ultima versione di Designer
 
-<b>Schermata introduttiva...\*:</b> Visualizza la schermata iniziale che guida i nuovi utenti attraverso lo scopo di Designer e la sua posizione nell&#39;[ecosistema Substance 3D](https://helpx.adobe.com/substance-3d.html)
+<b>Schermata introduttiva...\*:</b> Visualizza la schermata iniziale che guida i nuovi utenti attraverso lo scopo di Designer e la sua posizione nell&#39;[ecosistema Substance 3D](https://helpx.adobe.com/it/substance-3d.html)
 
 <b>Partner:</b> consente di accedere alle esclusioni di garanzia e agli avvisi per le integrazioni di terze parti dei nostri partner in Designer.
 

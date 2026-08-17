@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/frame.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/the-graph-view/graph-items/frame.html"
 breadcrumb-title: ''
 description: Utilizzate le cornici nella vista Grafico di Substance 3D Designer per organizzare e raggruppare i nodi per una maggiore chiarezza visiva.
 helpx_creative_field: ""

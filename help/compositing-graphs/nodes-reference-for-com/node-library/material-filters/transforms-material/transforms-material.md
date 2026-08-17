@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/transforms-material.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/transforms-material.html"
 breadcrumb-title: ''
 description: Accedi ai nodi di trasformazione per i materiali in Substance 3D Designer per modificare gli output di materiale con le trasformazioni.
 helpx_creative_field: ""
