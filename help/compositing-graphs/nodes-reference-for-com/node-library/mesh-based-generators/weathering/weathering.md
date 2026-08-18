@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering.html"
 breadcrumb-title: ''
 description: Accedete ai nodi meteorologici in Substance 3D Designer per aggiungere effetti di usura e invecchiamento realistici in base alla geometria della trama.
 helpx_creative_field: ""
