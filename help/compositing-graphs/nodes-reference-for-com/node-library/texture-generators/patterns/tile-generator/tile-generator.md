@@ -81,7 +81,7 @@ Alcuni suggerimenti generali sull&#39;utilizzo:
   * **Simmetria casuale**: *0.0 - 1.0* Riflette casualmente alcuni pattern in base alla modalità simmetria casuale selezionata. Più alto è questo valore, maggiore sarà il mirroring dei pattern.
   * **Modalità casuale simmetria**: *Orizzontale + Verticale, Orizzontale, Verticale* Determina il comportamento di mirroring quando Simmetria casuale è maggiore di 0.
 * **Dimensioni**
-  * **** Modalità dimensioni **:***Normale - Interstizio, Normale - Dimensioni, Mantieni proporzioni, Assoluto, Pixel*Imposta il comportamento generale della dimensione del pattern.\
+  * **&#x200B;**&#x200B;Modalità dimensioni **:***Normale - Interstizio, Normale - Dimensioni, Mantieni proporzioni, Assoluto, Pixel*Imposta il comportamento generale della dimensione del pattern.\
     Normale (Normal) - Interstizio (Interstice) consente di definire lo spazio tra gli elementi della serie. È influenzata dall&#39;entità X e Y.\
     Normale (Normal) - Dimensione (Size) consente di definire la dimensione degli elementi della serie, indipendentemente dallo spazio. È influenzata dall&#39;entità X e Y.\
     Mantieni rapporto consente di impostare una dimensione influenzata dalla quantità X e Y, ma il rapporto X e Y tra i due viene lasciato intatto.\

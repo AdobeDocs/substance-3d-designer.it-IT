@@ -73,7 +73,7 @@ Nel pannello [Esplora risorse](https://helpx.adobe.com/substance-3d/unlisted/doc
 
 ### ![(errore)](../../assets/error.svg) Risorsa di riferimento non trovata
 
-Impossibile trovare la risorsa a cui fa riferimento un nodo nel percorso salvato nel file SBS (Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html)) di [. Di seguito sono riportati alcuni nodi che fanno riferimento a una risorsa:
+Impossibile trovare la risorsa a cui fa riferimento un nodo nel percorso salvato nel file SBS (Substance 3D[&#128279;](https://www.adobe.com/products/substance3d/3d-augmented-reality.html)) di . Di seguito sono riportati alcuni nodi che fanno riferimento a una risorsa:
 
 * Un nodo [istanza del grafico](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) fa riferimento a un grafico
 * Un nodo [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) fa riferimento a una [risorsa Bitmap](../../resources/bitmap-resource/bitmap-resource.md)

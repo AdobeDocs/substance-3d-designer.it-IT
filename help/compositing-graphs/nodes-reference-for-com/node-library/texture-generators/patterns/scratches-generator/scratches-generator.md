@@ -58,8 +58,8 @@ Esiste una versione speciale di Generatore di Scratches, Normale di Generatore d
 * **Imposta larghezza spline in px**: *False/True* Determina le unità utilizzate per le impostazioni di larghezza spline.
 * **Luminanza casuale (solo versione in scala di grigio)**: *0.0 - 1.0* Rende casuale la luminanza di ogni spline singolarmente.
 * **Intensità normale (solo versione normale)**: *0.0 - 1.0* Imposta l&#39;intensità dell&#39;effetto Normale per ogni spline a livello globale.
-* ** Intensità normale ** casuale (solo versione normale)****: *0.0 - 1.0*Rende casuale l&#39;intensità normale per ogni spline singolarmente.
-* ** Formato normale **(solo versione normale)****: *DirectX, OpenGL*\
+* **&#x200B; Intensità normale &#x200B;** casuale (solo versione normale)**&#x200B;**: *0.0 - 1.0*Rende casuale l&#39;intensità normale per ogni spline singolarmente.
+* **&#x200B; Formato normale &#x200B;**(solo versione normale)**&#x200B;**: *DirectX, OpenGL*\
   Passa da un formato Normalmap a un altro (inverte il canale verde).
 * **Modalità dissolvenza**: *Nessuna, Inizio, Fine, Inizio + Fine* Determina se e in quale direzione le spline vengono dissolte.
 * **Lunghezza dissolvenza**: *0.0 - 1.0* Imposta la lunghezza dell&#39;effetto di dissolvenza, se abilitato sopra.
