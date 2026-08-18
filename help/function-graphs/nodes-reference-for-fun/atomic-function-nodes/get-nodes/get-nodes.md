@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/get-nodes.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/get-nodes.html"
 breadcrumb-title: ''
 description: Accedere Ottieni nodi nei grafici delle funzioni di Substance 3D Designer per recuperare valori e dati delle variabili.
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ Le variabili consentono di <b>archiviare valori</b> per recuperarli in seguito (
 
 ![Substance grafico funzioni - Ottieni grafico a virgola mobile](../../../../assets/assign-getfloat.gif "Substance grafico funzioni - Ottieni grafico a virgola mobile"){zoomable="yes"}
 
-In pratica, un nodo Get acquisisce una variabile dinamica e la restituisce dall&#39;output di Get Nodes per utilizzarla in una funzione. Questi nodi Get formano il collegamento tra i parametri di input definiti nelle [proprietà del grafico](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) e nelle [funzioni dei parametri](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
+In pratica, un nodo Get acquisisce una variabile dinamica e la restituisce dall&#39;output di Get Nodes per utilizzarla in una funzione. Questi nodi Get formano il collegamento tra i parametri di input definiti nelle [proprietà del grafico](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) e nelle [funzioni dei parametri](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
 
 Ogni volta che si utilizza un nodo Get, è necessario selezionare un valore disponibile dal menu a discesa. I nodi Get <b>acquisiranno un valore del tipo corrispondente</b>. Ciò significa che vedrai solo opzioni valide nel menu di un nodo Get, non potrai mai selezionare un&#39;opzione non valida. Se una variabile non è disponibile, significa che il tipo non corrisponde
 

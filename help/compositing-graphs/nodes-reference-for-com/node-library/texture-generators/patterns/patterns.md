@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns.html"
 breadcrumb-title: ''
 description: Accedete ai nodi di generazione dei pattern in Substance 3D Designer per creare forme geometriche, porzioni e pattern procedurali.
 helpx_creative_field: ""

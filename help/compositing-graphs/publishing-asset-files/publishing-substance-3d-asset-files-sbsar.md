@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/publishing-substance-3d-asset-files-sbsar.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/publishing-substance-3d-asset-files-sbsar.html"
 breadcrumb-title: ''
 description: Scopri come pubblicare i file delle risorse Substance 3D (SBSAR) da Designer per utilizzarli in altre applicazioni e motori.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 Questa pagina spiega come Substance 3D Designer può pubblicare pacchetti come file <b>Substance 3D asset</b>, un formato di file speciale con estensione <b>SBSAR</b>, utilizzato sia nell&#39;ecosistema Substance che in altre applicazioni che lo supportano.
 
-In genere è preferibile utilizzare una risorsa di Substance 3D anziché le bitmap, poiché è molto più flessibile e leggera. Se li usi in Substance 3D [Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home), [Sampler](https://helpx.adobe.com/substance-3d-sampler.html) o [Player](https://helpx.adobe.com/substance-3d-player/home.html), è più veloce utilizzare la funzionalità [Invia a](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html).
+In genere è preferibile utilizzare una risorsa di Substance 3D anziché le bitmap, poiché è molto più flessibile e leggera. Se li usi in Substance 3D [Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home), [Sampler](https://helpx.adobe.com/it/substance-3d-sampler.html) o [Player](https://helpx.adobe.com/substance-3d-player/home.html), è più veloce utilizzare la funzionalità [Invia a](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html).
 
 ![Pubblicazione dei file SBSAR semplificata](../../assets/exportflow.png "Pubblicazione dei file SBSAR semplificata")
 
@@ -49,13 +49,13 @@ La pubblicazione richiede più preparazione dell&#39;esportazione delle bitmap. 
 
 ## Metodi di pubblicazione
 
-Quando si è pronti per la pubblicazione, sono disponibili due modalità per accedere alla finestra di pubblicazione, entrambe tramite [la finestra Esplora risorse](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html).
+Quando si è pronti per la pubblicazione, sono disponibili due modalità per accedere alla finestra di pubblicazione, entrambe tramite [la finestra Esplora risorse](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html).
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Nella [finestra Esplora risorse](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), fare clic con il pulsante destro del mouse sul pacchetto e scegliere ![](../../assets/image2020-9-23-9-39-58.png) **file Publish .sbsar...**, tasto di scelta rapida alternativo Ctrl + P.
+Nella [finestra Esplora risorse](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), fare clic con il pulsante destro del mouse sul pacchetto e scegliere ![](../../assets/image2020-9-23-9-39-58.png) **file Publish .sbsar...**, tasto di scelta rapida alternativo Ctrl + P.
 
 Dopo aver pubblicato con la finestra di dialogo una volta, puoi anche utilizzare il file ![](../../assets/image2020-9-23-11-15-35.png) **Publish .sbsar come precedente** per ripetere il processo di pubblicazione senza visualizzare le finestre di dialogo, pubblicando immediatamente con le stesse impostazioni.
 
@@ -72,7 +72,7 @@ Dopo aver pubblicato con la finestra di dialogo una volta, puoi anche utilizzare
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Nella [finestra Esplora risorse](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), facendo clic sul pulsante Publish ![](../../assets/image2020-9-23-9-39-58.png) nella barra degli strumenti superiore.
+Nella [finestra Esplora risorse](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), facendo clic sul pulsante Publish ![](../../assets/image2020-9-23-9-39-58.png) nella barra degli strumenti superiore.
 
 Dopo aver pubblicato con la finestra di dialogo una volta, è anche possibile utilizzare il pulsante Publish come precedente ![](../../assets/image2020-9-23-11-15-35.png) per ripetere il processo di pubblicazione senza visualizzare le finestre di dialogo, pubblicando immediatamente con le stesse impostazioni.
 
