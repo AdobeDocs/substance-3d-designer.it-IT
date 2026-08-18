@@ -41,7 +41,7 @@ Unisci più esposizioni fotografiche per creare un&#39;immagine High dynamic ran
 
 ## Input
 
-* **Input 1-**** 16**: *Input colore*Immagini di input. La quantità disponibile dipende dal parametro.
+* **Input 1-**&#x200B;**&#x200B; 16**: *Input colore*Immagini di input. La quantità disponibile dipende dal parametro.
 
 ## Parametri
 

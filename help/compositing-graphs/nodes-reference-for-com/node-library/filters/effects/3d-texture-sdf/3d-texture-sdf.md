@@ -35,7 +35,7 @@ ht-degree: 2%
 
 ## Descrizione
 
-Il nodo **SDF** della texture 3D genera il *campo distanza con segno* di una forma dalla maschera *texture 3D* dell&#39;input **** che rappresenta le sezioni del *volume* della forma.
+Il nodo **SDF** della texture 3D genera il *campo distanza con segno* di una forma dalla maschera *texture 3D* dell&#39;input **&#x200B;**&#x200B;che rappresenta le sezioni del *volume* della forma.
 
 </td>
 </tr>

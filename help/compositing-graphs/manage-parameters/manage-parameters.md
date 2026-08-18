@@ -108,7 +108,7 @@ Le stesse limitazioni elencate di seguito per i nodi atomici si applicano a ques
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
 
-![ menu &#39;Gestisci parametri&#39; nel menu contestuale del nodo](../../assets/manage-parameters-node-menu.png " menu &#39;Gestisci parametri&#39; nel menu contestuale del nodo"){zoomable="yes"}
+![&#x200B; menu &#39;Gestisci parametri&#39; nel menu contestuale del nodo](../../assets/manage-parameters-node-menu.png " menu &#39;Gestisci parametri&#39; nel menu contestuale del nodo"){zoomable="yes"}
 
 </td>
 </tr>

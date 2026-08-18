@@ -39,7 +39,7 @@ ht-degree: 5%
 
 ## Descrizione
 
-Consente di eseguire una sfocatura gaussiana di alta qualità sul risultato. Qualità molto migliore rispetto a [la sfocatura standard della scatola atomica](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)[.](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)
+Consente di eseguire una sfocatura gaussiana di alta qualità sul risultato. Qualità molto migliore rispetto a [la sfocatura standard della scatola atomica](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md) [.](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)
 
 Importante: assicurati di utilizzare la versione appropriata per il tuo input. Usate &quot;Blur HQ&quot; per gli input di colore o &quot;Blur HQ Grayscale&quot; per gli input di scala di grigio.
 
