@@ -111,7 +111,7 @@ Si noti inoltre che i salvataggi automatici devono essere aperti *dopo averli sp
 
 |  |  |
 | --- | --- |
-| <b>Salva sempre il file .sbs durante la pubblicazione in .sbsar o l&#39;invio a un&#39;altra applicazione</b>  *Impostazione predefinita: True* | Controlla il salvataggio automatico del pacchetto SBS durante la [pubblicazione](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) o l&#39;invio a un&#39;altra applicazione](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html).[ |
+| <b>Salva sempre il file .sbs durante la pubblicazione in .sbsar o l&#39;invio a un&#39;altra applicazione</b>  *Impostazione predefinita: True* | Controlla il salvataggio automatico del pacchetto SBS durante la [pubblicazione](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) o l&#39;invio a un&#39;altra applicazione[&#128279;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html). |
 
 ### Cooker
 
