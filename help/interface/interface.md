@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface.html"
 breadcrumb-title: ''
 description: Scoprite l’interfaccia dell’area di lavoro di Substance 3D Designer, inclusi viste, pannelli e opzioni di personalizzazione.
 helpx_creative_field: ""
@@ -99,7 +99,7 @@ La barra degli strumenti principale consente di accedere a menu aggiuntivi, come
 
 ## Proprietà
 
-[L&#39;ancoraggio delle proprietà](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) è la finestra più tecnica. È sempre sensibile al contesto e presenterà cursori, menu a discesa e altri elementi che modificano il comportamento di una risorsa o di un nodo selezionato.
+[L&#39;ancoraggio delle proprietà](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) è la finestra più tecnica. È sempre sensibile al contesto e presenterà cursori, menu a discesa e altri elementi che modificano il comportamento di una risorsa o di un nodo selezionato.
 
 ![Proprietà](../assets/properties-15.jpg "Proprietà")
 
