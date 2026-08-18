@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/performance-optimization-guidelines.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/best-practices/performance-optimization-guidelines.html"
 breadcrumb-title: ''
 description: Scopri le linee guida per l'ottimizzazione delle prestazioni per Substance 3D Designer, per migliorare le prestazioni grafiche e ridurre i tempi di elaborazione.
 helpx_creative_field: ""
@@ -141,7 +141,7 @@ In questo modo, le dimensioni della bitmap cambieranno in base al grafico princi
 
 >[!WARNING]
 >
-> Se si imposta un nodo [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) su &quot;Rispetto al padre&quot; e si [pubblica](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) il grafico in una risorsa Substance 3D (SBSAR), la bitmap verrà salvata con una risoluzione di **256x256** anziché le dimensioni originali. Si consiglia invece di mantenere il [metodo di ereditarietà](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) dei nodi Bitmap&#39; [Dimensioni output](../../compositing-graphs/output-size/output-size.md) come &#39;Assoluto&#39; e utilizzare un nodo [Trasformazione 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) impostato su &#39;Relativo al padre&#39; subito dopo il nodo Bitmap.
+> Se si imposta un nodo [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) su &quot;Rispetto al padre&quot; e si [pubblica](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) il grafico in una risorsa Substance 3D (SBSAR), la bitmap verrà salvata con una risoluzione di **256x256** anziché le dimensioni originali. Si consiglia invece di mantenere il [metodo di ereditarietà](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) dei nodi Bitmap&#39; [Dimensioni output](../../compositing-graphs/output-size/output-size.md) come &#39;Assoluto&#39; e utilizzare un nodo [Trasformazione 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) impostato su &#39;Relativo al padre&#39; subito dopo il nodo Bitmap.
 
 ![Ottimizzazione bitmap incorporate 1](../../assets/input-1.jpg "Ottimizzazione bitmap incorporate 1")
 
@@ -151,7 +151,7 @@ In questo modo, le dimensioni della bitmap cambieranno in base al grafico princi
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Inoltre, si consiglia di impostare il formato delle risorse Bitmap su Jpeg per ridurre le dimensioni delle [risorse Substance 3D pubblicate](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR).
+Inoltre, si consiglia di impostare il formato delle risorse Bitmap su Jpeg per ridurre le dimensioni delle [risorse Substance 3D pubblicate](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR).
 
 </td>
 <td style="border: 0;" valign="top">

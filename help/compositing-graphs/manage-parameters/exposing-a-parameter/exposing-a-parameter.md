@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
 breadcrumb-title: ''
 description: Scopri come esporre i parametri nei grafici di composizione di Substance 3D Designer per rendere i materiali personalizzabili e riutilizzabili.
 helpx_creative_field: ""
@@ -66,7 +66,7 @@ Attualmente esistono due metodi principali per esporre i parametri. Un metodo è
 
 ### METODO DI ESPOSIZIONE SINGOLA
 
-1. Individuare il parametro da esporre nella [finestra Proprietà](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), nella scheda Parametri specifici
+1. Individuare il parametro da esporre nella [finestra Proprietà](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), nella scheda Parametri specifici
 1. Fai clic sul pulsante Opzioni del menu a discesa ![](../../../assets/image2020-9-17-15-35-59.png).
 1. Scegli ![](../../../assets/image2020-9-17-15-37-7.png) <b>Esporta come nuovo input grafico</b> dall&#39;elenco a discesa, la prima opzione.
 1. Viene visualizzata la finestra di dialogo <b>Esponi parametro</b>. Impostare le proprietà desiderate.
@@ -79,7 +79,7 @@ Attualmente esistono due metodi principali per esporre i parametri. Un metodo è
 >[!NOTE]
 >
 > La maggior parte dei campi numerici supporta *formule matematiche di base* come input, ad esempio `17+3.5`, `7/3`, `(4+2)*3`. Premere *Invio* per convalidare la formula e il risultato verrà inserito nel campo. Se la formula non è valida, il campo torna al valore precedente.\
-> Questa funzione è supportata anche da alcuni campi numerici in altre parti dell&#39;applicazione, ad esempio nel dock [Proprietà](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html).
+> Questa funzione è supportata anche da alcuni campi numerici in altre parti dell&#39;applicazione, ad esempio nel dock [Proprietà](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html).
 
 ![Procedura dettagliata per il metodo di esposizione in batch](../../../assets/batch-expose-2.gif "Procedura dettagliata per il metodo di esposizione in batch"){width="512px"}
 
@@ -104,7 +104,7 @@ Ci sono alcune limitazioni legate all&#39;esposizione dei parametri, come elenca
 | --- | --- |
 | [Gradient Ramp](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md), [Curve Editor](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md), [Font](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md), [Istogramma Livelli](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) | Richiedi widget che non sono disponibili per i parametri creati dall&#39;utente. |
 
-Un&#39;altra limitazione significativa è correlata a [parametri statici](../../../glossary/glossary.md). Non è possibile modificare queste impostazioni in una [risorsa Substance 3D pubblicata](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR).
+Un&#39;altra limitazione significativa è correlata a [parametri statici](../../../glossary/glossary.md). Non è possibile modificare queste impostazioni in una [risorsa Substance 3D pubblicata](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR).
 
 I parametri statici, a differenza dei parametri dinamici, *non possono essere modificati al volo* dopo che il grafico è stato *elaborato*, ovvero elaborato per eseguire l&#39;algoritmo in modo rapido ed efficiente. La cottura avviene in Designer ogni volta che il grafico viene *modificato* o *pubblicato*.
 
@@ -185,7 +185,7 @@ In genere, le modifiche apportate in <b>Modalità anteprima</b> vengono *ignorat
 
 >[!WARNING]
 >
-> La modalità Anteprima mira a rappresentare nel modo più accurato possibile l&#39;esperienza di una [risorsa Substance 3D pubblicata](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR). Pertanto, le limitazioni elencate in questa pagina verranno applicate in questa modalità, ad esempio *parametri statici assenti dall&#39;elenco*.
+> La modalità Anteprima mira a rappresentare nel modo più accurato possibile l&#39;esperienza di una [risorsa Substance 3D pubblicata](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR). Pertanto, le limitazioni elencate in questa pagina verranno applicate in questa modalità, ad esempio *parametri statici assenti dall&#39;elenco*.
 
 ![Copia e incolla dei parametri di input](../../../assets/copy-paste-params-2.gif "Copia e incolla dei parametri di input"){width="512px"}
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html"
 breadcrumb-title: ''
 description: Utilizzare il nodo Input per creare i parametri di input per i grafici Substance che possono essere esposti e regolati dagli utenti.
 helpx_creative_field: ""
@@ -145,7 +145,7 @@ In alternativa, qualsiasi set di input per il metodo di ereditarietà *Relativo 
 
 >[!IMPORTANT]
 >
-> Il metodo di ereditarietà *relativo all&#39;input* per i nodi di input è *non supportato* in [risorse Substance 3D (SBSAR)](https://helpx.adobe.com/substance-3d-assets.html). Imposta tutti i metodi di ereditarietà dei nodi di input su *Rispetto all&#39;elemento padre* prima di pubblicare il pacchetto.
+> Il metodo di ereditarietà *relativo all&#39;input* per i nodi di input è *non supportato* in [risorse Substance 3D (SBSAR)](https://helpx.adobe.com/it/substance-3d-assets.html). Imposta tutti i metodi di ereditarietà dei nodi di input su *Rispetto all&#39;elemento padre* prima di pubblicare il pacchetto.
 
 ## Attributi integrazione
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/extend-shape.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/extend-shape.html"
 breadcrumb-title: ''
 description: Usate il nodo di Extend Shape per estendere le forme oltre i loro bordi per creare effetti di maschera e pattern espansi.
 helpx_creative_field: ""

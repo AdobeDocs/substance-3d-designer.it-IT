@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/bakers.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/bakers.html"
 breadcrumb-title: ''
 description: Scoprite come utilizzare Substance 3D Designer baker per calcolare le informazioni basate su trama nei file di texture.
 helpx_creative_field: ""

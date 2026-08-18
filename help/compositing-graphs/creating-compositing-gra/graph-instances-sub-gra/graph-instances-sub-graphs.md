@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html"
 breadcrumb-title: ''
 description: Utilizzate le istanze e i grafici secondari del grafico per creare componenti grafici riutilizzabili e flussi di lavoro di materiale modulare.
 helpx_creative_field: ""
@@ -58,7 +58,7 @@ Si noti che, mentre i concetti di istanza e grafico secondario del grafico si ap
 
 ### Posso aggiungere le mie istanze grafiche alla libreria dei nodi?
 
-<b>Sì, è possibile </b>ma richiede una configurazione specifica. Ulteriori informazioni sono disponibili nella pagina [Gestione di contenuti e filtri personalizzati](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html) di questa documentazione.
+<b>Sì, è possibile </b>ma richiede una configurazione specifica. Ulteriori informazioni sono disponibili nella pagina [Gestione di contenuti e filtri personalizzati](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html) di questa documentazione.
 
 ### È possibile esaminare il grafico di origine di un&#39;istanza del grafico?
 

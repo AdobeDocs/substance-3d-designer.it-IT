@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/filesize-reduction-guidelines.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/best-practices/filesize-reduction-guidelines.html"
 breadcrumb-title: ''
 description: Linee guida per la riduzione delle dimensioni dei file dei grafici Substance al fine di ottimizzare le prestazioni e i requisiti di storage.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 In alcuni casi la dimensione totale dei file di [risorse Substance 3D (SBSAR)](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) può essere un fattore importante. Questa pagina contiene alcune aree critiche e impostazioni da tenere presenti quando si tenta di ridurre le dimensioni dei file.
 
-La dimensione del file è determinata principalmente da [bitmap incorporate.](../../resources/bitmap-resource/bitmap-resource.md) Si tratta di file collegati, incorporati o in batch e aggiunti al file [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) come risorsa. Nella risorsa Substance 3D vengono pubblicate solo le bitmap utilizzate in un grafico, ovvero connesse a un output direttamente o attraverso la catena di nodi. In un file di Substance 3D, le bitmap non hanno alcun impatto sulle dimensioni del file, poiché tutte le risorse bitmap sono ancora memorizzate all&#39;esterno del file.
+La dimensione del file è determinata principalmente da [bitmap incorporate.](../../resources/bitmap-resource/bitmap-resource.md) Si tratta di file collegati, incorporati o in batch e aggiunti al file [Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html) come risorsa. Nella risorsa Substance 3D vengono pubblicate solo le bitmap utilizzate in un grafico, ovvero connesse a un output direttamente o attraverso la catena di nodi. In un file di Substance 3D, le bitmap non hanno alcun impatto sulle dimensioni del file, poiché tutte le risorse bitmap sono ancora memorizzate all&#39;esterno del file.
 
 >[!IMPORTANT]
 >
@@ -30,7 +30,7 @@ La dimensione del file è determinata principalmente da [bitmap incorporate.](..
 
 ## Fattori dimensione file
 
-La dimensione totale dei file [SBSAR](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) è influenzata da diversi fattori. Sono elencati di seguito con una breve spiegazione.
+La dimensione totale dei file [SBSAR](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) è influenzata da diversi fattori. Sono elencati di seguito con una breve spiegazione.
 
 +++Risoluzione
 Ovviamente ha un grande effetto. Scegliete la risoluzione più bassa possibile, tenendo presente che il file Substance potrebbe anche funzionare con risoluzioni maggiori. Potete usare i trucchi di mascheratura della risoluzione standard per far sembrare le bitmap più piccole più grandi.
@@ -63,14 +63,14 @@ La modalità impostata per il nodo Bitmap influisce anche sul modo in cui Design
 +++Formato bitmap nel pacchetto
 Nelle proprietà Risorsa è possibile scegliere tra la compressione &quot;Raw&quot; e &quot;Jpeg&quot;. Ciò può avere un effetto considerevole sul risultato finale.
 
-*Trovato in: Risorsa bitmap [Proprietà](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), tramite la [finestra Esplora risorse.](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)*
+*Trovato in: Risorsa bitmap [Proprietà](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), tramite la [finestra Esplora risorse.](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)*
 
 +++
 
 +++Qualità di compressione bitmap nel pacchetto
 Quando si utilizza il formato &quot;Jpeg&quot; Bitmap, il cursore seguente può influire sulla qualità e sulle dimensioni dei file. Questo cursore non si comporta molto prevedibilmente, ma 1 tende a corrispondere alla compressione JPG di qualità più elevata e 0,5 tende a dare le dimensioni più piccole.
 
-*Trovato in: Risorsa bitmap [Proprietà](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), tramite la [finestra Esplora risorse.](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)*
+*Trovato in: Risorsa bitmap [Proprietà](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), tramite la [finestra Esplora risorse.](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)*
 
 +++
 
