@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Iray
 
-Questa pagina presenta il modulo di rendering Iray disponibile nel pannello di visualizzazione 3D di [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html), che offre la traccia dei percorsi interattiva per il rendering fotorealistico con accelerazione CPU e/o GPU (solo GPU Nvidia).
+Questa pagina presenta il modulo di rendering Iray disponibile nel pannello di visualizzazione 3D di [Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html), che offre la traccia dei percorsi interattiva per il rendering fotorealistico con accelerazione CPU e/o GPU (solo GPU Nvidia).
 
 >[!WARNING]
 > 
@@ -64,7 +64,7 @@ Per ulteriori informazioni sull&#39;ottimizzazione di queste condizioni, consult
 
 ![Materiale di muri del castello medievale reso in Iray](../../../assets/iray-overview.png "Materiale di muri del castello medievale reso in Iray")
 
-*Materiale: [Muro medievale del castello](https://helpx.adobe.com/substance-3d/unlisted/assets/allassets/2b3f6eca9a6b6ab19d263d8b77819df431c3c973.html)* *di [Mark Foreman](https://www.artstation.com/oggyart)* *disponibile nelle [risorse Substance 3D](https://helpx.adobe.com/substance-3d/unlisted/assets.html)* *libreria*
+*Materiale: [Muro medievale del castello](https://helpx.adobe.com/it/substance-3d/unlisted/assets/allassets/2b3f6eca9a6b6ab19d263d8b77819df431c3c973.html)* *di [Mark Foreman](https://www.artstation.com/oggyart)* *disponibile nelle [risorse Substance 3D](https://helpx.adobe.com/it/substance-3d/unlisted/assets.html)* *libreria*
 
 </td>
 </tr>

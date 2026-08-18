@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/warnings-in-function-graphs.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/function-graphs/warnings-in-function-graphs.html"
 breadcrumb-title: ''
 description: Consulta le avvertenze nei grafici delle funzioni di Substance 3D Designer e scopri come risolvere i problemi comuni.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 In questa pagina sono elencati gli avvisi e i messaggi di errore che possono essere attivati da [grafici di funzione](../../function-graphs/function-graphs.md) in Substance 3D Designer e sono disponibili procedure di risoluzione dei problemi comuni per ciascuno di essi.
 
-Gli avvisi vengono visualizzati nella descrizione comandi dell&#39;icona di avviso per la risorsa grafico nel pannello [Esplora risorse](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) e nell&#39;angolo inferiore sinistro della [visualizzazione Grafico](../../interface/the-graph-view/the-graph-view.md) se il grafico è caricato.\
+Gli avvisi vengono visualizzati nella descrizione comandi dell&#39;icona di avviso per la risorsa grafico nel pannello [Esplora risorse](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) e nell&#39;angolo inferiore sinistro della [visualizzazione Grafico](../../interface/the-graph-view/the-graph-view.md) se il grafico è caricato.\
 Se la funzione è *applicata a un parametro* in un [grafico di Substance](../../compositing-graphs/substance-compositing-graphs.md), qualsiasi avviso genererà l&#39;avviso &quot;*La funzione del parametro [x] presenta alcuni errori*&quot; generati per tale parametro.
 
 ## ![(errore)](../../assets/error.svg) Nessun nodo di output definito

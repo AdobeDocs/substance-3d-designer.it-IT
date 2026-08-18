@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
 breadcrumb-title: ''
 description: Scopri come utilizzare i file di configurazione del progetto SBSPRJ in Substance 3D Designer per gestire le impostazioni del progetto.
 helpx_creative_field: ""
@@ -63,7 +63,7 @@ I file di progetto possono contenere le seguenti impostazioni:
 
 <b>Generali: </b>Modelli di grafico, plug-in per lo spazio tangente, impostazioni predefinite per formato immagine e normale.
 
-<b>Libreria: </b>Percorsi esaminati da visualizzare nella libreria, nonché [filtri e categorie per la visualizzazione Libreria](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html).
+<b>Libreria: </b>Percorsi esaminati da visualizzare nella libreria, nonché [filtri e categorie per la visualizzazione Libreria](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html).
 
 <b>MDL: </b>percorsi controllati da MDL.
 
@@ -79,7 +79,7 @@ Come tutti gli altri tipi, le configurazioni di progetto vengono salvate come fi
 
 Per ulteriori informazioni sulla gestione dei file di progetto e sulla modifica delle impostazioni del progetto, vedere la pagina [Impostazioni progetto](../../interface/preferences-window/project-settings/project-settings.md).
 
-I file di progetto includono anche <b>categorie</b> e <b>filtri</b> personalizzati per la [libreria](../../interface/the-library/the-library.md). Ulteriori informazioni sono disponibili nella pagina [Gestione di contenuti e filtri personalizzati](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html).
+I file di progetto includono anche <b>categorie</b> e <b>filtri</b> personalizzati per la [libreria](../../interface/the-library/the-library.md). Ulteriori informazioni sono disponibili nella pagina [Gestione di contenuti e filtri personalizzati](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html).
 
 ## Modifica XML esternamente
 

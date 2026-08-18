@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/system-requirements.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/getting-started/system-requirements.html"
 breadcrumb-title: ''
 description: Esaminare i requisiti di sistema di Substance 3D Designer per verificare che il computer soddisfi le specifiche necessarie.
 helpx_creative_field: ""

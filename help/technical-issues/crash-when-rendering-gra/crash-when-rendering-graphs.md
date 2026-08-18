@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/crash-when-rendering-graphs.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/technical-issues/crash-when-rendering-graphs.html"
 breadcrumb-title: ''
 description: Risoluzione dei problemi di arresto anomalo durante il rendering dei grafici in Substance 3D Designer e individuazione di soluzioni per evitarli.
 helpx_creative_field: ""

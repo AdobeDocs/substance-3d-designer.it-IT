@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-library.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/the-library.html"
 breadcrumb-title: ''
 description: Utilizza la libreria in Substance 3D Designer per accedere e gestire i predefiniti dei nodi, i materiali e il contenuto personalizzato.
 helpx_creative_field: ""
@@ -82,7 +82,7 @@ Il contenuto della <b>libreria</b> viene visualizzato come *miniature etichettat
 
 * [La Substance di grafici](../../compositing-graphs/substance-compositing-graphs.md) nei file [SBS](../../getting-started/overview/overview.md) e [SBSAR](../../getting-started/overview/overview.md) è rappresentata dal *primo output* o dall&#39;*icona personalizzata*, se impostata dall&#39;autore del grafico
 * [Bitmap](../../resources/bitmap-resource/bitmap-resource.md) e [grafica vettoriale (SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) sono rappresentate da un *rendering in miniatura* della bitmap stessa
-* [Trame 3D](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html), [Grafici di funzione](../../function-graphs/the-function-graph/the-function-graph.md), [Font](../../resources/font-resource/font-resource.md) e [File AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) sono rappresentati da *icone generiche* per ogni tipo
+* [Trame 3D](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html), [Grafici di funzione](../../function-graphs/the-function-graph/the-function-graph.md), [Font](../../resources/font-resource/font-resource.md) e [File AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) sono rappresentati da *icone generiche* per ogni tipo
 
 >[!WARNING]
 >

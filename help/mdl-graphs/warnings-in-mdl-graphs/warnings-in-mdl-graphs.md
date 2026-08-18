@@ -20,9 +20,9 @@ ht-degree: 0%
 
 # Avvisi nei grafici MDL
 
-In questa pagina vengono elencati i messaggi di avvertenza ed errore che possono essere attivati dai grafici MDL in [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) e vengono fornite le procedure di risoluzione dei problemi più comuni per ciascuno di essi.
+In questa pagina vengono elencati i messaggi di avvertenza ed errore che possono essere attivati dai grafici MDL in [Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html) e vengono fornite le procedure di risoluzione dei problemi più comuni per ciascuno di essi.
 
-Gli avvisi vengono visualizzati nella descrizione comandi dell&#39;icona di avviso per la risorsa grafico nel pannello [Esplora risorse](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) e nell&#39;angolo inferiore sinistro della [visualizzazione Grafico](../../interface/the-graph-view/the-graph-view.md) se il grafico è caricato.
+Gli avvisi vengono visualizzati nella descrizione comandi dell&#39;icona di avviso per la risorsa grafico nel pannello [Esplora risorse](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) e nell&#39;angolo inferiore sinistro della [visualizzazione Grafico](../../interface/the-graph-view/the-graph-view.md) se il grafico è caricato.
 
 >[!NOTE]
 >

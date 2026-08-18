@@ -26,7 +26,7 @@ In queste pagine sono descritte le sinergie tra i [grafici Substance](../../comp
 
 Gli output dei grafici Substance possono essere *passati ai parametri esposti* dei materiali MDL in due modi, descritti in questa pagina.
 
-Se il materiale MDL attualmente applicato nella vista 3D ha parametri esposti il cui tipo è *[variabile](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)* - questo tipo può essere impostato utilizzando l&#39;opzione <b>Modificatore tipo</b> nelle proprietà del [parametro esposto](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/exposing-a-parameter-145654033.html), questi possono essere connessi a *texture*:
+Se il materiale MDL attualmente applicato nella vista 3D ha parametri esposti il cui tipo è *[variabile](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)* - questo tipo può essere impostato utilizzando l&#39;opzione <b>Modificatore tipo</b> nelle proprietà del [parametro esposto](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/exposing-a-parameter-145654033.html), questi possono essere connessi a *texture*:
 
 * un parametro <b>Color</b> può essere collegato alle texture RGBA
 * un parametro <b>Float</b> per le texture in scala di grigio

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/3d-renderers.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/3d-view/3d-renderers.html"
 breadcrumb-title: ''
 description: Nella vista 3D, potete scegliere tra i moduli di rendering rasterizzatore e tracciatore, per ottenere diverse prestazioni e qualità di anteprima.
 helpx_creative_field: ""

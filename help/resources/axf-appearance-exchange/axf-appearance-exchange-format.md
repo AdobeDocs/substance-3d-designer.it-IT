@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/axf-appearance-exchange-format.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/resources/axf-appearance-exchange-format.html"
 breadcrumb-title: ''
 description: Scoprite come importare e utilizzare le risorse per il formato di scambio dell’aspetto AxF in Substance 3D Designer per l’importazione dei materiali.
 helpx_creative_field: ""
@@ -70,7 +70,7 @@ Fare clic sul pulsante <b>Importa AxF...</b> nella sezione a sinistra della [sch
 
 +++Explorer
 
-Fai clic su RMB in un pacchetto in [Esplora risorse](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) e seleziona <b>Importa > AxF</b> nel menu di scelta rapida del pacchetto.
+Fai clic su RMB in un pacchetto in [Esplora risorse](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) e seleziona <b>Importa > AxF</b> nel menu di scelta rapida del pacchetto.
 
 ![AxF: Avvia importazione da Esplora risorse](../../assets/axf_explorer.png "AxF: Avvia importazione da Esplora risorse"){width="600px"}
 
@@ -144,7 +144,7 @@ Fai clic sul pulsante <b>Aggiungi modello</b> e seleziona il tipo di grafico des
 Sono disponibili due tipi di modelli di grafici a Substance:
 
 <b>Da AxF a rugosità metallica</b> e <b>Da AxF a lucidità Specular</b> sono *modelli di conversione* che consentono di mappare i materiali AxF ai modelli PBR standard.\
-Questi possono quindi essere utilizzati con gli shader della vista 3D predefiniti e combinati con altri materiali PBR prodotti in Designer, [Sampler](https://www.adobe.com/products/substance3d-sampler.html) o acquisiti dalla nostra libreria [Risorse 3D](https://substance3d.adobe.com/assets/).
+Questi possono quindi essere utilizzati con gli shader della vista 3D predefiniti e combinati con altri materiali PBR prodotti in Designer, [Sampler](https://www.adobe.com/it/products/substance3d-sampler.html) o acquisiti dalla nostra libreria [Risorse 3D](https://substance3d.adobe.com/assets/).
 
 <b>Da AxF a AxF</b> è un modello *passthrough* che consente di modificare i materiali AxF in posizione ed esportare queste modifiche come nuovi livelli nei file AxF esistenti. Per ulteriori informazioni, consultate Esportazione di file AxF di seguito.
 

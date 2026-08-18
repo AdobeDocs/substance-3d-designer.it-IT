@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/resources.html"
 breadcrumb-title: ''
 description: Scopri come importare, creare e gestire risorse in Substance 3D Designer, tra cui bitmap, font e scene 3D.
 helpx_creative_field: ""
@@ -57,7 +57,7 @@ Le risorse non grafiche sono in genere risorse di supporto utilizzate come dati 
 
 * [Bitmap](../resources/bitmap-resource/bitmap-resource.md)
 * [Grafica vettoriale (SVG)](../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
-* [Risorsa scena 3D](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
+* [Risorsa scena 3D](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
 * [Font](../resources/font-resource/font-resource.md)
 
 </td>
