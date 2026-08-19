@@ -134,7 +134,7 @@ Date un&#39;occhiata alle pagine dei nodi collegate di seguito per esempi dell&#
 * [Content] Nuova versione del nodo Quantizza scala di grigi
 * [Content] Nuovi rumori frattali di Voronoi e Voronoi (2D/3D)
 * [Content] Threshold: aggiungi modalità di confronto &#39;Lower&#39; e &#39;Lower and equal&#39;
-* [Content][Vista 3D] Aggiungi una trama adatta alla visualizzazione dei tessuti nelle risorse spedite
+* [Content]&#x200B;[Vista 3D] Aggiungi una trama adatta alla visualizzazione dei tessuti nelle risorse spedite
 * [Substance modelli] Nuovo nodo Espandi istanze gruppo
 * [Modelli Substance] Nuovo nodo Fuse
 * [Substance modelli] Nuovo nodo Rinomina
@@ -176,8 +176,8 @@ Date un&#39;occhiata alle pagine dei nodi collegate di seguito per esempi dell&#
 * [Content] Flood Fill: pagina al vivo del testo nei pulsanti dei parametri booleani
 * [Contenuto] Intervallo errato per il parametro da multi-angolo a angolo luce primo campione del nodo normale
 * [Modelli Substance] Le proprietà del nodo mostrano l&#39;identificatore anziché l&#39;etichetta
-* [Substance modelli][Vista 3D] Problema di aggiornamento durante la riapertura di un progetto
-* [Substance models][3Dview] Problema di aggiornamento quando si utilizza l&#39;anteprima wireframi
+* [Substance modelli]&#x200B;[Vista 3D] Problema di aggiornamento durante la riapertura di un progetto
+* [Substance models]&#x200B;[3Dview] Problema di aggiornamento quando si utilizza l&#39;anteprima wireframi
 * [Parametri] Arresto anomalo quando si eliminano gli input del grafico in rapida successione in un caso specifico
 * [Parametri] Arresto anomalo durante la reimpostazione di un parametro di istanza durante la modifica della relativa descrizione di riferimento
 * [Bitmap] Il rilevamento UDIM non viene attivato per i file bitmap rilasciati nel grafico
