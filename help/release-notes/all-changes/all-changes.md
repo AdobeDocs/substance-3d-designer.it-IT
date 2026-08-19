@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/release-notes/all-changes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/all-changes.html"
 breadcrumb-title: ''
 description: Esamina tutte le modifiche e gli aggiornamenti nelle versioni di Substance 3D Designer per tenere traccia dell’evoluzione e dei miglioramenti delle funzionalità.
 helpx_creative_field: ""
@@ -12,7 +12,7 @@ user-guide-description: ''
 user-guide-title: ''
 source-git-commit: e71846d2834d9c1979fe840f1cf9e321f2d4d93f
 workflow-type: tm+mt
-source-wordcount: '31814'
+source-wordcount: '31805'
 ht-degree: 0%
 
 ---

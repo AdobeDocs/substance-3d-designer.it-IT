@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/release-notes/version-12-4.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-12-4.html"
 breadcrumb-title: ''
 description: Consulta le note sulla versione per Substance 3D Designer versione 12.4 per informazioni sulle nuove funzioni, i miglioramenti e le correzioni di bug.
 helpx_creative_field: ""
@@ -34,7 +34,7 @@ Quando modificate il grafico, a volte dovete sperimentare diverse possibilità e
 
 ### Digitare le formule nei campi dei parametri
 
-Non è più necessario utilizzare una calcolatrice o calcolare nella testa quando si desidera immettere valori di parametri specifici. È ora possibile immettere direttamente formule di base come aggiunte, divisioni, moltiplicazioni o sottrazioni quando si imposta un valore numerico per un parametro in [Proprietà](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) e in altre posizioni dell&#39;applicazione.
+Non è più necessario utilizzare una calcolatrice o calcolare nella testa quando si desidera immettere valori di parametri specifici. È ora possibile immettere direttamente formule di base come aggiunte, divisioni, moltiplicazioni o sottrazioni quando si imposta un valore numerico per un parametro in [Proprietà](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) e in altre posizioni dell&#39;applicazione.
 
 ![](../../assets/final-formula.gif){width="640px"}
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/release-notes/version-14-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-14-0.html"
 breadcrumb-title: ''
 description: Consulta le note sulla versione per Substance 3D Designer versione 14.0 per informazioni sui nuovi nodi, la navigazione del grafico e i miglioramenti delle prestazioni.
 helpx_creative_field: ""
@@ -38,7 +38,7 @@ Questa versione 14.0 introduce molti nuovi contenuti con i nuovi nodi elencati d
 
 * <b>Filtro Kuwahara</b>: se desiderate migliorare ulteriormente la stilizzazione, potete generare alcuni effetti pittorici grazie ai filtri [Colore Kuwahara anisotropo](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara/anisotropic-kuwahara.md) / [Scala di grigi](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara-gra/anisotropic-kuwahara-grayscale.md). Nei dettagli, applica una sfocatura direzionale anisotropa conforme ai dettagli dell&#39;immagine. Il risultato è un’immagine che sembra scorrere nella direzione delle forme al suo interno.
 
-Questi nodi (Quantizza colore e Kuwahara anisotropo) sono spiegati in [questa esercitazione](https://www.adobe.com/go/designer-tutorial-quantize_it). Mostra come utilizzarli per stilizzare i materiali e gestire i colori in modo più efficiente e intuitivo.
+Questi nodi (Quantizza colore e Kuwahara anisotropo) sono spiegati in [questa esercitazione](https://www.adobe.com/go/designer-tutorial-quantize). Mostra come utilizzarli per stilizzare i materiali e gestire i colori in modo più efficiente e intuitivo.
 
 Altri nodi potenti si uniscono al gruppo:
 
