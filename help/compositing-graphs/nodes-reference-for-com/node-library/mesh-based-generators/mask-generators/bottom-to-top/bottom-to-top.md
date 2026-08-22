@@ -37,7 +37,7 @@ ht-degree: 1%
 
 ## Descrizione
 
-Genera una maschera in bianco e nero in base alle mappe con baking e alle impostazioni dell’utente. Simile a [Maschere avanzate](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/features/smart-materials-and-masks) in [Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home).
+Genera una maschera in bianco e nero in base alle mappe con baking e alle impostazioni dell’utente. Simile a [Maschere avanzate](https://experienceleague.adobe.com/it/docs/substance-3d-painter/using/features/smart-materials-and-masks) in [Painter](https://experienceleague.adobe.com/it/docs/substance-3d-painter/using/home).
 
 In questo modo viene generata una transizione dal bianco al nero dal basso verso la parte superiore di un modello, utile per effettuare selezioni e dissolvenze basate sulla geometria.
 

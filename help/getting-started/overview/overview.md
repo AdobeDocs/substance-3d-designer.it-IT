@@ -77,7 +77,7 @@ I file di Substance sono i **file di origine principali** per Designer. Quando a
 
 *(\*.SBSAR)*
 
-Gli archivi Substance sono <b> file Substance compilati e ottimizzati</b>. Sono molto più veloci da calcolare e possono essere facilmente condivisi senza problemi di riferimento. I parametri possono ancora essere modificati, ma la modifica del grafico è <b>bloccata</b>. Gli archivi Substance possono essere utilizzati in tutte le applicazioni Substance 3D e in tutte le applicazioni con [integrazione Substance 3D](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home) (alcune con un plug-in esterno), ad esempio Autodesk 3DS Max &amp; Maya, Unreal Engine o Unity Engine.
+Gli archivi Substance sono <b> file Substance compilati e ottimizzati</b>. Sono molto più veloci da calcolare e possono essere facilmente condivisi senza problemi di riferimento. I parametri possono ancora essere modificati, ma la modifica del grafico è <b>bloccata</b>. Gli archivi Substance possono essere utilizzati in tutte le applicazioni Substance 3D e in tutte le applicazioni con [integrazione Substance 3D](https://experienceleague.adobe.com/it/docs/substance-3d/ecosystem/home) (alcune con un plug-in esterno), ad esempio Autodesk 3DS Max &amp; Maya, Unreal Engine o Unity Engine.
 
 </td>
 <td style="border: 0;" valign="top">

@@ -24,7 +24,7 @@ Per &quot;cottura al forno&quot; si intende l&#39;azione di **trasferimento dell
 
 >[!NOTE]
 >
-> Per ulteriori informazioni sulla cottura al forno, consulta la [documentazione sulla cottura al forno](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home).
+> Per ulteriori informazioni sulla cottura al forno, consulta la [documentazione sulla cottura al forno](https://experienceleague.adobe.com/it/docs/substance-3d/bakers/home).
 
 <table>
 <tr style="border: 0;">
@@ -93,13 +93,13 @@ Questo pannello controlla la posizione della texture cotta.
 
 ### Trame ad alta definizione
 
-Questo pannello controlla l’elenco delle trame a poli alti e le relative impostazioni. Per ulteriori informazioni, vedere [parametri comuni](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/common-parameters).
+Questo pannello controlla l’elenco delle trame a poli alti e le relative impostazioni. Per ulteriori informazioni, vedere [parametri comuni](https://experienceleague.adobe.com/it/docs/substance-3d/bakers/bakers-settings/common-parameters).
 
 ![Trame ad alta definizione](../assets/sd-high.png "Trame ad alta definizione")
 
 ### Valori predefiniti
 
-Per ulteriori informazioni, vedere [parametri comuni](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/common-parameters).
+Per ulteriori informazioni, vedere [parametri comuni](https://experienceleague.adobe.com/it/docs/substance-3d/bakers/bakers-settings/common-parameters).
 
 ![Valori predefiniti](../assets/sd-default-values.png "Valori predefiniti")
 
@@ -116,6 +116,6 @@ Per impostazione predefinita, ogni baker eredita i Valori predefiniti (vedere so
 
 Quando si fa clic su un fornaio nell&#39;elenco, la vista Parametri fornaio viene aggiornata con i relativi parametri specifici.
 
-Per ulteriori informazioni sui parametri specifici, vedere: [Impostazioni dei forni](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/bakers-settings).
+Per ulteriori informazioni sui parametri specifici, vedere: [Impostazioni dei forni](https://experienceleague.adobe.com/it/docs/substance-3d/bakers/bakers-settings/bakers-settings).
 
 ![Elenco di rendering dei panettieri](../assets/sd-baker-list.png "Elenco di rendering dei panettieri")
