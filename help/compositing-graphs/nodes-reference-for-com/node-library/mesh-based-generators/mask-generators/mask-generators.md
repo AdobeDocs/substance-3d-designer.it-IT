@@ -20,7 +20,7 @@ ht-degree: 2%
 
 # Generatori di maschere
 
-Questa categoria contiene una selezione di nodi di generazione maschere in bianco e nero. Sulla base delle informazioni di mappa con baking, generano maschere che possono quindi essere utilizzate per fondere insieme materiali e altri effetti. Questi nodi sono simili alle [maschere avanzate](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/features/smart-materials-and-masks) e ai [generatori](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/generators) in Substance Painter.
+Questa categoria contiene una selezione di nodi di generazione maschere in bianco e nero. Sulla base delle informazioni di mappa con baking, generano maschere che possono quindi essere utilizzate per fondere insieme materiali e altri effetti. Questi nodi sono simili alle [maschere avanzate](https://experienceleague.adobe.com/it/docs/substance-3d-painter/using/features/smart-materials-and-masks) e ai [generatori](https://experienceleague.adobe.com/it/docs/substance-3d-painter/using/content/creating-custom-effects/generators) in Substance Painter.
 
 Per tutti questi nodi sono necessarie [mappe con baking,](../../../../../bakers/bakers.md) poiché senza [mappe con baking](../../../../../bakers/bakers.md) non ci sarà molto risultato.
 

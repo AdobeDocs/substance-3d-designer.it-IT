@@ -22,7 +22,7 @@ ht-degree: 2%
 
 Substance 3D Designer supporta una forma limitata di grafica vettoriale, tramite il formato di grafica vettoriale scalabile. I file SVG possono essere inseriti come risorse in diversi modi, da utilizzare come risorse per i grafici.
 
-I file SVG [possono essere creati o modificati tramite il nodo atomic SVG,](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md) possono essere creati anche da [UV to SVG baker.](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg)
+I file SVG [possono essere creati o modificati tramite il nodo atomic SVG,](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md) possono essere creati anche da [UV to SVG baker.](https://experienceleague.adobe.com/it/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg)
 
 >[!NOTE]
 >
