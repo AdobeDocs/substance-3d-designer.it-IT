@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo SVG per importare ed eseguire il rendering della grafica vettoriale di SVG come texture per la creazione di elementi grafici scalabili.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: SVG
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 1%
@@ -99,8 +99,8 @@ Potete creare il nodo da zero o rilasciando un file SVG nella vista Grafico.
 |  |  |
 | --- | --- |
 | <b>Metodo colore</b> *Booleano* | Determina il tipo di output del nodo da restituire a colori o in scala di grigio. |
-| <b>Colore di sfondo</b> *Colore/Scala di grigi* | Imposta il colore di sfondo dell&#39;immagine di output da utilizzare nelle aree non coperte da una forma vettoriale.   *È sottoposto a override dall&#39;input &#39;[Background](#inputs)&#39; quando l&#39;input è connesso.* |
-| <b>Percorso risorsa PKG</b> *Stringa* | Percorso della risorsa [SVG](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) a cui fa riferimento il nodo.   Si consiglia di non digitare manualmente ma di copiare una risorsa dall&#39;elenco delle cartelle e incollarla nel campo di testo del parametro oppure di trascinare una risorsa bitmap direttamente da [Esplora risorse](../../../../interface/the-explorer-window/the-explorer-window.md) nel nodo SVG del grafico. |
+| <b>Colore di sfondo</b> *Colore/Scala di grigi* | Imposta il colore di sfondo dell&#39;immagine di output da utilizzare nelle aree non coperte da una forma vettoriale.   *È sottoposto a override dall&#39;input &#39;[Background](#inputs)&#39; quando l&#39;input è connesso.* |
+| <b>Percorso risorsa PKG</b> *Stringa* | Percorso della risorsa [SVG](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) a cui fa riferimento il nodo.   Si consiglia di non digitare manualmente ma di copiare una risorsa dall&#39;elenco delle cartelle e incollarla nel campo di testo del parametro oppure di trascinare una risorsa bitmap direttamente da [Esplora risorse](../../../../interface/the-explorer-window/the-explorer-window.md) nel nodo SVG del grafico. |
 
 ## Strumenti di modifica vettoriale
 
@@ -110,7 +110,7 @@ Le forme vettoriali possono essere modificate in Designer. Ulteriori informazion
 
 |  |  |
 | --- | --- |
-| <b>Sfondo</b> *Scala di grigi/Colore* PRIMARIO | Imposta il colore di sfondo dell&#39;immagine di output da utilizzare nelle aree non coperte da una forma vettoriale.   *Ignora il parametro &#39;[Colore di sfondo](#parameters)&#39; quando è connesso.* |
+| <b>Sfondo</b> *Scala di grigi/Colore* PRIMARIO | Imposta il colore di sfondo dell&#39;immagine di output da utilizzare nelle aree non coperte da una forma vettoriale.   *Ignora il parametro &#39;[Colore di sfondo](#parameters)&#39; quando è connesso.* |
 
 ## Connettori di uscita
 

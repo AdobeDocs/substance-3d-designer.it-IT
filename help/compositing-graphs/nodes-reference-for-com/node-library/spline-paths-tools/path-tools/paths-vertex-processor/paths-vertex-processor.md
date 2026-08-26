@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-vertex-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-vertex-processor.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Processore vertici tracciati per trasformare e manipolare i vertici dei tracciati con opzioni avanzate.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Processore vertici tracciati
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 0%
@@ -73,7 +73,7 @@ I tracciati trasformati. Potete utilizzare [Anteprima tracciati](../../../../../
 
 ## Parametri
 
-<b>Vertici precedenti a cui è stato effettuato l&#39;accesso</b> *Numero intero*\
+<b>Vertici precedenti utilizzati</b> *Numero intero*\
 L&#39;utilizzo di questo parametro consente di ottenere la posizione del vertice precedente lungo il percorso (*prev.pos*) e il vertice precedente (*prev[2].pos*) utilizzando i nodi <b>Get</b> nella funzione del parametro <b>Per vertex function</b>.
 
 <b>Vertici successivi utilizzati</b> *Numero intero*\

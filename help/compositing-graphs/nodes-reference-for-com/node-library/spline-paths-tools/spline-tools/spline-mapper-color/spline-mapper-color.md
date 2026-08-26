@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-color.html"
 breadcrumb-title: ''
 description: Utilizza il nodo Colore di Mappatura spline per mappare le texture di colore lungo i tracciati spline con parametri personalizzabili.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Colore mappatura spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1120'
 ht-degree: 0%
@@ -57,9 +57,9 @@ Il nodo genera l&#39;immagine mappata come immagine a colori, nonché altre info
 <b> R</b> - Posizione X\
 <b> G</b> - Posizione Y\
 <b> B</b> - Height\
-    <b>A</b> - Dati compressi:\
-        * Segno: la spline è chiusa (negativa) o aperta (positiva);\
-        * Valore assoluto: Thickness + 1.
+<b>A</b> - Dati compressi:\
+* Segno: la spline è chiusa (negativa) o aperta (positiva);\
+* Valore assoluto: Thickness + 1.
 
 <b>Dati spline</b> *Colore* Dati aggiuntivi delle spline di input codificate nei canali RGBA di un&#39;immagine a colori.\
 <b> R</b> - Tangenti X\
@@ -129,7 +129,7 @@ Il valore rappresenta la lunghezza normalizzata della spline.
 <b>Moltiplicatore Height Cilindro</b> *Float* (disponibile quando &quot;Shape&quot; è impostato su &quot;Half Cylinder&quot; o &quot;Cylinder&quot;)Un moltiplicatore per l’intensità del contributo height del cilindro nell’output del Height.\
 Gli adeguamenti di height sono cumulativi.
 
-<b>Scostamento Height cilindro</b> *Mobile* (disponibile quando &quot;Forma&quot; è impostato su &quot;Mezzo cilindro&quot; o &quot;Cilindro&quot;) \
+<b>Scostamento Height cilindro</b> *Mobile* (disponibile quando &quot;Shape&quot; è impostato su &quot;Half Cylinder&quot; o &quot;Cylinder&quot;)\
 Sposta il centro del profilo forma Cilindro o Cilindro a metà dalla superficie della spline a un diametro al di sotto della superficie.
 
 <b>Intensità UV torsione</b> *Mobile* (disponibile se &quot;Shape&quot; (Forma) è impostato su &quot;Half Cylinder&quot; (Mezzo cilindro) o &quot;Cylinder&quot; (Cilindro)). La torsione delle coordinate dell&#39;immagine attorno al cilindro, in numero di giri.\

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-select.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-select.html"
 breadcrumb-title: ''
 description: Utilizzare il nodo Selezione percorsi per selezionare e filtrare percorsi specifici da un elenco di percorsi in base ai criteri.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Selezione tracciati
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 1%
@@ -51,15 +51,15 @@ L’input Tracciati contiene un solo tracciato. Potete utilizzare [Anteprima tra
 
 ## Parametri
 
-<b>Modalità selezione</b> *Numero intero* Metodo utilizzato per selezionare i percorsi:\
+<b>Modalità di selezione</b> *Intero* Metodo utilizzato per selezionare i percorsi:\
 *- Per ID:* Seleziona il percorso dall&#39;elenco il cui indice corrisponde a quello specificato in <b>ID percorso</b>;\
 *- Per lunghezza:* Seleziona i percorsi la cui lunghezza è superiore o inferiore alla soglia specificata in <b>Lunghezza destinazione</b>.
 
-<b>ID percorso</b> *Intero* (disponibile quando <b>Modalità di selezione</b> è impostato su *Per ID*)\
+<b>ID percorso</b> *Intero* (disponibile quando <b>Modalità di selezione</b> è impostata su *Per ID*)\
 Indice del percorso selezionato.\
 Un valore maggiore del numero di percorsi in <b>Percorsi *genera*</b> un output vuoto.
 
-<b>Lunghezza maggiore o minore?</b> *Booleano* (disponibile quando <b>Modalità di selezione</b> è impostato su *Per lunghezza*)\
+<b>Lunghezza maggiore o minore?</b> *Booleano* (disponibile quando <b>Modalità di selezione</b> è impostata su *Per lunghezza*)\
 Determina se la selezione deve includere una lunghezza maggiore o minore di <b>Lunghezza di destinazione</b>.
 
 <b>Lunghezza destinazione</b> *Mobile*(Disponibile quando <b>Modalità di selezione</b> è impostata su *Per lunghezza*)\

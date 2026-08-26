@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/home-screen.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/home-screen.html"
 breadcrumb-title: ''
 description: Utilizza la schermata Home in Substance 3D Designer per accedere a progetti, modelli e risorse di apprendimento recenti.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Schermata Home
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 ![Schermata Home](../../assets/home-screen-home.jpg "Schermata Home")
 
-Schermata <b>Home<b> </b></b>ti accoglie all&#39;avvio di Substance 3D Designer. Ti aiuta a iniziare con i tuoi progetti e ad accedere a collegamenti utili.
+Schermata <b>Home<b> </b></b>ti accoglie all&#39;avvio di Substance 3D Designer. Ti aiuta a iniziare con i tuoi progetti e ad accedere a collegamenti utili.
 
 <table>
 <tr style="border: 0;">
@@ -90,6 +90,6 @@ Nella parte inferiore sinistra dello schermo, i collegamenti utili sono elencati
 
 * <b>Informazioni su Designer:</b> Visualizza la schermata Informazioni su Designer (vedere sopra);
 * <b>Documentazione online:</b> apre una pagina Web per [questa documentazione](../../home/home.md);
-* <b>Sito Web:</b> apre una pagina Web nella [pagina del prodotto](https://www.adobe.com/it/products/substance3d-designer.html) di Substance 3D Designer;
+* <b>Sito Web:</b> apre una pagina Web nella [pagina del prodotto](https://www.adobe.com/products/substance3d-designer.html) di Substance 3D Designer;
 * <b>Forum:</b> apre una pagina Web per la [community di supporto](https://community.adobe.com/t5/substance-3d-designer/ct-p/ct-substance-3d-designer?page=1&sort=latest_replies&filter=all&lang=all&tabid=discussions) di Substance 3D Designer;
 * <b>Risorse della community:</b> Apre una pagina Web per Substance 3D [Risorse della community](https://substance3d.adobe.com/community-assets/).

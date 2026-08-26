@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/technical-issues/cannot-create-load-a-project.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/cannot-create-load-a-project.html"
 breadcrumb-title: ''
 description: Risolvi i problemi con la creazione o il caricamento dei progetti in Substance 3D Designer e trova soluzioni.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Impossibile creare un progetto
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1105'
 ht-degree: 0%
@@ -74,7 +74,7 @@ Forza prestazioni migliori
 
 Cercare qualsiasi software che gestisca la *combinazione per il risparmio di energia* del sistema (ad esempio, ASUS Armory Crate), in particolare quando il sistema è un laptop.
 
-Alcune applicazioni di risparmio energia possono limitare l&#39;accesso di altre applicazioni alla GPU del sistema o ostacolare le prestazioni della GPU, con conseguenti arresti anomali. Se esiste e è attiva un&#39;applicazione di risparmio energia, passare al piano che consente prestazioni ottimali.
+Alcune applicazioni di risparmio energia possono limitare l&#39;accesso di altre applicazioni alla GPU del sistema o ostacolare le prestazioni della GPU, con conseguenti arresti anomali. Se esiste e è attiva un&#39;applicazione di risparmio energia, passare al piano che consente prestazioni ottimali.
 
 Forza l’utilizzo della GPU discreta
 

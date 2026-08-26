@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
 breadcrumb-title: ''
 description: Informazioni sulle specifiche di formato dei percorsi e sulla struttura dei dati utilizzata dai nodi di percorso e spline.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Specifiche formato tracciati
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '2491'
 ht-degree: 0%
@@ -90,7 +90,7 @@ Ciò è utile quando si leggono i percorsi da un [processore pixel](../../../../
 
 L&#39;indirizzo dell&#39;ultimo vertice definito in questo documento. Questo è utile per aggiungere nuovi dati.
 
-Può quindi essere qualsiasi indirizzo maggiore (in ordine di scansione) dell&#39;indirizzo dell&#39;ultimo vertice. Deve trovarsi nell&#39;intervallo &rbrack;0, 1[×]0,.5&lbrack;
+Può quindi essere qualsiasi indirizzo maggiore (in ordine di scansione) dell&#39;indirizzo dell&#39;ultimo vertice. Deve trovarsi nell&#39;intervallo ]0, 1[×]0,.5[
 
 <b>ZW</b>
 
@@ -111,7 +111,7 @@ L&#39;intestazione del percorso Nth verrà definita all&#39;indirizzo `path\_add
 +++In alto
 <b>X</b>
 
-Numero di vertici in questo percorso. Deve essere compreso nell&#39;intervallo [0, 16777216].
+Numero di vertici in questo percorso. Deve essere compreso nell&#39;intervallo [0, 16777216].
 
 Se i vertici iniziale e finale di un tracciato chiuso si trovano nella stessa posizione, contano comunque per 2 vertici.\
 Un percorso con 0 vertici è comunque un percorso valido.

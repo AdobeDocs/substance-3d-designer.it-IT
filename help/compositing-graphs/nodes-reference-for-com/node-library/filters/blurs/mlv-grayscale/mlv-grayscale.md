@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/mlv-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/mlv-grayscale.html"
 breadcrumb-title: ''
 description: Usate il filtro Sfocatura scala di grigi MLV per applicare gli effetti di sfocatura movimento alle texture in scala di grigi per aspetti dinamici.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Scala di grigi MLV
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 0%
@@ -65,7 +65,7 @@ In altre parole, come devono essere *raggruppati* i pixel in aree da smussare.\
 *- Varianza:* Selezionare i valori con la dispersione più bassa attorno alla media, che determina gruppi di pixel simili tra loro\
 *- Coefficiente di variazione:* Selezionare i valori tenendo conto della media, il che comporta una minore variazione nelle aree più luminose
 
-<b>Gaussiano</b> *Booleano* Utilizza una distribuzione gaussiana per raggruppare i pixel in aree strutturanti.\
+<b>Gaussiano</b> *Booleano* Utilizzare una distribuzione gaussiana per raggruppare i pixel in aree strutturanti.\
 Se è impostato su &quot;True&quot;, l’operazione determina aree più uniformi e un effetto di conversione della trasparenza ridotto.
 
 <b>Iterazioni</b> *Numero intero* Numero di volte in cui il filtro viene eseguito, in cui ogni iterazione viene applicata sul risultato di quella precedente.\

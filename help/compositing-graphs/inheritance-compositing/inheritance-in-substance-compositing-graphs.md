@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Scoprite come funziona l’ereditarietà nella composizione dei grafici per Substance gerarchie grafiche e variazioni riutilizzabili.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Ereditarietà nei grafici Substance
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1692'
+source-wordcount: '1681'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Ereditarietà nei grafici Substance
 
-Questa pagina descrive come l&#39;ereditarietà viene applicata nei [grafici Substance](../../compositing-graphs/substance-compositing-graphs.md) in [Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html) e l&#39;impatto che ha sull&#39;output del grafico.
+Questa pagina descrive come l&#39;ereditarietà viene applicata nei [grafici Substance](../../compositing-graphs/substance-compositing-graphs.md) in [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) e l&#39;impatto che ha sull&#39;output del grafico.
 
 ![Metodi di ereditarietà](../../assets/inheritance-overview-1.jpg "Metodi di ereditarietà"){width="1400px"}
 
@@ -93,7 +93,7 @@ Ciò dovrebbe consentirti di comprendere come le modifiche in *un* nodo possano 
 
 ### Modifica dei metodi di ereditarietà
 
-Nel pannello [Proprietà](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), tutti i parametri elencati nella sezione [Parametri di base](../../compositing-graphs/graph-parameters/graph-parameters.md) delle proprietà di un nodo hanno un pulsante a discesa (icona) <b>Imposta metodo di ereditarietà</b> di fronte all&#39;etichetta.\
+Nel pannello Proprietà, tutti i parametri elencati nella sezione [Parametri di base](../../compositing-graphs/graph-parameters/graph-parameters.md) delle proprietà di un nodo dispongono di un pulsante a discesa (icona) <b>Imposta metodo di ereditarietà</b> di fronte all&#39;etichetta.\
 Questo pulsante consente di selezionare il metodo di ereditarietà da utilizzare per un parametro.
 
 ![Modifica del metodo di ereditarietà](../../assets/inheritance-change.gif "Modifica del metodo di ereditarietà"){width="512px"}

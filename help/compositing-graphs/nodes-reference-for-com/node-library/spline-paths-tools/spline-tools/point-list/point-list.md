@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/point-list.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/point-list.html"
 breadcrumb-title: ''
 description: Utilizzare il nodo Elenco punti per creare e gestire elenchi di punti per la generazione di spline e percorsi.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Elenco punti
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 0%
@@ -55,12 +55,12 @@ Se agli input di <b>Point</b> viene fornito un elenco di punti esistente, l&#39;
 
 <b>Input elenco punti</b> *Colore*\
 Elenco dei punti di input codificati nei canali RGBA di un’immagine a colori:\
-    <b>R</b> - Posizione X\
-    <b>G</b> - Posizione Y\
-    <b>B</b> - Height\
-    <b>A</b> - Dati compressi:\
-            * Parte intera: Smoothness;\
-            * Parte frazionaria: Thickness.
+<b>R</b> - Posizione X\
+<b>G</b> - Posizione Y\
+<b>B</b> - Height\
+<b>A</b> - Dati compressi:\
+* Parte intera: Smoothness;\
+* Parte frazionaria: Thickness.
 
 <b>Input numero punto</b> *Numero intero*\
 Numero di punti di input.
@@ -71,12 +71,12 @@ Numero di punti di input.
 
 <b>Elenco punti </b>*Colore*\
 Elenco di output dei punti codificati nei canali RGBA di un’immagine a colori:\
-    <b>R</b> - Posizione X\
-    <b>G</b> - Posizione Y\
-    <b>B</b> - Height\
-    <b>A</b> - Dati compressi:\
-            * Parte intera: Smoothness;\
-            * Parte frazionaria: Thickness.
+<b>R</b> - Posizione X\
+<b>G</b> - Posizione Y\
+<b>B</b> - Height\
+<b>A</b> - Dati compressi:\
+* Parte intera: Smoothness;\
+* Parte frazionaria: Thickness.
 
 <b>Numero punto </b>*Numero intero*\
 Numero di punti di output.
@@ -105,13 +105,13 @@ Il valore di smoothness risultante viene fissato all&#39;intervallo [0;1].
 <b>Mostra etichette</b> *Booleano*\
 Per ogni punto, visualizza il nome del punto accanto nell&#39;output &quot;Anteprima&quot;.
 
-<b>Dimensione etichetta</b> *Mobile* (disponibile quando &#39;Mostra etichette&#39; è impostato su &#39;True&#39;)\
+<b>Dimensioni etichetta</b> *Mobile* (disponibile quando &#39;Mostra etichette&#39; è impostato su &#39;True&#39;)\
 Dimensione dell’etichetta per ogni punto nello spazio della texture, dove 0,1 è un decimo della larghezza della texture.
 
 <b>Mostra punti</b> *Booleano*\
 Visualizza i punti nell&#39;output &quot;Preview&quot;.
 
-<b>Dimensioni punti</b> *Mobile* (disponibile quando &#39;Mostra punti&#39; è impostato su &#39;True&#39;)\
+<b>Dimensioni Punti</b> *Mobile* (disponibile quando &#39;Mostra punti&#39; è impostato su &#39;True&#39;)\
 Raggio dei punti nello spazio della texture, dove 0,1 è un decimo della larghezza della texture.
 
 +++

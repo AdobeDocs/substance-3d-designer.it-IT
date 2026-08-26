@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/color-management.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/color-management.html"
 breadcrumb-title: ''
 description: Scoprite come gestire il colore in Substance 3D Designer, inclusi gli spazi colore, i profili e i flussi di lavoro per le tinte piatte.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Gestione colore
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1693'
+source-wordcount: '1678'
 ht-degree: 1%
 
 ---
@@ -104,13 +104,13 @@ Puoi aggiungere *i tuoi* profili ICC inserendo questi file nella posizione `Adob
 
 |  |  |
 | --- | --- |
-| <b>Visualizzazione predefinita delle viste 2D e 3D</b> | Imposta lo spazio colore predefinito *visualizzazione* per le finestre delle viste [2D](../interface/2d-view/2d-view.md) e [3D](../interface/3d-view/3d-view.md). *Impostazione predefinita:*** Profilo ICC per la schermata principale, recuperato dal sistema operativo &#x200B;**&#x200B;** |
+| <b>Visualizzazione predefinita delle viste 2D e 3D</b> | Imposta lo spazio colore predefinito *visualizzazione* per le finestre delle viste [2D](../interface/2d-view/2d-view.md) e [3D](../interface/3d-view/3d-view.md). *Impostazione predefinita:*** Profilo ICC per la schermata principale, recuperato dal sistema operativo **** |
 
 ### Visualizzazione grafico
 
 |  |  |
 | --- | --- |
-| <b>Miniature per la gestione dei colori</b> | Quando *selezionato*, Designer trasformerà le miniature dei *nodi* nello *spazio cromatico di lavoro* corrente. *Impostazione predefinita:*** Deselezionata &#x200B;**&#x200B;** |
+| <b>Miniature per la gestione dei colori</b> | Quando *selezionato*, Designer trasformerà le miniature dei *nodi* nello *spazio cromatico di lavoro* corrente. *Impostazione predefinita:*** Deselezionata **** |
 
 ## Modalità legacy
 
@@ -142,7 +142,7 @@ L&#39;opzione <b>Lineare</b> è *solo* e determina l&#39;applicazione di una *tr
 
 Potete assegnare un <b>spazio colore</b> (OCIO) o un <b>profilo ICC</b> (Adobe ACE) alle bitmap importate e collegate.
 
-Quando si importano o si collegano bitmap, per impostazione predefinita *1&rbrace; verrà impostato uno spazio colore o un profilo ICC per la risorsa bitmap, utilizzando le opzioni impostate nella sezione <b>Impostazioni predefinite spazio colore bitmap</b> della scheda <b>Gestione colore</b> nelle [impostazioni progetto](../interface/preferences-window/project-settings/project-settings.md).*
+Quando si importano o si collegano bitmap, per impostazione predefinita *1} verrà impostato uno spazio colore o un profilo ICC per la risorsa bitmap, utilizzando le opzioni impostate nella sezione <b>Impostazioni predefinite spazio colore bitmap</b> della scheda <b>Gestione colore</b> nelle [impostazioni progetto](../interface/preferences-window/project-settings/project-settings.md).*
 
 È possibile modificare lo spazio cromatico di una bitmap in qualsiasi momento. L&#39;opzione si trova nelle <b>Proprietà</b> della risorsa bitmap.
 
@@ -161,7 +161,7 @@ Designer *converte* le immagini negli spazi colore specificati prima di salvare 
 
 ![Finestra di dialogo per l’esportazione degli output](../assets/2019-3-0-clr-mgt-export-outputs.png "Finestra di dialogo per l’esportazione degli output"){width="512px"}
 
-Potete anche assegnare uno spazio colore (OCIO) o associare un profilo ICC (Adobe ACE) alle immagini *salvate* dalla [vista 2D](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html).
+Potete anche assegnare uno spazio colore (OCIO) o associare un profilo ICC (Adobe ACE) alle immagini *salvate* dalla [vista 2D](../interface/2d-view/2d-view.md).
 
 ![Opzioni di esportazione vista 2D](../assets/2019-3-0-clr-mgt-save-image.png "Opzioni di esportazione vista 2D")
 
@@ -209,7 +209,7 @@ La [libreria](../interface/the-library/the-library.md) include i nodi seguenti p
 </tr>
 </table>
 
-Sono utili quando si utilizzano grafici creati *senza* Gestione colore o materiali dalla libreria [Risorse Substance 3D](https://helpx.adobe.com/it/substance-3d/unlisted/assets.html).
+Sono utili quando si utilizzano grafici creati *senza* Gestione colore o materiali dalla libreria [Risorse Substance 3D](https://substance3d.adobe.com/assets).
 
 ![Nodi di conversione colore nella libreria](../assets/2019-3-0-clr-mgt-nodes.png "Nodi di conversione colore nella libreria"){width="512px"}
 

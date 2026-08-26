@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/resources/3d-scene-resource.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/3d-scene-resource.html"
 breadcrumb-title: ''
 description: Scoprite come importare e utilizzare le risorse per scene 3D in Substance 3D Designer per l’anteprima e il test del materiale.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Risorsa scena 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '506'
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ Sono supportati i seguenti formati di file di scena 3D:
 
 Le scene 3D possono essere collegate *solo*, il che significa che si trovano nella loro posizione sul disco e vi si fa riferimento nell&#39;applicazione.
 
-Quando un pacchetto con una risorsa scena 3D viene pubblicato come risorsa [Substance 3D](https://www.adobe.com/it/products/substance3d/3d-augmented-reality.html) (SBSAR), la trama *non è incorporata*, ma viene eliminata.
+Quando un pacchetto con una risorsa scena 3D viene pubblicato come risorsa [Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html) (SBSAR), la trama *non è incorporata*, ma viene eliminata.
 
 ## Mappe mesh di cottura
 
@@ -53,7 +53,7 @@ Il collegamento di una scena 3D nel pacchetto è l&#39;unico modo per [creare ma
 * Fai clic su *RMB* in un pacchetto e seleziona l&#39;opzione <b>Collegamento > Trama 3D</b> nel menu di scelta rapida
 * Scegliere un file di scena 3D supportato
 * Se viene visualizzata la finestra di dialogo <b>Collega come trama Udim</b>, fai clic su *No* a meno che non desideri creare porzioni UV
-* Con la risorsa caricata in [Esplora risorse](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), fai clic su *RMB* e seleziona l&#39;opzione <b>Informazioni sul modello</b> nel menu di scelta rapida
+* Con la risorsa caricata in [Esplora risorse](../../interface/the-explorer-window/the-explorer-window.md), fai clic su *RMB* e seleziona l&#39;opzione <b>Informazioni sul modello</b> nel menu di scelta rapida
 * Viene visualizzata la finestra di dialogo [Informazioni sul modello di forno](../../bakers/bakers.md) che consente di impostare ed eseguire le mappe trama dei fornelli
 
 ![Mappe della trama di cottura](../../assets/bake-model-information.gif "Mappe della trama di cottura"){width="512px"}

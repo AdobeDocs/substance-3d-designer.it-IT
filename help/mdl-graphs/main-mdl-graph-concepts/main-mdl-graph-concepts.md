@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Concetti principali del grafico MDL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1033'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Il nodo principale include una miniatura che visualizza un&#39;anteprima dell&#3
 
 ![Nodo radice del grafico MDL](../../assets/mdl-root-hl.png "Nodo radice del grafico MDL")
 
-*Nodo principale in un grafico MDL e relative proprietà visualizzate nel [Pannello Proprietà](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)* *pannello*
+*Nodo principale in un grafico MDL e relative proprietà visualizzate nel [pannello Proprietà](../../interface/properties/properties.md)* *pannello*
 
 ## Connettori e tipi
 

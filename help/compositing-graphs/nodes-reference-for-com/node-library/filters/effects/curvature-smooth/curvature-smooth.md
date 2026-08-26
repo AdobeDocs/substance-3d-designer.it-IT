@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-smooth.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-smooth.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Arrotondamento curvatura (Curvature Smooth) per generare mappe di curvatura omogenee dalle mappe di height per l'estrazione dei dettagli della superficie.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Curvatura uniforme
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 1%
@@ -78,9 +78,9 @@ Anche le aree concave e convesse vengono suddivise nelle rispettive uscite, per 
 
 |  |  |
 | --- | --- |
-| <b>Curvatura</b> *Scala di grigi* | Mappa di curvatura calcolata a partire dalla mappa normale di input.   Le aree piatte sono grigie al 50%. Le aree convesse sono più luminose, mentre quelle concave più scure. |
-| <b>Convessità</b> *Scala di grigi* | La mappa di convessità calcolata a partire dalla mappa normale di input.   Più convessa è un&#39;area, più luminosa è nella mappa.  Le aree piatte o concave sono nere. |
-| <b>Concavità</b> *Scala di grigi* | Mappa di concavità calcolata a partire dalla mappa normale di input.   Più concava è un&#39;area, più luminosa è nella mappa.  Le aree piatte o convesse sono nere. |
+| <b>Curvatura</b> *Scala di grigi* | Mappa di curvatura calcolata a partire dalla mappa normale di input.   Le aree piatte sono grigie al 50%. Le aree convesse sono più luminose, mentre quelle concave più scure. |
+| <b>Convessità</b> *Scala di grigi* | La mappa di convessità calcolata a partire dalla mappa normale di input.   Più convessa è un&#39;area, più luminosa è nella mappa.  Le aree piatte o concave sono nere. |
+| <b>Concavità</b> *Scala di grigi* | Mappa di concavità calcolata a partire dalla mappa normale di input.   Più concava è un&#39;area, più luminosa è nella mappa.  Le aree piatte o convesse sono nere. |
 
 ## Parametri
 

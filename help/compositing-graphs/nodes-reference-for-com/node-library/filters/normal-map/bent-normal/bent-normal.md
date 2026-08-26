@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/bent-normal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/bent-normal.html"
 breadcrumb-title: ''
 description: Utilizzare il nodo Normale piegatura per generare mappe normali piegate che tengano conto dell'occlusione ambientale e dell'illuminazione indiretta.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Curvatura della normal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 2%
@@ -47,7 +47,7 @@ Questo nodo non deve essere utilizzato in combinazione con il motore CPU (SSE) a
 <b>Usa Dimensioni fisiche</b> *Booleano*\
 Attivate/disattivate per utilizzare le impostazioni della Dimensioni fisiche per determinare la scala del height.
 
-<b>Dimensioni fisiche</b> *Float3* (disponibile quando <b>Usa Dimensioni fisiche</b> è impostato su *Vero*)\
+<b>Dimensioni fisiche</b> *Float3* (disponibile quando <b>Usa Dimensioni fisiche</b> è impostato su *True*)\
 Regola la scala del height in base alla dimensioni fisiche reale della superficie.
 
 <b>Esempi</b> *Numero intero*\
@@ -66,7 +66,7 @@ Consente di impostare la distanza massima percorribile dai raggi per l’occlusi
 <b>Angolo di diffusione</b> *Mobile*\
 Consente di impostare l’angolo di diffusione dei raggi da riprendere. Un valore pari a 1 è un emisfero completo.
 
-<b>Formato Normale</b> *Numero Intero*\
+<b>Formato Normale</b> *Numero intero*\
 Inverte il canale verde dell’output.
 
 ## Immagini di esempio

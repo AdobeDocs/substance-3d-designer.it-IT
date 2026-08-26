@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/resources/vector-graphics-svg-resource/vector-editing-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/vector-graphics-svg-resource/vector-editing-tools.html"
 breadcrumb-title: ''
 description: Utilizza gli strumenti di modifica vettoriale per creare e modificare la grafica SVG in Substance 3D Designer per le texture procedurali.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Strumenti di modifica vettoriale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1850'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Questa pagina descrive gli strumenti di modifica disponibili nel pannello [Vista
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Il pannello [Vista 2D](https://docs.substance3d.com/display/SDDOC/2D+view) offre strumenti di base per la modifica vettoriale che consentono di creare o modificare la grafica vettoriale *manualmente* direttamente in [Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html). Questi strumenti sono particolarmente utili, ad esempio, per creare rapidamente *maschere* o *pattern*.
+Il pannello [Vista 2D](https://docs.substance3d.com/display/SDDOC/2D+view) offre strumenti di base per la modifica vettoriale che consentono di creare o modificare la grafica vettoriale *manualmente* direttamente in [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html). Questi strumenti sono particolarmente utili, ad esempio, per creare rapidamente *maschere* o *pattern*.
 
 Gli strumenti supportano l&#39;input penna. Per sfruttare le visualizzazioni a penna, puoi [disancorare](https://docs.substance3d.com/display/SDDOC/Customizing+your+workspace) il pannello [Visualizzazione 2D](https://docs.substance3d.com/display/SDDOC/2D+view), quindi posizionarlo e ridimensionarlo in qualsiasi configurazione più adatta per la pittura.
 

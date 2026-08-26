@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/atlas-splitter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/atlas-splitter.html"
 breadcrumb-title: ''
 description: Usa il nodo di Atlas splitter per dividere gli atlanti delle texture in singole texture per l’elaborazione dei materiali scansionati.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Atlas splitter
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Il nodo funziona come applicazione avanzata del nodo [Flood Fill](../../../../..
 <b>Visualizzazione griglia</b> *Booleano*\
 Visualizza tutte le forme rilevate in una griglia.
 
-<b>Opacità Griglia</b> *Mobile*\
+<b>Opacità griglia</b> *Mobile*\
 Imposta l&#39;opacità delle linee della griglia quando Grid View è True. Opzione di debug
 
 <b>Opacità selezione griglia</b> *Mobile*\
@@ -72,13 +72,13 @@ Ruota automaticamente la forma in base alle proporzioni del rettangolo di selezi
 <b>Rotazione</b> *Mobile*\
 Angolo di rotazione della forma globale
 
-<b>Formato Normale Di Input</b> *Numero Intero*\
+<b>Formato Normale Di Input</b> *Numero intero*\
 Imposta il formato della normale di input. L’impostazione del formato errato produrrà risultati errati.
 
 <b>Riduci maschera di opacità</b> *Numero intero*\
 Riduce la maschera di opacità per rimuovere potenziali disturbi o pixel isolati. Impedisce il rilevamento di forme indesiderate e migliora le prestazioni.
 
-<b>Larghezza Dilatazione</b> *Mobile*\
+<b>Larghezza dilatazione</b> *Mobile*\
 Applica un effetto di dilatazione basato sulla maschera Opacità a tutti i canali tranne Normale e Height.
 
 <b>Abilita input aggiuntivi</b> *Booleano*\
@@ -93,7 +93,7 @@ Colore BG personalizzato per Colore base.
 <b>Colore sfondo normale</b> *Float3*\
 Colore BG personalizzato per Mappa normale.
 
-<b>Colore Bg Metallico</b> *Mobile*\
+<b>Colore sfondo metallico</b> *Mobile*\
 Colore BG personalizzato per Metallico.
 
 <b>Colore sfondo rugosità</b> *Mobile*\

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/the-graph-view/graph-items/frame.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/frame.html"
 breadcrumb-title: ''
 description: Utilizzate le cornici nella vista Grafico di Substance 3D Designer per organizzare e raggruppare i nodi per una maggiore chiarezza visiva.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Cornice
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1645'
 ht-degree: 1%
@@ -66,7 +66,7 @@ Per spostare la cornice, trascinate la barra di intestazione o il titolo.
 +++
 
 +++Selezionato
-Quando questa opzione è selezionata, il titolo e il contorno della cornice vengono evidenziati in bianco. Il contorno diventa più spesso.
+Quando questa opzione è selezionata, il titolo e il contorno della cornice vengono evidenziati in bianco. Il contorno diventa più spesso.
 
 ![Fotogramma (stato selezionato)](../../../../assets/graph-frames-selected.png "Fotogramma (stato selezionato)")
 
@@ -160,7 +160,7 @@ Tieni premuto il tasto <b>Ctrl</b> (Windows) / <b>Cmd</b> (macOS) per spostare l
 Quando è selezionato un frame, nell&#39;ancoraggio [Proprietà](../../../../interface/properties/properties.md) sono disponibili le seguenti proprietà:
 
 +++Titolo
-Il <b>Titolo</b> si trova in alto a sinistra nella cornice. È possibile attivare o disattivare la visibilità del titolo utilizzando la proprietà <b>Titolo visibile</b>.
+Il <b>Titolo</b> si trova in alto a sinistra nella cornice. È possibile attivare o disattivare la visibilità del titolo utilizzando la proprietà <b>Titolo visibile</b>.
 
 Le dimensioni del titolo possono essere bloccate con una dimensione minima dello schermo in modo che rimanga leggibile quando si esegue lo zoom out del grafico. A tale scopo, selezionare l&#39;opzione &#39;Titoli cornice&#39; nell&#39;elenco a discesa <b>Informazioni</b> della barra degli strumenti [Visualizzazione grafico](../../../../interface/the-graph-view/the-graph-view.md).
 
@@ -196,7 +196,7 @@ Il canale alfa del colore controlla l&#39;*opacità* del fotogramma, dove il val
 
 ## Descrizione
 
-Una cornice può essere annotata con un testo che verrà inserito all’interno della cornice. Il testo viene allineato a sinistra e inizia nell’angolo in alto a sinistra della cornice. Per modificare il testo, utilizzare la proprietà [Descrizione](#properties) della cornice.
+Una cornice può essere annotata con un testo che verrà inserito all’interno della cornice. Il testo viene allineato a sinistra e inizia nell’angolo in alto a sinistra della cornice. Per modificare il testo, utilizzare la proprietà [Descrizione](#properties) della cornice.
 
 <table>
 <tr style="border: 0;">
@@ -204,7 +204,7 @@ Una cornice può essere annotata con un testo che verrà inserito all’interno 
 
 ### Standard
 
-Il <b>Titolo</b> viene visualizzato in grassetto nella parte superiore sinistra della cornice. La visibilità del titolo può essere attivata o disattivata.
+Il <b>Titolo</b> viene visualizzato in grassetto nella parte superiore sinistra della cornice. La visibilità del titolo può essere attivata o disattivata.
 
 Le sue dimensioni possono essere bloccate con una dimensione minima dello schermo in modo che rimanga leggibile quando si esegue lo zoom out del grafico. A tale scopo, selezionare l&#39;opzione &#39;Titoli cornice&#39; nell&#39;elenco a discesa <b>Informazioni</b> della barra degli strumenti [Visualizzazione grafico](../../../../interface/the-graph-view/the-graph-view.md).
 
@@ -270,7 +270,7 @@ Di seguito è riportato un elenco di tag utili per la formattazione del testo:
 
 ## Regole di inclusione
 
-Un oggetto si considera incluso in una cornice se soddisfa la relativa regola di inclusione. Queste regole variano a seconda dell&#39;oggetto e del caso speciale. Sono elencati di seguito.
+Un oggetto si considera incluso in una cornice se soddisfa la relativa regola di inclusione. Queste regole variano a seconda dell&#39;oggetto e del caso speciale. Sono elencati di seguito.
 
 Il simbolo giallo in ogni illustrazione rappresenta il punto o l&#39;area che deve rientrare interamente nei limiti di una cornice affinché un oggetto venga incluso nella cornice.
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
 breadcrumb-title: ''
 description: Utilizzate gli strumenti di pittura bitmap in Substance 3D Designer per disegnare direttamente sulle risorse bitmap per la modifica delle texture.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Strumenti di pittura Bitmap
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1975'
+source-wordcount: '1964'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Le modifiche possono essere *annullate singolarmente* e tutte le altre funzioni 
 
 >[!IMPORTANT]
 >
-> È possibile colorare *solo* su *risorse bitmap* [&#128279;](../../../resources/bitmap-resource/bitmap-resource.md)&#x200B; [nuove o importate](../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md).
+> È possibile colorare *solo* su *risorse bitmap* [ [nuove o importate](../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md).](../../../resources/bitmap-resource/bitmap-resource.md)
 
 >[!WARNING]
 >
@@ -54,7 +54,7 @@ Gli strumenti di pittura verranno attivati automaticamente nel pannello [Vista 2
 
 È possibile creare *nuove* bitmap nei modi seguenti:
 
-* Nel pannello [Esplora risorse](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), fate clic su RMB in un *pacchetto SBS* o in una *cartella* all&#39;interno di un pacchetto per aprire il relativo menu di scelta rapida, quindi aprite il sottomenu <b>Nuovo</b> e selezionate l&#39;opzione <b>Bitmap</b>
+* Nel pannello [Esplora risorse](../../../interface/the-explorer-window/the-explorer-window.md), fate clic su RMB in un *pacchetto SBS* o in una *cartella* all&#39;interno di un pacchetto per aprire il relativo menu di scelta rapida, quindi aprite il sottomenu <b>Nuovo</b> e selezionate l&#39;opzione <b>Bitmap</b>
 * In un [grafico](../../../interface/the-graph-view/the-graph-view.md), creare un [nodo bitmap](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) e selezionare l&#39;opzione <b>Da nuova risorsa...</b> nel menu di scelta rapida
 
 Verrà aperta la finestra <b>Nuova bitmap</b>, che consente di impostare il *nome*, la *risoluzione* e il *colore di sfondo* della nuova risorsa bitmap.
@@ -130,11 +130,11 @@ I predefiniti sono organizzati e salvati in *librerie*, che possono essere gesti
 
 <b>Esporta libreria:</b> *salva* i predefiniti correnti e tutte le relative impostazioni in un file di libreria
 
-<b>Importa i predefiniti della libreria:</b> *carica* da un file di libreria esistente e *aggiungili* all&#39;elenco corrente: i predefiniti con *lo stesso nome vengono sostituiti* da quelli del file di libreria
+<b>Importa libreria:</b> *carica* predefiniti da un file di libreria esistente e *aggiungili* all&#39;elenco corrente: i predefiniti con *lo stesso nome vengono sostituiti* da quelli del file di libreria
 
 <b>Reimposta libreria:</b> reimposta i predefiniti correnti in base alla libreria predefinita
 
-<b>Sostituisci i predefiniti della libreria:</b> *carica* da un file di libreria esistente e *annulla* l&#39;elenco corrente
+<b>Sostituisci libreria:</b> *carica* predefiniti da un file di libreria esistente e *annulla* l&#39;elenco corrente
 
 </td>
 <td style="border: 0;" valign="top">

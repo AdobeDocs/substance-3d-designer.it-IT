@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/3d-view/glslfx-shaders.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/glslfx-shaders.html"
 breadcrumb-title: ''
 description: Utilizza gli shader GLSLFX nella vista 3D di Substance 3D Designer per personalizzare il rendering del materiale e gli effetti di anteprima.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Shader GLSLFX
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '3098'
 ht-degree: 1%
@@ -595,14 +595,14 @@ matrice uniforme mat4 worldMatrix;\
 matrice uniforme mat4 worldViewProjMatrix;
 
 void main()\
-&lbrace;\
+{\
 gl\_Position = worldViewProjMatrix \&#42; iVS\_Position;\
 iFS\_Normal = iVS\_Normal.xyz;\
 iFS\_UV = iVS\_UV;\
 iFS\_Tangent = iVS\_Tangent.xyz;\
 iFS\_Binormal = iVS\_Binormal.xyz;\
 iFS\_PointWS = (worldMatrix \&#42; iVS\_Position).xyz;\
-&rbrace;
+}
 
 ### File dello shader del vertice di tassellatura
 
@@ -610,9 +610,9 @@ Disponibile in .\tessellation\_parallax\tessellation\vs.glsl
 
 Contenuto:
 
-&#x200B;>> 
+>> 
 
-&#x200B;#version 120
+#version 120
 
 attributo vec4 iVS\_Position;\
 attributo vec4 iVS\_Normal;\
@@ -626,13 +626,13 @@ variabile vec4 oVS\_Tangent;\
 variabile vec4 oVS\_Binormal;
 
 void main()\
-&lbrace;\
+{\
 gl\_Position = iVS\_Position;\
 oVS\_Normal = iVS\_Normal;\
 oVS\_UV = iVS\_UV;\
 oVS\_Tangent = iVS\_Tangent;\
 oVS\_Binormal = iVS\_Binormal;\
-&rbrace;
+}
 
 ### File dello shader di controllo della tassellatura
 
@@ -640,10 +640,10 @@ Disponibile in .\tessellation\_parallax\tessellation\tcs.glsl
 
 Contenuto:
 
-&#x200B;>> 
+>> 
 
-&#x200B;#version 400 core\
-&#x200B;#extension GL\_ARB\_tessellation\_shader : attiva
+#version 400 core\
+#extension GL\_ARB\_tessellation\_shader : attiva
 
 layout(vertici = 3) out;
 
@@ -660,7 +660,7 @@ out vec4 oTCS\_Binormal[];
 Fattore di tassellatura del galleggiante uniforme;
 
 void main()\
-&lbrace;\
+{\
 gl\_TessLevelOuter[0] = tassellationFactor;\
 gl\_TessLevelOuter[1] = tassellationFactor;\
 gl\_TessLevelOuter[2] = tassellationFactor;\
@@ -671,7 +671,7 @@ oTCS\_Normal[gl\_InvocationID] = oVS\_Normal[gl\_InvocationID];\
 oTCS\_UV[gl\_InvocationID] = oVS\_UV[gl\_InvocationID];\
 TCS\_Tangent[gl\_InvocationID] = oVS\_Tangent[gl\_InvocationID];\
 oTCS\_Binormal[gl\_InvocationID] = oVS\_Binormal[gl\_InvocationID];\
-&rbrace;
+}
 
 ### File dello shader di valutazione della tassellatura
 
@@ -679,9 +679,9 @@ Disponibile in .\tessellation\_parallax\tessellation\tcs.glsl
 
 Contenuto:
 
-&#x200B;>> 
+>> 
 
-&#x200B;#version 400 core
+#version 400 core
 
 layout(triangoli, uguale\_spaziatura, ccw) in;
 
@@ -705,17 +705,17 @@ out vec3 iFS\_Binormal;\
 out vec3 iFS\_PointWS;
 
 vec3 interpolate3D(vec3 v0, vec3 v1, vec3 v2, vec3 uvw)\
-&lbrace;\
+{\
 restituire uvw.x \&#42; v0 + uvw.y \&#42; v1 + uvw.z \&#42; v2;\
-&rbrace;
+}
 
 vec2 interpolate2D(vec2 v0, vec2 v1, vec2 v2, vec3 uvw)\
-&lbrace;\
+{\
 restituire uvw.x \&#42; v0 + uvw.y \&#42; v1 + uvw.z \&#42; v2;\
-&rbrace;
+}
 
 void main()\
-&lbrace;\
+{\
 vec3 uvw = gl\_TessCoord.xyz;
 
 vec3 newPos = interpolate3D(gl\_in[0].gl\_Position.xyz, gl\_in[1].gl\_Position.xyz, gl\_in[2].gl\_Position.xyz, uvw);\
@@ -735,7 +735,7 @@ iFS\_Tangent = newTangent;\
 iFS\_Binormal = newBinormal;\
 iFS\_Normal = newNormal;\
 iFS\_PointWS = (worldMatrix \&#42; obj\_pos).xyz;\
-&rbrace;
+}
 
 ### File Shader frammento
 
@@ -743,24 +743,24 @@ Disponibile in .\tessellation\_parallax\fs.glsl
 
 Contenuto:
 
-&#x200B;>> 
+>> 
 
-&#x200B;#version 120
+#version 120
 
 // #define ALG\_NORMAL\_DIRECTX\
-&#x200B;#define ALG\_NORMAL\_OPENGL
+#define ALG\_NORMAL\_OPENGL
 
-&#x200B;#ifdef ALG\_NORMAL\_DIRECTX\
+#ifdef ALG\_NORMAL\_DIRECTX\
 // RIFLETTI #define\_NORMALE\_X\
-&#x200B;#define RIFLETTI\_NORMALE\_Y\
+#define RIFLETTI\_NORMALE\_Y\
 // #define RIFLETTI\_NORMALE\_Z\
-&#x200B;#endif //#ifdef ALG\_NORMAL\_DIRECTX
+#endif //#ifdef ALG\_NORMAL\_DIRECTX
 
-&#x200B;#ifdef ALG\_NORMAL\_OPENGL\
+#ifdef ALG\_NORMAL\_OPENGL\
 // RIFLETTI #define\_NORMALE\_X\
-&#x200B;#define RIFLETTI\_NORMALE\_Y\
+#define RIFLETTI\_NORMALE\_Y\
 // #define RIFLETTI\_NORMALE\_Z\
-&#x200B;#endif //#ifdef ALG\_NORMAL\_OPENGL
+#endif //#ifdef ALG\_NORMAL\_OPENGL
 
 variazione vec3 iFS\_Normal;\
 variazione vec2 iFS\_UV;\
@@ -801,17 +801,17 @@ matrice uniforme mat4 worldInverseTransposeMatrix;\
 matrice uniforme mat4 viewInverseMatrix;
 
 vec4 litFct(float NdotL, float NdotH, float specExp)\
-&lbrace;\
+{\
 ambiente flottante = 1,0;\
 diffusione a virgola mobile = max(NdotL, 0,0);\
 specular float = step(0.0, NdotL) \&#42; pow(max(0.0, NdotH), specExp);\
 ritorno vec4(ambiente, diffusione, specular, 1,0);\
-&rbrace;
+}
 
 vec3 lerpFct(vec3 v0, vec3 v1, percentuale variabile)\
-&lbrace;\
+{\
 return v0 + (v1-v0) \&#42; percento;\
-&rbrace;
+}
 
 // Ombreggiatura Phong\
 void phong\_ombreggiature(\
@@ -821,37 +821,37 @@ in vec3 pointToLightDirWS,\
 in vec3 pointToCameraDirWS,\
 inout vec3 DiffuseContrib\
 inout vec3 SpecularContrib)\
-&lbrace;\
+{\
 vec3 Hn = normalize(pointToCameraDirWS + pointToLightDirWS);\
 vec4 litV = litFct(dot(normalWS, pointToLightDirWS), dot(normalWS, Hn), SpecExpon);\
 DiffuseContrib = litV.y \&#42; LightColor;\
 SpecularContrib = litV.y \&#42; litV.z \&#42; Ks \&#42; LightColor;\
-&rbrace;
+}
 
 vec3 fixNormalSample(vec3 v)\
-&lbrace;\
+{\
 risultato vec3 = v - vec3(0,5,0,5,0,5);
 
-&#x200B;#ifdef RIFLETTI\_NORMALE\_X\
+#ifdef RIFLETTI\_NORMALE\_X\
 risultato.x = -risultato.x;\
-&#x200B;#endif // ifdef FLIP\_NORMAL\_X\
-&#x200B;#ifdef RIFLETTI\_NORMALE\_Y\
+#endif // ifdef FLIP\_NORMAL\_X\
+#ifdef RIFLETTI\_NORMALE\_Y\
 risultato.y = -risultato.y;\
-&#x200B;#endif // ifdef FLIP\_NORMAL\_Y\
-&#x200B;#ifdef FLIP\_NORMAL\_Z\
+#endif // ifdef FLIP\_NORMAL\_Y\
+#ifdef FLIP\_NORMAL\_Z\
 result.z = -result.z;\
-&#x200B;#endif // ifdef FLIP\_NORMAL\_Z
+#endif // ifdef FLIP\_NORMAL\_Z
 
 risultato di ritorno;\
-&rbrace;
+}
 
 vec3 normalVecOSToWS(vec3 normale)\
-&lbrace;\
+{\
 ritorno normale;\
-&rbrace;
+}
 
 void main()\
-&lbrace;\
+{\
 vec3 cameraPosWS = viewInverseMatrix[3].xyz;\
 vec3 pointToLight0DirWS = normalize(Lamp0Pos - iFS\_PointWS);\
 vec3 pointToLight1DirWS = normalize(Lamp1Pos - iFS\_PointWS);\
@@ -936,16 +936,16 @@ vec3 Ambiant\_final = diffusoColor.rgb\&#42;AmbiColor;
 vec3 emissive = texture2D(emissiveMap,uv).xyz;
 
 vec3 finalcolor = Ambiant\_final\
-&#x200B;+ specularColor\&#42;specContrib\
-&#x200B;+ diffusioneColor.rgb\&#42;diffContrib\
-&#x200B;+ (reflColor\&#42;specularColor\&#42;FallofRefl)\
-&#x200B;+ emissivo;
++ specularColor\&#42;specContrib\
++ diffusioneColor.rgb\&#42;diffContrib\
++ (reflColor\&#42;specularColor\&#42;FallofRefl)\
++ emissivo;
 
 // Colore finale\
 vec4 finalColor4 = vec4(finalcolor, texture2D(opacityMap,uv));
 
 gl\_FragColor = finalColor4;\
-&rbrace;
+}
 
 ### File GLSLFX
 

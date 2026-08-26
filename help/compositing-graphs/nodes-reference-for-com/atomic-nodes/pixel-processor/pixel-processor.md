@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Processore pixel per elaborare singoli pixel utilizzando espressioni personalizzate per una manipolazione avanzata delle texture.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Elaboratore pixel
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 1%
@@ -95,7 +95,7 @@ Per tutti coloro che sono abituati a creare funzioni [shader](../../../../glossa
 |  |  |
 | --- | --- |
 | <b>Metodo colore</b> *Booleano* | Alterna tra un’immagine in scala di grigio e un’immagine a colori in output. |
-| <b>Funzione per pixel</b> *Float/Float4* | [Grafico a funzioni Substance](../../../../function-graphs/the-function-graph/the-function-graph.md) valutato per pixel nell&#39;immagine di output.   Utilizzare il nodo [Get Float2](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md) impostato sulla variabile <b>$pos</b> per accedere alla posizione [normalizzata](../../../../glossary/glossary.md) del pixel corrente. |
+| <b>Funzione per pixel</b> *Float/Float4* | [Grafico a funzioni Substance](../../../../function-graphs/the-function-graph/the-function-graph.md) valutato per pixel nell&#39;immagine di output.   Utilizzare il nodo [Get Float2](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md) impostato sulla variabile <b>$pos</b> per accedere alla posizione [normalizzata](../../../../glossary/glossary.md) del pixel corrente. |
 
 ## Connettori di ingresso
 

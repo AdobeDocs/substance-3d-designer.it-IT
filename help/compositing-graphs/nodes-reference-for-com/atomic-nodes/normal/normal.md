@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/normal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/normal.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Normale (Normal) per elaborare e manipolare le texture delle mappe normali per controllare i dettagli e l'illuminazione della superficie.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Normale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 8%
@@ -78,9 +78,9 @@ Si tratta di un nodo molto utile che viene spesso utilizzato per convertire gli 
 
 |  |  |
 | --- | --- |
-| <b>Intensità</b> *Mobile* | Modifica l’intensità della mappa del height.   Consente di impostare l’intensità di interpretazione della mappa del height di input per la conversione in normali. A seconda delle mappe di input, i valori superiori a 100 hanno un effetto leggermente maggiore. |
-| <b>Formato normale</b> *Booleano* | Inverte le coordinate Y della mappa height (OpenGL).   Consente di impostare la codifica del canale Verde (Y). Sostanzialmente un interruttore &quot;Flip Green/Y&quot;. |
-| <b>Contenuto del canale di Alpha</b> *Booleano* | Riempite il canale alfa della mappa normale con la texture di input.   Riempi Alpha con input/Forza Alpha a 1: consente di impostare il canale di Alpha su solido, invece di utilizzare l’input come Alpha aggiuntivo. |
+| <b>Intensità</b> *Mobile* | Modifica l’intensità della mappa del height.   Consente di impostare l’intensità di interpretazione della mappa del height di input per la conversione in normali. A seconda delle mappe di input, i valori superiori a 100 hanno un effetto leggermente maggiore. |
+| <b>Formato normale</b> *Booleano* | Inverte le coordinate Y della mappa height (OpenGL).   Consente di impostare la codifica del canale Verde (Y). Sostanzialmente un interruttore &quot;Flip Green/Y&quot;. |
+| <b>Contenuto del canale di Alpha</b> *Booleano* | Riempite il canale alfa della mappa normale con la texture di input.   Riempi Alpha con input/Forza Alpha a 1: consente di impostare il canale di Alpha su solido, invece di utilizzare l’input come Alpha aggiuntivo. |
 
 ## Connettori di ingresso
 

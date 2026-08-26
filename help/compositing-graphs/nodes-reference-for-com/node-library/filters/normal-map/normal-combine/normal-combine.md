@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-combine.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-combine.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Combinazione normale per combinare più mappe normali per creare livelli di dettagli e superfici.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Combinazione normale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 2%
@@ -53,7 +53,7 @@ Se desideri unire due mappe normali senza combinarne i dettagli (ad esempio, uti
 
 ## Parametri
 
-<b>Tecnica</b> *Numero intero* Imposta la tecnica di fusione interna da utilizzare, valutando la velocità per la qualità.\
+<b>Tecnica</b> *Numero intero* Imposta la tecnica di fusione interna da utilizzare, impostando la velocità in base alla qualità.\
 *- Sbianca (bassa qualità)
 * Miscelatore canale (alta qualità)
 * Orientamento ai dettagli (alta qualità)*

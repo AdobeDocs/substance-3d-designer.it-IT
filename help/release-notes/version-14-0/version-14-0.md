@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/release-notes/version-14-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-14-0.html"
 breadcrumb-title: ''
 description: Consulta le note sulla versione per Substance 3D Designer versione 14.0 per informazioni sui nuovi nodi, la navigazione del grafico e i miglioramenti delle prestazioni.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versione 14.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1626'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Versione 14.0
 
-<b>Substance 3D Designer 14.0 </b>offre diversi miglioramenti a livello di qualità di vita (navigazione tramite grafici, prestazioni, ...) ma soprattutto include molti nuovi nodi (manipolazione del colore, filtro Kuwahara, strumenti di istogramma, smusso uniforme, distanza direzionale, ...). Vedere di seguito per ulteriori dettagli su tutte queste modifiche. 
+<b>Substance 3D Designer 14.0 </b>offre diversi miglioramenti a livello di qualità di vita (navigazione tramite grafici, prestazioni, ...) ma soprattutto include molti nuovi nodi (manipolazione del colore, filtro Kuwahara, strumenti di istogramma, smusso uniforme, distanza direzionale, ...). Vedere di seguito per ulteriori dettagli su tutte queste modifiche.
 
 *Data di pubblicazione: 30 luglio 2024*
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 Questa versione 14.0 introduce molti nuovi contenuti con i nuovi nodi elencati di seguito:
 
-* <b>Nodi dedicati alla manipolazione del colore: </b>un nodo <b>(</b>[Quantizza colore](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md)<b>) </b>a<b> </b>riduce il numero di colori in un&#39;immagine ed estrae una tavolozza da essa, una famiglia di nodi di strumenti per creare la tua tavolozza di colori ([Visualizza](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) / [Crea](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md) / [Modifica](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)<b> </b>tavolozza di colori) e uno per applicarla a un&#39;altra immagine utilizzando una mappa ID ([Applica tavolozza di colori](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md)). Troverai anche il nodo [ID per mascherare la scala di grigi](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md) per convertire la mappa ID, calcolata da Quantizza colore, in una maschera in scala di grigi. Con questo insieme completo di nodi, hai tutto il necessario per creare effetti di stilizzazione utilizzando i colori.
+* <b>Nodi dedicati alla manipolazione del colore: </b>un nodo <b>(</b>[Quantizza colore](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md)<b>) </b>a<b> </b>ridurre il numero di colori in un&#39;immagine ed estrarre una tavolozza da essa, una famiglia di nodi di strumenti per creare la tua tavolozza di colori ([Visualizza](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) / [Crea](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md) / [Modifica](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)<b> </b>tavolozza colori) e uno per applicarla a un&#39;altra immagine utilizzando una mappa ID ([Applica tavolozza colori](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md)). Troverai anche il nodo [ID per mascherare la scala di grigi](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md) per convertire la mappa ID, calcolata da Quantizza colore, in una maschera in scala di grigi. Con questo insieme completo di nodi, hai tutto il necessario per creare effetti di stilizzazione utilizzando i colori.
 
 ![](../../assets/GIF2_2.gif){zoomable="yes"}
 
@@ -38,13 +38,13 @@ Questa versione 14.0 introduce molti nuovi contenuti con i nuovi nodi elencati d
 
 * <b>Filtro Kuwahara</b>: se desiderate migliorare ulteriormente la stilizzazione, potete generare alcuni effetti pittorici grazie ai filtri [Colore Kuwahara anisotropo](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara/anisotropic-kuwahara.md) / [Scala di grigi](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara-gra/anisotropic-kuwahara-grayscale.md). Nei dettagli, applica una sfocatura direzionale anisotropa conforme ai dettagli dell&#39;immagine. Il risultato è un’immagine che sembra scorrere nella direzione delle forme al suo interno.
 
-Questi nodi (Quantizza colore e Kuwahara anisotropo) sono spiegati in [questa esercitazione](https://www.adobe.com/go/designer-tutorial-quantize_it). Mostra come utilizzarli per stilizzare i materiali e gestire i colori in modo più efficiente e intuitivo.
+Questi nodi (Quantizza colore e Kuwahara anisotropo) sono spiegati in [questa esercitazione](https://www.adobe.com/go/designer-tutorial-quantize). Mostra come utilizzarli per stilizzare i materiali e gestire i colori in modo più efficiente e intuitivo.
 
 Altri nodi potenti si uniscono al gruppo:
 
 * [<b>Curvatura uniforme</b>](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md): questa nuova versione ora supporta correttamente tutte le modalità di suddivisione in porzioni, aggiunge due nuovi output (convessità e concavità) e migliora sia la precisione che le prestazioni.
 * <b>[Equalizzazione istogramma](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-equalize/histogram-equalize.md):</b> questo nodo equalizza l&#39;istogramma di un&#39;immagine in scala di grigio regolando i valori per ottenere una distribuzione uniforme. Questi nodi sono dotati di due nodi complementari: [Rendering istogramma](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-render/histogram-render.md) per generare l&#39;istogramma dell&#39;immagine e [Calcolo istogramma](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-compute/histogram-compute.md)<b> </b>per codificare un istogramma come riga di pixel.
-* <b>[Smusso uniforme](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/bevel-smooth/bevel-smooth.md):</b> grazie a questo, puoi disegnare una sfumatura o un colore piatto dai bordi di una maschera (verso l&#39;esterno, l&#39;interno o entrambi). Anche il nodo [Distanza direzionale](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/directional-distance/directional-distance.md)<b> </b>disegna sfumatura ma in una direzione specifica.
+* <b>[Smusso uniforme](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/bevel-smooth/bevel-smooth.md):</b> grazie a questo, puoi disegnare una sfumatura o un colore piatto dai bordi di una maschera (verso l&#39;esterno, l&#39;interno o entrambi). Nodo [Distanza direzionale](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/directional-distance/directional-distance.md)<b> </b>disegna anche la sfumatura, ma in una direzione specifica.
 * <b>[Normal uncombine](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-uncombine/normal-uncombine.md):</b> questo nodo è l&#39;opposto del nodo [Normal combine](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md) e rimuove da una mappa normale i dettagli della superficie descritti da una mappa di height.
 
 <table>
@@ -198,7 +198,7 @@ Tieni presente che questi aggiornamenti hanno due conseguenze principali:
 * [Content] Nodo &#39;Negate Float1&#39; deprecato nel grafico della funzione Substance
 * [Content] Rinomina &quot;Quantizza colore&quot; in &quot;Quantizza colore (semplice)&quot;
 * [Vista 2D] Visualizza i valori nel pannello Informazioni per i pixel esterni all’intervallo 0-1
-* [Engine]&#x200B;[Testo] Nuova crenatura per alcuni font
+* [Engine][Testo] Nuova crenatura per alcuni font
 * [Grafico] Miglioramento del tempo di invalidamento durante la modifica di grafici secondari profondi durante l&#39;utilizzo di un&#39;edizione contestuale
 * [Linker] Non duplicare bitmap in SBSASM
 * [Parameters] Aggiungere un nuovo widget &quot;function&quot; per tutti i tipi di parametri di input

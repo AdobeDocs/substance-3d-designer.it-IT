@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-compute.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-compute.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Calcolo istogramma per calcolare i dati istogramma dalle texture per l’analisi e l’elaborazione.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Calcolo istogramma
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 1%
@@ -80,14 +80,14 @@ Gli strumenti personalizzati possono essere creati utilizzando i dati calcolati 
 
 |  |  |
 | --- | --- |
-| <b>Istogramma</b> *Scala di grigi* | Istogramma calcolato per l&#39;immagine di input, codificato come una riga di pixel in cui ogni valore di pixel corrisponde alla *popolazione* del valore di colore corrispondente alla posizione dei pixel sull&#39;asse X.   Ad esempio, un valore di pixel di 75 a (0,25, 0) significa che ci sono 75 pixel che hanno il valore di colore 0,25 nell’immagine. |
-| <b>CDF</b> *Scala di grigi* | Risultato della *funzione di distribuzione cumulativa* (CDF) calcolata per l&#39;immagine, codificata in una riga di pixel in cui ogni pixel è la somma di tutti i valori di pixel alla sua sinistra.   La somma viene quindi *normalizzata* rispetto al numero totale di pixel nell&#39;immagine. |
+| <b>Istogramma</b> *Scala di grigi* | Istogramma calcolato per l&#39;immagine di input, codificato come una riga di pixel in cui ogni valore di pixel corrisponde alla *popolazione* del valore di colore corrispondente alla posizione dei pixel sull&#39;asse X.   Ad esempio, un valore di pixel di 75 a (0,25, 0) significa che ci sono 75 pixel che hanno il valore di colore 0,25 nell’immagine. |
+| <b>CDF</b> *Scala di grigi* | Risultato della *funzione di distribuzione cumulativa* (CDF) calcolata per l&#39;immagine, codificata in una riga di pixel in cui ogni pixel è la somma di tutti i valori di pixel alla sua sinistra.   La somma viene quindi *normalizzata* rispetto al numero totale di pixel nell&#39;immagine. |
 
 ## Parametri
 
 |  |  |
 | --- | --- |
-| <b>Risoluzione istogramma</b> *Numero intero* | Larghezza dell’istogramma. Un valore più elevato consente una distribuzione più precisa.   Le risoluzioni disponibili sono, in pixel: 256, 512, 1024, 2048, 4096 |
+| <b>Risoluzione istogramma</b> *Numero intero* | Larghezza dell’istogramma. Un valore più elevato consente una distribuzione più precisa.   Le risoluzioni disponibili sono, in pixel: 256, 512, 1024, 2048, 4096 |
 
 ## Esempi
 

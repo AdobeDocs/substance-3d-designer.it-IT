@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Grafici MDL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Durante la creazione di materiali, puoi utilizzare il modulo di rendering [Iray]
 I grafici MDL sono complementari con i [grafici a Substance](../compositing-graphs/substance-compositing-graphs.md) in quanto quest&#39;ultimi generano *texture* che possono essere *campionati* dal materiale MDL per influenzarne il comportamento e l&#39;aspetto.
 
 Ti consigliamo di scorrere le sezioni di questa documentazione *in ordine* per un percorso di apprendimento guidato, iniziando dalle proprietà di una risorsa grafico MDL, appena sotto.\
-Vuoi entrare? Introduzione ai grafici MDL nella sezione [Risorse di apprendimento MDL](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/first-steps-with-mdl-145654095.html).
+Vuoi entrare? Introduzione ai grafici MDL nella sezione Risorse di apprendimento MDL.
 
 >[!NOTE]
 >
@@ -64,7 +64,7 @@ Vuoi entrare? Introduzione ai grafici MDL nella sezione [Risorse di apprendiment
 
 ![Proprietà grafico MDL](../assets/mdl-main.png "Proprietà grafico MDL")
 
-*Proprietà del grafico MDL nel pannello [Proprietà](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)*
+*Proprietà del grafico MDL nel pannello Proprietà*
 
 ## Proprietà grafico MDL
 
@@ -89,7 +89,7 @@ Nota: le proprietà contrassegnate da un asterisco (\*) sono annotazioni MDL che
 
 ### Input del grafico
 
-In questa sezione vengono elencati i parametri interattivi connessi a [parametri esposti](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/exposing-a-parameter-145654033.html) del grafico MDL e ne vengono definiti *i valori predefiniti*. Possono essere *modificati* e *riordinati* in qualsiasi momento.
+In questa sezione vengono elencati i parametri interattivi collegati ai parametri esposti del grafico MDL e ne vengono definiti *i valori predefiniti*. Possono essere *modificati* e *riordinati* in qualsiasi momento.
 
 L&#39;interfaccia e il comportamento di questi input sono definiti dal *tipo di valore* e dagli *intervalli* dei parametri esposti a cui sono connessi. Ad esempio:
 

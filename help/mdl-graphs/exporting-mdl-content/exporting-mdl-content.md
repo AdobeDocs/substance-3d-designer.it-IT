@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Esportazione di contenuto MDL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Questo è il formato di file di scambio fondamentale per le definizioni dei mate
 * i parametri esposti e i valori predefiniti
 * le relative annotazioni (ad esempio, metadati): autore, tag, categorie, ...
 
-L&#39;esportazione di un modulo MDL viene eseguita al livello *pacchetto*. Per esportare un modulo MDL per un determinato pacchetto, fare clic sul pulsante ![](../../assets/mdl-export-module-icon.png) <b>Esporta modulo MDL</b> in [Esplora risorse](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) o selezionare la stessa opzione nel menu di scelta rapida del *pacchetto*. Selezionare un percorso e un nome di destinazione per il modulo MDL esportato e viene visualizzata la finestra di dialogo <b>Esporta report</b> con l&#39;elenco dei messaggi registrati durante il processo di esportazione.
+L&#39;esportazione di un modulo MDL viene eseguita al livello *pacchetto*. Per esportare un modulo MDL per un determinato pacchetto, fare clic sul pulsante ![](../../assets/mdl-export-module-icon.png) <b>Esporta modulo MDL</b> in [Esplora risorse](../../interface/the-explorer-window/the-explorer-window.md) o selezionare la stessa opzione nel menu di scelta rapida del *pacchetto*. Selezionare un percorso e un nome di destinazione per il modulo MDL esportato e viene visualizzata la finestra di dialogo <b>Esporta report</b> con l&#39;elenco dei messaggi registrati durante il processo di esportazione.
 
 Il modulo esportato conterrà le definizioni di *tutti* i materiali MDL definiti da un [grafico MDL](../../mdl-graphs/mdl-graphs.md) nel pacchetto.
 
@@ -60,7 +60,7 @@ Un predefinito del modulo MDL è in gran parte identico al modulo su cui è basa
 
 Un predefinito per un materiale MDL assegnato a un materiale di scena `my_material` può essere esportato dai seguenti percorsi:
 
-* Nel pannello [Esplora risorse](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), facendo clic su <b>RMB</b> nella risorsa grafico MDL e selezionando l&#39;opzione <b>Esporta predefinito...</b> nel menu di scelta rapida
+* Nel pannello [Esplora risorse](../../interface/the-explorer-window/the-explorer-window.md), facendo clic su <b>RMB</b> nella risorsa grafico MDL e selezionando l&#39;opzione <b>Esporta predefinito...</b> nel menu di scelta rapida
 * Il pannello [Vista 3D](../../interface/3d-view/3d-view.md) utilizzando l&#39;opzione di menu <b>Materiali > il mio\_materiale > Esporta predefinito...</b>
 
 L&#39;opzione di menu apre la finestra di dialogo <b>Esporta predefinito materiale MDL</b>, che offre le seguenti opzioni:
@@ -69,11 +69,11 @@ L&#39;opzione di menu apre la finestra di dialogo <b>Esporta predefinito materia
 * <b>Nome file MDL</b>: nome del modulo MDL
 * <b>Incorpora moduli MDL importati</b>: se il modulo MDL si basa su moduli importati, ovvero presenta dipendenze del modulo, selezionando questa opzione le dipendenze del modulo verranno *incorporate* nel modulo MDL esportato, rendendolo *autosufficiente* a scapito della dimensione del file e dell&#39;ereditarietà dinamica
 
-Il predefinito esportato utilizzerà i *valori correnti* dei parametri del materiale nella vista 3D come *nuovi valori predefiniti*. Questi valori possono essere modificati utilizzando l&#39;opzione <b>Materiali > il mio\_materiale > Modifica</b>, che visualizzerà i parametri esposti del materiale nel pannello [Proprietà](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html).
+Il predefinito esportato utilizzerà i *valori correnti* dei parametri del materiale nella vista 3D come *nuovi valori predefiniti*. Questi valori possono essere modificati utilizzando l&#39;opzione <b>Materiali > il mio\_materiale > Modifica</b>, che visualizzerà i parametri esposti del materiale nel pannello Proprietà.
 
 >[!WARNING]
 >
-> Durante l&#39;esportazione di un modulo MDL dal pannello [Esplora risorse](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), viene generato un modulo MDL contenente *tutti* i materiali MDL definiti da un grafico MDL nel pacchetto. L&#39;esportazione di un predefinito MDL dalla [vista 3D](../../interface/3d-view/3d-view.md) genera un modulo MDL contenente *solo* la definizione dei materiali MDL applicata al *materiale selezionato* nel menu - `my_material` in questo esempio.
+> Durante l&#39;esportazione di un modulo MDL dal pannello [Esplora risorse](../../interface/the-explorer-window/the-explorer-window.md), viene generato un modulo MDL contenente *tutti* i materiali MDL definiti da un grafico MDL nel pacchetto. L&#39;esportazione di un predefinito MDL dalla [vista 3D](../../interface/3d-view/3d-view.md) genera un modulo MDL contenente *solo* la definizione dei materiali MDL applicata al *materiale selezionato* nel menu - `my_material` in questo esempio.
 
 ![Percorso di esportazione predefiniti MDL](../../assets/mdl-export-preset.png "Percorso di esportazione predefiniti MDL")
 
@@ -83,7 +83,7 @@ Il predefinito esportato utilizzerà i *valori correnti* dei parametri del mater
 
 Un archivio di moduli MDL combina i moduli MDL, vedere sopra, con risorse quali *texture* e file readme in un *singolo file trasportabile*.
 
-L&#39;esportazione di un archivio del modulo MDL viene eseguita al livello *pacchetto*. Per esportare un archivio del modulo MDL per un determinato pacchetto, fare clic sul pulsante ![](../../assets/mdl-export-module-icon.png) <b>Esporta archivio moduli MDL</b> in [Esplora risorse](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) oppure selezionare la stessa opzione nel menu di scelta rapida del *pacchetto*. Selezionare un percorso e un nome di destinazione per l&#39;archivio del modulo MDL esportato e viene visualizzata la finestra di dialogo <b>Esporta report</b> con l&#39;elenco dei messaggi registrati durante il processo di esportazione.
+L&#39;esportazione di un archivio del modulo MDL viene eseguita al livello *pacchetto*. Per esportare un archivio del modulo MDL per un determinato pacchetto, fare clic sul pulsante ![](../../assets/mdl-export-module-icon.png) <b>Esporta archivio moduli MDL</b> in [Esplora risorse](../../interface/the-explorer-window/the-explorer-window.md) oppure selezionare la stessa opzione nel menu di scelta rapida del *pacchetto*. Selezionare un percorso e un nome di destinazione per l&#39;archivio del modulo MDL esportato e viene visualizzata la finestra di dialogo <b>Esporta report</b> con l&#39;elenco dei messaggi registrati durante il processo di esportazione.
 
 L&#39;archivio del modulo esportato conterrà il modulo MDL contenente le definizioni di *tutti* i materiali MDL definiti da un [grafico MDL](../../mdl-graphs/mdl-graphs.md) nel pacchetto. Se un [grafico a Substance](../../compositing-graphs/substance-compositing-graphs.md) è [istantaneo in un grafico MDL](../../mdl-graphs/compositing-graphs-and/substance-compositing-graphs-and-mdl-materials.md) e connesso a un flusso che va al nodo [principale](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md), le texture generate vengono *salvate nell&#39;archivio*.
 
@@ -108,7 +108,7 @@ I grafici MDL con parametri esposti possono essere esportati come materiali MDL 
 
 Ad esempio, sebbene sia ancora possibile modificare i valori dei parametri esposti per controllare il comportamento di un materiale, la *definizione* di questi parametri è *non disponibile* in un modulo MDL incapsulato.
 
-L&#39;esportazione di un modulo MDL incapsulato viene eseguita in [Esplora risorse](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) a livello di grafico MDL, selezionando l&#39;opzione <b>Esporta come .mdle</b> nel menu di scelta rapida di un grafico MDL. Selezionare un percorso e un nome di destinazione per il modulo incapsulato MDL esportato e viene visualizzata la finestra di dialogo <b>Esporta report</b> con l&#39;elenco dei messaggi registrati durante il processo di esportazione.
+L&#39;esportazione di un modulo MDL incapsulato viene eseguita in [Esplora risorse](../../interface/the-explorer-window/the-explorer-window.md) a livello di grafico MDL, selezionando l&#39;opzione <b>Esporta come .mdle</b> nel menu di scelta rapida di un grafico MDL. Selezionare un percorso e un nome di destinazione per il modulo incapsulato MDL esportato e viene visualizzata la finestra di dialogo <b>Esporta report</b> con l&#39;elenco dei messaggi registrati durante il processo di esportazione.
 
 *Solo* la definizione del materiale per il *grafico MDL selezionato* verrà inclusa nel modulo MDL incapsulato esportato.
 

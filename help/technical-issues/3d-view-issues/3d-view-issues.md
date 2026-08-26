@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/technical-issues/3d-view-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/3d-view-issues.html"
 breadcrumb-title: ''
 description: Risoluzione dei problemi di Visualizzazione 3D in Substance 3D Designer, inclusi problemi di rendering, visualizzazione e prestazioni.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Problemi della vista 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: d81d92788a4d52b5ae1ed3ac4287f07260894f3c
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1643'
 ht-degree: 0%
@@ -85,7 +85,7 @@ Versione 15.1 e successive
 
 I nuovi moduli di rendering 3D sono stati aggiornati nella versione 15.1 e richiedono driver GPU recenti. Aggiornate i driver della GPU del sistema alla versione più recente.
 
-I driver sono disponibili qui: [NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us) [AMD](https://www.amd.com/en/support) [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
+È possibile trovare i driver qui: [NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us)  | [AMD](https://www.amd.com/en/support)  | [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
 Versione 15.0 e successive
 
@@ -243,7 +243,7 @@ Designer si arresta in modo anomalo all’avvio della vista 3D, durante la creaz
 
 Per prima cosa, assicurati che il tuo sistema soddisfi i [requisiti di sistema](../../getting-started/system-requirements/system-requirements.md) di Designer.
 
-Quindi, aggiorna i driver di grafica. Per trovare i driver più recenti per la GPU, segui questi collegamenti: [NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us)  | [AMD](https://www.amd.com/en/support)  | [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
+Quindi, aggiorna i driver di grafica. Per trovare i driver più recenti per la GPU, segui questi collegamenti: [NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us)  | [AMD](https://www.amd.com/en/support)  | [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
 Se il sistema include sia una GPU integrata (iGPU) che una GPU discreta (dGPU), assicurati di *aggiornare i driver per entrambi*.
 

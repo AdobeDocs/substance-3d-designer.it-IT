@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Sfumatura (Dinamica) per creare sfumature dinamiche che possono essere controllate dai parametri e dai valori di input.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Sfumatura (dinamica)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 9%
@@ -94,7 +94,7 @@ In alternativa, il cursore Posizione input sfumatura può essere utilizzato per 
 
 |  |  |
 | --- | --- |
-| <b>Indirizzamento sfumatura</b> *Booleano* | Consente di impostare se la sfumatura deve essere ripetuta (affiancata) o bloccata.   Questo parametro determina come vengono gestiti i pixel HDR fuori dall’intervallo [0, 1] dell’input in scala di grigio: bloccati o piegati fino a [0, 1]. |
+| <b>Indirizzamento sfumatura</b> *Booleano* | Consente di impostare se la sfumatura deve essere ripetuta (affiancata) o bloccata.   Questo parametro determina come vengono gestiti i pixel HDR fuori dall’intervallo [0, 1] dell’input in scala di grigio: bloccati o piegati fino a [0, 1]. |
 | <b>Orientamento sfumatura</b> *Numero intero* | Imposta l’asse lungo il quale deve essere campionato l’input della sfumatura:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Orizzontale:</i> campionare una riga di pixel sull&#39;asse X.</li> <li data-preserve-html="true"><i>Verticale:</i> campionare una colonna di pixel sull&#39;asse Y.</li> </ul> |
 | <b>Posizione di input sfumatura</b> *Mobile* | Posizione normalizzata della riga o colonna di pixel da campionare nell’input sfumatura. |
 

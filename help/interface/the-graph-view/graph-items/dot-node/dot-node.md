@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/the-graph-view/graph-items/dot-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/dot-node.html"
 breadcrumb-title: ''
 description: Utilizzate i nodi punto e i nodi portale in Substance 3D Designer per creare punti di connessione e organizzare il flusso del grafico.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Nodo punto (anche portale)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -29,7 +29,7 @@ ht-degree: 0%
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-Il nodo <b>Punto</b> è un helper che consente di semplificare e ottimizzare i grafici reindirizzando e raggruppando le connessioni. È particolarmente utile per i grafici con molte connessioni lunghe che operano su altre connessioni o nodi.
+Il nodo <b>Punto</b> è un helper che consente di semplificare e ottimizzare i grafici reindirizzando e raggruppando le connessioni. È particolarmente utile per i grafici con molte connessioni lunghe che operano su altre connessioni o nodi.
 
 Una coppia di nodi punto può essere utilizzata come <b>portali</b> per nascondere una connessione che si estende su lunghe distanze o in luoghi in cui l&#39;instradamento della connessione risulterebbe complesso.
 
@@ -102,7 +102,7 @@ Premete ALT e spostate un nodo Punto sui collegamenti per unire più connessioni
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-I nodi punto possono essere utilizzati come <b>portali</b> per inviare dati su lunghe distanze nel grafico senza avere un lungo e ingombrante collegamento che ne compromette la leggibilità. In questo modo si nasconde il collegamento tra i nodi punto.
+I nodi punto possono essere utilizzati come <b>portali</b> per inviare dati su lunghe distanze nel grafico senza avere un lungo e ingombrante collegamento che ne compromette la leggibilità. In questo modo si nasconde il collegamento tra i nodi punto.
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Accedete ai riferimenti dei nodi completi per Substance i grafici di composizione in Designer per conoscere tutti i nodi disponibili.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Nodi di riferimento per i grafici Substance
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 14%
+source-wordcount: '121'
+ht-degree: 16%
 
 ---
 
@@ -35,11 +35,11 @@ Ciò che chiamiamo &quot;nodo&quot; all&#39;interno di SD, può essere diviso in
 
 [Libreria nodi](../../compositing-graphs/nodes-reference-for-com/node-library/node-library.md)
 
-* [Generatori di texture](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/generators-159449101.html)
-* [Filtri](../../compositing-graphs/nodes-reference-for-com/node-library/filters/filters.md)
-* [Filtri materiale](../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/material-filters.md)
-* [Generatore basato su mesh](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/mesh-adaptive-159449105.html)
-* [Strumenti spline e tracciati](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-paths-tools.md)
+* [Generatori di texture](node-library/texture-generators/texture-generators.md)
+* [Filtri](node-library/filters/filters.md)
+* [Filtri materiale](node-library/material-filters/material-filters.md)
+* [Generatore basato su mesh](node-library/mesh-based-generators/mesh-based-generators.md)
+* [Strumenti spline e tracciati](node-library/spline-paths-tools/spline-paths-tools.md)
 
 </td>
 <td style="border: 0;" valign="top">

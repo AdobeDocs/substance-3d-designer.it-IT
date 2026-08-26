@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/release-notes/version-12-4.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-12-4.html"
 breadcrumb-title: ''
 description: Consulta le note sulla versione per Substance 3D Designer versione 12.4 per informazioni sulle nuove funzioni, i miglioramenti e le correzioni di bug.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Versione 12.4
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '820'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Quando modificate il grafico, a volte dovete sperimentare diverse possibilità e
 
 ### Digitare le formule nei campi dei parametri
 
-Non è più necessario utilizzare una calcolatrice o calcolare nella testa quando si desidera immettere valori di parametri specifici. È ora possibile immettere direttamente formule di base come aggiunte, divisioni, moltiplicazioni o sottrazioni quando si imposta un valore numerico per un parametro in [Proprietà](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) e in altre posizioni dell&#39;applicazione.
+Non è più necessario utilizzare una calcolatrice o calcolare nella testa quando si desidera immettere valori di parametri specifici. È ora possibile immettere direttamente formule di base come aggiunte, divisioni, moltiplicazioni o sottrazioni quando si imposta un valore numerico per un parametro nelle proprietà e in altre posizioni dell&#39;applicazione.
 
 ![](../../assets/final-formula.gif){width="640px"}
 
@@ -111,7 +111,7 @@ Questa versione 12.4 offre anche il supporto completo dei grafici dei modelli di
 * [Vista 3D] La proprietà di visualizzazione Wireframi non viene salvata
 * [Contenuto] I parametri del colore Sfocatura radiale non hanno effetto sul canale alfa
 * [Localizzazione] Ulteriori cursori e pulsanti vengono visualizzati in Proprietà OpenGL dell&#39;ambiente.
-* [MDL]&#x200B;[Substance modello] Arresto anomalo durante l&#39;eliminazione di nodi esposti
+* [MDL][Substance modello] Arresto anomalo durante l&#39;eliminazione di nodi esposti
 * [Preferenze] Il file predefinito\_config non viene mai ricreato se viene eliminato
 * [Modello Substance] Parametro di riordinamento in caso di arresto anomalo che non viene visualizzato a livello di istanza
 * [API] SDProperty.getDefaultValue() restituisce quasi sempre Nessuno

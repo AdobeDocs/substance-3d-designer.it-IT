@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/pipeline-and-project-configuration/retrieving-the-installation-path.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/retrieving-the-installation-path.html"
 breadcrumb-title: ''
 description: Scopri come recuperare il percorso di installazione di Substance 3D Designer per scopi di scripting e automazione.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Recupero del percorso di installazione
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 6%
@@ -20,7 +20,7 @@ ht-degree: 6%
 
 # Recupero del percorso di installazione
 
-Questa pagina raggruppa le informazioni sui modi per recuperare il percorso di installazione di [Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html) a seconda della versione e della piattaforma.
+Questa pagina raggruppa le informazioni sui modi per recuperare il percorso di installazione di [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) a seconda della versione e della piattaforma.
 
 ## Windows
 

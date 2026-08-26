@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/emboss.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/emboss.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Rilievo per creare effetti in rilievo sulle texture e aggiungere profondità e rilievo ai dettagli delle superfici.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Effetto rilievo
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 9%
@@ -78,10 +78,10 @@ Questo nodo non viene utilizzato spesso per progetti di tipo PBR, ma può essere
 
 |  |  |
 | --- | --- |
-| <b>Intensità</b> *Mobile* | Regola l’intensità globale dell’effetto di illuminazione.   Consente di impostare l’intensità della mappa del &quot;height&quot; e quindi l’intensità dell’effetto di luce. |
-| <b>Angolo chiaro</b> *Mobile* | Consente di impostare l’angolo di simulazione della luce.   Definisce l’angolo di illuminazione della luce dell’immagine in rilievo. |
-| <b>Colore evidenziazione</b> *Float/Float4* | Consente di impostare il colore delle aree rivolte verso l’angolo di luce.   Consente di impostare il colore dell’evidenziazione se l’immagine di input è a colori. |
-| <b>Colore ombra</b> *Float/Float4* | Consente di impostare il colore delle aree rivolte all’esterno dell’angolo di luce.   Imposta il colore delle aree in ombra dell’immagine in rilievo. |
+| <b>Intensità</b> *Mobile* | Regola l’intensità globale dell’effetto di illuminazione.   Consente di impostare l’intensità della mappa del &quot;height&quot; e quindi l’intensità dell’effetto di luce. |
+| <b>Angolo chiaro</b> *Mobile* | Consente di impostare l’angolo di simulazione della luce.   Definisce l’angolo di illuminazione della luce dell’immagine in rilievo. |
+| <b>Colore evidenziazione</b> *Float/Float4* | Consente di impostare il colore delle aree rivolte verso l’angolo di luce.   Consente di impostare il colore dell’evidenziazione se l’immagine di input è a colori. |
+| <b>Colore ombra</b> *Float/Float4* | Consente di impostare il colore delle aree rivolte all’esterno dell’angolo di luce.   Imposta il colore delle aree in ombra dell’immagine in rilievo. |
 
 ## Connettori di ingresso
 

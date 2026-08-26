@@ -1,8 +1,8 @@
 ---
-source-git-commit: 7eb945801ce2b27657ed7ab9948dc14dcb94e77c
+source-git-commit: 49d7d426f1b687cf6087bb1c9735a9060af48041
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 2%
+source-wordcount: '107'
+ht-degree: 11%
 
 ---
 # TODO
@@ -18,12 +18,21 @@ ht-degree: 2%
 * Esempi nella pagina a comparsa Documentazione
 * Glossario:
   * HDR
+  * Metallicità/Metallica
+  * HDR
+  * Speculare
+  * Mappa height
+  * Opacità
+  * Frustum
+  * Spazio tangente
+  * Numero di semi/numero casuale
+  * FX-Map
+  * Elaboratore pixel
+  * Predefinito
 
 ## Correzioni
 
-* Collegamenti interrotti in [Panoramica](help/getting-started/overview/overview.md)
 * Collegamenti e formattazione interrotti nel [nodo di output](help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
-* Collegamenti HelpX
 * Rimuovi ToC all&#39;interno della pagina (es. nuovi rumori)
 * Correggi layout di pagina nodo (es. nuovi rumori)
 * Correggi collegamento per immagine di primo esempio nelle pagine del nodo (ad es. nuovi rumori)
