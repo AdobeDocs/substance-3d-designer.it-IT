@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/3d-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view.html"
 breadcrumb-title: ''
 description: Utilizzate la vista 3D in Substance 3D Designer per visualizzare in anteprima i materiali sugli oggetti 3D e verificare le condizioni di illuminazione.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Visualizzazione 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 88555fe2352e6ab9408fb2364dbb5aad3682bf57
+source-git-commit: 7eb945801ce2b27657ed7ab9948dc14dcb94e77c
 workflow-type: tm+mt
-source-wordcount: '3450'
+source-wordcount: '3561'
 ht-degree: 1%
 
 ---
@@ -27,6 +27,12 @@ La vista 3D fornisce anche due metodi principali per il rendering dei materiali 
 * Rendering con ray tracing di alta qualità con renderer **Pathtracer GPU**
 
 Ulteriori informazioni qui: [moduli di rendering 3D](3d-renderers/3d-renderers.md)
+
++++ Ancoraggio vista 3D
+
+![3d-view.png](3d-view.resources/3d-view.png)
+
++++
 
 ## Interazioni finestra di visualizzazione
 
@@ -122,9 +128,9 @@ Potete visualizzare interi materiali come materiale completo nella vista 3D. Que
 
 Per visualizzare tutti gli output di un grafico, fate clic su *RMB* un’area vuota nella [vista Grafico](../../interface/the-graph-view/the-graph-view.md) e scegliete l’opzione **Visualizza output in vista 3D** nel menu di scelta rapida.
 
-Potete anche visualizzare gli output di un grafico senza doverlo aprire, facendo clic su RMB su una risorsa grafico nell&#39;ancoraggio [Esplora risorse](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) e scegliendo l&#39;opzione **Visualizza output in visualizzazione 3D** nel menu di scelta rapida.
+Potete anche visualizzare gli output di un grafico senza doverlo aprire, facendo clic su RMB su una risorsa grafico nell&#39;ancoraggio [Esplora risorse](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) e scegliendo l&#39;opzione **Visualizza output in visualizzazione 3D** nel menu di scelta rapida.
 
-In alternativa al menu di scelta rapida del grafico, potete ottenere lo stesso risultato trascinando il grafico dall&#39;ancoraggio [Esplora risorse](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) alla [vista 3D](https://substance3d.adobe.com/).
+In alternativa al menu di scelta rapida del grafico, potete ottenere lo stesso risultato trascinando il grafico dall&#39;ancoraggio [Esplora risorse](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) alla [vista 3D](https://substance3d.adobe.com/).
 
 Quando *caricate un grafico*, per impostazione predefinita gli output vengono applicati automaticamente nella vista 3D. Puoi disabilitare questo comportamento nelle [Preferenze](../../interface/preferences-window/preferences-window.md). Vai a **Modifica > Preferenze > Grafico > Comune** e deseleziona l&#39;opzione **Visualizza output nella vista 3D quando apri un grafico**.
 
@@ -144,7 +150,7 @@ Puoi visualizzare un solo output in qualsiasi canale di materiale disponibile ne
 
 Puoi anche usare *RMB* per trascinare e rilasciare qualsiasi nodo dalla vista Grafico alla vista 3D. Verrà visualizzato un elenco con i canali disponibili a cui assegnare il nodo. Fai clic su qualsiasi per confermare.
 
-Potete visualizzare qualsiasi singolo output del grafico espandendo la risorsa del grafico nel dock di [Esplora risorse](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) e utilizzando *LMB* per trascinare l’output nella vista 3D. Verrà visualizzato un elenco con i canali disponibili a cui assegnare il nodo. Fai clic su qualsiasi per confermare.
+Potete visualizzare qualsiasi singolo output del grafico espandendo la risorsa del grafico nel dock di [Esplora risorse](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) e utilizzando *LMB* per trascinare l’output nella vista 3D. Verrà visualizzato un elenco con i canali disponibili a cui assegnare il nodo. Fai clic su qualsiasi per confermare.
 
 ![Visualizzazione di trame 3D personalizzate](../../assets/3d-mesh.gif "Visualizzazione di trame 3D personalizzate")
 
@@ -215,7 +221,7 @@ Per esportare la trama della vista 3D, accedete a <b>Scena > Esporta trama tasse
 >
 > **TDR (solo Windows)**
 > 
-> Per questa funzione è necessario che <b>Rilevamento e ripristino del timeout</b> corrisponda ai valori consigliati nella [pagina](https://experienceleague.adobe.com/it/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) della documentazione, come indicato nei [Requisiti tecnici](../../getting-started/system-requirements/system-requirements.md) di Designer.
+> Per questa funzione è necessario che <b>Rilevamento e ripristino del timeout</b> corrisponda ai valori consigliati nella [pagina](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) della documentazione, come indicato nei [Requisiti tecnici](../../getting-started/system-requirements/system-requirements.md) di Designer.
 
 ## Barra dei menu
 
@@ -260,7 +266,7 @@ Il menu <b>Scena</b> riguarda la geometria (risorsa 3D) visualizzata e gli stati
 
 * Toroide
 
-<b>Visualizza UV nella vista 2D:</b> consente la visualizzazione degli UV per la trama attualmente selezionata come sovrapposizione nella [vista 2D](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html).
+<b>Visualizza UV nella vista 2D:</b> consente la visualizzazione degli UV per la trama attualmente selezionata come sovrapposizione nella [vista 2D](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html).
 
 <b>Crea risorsa 3D dalla scena corrente...:</b> Crea una nuova [risorsa scena 3D](../../resources/3d-scene-resource/3d-scene-resource.md) in un pacchetto esterno alla scena corrente.
 
@@ -299,7 +305,7 @@ Il menu Materiali presenta un elenco di tutti i materiali assegnati a una trama 
 
 <b>Carica definizione...: </b>(solo rendering OpenGL) Consente di caricare il tuo [shader GLSLFX personalizzato.](../../interface/3d-view/glslfx-shaders/glslfx-shaders.md) Lo shader viene aggiunto all’elenco precedente.
 
-<b>Reimposta parametri comuni:</b> Reimposta tutti i parametri comuni tra gli shader. Ad esempio, quando si passa dal modulo di rendering Rasterizer/Pathtracer GPU al modulo di rendering OpenGL e viceversa, vengono riportati diversi valori dei parametri nel [Materiale standard Adobe](https://experienceleague.adobe.com/it/docs/substance-3d/general-knowledge/asm/adobe-standard-material).
+<b>Reimposta parametri comuni:</b> Reimposta tutti i parametri comuni tra gli shader. Ad esempio, quando si passa dal modulo di rendering Rasterizer/Pathtracer GPU al modulo di rendering OpenGL e viceversa, vengono riportati diversi valori dei parametri nel [Materiale standard Adobe](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material).
 
 <b>Rinomina:</b> Modificare l&#39;etichetta per questo materiale.
 
@@ -548,7 +554,23 @@ La barra degli strumenti <b>Visualizzazione</b>, disponibile per impostazione pr
 
 >[!NOTE]
 >
-> La barra degli strumenti può essere *riposizionata* attorno all&#39;ancoraggio **Vista 3**&#x200B;**&#x200B; D** utilizzando l&#39;*handle* più a sinistra rappresentato da tre linee parallele.
+> La barra degli strumenti può essere *riposizionata* attorno all&#39;ancoraggio **Vista 3D** utilizzando l&#39;*impugnatura* più a sinistra rappresentata da tre linee parallele.
+
+### AOV di rendering 3D
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0; vertical-align: top">
+        <td style="border: 0">
+            <p>È possibile visualizzare <a href="../../glossary/glossary.md#aov">AOV</a> diversi utilizzando il pulsante <img src="./3d-view.resources/aov/aov-icon.png" alt="Icona AOV rendering 3D" style="padding-left: 5px; padding-right: 5px" /> <b>AOV di rendering 3D</b>.</p>
+            <p>I file AOV consentono di ispezionare separatamente le informazioni sulla trama e sul materiale per il lavoro mirato e il debug.</p>
+            <p>Alcuni valori AOV includono <i>valori HDR</i> che sono bloccati a 1 (bianco puro) o 0 (nero puro) nella finestra della vista.<br>Per ispezionare l'intero intervallo di valori, è possibile esportare un rendering 3D dell'AOV in un formato di file di immagine che supporti i valori HDR, ad esempio <code>.exr</code>.<br>Utilizzare l'opzione di menu <code>Camera > Save render...</code> per esportare l'AOV corrente.</p>
+            <p><i>Nota:</i> gli AOV sono disponibili solo quando si utilizzano il rasterizzatore e i <a href="./3d-renderers/3d-renderers.md">moduli di rendering 3D</a> del Pathtracer GPU.</p>
+        </td>
+        <td style="width: 33%; border: 0">
+            <img src="3d-view.resources/aov/aov-composited.jpg" alt="AOV di rendering 3D composti" />
+        </td>
+    </tr>
+</table>
 
 ### Canali di colore
 
