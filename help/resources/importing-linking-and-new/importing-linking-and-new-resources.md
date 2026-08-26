@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/importing-linking-and-new-resources.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/resources/importing-linking-and-new-resources.html"
 breadcrumb-title: ''
 description: Scopri come importare, collegare e creare nuove risorse in Substance 3D Designer per i tuoi progetti di materiali.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 # Importazione, collegamento e nuove risorse
 
-[Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) supporta 3 modalità di inserimento o creazione di nuove risorse da utilizzare nel grafico. Queste risorse possono essere di diversi tipi, tra cui [bitmap](../../resources/bitmap-resource/bitmap-resource.md), [grafica vettoriale](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md), [scene 3D](../3d-scene-resource/3d-scene-resource.md) e [font](../../resources/font-resource/font-resource.md). In questa pagina vengono illustrati i diversi metodi e i casi in cui è preferibile utilizzarli singolarmente.
+[Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html) supporta 3 modalità di inserimento o creazione di nuove risorse da utilizzare nel grafico. Queste risorse possono essere di diversi tipi, tra cui [bitmap](../../resources/bitmap-resource/bitmap-resource.md), [grafica vettoriale](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md), [scene 3D](../3d-scene-resource/3d-scene-resource.md) e [font](../../resources/font-resource/font-resource.md). In questa pagina vengono illustrati i diversi metodi e i casi in cui è preferibile utilizzarli singolarmente.
 
 Per accedere a tutti i metodi, fare clic su RMB in un pacchetto in Esplora risorse.
 

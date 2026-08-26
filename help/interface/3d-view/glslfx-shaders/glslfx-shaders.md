@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/glslfx-shaders.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/3d-view/glslfx-shaders.html"
 breadcrumb-title: ''
 description: Utilizza gli shader GLSLFX nella vista 3D di Substance 3D Designer per personalizzare il rendering del materiale e gli effetti di anteprima.
 helpx_creative_field: ""

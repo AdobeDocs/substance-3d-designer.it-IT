@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/node-finder.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/the-graph-view/node-finder.html"
 breadcrumb-title: ''
 description: Utilizzare Ricerca nodi per individuare e cercare rapidamente i nodi nei grafici Substance per una navigazione efficiente.
 helpx_creative_field: ""

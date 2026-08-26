@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/navigation-pin.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/the-graph-view/graph-items/navigation-pin.html"
 breadcrumb-title: ''
 description: Utilizzate i perni di navigazione nella vista del grafico per passare rapidamente tra diverse posizioni nei grafici di Substance 3D Designer.
 helpx_creative_field: ""

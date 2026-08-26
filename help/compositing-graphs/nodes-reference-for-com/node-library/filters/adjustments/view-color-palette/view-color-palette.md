@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/view-color-palette.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/view-color-palette.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Visualizza tavolozza colori per visualizzare i dati della tavolozza dei colori estratti dalle texture per l'analisi.
 helpx_creative_field: ""

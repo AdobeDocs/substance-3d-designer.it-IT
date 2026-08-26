@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/exporting-psd-files.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/exporting-psd-files.html"
 breadcrumb-title: ''
 description: Scoprite come esportare i grafici di composizione Substance come file PSD da utilizzare in Adobe Photoshop e in altri flussi di lavoro di modifica delle immagini.
 helpx_creative_field: ""

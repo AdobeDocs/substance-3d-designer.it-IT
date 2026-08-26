@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/2d-view.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/2d-view.html"
 breadcrumb-title: ''
 description: Utilizzate la vista 2D in Substance 3D Designer per visualizzare in anteprima e ispezionare gli output delle texture dai grafici dei materiali.
 helpx_creative_field: ""

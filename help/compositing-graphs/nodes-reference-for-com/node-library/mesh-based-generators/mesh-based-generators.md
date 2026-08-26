@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators.html"
 breadcrumb-title: ''
 description: Accedete ai nodi dei generatori basati su mesh in Substance 3D Designer per creare texture basate sulla geometria e sulle proprietà della trama 3D.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 4%
 
 I generatori basati su trama sono nodi destinati a elaborare [Mappe con baking](../../../../bakers/bakers.md) quali una mappa normale, una curvatura, un&#39;Occlusione ambientale e così via.
 
-Il nome della categoria deriva dal fatto che solo la mappa con baking consente a Designer di utilizzare dati basati su trame 3D. Alcune delle funzionalità di questa categoria sono simili a [Materiali avanzati e maschere](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/features/smart-materials-and-masks) di Substance 3D Painter.
+Il nome della categoria deriva dal fatto che solo la mappa con baking consente a Designer di utilizzare dati basati su trame 3D. Alcune delle funzionalità di questa categoria sono simili a [Materiali avanzati e maschere](https://experienceleague.adobe.com/it/docs/substance-3d-painter/using/features/smart-materials-and-masks) di Substance 3D Painter.
 
 Le categorie principali sono tre:
 

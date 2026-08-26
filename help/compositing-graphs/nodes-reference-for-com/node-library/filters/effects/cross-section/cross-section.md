@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/cross-section.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/cross-section.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Sezione trasversale per creare maschere di sezione trasversale basate su mappe di height per gli effetti di taglio e suddivisione in sezioni.
 helpx_creative_field: ""

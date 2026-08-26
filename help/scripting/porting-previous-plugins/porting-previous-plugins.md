@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/porting-previous-plugins.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/scripting/porting-previous-plugins.html"
 breadcrumb-title: ''
 description: Scopri come trasferire i plug-in dalle versioni precedenti di Substance Designer all'API Python corrente.
 helpx_creative_field: ""

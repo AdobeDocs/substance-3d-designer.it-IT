@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/getting-started/overview.html"
 breadcrumb-title: ''
 description: Ottenete una panoramica di Substance 3D Designer e scoprite le sue funzionalità per la creazione di materiali e texture procedurali.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 # Panoramica
 
-[Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) è un&#39;applicazione progettata per la creazione di texture, materiali e filtri 2D in un&#39;interfaccia basata su nodi, con particolare attenzione alla generazione procedurale, alla parametrizzazione e ai flussi di lavoro non distruttivi. Si tratta dell&#39;applicazione più longeva dell&#39;ecosistema Substance 3D e le risorse che ne derivano sono le più versatili e dinamiche possibili.
+[Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html) è un&#39;applicazione progettata per la creazione di texture, materiali e filtri 2D in un&#39;interfaccia basata su nodi, con particolare attenzione alla generazione procedurale, alla parametrizzazione e ai flussi di lavoro non distruttivi. Si tratta dell&#39;applicazione più longeva dell&#39;ecosistema Substance 3D e le risorse che ne derivano sono le più versatili e dinamiche possibili.
 
 Ecco come viene confrontato con altre applicazioni:
 
@@ -77,7 +77,7 @@ I file di Substance sono i **file di origine principali** per Designer. Quando a
 
 *(\*.SBSAR)*
 
-Gli archivi Substance sono <b> file Substance compilati e ottimizzati</b>. Sono molto più veloci da calcolare e possono essere facilmente condivisi senza problemi di riferimento. I parametri possono ancora essere modificati, ma la modifica del grafico è <b>bloccata</b>. Gli archivi Substance possono essere utilizzati in tutte le applicazioni Substance 3D e in tutte le applicazioni con [integrazione Substance 3D](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home) (alcune con un plug-in esterno), ad esempio Autodesk 3DS Max &amp; Maya, Unreal Engine o Unity Engine.
+Gli archivi Substance sono <b> file Substance compilati e ottimizzati</b>. Sono molto più veloci da calcolare e possono essere facilmente condivisi senza problemi di riferimento. I parametri possono ancora essere modificati, ma la modifica del grafico è <b>bloccata</b>. Gli archivi Substance possono essere utilizzati in tutte le applicazioni Substance 3D e in tutte le applicazioni con [integrazione Substance 3D](https://experienceleague.adobe.com/it/docs/substance-3d/ecosystem/home) (alcune con un plug-in esterno), ad esempio Autodesk 3DS Max &amp; Maya, Unreal Engine o Unity Engine.
 
 </td>
 <td style="border: 0;" valign="top">

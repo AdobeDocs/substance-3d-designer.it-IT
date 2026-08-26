@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/3d-scene-resource.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/resources/3d-scene-resource.html"
 breadcrumb-title: ''
 description: Scoprite come importare e utilizzare le risorse per scene 3D in Substance 3D Designer per l’anteprima e il test del materiale.
 helpx_creative_field: ""
@@ -44,7 +44,7 @@ Sono supportati i seguenti formati di file di scena 3D:
 
 Le scene 3D possono essere collegate *solo*, il che significa che si trovano nella loro posizione sul disco e vi si fa riferimento nell&#39;applicazione.
 
-Quando un pacchetto con una risorsa scena 3D viene pubblicato come risorsa [Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html) (SBSAR), la trama *non è incorporata*, ma viene eliminata.
+Quando un pacchetto con una risorsa scena 3D viene pubblicato come risorsa [Substance 3D](https://www.adobe.com/it/products/substance3d/3d-augmented-reality.html) (SBSAR), la trama *non è incorporata*, ma viene eliminata.
 
 ## Mappe mesh di cottura
 

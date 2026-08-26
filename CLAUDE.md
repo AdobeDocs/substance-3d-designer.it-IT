@@ -58,7 +58,7 @@ Mantieni `description` preciso e conciso: viene utilizzato per frammenti di rice
 
 * L&#39;inglese è la fonte della verità; tutte le altre lingue sono tradotte da esso.
 * Tutti i collegamenti ad altre pagine della documentazione devono essere collegamenti **relativi**; tutti i collegamenti a risorse esterne devono essere collegamenti **assoluti**.
-* Il contenuto è scritto in Markdown aromatizzato con GitHub con estensioni/gotcha personalizzate di Experience League, documentate [qui](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/writing-essentials/markdown). Utilizza l&#39;abilità `write-experience-league-markdown` (se presente) per le specifiche.
+* Il contenuto è scritto in Markdown aromatizzato con GitHub con estensioni/gotcha personalizzate di Experience League, documentate [qui](https://experienceleague.adobe.com/it/docs/contributor/contributor-guide/writing-essentials/markdown). Utilizza l&#39;abilità `write-experience-league-markdown` (se presente) per le specifiche.
 * Ogni modifica inviata viene sottoposta a controlli lint automatici e convalida dei collegamenti in CI (vedere di seguito). Controllare `markdownlint_custom.json` e `linkcheckexclude.json` prima di presumere che si applichi una regola o che un collegamento debba essere corretto.
 
 &#x200B;# Convalida/CI

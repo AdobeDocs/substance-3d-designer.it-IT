@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments.html"
 breadcrumb-title: ''
 description: Accedete ai nodi dei filtri di regolazione in Substance 3D Designer per modificare colore, luminosità, contrasto e altre proprietà della texture.
 helpx_creative_field: ""

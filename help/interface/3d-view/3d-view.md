@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/3d-view.html"
 breadcrumb-title: ''
 description: Utilizzate la vista 3D in Substance 3D Designer per visualizzare in anteprima i materiali sugli oggetti 3D e verificare le condizioni di illuminazione.
 helpx_creative_field: ""
@@ -221,7 +221,7 @@ Per esportare la trama della vista 3D, accedete a <b>Scena > Esporta trama tasse
 >
 > **TDR (solo Windows)**
 > 
-> Per questa funzione è necessario che <b>Rilevamento e ripristino del timeout</b> corrisponda ai valori consigliati nella [pagina](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) della documentazione, come indicato nei [Requisiti tecnici](../../getting-started/system-requirements/system-requirements.md) di Designer.
+> Per questa funzione è necessario che <b>Rilevamento e ripristino del timeout</b> corrisponda ai valori consigliati nella [pagina](https://experienceleague.adobe.com/it/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) della documentazione, come indicato nei [Requisiti tecnici](../../getting-started/system-requirements/system-requirements.md) di Designer.
 
 ## Barra dei menu
 
@@ -305,7 +305,7 @@ Il menu Materiali presenta un elenco di tutti i materiali assegnati a una trama 
 
 <b>Carica definizione...: </b>(solo rendering OpenGL) Consente di caricare il tuo [shader GLSLFX personalizzato.](../../interface/3d-view/glslfx-shaders/glslfx-shaders.md) Lo shader viene aggiunto all’elenco precedente.
 
-<b>Reimposta parametri comuni:</b> Reimposta tutti i parametri comuni tra gli shader. Ad esempio, quando si passa dal modulo di rendering Rasterizer/Pathtracer GPU al modulo di rendering OpenGL e viceversa, vengono riportati diversi valori dei parametri nel [Materiale standard Adobe](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material).
+<b>Reimposta parametri comuni:</b> Reimposta tutti i parametri comuni tra gli shader. Ad esempio, quando si passa dal modulo di rendering Rasterizer/Pathtracer GPU al modulo di rendering OpenGL e viceversa, vengono riportati diversi valori dei parametri nel [Materiale standard Adobe](https://experienceleague.adobe.com/it/docs/substance-3d/general-knowledge/asm/adobe-standard-material).
 
 <b>Rinomina:</b> Modificare l&#39;etichetta per questo materiale.
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/parameters-not-working-as-expected.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/technical-issues/parameters-not-working-as-expected.html"
 breadcrumb-title: ''
 description: Risolvi i problemi con i parametri del grafico Substance che non funzionano come previsto e trova soluzioni.
 helpx_creative_field: ""
