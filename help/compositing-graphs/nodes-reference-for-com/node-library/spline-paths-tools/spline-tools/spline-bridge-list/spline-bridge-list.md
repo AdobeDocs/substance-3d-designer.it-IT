@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline Bridge (elenco)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 0%
@@ -55,9 +55,9 @@ Le spline generate possono essere lineari (dritte) o quadratiche (curve).
 <b> R</b> - Posizione X\
 <b> G</b> - Posizione Y\
 <b> B</b> - Height\
-    <b>A</b> - Dati compressi:\
-        * Segno: la spline è chiusa (negativa) o aperta (positiva);\
-        * Valore assoluto: Thickness + 1.
+<b>A</b> - Dati compressi:\
+* Segno: la spline è chiusa (negativa) o aperta (positiva);\
+* Valore assoluto: Thickness + 1.
 
 <b>Dati spline</b> *Colore* Dati aggiuntivi delle spline di input codificate nei canali RGBA di un&#39;immagine a colori.\
 <b> R</b> - Tangenti X\
@@ -72,18 +72,18 @@ Le spline generate possono essere lineari (dritte) o quadratiche (curve).
 <b>Anteprima</b> *Scala di grigi* Anteprima delle spline di output come immagine in scala di grigi.
 
 <b>Spline Coords</b> *Colore* Coordinate dei punti delle spline di output codificate nei canali RGBA di un&#39;immagine a colori.\
-    <b>R</b> - Posizione X\
-    <b>G</b> - Posizione Y\
-    <b>B</b> - Height\
-    <b>A</b> - Dati compressi:\
-        * Segno: la spline è chiusa (negativa) o aperta (positiva);\
-        * Valore assoluto: Thickness + 1.
+<b>R</b> - Posizione X\
+<b>G</b> - Posizione Y\
+<b>B</b> - Height\
+<b>A</b> - Dati compressi:\
+* Segno: la spline è chiusa (negativa) o aperta (positiva);\
+* Valore assoluto: Thickness + 1.
 
 <b>Dati spline</b> *Colore* Dati aggiuntivi delle spline di output codificate nei canali RGBA di un&#39;immagine a colori.\
-    <b>R</b> - Tangenti X\
-    <b>G</b> - Tangenti Y\
-    <b>B</b> - Non utilizzato\
-    <b>A</b> - Non in uso
+<b>R</b> - Tangenti X\
+<b>G</b> - Tangenti Y\
+<b>B</b> - Non utilizzato\
+<b>A</b> - Non in uso
 
 <b>Quantità spline</b> *Numero intero* Numero di spline di output.
 
@@ -113,11 +113,11 @@ Le spline generate che soddisfano l&#39;inizio o la fine delle spline attraversa
 *- Spline padre:* Viene utilizzata l&#39;intera lunghezza delle spline padre. Può causare sovrapposizioni.\
 *- Intervallo:* Viene utilizzato l&#39;intervallo tra le spline del bridge. Ciò riduce le sovrapposizioni. Questa distanza diminuisce con l&#39;aumentare della quantità di spline del ponte.
 
-<b>Inizio scostamento casuale</b> *Mobile* Moltiplicatore per lo scostamento casuale applicato alla posizione iniziale delle spline del ponte, in cui la distanza massima è specificata dal parametro <b>Intervallo scostamento casuale</b>.
+<b>Avvia scostamento casuale</b> *Mobile* Moltiplicatore per lo scostamento casuale applicato alla posizione iniziale delle spline del ponte, in cui la distanza massima è specificata dal parametro <b>Intervallo scostamento casuale</b>.
 
-<b>Fine scostamento casuale</b> *Mobile* Moltiplicatore per lo scostamento casuale applicato alla posizione finale delle spline del ponte, in cui la distanza massima è specificata dal parametro <b>Intervallo scostamento casuale</b>.
+<b>Fine Scostamento Casuale</b> *Mobile* Moltiplicatore per lo scostamento casuale applicato alla posizione finale delle spline del ponte, in cui la distanza massima è specificata dal parametro <b>Intervallo scostamento casuale</b>.
 
-<b>Scostamento casuale globale</b> *Mobile* Un moltiplicatore per *uguale quantità* di scostamento casuale applicato *sia* la posizione iniziale che quella finale delle spline del ponte, dove la distanza massima è specificata dal parametro <b>Intervallo scostamento casuale</b>.
+<b>Scostamento casuale globale</b> *Mobile* Un moltiplicatore per *uguale quantità* di offset casuale applicato *sia* la posizione iniziale che finale delle spline del ponte, dove la distanza massima è specificata dal parametro <b>Intervallo di offset casuale</b>.
 
 <b>Distribuzione uniforme</b> *Booleano* Se è True, i punti delle spline generate sono equamente distanziati dall&#39;inizio alla fine.
 
@@ -126,22 +126,22 @@ Le spline generate che soddisfano l&#39;inizio o la fine delle spline attraversa
 *- Eredita dalle spline padre:* Viene utilizzato il thickness delle spline padre nelle posizioni iniziale e finale delle spline ponte\
 *- Override:* Viene utilizzato il valore arbitrario specificato nel parametro <b>Thickness</b>
 
-<b>Thickness</b> *Mobile* Il valore assoluto del thickness applicato alle spline del ponte.
+<b>Thickness</b> *Float* Valore thickness assoluto applicato alle spline del ponte.
 
-<b>Thickness casuale</b> *Mobile* Un moltiplicatore casuale per il thickness delle spline del ponte, in cui il thickness iniziale a cui viene applicato questo moltiplicatore è specificato dal parametro <b>Modalità Thickness</b>.
+<b>Thickness casuale</b> *Float* Un moltiplicatore casuale per il thickness delle spline del ponte, in cui il thickness iniziale a cui viene applicato questo moltiplicatore è specificato dal parametro <b>Modalità Thickness</b>.
 
 +++
 
 +++Altezza
-<b>Modalità Height</b> *Numero intero* Metodo di acquisizione del valore height per le spline del bridge.\
+<b>Modalità Height</b> *Intero* Metodo di acquisizione del valore height per le spline del ponte.\
 *- Eredita dalle spline padre:* Viene utilizzato il height delle spline padre nelle posizioni iniziale e finale delle spline ponte\
 *- Override:* Viene utilizzato il valore arbitrario specificato nel parametro <b>Height</b>
 
-<b>Scostamento Height</b> *Fluttuazione* Quantità di scostamento applicata al height ereditato dalle spline padre, prima che tale height venga applicato alle spline del ponte.
+<b>Scostamento Height</b> *Mobile* Quantità di offset applicata al height ereditato dalle spline padre, prima che tale height venga applicato alle spline del ponte.
 
-<b>Height</b> *Mobile* Il valore assoluto del height applicato alle spline del ponte.
+<b>Height</b> *Float* Valore height assoluto applicato alle spline del ponte.
 
-<b>Height casuale</b> *Fluttuazione* Quantità casuale di regolazione al height delle spline del ponte, in cui la regolazione dipende dal parametro <b>Modalità Height</b> selezionato:\
+<b>Height casuale</b> *Mobile* Una quantità casuale di regolazione al height delle spline del ponte, dove tale regolazione dipende dal parametro selezionato per la <b>modalità Height</b>:\
 *- Eredita dalle spline padre:* Il valore è un moltiplicatore per il height ereditato.\
 *- Sostituzione:* Il valore è un offset aggiunto al height.
 

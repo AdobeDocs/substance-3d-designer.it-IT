@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Input
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 0%
@@ -106,11 +106,11 @@ Per visualizzarlo con gli output di un altro grafico, dovrete esportare il grafi
 
 |  |  |
 | --- | --- |
-| <b>Identificatore</b> *Stringa* | L&#39;unico attributo univoco obbligatorio. Impossibile contenere spazi.   Questa opzione viene utilizzata per etichettare gli input se non è impostata alcuna etichetta e per distinguere tra output diversi. Non lasciatele solo su &quot;input\_1&quot;! |
+| <b>Identificatore</b> *Stringa* | L&#39;unico attributo univoco obbligatorio. Impossibile contenere spazi.   Questa opzione viene utilizzata per etichettare gli input se non è impostata alcuna etichetta e per distinguere tra output diversi. Non lasciatele solo su &quot;input\_1&quot;! |
 | <b>Descrizione</b> *Stringa* | Descrizione facoltativa utilizzata nella libreria di Designer e nello scaffale di Painter. |
-| <b>Etichetta</b> *Stringa* | Etichetta dell&#39;interfaccia utente utilizzata per un&#39;etichettatura ottimale nell&#39;interfaccia utente di Designer e Painter. Può contenere spazi.   Si consiglia di impostare un nome simile all&#39;identificatore, con le sole barre spaziatrici invece dei caratteri di sottolineatura. |
+| <b>Etichetta</b> *Stringa* | Etichetta dell&#39;interfaccia utente utilizzata per un&#39;etichettatura ottimale nell&#39;interfaccia utente di Designer e Painter. Può contenere spazi.   Si consiglia di impostare un nome simile all&#39;identificatore, con le sole barre spaziatrici invece dei caratteri di sottolineatura. |
 | <b>Dati utente</b> *Stringa* | Dati utente aggiuntivi e facoltativi che possono essere utilizzati per operazioni di filtro specifiche, in pratica un campo dati personalizzato con caratteri jolly. |
-| <b>Gruppo</b> *Stringa* | Attributo gruppo utilizzato per raggruppare gli input per le [modalità di creazione dei collegamenti](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) di Designer.   Gli input con un attributo di gruppo identico (con distinzione tra maiuscole e minuscole) verranno presentati come una singola connessione in modalità Materiale compatto. |
+| <b>Gruppo</b> *Stringa* | Attributo gruppo utilizzato per raggruppare gli input per le [modalità di creazione dei collegamenti](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) di Designer.   Gli input con un attributo di gruppo identico (con distinzione tra maiuscole e minuscole) verranno presentati come una singola connessione in modalità Materiale compatto. |
 
 ## Ereditarietà
 
@@ -157,6 +157,6 @@ Inoltre, gli attributi di utilizzo vengono utilizzati anche con le [modalità di
 
 |  |  |
 | --- | --- |
-| <b>Componente</b> *Stringa* | Determina quali canali sono effettivamente presenti nell’input risultante.   Questa è un’impostazione legacy che non viene più utilizzata da integrazioni e grafici. |
+| <b>Componente</b> *Stringa* | Determina quali canali sono effettivamente presenti nell’input risultante.   Questa è un’impostazione legacy che non viene più utilizzata da integrazioni e grafici. |
 | <b>Utilizzo</b> *Stringa* | Definire un tipo o un utilizzo per questo input. Indica la modalità di connessione degli altri nodi a questo input. |
 | <b>Spazio colore</b> *Stringa* | Imposta lo spazio colore in cui deve essere interpretato questo input. |

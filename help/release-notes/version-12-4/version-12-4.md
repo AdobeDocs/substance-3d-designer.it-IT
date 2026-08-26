@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Versione 12.4
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '820'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Quando modificate il grafico, a volte dovete sperimentare diverse possibilità e
 
 ### Digitare le formule nei campi dei parametri
 
-Non è più necessario utilizzare una calcolatrice o calcolare nella testa quando si desidera immettere valori di parametri specifici. È ora possibile immettere direttamente formule di base come aggiunte, divisioni, moltiplicazioni o sottrazioni quando si imposta un valore numerico per un parametro in [Proprietà](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) e in altre posizioni dell&#39;applicazione.
+Non è più necessario utilizzare una calcolatrice o calcolare nella testa quando si desidera immettere valori di parametri specifici. È ora possibile immettere direttamente formule di base come aggiunte, divisioni, moltiplicazioni o sottrazioni quando si imposta un valore numerico per un parametro nelle proprietà e in altre posizioni dell&#39;applicazione.
 
 ![](../../assets/final-formula.gif){width="640px"}
 

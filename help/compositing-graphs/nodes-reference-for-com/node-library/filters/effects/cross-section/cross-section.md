@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Sezione trasversale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 0%
@@ -57,10 +57,10 @@ Attiva una sovrapposizione che mostra la posizione della sezione sull’immagine
 Impostazioni helper
 
 <b>Scala helper</b> *Mobile*\
-    La dimensione della sovrapposizione espressa come multiplo, dove 1,0 è l’intera immagine.
+La dimensione della sovrapposizione espressa come multiplo, dove 1,0 è l’intera immagine.
 
-<b> Posizione helper</b> *Float2*\
-    Posizione (X, Y) della sovrapposizione nell’immagine di output, dove (0,0, 0,0) è in alto a sinistra e (1,0, 1,0) è in basso a destra.
+<b> posizione helper</b> *Float2*\
+Posizione (X, Y) della sovrapposizione nell’immagine di output, dove (0,0, 0,0) è in alto a sinistra e (1,0, 1,0) è in basso a destra.
 
 <b>Scala Height</b> *Mobile*
 
@@ -87,11 +87,11 @@ Imposta la quantità di segmenti da disegnare in Stile poligonale o in Stile lin
 Imposta il thickness della linea.\
 *Nota:* disponibile solo quando &#39;Stile disegno&#39; è impostato su &#39;Linea.
 
-<b>Stile linea</b> *Intero*\
+<b>Stile linea</b> *Numero intero*\
 Consente di scegliere la colorazione e la dissolvenza della linea.\
 *Nota:* disponibile solo quando &#39;Stile disegno&#39; è impostato su &#39;Linea.
 
-<b>smoothness linea</b> *Mobile*\
+<b>smoothness riga</b> *Mobile*\
 Imposta il decadimento della sfumatura della linea.\
 *Nota:* disponibile solo quando &#39;Stile disegno&#39; è impostato su &#39;Linea.
 
@@ -99,7 +99,7 @@ Imposta il decadimento della sfumatura della linea.\
 Colore in scala di grigio della linea o della forma.\
 *Nota:* disponibile solo quando &#39;Stile disegno&#39; è impostato su &#39;Uniforme&#39; oppure &#39;Linea&#39; e &#39;Stile linea&#39; è impostato su &#39;Uniforme&#39; o &#39;Uniforme&#39;.
 
-<b>Colore di sfondo</b> *Colore float* Scala di grigi dello sfondo.\
+<b>Colore di sfondo</b> *Colore fluttuante* in scala di grigi dello sfondo.\
 *Nota:* non disponibile quando &#39;Stile disegno&#39; è impostato su &#39;Linea&#39; e &#39;Stile linea&#39; è impostato su &#39;ID segmento&#39; o &#39;Sfumatura lungo la linea&#39;.
 
 ## Esempi

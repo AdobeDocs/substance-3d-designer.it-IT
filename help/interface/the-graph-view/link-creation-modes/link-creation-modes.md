@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Modalità di creazione del collegamento
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 0%
@@ -70,12 +70,12 @@ Nelle modalità <b>Materiale</b> e <b>Materiale compatto</b>, le connessioni tra
 
 ## Le modalità
 
-|  | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-19-40-25.png"/></div> Standard | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-17-11-20.png"/></div> Compatta | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-19-40-46.png"/></div> Materiale compatto |
+|  | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-19-40-25.png"/></div> Standard | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-17-11-20.png"/></div> Compatta | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-19-40-46.png"/></div> Materiale compatto |
 | --- | --- | --- | --- |
 | <b>Input</b> | Tutti gli input sono visibili | Tutti gli input sono visibili | Solo 1 ingresso per gruppo |
 | <b>Output</b> | Tutti gli output sono visibili | Tutti gli output sono visibili | Solo 1 output per gruppo |
 | <b>Collegamenti</b> | Tutti i collegamenti sono visibili | Tutti i collegamenti sono visibili | Solo 1 collegamento per gruppo (verde) |
-| <b>Connessioni</b> | Collegamento dei collegamenti uno alla volta | Puoi collegare i collegamenti tra loro come gruppo di materiali con più collegamenti in base agli usi corrispondenti.   Quando un utilizzo è presente su un&#39;estremità, la connessione è di tipo Standard. | I collegamenti vengono collegati insieme come gruppo di materiali a collegamento singolo. |
+| <b>Connessioni</b> | Collegamento dei collegamenti uno alla volta | Puoi collegare i collegamenti tra loro come gruppo di materiali con più collegamenti in base agli usi corrispondenti.   Quando un utilizzo è presente su un&#39;estremità, la connessione è di tipo Standard. | I collegamenti vengono collegati insieme come gruppo di materiali a collegamento singolo. |
 
 ## Assegnazione di gruppi
 

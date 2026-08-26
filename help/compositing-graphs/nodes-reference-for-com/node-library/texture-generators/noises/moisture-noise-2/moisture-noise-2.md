@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Rumore umidità 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '380'
 ht-degree: 1%
 
 ---
@@ -42,26 +42,6 @@ Una variazione dei rumori <b>di umidità</b> ricchi e spugnosi.
 Dischi di diversa durezza e dimensione, distribuiti e addizionati o sottratti dal colore sottostante, a partire da un grigio di base.
 
 Vedere anche: [Rumore di umidità 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### Output
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parametri
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Esempi
 
 </td>
 </tr>

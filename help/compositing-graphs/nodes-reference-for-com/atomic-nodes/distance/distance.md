@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Distanza
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 8%
@@ -84,16 +84,16 @@ Per ulteriori informazioni, consultate i seguenti [esempi](#examples).
 
 |  |  |
 | --- | --- |
-| <b>Metodo colore</b> *Booleano* | Alterna tra un’immagine in scala di grigio e un’immagine a colori in output. Modifica anche il tipo di input &quot;Input sorgente&quot;. |
+| <b>Metodo colore</b> *Booleano* | Alterna tra un’immagine in scala di grigio e un’immagine a colori in output. Modifica anche il tipo di input &quot;Input sorgente&quot;. |
 | <b>Distanza massima</b> *Mobile* | Regola la distanza massima in pixel per il rilevamento del bordo più vicino nella maschera. |
-| <b>Combina origine/distanza</b> *Booleano* | Determinare la modalità di combinazione del &quot;Input sorgente&quot; facoltativo con le celle finali.<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Combina:</i> combina il valore &#39;Input sorgente&#39; con la maschera lineare di dissolvenza. Se l&#39;input &#39;Source input&#39; è collegato, il suo valore viene combinato con la distanza calcolata.</li> <li data-preserve-html="true"><i>Solo origine:</i> genera un colore in tinta unita solo dall&#39;input di origine.</li> </ul> |
+| <b>Combina origine/distanza</b> *Booleano* | Determinare la modalità di combinazione del &quot;Input sorgente&quot; facoltativo con le celle finali.<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Combina:</i> combina il valore &#39;Input sorgente&#39; con la maschera lineare di dissolvenza. Se l&#39;input &#39;Source input&#39; è collegato, il suo valore viene combinato con la distanza calcolata.</li> <li data-preserve-html="true"><i>Solo origine:</i> genera un colore in tinta unita solo dall&#39;input di origine.</li> </ul> |
 | <b>Modalità distanza</b> *Numero intero* | Seleziona il metodo di calcolo della distanza dal bordo più vicino nella maschera estratta:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Euclideo:</i> somma delle differenze X/Y al quadrato.</li> <li data-preserve-html="true"><i>Manhattan:</i> somma dei valori assoluti delle differenze X/Y.</li> <li data-preserve-html="true"><i>Chebyshev:</i> massimo di valori assoluti di differenze X/Y.</li> </ul>  <div><img alt="Esempi di modalità Distanza" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_copy_copy_copy_row-yj03rtt-column-0i13nfd_image" src="../../../../assets/distance-comparison.jpg" title="Esempi di modalità Distanza"/></div> |
 
 ## Connettori di ingresso
 
 |  |  |
 | --- | --- |
-| <b>Input maschera</b> *Scala di grigi* PRIMARIO | Maschera in scala di grigio, i cui bordi devono essere calcolati con un valore di distanza.   Una maschera binaria viene estratta dall’immagine con un valore di soglia pari a 0,5, in cui tutti i valori al di sopra di tale soglia sono bianchi e tutti i valori al di sotto sono neri. |
+| <b>Input maschera</b> *Scala di grigi* PRIMARIO | Maschera in scala di grigio, i cui bordi devono essere calcolati con un valore di distanza.   Una maschera binaria viene estratta dall’immagine con un valore di soglia pari a 0,5, in cui tutti i valori al di sopra di tale soglia sono bianchi e tutti i valori al di sotto sono neri. |
 | <b>Input di origine</b> *Colore/Scala di grigi* | Immagine in scala di grigio facoltativa dalla quale deve essere copiato il valore del pixel sul bordo più vicino dell’input della maschera. |
 
 ## Connettori di uscita

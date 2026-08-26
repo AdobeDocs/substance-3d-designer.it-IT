@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Specifiche formato tracciati
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '2491'
 ht-degree: 0%
@@ -111,7 +111,7 @@ L&#39;intestazione del percorso Nth verrà definita all&#39;indirizzo `path\_add
 +++In alto
 <b>X</b>
 
-Numero di vertici in questo percorso. Deve essere compreso nell&#39;intervallo [0, 16777216].
+Numero di vertici in questo percorso. Deve essere compreso nell&#39;intervallo [0, 16777216].
 
 Se i vertici iniziale e finale di un tracciato chiuso si trovano nella stessa posizione, contano comunque per 2 vertici.\
 Un percorso con 0 vertici è comunque un percorso valido.

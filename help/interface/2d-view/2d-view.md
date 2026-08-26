@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Vista 2D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '2379'
+source-wordcount: '2354'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Le immagini possono anche essere *trascinate e rilasciate* direttamente nella fi
 Nella vista Grafico, puoi inviare un&#39;immagine alla vista 2D utilizzando l&#39;opzione di menu contestuale <b>Visualizza output in vista 2D</b>, a cui si accede facendo clic su *RMB*...
 
 * ...su un *nodo* per visualizzare *l&#39;output di tale nodo*. Se il nodo dispone di più output, selezionare l&#39;output desiderato nel sottomenu
-* ...su *spazio vuoto* nella visualizzazione Grafico per visualizzare *l&#39;output di quel grafico*. Se il grafico ha più di un output, selezionate l’output desiderato nel sottomenu
+* ...su *spazio vuoto* nella visualizzazione Grafico per visualizzare *l&#39;output di quel grafico*. Se il grafico ha più di un output, selezionate l’output desiderato nel sottomenu
 
 Quando si carica un grafico, il relativo *primo output* viene visualizzato automaticamente nella vista 2D per impostazione predefinita. Puoi disabilitare questo comportamento nelle [Preferenze](../../interface/preferences-window/preferences-window.md). Passate a <b>Modifica > Preferenze > Grafico > Substance grafico composizione</b> e *deselezionate* l&#39;output <b>Visualizza nella vista 2D quando aprite un&#39;opzione grafico</b>.
 
@@ -124,7 +124,7 @@ Puoi *sovrapporre un&#39;immagine diversa* sopra a quella attualmente visualizza
 
 Una volta selezionato il file, viene visualizzata una nuova barra degli strumenti con i seguenti controlli per la sovrapposizione dell’immagine:
 
-<b>![](../../assets/2d-view-icon-background-close.png) Chiudere:</b> *chiudere* la barra degli strumenti dei controlli di sovrapposizione e *disattivare* la sovrapposizione dell&#39;immagine di sfondo.
+Chiusura di <b>![](../../assets/2d-view-icon-background-close.png):</b> *chiudete* la barra degli strumenti dei controlli in sovrapposizione e *disattivate* la sovrapposizione dell&#39;immagine di sfondo.
 
 <b>![](../../assets/2d-view-icon-background-loadpng.png) Caricare l&#39;immagine:</b> selezionare *un altro file di immagine* da utilizzare come sovrapposizione.
 
@@ -181,7 +181,7 @@ Questa funzionalità *non* è disponibile per altri nodi, inclusi i nodi con pi�
 
 Se l&#39;opzione <b>Visualizza UV in vista 2D</b> è abilitata nel menu <b>Scena</b> del dock [vista 3D](../../interface/3d-view/3d-view.md), la funzione di sovrapposizione UV è disponibile nella vista 2D.
 
-Puoi abilitarla utilizzando il pulsante <b>UV</b>. ![](../../assets/2d-view-icon-uv.png)
+Puoi abilitarla utilizzando il pulsante <b>UV</b>. ![](../../assets/2d-view-icon-uv.png)
 
 In questo modo gli UV della trama [attualmente selezionata nella vista 3D](../../interface/3d-view/3d-view.md) vengono visualizzati come wireframe colorato.
 
@@ -343,7 +343,7 @@ Gli <b>strumenti di pittura bitmap</b> sono disponibili per [risorse bitmap](../
 
 >[!TIP]
 >
-> Per ulteriori informazioni, consultate la pagina [Editor di pittura bitmap](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/bitmap-painting-editor-102400057.html) della documentazione.
+> Per ulteriori informazioni, consultate la pagina [Strumenti di pittura bitmap](../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md) della documentazione.
 
 <table>
 <tr style="border: 0;">
@@ -368,7 +368,7 @@ L&#39;<b>editor di grafica vettoriale</b> è disponibile per le *risorse importa
 
 >[!TIP]
 >
-> Per ulteriori informazioni, consulta la pagina [Editor di grafica vettoriale (obsoleto)](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/vector-graphic-editor-deprecated-102400059.html) della documentazione.
+> Ulteriori informazioni sono disponibili nella pagina [Strumenti di modifica vettoriale](../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md) (obsoleto) della documentazione.
 
 ![Gestione colore vista 2D](../../assets/2d-view-color-management-ocio.png "Gestione colore vista 2D"){width="360px"}
 

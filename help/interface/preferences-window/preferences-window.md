@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Preferenze
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: b1b28e909a4d3c19c1dbc28e5ed25b3adc327ac3
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '2030'
+source-wordcount: '1973'
 ht-degree: 1%
 
 ---
@@ -35,15 +35,15 @@ Ti consigliamo di rivedere tutte queste impostazioni per comprendere meglio come
 
 ### Documenti recenti
 
-|  |  |
-| --- | --- |
-| <b>L&#39;elenco dei documenti recenti contiene</b>  *Impostazione predefinita: 10* | Ciò consente di selezionare il numero di documenti da elencare nella voce <b>Pacchetti recenti</b> dell&#39;elemento <b>File</b> nel [menu principale](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html). |
+|  |                                                                                                                                         |
+| --- |-----------------------------------------------------------------------------------------------------------------------------------------|
+| <b>L&#39;elenco dei documenti recenti contiene</b>  *Impostazione predefinita: 10* | Ciò consente di selezionare il numero di documenti da elencare nella voce <b>Pacchetti recenti</b> dell&#39;elemento <b>File</b> nel [menu principale](../the-main-toolbar/the-main-toolbar.md). |
 
 ### Cronologia
 
 |  |  |
 | --- | --- |
-| **Dimensione stack cronologia** *Impostazione predefinita: 200* | Indica il numero di operazioni di annullamento disponibili in un dato momento nell&#39;elemento <b>Modifica > Annulla</b> del [menu principale](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html).  **Attenzione:** maggiori sono le operazioni di annullamento necessarie, maggiore sarà la quantità di memoria richiesta dall&#39;applicazione. |
+| **Dimensione stack cronologia** *Impostazione predefinita: 200* | Indica il numero di operazioni di annullamento disponibili in un dato momento nell&#39;elemento <b>Modifica > Annulla</b> del [menu principale](../the-main-toolbar/the-main-toolbar.md).  **Attenzione:** maggiori sono le operazioni di annullamento necessarie, maggiore sarà la quantità di memoria richiesta dall&#39;applicazione. |
 
 ### Lingua
 
@@ -111,13 +111,13 @@ Si noti inoltre che i salvataggi automatici devono essere aperti *dopo averli sp
 
 |  |  |
 | --- | --- |
-| <b>Salva sempre il file .sbs durante la pubblicazione in .sbsar o l&#39;invio a un&#39;altra applicazione</b>  *Impostazione predefinita: True* | Controlla il salvataggio automatico del pacchetto SBS durante la [pubblicazione](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) o l&#39;invio a un&#39;altra applicazione[&#128279;](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html). |
+| <b>Salva sempre il file .sbs durante la pubblicazione in .sbsar o l&#39;invio a un&#39;altra applicazione</b>  *Impostazione predefinita: True* | Controlla il salvataggio automatico del pacchetto SBS quando [lo pubblica](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) o lo invia a un&#39;altra applicazione. |
 
 ### Cooker
 
-|  |  |
-| --- | --- |
-| <b>Limite dimensione cottura</b>  *Impostazione predefinita: 8192 pixel* | Definisce la risoluzione pixel massima consentita per tutti i [nodi](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/nodes-reference-129368078.html) in qualsiasi [grafico](../../compositing-graphs/substance-compositing-graphs.md). Poiché gli output dei grafici sono sempre immagini quadrate con risoluzioni di potenze di 2, il valore qui impostato definisce sia la larghezza massima che il height in pixel. |
+|  |                                                                                                                                                                                                                                                                                                 |
+| --- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <b>Limite dimensione cottura</b>  *Impostazione predefinita: 8192 pixel* | Definisce la risoluzione pixel massima consentita per tutti i nodi in qualsiasi [grafico](../../compositing-graphs/substance-compositing-graphs.md) della Substance. Poiché gli output dei grafici sono sempre immagini quadrate con risoluzioni di potenze di 2, il valore qui impostato definisce sia la larghezza massima che il height in pixel. |
 
 ### Motore
 

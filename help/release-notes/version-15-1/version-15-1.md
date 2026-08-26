@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versione 15.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 99e410384cec6569f613bb771db26585887704d8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1719'
 ht-degree: 0%
@@ -28,9 +28,9 @@ Substance Designer 15.1 introduce una finestra di creazione del grafico completa
 
 ## Migliorare la creazione di grafici
 
-In questa versione, la [finestra per la creazione del grafico](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) è stata <b>completamente riprogettata</b> per migliorare l&#39;esperienza iniziale dell&#39;utente in Substance 3D Designer. L’obiettivo principale di questo aggiornamento è quello di semplificare il processo di selezione dei modelli, consentendo agli utenti di identificare in modo efficiente il modello più adatto alle loro esigenze.
+In questa versione, la [finestra per la creazione del grafico](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) è stata <b>completamente riprogettata</b> per migliorare l&#39;esperienza iniziale dell&#39;utente in Substance 3D Designer. L’obiettivo principale di questo aggiornamento è quello di semplificare il processo di selezione dei modelli, consentendo agli utenti di identificare in modo efficiente il modello più adatto alle loro esigenze.
 
-Le miniature offrono <b>riferimenti visivi</b> immediati per i tipi di materiale desiderati, mentre le descrizioni comandi dettagliate forniscono tutte le informazioni pertinenti. Per una migliore organizzazione, i modelli sono ora classificati in <b>categorie</b> specifiche, ad esempio materiali, filtri ed elaborazioni di scansione.
+Le miniature offrono <b>riferimenti visivi</b> immediati per i tipi di materiale desiderati, mentre le descrizioni comandi dettagliate forniscono tutte le informazioni pertinenti. Per una migliore organizzazione, i modelli sono ora classificati in <b>categorie</b> specifiche, ad esempio materiali, filtri ed elaborazioni di scansione.
 
 Sebbene l’interfaccia principale sia stata aggiornata, gli utenti continuano ad avere accesso alle visualizzazioni precedenti, tra cui le opzioni elenco, pacchetti e directory.
 
@@ -44,7 +44,7 @@ Con il lancio della nuova finestra per la creazione del grafico, abbiamo aggiunt
 
 ![Nuova finestra di creazione del grafico per gli esempi](../../assets/GraphSample.png){zoomable="yes"}
 
-Per soddisfare questa esigenza abbiamo incluso campioni di materiale come tessuti (tra cui pelle e raso), legno, metallo, plastica, ceramica e altro ancora. Questi esempi hanno lo scopo di aiutarti a iniziare i tuoi progetti con facilità e a conoscere i principali nodi familiari disponibili in Substance 3D Designer
+Per soddisfare questa esigenza abbiamo incluso campioni di materiale come tessuti (tra cui pelle e raso), legno, metallo, plastica, ceramica e altro ancora. Questi esempi hanno lo scopo di aiutarti a iniziare i tuoi progetti con facilità e a conoscere i principali nodi familiari disponibili in Substance 3D Designer
 
 Ogni grafico è <b>annotato</b>, organizzato con cura e contiene un numero minimo di nodi per facilitarne la comprensione.
 
@@ -68,7 +68,7 @@ Infine, la profondità di bit <b>non è più bloccata a 16 bit</b>. Ora potete i
 
 Consulta l&#39;elenco completo dei rumori aggiornati nelle [note sulla versione](#release-notes) di seguito.
 
-Esempi: [Cella 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md) [Nuvole 2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md) [&#x200B; Graffi direzionali](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-scratches/directional-scratches.md) [&#x200B; Rumore di umidità 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
+Esempi: [Cella 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md) [Nuvole 2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md) [Graffi direzionali](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-scratches/directional-scratches.md) [Rumore di umidità 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
 
 ![disturbo direzionale](../../assets/directionaldisorder.gif){zoomable="yes"}
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Output
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 0%
@@ -49,11 +49,11 @@ Ogni grafico Substance deve avere *almeno un* nodo di output. Se non esiste alcu
 
 |  |  |
 | --- | --- |
-| <b>Identificatore</b> *Stringa* | Identificatore univoco dell&#39;output. Questa proprietà non può essere lasciata vuota e non può contenere spazi o caratteri speciali.   L&#39;identificatore viene utilizzato perché l&#39;etichetta del nodo è la proprietà &#39;Label&#39; viene lasciata vuota. Può essere utilizzato anche per denominare [texture esportate](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md). |
+| <b>Identificatore</b> *Stringa* | Identificatore univoco dell&#39;output. Questa proprietà non può essere lasciata vuota e non può contenere spazi o caratteri speciali.   L&#39;identificatore viene utilizzato perché l&#39;etichetta del nodo è la proprietà &#39;Label&#39; viene lasciata vuota. Può essere utilizzato anche per denominare [texture esportate](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md). |
 | <b>Descrizione</b> *Stringa* | Descrizione facoltativa utilizzata come descrizione dell&#39;output sono i grafici a Substance. |
 | <b>Etichetta</b> *Stringa* | Viene utilizzata come etichetta per il nodo di output e il connettore corrispondente nei [nodi di istanza](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) che rappresentano questo grafico. L&#39;etichetta può contenere spazi e caratteri speciali. |
 | <b>Dati utente</b> *Stringa* | Metadati facoltativi che possono essere utilizzati per operazioni di filtro specifiche. [Substance 3D Painter](https://www.adobe.com/it/products/substance3d/apps/painter.html) utilizza questi dati per [attivare alcune funzionalità](https://experienceleague.adobe.com/it/docs/substance-3d-painter/using/content/creating-custom-effects/user-data). |
-| <b>Gruppo</b> *Stringa* | Attributo utilizzato per raggruppare gli output per le [modalità di creazione dei collegamenti](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) di Designer.   Gli output con un attributo &quot;Group&quot; identico vengono presentati come una singola connessione nella modalità di creazione del collegamento &quot;Compact Material&quot;. |
+| <b>Gruppo</b> *Stringa* | Attributo utilizzato per raggruppare gli output per le [modalità di creazione dei collegamenti](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) di Designer.   Gli output con un attributo &quot;Group&quot; identico vengono presentati come una singola connessione nella modalità di creazione del collegamento &quot;Compact Material&quot;. |
 
 ## Attributi integrazione
 
@@ -66,7 +66,7 @@ Di conseguenza, non influiscono sul formato delle [esportazioni bitmap](../../..
 |  |  |
 | --- | --- |
 | <b>Componente</b> *Stringa* | Questa tecnica viene utilizzata per mappare alcuni canali di texture agli input dello shader SVBRDF appropriati nei flussi di lavoro AxF. |
-| <b>Utilizzo</b> *Stringa* | Definisce il tipo e l&#39;utilizzo del nodo di output. Questa proprietà è importante in quanto guida:<ul data-preserve-html="true"> <li data-preserve-html="true">Connessione di nodi nei grafici a Substance quando si utilizzano alcune [modalità di creazione del collegamento](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) </li> <li data-preserve-html="true">Connessione delle texture agli shader nella vista 3D (vedere di seguito: &#39;[Informazioni sul ruolo degli usi nella vista 3D](#usages-role-3dview)&#39;)</li> <li data-preserve-html="true">Connessione delle texture ai materiali nelle integrazioni/plug-in</li> </ul> |
+| <b>Utilizzo</b> *Stringa* | Definisce il tipo e l&#39;utilizzo del nodo di output. Questa proprietà è importante in quanto guida:<ul data-preserve-html="true"> <li data-preserve-html="true">Connessione di nodi nei grafici a Substance quando si utilizzano alcune [modalità di creazione del collegamento](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) </li> <li data-preserve-html="true">Connessione delle texture agli shader nella vista 3D (vedere di seguito: &#39;[Informazioni sul ruolo degli usi nella vista 3D](#usages-role-3dview)&#39;)</li> <li data-preserve-html="true">Connessione delle texture ai materiali nelle integrazioni/plug-in</li> </ul> |
 | <b>Spazio colore</b> *Stringa* | Imposta lo spazio cromatico in cui deve essere interpretato questo output. Viene utilizzato da alcune integrazioni in altre applicazioni e non ha alcun impatto su Designer. |
 
 ### Informazioni sul ruolo degli utilizzi nella vista 3D

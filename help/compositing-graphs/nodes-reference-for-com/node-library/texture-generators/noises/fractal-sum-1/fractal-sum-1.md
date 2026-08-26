@@ -10,10 +10,10 @@ helpx_tags: ""
 title: SOMMA FRATTALE 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 4%
+source-wordcount: '153'
+ht-degree: 2%
 
 ---
 
@@ -40,26 +40,6 @@ ht-degree: 4%
 Variazione dei rumori di <b>Somma frattale</b>.
 
 Vedere anche: [Somma frattale base](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-base/fractal-sum-base.md), [Somma frattale 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-2/fractal-sum-2.md), [Somma frattale 3](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-3/fractal-sum-3.md), [Somma frattale 4](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-4/fractal-sum-4.md)
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### Output
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parametri
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Esempi
 
 </td>
 </tr>

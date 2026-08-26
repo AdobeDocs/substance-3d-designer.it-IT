@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Tutte le modifiche
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e71846d2834d9c1979fe840f1cf9e321f2d4d93f
+source-git-commit: 49d7d426f1b687cf6087bb1c9735a9060af48041
 workflow-type: tm+mt
-source-wordcount: '31805'
+source-wordcount: '32039'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,39 @@ ht-degree: 0%
 # Tutte le modifiche
 
 ## Versione 16
+
+### 16.0.5
+
+*(Rilasciato il 26 agosto 2026)*
+
+**Aggiunto:**
+
+* [Vista 3D] È stato aggiunto un pulsante per selezionare l&#39;AOV corrente
+* [Content] Rumore di Perlin/Gaussian: parametro scala di sblocco
+* [Contenuto] Nascondere le risorse bitmap non necessarie dalla libreria
+<!--
+* &#91;Legal&#93; To meet generative AI transparency legal requirements, this version is updated to automatically attach Content Credentials to qualifying content created or edited with generative AI tools.  
+-->
+
+**Corretto:**
+
+* [Vista 3D] Le modifiche alla visibilità dell’ambiente apportate in OpenGL non vengono trasferite ai moduli di rendering Eclair
+* [Bakers] Il contesto di cottura non è stato eliminato dopo l&#39;aggiornamento dei dolci per una risorsa bitmap UDIM eliminata
+* [Bakers] È stato risolto un arresto anomalo durante l’eliminazione di una risorsa bitmap UDIM durante l’aggiornamento dei relativi bakes.
+* [Content] Splatter forma v2: height forma cilindro non corretto
+* [Content] Splatter forma v2: la mappa di densità non funziona correttamente quando le dimensioni del nodo superano 4096
+* [Content] Splatter forma v2: l&#39;uso dell&#39;SDF &quot;Rock&quot; dietro un If/Else può portare a un ciclo infinito
+* [Security] È stata corretta una vulnerabilità di dereferenziazione del puntatore NULL nell&#39;analisi dei file AXF.
+* [Sicurezza] È stata corretta una vulnerabilità di dereferenziazione del puntatore NULL nell&#39;analisi del file GLB.
+* [Sicurezza] Risolte vulnerabilità di scrittura fuori limite nell&#39;analisi dei file SBSAR
+* [Sicurezza] È stata corretta una vulnerabilità di danneggiamento dell&#39;heap nell&#39;analisi dei file DDS.
+* [Sicurezza] È stata corretta una vulnerabilità di danneggiamento dell&#39;heap nell&#39;analisi dei file GLB.
+* [Sicurezza] È stata corretta una vulnerabilità di danneggiamento dell&#39;heap nell&#39;analisi dei file TGA.
+* [Sicurezza] È stata corretta una vulnerabilità di danneggiamento dell&#39;heap nell&#39;analisi dei file TIFF.
+* [Sicurezza] È stata corretta una vulnerabilità di danneggiamento dell&#39;heap nell&#39;analisi dei file USDA.
+* [Sicurezza] È stata corretta una vulnerabilità di danneggiamento dell&#39;heap nell&#39;analisi dei file WEBP.
+* [UI] Hitbox degli elementi nei menu delle caselle di controllo permanenti si estende solo sul testo dell’elemento
+
 
 ### 16.0.4
 

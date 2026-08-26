@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Predefiniti di parametri
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Esistono due modi per archiviare e caricare i predefiniti, entrambi con casi d�
 
 I Predefiniti esterni riguardano un file esterno sul disco, un file \*.SBSPRS. Possono essere trasferiti tra grafici e nodi diversi, ma solo all&#39;interno dell&#39;applicazione. Il loro scopo principale è esattamente questo: trasferire un numero di valori troppo grande per copiare uno ad uno.
 
-I predefiniti esterni sono disponibili per tutti i parametri specifici nelle [istanze del grafico](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md), per la maggior parte dei parametri specifici nei [nodi atomici](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) ([eccezioni sono i parametri che non possono essere esposti](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)) e per i parametri di input esposti nelle proprietà di un [grafico.](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)
+I predefiniti esterni sono disponibili per tutti i parametri specifici nelle [istanze del grafico](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md), per la maggior parte dei parametri specifici nei [nodi atomici](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) ([eccezioni sono i parametri che non possono essere esposti](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)) e per i parametri di input esposti nei [parametri](../../graph-parameters/graph-parameters.md)parametri di un grafico a Substance.
 
 Vengono semplicemente salvati e caricati tramite questo menu. I file SBSPRS salvati possono essere caricati su qualsiasi altro nodo o grafico.
 

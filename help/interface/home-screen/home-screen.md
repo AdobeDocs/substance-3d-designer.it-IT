@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Schermata Home
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 ![Schermata Home](../../assets/home-screen-home.jpg "Schermata Home")
 
-Schermata <b>Home<b> </b></b>ti accoglie all&#39;avvio di Substance 3D Designer. Ti aiuta a iniziare con i tuoi progetti e ad accedere a collegamenti utili.
+Schermata <b>Home<b> </b></b>ti accoglie all&#39;avvio di Substance 3D Designer. Ti aiuta a iniziare con i tuoi progetti e ad accedere a collegamenti utili.
 
 <table>
 <tr style="border: 0;">

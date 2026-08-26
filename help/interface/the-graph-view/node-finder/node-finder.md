@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ricerca nodi
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ![Barra degli strumenti Ricerca nodi](../../../assets/node-finder-toolbar.png "Barra degli strumenti Ricerca nodi"){zoomable="yes"}
 
-Lo strumento Ricerca nodi consente di eseguire una <b>ricerca di nodi e variabili</b> mediante una query di testo. Tutti i nodi che non corrispondono alla query vengono disattivati per rendere visibili i risultati.
+Lo strumento Ricerca nodi consente di eseguire una <b>ricerca di nodi e variabili</b> mediante una query di testo. Tutti i nodi che non corrispondono alla query vengono disattivati per rendere visibili i risultati.
 
 La query può soddisfare uno qualsiasi dei seguenti criteri:
 
@@ -31,7 +31,7 @@ La query può soddisfare uno qualsiasi dei seguenti criteri:
 * <b>UID</b> di un nodo (identificatore univoco)
 * <b>etichetta</b> di un nodo
 
-La ricerca può attraversare [istanze del grafico](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) in modo ricorsivo, in modo da poter trovare nodi e variabili in [grafici secondari](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md). Se non si è certi del termine esatto da cercare, è disponibile un&#39;opzione di ricerca non definita per applicare una tolleranza alla query.
+La ricerca può attraversare [istanze del grafico](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) in modo ricorsivo, in modo da poter trovare nodi e variabili in [grafici secondari](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md). Se non si è certi del termine esatto da cercare, è disponibile un&#39;opzione di ricerca non definita per applicare una tolleranza alla query.
 
 ## Interfaccia
 

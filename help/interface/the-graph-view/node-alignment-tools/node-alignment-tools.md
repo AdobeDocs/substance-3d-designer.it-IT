@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Strumenti di allineamento dei nodi
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 ![Barra degli strumenti di allineamento dei nodi](../../../assets/node-alignment-toolbar.png "Barra degli strumenti di allineamento dei nodi"){zoomable="yes"}
 
-Gli strumenti di allineamento dei nodi consentono di disporre i nodi nei grafici per migliorarne la leggibilità e l’esperienza di creazione. Offrono azioni per allineare i nodi, distribuirli uniformemente e agganciarli alla griglia.
+Gli strumenti di allineamento dei nodi consentono di disporre i nodi nei grafici per migliorarne la leggibilità e l’esperienza di creazione. Offrono azioni per allineare i nodi, distribuirli uniformemente e agganciarli alla griglia.
 
 Agiscono solo sui <b>nodi attualmente selezionati</b>.
 
@@ -108,7 +108,7 @@ I nodi possono essere allineati orizzontalmente e verticalmente, con tre modalit
 
 ### Impilamento
 
-L&#39;<b>opzione ![](../../../assets/node-alignment-stack.png) dello stack </b> consente di <b>evitare sovrapposizioni</b> durante l&#39;utilizzo degli allineamenti. È attivata per impostazione predefinita.
+L&#39;<b>opzione ![](../../../assets/node-alignment-stack.png) dello stack </b> consente di <b>evitare sovrapposizioni</b> durante l&#39;utilizzo degli allineamenti. È attivata per impostazione predefinita.
 
 Quando questa opzione è attivata, i nodi verranno spostati il più possibile nella posizione di riferimento fino a quando non entreranno in conflitto con un altro nodo nella selezione. In questo modo, vengono impilati nell&#39;asse selezionato con un margine di una cella della griglia media tra ogni nodo.
 

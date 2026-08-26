@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Controllo versione
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 0%
@@ -113,8 +113,8 @@ Installazione di ![P4 in Designer: interpreter](../../../assets/p4v-project-sett
 1. Sono disponibili diverse azioni, a seconda dello stato del file di pacchetto nell’area di lavoro:
 
    * <b>Aggiungi:</b> Contrassegna i file come &#39;ToAdd&#39;
-   * <b>Invia:</b> Invia i pacchetti selezionati. Questa azione visualizza una finestra di dialogo che consente di specificare un messaggio di modifica (vedere di seguito)
-   * <b>Ripristina:</b> Ripristina le modifiche. Questa azione visualizza una finestra di dialogo per la selezione dei file da ripristinare (vedi di seguito)
+   * <b>Invia:</b> Invia i pacchetti selezionati. Questa azione visualizza una finestra di dialogo che consente di specificare un messaggio di modifica (vedere di seguito)
+   * <b>Ripristina:</b> Ripristina le modifiche. Questa azione visualizza una finestra di dialogo per la selezione dei file da ripristinare (vedi di seguito)
    * <b>Estrazione:</b> Estrarre il file dal deposito
    * <b>Ottieni ultima versione:</b> Recupera la versione più recente dal deposito
    * <b>Stato aggiornamento:</b> Aggiornare lo stato del file del pacchetto

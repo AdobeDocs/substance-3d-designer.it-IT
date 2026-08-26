@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Maschera su tracciati
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1113'
 ht-degree: 0%
@@ -66,13 +66,13 @@ Il risultato può essere elaborato utilizzando un altro nodo di elaborazione dei
 Applica arrotondamento alla maschera di input.\
 È utile quando il pattern di input ha bordi molto netti, che di solito causano artefatti.
 
-<b>Valore soglia maschera</b> *Mobile* Valore in scala di grigio di <b>Maschera</b> che verrà utilizzato per separare l&#39;esterno (valori &lt; Valore soglia maschera) e l&#39;interno (valori > Valore soglia maschera) della forma.
+<b>Valore soglia maschera</b> *Mobile* Il valore in scala di grigio di <b>Maschera</b> che verrà utilizzato per separare l&#39;esterno (valori &lt; Valore soglia maschera) e l&#39;interno (valori > Valore soglia maschera) della forma.
 
-<b>Decimate Path</b> *Float* Controlla in modo implicito la quantità di segmenti che verranno generati.\
+<b>Decimare il percorso</b> *Float* Controlla in modo implicito la quantità di segmenti che verranno generati.\
 Un&#39;elevata quantità di decimazione renderà le forme rotonde un po&#39; poligonali, mentre nessuna decimazione genererà quasi un segmento per pixel.\
 Una quantità ragionevole corrisponderà meglio alla forma sia delle linee rette che delle curve senza creare molti punti intermedi per le linee rette.
 
-<b>Chiudere i tracciati aperti</b> *Booleani* Creare un segmento tra i vertici iniziale e finale dei tracciati aperti.\
+<b>Chiudere i tracciati aperti</b> *Booleano* Create un segmento tra i vertici iniziale e finale dei tracciati aperti.\
 La disattivazione di questa opzione può correggere le linee indesiderate che attraversano il pattern in modo imprevisto, tuttavia i percorsi potrebbero non essere più chiusi.
 
 <b>Soglia angolo</b> *Mobile*\
@@ -113,7 +113,7 @@ Questo ha un impatto significativo quando si convertono i <b>tracciati generati 
 *- In base alle dimensioni della casella - Da più piccolo a più grande:* i tracciati sono ordinati in base alle dimensioni della casella, dal più piccolo al più grande\
 *- Funzione di ordinamento personalizzata:* Utilizzare una funzione personalizzata per ordinare i percorsi
 
-<b>Direzione di ordinamento</b> *Mobile* Angolo che descrive la direzione utilizzata per ordinare i tracciati dal primo all&#39;ultimo lungo tale direzione.\
+<b>Direzione ordinamento</b> *Mobile* Angolo che descrive la direzione utilizzata per ordinare i tracciati dal primo all&#39;ultimo lungo tale direzione.\
 Il valore è un *numero di giri* utilizzato per ruotare un vettore di direzione X-left. Questo significa che 0 imposta un vettore di direzione di (-1, 0) e 0,25 (90 gradi) imposta un vettore di direzione di (0, 1).
 
 <b>Funzione di ordinamento</b> *Mobile* Funzione utilizzata per ordinare i percorsi. Restituisce un valore Float.\

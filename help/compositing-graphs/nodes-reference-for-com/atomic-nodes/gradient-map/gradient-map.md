@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mappa sfumatura
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1160'
 ht-degree: 2%
@@ -31,7 +31,7 @@ ht-degree: 2%
 
 Modifica i valori in scala di grigi di un’immagine utilizzando una sfumatura personalizzata.
 
-Questo nodo ha un duplice scopo: può essere utilizzato semplicemente come <b> </b>nodo di conversione da scala di grigi a colore oppure per colorare l&#39;input in scala di grigi mappandolo a una scala di colori personalizzata.
+Questo nodo ha un duplice scopo: può essere utilizzato semplicemente come <b> </b>nodo di conversione da scala di grigi a colore oppure per colorare la scala di grigi inserisco la mia mappatura a una scala di colori personalizzata.
 
 </td>
 </tr>
@@ -67,7 +67,7 @@ Il nodo offre un editor delle sfumature avanzato e ricco di funzionalità per ma
 | --- | --- |
 | <b>Metodo colore</b> *Booleano* | Imposta la modalità di output su Colore o Scala di grigio. |
 | <b>Indirizzamento sfumatura</b> *Booleano* | Imposta la sfumatura in modo che venga ripetuta (affiancata) o bloccata a valori che non rientrano nell’intervallo [0, 1]. |
-| <b>Sfumatura</b> *Matrice di chiavi sfumatura* | Gradient ramp personalizzato utilizzato per mappare i valori di input della scala di grigi.   Può essere modificato in posizione o utilizzando l&#39;[editor sfumatura](#gradient-editor). |
+| <b>Sfumatura</b> *Matrice di chiavi sfumatura* | Gradient ramp personalizzato utilizzato per mappare i valori di input della scala di grigi.   Può essere modificato in posizione o utilizzando l&#39;[editor sfumatura](#gradient-editor). |
 
 ## Editore sfumatura
 

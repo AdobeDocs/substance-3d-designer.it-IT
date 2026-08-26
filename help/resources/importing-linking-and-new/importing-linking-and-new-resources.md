@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Importazione, collegamento e nuove risorse
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '711'
 ht-degree: 2%
 
 ---
@@ -20,17 +20,17 @@ ht-degree: 2%
 
 # Importazione, collegamento e nuove risorse
 
-[Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html) supporta 3 modalità di inserimento o creazione di nuove risorse da utilizzare nel grafico. Queste risorse possono essere di diversi tipi, tra cui [bitmap](../../resources/bitmap-resource/bitmap-resource.md), [grafica vettoriale](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md), [scene 3D](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)e [font](../../resources/font-resource/font-resource.md). In questa pagina vengono illustrati i diversi metodi e i casi in cui è preferibile utilizzarli singolarmente.
+[Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html) supporta 3 modalità di inserimento o creazione di nuove risorse da utilizzare nel grafico. Queste risorse possono essere di diversi tipi, tra cui [bitmap](../../resources/bitmap-resource/bitmap-resource.md), [grafica vettoriale](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md), [scene 3D](../3d-scene-resource/3d-scene-resource.md) e [font](../../resources/font-resource/font-resource.md). In questa pagina vengono illustrati i diversi metodi e i casi in cui è preferibile utilizzarli singolarmente.
 
-È possibile accedere a tutti i metodi [facendo clic su RMB in un pacchetto in Esplora risorse](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) [.](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)
+Per accedere a tutti i metodi, fare clic su RMB in un pacchetto in Esplora risorse.
 
 La tabella seguente fornisce una rapida panoramica delle differenze nelle funzionalità tra i metodi.
 
 |                                                                                                                                                                         | Nuovo | Importa | Collega |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
 | Grafici ([Substance grafici](../../compositing-graphs/substance-compositing-graphs.md), [Substance grafici funzione](../../function-graphs/function-graphs.md) | <div><img alt="(spuntare)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(errore)" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="(errore)&quot; data-preserve-html=&quot;true" src="../../assets/error.svg"/></div> |
-| [Bitmap](../../resources/bitmap-resource/bitmap-resource.md),[&#x200B; grafica vettoriale (SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) | <div><img alt="(spuntare)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(spuntare)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(spuntare)&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
-| [Scene 3D](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html), [font](../../resources/font-resource/font-resource.md) | <div><img alt="(errore)" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="(errore)" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="(spuntare)&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
+| [Bitmap](../../resources/bitmap-resource/bitmap-resource.md),[grafica vettoriale (SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) | <div><img alt="(spuntare)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(spuntare)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(spuntare)&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
+| Scene 3D, [font](../../resources/font-resource/font-resource.md) | <div><img alt="(errore)" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="(errore)" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="(spuntare)&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
 | Viene creato accanto al file SBS | <div><img alt="(spuntare)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(spuntare)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(errore)&quot; data-preserve-html=&quot;true" src="../../assets/error.svg"/></div> |
 | Modificabile in Designer | <div><img alt="(spuntare)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(spuntare)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(errore)&quot; data-preserve-html=&quot;true" src="../../assets/error.svg"/></div> |
 | Le modifiche esterne vengono sincronizzate automaticamente | <div><img alt="(errore)" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="(errore)" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="(spuntare)&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |

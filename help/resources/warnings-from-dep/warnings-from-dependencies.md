@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Avvisi da dipendenze
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1142'
 ht-degree: 0%
 
 ---
@@ -36,16 +36,16 @@ Esistono due modi principali per risolvere questo problema:
 
    Verificare che il pacchetto di dipendenze esista nel percorso specificato nel messaggio di avviso. In caso contrario, individuate il file e riposizionatelo in quella posizione, oppure ricreatelo nella stessa posizione. Se il file esiste, *provare a caricarlo* in Designer e cercare eventuali avvisi o errori relativi al pacchetto. Consulta la procedura di risoluzione dei problemi per risolvere questi problemi specifici.
 
-   Quindi, ricaricare il pacchetto host facendo clic su RMB nel pannello [Esplora risorse](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) e selezionando l&#39;opzione <b>Ricarica</b> nel menu di scelta rapida.
+   Quindi, ricaricare il pacchetto host facendo clic su RMB nel pannello [Esplora risorse](../../interface/the-explorer-window/the-explorer-window.md) e selezionando l&#39;opzione <b>Ricarica</b> nel menu di scelta rapida.
 
    ![&quot;Soluzione del pacchetto dipendente non valida&quot; 1](../../assets/warnings-dep-invalid-dependent-pkg.gif "&quot;Soluzione del pacchetto dipendente non valida&quot; 1")
 1. <b>Riposizionare la dipendenza nel pacchetto</b>
 
-   È possibile riposizionare la dipendenza utilizzando [Gestione dipendenze](../../interface/dependency-manager/dependency-manager.md). Fai clic su RMB sul pacchetto host nel pannello [Esplora risorse](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) e seleziona l’opzione <b>Gestione dipendenze</b> nel menu di scelta rapida.
+   È possibile riposizionare la dipendenza utilizzando [Gestione dipendenze](../../interface/dependency-manager/dependency-manager.md). Fare clic su RMB sul pacchetto host nel pannello [Esplora risorse](../../interface/the-explorer-window/the-explorer-window.md) e selezionare l&#39;opzione <b>Gestione dipendenze</b> nel menu di scelta rapida.
 
    Individuare la dipendenza mancante nell&#39;elenco di Gestione dipendenze, fare clic su RMB e selezionare l&#39;opzione <b>Ricolloca...</b>. Individuare il pacchetto di dipendenze utilizzando la finestra di dialogo del browser di file e fare clic su <b>Apri</b>.
 
-   Quindi, ricaricare il pacchetto host facendo clic su RMB nel pannello [Esplora risorse](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) e selezionando l&#39;opzione <b>Ricarica</b> nel menu di scelta rapida.
+   Quindi, ricaricare il pacchetto host facendo clic su RMB nel pannello [Esplora risorse](../../interface/the-explorer-window/the-explorer-window.md) e selezionando l&#39;opzione <b>Ricarica</b> nel menu di scelta rapida.
 
    ![&#39;Soluzione del pacchetto dipendente non valida&#39; 2](../../assets/warnings-dep-invalid-dependent-pkg-2.gif "&#39;Soluzione del pacchetto dipendente non valida&#39; 2")
 
@@ -76,7 +76,7 @@ Esistono due modi principali per risolvere questo problema:
    ![&#39;Nessun file corrispondente alla soluzione della risorsa&#39; 1](../../assets/warnings-dep-udim-2.gif "&#39;Nessun file corrispondente alla soluzione della risorsa&#39; 1")
 1. <b>Riposizionare i file</b>
 
-   Se i file sono stati spostati o rinominati, riposizionali facendo clic su RMB sull&#39;elemento risorsa nel pannello [Esplora risorse](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) e seleziona l&#39;opzione <b>Riposiziona</b> per collegare la risorsa al *primo file di un set* di immagini UDIM dello stesso tipo.
+   Se i file sono stati spostati o rinominati, riposizionali facendo clic su RMB sull&#39;elemento risorsa nel pannello [Esplora risorse](../../interface/the-explorer-window/the-explorer-window.md) e seleziona l&#39;opzione <b>Riposiziona</b> per collegare la risorsa al *primo file di un set* di immagini UDIM dello stesso tipo.
 
    ![&#39;Nessun file corrispondente alla soluzione della risorsa&#39; 2](../../assets/warnings-dep-udim.gif "&#39;Nessun file corrispondente alla soluzione della risorsa&#39; 2")
 
@@ -95,7 +95,7 @@ Esistono due modi principali per risolvere questo problema:
    ![&#39;File collegato non trovato&#39; soluzione 1](../../assets/warnings-dep-file-not-found.gif "&#39;File collegato non trovato&#39; soluzione 1")
 1. <b>Riposizionare il file</b>
 
-   Se il file è stato spostato o rinominato, riposizionarlo facendo clic su RMB sull&#39;elemento risorsa nel pannello [Esplora risorse](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) e selezionare l&#39;opzione <b>Riposiziona</b> per collegare la risorsa a un altro file dello stesso tipo.
+   Se il file è stato spostato o rinominato, riposizionarlo facendo clic su RMB sull&#39;elemento risorsa nel pannello [Esplora risorse](../../interface/the-explorer-window/the-explorer-window.md) e selezionare l&#39;opzione <b>Riposiziona</b> per collegare la risorsa a un altro file dello stesso tipo.
 
    ![&#39;File collegato non trovato&#39; soluzione 2](../../assets/warnings-dep-file-not-found-2.gif "&#39;File collegato non trovato&#39; soluzione 2")
 
@@ -117,7 +117,7 @@ Soluzione ![&#39;Spazio colore non trovato&#39;](../../assets/warnings-dep-color
 
 ## ![(errore)](../../assets/error.svg) Risorsa di riferimento non trovata
 
-Impossibile trovare il grafico assegnato al riquadro UV di una risorsa trama [3D](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html) nel percorso indicato nell&#39;avviso.
+Impossibile trovare il grafico assegnato al riquadro UV di una [risorsa scena 3D](../3d-scene-resource/3d-scene-resource.md) nel percorso indicato nell&#39;avviso.
 
 <b>![(tick)](../../assets/check.svg) Soluzione</b>
 
@@ -125,7 +125,7 @@ Esistono due modi principali per risolvere questo problema:
 
 1. <b>Ripristinare il grafico</b>
 
-   Controllate il contenuto del pacchetto nel pannello [Esplora risorse](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) per il grafico specificato nell&#39;elenco <b>Riquadri UV</b>. Se non esiste, ripristinarla o ricrearla.
+   Controllate il contenuto del pacchetto nel pannello [Esplora risorse](../../interface/the-explorer-window/the-explorer-window.md) per il grafico specificato nell&#39;elenco <b>Riquadri UV</b>. Se non esiste, ripristinarla o ricrearla.
 
    ![&#39;Risorsa di riferimento non trovata&#39; soluzione 1](../../assets/warnings-dep-udim-graph-2.gif "&#39;Risorsa di riferimento non trovata&#39; soluzione 1")
 1. <b>Selezionare un altro grafico</b>
@@ -136,7 +136,7 @@ Esistono due modi principali per risolvere questo problema:
 
 ## ![(errore)](../../assets/error.svg) riquadri UV assegnati più volte
 
-Un riquadro UV per una [risorsa trama 3D](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html) è assegnato più di una volta a un [grafico a Substance](../../compositing-graphs/substance-compositing-graphs.md).
+Un riquadro UV per una [risorsa scena 3D](../3d-scene-resource/3d-scene-resource.md) è assegnato più di una volta a un [grafico a Substance](../../compositing-graphs/substance-compositing-graphs.md).
 
 <b>![(tick)](../../assets/check.svg) Soluzione</b>
 
@@ -146,7 +146,7 @@ Per ogni set UV di una risorsa trama 3D, accertatevi che non sia presente alcun 
 
 ## ![(errore)](../../assets/error.svg) riquadri UV non validi
 
-Una tessera UV elencata per una [risorsa trama 3D](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html) non è definita nella trama o è danneggiata.
+Una tessera UV elencata per una [risorsa scena 3D](../3d-scene-resource/3d-scene-resource.md) non è definita nella trama o è danneggiata.
 
 <b>![(tick)](../../assets/check.svg) Soluzione</b>
 

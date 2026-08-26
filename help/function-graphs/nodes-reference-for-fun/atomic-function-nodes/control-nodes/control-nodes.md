@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Controllo
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '557'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ Analogamente ai linguaggi di programmazione, l&#39;If... In caso contrario, il n
 </tr>
 </table>
 
-Questo nodo verrà utilizzato insieme ai [&#x200B; nodi logici](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/logical-nodes/logical-nodes.md) e ai [nodi di confronto](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/comparison-nodes/comparison-nodes.md) che consentono di creare la condizione da controllare.
+Questo nodo verrà utilizzato insieme ai [nodi logici](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/logical-nodes/logical-nodes.md) e ai [nodi di confronto](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/comparison-nodes/comparison-nodes.md) che consentono di creare la condizione da controllare.
 
 +++Connettori di ingresso
 <b>Condizione</b> *Booleano*\
@@ -47,7 +47,7 @@ Condizione che controlla l&#39;output del nodo.
 
 <b>Se</b> *Tipo variabile* Il valore generato dal nodo se <b>Condizione</b> è *Vero*.
 
-<b>Altrimenti</b> *Tipo variabile* Il valore generato dal nodo se <b>Condizione</b> è *Falso*.
+<b>Altro</b> *Tipo variabile* Il valore generato dal nodo se <b>Condizione</b> è *Falso*.
 
 +++
 
@@ -117,7 +117,7 @@ La porzione del grafico che viene calcolata prima della prima iterazione, ovvero
 Condizione che deve essere vera affinché il ciclo si arresti. Viene ricalcolato su ogni iterazione.\
 *Nota:* il numero massimo di iterazioni è ancora limitato al parametro <b>Numero massimo di iterazioni</b>.
 
-<b>Corpo ciclo</b> *Tipo variabile*\
+<b>Corpo ciclo</b> *Tipo di variabile*\
 Grafico che beneficia del ciclo. Viene ricalcolato su ogni iterazione.
 
 +++

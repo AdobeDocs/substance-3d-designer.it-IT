@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Barra degli strumenti principale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '929'
 ht-degree: 2%
 
 ---
@@ -51,7 +51,7 @@ Questa pagina descrive la barra degli strumenti principale e il menu di [Substan
 
 <b>Nuovo:</b> apre un sottomenu per creare un grafico o un pacchetto:
 
-* <b>Nuovo grafico Substance...:</b>(Ctrl+N) Visualizza la finestra [Nuovo grafico Substance](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/create-a-graph-102400068.html) che consente di impostare un nuovo [grafico Substance](../../compositing-graphs/substance-compositing-graphs.md);
+* <b>Nuovo grafico Substance...:</b>(Ctrl+N) Visualizza la finestra [Nuovo grafico](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) che consente di impostare un nuovo [grafico Substance](../../compositing-graphs/substance-compositing-graphs.md);
 * <b>Nuovo grafico della funzione Substance:</b> Crea un nuovo pacchetto con [grafico della funzione Substance](../../function-graphs/function-graphs.md);
 * <b>Vuoto:</b> crea un pacchetto vuoto.
 
@@ -110,11 +110,11 @@ Questa pagina descrive la barra degli strumenti principale e il menu di [Substan
 
 <b>Ingrandisci finestra:</b> Quando un pannello è *ingrandito*, questa opzione lo ingrandisce e ripristina il layout come era *prima* che la finestra fosse ingrandita
 
-<b>Esplora risorse:</b> mostrare/nascondere le [finestre Esplora risorse.](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)
+<b>Esplora risorse:</b> Mostra/Nascondi [Esplora risorse](../the-explorer-window/the-explorer-window.md).
 
 <b>Grafico:</b> mostra/nasconde le [finestre del grafico](../../interface/the-graph-view/the-graph-view.md).
 
-<b>Parametri:</b> Mostrare/Nascondere la [Finestra Proprietà](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html).
+<b>Parametri:</b> Mostra/Nascondi le [Proprietà](../properties/properties.md).
 
 <b>Console:</b> mostrare/nascondere la finestra della console.
 
@@ -122,7 +122,7 @@ Questa pagina descrive la barra degli strumenti principale e il menu di [Substan
 
 <b>Gestione dipendenze:</b> mostrare/nascondere [Gestione dipendenze](../../interface/dependency-manager/dependency-manager.md).
 
-<b>Visualizzazioni 2D:</b> Mostrare/Nascondere [Visualizzazioni 2D.](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html)
+<b>Visualizzazioni 2D:</b> Mostrare/Nascondere la [visualizzazione 2D](../2d-view/2d-view.md).
 
 <b>Libreria:</b> Mostra/Nascondi la [finestra Libreria.](../../interface/the-library/the-library.md)
 
@@ -153,9 +153,9 @@ Questa pagina descrive la barra degli strumenti principale e il menu di [Substan
 
 <b>Invia feedback...:</b> Apre il browser Web nella home page della [community di supporto](https://www.adobe.com/go/Substance-3D-feedback-Designer_it) di Adobe.
 
-<b>Risorse Substance 3D:</b> sfoglia [contenuti 3D premium](https://helpx.adobe.com/it/substance-3d/unlisted/assets.html) per gli abbonati (in precedenza Substance Source).
+<b>Risorse Substance 3D:</b> sfoglia [contenuti 3D premium](https://substance3d.adobe.com/assets) per gli abbonati (in precedenza Substance Source).
 
-<b>Risorse della community di Substance 3D:</b> ti consente di sfogliare [risorse della community gratuite](https://helpx.adobe.com/it/substance-3d/unlisted/community-assets.html) (in precedenza Substance share).
+<b>Risorse della community di Substance 3D:</b> ti consente di sfogliare [risorse della community gratuite](https://substance3d.adobe.com/community-assets/) (in precedenza Substance share).
 
 <b>Gestisci il mio account\*:</b> apre la pagina Web per il tuo account Adobe.
 

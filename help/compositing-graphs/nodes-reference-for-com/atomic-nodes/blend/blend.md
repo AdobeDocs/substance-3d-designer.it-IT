@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Fusione
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 9%
@@ -83,7 +83,7 @@ La sua funzionalità è simile a quella di due livelli sovrapposti in [Substance
 |  |  |
 | --- | --- |
 | <b>Opacità</b> *Mobile* | Opacità del livello di primo piano che si fonde con lo sfondo. Funziona indipendentemente dall’input Opacità e funge da moltiplicatore aggiuntivo. |
-| <b>Metodo fusione</b> *Intero* [Statico](../../../../glossary/glossary.md) | Imposta l&#39;operazione di fusione da utilizzare.   Consulta la [pagina dedicata sui metodi di fusione](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md). |
+| <b>Metodo fusione</b> *Intero* [Statico](../../../../glossary/glossary.md) | Imposta l&#39;operazione di fusione da utilizzare.   Consulta la [pagina dedicata sui metodi di fusione](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md). |
 | <b>Fusione Alpha</b> *Intero* [Statico](../../../../glossary/glossary.md) | Determina il comportamento di fusione quando gli input di colore hanno canali di Alpha:<ul data-preserve-html="true"> <li data-preserve-html="true">Usa alfa sorgente</li> <li data-preserve-html="true">Ignora alfa</li> <li data-preserve-html="true">Fusione alfa semplice</li> <li data-preserve-html="true">Fusione alfa premoltiplicata</li> </ul> |
 | <b>Area di ritaglio</b> *Float4* [Statico](../../../../glossary/glossary.md) | Consente di impostare un’area di ritaglio personalizzata che si comporti come una maschera di opacità aggiuntiva. Qualsiasi area ritagliata mostra solo lo sfondo. |
 

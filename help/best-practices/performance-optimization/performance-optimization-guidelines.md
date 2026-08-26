@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Linee guida per l'ottimizzazione delle prestazioni
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1027'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Le operazioni che interessano il colore impiegano quattro volte più tempo delle
 +++
 
 +++Usa 8 bit quando non è necessario 16 bit
-La versione CPU della Substance Engine (SSE2) *non supporta* il colore a 16 bit o la scala di grigi a 8 bit. Il motore GPU supporta tutte e 4 le combinazioni di 8/16 bit e scala di grigi/colore. *Attualmente, solo il motore CPU viene utilizzato nei plug-in Unity e Unreal Engine*.
+La versione CPU della Substance Engine (SSE2) *non supporta* il colore a 16 bit o la scala di grigi a 8 bit. Il motore GPU supporta tutte e 4 le combinazioni di 8/16 bit e scala di grigi/colore. *Attualmente, solo il motore CPU viene utilizzato nei plug-in Unity e Unreal Engine*.
 
 +++
 
@@ -141,7 +141,7 @@ In questo modo, le dimensioni della bitmap cambieranno in base al grafico princi
 
 >[!WARNING]
 >
-> Se si imposta un nodo [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) su &quot;Rispetto al padre&quot; e si [pubblica](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) il grafico in una risorsa Substance 3D (SBSAR), la bitmap verrà salvata con una risoluzione di **256x256** anziché le dimensioni originali. Si consiglia invece di mantenere il [metodo di ereditarietà](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) dei nodi Bitmap&#39; [Dimensioni output](../../compositing-graphs/output-size/output-size.md) come &#39;Assoluto&#39; e utilizzare un nodo [Trasformazione 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) impostato su &#39;Relativo al padre&#39; subito dopo il nodo Bitmap.
+> Se si imposta un nodo [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) su &quot;Rispetto al padre&quot; e si [pubblica](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) il grafico in una risorsa Substance 3D (SBSAR), la bitmap verrà salvata con una risoluzione di **256x256** anziché le dimensioni originali. Si consiglia invece di mantenere il [metodo di ereditarietà](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) dei nodi Bitmap&#39; [Dimensioni output](../../compositing-graphs/output-size/output-size.md) come &#39;Assoluto&#39; e utilizzare un nodo [Trasformazione 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) impostato su &#39;Relativo al padre&#39; subito dopo il nodo Bitmap.
 
 ![Ottimizzazione bitmap incorporate 1](../../assets/input-1.jpg "Ottimizzazione bitmap incorporate 1")
 
@@ -151,7 +151,7 @@ In questo modo, le dimensioni della bitmap cambieranno in base al grafico princi
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Inoltre, si consiglia di impostare il formato delle risorse Bitmap su Jpeg per ridurre le dimensioni delle [risorse Substance 3D pubblicate](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR).
+Inoltre, si consiglia di impostare il formato delle risorse Bitmap su Jpeg per ridurre al minimo le dimensioni delle risorse Substance 3D pubblicate (SBSAR).
 
 </td>
 <td style="border: 0;" valign="top">

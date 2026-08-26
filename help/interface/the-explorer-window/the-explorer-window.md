@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Explorer
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1104'
 ht-degree: 2%
 
 ---
@@ -48,8 +48,8 @@ Puoi eseguire alcune azioni importanti tramite il dock di Esplora risorse:
 * Salvare e chiudere i pacchetti caricati
 * [Importare e collegare le risorse](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
 * [Esportare i risultati del grafico nelle texture](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)
-* [Publish di un pacchetto a una risorsa Substance 3D (SBSAR)](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)
-* [Inviare pacchetti ad altre applicazioni Substance 3D](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html)
+* [Publish di un pacchetto a una risorsa Substance 3D (SBSAR)](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)
+* [Inviare pacchetti ad altre applicazioni Substance 3D](send-to-interoperability/send-to-interoperability.md)
 * [Bake map da una trama](../../bakers/bakers.md)
 
 ## Barra degli strumenti superiore
@@ -116,11 +116,11 @@ Lo spazio vuoto è disponibile solo al di sotto di qualsiasi pacchetto attualmen
 
 <b>Ricarica</b>, <b>Salva, Salva con nome</b> e<b> Salva una copia come</b> consente di salvare su disco o richiamare dal disco una versione salvata precedentemente del pacchetto.
 
-<b>Il file Publish .sbsar</b> e<b> il file .sbsar di ripubblicazione</b> ti consente di [Publish il tuo grafico Substance non compilato e non ottimizzato, in un file SBSAR efficiente e portatile per noi in altre applicazioni e integrazioni Substance](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html). Publish come precedente ripete l’azione precedente di Publish con le stesse opzioni, ignorando la finestra di dialogo delle opzioni per un’iterazione più veloce. La barra degli strumenti contiene pulsanti con la stessa funzionalità.
+<b>Il file .sbsar di Publish</b> e<b> il file .sbsar di ripubblicazione</b> ti consente di [pubblicare](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) il tuo grafico Substance non compilato e non ottimizzato, in un file SBSAR efficiente e portatile per noi in altre applicazioni e integrazioni Substance. Publish come precedente ripete l’azione precedente di Publish con le stesse opzioni, ignorando la finestra di dialogo delle opzioni per un’iterazione più veloce. La barra degli strumenti contiene pulsanti con la stessa funzionalità.
 
 <b>L&#39;esportazione con dipendenze</b> è diversa dal salvataggio e dalla pubblicazione. Prende i tuoi file SBS, raccoglie tutte le risorse e le dipendenze di riferimento e crea un pacchetto autonomo. La finestra di dialogo consente di scegliere quali librerie raccogliere e se il file deve essere un archivio compresso (7-zip). Questa è una buona scelta per condividere un file SBS con qualcun altro, senza preoccuparsi di dipendenze mancanti.
 
-<b>Invia a...</b> apre un sottomenu che consente di [inviare direttamente il pacchetto](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html) a [Substance 3D Sampler](https://www.adobe.com/it/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/it/products/substance3d-painter.html), [Substance 3D Stager](https://www.adobe.com/it/products/substance3d-stager.html) o [Substance Player](https://helpx.adobe.com/substance-3d-player/home.html).
+<b>Invia a...</b> apre un sottomenu che consente di [inviare](send-to-interoperability/send-to-interoperability.md) direttamente il pacchetto a [Substance 3D Sampler](https://www.adobe.com/it/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/it/products/substance3d-painter.html), [Substance 3D Stager](https://www.adobe.com/it/products/substance3d-stager.html) o [Substance Player](https://helpx.adobe.com/substance-3d-player/home.html).
 
 <b>Copia</b> copia il pacchetto selezionato.
 

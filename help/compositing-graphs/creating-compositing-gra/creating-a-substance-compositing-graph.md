@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Creazione di un grafico Substance
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1107'
 ht-degree: 1%
 
 ---
@@ -49,7 +49,7 @@ Per avviare la creazione di un nuovo [grafico Substance](../../compositing-graph
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
 
-  In qualsiasi elemento del pacchetto *esistente* in [Esplora risorse](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), fai clic su <b>MB</b> e seleziona <b>Nuovo > Substance grafico</b> nel menu di scelta rapida.
+  In qualsiasi elemento del pacchetto *esistente* in [Esplora risorse](../../interface/the-explorer-window/the-explorer-window.md), fai clic su <b>MB</b> e seleziona <b>Nuovo > Substance grafico</b> nel menu di scelta rapida.
 
   </td>
   <td style="border: 0;" valign="top">
@@ -81,7 +81,7 @@ Per avviare la creazione di un nuovo [grafico Substance](../../compositing-graph
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
 
-  Nel [menu principale](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html), vai a <b>File > Nuovo > Substance grafico...</b>
+  Nel menu principale, vai a <b>File > Nuovo > Substance grafico...</b>
 
   </td>
   <td style="border: 0;" valign="top">
@@ -246,7 +246,7 @@ Dopo aver selezionato il modello, potete impostare le informazioni di base relat
 
 <b>Dimensioni</b>: la risoluzione principale del grafico che controllerà la risoluzione dell&#39;output della maggior parte dei nodi. Per ulteriori informazioni, vedere la pagina [Dimensioni output](../../compositing-graphs/output-size/output-size.md). Per impostazione predefinita, la larghezza e il height sono collegati tra loro e puoi scollegarli facendo clic sul pulsante di collegamento tra le caselle combinate larghezza e height.
 
-<b>Crea grafico in</b>: è possibile utilizzare questa casella combinata per creare un pacchetto *nuovo* per il nuovo grafico oppure aggiungere il nuovo grafico a qualsiasi pacchetto *esistente* già caricato nel pannello [Esplora risorse](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html).
+<b>Crea grafico in</b>: è possibile utilizzare questa casella combinata per creare un pacchetto *nuovo* per il nuovo grafico oppure aggiungere il nuovo grafico a qualsiasi pacchetto *esistente* già caricato nel pannello [Esplora risorse](../../interface/the-explorer-window/the-explorer-window.md).
 
 ### Descrizione della Guida
 

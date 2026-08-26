@@ -1,8 +1,8 @@
 ---
-source-git-commit: c7b3b375144c8b58a8e7a7a408895a23e9bd1143
+source-git-commit: 49d7d426f1b687cf6087bb1c9735a9060af48041
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 1%
+source-wordcount: '107'
+ht-degree: 11%
 
 ---
 # TODO
@@ -16,11 +16,23 @@ ht-degree: 1%
 
 * Punti di ingresso per la documentazione delle API Python su AdobeDocs
 * Esempi nella pagina a comparsa Documentazione
+* Glossario:
+  * HDR
+  * Metallicità/Metallica
+  * HDR
+  * Speculare
+  * Mappa height
+  * Opacità
+  * Frustum
+  * Spazio tangente
+  * Numero di semi/numero casuale
+  * FX-Map
+  * Elaboratore pixel
+  * Predefinito
 
 ## Correzioni
 
 * Collegamenti e formattazione interrotti nel [nodo di output](help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
-* Collegamenti HelpX
 * Rimuovi ToC all&#39;interno della pagina (es. nuovi rumori)
 * Correggi layout di pagina nodo (es. nuovi rumori)
 * Correggi collegamento per immagine di primo esempio nelle pagine del nodo (ad es. nuovi rumori)

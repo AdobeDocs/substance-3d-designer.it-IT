@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mappatura forme
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 3%
@@ -88,8 +88,8 @@ La proiezione deforma l&#39;immagine in modo da seguire il contorno della forma 
 | --- | --- |
 | <b>Forma</b> Intero | Imposta il tipo di forma lungo cui devono essere posizionati i motivi:<ul data-preserve-html="true"> <li data-preserve-html="true">Cerchio</li> <li data-preserve-html="true">Poligono</li> </ul> |
 | <b>Quantità motivo</b> Numero intero | Quantità di motivi posizionati lungo la forma selezionata. |
-| <b>Collega segmenti con quantità di pattern</b> Booleano *Disponibile quando &#39;Shape&#39; è impostato su &#39;Polygon&#39;* | Usate <b>Quantità pattern</b> come numero di <b>Segmenti</b>.   In questo modo si evita che i pattern si avvolgano attorno agli angoli, assicurando un aspetto retto e coerente. |
-| <b>Segmenti</b> Numero intero *Disponibile quando &#39;Shape&#39; è impostato su &#39;Polygon&#39; e &#39;Link segements with pattern amount&#39; è impostato su &#39;False&#39;* | La quantità di segmenti per il poligono lungo cui vengono posizionati i pattern.   I segmenti sono di *dimensioni uniformi* e tutti i vertici sono *equidistanti dal centro*, in modo che aumentando la quantità di segmenti il poligono converga verso un cerchio. |
+| <b>Collega segmenti con quantità di pattern</b> Booleano *Disponibile quando &#39;Shape&#39; è impostato su &#39;Polygon&#39;* | Usate <b>Quantità pattern</b> come numero di <b>Segmenti</b>.   In questo modo si evita che i pattern si avvolgano attorno agli angoli, assicurando un aspetto retto e coerente. |
+| <b>Segmenti</b> Numero intero *Disponibile quando &#39;Shape&#39; è impostato su &#39;Polygon&#39; e &#39;Link segements with pattern amount&#39; è impostato su &#39;False&#39;* | La quantità di segmenti per il poligono lungo cui vengono posizionati i pattern.   I segmenti sono di *dimensioni uniformi* e tutti i vertici sono *equidistanti dal centro*, in modo che aumentando la quantità di segmenti il poligono converga verso un cerchio. |
 | <b>Raggio</b> Mobile | Moltiplicatore per il raggio della forma, in cui 1,0 corrisponde alla metà della lunghezza del lato più corto dell&#39;immagine. |
 | <b>Larghezza</b> Mobile | Moltiplicatore per la larghezza dei motivi lungo la forma, dove 1,0 corrisponde alla metà della lunghezza del lato più corto dell&#39;immagine. |
 | <b>Rotazione</b> Mobile | Quantità di rotazione applicata alla forma, espressa in numero di giri in senso orario rispetto all&#39;orizzontale a destra. |

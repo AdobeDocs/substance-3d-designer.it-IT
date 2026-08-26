@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Crea tavolozza colori (16)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 1%
@@ -67,8 +67,8 @@ Questo nodo può essere utilizzato in combinazione con i seguenti nodi: [Quantiz
 
 |  |  |
 | --- | --- |
-| <b>Tavolozza</b> *Colore* PRIMARIO | Un elenco ordinato di colori RGB codificati come una riga di pixel. La tavolozza può contenere un massimo di 256 colori.   Questo input è opzionale. Se utilizzati, i colori impostati dal nodo vengono aggiunti a questa tavolozza.   È possibile visualizzare la tavolozza con il nodo [Visualizza tavolozza colori](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md). |
-| <b>Quantità colore tavolozza</b> *Numero intero* | Quantità di colori memorizzati nella tavolozza.   Se tale numero non corrisponde alla quantità effettiva di colori nell&#39;input dell&#39;immagine &quot;Palette&quot;, la visualizzazione potrebbe essere incompleta o disporre di più spazi vuoti del necessario. |
+| <b>Tavolozza</b> *Colore* PRIMARIO | Un elenco ordinato di colori RGB codificati come una riga di pixel. La tavolozza può contenere un massimo di 256 colori.   Questo input è opzionale. Se utilizzati, i colori impostati dal nodo vengono aggiunti a questa tavolozza.   È possibile visualizzare la tavolozza con il nodo [Visualizza tavolozza colori](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md). |
+| <b>Quantità colore tavolozza</b> *Numero intero* | Quantità di colori memorizzati nella tavolozza.   Se tale numero non corrisponde alla quantità effettiva di colori nell&#39;input dell&#39;immagine &quot;Palette&quot;, la visualizzazione potrebbe essere incompleta o disporre di più spazi vuoti del necessario. |
 
 ## Connettori di uscita
 
@@ -82,7 +82,7 @@ Questo nodo può essere utilizzato in combinazione con i seguenti nodi: [Quantiz
 |  |  |
 | --- | --- |
 | <b>Quantità colore</b> *Numero intero* | Quantità di colori da aggiungere alla tavolozza. |
-| <b>Colore n. </b> *Float3* *Numero di parametri disponibili corrispondente al valore &#39;Quantità colore&#39;* | Un colore da aggiungere alla tavolozza.   I colori vengono aggiunti alla tavolozza nello stesso ordine dell&#39;elenco numerato. |
+| <b>Colore n. </b> *Float3* *Numero di parametri disponibili corrispondente al valore &#39;Quantità colore&#39;* | Un colore da aggiungere alla tavolozza.   I colori vengono aggiunti alla tavolozza nello stesso ordine dell&#39;elenco numerato. |
 
 ## Esempi
 

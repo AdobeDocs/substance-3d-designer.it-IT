@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Spline (Quadratico)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '844'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ L&#39;estensione dell&#39;arco formato dalla spline è *regolabile*, in modo che
 | <b>Inizia height</b> *Mobile* | Regola il height del punto <b>p1</b> in cui un valore più basso indica una posizione più bassa o più profonda.  Ciò influisce sul height della spline a <b>p1</b>. |
 | <b>Fine height</b> *Mobile* | Regola il height del punto <b>p3</b> in cui un valore più basso indica una posizione più bassa o più profonda.  Ciò influisce sul thickness della spline a <b>p3</b>. |
 | <b>height tangente automatico</b> *Booleano* | Regola il height del punto <b>p3</b> in cui un valore più basso indica una posizione più bassa o più profonda.  Ciò influisce sul thickness della spline a <b>p3</b>. |
-| <b>height tangente</b> *Mobile* | Regola il height in base alle tangenti controllate dal punto <b>p2</b>.  Ciò influisce sul height lungo la spline che si allontana da <b>p1</b> e va in <b>p3</b>.   *Nota:* questo parametro è disponibile solo quando <b>height tangente automatico</b> è impostato su &#39;False&#39;. |
+| <b>height tangente</b> *Mobile* | Regola il height in base alle tangenti controllate dal punto <b>p2</b>.  Ciò influisce sul height lungo la spline che si allontana da <b>p1</b> e va in <b>p3</b>.   *Nota:* questo parametro è disponibile solo quando <b>height tangente automatico</b> è impostato su &#39;False&#39;. |
 
 
 +++
@@ -87,8 +87,8 @@ L&#39;estensione dell&#39;arco formato dalla spline è *regolabile*, in modo che
 
 |  |  |
 | --- | --- |
-| <b>Inizia thickness</b> *Mobile* | Regola il thickness del punto <b>p1</b>. Ciò influisce sul thickness della spline a <b>p1</b>.   *Nota: il Thickness* è utilizzato da nodi spline specifici. |
-| <b>Fine thickness</b> *Mobile* | Regola il thickness del punto <b>p3</b>. Ciò influisce sul thickness della spline a <b>p3</b>.   *Nota: il Thickness* è utilizzato da nodi spline specifici. |
+| <b>Inizia thickness</b> *Mobile* | Regola il thickness del punto <b>p1</b>. Ciò influisce sul thickness della spline a <b>p1</b>.   *Nota: il Thickness* è utilizzato da nodi spline specifici. |
+| <b>Fine thickness</b> *Mobile* | Regola il thickness del punto <b>p3</b>. Ciò influisce sul thickness della spline a <b>p3</b>.   *Nota: il Thickness* è utilizzato da nodi spline specifici. |
 | <b>thickness tangente automatico</b> *Booleano* | Imposta automaticamente il thickness delle tangenti della spline per l&#39;interpolazione lineare dal <b>Thickness iniziale</b> al <b>Thickness finale</b>.   *Nota: il Thickness* è utilizzato da nodi spline specifici. |
 | <b>thickness tangente</b> *Mobile* | Regola il thickness in base alle tangenti controllate dal punto <b>p2</b>.  Ciò influisce sul thickness lungo la spline che si allontana da <b>p1</b> e va in <b>p3</b>.   *Nota: il Thickness* è utilizzato da nodi spline specifici.  *Nota 2:* Questo parametro è disponibile solo quando <b>thickness tangente automatico</b> è impostato su &#39;False&#39;. |
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Aggiungi spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 0%
@@ -50,36 +50,36 @@ L&#39;ordine degli elenchi viene mantenuto, il che significa che l&#39;aggiunta 
 <b>Anteprima #1</b> *Scala di grigio* Anteprima del primo set di spline di input come immagine in scala di grigio.
 
 <b>Spline #1 Coords</b> *Colore* Coordinate dei punti del primo gruppo di spline di input codificate nei canali RGBA di un&#39;immagine a colori.\
-    <b>R</b> - Posizione X\
-    <b>G</b> - Posizione Y\
-    <b>B</b> - Height\
-    <b>A</b> - Dati compressi:\
-        * Segno: la spline è chiusa (negativa) o aperta (positiva);\
-        * Valore assoluto: Thickness + 1.
+<b>R</b> - Posizione X\
+<b>G</b> - Posizione Y\
+<b>B</b> - Height\
+<b>A</b> - Dati compressi:\
+* Segno: la spline è chiusa (negativa) o aperta (positiva);\
+* Valore assoluto: Thickness + 1.
 
 <b>Dati #1 spline</b> *Colore* Dati aggiuntivi del primo set di spline di input codificati nei canali RGBA di un&#39;immagine a colori.\
-    <b>R</b> - Tangenti X\
-    <b>G</b> - Tangenti Y\
-    <b>B</b> - Non utilizzato\
-    <b>A</b> - Non in uso
+<b>R</b> - Tangenti X\
+<b>G</b> - Tangenti Y\
+<b>B</b> - Non utilizzato\
+<b>A</b> - Non in uso
 
 <b>Quantità #1 spline</b> *Numero intero* Numero di spline di input nel primo set.
 
 <b>Anteprima #2</b> *Scala di grigio* Anteprima del secondo set di spline di input come immagine in scala di grigio.
 
 <b>Spline #2 Coords</b> *Colore* Coordinate del secondo gruppo di punti spline di input codificati nei canali RGBA di un&#39;immagine a colori.\
-    <b>R</b> - Posizione X\
-    <b>G</b> - Posizione Y\
-    <b>B</b> - Height\
-    <b>A</b> - Dati compressi:\
-        * Segno: la spline è chiusa (negativa) o aperta (positiva);\
-        * Valore assoluto: Thickness + 1.
+<b>R</b> - Posizione X\
+<b>G</b> - Posizione Y\
+<b>B</b> - Height\
+<b>A</b> - Dati compressi:\
+* Segno: la spline è chiusa (negativa) o aperta (positiva);\
+* Valore assoluto: Thickness + 1.
 
 <b>Dati #2 spline</b> *Colore* Dati aggiuntivi del secondo set di spline di input codificati nei canali RGBA di un&#39;immagine a colori.\
-    <b>R</b> - Tangenti X\
-    <b>G</b> - Tangenti Y\
-    <b>B</b> - Non utilizzato\
-    <b>A</b> - Non in uso
+<b>R</b> - Tangenti X\
+<b>G</b> - Tangenti Y\
+<b>B</b> - Non utilizzato\
+<b>A</b> - Non in uso
 
 <b>Quantità #2 spline</b> *Numero intero* Numero di spline di input nel secondo set.
 
@@ -88,18 +88,18 @@ L&#39;ordine degli elenchi viene mantenuto, il che significa che l&#39;aggiunta 
 <b>Anteprima</b> *Scala di grigi* Anteprima delle spline di output come immagine in scala di grigi.
 
 <b>Spline Coords</b> *Colore* Coordinate dei punti delle spline di output codificate nei canali RGBA di un&#39;immagine a colori.\
-    <b>R</b> - Posizione X\
-    <b>G</b> - Posizione Y\
-    <b>B</b> - Height\
-    <b>A</b> - Dati compressi:\
-        * Segno: la spline è chiusa (negativa) o aperta (positiva);\
-        * Valore assoluto: Thickness + 1.
+<b>R</b> - Posizione X\
+<b>G</b> - Posizione Y\
+<b>B</b> - Height\
+<b>A</b> - Dati compressi:\
+* Segno: la spline è chiusa (negativa) o aperta (positiva);\
+* Valore assoluto: Thickness + 1.
 
 <b>Dati spline</b> *Colore* Dati aggiuntivi delle spline di output codificate nei canali RGBA di un&#39;immagine a colori.\
-    <b>R</b> - Tangenti X\
-    <b>G</b> - Tangenti Y\
-    <b>B</b> - Non utilizzato\
-    <b>A</b> - Non in uso
+<b>R</b> - Tangenti X\
+<b>G</b> - Tangenti Y\
+<b>B</b> - Non utilizzato\
+<b>A</b> - Non in uso
 
 <b>Quantità spline</b> *Numero intero* Numero di spline di output.
 

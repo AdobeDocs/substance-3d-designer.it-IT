@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Scala di grigi filtro mediana
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 0%
@@ -61,7 +61,7 @@ Questo parametro controlla la dimensione del kernel quadrato, in pixel. Un kerne
 *- 3x3:* un kernel largo 3 pixel e alto 3 pixel, per un totale di 8 pixel adiacenti.\
 *- 5x5:* un kernel largo 5 pixel e alto 5 pixel, per un totale di 24 pixel adiacenti.
 
-<b>Tipo di filtro</b> *Numero intero* Calcolo applicato ai vicini campionati nel kernel.\
+<b>Tipo filtro</b> *Intero* Calcolo applicato ai vicini campionati nel kernel.\
 *- Mediana:* Utilizzare direttamente il valore mediano di tutti i vicini.\
 *- MLMAD:* sta per &#39;Mediana della deviazione assoluta meno mediana&#39;. La deviazione tiene conto della differenza tra un valore e la mediana. Invece di utilizzare direttamente il valore mediano che può essere inclinato da un pixel outlier con deviazione alta, il metodo MLMAD utilizza la mediana di tutte le deviazioni. Questo metodo produce un effetto di attenuazione più marcato che può appiattire le aree in base alle dimensioni della forma.
 

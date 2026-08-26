@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Disturbo bianco
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 7%
+source-wordcount: '151'
+ht-degree: 5%
 
 ---
 
@@ -38,26 +38,6 @@ ht-degree: 7%
 ## Descrizione
 
 Genera un disturbo bianco utilizzando uno dei tre metodi disponibili per diverse forme di istogramma: uniforme, gaussiano e triangolo.
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### Output
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parametri
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Esempi
 
 </td>
 </tr>

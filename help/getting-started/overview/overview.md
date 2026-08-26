@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Panoramica
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: e42fdff3a7e8fca5a6d482bee42bb9f32d019c56
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '929'
 ht-degree: 2%
 
 ---
@@ -46,11 +46,11 @@ Substance 3D Designer è un editor basato su nodi che consente di creare contenu
 
 <b>[Non lineare](../../compositing-graphs/substance-compositing-graphs.md) </b>: puoi creare più output di texture contemporaneamente. Modifica una maschera o un cursore e ricalcola automaticamente qualsiasi output collegato. Non è più necessario creare separatamente le mappe, ad esempio Colore base, Rugosità, Normale e così via.
 
-<b> [Non distruttivo](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md) </b>: puoi annullare qualsiasi azione *senza* perdere il tuo lavoro. Le iterazioni e le sperimentazioni risultano molto più rapide e la ricerca di flussi di lavoro ancora più efficienti.
+<b>[Non distruttivo](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md) </b>: puoi annullare qualsiasi azione *senza* perdere il tuo lavoro. Le iterazioni e le sperimentazioni risultano molto più rapide e la ricerca di flussi di lavoro ancora più efficienti.
 
-<b> [Integrated Baking](../../bakers/bakers.md) </b>: accedi a strumenti di cottura a trama avanzati e veloci direttamente all&#39;interno del software. Non è più necessario eseguire il baking in un software separato ed eseguire lunghi processi di importazione ed esportazione.
+<b>[Cottura al forno integrata](../../bakers/bakers.md) </b>: accedi a strumenti di cottura a trama avanzati e veloci direttamente dal software. Non è più necessario eseguire il baking in un software separato ed eseguire lunghi processi di importazione ed esportazione.
 
-<b> [Parametrico](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) </b>: puoi impostare il controllo di quasi ogni aspetto di una texture tramite un singolo cursore o menu a discesa. Ciò consente di aggiungere un controllo e una variazione infiniti a una singola risorsa.
+<b>[Parametrico](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) </b>: puoi impostare il controllo di quasi ogni aspetto di una texture tramite un singolo cursore o menu a discesa. Ciò consente di aggiungere un controllo e una variazione infiniti a una singola risorsa.
 
 ## Tipi di file
 
@@ -155,9 +155,9 @@ Esistono i seguenti tipi di risorse:
 
 * [Bitmap](../../resources/bitmap-resource/bitmap-resource.md)
 * [Grafica vettoriale (SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
-* [Trama 3D e scena](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
+* [Scene 3D](../../resources/3d-scene-resource/3d-scene-resource.md)
 * [Font](../../resources/font-resource/font-resource.md)
-* [AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)
+* [File AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)
 
 </td>
 </tr>

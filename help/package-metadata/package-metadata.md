@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Metadati pacchetto
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 0%
@@ -67,7 +67,7 @@ In alcuni casi, potrebbe essere necessario recuperare i metadati definiti in un 
 
 I metadati vengono memorizzati in base al formato JSON in un file denominato /assemblies/content/0000/metadata.json (il percorso è relativo alla cartella principale dell&#39;archivio .sbsar).
 
-I metadati normali (stringa) vengono memorizzati così come sono, ad esempio &quot;key&quot;: &quot;stringValue&quot;, uno per riga. Anche in questo caso, l&#39;ordine originale delle varie chiavi non viene mantenuto e viene definita l&#39;implementazione. Non fare mai affidamento sull&#39;ordine nel vostro processo, come con i normali pitoni dicts!
+I metadati regolari (stringa) vengono memorizzati così come sono, ad esempio &quot;chiave&quot;: &quot;valore stringa&quot;, uno per riga. Anche in questo caso, l&#39;ordine originale delle varie chiavi non viene mantenuto e viene definita l&#39;implementazione. Non fare mai affidamento sull&#39;ordine nel vostro processo, come con i normali pitoni dicts!
 
 Poiché lo scopo dei metadati URL è quello di consentire agli utenti e ai plug-in di includere file esterni nell&#39;archivio .sbsar, questi sono soggetti a una trasformazione specifica: In primo luogo, il file della risorsa che corrisponde all&#39;URL archiviato viene copiato nell&#39;archivio in un percorso definito dall&#39;implementazione (di solito in una sottocartella numerata, che conterrà solo questo file. Lo scopo è evitare conflitti di nomi.) Il file manterrà il nome originale (il nome della risorsa viene ignorato a questo punto). Quindi, invece dell&#39;URL originale in metadata.json, viene scritto il percorso del file copiato nell&#39;archivio relativo a metadata.json.
 

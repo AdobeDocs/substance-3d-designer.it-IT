@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Ereditarietà nei grafici Substance
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1692'
+source-wordcount: '1681'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ Ciò dovrebbe consentirti di comprendere come le modifiche in *un* nodo possano 
 
 ### Modifica dei metodi di ereditarietà
 
-Nel pannello [Proprietà](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), tutti i parametri elencati nella sezione [Parametri di base](../../compositing-graphs/graph-parameters/graph-parameters.md) delle proprietà di un nodo hanno un pulsante a discesa (icona) <b>Imposta metodo di ereditarietà</b> di fronte all&#39;etichetta.\
+Nel pannello Proprietà, tutti i parametri elencati nella sezione [Parametri di base](../../compositing-graphs/graph-parameters/graph-parameters.md) delle proprietà di un nodo dispongono di un pulsante a discesa (icona) <b>Imposta metodo di ereditarietà</b> di fronte all&#39;etichetta.\
 Questo pulsante consente di selezionare il metodo di ereditarietà da utilizzare per un parametro.
 
 ![Modifica del metodo di ereditarietà](../../assets/inheritance-change.gif "Modifica del metodo di ereditarietà"){width="512px"}

@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Spazio di lavoro
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 163ef15c862c56a1b59a4ccd47f4396c825be18f
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '533'
 ht-degree: 1%
 
 ---
@@ -99,7 +99,7 @@ La barra degli strumenti principale consente di accedere a menu aggiuntivi, come
 
 ## Proprietà
 
-[L&#39;ancoraggio delle proprietà](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) è la finestra più tecnica. È sempre sensibile al contesto e presenterà cursori, menu a discesa e altri elementi che modificano il comportamento di una risorsa o di un nodo selezionato.
+[Ancoraggio proprietà](properties/properties.md) è la finestra più tecnica. È sempre sensibile al contesto e presenterà cursori, menu a discesa e altri elementi che modificano il comportamento di una risorsa o di un nodo selezionato.
 
 ![Proprietà](../assets/properties-15.jpg "Proprietà")
 

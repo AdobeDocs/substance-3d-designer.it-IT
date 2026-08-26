@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Utilizzo degli Strumenti spline di tracciato
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1544'
 ht-degree: 0%
@@ -81,7 +81,7 @@ Percorso e strumenti spline richiedono calcoli intensivi, al punto che è necess
 
 1. Il set di strumenti utilizza in modo esteso le funzionalità di <b>Substance Engine</b> che vengono eseguite molto più velocemente sulla GPU. Pertanto, utilizzate la versione GPU del motore del sistema in uso: <b>Direct3D</b> (Windows) o <b>OpenGL</b> (macOS).\
    È possibile cambiare motore premendo il tasto <b>F9</b> o selezionando <b>Strumenti > Cambia motore...</b> nella barra dei menu principale.
-1. Si consiglia quindi di disattivare <b>Modifica contestuale</b> nella sezione <b>Grafico</b> delle [Preferenze](../../../../../interface/preferences-window/preferences-window.md) (Vai a <b>Modifica > Preferenze...</b> nella barra dei menu principale per accedere alla finestra).\
+1. Si consiglia quindi di disattivare <b>Modifica contestuale</b> nella sezione <b>Grafico</b> delle [Preferenze](../../../../../interface/preferences-window/preferences-window.md) (per accedere a questa finestra, seleziona <b>Modifica > Preferenze...</b> nella barra dei menu principale).\
    La modifica in contesto consente di aprire i nodi di istanza nel contesto del grafico host, il che è certamente molto pratico ma ha l&#39;effetto collaterale di aumentare esponenzialmente i calcoli richiesti dalla cache delle immagini del set di strumenti.
 
 Quando impostate una di queste due impostazioni sullo stato consigliato, notate un miglioramento significativo delle prestazioni.

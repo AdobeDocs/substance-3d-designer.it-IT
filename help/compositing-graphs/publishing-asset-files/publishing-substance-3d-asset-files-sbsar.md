@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Pubblicazione di file di risorse Substance 3D (SBSAR)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 806f21d88d2ce6b63164848f4f52906ec57471a3
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1281'
-ht-degree: 1%
+source-wordcount: '1234'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 Questa pagina spiega come Substance 3D Designer può pubblicare pacchetti come file <b>Substance 3D asset</b>, un formato di file speciale con estensione <b>SBSAR</b>, utilizzato sia nell&#39;ecosistema Substance che in altre applicazioni che lo supportano.
 
-In genere è preferibile utilizzare una risorsa di Substance 3D anziché le bitmap, poiché è molto più flessibile e leggera. Se li usi in Substance 3D [Painter](https://experienceleague.adobe.com/it/docs/substance-3d-painter/using/home), [Sampler](https://helpx.adobe.com/it/substance-3d-sampler.html) o [Player](https://helpx.adobe.com/substance-3d-player/home.html), è più veloce utilizzare la funzionalità [Invia a](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html).
+In genere è preferibile utilizzare una risorsa di Substance 3D anziché le bitmap, poiché è molto più flessibile e leggera. Se li utilizzi in Substance 3D [Painter](https://experienceleague.adobe.com/it/docs/substance-3d-painter/using/home), [Sampler](https://helpx.adobe.com/it/substance-3d-sampler.html) o [Player](https://helpx.adobe.com/substance-3d-player/home.html), è più veloce utilizzare la funzionalità [&#39;Invia a...&#39;](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md).
 
 ![Pubblicazione dei file SBSAR semplificata](../../assets/exportflow.png "Pubblicazione dei file SBSAR semplificata")
 
@@ -49,13 +49,13 @@ La pubblicazione richiede più preparazione dell&#39;esportazione delle bitmap. 
 
 ## Metodi di pubblicazione
 
-Quando si è pronti per la pubblicazione, sono disponibili due modalità per accedere alla finestra di pubblicazione, entrambe tramite [la finestra Esplora risorse](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html).
+Una volta che si è pronti per la pubblicazione, è possibile accedere alla finestra di dialogo di pubblicazione in due modi, entrambi tramite [Esplora risorse](../../interface/the-explorer-window/the-explorer-window.md).
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Nella [finestra Esplora risorse](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), fare clic con il pulsante destro del mouse sul pacchetto e scegliere ![](../../assets/image2020-9-23-9-39-58.png) **file Publish .sbsar...**, tasto di scelta rapida alternativo Ctrl + P.
+In Esplora risorse, fare clic con il pulsante destro del mouse sul pacchetto e scegliere ![](../../assets/image2020-9-23-9-39-58.png) **file Publish .sbsar...**, tasto di scelta rapida alternativo Ctrl + P.
 
 Dopo aver pubblicato con la finestra di dialogo una volta, puoi anche utilizzare il file ![](../../assets/image2020-9-23-11-15-35.png) **Publish .sbsar come precedente** per ripetere il processo di pubblicazione senza visualizzare le finestre di dialogo, pubblicando immediatamente con le stesse impostazioni.
 
@@ -72,7 +72,7 @@ Dopo aver pubblicato con la finestra di dialogo una volta, puoi anche utilizzare
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Nella [finestra Esplora risorse](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), facendo clic sul pulsante Publish ![](../../assets/image2020-9-23-9-39-58.png) nella barra degli strumenti superiore.
+In Esplora risorse, facendo clic sul pulsante Publish ![](../../assets/image2020-9-23-9-39-58.png) nella barra degli strumenti superiore.
 
 Dopo aver pubblicato con la finestra di dialogo una volta, è anche possibile utilizzare il pulsante Publish come precedente ![](../../assets/image2020-9-23-11-15-35.png) per ripetere il processo di pubblicazione senza visualizzare le finestre di dialogo, pubblicando immediatamente con le stesse impostazioni.
 

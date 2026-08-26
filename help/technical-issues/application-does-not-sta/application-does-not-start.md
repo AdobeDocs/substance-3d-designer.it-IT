@@ -10,7 +10,7 @@ helpx_tags: ""
 title: L'applicazione non viene avviata
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0cbf71a4a03ac7d0dca48b8f41c753e646b7682b
+source-git-commit: 5e56914c9048c513359d578d802097ef18493a5c
 workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 1%
@@ -38,7 +38,7 @@ Le versioni 15.0 e successive di Designer non si avviano su sistemi con una GPU 
 
 <b>![(tick)](../../assets/check.svg) Passaggi consigliati</b>
 
-Aggiornate i driver della scheda grafica di iGPU. I driver più recenti sono disponibili qui: [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)  | [AMD](https://www.amd.com/en/support/download/drivers.html)
+Aggiornate i driver della scheda grafica di iGPU. I driver più recenti sono disponibili qui: [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)  | [AMD](https://www.amd.com/en/support/download/drivers.html)
 
 ## Windows 10/11
 

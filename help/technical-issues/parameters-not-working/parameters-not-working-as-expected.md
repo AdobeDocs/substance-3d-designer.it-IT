@@ -10,9 +10,9 @@ helpx_tags: ""
 title: I parametri non funzionano come previsto
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '303'
 ht-degree: 5%
 
 ---
@@ -26,7 +26,7 @@ In questa pagina sono elencate le cause comuni dei parametri che non funzionano 
 
 <b>![(errore)](../../assets/error.svg) Problema</b>
 
-Alcuni parametri esposti per un grafico sono *non elencati* quando si utilizza la [modalità Anteprima](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) in Designer o nell&#39;elenco dei parametri di [risorse Substance 3D](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR) pubblicato da tale grafico.
+Alcuni parametri esposti per un grafico sono *non elencati* quando si utilizza la [modalità Anteprima](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) in Designer o nell&#39;elenco dei parametri delle risorse Substance 3D (SBSAR) [pubblicate](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) di tale grafico.
 
 <b>![(tick)](../../assets/check.svg)Passaggi consigliati</b>
 

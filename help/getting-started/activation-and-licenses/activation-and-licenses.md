@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Attivazione e licenze
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Sono disponibili tre opzioni:
 
 * <b>Valutazione del prodotto</b>: le versioni di prova precedenti non sono più disponibili. Puoi invece avviare una versione di prova di 30 giorni per ogni applicazione Substance 3D [qui](https://www.adobe.com/creativecloud/3d-augmented-reality.html) o con Creative Cloud Desktop. Ogni versione di prova è indipendente dalle altre applicazioni Substance 3D, quindi puoi provarle una alla volta o tutte contemporaneamente.
 * <b>Attivazione tramite un file di licenza</b>: attivare il prodotto con un file di licenza (<b>\*.key</b>) scaricato dalla pagina dell&#39;account nel [sito Web Substance 3D](https://store.substance3d.com/user) prima del 30 settembre 2022.
-* <b>Attiva utilizzando il tuo account</b>: gli account Substance legacy non possono più essere utilizzati per l&#39;attivazione. [Ulteriori informazioni sugli account di Substance sono disponibili qui](https://helpx.adobe.com/it/substance-3d/unlisted/faq-end-of-life-accounts.html).
+* <b>Attiva utilizzando il tuo account</b>: gli account Substance legacy non possono più essere utilizzati per l&#39;attivazione.
 
 >[!IMPORTANT]
 >

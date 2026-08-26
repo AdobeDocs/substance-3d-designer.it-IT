@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Avvisi nei grafici MDL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '990'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 In questa pagina vengono elencati i messaggi di avvertenza ed errore che possono essere attivati dai grafici MDL in [Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html) e vengono fornite le procedure di risoluzione dei problemi più comuni per ciascuno di essi.
 
-Gli avvisi vengono visualizzati nella descrizione comandi dell&#39;icona di avviso per la risorsa grafico nel pannello [Esplora risorse](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) e nell&#39;angolo inferiore sinistro della [visualizzazione Grafico](../../interface/the-graph-view/the-graph-view.md) se il grafico è caricato.
+Gli avvisi vengono visualizzati nella descrizione comandi dell&#39;icona di avviso per la risorsa grafico nel pannello [Esplora risorse](../../interface/the-explorer-window/the-explorer-window.md) e nell&#39;angolo inferiore sinistro della [visualizzazione Grafico](../../interface/the-graph-view/the-graph-view.md) se il grafico è caricato.
 
 >[!NOTE]
 >
@@ -104,7 +104,7 @@ In caso contrario, eliminare il nodo dell&#39;istanza e sostituirlo con un nodo 
 Per i nodi delle risorse Scena
 
 Trovare le risorse a cui si fa riferimento nel pannello [Esplora risorse](https://substance3d.adobe.com/documentation/display/DRAFTDESIGNER/.The+Explorer+window+vDraftVersion) e verificarne la presenza nel percorso salvato nell&#39;attributo <b>Percorso file</b>.\
-In caso contrario, fare clic su *RMB* sull&#39;elemento della risorsa in Esplora risorse e selezionare <b>Riposiziona...Opzione </b> nel menu di scelta rapida per impostare un nuovo file di destinazione valido per la risorsa.
+In caso contrario, fare clic su *RMB* sull&#39;elemento della risorsa in Esplora risorse e selezionare l&#39;opzione <b>Riposiziona...</b> nel menu di scelta rapida per impostare un nuovo file di destinazione valido per la risorsa.
 
 ![&#39;Risorsa di riferimento non trovata&#39; soluzione](../../assets/warnings-model-referenced-resource.gif "&#39;Risorsa di riferimento non trovata&#39; soluzione")
 

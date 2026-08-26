@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Bitmap
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '463'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ Carica una [risorsa bitmap](../../../../resources/bitmap-resource/bitmap-resourc
 
 Questo nodo viene utilizzato per importare una [bitmap](../../../../glossary/glossary.md) nel grafico oppure per creare una nuova bitmap da utilizzare con gli [strumenti di pittura bitmap](../../../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md).
 
-Esistono alcuni modi per creare questo nodo e tutti richiedono di comprendere[&#x200B; la differenza tra il collegamento e l&#39;importazione delle risorse.](../../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
+Esistono alcuni modi per creare questo nodo e tutti richiedono che tu comprenda[la differenza tra il collegamento e l&#39;importazione delle risorse.](../../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
 
 </td>
 </tr>
@@ -104,7 +104,7 @@ Potete creare il nodo da zero o rilasciando una [bitmap](../../../../glossary/gl
 |  |  |
 | --- | --- |
 | <b>Metodo colore</b> *Booleano* | Determina il tipo di output del nodo da restituire a colori o in scala di grigio. |
-| <b>Percorso risorsa PKG</b> *Stringa* | Percorso della risorsa [Bitmap](../../../../resources/bitmap-resource/bitmap-resource.md) a cui fa riferimento il nodo.   Si consiglia di non digitare manualmente ma di copiare una risorsa dall&#39;elenco delle cartelle e incollarla nel campo di testo del parametro oppure di trascinare una risorsa bitmap direttamente da [Esplora risorse](../../../../interface/the-explorer-window/the-explorer-window.md) nel nodo Bitmap del grafico. |
+| <b>Percorso risorsa PKG</b> *Stringa* | Percorso della risorsa [Bitmap](../../../../resources/bitmap-resource/bitmap-resource.md) a cui fa riferimento il nodo.   Si consiglia di non digitare manualmente ma di copiare una risorsa dall&#39;elenco delle cartelle e incollarla nel campo di testo del parametro oppure di trascinare una risorsa bitmap direttamente da [Esplora risorse](../../../../interface/the-explorer-window/the-explorer-window.md) nel nodo Bitmap del grafico. |
 | <b>Metodo Resize</b> *Numero intero* | Metodo di ricampionamento da utilizzare per il ridimensionamento verso l’alto o verso il basso di una bitmap:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Dilatazione uniforme:</i> applicate un [filtro bilineare](../../../../glossary/glossary.md) per interpolare sui pixel di origine dell&#39;immagine allungata.</li> <li data-preserve-html="true"><i>Allungamento più vicino:</i> allungate l&#39;immagine e utilizzate il colore del pixel di origine più vicino così com&#39;è.</li> </ul> |
 
 ## Strumenti di pittura Bitmap

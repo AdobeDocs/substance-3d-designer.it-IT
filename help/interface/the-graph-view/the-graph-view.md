@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Vista Grafico
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '3568'
+source-wordcount: '3558'
 ht-degree: 0%
 
 ---
@@ -387,7 +387,7 @@ Scegliere tra le modalità di creazione dei collegamenti Standard (1), Materiale
 </b>*- Pulizia:* Rimuove tutti i nodi che fanno parte di un flusso non connesso a un nodo [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).\
 *- Esporta output:* Apre l&#39;[interfaccia di esportazione bitmap](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md).\
 *- Esporta nuovamente gli output:* Esegue nuovamente l&#39;operazione di esportazione precedente.\
-*- PSD Exporter:* apre[l&#39;interfaccia PSD Exporter.](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html)
+*- PSD Exporter:* Apre l&#39;interfaccia [PSD Exporter](../../compositing-graphs/exporting-psd-files/exporting-psd-files.md).
 
 ![](../../assets/image2020-6-26-16-37-16.png) <b>Cache immagini nodo\
 </b>Attiva/disattiva la visualizzazione della cache delle immagini del nodo, vedere di seguito.

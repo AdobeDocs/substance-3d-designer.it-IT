@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Forma d’onda 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 2%
+source-wordcount: '350'
+ht-degree: 1%
 
 ---
 
@@ -43,26 +43,6 @@ Disposizione orizzontale di motivi selezionati dall&#39;utente impilati in una f
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### Output
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parametri
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Esempi
-
-</td>
-</tr>
-</table>
-
 ## Output
 
 |  |  |
@@ -74,8 +54,8 @@ Disposizione orizzontale di motivi selezionati dall&#39;utente impilati in una f
 |  |  |
 | --- | --- |
 | <b>Esempi</b> Interi | Quantità di pattern posizionati lungo l’asse X per disegnare la forma d’onda, dove un valore inferiore determina un aspetto più graduale. |
-| <b>Funzione</b> Intero | Funzione utilizzata per disegnare la forma d’onda.   Questa opzione controlla la dimensione verticale del pattern posizionato su ciascun campione:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Disturbo valore:</i> Distribuzione casuale dei valori</li> <li data-preserve-html="true"><i>Coseno:</i> I valori seguono la progressione di una funzione coseno</li> <li data-preserve-html="true"><i>Funzione personalizzata:</i> Utilizzare una funzione creata dall&#39;utente per guidare i valori</li> </ul> |
-| <b>Funzione personalizzata</b> Mobile *Disponibile quando &#39;Funzione&#39; è impostato su &#39;Funzione personalizzata&#39;* | Calcola la dimensione verticale del pattern posizionato su ciascun campione.   Variabili disponibili:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>pos</b> (<i>float</i>) Posizione del pattern sull&#39;asse X. Questa opzione può essere utilizzata per selezionare i pattern.</li> </ul> |
+| <b>Funzione</b> Intero | Funzione utilizzata per disegnare la forma d’onda.   Questa opzione controlla la dimensione verticale del pattern posizionato su ciascun campione:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Disturbo valore:</i> Distribuzione casuale dei valori</li> <li data-preserve-html="true"><i>Coseno:</i> I valori seguono la progressione di una funzione coseno</li> <li data-preserve-html="true"><i>Funzione personalizzata:</i> Utilizzare una funzione creata dall&#39;utente per guidare i valori</li> </ul> |
+| <b>Funzione personalizzata</b> Mobile *Disponibile quando &#39;Funzione&#39; è impostato su &#39;Funzione personalizzata&#39;* | Calcola la dimensione verticale del pattern posizionato su ciascun campione.   Variabili disponibili:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>pos</b> (<i>float</i>) Posizione del pattern sull&#39;asse X. Questa opzione può essere utilizzata per selezionare i pattern.</li> </ul> |
 | <b>Rugosità</b> Mobile | Interpola una forma d’onda pulita e liscia con una più ruvida e uniformemente distribuita.    Può essere considerato come un segnale pulito rispetto a un disturbo bianco. |
 | <b>Scala</b> Intero | L’estensione orizzontale della forma d’onda visibile nell’immagine. |
 | <b>Ampiezza min.</b>  A virgola mobile | Il valore minimo (o thickness) della forma d’onda. |
