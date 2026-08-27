@@ -58,7 +58,7 @@ Tutti gli altri nodi del grafico a Substance nella [libreria](../../../interface
 
 [![Nodo atomico: sfocatura direzionale](../../../assets/comp_dirmotionblur.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md)
 
-[Sfocatura direzionale](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md)[](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md)
+[Sfocatura direzionale](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md) [&#128279;](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md)
 
 </td>
 </tr>
@@ -138,7 +138,7 @@ Tutti gli altri nodi del grafico a Substance nella [libreria](../../../interface
 
 [![Nodo atomico: input scala di grigi](../../../assets/comp_inputgrayscale.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
 
-[Scala di grigi di input](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)[](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[Scala di grigi di input](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) [&#128279;](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
 
 </td>
 </tr>

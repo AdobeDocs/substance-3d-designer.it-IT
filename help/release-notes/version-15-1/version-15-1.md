@@ -199,8 +199,8 @@ Ad esempio, il rilevamento dell’assenza di una variabile consente di fornire u
 * [Vista 3D] Lo Specular level non viene applicato correttamente
 * [Vista 3D] Il Specular edge color non funziona quando si utilizza il rasterizzatore Eclair
 * [Vista 3D] Il materiale aggiunto dall&#39;utente non viene applicato alle scene predefinite
-* [Vista 3D][Pannelli] Il colore del materiale è troppo scuro una volta sovrascritto o quando si utilizza un panettiere a &quot;colori&quot;
-* [Vista 3D][Pannelli] Nessun colore materiale dal file FBX
+* [Vista 3D]&#x200B;[Pannelli] Il colore del materiale è troppo scuro una volta sovrascritto o quando si utilizza un panettiere a &quot;colori&quot;
+* [Vista 3D]&#x200B;[Pannelli] Nessun colore materiale dal file FBX
 * [Pannelli] I colori dei materiali nei file FBX non vengono rilevati correttamente
 * [Bakers] L’opzione &quot;recompute\_tangents&quot; è sempre &quot;false&quot; nelle esportazioni di predefiniti JSON
 * [Bakers] CLI: arresto anomalo durante l&#39;esecuzione consecutiva dello stesso baker tramite file JSON

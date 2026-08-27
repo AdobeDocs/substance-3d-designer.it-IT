@@ -20,7 +20,7 @@ ht-degree: 2%
 
 # Risorsa bitmap
 
-Una risorsa bitmap è una risorsa in un pacchetto di Substance. È diverso dal nodo bitmap [ atomico. Il nodo bitmap atomica](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) è una rappresentazione specifica della bitmap all&#39;interno di[un grafico a Substance](../../compositing-graphs/substance-compositing-graphs.md).
+Una risorsa bitmap è una risorsa in un pacchetto di Substance. È diverso dal nodo bitmap [&#x200B; atomico. Il nodo bitmap atomica](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) è una rappresentazione specifica della bitmap all&#39;interno di[un grafico a Substance](../../compositing-graphs/substance-compositing-graphs.md).
 
 Le bitmap sono tra le risorse non grafiche più comuni di Substance 3D Designer, di solito il loro utilizzo rientra in una delle seguenti categorie:
 
