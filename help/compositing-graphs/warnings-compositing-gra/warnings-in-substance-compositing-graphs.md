@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/warnings-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/warnings-in-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Consulta le avvertenze nella sezione Substance grafici di composizione e scopri come risolvere problemi ed errori comuni.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Avvertenze nei grafici Substance
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '696'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 In questa pagina sono elencati avvisi ed errori che possono essere attivati da [Substance grafici](../../compositing-graphs/substance-compositing-graphs.md) in Substance 3D Designer e sono disponibili passaggi di risoluzione dei problemi comuni per ciascuno di essi.
 
-Gli avvisi vengono visualizzati nella descrizione comandi dell&#39;icona di avviso per la risorsa grafico nel pannello [Esplora risorse](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) e nell&#39;angolo inferiore sinistro della [visualizzazione Grafico](../../interface/the-graph-view/the-graph-view.md) se il grafico è caricato.
+Gli avvisi vengono visualizzati nella descrizione comandi dell&#39;icona di avviso per la risorsa grafico nel pannello [Esplora risorse](../../interface/the-explorer-window/the-explorer-window.md) e nell&#39;angolo inferiore sinistro della [visualizzazione Grafico](../../interface/the-graph-view/the-graph-view.md) se il grafico è caricato.
 
 ## ![(errore)](../../assets/error.svg) Nessun nodo di output definito
 
@@ -34,7 +34,7 @@ Aggiungete uno o più nodi [Output](../../compositing-graphs/nodes-reference-for
 
 >[!NOTE]
 >
-> I modelli di grafico disponibili tramite la [finestra di dialogo Nuovo grafico Substance](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/create-a-graph-102400068.html) dispongono di nodi di output predefiniti pronti per l&#39;utilizzo.
+> I modelli di grafico disponibili nella finestra di dialogo [Nuovo grafico](../creating-compositing-gra/creating-a-substance-compositing-graph.md) presentano nodi di output predefiniti pronti per l&#39;uso.
 
 ![Correzione dell&#39;avviso &#39;Nessun nodo di output definito&#39;](../../assets/warnings-comp-output.gif "Correzione dell&#39;avviso &#39;Nessun nodo di output definito&#39;"){width="512px"}
 
@@ -43,11 +43,11 @@ Aggiungete uno o più nodi [Output](../../compositing-graphs/nodes-reference-for
 Il [grafico della funzione](../../function-graphs/function-graphs.md) applicato al parametro specificato del nodo specificato presenta almeno un avviso.\
 Il parametro del nodo viene specificato tra parentesi quadre dopo l&#39;etichetta del nodo, seguendo il modello Node[Parameter].
 
-E.g. Uniform Color[Colore Di Output], Processore Pixel[Funzione Per Pixel]
+E.g. Uniform Color[Colore Di Output], Processore Pixel[Funzione Per Pixel]
 
 **![(tick)](../../assets/check.svg) Soluzione**
 
-Individuare il nodo che emette l&#39;avviso in base all&#39;etichetta e al badge di avviso nella [visualizzazione Grafico](../../interface/the-graph-view/the-graph-view.md), quindi selezionarlo per visualizzarne le proprietà nel pannello [Proprietà](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html). Individuare il parametro che emette l&#39;avviso e aprirne la funzione facendo clic sul pulsante **Modifica funzione**.
+Individuare il nodo che emette l&#39;avviso in base all&#39;etichetta e al badge di avviso nella [visualizzazione Grafico](../../interface/the-graph-view/the-graph-view.md), quindi selezionarlo per visualizzarne le proprietà nel pannello [Proprietà](../../interface/properties/properties.md). Individuare il parametro che emette l&#39;avviso e aprirne la funzione facendo clic sul pulsante **Modifica funzione**.
 
 Quindi, valuta gli avvisi elencati nell’angolo in basso a sinistra della vista Grafico e risolvi i problemi. È possibile fare riferimento alla pagina [Avvisi nei grafici delle funzioni](../../function-graphs/warnings-function-graphs/warnings-in-function-graphs.md) per la risoluzione dei problemi relativi agli avvisi riportati nei grafici delle funzioni.
 
@@ -64,7 +64,7 @@ La risorsa a cui fa riferimento un nodo presenta uno o più avvisi. Di seguito s
 
 **![(tick)](../../assets/check.svg) Soluzione**
 
-Nel pannello [Esplora risorse](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), individuare la risorsa a cui si fa riferimento e risolvere tutti gli avvisi generati dalla risorsa:
+Nel pannello [Esplora risorse](../../interface/the-explorer-window/the-explorer-window.md), individuare la risorsa a cui si fa riferimento e risolvere tutti gli avvisi generati dalla risorsa:
 
 * Per i grafici, fai riferimento ad altri elementi in questa pagina
 * Per qualsiasi altro tipo di risorsa, consultare la pagina [Avvisi dalle dipendenze](../../resources/warnings-from-dep/warnings-from-dependencies.md)
@@ -73,7 +73,7 @@ Nel pannello [Esplora risorse](https://helpx.adobe.com/it/substance-3d/unlisted/
 
 ### ![(errore)](../../assets/error.svg) Risorsa di riferimento non trovata
 
-Impossibile trovare la risorsa a cui fa riferimento un nodo nel percorso salvato nel file SBS (Substance 3D[&#128279;](https://www.adobe.com/it/products/substance3d/3d-augmented-reality.html)) di . Di seguito sono riportati alcuni nodi che fanno riferimento a una risorsa:
+Impossibile trovare la risorsa a cui fa riferimento un nodo nel percorso salvato nel file di [Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html) (SBS). Di seguito sono riportati alcuni nodi che fanno riferimento a una risorsa:
 
 * Un nodo [istanza del grafico](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) fa riferimento a un grafico
 * Un nodo [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) fa riferimento a una [risorsa Bitmap](../../resources/bitmap-resource/bitmap-resource.md)
@@ -85,11 +85,11 @@ Impossibile trovare la risorsa a cui fa riferimento un nodo nel percorso salvato
 Per i nodi [istanza del grafico](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)
 
 Verificare che il grafico di origine esista nel pacchetto che si trova nel percorso salvato nel relativo attributo **Package**.\
-In caso contrario, eliminare il nodo dell&#39;istanza e sostituirlo con un nodo dell&#39;istanza che fa riferimento a un pacchetto valido. In alternativa, puoi ricreare il pacchetto e il grafico a cui fa riferimento il nodo dell&#39;istanza, quindi ricaricare il pacchetto host facendo clic su RMB nel pannello [Esplora risorse](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) e selezionando l&#39;opzione **Ricarica** nel menu di scelta rapida.
+In caso contrario, eliminare il nodo dell&#39;istanza e sostituirlo con un nodo dell&#39;istanza che fa riferimento a un pacchetto valido. In alternativa, puoi ricreare il pacchetto e il grafico a cui fa riferimento il nodo dell&#39;istanza, quindi ricaricare il pacchetto host facendo clic su RMB nel pannello [Esplora risorse](../../interface/the-explorer-window/the-explorer-window.md) e selezionando l&#39;opzione **Ricarica** nel menu di scelta rapida.
 
 Per i nodi [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md), [SVG](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md) o [Text](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md)
 
-Trovare le risorse a cui si fa riferimento nel pannello [Esplora risorse](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) e verificarne la presenza nel percorso salvato nell&#39;attributo **Percorso file**.\
+Trovare le risorse a cui si fa riferimento nel pannello Esplora risorse e verificarne la presenza nel percorso salvato nell&#39;attributo **Percorso file**.\
 In caso contrario, fare clic su RMB sull&#39;elemento della risorsa in Esplora risorse e selezionare l&#39;opzione **Riposiziona...** nel menu di scelta rapida per impostare un nuovo file di destinazione valido per la risorsa.
 
 ![Correzione dell&#39;avviso &#39;Risorsa di riferimento non trovata&#39;](../../assets/warnings-comp-referenced-resource.gif "Correzione dell&#39;avviso &#39;Risorsa di riferimento non trovata&#39;")

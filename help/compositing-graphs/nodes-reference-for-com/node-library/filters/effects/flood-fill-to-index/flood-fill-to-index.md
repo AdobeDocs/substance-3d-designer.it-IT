@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-index.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-index.html"
 breadcrumb-title: ''
 description: Utilizzare il nodo Flood Fill a indice per riempire le aree con valori di indice per la creazione di pattern numerati ed etichettati.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Da Flood Fill a indice
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '201'
 ht-degree: 2%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 2%
 
 Da Flood Fill a indice converte ogni cella del Flood Fill in un valore in base al numero di indice, iniziando con 0 nell&#39;angolo superiore sinistro. Può essere usato per restituire tinte in scala di grigio in forma normalizzata (da 0,0 a 1,0, divise per il numero di celle trovato dal Flood Fill) o come valore sbloccato HDR (da 0 a n dove n è il numero di celle).
 
-Inoltre, Flood Fill to Index utilizza il nuovo sistema [Value, che restituisce valori aggiuntivi](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html) contenenti la quantità di forme trovate e la tabella dati interna facoltativa.
+Inoltre, Flood Fill to Index utilizza [valori](../../../../../values-compositing-graphs/values-in-substance-compositing-graphs.md), restituendo la quantità di forme trovate e la tabella dati interna facoltativa.
 
 ### Input
 

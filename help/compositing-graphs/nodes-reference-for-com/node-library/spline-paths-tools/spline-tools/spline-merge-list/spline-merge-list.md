@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-merge-list.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-merge-list.html"
 breadcrumb-title: ''
 description: Utilizzare il nodo Elenco unione spline per unire più spline in un unico elenco spline per operazioni combinate.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Elenco unione spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 1%
@@ -49,9 +49,9 @@ Unisce tutte le spline dell&#39;elenco di input in un&#39;unica spline.
 <b> R</b> - Posizione X\
 <b> G</b> - Posizione Y\
 <b> B</b> - Height\
-    <b>A</b> - Dati compressi:\
-        * Segno: la spline è chiusa (negativa) o aperta (positiva);\
-        * Valore assoluto: Thickness + 1.
+<b>A</b> - Dati compressi:\
+* Segno: la spline è chiusa (negativa) o aperta (positiva);\
+* Valore assoluto: Thickness + 1.
 
 <b>Dati spline</b> *Colore* Dati aggiuntivi delle spline di input codificate nei canali RGBA di un&#39;immagine a colori.\
 <b> R</b> - Tangenti X\
@@ -66,18 +66,18 @@ Unisce tutte le spline dell&#39;elenco di input in un&#39;unica spline.
 <b>Anteprima</b> *Scala di grigio* Anteprima delle spline unite come immagine in scala di grigio.
 
 <b>Spline Coords</b> *Colore* Coordinate dei punti delle spline unite codificate nei canali RGBA di un&#39;immagine a colori.\
-    <b>R</b> - Posizione X\
-    <b>G</b> - Posizione Y\
-    <b>B</b> - Height\
-    <b>A</b> - Dati compressi:\
-        * Segno: la spline è chiusa (negativa) o aperta (positiva);\
-        * Valore assoluto: Thickness + 1.
+<b>R</b> - Posizione X\
+<b>G</b> - Posizione Y\
+<b>B</b> - Height\
+<b>A</b> - Dati compressi:\
+* Segno: la spline è chiusa (negativa) o aperta (positiva);\
+* Valore assoluto: Thickness + 1.
 
 <b>Dati spline</b> *Colore* Dati aggiuntivi delle spline unite codificate nei canali RGBA di un&#39;immagine a colori.\
-    <b>R</b> - Tangenti X\
-    <b>G</b> - Tangenti Y\
-    <b>B</b> - Non utilizzato\
-    <b>A</b> - Non in uso
+<b>R</b> - Tangenti X\
+<b>G</b> - Tangenti Y\
+<b>B</b> - Non utilizzato\
+<b>A</b> - Non in uso
 
 <b>Quantità spline</b> *Numero intero* Numero di spline unite.
 

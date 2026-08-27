@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/technical-issues/warnings-and-errors.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/warnings-and-errors.html"
 breadcrumb-title: ''
 description: Trovate le soluzioni per gli avvisi e gli errori più comuni in Substance 3D Designer per risolvere rapidamente i problemi.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Avvertenze ed errori
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '817'
 ht-degree: 4%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 # Avvertenze ed errori
 
-In questa pagina vengono illustrate le segnalazioni di avvisi e messaggi di errore che possono essere visualizzati in [Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html) e vengono forniti collegamenti alla risoluzione dei problemi relativi agli avvisi in base alla loro origine.
+In questa pagina vengono illustrate le segnalazioni di avvisi e messaggi di errore che possono essere visualizzati in [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) e vengono forniti collegamenti alla risoluzione dei problemi relativi agli avvisi in base alla loro origine.
 
 ## Panoramica
 
@@ -37,7 +37,7 @@ In genere, gli avvisi e gli errori vengono visualizzati sull&#39;elemento che li
 
 ### Explorer
 
-Per qualsiasi elemento nel pannello [Esplora risorse](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) che presenta un avviso, tale avviso viene visualizzato con un&#39;icona ![](../../assets/warning-icon.png) sul bordo più a destra della voce dell&#39;elemento nell&#39;elenco. Lascia il cursore sull&#39;icona per alcuni secondi per visualizzare una *descrizione comandi* che elenca tutti gli avvisi nel dettaglio.
+Per qualsiasi elemento nel pannello [Esplora risorse](../../interface/the-explorer-window/the-explorer-window.md) che presenta un avviso, tale avviso viene visualizzato con un&#39;icona ![](../../assets/warning-icon.png) sul bordo più a destra della voce dell&#39;elemento nell&#39;elenco. Lascia il cursore sull&#39;icona per alcuni secondi per visualizzare una *descrizione comandi* che elenca tutti gli avvisi nel dettaglio.
 
 Seguono queste regole:
 
@@ -83,7 +83,7 @@ Seguono queste regole:
 
 ### Proprietà
 
-Per qualsiasi elemento nel pannello [Proprietà](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) che presenta un avviso, quest&#39;ultimo viene visualizzato con un&#39;icona ![](../../assets/warning-icon.png) sul bordo più a destra della voce dell&#39;elemento nell&#39;elenco. Lascia il cursore sull&#39;icona per alcuni secondi per visualizzare una *descrizione comandi* che elenca tutti gli avvisi nel dettaglio.
+Per qualsiasi elemento nel pannello [Proprietà](../../interface/properties/properties.md) che presenta un avviso, quest&#39;ultimo viene visualizzato con un&#39;icona ![](../../assets/warning-icon.png) sul bordo più a destra della voce dell&#39;elemento nell&#39;elenco. Lascia il cursore sull&#39;icona per alcuni secondi per visualizzare una *descrizione comandi* che elenca tutti gli avvisi nel dettaglio.
 
 Seguono queste regole:
 
@@ -106,7 +106,7 @@ Seguono queste regole:
 
 ### Console
 
-Sia l&#39;avviso che gli errori vengono segnalati nel pannello **Console**, a cui è possibile accedere tramite il menu **Windows** nel [menu principale](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html). È possibile isolare gli avvisi e gli errori dalle altre voci della console impostando **Canale** su `ErrorMgr`.
+Sia l&#39;avviso che gli errori vengono segnalati nel pannello **Console**, a cui è possibile accedere tramite il menu **Windows** nel [menu principale](../../interface/the-main-toolbar/the-main-toolbar.md). È possibile isolare gli avvisi e gli errori dalle altre voci della console impostando **Canale** su `ErrorMgr`.
 
 >[!NOTE]
 >

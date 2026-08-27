@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/release-notes/version-13-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-13-1.html"
 breadcrumb-title: ''
 description: Consultate le note sulla versione per Substance 3D Designer versione 13.1 per informazioni sui miglioramenti del grafico dei nodi e sul supporto per l'esportazione di AxF.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Versione 13.1
 
-<b>Substance 3D Designer 13.1</b> aggiunge molti miglioramenti alla qualità della vita del grafico dei nodi, principalmente per quanto riguarda i fotogrammi, per migliorare l&#39;esperienza di creazione del materiale. Inoltre, l&#39;esportazione AxF permette agli utenti di utilizzare il formato AxF con un workflow interoperabile.
+<b>Substance 3D Designer 13.1</b> aggiunge molti miglioramenti alla qualità di vita del grafico dei nodi, principalmente per quanto riguarda i fotogrammi, per migliorare l&#39;esperienza di creazione del materiale. Inoltre, l&#39;esportazione AxF permette agli utenti di utilizzare il formato AxF con un workflow interoperabile.
 
 *Data di pubblicazione: 12 dicembre 2023*
 
@@ -32,7 +32,7 @@ Le cornici sono uno strumento obbligatorio per mantenere il grafico ben organizz
 
 ### Espandi automaticamente
 
-Man mano che il grafico cresce, potrebbe essere necessario riorganizzare il contenuto delle cornici. I nodi potrebbero spostarsi per fare spazio ad aggiunte o potrebbe essere necessario spaziare di più i contenuti per promuovere la leggibilità. Per facilitare queste regolazioni, è ora possibile espandere automaticamente una cornice quando si spostano gli oggetti inclusi: tenete premuto <b>Maiusc</b> in qualsiasi punto mentre spostate un oggetto in modo che i bordi della cornice vengano regolati automaticamente per mantenere l&#39;oggetto entro i limiti.
+Man mano che il grafico cresce, potrebbe essere necessario riorganizzare il contenuto delle cornici. I nodi potrebbero spostarsi per fare spazio ad aggiunte o potrebbe essere necessario spaziare di più i contenuti per promuovere la leggibilità. Per facilitare queste regolazioni, è ora possibile espandere automaticamente un fotogramma quando si spostano gli oggetti inclusi: tenete premuto <b>Maiusc</b> in qualsiasi punto mentre spostate un oggetto in modo che i bordi del fotogramma si adattino automaticamente per mantenere l&#39;oggetto entro i limiti.
 
 ![espansione automatica](../../assets/autoexpand.gif)
 

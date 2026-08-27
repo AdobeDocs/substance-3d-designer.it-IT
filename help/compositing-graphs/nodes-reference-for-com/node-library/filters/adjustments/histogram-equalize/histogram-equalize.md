@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-equalize.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-equalize.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Equalizza dell’istogramma per ridistribuire l’intensità dei pixel per migliorare il contrasto e la luminosità.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Istogramma equalizza
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 2%
@@ -75,8 +75,8 @@ Equalizza l’istogramma di un’immagine in scala di grigio, regolando efficace
 
 |  |  |
 | --- | --- |
-| <b>Risoluzione istogramma</b> *Numero intero* | Larghezza dell’istogramma. Un valore più elevato consente una distribuzione più precisa.   Le risoluzioni disponibili sono, in pixel: 256, 512, 1024, 2048, 4096 |
-| <b>Uniformità istogramma</b> *Mobile* | L&#39;istogramma può essere smussato ridistribuendo i valori in scala di grigio nell&#39;immagine per equalizzare la *differenza* tra ciascun valore.   Questo parametro regola l’intensità dell’arrotondamento. |
+| <b>Risoluzione istogramma</b> *Numero intero* | Larghezza dell’istogramma. Un valore più elevato consente una distribuzione più precisa.   Le risoluzioni disponibili sono, in pixel: 256, 512, 1024, 2048, 4096 |
+| <b>Uniformità istogramma</b> *Mobile* | L&#39;istogramma può essere smussato ridistribuendo i valori in scala di grigio nell&#39;immagine per equalizzare la *differenza* tra ciascun valore.   Questo parametro regola l’intensità dell’arrotondamento. |
 
 ## Esempi
 

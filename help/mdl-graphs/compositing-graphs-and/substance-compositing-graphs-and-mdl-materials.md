@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Substance grafici e materiali MDL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '713'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ In queste pagine sono descritte le sinergie tra i [grafici Substance](../../comp
 
 Gli output dei grafici Substance possono essere *passati ai parametri esposti* dei materiali MDL in due modi, descritti in questa pagina.
 
-Se il materiale MDL attualmente applicato nella vista 3D ha parametri esposti il cui tipo è *[variabile](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)* - questo tipo può essere impostato utilizzando l&#39;opzione <b>Modificatore tipo</b> nelle proprietà del [parametro esposto](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/exposing-a-parameter-145654033.html), questi possono essere connessi a *texture*:
+Se il materiale MDL attualmente applicato nella vista 3D ha parametri esposti il cui tipo è *[variabile](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)* - questo tipo può essere impostato utilizzando l&#39;opzione <b>Modificatore tipo</b> nelle proprietà del [parametro esposto](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), questi possono essere connessi a *texture*:
 
 * un parametro <b>Color</b> può essere collegato alle texture RGBA
 * un parametro <b>Float</b> per le texture in scala di grigio

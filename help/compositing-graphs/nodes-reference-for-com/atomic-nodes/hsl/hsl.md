@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/hsl.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/hsl.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo HSL per regolare tonalità, saturazione e luminosità delle texture per la manipolazione e la correzione del colore.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: HSL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 9%
@@ -78,8 +78,8 @@ Se cercate altri modi per modificare i toni di un’immagine, osservate [Curva](
 
 |  |  |
 | --- | --- |
-| <b>Tonalità</b> *Mobile* | Determina il colore dell&#39;immagine di input.   I valori inferiori a 0,5 spostano la tonalità in modo negativo, mentre i valori superiori a 0,5 la spostano in modo positivo. |
-| <b>Saturazione</b> *Mobile* | Determina la saturazione del colore dell&#39;immagine di input.   I valori inferiori a 0,5 riducono la saturazione, mentre i valori superiori a 0,5 la aumentano. |
+| <b>Tonalità</b> *Mobile* | Determina il colore dell&#39;immagine di input.   I valori inferiori a 0,5 spostano la tonalità in modo negativo, mentre i valori superiori a 0,5 la spostano in modo positivo. |
+| <b>Saturazione</b> *Mobile* | Determina la saturazione del colore dell&#39;immagine di input.   I valori inferiori a 0,5 riducono la saturazione, mentre i valori superiori a 0,5 la aumentano. |
 | <b>Luminosità</b> *Mobile* | Determina la luminosità dell’immagine di input. I valori inferiori a 0,5 riducono la luminosità, quelli superiori a 0,5 la aumentano. |
 
 ## Connettori di ingresso

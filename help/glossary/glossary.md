@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/glossary.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/glossary.html"
 breadcrumb-title: ''
 description: Accedere al glossario di Substance 3D Designer per trovare definizioni di termini, concetti e terminologia tecnica.
 helpx_creative_field: ""
@@ -20,11 +20,11 @@ ht-degree: 1%
 
 # Scopri i termini e i concetti utilizzati in Designer.
 
-## #&#x200B;
+## #
 
 |  |  |
 | --- | --- |
-| <b><span id="three-d-scene" data-preserve-html="true"></span>Scena 3D</b> | Insieme di oggetti e dati coinvolti nella rappresentazione e nell&#39;animazione di una visualizzazione di uno spazio 3D:<ul data-preserve-html="true"> <li data-preserve-html="true">[Trame](#mesh)</li> <li data-preserve-html="true">[Materiali](#material)</li> <li data-preserve-html="true">Videocamere</li> <li data-preserve-html="true">Luci</li> <li data-preserve-html="true">Animazione</li> <li data-preserve-html="true">Simulazioni</li> <li data-preserve-html="true">...</li> </ul>I [formati di file più diffusi](https://www.adobe.com/it/products/substance3d/discover/3d-files-formats.html) per archiviare scene 3D includono [USD](#usd) di Pixar e FBX di Autodesk. Tutti i formati di file non supportano tutti questi componenti |
+| <b><span id="three-d-scene" data-preserve-html="true"></span>Scena 3D</b> | Insieme di oggetti e dati coinvolti nella rappresentazione e nell&#39;animazione di una visualizzazione di uno spazio 3D:<ul data-preserve-html="true"> <li data-preserve-html="true">[Trame](#mesh)</li> <li data-preserve-html="true">[Materiali](#material)</li> <li data-preserve-html="true">Videocamere</li> <li data-preserve-html="true">Luci</li> <li data-preserve-html="true">Animazione</li> <li data-preserve-html="true">Simulazioni</li> <li data-preserve-html="true">...</li> </ul>I [formati di file più diffusi](https://www.adobe.com/products/substance3d/discover/3d-files-formats.html) per archiviare scene 3D includono [USD](#usd) di Pixar e FBX di Autodesk. Tutti i formati di file non supportano tutti questi componenti |
 
 ## A
 
@@ -149,7 +149,7 @@ ht-degree: 1%
 |----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <b><span id="renderer" data-preserve-html="true"></span>Modulo di rendering</b> | Programma che elabora informazioni 3D quali luci, [trame](#mesh) e [materiali](#material) per creare immagini 2D. |
 | <b><span id="rendering" data-preserve-html="true"></span>Rendering di </b>(Vista 3D) | Processo di elaborazione di un&#39;immagine in base ai dati di input, utilizzando un programma quale un [modulo di rendering](#renderer). |
-| <b><span id="resolution" data-preserve-html="true"></span>Risoluzione</b> | La quantità di pixel orizzontali e verticali che formano una [bitmap](#bitmap). Un numero maggiore di pixel consente di rappresentare dettagli più fini.<br><br>Nei grafici a Substance, la risoluzione di una bitmap calcolata da un [nodo](#node) è controllata dal [parametro base](#base-parameter) delle dimensioni di output[&#128279;](#output-size) del nodo. |
+| <b><span id="resolution" data-preserve-html="true"></span>Risoluzione</b> | La quantità di pixel orizzontali e verticali che formano una [bitmap](#bitmap). Un numero maggiore di pixel consente di rappresentare dettagli più fini.<br><br>Nei grafici a Substance, la risoluzione di una bitmap calcolata da un [nodo](#node) è controllata dal [parametro base](#base-parameter) delle dimensioni di output](#output-size) del nodo.[ |
 | <b><span id="roughness" data-preserve-html="true"></span>Rugosità</b> | Canale di un [materiale](#material) definito utilizzando il modello di [ombreggiatura](#shader) di rugosità metallica PBR. Rugosità specifica la rugosità di una superficie, ovvero le variazioni microscopiche del height, dette anche *microsfaccettature*.<br><br>L&#39;elevata ruvidezza dà un aspetto opaco, mentre la bassa ruvidezza dà un aspetto uniforme e lucido.<br><br>È l&#39;opposto di [Lucidità](#glossiness). |
 
 ## S

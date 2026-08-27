@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/output-size.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/output-size.html"
 breadcrumb-title: ''
 description: Configura le impostazioni delle dimensioni di output per Substance grafici di composizione per controllare la risoluzione e la qualità delle texture.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Dimensioni output
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1006'
 ht-degree: 5%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 5%
 
 # Dimensioni output
 
-Si tratta del primo dei <b>parametri di base</b> di un grafico e, insieme al <b>formato di output</b> (o bitdepth), è fondamentale per la comprensione poiché ha un grande impatto sull&#39;output di un grafico, sia all&#39;interno di Designer che in altre applicazioni come file [risorsa Substance 3D (SBSAR)](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) pubblicato.
+Si tratta del primo dei <b>parametri di base</b> di un grafico e, insieme al <b>formato di output</b> (o bitdepth), è fondamentale per la comprensione poiché ha un grande impatto sull&#39;output di un grafico, sia in Designer che in altre applicazioni come file [risorsa Substance 3D pubblicata (SBSAR)](../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md).
 
 >[!TIP]
 >
@@ -96,13 +96,13 @@ Nella maggior parte dei casi, il [metodo di ereditarietà](../../compositing-gra
 * Nodo: *Rispetto all&#39;input* - In questo caso vengono utilizzati i valori ereditati dall&#39;[input primario](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) del nodo
 * Nodo [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md): *Assoluto*. Per ulteriori informazioni, vedere la pagina [Risorsa bitmap](../../resources/bitmap-resource/bitmap-resource.md) e le [linee guida per l&#39;ottimizzazione delle prestazioni](../../best-practices/performance-optimization/performance-optimization-guidelines.md)
 
-Visualizzare le proprietà di un nodo o di un grafico facendo clic sull&#39;elemento, quindi nel pannello [Proprietà](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) individuare la proprietà <b>Dimensione output</b> nella sezione <b>Parametri di base</b>. Fare clic sul menu a discesa del metodo di ereditarietà per selezionare il metodo di ereditarietà desiderato.
+Visualizzare le proprietà di un nodo o di un grafico facendo clic sull&#39;elemento, quindi nel pannello [Proprietà](../../interface/properties/properties.md) individuare la proprietà <b>Dimensione output</b> nella sezione <b>Parametri di base</b>. Fare clic sul menu a discesa del metodo di ereditarietà per selezionare il metodo di ereditarietà desiderato.
 
 ![Metodo di ereditarietà delle dimensioni di output](../../assets/change-mode.gif "Metodo di ereditarietà delle dimensioni di output"){width="512px"}
 
 ## Problemi di esempio
 
-Se sei un nuovo utente di [Adobe Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html), potresti riscontrare alcuni problemi comuni. Di seguito sono riportati alcuni esempi e alcune soluzioni.
+Se sei un nuovo utente di [Adobe Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html), potresti riscontrare alcuni problemi comuni. Di seguito sono riportati alcuni esempi e alcune soluzioni.
 
 +++Problema 1
 **![(errore)](../../assets/error.svg) Problema**

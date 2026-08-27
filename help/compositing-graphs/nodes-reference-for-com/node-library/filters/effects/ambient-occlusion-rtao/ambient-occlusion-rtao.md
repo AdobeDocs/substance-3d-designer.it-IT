@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/ambient-occlusion-rtao.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/ambient-occlusion-rtao.html"
 breadcrumb-title: ''
 description: Utilizza il nodo Occlusione ambiente (RTAO) per generare mappe di occlusione ambientale in tempo reale da mappe di height per un'ombreggiatura realistica.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Occlusione ambientale (RTAO)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 0%
@@ -48,14 +48,14 @@ Per un&#39;alternativa più semplice e veloce, vedere [Occlusione ambiente (HBAO
 <b>Usa Dimensioni fisiche</b> *Booleano*\
 Attivate/disattivate per utilizzare le impostazioni della Dimensioni fisiche per determinare la scala del height.
 
-<b>Dimensioni fisiche</b> *Float3* (disponibile quando <b>Usa Dimensioni fisiche</b> è impostato su *Vero*)\
+<b>Dimensioni fisiche</b> *Float3* (disponibile quando <b>Usa Dimensioni fisiche</b> è impostato su *True*)\
 Regola la scala del height in base alla dimensioni fisiche reale della superficie
 
 <b>Esempi </b>*Interi*\
 Numero di raggi utilizzati per calcolare l&#39;occlusione ambientale.\
 Un valore più elevato fornisce un risultato più fluido e preciso a costo delle prestazioni.
 
-<b>Scala Height</b> *Mobile* (disponibile quando <b>Usa Dimensioni fisiche</b> è impostato su *Falso*)\
+<b>Scala Height</b> *Float* (disponibile quando <b>Usa Dimensioni fisiche</b> è impostato su *False*)\
 Moltiplicatore per l&#39;intensità dell&#39;input della mappa del height.
 
 <b>Distribuzione</b> *Numero intero* Imposta il metodo di distribuzione. Influisce sul decadimento verso le aree in ombra,

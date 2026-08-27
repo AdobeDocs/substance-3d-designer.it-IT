@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
 breadcrumb-title: ''
 description: Scoprite come gestire e organizzare i parametri nei grafici di composizione delle Substance per una migliore organizzazione del flusso di lavoro.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Gestisci i parametri
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 3%
@@ -59,7 +59,7 @@ Le azioni di questo menu influiranno su *tutti* i parametri elencati in quella s
 * <b>Incolla parametri:</b> Vedere la sezione [Copia e incolla parametri](../../compositing-graphs/manage-parameters/manage-parameters.md) seguente.
 * <b>Salva i parametri come file di predefiniti:</b> Ulteriori informazioni sui predefiniti dei parametri in [questa pagina dedicata](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md).
 * <b>Applicare i parametri da un file di predefiniti:</b> Ulteriori informazioni sui predefiniti dei parametri in [questa pagina dedicata](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md).
-* <b>Reimposta tutto:</b> Reimposta tutti i parametri sui valori e gli intervalli predefiniti. Se una funzione è stata applicata a un parametro, viene ignorata.
+* <b>Reimposta tutto:</b> Reimposta tutti i parametri sui valori e gli intervalli predefiniti. Se una funzione è stata applicata a un parametro, viene ignorata.
 
 >[!NOTE]
 >
@@ -108,7 +108,7 @@ Le stesse limitazioni elencate di seguito per i nodi atomici si applicano a ques
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
 
-![&#x200B; menu &#39;Gestisci parametri&#39; nel menu contestuale del nodo](../../assets/manage-parameters-node-menu.png " menu &#39;Gestisci parametri&#39; nel menu contestuale del nodo"){zoomable="yes"}
+![ menu &#39;Gestisci parametri&#39; nel menu contestuale del nodo](../../assets/manage-parameters-node-menu.png " menu &#39;Gestisci parametri&#39; nel menu contestuale del nodo"){zoomable="yes"}
 
 </td>
 </tr>
@@ -120,7 +120,7 @@ Le stesse limitazioni elencate di seguito per i nodi atomici si applicano a ques
 
 ## Copiare e incollare i parametri
 
-È possibile copiare tutti i valori dei parametri per un nodo di origine e incollarli in un nodo di destinazione. I parametri dei nodi di origine e di destinazione sono <b>corrispondenti in base ai relativi identificatori e tipi</b>.
+È possibile copiare tutti i valori dei parametri per un nodo di origine e incollarli in un nodo di destinazione. I parametri dei nodi di origine e di destinazione sono <b>corrispondenti in base ai relativi identificatori e tipi</b>.
 
 Ad esempio, un parametro &#39;Scale&#39; con identificatore &#39;scale&#39; e tipo &#39;Float&#39; può essere copiato e incollato in un altro parametro &#39;Shape Scale&#39; quando anche l&#39;identificatore è &#39;scale&#39; e il relativo tipo è &#39;Float&#39;.
 

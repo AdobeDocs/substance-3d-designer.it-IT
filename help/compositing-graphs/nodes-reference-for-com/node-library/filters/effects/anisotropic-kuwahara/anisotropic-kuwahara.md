@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/anisotropic-kuwahara.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/anisotropic-kuwahara.html"
 breadcrumb-title: ''
 description: Usate il filtro Anisotropo Kuwahara Color per creare effetti di colore stilizzati e pittorici con arrotondamento direzionale.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Colore kuwahara anisotropo
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '841'
 ht-degree: 0%
@@ -91,32 +91,32 @@ Sinistra: Anisotropia 0.0 / Destra: Anisotropia 1.0
 |  |  |
 | --- | --- |
 | <b>Input</b> *Colore* primario | Immagine a colori da elaborare. |
-| <b>Mappa angolo Anisotropia</b> *Scala di grigi* | Immagine in scala di grigio che descrive la rotazione aggiuntiva applicata alla direzione calcolata, in cui il valore della scala di grigio è un numero di giri.   La mappa ha ancora un effetto quando il parametro &#39;Anisotropia&#39; è impostato su 0, in quanto influisce sulla rotazione del kernel utilizzato dal filtro Kuwahara. |
+| <b>Mappa angolo Anisotropia</b> *Scala di grigi* | Immagine in scala di grigio che descrive la rotazione aggiuntiva applicata alla direzione calcolata, in cui il valore della scala di grigio è un numero di giri.   La mappa ha ancora un effetto quando il parametro &#39;Anisotropia&#39; è impostato su 0, in quanto influisce sulla rotazione del kernel utilizzato dal filtro Kuwahara. |
 | <b>Pendenza mappa</b> *Scala di grigi* | La mappa che rappresenta le pendenze a cui è conforme la mappa direzionale, in base al valore del parametro &#39;Pendenza Map Input Multiplier&#39;. |
 | <b>Mappa raggio (facoltativa)</b> *Scala di grigi* | Una volta connesso, il &#39;raggio&#39; della sfocatura viene moltiplicato per l&#39;immagine di input. |
-| <b>Mappa direzionale</b> *Colore* | La mappa che descrive la direzione utilizzata dal kernel filtro anisotropo.   La mappa ha ancora un effetto quando il parametro &#39;Anisotropia&#39; è impostato su 0, in quanto influisce sulla rotazione del kernel utilizzato dal filtro Kuwahara.   Nota: questo input viene utilizzato solo quando il parametro &#39;Usa Mappa direzionale di input&#39; è impostato su &#39;True&#39;. |
+| <b>Mappa direzionale</b> *Colore* | La mappa che descrive la direzione utilizzata dal kernel filtro anisotropo.   La mappa ha ancora un effetto quando il parametro &#39;Anisotropia&#39; è impostato su 0, in quanto influisce sulla rotazione del kernel utilizzato dal filtro Kuwahara.   Nota: questo input viene utilizzato solo quando il parametro &#39;Usa Mappa direzionale di input&#39; è impostato su &#39;True&#39;. |
 
 ## Connettori di uscita
 
 |  |  |
 | --- | --- |
 | <b>Output</b> *Colore* | Risultato della sfocatura anisotropa applicata dal nodo sull&#39;immagine di input. |
-| <b>Mappa direzionale</b> *Colore* | Mappa direzionale calcolata dall’immagine di input e utilizzata per determinare la sfocatura anisotropa.   Se il parametro &#39;Usa Mappa direzionale di input&#39; è impostato su &#39;True&#39;, viene utilizzata l&#39;immagine fornita all&#39;input &#39;Mappa direzionale&#39; e l&#39;output viene eseguito senza modifiche. |
+| <b>Mappa direzionale</b> *Colore* | Mappa direzionale calcolata dall’immagine di input e utilizzata per determinare la sfocatura anisotropa.   Se il parametro &#39;Usa Mappa direzionale di input&#39; è impostato su &#39;True&#39;, viene utilizzata l&#39;immagine fornita all&#39;input &#39;Mappa direzionale&#39; e l&#39;output viene eseguito senza modifiche. |
 
 ## Parametri
 
 |  |  |
 | --- | --- |
-| <b>Raggio</b> *Mobile* | Raggio di sfocatura, dove un valore più alto determina un effetto di sfocatura più forte.   Il valore massimo è 32. |
-| <b>Smoothness</b> *Mobile* | Regola la quantità di fusione dei colori nella direzione calcolata.   Quando questo valore è pari a 0, la maggior parte dei colori viene spostata in quella direzione e la fusione avviene in misura molto ridotta. |
+| <b>Raggio</b> *Mobile* | Raggio di sfocatura, dove un valore più alto determina un effetto di sfocatura più forte.   Il valore massimo è 32. |
+| <b>Smoothness</b> *Mobile* | Regola la quantità di fusione dei colori nella direzione calcolata.   Quando questo valore è pari a 0, la maggior parte dei colori viene spostata in quella direzione e la fusione avviene in misura molto ridotta. |
 | <b>Nitidezza</b> *Mobile* | Aumenta il contrasto nelle aree sfocate, rendendole più piatte e definite. |
-| <b>Anisotropia</b> *Mobile* | Regola il contributo della mappa direzionale nella sfocatura.   La mappa direzionale e tutti i suoi modificatori (parametri e mappe di input) hanno ancora un effetto quando questo valore di parametro è 0, poiché la mappa direzionale viene utilizzata nel kernel del filtro Kuwahara. |
+| <b>Anisotropia</b> *Mobile* | Regola il contributo della mappa direzionale nella sfocatura.   La mappa direzionale e tutti i suoi modificatori (parametri e mappe di input) hanno ancora un effetto quando questo valore di parametro è 0, poiché la mappa direzionale viene utilizzata nel kernel del filtro Kuwahara. |
 | <b>Usa mappa direzionale di input</b> *Booleano* | Se è impostato su &quot;True&quot;, dall&#39;immagine di input non viene calcolata alcuna mappa direzionale e l&#39;immagine collegata all&#39;input &quot;Mappa direzionale&quot; viene utilizzata per attivare la sfocatura anisotropa. |
-| <b>smoothness del tensore</b> *Mobile* *Disponibile quando &#39;Usa mappa direzionale di input&#39; è impostato su &#39;False&#39;* | Regola l’intensità della sfocatura applicata alle direzioni calcolate dall’immagine e memorizzate nella mappa direzionale.   Aumentando questo valore si ottiene un risultato più fluido quando l&#39;immagine presenta molti dettagli ad alta frequenza. |
-| <b>Angolo di Anisotropia</b> *Mobile* *Disponibile quando &#39;Usa mappa direzionale di input&#39; è impostato su &#39;False&#39;* | Aggiunge una rotazione alla mappa direzionale, in numero di giri.   Questa rotazione aggiuntiva è *cumulativa* con quella specificata dall&#39;input &#39;Mappa angolo Anisotropia&#39;. |
-| <b>Moltiplicatore mappa angolo Anisotropia</b> *Mobile* *Disponibile quando &#39;Usa mappa direzionale di input&#39; è impostato su &#39;False&#39;* | Regola l’intensità dei valori nell’input &quot;Mappa angolo Anisotropia&quot;, che vengono quindi aggiunti al valore della rotazione applicata alla mappa direzionale, in numero di giri.   Questa rotazione aggiuntiva è *cumulativa* con quella specificata dal parametro &#39;Angolo Anisotropia&#39;. |
+| <b>smoothness del tensore</b> *Mobile* *Disponibile quando &#39;Usa mappa direzionale di input&#39; è impostato su &#39;False&#39;* | Regola l’intensità della sfocatura applicata alle direzioni calcolate dall’immagine e memorizzate nella mappa direzionale.   Aumentando questo valore si ottiene un risultato più fluido quando l&#39;immagine presenta molti dettagli ad alta frequenza. |
+| <b>Angolo di Anisotropia</b> *Mobile* *Disponibile quando &#39;Usa mappa direzionale di input&#39; è impostato su &#39;False&#39;* | Aggiunge una rotazione alla mappa direzionale, in numero di giri.   Questa rotazione aggiuntiva è *cumulativa* con quella specificata dall&#39;input &#39;Mappa angolo Anisotropia&#39;. |
+| <b>Moltiplicatore mappa angolo Anisotropia</b> *Mobile* *Disponibile quando &#39;Usa mappa direzionale di input&#39; è impostato su &#39;False&#39;* | Regola l’intensità dei valori nell’input &quot;Mappa angolo Anisotropia&quot;, che vengono quindi aggiunti al valore della rotazione applicata alla mappa direzionale, in numero di giri.   Questa rotazione aggiuntiva è *cumulativa* con quella specificata dal parametro &#39;Angolo Anisotropia&#39;. |
 | <b>Moltiplicatore di input mappa Pendenza</b> *Mobile* *Disponibile quando &#39;Usa mappa direzionale di input&#39; è impostato su &#39;False&#39;* | Regola l’intensità con cui la mappa direzionale viene resa conforme alle pendenze fornite dall’input &quot;Mappa Pendenza&quot;. |
-| <b>Ignora alfa</b> *Booleano* | Se è impostato su &quot;True&quot;, il filtro non influisce sul canale alfa dell’immagine.   Se è impostato su &#39;False&#39;, il filtro viene applicato anche al canale alfa. |
+| <b>Ignora alfa</b> *Booleano* | Se è impostato su &quot;True&quot;, il filtro non influisce sul canale alfa dell’immagine.   Se è impostato su &#39;False&#39;, il filtro viene applicato anche al canale alfa. |
 
 ## Esempi
 

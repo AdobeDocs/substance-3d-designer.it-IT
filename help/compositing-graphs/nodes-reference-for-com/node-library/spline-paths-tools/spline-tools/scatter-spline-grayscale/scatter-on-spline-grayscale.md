@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-on-spline-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-on-spline-grayscale.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Dispersione su spline scala di grigi per distribuire gli elementi in scala di grigi lungo i tracciati spline per i pattern procedurali.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Dispersione su scala di grigi spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '2812'
 ht-degree: 0%
@@ -55,9 +55,9 @@ Alcuni aspetti della dispersione possono essere controllati utilizzando immagini
 <b> R</b> - Posizione X\
 <b> G</b> - Posizione Y\
 <b> B</b> - Height\
-    <b>A</b> - Dati compressi:\
-        * Segno: la spline è chiusa (negativa) o aperta (positiva);\
-        * Valore assoluto: Thickness + 1.
+<b>A</b> - Dati compressi:\
+* Segno: la spline è chiusa (negativa) o aperta (positiva);\
+* Valore assoluto: Thickness + 1.
 
 <b>Dati spline</b> *Colore* Dati aggiuntivi delle spline di input codificate nei canali RGBA di un&#39;immagine a colori.\
 <b> R</b> - Tangenti X\

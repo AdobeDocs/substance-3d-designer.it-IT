@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/properties.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/properties.html"
 breadcrumb-title: ''
 description: Usate il pannello Proprietà in Substance 3D Designer per visualizzare e modificare le proprietà dei nodi e i parametri dei grafici.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Proprietà
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 99e410384cec6569f613bb771db26585887704d8
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -55,11 +55,11 @@ Una funzione chiave dell&#39;ecosistema Substance, [Esposizione dei parametri](.
 
 ## Nodi e Substance grafici
 
-I [nodi](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/nodes-reference-129368078.html) e i [grafici a Substance](../../compositing-graphs/substance-compositing-graphs.md) presentano un insieme leggermente sovrapposto di categorie di proprietà e le loro funzionalità sono simili.
+I nodi e i [grafici a Substance](../../compositing-graphs/substance-compositing-graphs.md) presentano un insieme leggermente sovrapposto di categorie di proprietà e le loro funzionalità sono simili.
 
 <b>I parametri di base</b> e <b>gli attributi</b> sono identici tra nodi e grafici.
 
-I nodi offrono <b>parametri specifici</b> o<b> parametri di istanza</b> (a seconda che siano [nodi atomici](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) o [istanze](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)), nonché <b>valori di input</b> per l&#39;utilizzo di [valori nei grafici a Substance](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html).
+I nodi offrono <b>parametri specifici</b> o<b> parametri di istanza</b> (a seconda che siano [nodi atomici](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) o [istanze](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)), nonché <b>valori di input</b> per l&#39;utilizzo di [valori](../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md).
 
 I nodi [Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)e [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)atomici sono eccezioni in quanto presentano <b>Attributi di integrazione</b> e <b>Condizioni</b> per la visibilità. È possibile accedere a questi due insiemi di proprietà anche in modo centralizzato nelle proprietà del grafico, in Input e Output.
 
@@ -67,7 +67,7 @@ I grafici hanno alcune categorie in più. <b>I parametri di input</b> elencano [
 
 ## Risorse e pacchetti
 
-Il pannello Proprietà risponde anche alle modifiche apportate alla selezione nella [finestra Esplora risorse](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html). Può essere utile anche per selezionare un grafico (anziché fare doppio clic su un&#39;area vuota) e consente inoltre di modificare le proprietà Pacchetto e [Risorsa](../../resources/resources.md).
+Il pannello Proprietà risponde anche alle modifiche apportate alla selezione in [Esplora risorse](../the-explorer-window/the-explorer-window.md). Può essere utile anche per selezionare un grafico (anziché fare doppio clic su un&#39;area vuota) e consente inoltre di modificare le proprietà Pacchetto e [Risorsa](../../resources/resources.md).
 
 I pacchetti contengono **informazioni**, **attributi** e **metadati** sezioni. [I metadati del pacchetto sono descritti in una pagina dedicata.](../../package-metadata/package-metadata.md)
 

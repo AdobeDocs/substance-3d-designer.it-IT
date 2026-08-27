@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/resources/bitmap-resource.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/bitmap-resource.html"
 breadcrumb-title: ''
 description: Scoprite come importare, creare e utilizzare le risorse bitmap in Substance 3D Designer per la creazione di materiale basato sulle texture.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Risorsa bitmap
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '648'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 # Risorsa bitmap
 
-Una risorsa bitmap è una risorsa in un pacchetto di Substance. È diverso dal nodo bitmap [&#x200B; atomico. Il nodo bitmap atomica](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) è una rappresentazione specifica della bitmap all&#39;interno di[un grafico a Substance](../../compositing-graphs/substance-compositing-graphs.md).
+Una risorsa bitmap è una risorsa in un pacchetto di Substance. È diverso dal nodo bitmap [ atomico. Il nodo bitmap atomica](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) è una rappresentazione specifica della bitmap all&#39;interno di[un grafico a Substance](../../compositing-graphs/substance-compositing-graphs.md).
 
 Le bitmap sono tra le risorse non grafiche più comuni di Substance 3D Designer, di solito il loro utilizzo rientra in una delle seguenti categorie:
 
@@ -40,7 +40,7 @@ A differenza delle risorse SVG (grafica vettoriale), le bitmap vengono sempre me
 
 ### In risorse Substance 3D (SBSAR)
 
-In [file SBSAR](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html), le bitmap sono incorporate, il che significa che hanno un grande impatto sulla dimensione finale del file SBSAR. Ulteriori informazioni sull&#39;impatto sulle dimensioni dei file sono disponibili in questa pagina. Quando vengono pubblicati [file SBSAR,](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) vengono incorporate solo le bitmap utilizzate per calcolare l&#39;output di un grafico. Tutte le bitmap inutilizzate vengono ottimizzate ed escluse dal pacchetto SBSAR finale, senza alcun effetto sulla dimensione del file.
+In [file SBSAR](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md), le bitmap sono incorporate, il che significa che hanno un grande impatto sulla dimensione finale del file SBSAR. Ulteriori informazioni sull&#39;impatto sulle dimensioni dei file sono disponibili in questa pagina. Quando vengono pubblicati i file SBSAR, vengono incorporate solo le bitmap utilizzate per calcolare l&#39;output di un grafico. Tutte le bitmap inutilizzate vengono ottimizzate ed escluse dal pacchetto SBSAR finale, senza alcun effetto sulla dimensione del file.
 
 ## Tipo di file, metodo colore e risoluzione
 
@@ -71,4 +71,4 @@ Le risorse bitmap in un pacchetto hanno una serie di attributi che è possibile 
 
 ## Riduzione della dimensione dei file
 
-Per consigli su come ridurre al minimo le dimensioni dei file delle bitmap incorporate nelle [risorse Substance 3D pubblicate](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR), consulta la pagina [Linee guida per la riduzione dei file](../../best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md) nella sezione [Procedure ottimali](../../best-practices/best-practices.md).
+Per consigli su come ridurre al minimo le dimensioni dei file delle bitmap incorporate nelle [risorse Substance 3D pubblicate (SBSAR)](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md), consultate la pagina [Linee guida per la riduzione dei file](../../best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md) nella sezione [Procedure ottimali](../../best-practices/best-practices.md).

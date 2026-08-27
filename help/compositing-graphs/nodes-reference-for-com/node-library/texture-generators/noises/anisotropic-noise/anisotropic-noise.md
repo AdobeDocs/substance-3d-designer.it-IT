@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/anisotropic-noise.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/anisotropic-noise.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Disturbo anisotropo per generare pattern di disturbo direzionale per la creazione di effetti di texture anisotrope.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Rumore anisotropo
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 2%
+source-wordcount: '246'
+ht-degree: 1%
 
 ---
 
@@ -45,26 +45,6 @@ La quantità di strisce è regolabile, così come lo smoothness delle loro trans
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### Output
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parametri
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Esempi
-
-</td>
-</tr>
-</table>
-
 ## Output
 
 |  |  |
@@ -81,8 +61,8 @@ La quantità di strisce è regolabile, così come lo smoothness delle loro trans
 | <b>Ruota</b> Booleano | Ruota il disturbo di 90 gradi. |
 | <b>Smoothness</b> Mobile | Quantità di dissolvenza tra le strisce, dove 0 non è una dissolvenza e 1 è una dissolvenza per l&#39;intera lunghezza. |
 | <b>Interpolazione Smoothness</b> Mobile | Ponderazione dei due metodi di interpolazione applicati per sfumare le strisce, dove 0 è lineare e 1 è gaussiano. |
-| <b>Disturbo</b> Mobile | Sposta gli ingredienti del disturbo.   Può essere utilizzato per animare il disturbo. |
-| <b>Velocità del disturbo</b> Mobile | Regola la distanza di spostamento applicata dal parametro <b>Disturbo</b>.   Questa opzione consente di controllare la velocità di spostamento durante l’animazione del disturbo. |
+| <b>Disturbo</b> Mobile | Sposta gli ingredienti del disturbo.   Può essere utilizzato per animare il disturbo. |
+| <b>Velocità del disturbo</b> Mobile | Regola la distanza di spostamento applicata dal parametro <b>Disturbo</b>.   Questa opzione consente di controllare la velocità di spostamento durante l’animazione del disturbo. |
 | <b>Espansione non quadrata</b> Booleano | Nelle immagini non quadrate, mantiene il riquadro quadrato generato ed espande la generazione del disturbo fino ai limiti dell&#39;immagine. |
 
 ## Esempi

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/reaction-diffusion-fast.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/reaction-diffusion-fast.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Rapida diffusione reazione (Reaction Diffusion Fast) per generare pattern organici utilizzando algoritmi di diffusione rapida di reazione per texture procedurali.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Diffusione rapida reazione
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 1%
@@ -53,7 +53,7 @@ Questo nodo è ottimizzato per le prestazioni e offre alcuni compromessi di prec
 
 ## Parametri
 
-<b>Raggio</b> *Mobile* Indica quanto deve estendersi l’effetto.
+<b>Raggio</b> *Mobile* Profondità di diffusione dell&#39;effetto.
 
 <b>Contrasto</b> *Mobile*\
 Regola il contrasto dell&#39;input e funge da soglia.

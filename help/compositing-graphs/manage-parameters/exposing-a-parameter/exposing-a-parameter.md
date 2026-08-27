@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
 breadcrumb-title: ''
 description: Scopri come esporre i parametri nei grafici di composizione di Substance 3D Designer per rendere i materiali personalizzabili e riutilizzabili.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Esposizione di un parametro
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '2267'
 ht-degree: 4%
 
 ---
@@ -32,7 +32,7 @@ dai parametri esposti ai parametri del grafico.*
 ## Comprendere i parametri ed esporre
 
 +++Che cos&#39;è un parametro?
-*Un parametro è un valore semplice, con un elemento dell&#39;interfaccia utente, che controlla il comportamento di un grafico.* Le usi costantemente in tutto il software di Substance: per cambiare un colore, impostare il metodo di fusione, scegliere un valore di opacità, ecc... Senza parametri, il software Substance non consente alcuna personalizzazione.
+*Un parametro è un valore semplice, con un elemento dell&#39;interfaccia utente, che controlla il comportamento di un grafico.* Li usi costantemente in tutti i software di Substance: per cambiare un colore, per impostare il metodo di fusione, per scegliere un valore di opacità, ecc... Senza parametri, il software Substance non consente alcuna personalizzazione.
 
 I parametri possono assumere diverse forme: cursori, quadranti, caselle di testo, menu a discesa e così via. I valori che rappresentano possono essere di diversi tipi: valori decimali, valori interi (integer), valori booleani (true/false) e frammenti di testo.
 
@@ -66,7 +66,7 @@ Attualmente esistono due metodi principali per esporre i parametri. Un metodo è
 
 ### METODO DI ESPOSIZIONE SINGOLA
 
-1. Individuare il parametro da esporre nella [finestra Proprietà](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), nella scheda Parametri specifici
+1. Individua il parametro da esporre nel pannello [Proprietà](../../../interface/properties/properties.md), nella scheda Parametri specifici.
 1. Fai clic sul pulsante Opzioni del menu a discesa ![](../../../assets/image2020-9-17-15-35-59.png).
 1. Scegli ![](../../../assets/image2020-9-17-15-37-7.png) <b>Esporta come nuovo input grafico</b> dall&#39;elenco a discesa, la prima opzione.
 1. Viene visualizzata la finestra di dialogo <b>Esponi parametro</b>. Impostare le proprietà desiderate.
@@ -79,7 +79,7 @@ Attualmente esistono due metodi principali per esporre i parametri. Un metodo è
 >[!NOTE]
 >
 > La maggior parte dei campi numerici supporta *formule matematiche di base* come input, ad esempio `17+3.5`, `7/3`, `(4+2)*3`. Premere *Invio* per convalidare la formula e il risultato verrà inserito nel campo. Se la formula non è valida, il campo torna al valore precedente.\
-> Questa funzione è supportata anche da alcuni campi numerici in altre parti dell&#39;applicazione, ad esempio nel dock [Proprietà](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html).
+> Questa funzione è supportata anche da alcuni campi numerici in altre parti dell&#39;applicazione, ad esempio nel dock [Proprietà](../../../interface/properties/properties.md).
 
 ![Procedura dettagliata per il metodo di esposizione in batch](../../../assets/batch-expose-2.gif "Procedura dettagliata per il metodo di esposizione in batch"){width="512px"}
 
@@ -88,7 +88,7 @@ Attualmente esistono due metodi principali per esporre i parametri. Un metodo è
 Quando si espone un parametro, questo metodo sarà un po’ più lento rispetto al precedente. Quando si espongono più parametri, è molto più veloce.
 
 1. Invece di trovare un singolo parametro, trova il pulsante ![](../../../assets/image2020-9-17-15-39-7.png) <b>Esposizione multipla</b> in alto a destra della scheda <b>Parametri specifici</b>
-1. Scegli <b>parametri di visualizzazione batch...</b> dal menu a discesa
+1. Scegli <b>Parametri di visualizzazione batch...</b> dal menu a discesa.
 1. Viene visualizzata la finestra di dialogo <b>Esposizione batch</b>, che consente di personalizzare l&#39;esposizione di tutti i <b>parametri specifici</b> di un nodo
 1. Utilizza <b>Tutti</b>, <b>Nessuno</b> o caselle di controllo specifiche per decidere quali parametri esporre
 1. Fare clic su un nome di parametro nella colonna <b>Identificatore di input grafico</b> dell&#39;elenco per modificarne il nome.
@@ -104,7 +104,7 @@ Ci sono alcune limitazioni legate all&#39;esposizione dei parametri, come elenca
 | --- | --- |
 | [Gradient Ramp](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md), [Curve Editor](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md), [Font](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md), [Istogramma Livelli](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) | Richiedi widget che non sono disponibili per i parametri creati dall&#39;utente. |
 
-Un&#39;altra limitazione significativa è correlata a [parametri statici](../../../glossary/glossary.md). Non è possibile modificare queste impostazioni in una [risorsa Substance 3D pubblicata](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR).
+Un&#39;altra limitazione significativa è correlata a [parametri statici](../../../glossary/glossary.md). Non è possibile modificare queste impostazioni in una [risorsa Substance 3D pubblicata (SBSAR)](../../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md).
 
 I parametri statici, a differenza dei parametri dinamici, *non possono essere modificati al volo* dopo che il grafico è stato *elaborato*, ovvero elaborato per eseguire l&#39;algoritmo in modo rapido ed efficiente. La cottura avviene in Designer ogni volta che il grafico viene *modificato* o *pubblicato*.
 
@@ -128,7 +128,7 @@ Una volta esposto, non è più possibile accedere a un parametro come prima. La 
 Per modificare le opzioni di un parametro esposto:
 
 1. Fai clic sul pulsante Opzioni elenco a discesa ![](../../../assets/image2020-9-17-15-35-59.png) accanto al parametro già visualizzato
-1. Scegli ![](../../../assets/image2020-9-17-15-37-7.png)<b> Modifica input grafico esposto</b>. Viene visualizzata direttamente la voce pertinente nelle proprietà del grafico.
+1. Scegli ![](../../../assets/image2020-9-17-15-37-7.png)<b> Modifica input grafico esposto</b>. Viene visualizzata direttamente la voce pertinente nelle proprietà del grafico.
 1. Fate doppio clic in un&#39;area vuota del grafico per visualizzare le proprietà del grafico, quindi trovate il parametro nell&#39;elenco dei <b>parametri di input</b>
 1. Fai un solo clic sul grafico in <b>Esplora risorse</b>, quindi trova il parametro nell&#39;elenco dei <b>parametri di input</b>
 
@@ -185,7 +185,7 @@ In genere, le modifiche apportate in <b>Modalità anteprima</b> vengono *ignorat
 
 >[!WARNING]
 >
-> La modalità Anteprima mira a rappresentare nel modo più accurato possibile l&#39;esperienza di una [risorsa Substance 3D pubblicata](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR). Pertanto, le limitazioni elencate in questa pagina verranno applicate in questa modalità, ad esempio *parametri statici assenti dall&#39;elenco*.
+> La modalità Anteprima mira a rappresentare l&#39;esperienza di una [risorsa Substance 3D pubblicata (SBSAR)](../../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) nel modo più accurato possibile. Pertanto, le limitazioni elencate in questa pagina verranno applicate in questa modalità, ad esempio *parametri statici assenti dall&#39;elenco*.
 
 ![Copia e incolla dei parametri di input](../../../assets/copy-paste-params-2.gif "Copia e incolla dei parametri di input"){width="512px"}
 

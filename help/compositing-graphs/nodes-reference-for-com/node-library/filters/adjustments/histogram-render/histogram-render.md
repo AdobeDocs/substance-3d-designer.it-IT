@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-render.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-render.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Rendering istogramma per visualizzare i dati dell’istogramma come texture per l’analisi e il debug.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Rendering istogramma
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 1%
@@ -75,8 +75,8 @@ Disegna l’istogramma di un’immagine in scala di grigio.
 
 |  |  |
 | --- | --- |
-| <b>Risoluzione istogramma</b> *Numero intero* | Larghezza dell’istogramma. Un valore più elevato consente una distribuzione più precisa.   Le risoluzioni disponibili sono, in pixel: 256, 512, 1024, 2048, 4096 |
-| <b>Scala automatica</b> *Booleano* | Se è impostato su &quot;True&quot;, l&#39;istogramma viene rimappato in modo da utilizzare l&#39;intero height dell&#39;immagine.   Se è impostato su &#39;False&#39;, ogni colonna utilizzerà un numero di pixel nel height pari al numero di occorrenze di un valore nell&#39;immagine di input. |
+| <b>Risoluzione istogramma</b> *Numero intero* | Larghezza dell’istogramma. Un valore più elevato consente una distribuzione più precisa.   Le risoluzioni disponibili sono, in pixel: 256, 512, 1024, 2048, 4096 |
+| <b>Scala automatica</b> *Booleano* | Se è impostato su &quot;True&quot;, l&#39;istogramma viene rimappato in modo da utilizzare l&#39;intero height dell&#39;immagine.   Se è impostato su &#39;False&#39;, ogni colonna utilizzerà un numero di pixel nel height pari al numero di occorrenze di un valore nell&#39;immagine di input. |
 | <b>Scala</b> *Mobile* | Ridimensiona verticalmente l’istogramma, dove un valore pari a 1 rappresenta l’intero height dell’istogramma. |
 | <b>Campionamento</b> *Numero intero* | Metodo di filtraggio dell’immagine dell’istogramma, che influisce sul risultato quando la risoluzione dell’istogramma e la risoluzione del rendering non corrispondono:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Bilineare:</b> applica un filtro bilineare all&#39;istogramma, creando punti interpolati</li> <li data-preserve-html="true"><b>Più vicino:</b> esegue un campionamento del pixel più vicino senza alcun filtro, ottenendo così passaggi piatti</li> </ul> |
 | <b>Capovolgi asse Y</b> *Booleano* | Se è impostato su &#39;True&#39;, l&#39;istogramma viene riflesso verticalmente. |

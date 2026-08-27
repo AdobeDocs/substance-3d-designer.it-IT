@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/uniform-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/uniform-color.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Colore uniforme per generare texture di colore uniformi per la creazione di riempimenti di colore uniforme e livelli base.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Colore uniforme
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 8%
@@ -96,7 +96,7 @@ Si tratta di un nodo semplice che viene utilizzato molto spesso come punto di pa
 |  |  |
 | --- | --- |
 | <b>Metodo colore</b> *Booleano* | Alterna tra un’immagine in scala di grigio e un’immagine a colori in output. |
-| <b>Colore di output</b> *Float/Float4* | Seleziona il colore piatto da usare nell’immagine di output.   Quando si utilizza il metodo colore, il canale di Alpha viene usato per l’opacità, dove 0 è completamente trasparente e 1 è completamente opaco. |
+| <b>Colore di output</b> *Float/Float4* | Seleziona il colore piatto da usare nell’immagine di output.   Quando si utilizza il metodo colore, il canale di Alpha viene usato per l’opacità, dove 0 è completamente trasparente e 1 è completamente opaco. |
 
 ## Connettori di uscita
 
