@@ -34,7 +34,7 @@ Le modifiche possono essere *annullate singolarmente* e tutte le altre funzioni 
 
 >[!IMPORTANT]
 >
-> È possibile eseguire la pittura di *solo* su *risorse bitmap* [](../../../resources/bitmap-resource/bitmap-resource.md) [nuove o importate](../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md).
+> È possibile eseguire la pittura di *solo* su *risorse bitmap* [&#128279;](../../../resources/bitmap-resource/bitmap-resource.md) [nuove o importate](../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md).
 
 >[!WARNING]
 >
