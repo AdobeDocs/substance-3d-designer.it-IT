@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-polygon.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-polygon.html"
 breadcrumb-title: ''
 description: Usa il nodo Poligono tracciati per creare tracciati poligonali dai dati dei vertici per la generazione di pattern geometrici.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Poligono tracciati
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 2%
+source-wordcount: '110'
+ht-degree: 3%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo](../../../../../../assets/paths-polygon-icon.png "Icona nodo")
+![Icona nodo](paths-polygon.resources/paths-polygon-icon.png "Icona nodo")
 
 <b>In:</b> Strumenti spline e tracciati > Strumenti tracciato
 
@@ -41,16 +41,21 @@ Utilizza il nodo [Trasformazione 2D tracciato](../../../../../../compositing-gra
 </tr>
 </table>
 
-## Connettori di uscita
+<a name="outputs"></a>
 
-<b>Tracciati</b> *Colore*\
-Contiene un elenco di un percorso codificato, che descrive un elenco di segmenti codificati.\
-Non è rientrata per essere utilizzata o modificata direttamente. Cercare i percorsi per trovare i nodi compatibili.
+## Output
+
+|  |  |
+|:---|:---|
+| <b>Tracciati</b> <i>Colore</i> | Contiene un elenco di un percorso codificato, che descrive un elenco di segmenti codificati.<br>Questo elemento non è rientrato per essere utilizzato o modificato direttamente. Cercare i percorsi per trovare i nodi compatibili. |
+
+<a name="parameters"></a>
 
 ## Parametri
 
-<b>Numero di lati</b> *Numero intero*\
-Suggerimento: immetti un numero compreso tra 100 e 1000 per generare un cerchio.
+|  |  |
+|:---|:---|
+| <b>Numero di lati</b> <i>Numero intero</i> | Suggerimento: immetti un numero compreso tra 100 e 1000 per generare un cerchio. |
 
 ## Esempi
 
@@ -58,12 +63,12 @@ Suggerimento: immetti un numero compreso tra 100 e 1000 per generare un cerchio.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 1](../../../../../../assets/PathsPolygon_Variant1_1.jpg "Esempio di nodo 1")
+![Esempio di nodo 1](paths-polygon.resources/PathsPolygon_Variant1_1.jpg "Esempio di nodo 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 2](../../../../../../assets/PathsPolygon_Variant2.jpg "Esempio di nodo 2")
+![Esempio di nodo 2](paths-polygon.resources/PathsPolygon_Variant2.jpg "Esempio di nodo 2")
 
 </td>
 </tr>

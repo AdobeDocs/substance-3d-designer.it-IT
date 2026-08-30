@@ -1,54 +1,58 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/grayscale-conversion-advanced.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/grayscale-conversion-advanced.html"
 breadcrumb-title: ''
-description: Utilizzare il nodo Avanzate conversione scala di grigi per convertire i colori in scala di grigi con il controllo avanzato sui metodi di conversione.
+description: Utilizzare il nodo Conversione in scala di grigi avanzate per convertire i colori in scala di grigio con il controllo avanzato sui metodi di conversione.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Grayscale Conversion Advanced
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Conversione avanzata scala di grigi
+title: Conversione in scala di grigi avanzate
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 2%
+source-wordcount: '80'
+ht-degree: 3%
 
 ---
 
 
-# Conversione avanzata scala di grigi
+# Conversione in scala di grigi avanzate
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grayscale-conversion-advanced.png){width="128px"}
+![](grayscale-conversion-advanced.resources/grayscale-conversion-advanced.png){width="128px"}
 
-## Conversione avanzata scala di grigi
-
-**Ingresso:** *Filtri/Regolazioni*
-
-**Semplice**
+<b>Ingresso:</b> Filtri > Regolazioni
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
 Nodo di conversione rapida e avanzata in scala di grigi con alcune modalità di conversione predefinite.
 
-## Parametri
-
-* **Tipo di scala di grigi**: *Desaturazione, Luma, Media, Max, Min* La desaturazione imposta il valore di saturazione su 0, Luma utilizza i pesi di luminanza ufficiali, Media è uguale al nodo atomico e Max e Min utilizzeranno rispettivamente il valore più chiaro per ciascun canale.
-
-## Immagini di esempio
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/grayscale-conversion-advanced-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Tipo scala di grigi</b> <i>Desaturazione, Luma, Media, Max, Min</i> | Desaturazione imposta il valore di saturazione su 0, Luma utilizza i pesi di luminanza ufficiali, Media è uguale al nodo atomico e Max e Min utilizzeranno rispettivamente il valore più chiaro per ogni canale. |
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grayscale-conversion-advanced.resources/grayscale-conversion-advanced-example.png" />
+        </td>
+    </tr>
 </table>

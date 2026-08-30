@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/control-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/control-nodes.html"
 breadcrumb-title: ''
 description: Accesso ai nodi di controllo nei grafici delle funzioni di Substance 3D Designer per controllare il flusso e la logica di esecuzione.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Controllo
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 4b69ef5fd76498339222e7b72708f9833acf0e63
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '508'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ Questa pagina descrive i nodi di [grafici di funzione](../../../../function-grap
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Se...nodo secondario](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/IfElse_Node.jpg "Nodo If...Else")
+![If...Else node](../../../../assets/IfElse_Node.jpg "If...Else node")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -55,7 +55,7 @@ Condizione che controlla l&#39;output del nodo.
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo sequenza](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/Sequence_Node.jpg "Nodo sequenza")
+![Nodo sequenza](../../../../assets/Sequence_Node.jpg "Nodo sequenza")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -85,7 +85,7 @@ Parte del grafico da calcolare per ultima
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo Loop completo](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/WhileLoop-Node.jpg "Intero nodo Loop")
+![Nodo Whle Loop](../../../../assets/WhileLoop-Node.jpg "Nodo Whle Loop")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

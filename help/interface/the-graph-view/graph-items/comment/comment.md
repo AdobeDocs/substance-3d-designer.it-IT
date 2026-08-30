@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/the-graph-view/graph-items/comment.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/comment.html"
 breadcrumb-title: ''
 description: Aggiungere commenti ai grafici di Substance 3D Designer per documentare il flusso di lavoro e spiegare le connessioni ai nodi.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Commento
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Icona commento](../../../../assets/graphatomic-comment_1.png "Icona commento")
+![Icona commento](comment.resources/graphatomic-comment_1.png "Icona commento")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -91,7 +91,7 @@ I commenti creati quando è selezionato un nodo *singolo* o tramite il menu di s
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Commenti: commenti principali](../../../../assets/graph-comment_parented.gif "Commenti: commenti principali")
+![Commenti: commenti principali](comment.resources/graph-comment_parented.gif "Commenti: commenti principali")
 
 </td>
 </tr>
@@ -99,10 +99,10 @@ I commenti creati quando è selezionato un nodo *singolo* o tramite il menu di s
 
 ## Formattazione HTML
 
-Il testo può essere formattato utilizzando i tag HTML. Questa formattazione viene attivata tramite il pulsante ![](../../../../assets/graph-frames_html-markup-button.png) <b>markup HTML</b> nella proprietà <b>Descrizione</b> del commento.
+Il testo può essere formattato utilizzando i tag HTML. Questa formattazione viene attivata tramite il pulsante ![](comment.resources/graph-frames_html-markup-button.png) <b>markup HTML</b> nella proprietà <b>Descrizione</b> del commento.
 
 >[!TIP]
 >
 > Ulteriori informazioni su questa funzione sono disponibili nella sezione <b>Descrizione</b> della documentazione di [Frame](../../../../interface/the-graph-view/graph-items/frame/frame.md).
 
-![Commenti: markup HTML](../../../../assets/graph-comment_html-markup.gif "Commenti: markup HTML")
+![Commenti: markup HTML](comment.resources/graph-comment_html-markup.gif "Commenti: markup HTML")

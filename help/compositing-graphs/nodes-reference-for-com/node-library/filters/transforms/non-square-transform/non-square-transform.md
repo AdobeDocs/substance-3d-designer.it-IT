@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/non-square-transform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/non-square-transform.html"
 breadcrumb-title: ''
 description: Usa il nodo Trasformazione non quadrata per applicare le trasformazioni a texture non quadrate con ridimensionamento X e Y indipendente.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Trasformazione non quadrata
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 0%
+source-wordcount: '217'
+ht-degree: 4%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/safe-transform.png)
+![](non-square-transform.resources/safe-transform.png)
 
-![](../../../../../../assets/safe-transform-grayscale.png)
+![](non-square-transform.resources/safe-transform-grayscale.png)
 
-## Trasformazione non quadrata (scala di grigi)
-
-**Entrata:** *Filtri/Trasformazioni*
-
-**Intermedio**
+<b>Ingresso:</b> Filtri > Trasforma
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -47,22 +43,29 @@ Assicurati di aver compreso appieno i [parametri del grafico](../../../../../../
 * Imposta la dimensione dell&#39;output **del nodo** di trasformazione non quadrata su &quot;*Rispetto all&#39;elemento padre*&quot;.
 * Se si desidera trasformare l&#39;input in un&#39;unica posizione, impostare la modalità di suddivisione in porzioni del **nodo** su &quot;*Nessuna porzione*&quot;.
 
-## Parametri
-
-* **Modalità riquadro**: *Automatica, Manuale* Abilita o meno le compensazioni automatiche non quadrate.
-* **Affianca**: *1 - 16* Accessibile solo quando la modalità Affianca è impostata su Manuale. Consente di modificare la scala in modo sicuro.
-* **Scostamento**: *0,0 - 1,0*\
-  Sposta o converte il risultato. Fai doppio clic sul cursore per immettere i valori negativi.
-* **Rotazione**: *0.0 - 1.0* Ruota l&#39;immagine di input.
-* **Rotazione sicura (solo quadrati)**: *False/True* Aggancia ai valori sicuri per mantenere la nitidezza dei pixel.
-* **Colore di sfondo**: *(valore colore)*Colore di sfondo con cui riempire l&#39;immagine. Visibile solo quando la modalità di [porzione nei parametri di base è impostata su &quot;*Nessuna porzione*&quot;](../../../../../../compositing-graphs/graph-parameters/graph-parameters.md).
-
-## Immagini di esempio
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/nonsquare-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Modalità riquadro</b> <i>Automatico, Manuale</i> | Abilita o meno le compensazioni automatiche non quadrate. |
+| <b>Affianca</b> <i>1 - 16</i> | Accessibile solo quando la modalità Affianca è impostata su Manuale. Consente di modificare la scala in modo sicuro. |
+| <b>Scostamento</b> <i>0.0 - 1.0</i> | Sposta o converte il risultato. Fai doppio clic sul cursore per immettere i valori negativi. |
+| <b>Rotazione</b> <i>0.0 - 1.0</i> | Ruota l&#39;immagine di input. |
+| <b>Rotazione sicura (solo quadrato)</b> <i>Falso/Vero</i> | Aggancia a valori sicuri per mantenere la nitidezza dei pixel. |
+| <b>Colore di sfondo</b> <i>(valore colore)</i> | Colore di sfondo con cui riempire l’immagine. Visibile solo quando [Modalità affiancamento nei parametri di base è impostato su &quot;*Nessun Affiancamento*&quot;](../../../../../../compositing-graphs/graph-parameters/graph-parameters.md). |
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="non-square-transform.resources/nonsquare-ex.png" />
+        </td>
+    </tr>
 </table>

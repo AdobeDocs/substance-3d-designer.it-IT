@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/crystal-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/crystal-1.html"
 breadcrumb-title: ''
 description: Usa il nodo Crystal 1 per generare pattern di cristalli per creare effetti di texture cristallini e sfaccettati.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Cristallo 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 2%
+source-wordcount: '86'
+ht-degree: 8%
 
 ---
 
@@ -22,36 +22,39 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/crystal-1.png){width="128px"}
+![](crystal-1.resources/crystal-1.png){width="128px"}
 
-## Cristallo 1
-
-**Ingresso:** *Generatori Di Texture**/Rumori*
-
-**Semplice**
+<b>Ingresso:</b> Generatori di Texture > Rumori
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
 Genera un disturbo di tipo Worlye Voronoi, con una metrica della distanza leggermente più angular. Può essere utile per alcuni scopi angular e geometrici.
 
-## Parametri
-
-* **Scala**: *1 - 256*\
-  Imposta la scala globale per l’effetto.
-* **Disturbo**: *0,0 - 1,0*\
-  Fase-sposta il disturbo per introdurre piccole variazioni.
-* **Non square expansion**: *Falso/Vero*\
-  Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati.
-
-## Immagini di esempio
-
-![](../../../../../../assets/crystal-1-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Scala</b> <i>1 - 256</i> | Imposta la scala globale per l’effetto. |
+| <b>Disturbo</b> <i>0.0 - 1.0</i> | Fase-sposta il disturbo per introdurre piccole variazioni. |
+| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati. |
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="crystal-1.resources/crystal-1-ex.gif" />
+        </td>
+    </tr>
 </table>

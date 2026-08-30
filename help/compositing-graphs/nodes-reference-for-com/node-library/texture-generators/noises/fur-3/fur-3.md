@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fur-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fur-3.html"
 breadcrumb-title: ''
 description: Usa il nodo Fur 3 per generare trame di pelliccia avanzate con proprietà personalizzabili per creare effetti di capelli e fibra.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Pelliccia 3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 2%
+source-wordcount: '77'
+ht-degree: 11%
 
 ---
 
@@ -22,37 +22,40 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/fur-3.png){width="128px"}
+![](fur-3.resources/fur-3.png){width="128px"}
 
-## Pelliccia 3
-
-**Ingresso:** *Generatori Di Texture**/Rumori*
-
-**Semplice**
+<b>Ingresso:</b> Generatori di texture > Rumori
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
 Questo genera un disturbo di diffusione/setole.
 
-## Parametri
-
-* **Scala**: *1 - 8*\
-  Imposta la scala globale per l’effetto.
-* **Disturbo**: *0,0 - 1,0*\
-  Fase-sposta il disturbo per introdurre piccole variazioni.
-* **Quantità ondate**: *0,0 - 8,0*
-* **Non square expansion**: *Falso/Vero*\
-  Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati.
-
-## Immagini di esempio
-
-![](../../../../../../assets/fur-3-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Scala</b> <i>1 - 8</i> | Imposta la scala globale per l’effetto. |
+| <b>Disturbo</b> <i>0.0 - 1.0</i> | Fase-sposta il disturbo per introdurre piccole variazioni. |
+| <b>Quantità ondate</b> <i>0.0 - 8.0</i> |  |
+| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati. |
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="fur-3.resources/fur-3-ex.gif" />
+        </td>
+    </tr>
 </table>

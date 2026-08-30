@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-linear-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-linear-3.html"
 breadcrumb-title: ''
 description: Utilizza il nodo Sfumatura lineare 3 per creare sfumature lineari avanzate con controlli avanzati per transizioni di colore uniformi.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Sfumatura lineare 3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 1%
+source-wordcount: '101'
+ht-degree: 6%
 
 ---
 
@@ -22,34 +22,39 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/gradient3.png)
+![](gradient-linear-3.resources/gradient3.png)
 
-## Sfumatura lineare 3
-
-**Ingresso:** *Generatori Di Texture**/Pattern*
-
-**Semplice**
+<b>Ingresso:</b> Generatori Texture > Pattern
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
 La sfumatura lineare più avanzata. Al posto del profilo arrotondato, simile a una tubazione, di [Sfumatura lineare 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/gradient-linear-2/gradient-linear-2.md), questo nodo restituisce una pendenza nitida e dritta, oltre a fornire un controllo aggiuntivo per il punto medio.
 
-## Parametri
-
-* **Affiancatura**: *1 - 16*\
-  Imposta il numero di volte in cui il risultato deve essere affiancato.
-* **Posizione**: *0.0 - 1.0* Imposta il punto medio o il picco della sfumatura.
-* **Rotazione**: **0, 90°** Cambia la direzione da sinistra a destra in alto in basso o viceversa.
-
-## Immagini di esempio
-
-![](../../../../../../assets/gradient3-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Affiancatura</b> <i>1 - 16</i> | Imposta il numero di volte in cui il risultato deve essere affiancato. |
+| <b>Posizione</b> <i>0.0 - 1.0</i> | Imposta il punto centrale o il picco della sfumatura. |
+| <b>Rotazione</b> <i>0, 90°</i> | Cambia la direzione da sinistra a destra in alto in basso o viceversa. |
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="gradient-linear-3.resources/gradient3-ex.gif" />
+        </td>
+    </tr>
 </table>

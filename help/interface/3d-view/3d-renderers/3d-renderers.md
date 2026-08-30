@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/3d-view/3d-renderers.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/3d-renderers.html"
 breadcrumb-title: ''
 description: Nella vista 3D, potete scegliere tra i moduli di rendering rasterizzatore e tracciatore, per ottenere diverse prestazioni e qualità di anteprima.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Renderer 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: c7b3b375144c8b58a8e7a7a408895a23e9bd1143
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1632'
 ht-degree: 7%
@@ -38,11 +38,11 @@ La vista 3D offre quattro moduli di rendering:
 <table>
   <tr>
     <td>
-      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
+      <img src="3d-renderers.resources/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
       <br><i>Rasterizzatore</i>
     </td>
     <td>
-      <img src="../../../assets/3dRendererPathtracer-2.jpg" alt="3dRendererPathtracer-2">
+      <img src="3d-renderers.resources/3dRendererPathtracer-2.jpg" alt="3dRendererPathtracer-2">
       <br><i>Pathtracer GPU</i>
     </td>
   </tr>
@@ -59,11 +59,11 @@ Grazie alla sua dipendenza da USD, può sfruttare il plug-in [USDFileFormat](htt
 <table>
   <tr>
     <td>
-      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
+      <img src="3d-renderers.resources/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
       <br><i>Rasterizzatore</i>
     </td>
     <td>
-      <img src="../../../assets/3dRendererOpenGL-2.jpg" alt="3dRendererOpenGL-2">
+      <img src="3d-renderers.resources/3dRendererOpenGL-2.jpg" alt="3dRendererOpenGL-2">
       <br><i>OpenGL</i>
     </td>
   </tr>
@@ -73,7 +73,7 @@ Grazie alla sua dipendenza da USD, può sfruttare il plug-in [USDFileFormat](htt
 
 >[!TIP]
 >
-> È possibile selezionare il modulo di rendering utilizzato per impostazione predefinita all&#39;avvio di una nuova visualizzazione 3D nella sezione [&quot;Visualizzazione 3D&quot; delle impostazioni del progetto](../../../interface/preferences-window/project-settings/project-settings.md).
+> È possibile selezionare il modulo di rendering utilizzato per impostazione predefinita all&#39;avvio di un nuovo vista 3D nella sezione [&quot;Visualizzazione 3D&quot; delle impostazioni del progetto](../../../interface/preferences-window/project-settings/project-settings.md).
 
 <a name="rasterizer"></a>
 
@@ -84,14 +84,14 @@ Grazie alla sua dipendenza da USD, può sfruttare il plug-in [USDFileFormat](htt
 |                                                                 |                                                                                                                                                                                                                                                                             |
 |-----------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Esempi** Mobile | Specifica il numero di campioni di pixel da calcolare prima che l&#39;immagine venga considerata convergente. |
-| **Opacità occlusione ambiente** Mobile | Specifica il valore dell’opacità di occlusione ambientale. |
+| Virgola mobile **Opacità Occlusione ambientale** | Specifica il valore dell’opacità di occlusione ambientale. |
 | **Attiva spostamento** booleano | Specifica se abilitare lo spostamento. |
 | **Soglia di Spostamento** Mobile | Imposta una soglia per abilitare o disabilitare la tassellatura GPU. |
 | **Abilita eliminazione backface** booleano | Un valore vero consentirà di eliminare le trame triangolari che hanno delle normali orientate in direzione opposta rispetto alla fotocamera. Un valore falso disattiverà l’eliminazione del backface. |
 | **Modalità diagnostica** Numero intero | Determina la modalità diagnostica da renderizzare. |
 | **Modalità ombreggiatura rasterizzatore** Numero intero | Specifica la tecnica da utilizzare per il rendering delle ombre:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Nessuna ombra:</i> Nessuna ombra verrà visualizzata.</li> <li data-preserve-html="true"><i>Voxel ha marciato:</i> ha marciato i raggi delle ombre in una scena voxelizzata.</li> </ul> |
 | **Conteggio campioni ombreggiatura rasterizzatore** Numero intero | Specifica quanti raggi di ombra vengono tracciati per pixel. |
-| **Opacità ombra rasterizzatore** mobile | Consente di specificare l’opacità delle ombre, da 0,0 (nessuna ombra) a 1,0 (ombre complete). |
+| Virgola mobile **Opacità ombra rasterizzatore** | Consente di specificare l’opacità delle ombre, da 0,0 (nessuna ombra) a 1,0 (ombre complete). |
 | **Trasparenza indipendente dall&#39;ordine rasterizzatore abilitata** booleano | Non tiene conto dell&#39;ordine delle superfici trasparenti durante il rendering. In questo modo si sacrifica una certa precisione per un rendering più veloce delle superfici trasparenti. |
 | **Abilita booleano SSS** rasterizzatore | Attiva/disattiva l’effetto di dispersione del sottosuolo. |
 | **Conteggio campioni SSS rasterizzatore** Numero intero | Specifica quanti campioni vengono prelevati per pixel per eseguire il rendering della dispersione sottosuperficie. |
@@ -111,7 +111,7 @@ Grazie alla sua dipendenza da USD, può sfruttare il plug-in [USDFileFormat](htt
 
 +++
 
-![Rasterizzatore - Esempio 1](../../../assets/3dRendererRasterizer.jpg "Rasterizzatore - Esempio 1"){zoomable="yes"}
+![Rasterizzatore - Esempio 1](3d-renderers.resources/3dRendererRasterizer.jpg "Rasterizzatore - Esempio 1"){zoomable="yes"}
 
 <a name="gpu-pathtracer"></a>
 
@@ -145,7 +145,7 @@ Grazie alla sua dipendenza da USD, può sfruttare il plug-in [USDFileFormat](htt
 
 +++
 
-![Tracciatore percorso GPU - Esempio 1](../../../assets/3dRendererPathtracer.jpg "Tracciatore percorso GPU - Esempio 1"){zoomable="yes"}
+![Tracciatore percorso GPU - Esempio 1](3d-renderers.resources/3dRendererPathtracer.jpg "Tracciatore percorso GPU - Esempio 1"){zoomable="yes"}
 
 <a name="opengl"></a>
 
@@ -170,7 +170,7 @@ Ulteriori informazioni sull&#39;OpenPBR in Designer [qui](../material-properties
 
 +++ Materiale standard Adobe
 
-Shader standardizzato di Adobe. Assicura un look corretto tra tutte le applicazioni Substance 3D di Adobe e supporta un’ampia gamma di funzioni.
+Lo shader standardizzato di Adobe. Assicura un look corretto tra tutte le applicazioni Substance 3D di Adobe e supporta un’ampia gamma di funzioni.
 
 Per la visualizzazione del height sono disponibili due tecniche:
 
@@ -178,7 +178,7 @@ Per la visualizzazione del height sono disponibili due tecniche:
 
 <b>Tassellatura + Spostamento</b>: suddivide la geometria e sposta i vertici lungo le normali.
 
-Il materiale standard Adobe è documentato in dettaglio in [questa sezione](https://experienceleague.adobe.com/it/docs/substance-3d/general-knowledge/asm/adobe-standard-material) della nostra documentazione.
+L&#39;Adobe Standard Material è documentato in dettaglio in [questa sezione](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material) della documentazione.
 
 +++
 
@@ -198,7 +198,7 @@ Questo shader è attualmente un *lavoro in corso* e fornisce una panoramica dell
 
 +++ Blinn
 
-&quot;Vecchia generazione&quot;, shader non PBR corretto. Usa i canali Diffusione, Specular e Lucentezza accanto ai canali standard come Opacità, Height e Normale.
+&quot;Vecchia generazione&quot;, shader non PBR corretto. Usa i canali Diffusa, Specular e Lucentezza accanto ai canali standard come Opacità, Height e Normale.
 
 Per la visualizzazione del height sono disponibili due tecniche:
 
@@ -272,9 +272,9 @@ Per la visualizzazione del height sono disponibili due tecniche:
 
 +++
 
-+++ Lucidità Specular
++++ lucentezza Specular
 
-Materiale PBR standard per il modello di lucidità degli Specular. Usa canali diffusi, Specular e lucidi.
+Materiale PBR standard per il modello di Lucentezza a Specular. Usa canali di Diffusa, Specular e Lucentezza.
 
 Per la visualizzazione del height sono disponibili due tecniche:
 
@@ -286,14 +286,14 @@ Per la visualizzazione del height sono disponibili due tecniche:
 
 +++ Non illuminato
 
-Lo shader di debug non è illuminato per visualizzare le mappe texture senza alcuna illuminazione. Utilizza solo un canale di colore.
+Disattiva shader di debug per visualizzare le mappe texture senza alcuna illuminazione. Utilizza solo un canale di colore.
 
 +++
 
-Designer offre inoltre la possibilità di configurare shader personalizzati per il modulo di rendering OpenGL [utilizzando file GLSLFX](../../../interface/3d-view/glslfx-shaders/glslfx-shaders.md).
+Designer offre inoltre la possibilità di configurare ombreggiatori personalizzati per il modulo di rendering OpenGL [utilizzando file GLSLFX](../../../interface/3d-view/glslfx-shaders/glslfx-shaders.md).
 
 >[!IMPORTANT]
 > 
 > Questo modulo di rendering è **deprecato**: non riceverà nuove funzioni e verrà ritirato in una versione futura di Designer.
 
-![OpenGL - Esempio 1](../../../assets/3dRendererOpenGL.jpg "OpenGL - Esempio 1"){zoomable="yes"}
+![OpenGL - Esempio 1](3d-renderers.resources/3dRendererOpenGL.jpg "OpenGL - Esempio 1"){zoomable="yes"}

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/grease.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/grease.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Grasso per generare maschere di accumulo del grasso in base alla geometria della trama e alle aree di contatto.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Grasso
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 2%
+source-wordcount: '184'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grease.png){width="128px"}
+![](grease.resources/grease.png){width="128px"}
 
-## Grasso
-
-**Ingresso:** *Generatori Basati Su Trama**/Generatori Maschera*
-
-**Semplice**
+<b>In:</b> Generatori Basati Su Trama > Generatori di maschere
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -41,30 +37,37 @@ Genera una maschera in bianco e nero in base alle mappe con baking e alle impost
 
 Questa maschera è stata creata appositamente per i volti dei personaggi e altre aree specifiche. Genera un tipo di maschera per ingrassaggio della pelle su aree con thickness basso.
 
-## Parametri
-
-### Input
-
-* **Thickness**: *Input scala di grigi*\
-  Mappa Thickness al forno su cui è basato l’intero effetto. Obbligatorio!
-* **Disturbo**: *Input scala di grigi*\
-  Facoltativo Mappa disturbo per sostituire Grassa grunge con.
-* **Maschera (facoltativo)**: *Input scala di grigi*\
-  Slot maschera utilizzato per mascherare gli effetti del nodo.
-
-### Parametri
-
-* **Livello**: *0,0 - 1,0*\
-  Consente di impostare la quantità totale dell’effetto da visualizzare.
-* **Contrasto**: *0.0 - 1.0*\
-  Regola il contrasto del risultato.
-* **Soglia Thickness**: *0.0 - 1.0* Imposta il thickness minimo in cui deve comparire l&#39;effetto. Altrettanto importante è il livello. Modificalo per adattarlo alla mappa del Thickness.
-* **Ignora disturbo**: *Falso/Vero* Impostare per ignorare la mappa interna della grunge grassa con uno slot di input personalizzato.
-
-## Immagini di esempio
-
-![](../../../../../../assets/grease-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Input
+
+|  |  |
+|:---|:---|
+| <b>Thickness</b> <i>Input scala di grigi</i> | Mappa Spessore eseguita i baking su cui è basato l’intero effetto. Obbligatorio! |
+| <b>Disturbo</b> <i>Input scala di grigi</i> | Facoltativo Mappa disturbo per sostituire Grassa grunge con. |
+| <b>Maschera (facoltativo)</b> <i>Input scala di grigi</i> | Slot maschera utilizzato per mascherare gli effetti del nodo. |
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Livello</b> <i>0.0 - 1.0</i> | Consente di impostare la quantità totale dell’effetto da visualizzare. |
+| <b>Contrasto</b> <i>0.0 - 1.0</i> | Regola il contrasto del risultato. |
+| <b>Soglia Thickness</b> <i>0.0 - 1.0</i> | Imposta il thickness minimo in cui deve comparire l’effetto. Altrettanto importante è il livello. Modificatelo per adattarlo alla vostra mappa di spessore. |
+| <b>Ignora disturbo</b> <i>Falso/Vero</i> | Imposta per ignorare la mappa della grunge di grasso interna con uno slot di input personalizzato. |
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grease.resources/grease-ex.gif" />
+        </td>
+    </tr>
 </table>

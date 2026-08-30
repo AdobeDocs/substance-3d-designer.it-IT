@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/safe-transform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/safe-transform.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Trasformazione sicura per applicare le trasformazioni mantenendo i bordi della texture ed evitando gli artefatti.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Trasformazione sicura
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 1%
+source-wordcount: '185'
+ht-degree: 5%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/safe-transform.png)
+![](safe-transform.resources/safe-transform.png)
 
-![](../../../../../../assets/safe-transform-grayscale.png)
+![](safe-transform.resources/safe-transform-grayscale.png)
 
-## Trasformazione sicura (scala di grigi)
-
-**Entrata:** *Filtri/Trasformazioni*
-
-**Intermedio**
+<b>Ingresso:</b> Filtri > Trasforma
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -43,25 +39,22 @@ Versione di [Trasformazione 2D](../../../../../../compositing-graphs/nodes-refer
 
 Utile per la trasformazione del disturbo quando è necessario il massimo controllo o la nitidezza perfetta.
 
-## Parametri
-
-* **Affianca**: *1 - 16* Ridimensiona l&#39;input affiancandolo.
-* **Modalità scostamento**: *Manuale, casuale* Passa a uno scostamento casuale anziché a uno definito manualmente.
-* **Scostamento**: *0,0 - 1,0*\
-  Sposta o converte il risultato. Verifica che i pixel siano allineati e non interpolati.
-* **Rotazione**: *0.0 - 1.0* Ruota l&#39;input lungo l&#39;angolo.
-* **Rotazione sicura porzione**: *False/True* Determina il comportamento della rotazione e se deve essere agganciata a valori sicuri che non sfocano alcun pixel.
-* **Simmetria**: *nessuna, X, Y, X+Y*
-* **Colore sfondo**: *(Valore colore) (Solo versione colore)*
-* **Modalità Mipmap**: *Automatica, Manuale* Determina la modalità Mipmapping. Impostando questa opzione su Manuale si ottengono risultati più nitidi.
-* **Livello mipmap**: *0 - 10* Quando la modalità Mipmap è impostata su Manuale, consente di scegliere una Mipmap diversa.
-
-## Immagini di esempio
-
-|  |
-| --- |
-| Nessuna immagine allegata alla pagina. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Affianca</b> <i>1 - 16</i> | Riduce l&#39;input mediante l&#39;Affiancamento. |
+| <b>Modalità offset</b> <i>Manuale, Casuale</i> | Passa a uno scostamento casuale anziché a uno definito manualmente. |
+| <b>Scostamento</b> <i>0.0 - 1.0</i> | Sposta o converte il risultato. Verifica che i pixel siano allineati e non interpolati. |
+| <b>Rotazione</b> <i>0.0 - 1.0</i> | Ruota l&#39;input lungo l&#39;angolo. |
+| <b>Rotazione sicura riquadro</b> <i>Falso/Vero</i> | Determina il comportamento della Rotazione, se deve essere agganciata a valori sicuri che non sfocano alcun pixel. |
+| <b>Simmetria</b> <i>nessuno, X, Y, X+Y</i> |  |
+| <b>Colore di sfondo</b> <i>(Valore colore) (Solo versione colore)</i> |  |
+| <b>Modalità Mipmap</b> <i>Automatico, Manuale</i> | Determina la modalità mipmapping. Impostando questa opzione su Manuale si ottengono risultati più nitidi. |
+| <b>Livello mipmap</b> <i>0 - 10</i> | Quando la modalità Mipmap è impostata su Manuale, è possibile scegliere una Mipmap diversa. |

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/3d-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view.html"
 breadcrumb-title: ''
 description: Utilizzate la vista 3D in Substance 3D Designer per visualizzare in anteprima i materiali sugli oggetti 3D e verificare le condizioni di illuminazione.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Visualizzazione 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 9505c371dff25c5d32a409abf76b95655b499571
 workflow-type: tm+mt
 source-wordcount: '3514'
 ht-degree: 1%
@@ -38,7 +38,7 @@ Ulteriori informazioni qui: [moduli di rendering 3D](3d-renderers/3d-renderers.m
 
 In breve, la sezione seguente spiega come eseguire le azioni più comuni insieme a una gif animata per illustrare il processo.
 
-![Navigazione viewport](../../assets/3d-navigate.gif "Navigazione viewport")
+![Navigazione viewport](3d-view.resources/3d-navigate.gif "Navigazione viewport")
 
 ### Navigazione
 
@@ -84,11 +84,11 @@ Potete interagire con le trame direttamente nella finestra della vista:
 
 <b>Premere Esc per deselezionare.</b> Non è necessario che il cursore si trovi sulla trama.
 
-![Vista 3D - Attiva e deseleziona](../../assets/sceneBrowser-focus.gif "Vista 3D - Attiva e deseleziona"){zoomable="yes"}
+![Vista 3D - Attiva e deseleziona](3d-view.resources/sceneBrowser-focus.gif "Vista 3D - Attiva e deseleziona"){zoomable="yes"}
 
 *Selezionare, attivare, deselezionare*
 
-![Visualizzazione 3D - Menu contestuale](../../assets/sceneBrowser-contextualMenu.gif "Visualizzazione 3D - Menu contestuale"){zoomable="yes"}
+![Visualizzazione 3D - Menu contestuale](3d-view.resources/sceneBrowser-contextualMenu.gif "Visualizzazione 3D - Menu contestuale"){zoomable="yes"}
 
 *Seleziona, menu di scelta rapida*
 
@@ -114,13 +114,13 @@ Per utilizzare un ambiente leggero HDR personalizzato, importare un&#39;immagine
 
 Vai a <b>Luci > Modifica proprietà</b> per attivare/disattivare le luci di punto nella scena.
 
-È possibile spostare Point Light 1 nell&#39;origine della scena tenendo premuto LMB o RMB e trascinando nella finestra della vista in modalità Illuminazione. <img src="../../assets/image2020-9-17-10-30-37.png" width="24" />
+È possibile spostare Point Light 1 nell&#39;origine della scena tenendo premuto LMB o RMB e trascinando nella finestra della vista in modalità Illuminazione. <img src="3d-view.resources/image2020-9-17-10-30-37.png" width="24" />
 
-In modalità Videocamera <img src="../../assets/image2020-9-17-10-31-32.png" width="24" /> , è inoltre possibile passare temporaneamente alla modalità Illuminazione tenendo premuti i tasti Ctrl+⇧ insieme ai pulsanti del mouse.
+In modalità Videocamera <img src="3d-view.resources/image2020-9-17-10-31-32.png" width="24" /> , è inoltre possibile passare temporaneamente alla modalità Illuminazione tenendo premuti i tasti Ctrl+⇧ insieme ai pulsanti del mouse.
 
 ## Visualizzare i dati in una vista 3D
 
-![Visualizzare gli output del grafico a Substance](../../assets/3d-material.gif "Visualizzare gli output del grafico a Substance")
+![Visualizzare gli output del grafico a Substance](3d-view.resources/3d-material.gif "Visualizzare gli output del grafico a Substance")
 
 ### Grafici Substance
 
@@ -140,7 +140,7 @@ Quando *caricate un grafico*, per impostazione predefinita gli output vengono ap
 > 
 > Se utilizzate mesh personalizzate con più di un materiale, vi verrà chiesto di scegliere a quale slot di materiale assegnare il materiale. Con uno dei metodi precedenti, fare clic su uno slot per confermare la scelta. Per ulteriori informazioni sui Materiali e sulla loro assegnazione, leggete la sezione dettagliata riportata di seguito.
 
-![Visualizzazione degli output dei nodi e dei grafici nella vista 3D](../../assets/3d-channel.gif "Visualizzazione degli output dei nodi e dei grafici nella vista 3D")
+![Visualizzazione degli output dei nodi e dei grafici nella vista 3D](3d-view.resources/3d-channel.gif "Visualizzazione degli output dei nodi e dei grafici nella vista 3D")
 
 ### Output singolo nodo/grafico
 
@@ -152,7 +152,7 @@ Puoi anche usare *RMB* per trascinare e rilasciare qualsiasi nodo dalla vista Gr
 
 Potete visualizzare qualsiasi singolo output del grafico espandendo la risorsa del grafico nel dock di [Esplora risorse](../the-explorer-window/the-explorer-window.md) e utilizzando *LMB* per trascinare l’output nella vista 3D. Verrà visualizzato un elenco con i canali disponibili a cui assegnare il nodo. Fai clic su qualsiasi per confermare.
 
-![Visualizzazione di trame 3D personalizzate](../../assets/3d-mesh.gif "Visualizzazione di trame 3D personalizzate")
+![Visualizzazione di trame 3D personalizzate](3d-view.resources/3d-mesh.gif "Visualizzazione di trame 3D personalizzate")
 
 ## Visualizza scene 3D (personalizzate)
 
@@ -161,7 +161,7 @@ Scegliete una delle trame predefinite dal menu a discesa <b>Scena</b> nella barr
 
 Per le scene 3D personalizzate, consulta la sezione [Utilizzo delle scene 3D](../../working-with-3d-scenes/working-with-3d-scenes.md).
 
-![Modifica delle proprietà dei materiali](../../assets/3d-materials.gif "Modifica delle proprietà dei materiali")
+![Modifica delle proprietà dei materiali](3d-view.resources/3d-materials.gif "Modifica delle proprietà dei materiali")
 
 ## Modificare le proprietà dello shader
 
@@ -184,7 +184,7 @@ Gli ombreggiatori possono essere ripristinati mediante le azioni &quot;Ripristin
 > * <b>Rasterizzatore/Pathtracer GPU:</b> situato nelle impostazioni del modulo di rendering (Rendering > Impostazioni di modifica), influisce sull&#39;*intera scena*.
 > * <b>OpenGL:</b> situato nelle proprietà del materiale, influisce sul materiale.
 
-![Esportazione della scena](../../assets/3d-view-export-scene.gif "Esportazione della scena")
+![Esportazione della scena](3d-view.resources/3d-view-export-scene.gif "Esportazione della scena")
 
 ## Esporta scena
 
@@ -221,7 +221,7 @@ Per esportare la trama della vista 3D, accedete a <b>Scena > Esporta trama tasse
 >
 > **TDR (solo Windows)**
 > 
-> Per questa funzione è necessario che <b>Rilevamento e ripristino del timeout</b> corrisponda ai valori consigliati nella [pagina](https://experienceleague.adobe.com/it/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) della documentazione, come indicato nei [Requisiti tecnici](../../getting-started/system-requirements/system-requirements.md) di Designer.
+> Per questa funzione è necessario che <b>Rilevamento e ripristino del timeout</b> corrisponda ai valori consigliati nella [pagina](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) della documentazione, come indicato nei [Requisiti tecnici](../../getting-started/system-requirements/system-requirements.md) di Designer.
 
 ## Barra dei menu
 
@@ -230,7 +230,7 @@ La barra dei menu fornisce 7 menu con opzioni relative alla vista 3D. di seguito
 +++Scena
 Il menu <b>Scena</b> riguarda la geometria (risorsa 3D) visualizzata e gli stati della vista 3D. Risorsa 3D: condividi solo la trama, gli stati della scena sono luci, videocamera e impostazioni correlate e possono anche contenere la trama.
 
-![Trame di menu Scena](../../assets/3d-view-meshes.png "Trame di menu Scena")
+![Trame di menu Scena](3d-view.resources/3d-view-meshes.png "Trame di menu Scena")
 
 
 
@@ -266,7 +266,7 @@ Il menu <b>Scena</b> riguarda la geometria (risorsa 3D) visualizzata e gli stati
 
 * Toroide
 
-<b>Visualizza UV nella vista 2D:</b> consente la visualizzazione degli UV per la trama attualmente selezionata come sovrapposizione nella [vista 2D](../2d-view/2d-view.md).
+<b>Visualizza UV nella vista 2D:</b> Consente la visualizzazione degli UV per la trama attualmente selezionata come sovrapposizione nella [vista 2D](../2d-view/2d-view.md).
 
 <b>Crea risorsa 3D dalla scena corrente...:</b> Crea una nuova [risorsa scena 3D](../../resources/3d-scene-resource/3d-scene-resource.md) in un pacchetto esterno alla scena corrente.
 
@@ -305,7 +305,7 @@ Il menu Materiali presenta un elenco di tutti i materiali assegnati a una trama 
 
 <b>Carica definizione...: </b>(solo rendering OpenGL) Consente di caricare il tuo [shader GLSLFX personalizzato.](../../interface/3d-view/glslfx-shaders/glslfx-shaders.md) Lo shader viene aggiunto all’elenco precedente.
 
-<b>Reimposta parametri comuni:</b> Reimposta tutti i parametri comuni tra gli shader. Ad esempio, quando si passa dal modulo di rendering Rasterizer/Pathtracer GPU al modulo di rendering OpenGL e viceversa, vengono riportati diversi valori dei parametri nel [Materiale standard Adobe](https://experienceleague.adobe.com/it/docs/substance-3d/general-knowledge/asm/adobe-standard-material).
+<b>Reimposta parametri comuni:</b> Reimposta tutti i parametri comuni tra gli shader. Ad esempio, quando si passa dal modulo di rendering Rasterizer/Pathtracer GPU al modulo di rendering OpenGL e viceversa, vengono riportati diversi valori dei parametri nel [Materiale standard Adobe](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material).
 
 <b>Rinomina:</b> Modificare l&#39;etichetta per questo materiale.
 
@@ -458,7 +458,7 @@ Consente il controllo diretto della videocamera nella scena.
 
 <img src="3d-view.resources/3d-view-scene-toolbar-environment.png" width="24" /> <b>Mostra ambiente</b>
 
-Questo pulsante consente di attivare/disattivare la visualizzazione dell&#39;ambiente della scena. La stessa impostazione si trova nel Dock Proprietà dopo aver selezionato <b>Ambiente > Modifica</b> nella barra dei menu della vista 3D.
+Questo pulsante consente di attivare/disattivare la visualizzazione dell&#39;ambiente della scena. La stessa impostazione si trova nel Dock Proprietà dopo aver scelto <b>Ambiente > Modifica</b> nella barra dei menu del vista 3D.
 
 <br>
 
@@ -526,25 +526,25 @@ Attiva/disattiva la visualizzazione dell&#39;asse 3D nella finestra della vista.
 
 <br>
 
-![](../../assets/3d-view-display-backface-culling.jpg) <b>Eliminazione sfondo</b>
+![](3d-view.resources/3d-view-display-backface-culling.jpg) <b>Eliminazione sfondo</b>
 
 La disattivazione di questa opzione consente di visualizzare una faccia con trama da *entrambi i lati*. L’opzione funziona in combinazione con Wireframi.
 
 <br>
 
-![](../../assets/3d-view-display-bounding-box.jpg) <b>Rettangolo di selezione</b>
+![](3d-view.resources/3d-view-display-bounding-box.jpg) <b>Rettangolo di selezione</b>
 
 Attiva/disattiva la visualizzazione del rettangolo di selezione della trama.
 
 <br>
 
-![](../../assets/3d-view-display-vertex-tangent-space.jpg) <b>Spazio tangente vertice</b>
+![](3d-view.resources/3d-view-display-vertex-tangent-space.jpg) <b>Spazio tangente vertice</b>
 
 Visualizza i vettori tangente, binnormale e normale per tutti i vertici come gizmo colorati.
 
 <br>
 
-![](../../assets/3d-view-display-wireframe.jpg) <b>Wireframe</b>
+![](3d-view.resources/3d-view-display-wireframe.jpg) <b>Wireframe</b>
 
 Attiva/disattiva la visualizzazione della trama come wireframe.
 
@@ -574,7 +574,7 @@ La barra degli strumenti <b>Visualizzazione</b>, disponibile per impostazione pr
 
 ### Canali di colore
 
-È possibile visualizzare un singolo canale dell&#39;immagine utilizzando il pulsante ![](../../assets/2d-view-icon-channels.png) <b>Canali di colore</b>. Viene aperta una casella combinata che consente di selezionare i canali <b>Rosso</b>, <b>Verde</b> e <b>Blu</b> da visualizzare. L&#39;aspetto normale dell&#39;immagine con tutti i canali viene ripristinato selezionando l&#39;opzione <b>RGB</b>.
+È possibile visualizzare un singolo canale dell&#39;immagine utilizzando il pulsante ![](3d-view.resources/2d-view-icon-channels.png) <b>Canali di colore</b>. Viene aperta una casella combinata che consente di selezionare i canali <b>Rosso</b>, <b>Verde</b> e <b>Blu</b> da visualizzare. L&#39;aspetto normale dell&#39;immagine con tutti i canali viene ripristinato selezionando l&#39;opzione <b>RGB</b>.
 
 L&#39;*icona* del pulsante <b>Canali di colore</b> *cambia* a seconda dei canali attualmente visualizzati.
 

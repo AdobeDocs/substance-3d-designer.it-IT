@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Fusione per fondere due texture insieme utilizzando vari metodi di fusione per creare effetti compositi.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Fusione
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 9%
@@ -24,20 +24,20 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atomico: Fusione](../../../../assets/comp_blend_1.png "Nodo atomico: Fusione"){width="200px"}
+![Nodo atomico: Fusione](blend.resources/comp_blend_1.png "Nodo atomico: Fusione"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 Combina due immagini usando un metodo di fusione specificato e una maschera facoltativa.
 
-È il nodo più utile di tutti i nodi atomici, quasi tutti i grafici creati in [Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html) utilizzeranno questo nodo.
+È il nodo più utile di tutti i nodi atomici, quasi tutti i grafici creati in [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) utilizzeranno questo nodo.
 
 </td>
 </tr>
 </table>
 
-La sua funzionalità è simile a quella di due livelli sovrapposti in [Substance 3D Painter](https://www.adobe.com/it/products/substance3d-painter.html) o [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html), che si fondono insieme in base al metodo di fusione impostato sul livello superiore.
+La sua funzionalità è simile a quella di due livelli sovrapposti in [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) o [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html), che si fondono insieme in base al metodo di fusione impostato sul livello superiore.
 
 >[!TIP]
 >
@@ -91,13 +91,13 @@ La sua funzionalità è simile a quella di due livelli sovrapposti in [Substance
 
 |  |  |
 | --- | --- |
-| <b>Primo piano</b> *Scala di grigi/Colore* | Livello superiore o di primo piano dell&#39;operazione di fusione. |
+| <b>Primo piano</b> *Scala di grigi/Colore* | Livello superiore o di primo piano dell’operazione Fusione. |
 | <b>Sfondo</b> *Scala di grigi/Colore* PRIMARIO | Livello inferiore o di sfondo dell&#39;operazione di fusione. |
 | <b>Opacità</b> *Scala di grigi* | Input maschera di Alpha opzionale. |
 
 >[!IMPORTANT]
 >
-> I nodi di fusione hanno input dinamici che passano dalla scala di grigi al colore a seconda delle connessioni.<b> Un nodo di blend può unire solo due input dello stesso tipo</b>.
+> I nodi Fusione dispongono di input dinamici che passano da Scala di grigio a Colore a seconda delle connessioni.<b> Un nodo Fusione può unire solo due input dello stesso tipo</b>.
 > 
 > Collegando un input a colori e in scala di grigi a primo piano e sfondo si ottiene una linea di connessione tratteggiata rossa, a indicare un errore di calcolo.
 > 

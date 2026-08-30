@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/preferences-window/version-control.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window/version-control.html"
 breadcrumb-title: ''
 description: Configura le impostazioni di controllo della versione nelle preferenze di Substance 3D Designer per l’integrazione con Git e altri sistemi.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Controllo versione
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 0%
@@ -34,7 +34,7 @@ L&#39;integrazione aggiunge un sottomenu &#39;Controllo versione&#39; personaliz
 
 In [P4V](https://www.perforce.com/products/helix-core-apps/helix-visual-client-p4v) prendere nota del nome e del percorso dell&#39;area di lavoro, come illustrato di seguito:
 
-![Informazioni sull&#39;area di lavoro P4V](../../../assets/p4v-workspace-strings.jpg "Informazioni sull&#39;area di lavoro P4V"){zoomable="yes"}
+![Informazioni sull&#39;area di lavoro P4V](version-control.resources/p4v-workspace-strings.jpg "Informazioni sull&#39;area di lavoro P4V"){zoomable="yes"}
 
 In qualsiasi editor di testo o IDE, apri questo script disponibile nell&#39;installazione di Designer: &#39;*tools/version\_control/perforce.py*&#39;.
 
@@ -52,9 +52,9 @@ cVerbose = False
 
 ## Configurazione in Designer
 
-Il controllo della versione è configurato nelle [impostazioni del progetto](../../../interface/preferences-window/project-settings/project-settings.md), disponibili nelle [preferenze](../../../interface/preferences-window/preferences-window.md) di Designer.
+Il controllo versione è configurato nelle [impostazioni del progetto](../../../interface/preferences-window/project-settings/project-settings.md), disponibili nelle [preferenze](../../../interface/preferences-window/preferences-window.md) di Designer.
 
-Scheda ![&#39;Controllo versione&#39; nelle impostazioni del progetto](../../../assets/p4v-project-settings.jpg "&#39;Controllo versione&#39; nelle impostazioni del progetto"){zoomable="yes"}
+Scheda ![&#39;Controllo versione&#39; nelle impostazioni del progetto](version-control.resources/p4v-project-settings.jpg "&#39;Controllo versione&#39; nelle impostazioni del progetto"){zoomable="yes"}
 
 1. Vai a &quot;Modifica > Preferenze&quot;
 1. Vai a &quot;Progetti&quot;, seleziona il [file di progetto](../../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md) di destinazione e vai alla scheda &quot;Controllo versione&quot;
@@ -64,7 +64,7 @@ Scheda ![&#39;Controllo versione&#39; nelle impostazioni del progetto](../../../
    * <b>Nome:</b> Immettere il &#39;Nome area di lavoro&#39; recuperato in precedenza da P4V
    * <b>Percorso:</b> immettere il &#39;Percorso area di lavoro&#39; recuperato in precedenza da P4V
 
-Installazione di ![P4 in Designer: workspace](../../../assets/p4v-project-settings-workspace.jpg "P4 in Designer: workspace"){zoomable="yes"}
+Installazione di ![P4 in Designer: workspace](version-control.resources/p4v-project-settings-workspace.jpg "P4 in Designer: workspace"){zoomable="yes"}
 
 ### Impostazione delle azioni
 
@@ -88,7 +88,7 @@ Uno script iniziale per tutte le azioni è disponibile nell&#39;installazione di
 1. Selezionare lo script seguente nell&#39;installazione di Designer: &#39;*tools/version\_control/perforce.py*&#39;
 1. Lo script deve essere impostato automaticamente per tutte le altre azioni.
 
-Installazione di ![P4 in Designer: actions](../../../assets/p4v-project-settings-actions.jpg "Installazione di P4 in Designer: actions"){zoomable="yes"}
+Installazione di ![P4 in Designer: actions](version-control.resources/p4v-project-settings-actions.jpg "Installazione di P4 in Designer: actions"){zoomable="yes"}
 
 ### Impostazione delle azioni personalizzate
 
@@ -103,7 +103,7 @@ Poiché tutti gli strumenti per il controllo delle versioni sono diversi e inclu
 1. Impostare l&#39;estensione o il suffisso di un file script e il percorso dell&#39;eseguibile interprete
 1. Modifica lo script perforce.py per aggiornare la posizione del file binario &#39;p4&#39;
 
-Installazione di ![P4 in Designer: interpreter](../../../assets/p4v-project-settings-interpreters.jpg "Installazione di P4 in Designer: interpreter"){zoomable="yes"}
+Installazione di ![P4 in Designer: interpreter](version-control.resources/p4v-project-settings-interpreters.jpg "Installazione di P4 in Designer: interpreter"){zoomable="yes"}
 
 ## Come utilizzare il controllo delle versioni
 
@@ -123,12 +123,12 @@ Installazione di ![P4 in Designer: interpreter](../../../assets/p4v-project-sett
    <tr style="border: 0;">
    <td style="border: 0;" valign="top">
 
-   Finestra di dialogo &quot;Invia&quot; di ![](../../../assets/p4v-submit.jpg " Finestra di dialogo &quot;Invia&quot;"){zoomable="yes"}
+   Finestra di dialogo &quot;Invia&quot; di ![](version-control.resources/p4v-submit.jpg " Finestra di dialogo &quot;Invia&quot;"){zoomable="yes"}
 
    </td>
    <td style="border: 0;" valign="top">
 
-   Finestra di dialogo ![&#39;Ripristina&#39;](../../../assets/p4v-revert.jpg "&#39;Ripristina&#39;"){zoomable="yes"}
+   Finestra di dialogo ![&#39;Ripristina&#39;](version-control.resources/p4v-revert.jpg "&#39;Ripristina&#39;"){zoomable="yes"}
 
    </td>
    </tr>
@@ -148,28 +148,28 @@ Il pacchetto avrà le seguenti icone, a seconda del suo stato:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Icona pacchetto: aggiornato](../../../assets/p4-up-to-date.png "Icona pacchetto: aggiornato")
+![Icona pacchetto: aggiornato](version-control.resources/p4-up-to-date.png "Icona pacchetto: aggiornato")
 
 Aggiornato
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Icona pacchetto: Estratto](../../../assets/p4-checked-out.png "Icona pacchetto: Estratto")
+![Icona pacchetto: Estratto](version-control.resources/p4-checked-out.png "Icona pacchetto: Estratto")
 
 Estratto
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Icona pacchetto: aggiunta](../../../assets/p4-added.png "Icona pacchetto: aggiunta")
+![Icona pacchetto: aggiunta](version-control.resources/p4-added.png "Icona pacchetto: aggiunta")
 
 Contrassegnato per l&#39;aggiunta
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Icona pacchetto: non in deposito](../../../assets/p4-not-in-depot.png "Icona pacchetto: non in deposito")
+![Icona pacchetto: non in deposito](version-control.resources/p4-not-in-depot.png "Icona pacchetto: non in deposito")
 
 Non in deposito
 

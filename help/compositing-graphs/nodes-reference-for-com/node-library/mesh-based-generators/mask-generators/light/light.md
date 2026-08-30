@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/light.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/light.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Luce per generare maschere in base alle condizioni di illuminazione della trama per creare variazioni di materiale realistiche.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Luce
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 3%
+source-wordcount: '138'
+ht-degree: 9%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/light-2.png){width="128px"}
+![](light.resources/light-2.png){width="128px"}
 
-## Luce
-
-**Ingresso:** *Generatori Basati Su Trama**/Generatori Maschera*
-
-**Semplice**
+<b>In:</b> Generatori Basati Su Trama > Generatori di maschere
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -41,17 +37,27 @@ Genera una maschera in bianco e nero in base alle mappe con baking e alle impost
 
 Questa maschera è un po&#39; diversa dagli altri Generatori: semplicemente fa una falsa illuminazione, basata sulla mappa normale dello spazio mondiale, restituendo una maschera &quot;lightmap&quot; in bianco e nero.
 
-## Parametri
-
-* **Angolo orizzontale**: *0.0 - 1.0* Imposta l&#39;angolo orizzontale della luce falsa.
-* **Angolo verticale**: *0.0 - 1.0* Imposta l&#39;angolo verticale della luce falsa.
-* **Luce lucidità**: *0.0 - 0.999* Imposta la diffusione di decadimento dell&#39;area evidenziata.
-* **Livello di evidenziazione**: *0.0 - 1.0* Imposta il livello di luminosità dell&#39;area evidenziata.
-
-## Immagini di esempio
-
-![](../../../../../../assets/light-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Angolo orizzontale</b> <i>0.0 - 1.0</i> | Imposta l’angolo orizzontale della luce falsa. |
+| <b>Angolo verticale</b> <i>0.0 - 1.0</i> | Imposta l’angolo verticale della luce falsa. |
+| <b>Luce lucidità</b> <i>0.0 - 0.999</i> | Imposta la distanza di decadimento dell’area evidenziata. |
+| <b>Livello evidenziazione</b> <i>0.0 - 1.0</i> | Consente di impostare il livello di luminosità dell’area evidenziata. |
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="light.resources/light-ex.gif" />
+        </td>
+    </tr>
 </table>

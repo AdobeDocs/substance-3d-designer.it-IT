@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence-nodes.html"
 breadcrumb-title: ''
 description: Scopri come utilizzare i nodi SetSequence in FXMaps per creare pattern sequenziali e variazioni procedurali.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Utilizzo dei nodi SetSequence
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '773'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Durante l&#39;utilizzo delle funzioni in <b>FX-Maps</b>, talvolta si desidera ge
 </td>
 <td style="border: 0;" valign="top">
 
-![Nodi Set e Sequence](../../../../assets/image2017-3-17-15-5-5.png "Nodi Set e Sequence")
+![Nodi Set e Sequence](using-the-set-sequence-nodes.resources/image2017-3-17-15-5-5.png "Nodi Set e Sequence")
 
 </td>
 </tr>
@@ -61,7 +61,7 @@ Per impostazione predefinita, la variabile impostata da questo nodo è accessibi
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Imposta nodo](../../../../assets/image2017-3-17-15-12-52.png "Imposta nodo")
+![Imposta nodo](using-the-set-sequence-nodes.resources/image2017-3-17-15-12-52.png "Imposta nodo")
 
 </td>
 </tr>
@@ -76,7 +76,7 @@ In questo esempio il nome della variabile è stato impostato su **`myVariable`**
 </td>
 <td style="border: 0;" valign="top">
 
-![Imposta esempio nodo](../../../../assets/image2018-8-30-17-45-35.png "Imposta esempio nodo")
+![Imposta esempio nodo](using-the-set-sequence-nodes.resources/image2018-8-30-17-45-35.png "Imposta esempio nodo")
 
 </td>
 </tr>
@@ -95,7 +95,7 @@ L&#39;output del *secondo ramo* viene quindi passato all&#39;output del nodo.
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Nodo sequenza](../../../../assets/image2017-3-17-15-17-38.png "Nodo sequenza")
+![Nodo sequenza](using-the-set-sequence-nodes.resources/image2017-3-17-15-17-38.png "Nodo sequenza")
 
 </td>
 </tr>
@@ -112,7 +112,7 @@ Tuttavia, prima che ciò accada, la variabile `<b>myVariable</b>` viene impostat
 </td>
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo di sequenza](../../../../assets/image2018-8-30-17-49-41.png "Esempio di nodo di sequenza")
+![Esempio di nodo di sequenza](using-the-set-sequence-nodes.resources/image2018-8-30-17-49-41.png "Esempio di nodo di sequenza")
 
 </td>
 </tr>
@@ -122,7 +122,7 @@ I nodi **Sequenza** possono essere *concatenati* per controllare il flusso di es
 
 Ad esempio, puoi *impostare* prima una variabile, *aggiornare* il suo valore in un secondo momento, quindi *leggere* il suo valore finale, assicurandoti che queste azioni si verifichino *in un ordine specifico*.
 
-![Nodo sequenza concatenato](../../../../assets/image2018-8-30-17-52-27.png "Nodo sequenza concatenato")
+![Nodo sequenza concatenato](using-the-set-sequence-nodes.resources/image2018-8-30-17-52-27.png "Nodo sequenza concatenato")
 
 ## Visibilità variabile
 
@@ -148,7 +148,7 @@ Ciò che faremo è eseguire tutti i calcoli nella funzione del parametro <b>Colo
 </td>
 <td style="border: 0;" valign="top">
 
-![Proprietà quadrante](../../../../assets/image2018-8-30-18-1-6.png "Proprietà quadrante")
+![Proprietà quadrante](using-the-set-sequence-nodes.resources/image2018-8-30-18-1-6.png "Proprietà quadrante")
 
 </td>
 </tr>
@@ -167,13 +167,13 @@ Si noti che la proprietà **Position** è già definita da un valore casuale e c
 </td>
 <td style="border: 0;" valign="top">
 
-![Funzione Colore/Luminosità del quadrante](../../../../assets/image2018-8-30-18-4-46.png "Funzione Colore/Luminosità del quadrante")
+![Funzione Colore/Luminosità del quadrante](using-the-set-sequence-nodes.resources/image2018-8-30-18-4-46.png "Funzione Colore/Luminosità del quadrante")
 
 </td>
 </tr>
 </table>
 
-![Pattern sparsi](../../../../assets/image2018-8-30-18-5-30.png "Pattern sparsi")
+![Pattern sparsi](using-the-set-sequence-nodes.resources/image2018-8-30-18-5-30.png "Pattern sparsi")
 
 <table>
 <tr style="border: 0;">
@@ -184,7 +184,7 @@ Ora che la variabile `myRotation` esiste e ha un valore, accediamo al grafico de
 </td>
 <td style="border: 0;" valign="top">
 
-![Menu della funzione dei parametri della rotazione del pattern](../../../../assets/image2018-8-30-18-7-57.png "Menu della funzione dei parametri della rotazione del pattern")
+![Menu della funzione dei parametri della rotazione del pattern](using-the-set-sequence-nodes.resources/image2018-8-30-18-7-57.png "Menu della funzione dei parametri della rotazione del pattern")
 
 </td>
 </tr>
@@ -199,7 +199,7 @@ Nella funzione, il valore del parametro `myRotation` viene letto utilizzando un 
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Output float Get della rotazione del pattern](../../../../assets/image2018-8-30-18-10-58.png "Output float Get della rotazione del pattern")
+![Output float Get della rotazione del pattern](using-the-set-sequence-nodes.resources/image2018-8-30-18-10-58.png "Output float Get della rotazione del pattern")
 
 </td>
 </tr>
@@ -207,4 +207,4 @@ Nella funzione, il valore del parametro `myRotation` viene letto utilizzando un 
 
 La luminosità ora controlla anche la rotazione.
 
-![Pattern ruotati](../../../../assets/image2018-8-30-18-12-25.png "Pattern ruotati")
+![Pattern ruotati](using-the-set-sequence-nodes.resources/image2018-8-30-18-12-25.png "Pattern ruotati")

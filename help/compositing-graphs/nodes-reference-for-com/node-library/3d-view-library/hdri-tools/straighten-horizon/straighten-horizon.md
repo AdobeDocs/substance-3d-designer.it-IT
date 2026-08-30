@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/straighten-horizon.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/straighten-horizon.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Raddrizza orizzonte per raddrizzare le linee dell’orizzonte negli ambienti HDRI per un allineamento e un orientamento corretti.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Raddrizza orizzonte
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 1%
+source-wordcount: '98'
+ht-degree: 4%
 
 ---
 
@@ -22,36 +22,30 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/straighten-horizon.png){width="200px"}
+![](straighten-horizon.resources/straighten-horizon.png){width="200px"}
 
-## Raddrizza orizzonte
-
-**Ingresso:** *Visualizzazione/Strumento HDRI 3D*
-
-**Semplice**
+<b>Ingresso:</b> vista 3D > Strumenti HDRI
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
 Per le immagini HDRI con un orizzonte non retto, questo nodo fornisce un modo semplice e intuitivo per correggere questo problema.
 
-## Parametri
-
-* **Attiva correzione orizzonte**: *False/True*\
-  Attiva e disattiva l’effetto. Consente di attivare/disattivare per confrontare prima e dopo e trovare i punti corretti.
-* **Posizione #1 punto orizzonte**:\
-  Primo punto, con maniglia di visualizzazione 2D.
-* **Posizione #2 punto orizzonte**:\
-  Secondo punto, con maniglia di visualizzazione 2D.
-* **Rotazione orizzontale**: *0,0 - 1,0\
-  Rotazione aggiuntiva attorno all&#39;asse centrale.*
-
-## Immagini di esempio
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Abilita correzione orizzonte</b> <i>Falso/Vero</i> | Attiva e disattiva l’effetto. Consente di attivare/disattivare per confrontare prima e dopo e trovare i punti corretti. |
+| <b>Posizione #1 punto orizzonte</b> | Primo punto, con maniglia vista 2D. |
+| <b>Posizione #2 punto orizzonte</b> | Secondo punto, con maniglia vista 2D. |
+| <b>Rotazione orizzontale</b> <i>0.0 - 1.0</i> | Rotazione aggiuntiva attorno all’asse centrale. |

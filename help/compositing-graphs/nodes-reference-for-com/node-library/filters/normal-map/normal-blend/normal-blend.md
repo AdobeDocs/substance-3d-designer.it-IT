@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-blend.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Fusione normale (Normal Blend) per fondere insieme le mappe normali e creare transizioni omogenee tra i dettagli della superficie.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Fusione normale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 2%
+source-wordcount: '155'
+ht-degree: 3%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/normal-blend.png){width="128px"}
+![](normal-blend.resources/normal-blend.png){width="128px"}
 
-## Fusione normale
-
-**Ingresso:** *Filtri/Mappa Normale*
-
-**Intermedio**
+<b>Ingresso:</b> Filtri > Mappa normale
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -41,30 +37,35 @@ Fusione normale consente di fondere due mappe normali con una maschera opzionale
 
 Fusione normale non consente di combinare (sovrapporre) le mappe normali, in cui la mappa superiore aggiunge dettagli alla mappa inferiore. A tale scopo, utilizzare [Combinazione normale](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md).
 
-## Parametri
-
-### Input
-
-* **NormalFG**: *Input colore*\
-  Mappa Normale Primo Piano/Superiore.
-* **NormalBG**: *Input colore*\
-  Normalmap sfondo/inferiore.
-* **Maschera**: *Input scala di grigi*\
-  Slot maschera utilizzato per mascherare gli effetti del nodo. Può essere attivata/disattivata con il parametro &quot;Usa maschera&quot;.
-
-### Parametri
-
-* **Opacità**: *0,0 - 1,0*\
-  Fusione dell’opacità tra primo piano e sfondo
-* **Usa maschera**: *False/True*\
-  Attiva o disattiva l’uso della mappa maschera.
-
-## Immagini di esempio
-
-![](../../../../../../assets/normalblend-ex.gif)
-
-*(.gif introduce il dithering, ad esempio, i risultati nell&#39;applicazione sono uniformi)*
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Input
+
+|  |  |
+|:---|:---|
+| <b>NormalFG</b> <i>Input colore</i> | Mappa Normale Primo Piano/Superiore. |
+| <b>NormalBG</b> <i>Input colore</i> | Normalmap sfondo/inferiore. |
+| <b>Maschera</b> <i>Input scala di grigi</i> | Slot maschera utilizzato per mascherare gli effetti del nodo. Può essere attivata/disattivata con il parametro &quot;Usa maschera&quot;. |
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Opacità</b> <i>0.0 - 1.0</i> | Fusione dell’opacità tra primo piano e sfondo |
+| <b>Usa maschera</b> <i>Falso/Vero</i> | Attiva o disattiva l’uso della mappa maschera. |
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="normal-blend.resources/normalblend-ex.gif" /><br><i> (.gif introduce il dithering, ad esempio, i risultati nell'applicazione sono uniformi)</i>
+        </td>
+    </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/function-graphs/variables.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables.html"
 breadcrumb-title: ''
 description: Scoprite come utilizzare le variabili nei grafici delle funzioni di Substance 3D Designer per memorizzare e riutilizzare i valori in modo efficiente.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Variabili
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 1%
@@ -45,13 +45,13 @@ In Substance 3D Designer avete due famiglie di variabili: Numerica e Booleano.
 Le variabili numeriche sono fondamentalmente numeri. Ma facciamo una netta distinzione tra due tipi di numeri:
 
 * Interi : 0 | 1 | -1 | 203568 , ecc.
-* Galleggianti: 0,23 | 1,0 | -0,3546 | ecc.
+* Virgole mobili: 0,23 | 1,0 | -0,3546 | ecc.
 
 >[!WARNING]
 >
 > Designer distingue chiaramente i numeri interi dai numeri a virgola mobile: per impostazione predefinita, non è possibile utilizzarli insieme.
 > 
-> È possibile utilizzare i nodi *To Integer* o To Float per eseguire conversioni di tipi.
+> È possibile utilizzare i nodi *To Integer* o To Virgola mobile per eseguire conversioni di tipi.
 
 ### Più valori numerici nella stessa variabile
 
@@ -61,7 +61,7 @@ Ancora una volta tutti i valori devono essere dello stesso tipo.
 
 A tale scopo, è possibile scegliere tra tutti i seguenti valori numerici:
 
-![](../../assets/image2015-12-18-14-10-36.png)
+![](variables.resources/image2015-12-18-14-10-36.png)
 
 ## Booleano
 

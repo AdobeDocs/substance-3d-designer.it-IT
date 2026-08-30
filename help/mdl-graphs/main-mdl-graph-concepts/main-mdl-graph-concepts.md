@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Concetti principali del grafico MDL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1033'
 ht-degree: 0%
@@ -33,7 +33,7 @@ I materiali MDL utilizzano una descrizione per soluzioni di rendering basate su 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Logo NVIDIA Iray](../../assets/iray-logo.jpg)](https://www.nvidia.com/en-us/design-visualization/iray/)
+[![Logo NVIDIA Iray](main-mdl-graph-concepts.resources/iray-logo.jpg)](https://www.nvidia.com/en-us/design-visualization/iray/)
 
 </td>
 </tr>
@@ -52,7 +52,7 @@ Ad esempio, se desiderate lavorare su un materiale simile al vetro, potete utili
 
 Il nodo principale include una miniatura che visualizza un&#39;anteprima dell&#39;output corrente.
 
-![Nodo radice del grafico MDL](../../assets/mdl-root-hl.png "Nodo radice del grafico MDL")
+![Nodo radice del grafico MDL](main-mdl-graph-concepts.resources/mdl-root-hl.png "Nodo radice del grafico MDL")
 
 *Nodo principale in un grafico MDL e relative proprietà visualizzate nel [pannello Proprietà](../../interface/properties/properties.md)* *pannello*
 
@@ -68,22 +68,22 @@ La *forma del connettore* indica se il tipo di dati è *uniforme* (cerchio) o *v
 
 Di seguito sono riportati alcuni esempi:
 
-* un campione <b>Texture</b> è *variabile* in quanto i valori sono interessati dal pixel campionato
+* un campione di <b>Texture</b> è *variabile* in quanto i valori sono interessati dal pixel campionato
 * un valore <b>Color</b> è *uniforme* in quanto viene passato in modo uguale indipendentemente dal contesto
 * un <b>BRDF</b> è *variabile* in quanto i valori sono interessati dall&#39;angolo di incidenza
-* un valore <b>Float</b> o <b>Boolean</b> è *uniforme* in quanto viene passato in modo uguale indipendentemente dal contesto
+* un valore <b>Virgola mobile</b> o <b>Booleano</b> è *uniforme* in quanto viene passato in modo uguale indipendentemente dal contesto
 
 Colore connettore
 
-Il *tipo di dati* proveniente da un connettore di output o previsto da un connettore di input è codificato a colori e visualizzato tra parentesi dopo l&#39;identificatore/etichetta quando si passa il puntatore del mouse sul connettore.
+Il *tipo di dati* proveniente da un connettore di output o previsto da un connettore di input è codificato a colori e viene visualizzato tra parentesi dopo l&#39;identificatore o l&#39;etichetta quando si passa il puntatore del mouse sul connettore.
 
 >[!WARNING]
 >
 > È possibile collegare tra loro solo connettori per *tipi di dati corrispondenti*. L’unico scopo dei codici colore è quello di aumentare la leggibilità riguardo al tipo di dati trasmessi nel grafico e a quali connettori possono essere collegati.
 
-![Tipi di connettore nodo MDL](../../assets/mdl-connector-types.png "Tipi di connettore nodo MDL"){width="512px"}
+![Tipi di connettore nodo MDL](main-mdl-graph-concepts.resources/mdl-connector-types.png "Tipi di connettore nodo MDL"){width="512px"}
 
-*L&#39;aspetto dei connettori varia a seconda del tipo di valore di I/O, visualizzato tra parentesi dopo l&#39;identificatore di I/O*
+*L&#39;aspetto dei connettori varia in base al tipo di valore di I/O, visualizzato tra parentesi dopo l&#39;identificatore di I/O*
 
 ## Creazione nodo filtrato
 
@@ -101,7 +101,7 @@ Tuttavia, vi sono casi in cui l&#39;elenco dei nodi nel menu Nodo viene filtrato
 * se il menu Nodo viene visualizzato trascinando *un collegamento* da un connettore *output*, l&#39;elenco include nodi in cui il tipo di dati del *primo input* corrisponde al tipo di dati *output* selezionato
 * se il menu Nodo viene visualizzato trascinando *un collegamento* da un connettore *input*, l&#39;elenco include nodi in cui il tipo di dati *output* corrisponde al tipo di dati *input selezionato*
 
-![Creazione nodo filtrato](../../assets/mdl-filtered-node-creation.gif "Creazione nodo filtrato")
+![Creazione nodo filtrato](main-mdl-graph-concepts.resources/mdl-filtered-node-creation.gif "Creazione nodo filtrato")
 
 *Creazione di nodi filtrati nel grafico MDL, notare le modifiche apportate all&#39;elenco in base al tipo di valore per il connettore*
 
@@ -111,6 +111,6 @@ I materiali MDL possono ricevere dati da fonti esterne, ad esempio sotto forma d
 
 I dati possono essere passati al nodo esposto a seconda del relativo *tipo*. Ad esempio, i valori Float possono essere passati a un nodo <b>float</b> esposto e una texture può essere passata a un nodo <b>color</b> esposto (in questo caso, i valori RGBA del pixel campionato vengono passati come valore di colore).
 
-![Input grafici esposti](../../assets/mdl-graph-inputs-samplers.png "Input grafici esposti")
+![Input grafici esposti](main-mdl-graph-concepts.resources/mdl-graph-inputs-samplers.png "Input grafici esposti")
 
 *I nodi esposti creano input di grafici che sono sia input di valore raw che campionatori per texture*

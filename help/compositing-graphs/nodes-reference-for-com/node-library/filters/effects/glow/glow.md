@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/glow.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/glow.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Bagliore per aggiungere effetti di bagliore alle texture per creare aspetti di materiale luminoso ed emissivo.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Bagliore
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '178'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/glow-greyscale.png){width="128px"}
+![](glow.resources/glow-greyscale.png){width="128px"}
 
-![](../../../../../../assets/glow-3.png){width="128px"}
+![](glow.resources/glow-3.png){width="128px"}
 
-## Bagliore
-
-**Ingresso:** *Filtri/Effetti*
-
-**Semplice**
+<b>Ingresso:</b> Filtri > Effetti
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -45,19 +41,27 @@ Tenete presente che non è destinato a funzionare per immagini con canali Alpha,
 
 Importante: assicurati di utilizzare la versione appropriata per il tuo input. Usate &quot;Glow&quot; per gli input di colore o &quot;Glow Greyscale&quot; per gli input di scala di grigio.
 
-## Parametri
-
-* **Quantità bagliore**: *0,0 - 1,0* Opacità globale per l&#39;effetto bagliore.
-* **Cancella quantità**: *0,0 - 1,0* Soglia di soglia per l&#39;interruzione dell&#39;effetto bagliore. Utile per aree semitrasparenti.
-* **Dimensione bagliore**: *0.0 - 20.0* Controlla la distanza raggiunta dall&#39;effetto bagliore.
-* **Colore bagliore**: *(Valore colore) (Solo versione colore)*Imposta il colore dell&#39;effetto bagliore.
-
-## Immagini di esempio
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/glow-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Quantità bagliore</b> <i>0.0 - 1.0</i> | Opacità globale per l’effetto bagliore. |
+| <b>Cancella quantità</b> <i>0.0 - 1.0</i> | Soglia massima per quando interrompere l’effetto bagliore. Utile per aree semitrasparenti. |
+| <b>Dimensione bagliore</b> <i>0.0 - 20.0</i> | Controlla il valore raggiunto dall’effetto bagliore. |
+| <b>Colore bagliore</b> <i>(Valore colore) (Solo versione colore)</i> | Consente di impostare il colore dell’effetto bagliore. |
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="glow.resources/glow-ex.png" />
+        </td>
+    </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-vector-rotation.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-vector-rotation.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Rotazione vettoriale normale per ruotare i vettori della mappa normale per regolare l'illuminazione della superficie e l'orientamento dei dettagli.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Rotazione vettoriale normale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 4%
+source-wordcount: '118'
+ht-degree: 5%
 
 ---
 
@@ -22,39 +22,37 @@ ht-degree: 4%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/normal-vector-rotation.png){width="128px"}
+![](normal-vector-rotation.resources/normal-vector-rotation.png){width="128px"}
 
-## Rotazione vettoriale normale
-
-**Ingresso:** *Filtri/Mappa Normale*
-
-**Semplice**
+<b>Ingresso:</b> Filtri > Mappa normale
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
 Nodo di utilità normale che ruota tutti i vettori di una mappa normale di input nello spazio tangente. Non trasforma i pixel, ma modifica i valori che rappresentano. Può utilizzare una mappa opzionale per aggiungere rotazioni casuali alle sfaccettature in scala di grigio.
 
-## Input
-
-* **Normale**: *Input colore*\
-  Mappa di base su cui eseguire la rotazione. Obbligatorio.
-* **Mappa di rotazione (facoltativo)**: *Input scala di grigi*\
-  Mappa in scala di grigi che modula l’intensità della rotazione.
-
-## Parametri
-
-* **Angolo di rotazione**: *0,0 - 1,0*\
-  Imposta l&#39;angolo in base al quale ruotare Normalmap
-* **Formato normale**: *DirectX, OpenGL*\
-  Passare da un Formato mappa normale a un altro (inverte il canale verde)
-
-## Esempi
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Input
+
+|  |  |
+|:---|:---|
+| <b>Normale</b> <i>Input colore</i> | Mappa di base su cui eseguire la rotazione. Obbligatorio. |
+| <b>Mappa di rotazione (facoltativo)</b> <i>Input scala di grigi</i> | Mappa in scala di grigi che modula l’intensità della rotazione. |
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Angolo di rotazione</b> <i>0.0 - 1.0</i> | Imposta l&#39;angolo in base al quale ruotare Normalmap |
+| <b>Formato Normale</b> <i>DirectX, OpenGL</i> | Passare da un Formato mappa normale a un altro (inverte il canale verde) |

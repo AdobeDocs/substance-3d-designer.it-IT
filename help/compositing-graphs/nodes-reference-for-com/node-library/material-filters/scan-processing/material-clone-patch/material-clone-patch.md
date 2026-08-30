@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/material-clone-patch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/material-clone-patch.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Patch clone materiale per clonare e applicare patch alle aree della texture per correggere gli artefatti nei materiali scansionati.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Patch clone materiale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 1%
+source-wordcount: '326'
+ht-degree: 4%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/clone-patch-material.png){width="128px"}
+![](material-clone-patch.resources/clone-patch-material.png){width="128px"}
 
-## Patch clone materiale
-
-**Ingresso:** *Filtri materiale/Elaborazione analisi*
-
-**Complesso**
+<b>Tra:</b> Filtri materiali > Elaborazione scansione
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -41,35 +37,33 @@ Questa è la versione completa multicanale del materiale di [Patch clone](../../
 
 Ciò è molto utile se desiderate rimuovere un dettaglio da tutti i canali di un materiale. Esegue l’output del debug delle immagini per più canali per vedere esattamente come si presenta l’area delle patch avanzate.
 
-## Parametri
-
-### Input
-
-* **Maschera**: *Input scala di grigi*\
-  Slot maschera utilizzato per mascherare gli effetti del nodo. Può essere attivato/disattivato con il parametro &quot;Maschera&quot;.
-
-### Parametri
-
-* **Canali**
-  * Attivate e disattivate i canali del materiale in questo gruppo, ad esempio quando utilizzate mappe Specular/lucidità invece di Metallico/Rugosità.
-* **Forma**: *Quadrato, Disco* Imposta La Forma Del Timbro. Utilizzato solo come base.
-* **Edge**
-  * **Soglia (per più canali)**: *0.0 - 1.0* Imposta la distanza che deve essere raggiunta dall&#39;area di fusione. Si sviluppa in passaggi, lungo le forme nell&#39;area di destinazione, quindi ha pochissimo effetto con sfondi uniformi*.*Presta attenzione a cambiare troppo questa impostazione tra i canali, poiché potrebbe causare discrepanze visive!
-  * **Sfocatura**: *0.0 - 2.0* Sfoca i bordi dell&#39;area del timbro nel caso in cui sia necessaria una transizione più morbida.
-  * **Smoothness**: *0.0 - 2.0* Arrotonda i bordi della forma del timbro, per rendere i contorni più fluidi.
-  * **Risoluzione griglia**: *1 - 11* Imposta la risoluzione di qualità dell&#39;analisi di fusione. Un valore più elevato indica una fusione più accurata.
-* **Trasformazioni**
-  * **Matrice origine**: *(Matrice trasformazione)*Trasforma l&#39;origine (Scala e Rotazione). Impossibile eseguire l&#39;operazione sull&#39;area di lavoro. Modificare solo questi parametri.
-  * **Scostamento origine**: *-0,5 - 0,5* Traduce il percorso di origine. Impossibile eseguire l&#39;operazione sull&#39;area di lavoro. Modificare solo questi parametri. *Questo parametro è probabilmente quello principale che si desidera modificare.*
-  * **Matrice destinazione**: *(Matrice trasformazione)*Trasforma la posizione di destinazione (Scala e Rotazione). Può essere fatto anche tramite gizmo su tela.
-  * **Offset destinazione**: *-0,5 - 0,5* Traduce il percorso di destinazione. Può essere fatto anche tramite gizmo su tela.
-
-## Immagini di esempio
-
-|  |
-| --- |
-| Nessuna immagine allegata alla pagina. |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Input
+
+|  |  |
+|:---|:---|
+| <b>Maschera</b> <i>Input scala di grigi</i> | Slot maschera utilizzato per mascherare gli effetti del nodo. Può essere attivato/disattivato con il parametro &quot;Maschera&quot;. |
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Canali</b> | Attivate e disattivate i canali del materiale in questo gruppo, ad esempio quando utilizzate mappe Specular/lucidità invece di Metallico/Rugosità. |
+| <b>Forma</b> <i>Quadrato, Disco</i> | Imposta la forma del timbro. Utilizzato solo come base. |
+| <b>Edge</b> |  |
+| <b>Soglia (per più canali)</b> <i>0.0 - 1.0</i> | Imposta la distanza che deve essere raggiunta dall&#39;area di fusione. Cresce gradualmente lungo le forme nell&#39;area di destinazione, quindi ha un effetto molto ridotto con sfondi uniformi. Fai attenzione a cambiare troppo questa impostazione tra i canali, perché potrebbe causare discrepanze visive. |
+| <b>Sfocatura</b> <i>0.0 - 2.0</i> | Sfoca i bordi dell’area del timbro nel caso sia necessaria una transizione più morbida. |
+| <b>Smoothness</b> <i>0.0 - 2.0</i> | Arrotonda i bordi della forma del timbro per ottenere contorni più fluidi. |
+| <b>Risoluzione griglia</b> <i>1 - 11</i> | Consente di impostare la risoluzione di qualità dell&#39;analisi di fusione. Un valore più elevato indica una fusione più accurata. |
+| <b>Trasformazioni</b> |  |
+| <b>Matrice origine</b> <i>(Matrice di trasformazione)</i> | Trasforma la sorgente (Scala e Rotazione). Impossibile eseguire l&#39;operazione sull&#39;area di lavoro. Modificare solo questi parametri. |
+| <b>Scostamento origine</b> <i>-0.5 - 0.5</i> | Traduce la posizione di origine. Impossibile eseguire l&#39;operazione sull&#39;area di lavoro. Modificare solo questi parametri. *Questo parametro è probabilmente quello principale che si desidera modificare.* |
+| <b>Matrice di destinazione</b> <i>(Matrice di trasformazione)</i> | Trasforma la posizione di destinazione (Scala e Rotazione). Può essere fatto anche tramite gizmo su tela. |
+| <b>Scostamento destinazione</b> <i>-0.5 - 0.5</i> | Traduce la posizione di destinazione. Può essere fatto anche tramite gizmo su tela. |

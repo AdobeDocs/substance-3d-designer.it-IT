@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Forma per generare forme geometriche di base per la creazione di pattern e texture in Substance 3D Designer.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Forma
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 2%
+source-wordcount: '217'
+ht-degree: 6%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/shape-2.png){width="128px"}
+![](shape.resources/shape-2.png){width="128px"}
 
-## Forma
-
-**Ingresso:** *Generatori Di Texture**/Pattern*
-
-**Intermedio**
+<b>Ingresso:</b> Generatori Texture > Pattern
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -41,26 +37,32 @@ Genera una varietà di forme procedurali, con opzioni per modificare le forme ba
 
 Nonostante la sua semplicità, questo è un nodo molto utile: è l&#39;elemento costitutivo della maggior parte procedurale generazione Heightmap! Combinando forme di base con nodi di trasformazione, è possibile creare una forma Heightmap completamente procedurale, molto più precisa di qualsiasi bitmap.
 
-## Parametri
-
-* **Affiancatura**: *1 - 16*\
-  Imposta il numero di volte in cui il risultato deve essere affiancato.
-* **Motivo**: *Quadrato, Disco, Paraboloide, Campana, Gaussiano, Torace, Piramide, Mattone, Gradazione, Onde, Mezza Campana, Campana Ridotta, Crescente, Capsula, Cono*, Emisfero**\
-  Seleziona la forma del motivo da utilizzare.
-* **Specifico per pattern**: *0,0 - 1,0*\
-  Consente di modificare la forma del motivo selezionato. L’effetto dipende dal pattern selezionato.
-* **Scala**: *0.0 - 1.0* Ridimensiona l&#39;intera forma.
-* **Dimensioni**: *0.0 - 1.0* Consente il ridimensionamento non uniforme su un asse X o Y.
-* **Angolo**: *0.0 - 1.0* Ruota l&#39;intera forma.
-* **Rotazione 45°**: *False/True* Ruota a 45 gradi preimpostati.
-* **Non square expansion**: *Falso/Vero*\
-  Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati.
-* **Affiancatura non quadrata**&#x200B;**:** *False/True*Quando è attivato il Non square expansion, la forma verrà affiancata senza schiacciamenti.
-
-## Immagini di esempio
-
-![](../../../../../../assets/shape-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Affiancatura</b> <i>1 - 16</i> | Imposta il numero di volte in cui il risultato deve essere affiancato. |
+| <b>Pattern</b> <i>Quadrato, Disco, Paraboloide, Campana, Gaussiano, Torace, Piramide, Mattone, Gradazione, Onde, Mezza campana, Campana Ridotta, Crescente, Capsula, Cono, Emisfero</i> | Seleziona la forma del motivo da utilizzare. |
+| <b>Specifico per pattern</b> <i>0.0 - 1.0</i> | Consente di modificare la forma del motivo selezionato. L’effetto dipende dal pattern selezionato. |
+| <b>Scala</b> <i>0.0 - 1.0</i> | Ridimensiona l&#39;intera forma. |
+| <b>Dimensioni</b> <i>0.0 - 1.0</i> | Consente il ridimensionamento non uniforme su un asse X o Y. |
+| <b>Angolo</b> <i>0.0 - 1.0</i> | Ruota l&#39;intera forma. |
+| <b>Rotazione 45°</b> <i>Falso/Vero</i> | Ruota a 45 gradi preimpostati. |
+| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati. |
+| <b>Affiancamento non quadrato</b> <i>Falso/Vero</i> | Quando è abilitato il Non square expansion, la forma verrà affiancata senza schiacciamenti. |
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="shape.resources/shape-ex.gif" />
+        </td>
+    </tr>
 </table>

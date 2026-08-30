@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-spots.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-spots.html"
 breadcrumb-title: ''
 description: Utilizza il nodo Macchie Grungi per generare pattern di macchie per aggiungere effetti di usura e grunge ai materiali.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Macchie di grunge
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '130'
 ht-degree: 2%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungespots.jpg){width="200px"}
+![](grunge-spots.resources/grungespots.jpg){width="200px"}
 
-**Ingresso:** *Generatori Di Texture* */Rumori*
-
-**Semplice**
+<b>Ingresso:</b> Generatori di Texture > Rumori
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -41,31 +39,30 @@ Il nodo **macchie Grungi** genera una mappa delle grungi simile alle macchie sch
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parametri
 
-* **Bilanciamento** *Fluttuazione* Regola il bilanciamento tra valori scuri e chiari.
-* **Contrasto** *Mobile* Regola il contrasto dell&#39;immagine.
-* **Inverti** *Booleano* Inverte l&#39;output dell&#39;immagine, utilizzando un&#39;operazione `1-x`.
-* **Non square expansion** *Booleano* Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati.
-* Avanzate
-  * **Dettagli** *Mobile* Regola la quantità di macchie *alterate* e suddivise in macchie più fini.
-  * **Copertura** *Mobile* Regola la copertura delle macchie nell&#39;immagine.
-  * **Contrasto copertura** *Fluttuazione* Regola il contrasto della *maschera* utilizzata per controllare\
-    la copertura dei punti nell’immagine.
+|  |  |
+|:---|:---|
+| <b>Saldo</b> <i>Mobile</i> | Regola il bilanciamento tra i valori di luminosità e oscurità. |
+| <b>Contrasto</b> <i>Mobile</i> | Regola il contrasto dell’immagine. |
+| <b>Inverti</b> <i>Booleano</i> | Inverte l&#39;output dell&#39;immagine utilizzando un&#39;operazione `1-x`. |
+| <b>Non square expansion</b> <i>Booleano</i> | Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati. |
+| <b>Avanzate</b> |  |
+| <b>Dettagli</b> <i>Mobile</i> | Regola la quantità di macchie *alterate* e suddivise in macchie più fini. |
+| <b>Copertura</b> <i>Mobile</i> | Regola la copertura delle macchie nell’immagine. |
+| <b>Contrasto copertura</b> <i>Mobile</i> | Regola il contrasto della *maschera* utilizzata per controllare la copertura delle macchie nell&#39;immagine. |
 
-## Immagini di esempio
+## Esempi
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungespots-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungespots-variant.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grunge-spots.resources/grungespots-variant2.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="grunge-spots.resources/grungespots-variant.jpg" />
+        </td>
+    </tr>
 </table>

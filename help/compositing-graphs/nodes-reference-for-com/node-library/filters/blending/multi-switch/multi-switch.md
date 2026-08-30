@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/multi-switch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/multi-switch.html"
 breadcrumb-title: ''
 description: Usate il nodo Multi Switch per passare da una texture di input a un’altra in base a un selettore per la selezione di texture condizionale.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Switch multipli
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 2%
+source-wordcount: '147'
+ht-degree: 4%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/multi-switch-greyscale.png){width="128px"}
+![](multi-switch.resources/multi-switch-greyscale.png){width="128px"}
 
-![](../../../../../../assets/multi-switch.png){width="128px"}
+![](multi-switch.resources/multi-switch.png){width="128px"}
 
-## Switch multipli (scala di grigi)
-
-**Ingresso:** *Filtri/Fusione*
-
-**Semplice**
+<b>Ingresso:</b> Filtri > Fusione
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -45,19 +41,23 @@ Molto utile per aggiungere a un grafico molte opzioni diverse. In combinazione c
 
 Importante: assicurati di utilizzare la versione appropriata per il tuo input. Usare &quot;Multi Switch&quot; per gli ingressi di colore e &quot;Multi Switch Grayscale&quot; per gli ingressi in scala di grigi.
 
-## Parametri
-
-### Input
-
-* **Input 1-20**: *Input colore*
-
-### Parametri
-
-* **Numero di input**: *2 - 20* Quantità di input da esporre. Importante: non rimuove le connessioni quando il numero viene ridotto.
-* **Selezione input**: *1 - 20* Specifica l&#39;input da restituire come risultato.
-
-## Immagini di esempio
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Input
+
+|  |  |
+|:---|:---|
+| <b>Input 1-20</b> <i>Input colore</i> |  |
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Numero di input</b> <i>2 - 20</i> | Quantità di input da esporre. Importante: non rimuove le connessioni quando il numero viene ridotto. |
+| <b>Selezione input</b> <i>1 - 20</i> | Specifica l&#39;input da restituire come risultato. |

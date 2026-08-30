@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/white-noise-fast.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/white-noise-fast.html"
 breadcrumb-title: ''
 description: Utilizza il nodo Disturbo bianco rapido per generare pattern di disturbo bianco rapidi per variazioni rapide della texture e casualità.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Disturbo bianco rapido
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 2%
+source-wordcount: '65'
+ht-degree: 3%
 
 ---
 
@@ -22,33 +22,29 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/white-noise-fast.png){width="128px"}
+![](white-noise-fast.resources/white-noise-fast.png){width="128px"}
 
-## Disturbo bianco rapido
-
-**Ingresso:** *Generatori Di Texture**/Rumori*
-
-**Semplice**
+<b>Ingresso:</b> Generatori di Texture > Rumori
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
 Questa è una versione più veloce di [Disturbo bianco](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise/white-noise.md), per quando la qualità non è il tuo problema principale e desideri risparmiare un po&#39; sulle prestazioni. Nella maggior parte dei casi, questa versione veloce è adatta alle tue esigenze.
 
-## Parametri
-
-Nessun parametro.
-
-## Immagini di esempio
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/white-noise-fast-1.png" width="256px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="white-noise-fast.resources/white-noise-fast-1.png" />
+        </td>
+    </tr>
 </table>

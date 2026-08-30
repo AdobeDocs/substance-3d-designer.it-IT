@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/hdr-range-viewer.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/hdr-range-viewer.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Visualizzatore intervallo HDR per visualizzare gli intervalli di texture HDR per analizzare e regolare i valori delle high dynamic range.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Visualizzatore intervallo HDR
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 2%
+source-wordcount: '66'
+ht-degree: 10%
 
 ---
 
@@ -22,36 +22,40 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/hdr-range-viewer-grayscale.png){width="128px"}
+![](hdr-range-viewer.resources/hdr-range-viewer-grayscale.png){width="128px"}
 
-![](../../../../../../assets/hdr-range-viewer.png){width="128px"}
+![](hdr-range-viewer.resources/hdr-range-viewer.png){width="128px"}
 
-## Visualizzatore intervallo HDR (scala di grigi)
-
-**Ingresso:** *Filtri/Regolazioni*
-
-**Semplice**
+<b>Ingresso:</b> Filtri > Regolazioni
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
 Strumento di debug per controllare le aree esatte con High dynamic range. Esistono entrambe le versioni a colori e in scala di grigi.
 
-## Parametri
-
-* **Intervallo min**: *-2.0 - 0.0* Intervallo minimo per iniziare l&#39;evidenziazione.
-* **Intervallo massimo**: *1.0 - 3.0* Intervallo massimo per evidenziare fino a.
-
-## Immagini di esempio
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/hdr-viewer-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Intervallo min</b> <i>-2.0 - 0.0</i> | Intervallo minimo per iniziare l&#39;evidenziazione. |
+| <b>Intervallo massimo</b> <i>1.0 - 3.0</i> | Intervallo massimo per evidenziare fino a. |
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="hdr-range-viewer.resources/hdr-viewer-example.png" />
+        </td>
+    </tr>
 </table>

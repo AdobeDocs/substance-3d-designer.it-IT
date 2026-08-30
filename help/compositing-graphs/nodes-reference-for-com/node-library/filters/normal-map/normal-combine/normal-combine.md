@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-combine.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-combine.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Combinazione normale per combinare più mappe normali per creare livelli di dettagli e superfici.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Combinazione normale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 2%
+source-wordcount: '139'
+ht-degree: 4%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/normal-combine.png){width="128px"}
+![](normal-combine.resources/normal-combine.png){width="128px"}
 
 <b>In:</b> Filtri > Mappa normale
 
@@ -45,17 +45,21 @@ Questo è il modo migliore e più corretto per aggiungere a una mappa con baking
 
 Se desideri unire due mappe normali senza combinarne i dettagli (ad esempio, utilizzando una maschera), devi utilizzare [Fusione normale](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-blend/normal-blend.md).
 
-## Connettori di ingresso
+<a name="inputs"></a>
 
-<b>Normale 2</b> *Colore* Descrizione
+## Input
 
-<b>Normale 1</b> *Colore* Descrizione
+|  |  |
+|:---|:---|
+| <b>Normale 2</b> <i>Colore</i> | Descrizione |
+| <b>Normale 1</b> <i>Colore</i> | Descrizione |
+
+<a name="parameters"></a>
 
 ## Parametri
 
-<b>Tecnica</b> *Numero intero* Imposta la tecnica di fusione interna da utilizzare, impostando la velocità in base alla qualità.\
-*- Sbianca (bassa qualità)
-* Miscelatore canale (alta qualità)
-* Orientamento ai dettagli (alta qualità)*
+|  |  |
+|:---|:---|
+| <b>Tecnica</b> *Numero intero* | Consente di impostare la tecnica di fusione interna da utilizzare, in modo da ottenere un risultato in termini di velocità.<br><br>*- Whiteout (bassa qualità)<br>* Miscelatore canale (alta qualità)<br>* Dettagliato (alta qualità)* |
 
 ## Esempi

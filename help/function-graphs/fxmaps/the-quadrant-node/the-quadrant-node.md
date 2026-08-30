@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/function-graphs/fxmaps/the-quadrant-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/the-quadrant-node.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Quadrante in FXMaps per dividere le texture in quattro sezioni per creare pattern e variazioni affiancate.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Nodo quadrante
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 2%
@@ -86,7 +86,7 @@ Per impostazione predefinita, l’opzione Nessun pattern è selezionata e quindi
 
 L&#39;opzione successiva, *Immagine di input*, consiste nell&#39;utilizzare un&#39;immagine fornita al nodo FX-Map. Il nodo FX-Map accetta immagini a colori o in scala di grigi da utilizzare come sfondo o in sostituzione di uno dei pattern incorporati. Si noti che il nodo Quadrante può eseguire il rendering solo di un&#39;immagine di input in scala di grigio in una mappa Fx in scala di grigio e viceversa, può eseguire il rendering solo di un&#39;immagine di input colore in una mappa FX a colori. Se vuoi miscelare il tipo di colore, devi convertire gli input prima nel grafico.
 
-Infine, potete scegliere tra uno dei modelli incorporati: Quadrato, Disco, Paraboloide, Campana, Gaussiano, Spina, Piramide, Mattone, Gradazione, Onde, Mezza campana, Campana Ridotta, Mezzaluna e Capsula.
+Infine, potete scegliere tra uno dei modelli incorporati: Quadrato, Disco, paraboloide, Campana, Gaussiano, Spina, Piramide, Mattone, Gradazione, Onde, Mezza campana, Campana Ridotta, Mezzaluna e Capsula.
 
 Nota aggiuntiva: è possibile creare una funzione dinamica in questo parametro, ma funzionerà solo in Substance 3D Designer. Per accedere all&#39;input dell&#39;immagine con una funzione dinamica, è necessario utilizzare valori compresi tra 256 (voce immagine 1) e valori superiori (257 per voce immagine 2, ecc.).
 
@@ -102,12 +102,12 @@ Il parametro Variazione serie (Pattern Variation) regola una feature definita de
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../../assets/fxmap-quadrants.png){width="80px"}
+![](the-quadrant-node.resources/fxmap-quadrants.png){width="80px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../assets/quadrant-parameters.jpg)
+![](the-quadrant-node.resources/quadrant-parameters.jpg)
 
 </td>
 </tr>

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo Livelli per regolare la luminosità, il contrasto e la gamma tonale delle texture per la correzione e il miglioramento del colore.
+description: Utilizza il nodo Livelli per regolare la luminosità, il contrasto e la gamma tonale delle texture per la correzione e il miglioramento del colore.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Levels
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Livelli
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atomico: Livelli](../../../../assets/comp_levels_1.png "Nodo atomico: Livelli"){width="200px"}
+![Nodo atomico: Livelli](levels.resources/comp_levels_1.png "Nodo atomico: Livelli"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -76,9 +76,9 @@ Il pulsante giallo evidenziato alterna l’interfaccia tra i cursori dei valori 
 </td>
 <td width="66.67%" style="border: 0;" valign="top">
 
-![](../../../../assets/levels-2-1.png)
+![](levels.resources/levels-2-1.png)
 
-![](../../../../assets/levels-1-1.png)
+![](levels.resources/levels-1-1.png)
 
 </td>
 </tr>
@@ -86,12 +86,12 @@ Il pulsante giallo evidenziato alterna l’interfaccia tra i cursori dei valori 
 
 |  |  |
 | --- | --- |
-| <b>Livello in basso</b> *Float/Float4* | Definisce i livelli di scarsa illuminazione dell&#39;immagine di input. Modifica i valori di input Bassi in modo che diventino nero intero. |
-| <b>Livello in alto</b> *Float/Float4* | Definisce i livelli di luce dell&#39;immagine di input.  Modifica l’input con valori alti per rendere il bianco intero. |
-| <b>Livello a metà</b> *Float/Float4* | Definisce i livelli dei mezzitoni dell’immagine di input.  Modifica i valori di input di Mid in modo che diventino grigio medio. |
+| <b>Livello in entrata basso</b> *Float/Float4* | Definisce i livelli di scarsa illuminazione dell&#39;immagine di input. Modifica i valori di input Bassi in modo che diventino nero intero. |
+| <b>Livello in entrata alto</b> *Float/Float4* | Definisce i livelli di luce dell&#39;immagine di input.  Modifica l’input con valori alti per rendere il bianco intero. |
+| <b>Livello in entrata medio</b> *Float/Float4* | Definisce i livelli dei mezzitoni dell’immagine di input.  Modifica i valori di input di Mid in modo che diventino grigio medio. |
 | <b>Livella in basso</b> *Float/Float4* | Definisce i livelli di scarsa illuminazione dell&#39;immagine di output.  Blocca i valori di nero di output per impostare il limite. |
-| <b>Livella in alto</b> *Float/Float4* | Definisce i livelli di luce dell’immagine di output.  Blocca i valori bianchi di output per impostare il limite. |
-| <b>Morsetto intermedio</b> *Booleano* | Determina se il valore di input trasformato viene bloccato su [0, 1] prima di calcolare il livello di output. |
+| <b>Livello in uscita alto</b> *Float/Float4* | Definisce i livelli di luce dell’immagine di output.  Blocca i valori bianchi di output per impostare il limite. |
+| <b>Morsetto intermedio</b> *Booleano* | Determina se il valore di input Trasforma è bloccato su [0, 1] prima di calcolare il livello di output. |
 
 ## Guida all’uso
 
@@ -101,11 +101,11 @@ Guardate questa panoramica video del nodo Livelli e del relativo editor di istog
 
 Nella barra di intestazione &quot;Parametri specifici&quot;, potete trovare dei pulsanti per accedere alle funzioni più comode dell’istogramma:
 
-![Azioni rapide nodo Livelli](../../../../assets/levels-2.png "Azioni rapide nodo Livelli")
+![Azioni rapide nodo Livelli](levels.resources/levels-2.png "Azioni rapide nodo Livelli")
 
-<b>1 - Inverti:</b> scambia i valori dei parametri &#39;Uscita livellata bassa&#39; e &#39;Uscita livellata alta&#39;.
+<b>1 - Inverti:</b> scambia i valori dei parametri &#39;Livello in uscita basso&#39; e &#39;Livello in uscita alto&#39;.
 
-<b>2 - Livello automatico:</b> regola automaticamente i valori dei parametri &#39;Livello in basso&#39; e &#39;Livello in alto&#39; rispettivamente sul valore più basso e più alto presente nell&#39;immagine.
+<b>2 - Livello automatico:</b> regola automaticamente i valori dei parametri &#39;Livello in entrata basso&#39; e &#39;Livello in entrata alto&#39; rispettivamente sul valore più basso e più alto presente nell&#39;immagine.
 
 <b>3 - Cambia interfacce:</b> Alterna l&#39;editor dell&#39;istogramma e quello del cursore.
 
@@ -113,7 +113,7 @@ Nella barra di intestazione &quot;Parametri specifici&quot;, potete trovare dei 
 
 L’editor di istogrammi è destinato a regolazioni visive e rapide, in cui non sono realmente necessari valori accurati e l’esposizione dei parametri non è importante. In genere è il modo più rapido e facile di lavorare con i livelli.
 
-![](../../../../assets/levels-histo.gif)
+![](levels.resources/levels-histo.gif)
 
 A seconda del tipo di input (a colori o in scala di grigi), potete utilizzare il menu a discesa sopra l’istogramma per scegliere il canale da modificare.
 

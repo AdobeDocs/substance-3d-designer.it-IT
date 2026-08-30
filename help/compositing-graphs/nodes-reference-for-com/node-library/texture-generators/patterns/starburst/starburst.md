@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/starburst.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/starburst.html"
 breadcrumb-title: ''
-description: Usa il nodo Starburst per creare pattern di starburst che si irradiano da un punto centrale per ottenere effetti di texture decorativi.
+description: Utilizzare il nodo Starburst per creare pattern di starburst che si irradiano da un punto centrale per ottenere effetti di texture decorativi.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Starburst
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Starburst
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 1%
+source-wordcount: '111'
+ht-degree: 15%
 
 ---
 
@@ -22,38 +22,43 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/starburst.png){width="128px"}
+![](starburst.resources/starburst.png){width="128px"}
 
-## Starburst
-
-**Ingresso:** *Generatori Di Texture**/Pattern*
-
-**Intermedio**
+<b>Ingresso:</b> Generatori Texture > Pattern
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
 Genera un semplice effetto esplosione, con i parametri di regolazione disponibili.
 
-## Parametri
-
-* **Branch**: *3 - 512* Quantità di branch per l&#39;effetto.
-* **Entità sfocatura**: *0,0 - 32,0* Controlla la quantità totale di sfocatura o morbidezza.
-* **Casualità**: *0.0 - 1.0* Imposta la casualità assiale, ruota casualmente i rami attorno al centro.
-* **Dimensioni minime**: *0,0 - 1,0* Imposta le dimensioni minime per la variazione.
-* **Dimensioni massime**: *0.0 - 2.0* Imposta le dimensioni massime, controlla la scala globale se la variazione non viene utilizzata.
-* **Variazione dimensioni**: *0.0 - 1.0* Introduce il ridimensionamento casuale per ramo.
-* **Affiancatura**: *1 - 16*\
-  Imposta il numero di volte in cui il risultato deve essere affiancato.
-
-## Immagini di esempio
-
-![](../../../../../../assets/starburst-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Branch</b> <i>3 - 512</i> | Quantità di diramazioni per l’effetto. |
+| <b>Quantità sfocatura</b> <i>0.0 - 32.0</i> | Controlla l’entità totale di sfocatura o morbidezza. |
+| <b>Casualità</b> <i>0.0 - 1.0</i> | Imposta la casualità assiale, ruota casualmente i rami attorno al centro. |
+| <b>Dimensioni minime</b> <i>0.0 - 1.0</i> | Imposta la dimensione minima per la variazione. |
+| <b>Dimensioni massime</b> <i>0.0 - 2.0</i> | Imposta la dimensione massima, controlla la scala globale se la variazione non viene utilizzata. |
+| <b>Variazione dimensioni</b> <i>0.0 - 1.0</i> | Introduce il ridimensionamento casuale per ramo. |
+| <b>Affiancatura</b> <i>1 - 16</i> | Imposta il numero di volte in cui il risultato deve essere affiancato. |
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="starburst.resources/starburst-ex.gif" />
+        </td>
+    </tr>
 </table>

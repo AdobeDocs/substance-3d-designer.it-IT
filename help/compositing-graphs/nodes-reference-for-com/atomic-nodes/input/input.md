@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html"
 breadcrumb-title: ''
 description: Utilizzare il nodo Input per creare i parametri di input per i grafici Substance che possono essere esposti e regolati dagli utenti.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Input
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 0%
@@ -24,17 +24,17 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Nodo atomico: colore di input](../../../../assets/comp_inputcolor_1.png "Nodo atomico: colore di input"){width="200px"}
+![Nodo atomico: colore di input](input.resources/comp_inputcolor_1.png "Nodo atomico: colore di input"){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Nodo atomico: Scala di grigi di input](../../../../assets/comp_inputgrayscale_1.png "Nodo atomico: Scala di grigi di input"){width="200px"}
+![Nodo atomico: Scala di grigi di input](input.resources/comp_inputgrayscale_1.png "Nodo atomico: Scala di grigi di input"){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Nodo atomico: valore di input](../../../../assets/comp_inputnumeric_1.png "Nodo atomico: valore di input"){width="200px"}
+![Nodo atomico: valore di input](input.resources/comp_inputnumeric_1.png "Nodo atomico: valore di input"){width="200px"}
 
 </td>
 </tr>
@@ -44,7 +44,7 @@ I nodi di input sono un tipo speciale di nodo che crea uno slot dinamico nel gra
 
 A differenza dei [nodi di output](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md), dovete inserire esplicitamente un input di colore, scala di grigi o valore. Non è possibile creare input &quot;agnostici&quot; personalizzati che cambiano tipo a seconda del tipo di connessione.
 
-I nodi di input non sono cruciali quanto [nodi di output](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md): puoi avere grafici avanzati perfettamente funzionanti che non richiedono input. Gli input vengono utilizzati solo quando si desidera basare il risultato dell&#39;istanza del grafico o del nodo su un input esterno, ad esempio durante la creazione di un [istanza](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)o di un [filtro](https://experienceleague.adobe.com/it/docs/substance-3d-painter/using/effects/filter) per Substance 3D Painter.
+I nodi di input non sono cruciali quanto [nodi di output](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md): puoi avere grafici avanzati perfettamente funzionanti che non richiedono input. Gli input vengono utilizzati solo quando si desidera basare il risultato dell&#39;istanza del grafico o del nodo su un input esterno, ad esempio durante la creazione di un [istanza](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)o di un [filtro](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter) per Substance 3D Painter.
 
 <table>
 <tr style="border: 0;">
@@ -124,7 +124,7 @@ I parametri di base includono, tra gli altri, <b>Dimensioni output</b>, <b>Forma
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-[![Input primario nel grafico Substance](../../../../assets/node-primary-input.png)](https://helpx.adobe.com/Primary%20input%20in%20Substance%20graph)
+[![Input primario nel grafico Substance](input.resources/node-primary-input.png)](https://helpx.adobe.com/Primary%20input%20in%20Substance%20graph)
 
 </td>
 </tr>
@@ -145,11 +145,11 @@ In alternativa, qualsiasi set di input per il metodo di ereditarietà *Relativo 
 
 >[!IMPORTANT]
 >
-> Il metodo di ereditarietà *relativo all&#39;input* per i nodi di input è *non supportato* in [risorse Substance 3D (SBSAR)](https://helpx.adobe.com/it/substance-3d-assets.html). Imposta tutti i metodi di ereditarietà dei nodi di input su *Rispetto all&#39;elemento padre* prima di pubblicare il pacchetto.
+> Il metodo di ereditarietà *relativo all&#39;input* per i nodi di input è *non supportato* in [risorse Substance 3D (SBSAR)](https://helpx.adobe.com/substance-3d-assets.html). Imposta tutti i metodi di ereditarietà dei nodi di input su *Rispetto all&#39;elemento padre* prima di pubblicare il pacchetto.
 
 ## Attributi integrazione
 
-Gli input non vengono inviati direttamente alla vista 3D, ma i relativi attributi di utilizzo vengono utilizzati da [Substance 3D Painter](https://experienceleague.adobe.com/it/docs/substance-3d-painter/using/home) per riempire automaticamente gli slot con determinate mappe (utilizzati principalmente con [filtri](https://experienceleague.adobe.com/it/docs/substance-3d-painter/using/effects/filter)).
+Gli input non vengono inviati direttamente alla vista 3D, ma i relativi attributi di utilizzo vengono utilizzati da [Substance 3D Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home) per riempire automaticamente gli slot con determinate mappe (utilizzati principalmente con [filtri](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter)).
 
 Inoltre, gli attributi di utilizzo vengono utilizzati anche con le [modalità di creazione del collegamento](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md), in modo che corrispondano agli slot di input e output corretti.
 

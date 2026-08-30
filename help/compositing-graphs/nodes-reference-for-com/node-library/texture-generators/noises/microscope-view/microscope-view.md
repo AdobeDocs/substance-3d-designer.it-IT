@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/microscope-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/microscope-view.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Vista microscopico per generare pattern di texture microscopiche per creare strutture di superficie dettagliate.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Vista Microscopio
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 1%
+source-wordcount: '101'
+ht-degree: 8%
 
 ---
 
@@ -22,38 +22,40 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/microscope-view.png){width="128px"}
+![](microscope-view.resources/microscope-view.png){width="128px"}
 
-## Vista Microscopio
-
-**Ingresso:** *Generatori Di Texture**/Rumori*
-
-**Semplice**
+<b>Ingresso:</b> Generatori di Texture > Rumori
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
 Questo genera un rumore alterato che assomiglia a batteri o organismi al microscopio.
 
-## Parametri
-
-* **Scala**: *0 - 10*\
-  Imposta la scala globale per l’effetto.
-* **Intensità alterazione**: *0,0 - 1,0*\
-  Imposta l’intensità dell’effetto di alterazione. Tieni presente che puoi anche passare al negativo, facendo doppio clic e inserendo -1.
-* **Disturbo**: *0,0 - 1,0*\
-  Fase che sposta il disturbo per introdurre piccole variazioni
-* **Non square expansion**: *Falso/Vero*\
-  Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati.
-
-## Immagini di esempio
-
-![](../../../../../../assets/microscope-view-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Scala</b> <i>0 - 10</i> | Imposta la scala globale per l’effetto. |
+| <b>Intensità alterazione</b> <i>0.0 - 1.0</i> | Imposta l’intensità dell’effetto di alterazione. Tieni presente che puoi anche passare al negativo, facendo doppio clic e inserendo -1. |
+| <b>Disturbo</b> <i>0.0 - 1.0</i> | Fase che sposta il disturbo per introdurre piccole variazioni |
+| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati. |
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="microscope-view.resources/microscope-view-ex.gif" />
+        </td>
+    </tr>
 </table>

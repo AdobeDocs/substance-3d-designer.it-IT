@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/facing-normal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/facing-normal.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Normale di sfacciatura (Facing Normal) per generare mappe normali basate sulla direzione della superficie per creare effetti basati sull'orientamento.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Normale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 2%
+source-wordcount: '59'
+ht-degree: 1%
 
 ---
 
@@ -22,32 +22,18 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/facing-normal.png){width="128px"}
+![](facing-normal.resources/facing-normal.png){width="128px"}
 
-## Normale
-
-**Ingresso:** *Filtri/Mappa Normale*
-
-**Semplice**
+<b>Ingresso:</b> Filtri > Mappa normale
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
 Questo filtro accetta una mappa Normale come immagine di entrata e produce un’immagine in scala di grigio in cui il valore corrisponde alla quantità di normalità rivolte verso l’osservatore nello spazio della texture.
-
-## Parametri
-
-*Nessun parametro.*
-
-## Immagini di esempio
-
-|  |
-| --- |
-| Nessuna immagine allegata alla pagina. |
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-color-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-color-blend.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Fusione colore materiale per fondere i canali di colore tra i materiali per creare effetti di materiale composito.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Fusione colore materiale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 0%
+source-wordcount: '455'
+ht-degree: 2%
 
 ---
 
@@ -22,81 +22,62 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/material-color-blend.png){width="128px"}
+![](material-color-blend.resources/material-color-blend.png){width="128px"}
 
-## Fusione colore materiale
-
-**Ingresso:** *Filtri materiale/Fusione*
-
-**Intermedio**
+<b>In:</b> Filtri materiali > Fusione
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
-Questo nodo consente di regolare un materiale completo multicanale fondendo i colori uniformi in alto. Questa è la differenza principale con [Material Adjustment Blend](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-adjustment-blend/material-adjustment-blend.md), che consente solo regolazioni di tipo [Livelli](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) ai canali, mentre questo nodo utilizza regolazioni di tipo [Fusione](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) con un colore a tinta unita.
+Questo nodo consente di regolare un materiale completo multicanale fondendo i colori uniformi in alto. Questa è la differenza principale con [Fusione di regolazione materiale](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-adjustment-blend/material-adjustment-blend.md), che consente solo regolazioni di tipo [Livelli](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) ai canali, mentre questo nodo utilizza regolazioni di tipo [Fusione](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) con un colore a tinta unita.
 
-Questo nodo è particolarmente utile quando si desidera introdurre un suggerimento di colore piatto in Diffusione o Colore base, oppure quando si desidera &quot;appiattire&quot; altri canali utilizzando un valore di colore a tinta unita impostato.
-
-## Parametri
-
-### Input
-
-* **ColorID**: *Input colore*\
-  Slot maschera utilizzato per mascherare gli effetti del nodo.
-* **Maschera scala di grigi**: *Input scala di grigi*\
-  Slot maschera utilizzato per mascherare gli effetti del nodo.
-
-### Parametri
-
-* **Canali**
-  * Attivate e disattivate i canali di materiale in questo gruppo quando utilizzate mappe Specular/lucidità invece di Metallico/Rugosità.
-* **Diffusione**
-  * **Colore**: *(valore colore)*Quale valore di colore fondere sopra il canale diffuso.
-  * **Opacità**: *0,0 - 1,0*\
-    Fusione dell’opacità tra primo piano e sfondo.
-  * **Metodo fusione**: *Normale, Aggiungi, Sottrai, Moltiplica, Aggiungi/Sotto, Max, Min, Cambia* Metodo fusione da utilizzare nell&#39;operazione.
-* **Colore di base**
-  * Consente di fondere un colore in tinta unita sulla parte superiore del canale con le opzioni del gruppo Diffusione.
-* **Normale**
-  * **Origine**: *Height, Maschera*
-  * **Metodo fusione**: *Combina, Fusione*
-  * **Intensità Height**: *0,0 - 1,0*
-  * **Opacità Height**: *0,0 - 1,0*
-  * **Formato**: *DirectX, OpenGL*
-* **Specular**
-  * Consente di fondere un colore in tinta unita sulla parte superiore del canale con le opzioni del gruppo Diffusione.
-* **Emissivo**
-  * Consente di fondere un colore in tinta unita sulla parte superiore del canale con le opzioni del gruppo Diffusione.
-* **Lucentezza**
-  * Consente di fondere un colore in tinta unita sulla parte superiore del canale con le opzioni del gruppo Diffusione.
-* **Rugosità**
-  * Consente di fondere un colore in tinta unita sulla parte superiore del canale con le opzioni del gruppo Diffusione.
-* **Metallico**
-  * Consente di fondere un colore in tinta unita sulla parte superiore del canale con le opzioni del gruppo Diffusione.
-* **Specular level**
-  * Consente di fondere un colore in tinta unita sulla parte superiore del canale con le opzioni del gruppo Diffusione.
-* **Occlusione ambiente**
-  * Consente di fondere un colore in tinta unita sulla parte superiore del canale con le opzioni del gruppo Diffusione.
-* **Height**
-  * Consente di fondere un colore in tinta unita sulla parte superiore del canale con le opzioni del gruppo Diffusione.
-* **Opacità**
-  * Consente di fondere un colore in tinta unita sulla parte superiore del canale con le opzioni del gruppo Diffusione.
-* **Maschera ID colore**: *Falso/Vero* Usa Maschera ID colore invece di maschera in scala di grigio. Tieni presente che questo è solo per un colore!\
-  Abilita tutte le opzioni seguenti.
-* **Colore**: *(valore colore)*Quale colore scegliere e convertire in bianco.
-* **Sfocatura**: *0.01 - 1.0* La misura in cui il colore scelto si fonde con le aree adiacenti.
-* **Spaziatura interna**: *0.0 - 1.0* Contrasto di transizione del colore selezionato.
-
-## Immagini di esempio
-
-|  |
-| --- |
-| Nessuna immagine allegata alla pagina. |
+Questo nodo è particolarmente utile se desiderate introdurre un suggerimento di colore piatto nelle Diffuse o nei Colori di base, oppure se desiderate &quot;appiattire&quot; altri canali utilizzando un valore di colore a tinta unita impostato.
 
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Input
+
+|  |  |
+|:---|:---|
+| <b>ID colore</b> <i>Input colore</i> | Slot maschera utilizzato per mascherare gli effetti del nodo. |
+| <b>Maschera scala di grigi</b> <i>Input scala di grigi</i> | Slot maschera utilizzato per mascherare gli effetti del nodo. |
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Canali</b> | Attivate e disattivate i canali di materiale in questo gruppo quando utilizzate mappe Specular/lucidità invece di Metallico/Rugosità. |
+| <b>Diffusione</b> |  |
+| <b>Colore</b> <i>(valore colore)</i> | Quale valore di colore fondere sopra il canale della Diffusa? |
+| <b>Opacità</b> <i>0.0 - 1.0</i> | Fusione dell’opacità tra primo piano e sfondo. |
+| <b>Metodo fusione</b> <i>Normale, Aggiungi, Sottrai, Moltiplica, Aggiungi/Sotto, Max, Min, Switch</i> | Modalità Fusione da utilizzare nell&#39;operazione. |
+| <b>Colore di base</b> | Fusione un colore in tinta unita sopra questo canale con le opzioni come nel gruppo di Diffuse. |
+| <b>Normale</b> |  |
+| <b>Origine</b> <i>Height, maschera</i> |  |
+| <b>Metodo fusione</b> <i>Combina, Fusione</i> |  |
+| <b>Intensità Height</b> <i>0.0 - 1.0</i> |  |
+| <b>Opacità Height</b> <i>0.0 - 1.0</i> |  |
+| <b>Formato</b> <i>DirectX, OpenGL</i> |  |
+| <b>Specular</b> | Fusione un colore in tinta unita sopra questo canale con le opzioni come nel gruppo di Diffuse. |
+| <b>Emissivo</b> | Fusione un colore in tinta unita sopra questo canale con le opzioni come nel gruppo di Diffuse. |
+| <b>Lucentezza</b> | Fusione un colore in tinta unita sopra questo canale con le opzioni come nel gruppo di Diffuse. |
+| <b>Rugosità</b> | Fusione un colore in tinta unita sopra questo canale con le opzioni come nel gruppo di Diffuse. |
+| <b>Metallico</b> | Fusione un colore in tinta unita sopra questo canale con le opzioni come nel gruppo di Diffuse. |
+| <b>Specular level</b> | Fusione un colore in tinta unita sopra questo canale con le opzioni come nel gruppo di Diffuse. |
+| <b>Occlusione ambiente</b> | Fusione un colore in tinta unita sopra questo canale con le opzioni come nel gruppo di Diffuse. |
+| <b>Height</b> | Fusione un colore in tinta unita sopra questo canale con le opzioni come nel gruppo di Diffuse. |
+| <b>Opacità</b> | Fusione un colore in tinta unita sopra questo canale con le opzioni come nel gruppo di Diffuse. |
+| <b>Maschera ID colore</b> <i>Falso/Vero</i> | Usate la maschera Maschera ID colore invece di quella in scala di grigio. Tieni presente che questa opzione è valida solo per un colore.<br><br>Consente di attivare tutte le opzioni seguenti. |
+| <b>Colore</b> <i>(valore colore)</i> | Colore da selezionare e convertire in bianco. |
+| <b>Fuzziness</b> <i>0.01 - 1.0</i> | Misura in cui il colore scelto si fonde con i colori adiacenti. |
+| <b>Spaziatura interna</b> <i>0.0 - 1.0</i> | Contrasto di transizione del colore selezionato. |

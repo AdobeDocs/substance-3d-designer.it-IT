@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-angle-to-normal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-angle-to-normal.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo da multi-angolo a normale per generare mappe normali da immagini acquisite da più angoli per ottenere dettagli accurati della superficie.
+description: Utilizzate il nodo da multi-angolo a normale per generare mappa normale da immagini acquisite da più angoli per ottenere dettagli accurati della superficie.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Multi-Angle to Normal
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Da multi-angolo a normale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 1%
+source-wordcount: '245'
+ht-degree: 3%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/multi-angle-to-normal.png){width="128px"}
+![](multi-angle-to-normal.resources/multi-angle-to-normal.png){width="128px"}
 
-## Da multi-angolo a normale
-
-**Ingresso:** *Filtri materiale/Elaborazione analisi*
-
-**Intermedio**
+<b>Tra:</b> Filtri materiali > Elaborazione scansione
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -43,29 +39,28 @@ Questo nodo costruisce una Normalmap a partire da una serie di fotografie/scansi
 
 >[!NOTE]
 >
-> Per informazioni sulla versione di Albedo di questo nodo, vedere [Multi-Angolo a albedo](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-albedo/multi-angle-to-albedo.md). Se desideri pre-elaborare i tuoi input, [Multi Color Equalizer](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-color-equalizer/multi-color-equalizer.md), [Multi Crop](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-crop/multi-crop.md) e [Multi Clone Patch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-clone-patch/multi-clone-patch.md) possono essere utili, poiché sono destinati a essere combinati con questi nodi.
-
-## Parametri
-
-### Input
-
-* **Input 1-8**: *Input colore*
-
-### Parametri
-
-* **Formato normale**: *DirectX, OpenGL*\
-  Passa da un formato Normalmap a un altro (inverte il canale verde).
-* **Quantità campioni**: *2 - 8* Imposta la quantità di campioni (input) da elaborare.
-* **Intensità**: *0.0 - 1.0* Imposta l&#39;intensità della mappa normale.
-* **Angolo luce primo campione**: *0.0 - 360.0* Imposta la direzione dell&#39;angolo di illuminazione del primo input.
-* **Angolo luce campione successivo**: *In senso antiorario e orario* Imposta la direzione verso cui si sposta l’illuminazione nel campione successivo.
-
-## Immagini di esempio
-
-|  |
-| --- |
-| Nessuna immagine allegata alla pagina. |
+> Per informazioni sulla versione di Albedo di questo nodo, vedere [Multi-Angolo a albedo](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-albedo/multi-angle-to-albedo.md). Se desideri pre-elaborare i tuoi input, [Multi Color Equalizer](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-color-equalizer/multi-color-equalizer.md), [Multi Crop](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-crop/multi-crop.md) e [Multi Clona /Clone Patch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-clone-patch/multi-clone-patch.md) possono essere utili, poiché sono destinati a essere combinati con questi nodi.
 
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Input
+
+|  |  |
+|:---|:---|
+| <b>Input 1-8</b> <i>Input colore</i> |  |
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Formato Normale</b> <i>DirectX, OpenGL</i> | Passa da un formato Normalmap a un altro (inverte il canale verde). |
+| <b>Quantità di campioni</b> <i>2 - 8</i> | Imposta la quantità di campioni (input) da elaborare. |
+| <b>Intensità</b> <i>0.0 - 1.0</i> | Imposta l&#39;intensità di Normalmap. |
+| <b>Angolo luce primo campione</b> <i>0.0 - 360.0</i> | Imposta la direzione dell’angolo di illuminazione del primo input. |
+| <b>Angolo luce campione successivo</b> <i>Senso antiorario, senso orario</i> | Consente di impostare la direzione in cui si sposta l’illuminazione nel campione successivo. |

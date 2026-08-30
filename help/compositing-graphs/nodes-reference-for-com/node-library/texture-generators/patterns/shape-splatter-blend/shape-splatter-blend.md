@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-splatter-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-splatter-blend.html"
 breadcrumb-title: ''
 description: Usa il nodo Fusione splatter forma per fondere più splatter forma per creare pattern procedurali complessi.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Fusione splatter forma
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 2%
+source-wordcount: '105'
+ht-degree: 14%
 
 ---
 
@@ -22,43 +22,45 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/shape-splatter-blend.png){width="128px"}
+![](shape-splatter-blend.resources/shape-splatter-blend.png){width="128px"}
 
-## Fusione splatter forma (colore)
-
-**Ingresso:** *Generatori Di Texture**/Pattern*
-
-**Complesso**
+<b>Ingresso:</b> Generatori Texture > Pattern
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
 Utilizza i dati di [Shape Splatter](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter/shape-splatter.md) come input da cui generare mappe di colori o in scala di grigio.
 
-## Parametri
-
-* **Colore di sfondo**: *Input colore*
-* **Pattern 1-8**: *Input colore*
-* **Input colore**: *Input colore*
-* **Dati splatter 1**: *Input colore*
-* **Dati splatter 2**: *Input colore*
-
-### Parametri
-
-* **Numero motivo**: *1 - 8*
-* **Assegnazione di pattern casuali (solo colori)**: *0.0 - 1.0*
-* **&#x200B; Mappa Normale &#x200B;**(Solo Colore)**&#x200B;**: *False/True*
-* **Regolazione HSL/Luminanza**: *-1,0 - 1,0*
-* **HSL/Luminanza casuale**: *-1,0 - 1,0*
-* **&#x200B; Angolo Normale A &#x200B;** Casuale (Solo Colore)**&#x200B;**: *0,0 - 1,0*
-* **Opacità input colore**: *0,0 - 1,0*
-
-## Immagini di esempio
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Input
+
+|  |  |
+|:---|:---|
+| <b>Colore di sfondo</b> <i>Input colore</i> |  |
+| <b>Pattern 1-8</b> <i>Input colore</i> |  |
+| <b>Input colore</b> <i>Input colore</i> |  |
+| <b>Dati splatter 1</b> <i>Input colore</i> |  |
+| <b>Dati splatter 2</b> <i>Input colore</i> |  |
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Numero motivo</b> <i>1 - 8</i> |  |
+| <b>Assegnazione di pattern casuali (solo colori)</b> <i>0.0 - 1.0</i> |  |
+| <b>Mappa normale (Solo Colore)</b> <i>Falso/Vero</i> |  |
+| <b>HSL/regolazione luminanza</b> <i>-1.0 - 1.0</i> |  |
+| <b>HSL/Luminanza casuale</b> <i>-1.0 - 1.0</i> |  |
+| <b>Angolo Normale Casuale (Solo Colore)</b> <i>0.0 - 1.0</i> |  |
+| <b>Opacità input colore</b> <i>0.0 - 1.0</i> |  |
