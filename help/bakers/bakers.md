@@ -35,7 +35,7 @@ La esegue i baking fa riferimento all&#39;azione di **trasferimento delle inform
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-Opzione &quot;Esegue i baking informazioni modalità&quot; di ![ nel menu contestuale della risorsa scena 3D](bakers.resources/sd-mesh-right-click.png " opzione &quot;Esegue i baking informazioni modalità&quot; nel menu contestuale della risorsa scena 3D")
+Opzione &quot;Esegue i baking informazioni modalità&quot; di ![&#x200B; nel menu contestuale della risorsa scena 3D](bakers.resources/sd-mesh-right-click.png " opzione &quot;Esegue i baking informazioni modalità&quot; nel menu contestuale della risorsa scena 3D")
 
 </td>
 </tr>

@@ -104,13 +104,13 @@ Puoi aggiungere *i tuoi* profili ICC inserendo questi file nella posizione `Adob
 
 |  |  |
 | --- | --- |
-| <b>Visualizzazione predefinita delle viste 2D e 3D</b> | Imposta lo spazio colore predefinito *visualizzazione* per le finestre delle viste [2D](../interface/2d-view/2d-view.md) e [3D](../interface/3d-view/3d-view.md). *Impostazione predefinita:*** Profilo ICC per la schermata principale, recuperato dal sistema operativo **** |
+| <b>Visualizzazione predefinita delle viste 2D e 3D</b> | Imposta lo spazio colore predefinito *visualizzazione* per le finestre delle viste [2D](../interface/2d-view/2d-view.md) e [3D](../interface/3d-view/3d-view.md). *Impostazione predefinita:*** Profilo ICC per la schermata principale, recuperato dal sistema operativo &#x200B;**&#x200B;** |
 
 ### Visualizzazione grafico
 
 |  |  |
 | --- | --- |
-| <b>Miniature per la gestione dei colori</b> | Quando *selezionato*, Designer trasformerà le miniature dei *nodi* nello *spazio cromatico di lavoro* corrente. *Impostazione predefinita:*** Deselezionata **** |
+| <b>Miniature per la gestione dei colori</b> | Quando *selezionato*, Designer trasformerà le miniature dei *nodi* nello *spazio cromatico di lavoro* corrente. *Impostazione predefinita:*** Deselezionata &#x200B;**&#x200B;** |
 
 ## Modalità legacy
 
@@ -142,7 +142,7 @@ L&#39;opzione <b>Lineare</b> è *solo* e determina l&#39;applicazione di una *tr
 
 Potete assegnare un <b>spazio colore</b> (OCIO) o un <b>profilo ICC</b> (Adobe ACE) alle bitmap importate e collegate.
 
-Quando si importano o si collegano bitmap, per impostazione predefinita *1} verrà impostato uno spazio colore o un profilo ICC per la risorsa bitmap, utilizzando le opzioni impostate nella sezione <b>Impostazioni predefinite spazio colore bitmap</b> della scheda <b>Gestione colore</b> nelle [impostazioni progetto](../interface/preferences-window/project-settings/project-settings.md).*
+Quando si importano o si collegano bitmap, per impostazione predefinita *1&rbrace; verrà impostato uno spazio colore o un profilo ICC per la risorsa bitmap, utilizzando le opzioni impostate nella sezione <b>Impostazioni predefinite spazio colore bitmap</b> della scheda <b>Gestione colore</b> nelle [impostazioni progetto](../interface/preferences-window/project-settings/project-settings.md).*
 
 È possibile modificare lo spazio cromatico di una bitmap in qualsiasi momento. L&#39;opzione si trova nelle <b>Proprietà</b> della risorsa bitmap.
 
