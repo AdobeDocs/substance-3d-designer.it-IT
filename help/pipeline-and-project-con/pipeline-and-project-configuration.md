@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/pipeline-and-project-configuration.html"
 breadcrumb-title: ''
 description: Configura le impostazioni di pipeline e progetto in Substance 3D Designer per ottimizzare il flusso di lavoro e l’output.
 helpx_creative_field: ""

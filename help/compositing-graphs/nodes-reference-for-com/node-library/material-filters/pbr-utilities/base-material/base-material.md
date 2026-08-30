@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/base-material.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/base-material.html"
 breadcrumb-title: ''
 description: Utilizzare il nodo Materiale di base per creare le proprietà del materiale di base per la creazione di materiali basati fisicamente da zero.
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 6%
 
 ## Descrizione
 
-Il modo più facile e veloce per creare un materiale multicanale in [Adobe Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html). Questo nodo restituisce un materiale completo aggregato in base alle impostazioni e ai valori di colori semplici e uniformi. Questo può quindi essere utilizzato come segnaposto o per rifinire in un materiale complesso.
+Il modo più facile e veloce per creare un materiale multicanale in [Adobe Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html). Questo nodo restituisce un materiale completo aggregato in base alle impostazioni e ai valori di colori semplici e uniformi. Questo può quindi essere utilizzato come segnaposto o per rifinire in un materiale complesso.
 
 Il nodo è molto utile quando si creano texture di prop completi e si fondono più materiali. In effetti, si potrebbe iniziare ogni singolo materiale da questo nodo, senza mai aver bisogno di una base di materiale complessa.
 

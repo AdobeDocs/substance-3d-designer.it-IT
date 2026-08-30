@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/gaussian-noise.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/gaussian-noise.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Disturbo gaussiano per generare pattern di disturbo distribuiti gaussiani per la creazione di texture e variazioni organiche.
 helpx_creative_field: ""

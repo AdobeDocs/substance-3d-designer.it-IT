@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/clouds-1.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/clouds-1.html"
 breadcrumb-title: ''
 description: Utilizza il nodo Nuvole 1 per generare pattern di nuvole di base per la creazione di effetti di texture atmosferici e volumetrici.
 helpx_creative_field: ""
