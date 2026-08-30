@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/hsl.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo HSL per regolare tonalità, saturazione e luminosità delle texture per la manipolazione e la correzione del colore.
+description: Usa il nodo HSL per regolare tonalità, saturazione e Luminosità della texture per la manipolazione e la correzione del colore.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > HSL
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: HSL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atomico: HSL](../../../../assets/comp_hsl_1.png "Nodo atomico: HSL"){width="200px"}
+![Nodo atomico: HSL](hsl.resources/comp_hsl_1.png "Nodo atomico: HSL"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -78,9 +78,9 @@ Se cercate altri modi per modificare i toni di un’immagine, osservate [Curva](
 
 |  |  |
 | --- | --- |
-| <b>Tonalità</b> *Mobile* | Determina il colore dell&#39;immagine di input.   I valori inferiori a 0,5 spostano la tonalità in modo negativo, mentre i valori superiori a 0,5 la spostano in modo positivo. |
-| <b>Saturazione</b> *Mobile* | Determina la saturazione del colore dell&#39;immagine di input.   I valori inferiori a 0,5 riducono la saturazione, mentre i valori superiori a 0,5 la aumentano. |
-| <b>Luminosità</b> *Mobile* | Determina la luminosità dell’immagine di input. I valori inferiori a 0,5 riducono la luminosità, quelli superiori a 0,5 la aumentano. |
+| <b>Tonalità</b> *Mobile* | Determina il colore dell&#39;immagine di input.   I valori inferiori a 0,5 spostano la tonalità in modo negativo, mentre i valori superiori a 0,5 la spostano in modo positivo. |
+| <b>Saturazione</b> *Mobile* | Determina la saturazione del colore dell&#39;immagine di input.   I valori inferiori a 0,5 riducono la saturazione, mentre i valori superiori a 0,5 la aumentano. |
+| <b>Luminosità</b> *Mobile* | Determina la Luminosità dell&#39;immagine di input I valori inferiori a 0,5 riducono la Luminosità, mentre i valori superiori a 0,5 la aumentano. |
 
 ## Connettori di ingresso
 

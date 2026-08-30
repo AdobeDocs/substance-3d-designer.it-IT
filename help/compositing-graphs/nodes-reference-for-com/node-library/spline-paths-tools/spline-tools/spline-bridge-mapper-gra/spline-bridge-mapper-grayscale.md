@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-grayscale.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo Spline Bridge Mapper Scala di grigio per collegare le texture tra due spline con la mappatura in scala di grigio.
+description: Utilizzare il nodo Spline Bridge Mapper Scala di grigio per collegare le texture tra due spline con la mappatura in scala di grigio.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Bridge Mapper Grayscale
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Mappatura ponti spline in scala di grigi
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 0%
+source-wordcount: '370'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo](../../../../../../assets/spline-bridge-mapper-grayscale-icon.png "Icona nodo")
+![Icona nodo](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-icon.png "Icona nodo")
 
 <b>In:</b> Strumenti Spline E Tracciati > Strumenti spline
 
@@ -49,47 +49,38 @@ Mappa un&#39;immagine in scala di grigio su un elenco di spline di input in modo
 >
 > Vedere anche [Colore mappatore ponte spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-col/spline-bridge-mapper-color.md).
 
-## Connettori di ingresso
+<a name="inputs"></a>
 
-<b>Spline Coords</b> *Colore* Coordinate dei punti delle spline di input codificate nei canali RGBA di un&#39;immagine a colori:
+## Input
 
-<b> R</b> - Posizione X\
-<b> G</b> - Posizione Y\
-<b> B</b> - Height\
-<b>A</b> - Dati compressi:\
-* Segno: la spline è chiusa (negativa) o aperta (positiva);\
-* Valore assoluto: Thickness + 1.
+|  |  |
+|:---|:---|
+| <b>Spline Coords</b> <i>Colore</i> | Coordinate dei punti delle spline di input codificate nei canali RGBA di un&#39;immagine a colori:<br><b>R</b> - Posizione X<br><b>G</b> - Posizione Y<br><b>B</b> - Height<br><b>A</b> - Dati compressi:<br>- Segno: la spline è chiusa (negativa) o aperta (positiva);<br>- Valore assoluto: Thickness + 1. |
+| <b>Dati spline</b> <i>Colore</i> | Dati aggiuntivi delle spline di input codificate nei canali RGBA di un&#39;immagine a colori.<br><b>R</b> - Tangenti X<br><b>G</b> - Tangenti Y<br><b>B</b> - Non utilizzati<br><b>A</b> - Non utilizzati |
+| <b>Quantità spline</b> <i>Numero intero</i> | Numero di spline di input. |
+| <b>Mappa colori</b> <i>Scala di grigi</i> | Immagine in scala di grigio di input da mappare sulle spline di input. |
 
-<b>Dati spline</b> *Colore* Dati aggiuntivi delle spline di input codificate nei canali RGBA di un&#39;immagine a colori.\
-<b> R</b> - Tangenti X\
-<b> G</b> - Tangenti Y\
-<b> B</b> - Non in uso\
-<b> A</b> - Non in uso
+<a name="outputs"></a>
 
-<b>Quantità spline</b> *Numero intero* Numero di spline di input.
+## Output
 
-<b>Mappa colori </b>*Scala di grigio* Immagine in scala di grigio di input da mappare sulle spline di input.
+|  |  |
+|:---|:---|
+| <b>Colore</b> <i>Scala di grigi</i> | Risultato della mappatura dell&#39;immagine a colori di input sulle spline, come immagine in scala di grigio. |
+| <b>Height</b> <i>Scala di grigi</i> | Height delle spline mappato sulle spline, come immagine in scala di grigio. |
+| <b>UV</b> <i>Colore</i> | Gli UV (coordinate) dell’immagine mappata, codificati nei canali rosso (U) e verde (V) di un’immagine a colori. |
+| <b>Maschera</b> <i>Scala di grigi</i> | Maschera della mappatura sulle spline. |
 
-## Connettori di uscita
-
-<b>Colore</b> *Scala di grigio* Risultato della mappatura dell&#39;immagine a colori di input sulle spline, come immagine in scala di grigio.
-
-<b>Height</b> *Scala di grigio* Il height delle spline mappato sulle spline, come immagine in scala di grigio.
-
-<b>UV</b> *Colore* UV (coordinate) dell&#39;immagine mappata, codificati nei canali rosso (U) e verde (V) di un&#39;immagine a colori.
-
-<b>Maschera</b> *Scala di grigi* Maschera della mappatura sulle spline.
+<a name="parameters"></a>
 
 ## Parametri
 
-<b>Importo segmenti</b> *Interi* Le spline vengono semplificate in segmenti prima che le coordinate dell&#39;immagine le attraversino.\
-Una maggiore quantità di segmenti determina una mappatura più uniforme lungo le curve.
-
-<b>Riduci dilatazione UV</b> *Booleano* Regola il metodo utilizzato per interpolare le coordinate dell&#39;immagine da una spline all&#39;altra per ridurre al minimo l&#39;allungamento quando la distanza tra le spline è irregolare.
-
-<b>Scala UV</b> *Float2* Regola la scala delle coordinate dell&#39;immagine. Più alti sono i valori, maggiore sarà la densità delle immagini.
-
-<b>Rotazione UV</b> *Mobile* Ruota le coordinate dell&#39;immagine attorno al loro centro.
+|  |  |
+|:---|:---|
+| <b>Importo segmenti</b> <i>Numero intero</i> | Le spline vengono semplificate in segmenti prima che le coordinate dell&#39;immagine le attraversino. Una maggiore quantità di segmenti determina una mappatura più uniforme lungo le curve. |
+| <b>Riduci dilatazione UV</b> <i>Booleano</i> | Regola il metodo utilizzato per interpolare le coordinate dell&#39;immagine da una spline all&#39;altra per ridurre al minimo il allungamento quando la distanza tra le spline è irregolare. |
+| <b>Scala UV</b> <i>Float2</i> | Regola la scala delle coordinate dell’immagine. Più alti sono i valori, maggiore sarà la densità delle immagini. |
+| <b>Rotazione UV</b> <i>Mobile</i> | Ruota le coordinate dell’immagine attorno al loro centro. |
 
 ## Esempi
 
@@ -100,11 +91,11 @@ Una maggiore quantità di segmenti determina una mappatura più uniforme lungo l
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineBridgeMapperGrayscale-Variant1-Before.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
+      <img src="spline-bridge-mapper-grayscale.resources/SplineBridgeMapperGrayscale-Variant1-Before.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineBridgeMapperGrayscale-Variant1-After.jpg" alt="SplineBridgeMapperGrayscale-Variant1-After">
+      <img src="spline-bridge-mapper-grayscale.resources/SplineBridgeMapperGrayscale-Variant1-After.jpg" alt="SplineBridgeMapperGrayscale-Variant1-After">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -113,7 +104,7 @@ Una maggiore quantità di segmenti determina una mappatura più uniforme lungo l
 </td>
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 2](../../../../../../assets/SplineBridgeMapper-Demo.gif "Esempio di nodo 2")
+![Esempio di nodo 2](spline-bridge-mapper-grayscale.resources/SplineBridgeMapper-Demo.gif "Esempio di nodo 2")
 
 </td>
 </tr>
@@ -123,12 +114,12 @@ Una maggiore quantità di segmenti determina una mappatura più uniforme lungo l
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 1](../../../../../../assets/SplineBridgeMapperGrayscale-Variant1-After1.jpg "Esempio di nodo 1")
+![Esempio di nodo 1](spline-bridge-mapper-grayscale.resources/SplineBridgeMapperGrayscale-Variant1-After1.jpg "Esempio di nodo 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 2](../../../../../../assets/SplineBridgeMapperGrayscale-Graph.jpg "Esempio di nodo 2")
+![Esempio di nodo 2](spline-bridge-mapper-grayscale.resources/SplineBridgeMapperGrayscale-Graph.jpg "Esempio di nodo 2")
 
 </td>
 </tr>

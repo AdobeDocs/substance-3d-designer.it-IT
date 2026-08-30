@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Costante
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 0%
@@ -28,13 +28,13 @@ Inoltre, questa pagina fornisce alcune informazioni aggiuntive per ogni tipo di 
 
 Gli interi costanti generano numeri interi e hanno un passo di 1.
 
-[Possono essere convertiti in Float,](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md) operazione consigliata quando si eseguono operazioni più complesse di aggiunte, sottrazioni e confronti semplici.
+[Possono essere convertiti in Virgola mobile,](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md) operazione consigliata quando si eseguono operazioni più complesse di aggiunte, sottrazioni e confronti semplici.
 
 <table>
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icona tipo intero](../../../../assets/fn-constant-integer.png "Icona tipo intero")
+![Icona tipo intero](constant-nodes.resources/fn-constant-integer.png "Icona tipo intero")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -58,7 +58,7 @@ Un numero intero ha un singolo componente. È utile come indice per effettuare s
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icona tipo Integer2](../../../../assets/fn-constant-integer2.png "Icona tipo Integer2")
+![Icona tipo Integer2](constant-nodes.resources/fn-constant-integer2.png "Icona tipo Integer2")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -67,7 +67,7 @@ Un numero intero ha un singolo componente. È utile come indice per effettuare s
 
 Un nodo Integer2 genera un vettore intero statico a 2 componenti con componenti (X, Y).
 
-Integer2 non è comune, ma viene utilizzato ad esempio per impostare la suddivisione in porzioni X e Y 2D in un [Tile Generator](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md).
+Integer2 non è comune, ma viene utilizzato ad esempio per impostare l&#39;Affiancamento X e Y 2D in un [Tile Generator](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md).
 
 </td>
 </tr>
@@ -77,7 +77,7 @@ Integer2 non è comune, ma viene utilizzato ad esempio per impostare la suddivis
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icona tipo Integer3](../../../../assets/fn-constant-integer3.png "Icona tipo Integer3")
+![Icona tipo Integer3](constant-nodes.resources/fn-constant-integer3.png "Icona tipo Integer3")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -97,7 +97,7 @@ Intero 3 non è comune ed è improbabile che venga rilevato molto.<b>\
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icona tipo Integer4](../../../../assets/fn-constant-integer4.png "Icona tipo Integer4")
+![Icona tipo Integer4](constant-nodes.resources/fn-constant-integer4.png "Icona tipo Integer4")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -123,7 +123,7 @@ Le variabili costanti generano numeri frazionari, non numeri interi, il che sign
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icona tipo float](../../../../assets/fn-constant-float.png "Icona tipo float")
+![Icona tipo float](constant-nodes.resources/fn-constant-float.png "Icona tipo float")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -140,7 +140,7 @@ A Float, ha un singolo componente, il (1) è omesso dal nome per brevità. Float
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icona di tipo Float2](../../../../assets/fn-constant-float2.png "Icona di tipo Float2")
+![Icona di tipo Float2](constant-nodes.resources/fn-constant-float2.png "Icona di tipo Float2")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -157,7 +157,7 @@ Un nodo Float2 genera un vettore float statico a 2 componenti. I componenti sono
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icona di tipo Float3](../../../../assets/fn-constant-float3.png "Icona di tipo Float3")
+![Icona di tipo Float3](constant-nodes.resources/fn-constant-float3.png "Icona di tipo Float3")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -175,7 +175,7 @@ Un nodo Float3 genera un vettore float statico a 3 componenti. I componenti sono
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icona tipo float4](../../../../assets/fn-constant-float4.png "Icona tipo float4")
+![Icona tipo float4](constant-nodes.resources/fn-constant-float4.png "Icona tipo float4")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -197,7 +197,7 @@ Esistono due tipi di dati aggiuntivi all&#39;interno dei grafici delle funzioni 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icona tipo booleano](../../../../assets/fn-constant-boolean.png "Icona tipo booleano")
+![Icona tipo booleano](constant-nodes.resources/fn-constant-boolean.png "Icona tipo booleano")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -214,7 +214,7 @@ Un valore Boolean è il tipo di dati più semplice, con due stati distinti: True
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icona tipo stringa](../../../../assets/fn-constant-string.png "Icona tipo stringa")
+![Icona tipo stringa](constant-nodes.resources/fn-constant-string.png "Icona tipo stringa")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

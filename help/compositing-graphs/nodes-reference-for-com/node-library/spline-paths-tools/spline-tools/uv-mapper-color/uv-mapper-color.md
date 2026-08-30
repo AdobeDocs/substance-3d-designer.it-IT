@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/uv-mapper-color.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo Colore mappatura UV per mappare le texture di colore lungo le spline per la generazione procedurale delle texture.
+description: Utilizzate il nodo Colore mappatore UV per mappare le texture di colore lungo le spline per la generazione di texture procedurali.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > UV Mapper Color
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Colore mappatore UV
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 1%
+source-wordcount: '176'
+ht-degree: 2%
 
 ---
 
@@ -22,13 +22,9 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-<table>
-<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo](../../../../../../assets/uv-mapper-color-icon.png "Icona nodo")
+![Icona nodo](uv-mapper-color.resources/uv-mapper-color-icon.png "Icona nodo")
 
 <b>In:</b> Strumenti Spline E Tracciati > Strumenti spline
 
@@ -47,20 +43,30 @@ Esegue la mappatura dell&#39;immagine a colori di input usando le coordinate for
 >
 > Consultate anche [Grafica con mappatura UV](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-grayscale/uv-mapper-grayscale.md).
 
-## Connettori di ingresso
+<a name="inputs"></a>
 
-<b>UV</b> *Colore* Coordinate dell’immagine codificate nei canali rosso (U) e verde (V) di un’immagine a colori.
+## Input
 
-<b>Input</b> *Colore* Immagine a colori da mappare alle coordinate fornite nell&#39;input UV.
+|  |  |
+|:---|:---|
+| <b>UV</b> <i>Colore</i> | Coordinate immagine codificate nei canali rosso (U) e verde (V) di un’immagine a colori. |
+| <b>Input</b> <i>Colore</i> | L&#39;immagine a colori che deve essere mappata alle coordinate fornite nell&#39;input UV. |
 
-## Connettori di uscita
+<a name="outputs"></a>
 
-<b>Output</b> *Colore* Risultato della mappatura dell&#39;immagine di input utilizzando le coordinate UV di input, come immagine a colori.
+## Output
+
+|  |  |
+|:---|:---|
+| <b>Output</b> <i>Colore</i> | Risultato della mappatura dell&#39;immagine di input utilizzando le coordinate UV di input come immagine a colori. |
+
+<a name="parameters"></a>
 
 ## Parametri
 
-<b>Colore di sfondo</b> *Float4* Colore di sfondo dell&#39;immagine di output.\
-Lo sfondo è visibile nelle aree dell’immagine in cui gli UV non sono definiti (ovvero il valore è (0, 0, 0, 0)).
+|  |  |
+|:---|:---|
+| <b>Colore di sfondo</b> <i>Float4</i> | Colore di sfondo dell&#39;immagine di output.<br>Lo sfondo è visibile nelle aree dell&#39;immagine in cui gli UV non sono definiti (ovvero il valore è (0, 0, 0, 0)). |
 
 ## Esempi
 
@@ -71,11 +77,11 @@ Lo sfondo è visibile nelle aree dell’immagine in cui gli UV non sono definiti
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/UVMapper-Variant1-Before.jpg" alt="UVMapper-Variant1-Before">
+      <img src="uv-mapper-color.resources/UVMapper-Variant1-Before.jpg" alt="UVMapper-Variant1-Before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../../../../../assets/UVMapper-Variant1-After.jpg" alt="UVMapper-Variant1-After">
+      <img src="uv-mapper-color.resources/UVMapper-Variant1-After.jpg" alt="UVMapper-Variant1-After">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -87,11 +93,11 @@ Lo sfondo è visibile nelle aree dell’immagine in cui gli UV non sono definiti
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/UVMapper-Variant2-Before.jpg" alt="UVMapper-Variant2-Before">
+      <img src="uv-mapper-color.resources/UVMapper-Variant2-Before.jpg" alt="UVMapper-Variant2-Before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../../../../../assets/UVMapperColor-Variant2-After.jpg" alt="UVMapperColor-Variant2-After">
+      <img src="uv-mapper-color.resources/UVMapperColor-Variant2-After.jpg" alt="UVMapperColor-Variant2-After">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -101,18 +107,4 @@ Lo sfondo è visibile nelle aree dell’immagine in cui gli UV non sono definiti
 </tr>
 </table>
 
-![Nodo nel grafico](../../../../../../assets/UVMapperColor-Graph.jpg "Nodo nel grafico")
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
+![Nodo nel grafico](uv-mapper-color.resources/UVMapperColor-Graph.jpg "Nodo nel grafico")

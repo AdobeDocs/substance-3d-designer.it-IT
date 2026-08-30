@@ -10,10 +10,10 @@ helpx_tags: ""
 title: UV diffusione
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '278'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -22,16 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/diffusion-uv-icon.png){width="200px"}
+![](diffusion-uv.resources/diffusion-uv-icon.png){width="200px"}
 
-**Ingresso:** *Filtri/Effetti*
-
-**Intermedio**
+<b>Ingresso:</b> Filtri > Effetti
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -49,45 +47,40 @@ Ciò può portare a risultati indesiderati quando si utilizza questo filtro per 
 </tr>
 </table>
 
-## Parametri
-
-* **Iterazioni**: *0.0 - 64.0* Numero di iterazioni di diffusione da eseguire (maggiore è il numero migliore, ma più lento). I valori utili sono compresi nell’intervallo [8, 48].\
-  Si prega di notare che se non si cerca la correttezza matematica, i valori bassi sono buoni o anche meglio.
+<a name="inputs"></a>
 
 ## Input
 
-* **Origine** *Colore*\
-  UV da diffondere. In questo filtro la suddivisione in porzioni viene gestita in modo speciale (vedere *Descrizione*).
-* **Maschera** *Scala di grigio* Maschera di diffusione: i pixel bianchi vengono campionati in *Sorgente* e diffusi in pixel neri. L’immagine deve essere in bianco e nero. Se la maschera include sfumature, il valore di taglio è 0,5.
+|  |  |
+|:---|:---|
+| <b>Origine</b> <i>Colore</i> | UV da diffondere. In questo filtro la suddivisione in porzioni viene gestita in modo speciale (vedere <i>Descrizione</i>). |
+| <b>Maschera</b> <i>Scala di grigi</i> | Maschera di diffusione: i pixel bianchi vengono campionati in <i>Sorgente</i> e diffusi in pixel neri. L’immagine deve essere in bianco e nero. Se la maschera include sfumature, il valore di taglio è 0,5. |
 
-## Immagini di esempio
+<a name="parameters"></a>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+## Parametri
 
-![](../../../../../../assets/diffusion-uv-01a-before.jpg){width="256px"}
+|  |  |
+|:---|:---|
+| <b>Iterazioni</b> <i>0.0 - 64.0</i> | Numero di iterazioni di diffusione da eseguire (maggiore è migliore ma più lento). I valori utili sono compresi nell’intervallo [8, 48].<br>Si noti che se non si cerca la correttezza matematica, i valori bassi sono corretti o addirittura migliori. |
 
-</td>
-<td style="border: 0;" valign="top">
+## Esempi
 
-![](../../../../../../assets/diffusion-uv-01a-after.jpg){width="256px"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/diffusion-uv-01b-before.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/diffusion-uv-01b-after.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-uv.resources/diffusion-uv-01a-before.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-uv.resources/diffusion-uv-01a-after.jpg" />
+        </td>
+    </tr>
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-uv.resources/diffusion-uv-01b-before.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-uv.resources/diffusion-uv-01b-after.jpg" />
+        </td>
+    </tr>
 </table>

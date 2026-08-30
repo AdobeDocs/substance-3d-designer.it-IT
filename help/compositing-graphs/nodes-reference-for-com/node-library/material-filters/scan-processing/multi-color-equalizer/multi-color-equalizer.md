@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Color Equalizer multiplo
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 1%
+source-wordcount: '314'
+ht-degree: 7%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/color-equalizer-multi.png){width="128px"}
+![](multi-color-equalizer.resources/color-equalizer-multi.png){width="128px"}
 
-## Color Equalizer multiplo
-
-**Ingresso:** *Filtri materiale/Elaborazione analisi*
-
-**Complesso**
+<b>Tra:</b> Filtri materiali > Elaborazione scansione
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -43,42 +39,39 @@ Questa è la versione con più input di [Color Equalizer](../../../../../../comp
 >
 > Per ulteriori informazioni, vedere il [Color Equalizer](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/color-equalizer/color-equalizer.md) originale.
 
-## Parametri
-
-### Input
-
-* **Input 1-8**: *Input colore* Input multipli da elaborare.
-* **Input maschera**: *Input scala di grigi*\
-  Slot maschera utilizzato per mascherare gli effetti del nodo.
-
-### Parametri
-
-* **Numero di input**: *1 - 8* Imposta il numero di input da elaborare in parallelo.
-* **Affiancato a livello di input**: *False/True* Mantiene facoltativamente la suddivisione in porzioni sui bordi.
-* **Raggio**: *0.0 - 50.0* Imposta il raggio di equalizzazione. Con un raggio più ampio vengono rimosse solo le differenze di colore maggiori. Questa operazione richiede l&#39;adattamento di ogni immagine.
-* **Bilanciamento luminoso/scuro**: *0,0 - 1,0* Impostazione di polarizzazione per lasciare o rimuovere tinte più scure.
-* **Variazione colore personalizzata**: *False/True* Consente di variare l&#39;effetto in base a un colore specificato dall&#39;utente.
-* **Variazione colore**\
-  Attivo solo se è abilitata l’opzione Variazione colore personalizzata. Le impostazioni consentono di selezionare uno scostamento della tinta verso il quale eseguire l’equalizzazione.
-  * **Tonalità**: *0,0 - 360,0*
-  * **Crominanza**: *0.0 - 1.0*
-  * **Luma**: *0.0 - 1.0*
-* **Origine maschera**: *Nessuna, Media immagine, Parametro colore, Input* Imposta se deve essere applicata una maschera. Color Parameter abilita le impostazioni aggiuntive di seguito. Input passa a un input maschera definito dall&#39;utente.
-* **Maschera**\
-  Attivo solo con la mascheratura dei parametri dei colori. Contiene parametri di mascheratura aggiuntivi per determinare la maschera in base all’immagine stessa. I parametri seguenti consentono di convertire con precisione una tinta in una maschera binaria su cui viene applicata l’equalizzazione. Tenete presente che gli effetti del parametro Raggio possono diventare molto meno pronunciati quando si utilizzano queste impostazioni.
-  * **Colore**: *(valore colore)*
-  * **Intervallo tonalità**: *0,0 - 360,0*
-  * **Intervallo crominanza**: *0.0 - 1.0*
-  * **Intervallo Luma**: *0,0 - 1,0*
-  * **Sfocatura**: *0.0 - 2.0*
-  * **Smoothness**: *0.0 - 2.0*
-
-## Immagini di esempio
-
-|  |
-| --- |
-| Nessuna immagine allegata alla pagina. |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Input
+
+|  |  |
+|:---|:---|
+| <b>Input 1-8</b> <i>Input colore</i> | Più input da elaborare. |
+| <b>Input maschera</b> <i>Input scala di grigi</i> | Slot maschera utilizzato per mascherare gli effetti del nodo. |
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Conteggio input</b> <i>1 - 8</i> | Imposta il numero di input da elaborare in parallelo. |
+| <b>Affiancato input</b> <i>Falso/Vero</i> | Mantiene facoltativamente l’Affiancamento sui bordi. |
+| <b>Raggio</b> <i>0.0 - 50.0</i> | Imposta il raggio di equalizzazione. Con un raggio più ampio vengono rimosse solo le differenze di colore maggiori. Questa operazione richiede l&#39;adattamento di ogni immagine. |
+| <b>Bilanciamento luminoso/scuro</b> <i>0.0 - 1.0</i> | Impostate la distorsione per lasciare o rimuovere le tinte più scure. |
+| <b>Variazione colore personalizzata</b> <i>Falso/Vero</i> | Consente di variare l’effetto in base a un colore specificato dall’utente. |
+| <b>Variazione colore</b> | Attivo solo se è abilitata l’opzione Variazione colore personalizzata. Le impostazioni consentono di selezionare uno scostamento della tinta verso il quale eseguire l’equalizzazione. |
+| <b>Tonalità</b> <i>0.0 - 360.0</i> |  |
+| <b>Crominanza</b> <i>0.0 - 1.0</i> |  |
+| <b>Luma</b> <i>0.0 - 1.0</i> |  |
+| <b>Origine maschera</b> <i>Nessuno, Media Immagine, Parametro Colore, Input</i> | Consente di impostare l’eventuale applicazione di una maschera. Color Parameter abilita le impostazioni aggiuntive di seguito. Input passa a un input maschera definito dall&#39;utente. |
+| <b>Maschera</b> | Attivo solo con la mascheratura dei parametri dei colori. Contiene parametri di mascheratura aggiuntivi per determinare la maschera in base all’immagine stessa. I parametri seguenti consentono di convertire con precisione una tinta in una maschera binaria su cui viene applicata l’equalizzazione. Tenete presente che gli effetti del parametro Raggio possono diventare molto meno pronunciati quando si utilizzano queste impostazioni. |
+| <b>Colore</b> <i>(valore colore)</i> |  |
+| <b>Intervallo tonalità</b> <i>0.0 - 360.0</i> |  |
+| <b>Intervallo crominanza</b> <i>0.0 - 1.0</i> |  |
+| <b>Intervallo luminanza</b> <i>0.0 - 1.0</i> |  |
+| <b>Sfocatura</b> <i>0.0 - 2.0</i> |  |
+| <b>Smoothness</b> <i>0.0 - 2.0</i> |  |

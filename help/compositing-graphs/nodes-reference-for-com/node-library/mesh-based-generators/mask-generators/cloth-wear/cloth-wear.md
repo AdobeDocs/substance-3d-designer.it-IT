@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Usura stoffa
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 2%
+source-wordcount: '162'
+ht-degree: 4%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/cloth-wear.png){width="128px"}
+![](cloth-wear.resources/cloth-wear.png){width="128px"}
 
-## Usura stoffa
-
-**Ingresso:** *Generatori Basati Su Trama**/Generatori Maschera*
-
-**Semplice**
+<b>In:</b> Generatori Basati Su Trama > Generatori di maschere
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -41,26 +37,35 @@ Genera una maschera in bianco e nero in base alle mappe con baking e alle impost
 
 La maschera rappresenta i bordi sfalsati sui materiali in tessuto. Usa una mappa di altezza dei dettagli del tessuto che determina la maggior parte dell&#39;aspetto; senza una mappa appropriata, l&#39;effetto sembra molto semplice.
 
-## Parametri
-
-### Input
-
-* **Height tessuto**: *Input scala di grigi*\
-  Height solo per il motivo tessuto. Questo non è il height del vostro oggetto (cotto), ma piuttosto un pattern di dettaglio di piastrelle.
-* **Maschera (facoltativo)**: *Input scala di grigi*\
-  Slot maschera utilizzato per mascherare gli effetti del nodo.
-* **Curvatura**: *Input scala di grigi*\
-  Curvatura generata/al forno per determinare i bordi in rilievo.
-
-### Parametri
-
-* **Quantità bordi netti**: *0,0 - 1,0*
-* **Morbidezza usura**: *0.0 - 5.0* Determina la sfocatura o la morbidezza dei bordi usurati.
-
-## Immagini di esempio
-
-![](../../../../../../assets/cloth-wear-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Input
+
+|  |  |
+|:---|:---|
+| <b>Height</b> <i>Input scala di grigi</i> | Height solo per il motivo tessuto. Non si tratta del height dell&#39;oggetto (eseguito i baking), ma piuttosto di un pattern di dettaglio Affiancamento. |
+| <b>Maschera (facoltativo)</b> <i>Input scala di grigi</i> | Slot maschera utilizzato per mascherare gli effetti del nodo. |
+| <b>Curvatura</b> <i>Input scala di grigi</i> | Curvatura eseguita i baking/generata per determinare gli spigoli in rilievo. |
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Quantità bordi netti</b> <i>0.0 - 1.0</i> |  |
+| <b>Morbidezza usura</b> <i>0.0 - 5.0</i> | Determina la sfocatura dei bordi usurati. |
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="cloth-wear.resources/cloth-wear-ex.gif" />
+        </td>
+    </tr>
 </table>

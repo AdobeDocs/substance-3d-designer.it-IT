@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Gaussiano 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 3%
+source-wordcount: '58'
+ht-degree: 8%
 
 ---
 
@@ -22,34 +22,38 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/gaussian-1.png){width="128px"}
+![](gaussian-1.resources/gaussian-1.png){width="128px"}
 
-## Gaussiano 1
-
-**Ingresso:** *Generatori Di Texture**/Pattern*
-
-**Semplice**
+<b>Ingresso:</b> Generatori Texture > Pattern
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
 Semplice schema di blob gaussiano.
 
-## Parametri
-
-* **Affiancatura**: *1 - 16*\
-  Imposta il numero di volte in cui il risultato deve essere affiancato.
-* **Non square expansion**: *Falso/Vero*\
-  Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati.
-
-## Immagini di esempio
-
-![](../../../../../../assets/gaussian-1-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Affiancatura</b> <i>1 - 16</i> | Imposta il numero di volte in cui il risultato deve essere affiancato. |
+| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati. |
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="gaussian-1.resources/gaussian-1-ex.gif" />
+        </td>
+    </tr>
 </table>

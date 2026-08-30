@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Da multi-angolo a Albedo
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 1%
+source-wordcount: '238'
+ht-degree: 2%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/multi-angle-to-albedo.png){width="128px"}
+![](multi-angle-to-albedo.resources/multi-angle-to-albedo.png){width="128px"}
 
-## Da multi-angolo a Albedo
-
-**Ingresso:** *Filtri materiale/Elaborazione analisi*
-
-**Semplice**
+<b>Tra:</b> Filtri materiali > Elaborazione scansione
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -43,26 +39,26 @@ Tenete presente che più campioni avete e più grande è la differenza nell’an
 
 >[!NOTE]
 >
-> Per la versione Normalmap di questo nodo, vedere [Da multiangolo a normale](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-normal/multi-angle-to-normal.md). Se desiderate pre-elaborare i vostri input, [Multi Color Equalizer](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-color-equalizer/multi-color-equalizer.md), [Multi Crop](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-crop/multi-crop.md) e [Multi Clone Patch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-clone-patch/multi-clone-patch.md) possono essere utili, in quanto sono destinati a essere combinati con questi nodi.
+> Per la versione Normalmap di questo nodo, vedere [Da multiangolo a normale](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-normal/multi-angle-to-normal.md). Se desiderate pre-elaborare i vostri input, [Multi Color Equalizer](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-color-equalizer/multi-color-equalizer.md), [Multi Crop](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-crop/multi-crop.md) e [Multi Clona /Clone Patch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-clone-patch/multi-clone-patch.md) possono essere utili, in quanto sono destinati a essere combinati con questi nodi.
 > 
 > [Il post del blog &quot;Il tuo smartphone è uno scanner di materiali&quot; illustra questo processo un po&#39; meglio.](https://www.allegorithmic.com/blog/your-smartphone-material-scanner)
-
-## Parametri
-
-### Input
-
-* **Input 1-8**: *Input colore* Il numero di input è determinato dal parametro Quantità campioni.
-
-### Parametri
-
-* **Quantità campioni**: *2 - 8* Imposta il numero di campioni (input) da utilizzare nell&#39;elaborazione.
-
-## Immagini di esempio
-
-|  |
-| --- |
-| Nessuna immagine allegata alla pagina. |
 
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Input
+
+|  |  |
+|:---|:---|
+| <b>Input 1-8</b> <i>Input colore</i> | Il numero di input è determinato dal parametro Quantità campioni. |
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Quantità di campioni</b> <i>2 - 8</i> | Imposta il numero di campioni (input) da utilizzare nell&#39;elaborazione. |

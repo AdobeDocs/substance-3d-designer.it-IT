@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Morphing vettoriale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '188'
 ht-degree: 2%
 
 ---
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/vector-morph-grayscale.png)![](../../../../../../assets/vector-morph.png)
+![](vector-morph.resources/vector-morph-grayscale.png)![](vector-morph.resources/vector-morph.png)
 
-## Morphing vettoriale (scala di grigi)
-
-**Ingresso:** *Filtri/Effetti*
-
-**Intermedio**
+<b>Ingresso:</b> Filtri > Effetti
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -43,19 +39,23 @@ Questo nodo di per sé non è il più difficile da utilizzare, ma la creazione d
 
 La morphing vettoriale è molto simile a [Alterazione vettoriale](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-warp/vector-warp.md): la differenza principale è che questo nodo morphing non &quot;ripete&quot; o &quot;affianca&quot; il risultato quando viene spinto al di fuori dei limiti dell&#39;area di lavoro. Al contrario, blocca e ripete i bordi.
 
-## Parametri
-
-### Input
-
-* **Input**: *Input a colori/scala di grigi* L&#39;input di origine che deve essere la destinazione per l&#39;alterazione.
-* **Campo vettoriale**: *Input colore* La mappa vettoriale utilizzata per guidare l&#39;alterazione.
-
-### Parametri
-
-* **Quantità**: *0.0 - 1.0* Imposta l&#39;intensità dell&#39;effetto di alterazione e funziona come moltiplicatore per la mappa vettoriale.
-
-## Immagini di esempio
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Input
+
+|  |  |
+|:---|:---|
+| <b>Input</b> <i>Ingresso colore/scala di grigi</i> | L&#39;input di origine che deve essere la destinazione per l&#39;alterazione. |
+| <b>Campo Vettoriale</b> <i>Input colore</i> | La mappa vettoriale utilizzata per guidare l&#39;alterazione. |
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Importo</b> <i>0.0 - 1.0</i> | Imposta l’intensità dell’effetto di alterazione e funziona come moltiplicatore per la Mappa vettoriale. |

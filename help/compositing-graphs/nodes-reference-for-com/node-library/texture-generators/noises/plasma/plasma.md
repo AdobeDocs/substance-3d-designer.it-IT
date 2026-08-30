@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Plasma
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 2%
+source-wordcount: '88'
+ht-degree: 7%
 
 ---
 
@@ -22,36 +22,39 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/plasma.png){width="128px"}
+![](plasma.resources/plasma.png){width="128px"}
 
-## Plasma
-
-**Ingresso:** *Generatori Di Texture**/Rumori*
-
-**Semplice**
+<b>Ingresso:</b> Generatori di Texture > Rumori
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
 Questo genera una variante leggermente diversa di [disturbo gaussiano](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-noise/gaussian-noise.md), con striature scure più lunghe come valli. Dispone di un controllo di distanza simile per la scala, che mantiene la suddivisione in porzioni.
 
-## Parametri
-
-* **Scala**: *1 - 128*\
-  Imposta la scala globale per l’effetto.
-* **Disturbo**: *0,0 - 1,0*\
-  Fase-sposta il disturbo per introdurre piccole variazioni.
-* **Non square expansion**: *Falso/Vero*\
-  Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati.
-
-## Immagini di esempio
-
-![](../../../../../../assets/plasma-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Scala</b> <i>1 - 128</i> | Imposta la scala globale per l’effetto. |
+| <b>Disturbo</b> <i>0.0 - 1.0</i> | Fase-sposta il disturbo per introdurre piccole variazioni. |
+| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati. |
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="plasma.resources/plasma-ex.gif" />
+        </td>
+    </tr>
 </table>

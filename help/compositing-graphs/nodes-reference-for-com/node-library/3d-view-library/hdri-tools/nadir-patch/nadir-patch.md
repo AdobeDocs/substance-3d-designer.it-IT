@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Nadir patch
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 1%
+source-wordcount: '281'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/panorama-nadir-patch.png){width="200px"}
+![](nadir-patch.resources/panorama-nadir-patch.png){width="200px"}
 
-## Nadir patch
-
-**Ingresso:** *Visualizzazione/Strumento HDRI 3D*
-
-**Complesso**
+<b>Ingresso:</b> vista 3D > Strumenti HDRI
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -41,42 +37,44 @@ Questo nodo fornisce la funzionalità di applicare patch al punto di terra centr
 
 l&#39;effetto può essere controllato e convalidato rapidamente con [Nadir extract](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/nadir-extract/nadir-extract.md).
 
+</td>
+</tr>
+</table>
+
+<a name="inputs"></a>
+
 ## Input
 
-* **Input**: *Input colore*
-* **Input maschera**: *Input scala di grigi*\
-  Slot maschera opzionale utilizzato per mascherare la patch. Funziona come un alfa.
+|  |  |
+|:---|:---|
+| <b>Input</b> <i>Input colore</i> |  |
+| <b>Input maschera</b> <i>Input scala di grigi</i> | Slot maschera opzionale utilizzato per mascherare la patch. Funziona come un alfa. |
+
+<a name="parameters"></a>
 
 ## Parametri
 
-* **Abilita**: *False/True*\
-  Attivare o disattivare l&#39;effetto applicazione di patch.
-* **Visualizza helper fotogrammi**: *False/True*\
-  Mostrare o nascondere le linee di supporto per il debug.
-* **Thickness di fotogrammi**: *0,0 - 1,0*\
-  Thickness di linee di supporto.
-* **Scala patch**: *0,0 - 1,0*\
-  Scala globale e uniforme della patch. Influisce sia sull&#39;origine che sulla destinazione.
-* **Dimensione patch**: *0,0 - 1,0*\
-  Dimensioni non uniformi del cerotto.
-* **Rotazione patch**: *0.0 - 1.0*\
-  Rotazione del cerotto. Influisce sull&#39;origine e sulla destinazione.
-* **Alpha toppa**: *Quadrato uniforme, Gaussiano, Input maschera*\
-  Imposta il valore alfa utilizzato per fondere il cerotto con lo sfondo.
-* **Durezza patch**: *0,0 - 1,0*\
-  Impostate la durezza/il contrasto dell&#39;alfa.
-* **Offset rotazione origine**: *0,0 - 1,0*\
-  Rotazione solo per la sorgente del cerotto.
-* **Coordinate posizione**
-  * **Posizione di origine**:\
-    Posizione della sorgente. Ha maniglia nella vista 2D.
-  * **Posizione patch**:\
-    Posizione del bersaglio. Ha maniglia nella vista 2D.
+|  |  |
+|:---|:---|
+| <b>Abilita</b> <i>Falso/Vero</i> | Attivare o disattivare l&#39;effetto applicazione di patch. |
+| <b>Mostra helper Fotogrammi</b> <i>Falso/Vero</i> | Mostrare o nascondere le linee di supporto per il debug. |
+| <b>Thickness di Fotogrammi</b> <i>0.0 - 1.0</i> | Thickness di linee di supporto. |
+| <b>Scala patch</b> <i>0.0 - 1.0</i> | Scala globale e uniforme della patch. Influisce sia sull&#39;origine che sulla destinazione. |
+| <b>Dimensione patch</b> <i>0.0 - 1.0</i> | Dimensioni non uniformi del cerotto. |
+| <b>Rotazione patch</b> <i>0.0 - 1.0</i> | Rotazione del cerotto. Influisce sull&#39;origine e sulla destinazione. |
+| <b>Alpha patch</b> <i>Simbolo grafico, gaussiano, input maschera</i> | Imposta il valore alfa utilizzato per fondere il cerotto con lo sfondo. |
+| <b>Durezza patch</b> <i>0.0 - 1.0</i> | Impostate la durezza/il contrasto dell&#39;alfa. |
+| <b>Offset rotazione origine</b> <i>0.0 - 1.0</i> | Rotazione solo per la sorgente del cerotto. |
+| <b>Coordinate posizione</b> |  |
+| <b>Posizione di origine</b> | Posizione della sorgente. Ha maniglia nella vista 2D. |
+| <b>Posizione patch</b> | Posizione del bersaglio. Ha maniglia nella vista 2D. |
 
-## Immagini di esempio
+## Esempi
 
-![](../../../../../../assets/nadir-patch-ex.gif)
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="nadir-patch.resources/nadir-patch-ex.gif" />
+        </td>
+    </tr>
 </table>

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Filtro stagione
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 0%
+source-wordcount: '427'
+ht-degree: 11%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/default-icon.png){width="128px"}
+![](season-filter.resources/default-icon.png){width="128px"}
 
-## Filtro stagione
-
-**Ingresso:** *Filtri/Effetti Materiale*
-
-**Complesso**
+<b>Tra:</b> Filtri materiali > Effetti
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -43,66 +39,52 @@ Tenete presente che si tratta di un filtro meno recente che non deve essere comp
 
 Il nodo richiede un corretto insieme di input di materiale, principalmente con una Heightmap o Normalmap decentemente dettagliata.
 
-## Parametri
-
-### Input
-
-* **Maschera** : *Input scala di grigi*\
-  Slot maschera utilizzato per mascherare gli effetti del nodo. Può essere attivato/disattivato con il parametro &quot;Maschera&quot;.
-
-### Parametri
-
-* **Canali**
-  * Attivate e disattivate i canali del materiale in questo gruppo, ad esempio quando utilizzate mappe Specular/lucidità invece di Metallico/Rugosità.
-* **Avanzate**
-  * **Formato normale**: *DirectX, OpenGL*\
-    Passa da un formato Normalmap a un altro (inverte il canale verde).
-  * **Maschera**: *False/True*\
-    Attiva o disattiva l’uso della mappa maschera.
-  * **Intensità luce**: *0,0 - 1,0*\
-    Intensità della luce (simulata).
-  * **Angolo luce**: *0,0 - 1,0*\
-    Angolo di incidenza della luce (simulata)
-* **Effetto**
-  * **Effetto da Height o Normale**: *Height, Normale* Scegli quale mappa di input determina gli effetti.
-  * **Livello dell&#39;acqua**: *0.0 - 1.0* Aumenta o riduce il livello dell&#39;acqua in base alle informazioni di Height/Normale.
-  * **Dettagli acqua**: *0.0 - 1.0* Imposta la quantità di dettagli nell&#39;acqua.
-  * **Rifrazione**: *0.0 - 1.0* Imposta la quantità di rifrazione falsa nell&#39;effetto.
-  * **Riflessione**: *0.0 - 1.0* Imposta la quantità di riflesso falso nell&#39;effetto.
-  * **Distanza di riflessione**: *0.0 - 1.0* Controlla gli elementi visivi di riflessione.
-  * **Angolo Di Riflessione**: *0.0 - 1.0* Controlla Gli Elementi Visivi Di Riflessione.
-  * **Direzione flusso**: *0.0 - 1.0* Controlla il flusso dell&#39;animazione (utilizzare Substance Player per visualizzare).
-  * **Ghiaccio**: *0.0 - 1.0* Imposta il grado di congelamento dell&#39;acqua.
-  * **Dettagli ghiaccio**: *0.0 - 1.0* Imposta la quantità di dettagli nel ghiaccio.
-  * **Snow**: *0.0 - 1.0* Imposta la quantità di copertura innevata.
-  * **Moss**: *0.0 - 1.0* Imposta la quantità di copertura del muschio.
-  * **Scala Moss**: *1 - 4* Imposta la scala della texture del muschio generata.
-  * **Colore Moss**: *(Valore colore)*Imposta il colore del muschio.
-  * **Colore acqua**: *(Valore colore)*Imposta il colore dell&#39;acqua, inclusa l&#39;alfa/opacità.
-* **Fusione**
-  * **Intensità diffusione**: *0,0 - 1,0*\
-    Intensità di fusione della Diffusione.
-  * **Intensità colore di base**: *0,0 - 1,0*\
-    Intensità di fusione del colore di base.
-  * **Intensità normale**: *0,0 - 1,0*\
-    Intensità di fusione del normale.
-  * **Intensità Specular**: *0,0 - 1,0*\
-    Forza di fusione dello Specular.
-  * **Intensità lucidità**: *0,0 - 1,0*\
-    Forza di fusione della lucidità.
-  * **Intensità rugosità**: *0,0 - 1,0*\
-    Forza di fusione della rugosità.
-  * **Intensità Occlusione ambiente**: *0,0 - 1,0*\
-    Intensità di fusione dell’Occlusione ambiente.
-  * **Intensità Height**: *0,0 - 1,0*\
-    Forza di fusione del Height.
-
-## Immagini di esempio
-
-|  |
-| --- |
-| Nessuna immagine allegata alla pagina. |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Input
+
+|  |  |
+|:---|:---|
+| <b>Maschera</b> <i>Input scala di grigi</i> | Slot maschera utilizzato per mascherare gli effetti del nodo. Può essere attivato/disattivato con il parametro &quot;Maschera&quot;. |
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Canali</b> | Attivate e disattivate i canali del materiale in questo gruppo, ad esempio quando utilizzate mappe Specular/lucidità invece di Metallico/Rugosità. |
+| <b>Avanzate</b> |  |
+| <b>Formato Normale</b> <i>DirectX, OpenGL</i> | Passa da un formato Normalmap a un altro (inverte il canale verde). |
+| <b>Maschera</b> <i>Falso/Vero</i> | Attiva o disattiva l’uso della mappa maschera. |
+| <b>Intensità luce</b> <i>0.0 - 1.0</i> | Intensità della luce (simulata). |
+| <b>Angolo luce</b> <i>0.0 - 1.0</i> | Angolo di incidenza della luce (simulata) |
+| <b>Effetto</b> |  |
+| <b>Effetto dal Height o normale</b> <i>Height, Normale</i> | Consente di scegliere la mappa di input che determina gli effetti. |
+| <b>Livello dell&#39;acqua</b> <i>0.0 - 1.0</i> | Aumenta o riduce il livello dell’acqua in base alle informazioni di Height/Normale. |
+| <b>Dettagli acqua</b> <i>0.0 - 1.0</i> | Imposta la quantità di dettagli nell&#39;acqua. |
+| <b>Rifrazione</b> <i>0.0 - 1.0</i> | Imposta la quantità di rifrazione falsa nell’effetto. |
+| <b>Riflessione</b> <i>0.0 - 1.0</i> | Imposta la quantità di riflesso falso nell’effetto. |
+| <b>Distanza di riflessione</b> <i>0.0 - 1.0</i> | Controlla gli elementi visivi di riflesso. |
+| <b>Angolo di riflessione</b> <i>0.0 - 1.0</i> | Controlla gli elementi visivi di riflesso. |
+| <b>Direzione flusso</b> <i>0.0 - 1.0</i> | Controlla il flusso dell’animazione (usa la Substance Player per visualizzare). |
+| <b>Ghiaccio</b> <i>0.0 - 1.0</i> | Imposta il grado di congelamento dell’acqua. |
+| <b>Dettagli ghiaccio</b> <i>0.0 - 1.0</i> | Imposta la quantità di dettagli nel ghiaccio. |
+| <b>Snow</b> <i>0.0 - 1.0</i> | Imposta la quantità di copertura innevata. |
+| <b>Moss</b> <i>0.0 - 1.0</i> | Imposta la quantità di copertura del muschio. |
+| <b>Scala Moss</b> <i>1 - 4</i> | Imposta la scala della texture del muschio generata. |
+| <b>Colore Moss</b> <i>(valore colore)</i> | Imposta il colore del muschio. |
+| <b>Colore dell&#39;acqua</b> <i>(valore colore)</i> | Imposta il colore dell’acqua, inclusi canale alfa/opacità. |
+| <b>Fusione</b> |  |
+| <b>Intensità Diffusa</b> <i>0.0 - 1.0</i> | Intensità di fusione della Diffusione. |
+| <b>Intensità Colore di base</b> <i>0.0 - 1.0</i> | Intensità di fusione del colore di base. |
+| <b>Intensità normale</b> <i>0.0 - 1.0</i> | Intensità di fusione del normale. |
+| <b>Intensità Specular</b> <i>0.0 - 1.0</i> | Forza di fusione dello Specular. |
+| <b>Intensità Lucentezza</b> <i>0.0 - 1.0</i> | Forza di fusione della lucidità. |
+| <b>Intensità rugosità</b> <i>0.0 - 1.0</i> | Forza di fusione della rugosità. |
+| <b>Intensità Occlusione ambientale</b> <i>0.0 - 1.0</i> | Intensità di fusione dell’Occlusione ambiente. |
+| <b>Intensità Height</b> <i>0.0 - 1.0</i> | Forza di fusione del Height. |

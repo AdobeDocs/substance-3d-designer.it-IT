@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Risorsa scena 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 1%
@@ -46,24 +46,24 @@ Le scene 3D possono essere collegate *solo*, il che significa che si trovano nel
 
 Quando un pacchetto con una risorsa scena 3D viene pubblicato come risorsa [Substance 3D](https://www.adobe.com/it/products/substance3d/3d-augmented-reality.html) (SBSAR), la trama *non è incorporata*, ma viene eliminata.
 
-## Mappe mesh di cottura
+## Eseguire i baking mappe trama
 
-Il collegamento di una scena 3D nel pacchetto è l&#39;unico modo per [creare mappe trama](../../bakers/bakers.md) al di fuori della geometria della scena. Per iniziare, puoi eseguire i seguenti passaggi:
+Il collegamento di una scena 3D nel pacchetto è l&#39;unico modo per [eseguire i baking mappe con trama](../../bakers/bakers.md) al di fuori della geometria della scena. Per iniziare, puoi eseguire i seguenti passaggi:
 
 * Fai clic su *RMB* in un pacchetto e seleziona l&#39;opzione <b>Collegamento > Trama 3D</b> nel menu di scelta rapida
 * Scegliere un file di scena 3D supportato
-* Se viene visualizzata la finestra di dialogo <b>Collega come trama Udim</b>, fai clic su *No* a meno che non desideri creare porzioni UV
-* Con la risorsa caricata in [Esplora risorse](../../interface/the-explorer-window/the-explorer-window.md), fai clic su *RMB* e seleziona l&#39;opzione <b>Informazioni sul modello</b> nel menu di scelta rapida
-* Viene visualizzata la finestra di dialogo [Informazioni sul modello di forno](../../bakers/bakers.md) che consente di impostare ed eseguire le mappe trama dei fornelli
+* Se viene visualizzata la finestra di dialogo <b>Collega come trama Udim</b>, fai clic su *No* a meno che non desideri eseguire i baking riquadri UV
+* Con la risorsa caricata in [Esplora risorse](../../interface/the-explorer-window/the-explorer-window.md), fare clic su *RMB* e selezionare l&#39;opzione <b>Esegue i baking informazioni modello</b> nel menu di scelta rapida
+* Viene visualizzata la finestra di dialogo [Esegue i baking informazioni sul modello](../../bakers/bakers.md) che consente di impostare ed eseguire tutti i esegue i baking delle mappe trama
 
-![Mappe della trama di cottura](../../assets/bake-model-information.gif "Mappe della trama di cottura"){width="512px"}
+![Eseguire i baking le mappe trama](3d-scene-resource.resources/bake-model-information.gif "Eseguire i baking le mappe trama"){width="512px"}
 
 ## Utilizzo riquadro UDIM/UV
 
-Quando una risorsa trama è collegata e l’applicazione rileva UV al di fuori dell’intervallo 0-1, ti verrà chiesto se questa trama deve essere trattata come una trama UDIM (nota anche come porzioni UV). Questa impostazione può essere modificata in seguito e, a meno che non si sia certi di utilizzare i riquadri UV, la risposta dovrebbe essere <b>No</b>.
+Quando una risorsa trama è collegata e l’applicazione rileva UV al di fuori dell’intervallo 0-1, ti verrà chiesto se questa trama deve essere trattata come una trama UDIM (nota anche come Porzioni UV). Questa impostazione può essere modificata in seguito e, a meno che non si sia certi di utilizzare i riquadri UV, la risposta dovrebbe essere <b>No</b>.
 
-Se è attivo il comportamento delle porzioni UV, il baking si comporta in modo diverso e eseguirà il baking delle texture per ciascuna porzione UV rilevata.
+Se è attivo il comportamento Piastrelle UV, la esegue i baking si comporta in modo diverso e eseguirà i baking texture per ogni piastrella UV rilevata.
 
 ## Risorsa/Scena e stato
 
-L’applicazione separa i contenuti visualizzati nella vista 3D in due file distinti. Il modello o la trama 3D effettiva è una risorsa visibile in Esplora risorse. La configurazione di luci, fotocamere e altre impostazioni è denominata &quot;<b>Stato</b>&quot;. Gli stati possono essere salvati in file .sbsscn esterni, per essere caricati di nuovo in seguito. I file .sbsscn non sono risorse, ma file di configurazione aggiuntivi che possono essere caricati solo tramite [il menu Scena nella vista 3D.](../../interface/3d-view/3d-view.md)
+L’applicazione separa i contenuti visualizzati nella vista 3D in due file distinti. Il modello o la trama 3D effettiva è una risorsa visibile in Esplora risorse. La configurazione di luci, fotocamere e altre impostazioni è denominata &quot;<b>Stato</b>&quot;. Gli stati possono essere salvati in file .sbsscn esterni, per essere caricati di nuovo in seguito. I file .sbsscn non sono risorse, ma file di configurazione aggiuntivi che possono essere caricati solo tramite [il menu Scena nel vista 3D.](../../interface/3d-view/3d-view.md)

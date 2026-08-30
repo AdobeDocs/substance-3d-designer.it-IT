@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Patch per più cloni
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 0%
+source-wordcount: '305'
+ht-degree: 5%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/clone-patch-multi.png){width="128px"}
+![](multi-clone-patch.resources/clone-patch-multi.png){width="128px"}
 
-![](../../../../../../assets/clone-patch-multi-grayscale.png){width="128px"}
+![](multi-clone-patch.resources/clone-patch-multi-grayscale.png){width="128px"}
 
-## Toppa per più cloni (scala di grigi)
-
-**Ingresso:** *Filtri materiale/Elaborazione analisi*
-
-**Complesso**
+<b>Tra:</b> Filtri materiali > Elaborazione scansione
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -45,30 +41,26 @@ Questo nodo è la versione di input multiplo di [Patch clone](../../../../../../
 >
 > Consultate [Patch clone](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md) per ulteriori informazioni, consultate [Patch clone materiale](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/material-clone-patch/material-clone-patch.md) per la versione del materiale.
 
-## Parametri
-
-### Parametri
-
-* **Numero di input**: *1 - 8* Imposta la quantità di input che riceverà la stessa operazione di patch.
-* **Normale (solo per il colore)**: **False/True** Imposta se l&#39;input è una mappa normale e se la fusione deve essere trattata come tale.
-* **Forma**: **Quadrato, Disco** Imposta La Forma Del Timbro. Utilizzato solo come base.
-* **Edge**
-  * **Soglia**: *0.0 - 1.0* Imposta la distanza che deve essere raggiunta dall&#39;area di fusione. Si sviluppa gradualmente lungo le forme nell’area di destinazione; ha un effetto molto scarso con sfondi uniformi*.*
-  * **Sfocatura**: *0.0 - 2.0* Sfoca i bordi dell&#39;area del timbro, nel caso in cui sia necessaria una transizione più morbida.
-  * **Smoothness**: *0.0 - 2.0* Arrotonda i bordi della forma del timbro, per rendere i contorni più fluidi.
-  * **Risoluzione griglia**: *1 - 11* Imposta la risoluzione di qualità dell&#39;analisi di fusione. Un valore più elevato indica una fusione più accurata.
-* **Trasformazioni**
-  * **Matrice origine**: *(Matrice trasformazione)*Trasforma l&#39;origine (Scala e Rotazione). Impossibile eseguire l&#39;operazione sull&#39;area di lavoro. Modificare solo questi parametri.
-  * **Scostamento origine**: *-0,5 - 0,5* Traduce il percorso di origine. Impossibile eseguire l&#39;operazione sull&#39;area di lavoro. Modificare solo questi parametri. *Questo parametro è probabilmente quello principale che si desidera modificare.*
-  * **Matrice destinazione**: *(Matrice trasformazione)*Trasforma la posizione di destinazione (Scala e Rotazione). Può essere fatto anche tramite gizmo su tela.
-  * **Offset destinazione**: *-0,5 - 0,5* Traduce il percorso di destinazione. Può essere fatto anche tramite gizmo su tela.
-
-## Immagini di esempio
-
-|  |
-| --- |
-| Nessuna immagine allegata alla pagina. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Conteggio input</b> <i>1 - 8</i> | Imposta la quantità di input che riceverà la stessa operazione Patch. |
+| <b>Normale (solo per il colore)</b> <i>Falso/Vero</i> | Imposta se l&#39;input è una mappa normale e se la fusione deve essere trattata come tale. |
+| <b>Forma</b> <i>Quadrato, Disco</i> | Imposta la forma del timbro. Utilizzato solo come base. |
+| <b>Edge</b> |  |
+| <b>Soglia</b> <i>0.0 - 1.0</i> | Imposta la distanza che deve essere raggiunta dall&#39;area di fusione. Si sviluppa gradualmente lungo le forme nell’area di destinazione; ha un effetto molto scarso con sfondi uniformi. |
+| <b>Sfocatura</b> <i>0.0 - 2.0</i> | Sfoca i bordi dell’area del timbro, nel caso sia necessaria una transizione più morbida. |
+| <b>Smoothness</b> <i>0.0 - 2.0</i> | Arrotonda i bordi della forma del timbro per ottenere contorni più fluidi. |
+| <b>Risoluzione griglia</b> <i>1 - 11</i> | Imposta la risoluzione di qualità dell&#39;analisi di fusione. Un valore più elevato indica una fusione più accurata. |
+| <b>Trasformazioni</b> |  |
+| <b>Matrice origine</b> <i>(Matrice di trasformazione)</i> | Trasforma la sorgente (Scala e Rotazione). Impossibile eseguire l&#39;operazione sull&#39;area di lavoro. Modificare solo questi parametri. |
+| <b>Scostamento origine</b> <i>-0.5 - 0.5</i> | Traduce la posizione di origine. Impossibile eseguire l&#39;operazione sull&#39;area di lavoro. Modificare solo questi parametri. *Questo parametro è probabilmente quello principale che si desidera modificare.* |
+| <b>Matrice di destinazione</b> <i>(Matrice di trasformazione)</i> | Trasforma la posizione di destinazione (Scala e Rotazione). Può essere fatto anche tramite gizmo su tela. |
+| <b>Scostamento destinazione</b> <i>-0.5 - 0.5</i> | Traduce la posizione di destinazione. Può essere fatto anche tramite gizmo su tela. |

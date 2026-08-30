@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Sostituzione dei materiali della scena
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Quando si lavora con scene 3D con materiali esistenti, è necessario ignorare qu
 
 Il materiale può essere creato da zero o una versione regolata del materiale di una scena che è stato [estratto in un grafico di Substance](../../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md).
 
-![Modificare il materiale di una scena e reimpostarlo sullo stato della scena](../../assets/tweakOverriddenMaterial.gif "Modificare il materiale di una scena, ignorarlo e reimpostarne lo stato "){zoomable="yes"}
+![Modificare il materiale di una scena e reimpostarlo sullo stato della scena](overriding-scene-materials.resources/tweakOverriddenMaterial.gif "Modificare il materiale di una scena, ignorarlo e reimpostarne lo stato "){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -59,14 +59,14 @@ L’azione &quot;Sostituisci materiale&quot; può essere trovata in due posizion
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Sostituisci materiale - Azione nella finestra della vista &quot;Vista 3D&quot;](../../assets/overrideMaterialActionViewport.png "Sostituisci materiale - Azione nella finestra della vista &quot;Vista 3D&quot;"){zoomable="yes"}
+![Sostituisci materiale - Azione nella finestra della vista &#39;vista 3D&#39;](overriding-scene-materials.resources/overrideMaterialActionViewport.png "Sostituisci materiale - Azione nella finestra della vista &#39;vista 3D&#39;"){zoomable="yes"}
 
 *Azione nella finestra della vista 3D*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Sostituisci materiale - Azione nel menu &quot;Materiali&quot;](../../assets/overrideMaterialActionMaterials.png "Sostituisci materiale - Azione nel menu &quot;Materiali&quot;"){zoomable="yes"}
+![Sostituisci materiale - Azione nel menu &quot;Materiali&quot;](overriding-scene-materials.resources/overrideMaterialActionMaterials.png "Sostituisci materiale - Azione nel menu &quot;Materiali&quot;"){zoomable="yes"}
 
 *Azione nel menu Materiali*
 
@@ -74,11 +74,11 @@ L’azione &quot;Sostituisci materiale&quot; può essere trovata in due posizion
 </tr>
 </table>
 
-Nel contesto di Designer, che utilizza USD per la descrizione interna della scena, sostituire significa *creare una copia* del materiale che corrisponde il più possibile all&#39;originale e modificare la *rilegatura del materiale* delle trame della scena dall&#39;originale alla copia.
+Nel contesto di Designer, che utilizza l&#39;USD per la descrizione interna della scena, sostituire significa *creare una copia* del materiale che corrisponde il più possibile all&#39;originale e modificare la *rilegatura del materiale* delle trame della scena dall&#39;originale alla copia.
 
 >[!NOTE]
 >
-> Le copie vengono create nella scena in una cartella ‘<b>materiale</b>’ (‘Ambito’ in USD) sotto la cartella principale e utilizzano lo stesso identificatore dell’originale più un suffisso numerico (ad esempio: ‘rustedMetal\_0’)
+> Le copie vengono create nella scena in una cartella ‘<b>materiale</b>’ (‘Ambito’ in USD) sotto la radice e utilizzano lo stesso identificatore dell&#39;originale più un suffisso numerico (ad esempio: ‘rustedMetal\_0’)
 
 Questo significa due cose importanti:
 
@@ -119,21 +119,21 @@ L&#39;azione può essere trovata in tre punti:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ripristinare lo stato della scena - Azione nella finestra di visualizzazione &quot;3D VIew&quot;](../../assets/resetMaterialToSceneStateActionViewport.png "Ripristinare lo stato della scena - Azione nella finestra di visualizzazione &quot;3D VIew&quot;"){zoomable="yes"}
+![Ripristinare lo stato della scena - Azione nella finestra di visualizzazione &quot;3D VIew&quot;](overriding-scene-materials.resources/resetMaterialToSceneStateActionViewport.png "Ripristinare lo stato della scena - Azione nella finestra di visualizzazione &quot;3D VIew&quot;"){zoomable="yes"}
 
 *Azione nella finestra della vista 3D*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ripristinare lo stato della scena per il materiale - Azione nel menu &quot;Materiali&quot;](../../assets/resetMaterialToSceneStateActionMaterials.png "Ripristinare lo stato della scena per il materiale - Azione nel menu &quot;Materiali&quot;"){zoomable="yes"}
+![Ripristinare lo stato della scena per il materiale - Azione nel menu &quot;Materiali&quot;](overriding-scene-materials.resources/resetMaterialToSceneStateActionMaterials.png "Ripristinare lo stato della scena per il materiale - Azione nel menu &quot;Materiali&quot;"){zoomable="yes"}
 
 *Azione nel menu Materiali*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ripristinare lo stato della scena per il materiale - Azione nel Dock &#39;Proprietà&#39;](../../assets/resetMaterialToSceneStateActionProps.png "Ripristinare lo stato della scena per il materiale - Azione nel Dock &#39;Proprietà&#39;"){zoomable="yes"}
+![Ripristinare lo stato della scena per il materiale - Azione nel Dock &#39;Proprietà&#39;](overriding-scene-materials.resources/resetMaterialToSceneStateActionProps.png "Ripristinare lo stato della scena per il materiale - Azione nel Dock &#39;Proprietà&#39;"){zoomable="yes"}
 
 *Azione nelle proprietà del materiale*
 
@@ -152,7 +152,7 @@ Apri il menu hamburger della proprietà del materiale per trovare l&#39;azione &
 </td>
 <td style="border: 0;" valign="top">
 
-![Ripristina lo stato della scena - Azione nelle proprietà del materiale](../../assets/resetPropertyToSceneStateAction.png "Ripristina lo stato della scena - Azione nelle proprietà del materiale"){zoomable="yes"}
+![Ripristina lo stato della scena - Azione nelle proprietà del materiale](overriding-scene-materials.resources/resetPropertyToSceneStateAction.png "Ripristina lo stato della scena - Azione nelle proprietà del materiale"){zoomable="yes"}
 
 </td>
 </tr>
@@ -166,10 +166,10 @@ D&#39;altra parte, nel menu &quot;Materiali&quot; di Designer è disponibile un 
 
 Set di dati *diverso* creato e gestito solo in Designer. Questi materiali sono quindi *collegati alle copie* che sostituiscono i materiali originali della scena.
 
-![Sostituzione dei materiali - Struttura dati](../../assets/overridingMaterialsSchematic.png "Sostituzione dei materiali - Struttura dati"){zoomable="yes"}
+![Sostituzione dei materiali - Struttura dati](overriding-scene-materials.resources/overridingMaterialsSchematic.png "Sostituzione dei materiali - Struttura dati"){zoomable="yes"}
 
 Potete collegare uno qualsiasi dei materiali elencati nel menu &quot;Materiali&quot; alle copie create da Designer nella scena: fate clic su RMB su una copia nel browser Scena e accedete al sottomenu &quot;Connetti materiale&quot;.
 
 Il sottomenu elenca tutti i materiali presenti nella scena e tutti i materiali che potreste aver creato manualmente dal menu &quot;Materiali&quot;.
 
-![Connetti materiali](../../assets/connectMaterials.gif "Connetti materiali"){zoomable="yes"}
+![Connetti materiali](overriding-scene-materials.resources/connectMaterials.gif "Connetti materiali"){zoomable="yes"}

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/getting-started/tutorials-learning.html"
 breadcrumb-title: ''
-description: Accedi a tutorial e risorse di apprendimento per Substance 3D Designer per padroneggiare le tecniche di creazione di materiali procedurali.
+description: Accedi a tutorial e risorse di apprendimento per Substance 3D Designer per conoscere le tecniche di creazione di materiali procedurali.
 helpx_creative_field: ""
 helpx_description: Designer > Getting started > Tutorials  learning
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Apprendimento Tutorials
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 0%
@@ -26,7 +26,7 @@ La documentazione è intesa principalmente come riferimento tecnico completo. Se
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[Illustrazione dell&#39;esercitazione ![&#39;Primi passi&#39;](../../assets/64d93414-7ea9-49d9-b962-a4e6f4a12765.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/first-steps-with-substance-3d-designer?locale=en)
+[Illustrazione dell&#39;esercitazione ![&#39;Primi passi&#39;](tutorials-learning.resources/64d93414-7ea9-49d9-b962-a4e6f4a12765.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/first-steps-with-substance-3d-designer?locale=en)
 
 </td>
 <td style="border: 0;" valign="top">
@@ -43,14 +43,14 @@ Una serie per principianti incentrata sui primi passi con Designer. Introduce l&
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![&#39;Creazione del primo materiale&#39; illustrazione dell&#39;esercitazione](../../assets/d18e3495-5683-4024-a8af-d255380c0739.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/getting-started-with-substance-3d-designer?locale=en)
+[![&#39;Creazione del primo materiale&#39; illustrazione dell&#39;esercitazione](tutorials-learning.resources/d18e3495-5683-4024-a8af-d255380c0739.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/getting-started-with-substance-3d-designer?locale=en)
 
 </td>
 <td style="border: 0;" valign="top">
 
 ### Creazione del tuo primo materiale
 
-Grande serie di video di partenza che ti guida attraverso l&#39;intero processo di creazione di un materiale completo e completamente procedurale. Ogni fase del processo è trattata e spiegata, quindi imparerete molto al termine, ma può essere intensivo per i principianti assoluti.
+Grande serie di video di partenza che ti guida attraverso l&#39;intero processo di creazione di un materiale esteso e completamente procedurale. Ogni fase del processo è trattata e spiegata, quindi imparerete molto al termine, ma può essere intensivo per i principianti assoluti.
 
 </td>
 </tr>
@@ -60,7 +60,7 @@ Grande serie di video di partenza che ti guida attraverso l&#39;intero processo 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![&#39;Suggerimenti rapidi&#39; illustrazione dell&#39;esercitazione](../../assets/ds-learn-quicktips.jpg)](https://www.youtube.com/playlist?list=PLB0wXHrWAmCy457vxKM4rQuJ-nvYm9j4M)
+[![&#39;Suggerimenti rapidi&#39; illustrazione dell&#39;esercitazione](tutorials-learning.resources/ds-learn-quicktips.jpg)](https://www.youtube.com/playlist?list=PLB0wXHrWAmCy457vxKM4rQuJ-nvYm9j4M)
 
 </td>
 <td style="border: 0;" valign="top">
@@ -77,7 +77,7 @@ Ogni video con suggerimento rapido si concentra su un insieme di nodi e tecniche
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![&#39;Il tuo smartphone è uno scanner di materiale&#39; illustrazione dell&#39;esercitazione](../../assets/73d18800-637b-410b-8ceb-22ad6b61ec89.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/your-smartphone-is-a-material-scanner?locale=en)
+[![&#39;Il tuo smartphone è uno scanner di materiale&#39; illustrazione dell&#39;esercitazione](tutorials-learning.resources/73d18800-637b-410b-8ceb-22ad6b61ec89.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/your-smartphone-is-a-material-scanner?locale=en)
 
 </td>
 <td style="border: 0;" valign="top">

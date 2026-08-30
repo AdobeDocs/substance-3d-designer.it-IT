@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/rgba-merge.html"
 breadcrumb-title: ''
-description: Usa il nodo Unione RGBA per combinare i canali separati rosso, verde, blu e alfa in un’unica texture RGBA.
+description: Utilizzare il nodo Unione RGBA per combinare canali alfa separati di colore rosso, verde, blu e in un'unica texture RGBA.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Channels > RGBA Merge
 helpx_experience_level: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Unione RGBA
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '93'
 ht-degree: 2%
 
 ---
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/rgba-merge.png){width="128px"}
+![](rgba-merge.resources/rgba-merge.png){width="128px"}
 
-## Unione RGBA
-
-**Ingresso:** *Filtri/Canali*
-
-**Semplice**
+<b>Ingresso:</b> Filtri > Canali
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -41,23 +37,17 @@ Inserisce un input in scala di grigi separato in ciascuno dei quattro canali. Da
 
 Nodo molto utile per le mappe di impacchettamento dei canali. Può essere usato ad impacchettamento per Smoothness, Metallico e AO nei rispettivi canali R, G e B.
 
-## Parametri
-
-### Input
-
-* **R**: *Input scala di grigi*
-* **G**: *Input scala di grigi*
-* **B**: *Input scala di grigi*
-* **A**: *Input scala di grigi*
-
-*Nessun parametro.*
-
-## Immagini di esempio
-
-|  |
-| --- |
-| Nessuna immagine allegata alla pagina. |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Input
+
+|  |  |
+|:---|:---|
+| <b>R</b> <i>Input scala di grigi</i> |  |
+| <b>G</b> <i>Input scala di grigi</i> |  |
+| <b>B</b> <i>Input scala di grigi</i> |  |
+| <b>A</b> <i>Input scala di grigi</i> |  |

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Ombre (Nodo filtro)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 2%
+source-wordcount: '134'
+ht-degree: 8%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/shadows-1.png){width="128px"}
+![](shadows-filter-node.resources/shadows-1.png){width="128px"}
 
-## Ombre
-
-**Ingresso:** *Filtri/Effetti*
-
-**Semplice**
+<b>Ingresso:</b> Filtri > Effetti
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -41,19 +37,27 @@ Versione non elaborata in scala di grigio del nodo [Ombra esterna forma](../../.
 
 Può essere utile se siete appena dopo l&#39;ombra e non volete lavorare con un nodo più completo, ad esempio quando si costruisce il proprio materiale o l&#39;illuminazione al forno.
 
-## Parametri
-
-* **Distanza dell&#39;ombra**: *0.0 - 1.0* Controlla la distanza dell&#39;ombra.
-* **Angolo luce**: *0.0 - 1.0* Controlla l&#39;angolo di incidenza della luce.
-* **Morbidezza bordi**: *0.0 - 1.0* Determina la durezza o la morbidezza dei bordi delle ombre.
-* **Esempi**: *1 - 16* Imposta la qualità per l&#39;impostazione Morbidezza bordi.
-
-## Immagini di esempio
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/shadow-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Distanza ombra</b> <i>0.0 - 1.0</i> | Controlla la distanza dell’ombra. |
+| <b>Angolo luce</b> <i>0.0 - 1.0</i> | Controlla l’angolo di incidenza della luce. |
+| <b>Morbidezza bordi</b> <i>0.0 - 1.0</i> | Determina la durezza o la morbidezza dei bordi delle ombre. |
+| <b>Esempi</b> <i>1 - 16</i> | Imposta la qualità per l’impostazione Sfumatura bordi. |
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="shadows-filter-node.resources/shadow-ex.png" />
+        </td>
+    </tr>
 </table>

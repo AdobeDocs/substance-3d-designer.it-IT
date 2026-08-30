@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Gestione dipendenze
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 5%
@@ -24,4 +24,4 @@ ht-degree: 5%
 
 Per accedervi, fai clic con il pulsante destro del mouse su un pacchetto in Esplora risorse e scegli l’opzione Gestione dipendenze nel menu di scelta rapida.
 
-![Gestione dipendenze](../../assets/dependency-manager.png "Gestione dipendenze")
+![Gestione dipendenze](dependency-manager.resources/dependency-manager.png "Gestione dipendenze")

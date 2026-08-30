@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Trasformazione 2D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atomico: trasformazione 2D](../../../../assets/comp_transformation_1.png "Nodo atomico: trasformazione 2D"){width="200px"}
+![Nodo atomico: trasformazione 2D](transformation-2d.resources/comp_transformation_1.png "Nodo atomico: trasformazione 2D"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -67,7 +67,7 @@ Tuttavia, non può essere perfetto per alcune applicazioni, quindi i seguenti no
 > 
 > Impostare il [metodo di ereditarietà](../../../../glossary/glossary.md) del parametro di base [&#x200B; &#39;Tiling mode&#39; &#x200B;](../../../../glossary/glossary.md) su &#39;Absolute&#39;, che consente di impostare il valore del parametro su &#39;No Tiling&#39;:
 > 
-> ![](../../../../assets/tilingmode.png)
+> ![](transformation-2d.resources/tilingmode.png)
 
 >[!NOTE]
 >
@@ -92,11 +92,11 @@ Tuttavia, non può essere perfetto per alcune applicazioni, quindi i seguenti no
 
 |  |  |
 | --- | --- |
-| <b>Matrice di trasformazione</b> *Float4* | Aprite la matrice di trasformazione sottostante per la modifica diretta. Consente di modificare la rotazione e il ridimensionamento. Può essere regolato anche tramite il gizmo nella vista 2D.   Avvertenza: non sono correlate direttamente alla vista e sono regolazioni relative che possono essere applicate in più passaggi. |
-| <b>Scostamento</b> *Float2* | Definisce lo spostamento 2D dell’immagine. Consente di modificare la posizione o lo scostamento. Può essere regolato anche tramite il gizmo nella vista 2D.   Si riferisce direttamente all&#39;output della vista 2D. |
+| <b>Matrice di trasformazione</b> *Float4* | Aprite la matrice di trasformazione sottostante per la modifica diretta. Consente di modificare la rotazione e il ridimensionamento. Può essere regolato anche tramite il gizmo nella vista 2D.   Avvertenza: non sono correlate direttamente alla vista e sono regolazioni relative che possono essere applicate in più passaggi. |
+| <b>Scostamento</b> *Float2* | Definisce lo spostamento 2D dell’immagine. Consente di modificare la posizione o lo scostamento. Può essere regolato anche tramite il gizmo nella vista 2D.   Si riferisce direttamente all&#39;output della vista 2D. |
 | <b>Modalità Mipmap</b> *Numero intero* | Consente di passare a un livello [mipmap](../../../../glossary/glossary.md) manuale, che riduce gli artefatti in un&#39;immagine utilizzando il filtro delle texture. |
-| <b>Livello mipmap</b> *Numero intero* | Imposta il livello [mipmap](../../../../glossary/glossary.md) da utilizzare.     *Disponibile quando la modalità Mipmap è impostata su Manuale* |
-| <b>Colore mascherino</b> *Float4* | Il colore utilizzato come sfondo quando la suddivisione in porzioni della trasformazione è disattivata. Imposta il colore usato quando l&#39;input trasformato non copre un&#39;area dell&#39;output.   Può essere reso trasparente se si lavora con il colore RGBA. |
+| <b>Livello mipmap</b> *Numero intero* | Imposta il livello [mipmap](../../../../glossary/glossary.md) da utilizzare.     *Disponibile quando la modalità Mipmap è impostata su Manuale* |
+| <b>Colore mascherino</b> *Float4* | Il colore utilizzato come sfondo quando la suddivisione in porzioni della trasformazione è disattivata. Imposta il colore usato quando l&#39;input trasformato non copre un&#39;area dell&#39;output.   Può essere reso trasparente se si lavora con il colore RGBA. |
 | <b>Filtraggio</b> *Numero intero* | Imposta il metodo di downsampling utilizzato. Non funziona particolarmente bene con la riduzione del Livello mipmap. |
 
 ## Connettori di ingresso

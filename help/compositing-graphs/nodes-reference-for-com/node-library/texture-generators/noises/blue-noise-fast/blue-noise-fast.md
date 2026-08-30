@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Disturbo blu veloce
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 2%
+source-wordcount: '77'
+ht-degree: 6%
 
 ---
 
@@ -22,31 +22,37 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/blue-noise.png){width="128px"}
+![](blue-noise-fast.resources/blue-noise.png){width="128px"}
 
-## Disturbo blu veloce
-
-**Ingresso:** *Generatori Di Texture**/Rumori*
-
-**Semplice**
+<b>Ingresso:</b> Generatori di Texture > Rumori
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
 Un disturbo semplice, veloce e in scala di pixel.
 
-## Parametri
-
-* **Rotazione**: *0.0 - 1.0* Ruota i calcoli interni dell&#39;effetto. Questo può modificare notevolmente l’aspetto visivo del disturbo: più lontano da 1, meno ridimensionato in pixel è l’effetto e più visibili sono le &quot;onde&quot;.
-
-## Immagini di esempio
-
-![](../../../../../../assets/blue-noise-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Rotazione</b> <i>0.0 - 1.0</i> | Ruota i calcoli interni dell’effetto. Questo può modificare notevolmente l’aspetto visivo del disturbo: più lontano da 1, meno ridimensionato in pixel è l’effetto e più visibili sono le &quot;onde&quot;. |
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="blue-noise-fast.resources/blue-noise-ex.gif" />
+        </td>
+    </tr>
 </table>

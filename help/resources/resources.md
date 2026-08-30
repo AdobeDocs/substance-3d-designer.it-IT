@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Risorse
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '155'
 ht-degree: 7%
 
 ---
@@ -26,7 +26,7 @@ Le risorse sono il contenuto dei pacchetti di Substance 3D Designer. Vengono uti
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![](../assets/graph-5.png)
+![](resources.resources/graph-5.png)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -46,7 +46,7 @@ Le risorse del grafico sono le risorse principali create in Designer. Ciascuno d
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![](../assets/folder-4.png)
+![](resources.resources/folder-4.png)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -55,10 +55,10 @@ Le risorse del grafico sono le risorse principali create in Designer. Ciascuno d
 
 Le risorse non grafiche sono in genere risorse di supporto utilizzate come dati aggiuntivi nei grafici o per visualizzare i risultati dei grafici. In questa sezione dei documenti sono presenti i tipi seguenti, ognuno dei quali dispone di una pagina secondaria:
 
-* [Bitmap](../resources/bitmap-resource/bitmap-resource.md)
-* [Grafica vettoriale (SVG)](../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
-* [Risorsa scena 3D](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
-* [Font](../resources/font-resource/font-resource.md)
+* [Bitmap](bitmap-resource/bitmap-resource.md)
+* [Grafica vettoriale (SVG)](vector-graphics-svg-res/vector-graphics-svg-resource.md)
+* [Risorsa scena 3D](3d-scene-resource/3d-scene-resource.md)
+* [Font](font-resource/font-resource.md)
 
 </td>
 </tr>

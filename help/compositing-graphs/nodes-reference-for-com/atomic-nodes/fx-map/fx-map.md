@@ -10,7 +10,7 @@ helpx_tags: ""
 title: FX-Map
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atomico: FX-Map](../../../../assets/fxmap.png "Nodo atomico: FX-Map"){width="200px"}
+![Nodo atomico: FX-Map](fx-map.resources/fxmap.png "Nodo atomico: FX-Map"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -75,7 +75,7 @@ Tenete presente che, a differenza di altri nodi, la maggior parte del comportame
 
 |  |  |
 | --- | --- |
-| <b>Metodo colore</b> *Booleano* | Alterna tra un’immagine in scala di grigio e un’immagine a colori in output. Il colore sarà molto più lento della scala di grigi. |
+| <b>Metodo colore</b> *Booleano* | Alterna tra un’immagine in scala di grigio e un’immagine a colori in output. Il colore sarà molto più lento della scala di grigi. |
 | <b>Sfondo</b> *Float/Float4* | Imposta il colore iniziale dello sfondo su cui comporre i risultati. |
 | <b>Area di rendering</b> *Float4* | Consente di impostare l’intervallo di pixel iniziale per ciascun lato dell’FX-Map, con conseguente effetto di dilatazione. |
 | <b>Area in porzioni</b> *Float4* | Consente di spostare la distanza di affiancamento di FX-Map. |
@@ -102,4 +102,4 @@ Tenete presente che, a differenza di altri nodi, la maggior parte del comportame
 
 ## Esempi
 
-![](../../../../assets/image2015-9-10-17-28-32.png)
+![](fx-map.resources/image2015-9-10-17-28-32.png)

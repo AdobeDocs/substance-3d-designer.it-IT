@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Tratto forma
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 1%
+source-wordcount: '158'
+ht-degree: 4%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/shape-stroke.png){width="128px"}
+![](shape-stroke.resources/shape-stroke.png){width="128px"}
 
-![](../../../../../../assets/shape-stroke-grayscale.png){width="128px"}
+![](shape-stroke.resources/shape-stroke-grayscale.png){width="128px"}
 
-## Tratto forma (scala di grigi)
-
-**Ingresso:** *Filtri/Effetti*
-
-**Intermedio**
+<b>Ingresso:</b> Filtri > Effetti
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -43,20 +39,29 @@ Aggiunge un tratto o un contorno attorno a una maschera in bianco e nero (per la
 
 Molto utile per vari effetti di editing delle immagini.
 
-## Parametri
-
-* **Larghezza**: *-1.0 - 1.0* Larghezza dell&#39;effetto del tratto.
-* **Opacità**: *0,0 - 1,0*\
-  Opacità globale dell’effetto.
-* **(Contorno) Colore**: *(Valore colore)*Colore utilizzato per l&#39;effetto contorno.
-* **Colore maschera**: *(Valore colore) *(Solo versione in scala di grigio)**Tinta unita da utilizzare per l&#39;output con mapping trasparenza.
-* **Input premoltiplicato**: *False/True *(Solo versione a colori)**Indica se l&#39;input deve essere considerato premoltiplicato.
-* **Output pre-moltiplicazione**: *False/True* Indica se l&#39;output deve essere premoltiplicato.
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/shapestroke-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Larghezza</b> <i>-1.0 - 1.0</i> | Larghezza dell’effetto del tratto. |
+| <b>Opacità</b> <i>0.0 - 1.0</i> | Opacità globale dell’effetto. |
+| Colore <b>(Contorno)</b> <i>(valore colore)</i> | Colore utilizzato per l&#39;effetto contorno. |
+| <b>Colore maschera</b> <i>(Valore colore) (Solo versione in scala di grigio)</i> | Tinta unita da utilizzare per l’output con mappatura della trasparenza. |
+| <b>Input Premoltiplicato</b> <i>False/True (Solo Versione A Colori)</i> | Indica se l&#39;input deve essere considerato premoltiplicato. |
+| <b>Pre-Moltiplica output</b> <i>Falso/Vero</i> | Indica se l&#39;output deve essere premoltiplicato. |
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="shape-stroke.resources/shapestroke-ex.png" />
+        </td>
+    </tr>
 </table>

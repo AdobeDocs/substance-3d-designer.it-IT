@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Applica tavolozza colori
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 0%
+source-wordcount: '287'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona Quantizza colore](../../../../../../assets/ApplyColorPalette.png "Icona Quantizza colore"){width="200px"}
+![Icona Quantizza colore](apply-color-palette.resources/ApplyColorPalette.png "Icona Quantizza colore"){width="200px"}
 
 <b>Ingresso:</b> Filtri > Regolazioni
 
@@ -45,66 +45,50 @@ Questo nodo può essere utilizzato in combinazione con i seguenti nodi: [Quantiz
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Connettori di uscita
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-## Connettori di ingresso
+## Input
 
 |  |  |
-| --- | --- |
-| <b>ID</b> *Scala di grigi* PRIMARIO | Mapping ID di input utilizzato per distribuire i colori nella tavolozza di input.   Una mappa ID è un’immagine in cui i pixel che fanno parte di un intero (ad esempio, una forma) mantengono tutti lo stesso valore di identificazione univoco. In questo caso, il valore è un numero intero.   È possibile produrre una mappa ID utilizzando un nodo [Quantizza colore](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md). |
-| <b>Tavolozza</b> *Colore* | Un elenco ordinato di colori RGB codificati come una riga di pixel. La tavolozza può contenere un massimo di 256 colori. Tavolozza mappata dal nodo agli indici della mappa ID.   Le tavolozze possono essere prodotte con un nodo [Quantizza colore](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md) e modificate con un nodo [Modifica tavolozza colori](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md). |
+|:---|:---|
+| <b>ID</b> <i>Scala di grigi</i> PRIMARIO | Mapping ID di input utilizzato per distribuire i colori nella tavolozza di input.   Una mappa ID è un’immagine in cui i pixel che fanno parte di un intero (ad esempio, una forma) mantengono tutti lo stesso valore di identificazione univoco. In questo caso, il valore è un numero intero.   È possibile produrre una mappa ID utilizzando un nodo [Quantizza colore](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md). |
+| <b>Tavolozza</b> <i>Colore</i> | Un elenco ordinato di colori RGB codificati come una riga di pixel. La tavolozza può contenere un massimo di 256 colori. Tavolozza mappata dal nodo agli indici della mappa ID.   Le tavolozze possono essere prodotte con un nodo [Quantizza colore](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md) e modificate con un nodo [Modifica tavolozza colori](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md). |
 
-## Connettori di uscita
+<a name="outputs"></a>
+
+## Output
 
 |  |  |
-| --- | --- |
-| <b>Output</b> *Colore* | Risultato della mappatura dei colori della tavolozza agli indici della mappa ID. |
+|:---|:---|
+| <b>Output</b> <i>Colore</i> | Risultato della mappatura dei colori della tavolozza agli indici della mappa ID. |
 
 ## Esempi
 
-![Applica tavolozza colori: esempio 1](../../../../../../assets/apply_color_palette_example_2.png "Applica tavolozza colori: esempio 1"){zoomable="yes"}
+![Applica tavolozza colori: esempio 1](apply-color-palette.resources/apply_color_palette_example_2.png "Applica tavolozza colori: esempio 1"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/apply_color_palette_example_1_before.jpg" alt="apply_color_palette_example_1_before">
+      <img src="apply-color-palette.resources/apply_color_palette_example_1_before.jpg" alt="apply_color_palette_example_1_before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../../../../../assets/apply_color_palette_example_1_after.jpg" alt="apply_color_palette_example_1_after">
+      <img src="apply-color-palette.resources/apply_color_palette_example_1_after.jpg" alt="apply_color_palette_example_1_after">
       <br><i>Dopo</i>
     </td>
   </tr>
 </table>
 
-![Applica tavolozza colori: esempio 3](../../../../../../assets/apply_color_palette_example_4.png "Applica tavolozza colori: esempio 3"){zoomable="yes"}
+![Applica tavolozza colori: esempio 3](apply-color-palette.resources/apply_color_palette_example_4.png "Applica tavolozza colori: esempio 3"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/apply_color_palette_example_3_before.jpg" alt="apply_color_palette_example_3_before">
+      <img src="apply-color-palette.resources/apply_color_palette_example_3_before.jpg" alt="apply_color_palette_example_3_before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../../../../../assets/apply_color_palette_example_3_after.jpg" alt="apply_color_palette_example_3_after">
+      <img src="apply-color-palette.resources/apply_color_palette_example_3_after.jpg" alt="apply_color_palette_example_3_after">
       <br><i>Dopo</i>
     </td>
   </tr>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Guida utente di Substance 3D Designer
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 89%
@@ -20,9 +20,9 @@ ht-degree: 89%
 
 # Guida utente di Substance 3D Designer
 
-![Finestra principale di Substance 3D Designer](../assets/sdsummerinterface.jpg "Finestra principale di Substance 3D Designer")
+![Finestra principale di Substance 3D Designer](home.resources/sdsummerinterface.jpg "Finestra principale di Substance 3D Designer")
 
-[Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html) è un software per la creazione di materiali. Consente di utilizzare un grafico a nodi per generare texture da pattern procedurali e rumori, nonché per manipolare le bitmap.
+[Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html) è un software per la creazione di materiali. Consente di utilizzare un grafico a nodi per generare texture da pattern e rumori procedurali, nonché per manipolare le bitmap.
 
 Una parola o un concetto utilizzato in Designer non è familiare? Per ulteriori informazioni, consultate il nostro [Glossario](../glossary/glossary.md).
 

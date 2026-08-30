@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo di Flood Fill per riempire le aree collegate di colore simile per creare maschere ed effetti di elaborazione delle texture.
+description: Utilizzate il nodo di Flood Fill per riempire le aree connesse di colore simile per la creazione di maschere e gli effetti di elaborazione delle texture.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Flood Fill
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Flood Fill
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 0%
+source-wordcount: '339'
+ht-degree: 1%
 
 ---
 
@@ -22,22 +22,18 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/floodfill.png){width="128px"}
+![](flood-fill.resources/floodfill.png){width="128px"}
 
-## Flood Fill
-
-**Ingresso:** *Filtri/Effetti*
-
-**Semplice**
+<b>Ingresso:</b> Filtri > Effetti
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
-Flood Fill fa parte di un set avanzato di effetti che consente di aggiungere molta più variazione a una texture di base di porzioni binarie. Non è pensato per essere usato da solo: è piuttosto un punto di partenza per altri effetti di Flood Fill. La separazione dei dati consente un flusso di lavoro più dinamico, ottimizzato e meno distruttivo.
+Flood Fill fa parte di un set avanzato di effetti che consente di aggiungere molta più variazione a una texture di base di tessere binarie. Non è pensato per essere usato da solo: è piuttosto un punto di partenza per altri effetti di Flood Fill. La separazione dei dati consente un flusso di lavoro più dinamico, ottimizzato e meno distruttivo.
 
 Gli altri effetti Flood Fill sono [da Flood Fill a sfumatura](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-to-gradient/flood-fill-to-gradient.md), [da Flood Fill a colore/scala di grigi](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-grayscale-col/flood-fill-to-grayscale-color.md), [da Flood Fill a scala di grigi casuale](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-random-gra/flood-fill-to-random-grayscale.md), [da Flood Fill a colore casuale](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-random-color/flood-fill-to-random-color.md), [da Flood Fill a dimensione casella BB](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-to-bbox-size/flood-fill-to-bbox-size.md), [da Flood Fill a posizione](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-to-position/flood-fill-to-position.md), [Mappatura Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-mapper/flood-fill-mapper.md) e [da Flood Fill a indice](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-to-index/flood-fill-to-index.md)
 
@@ -47,20 +43,31 @@ Gli altri effetti Flood Fill sono [da Flood Fill a sfumatura](../../../../../../
 > 
 > I problemi si verificano se le porzioni non sono separate da pixel neri interi, in genere quando si utilizzano valori in scala di grigi e inclinati. È possibile identificare questo fenomeno in base a una mancanza complessiva di valori rossi nel risultato e a possibili strane linee di artefatti. In questi casi, regolate il contrasto sulla mappa di input o disattivate la mappa di input. Modificare l&#39;impostazione di compensazione Sicurezza/Velocità per verificare eventuali miglioramenti.
 
-## Parametri
-
-* **Compensazione tra sicurezza e velocità**: *Forme semplici o piccole, forme complesse o grandi, nessuna modalità di errore.*Imposta la modalità di calcolo che meglio si adatta alle forme di input. Consente risultati molto più precisi se si sceglie la modalità corretta.
-* **Opzioni avanzate**: *Visualizza parametri avanzati e Output/Nascondi parametri avanzati e output*
-* **Sostituzione del compromesso sicurezza/velocità**: *-1 - 100* Visibile solo con le opzioni avanzate attivate. Consente di sostituire le feature interne. Molto avanzato, serve per creare effetti o debug propri.
-
-## Immagini di esempio
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/flood-ex2.png" width="256px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image" src="../../../../../../assets/flood-ex1.png" width="256px"/></div> |
-| --- | --- |
-|  |  |
-
-Buoni e cattivi esempi di risultati dal Flood Fill.
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Compensazione tra sicurezza e velocità</b> <i>Forme semplici o piccole, forme complesse o grandi, nessuna modalità di errore.</i> | Impostare la modalità di calcolo più adatta alle forme di input. Consente risultati molto più precisi se si sceglie la modalità corretta. |
+| <b>Opzioni avanzate</b> <i>Visualizzazione parametri avanzati e output/Nascondi parametri avanzati e output</i> |  |
+| <b>Sostituire il compromesso sicurezza/velocità</b> <i>-1 - 100</i> | Visibile solo se sono attivate le opzioni avanzate. Consente di sostituire le feature interne. Molto avanzato, serve per creare effetti o debug propri. |
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="flood-fill.resources/flood-ex2.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="flood-fill.resources/flood-ex1.png" />
+        </td>
+    </tr>
+</table>
+
+Buoni e cattivi esempi di risultati dal Flood Fill.

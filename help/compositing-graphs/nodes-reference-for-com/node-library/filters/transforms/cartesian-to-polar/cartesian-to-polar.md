@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Da Cartesiano A Polare
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '60'
+source-wordcount: '51'
 ht-degree: 3%
 
 ---
@@ -22,35 +22,31 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/cartesian-to-polar.png){width="128px"}
+![](cartesian-to-polar.resources/cartesian-to-polar.png){width="128px"}
 
-![](../../../../../../assets/cartesian-to-polar-grayscale.png){width="128px"}
+![](cartesian-to-polar.resources/cartesian-to-polar-grayscale.png){width="128px"}
 
-## Da Cartesiano A Polare (Scala Di Grigi)
-
-**Entrata:** *Filtri/Trasformazioni*
-
-**Semplice**
+<b>Ingresso:</b> Filtri > Trasforma
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
 Converte un input con coordinate cartesiane (X&amp;Y) in coordinate polari (angolo e raggio). L&#39;inverso è possibile con [Da polare a cartesiano](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/polar-to-cartesian/polar-to-cartesian.md).
 
-## Parametri
-
-*Nessun parametro.*
-
-## Immagini di esempio
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/cartesian-to-polar-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="cartesian-to-polar.resources/cartesian-to-polar-example.png" />
+        </td>
+    </tr>
 </table>

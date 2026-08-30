@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Gestione colore
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1678'
 ht-degree: 1%
@@ -152,18 +152,18 @@ Quando si importano o si collegano bitmap, per impostazione predefinita *1&rbrac
 > 
 > In particolare, è possibile utilizzare il **nome file** per impostare lo spazio colore appropriato *automaticamente*. Il nome dello spazio colore nel nome del file deve *corrispondere al nome* nel file di configurazione OpenColorIO (ad esempio *myImage\_utility - linear -srgb.png* verrà impostato sullo spazio colore *Utility - Linear - sRGB*).
 
-![Impostazione spazio colore bitmap](../assets/2019-3-0-bitmap-clr-space.png "Impostazione spazio colore bitmap")
+![Impostazione spazio colore bitmap](color-management.resources/2019-3-0-bitmap-clr-space.png "Impostazione spazio colore bitmap")
 
 ## Esportazione degli output
 
 Quando si utilizza la finestra di dialogo <b>Output dell&#39;esportazione</b>, è possibile assegnare un <b>spazio colore</b> (OCIO) o allegare un <b>profilo ICC</b> (Adobe ACE) per l&#39;output *ogni*.\
 Designer *converte* le immagini negli spazi colore specificati prima di salvare i file immagine.
 
-![Finestra di dialogo per l’esportazione degli output](../assets/2019-3-0-clr-mgt-export-outputs.png "Finestra di dialogo per l’esportazione degli output"){width="512px"}
+![Finestra di dialogo per l’esportazione degli output](color-management.resources/2019-3-0-clr-mgt-export-outputs.png "Finestra di dialogo per l’esportazione degli output"){width="512px"}
 
 Potete anche assegnare uno spazio colore (OCIO) o associare un profilo ICC (Adobe ACE) alle immagini *salvate* dalla [vista 2D](../interface/2d-view/2d-view.md).
 
-![Opzioni di esportazione vista 2D](../assets/2019-3-0-clr-mgt-save-image.png "Opzioni di esportazione vista 2D")
+![Opzioni di esportazione vista 2D](color-management.resources/2019-3-0-clr-mgt-save-image.png "Opzioni di esportazione vista 2D")
 
 ## Viste 2D e 3D
 
@@ -171,7 +171,7 @@ Potete anche assegnare uno spazio colore (OCIO) o associare un profilo ICC (Adob
 
 Puoi *attivare/disattivare* Gestione colore e modificare in qualsiasi momento la *trasformazione visualizzazione* per la visualizzazione utilizzando il menu a discesa nella barra degli strumenti di visualizzazione.
 
-![Impostazione dello spazio colore nella vista 2D](../assets/2019-3-0-clr-mgt-display-toolbar.png "Impostazione dello spazio colore nella vista 2D"){width="512px"}
+![Impostazione dello spazio colore nella vista 2D](color-management.resources/2019-3-0-clr-mgt-display-toolbar.png "Impostazione dello spazio colore nella vista 2D"){width="512px"}
 
 ### Ambienti HDRI della libreria
 
@@ -180,7 +180,7 @@ Quando si utilizza una configurazione OpenColorIO in cui lo spazio colore linear
 
 In tal caso, lo spazio colore per gli ambienti HDRI della libreria deve essere impostato *manualmente* nelle proprietà dell&#39;ambiente, disponibili nel menu <b>Ambiente</b> del pannello Vista 3D.
 
-![Impostazione dello spazio colore dell&#39;ambiente di visualizzazione 3D](../assets/2019-3-0-clr-mgt-hdri-env.png "Impostazione dello spazio colore dell&#39;ambiente di visualizzazione 3D"){width="512px"}
+![Impostazione dello spazio colore dell&#39;ambiente di visualizzazione 3D](color-management.resources/2019-3-0-clr-mgt-hdri-env.png "Impostazione dello spazio colore dell&#39;ambiente di visualizzazione 3D"){width="512px"}
 
 ## Nodi di conversione colore
 
@@ -211,7 +211,7 @@ La [libreria](../interface/the-library/the-library.md) include i nodi seguenti p
 
 Sono utili quando si utilizzano grafici creati *senza* Gestione colore o materiali dalla libreria [Risorse Substance 3D](https://substance3d.adobe.com/assets).
 
-![Nodi di conversione colore nella libreria](../assets/2019-3-0-clr-mgt-nodes.png "Nodi di conversione colore nella libreria"){width="512px"}
+![Nodi di conversione colore nella libreria](color-management.resources/2019-3-0-clr-mgt-nodes.png "Nodi di conversione colore nella libreria"){width="512px"}
 
 ## Limitazioni note
 

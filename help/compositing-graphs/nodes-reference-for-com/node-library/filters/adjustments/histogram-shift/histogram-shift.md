@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Spostamento istogramma
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 2%
+source-wordcount: '77'
+ht-degree: 6%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/histogram-shift-1.png){width="128px"}
+![](histogram-shift.resources/histogram-shift-1.png){width="128px"}
 
-## Spostamento istogramma
-
-**Ingresso:** *Filtri/Regolazioni*
-
-**Semplice**
+<b>Ingresso:</b> Filtri > Regolazioni
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -41,17 +37,27 @@ Sposta completamente l’intera area dell’immagine, avvolgendola quando si rag
 
 [Fai clic qui per guardare un video dell’Accademia di Substance su Cambio istogramma.](https://youtu.be/p9wcmJBFyGA?t=492)
 
-## Parametri
-
-* **Posizione**: *0.0 - 1.0*\
-  Indica di quanto spostare l&#39;input. 1,0 è una rotazione completa ed è uguale a 0,0.
-
-## Immagini di esempio
-
-![](../../../../../../assets/histogram-shift.gif)
-
-![](../../../../../../assets/histogram-shift2.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Posizione</b> <i>0.0 - 1.0</i> | Indica di quanto spostare l&#39;input. 1,0 è una rotazione completa ed è uguale a 0,0. |
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="histogram-shift.resources/histogram-shift.gif" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="histogram-shift.resources/histogram-shift2.gif" />
+        </td>
+    </tr>
 </table>

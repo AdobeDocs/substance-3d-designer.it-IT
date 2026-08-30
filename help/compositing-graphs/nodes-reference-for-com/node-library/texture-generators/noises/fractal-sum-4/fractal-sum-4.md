@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-4.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo Somma frattale 4 per generare un disturbo frattale con quattro ottave per creare texture organiche dettagliate.
+description: Utilizzate il nodo Somma frattale 4 per generare un disturbo frattale con quattro ottave per la creazione di texture organiche dettagliate.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Fractal sum 4
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: SOMMA FRATTALE 4
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 2%
@@ -22,13 +22,9 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-<table>
-<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Somma frattale 4 - Icona](../../../../../../assets/fractal_sum_4.png "Somma frattale 4 - Icona"){width="200px"}
+![Somma frattale 4 - Icona](fractal-sum-4.resources/fractal_sum_4.png "Somma frattale 4 - Icona"){width="200px"}
 
 <b>Ingresso:</b> Generatori di texture > Rumori
 
@@ -45,19 +41,23 @@ Vedere anche: [Somma frattale base](../../../../../../compositing-graphs/nodes-r
 </tr>
 </table>
 
+<a name="outputs"></a>
+
 ## Output
 
 |  |  |
-| --- | --- |
-| <b>Output</b> *Scala di grigi* | Il disturbo generato come bitmap in scala di grigio. |
+|:---|:---|
+| <b>Output</b> <i>Scala di grigi</i> | Il disturbo generato come bitmap in scala di grigio. |
+
+<a name="parameters"></a>
 
 ## Parametri
 
 |  |  |
-| --- | --- |
-| <b>Disturbo</b> Mobile | Sposta gli ingredienti del disturbo.    Può essere utilizzato per animare il disturbo. |
-| <b>Velocità del disturbo</b> Mobile | Regola la distanza di spostamento applicata dal parametro <b>Disturbo</b>.    Questa opzione consente di controllare la velocità di spostamento durante l’animazione del disturbo. |
-| <b>Espansione non quadrata</b> Booleano | Nelle immagini non quadrate, mantiene il riquadro quadrato generato ed espande la generazione del disturbo fino ai limiti dell&#39;immagine. |
+|:---|:---|
+| <b>Disturbo</b> <i>Mobile</i> | Sposta gli ingredienti del disturbo.    Può essere utilizzato per animare il disturbo. |
+| <b>Velocità del disturbo</b> <i>Mobile</i> | Regola la distanza di spostamento applicata dal parametro <b>Disturbo</b>.    Questa opzione consente di controllare la velocità di spostamento durante l’animazione del disturbo. |
+| <b>Espansione non quadrata</b> <i>Booleano</i> | Nelle immagini non quadrate, mantiene il riquadro quadrato generato ed espande la generazione del disturbo fino ai limiti dell&#39;immagine. |
 
 ## Esempi
 
@@ -65,26 +65,12 @@ Vedere anche: [Somma frattale base](../../../../../../compositing-graphs/nodes-r
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Somma frattale 4 - Esempio 1](../../../../../../assets/fractal_sum_4_1.png "Somma frattale 4 - Esempio 1"){zoomable="yes"}
+![Somma frattale 4 - Esempio 1](fractal-sum-4.resources/fractal_sum_4_1.png "Somma frattale 4 - Esempio 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Somma frattale 4 - Esempio 2](../../../../../../assets/noise_fractal_sum_4_v2_speed0.6_aniso0.gif "Somma frattale 4 - Esempio 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+![Somma frattale 4 - Esempio 2](fractal-sum-4.resources/noise_fractal_sum_4_v2_speed0.6_aniso0.gif "Somma frattale 4 - Esempio 2"){zoomable="yes"}
 
 </td>
 </tr>

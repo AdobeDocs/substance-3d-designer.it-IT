@@ -1,65 +1,55 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-position.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo Posizione texture 3D per estrarre informazioni sulla posizione dalle texture 3D per creare effetti spaziali e mappature.
+description: Utilizzare il nodo Posizione Texture 3D per estrarre informazioni sulla posizione dalla texture 3D per la creazione di effetti spaziali e mappature.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > 3D Texture Position
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Posizione texture 3D
+title: Posizione Texture 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '58'
 ht-degree: 3%
 
 ---
 
 
-# Posizione texture 3D
+# Posizione Texture 3D
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dtextureposition.png){width="256px"}
+![](3d-texture-position.resources/3dtextureposition.png){width="256px"}
 
-**Ingresso:** *Filtro/Effetto*
-
-**Semplice**
+<b>Ingresso:</b> Filtro > Effetto
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
-Il nodo **Posizione texture 3D** genera le *sezioni di posizione* di un cubo di unità.
+Il nodo **Posizione Texture 3D** genera le *sezioni di posizione* di un cubo di unità.
 
-Può essere utilizzato per produrre rumori o funzioni 3D come *atlas delle texture 3D*.
+Può essere utilizzato per eseguire i baking rumori o funzioni 3D come *atlas della texture 3D*.
 
 </td>
 </tr>
 </table>
 
-## Parametri
+## Esempi
 
-Nessun parametro.
-
-## Immagini di esempio
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtextureposition-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtextureposition-node.png){width="128px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-position.resources/3dtextureposition-variant.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-position.resources/3dtextureposition-node.png" />
+        </td>
+    </tr>
 </table>

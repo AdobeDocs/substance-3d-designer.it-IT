@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Curvatura della normal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '249'
 ht-degree: 2%
 
 ---
@@ -22,14 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo normale piegato](../../../../../../assets/rt-bent-normal.png "Icona nodo normale piegato")
+![Icona nodo normale piegato](bent-normal.resources/rt-bent-normal.png "Icona nodo normale piegato")
 
-<b>Ingresso:</b> *Filtri/Mappa normale*
+<b>Ingresso:</b> Filtri > Mappa normale
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -42,33 +42,27 @@ Questo nodo non deve essere utilizzato in combinazione con il motore CPU (SSE) a
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parametri
 
-<b>Usa Dimensioni fisiche</b> *Booleano*\
-Attivate/disattivate per utilizzare le impostazioni della Dimensioni fisiche per determinare la scala del height.
+|  |  |
+|:---|:---|
+| <b>Usa Dimensioni fisiche</b> <i>Booleano</i> | Attivate/disattivate per utilizzare le impostazioni della Dimensioni fisiche per determinare la scala del height. |
+| <b>Dimensioni fisiche</b> <i>Float3</i> | (Disponibile quando <b>Usa Dimensioni fisiche</b> è impostato su <i>Vero</i>) Regola la scala del height in base alla dimensioni fisiche reale della superficie. |
+| <b>Esempi</b> <i>Numero intero</i> | Numero di raggi utilizzati per calcolare la normale piegata.<br>Un valore più alto fornisce un risultato più uniforme e preciso a scapito delle prestazioni. |
+| <b>Scala Height</b> <i>Mobile</i> | (Disponibile quando Usa Dimensioni fisiche è impostato su False) Moltiplicatore per l&#39;intensità dell&#39;input della mappa dell&#39;altezza. |
+| <b>Distribuzione</b> <i>Numero intero</i> | Imposta il metodo di distribuzione. Influisce sul decadimento verso le aree in ombra. |
+| <b>Distanza Massima</b> <i>Mobile</i> | Consente di impostare la distanza massima percorribile dai raggi per l’occlusione. |
+| <b>Angolo di diffusione</b> <i>Mobile</i> | Consente di impostare l’angolo di diffusione dei raggi da riprendere. Un valore pari a 1 è un emisfero completo. |
+| <b>Formato Normale</b> <i>Numero intero</i> | Inverte il canale verde dell’output. |
 
-<b>Dimensioni fisiche</b> *Float3* (disponibile quando <b>Usa Dimensioni fisiche</b> è impostato su *True*)\
-Regola la scala del height in base alla dimensioni fisiche reale della superficie.
+## Esempi
 
-<b>Esempi</b> *Numero intero*\
-Numero di raggi utilizzati per calcolare la normale piegata.\
-Un valore più alto fornisce un risultato più uniforme e preciso a costo delle prestazioni.
-
-<b>Scala Height</b> *Mobile (disponibile quando Usa Dimensioni fisiche è impostato su False)*\
-Moltiplicatore per l&#39;intensità dell&#39;input della mappa del height.
-
-<b>Distribuzione</b> *Numero intero*\
-Imposta il metodo di distribuzione. Influisce sul decadimento verso le aree in ombra.
-
-<b>Distanza Massima</b> *Mobile*\
-Consente di impostare la distanza massima percorribile dai raggi per l’occlusione.
-
-<b>Angolo di diffusione</b> *Mobile*\
-Consente di impostare l’angolo di diffusione dei raggi da riprendere. Un valore pari a 1 è un emisfero completo.
-
-<b>Formato Normale</b> *Numero intero*\
-Inverte il canale verde dell’output.
-
-## Immagini di esempio
-
-![Nodo normale piegato - Esempio 1](../../../../../../assets/bent-normal-ex-1.jpg "Nodo normale piegato - Esempio 1")
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="bent-normal.resources/bent-normal-ex-1.jpg" />
+        </td>
+    </tr>
+</table>

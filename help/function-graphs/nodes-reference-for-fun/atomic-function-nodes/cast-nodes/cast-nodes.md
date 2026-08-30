@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Cast
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 I nodi di cast vengono utilizzati per convertire un nodo da un tipo a un altro tipo:
 
-![](../../../../assets/image2015-12-23-10-5-19.png)
+![](cast-nodes.resources/image2015-12-23-10-5-19.png)
 
 ## Come utilizzare un nodo cast?
 

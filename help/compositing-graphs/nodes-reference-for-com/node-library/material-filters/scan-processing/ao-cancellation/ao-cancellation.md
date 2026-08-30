@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Annullamento AO
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 1%
+source-wordcount: '133'
+ht-degree: 4%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/ao-cancel.png){width="128px"}
+![](ao-cancellation.resources/ao-cancel.png){width="128px"}
 
-## Annullamento AO
-
-**Ingresso:** *Filtri materiale/Elaborazione analisi*
-
-**Semplice**
+<b>Tra:</b> Filtri materiali > Elaborazione scansione
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -41,17 +37,15 @@ Questo nodo tenta di rimuovere qualsiasi informazione di illuminazione dell&#39;
 
 Un nodo utile per quando si dispone di una mappa dell&#39;operatore aereo cotta da una trama scansionata o in alternativa anche una mappa dell&#39;operatore aereo generata da informazioni di Height o Normale.
 
-## Parametri
-
-* **Annullamento AO**: *0.0 - 1.0* Intensità con cui rimuovere le informazioni di illuminazione.
-* **Saturazione AO**: *0,0 - 1,0*(De)Compensazione della saturazione per le aree in cui viene rimossa l&#39;illuminazione. Questo può essere utilizzato per restituire qualsiasi perdita di colore nelle aree più scure.
-
-## Immagini di esempio
-
-|  |
-| --- |
-| Nessuna immagine allegata alla pagina. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Annullamento AO</b> <i>0.0 - 1.0</i> | Intensità con cui rimuovere le informazioni di illuminazione. |
+| <b>Saturazione AO</b> <i>0.0 - 1.0</i> | Compensazione della saturazione per le aree in cui viene rimossa l&#39;illuminazione. Questo può essere utilizzato per restituire qualsiasi perdita di colore nelle aree più scure. |

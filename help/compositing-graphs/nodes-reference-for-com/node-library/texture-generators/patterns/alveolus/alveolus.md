@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Alveolo
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 2%
+source-wordcount: '94'
+ht-degree: 7%
 
 ---
 
@@ -22,36 +22,40 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/alveolus-1.png){width="128px"}
+![](alveolus.resources/alveolus-1.png){width="128px"}
 
-## Alveolo
-
-**Ingresso:** *Generatori Di Texture**/Pattern*
-
-**Semplice**
+<b>Ingresso:</b> Generatori Texture > Pattern
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
 Pattern a sfera morbida che può generare alternativamente porzioni esagonali.
 
-## Parametri
-
-* **Affiancatura**: *1 - 16*\
-  Imposta il numero di volte in cui il risultato deve essere affiancato.
-* **Cella con riempimento sfumatura**: *False/True* Passa ai bordi netti, creando porzioni esagonali con bordi netti.
-* **Larghezza interstizio**: *0.0 - 1.0* Funziona solo quando l&#39;opzione precedente è impostata su &quot;False&quot;. Modifica la dimensione dell&#39;interstizio.
-* **Non square expansion**: *Falso/Vero*\
-  Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati.
-
-## Immagini di esempio
-
-![](../../../../../../assets/alveolus.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Affiancatura</b> <i>1 - 16</i> | Imposta il numero di volte in cui il risultato deve essere affiancato. |
+| <b>Celle con riempimento sfumato</b> <i>Falso/Vero</i> | Passa ai bordi netti, creando porzioni esagonali con bordi netti. |
+| <b>Larghezza Interstizio</b> <i>0.0 - 1.0</i> | Funziona solo se l&#39;opzione precedente è impostata su &quot;False&quot;. Modifica la dimensione dell&#39;interstizio. |
+| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati. |
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="alveolus.resources/alveolus.gif" />
+        </td>
+    </tr>
 </table>

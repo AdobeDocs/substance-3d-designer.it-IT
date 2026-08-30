@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Crea tavolozza colori (16)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '296'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona Quantizza colore](../../../../../../assets/CreateColorPalette16.png "Icona Quantizza colore"){width="200px"}
+![Icona Quantizza colore](create-color-palette-16.resources/CreateColorPalette16.png "Icona Quantizza colore"){width="200px"}
 
 <b>Ingresso:</b> Filtri > Regolazioni
 
@@ -43,44 +43,30 @@ Questo nodo può essere utilizzato in combinazione con i seguenti nodi: [Quantiz
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Connettori di uscita
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parametri
-
-</td>
-</tr>
-</table>
-
-## Connettori di ingresso
+## Input
 
 |  |  |
-| --- | --- |
-| <b>Tavolozza</b> *Colore* PRIMARIO | Un elenco ordinato di colori RGB codificati come una riga di pixel. La tavolozza può contenere un massimo di 256 colori.   Questo input è opzionale. Se utilizzati, i colori impostati dal nodo vengono aggiunti a questa tavolozza.   È possibile visualizzare la tavolozza con il nodo [Visualizza tavolozza colori](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md). |
-| <b>Quantità colore tavolozza</b> *Numero intero* | Quantità di colori memorizzati nella tavolozza.   Se tale numero non corrisponde alla quantità effettiva di colori nell&#39;input dell&#39;immagine &quot;Palette&quot;, la visualizzazione potrebbe essere incompleta o disporre di più spazi vuoti del necessario. |
+|:---|:---|
+| <b>Tavolozza</b> <i>Colore</i> PRIMARIO | Un elenco ordinato di colori RGB codificati come una riga di pixel. La tavolozza può contenere un massimo di 256 colori.   Questo input è opzionale. Se utilizzati, i colori impostati dal nodo vengono aggiunti a questa tavolozza.   È possibile visualizzare la tavolozza con il nodo [Visualizza tavolozza colori](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md). |
+| <b>Quantità colore tavolozza</b> <i>Numero intero</i> | Quantità di colori memorizzati nella tavolozza.   Se tale numero non corrisponde alla quantità effettiva di colori nell&#39;input dell&#39;immagine &quot;Palette&quot;, la visualizzazione potrebbe essere incompleta o disporre di più spazi vuoti del necessario. |
 
-## Connettori di uscita
+<a name="outputs"></a>
+
+## Output
 
 |  |  |
-| --- | --- |
-| <b>Tavolozza</b> *Colore* | Tavolozza aggiornata con i colori specificati aggiunti. |
-| <b>Quantità colore tavolozza</b> *Numero intero* | La quantità aggiornata di colori memorizzati nella tavolozza, con la quantità specificata di colori aggiunti. |
+|:---|:---|
+| <b>Tavolozza</b> <i>Colore</i> | Tavolozza aggiornata con i colori specificati aggiunti. |
+| <b>Quantità colore tavolozza</b> <i>Numero intero</i> | La quantità aggiornata di colori memorizzati nella tavolozza, con la quantità specificata di colori aggiunti. |
+
+<a name="parameters"></a>
 
 ## Parametri
 
 |  |  |
-| --- | --- |
+|:---|:---|
 | <b>Quantità colore</b> *Numero intero* | Quantità di colori da aggiungere alla tavolozza. |
 | <b>Colore n. </b> *Float3* *Numero di parametri disponibili corrispondente al valore &#39;Quantità colore&#39;* | Un colore da aggiungere alla tavolozza.   I colori vengono aggiunti alla tavolozza nello stesso ordine dell&#39;elenco numerato. |
 
@@ -90,15 +76,15 @@ Questo nodo può essere utilizzato in combinazione con i seguenti nodi: [Quantiz
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Creare una tavolozza di colori: esempio 1](../../../../../../assets/create_color_palette_example_1.png "Creare una tavolozza di colori: esempio 1"){zoomable="yes"}
+![Creare una tavolozza di colori: esempio 1](create-color-palette-16.resources/create_color_palette_example_1.png "Creare una tavolozza di colori: esempio 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Creare una tavolozza di colori: esempio 2](../../../../../../assets/create_color_palette_example_2.png "Creare una tavolozza di colori: esempio 2"){zoomable="yes"}
+![Creare una tavolozza di colori: esempio 2](create-color-palette-16.resources/create_color_palette_example_2.png "Creare una tavolozza di colori: esempio 2"){zoomable="yes"}
 
 </td>
 </tr>
 </table>
 
-![Creare una tavolozza di colori: esempio 3](../../../../../../assets/create_color_palette_example_3.png "Creare una tavolozza di colori: esempio 3"){zoomable="yes"}
+![Creare una tavolozza di colori: esempio 3](create-color-palette-16.resources/create_color_palette_example_3.png "Creare una tavolozza di colori: esempio 3"){zoomable="yes"}

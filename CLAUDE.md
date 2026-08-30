@@ -1,7 +1,7 @@
 ---
-source-git-commit: ec58342925d3e608b0180b67a1e20ffaeb1f306a
+source-git-commit: e44437dcecf30714ffe5274c91135d84a0360aa7
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '633'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Questo repository contiene la documentazione di Substance 3D Designer. Nessun co
 
 * `help/` - tutto il contenuto della documentazione, organizzato in modo da rispecchiare il sommario.
 * `help/guide/TOC.md`: il sommario. Ogni voce è un collegamento relativo (basato su `/help/...`) al file Markdown di una pagina. `TOC.md` contiene anche metadati dell&#39;albero della pagina (`user-guide-title`, `breadcrumb-title`, `nudge`, ancoraggi di sezione come `{#section-id}`).
-* `help/assets/`: immagini condivise non specifiche della pagina (ad esempio, icone delle app riutilizzate nelle pagine).
+* `help/assets/`: cartella di immagini condivise legacy. I file multimediali specifici della pagina sono ora contenuti in una cartella di pari livello per pagina `<md-file-name>.resources/` (vedere la convenzione Cartella/Sommario di seguito). Solo alcune immagini rimanenti non referenziate da alcuna pagina sono ancora presenti. Inserire nuove immagini nella cartella `.resources` della pagina di utilizzo, non qui.
 * `help/glossary/glossary.md`: una singola grande pagina di glossario, organizzata alfabeticamente con estensioni di ancoraggio (`<span id="term"></span>`) utilizzata per il collegamento incrociato tramite `#term` frammenti.
 * `metadata.md` - argomento principale a livello di repository (ID cloud/soluzione/prodotto, `git-repo` e così via) ereditato da ogni `TOC.md`. Modificate questa impostazione solo per le modifiche dei metadati a livello di repository; i metadati specifici della pagina appartengono all’ambito della pagina.
 * `redirects.csv`, `linkcheckexclude.json`, `markdownlint_custom.json`, `pipeline.opts` — configurazione della pipeline di pubblicazione (reindirizzamenti, eccezioni di controllo dei collegamenti, sostituzioni delle regole lint, opzioni pipeline).
@@ -31,6 +31,10 @@ Per ogni voce in `help/guide/TOC.md`:
 * Se la pagina contiene file multimediali personalizzati (immagini, GIF, video), si trova in una sottocartella di pari livello denominata `<md-file-name>.resources`.
 
 Quando si aggiunge o si sposta una pagina, aggiornare `TOC.md` e il layout della cartella insieme, in quanto devono rimanere sincronizzati.
+
+## Pagine di riferimento dei nodi
+
+Gli alberi della libreria di nodi (ad esempio `help/compositing-graphs/nodes-reference-for-com/node-library/<category>/<node>/<node>.md`) sono un tipo di pagina distinto con layout coerente: una tabella di HTML icon/description, seguita da `## Inputs` / `## Outputs` / `## Parameters` tabelle ancorate (`#inputs`/`#outputs`/`#parameters`) e una raccolta `## Examples`. Utilizzano il **minimo** argomento (solo `title` + `description`), non il normale blocco di pagina contenuto sottostante, modellato su `.../texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md`. I file multimediali incorporati (icona, immagini/GIF di esempio) si trovano in una cartella di pari livello `<node-name>.resources/` accanto alla pagina, a cui viene fatto riferimento in modo relativo. Utilizza l’abilità `generate-node-documentation` (se presente) per il modello di authoring completo.
 
 ## Frontespizio pagina
 

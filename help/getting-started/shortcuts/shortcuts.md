@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Scelte rapide
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 17%
@@ -32,11 +32,11 @@ In questa pagina puoi trovare una panoramica di tutte le scelte rapide per Subst
 
 **Windows**
 
-![Scelte rapide da tastiera per Windows](../../assets/keyboard_shortcuts_win.png "In Windows"){zoomable="yes"}
+![Scelte rapide da tastiera per Windows](shortcuts.resources/keyboard_shortcuts_win.png "In Windows"){zoomable="yes"}
 
 **macOS**
 
-![Scelte rapide da tastiera per macOS](../../assets/keyboard_shortcuts_mac.png "In macOS"){zoomable="yes"}
+![Scelte rapide da tastiera per macOS](shortcuts.resources/keyboard_shortcuts_mac.png "In macOS"){zoomable="yes"}
 
 ## Elenchi di collegamenti
 

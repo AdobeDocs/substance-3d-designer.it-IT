@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-rough-dirty.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo Grunge sporca per generare texture di grunge ruvide e sporche per aggiungere dettagli sulla superficie usurata.
+description: Utilizzate il nodo Grunge sporca per generare texture di grunge sporche e irregolari per aggiungere dettagli sulla superficie esposta alle intemperie.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Rough Dirty
 helpx_experience_level: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Grunge grezza sporca
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '147'
 ht-degree: 2%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungeroughdirty.jpg){width="200px"}
+![](grunge-rough-dirty.resources/grungeroughdirty.jpg){width="200px"}
 
-**Ingresso:** *Generatori Di Texture* */Rumori*
-
-**Semplice**
+<b>Ingresso:</b> Generatori di Texture > Rumori
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -41,31 +39,31 @@ Il nodo **Grunge sporca** genera una mappa della grunge simile a una superficie 
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parametri
 
-* **Bilanciamento** *Fluttuazione* Regola il bilanciamento tra valori scuri e chiari.
-* **Contrasto** *Mobile* Regola il contrasto dell&#39;immagine.
-* **Inverti** *Booleano* Inverte l&#39;output dell&#39;immagine, utilizzando un&#39;operazione `1-x`.
-* **Non square expansion** *Booleano* Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati.
-* Avanzate
-  * **Intensità Grunge principale** *Mano mobile* Regola l&#39;intensità della texture della grunge principale utilizzata per rompere la superficie.
-  * **Inverti Scratches** *Booleano* Inverte la luminanza dei graffi sulla superficie.
-  * **Intensità Scratches** *Fluttuazione* Regola l&#39;intensità dei graffi sulla superficie.
-  * **Intensità granulosità** *Fluttuazione* Regola l&#39;intensità dell&#39;effetto granulosità globale.
+|  |  |
+|:---|:---|
+| <b>Saldo</b> <i>Mobile</i> | Regola il bilanciamento tra i valori di luminosità e oscurità. |
+| <b>Contrasto</b> <i>Mobile</i> | Regola il contrasto dell’immagine. |
+| <b>Inverti</b> <i>Booleano</i> | Inverte l&#39;output dell&#39;immagine utilizzando un&#39;operazione `1-x`. |
+| <b>Non square expansion</b> <i>Booleano</i> | Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati. |
+| <b>Avanzate</b> |  |
+| <b>Intensità Grunge principale</b> <i>Mobile</i> | Regola l’intensità della texture principale della grunge utilizzata per rompere la superficie. |
+| <b>Inverti Scratches</b> <i>Booleano</i> | Inverte la luminanza dei graffi sulla superficie. |
+| <b>Intensità Scratches</b> <i>Mobile</i> | Regola l’intensità dei graffi sulla superficie. |
+| <b>Intensità granulosità</b> <i>Mobile</i> | Regola l’intensità dell’effetto granulosità globale. |
 
-## Immagini di esempio
+## Esempi
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungeroughdirty-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungeroughdirty-variant2.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grunge-rough-dirty.resources/grungeroughdirty-variant.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="grunge-rough-dirty.resources/grungeroughdirty-variant2.jpg" />
+        </td>
+    </tr>
 </table>

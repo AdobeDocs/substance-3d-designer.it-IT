@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Distanza direzionale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '527'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona Anisotropica in scala di grigio Kuwahara](../../../../../../assets/directional_distance.png "Icona anisotropica in scala di grigio Kuwahara"){width="200px"}
+![Icona Anisotropica in scala di grigio Kuwahara](directional-distance.resources/directional_distance.png "Icona anisotropica in scala di grigio Kuwahara"){width="200px"}
 
 <b>Ingresso:</b> Filtri > Effetti
 
@@ -47,45 +47,31 @@ La distanza della sfumatura può essere regolata dinamicamente lungo il bordo ut
 >
 > Il nodo [Smusso uniforme](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/bevel-smooth/bevel-smooth.md) offre funzionalità simili, in cui la dilatazione viene eseguita in tutte le direzioni.
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Connettori di uscita
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parametri
-
-</td>
-</tr>
-</table>
-
-## Connettori di ingresso
+## Input
 
 |  |  |
-| --- | --- |
-| <b>Input</b> *Scala di grigi* PRIMARIO | Immagine da cui estrarre la maschera.   Tutti i valori superiori a 0,5 sono bianchi nella maschera. |
-| <b>Mappa di distanza</b> *Scala di grigi* | Input facoltativo utilizzato quando il valore del parametro &#39;Moltiplicatore Mappa di distanza&#39; è maggiore di 0.   Viene utilizzato per regolare la distanza di smussatura/dilatazione lungo i bordi della maschera, dove un valore più scuro determina una distanza più breve. |
-| <b>Mappa angolo</b> *Scala di grigi* | Input facoltativo utilizzato quando il valore del parametro &#39;Angle Map Multiplier&#39; è maggiore di 0.   Viene utilizzato per regolare la direzione della sfumatura distanza aggiungendo il suo valore all’angolo di direzione, in numero di giri.   Il parametro &#39;Scostamento mappa angolo&#39; consente di rimappare i valori specificando il valore 0. |
+|:---|:---|
+| <b>Input</b> <i>Scala di grigi</i> PRIMARIO | Immagine da cui estrarre la maschera.   Tutti i valori superiori a 0,5 sono bianchi nella maschera. |
+| <b>Mappa di distanza</b> <i>Scala di grigi</i> | Input facoltativo utilizzato quando il valore del parametro &#39;Moltiplicatore Mappa di distanza&#39; è maggiore di 0.   Viene utilizzato per regolare la distanza di smussatura/dilatazione lungo i bordi della maschera, dove un valore più scuro determina una distanza più breve. |
+| <b>Mappa angolo</b> <i>Scala di grigi</i> | Input facoltativo utilizzato quando il valore del parametro &#39;Angle Map Multiplier&#39; è maggiore di 0.   Viene utilizzato per regolare la direzione della sfumatura distanza aggiungendo il suo valore all’angolo di direzione, in numero di giri.   Il parametro &#39;Scostamento mappa angolo&#39; consente di rimappare i valori specificando il valore 0. |
 
-## Connettori di uscita
+<a name="outputs"></a>
+
+## Output
 
 |  |  |
-| --- | --- |
-| <b>Output</b> *Scala di grigi* | Immagine del risultato in base alla modalità di output selezionata. |
-| <b>UV</b> *Colore* | Una mappa UV in cui gli UV sono dilatati dai bordi della maschera lungo la direzione specificata.   Questo può essere collegato a un nodo [UV Mapper](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md) per mappare qualsiasi altra immagine utilizzando questi UV dilatati. |
+|:---|:---|
+| <b>Output</b> <i>Scala di grigi</i> | Immagine del risultato in base alla modalità di output selezionata. |
+| <b>UV</b> <i>Colore</i> | Una mappa UV in cui gli UV sono dilatati dai bordi della maschera lungo la direzione specificata.   Questo può essere collegato a un nodo [UV Mapper](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md) per mappare qualsiasi altra immagine utilizzando questi UV dilatati. |
+
+<a name="parameters"></a>
 
 ## Parametri
 
 |  |  |
-| --- | --- |
+|:---|:---|
 | <b>Modalità output</b> *Numero intero* | Metodo per disegnare la sfumatura di distanza dai bordi della maschera:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Distanza normalizzata invertita:</b> una sfumatura da 1 a 0 dove 0 viene raggiunto alla &#39;Distanza massima&#39;, moltiplicata per la &#39;Mappa di distanza&#39; se collegata</li> <li data-preserve-html="true"><b>Distanza:</b> una sfumatura con valori di distanza non elaborati dal bordo della maschera, dove 1 rappresenta la lunghezza del lato più corto dell&#39;immagine di input</li> </ul> |
 | <b>Distanza massima</b> *Mobile* | La distanza percorsa dalla sfumatura di distanza, nello spazio dell&#39;immagine normalizzato in cui 1 è la lunghezza del lato più corto dell&#39;immagine di input. |
 | <b>Angolo</b> *Mobile* | La direzione della sfumatura distanza in numero di giri, dove 0 è orizzontale e a destra, ovvero un vettore (1,0). |
@@ -102,11 +88,11 @@ La distanza della sfumatura può essere regolata dinamicamente lungo il bordo ut
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/directional_distance_example_1_before.jpg" alt="directional_distance_example_1_before">
+      <img src="directional-distance.resources/directional_distance_example_1_before.jpg" alt="directional_distance_example_1_before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../../../../../assets/directional_distance_example_1_after.jpg" alt="directional_distance_example_1_after">
+      <img src="directional-distance.resources/directional_distance_example_1_after.jpg" alt="directional_distance_example_1_after">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -118,11 +104,11 @@ La distanza della sfumatura può essere regolata dinamicamente lungo il bordo ut
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/directional_distance_example_3_before.jpg" alt="directional_distance_example_3_before">
+      <img src="directional-distance.resources/directional_distance_example_3_before.jpg" alt="directional_distance_example_3_before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../../../../../assets/directional_distance_example_3_after.jpg" alt="directional_distance_example_3_after">
+      <img src="directional-distance.resources/directional_distance_example_3_after.jpg" alt="directional_distance_example_3_after">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -139,11 +125,11 @@ La distanza della sfumatura può essere regolata dinamicamente lungo il bordo ut
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/directional_distance_example_2_before.jpg" alt="directional_distance_example_2_before">
+      <img src="directional-distance.resources/directional_distance_example_2_before.jpg" alt="directional_distance_example_2_before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../../../../../assets/directional_distance_example_2_after.jpg" alt="directional_distance_example_2_after">
+      <img src="directional-distance.resources/directional_distance_example_2_after.jpg" alt="directional_distance_example_2_after">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -155,11 +141,11 @@ La distanza della sfumatura può essere regolata dinamicamente lungo il bordo ut
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/directional_distance_example_5_before.jpg" alt="directional_distance_example_5_before">
+      <img src="directional-distance.resources/directional_distance_example_5_before.jpg" alt="directional_distance_example_5_before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../../../../../assets/directional_distance_example_5_after.jpg" alt="directional_distance_example_5_after">
+      <img src="directional-distance.resources/directional_distance_example_5_after.jpg" alt="directional_distance_example_5_after">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -172,11 +158,11 @@ La distanza della sfumatura può essere regolata dinamicamente lungo il bordo ut
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/directional_distance_example_4_before.jpg" alt="directional_distance_example_4_before">
+      <img src="directional-distance.resources/directional_distance_example_4_before.jpg" alt="directional_distance_example_4_before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../../../../../assets/directional_distance_example_4_after.jpg" alt="directional_distance_example_4_after">
+      <img src="directional-distance.resources/directional_distance_example_4_after.jpg" alt="directional_distance_example_4_after">
       <br><i>Dopo</i>
     </td>
   </tr>

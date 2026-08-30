@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Sfumatura riflessa assiale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '101'
 ht-degree: 1%
 
 ---
@@ -22,32 +22,29 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/gradient-axial-reflected.png){width="128px"}
+![](gradient-axial-reflected.resources/gradient-axial-reflected.png){width="128px"}
 
-## Sfumatura riflessa assiale
-
-**Ingresso:** *Generatori Di Texture**/Pattern*
-
-**Semplice**
+<b>Ingresso:</b> Generatori Texture > Pattern
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
 Simile a [Sfumatura assiale](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/gradient-axial/gradient-axial.md), crea una sfumatura in scala di grigio tra due punti definiti in modo personalizzato, in cui le sfumature iniziano e terminano con il nero e raggiungono il bianco al centro della transizione. Tieni presente che i risultati non vengono sempre affiancati.
 
-## Parametri
-
-* **Punto 1**:\
-  Primo punto da cui iniziare la sfumatura (nero)
-* **Punto 2**:\
-  Secondo punto in cui terminare la sfumatura (bianco)
-* **Non square expansion**: *Falso/Vero*\
-  Abilita la compensazione di schiaccia e allunga con rapporti non quadrati.
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Punto 1</b> | Primo punto da cui iniziare la sfumatura (nero) |
+| <b>Punto 2</b> | Secondo punto in cui terminare la sfumatura (bianco) |
+| <b>Non square expansion</b> <i>Falso/Vero</i> | Abilita la compensazione di schiaccia e allunga con rapporti non quadrati. |

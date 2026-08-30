@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Grafici Substance
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../assets/graph-5.png){width="120px"}](https://substance3d.adobe.com/)
+[![](substance-compositing-graphs.resources/graph-5.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -44,7 +44,7 @@ I grafici a Substance sono[il tipo di grafico più supportato](../getting-starte
 Di seguito sono riportati alcuni esempi tipici di casi di utilizzo comuni.
 
 +++Forma semplice
-![Forma semplice nel grafico della Substance](../assets/simpleshape.png "Forma semplice nel grafico della Substance"){width="512px"}
+![Forma semplice nel grafico della Substance](substance-compositing-graphs.resources/simpleshape.png "Forma semplice nel grafico della Substance"){width="512px"}
 
 
 
@@ -55,7 +55,7 @@ Il testo con il numero o il thickness del bordo può essere esposto esternamente
 +++
 
 +++Filtro di regolazione
-![Filtro di regolazione nel grafico della Substance](../assets/simplefilter.png "Filtro di regolazione nel grafico della Substance"){width="512px"}
+![Filtro di regolazione nel grafico della Substance](substance-compositing-graphs.resources/simplefilter.png "Filtro di regolazione nel grafico della Substance"){width="512px"}
 
 
 
@@ -66,7 +66,7 @@ I valori di contrasto impostati nell’istogramma possono essere esposti, renden
 +++
 
 +++Materiale completo
-![Materiale completo nel grafico della Substance](../assets/simplematerial.png "Materiale completo nel grafico della Substance"){width="512px"}
+![Materiale completo nel grafico della Substance](substance-compositing-graphs.resources/simplematerial.png "Materiale completo nel grafico della Substance"){width="512px"}
 
 
 

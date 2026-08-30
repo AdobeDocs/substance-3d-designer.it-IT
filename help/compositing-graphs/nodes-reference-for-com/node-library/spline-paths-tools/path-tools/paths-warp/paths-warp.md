@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Alterazione tracciati
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 1%
+source-wordcount: '215'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo](../../../../../../assets/paths-warp-icon.png "Icona nodo")
+![Icona nodo](paths-warp.resources/paths-warp-icon.png "Icona nodo")
 
 <b>In:</b> Strumenti spline e tracciati > Strumenti tracciato
 
@@ -39,27 +39,31 @@ Deforma i percorsi di input in base all&#39;<b>input sfumatura</b>. Stesso effet
 </tr>
 </table>
 
-## Connettori di ingresso
+<a name="inputs"></a>
 
-<b>Tracciati</b> *Colore*\
-Un elenco di percorsi dei segmenti codificati. Collegare questo input al risultato di una [maschera ai percorsi](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) o a un altro nodo di elaborazione dei percorsi.
+## Input
 
-<b>Input sfumatura</b> *Scala di grigi*\
-L’input di tipo height che controlla sia l’entità che la direzione dell’alterazione. Stesso effetto del nodo [Altera](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md).
+|  |  |
+|:---|:---|
+| <b>Tracciati</b> <i>Colore</i> | Un elenco di percorsi dei segmenti codificati. Collegare questo input al risultato di una [maschera ai percorsi](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) o a un altro nodo di elaborazione dei percorsi. |
+| <b>Input sfumatura</b> <i>Scala di grigi</i> | L’input di tipo height che controlla sia l’entità che la direzione dell’alterazione. Stesso effetto del nodo [Altera](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md). |
 
-## Connettori di uscita
+<a name="outputs"></a>
 
-<b>Tracciati</b> *Colore*\
-I tracciati trasformati. Potete utilizzare [Anteprima tracciati](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) per avere un&#39;idea di ciò che rappresenta il risultato, utilizzare un altro nodo di elaborazione tracciati o inserirlo in un [Tracciati da spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) per elaborarlo ulteriormente come spline.
+## Output
+
+|  |  |
+|:---|:---|
+| <b>Tracciati</b> <i>Colore</i> | I tracciati trasformati. Potete utilizzare [Anteprima tracciati](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) per avere un&#39;idea di ciò che rappresenta il risultato, utilizzare un altro nodo di elaborazione tracciati o inserirlo in un [Tracciati da spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) per elaborarlo ulteriormente come spline. |
+
+<a name="parameters"></a>
 
 ## Parametri
 
-<b>Intensità</b> *Mobile*\
-Il parametro <b>Intensità</b> imposta l&#39;intensità dell&#39;alterazione.
-
-<b>Numero di passaggi</b> *Numero intero*\
-Usate un valore più alto per alterare i tracciati di input di più piccoli incrementi.\
-Questo può impedire al percorso di intersecarsi, soprattutto quando si utilizzano valori di <b>intensità</b> elevati.
+|  |  |
+|:---|:---|
+| <b>Intensità</b> <i>Mobile</i> | Il parametro <b>Intensità</b> imposta l&#39;intensità dell&#39;alterazione. |
+| <b>Numero di passaggi</b> <i>Numero intero</i> | Usate un valore più alto per alterare i tracciati di input di più piccoli incrementi.<br>Questo può impedire al percorso di intersecarsi, soprattutto quando si utilizzano valori di <b>intensità</b> elevati. |
 
 ## Esempi
 
@@ -70,11 +74,11 @@ Questo può impedire al percorso di intersecarsi, soprattutto quando si utilizza
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="paths-warp.resources/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../../../../../assets/PathsWarp-Variant1-After.jpg" alt="PathsWarp-Variant1-After">
+      <img src="paths-warp.resources/PathsWarp-Variant1-After.jpg" alt="PathsWarp-Variant1-After">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -86,11 +90,11 @@ Questo può impedire al percorso di intersecarsi, soprattutto quando si utilizza
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="paths-warp.resources/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../../../../../assets/PathsWarp-Variant2-After.jpg" alt="PathsWarp-Variant2-After">
+      <img src="paths-warp.resources/PathsWarp-Variant2-After.jpg" alt="PathsWarp-Variant2-After">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -104,7 +108,7 @@ Questo può impedire al percorso di intersecarsi, soprattutto quando si utilizza
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 1](../../../../../../assets/PathsWarp-Demo1.gif "Esempio di nodo 1")
+![Esempio di nodo 1](paths-warp.resources/PathsWarp-Demo1.gif "Esempio di nodo 1")
 
 </td>
 <td style="border: 0;" valign="top">

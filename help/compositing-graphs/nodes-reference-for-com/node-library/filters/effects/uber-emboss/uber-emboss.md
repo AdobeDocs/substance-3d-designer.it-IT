@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/uber-emboss.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo Rilievo di Uber per creare effetti di rilievo avanzati con controlli personalizzabili per profondità, angolo e illuminazione.
+description: Usa il nodo Effetto rilievo di Uber per creare effetti effetto rilievo avanzati con controlli personalizzabili per profondità, angolo e illuminazione.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Uber Emboss
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Rilievo Uber
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 2%
+source-wordcount: '164'
+ht-degree: 9%
 
 ---
 
@@ -22,54 +22,56 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/uber-emboss.png){width="128px"}
+![](uber-emboss.resources/uber-emboss.png){width="128px"}
 
-## Rilievo Uber
-
-**Ingresso:** *Filtri/Effetti*
-
-**Intermedio**
+<b>Ingresso:</b> Filtri > Effetti
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
-Versione avanzata con numerose funzionalità di [Rilievo](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/emboss/emboss.md). Esegue un elaborato effetto di illuminazione 2D falso basato su una mappa di altezza.
+Versione avanzata con numerose funzionalità di [Effetto rilievo](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/emboss/emboss.md). Esegue un elaborato effetto di illuminazione 2D falso basato su una mappa di altezza.
 
-È utile quando si crea un’illuminazione incorporata per alcuni stili di texture quando è necessario un grande controllo.
-
-## Parametri
-
-### Input
-
-* **Colore**: *Input colore*\
-  Immagine di base da modificare.
-* **Height**: *Input scala di grigi*\
-  Heightmap utilizzata come driver per l’effetto.
-
-### Parametri
-
-* **Colore ambiente**: *(Valore cromatico)*Colore utilizzato nelle aree in ombra.
-* **Colore diffuso**: *(Valore colore)*Colore utilizzato nelle aree illuminate.
-* **Colore Specular**: *(Valore colore)*Colore utilizzato per i riflessi degli specular
-* **Intensità luce**: *0,0 - 1,0*\
-  Intensità della luce (simulata).
-* **Angolo luce**: *0,0 - 1,0*\
-  Angolo di incidenza della luce (simulata)
-* **Intensità Specular**: *0,0 - 1,0* Intensità dei riflessi degli specular.
-* **Lucidità Specular**: *0,0 - 1,0* Dimensioni dell&#39;evidenziazione dello specular.
-* **Rugosità diffusa**: *0.0 - 1.0* Rugosità utilizzata nel calcolo della luce diffusa.
-* **Opacità ombre**: *0.0 - 1.0* Opacità di fusione delle aree in ombra.
-
-## Immagini di esempio
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/uberemboss-ex.png" width="300px"/></div> |
-| --- |
-|  |
+È utile quando si crea un’illuminazione eseguita i baking per alcuni stili di texture quando è necessario un grande controllo.
 
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Input
+
+|  |  |
+|:---|:---|
+| <b>Colore</b> <i>Input colore</i> | Immagine di base da modificare. |
+| <b>Height</b> <i>Input scala di grigi</i> | Heightmap utilizzata come driver per l’effetto. |
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Colore ambiente</b> <i>(valore colore)</i> | Colore usato nelle aree in ombra. |
+| <b>Colore Diffusa</b> <i>(valore colore)</i> | Colore usato nelle aree illuminate. |
+| <b>Colore Specular</b> <i>(valore colore)</i> | Colore usato per i riflessi degli specular |
+| <b>Intensità luce</b> <i>0.0 - 1.0</i> | Intensità della luce (simulata). |
+| <b>Angolo luce</b> <i>0.0 - 1.0</i> | Angolo di incidenza della luce (simulata) |
+| <b>Intensità Specular</b> <i>0.0 - 1.0</i> | Intensità dei riflessi dello specular. |
+| <b>Lucentezza Specular</b> <i>0.0 - 1.0</i> | Dimensione dell&#39;evidenziazione dello specular. |
+| <b>Rugosità Diffusa</b> <i>0.0 - 1.0</i> | Rugosità utilizzata nel calcolo dell’illuminazione diffusa. |
+| <b>Opacità ombre</b> <i>0.0 - 1.0</i> | Opacità di fusione delle aree in ombra. |
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="uber-emboss.resources/uberemboss-ex.png" />
+        </td>
+    </tr>
 </table>

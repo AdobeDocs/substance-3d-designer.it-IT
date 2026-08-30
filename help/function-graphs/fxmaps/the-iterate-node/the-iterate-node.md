@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/function-graphs/fxmaps/the-iterate-node.html"
 breadcrumb-title: ''
-description: Utilizza il nodo di iterazione in FXMaps per creare pattern ripetuti e variazioni procedurali nei materiali.
+description: Utilizza il nodo Itera in FXMaps per creare pattern ripetuti e variazioni di procedurali nei materiali.
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > FXMaps > The Iterate Node
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Nodo di iterazione
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Il nodo iterato consente di moltiplicare le immagini di un nodo quadrante ed è 
 
 Il nodo Iterate non dispone di altre proprietà oltre al parametro &quot;Come si desidera eseguire le ripetizioni?&quot;. Di conseguenza, per impostazione predefinita, le nuove immagini vengono semplicemente sovrapposte e fuse con quelle prodotte dal nodo Quadrante.
 
-Il nodo Itera ripete l&#39;immagine di input ricevuta. Il numero di ripetizioni è definito dalla relativa proprietà Iterations:
+Il nodo Itera ripete l&#39;immagine di input ricevuta. Il numero di ripetizioni è definito dalla relativa proprietà Iterazioni:
 
 Per utilizzare il nodo iterazione, è importante che vengano elaborate anche tutte le funzioni dinamiche associate a ogni immagine ripetuta. Ciò significa che ogni ripetizione può avere un proprio insieme di regolazioni uniche. È possibile utilizzare la proprietà Numero casuale del nodo iterato per modificare il funzionamento di questa proprietà. È inoltre possibile accedere alla variabile di sistema *$number* all&#39;interno delle funzioni dinamiche per determinare quale ripetizione viene attualmente sottoposta a rendering e modificare di conseguenza il risultato della funzione.
 
@@ -36,6 +36,6 @@ Tutte le stesse funzionalità dinamiche disponibili sul nodo Quadrante si applic
 
 Ogni nodo iterato ha due connettori lungo la sua base. Il connettore sinistro è un connettore pass-through. L’immagine ricevuta viene passata direttamente al connettore di output del nodo, dove viene fusa con eventuali immagini ripetute:
 
-L’immagine pass-through viene sempre passata inalterata, indipendentemente dall’impostazione del parametro di iterazione.
+L’immagine pass-through viene sempre passata inalterata, indipendentemente dall’Iterazione del parametro.
 
-![](../../../assets/iterate.jpg)
+![](the-iterate-node.resources/iterate.jpg)

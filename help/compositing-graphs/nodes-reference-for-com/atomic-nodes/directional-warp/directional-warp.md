@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Alterazione direzionale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atomico: alterazione direzionale](../../../../assets/comp_directionalwarp_1.png "Nodo atomico: alterazione direzionale"){width="200px"}
+![Nodo atomico: alterazione direzionale](directional-warp.resources/comp_directionalwarp_1.png "Nodo atomico: alterazione direzionale"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -102,17 +102,17 @@ Il nodo Altera è un nodo semplice ma utile che può essere utilizzato come base
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Alterazione direzionale - Esempio 1](../../../../assets/dir-warp.gif "Alterazione direzionale - Esempio 1"){zoomable="yes"}
+![Alterazione direzionale - Esempio 1](directional-warp.resources/dir-warp.gif "Alterazione direzionale - Esempio 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Alterazione direzionale - Esempio 2](../../../../assets/dir-warp02.gif "Alterazione direzionale - Esempio 2"){zoomable="yes"}
+![Alterazione direzionale - Esempio 2](directional-warp.resources/dir-warp02.gif "Alterazione direzionale - Esempio 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Alterazione direzionale - Esempio 3](../../../../assets/dir-warp03.gif "Alterazione direzionale - Esempio 3"){zoomable="yes"}
+![Alterazione direzionale - Esempio 3](directional-warp.resources/dir-warp03.gif "Alterazione direzionale - Esempio 3"){zoomable="yes"}
 
 </td>
 </tr>

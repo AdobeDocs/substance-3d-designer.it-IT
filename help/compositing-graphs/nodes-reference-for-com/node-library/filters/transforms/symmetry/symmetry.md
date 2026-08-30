@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Simmetria
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 4%
+source-wordcount: '100'
+ht-degree: 7%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 4%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/symmetry-9.png){width="128px"}
+![](symmetry.resources/symmetry-9.png){width="128px"}
 
-## Simmetria
-
-**Entrata:** *Filtri/Trasformazioni*
-
-**Intermedio**
+<b>Ingresso:</b> Filtri > Trasforma
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -41,17 +37,25 @@ Esegue una serie di operazioni di simmetria su un&#39;immagine di input. Può es
 
 Questo nodo è molto simile a [Mirror](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/mirror-filter-node/mirror-filter-node.md), ma dispone di controlli aggiuntivi per i metodi di fusione.
 
-## Parametri
-
-* **Modalità simmetria**: *Specularità Y, Specularità X, Diagonale Sinistra, Diagonale Destra, Specularità X/Y, Specularità X/Specularità Y, Diagonale Sinistra/Diagonale Destra, Diagonale Destra/Diagonale Sinistra, 8* Scelta della modalità geometrica di simmetria.
-* **Modalità di trasferimento**: *0 - 6* Sceglie la modalità di fusione simmetrica: Copia, Aggiungi, Sottrai, Moltiplica, Aggiungi Sub, Max, Min.
-
-## Immagini di esempio
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/symmetry-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Modalità Simmetria</b> <i>Specchio Y, Specchio X, Diagonale Sinistra, Diagonale Destra, Specchio X/Y, Specchio X / Specchio Y, Diagonale Sinistra/Diagonale Destra, Diagonale Destra/Diagonale Sinistra, 8</i> | Consente di scegliere la modalità simmetria geometrica. |
+| <b>Modalità di trasferimento</b> <i>0 - 6</i> | Scegli il metodo di fusione simmetria: Copia, Aggiungi, Sottrai, Moltiplica, Aggiungi secondario, Max, Min. |
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="symmetry.resources/symmetry-ex.png" />
+        </td>
+    </tr>
 </table>

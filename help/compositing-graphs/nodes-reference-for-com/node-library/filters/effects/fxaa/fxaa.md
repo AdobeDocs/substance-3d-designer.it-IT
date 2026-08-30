@@ -10,10 +10,10 @@ helpx_tags: ""
 title: FXAA
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 1%
+source-wordcount: '69'
+ht-degree: 2%
 
 ---
 
@@ -22,27 +22,29 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/fxaa-color.png)![](../../../../../../assets/fxaa-grayscale.png)
+![](fxaa.resources/fxaa-color.png)![](fxaa.resources/fxaa-grayscale.png)
 
-## FXAA (Colori/Scala di grigi)
-
-**Ingresso:** *Filtri/Effetti*
-
-**Semplice**
+<b>Ingresso:</b> Filtri > Effetti
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
 Applica un filtro anti-alias basato sull’algoritmo FXAA. Potete usare questa opzione per correggere bordi scalettati e con effetto pixel sulle forme. È particolarmente utile ad esempio per una [forma disco](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape/shape.md) con bordi pixelati, in quanto fornisce una soluzione semplice a un nodo per i bordi anti-alias.
 
-## Immagini di esempio
-
-![](../../../../../../assets/fxaa-ex.png)
-
 </td>
 </tr>
+</table>
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="fxaa.resources/fxaa-ex.png" />
+        </td>
+    </tr>
 </table>

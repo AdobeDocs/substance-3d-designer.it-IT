@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Controllo 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 1%
+source-wordcount: '99'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/checker-1-1.png){width="128px"}
+![](checker-1.resources/checker-1-1.png){width="128px"}
 
-## Controllo 1
-
-**Ingresso:** *Generatori Di Texture**/Pattern*
-
-**Semplice**
+<b>Ingresso:</b> Generatori Texture > Pattern
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -41,18 +37,26 @@ Modello di controllo molto semplice. L’opzione Porzione è intenzionalmente im
 
 Si tratta di un modello utile per i test case, grazie al suo contrasto evidente e alla sua suddivisione in porzioni.
 
-## Parametri
-
-* **Affiancatura**: *1 - 16*\
-  Imposta il numero di volte in cui il risultato deve essere affiancato.
-* **Rotazione di 45 gradi**: *False/True* Ruota l&#39;intero pattern di 45 gradi.
-* **Non square expansion**: *Falso/Vero*\
-  Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati.
-
-## Immagini di esempio
-
-![](../../../../../../assets/checker-1-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Affiancatura</b> <i>1 - 16</i> | Imposta il numero di volte in cui il risultato deve essere affiancato. |
+| <b>Ruotare Di 45 Gradi</b> <i>Falso/Vero</i> | Ruota l&#39;intero pattern di 45 gradi. |
+| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati. |
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="checker-1.resources/checker-1-ex.gif" />
+        </td>
+    </tr>
 </table>

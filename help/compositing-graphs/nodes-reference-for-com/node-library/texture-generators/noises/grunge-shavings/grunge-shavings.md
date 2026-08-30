@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-shavings.html"
 breadcrumb-title: ''
-description: Usa il nodo Rasatura Grunge per generare pattern di rasatura per la creazione di dettagli di grana di legno e texture di materiale.
+description: Usa il nodo Rasatura Grunge per generare pattern di rasatura per la creazione di granulosità di legno e dettagli di texture del materiale.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Shavings
 helpx_experience_level: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Rasoi Di grunge
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '152'
 ht-degree: 5%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 5%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungeshavings.jpg){width="200px"}
+![](grunge-shavings.resources/grungeshavings.jpg){width="200px"}
 
-**Ingresso:** *Generatori Di Texture* */Rumori*
-
-**Semplice**
+<b>Ingresso:</b> Generatori di Texture > Rumori
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -41,31 +39,31 @@ Il nodo **Rasatura di Grungi** in [Substance 3D Designer](https://www.adobe.com/
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parametri
 
-* **Bilanciamento** *Fluttuazione* Regola il bilanciamento tra valori scuri e chiari.
-* **Contrasto** *Mobile* Regola il contrasto dell&#39;immagine.
-* **Inverti** *Booleano* Inverte l&#39;output dell&#39;immagine, utilizzando un&#39;operazione `1-x`.
-* **Non square expansion** *Booleano* Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati.
-* Avanzate
-  * **Quantità macchie graffi** *Mobili* Quantità e *copertura* dell’effetto macchie graffiate utilizzato per generare le rasature.
-  * **Affiancatura macchie graffi** *Numero intero* Quantità di affiancatura dell’effetto macchie graffiate utilizzato per generare rasature.
-  * **Intensità Dust** *Fluttuazione* Intensità della sovrapposizione del dust sulla superficie.
-  * **Intensità nitidezza** *Fluttuazione* Intensità dell&#39;effetto di nitidezza globale.
+|  |  |
+|:---|:---|
+| <b>Saldo</b> <i>Mobile</i> | Regola il bilanciamento tra i valori di luminosità e oscurità. |
+| <b>Contrasto</b> <i>Mobile</i> | Regola il contrasto dell’immagine. |
+| <b>Inverti</b> <i>Booleano</i> | Inverte l&#39;output dell&#39;immagine utilizzando un&#39;operazione `1-x`. |
+| <b>Non square expansion</b> <i>Booleano</i> | Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati. |
+| <b>Avanzate</b> |  |
+| <b>Quantità macchie memoria virtuale</b> <i>Mobile</i> | Quantità e *copertura* dell&#39;effetto macchie graffiate utilizzato per generare le rasature. |
+| <b>Affiancamento macchie memoria virtuale</b> <i>Numero intero</i> | Quantità di Affiancamento dell’effetto macchie graffiate utilizzato per generare le rasature. |
+| <b>Intensità Dust</b> <i>Mobile</i> | Intensità della sovrapposizione del dust sulla superficie. |
+| <b>Intensità nitidezza</b> <i>Mobile</i> | Intensità dell’effetto nitidezza globale. |
 
-## Immagini di esempio
+## Esempi
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungeshavings-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungeshavings-variant.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grunge-shavings.resources/grungeshavings-variant2.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="grunge-shavings.resources/grungeshavings-variant.jpg" />
+        </td>
+    </tr>
 </table>

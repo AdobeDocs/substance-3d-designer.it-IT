@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Barra degli strumenti principale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 2%
@@ -29,7 +29,7 @@ Questa pagina descrive la barra degli strumenti principale e il menu di [Substan
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
 
-![Barra degli strumenti principale](../../assets/mainmenu.png "Barra degli strumenti principale")
+![Barra degli strumenti principale](the-main-toolbar.resources/mainmenu.png "Barra degli strumenti principale")
 
 </td>
 </tr>
@@ -37,15 +37,15 @@ Questa pagina descrive la barra degli strumenti principale e il menu di [Substan
 
 ## Pulsanti di accesso rapido
 
-![](../../assets/newsubstance.png) <b>Nuovo grafico Substance...:</b> (Ctrl+N)Visualizza la finestra [Nuovo grafico](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md), quindi crea un nuovo pacchetto con un [grafico Substance](../../compositing-graphs/substance-compositing-graphs.md).
+![](the-main-toolbar.resources/newsubstance.png) <b>Nuovo grafico Substance...:</b> (Ctrl+N)Visualizza la finestra [Nuovo grafico](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md), quindi crea un nuovo pacchetto con un [grafico Substance](../../compositing-graphs/substance-compositing-graphs.md).
 
-![](../../assets/open.png) <b>Apri...:</b> (Ctrl+O) Apri un [pacchetto di Substance esistente (.SBS, .SBSAR, .SBSASM)](../../getting-started/overview/overview.md).
+![](the-main-toolbar.resources/open.png) <b>Apri...:</b> (Ctrl+O) Apri un [pacchetto di Substance esistente (.SBS, .SBSAR, .SBSASM)](../../getting-started/overview/overview.md).
 
-![](../../assets/saveall.png) <b>Salva tutto:</b> (Ctrl+⇧+S) Salva tutti i pacchetti elencati in [Esplora risorse](../../interface/the-explorer-window/the-explorer-window.md).
+![](the-main-toolbar.resources/saveall.png) <b>Salva tutto:</b> (Ctrl+⇧+S) Salva tutti i pacchetti elencati in [Esplora risorse](../../interface/the-explorer-window/the-explorer-window.md).
 
-![](../../assets/undo.png) <b>Annulla:</b> (CTRL+Z) Annulla l&#39;ultima operazione.
+![](the-main-toolbar.resources/undo.png) <b>Annulla:</b> (CTRL+Z) Annulla l&#39;ultima operazione.
 
-![](../../assets/redo.png) <b>Ripeti:</b> (CTRL+Y) Ripeti l&#39;ultima operazione annullata.
+![](the-main-toolbar.resources/redo.png) <b>Ripeti:</b> (CTRL+Y) Ripeti l&#39;ultima operazione annullata.
 
 ## File
 
@@ -118,11 +118,11 @@ Questa pagina descrive la barra degli strumenti principale e il menu di [Substan
 
 <b>Console:</b> mostrare/nascondere la finestra della console.
 
-<b>Visualizzazione 3D:</b> mostrare/nascondere [Visualizzazione/i 3D](../../interface/3d-view/3d-view.md).
+<b>vista 3D:</b> Mostra/Nascondi [vista 3D](../../interface/3d-view/3d-view.md).
 
 <b>Gestione dipendenze:</b> mostrare/nascondere [Gestione dipendenze](../../interface/dependency-manager/dependency-manager.md).
 
-<b>Visualizzazioni 2D:</b> Mostrare/Nascondere la [visualizzazione 2D](../2d-view/2d-view.md).
+<b>Visualizzazioni 2D:</b> Mostra/Nascondi [vista 2D](../2d-view/2d-view.md).
 
 <b>Libreria:</b> Mostra/Nascondi la [finestra Libreria.](../../interface/the-library/the-library.md)
 

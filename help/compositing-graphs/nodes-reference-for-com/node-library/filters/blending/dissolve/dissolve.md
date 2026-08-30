@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Dissolvi
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '89'
 ht-degree: 7%
 
 ---
@@ -22,41 +22,38 @@ ht-degree: 7%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/dissolve-2.png){width="128px"}
+![](dissolve.resources/dissolve-2.png){width="128px"}
 
-## Dissolvi
-
-**Ingresso:** *Filtri/Fusione*
-
-**Semplice**
+<b>Ingresso:</b> Filtri > Fusione
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
 Unisce due input con Disturbo bianco come maschera per la transizione.
 
-## Parametri
-
-### Input
-
-* **Primo piano**: *Input colore*
-* **Sfondo**: *Input colore*
-* **Maschera**: *Input scala di grigi*\
-  Slot maschera utilizzato per mascherare gli effetti del nodo.
-
-### Parametri
-
-* **Opacità**: *0,0 - 1,0*\
-  Fusione dell’opacità tra primo piano e sfondo.
-* **Fusione Alpha**: *False/True*\
-  Attiva/disattiva la fusione dei canali alfa di primo piano e di sfondo. Se è impostato su False, il canale alfa del primo piano viene ignorato.
-
-## Immagini di esempio
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Input
+
+|  |  |
+|:---|:---|
+| <b>Primo piano</b> <i>Input colore</i> |  |
+| <b>Sfondo</b> <i>Input colore</i> |  |
+| <b>Maschera</b> <i>Input scala di grigi</i> | Slot maschera utilizzato per mascherare gli effetti del nodo. |
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Opacità</b> <i>0.0 - 1.0</i> | Fusione dell’opacità tra primo piano e sfondo. |
+| <b>Fusione alfa</b> <i>Falso/Vero</i> | Attiva/disattiva la fusione dei canali alfa di primo piano e di sfondo. Se è impostato su False, il canale alfa del primo piano viene ignorato. |

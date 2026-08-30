@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Macchie gaussiane 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 2%
+source-wordcount: '276'
+ht-degree: 1%
 
 ---
 
@@ -22,13 +22,9 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-<table>
-<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Macchie gaussiane 2 - Icona](../../../../../../assets/gaussian_spots_2.png "Macchie gaussiane 2 - Icona"){width="200px"}
+![Macchie gaussiane 2 - Icona](gaussian-spots-2.resources/gaussian_spots_2.png "Macchie gaussiane 2 - Icona"){width="200px"}
 
 <b>Ingresso:</b> Generatori di texture > Rumori
 
@@ -46,43 +42,27 @@ Vedere anche: [Macchie gaussiane 1](../../../../../../compositing-graphs/nodes-r
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### Output
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parametri
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Esempi
-
-</td>
-</tr>
-</table>
+<a name="outputs"></a>
 
 ## Output
 
 |  |  |
-| --- | --- |
-| <b>Output</b> *Scala di grigi* | Il disturbo generato come bitmap in scala di grigio. |
+|:---|:---|
+| <b>Output</b> <i>Scala di grigi</i> | Il disturbo generato come bitmap in scala di grigio. |
+
+<a name="parameters"></a>
 
 ## Parametri
 
 |  |  |
-| --- | --- |
-| <b>Scala</b> Intero | Suddivisione della griglia utilizzata per generare le porzioni di disturbo.    Un valore più elevato determina la creazione di più riquadri e un disturbo maggiore. |
-| <b>Disturbo</b> Mobile | Sposta gli ingredienti del disturbo.    Può essere utilizzato per animare il disturbo. |
-| <b>Velocità del disturbo</b> Mobile | Regola la distanza di spostamento applicata dal parametro <b>Disturbo</b>.    Questa opzione consente di controllare la velocità di spostamento durante l’animazione del disturbo. |
-| <b>anisotropia disturbo</b> Mobile | Controlla l&#39;estensione delle direzioni dello spostamento applicato dal parametro <b>Disturbo</b>, in cui un valore più alto determina una direzione più stretta e definita.    La direzione è controllata dal parametro <b>Angolo di anisotropia disturbo</b>. |
-| <b>Angolo di anisotropia disturbo</b> Mobile | Controlla la direzione dello spostamento applicato dal parametro <b>Disturbo</b> quando il parametro <b>anisotropia disturbo</b> è diverso da zero. |
-| <b>Scostamento porzione</b> Float2 | Controlla la posizione della porzione di piano infinito utilizzata per eseguire il rendering del disturbo. |
-| <b>Espansione non quadrata</b> Booleano | Nelle immagini non quadrate, mantiene il riquadro quadrato generato ed espande la generazione del disturbo fino ai limiti dell&#39;immagine. |
+|:---|:---|
+| <b>Scala</b> <i>Numero intero</i> | Suddivisione della griglia utilizzata per generare le porzioni di disturbo.    Un valore più elevato determina la creazione di più riquadri e un disturbo maggiore. |
+| <b>Disturbo</b> <i>Mobile</i> | Sposta gli ingredienti del disturbo.    Può essere utilizzato per animare il disturbo. |
+| <b>Velocità del disturbo</b> <i>Mobile</i> | Regola la distanza di spostamento applicata dal parametro <b>Disturbo</b>.    Questa opzione consente di controllare la velocità di spostamento durante l’animazione del disturbo. |
+| <b>anisotropia disturbo</b> <i>Mobile</i> | Controlla l&#39;estensione delle direzioni dello spostamento applicato dal parametro <b>Disturbo</b>, in cui un valore più alto determina una direzione più stretta e definita.    La direzione è controllata dal parametro <b>Angolo di anisotropia disturbo</b>. |
+| <b>angolo di anisotropia di disturbo</b> <i>Mobile</i> | Controlla la direzione dello spostamento applicato dal parametro <b>Disturbo</b> quando il parametro <b>anisotropia disturbo</b> è diverso da zero. |
+| <b>Scostamento porzione</b> <i>Float2</i> | Controlla la posizione della porzione di piano infinito utilizzata per eseguire il rendering del disturbo. |
+| <b>Espansione non quadrata</b> <i>Booleano</i> | Nelle immagini non quadrate, mantiene il riquadro quadrato generato ed espande la generazione del disturbo fino ai limiti dell&#39;immagine. |
 
 ## Esempi
 
@@ -90,12 +70,12 @@ Vedere anche: [Macchie gaussiane 1](../../../../../../compositing-graphs/nodes-r
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Macchie gaussiane 2 - Esempio 1](../../../../../../assets/gaussian_spots_2_1.png "Macchie gaussiane 2 - Esempio 1"){zoomable="yes"}
+![Macchie gaussiane 2 - Esempio 1](gaussian-spots-2.resources/gaussian_spots_2_1.png "Macchie gaussiane 2 - Esempio 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Macchie gaussiane 2 - Esempio 2](../../../../../../assets/noise_gaussian_spots_2_v2_speed0.6_aniso0.gif "Macchie gaussiane 2 - Esempio 2"){zoomable="yes"}
+![Macchie gaussiane 2 - Esempio 2](gaussian-spots-2.resources/noise_gaussian_spots_2_v2_speed0.6_aniso0.gif "Macchie gaussiane 2 - Esempio 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -105,26 +85,12 @@ Vedere anche: [Macchie gaussiane 1](../../../../../../compositing-graphs/nodes-r
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Macchie gaussiane 2 - Esempio 3](../../../../../../assets/noise_gaussian_spots_2_v2_speed0.6_aniso1.gif "Macchie gaussiane 2 - Esempio 3"){zoomable="yes"}
+![Macchie gaussiane 2 - Esempio 3](gaussian-spots-2.resources/noise_gaussian_spots_2_v2_speed0.6_aniso1.gif "Macchie gaussiane 2 - Esempio 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Macchie gaussiane 2 - Esempio 4](../../../../../../assets/noise_gaussian_spots_2_v2_speed0.3_aniso0.6.gif "Macchie gaussiane 2 - Esempio 4"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+![Macchie gaussiane 2 - Esempio 4](gaussian-spots-2.resources/noise_gaussian_spots_2_v2_speed0.3_aniso0.6.gif "Macchie gaussiane 2 - Esempio 4"){zoomable="yes"}
 
 </td>
 </tr>

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Generatore tessitura
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 1%
+source-wordcount: '135'
+ht-degree: 9%
 
 ---
 
@@ -22,37 +22,42 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/weave-generator.png){width="128px"}
+![](weave-generator.resources/weave-generator.png){width="128px"}
 
-## Generatore tessitura
-
-**Ingresso:** *Generatori Di Texture**/Pattern*
-
-**Intermedio**
+<b>Ingresso:</b> Generatori Texture > Pattern
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
 Questo nodo genera un semplice motivo a trama con alcune opzioni. Consente un maggiore controllo rispetto ai modelli di trama predefiniti e presenta un modello che non può essere ottenuto con altri nodi.
 
-## Parametri
-
-* **Affianca X**: *1 - 20* Imposta il numero di blocchi ripetuti sull&#39;asse X.
-* **Affianca Y**: *1 - 20* Impostare il numero di blocchi ripetuti sull&#39;asse Y.
-* **Forma**: *0.0 - 1.0* Imposta il profilo del height della curva del punto.
-* **Tessuto**: *1 - 10* Imposta il numero di punti per blocco.
-* **Spazio**: *0.0 - 1.0* Imposta lo spazio tra i punti sugli assi X e Y.
-* **Non square expansion**: *Falso/Vero*\
-  Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati.
-
-## Immagini di esempio
-
-![](../../../../../../assets/weave-generator-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Affianca X</b> <i>1 - 20</i> | Imposta il numero di blocchi ripetuti sull&#39;asse X. |
+| <b>Affianca Y</b> <i>1 - 20</i> | Impostate il numero di blocchi ripetuti sull&#39;asse Y. |
+| <b>Forma</b> <i>0.0 - 1.0</i> | Imposta il profilo del height di curve del punto. |
+| <b>Tessuto</b> <i>1 - 10</i> | Consente di impostare il numero di punti per blocco. |
+| <b>Spazio vuoto</b> <i>0.0 - 1.0</i> | Imposta lo spazio tra i punti sugli assi X e Y. |
+| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati. |
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="weave-generator.resources/weave-generator-ex.gif" />
+        </td>
+    </tr>
 </table>

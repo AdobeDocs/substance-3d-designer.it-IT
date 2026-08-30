@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Elaboratore valori
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atomico: processore valori](../../../../assets/comp_valueprocessor_1.png "Nodo atomico: processore valori"){width="200px"}
+![Nodo atomico: processore valori](value-processor.resources/comp_valueprocessor_1.png "Nodo atomico: processore valori"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Poligono 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 1%
+source-wordcount: '110'
+ht-degree: 11%
 
 ---
 
@@ -22,39 +22,44 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/polygon-2-1.png){width="128px"}
+![](polygon-2.resources/polygon-2-1.png){width="128px"}
 
-## Poligono 2
-
-**Ingresso:** *Generatori Di Texture**/Pattern*
-
-**Intermedio**
+<b>Ingresso:</b> Generatori Texture > Pattern
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
 Genera una forma poligonale con sfumature omogenee con opzioni di regolazione. Per una versione più avanzata, vedere [Poligono 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/polygon-1/polygon-1.md).
 
-## Parametri
-
-* **Lati**: *3 - 32* Quantità di lati.
-* **Scala**: *0.0 - 1.0* Imposta la scala globale.
-* **Rotazione**: *0.0 - 1.0* Ruota l&#39;intera forma.
-* **Curva**: *-1.0 - 1.0* Modifica la curva del profilo della sfumatura.
-* **Sfumatura**: *0.0 - 1.0* Regola il contrasto della sfumatura.
-* **Inverti sfumatura**: *False/True* Inverte la direzione della sfumatura.
-* **Scala automatica**: *False/True* Scala per adattarsi all&#39;area di lavoro con le impostazioni predefinite.
-* **Non square expansion**: *Falso/Vero*\
-  Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati.
-
-## Immagini di esempio
-
-![](../../../../../../assets/polygon-2-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Lati</b> <i>3 - 32</i> | Quantità di lati. |
+| <b>Scala</b> <i>0.0 - 1.0</i> | Imposta la scala globale. |
+| <b>Rotazione</b> <i>0.0 - 1.0</i> | Ruota l&#39;intera forma. |
+| <b>Curva</b> <i>-1.0 - 1.0</i> | Modifica la curva del profilo della sfumatura. |
+| <b>Sfumatura</b> <i>0.0 - 1.0</i> | Regola il contrasto della sfumatura. |
+| <b>Inverti sfumatura</b> <i>Falso/Vero</i> | Inverte la direzione della sfumatura. |
+| <b>Scala automatica</b> <i>Falso/Vero</i> | Scala per adattarsi all&#39;area di lavoro con le impostazioni predefinite. |
+| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati. |
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="polygon-2.resources/polygon-2-ex.gif" />
+        </td>
+    </tr>
 </table>

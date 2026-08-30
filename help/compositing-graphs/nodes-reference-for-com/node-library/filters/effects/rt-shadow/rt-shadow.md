@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Ombre RT
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -22,14 +22,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo Ombre RT](../../../../../../assets/rt-shadow.png "Icona nodo Ombre RT")
+![Icona nodo Ombre RT](rt-shadow.resources/rt-shadow.png "Icona nodo Ombre RT")
 
-<b>Ingresso:</b> *Filtri/Effetti*
+<b>Ingresso:</b> Filtri > Effetti
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -41,65 +41,36 @@ Questo nodo non deve essere utilizzato in combinazione con il motore CPU (SSE) a
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parametri
 
-<b>Esempi</b> *Numero intero*\
-Numero di raggi utilizzati per calcolare le ombre.\
-Un valore più elevato fornisce un risultato più uniforme e preciso, a costo di prestazioni.
+|  |  |
+|:---|:---|
+| <b>Esempi</b> <i>Numero intero</i> | Numero di raggi utilizzati per calcolare le ombre.<br>Un valore più elevato fornisce un risultato più uniforme e preciso, a scapito delle prestazioni. |
+| <b>Modalità</b> <i>Numero intero</i> | Metodo di disegno delle ombre sulla superficie. |
+| <b>Scala Height</b> <i>Mobile</i> | Un moltiplicatore per l’intensità della mappa del height di input. |
+| <b>Posizione chiara</b> <i>Float2</i> | Posizione della sorgente luminosa su una sfera che racchiude la superficie:<br><br>- <b>X</b>: posizione orizzontale, in numero di giri;<br>- <b>Y</b>: posizione verticale, dove 0,5 è lo zenit e 0/1 è l&#39;orizzonte. |
+| <b>Intensità luce</b> <i>Mobile</i> | Intensità della sorgente luminosa. |
+| <b>Dimensioni Chiare</b> <i>Float2</i> | (Disponibile se <b>Modalità</b> è impostato su <i>Ombreggiato</i>) La dimensione della sorgente luminosa come rettangolo. |
+| <b>Scala luminosa (ombre morbide)</b> <i>Mobile</i> | Moltiplicatore per il contributo delle <b>dimensioni della luce</b> alla direzione dei raggi.<br>Un valore più elevato determina ombre più omogenee. |
+| <b>Luce sopra l&#39;orizzonte</b> <i>Booleano</i> | Se <b>Posizione luce</b> è impostato in modo da posizionare la luce sotto l&#39;orizzonte, questo parametro impedisce alla luce di superare tale soglia, il che significa che i valori Y sono bloccati nell&#39;intervallo [0;1]. |
+| <b>Opacità ombra</b> <i>Mobile</i> | Moltiplicatore per l’opacità delle ombre disegnate sulla superficie. |
+| <b>Attenuazione ombra</b> <i>Mobile</i> | Moltiplicatore per l&#39;attenuazione delle ombre più lontane sono dall&#39;ingombro.<br>Un valore pari a 0 genera ombre uniformi (vengono comunque applicate ombre morbide). |
+| <b>Lunghezza massima ombre</b> <i>Mobile</i> | Distanza massima a cui è possibile disegnare un&#39;ombra dal relativo caster.<br>Un valore pari a 0 non produce ombre visibili. |
 
-<b>Modalità</b> *Numero intero*\
-Metodo di disegno delle ombre sulla superficie.
+## Esempi
 
-<b>Scala Height</b> *Mobile*\
-Un moltiplicatore per l’intensità della mappa del height di input.
-
-<b>Posizione Chiara </b>*Float2*\
-Posizione della sorgente luminosa su una sfera che racchiude la superficie:
-* <b>X</b>: posizione orizzontale, in numero di giri;
-* <b>Y</b>: posizione verticale, dove 0,5 è lo zenit e 0/1 è l&#39;orizzonte.
-
-<b>Intensità luce</b> *Mobile*\
-Intensità della sorgente luminosa.
-
-<b>Dimensioni Chiare</b> *Float2* (disponibile quando <b>Mode</b> è impostato su *Shaded*)\
-Dimensioni della sorgente luminosa come rettangolo.
-
-<b>Scala luminosa (ombre morbide)</b> *Mobile*\
-Moltiplicatore per il contributo della <b>dimensione della luce</b> alla direzione dei raggi.\
-Con un valore più alto le ombre risultano più uniformi.
-
-<b>Luce sopra l&#39;orizzonte</b> *Booleano*\
-Se <b>Posizione luce</b> è impostato in modo da posizionare la luce sotto l&#39;orizzonte, questo parametro impedisce alla luce di superare tale soglia, il che significa che i valori Y sono bloccati nell&#39;intervallo [0;1].
-
-<b>Opacità ombra</b> *Mobile*\
-Moltiplicatore per l’opacità delle ombre disegnate sulla superficie.
-
-<b>Attenuazione ombra</b> *Mobile*\
-Un moltiplicatore per l&#39;attenuazione delle ombre più lontane sono dalla loro cassa.\
-Un valore pari a 0 determina ombre uniformi (vengono comunque applicate ombre morbide).
-
-<b>Lunghezza massima ombre</b> *Mobile*\
-Distanza massima che un&#39;ombra può essere tracciata dalla sua base.\
-Un valore pari a 0 non produce ombre visibili.
-
-## Immagini di esempio
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Nodo Ombre RT - Esempio 1](../../../../../../assets/RTShadows-01.jpg "Nodo Ombre RT - Esempio 1")
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Nodo Ombre RT - Esempio 2](../../../../../../assets/RTShadows-02.jpg "Nodo Ombre RT - Esempio 2")
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Nodo Ombre RT - Esempio 3](../../../../../../assets/RTShadows-03.jpg "Nodo Ombre RT - Esempio 3")
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="rt-shadow.resources/RTShadows-01.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="rt-shadow.resources/RTShadows-02.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="rt-shadow.resources/RTShadows-03.jpg" />
+        </td>
+    </tr>
 </table>

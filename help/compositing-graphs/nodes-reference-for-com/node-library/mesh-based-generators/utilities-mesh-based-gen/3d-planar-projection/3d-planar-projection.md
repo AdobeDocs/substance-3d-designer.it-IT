@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Proiezione planare 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 1%
+source-wordcount: '253'
+ht-degree: 7%
 
 ---
 
@@ -22,54 +22,59 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3d-planar-gray.png)![](../../../../../../assets/3d-planar.png)
+![](3d-planar-projection.resources/3d-planar-gray.png)![](3d-planar-projection.resources/3d-planar.png)
 
-## Proiezione planare 3D (a colori)
-
-**Ingresso:** *Generatori Basati Su Trama**/Utility*
-
-**Complesso**
+<b>In:</b> Generatori Basati Su Trama > Utility
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
 Esegue una proiezione planare basata sui dati della trama cotta (Posizione e Mappe normali mondiali). Consente di proiettare e posizionare decalcomanie tra giunture, indipendentemente dalla mappatura UV originale.
 
-## Parametri
-
-### Input
-
-* **Mappa posizione**: *Input colore* Mappa posizione al forno
-* **Spazio Mondiale Normale**: *Input Colore* Mappa Normale Spazio Mondiale Al Forno
-* **Texture proiettata**: *Input colore* Input texture per proiettare sulla destinazione.
-
-### Parametri
-
-* **Posizionamento**
-  * **Input progetto**: *Posizione UV, Posizione spazio globale* Scegliere se la posizione di proiezione è impostata in 2D/UV o in uno spazio 3D/mondiale.
-  * **Posizione UV di destinazione**:\
-    Solo con input posizione UV, ideale per selezionare un punto nella vista 2D sulla mappa posizione.
-  * **Posizione di destinazione**: *(valore colore)*Solo con l’input Posizione spazio mondo, consente di definire una coordinata 3D esatta.
-  * **Target Normal**: *(valore colore)*
-  * **Rotazione**: *0,0 - 1,0\
-    Ruota la texture proiettata lungo l&#39;asse normale.*
-  * **Scala**: *0,0 - 1,0*\
-    Impostate la scala globale per la texture proiettata.
-  * **Dimensioni**: *0,0 - 2,0* Eseguire il ridimensionamento non uniforme sulla texture proiettata.
-* **Mascheratura**
-  * **Profondità massima**: *0.0 - 1.0* Controlla la profondità in cui apparirà la texture proiettata, quando verrà tagliata.
-  * **Dissolvenza Profondità**: *0.0 - 1.0* Impostare la transizione in modo che la profondità di taglio sia improvvisa o sbiadita.
-  * **Soglia normale**: *-1.0 - 1.0* Impostare la soglia per le superfici non esattamente allineate con la normale di proiezione.
-  * **Dissolvenza normale**: *0.0 - 1.0* Impostare la transizione per le superfici non allineate a una dissolvenza improvvisa o dissolvenza.
-
-## Immagini di esempio
-
-![](../../../../../../assets/3d-planar-projection-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Input
+
+|  |  |
+|:---|:---|
+| <b>Mappa posizione</b> <i>Input colore</i> | Mappa posizione eseguita i baking |
+| <b>Spazio globale normale</b> <i>Input colore</i> | Mappa Normale Spazio Mondiale eseguita i baking |
+| <b>Texture prevista</b> <i>Input colore</i> | Texture di input da proiettare sulla destinazione. |
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Posizionamento</b> |  |
+| <b>Input progetto</b> <i>Posizione UV, Posizione spazio globale</i> | Scegli se la posizione di proiezione è impostata in uno spazio 2D/UV o 3D/Mondo. |
+| <b>Posizione UV di destinazione</b> | Solo con input posizione UV, ideale per selezionare un punto nella vista 2D sulla mappa posizione. |
+| <b>Posizione di destinazione</b> <i>(valore colore)</i> | Solo con l’input Posizione spazio mondo (World Space Position Input) è possibile definire una coordinata 3D esatta. |
+| <b>Destinazione normale</b> <i>(valore colore)</i> |  |
+| <b>Rotazione</b> <i>0.0 - 1.0</i> | Ruota la texture proiettata lungo l&#39;asse normale. |
+| <b>Scala</b> <i>0.0 - 1.0</i> | Impostate la scala globale per la texture proiettata. |
+| <b>Dimensioni</b> <i>0.0 - 2.0</i> | Eseguire il ridimensionamento non uniforme sulla texture proiettata. |
+| <b>Mascheratura</b> |  |
+| <b>Profondità massima</b> <i>0.0 - 1.0</i> | Controlla la profondità con cui apparirà la texture proiettata, quando verrà tagliata. |
+| <b>Profondità dissolvenza</b> <i>0.0 - 1.0</i> | Imposta la transizione affinché la profondità di taglio sia improvvisa o sbiadita. |
+| <b>Soglia normale</b> <i>-1.0 - 1.0</i> | Impostate la soglia per le superfici non esattamente allineate con la normale di proiezione. |
+| <b>Dissolvenza normale</b> <i>0.0 - 1.0</i> | Impostate la transizione per le superfici non allineate in modo da ottenere una dissolvenza improvvisa o graduale. |
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="3d-planar-projection.resources/3d-planar-projection-ex.gif" />
+        </td>
+    </tr>
 </table>

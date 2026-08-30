@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 'Che cos''è una funzione '
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Funzioni in Substance 3D Designer consente all&#39;utente di generare risultati 
 
 Ma invece di usare le linee di codici, le funzioni in Designer mantengono lo stesso approccio nodale. A prima vista, un grafico a funzioni sembra molto simile a un grafico regolare.
 
-![](../../assets/image2015-12-17-18-19-37.png)
+![](what-is-a-function.resources/image2015-12-17-18-19-37.png)
 
 È possibile incontrare funzioni in 2 casi principali:
 
@@ -35,16 +35,16 @@ Ma invece di usare le linee di codici, le funzioni in Designer mantengono lo ste
 
 In Substance 3D Designer, qualsiasi parametro può essere controllato da una funzione.
 
-![](../../assets/image2015-12-17-21-3-46.png)
+![](what-is-a-function.resources/image2015-12-17-21-3-46.png)
 
 Potete quindi immaginare regole e dipendenze tra le parti del grafico, per ottenere risultati unici.
 
 Ad esempio, potete decidere che l’opacità di un nodo di blend sia pari alla metà dell’intensità di un nodo di alterazione:
 
-![](../../assets/warpblend.gif)
+![](what-is-a-function.resources/warpblend.gif)
 
 In effetti, è possibile che l&#39;utente abbia già creato funzioni senza esserne a conoscenza:
 
 se è stato esposto un parametro, è stata creata automaticamente una funzione e una variabile: la funzione contiene un nodo float get che rileva il valore della variabile appena creata:
 
-![](../../assets/expose.gif)
+![](what-is-a-function.resources/expose.gif)

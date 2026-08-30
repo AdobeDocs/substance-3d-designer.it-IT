@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Metallo meteorologico
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 1%
+source-wordcount: '284'
+ht-degree: 14%
 
 ---
 
@@ -22,83 +22,64 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/metal-weathering.png){width="128px"}
+![](metal-weathering.resources/metal-weathering.png){width="128px"}
 
-## Metallo meteorologico
-
-**Ingresso:** *Generatori Basati Su Trama**/Meteorizzazione*
-
-**Complesso**
+<b>In:</b> Generatori Basati Su Trama > Meteo
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
-
-## Parametri
-
-### Input
-
-* **WS normale**: *Input colore*\
-  Baked World Space Normalmap utilizzata per effetti interni e mascheratura.
-* **Occlusione ambiente**: *Input scala di grigi*\
-  Mappa con baking utilizzata per effetti interni e mascheratura.
-* **Maschera** : *Input scala di grigi*\
-  Slot maschera utilizzato per mascherare gli effetti del nodo. Può essere attivato/disattivato con il parametro &quot;Maschera&quot;.
-
-### Parametri
-
-* **Canali**
-  * Attivate e disattivate i canali del materiale in questo gruppo, ad esempio quando utilizzate mappe Specular/lucidità invece di Metallico/Rugosità.
-* **Avanzate**
-  * **Formato normale**: *Direct X, Open GL*\
-    Passa da un formato Normalmap a un altro (inverte il canale verde).
-  * **Maschera**: *False/True*\
-    Attiva o disattiva l’uso della mappa maschera.
-* **Effetto**
-  * **Dust**: *0.0 - 1.0*
-  * **Irritazione**: *0,0 - 1,0*
-  * **Indossamento bordi**: *0.0 - 1.0*
-  * **Sfumatura pittura**: *0,0 - 1,0*
-  * **Ruggine**: *0.0 - 1.0*
-  * **Ruggine peeling**: *0,0 - 1,0*
-  * **Ruggine verdigris**: *Ruggine, verdigris*
-  * **Scala Crepe pittura**: *1.0 - 16.0*
-  * **Intensità alterazione Crepe pittura**: *0.0 - 1.0*
-  * **Scala Scratches bordi netti**: *1.0 - 32.0*
-  * **Intensità alterazione bordi netti**: *0,0 - 1,0* Scratches
-  * **Colore metallo grezzo**: *(valore colore)*
-  * **Colore Specular metallo grezzo**: *(valore colore)*
-  * **Valore lucidità metallo grezzo**: *(valore scala di grigi)*
-  * **Valore rugosità metallo grezzo**: *(valore scala di grigi)*
-* **Fusione**
-  * **Intensità diffusione**: *0,0 - 1,0*\
-    Intensità di fusione della Diffusione.
-  * **Intensità colore di base**: *0,0 - 1,0*\
-    Intensità di fusione del colore di base.
-  * **Intensità normale**: *0,0 - 64,0*\
-    Intensità di fusione del normale.
-  * **Intensità Specular**: *0,0 - 1,0*\
-    Forza di fusione dello Specular.
-  * **Intensità lucidità**: *0,0 - 1,0*\
-    Forza di fusione della lucidità.
-  * **Intensità rugosità**: *0,0 - 1,0*\
-    Forza di fusione della rugosità.
-  * **Intensità metallica**: *0,0 - 1,0*\
-    Intensità di fusione del metallizzato.
-  * **Intensità Occlusione ambiente**: *0,0 - 1,0*\
-    Intensità di fusione dell’Occlusione ambiente.
-  * **Intensità Height**: *0,0 - 1,0*\
-    Forza di fusione del Height.
-
-## Immagini di esempio
-
-|  |
-| --- |
-| Nessuna immagine allegata alla pagina. |
 
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Input
+
+|  |  |
+|:---|:---|
+| <b>WS normale</b> <i>Input colore</i> | Baked World Space Normalmap utilizzata per effetti interni e mascheratura. |
+| <b>Occlusione ambiente</b> <i>Input scala di grigi</i> | Mappa con baking utilizzata per effetti interni e mascheratura. |
+| <b>Maschera</b> <i>Input scala di grigi</i> | Slot maschera utilizzato per mascherare gli effetti del nodo. Può essere attivato/disattivato con il parametro &quot;Maschera&quot;. |
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Canali</b> | Attivate e disattivate i canali del materiale in questo gruppo, ad esempio quando utilizzate mappe Specular/lucidità invece di Metallico/Rugosità. |
+| <b>Avanzate</b> |  |
+| <b>Formato Normale</b> <i>Direct X, Open GL</i> | Passa da un formato Normalmap a un altro (inverte il canale verde). |
+| <b>Maschera</b> <i>Falso/Vero</i> | Attiva o disattiva l’uso della mappa maschera. |
+| <b>Effetto</b> |  |
+| <b>Dust</b> <i>0.0 - 1.0</i> |  |
+| <b>Irritazione</b> <i>0.0 - 1.0</i> |  |
+| <b>Indossamento bordi</b> <i>0.0 - 1.0</i> |  |
+| <b>Pittura peeling</b> <i>0.0 - 1.0</i> |  |
+| <b>Ruggine</b> <i>0.0 - 1.0</i> |  |
+| <b>Ruggine peeling</b> <i>0.0 - 1.0</i> |  |
+| <b>Ruggine verdigris</b> <i>Ruggine, Verdigris</i> |  |
+| <b>Pittura scala Crepe</b> <i>1.0 - 16.0</i> |  |
+| <b>Pittura intensità alterazione Crepe</b> <i>0.0 - 1.0</i> |  |
+| <b>Scala Scratches bordi netti</b> <i>1.0 - 32.0</i> |  |
+| <b>Intensità alterazione Scratches bordi netti</b> <i>0.0 - 1.0</i> |  |
+| <b>Colore metallo grezzo</b> <i>(valore colore)</i> |  |
+| <b>Colore Specular metallo grezzo</b> <i>(valore colore)</i> |  |
+| <b>Valore Lucentezza Raw Metal</b> <i>(valore scala di grigi)</i> |  |
+| <b>Valore rugosità metallo grezzo</b> <i>(valore scala di grigi)</i> |  |
+| <b>Fusione</b> |  |
+| <b>Intensità Diffusa</b> <i>0.0 - 1.0</i> | Intensità di fusione della Diffusione. |
+| <b>Intensità Colore di base</b> <i>0.0 - 1.0</i> | Intensità di fusione del colore di base. |
+| <b>Intensità normale</b> <i>0.0 - 64.0</i> | Intensità di fusione del normale. |
+| <b>Intensità Specular</b> <i>0.0 - 1.0</i> | Forza di fusione dello Specular. |
+| <b>Intensità Lucentezza</b> <i>0.0 - 1.0</i> | Forza di fusione della lucidità. |
+| <b>Intensità rugosità</b> <i>0.0 - 1.0</i> | Forza di fusione della rugosità. |
+| <b>Intensità metallica</b> <i>0.0 - 1.0</i> | Intensità di fusione del metallizzato. |
+| <b>Intensità Occlusione ambientale</b> <i>0.0 - 1.0</i> | Intensità di fusione dell’Occlusione ambiente. |
+| <b>Intensità Height</b> <i>0.0 - 1.0</i> | Forza di fusione del Height. |

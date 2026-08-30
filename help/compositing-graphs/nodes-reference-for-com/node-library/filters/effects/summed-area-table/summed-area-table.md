@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Tabella area sommata
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '46'
+source-wordcount: '42'
 ht-degree: 2%
 
 ---
@@ -22,20 +22,16 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/summedareatable.png){width="200px"}
+![](summed-area-table.resources/summedareatable.png){width="200px"}
 
-## Tabella area sommata
-
-**Ingresso:** *Filtri/Effetti*
-
-**Semplice**
+<b>Ingresso:</b> Filtri > Effetti
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
-### Descrizione
+## Descrizione
 
 Restituisce la *somma* dei valori dei pixel dell&#39;immagine, a partire dal *pixel superiore sinistro*.
 

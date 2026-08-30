@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Conversione in scala di grigi
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atomico: conversione in scala di grigi](../../../../assets/comp_grayscaleconversion_1.png "Nodo atomico: conversione in scala di grigi"){width="200px"}
+![Nodo atomico: conversione in scala di grigi](grayscale-conversion.resources/comp_grayscaleconversion_1.png "Nodo atomico: conversione in scala di grigi"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -92,9 +92,9 @@ Ciò significa che un nodo di conversione della scala di grigi è generalmente r
 
 |  |  |
 | --- | --- |
-| <b>Spessori canale</b> *Float4* | Imposta lo spessore di ciascuno dei canali RGBA nella conversione in scala di grigio.   Per impostazione predefinita, viene effettuata una divisione uniforme sui canali RGB. |
-| <b>Alfa unico livello</b> *Booleano* | Imposta il comportamento dell&#39;Alpha sul risultato finale in scala di grigio, in quanto i valori in scala di grigio non possono contenere informazioni Alpha.   Se *è True*, la conversione in scala di grigio viene moltiplicata per il canale di Alpha dell&#39;immagine di input. |
-| <b>Valore sfondo</b> *Mobile* | Imposta il valore dello sfondo di base quando l’input ha una maschera alfa. Ad esempio, determina quali pixel devono essere trattati come trasparenti.   *Disponibile quando &#39;Unico livello alfa&#39; è impostato su &#39;True&#39;.* |
+| <b>Spessori canale</b> *Float4* | Imposta lo spessore di ciascuno dei canali RGBA nella conversione in scala di grigio.   Per impostazione predefinita, viene effettuata una divisione uniforme sui canali RGB. |
+| <b>Alfa unico livello</b> *Booleano* | Imposta il comportamento dell&#39;Alpha sul risultato finale in scala di grigio, in quanto i valori in scala di grigio non possono contenere informazioni Alpha.   Se *è True*, la conversione in scala di grigio viene moltiplicata per il canale di Alpha dell&#39;immagine di input. |
+| <b>Valore sfondo</b> *Mobile* | Imposta il valore dello sfondo di base quando l’input ha una maschera alfa. Ad esempio, determina quali pixel devono essere trattati come trasparenti.   *Disponibile quando &#39;Unico livello alfa&#39; è impostato su &#39;True&#39;.* |
 
 ## Connettori di ingresso
 

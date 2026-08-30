@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Usura in pelle
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 1%
+source-wordcount: '253'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/leather-wear.png){width="128px"}
+![](leather-wear.resources/leather-wear.png){width="128px"}
 
-## Usura in pelle
-
-**Ingresso:** *Generatori Basati Su Trama**/Generatori Maschera*
-
-**Intermedio**
+<b>In:</b> Generatori Basati Su Trama > Generatori di maschere
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -41,32 +37,40 @@ Genera una maschera in bianco e nero in base alle mappe con baking e alle impost
 
 Questa maschera rappresenta l&#39;usura con un motivo in pelle, con più usura sui bordi in base alla curvatura. È simile all&#39;[Edge Wear in fibra di vetro](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/fiber-glass-edge-wear/fiber-glass-edge-wear.md) in termini di funzionalità e ha principalmente gli stessi parametri.
 
-## Parametri
-
-### Input
-
-* **Curvatura**: *Input scala di grigi*\
-  Mappa con baking utilizzata per il posizionamento degli spigoli. Obbligatorio!
-* **Occlusione ambiente**: *Input scala di grigi*\
-  Mappa con baking utilizzata per occludere determinate aree. Consigliato, ma non obbligatorio.
-* **Input Grunge**: *Input scala di grigi*\
-  Slot di input mappa Grunge opzionale che può essere attivato tramite il parametro &quot;Usa Grunge personalizzata&quot;.
-* **Maschera (facoltativo)**: *Input scala di grigi*\
-  Slot maschera utilizzato per mascherare gli effetti del nodo.
-
-### Parametri
-
-* **Livello di usura**: *0.0 - 1.0* Imposta il livello di usura globale, rivelando gradualmente.
-* **Contrasto usura**: *0.0 - 1.0* Imposta il contrasto dell&#39;effetto.
-* **Quantità Grungi**: *0,0 - 1,0* Imposta la quantità di grungi (motivo di pelle predefinito) da fondere tra i bordi.
-* **Mascheratura Occlusione ambiente**: *0.0 - 1.0* Imposta l&#39;entità con cui l&#39;AO maschera gli effetti di usura.
-* **Spessore curvatura**: *0.0 - 1.0* Imposta l&#39;estensione con cui i bordi della curvatura influiscono sul risultato finale. Anche se è impostato su 0, è comunque necessaria una mappa di curvatura.
-* **Usa Grunge personalizzata**: *False/True* Consente l&#39;override del motivo di pelle predefinito incorporato. Utilizzare invece uno slot di input personalizzato.
-
-## Immagini di esempio
-
-![](../../../../../../assets/leather-wear-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Input
+
+|  |  |
+|:---|:---|
+| <b>Curvatura</b> <i>Input scala di grigi</i> | Mappa con baking utilizzata per il posizionamento degli spigoli. Obbligatorio! |
+| <b>Occlusione ambiente</b> <i>Input scala di grigi</i> | Mappa con baking utilizzata per occludere determinate aree. Consigliato, ma non obbligatorio. |
+| <b>Input Grunge</b> <i>Input scala di grigi</i> | Slot di input mappa Grunge opzionale che può essere attivato tramite il parametro &quot;Usa Grunge personalizzata&quot;. |
+| <b>Maschera (facoltativo)</b> <i>Input scala di grigi</i> | Slot maschera utilizzato per mascherare gli effetti del nodo. |
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Livello Di Usura</b> <i>0.0 - 1.0</i> | Imposta il livello di usura globale, rivelando gradualmente. |
+| <b>Indossare Contrasto</b> <i>0.0 - 1.0</i> | Imposta il contrasto dell’effetto. |
+| <b>Importo Grungi</b> <i>0.0 - 1.0</i> | Imposta la quantità di grunge (motivo di pelle di default) da fondere tra i bordi. |
+| <b>Mascheratura Occlusione ambientale</b> <i>0.0 - 1.0</i> | Imposta l’entità con cui l’AO maschera gli effetti di usura. |
+| <b>Spessore curvatura</b> <i>0.0 - 1.0</i> | Consente di impostare l’entità dell’influenza degli spigoli della curvatura sul risultato finale. Anche se è impostato su 0, è comunque necessaria una mappa di curvatura. |
+| <b>Usa Grunge personalizzata</b> <i>Falso/Vero</i> | Consente l&#39;override del motivo di pelle predefinito incorporato. Utilizzare invece uno slot di input personalizzato. |
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="leather-wear.resources/leather-wear-ex.gif" />
+        </td>
+    </tr>
 </table>

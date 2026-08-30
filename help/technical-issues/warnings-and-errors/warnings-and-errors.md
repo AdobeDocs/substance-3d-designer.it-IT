@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Avvertenze ed errori
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 21af965a075e8c119d16922f15b867da99c21397
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '816'
 ht-degree: 4%
 
 ---
@@ -37,7 +37,7 @@ In genere, gli avvisi e gli errori vengono visualizzati sull&#39;elemento che li
 
 ### Explorer
 
-Per qualsiasi elemento nel pannello [Esplora risorse](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) che presenta un avviso, tale avviso viene visualizzato con un&#39;icona ![](../../assets/warning-icon.png) sul bordo più a destra della voce dell&#39;elemento nell&#39;elenco. Lascia il cursore sull&#39;icona per alcuni secondi per visualizzare una *descrizione comandi* che elenca tutti gli avvisi nel dettaglio.
+Per qualsiasi elemento nel pannello [Esplora risorse](../../interface/the-explorer-window/the-explorer-window.md) che presenta un avviso, tale avviso viene visualizzato con un&#39;icona ![](warnings-and-errors.resources/warning-icon.png) sul bordo più a destra della voce dell&#39;elemento nell&#39;elenco. Lascia il cursore sull&#39;icona per alcuni secondi per visualizzare una *descrizione comandi* che elenca tutti gli avvisi nel dettaglio.
 
 Seguono queste regole:
 
@@ -48,7 +48,7 @@ Seguono queste regole:
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warning-overview-explorer.png){width="256px"}
+![](warnings-and-errors.resources/warning-overview-explorer.png){width="256px"}
 
 </td>
 </tr>
@@ -60,7 +60,7 @@ Seguono queste regole:
 
 ### Vista Grafico
 
-Per qualsiasi elemento nella [visualizzazione Grafico](../../interface/the-graph-view/the-graph-view.md) che presenta un avviso, quest&#39;ultimo viene visualizzato con testo colorato nell&#39;*angolo inferiore sinistro* della finestra della vista. Se l&#39;avviso viene attivato da un nodo specifico, tale nodo avrà un badge di avviso ![](../../assets/warning-badge.png). Lascia il cursore sul badge per alcuni secondi per visualizzare una *descrizione comandi* che elenca tutti gli avvisi nel dettaglio.
+Per qualsiasi elemento nella [visualizzazione Grafico](../../interface/the-graph-view/the-graph-view.md) che presenta un avviso, quest&#39;ultimo viene visualizzato con testo colorato nell&#39;*angolo inferiore sinistro* della finestra della vista. Se l&#39;avviso viene attivato da un nodo specifico, tale nodo avrà un badge di avviso ![](warnings-and-errors.resources/warning-badge.png). Lascia il cursore sul badge per alcuni secondi per visualizzare una *descrizione comandi* che elenca tutti gli avvisi nel dettaglio.
 
 Seguono queste regole:
 
@@ -71,7 +71,7 @@ Seguono queste regole:
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warning-overview-graph.png){width="256px"}
+![](warnings-and-errors.resources/warning-overview-graph.png){width="256px"}
 
 </td>
 </tr>
@@ -83,7 +83,7 @@ Seguono queste regole:
 
 ### Proprietà
 
-Per qualsiasi elemento nel pannello [Proprietà](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) che presenta un avviso, quest&#39;ultimo viene visualizzato con un&#39;icona ![](../../assets/warning-icon.png) sul bordo più a destra della voce dell&#39;elemento nell&#39;elenco. Lascia il cursore sull&#39;icona per alcuni secondi per visualizzare una *descrizione comandi* che elenca tutti gli avvisi nel dettaglio.
+Per qualsiasi elemento nel pannello [Proprietà](../../interface/properties/properties.md) che presenta un avviso, quest&#39;ultimo viene visualizzato con un&#39;icona ![](warnings-and-errors.resources/warning-icon.png) sul bordo più a destra della voce dell&#39;elemento nell&#39;elenco. Lascia il cursore sull&#39;icona per alcuni secondi per visualizzare una *descrizione comandi* che elenca tutti gli avvisi nel dettaglio.
 
 Seguono queste regole:
 
@@ -94,7 +94,7 @@ Seguono queste regole:
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warning-overview-properties.png){width="256px"}
+![](warnings-and-errors.resources/warning-overview-properties.png){width="256px"}
 
 </td>
 </tr>
@@ -106,7 +106,7 @@ Seguono queste regole:
 
 ### Console
 
-Sia l&#39;avviso che gli errori vengono segnalati nel pannello **Console**, a cui è possibile accedere tramite il menu **Windows** nel [menu principale](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html). È possibile isolare gli avvisi e gli errori dalle altre voci della console impostando **Canale** su `ErrorMgr`.
+Sia l&#39;avviso che gli errori vengono segnalati nel pannello **Console**, a cui è possibile accedere tramite il menu **Windows** nel [menu principale](../../interface/the-main-toolbar/the-main-toolbar.md). È possibile isolare gli avvisi e gli errori dalle altre voci della console impostando **Canale** su `ErrorMgr`.
 
 >[!NOTE]
 >
@@ -115,7 +115,7 @@ Sia l&#39;avviso che gli errori vengono segnalati nel pannello **Console**, a cu
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warning-overview-console.png){width="256px"}
+![](warnings-and-errors.resources/warning-overview-console.png){width="256px"}
 
 </td>
 </tr>
@@ -136,7 +136,7 @@ Di seguito è riportato un elenco di avvisi ed errori che potresti incontrare in
 ### Avvertenze nei grafici Substance
 
 * Nessun nodo di output definito
-* La funzione del parametro [x] presenta alcuni avvisi
+* La funzione del parametro `[x]` contiene alcuni avvisi
 * I dati di riferimento presentano alcune avvertenze
 * Risorsa di riferimento non trovata
 * Il nodo di testo utilizza un font non valido

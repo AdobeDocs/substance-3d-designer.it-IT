@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Inverti normale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '106'
 ht-degree: 1%
 
 ---
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/normal-invert.png){width="128px"}
+![](normal-invert.resources/normal-invert.png){width="128px"}
 
-## Inverti normale
-
-**Ingresso:** *Filtri/Mappa Normale*
-
-**Semplice**
+<b>Ingresso:</b> Filtri > Mappa normale
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -41,19 +37,17 @@ Consente di invertire tutti i canali di una mappa normale, fornendo una scorciat
 
 Tenete presente che quasi tutti i nodi che utilizzano una mappa normale come input o output hanno un&#39;opzione per invertire il canale verde, per le mappe normali in stile DirectX o OpenGL. Ciò significa che per questi casi, non si dovrebbe quasi mai avere bisogno di questo nodo.
 
-## Parametri
-
-* **Inverti Rosso**: *Falso/Vero*
-* **Inverti verde**: *Falso/Vero*
-* **Inverti blu**: *Falso/Vero*
-* **Inverti Alpha**: *Falso/Vero*
-
-## Immagini di esempio
-
-|  |
-| --- |
-| Nessuna immagine allegata alla pagina. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Inverti rosso</b> <i>Falso/Vero</i> |  |
+| <b>Inverti verde</b> <i>Falso/Vero</i> |  |
+| <b>Inverti blu</b> <i>Falso/Vero</i> |  |
+| <b>Inverti Alpha</b> <i>Falso/Vero</i> |  |

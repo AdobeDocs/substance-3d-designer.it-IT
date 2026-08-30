@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Selezione tracciati
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '266'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo](../../../../../../assets/paths-select-icon.png "Icona nodo")
+![Icona nodo](paths-select.resources/paths-select-icon.png "Icona nodo")
 
 <b>In:</b> Strumenti spline e tracciati > Strumenti tracciato
 
@@ -39,31 +39,32 @@ Isolate un tracciato tra più tracciati contenuti in Tracciati.
 </tr>
 </table>
 
-## Connettori di ingresso
+<a name="inputs"></a>
 
-<b>Etichetta</b> *Tipo*\
-Un elenco di percorsi dei segmenti codificati. Collegare questo input al risultato di una [maschera ai percorsi](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) o a un altro nodo di elaborazione dei percorsi.
+## Input
 
-## Connettori di uscita
+|  |  |
+|:---|:---|
+| <b>Etichetta</b> <i>Tipo</i> | Un elenco di percorsi dei segmenti codificati. Collegare questo input al risultato di una [maschera ai percorsi](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) o a un altro nodo di elaborazione dei percorsi. |
 
-<b>Tracciati</b> *Colore*\
-L’input Tracciati contiene un solo tracciato. Potete utilizzare [Anteprima tracciati](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) per avere un&#39;idea di ciò che rappresenta il risultato, utilizzare un altro nodo di elaborazione tracciati o inserirlo in un [Tracciati da spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) per elaborarlo ulteriormente come spline.
+<a name="outputs"></a>
+
+## Output
+
+|  |  |
+|:---|:---|
+| <b>Tracciati</b> <i>Colore</i> | L’input Tracciati contiene un solo tracciato. Potete utilizzare [Anteprima tracciati](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) per avere un&#39;idea di ciò che rappresenta il risultato, utilizzare un altro nodo di elaborazione tracciati o inserirlo in un [Tracciati da spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) per elaborarlo ulteriormente come spline. |
+
+<a name="parameters"></a>
 
 ## Parametri
 
-<b>Modalità di selezione</b> *Intero* Metodo utilizzato per selezionare i percorsi:\
-*- Per ID:* Seleziona il percorso dall&#39;elenco il cui indice corrisponde a quello specificato in <b>ID percorso</b>;\
-*- Per lunghezza:* Seleziona i percorsi la cui lunghezza è superiore o inferiore alla soglia specificata in <b>Lunghezza destinazione</b>.
-
-<b>ID percorso</b> *Intero* (disponibile quando <b>Modalità di selezione</b> è impostata su *Per ID*)\
-Indice del percorso selezionato.\
-Un valore maggiore del numero di percorsi in <b>Percorsi *genera*</b> un output vuoto.
-
-<b>Lunghezza maggiore o minore?</b> *Booleano* (disponibile quando <b>Modalità di selezione</b> è impostata su *Per lunghezza*)\
-Determina se la selezione deve includere una lunghezza maggiore o minore di <b>Lunghezza di destinazione</b>.
-
-<b>Lunghezza destinazione</b> *Mobile*(Disponibile quando <b>Modalità di selezione</b> è impostata su *Per lunghezza*)\
-Soglia di lunghezza utilizzata per selezionare le spline.
+|  |  |
+|:---|:---|
+| <b>Modalità di selezione</b> <i>Numero intero</i> | Il metodo utilizzato per selezionare i percorsi:<br>*- Per ID:* Seleziona il percorso dall&#39;elenco il cui indice corrisponde a quello specificato in <b>ID percorso</b>;<br>*- Per lunghezza:* Seleziona i percorsi la cui lunghezza è superiore o inferiore alla soglia specificata in <b>Lunghezza di destinazione</b>. |
+| <b>ID percorso</b> <i>Intero</i> (disponibile quando <b>Modalità di selezione</b> è impostata su *Per ID*) | L&#39;indice del percorso selezionato.<br>Un valore maggiore del numero di percorsi in <b>Percorsi *genera*</b> un output vuoto. |
+| <b>Lunghezza maggiore o minore?</b> <i>Booleano</i> (disponibile quando <b>Modalità di selezione</b> è impostata su *Per lunghezza*) | Determina se la selezione deve includere una lunghezza maggiore o minore di <b>Lunghezza di destinazione</b>. |
+| <b>Lunghezza destinazione</b> <i>Virgola mobile</i> (disponibile quando <b>Modalità di selezione</b> è impostata su *Per lunghezza*) | Soglia di lunghezza utilizzata per selezionare le spline. |
 
 ## Esempi
 
@@ -74,11 +75,11 @@ Soglia di lunghezza utilizzata per selezionare le spline.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="paths-select.resources/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../../../../../assets/PathsSelect-Variant1.jpg" alt="PathsSelect-Variant1">
+      <img src="paths-select.resources/PathsSelect-Variant1.jpg" alt="PathsSelect-Variant1">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -90,11 +91,11 @@ Soglia di lunghezza utilizzata per selezionare le spline.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="paths-select.resources/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../../../../../assets/PathsSelect-Variant2.jpg" alt="PathsSelect-Variant2">
+      <img src="paths-select.resources/PathsSelect-Variant2.jpg" alt="PathsSelect-Variant2">
       <br><i>Dopo</i>
     </td>
   </tr>

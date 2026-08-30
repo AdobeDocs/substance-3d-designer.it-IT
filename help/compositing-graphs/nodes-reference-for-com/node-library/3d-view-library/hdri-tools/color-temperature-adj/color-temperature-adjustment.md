@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Color temperature adjustment
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 2%
+source-wordcount: '93'
+ht-degree: 7%
 
 ---
 
@@ -22,35 +22,39 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/color-temperature-adjustement.png){width="250px"}
+![](color-temperature-adjustment.resources/color-temperature-adjustement.png){width="250px"}
 
-## Color temperature adjustment
-
-**Ingresso:** *Visualizzazione/Strumento HDRI 3D*
-
-**Semplice**
+<b>Ingresso:</b> vista 3D > Strumenti HDRI
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
-Regola il bilanciamento del colore dell&#39;immagine di input. Simile alla regolazione del bilanciamento del bianco in fotografia. Può essere utilizzato per rendere più caldo o più freddo il colore nelle immagini HDR che non sono importanti.
-
-## Parametri
-
-* **Temperatura**: *-1,0 - 1,0*\
-  Spostate i colori tra caldo e freddo.
-* **Magenta-Verde**: *-1,0 - 1,0*\
-  Spostate il tono tra magenta e verde.
-* **Spazio colore**: *HDR (lineare), LDR (sRGB)*Determinare come viene interpretato lo spazio colore dell&#39;immagine di input.
-
-## Immagini di esempio
-
-![](../../../../../../assets/color-tempadjust-ex.gif)
+Regola il bilanciamento del colore dell&#39;immagine di input. Simile alla regolazione del bilanciamento del bianco in fotografia. Può essere usato per riscaldare o raffreddare i colori nelle immagini HDR che sono sfocate.
 
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Temperatura</b> <i>-1.0 - 1.0</i> | Spostate i colori tra caldo e freddo. |
+| <b>Magenta-Verde</b> <i>-1.0 - 1.0</i> | Spostate il tono tra magenta e verde. |
+| <b>Spazio cromatico</b> <i>HDR (lineare), LDR (sRGB)</i> | Determina il modo in cui viene interpretato lo spazio colore dell’immagine di input. |
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="color-temperature-adjustment.resources/color-tempadjust-ex.gif" />
+        </td>
+    </tr>
 </table>

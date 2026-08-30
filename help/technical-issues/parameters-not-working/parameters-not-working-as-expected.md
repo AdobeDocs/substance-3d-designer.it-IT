@@ -10,10 +10,10 @@ helpx_tags: ""
 title: I parametri non funzionano come previsto
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 21af965a075e8c119d16922f15b867da99c21397
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 5%
+source-wordcount: '295'
+ht-degree: 6%
 
 ---
 
@@ -24,11 +24,11 @@ In questa pagina sono elencate le cause comuni dei parametri che non funzionano 
 
 ## Il parametro non funziona in modalità di anteprima e la risorsa Substance 3D pubblicata (SBSAR)
 
-<b>![(errore)](../../assets/error.svg) Problema</b>
+<b>![(errore)](parameters-not-working-as-expected.resources/error.svg) Problema</b>
 
 Alcuni parametri esposti per un grafico sono *non elencati* quando si utilizza la [modalità Anteprima](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) in Designer o nell&#39;elenco dei parametri delle risorse Substance 3D (SBSAR) [pubblicate](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) di tale grafico.
 
-<b>![(tick)](../../assets/check.svg)Passaggi consigliati</b>
+<b>![(tick)](parameters-not-working-as-expected.resources/check.svg)Passaggi consigliati</b>
 
 I parametri mancanti sono probabilmente [parametri statici](../../glossary/glossary.md), che *non possono essere modificati al volo* dopo che il grafico è stato *elaborato*, ovvero elaborato per eseguire il relativo algoritmo in modo rapido ed efficiente. La cottura avviene in Designer ogni volta che il grafico viene *modificato* o *pubblicato*. I parametri interessati da tali limitazioni sono elencati nella sezione [Limitazioni](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) della pagina [Esposizione di un parametro](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) di questa documentazione.
 
@@ -47,10 +47,10 @@ Di seguito è riportato un elenco di parametri statici:
 
 ## Risultato errato per il grafico della funzione Substance applicato al parametro
 
-<b>![(errore)](../../assets/error.svg) Problema</b>
+<b>![(errore)](parameters-not-working-as-expected.resources/error.svg) Problema</b>
 
 Un grafico della funzione Substance applicato a un parametro del nodo non genera il valore previsto quando viene utilizzato un numero intero negativo.
 
-<b>![(tick)](../../assets/check.svg) Passaggi consigliati</b>
+<b>![(tick)](parameters-not-working-as-expected.resources/check.svg) Passaggi consigliati</b>
 
 I numeri interi negativi non sono attualmente supportati correttamente. Come soluzione alternativa, utilizzare il valore intero negativo in un valore [Integer2](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) ed estrarlo utilizzando un nodo [Swizzle Integer](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/vector-and-swizzle-nodes/vector-and-swizzle-nodes.md).

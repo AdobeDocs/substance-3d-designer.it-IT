@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Da semplice a premoltiplicato
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 3%
+source-wordcount: '45'
+ht-degree: 2%
 
 ---
 
@@ -22,32 +22,18 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/straight-pre-multiply.png){width="128px"}
+![](straight-to-pre-multiplied.resources/straight-pre-multiply.png){width="128px"}
 
-## Da semplice a premoltiplicato
-
-**Ingresso:** *Filtri/Canali*
-
-**Semplice**
+<b>Ingresso:</b> Filtri > Canali
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
 Converte un colore alfa retto in pixel premoltiplicati, moltiplicando un colore in pixel fusi con alfa.
-
-## Parametri
-
-*Nessun parametro.*
-
-## Immagini di esempio
-
-|  |
-| --- |
-| Nessuna immagine allegata alla pagina. |
 
 </td>
 </tr>

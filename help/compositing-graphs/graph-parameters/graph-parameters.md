@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Parametri del grafico
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1492'
 ht-degree: 1%
@@ -41,7 +41,7 @@ A loro volta, i valori dei parametri di base del grafico dipenderanno dal contes
 </td>
 <td style="border: 0;" valign="top">
 
-![Parametri di base](../../assets/doc-graph-props-base-params.png "Parametri di base"){width="512px" zoomable="yes"}
+![Parametri di base](graph-parameters.resources/doc-graph-props-base-params.png "Parametri di base"){width="512px" zoomable="yes"}
 
 </td>
 </tr>
@@ -53,11 +53,11 @@ Nella maggior parte dei casi, l’ereditarietà svolge un ruolo significativo ne
 
 |                      |                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |:---------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <b>Dimensioni output</b> | Questo parametro consente di scegliere la *risoluzione base* delle immagini nel grafico.  Utilizzare la <div><img data-preserve-html="true" height="22" src="../../assets/props-output-size-lock.jpg"/></div> pulsante di blocco per far corrispondere i valori di altezza e larghezza e mantenere l&#39;immagine quadrata durante la regolazione delle dimensioni.<br><br>*Impostazione predefinita: (0,0) - Rispetto alla principale* [Ulteriori informazioni](../../compositing-graphs/output-size/output-size.md) |
+| <b>Dimensioni output</b> | Questo parametro consente di scegliere la *risoluzione base* delle immagini nel grafico.  Utilizzare la <div><img data-preserve-html="true" height="22" src="graph-parameters.resources/props-output-size-lock.jpg"/></div> pulsante di blocco per far corrispondere i valori di altezza e larghezza e mantenere l&#39;immagine quadrata durante la regolazione delle dimensioni.<br><br>*Impostazione predefinita: (0,0) - Rispetto alla principale* [Ulteriori informazioni](../../compositing-graphs/output-size/output-size.md) |
 | <b>Formato di output</b> | Consente di scegliere *la profondità di bit di base* nel grafico, tra le seguenti opzioni:<ul data-preserve-html="true"><li data-preserve-html="true">8 bit</li><li data-preserve-html="true">16 bit</li><li data-preserve-html="true">HDR Low Precision 16F (virgola mobile a 16 bit)</li><li data-preserve-html="true">HDR High Precision 32F (virgola mobile a 32 bit)</li></ul>*Impostazione predefinita: 8 bit per canale - Rispetto all&#39;elemento padre* |
 | <b>Dimensione pixel</b> | Definisce le dimensioni in pixel. Si consiglia di lasciare entrambi i valori **Larghezza** e **Height** impostati su **1**.*Impostazione predefinita: (1,1) - Rispetto all&#39;elemento padre* |
 | <b>Modalità Porzione</b> | Definisce la *modalità di affiancamento* di base nel grafico dalle seguenti opzioni:<ul data-preserve-html="true"> <li data-preserve-html="true">Nessun affiancamento</li> <li data-preserve-html="true">Affiancamento orizzontale</li> <li data-preserve-html="true">Affiancamento verticale</li> <li data-preserve-html="true">Porzioni H+V (orizzontale e verticale)</li> </ul>*Impostazione predefinita: Porzione H e V - Relativa all&#39;elemento padre* |
-| <b>Numero casuale</b> | Definisce il *valore di inizializzazione casuale* di base per il grafico.  Utilizzare la <div><img data-preserve-html="true" height="22" src="../../assets/prop-randomise.jpg"/></div> per assegnare un nuovo valore casuale al valore di inizializzazione casuale.<br><br>*Impostazione predefinita: 0 - Rispetto all&#39;elemento padre* |
+| <b>Numero casuale</b> | Definisce il *valore di inizializzazione casuale* di base per il grafico.  Utilizzare la <div><img data-preserve-html="true" height="22" src="graph-parameters.resources/prop-randomise.jpg"/></div> per assegnare un nuovo valore casuale al valore di inizializzazione casuale.<br><br>*Impostazione predefinita: 0 - Rispetto all&#39;elemento padre* |
 
 <table>
 <tr style="border: 0;">
@@ -72,7 +72,7 @@ La sezione <b>Attributi</b> contiene *metadati* per il grafico, che fornisce inf
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Attributi del grafico](../../assets/doc-graph-props-attributes.png "Attributi del grafico"){zoomable="yes"}
+![Attributi del grafico](graph-parameters.resources/doc-graph-props-attributes.png "Attributi del grafico"){zoomable="yes"}
 
 </td>
 </tr>
@@ -116,7 +116,7 @@ Tutti i parametri specifici del grafico, inclusi [parametri esposti](../../compo
 </td>
 <td style="border: 0;" valign="top">
 
-![Parametri di input](../../assets/doc-graph-props-input-parameters.png "Parametri di input"){zoomable="yes"}
+![Parametri di input](graph-parameters.resources/doc-graph-props-input-parameters.png "Parametri di input"){zoomable="yes"}
 
 </td>
 </tr>
@@ -150,7 +150,7 @@ Puoi riordinarli utilizzando il trascinamento sulla maniglia all’estrema sinis
 </td>
 <td style="border: 0;" valign="top">
 
-![Input](../../assets/doc-graph-props-inputs.png "Input"){zoomable="yes"}
+![Input](graph-parameters.resources/doc-graph-props-inputs.png "Input"){zoomable="yes"}
 
 </td>
 </tr>
@@ -171,7 +171,7 @@ Puoi riordinarli utilizzando il trascinamento sulla maniglia all’estrema sinis
 </td>
 <td style="border: 0;" valign="top">
 
-![Output](../../assets/doc-graph-props-outputs.png "Output"){zoomable="yes"}
+![Output](graph-parameters.resources/doc-graph-props-outputs.png "Output"){zoomable="yes"}
 
 </td>
 </tr>

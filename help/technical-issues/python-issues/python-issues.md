@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Problemi con Python
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 21af965a075e8c119d16922f15b867da99c21397
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
@@ -26,13 +26,13 @@ Le funzionalità implementate in Python includono le azioni [Publish](../../comp
 
 ## Impossibile caricare il modulo &#39;QtForPython&#39;
 
-<b>![(errore)](../../assets/error.svg) Problema</b>
+<b>![(errore)](python-issues.resources/error.svg) Problema</b>
 
 Il modulo Python &#39;QtForPython&#39; non viene caricato e ciò causa la mancanza di funzionalità implementate in Python, ad esempio le azioni [Publish](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)/[Invia a](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md) nella barra degli strumenti di [Explorer](../../interface/the-explorer-window/the-explorer-window.md) e lo strumento per rimuovere i nodi inutilizzati nei grafici.
 
 Inoltre, molti [plug-in Python](../../scripting/plugin-basics/plugin-basics.md) non verranno caricati o non funzioneranno come previsto.
 
-<b>![(tick)](../../assets/check.svg) Passaggi consigliati</b>
+<b>![(tick)](python-issues.resources/check.svg) Passaggi consigliati</b>
 
 È probabile che vi sia un conflitto tra l&#39;installazione di QtForPython da parte di Designer e le relative dipendenze e un&#39;installazione esistente sul sistema.
 

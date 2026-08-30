@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Blocca
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 6%
+source-wordcount: '62'
+ht-degree: 14%
 
 ---
 
@@ -22,37 +22,41 @@ ht-degree: 6%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/clamp-grayscale.png){width="128px"}
+![](clamp.resources/clamp-grayscale.png){width="128px"}
 
-![](../../../../../../assets/clamp-1.png){width="128px"}
+![](clamp.resources/clamp-1.png){width="128px"}
 
-## Blocca (scala di grigi)
-
-**Ingresso:** *Filtri/Regolazioni*
-
-**Semplice**
+<b>Ingresso:</b> Filtri > Regolazioni
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
 Blocca i valori di input ai limiti definiti.
 
-## Parametri
-
-* **Min**: *0,0 -* 1,0\
-  Limite di morsetto inferiore.
-* **Max**: *0.0 - 1.0* Limite superiore del morsetto.
-* **Applica all&#39;Alpha**: *False/True* (solo versione a colori)\
-  Scegliete se il blocco viene applicato anche all’canale alfa.
-
-## Immagini di esempio
-
-![](../../../../../../assets/clamp.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Min</b> <i>0.0 - 1.0</i> | Limite di morsetto inferiore. |
+| <b>Max</b> <i>0.0 - 1.0</i> | Limite di morsetto superiore. |
+| <b>Applica all&#39;Alpha</b> <i>Falso/Vero</i> (solo per la versione a colori) | Scegliete se il blocco viene applicato anche all’canale alfa. |
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="clamp.resources/clamp.gif" />
+        </td>
+    </tr>
 </table>

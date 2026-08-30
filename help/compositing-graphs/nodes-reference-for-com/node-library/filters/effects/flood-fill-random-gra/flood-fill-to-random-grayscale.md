@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Da Flood Fill a gradazioni di grigio casuali
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '51'
 ht-degree: 3%
 
 ---
@@ -22,33 +22,32 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/floodfill-to-random-grayscale.png){width="128px"}
+![](flood-fill-to-random-grayscale.resources/floodfill-to-random-grayscale.png){width="128px"}
 
-## Da Flood Fill a gradazioni di grigio casuali
-
-**Ingresso:** *Filtri/Effetti*
-
-**Semplice**
+<b>Ingresso:</b> Filtri > Effetti
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
 Genera valori di Luminanza casuali in scala di grigio da una base di [Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md). Utile per aggiungere la variazione di luminanza alle porzioni.
 
-## Parametri
-
-*Nessun parametro.*
-
-## Immagini di esempio
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/floodluminane-ex2.png" width="256px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image" src="../../../../../../assets/floodluminane-ex1.png" width="256px"/></div> |
-| --- | --- |
-|  |  |
-
 </td>
 </tr>
+</table>
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="flood-fill-to-random-grayscale.resources/floodluminane-ex2.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="flood-fill-to-random-grayscale.resources/floodluminane-ex1.png" />
+        </td>
+    </tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Problemi tecnici
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 9%
@@ -64,7 +64,7 @@ Condividi un <b>indirizzo di posta elettronica valido</b> in modo da poterti con
 </td>
 <td style="border: 0;" valign="top">
 
-![Finestra di dialogo di Crash Reporter](../assets/crash-reporter-2.png "Finestra di dialogo di Crash Reporter"){zoomable="yes"}
+![Finestra di dialogo di Crash Reporter](technical-issues.resources/crash-reporter-2.png "Finestra di dialogo di Crash Reporter"){zoomable="yes"}
 
 *Fare clic per ingrandire*
 
@@ -91,7 +91,7 @@ Puoi farci sapere il problema nel campo Descrizione in modo da poterlo indagare 
 </td>
 <td style="border: 0;" valign="top">
 
-![Finestra di dialogo Segnalazione bug](../assets/bug-reporter.png "Finestra di dialogo Segnalazione bug"){zoomable="yes"}
+![Finestra di dialogo Segnalazione bug](technical-issues.resources/bug-reporter.png "Finestra di dialogo Segnalazione bug"){zoomable="yes"}
 
 *Fare clic per ingrandire*
 

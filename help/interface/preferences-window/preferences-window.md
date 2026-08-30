@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Preferenze
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1973'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Finestra Preferenze
 
-![Finestra Preferenze](../../assets/image2021-6-22-20-56-1.png "Finestra Preferenze")
+![Finestra Preferenze](preferences-window.resources/image2021-6-22-20-56-1.png "Finestra Preferenze")
 
 Questa pagina presenta la finestra <b>Preferenze</b> e tutte le relative impostazioni.
 
@@ -157,14 +157,14 @@ Consultare la pagina [Impostazioni progetti](../../interface/preferences-window/
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Modifica contestuale disabilitata](../../assets/substance3ddesigner_incontext_no.gif "Modifica contestuale disabilitata")
+![Modifica contestuale disabilitata](preferences-window.resources/substance3ddesigner_incontext_no.gif "Modifica contestuale disabilitata")
 
 *Apri riferimento*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Modifica contestuale abilitata](../../assets/substance3ddesigner_incontext_yes.gif "Modifica contestuale abilitata")
+![Modifica contestuale abilitata](preferences-window.resources/substance3ddesigner_incontext_yes.gif "Modifica contestuale abilitata")
 
 *Apri riferimento nel contesto*
 

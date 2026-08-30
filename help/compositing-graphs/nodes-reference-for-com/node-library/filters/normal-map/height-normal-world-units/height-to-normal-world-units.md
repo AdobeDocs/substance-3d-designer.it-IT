@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Height a unità mondiali normali
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 1%
+source-wordcount: '122'
+ht-degree: 4%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/normal-hq.png){width="128px"}
+![](height-to-normal-world-units.resources/normal-hq.png){width="128px"}
 
-## Height a unità mondiali normali
-
-**Ingresso:** *Filtri/Mappa Normale*
-
-**Semplice**
+<b>Ingresso:</b> Filtri > Mappa normale
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -41,20 +37,17 @@ Nodo avanzato di conversione da Height a Normale che utilizza unità reali duran
 
 Utile per quando si conoscono le dimensioni della Heightmap sorgente e si desidera eseguire la conversione più accurata, ad esempio quando si lavora con materiale scansionato.
 
-## Parametri
-
-* **Dimensioni superficie (cm)**: *0,0 - 1000,0* Dimension della mappa altezza di input.
-* **Profondità Height (cm)**: *0.0 - 100.0* profondità massima dei dettagli Heightmap.
-* **Formato normale**: *OpenGL, DirectX*\
-  Passa da un formato Normalmap a un altro (inverte il canale verde).
-* **Campionamento**: *Standard, Sobel* Alterna due modalità di campionamento per determinare la precisione.
-
-## Immagini di esempio
-
-|  |
-| --- |
-| Nessuna immagine allegata alla pagina. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Dimensioni superficie (cm)</b> <i>0.0 - 1000.0</i> | Dimension della mappa altezza di input. |
+| <b>Profondità Height (cm)</b> <i>0.0 - 100.0</i> | Profondità massima dei dettagli di Heightmap. |
+| <b>Formato Normale</b> <i>OpenGL, DirectX</i> | Passa da un formato Normalmap a un altro (inverte il canale verde). |
+| <b>Campionamento</b> <i>Standard, Sobel</i> | Passa da una modalità di campionamento all’altra per determinare la precisione. |

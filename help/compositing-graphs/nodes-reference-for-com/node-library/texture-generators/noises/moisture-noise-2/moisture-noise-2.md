@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Rumore umidità 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 1%
@@ -22,13 +22,9 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-<table>
-<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Disturbo umidità 2 - Icona](../../../../../../assets/moisture_noise_2.png "Disturbo umidità 2 - Icona"){width="200px"}
+![Disturbo umidità 2 - Icona](moisture-noise-2.resources/moisture_noise_2.png "Disturbo umidità 2 - Icona"){width="200px"}
 
 <b>Ingresso:</b> Generatori di texture > Rumori
 
@@ -47,27 +43,31 @@ Vedere anche: [Rumore di umidità 1](../../../../../../compositing-graphs/nodes-
 </tr>
 </table>
 
+<a name="outputs"></a>
+
 ## Output
 
 |  |  |
-| --- | --- |
-| <b>Output</b> *Scala di grigi* | Il disturbo generato come bitmap in scala di grigio. |
+|:---|:---|
+| <b>Output</b> <i>Scala di grigi</i> | Il disturbo generato come bitmap in scala di grigio. |
+
+<a name="parameters"></a>
 
 ## Parametri
 
 |  |  |
-| --- | --- |
-| <b>Scala</b> Intero | Suddivisione della griglia utilizzata per generare le porzioni di disturbo.    Un valore più elevato determina la creazione di più riquadri e un disturbo maggiore. |
-| <b>Disturbo</b> Mobile | Sposta gli ingredienti del disturbo.    Può essere utilizzato per animare il disturbo. |
-| <b>Velocità del disturbo</b> Mobile | Regola la distanza di spostamento applicata dal parametro <b>Disturbo</b>.    Questa opzione consente di controllare la velocità di spostamento durante l’animazione del disturbo. |
-| <b>anisotropia disturbo</b> Mobile | Controlla l&#39;estensione delle direzioni dello spostamento applicato dal parametro <b>Disturbo</b>, in cui un valore più alto determina una direzione più stretta e definita.    La direzione è controllata dal parametro <b>Angolo di anisotropia disturbo</b>. |
-| <b>Angolo di anisotropia disturbo</b> Mobile | Controlla la direzione dello spostamento applicato dal parametro <b>Disturbo</b> quando il parametro <b>anisotropia disturbo</b> è diverso da zero. |
-| <b>Dimensione motivo</b> Float2 | Moltiplicatore per la dimensione di un motivo a dispersione., dove 1,0 è la dimensione di deformazione originale. |
-| <b>Angolo motivo</b> Mobile | Angolo utilizzato per impostare la direzione della serie diffusa, in numero di giri e a partire da destra orizzontale. |
-| <b>Angolo pattern casuale</b> Mobile | Quantità massima di variazione casuale applicata al valore <b>Angolo pattern</b>, in numero di giri. |
-| <b>Opacità globale</b> float | Opacità di tutti gli ingredienti del disturbo, dove 0,0 si traduce in un grigio piatto di base e 1,0 è il risultato dell’aggiunta o della sottrazione completa applicata dagli ingredienti. |
-| <b>Scostamento porzione</b> Float2 | Controlla la posizione della porzione di piano infinito utilizzata per eseguire il rendering del disturbo. |
-| <b>Espansione non quadrata</b> Booleano | Nelle immagini non quadrate, mantiene il riquadro quadrato generato ed espande la generazione del disturbo fino ai limiti dell&#39;immagine. |
+|:---|:---|
+| <b>Scala</b> <i>Numero intero</i> | Suddivisione della griglia utilizzata per generare le porzioni di disturbo.    Un valore più elevato determina la creazione di più riquadri e un disturbo maggiore. |
+| <b>Disturbo</b> <i>Mobile</i> | Sposta gli ingredienti del disturbo.    Può essere utilizzato per animare il disturbo. |
+| <b>Velocità del disturbo</b> <i>Mobile</i> | Regola la distanza di spostamento applicata dal parametro <b>Disturbo</b>.    Questa opzione consente di controllare la velocità di spostamento durante l’animazione del disturbo. |
+| <b>anisotropia disturbo</b> <i>Mobile</i> | Controlla l&#39;estensione delle direzioni dello spostamento applicato dal parametro <b>Disturbo</b>, in cui un valore più alto determina una direzione più stretta e definita.    La direzione è controllata dal parametro <b>Angolo di anisotropia disturbo</b>. |
+| <b>angolo di anisotropia di disturbo</b> <i>Mobile</i> | Controlla la direzione dello spostamento applicato dal parametro <b>Disturbo</b> quando il parametro <b>anisotropia disturbo</b> è diverso da zero. |
+| <b>Dimensione motivo</b> <i>Float2</i> | Moltiplicatore per la dimensione di un motivo a dispersione., dove 1,0 è la dimensione di deformazione originale. |
+| <b>Angolo motivo</b> <i>Mobile</i> | Angolo utilizzato per impostare la direzione della serie diffusa, in numero di giri e a partire da destra orizzontale. |
+| <b>Angolo pattern casuale</b> <i>Mobile</i> | Quantità massima di variazione casuale applicata al valore <b>Angolo pattern</b>, in numero di giri. |
+| <b>Opacità globale</b> <i>Mobile</i> | Opacità di tutti gli ingredienti del disturbo, dove 0,0 si traduce in un grigio piatto di base e 1,0 è il risultato dell’aggiunta o della sottrazione completa applicata dagli ingredienti. |
+| <b>Scostamento porzione</b> <i>Float2</i> | Controlla la posizione della porzione di piano infinito utilizzata per eseguire il rendering del disturbo. |
+| <b>Espansione non quadrata</b> <i>Booleano</i> | Nelle immagini non quadrate, mantiene il riquadro quadrato generato ed espande la generazione del disturbo fino ai limiti dell&#39;immagine. |
 
 ## Esempi
 
@@ -75,12 +75,12 @@ Vedere anche: [Rumore di umidità 1](../../../../../../compositing-graphs/nodes-
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Rumore di umidità 2 - Esempio 1](../../../../../../assets/moisture_noise_2_1.png "Rumore di umidità 2 - Esempio 1"){zoomable="yes"}
+![Rumore di umidità 2 - Esempio 1](moisture-noise-2.resources/moisture_noise_2_1.png "Rumore di umidità 2 - Esempio 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Rumore di umidità 2 - Esempio 2](../../../../../../assets/noise_moisture_noise_2_speed0.6_aniso0.gif "Rumore di umidità 2 - Esempio 2"){zoomable="yes"}
+![Rumore di umidità 2 - Esempio 2](moisture-noise-2.resources/noise_moisture_noise_2_speed0.6_aniso0.gif "Rumore di umidità 2 - Esempio 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -90,26 +90,12 @@ Vedere anche: [Rumore di umidità 1](../../../../../../compositing-graphs/nodes-
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Rumore di umidità 2 - Esempio 3](../../../../../../assets/noise_moisture_noise_2_speed0.6_aniso1.gif "Rumore di umidità 2 - Esempio 3"){zoomable="yes"}
+![Rumore di umidità 2 - Esempio 3](moisture-noise-2.resources/noise_moisture_noise_2_speed0.6_aniso1.gif "Rumore di umidità 2 - Esempio 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Rumore di umidità 2 - Esempio 4](../../../../../../assets/noise_moisture_noise_2_speed0.3_aniso0.6.gif "Rumore di umidità 2 - Esempio 4"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+![Rumore di umidità 2 - Esempio 4](moisture-noise-2.resources/noise_moisture_noise_2_speed0.3_aniso0.6.gif "Rumore di umidità 2 - Esempio 4"){zoomable="yes"}
 
 </td>
 </tr>

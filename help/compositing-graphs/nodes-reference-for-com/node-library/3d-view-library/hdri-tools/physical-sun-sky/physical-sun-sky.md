@@ -10,10 +10,10 @@ helpx_tags: ""
 title: SunSky fisico
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 1%
+source-wordcount: '155'
+ht-degree: 9%
 
 ---
 
@@ -22,45 +22,44 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/panorama-physical-sun-sky.png){width="200px"}
+![](physical-sun-sky.resources/panorama-physical-sun-sky.png){width="200px"}
 
-## Sole fisico/Cielo
-
-**Ingresso:** *Visualizzazione/Strumento HDRI 3D*
-
-**Intermedio**
+<b>Ingresso:</b> vista 3D > Strumenti HDRI
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
 Implementazione fisica di Sole e Cielo basata sul modello Hosek-Wikie skylight. Fornisce una base eccellente per un HDRI artificiale.
 
-## Parametri
-
-* **Posizione Sole**:\
-  intervallo = [0,1]x[0,1] (angoli longitudine-latitudine)
-* **Turbidità**: *1.0 - 10.0*\
-  La torbidità varia da 1 a 10
-* **Albedo**: *0.0 - 1.0*\
-  L’Albedo varia da 0 a 1.
-* **Colore terreno**: *(valore colore)*\
-  Colore del piano terreno.
-* **Esposizione (EV)**: *-1,0 - 4,0*\
-  Valore di esposizione dell’output risultante.
-* **Dimensioni Sun**: *0,0 - 4,0*\
-  Scala del Sole, qualsiasi valore diverso da 1 non è fisicamente corretto. Il valore ha effetti sottili.
-* **Intensità sole**: *0,0 - 1,0*\
-  Intensità del disco solare. Il disco Sun è piuttosto piccolo, quindi l&#39;effetto non è immediatamente visibile.
-* **Intensità cielo**: *0,0 - 1,0* Intensità cielo. Influisce anche sulla luce del sole nel cielo, non sul disco stesso.
-
-## Immagini di esempio
-
-![](../../../../../../assets/sky-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Posizione Sole</b> | intervallo = [0,1]x[0,1] (angoli longitudine-latitudine) |
+| <b>Turbidità</b> <i>1.0 - 10.0</i> | La torbidità varia da 1 a 10 |
+| <b>Albedo</b> <i>0.0 - 1.0</i> | L’Albedo varia da 0 a 1. |
+| <b>Colore terreno</b> <i>(valore colore)</i> | Colore del piano terreno. |
+| <b>Esposizione (EV)</b> <i>-1.0 - 4.0</i> | Valore di esposizione dell’output risultante. |
+| <b>Dimensioni Sole</b> <i>0.0 - 4.0</i> | Scala del Sole, qualsiasi valore diverso da 1 non è fisicamente corretto. Il valore ha effetti sottili. |
+| <b>Intensità Sole</b> <i>0.0 - 1.0</i> | Intensità del disco solare. Il disco Sun è piuttosto piccolo, quindi l&#39;effetto non è immediatamente visibile. |
+| <b>Intensità cielo</b> <i>0.0 - 1.0</i> | Intensità del cielo. Influisce anche sulla luce del sole nel cielo, non sul disco stesso. |
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="physical-sun-sky.resources/sky-ex.gif" />
+        </td>
+    </tr>
 </table>

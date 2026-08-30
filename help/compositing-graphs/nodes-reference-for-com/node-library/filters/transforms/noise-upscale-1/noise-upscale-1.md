@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/noise-upscale-1.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo Scala con disturbo 1 per ingrandire le texture utilizzando algoritmi basati sul disturbo per mantenere i dettagli quando si aumenta la risoluzione della texture.
+description: Utilizzare il nodo Noise Upscale 1 per ingrandire la texture utilizzando algoritmi basati sul rumore per mantenere i dettagli quando si aumenta la risoluzione della texture.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Noise Upscale 1
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Ingrandimento disturbo 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 1%
+source-wordcount: '159'
+ht-degree: 6%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/noise-upscale.png){width="128px"}
+![](noise-upscale-1.resources/noise-upscale.png){width="128px"}
 
-## Ingrandimento disturbo 1
-
-**Entrata:** *Filtri/Trasformazioni*
-
-**Semplice**
+<b>Ingresso:</b> Filtri > Trasforma
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -43,20 +39,27 @@ Questo nodo è principalmente destinato a ottimizzare i grafici lenti che utiliz
 
 Consultate anche [Noise Upscale 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-2/noise-upscale-2.md) e [Noise Upscale 3](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-3/noise-upscale-3.md) per le diverse varianti di questo processo.
 
-## Parametri
-
-* **Scostamento1X**: *0.0 - 1.0* Sposta le parti superiore e inferiore sull&#39;asse X.
-* **Scostamento1Y**: *0,0 - 1,0*\
-  Sposta le parti superiore e inferiore sull&#39;asse Y.
-* **Offset2X**: *0.0 - 1.0* Sposta le parti sinistra e destra sull&#39;asse X.
-* **Offset2Y**: *0.0 - 1.0* Sposta le parti sinistra e destra sull&#39;asse Y.
-
-## Immagini di esempio
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/noise1ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Scostamento1X</b> <i>0.0 - 1.0</i> | Sposta le parti superiore e inferiore sull&#39;asse X. |
+| <b>Scostamento1Y</b> <i>0.0 - 1.0</i> | Sposta le parti superiore e inferiore sull&#39;asse Y. |
+| <b>Offset2X</b> <i>0.0 - 1.0</i> | Sposta le parti sinistra e destra sull&#39;asse X. |
+| <b>Offset2Y</b> <i>0.0 - 1.0</i> | Sposta le parti destra e sinistra sull&#39;asse Y. |
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="noise-upscale-1.resources/noise1ex.png" />
+        </td>
+    </tr>
 </table>

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/ambient-occlusion-hbao-filter-node.html"
 breadcrumb-title: ''
-description: Utilizza il nodo del filtro HBAO Occlusione ambiente per generare mappe di occlusione ambiente utilizzando algoritmi basati sull'orizzonte per un'ombreggiatura realistica.
+description: Utilizza il nodo del filtro HBAO di Occlusione ambientale per generare mappe di occlusione ambientale utilizzando algoritmi basati sull'orizzonte per un'ombreggiatura realistica.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Ambient Occlusion (HBAO) (Filter Node)
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Occlusione ambiente (HBAO) (nodo filtro)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 1%
+source-wordcount: '197'
+ht-degree: 5%
 
 ---
 
@@ -22,42 +22,48 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/hbao.png){width="128px"}
+![](ambient-occlusion-hbao-filter-node.resources/hbao.png){width="128px"}
 
-## Occlusione ambientale (HBAO)
-
-**Ingresso:** *Filtri/Effetti*
-
-**Intermedio**
+<b>Ingresso:</b> Filtri > Effetti
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
-Utilizza una mappa dell’altezza come input e genera una mappa di Occlusione ambientale da tale mappa. Utilizza l&#39;Occlusione ambientale basata su orizzonte, un algoritmo originariamente destinato alla generazione di AO in tempo reale dello spazio-schermo. Molto utile per creare mappe AO procedurali da Heightmaps procedurali.
+Utilizza una mappa di altezza come input e genera una mappa di Occlusione ambientale da tale mappa. Utilizza l&#39;Occlusione ambientale basata su orizzonte, un algoritmo originariamente destinato alla generazione di AO in tempo reale dello spazio dello schermo. Molto utile per la creazione di mappe AO procedurali da mappe altezza procedurali.
 
 Per una versione alternativa, più avanzata ma più lenta di AO, vedere [Occlusione ambientale (RTAO)](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/ambient-occlusion-rtao/ambient-occlusion-rtao.md)
 
-## Parametri
-
-* **Usa unità globali**: *False/True* Attiva/disattiva l&#39;utilizzo di unità globali o dello spazio della schermata. Abilita parametri aggiuntivi che consentono un controllo più preciso.
-* **Profondità Height**: *0.0 - 1.0* Utilizzato solo quando Unità globali è impostato su False. Controlla il ridimensionamento globale.
-* **Dimensioni superficie**: **0.0 - 1000.0** Utilizzato solo quando Unità internazionali è impostato su True. Controlla il ridimensionamento globale.
-* **Scala Height (cm)**: *0.0 - 1000.0* Utilizzata solo quando Unità globali è impostato su True. Controlla il ridimensionamento globale.
-* **Raggio**: *0.0 - 1.0* Controlla la diffusione dell&#39;oggetto AO.
-* **Qualità**: *4 campioni, 8 campioni, 16 campioni*\
-  Imposta il livello di qualità determinando la quantità di campioni utilizzati per il calcolo.
-* **Ottimizzazione GPU**: *False/True* Abilita l&#39;ottimizzazione interna della GPU e velocizza l&#39;elaborazione.
-
-## Immagini di esempio
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/image2021-6-18-11-11-11-1.png" width="300px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image" src="../../../../../../assets/image2021-6-18-11-11-22.png" width="300px"/></div> |
-| --- | --- |
-|  |  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Usa unità globali</b> <i>Falso/Vero</i> | Attiva/disattiva l’uso di unità di spazio mondo o schermo. Abilita parametri aggiuntivi che consentono un controllo più preciso. |
+| <b>Profondità Height</b> <i>0.0 - 1.0</i> | Utilizzato solo quando l&#39;opzione Unità globali è impostata su False. Controlla il ridimensionamento globale. |
+| <b>Dimensioni superficie</b> <i>0.0 - 1000.0</i> | Utilizzato solo quando l&#39;opzione Unità di misura mondo è impostata su True. Controlla il ridimensionamento globale. |
+| <b>Scala Height (cm)</b> <i>0.0 - 1000.0</i> | Utilizzato solo quando l&#39;opzione Unità di misura mondo è impostata su True. Controlla il ridimensionamento globale. |
+| <b>Raggio</b> <i>0.0 - 1.0</i> | Controlla la diffusione dell’AO. |
+| <b>Qualità</b> <i>4 campioni, 8 campioni, 16 campioni</i> | Imposta il livello di qualità determinando la quantità di campioni utilizzati per il calcolo. |
+| <b>Ottimizzazione GPU</b> <i>Falso/Vero</i> | Ottimizzazione interna della GPU, elaborazione più rapida. |
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="ambient-occlusion-hbao-filter-node.resources/image2021-6-18-11-11-11-1.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="ambient-occlusion-hbao-filter-node.resources/image2021-6-18-11-11-22.png" />
+        </td>
+    </tr>
 </table>

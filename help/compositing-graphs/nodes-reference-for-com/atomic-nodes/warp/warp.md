@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Altera
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atomico: Altera](../../../../assets/comp_warp_1.png "Nodo atomico: Altera"){width="200px"}
+![Nodo atomico: Altera](warp.resources/comp_warp_1.png "Nodo atomico: Altera"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

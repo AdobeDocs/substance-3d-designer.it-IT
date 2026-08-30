@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Sfocatura bordo
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 2%
+source-wordcount: '141'
+ht-degree: 7%
 
 ---
 
@@ -22,46 +22,50 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/edge-blur.png){width="128px"}
+![](edge-blur.resources/edge-blur.png){width="128px"}
 
-## Sfocatura bordo
-
-**Ingresso:** *Generatori Basati Su Trama**/Generatori Maschera*
-
-**Semplice**
+<b>In:</b> Generatori Basati Su Trama > Generatori di maschere
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
 Genera una maschera in bianco e nero in base alle mappe con baking e alle impostazioni dell’utente. Simile a [Maschere avanzate](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) in [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
-Questa maschera evidenzia i bordi in base a una mappa di curvatura cotta. È uno dei più semplici generatori di maschere.
-
-## Parametri
-
-### Input
-
-* **Curvatura**: *Input scala di grigi*\
-  Mappa con baking utilizzata per basare l’effetto su.
-* **Maschera (facoltativo)**: *Input scala di grigi*\
-  Slot maschera utilizzato per mascherare gli effetti del nodo.
-
-### Parametri
-
-* **Livello**: *0,0 - 1,0*\
-  Consente di impostare la quantità di evidenziazione dei bordi.
-* **Contrasto**: *0.0 - 1.0*\
-  Regola il contrasto del risultato.
-* **Raggio sfocatura**: *0,0 - 8,0* Imposta la quantità di sfocatura sui bordi evidenziati.
-
-## Immagini di esempio
-
-![](../../../../../../assets/edge-blur-ex.gif)
+Questa maschera evidenzia i bordi in base a una mappa di curvatura eseguita i baking. È uno dei Generatori di maschere più semplici.
 
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Input
+
+|  |  |
+|:---|:---|
+| <b>Curvatura</b> <i>Input scala di grigi</i> | Mappa con baking utilizzata per basare l’effetto su. |
+| <b>Maschera (facoltativo)</b> <i>Input scala di grigi</i> | Slot maschera utilizzato per mascherare gli effetti del nodo. |
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Livello</b> <i>0.0 - 1.0</i> | Consente di impostare la quantità di evidenziazione dei bordi. |
+| <b>Contrasto</b> <i>0.0 - 1.0</i> | Regola il contrasto del risultato. |
+| <b>Raggio sfocatura</b> <i>0.0 - 8.0</i> | Imposta la quantità di sfocatura sui bordi evidenziati. |
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="edge-blur.resources/edge-blur-ex.gif" />
+        </td>
+    </tr>
 </table>

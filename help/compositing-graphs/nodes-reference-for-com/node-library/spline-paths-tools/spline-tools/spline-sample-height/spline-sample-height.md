@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Height di campionamento spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,9 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-<table>
-<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo](../../../../../../assets/spline-sample-height-icon.png "Icona nodo")
+![Icona nodo](spline-sample-height.resources/spline-sample-height-icon.png "Icona nodo")
 
 <b>In:</b> Strumenti Spline E Tracciati > Strumenti spline
 
@@ -45,76 +41,43 @@ L’effetto della mappa del height mappato può essere regolato modificandone il
 </tr>
 </table>
 
-## Connettori di ingresso
+<a name="inputs"></a>
 
-<b>Anteprima</b> *Scala di grigio* Anteprima delle spline di input come immagine in scala di grigio.
+## Input
 
-<b>Spline Coords</b> *Colore* Coordinate dei punti delle spline di input codificate nei canali RGBA di un&#39;immagine a colori:\
-<b> R</b> - Posizione X\
-<b> G</b> - Posizione Y\
-<b> B</b> - Height\
-<b>A</b> - Dati compressi:\
-* Segno: la spline è chiusa (negativa) o aperta (positiva);\
-* Valore assoluto: Thickness + 1.
+|  |  |
+|:---|:---|
+| <b>Anteprima</b> <i>Scala di grigi</i> | Anteprima delle spline di input come immagine in scala di grigio. |
+| <b>Spline Coords</b> <i>Colore</i> | Coordinate dei punti delle spline di input codificate nei canali RGBA di un&#39;immagine a colori:<br><b>R</b> - Posizione X<br><b>G</b> - Posizione Y<br><b>B</b> - Height<br><b>A</b> - Dati compressi:<br> - Segno: la spline è chiusa (negativa) o aperta (positiva);<br> - Valore assoluto: Thickness + 1. |
+| <b>Dati spline</b> <i>Colore</i> | Dati aggiuntivi delle spline di input codificate nei canali RGBA di un&#39;immagine a colori.<br><b>R</b> - Tangenti X<br><b>G</b> - Tangenti Y<br><b>B</b> - Non utilizzati<br><b>A</b> - Non utilizzati |
+| <b>Quantità spline</b> <i>Numero intero</i> | Numero di spline di input. |
+| <b>Mappa Height</b> <i>Scala di grigi</i> | Immagine in scala di grigio di input utilizzata per modificare il height della spline di input. |
 
-<b>Dati spline</b> *Colore* Dati aggiuntivi delle spline di input codificate nei canali RGBA di un&#39;immagine a colori.\
-<b> R</b> - Tangenti X\
-<b> G</b> - Tangenti Y\
-<b> B</b> - Non in uso\
-<b> A</b> - Non in uso
+<a name="outputs"></a>
 
-<b>Quantità spline</b> *Numero intero* Numero di spline di input.
+## Output
 
-<b>Mappa Height</b> *Scala di grigio* Immagine in scala di grigio di input utilizzata per modificare il height della spline di input.
+|  |  |
+|:---|:---|
+| <b>Anteprima</b> <i>Scala di grigi</i> | Anteprima delle spline di output come immagine in scala di grigio. |
+| <b>Spline Coords</b> <i>Colore</i> | Coordinate dei punti delle spline di output codificate nei canali RGBA di un&#39;immagine a colori.<br><b>R</b> - Posizione X<br><b>G</b> - Posizione Y<br><b>B</b> - Height<br><b>A</b> - Dati compressi:<br> - Segno: la spline è chiusa (negativa) o aperta (positiva);<br> - Valore assoluto: Thickness + 1. |
+| <b>Dati spline</b> <i>Colore</i> | Dati aggiuntivi delle spline di output codificate nei canali RGBA di un&#39;immagine a colori.<br><b>R</b> - Tangenti X<br><b>G</b> - Tangenti Y<br><b>B</b> - Non usati<br><b>A</b> - Non usati |
+| <b>Quantità spline</b> <i>Numero intero</i> | Numero di spline di output. |
 
-## Connettori di uscita
-
-<b>Anteprima</b> *Scala di grigi* Anteprima delle spline di output come immagine in scala di grigi.
-
-<b>Spline Coords</b> *Colore* Coordinate dei punti delle spline di output codificate nei canali RGBA di un&#39;immagine a colori.\
-<b>R</b> - Posizione X\
-<b>G</b> - Posizione Y\
-<b>B</b> - Height\
-<b>A</b> - Dati compressi:\
-* Segno: la spline è chiusa (negativa) o aperta (positiva);\
-* Valore assoluto: Thickness + 1.
-
-<b>Dati spline</b> *Colore* Dati aggiuntivi delle spline di output codificate nei canali RGBA di un&#39;immagine a colori.\
-<b>R</b> - Tangenti X\
-<b>G</b> - Tangenti Y\
-<b>B</b> - Non utilizzato\
-<b>A</b> - Non in uso
-
-<b>Quantità spline</b> *Numero intero* Numero di spline di output.
+<a name="parameters"></a>
 
 ## Parametri
 
-<b>Modalità campionamento</b> *Intero* Metodo di mappatura dei valori nella mappa di Height alle spline:\
-*- Spazio texture*: i valori vengono applicati alle spline in cui si troverebbero se fossero inseriti in una texture utilizzando le coordinate UV della texture. In questo modo si applica effettivamente il valore alle spline &quot;in posizione&quot;;\
-*- Orizzontale lungo la spline*: i valori vengono applicati direttamente alle coordinate delle spline codificate (vedere l&#39;input Coord spline), in cui ogni riga viene applicata a una spline diversa dall&#39;alto verso il basso;\
-*- Ora. lungo spline (rand. offset X)*: i valori vengono applicati direttamente alle coordinate delle spline codificate (vedere l&#39;input Coords spline), con uno scostamento orizzontale casuale nella mappa di scala per ogni spline (ad esempio, ogni riga nelle coordinate spline);\
-*- Ora. lungo spline (rand. offset Y)*: i valori vengono applicati direttamente alle coordinate delle spline codificate (vedere l&#39;input Coord spline), con uno scostamento verticale casuale nella mappa Scala per ogni spline (ovvero, ogni riga nelle coordinate spline).
-
-<b>Opacità</b> *Fluttuazione* Moltiplicatore per l&#39;intensità del contributo dell&#39;input Mappa Height al height della spline.<b></b>
-
-<b>Metodo fusione</b> *Intero* Metodo di fusione dei dati della mappa del Height con il height della spline di input:\
-*- Copia*: sovrascrivere il height della spline con i valori Height della mappa;\
-*- Aggiungi*: aggiungi i valori della mappa dei Height al height della spline;\
-*- Sottrai*: sottrai i valori della mappa dei Height al height della spline;\
-*- Moltiplica*: moltiplica i valori della mappa dei Height sul height della spline.
-
-+++Anteprima
-<b>Importo segmenti</b> *Numero intero* Regola il numero di segmenti utilizzati per disegnare la visualizzazione della spline nell&#39;output di anteprima.\
-Un valore più alto genera una linea più morbida.
-
-<b>Mostra helper direzione</b> *Booleano* Visualizza un punto all&#39;inizio della spline e una freccia alla fine nell&#39;output di anteprima.
-
-<b>Mostra busta Thickness</b> *Booleano*\
-Visualizza le linee aggiuntive ai bordi del thickness della spline.
-
-<b>Thickness (px)</b> *Mobile* Regola il thickness della visualizzazione della spline in pixel nell&#39;output di anteprima.
-
-+++
+|  |  |
+|:---|:---|
+| <b>Modalità campionamento</b> <i>Numero intero</i> | Metodo di mappatura dei valori nella mappa altezza alle spline:<br>- <i>spazio Texture</i>: i valori vengono applicati alle spline in cui si troverebbero se inseriti in una texture utilizzando le coordinate UV della texture. Questo applica efficacemente il valore alle spline &quot;in posizione&quot;;<br>- <i>Orizzontale lungo la spline</i>: i valori vengono applicati direttamente alle coordinate delle spline codificate (vedere l&#39;input Coord spline), in cui ogni riga viene applicata a una spline diversa dall&#39;alto verso il basso;<br>- <i>Hor. lungo spline (rand. offset X)</i>: i valori vengono applicati direttamente alle coordinate delle spline codificate (vedere l&#39;input Coord spline), con uno scostamento orizzontale casuale nella mappa Scala per ogni spline (ovvero, ogni riga nelle coordinate spline);<br>- <i>Hor. lungo spline (rand. offset Y)</i>: i valori vengono applicati direttamente alle coordinate delle spline codificate (vedere l&#39;input Coord spline), con uno scostamento verticale casuale nella mappa Scala per ogni spline (ovvero, ogni riga nelle coordinate spline). |
+| <b>Opacità</b> <i>Mobile</i> | Un moltiplicatore per l’intensità del contributo dell’input della mappa dell’altezza al height della spline. |
+| <b>Metodo fusione</b> <i>Numero intero</i> | Metodo di fusione dei dati della mappa dell&#39;altezza con il height della spline di input:<br>- <i>Copia</i>: ignorare il height della spline con i valori della mappa dell&#39;altezza;<br>- <i>Aggiungi</i>: aggiungere i valori della mappa dell&#39;altezza al height della spline;<br>- <i>Sottrai</i>: Sottrai dei valori della mappa dell&#39;altezza al height della spline;<br>- <i>Moltiplica</i>: moltiplicare i valori della mappa dell&#39;altezza rispetto al height della spline. |
+| <b>Anteprima</b> |  |
+| <b>Importo segmenti</b> <i>Numero intero</i> | Regola il numero di segmenti utilizzati per disegnare la visualizzazione della spline nell&#39;output di anteprima.<br>Un valore più elevato determina una linea più fluida. |
+| <b>Mostra helper direzione</b> <i>Booleano</i> | Visualizza un punto all&#39;inizio della spline e una freccia alla fine nell&#39;output di anteprima. |
+| <b>Mostra busta Thickness</b> <i>Booleano</i> | Visualizza le linee aggiuntive ai bordi del thickness della spline. |
+| <b>Thickness (px)</b> <i>Mobile</i> | Regola il thickness della visualizzazione della spline in pixel nell&#39;output di anteprima. |
 
 ## Esempi
 
@@ -125,11 +88,11 @@ Visualizza le linee aggiuntive ai bordi del thickness della spline.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineSampleHeight-Variant1-Before.jpg" alt="SplineSampleHeight-Variant1-Before">
+      <img src="spline-sample-height.resources/SplineSampleHeight-Variant1-Before.jpg" alt="SplineSampleHeight-Variant1-Before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineSampleHeight-Variant1-After.jpg" alt="SplineSampleHeight-Variant1-After">
+      <img src="spline-sample-height.resources/SplineSampleHeight-Variant1-After.jpg" alt="SplineSampleHeight-Variant1-After">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -141,11 +104,11 @@ Visualizza le linee aggiuntive ai bordi del thickness della spline.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineSampleHeight-Variant1-Before.jpg" alt="SplineSampleHeight-Variant1-Before">
+      <img src="spline-sample-height.resources/SplineSampleHeight-Variant1-Before.jpg" alt="SplineSampleHeight-Variant1-Before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineSampleHeight-Variant1-After3.jpg" alt="SplineSampleHeight-Variant1-After3">
+      <img src="spline-sample-height.resources/SplineSampleHeight-Variant1-After3.jpg" alt="SplineSampleHeight-Variant1-After3">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -159,26 +122,12 @@ Visualizza le linee aggiuntive ai bordi del thickness della spline.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 1](../../../../../../assets/SplineSampleHeight-Variant1-After4.jpg "Esempio di nodo 1")
+![Esempio di nodo 1](spline-sample-height.resources/SplineSampleHeight-Variant1-After4.jpg "Esempio di nodo 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 2](../../../../../../assets/SplineSampleHeight-Demo.gif "Esempio di nodo 2")
-
-</td>
-</tr>
-</table>
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+![Esempio di nodo 2](spline-sample-height.resources/SplineSampleHeight-Demo.gif "Esempio di nodo 2")
 
 </td>
 </tr>

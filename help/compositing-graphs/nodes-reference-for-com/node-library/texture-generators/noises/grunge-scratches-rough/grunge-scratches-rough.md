@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Scratches di grunge ruvidi
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '248'
 ht-degree: 1%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungescratchesrough.jpg){width="200px"}
+![](grunge-scratches-rough.resources/grungescratchesrough.jpg){width="200px"}
 
-**Ingresso:** *Generatori Di Texture* */Rumori*
-
-**Semplice**
+<b>Ingresso:</b> Generatori di Texture > Rumori
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -41,40 +39,40 @@ Il nodo **Scratches di Grunge su superficie ruvida** genera una mappa di grunge 
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parametri
 
-* **Bilanciamento** *Fluttuazione* Regola il bilanciamento tra valori scuri e chiari.
-* **Contrasto** *Mobile* Regola il contrasto dell&#39;immagine.
-* **Inverti** *Booleano* Inverte l&#39;output dell&#39;immagine, utilizzando un&#39;operazione `1-x`.
-* **Non square expansion** *Booleano* Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati.
-* Avanzate
-  * **Quantità graffi** *Fluttuazione* Regola la quantità di graffi sulla superficie.
-  * **Affiancatura graffi** *Numero intero* Regola la quantità di affiancatura applicata ai graffi.
-  * **Sfocatura graffio** *Mobile* Regola la sfocatura dei graffi.
-  * **Larghezza graffio** *Mobile* Regola la larghezza dei graffi.
-  * **Lunghezza graffio** *Mobile* Regola la lunghezza dei graffi.
-  * **Mascheratura graffi** *Mobile* Regola l’intensità della mascheratura applicata su parti dei graffi.
-  * **Sporcizia graffi** *Muovi* Regola la sporcizia dei graffi, che ne riduce la nitidezza e la continuità.
-  * **Doppio graffio** *Mobile* Regola l&#39;opacità di un secondo graffio applicato accanto a ciascun graffio con un leggero effetto deformante.
-  * **Intensità macchie graffi** *Mobili* Regola l’intensità delle macchie danneggiate applicate accanto ai graffi.
-  * **Affiancatura macchie graffio** *Numero intero* Regola la suddivisione in porzioni delle macchie danneggiate.
-  * **Intensità Dust** *Fluttuazione* Regola l&#39;intensità della sovrapposizione del dust.
-  * **Affiancatura Dust** *Numero intero* Regola la affiancatura della sovrapposizione dust.
-  * **Intensità nitidezza** *Fluttuazione* Regola l&#39;intensità dell&#39;effetto di nitidezza globale.
+|  |  |
+|:---|:---|
+| <b>Saldo</b> <i>Mobile</i> | Regola il bilanciamento tra i valori di luminosità e oscurità. |
+| <b>Contrasto</b> <i>Mobile</i> | Regola il contrasto dell’immagine. |
+| <b>Inverti</b> <i>Booleano</i> | Inverte l&#39;output dell&#39;immagine utilizzando un&#39;operazione `1-x`. |
+| <b>Non square expansion</b> <i>Booleano</i> | Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati. |
+| <b>Avanzate</b> |  |
+| <b>Quantità memoria virtuale</b> <i>Mobile</i> | Regola la quantità di graffi sulla superficie. |
+| <b>Affiancamento memoria virtuale</b> <i>Numero intero</i> | Regola la quantità di Affiancamento applicata ai graffi. |
+| <b>Sfocatura graffio</b> <i>Mobile</i> | Regola la sfocatura dei graffi. |
+| <b>Larghezza memoria virtuale</b> <i>Mobile</i> | Regola la larghezza dei graffi. |
+| <b>Lunghezza memoria virtuale</b> <i>Mobile</i> | Regola la lunghezza dei graffi. |
+| <b>Mascheratura graffi</b> <i>Mobile</i> | Regola l’intensità della maschera applicata a parti dei graffi. |
+| <b>Irritazione memoria virtuale</b> <i>Mobile</i> | Regola la sporcizia dei graffi, interrompendone la nitidezza e la continuità. |
+| <b>Doppio graffio</b> <i>Mobile</i> | Regola l’opacità di un secondo graffio applicato accanto a ciascun graffio, con un leggero effetto di alterazione. |
+| <b>Intensità macchie memoria virtuale</b> <i>Mobile</i> | Regola l’intensità delle macchie danneggiate applicate accanto ai graffi. |
+| <b>Affiancamento macchie memoria virtuale</b> <i>Numero intero</i> | Regola l’Affiancamento delle macchie danneggiate. |
+| <b>Intensità Dust</b> <i>Mobile</i> | Regola l’intensità della sovrapposizione del dust. |
+| <b>Affiancamento Dust</b> <i>Numero intero</i> | Regola l’Affiancamento della sovrapposizione dust. |
+| <b>Intensità nitidezza</b> <i>Mobile</i> | Regola l’intensità dell’effetto di nitidezza globale. |
 
-## Immagini di esempio
+## Esempi
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungescratchesrough-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungescratchesrough-variant2.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grunge-scratches-rough.resources/grungescratchesrough-variant.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="grunge-scratches-rough.resources/grungescratchesrough-variant2.jpg" />
+        </td>
+    </tr>
 </table>

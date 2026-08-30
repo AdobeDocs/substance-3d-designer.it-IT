@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/bakers.html"
 breadcrumb-title: ''
-description: Scoprite come utilizzare Substance 3D Designer baker per calcolare le informazioni basate su trama nei file di texture.
+description: Scoprite come utilizzare i baker Substance 3D Designer per calcolare le informazioni basate su mesh nei file texture.
 helpx_creative_field: ""
 helpx_description: Designer > Bakers
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Baker
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 68389d2a09ef1db6c14073029efdbfd9d48c83c8
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 0%
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 # Baker
 
-Per &quot;cottura al forno&quot; si intende l&#39;azione di **trasferimento delle informazioni basate sulla trama nelle texture**. Queste informazioni vengono quindi lette da ombreggiatori e/o filtri Substance per generare effetti o texture più avanzati.
+La esegue i baking fa riferimento all&#39;azione di **trasferimento delle informazioni basate sulla trama nelle texture**. Queste informazioni vengono quindi lette dagli shader e/o dai filtri Substance per generare effetti o texture più avanzati.
 
 >[!NOTE]
 >
-> Per ulteriori informazioni sulla cottura al forno, consulta la [documentazione sulla cottura al forno](https://experienceleague.adobe.com/it/docs/substance-3d/bakers/home).
+> Per ulteriori informazioni sulla esegue i baking, consulta la [Documentazione di Esegue i baking](https://experienceleague.adobe.com/it/docs/substance-3d/bakers/home).
 
 <table>
 <tr style="border: 0;">
@@ -35,13 +35,13 @@ Per &quot;cottura al forno&quot; si intende l&#39;azione di **trasferimento dell
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-Opzione ![&#39;Informazioni modalità di cottura&#39; nel menu contestuale della risorsa scena 3D](../assets/sd-mesh-right-click.png "&#39;Informazioni modalità di cottura&#39; nel menu contestuale della risorsa scena 3D")
+Opzione &quot;Esegue i baking informazioni modalità&quot; di ![&#x200B; nel menu contestuale della risorsa scena 3D](bakers.resources/sd-mesh-right-click.png " opzione &quot;Esegue i baking informazioni modalità&quot; nel menu contestuale della risorsa scena 3D")
 
 </td>
 </tr>
 </table>
 
-![Finestra di cottura](../assets/sd-window-overview.png "Finestra di cottura")
+![Finestra Eseguita i baking](bakers.resources/sd-window-overview.png "Finestra Eseguita i baking")
 
 ## Panoramica
 
@@ -51,7 +51,7 @@ La finestra di cottura di è divisa in diversi pannelli che sono descritti di se
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-### Elementi da cuocere
+### Elementi da eseguire i baking
 
 Questo pannello controlla quale parte della trama a basso poli verrà utilizzata per la cottura al forno.
 
@@ -60,7 +60,7 @@ Elenca la geometria trovata all&#39;interno del file mesh low-poly. Per impostaz
 </td>
 <td style="border: 0;" valign="top">
 
-![](../assets/sd-mesh-selection.png)
+![](bakers.resources/sd-mesh-selection.png)
 
 </td>
 </tr>
@@ -77,7 +77,7 @@ Questo pannello controlla la posizione della texture cotta.
 </td>
 <td style="border: 0;" valign="top">
 
-![](../assets/sd-output.png)
+![](bakers.resources/sd-output.png)
 
 </td>
 </tr>
@@ -95,13 +95,13 @@ Questo pannello controlla la posizione della texture cotta.
 
 Questo pannello controlla l’elenco delle trame a poli alti e le relative impostazioni. Per ulteriori informazioni, vedere [parametri comuni](https://experienceleague.adobe.com/it/docs/substance-3d/bakers/bakers-settings/common-parameters).
 
-![Trame ad alta definizione](../assets/sd-high.png "Trame ad alta definizione")
+![Trame ad alta definizione](bakers.resources/sd-high.png "Trame ad alta definizione")
 
 ### Valori predefiniti
 
 Per ulteriori informazioni, vedere [parametri comuni](https://experienceleague.adobe.com/it/docs/substance-3d/bakers/bakers-settings/common-parameters).
 
-![Valori predefiniti](../assets/sd-default-values.png "Valori predefiniti")
+![Valori predefiniti](bakers.resources/sd-default-values.png "Valori predefiniti")
 
 ### Elenco e impostazioni di rendering dei forni
 
@@ -112,10 +112,10 @@ L&#39;**elenco dei forni** è il punto in cui puoi scegliere quale texture infor
 * **Spostamento di un fornaio in alto:** Selezionare il fornaio nell&#39;elenco, quindi fare clic sul pulsante &quot;Tirare in alto&quot;.
 * **Spostamento in basso di un fornaio:** Selezionare il fornaio nell&#39;elenco, quindi fare clic sul pulsante &quot;Spingi in basso&quot;.
 
-Per impostazione predefinita, ogni baker eredita i Valori predefiniti (vedere sopra). Le dimensioni (risoluzione), ad esempio, possono essere sostituite facendo clic sulla cella sulla linea del fornaio. Questo vale per le altre impostazioni della riga.
+Per impostazione predefinita, ogni baker eredita i Valori predefiniti (vedere sopra). È possibile, ad esempio, ignorare le dimensioni (risoluzione) facendo clic sulla cella sulla riga del baker. Questo vale per le altre impostazioni della riga.
 
-Quando si fa clic su un fornaio nell&#39;elenco, la vista Parametri fornaio viene aggiornata con i relativi parametri specifici.
+Quando si fa clic su un baker nell&#39;elenco, la vista Parametri Baker viene aggiornata con i relativi parametri specifici.
 
-Per ulteriori informazioni sui parametri specifici, vedere: [Impostazioni dei forni](https://experienceleague.adobe.com/it/docs/substance-3d/bakers/bakers-settings/bakers-settings).
+Per ulteriori informazioni sui parametri specifici, vedere: [Impostazioni Baker](https://experienceleague.adobe.com/it/docs/substance-3d/bakers/bakers-settings/bakers-settings).
 
-![Elenco di rendering dei panettieri](../assets/sd-baker-list.png "Elenco di rendering dei panettieri")
+![Elenco di rendering Baker](bakers.resources/sd-baker-list.png "Elenco di rendering Baker")

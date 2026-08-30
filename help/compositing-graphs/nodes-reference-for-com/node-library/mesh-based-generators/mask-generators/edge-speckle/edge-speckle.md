@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Edge Speckle
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 2%
+source-wordcount: '181'
+ht-degree: 6%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/edge-speckle.png){width="128px"}
+![](edge-speckle.resources/edge-speckle.png){width="128px"}
 
-## Edge Speckle
-
-**Ingresso:** *Generatori Basati Su Trama**/Generatori Maschera*
-
-**Intermedio**
+<b>In:</b> Generatori Basati Su Trama > Generatori di maschere
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -41,31 +37,38 @@ Genera una maschera in bianco e nero in base alle mappe con baking e alle impost
 
 Questa maschera rappresenta i bordi con una leggera macchia aggiunta per dividerli. Vedere anche [Dirt Edge](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/edge-dirt/edge-dirt.md).
 
-## Parametri
-
-### Input
-
-* **Curvatura**: *Input scala di grigi*\
-  Mappa con baking utilizzata per l&#39;evidenziazione dei bordi. Obbligatorio!
-* **Maschera variazione**: *Input scala di grigi*\
-  Slot maschera opzionale utilizzato per mascherare gli effetti del nodo. Attivare con &quot;Ignora maschera di variazione&quot;.
-* **Maschera (facoltativo)**: *Input scala di grigi*\
-  Slot maschera utilizzato per mascherare gli effetti del nodo.
-
-### Parametri
-
-* **Livello**: *0,0 - 1,0*\
-  Imposta la quantità totale di evidenziazione dei bordi.
-* **Contrasto**: *0.0 - 1.0*\
-  Regola il contrasto del risultato.
-* **Selezione bordo**: *0.0 - 1.0* Imposta l&#39;influenza dei bordi convessi.
-* **Variazione**: *0.0 - 1.0* Imposta l&#39;entità della divisione dell&#39;effetto della maschera di variazione.
-* **Sovrascrivi maschera di variazione**: *False/True* Sovrascrive la maschera incorporata con uno slot di input personalizzato.
-
-## Immagini di esempio
-
-![](../../../../../../assets/edge-speckle-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Input
+
+|  |  |
+|:---|:---|
+| <b>Curvatura</b> <i>Input scala di grigi</i> | Mappa con baking utilizzata per l&#39;evidenziazione dei bordi. Obbligatorio! |
+| <b>Maschera variante</b> <i>Input scala di grigi</i> | Slot maschera opzionale utilizzato per mascherare gli effetti del nodo. Attivare con &quot;Ignora maschera di variazione&quot;. |
+| <b>Maschera (facoltativo)</b> <i>Input scala di grigi</i> | Slot maschera utilizzato per mascherare gli effetti del nodo. |
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Livello</b> <i>0.0 - 1.0</i> | Imposta la quantità totale di evidenziazione dei bordi. |
+| <b>Contrasto</b> <i>0.0 - 1.0</i> | Regola il contrasto del risultato. |
+| <b>Selezione bordo</b> <i>0.0 - 1.0</i> | Imposta l’influenza degli spigoli convessi. |
+| <b>Variazione</b> <i>0.0 - 1.0</i> | Consente di impostare l’entità della divisione dell’effetto tramite la maschera di variazione. |
+| <b>Ignora maschera variante</b> <i>Falso/Vero</i> | Sostituisce la maschera incorporata con uno slot di input personalizzato. |
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="edge-speckle.resources/edge-speckle-ex.gif" />
+        </td>
+    </tr>
 </table>

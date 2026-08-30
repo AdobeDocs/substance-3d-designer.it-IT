@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Divisione forme in maschera
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 1%
+source-wordcount: '169'
+ht-degree: 4%
 
 ---
 
@@ -22,32 +22,30 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/shape-splatter-to-mask.png){width="128px"}
+![](shape-splatter-to-mask.resources/shape-splatter-to-mask.png){width="128px"}
 
-## Divisione forme in maschera
-
-**Ingresso:** *Generatori Di Texture**/Pattern*
-
-**Intermedio**
+<b>Ingresso:</b> Generatori Texture > Pattern
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
 Converte i dati di [Shape Splatter](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter/shape-splatter.md) in una maschera in bianco e nero in base all&#39;ID pattern. Consente, ad esempio, di creare una maschera contenente solo un determinato tipo di motivo. Include opzioni aggiuntive per la selezione di un intervallo di ID pattern e per nascondere casualmente alcune forme.
 
-## Parametri
-
-### Parametri
-
-* **Intervallo iniziale ID pattern**: *1 - 8* Impostare il primo ID pattern nell&#39;intervallo da selezionare.
-* **Intervallo finale ID pattern**: *1 - 8* Impostare l&#39;ultimo ID pattern nell&#39;intervallo da selezionare.
-* **Maschera casuale**: *0.0 - 1.0* Impostate la proporzione dei pattern in modo da mascherarli in modo casuale.
-* **Output**: *Maschera binaria, Maschera intera, Valori scala di grigi* Determina il tipo di valori di output. La Maschera binaria restituisce solo i valori in bianco e nero, 0-o-1. La Maschera con valori interi codificherà i valori più alti fino a 8 per ogni Pattern in formato HDR. I Valori in scala di grigi diffonderanno l&#39;intervallo proporzionalmente tra 0 e 1.
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Intervallo iniziale ID modello</b> <i>1 - 8</i> | Impostare il primo ID pattern nell&#39;intervallo da selezionare. |
+| <b>Intervallo finale ID modello</b> <i>1 - 8</i> | Impostare l&#39;ultimo ID pattern nell&#39;intervallo da selezionare. |
+| <b>Maschera casuale</b> <i>0.0 - 1.0</i> | Imposta la proporzione dei Pattern da mascherare in modo casuale. |
+| <b>Output</b> <i>Maschera binaria, Maschera Intera, Valori In Scala Di Grigio</i> | Determinare il tipo di valori di output. La Maschera binaria restituisce solo i valori in bianco e nero, 0-o-1. La Maschera con valori interi codificherà i valori più alti fino a 8 per ogni Pattern in formato HDR. I Valori in scala di grigi diffonderanno l&#39;intervallo proporzionalmente tra 0 e 1. |

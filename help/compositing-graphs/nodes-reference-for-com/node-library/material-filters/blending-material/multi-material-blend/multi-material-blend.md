@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Fusione multimateriale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 1%
+source-wordcount: '283'
+ht-degree: 7%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/multi-material-blend.png){width="128px"}
+![](multi-material-blend.resources/multi-material-blend.png){width="128px"}
 
-## Fusione multimateriale
-
-**Ingresso:** *Filtri materiale/Fusione*
-
-**Intermedio**
+<b>In:</b> Filtri materiali > Fusione
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -43,30 +39,28 @@ Il nodo è molto utile quando si creano texture di prop completi, in quanto cons
 
 Tenete presente che, quando utilizzate questa opzione, Materiale 1, Slot 1 è sempre il materiale di default e apparirà in qualsiasi punto in cui nessun altro materiale verrà visualizzato. Ecco perché non potete impostare un colore per esso. Se si desidera eseguire questa operazione, è possibile, ad esempio, collegare un [Materiale di base](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/base-material/base-material.md) impostato su nero di prova.
 
-## Parametri
-
-### Input
-
-* **1-16 Slot di materiale completo** La quantità di slot è determinata dal menu a discesa **Materiali**.
-* **ID colore**: *Input colore*\
-  Mappa ID colore al forno.
-
-### Parametri
-
-* **Materiali**: *2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16* Imposta la quantità massima di materiali diversi da unire.
-* **Canali**\
-  Attivate e disattivate i canali del materiale in questo gruppo, ad esempio quando utilizzate mappe Specular/lucidità invece di Metallico/Rugosità.
-* **Materiale 2-16** Viene visualizzato un gruppo per ogni materiale abilitato.
-  * **Colore**: *(valore colore)*Colore da scegliere dalla mappa ID corrispondente a questo slot di materiale.
-  * **Sfocatura**: *0.01 - 1.0* Smarginatura nei colori adiacenti.
-  * **Spaziatura interna**: *0.0 - 1.0* Durezza transizioni: contrasto maschera.
-
-## Immagini di esempio
-
-|  |
-| --- |
-| Nessuna immagine allegata alla pagina. |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Input
+
+|  |  |
+|:---|:---|
+| <b>1-16 slot di materiale completo</b> | La quantità di slot è determinata dal menu a discesa <b>Materiali</b>. |
+| <b>ID colore</b> <i>Input colore</i> | Mappa ID colore al forno. |
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Materiali</b> <i>2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16</i> | Imposta la quantità massima di materiali diversi da unire. |
+| <b>Canali</b> | Attivate e disattivate i canali del materiale in questo gruppo, ad esempio quando utilizzate mappe Specular/lucidità invece di Metallico/Rugosità. |
+| <b>Materiale 2-16</b> | Viene visualizzato un gruppo per ogni materiale abilitato. |
+| <b>Colore</b> <i>(valore colore)</i> | Colore da selezionare dalla mappa ID corrispondente a questo slot di materiale. |
+| <b>Fuzziness</b> <i>0.01 - 1.0</i> | Sanguina nei colori vicini. |
+| <b>Spaziatura interna</b> <i>0.0 - 1.0</i> | Durezza delle transizioni: contrasto della maschera. |

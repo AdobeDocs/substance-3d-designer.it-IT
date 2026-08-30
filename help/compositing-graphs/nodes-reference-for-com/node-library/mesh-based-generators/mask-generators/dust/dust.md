@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Dust
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 1%
+source-wordcount: '203'
+ht-degree: 5%
 
 ---
 
@@ -22,52 +22,54 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/dust.png){width="128px"}
+![](dust.resources/dust.png){width="128px"}
 
-## Dust
-
-**Ingresso:** *Generatori Basati Su Trama**/Generatori Maschera*
-
-**Intermedio**
+<b>In:</b> Generatori Basati Su Trama > Generatori di maschere
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
 Genera una maschera in bianco e nero in base alle mappe con baking e alle impostazioni dell’utente. Simile a [Maschere avanzate](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) in [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
-Questa maschera rappresenta un dust accumulato in aree occluse e in basso, nonché solo in aree rivolte verso l’alto. Richiede che l&#39;AO cotto e World Space Normals funzionino correttamente.
-
-## Parametri
-
-### Input
-
-* **Occlusione ambiente**: *Input scala di grigi*\
-  Mappa con baking utilizzata per il posizionamento dei dust. Obbligatorio!
-* **Spazio Mondiale Normale**: *Input Colore*\
-  Mappa con baking utilizzata per il posizionamento dei dust. Obbligatorio!
-* **Disturbo**: *Input scala di grigi*\
-  La mappa dust personalizzata (facoltativa) viene visualizzata solo quando l’opzione Sostituisci disturbo è impostata su True.
-* **Maschera (facoltativo)**: *Input scala di grigi*\
-  Slot maschera utilizzato per mascherare gli effetti del nodo.
-
-### Parametri
-
-* **Livello**: *0,0 - 1,0*\
-  Imposta l&#39;importo totale del dust.
-* **Contrasto**: *0.0 - 1.0*\
-  Regola il contrasto del dust.
-* **Entità Occlusione**: *0.0 - 1.0* Imposta l&#39;influenza di AO; nelle aree occluse verrà visualizzato più dust.
-* **Opacità disturbo**: *0.0 - 1.0* Imposta la quantità di disturbo visibile nelle aree polverose.
-* **Ignora disturbo**: *Falso/Vero* Impostato per l&#39;utilizzo dell&#39;input della mappa di dust personalizzata.
-
-## Immagini di esempio
-
-![](../../../../../../assets/dust-ex.gif)
+Questa maschera rappresenta un dust accumulato in aree occluse e in basso, nonché solo in aree rivolte verso l’alto. Richiede che AO e World Space Normals eseguiti i baking correttamente funzionino.
 
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Input
+
+|  |  |
+|:---|:---|
+| <b>Occlusione ambiente</b> <i>Input scala di grigi</i> | Mappa con baking utilizzata per il posizionamento dei dust. Obbligatorio! |
+| <b>Spazio globale normale</b> <i>Input colore</i> | Mappa con baking utilizzata per il posizionamento dei dust. Obbligatorio! |
+| <b>Disturbo</b> <i>Input scala di grigi</i> | La mappa dust personalizzata (facoltativa) viene visualizzata solo quando l’opzione Sostituisci disturbo è impostata su True. |
+| <b>Maschera (facoltativo)</b> <i>Input scala di grigi</i> | Slot maschera utilizzato per mascherare gli effetti del nodo. |
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Livello</b> <i>0.0 - 1.0</i> | Imposta l&#39;importo totale del dust. |
+| <b>Contrasto</b> <i>0.0 - 1.0</i> | Regola il contrasto del dust. |
+| <b>Importo Occlusione</b> <i>0.0 - 1.0</i> | Imposta l’influenza di AO; nelle aree occluse apparirà più dust. |
+| <b>Opacità disturbo</b> <i>0.0 - 1.0</i> | Consente di impostare la quantità di disturbo visibile nelle aree polverose. |
+| <b>Ignora disturbo</b> <i>Falso/Vero</i> | Impostare questa opzione per utilizzare l&#39;input personalizzato della mappa del dust. |
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="dust.resources/dust-ex.gif" />
+        </td>
+    </tr>
 </table>

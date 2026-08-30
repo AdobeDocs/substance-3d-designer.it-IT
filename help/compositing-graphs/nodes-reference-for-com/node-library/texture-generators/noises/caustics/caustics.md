@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Riflessioni caustiche
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 0%
+source-wordcount: '229'
+ht-degree: 5%
 
 ---
 
@@ -22,16 +22,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/rt-caustics-grayscale.png){width="128px"}
+![](caustics.resources/rt-caustics-grayscale.png){width="128px"}
 
-**Ingresso:** *Generatori Di Texture**/Rumori*
-
-**Complesso**
+<b>Ingresso:</b> Generatori di Texture > Rumori
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -41,33 +39,30 @@ Genera caustiche proiettate in base a una mappa del height e a una direzione del
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parametri
 
-* **Spazio colore di output**: *Raw, sRGB*\
-  Imposta lo spazio colore di output.
-* **Dimensioni griglia Photon**: *Automatico, 512, 1024, 2048, 4096*\
-  Imposta la qualità regolando le dimensioni della griglia, ma per impostazione predefinita corrisponde all’input. Può essere utilizzato per velocizzare i calcoli.
-* **Scala Height Superficie**: *0,0 - 1,0*\
-  Moltiplicatore per determinare come viene interpretato il height.
-* **Posizione Height Superficie**: *0,0 - 1,0*\
-  Impostate la distanza della superficie di rifrazione rispetto alla proiezione.
-* **Superficie IOR**: *1,0 - 2,0*\
-  Impostate l&#39;indice di rifrazione: nella versione a colori questa opzione aggiunge una maggiore dispersione di colore.
-* **Dimensioni fotone**: *1,0 - 50,0*\
-  La dimensione del fotone influisce sulla nitidezza dell’effetto.
-* **Dispersione**: *0.0 - 0.01 (solo versione a colori)*\
-  Modificate solo la dispersione dei colori. Non visibile quando lo IOR è basso.
-* **Variazione**: *0.0 - 1.0*\
-  Aggiungete la variazione irregolare alle particelle di fotoni proiettati.
-* **Posizione chiara**:\
-  Sposta la luce. Eseguito anche tramite un gizmo nella vista 2D.
-* **Colore di sfondo**: *(valore colore) (solo versione colore)*\
-  Modifica il colore di sfondo. Limitato al nero nella versione in scala di grigi.
-* **Non square expansion**: *Falso/Vero*\
-  Abilita la compensazione di schiaccia e allunga con rapporti non quadrati.
+|  |  |
+|:---|:---|
+| <b>Spazio colore di output</b> <i>Raw, sRGB</i> | Imposta lo spazio colore di output. |
+| <b>Dimensione griglia Photon</b> <i>Automatico, 512, 1024, 2048, 4096</i> | Imposta la qualità regolando le dimensioni della griglia, ma per impostazione predefinita corrisponde all’input. Può essere utilizzato per velocizzare i calcoli. |
+| <b>Scala Height Superficie</b> <i>0.0 - 1.0</i> | Moltiplicatore per determinare come viene interpretato il height. |
+| <b>Posizione Height Superficie</b> <i>0.0 - 1.0</i> | Impostate la distanza della superficie di rifrazione rispetto alla proiezione. |
+| <b>Superficie IOR</b> <i>1.0 - 2.0</i> | Impostate l&#39;indice di rifrazione: nella versione a colori questa opzione aggiunge una maggiore dispersione di colore. |
+| <b>Dimensione Photon</b> <i>1.0 - 50.0</i> | La dimensione del fotone influisce sulla nitidezza dell’effetto. |
+| <b>Dispersione</b> <i>0.0 - 0.01 (solo versione a colori)</i> | Modificate solo la dispersione dei colori. Non visibile quando lo IOR è basso. |
+| <b>Variazione</b> <i>0.0 - 1.0</i> | Aggiungete la variazione irregolare alle particelle di fotoni proiettati. |
+| <b>Posizione chiara</b> | Sposta la luce. Eseguito anche tramite un gizmo nella vista 2D. |
+| <b>Colore di sfondo</b> <i>(valore colore) (solo versione colore)</i> | Modifica il colore di sfondo. Limitato al nero nella versione in scala di grigi. |
+| <b>Non square expansion</b> <i>Falso/Vero</i> | Abilita la compensazione di schiaccia e allunga con rapporti non quadrati. |
 
-## Immagini di esempio
+## Esempi
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/rt-caustics-grayscale-1.png" width="300px"/></div> |
-| --- |
-|  |
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="caustics.resources/rt-caustics-grayscale-1.png" />
+        </td>
+    </tr>
+</table>

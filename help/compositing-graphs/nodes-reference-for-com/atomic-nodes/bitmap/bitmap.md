@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Bitmap
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atomico: Bitmap](../../../../assets/comp_bitmap.png "Nodo atomico: Bitmap"){width="200px"}
+![Nodo atomico: Bitmap](bitmap.resources/comp_bitmap.png "Nodo atomico: Bitmap"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -105,7 +105,7 @@ Potete creare il nodo da zero o rilasciando una [bitmap](../../../../glossary/gl
 | --- | --- |
 | <b>Metodo colore</b> *Booleano* | Determina il tipo di output del nodo da restituire a colori o in scala di grigio. |
 | <b>Percorso risorsa PKG</b> *Stringa* | Percorso della risorsa [Bitmap](../../../../resources/bitmap-resource/bitmap-resource.md) a cui fa riferimento il nodo.   Si consiglia di non digitare manualmente ma di copiare una risorsa dall&#39;elenco delle cartelle e incollarla nel campo di testo del parametro oppure di trascinare una risorsa bitmap direttamente da [Esplora risorse](../../../../interface/the-explorer-window/the-explorer-window.md) nel nodo Bitmap del grafico. |
-| <b>Metodo Resize</b> *Numero intero* | Metodo di ricampionamento da utilizzare per il ridimensionamento verso l’alto o verso il basso di una bitmap:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Dilatazione uniforme:</i> applicate un [filtro bilineare](../../../../glossary/glossary.md) per interpolare sui pixel di origine dell&#39;immagine allungata.</li> <li data-preserve-html="true"><i>Allungamento più vicino:</i> allungate l&#39;immagine e utilizzate il colore del pixel di origine più vicino così com&#39;è.</li> </ul> |
+| <b>Metodo Resize</b> *Numero intero* | Metodo di ricampionamento da utilizzare per il ridimensionamento verso l’alto o verso il basso di una bitmap:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>allungamento uniforme:</i> applicate un [filtro bilineare](../../../../glossary/glossary.md) per interpolare sui pixel di origine dell&#39;immagine allungamento.</li> <li data-preserve-html="true"><i>allungamento più vicina:</i> Allungamento l&#39;immagine e utilizzate il colore del pixel di origine più vicino così com&#39;è.</li> </ul> |
 
 ## Strumenti di pittura Bitmap
 

@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Substance grafici delle funzioni
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -24,14 +24,14 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![](../assets/function-1.png){width="120px"}](https://substance3d.adobe.com/)
+[![](function-graphs.resources/function-1.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td style="border: 0;" valign="top">
 
 [Substance grafici di funzione](https://substance3d.adobe.com/) <b>elabora valori singoli</b> (interi, mobili, vettori) anziché dati immagine (interi set di pixel). Le funzioni sono anche elementi grafici con reti di nodi, ma i [nodi utilizzati](../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md)e l&#39;interfaccia sono diversi dai [normali grafici a Substance](../compositing-graphs/substance-compositing-graphs.md). Il flusso di lavoro è completamente basato su <b>operazioni matematiche</b> e non mostra miniature di anteprima delle immagini, il che lo rende un <b>modo di lavorare molto più avanzato</b> con Substance 3D Designer.
 
-Le funzioni possono essere utilizzate in molti contesti diversi, principalmente per modificare il comportamento di [un parametro esposto](../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), per creare il comportamento di [processori pixel](../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) o [FX-Maps](../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) e per utilizzare [valori in un grafico.](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html)
+Le funzioni possono essere utilizzate in molti contesti diversi, principalmente per modificare il comportamento di [un parametro esposto](../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), creare il comportamento di [processori pixel](../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) o [FX-Maps](../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) e utilizzare [valori nei grafici a Substance](../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md).
 
 </td>
 </tr>
@@ -43,7 +43,7 @@ Di seguito sono riportati alcuni esempi di utilizzi comuni per Funzioni.
 
 ### Funzione semplice
 
-![](../assets/lerpfunction_1.png)
+![](function-graphs.resources/lerpfunction_1.png)
 
 Funzione semplice nel contesto di un parametro esposto. Ottiene un valore float di input chiamato &quot;Intensità&quot; che è determinato per andare da 0 a 1 (un intervallo facile da capire) e rimappa a un intervallo impostato di 0,1 - 0,8. Ciò significa che se l’utente imposta Intensità su 0, verrà utilizzato internamente 0,1, se l’interfaccia utente è impostata su 1, verrà utilizzato 0,8 e qualsiasi valore intermedio verrà interpolato linearmente. Questo tipo di funzione è in genere utilizzato quando si [espongono parametri](../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), ma si utilizzano funzioni personalizzate.
 
@@ -51,7 +51,7 @@ Questa funzione potrebbe anche essere scritta come *lerp(0.1, 0.8, Intensità)* 
 
 ### Funzione avanzata
 
-![](../assets/pixel-function_1.png){width="545px"}
+![](function-graphs.resources/pixel-function_1.png){width="545px"}
 
 Questa funzione avanzata mostra il funzionamento interno di un [processore pixel](../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) pensato per regolare la tonalità di un input della mappa colore in base all’intensità di un secondo input della maschera in scala di grigio.
 

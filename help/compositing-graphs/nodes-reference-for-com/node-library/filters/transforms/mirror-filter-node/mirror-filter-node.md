@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/mirror-filter-node.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo del filtro Specchia (Mirror) per specchiare le texture in orizzontale o verticale e creare pattern ed effetti simmetrici.
+description: Utilizzate il nodo del filtro Specchia (Mirror) per specchiare le texture orizzontalmente o verticalmente per creare pattern ed effetti simmetrici.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Mirror (Filter Node)
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Speculare (nodo filtro)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 1%
+source-wordcount: '148'
+ht-degree: 4%
 
 ---
 
@@ -22,40 +22,44 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/mirror-2.png){width="128px"}
+![](mirror-filter-node.resources/mirror-2.png){width="128px"}
 
-![](../../../../../../assets/mirror-grayscale.png){width="128px"}
+![](mirror-filter-node.resources/mirror-grayscale.png){width="128px"}
 
-## Specchio (scala di grigi)
-
-**Entrata:** *Filtri/Trasformazioni*
-
-**Intermedio**
+<b>Ingresso:</b> Filtri > Trasforma
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
 L&#39;immagine di input viene riflessa da un lato scelto su un asse selezionato. Molto utile, un modo rapido per ottenere effetti simmetrici.
 
-## Parametri
-
-* **Modalità**: *Asse mirror X, Asse mirror Y, Specularità* *Angolo* Scegliere di eseguire il mirroring a sinistra-destra, in alto-basso o in entrambi.
-* **Offset asse X**: *0.0 - 1.0* Definire un offset solo se si sceglie l&#39;asse X.
-* **Offset Y asse**: *0.0 - 1.0* Definire un offset solo se si sceglie l&#39;asse Y.
-* **Inverti asse X**: *False/True* Utilizzato solo quando è selezionato l&#39;asse X, Inverti direzione.
-* **Inverti asse Y**: *False/True* Utilizzato solo quando è selezionato l&#39;asse Y, Inverti direzione.
-* **Tipo angolo**: *In alto a sinistra, In alto a destra, In basso a sinistra e In basso a destra* Solo quando è selezionato il tipo di angolo, definite l’angolo da cui eseguire la specchiatura.
-
-## Immagini di esempio
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/mirror-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Modalità</b> <i>Asse mirror X, Asse mirror Y, Angolo Speculare</i> | Scegliete se specchiare a sinistra-destra, in alto-basso o entrambe le opzioni. |
+| <b>Offset asse X</b> <i>0.0 - 1.0</i> | Utilizzato solo quando è selezionato l&#39;asse X, definire un offset. |
+| <b>Scostamento asse Y</b> <i>0.0 - 1.0</i> | Utilizzato solo quando è selezionato l&#39;asse Y, definire un offset. |
+| <b>Inverti asse X</b> <i>Falso/Vero</i> | Usato solo quando è selezionato l’asse X, Inverti direzione. |
+| <b>Inverti asse Y</b> <i>Falso/Vero</i> | Usato solo quando è selezionato l’asse Y, capovolgi direzione. |
+| <b>Tipo angolo</b> <i>In alto a sinistra, In alto a destra, In basso a sinistra e In basso a destra</i> | Utilizzato solo quando è selezionato il tipo Angolo, definisci l’angolo da specchiare. |
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="mirror-filter-node.resources/mirror-example.png" />
+        </td>
+    </tr>
 </table>

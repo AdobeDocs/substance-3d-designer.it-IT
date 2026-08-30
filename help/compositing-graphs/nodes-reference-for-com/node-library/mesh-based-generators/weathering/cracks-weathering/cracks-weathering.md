@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Crepe meteorologiche
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 1%
+source-wordcount: '210'
+ht-degree: 3%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/cracks-weathering.png){width="128px"}
+![](cracks-weathering.resources/cracks-weathering.png){width="128px"}
 
-## Crepe meteorologiche
-
-**Ingresso:** *Generatori Basati Su Trama**/Meteorizzazione*
-
-**Complesso**
+<b>In:</b> Generatori Basati Su Trama > Meteo
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -41,36 +37,41 @@ Si tratta di un effetto di materiale completo che funziona su più canali contem
 
 Assicurati di aver compreso correttamente le [modalità di creazione del collegamento](../../../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) quando lavori con i materiali completi.
 
-## Parametri
-
-### Input
-
-* **Curvatura**: *Input scala di grigi*\
-  Mappe infornate o generate utilizzate per effetti interni e mascheratura.
-* **Height**: *Input scala di grigi*\
-  Mappe infornate o generate utilizzate per effetti interni e mascheratura.
-* **Maschera** : *Input scala di grigi*\
-  Slot maschera utilizzato per mascherare gli effetti del nodo. Può essere attivato/disattivato con il parametro &quot;Maschera&quot;.
-
-### Parametri
-
-* **Canali**
-  * Attivate e disattivate i canali del materiale in questo gruppo, ad esempio quando utilizzate mappe Specular/lucidità invece di Metallico/Rugosità.
-* **Avanzate**
-  * **Formato normale**: *DirectX, OpenGL*\
-    Passa da un formato Normalmap a un altro (inverte il canale verde).
-  * **Maschera**: *False/True*\
-    Attiva o disattiva l’uso della mappa maschera.
-* **Effetto**
-  * **Propagazione Crepe**: *0.0 - 1.0* Distanza di diffusione delle crepe. Questo è il controllo principale di questo effetto.
-  * **Profondità Crepe**: *0.0 - 1.0* Profondità dell&#39;effetto di crepa. Questo influisce principalmente sul height e leggermente sul thickness visivo.
-* **Fusione**
-  * Consente di controllare l’entità della fusione dell’effetto in ciascun canale risultante.
-
-## Immagini di esempio
-
-![](../../../../../../assets/cracks-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Input
+
+|  |  |
+|:---|:---|
+| <b>Curvatura</b> <i>Input scala di grigi</i> | Mappa eseguita i baking o generata utilizzata per effetti interni e mascheratura. |
+| <b>Height</b> <i>Input scala di grigi</i> | Mappa eseguita i baking o generata utilizzata per effetti interni e mascheratura. |
+| <b>Maschera</b> <i>Input scala di grigi</i> | Slot maschera utilizzato per mascherare gli effetti del nodo. Può essere attivato/disattivato con il parametro &quot;Maschera&quot;. |
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Canali</b> | Attivate e disattivate i canali del materiale in questo gruppo, ad esempio quando utilizzate mappe Specular/lucidità invece di Metallico/Rugosità. |
+| <b>Avanzate</b> |  |
+| <b>Formato Normale</b> <i>DirectX, OpenGL</i> | Passa da un formato Normalmap a un altro (inverte il canale verde). |
+| <b>Maschera</b> <i>Falso/Vero</i> | Attiva o disattiva l’uso della mappa maschera. |
+| <b>Effetto</b> |  |
+| <b>Propagazione Crepe</b> <i>0.0 - 1.0</i> | La distanza di diffusione delle crepe. Questo è il controllo principale di questo effetto. |
+| <b>Profondità Crepe</b> <i>0.0 - 1.0</i> | Profondità dell’effetto crepa. Questo influisce principalmente sul height e leggermente sul thickness visivo. |
+| <b>Fusione</b> | Consente di controllare l’entità della fusione dell’effetto in ciascun canale risultante. |
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="cracks-weathering.resources/cracks-ex.gif" />
+        </td>
+    </tr>
 </table>

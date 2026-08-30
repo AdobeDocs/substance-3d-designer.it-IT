@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Effetto rilievo
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atomico: Rilievo](../../../../assets/comp_emboss_1.png "Nodo atomico: Rilievo"){width="200px"}
+![Nodo atomico: Rilievo](emboss.resources/comp_emboss_1.png "Nodo atomico: Rilievo"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Rock Weathering
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 1%
+source-wordcount: '266'
+ht-degree: 16%
 
 ---
 
@@ -22,78 +22,71 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/rock-weathering.png){width="128px"}
+![](rock-weathering.resources/rock-weathering.png){width="128px"}
 
-## Rock Weathering
-
-**Ingresso:** *Generatori Basati Su Trama**/Meteorizzazione*
-
-**Complesso**
+<b>In:</b> Generatori Basati Su Trama > Meteo
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
-## Parametri
-
-### Input
-
-* **Occlusione ambiente**: *Input scala di grigi*\
-  Mappa con baking utilizzata per effetti interni e mascheratura.
-* **Curvatura**: *Input scala di grigi*\
-  Mappa con baking utilizzata per effetti interni e mascheratura.
-* **WS normale**: *Input colore*\
-  Baked World Space Normalmap utilizzata per effetti interni e mascheratura.
-* **Maschera** : *Input scala di grigi*\
-  Slot maschera utilizzato per mascherare gli effetti del nodo. Può essere attivato/disattivato con il parametro &quot;Maschera&quot;.
-
-### Parametri
-
-* **Canali**
-  * Attivate e disattivate i canali del materiale in questo gruppo, ad esempio quando utilizzate mappe Specular/lucidità invece di Metallico/Rugosità.
-* **Avanzate**
-  * **Formato normale**: *DirectX, OpenGL*\
-    Passa da un formato Normalmap a un altro (inverte il canale verde).
-  * **Maschera**: *False/True*\
-    Attiva o disattiva l’uso della mappa maschera.
-* **Effetto**
-  * **Dust**: *0.0 - 1.0*
-  * **Irritazione**: *0,0 - 1,0*
-  * **Indossamento bordi**: *0.0 - 1.0*
-  * **Rock usato**: *0.0 - 1.0*
-  * **Scala Crepe**: *1.0 - 60.0*
-  * **Intensità Crepe**: *0,0 - 1,0*
-  * **Età**: *0,0 - 1,0*
-  * **Soglia di validità**: *0,0 - 1,0*
-  * **Scala Scratches bordi netti**: *1.0 - 32.0*
-  * **Intensità alterazione bordi netti**: *0,0 - 1,0* Scratches
-  * **Desaturazione Rock Utilizzata**: *0.0 - 1.0*
-  * **Luminosità Rock Utilizzata**: *0,0 - 1,0*
-* **Fusione**
-  * **Intensità diffusione**: *0,0 - 1,0*\
-    Intensità di fusione della Diffusione.
-  * **Intensità colore di base**: *0,0 - 1,0*\
-    Intensità di fusione del colore di base.
-  * **Intensità normale**: *0,0 - 64,0*\
-    Intensità di fusione del normale.
-  * **Intensità Specular**: *0,0 - 1,0*\
-    Forza di fusione dello Specular.
-  * **Intensità lucidità**: *0,0 - 1,0*\
-    Forza di fusione della lucidità.
-  * **Intensità rugosità**: *0,0 - 1,0*\
-    Forza di fusione della rugosità.
-  * **Intensità Occlusione ambiente**: *0,0 - 1,0*\
-    Intensità di fusione dell’Occlusione ambiente.
-  * **Intensità Height**: *0,0 - 1,0*\
-    Forza di fusione del Height.
-
-## Immagini di esempio
-
-![](../../../../../../assets/rock-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Input
+
+|  |  |
+|:---|:---|
+| <b>Occlusione ambiente</b> <i>Input scala di grigi</i> | Mappa con baking utilizzata per effetti interni e mascheratura. |
+| <b>Curvatura</b> <i>Input scala di grigi</i> | Mappa con baking utilizzata per effetti interni e mascheratura. |
+| <b>WS normale</b> <i>Input colore</i> | Baked World Space Normalmap utilizzata per effetti interni e mascheratura. |
+| <b>Maschera</b> <i>Input scala di grigi</i> | Slot maschera utilizzato per mascherare gli effetti del nodo. Può essere attivato/disattivato con il parametro &quot;Maschera&quot;. |
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Canali</b> | Attivate e disattivate i canali del materiale in questo gruppo, ad esempio quando utilizzate mappe Specular/lucidità invece di Metallico/Rugosità. |
+| <b>Avanzate</b> |  |
+| <b>Formato Normale</b> <i>DirectX, OpenGL</i> | Passa da un formato Normalmap a un altro (inverte il canale verde). |
+| <b>Maschera</b> <i>Falso/Vero</i> | Attiva o disattiva l’uso della mappa maschera. |
+| <b>Effetto</b> |  |
+| <b>Dust</b> <i>0.0 - 1.0</i> |  |
+| <b>Irritazione</b> <i>0.0 - 1.0</i> |  |
+| <b>Indossamento bordi</b> <i>0.0 - 1.0</i> |  |
+| <b>Rock usato</b> <i>0.0 - 1.0</i> |  |
+| <b>Scala Crepe</b> <i>1.0 - 60.0</i> |  |
+| <b>Intensità Crepe</b> <i>0.0 - 1.0</i> |  |
+| <b>Età</b> <i>0.0 - 1.0</i> |  |
+| <b>Soglia di validità</b> <i>0.0 - 1.0</i> |  |
+| <b>Scala Scratches bordi netti</b> <i>1.0 - 32.0</i> |  |
+| <b>Intensità alterazione Scratches bordi netti</b> <i>0.0 - 1.0</i> |  |
+| <b>Desaturazione roccia usata</b> <i>0.0 - 1.0</i> |  |
+| <b>Luminosità Rock Usata</b> <i>0.0 - 1.0</i> |  |
+| <b>Fusione</b> |  |
+| <b>Intensità Diffusa</b> <i>0.0 - 1.0</i> | Intensità di fusione della Diffusione. |
+| <b>Intensità Colore di base</b> <i>0.0 - 1.0</i> | Intensità di fusione del colore di base. |
+| <b>Intensità normale</b> <i>0.0 - 64.0</i> | Intensità di fusione del normale. |
+| <b>Intensità Specular</b> <i>0.0 - 1.0</i> | Forza di fusione dello Specular. |
+| <b>Intensità Lucentezza</b> <i>0.0 - 1.0</i> | Forza di fusione della lucidità. |
+| <b>Intensità rugosità</b> <i>0.0 - 1.0</i> | Forza di fusione della rugosità. |
+| <b>Intensità Occlusione ambientale</b> <i>0.0 - 1.0</i> | Intensità di fusione dell’Occlusione ambiente. |
+| <b>Intensità Height</b> <i>0.0 - 1.0</i> | Forza di fusione del Height. |
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="rock-weathering.resources/rock-ex.gif" />
+        </td>
+    </tr>
 </table>

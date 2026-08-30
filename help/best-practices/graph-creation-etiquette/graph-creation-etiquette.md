@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Convenzioni per la creazione di grafici
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1163'
 ht-degree: 0%
@@ -28,27 +28,27 @@ La creazione di grafici complessi e di grandi dimensioni può creare rapidamente
 
 #### Elementi grafico
 
-Gli elementi del grafico sono oggetti di supporto che possono essere posizionati accanto e intorno ai nodi nella [visualizzazione Grafico](../../interface/the-graph-view/the-graph-view.md). Dei tre, Frame offre i vantaggi più rapidi e grandi, mentre Commento e Pin di navigazione sono più adatti a scenari specifici.
+Gli elementi del grafico sono oggetti di supporto che possono essere posizionati accanto e intorno ai nodi nella [visualizzazione Grafico](../../interface/the-graph-view/the-graph-view.md). Dei tre, il Fotogramma offre i vantaggi più rapidi e maggiori, mentre il Segnaposto Commenti e Navigazione è più adatto a scenari specifici.
 
-#### Cornici
+#### Fotogrammi
 
-La prima cosa che rende i grafici più puliti e facili da leggere è il posizionamento di Fotogrammi attorno ai gruppi principali del grafico. Senza cornici, un grande grafico è quasi illeggibile, e anche i grafi piccoli diventano molto più facili da capire una volta disegnati i fotogrammi. Un grande vantaggio di Frames è che i relativi nomi <b> vengono sempre visualizzati con la stessa scala</b>, anche se si esegue uno zoom indietro molto lontano.
+La prima cosa che porta a grafici più puliti e facili da leggere è la posizione dei Fotogrammi attorno ai gruppi centrali del tuo grafico. Senza Fotogrammi, un grande grafico è quasi illeggibile, e anche i grafici piccoli diventano molto più facili da capire una volta disegnati i fotogrammi. Un grande vantaggio dei Fotogrammi è che i loro nomi <b> vengono sempre visualizzati con la stessa scala</b>, anche se si esegue uno zoom indietro molto lontano.
 
-![Fotogrammi nei grafici a Substance](../../assets/frames.gif "Fotogrammi nei grafici a Substance")
+![Fotogrammi nei grafici a Substance](graph-creation-etiquette.resources/frames.gif "Fotogrammi nei grafici a Substance")
 
-Le cornici rendono molto più facile capire cosa sta succedendo in un grafico. Possono aiutarti, in qualità di autore, a tornare al tuo lavoro mesi dopo o di un altro utente, ad esempio un collega, a trovare la loro strada in un Grafico a cui non sono abituati.
+I fotogrammi facilitano la comprensione di ciò che accade in un grafico. Possono aiutarti, in qualità di autore, a tornare al tuo lavoro mesi dopo o di un altro utente, ad esempio un collega, a trovare la loro strada in un Grafico a cui non sono abituati.
 
-Per posizionare i fotogrammi, utilizzate i seguenti criteri:
+Per posizionare i Fotogrammi, utilizzate i seguenti criteri:
 
-* Identificare **porzioni di funzionalità** (ad esempio 8 nodi che insieme creano un effetto di dirt) e raggrupparle utilizzando Frame.
-* Provate sempre a **usare colori diversi** per i fotogrammi: i fotogrammi con lo stesso colore blu predefinito non si distinguono molto l&#39;uno dall&#39;altro.
+* Identificare **blocchi di funzionalità** (ad esempio, 8 nodi che insieme creano un effetto dirt) e raggrupparli utilizzando Fotogrammi.
+* Prova sempre a **usare colori diversi** per i tuoi Fotogrammi: i Fotogrammi con lo stesso colore blu predefinito non si distinguono molto l&#39;uno dall&#39;altro.
 * Utilizzare **nomi chiari e descrittivi** che non siano eccessivamente lunghi (vedere la sezione seguente per ulteriori suggerimenti)
-* Non inserire **troppo o troppo poco** in un&#39;immagine, in quanto ciò non aiuta la leggibilità. La quantità esatta differisce ovviamente tra i grafici e la funzionalità.
-* Se necessario, **aggiungete testo nella descrizione** per comprendere cosa succede in una cornice.
+* Non mettere **troppo o troppo poco** in un Fotogramma, perché questo non aiuta la leggibilità. La quantità esatta differisce ovviamente tra i grafici e la funzionalità.
+* Se necessario, **aggiungi testo nella descrizione** per comprendere cosa succede in un fotogramma.
 
-#### Commenti e puntine
+#### Commenti e Segnaposti
 
-Commenti e perni sono solo secondari rispetto a Cornici e non sono assolutamente indispensabili per grafici ben creati. Possono essere utilizzati nei seguenti scenari:
+Commenti e segnaposti sono secondari solo ai Fotogrammi e non sono un must assoluto per grafici ben scritti. Possono essere utilizzati nei seguenti scenari:
 
 * I commenti sono utili per aggiungere testo aggiuntivo oltre a quanto consentito dalla descrizione di una cornice. Potete aggiungere piccoli bit di testo per nodo, principalmente per piccole informazioni dettagliate. I commenti non vengono ridimensionati correttamente e non leggono da un livello di zoom a distanza.
 * I perni di navigazione consentono di scorrere aree specifiche del grafico utilizzando la scelta rapida F2. Questo può essere utile per i grafici molto grandi in cui spesso è necessario saltare tra due aree che sono molto distanti tra loro.
@@ -57,7 +57,7 @@ Commenti e perni sono solo secondari rispetto a Cornici e non sono assolutamente
 
 Gli ingressi e le uscite devono essere posizionati alle estremità dei grafici: tutti gli output a destra, tutti gli input a sinistra, ciascuno allineato verticalmente. In questo modo è più facile trovarli e identificarli.
 
-![Posizionamento di input e output](../../assets/inout.gif "Posizionamento di input e output")
+![Posizionamento di input e output](graph-creation-etiquette.resources/inout.gif "Posizionamento di input e output")
 
 L&#39;esempio precedente è un caso estremo: i fotogrammi non sono sempre necessari o possibili, ma dovrebbe essere chiaro che l&#39;allineamento verticale di In e Output è molto più chiaro rispetto al posizionamento casuale e casuale.
 
@@ -65,7 +65,7 @@ L&#39;esempio precedente è un caso estremo: i fotogrammi non sono sempre necess
 
 Nei grafici di grandi dimensioni e molto lunghi, a volte i collegamenti vengono creati su un&#39;estensione molto ampia. Questo porta a confondere i fili di collegamento che attraversano il grafico senza molto controllo. La scelta rapida &quot;Alt + Maiusc trascina&quot; consente di riorganizzare questi collegamenti, reindirizzandoli su un percorso diverso suddividendo un collegamento e aggiungendo una maniglia aggiuntiva al centro. Si raccomanda di utilizzare questa opzione in scenari in cui abbia senso.
 
-![Reindirizzamento collegamento](../../assets/linkjreroute.gif "Reindirizzamento collegamento")
+![Reindirizzamento collegamento](graph-creation-etiquette.resources/linkjreroute.gif "Reindirizzamento collegamento")
 
 ### Etichetta, identificatore e utilizzo
 
@@ -73,19 +73,19 @@ Qualsiasi grafico progettato per la condivisione o la pubblicazione deve essere 
 
 Le etichette consigliate predefinite non sono mai sufficienti, prendetevi il tempo e l&#39;impegno necessari per aggiungere etichette personalizzate ai parametri esposti e agli input e output.
 
-![Identificatore ed etichetta](../../assets/output-label.png "Identificatore ed etichetta")
+![Identificatore ed etichetta](graph-creation-etiquette.resources/output-label.png "Identificatore ed etichetta")
 
 Cercare di non avere identificatore e Label differiscono troppo: nel caso in cui l&#39;identificatore venga utilizzato altrove (in più funzioni) può essere molto difficile trovare quale proprietà dell&#39;interfaccia utente è correlata a quale variabile.
 
-![Chiarezza dell&#39;identificatore](../../assets/labelvsidentifier.png "Chiarezza dell&#39;identificatore")
+![Chiarezza dell&#39;identificatore](graph-creation-etiquette.resources/labelvsidentifier.png "Chiarezza dell&#39;identificatore")
 
 Cercate di far corrispondere le Etichette ai termini utilizzati in Cornici (Etichette cornice) e nei commenti. Semplifica la ricerca della sezione del grafico collegata al parametro esposto
 
-![Corrispondenza di cornici ed etichette di parametri](../../assets/match-labels.png "Corrispondenza di cornici ed etichette di parametri")
+![Etichette fotogramma e parametro corrispondenti](graph-creation-etiquette.resources/match-labels.png "Etichette fotogramma e parametro corrispondenti")
 
 ### Impostazioni parametri
 
-Quando si espongono i parametri, è importante non solo l&#39;etichetta e l&#39;identificatore, ma tenere presente quanto segue:
+Quando si espongono i parametri, è importante non solo l&#39;etichetta e l&#39;Identificatore, ma tenere presente quanto segue:
 
 * Scegli il tipo di editor corretto. Un cursore potrebbe non avere sempre senso: un elemento Interfaccia Angolo o Dropdown sono anche possibilità.
 * Impostate i valori Min e Max appropriati e decidete se è opportuno applicare il bloccaggio.
@@ -103,7 +103,7 @@ Quando si utilizzano i dati a colori e in scala di grigi, è necessaria una gran
 * I dati vengono conservati in scala di grigi il più a lungo possibile e convertiti solo quando assolutamente necessario. Ciò riduce la complessità e consente di risparmiare sulle prestazioni.
 * Gli input e gli output devono essere creati o impostati tenendo presente il tipo corretto: ad esempio, non ha senso avere un input &quot;maschera&quot; impostato sul colore se verrà convertito in scala di grigi per l&#39;uso come maschera binaria.
 
-![Conversioni in scala di colore e di grigio](../../assets/colorgray01.png "Conversioni in scala di colore e di grigio")
+![Conversioni in scala di colore e di grigio](graph-creation-etiquette.resources/colorgray01.png "Conversioni in scala di colore e di grigio")
 
 ### Controllo della risoluzione
 

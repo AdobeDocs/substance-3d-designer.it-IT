@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Pow
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 4%
+source-wordcount: '84'
+ht-degree: 8%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 4%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pow-1.png){width="128px"}
+![](pow.resources/pow-1.png){width="128px"}
 
-![](../../../../../../assets/pow-grayscale.png){width="128px"}
+![](pow.resources/pow-grayscale.png){width="128px"}
 
-## Poa (scala di grigi)
-
-**Ingresso:** *Filtri/Regolazioni*
-
-**Semplice**
+<b>Ingresso:</b> Filtri > Regolazioni
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -43,14 +39,24 @@ Alimenta l&#39;input da un esponente specificato. Simile alla regolazione dei [L
 
 Importante: accertatevi di utilizzare la versione corretta, a seconda che disponiate di un input a colori o in scala di grigi.
 
-## Parametri
-
-* **esponente**: *0.0 - 10.0* Esponente con cui alimentare l&#39;input.
-
-## Immagini di esempio
-
-![](../../../../../../assets/pow.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>esponente</b> <i>0.0 - 10.0</i> | Esponente utilizzato per alimentare l&#39;input. |
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="pow.resources/pow.gif" />
+        </td>
+    </tr>
 </table>

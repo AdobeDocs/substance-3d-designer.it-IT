@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Creare una variabile
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
@@ -64,4 +64,4 @@ Dopo aver eseguito questa operazione, la variabile sarà disponibile nell&#39;al
 >
 > Se avete più variabili da creare, ripetete l&#39;operazione di creazione dei nodi *Set* e *Sequence* e impostate l&#39;ultimo nodo di sequenza come nodo di output:
 > 
-> ![](../../../assets/image2015-12-18-18-43-8.png)
+> ![](create-a-variable.resources/image2015-12-18-18-43-8.png)

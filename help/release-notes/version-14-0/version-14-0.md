@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versione 14.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1626'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 *Data di pubblicazione: 30 luglio 2024*
 
-![](../../assets/2024-BannerRN.png)
+![](version-14-0.resources/2024-BannerRN.png)
 
 ## Nuovo contenuto
 
@@ -32,9 +32,9 @@ Questa versione 14.0 introduce molti nuovi contenuti con i nuovi nodi elencati d
 
 * <b>Nodi dedicati alla manipolazione del colore: </b>un nodo <b>(</b>[Quantizza colore](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md)<b>) </b>a<b> </b>ridurre il numero di colori in un&#39;immagine ed estrarre una tavolozza da essa, una famiglia di nodi di strumenti per creare la tua tavolozza di colori ([Visualizza](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) / [Crea](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md) / [Modifica](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)<b> </b>tavolozza colori) e uno per applicarla a un&#39;altra immagine utilizzando una mappa ID ([Applica tavolozza colori](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md)). Troverai anche il nodo [ID per mascherare la scala di grigi](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md) per convertire la mappa ID, calcolata da Quantizza colore, in una maschera in scala di grigi. Con questo insieme completo di nodi, hai tutto il necessario per creare effetti di stilizzazione utilizzando i colori.
 
-![](../../assets/GIF2_2.gif){zoomable="yes"}
+![](version-14-0.resources/GIF2_2.gif){zoomable="yes"}
 
-![Quantizza colore 2](../../assets/GIF3_2.gif){zoomable="yes"}
+![Quantizza colore 2](version-14-0.resources/GIF3_2.gif){zoomable="yes"}
 
 * <b>Filtro Kuwahara</b>: se desiderate migliorare ulteriormente la stilizzazione, potete generare alcuni effetti pittorici grazie ai filtri [Colore Kuwahara anisotropo](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara/anisotropic-kuwahara.md) / [Scala di grigi](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara-gra/anisotropic-kuwahara-grayscale.md). Nei dettagli, applica una sfocatura direzionale anisotropa conforme ai dettagli dell&#39;immagine. Il risultato è un’immagine che sembra scorrere nella direzione delle forme al suo interno.
 
@@ -56,11 +56,11 @@ Curvatura uniforme
 <table>
   <tr>
     <td>
-      <img src="../../assets/curvature_smooth_example_1_before.jpg" alt="curvature_smog_example_1_before">
+      <img src="version-14-0.resources/curvature_smooth_example_1_before.jpg" alt="curvature_smog_example_1_before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../assets/curvature_smooth_example_1_after.jpg" alt="curvature_smog_example_1_after">
+      <img src="version-14-0.resources/curvature_smooth_example_1_after.jpg" alt="curvature_smog_example_1_after">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -74,11 +74,11 @@ Istogramma equalizza
 <table>
   <tr>
     <td>
-      <img src="../../assets/histogram_equalize_example_1_before.jpg" alt="histogram_equalize_example_1_before">
+      <img src="version-14-0.resources/histogram_equalize_example_1_before.jpg" alt="histogram_equalize_example_1_before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../assets/histogram_equalize_example_1_after.jpg" alt="histogram_equalize_example_1_after">
+      <img src="version-14-0.resources/histogram_equalize_example_1_after.jpg" alt="histogram_equalize_example_1_after">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -97,11 +97,11 @@ Smusso uniforme
 <table>
   <tr>
     <td>
-      <img src="../../assets/bevel_smooth_example_6_before.jpg" alt="bevel_smog_example_6_before">
+      <img src="version-14-0.resources/bevel_smooth_example_6_before.jpg" alt="bevel_smog_example_6_before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../assets/bevel_smooth_example_6_after.jpg" alt="bevel_smog_example_6_after">
+      <img src="version-14-0.resources/bevel_smooth_example_6_after.jpg" alt="bevel_smog_example_6_after">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -115,11 +115,11 @@ Separa normale
 <table>
   <tr>
     <td>
-      <img src="../../assets/normal_uncombine_example_3_before.jpg" alt="normal_uncombine_example_3_before">
+      <img src="version-14-0.resources/normal_uncombine_example_3_before.jpg" alt="normal_uncombine_example_3_before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../assets/normal_uncombine_example_3_after.jpg" alt="normal_uncombine_example_3_after">
+      <img src="version-14-0.resources/normal_uncombine_example_3_after.jpg" alt="normal_uncombine_example_3_after">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -137,7 +137,7 @@ Separa normale
 
 * <b>Vista 2D: </b>quando la visualizzazione in porzioni è abilitata nella [vista 2D](../../interface/2d-view/2d-view.md), ora puoi ottenere valori anche per i pixel che non si trovano nella porzione originale: è molto utile controllare il [campionamento](../../glossary/glossary.md) e le transizioni dei valori tra le porzioni.
 
-![vista 2d](../../assets/2dview.gif){width="320px" zoomable="yes"}
+![vista 2d](version-14-0.resources/2dview.gif){width="320px" zoomable="yes"}
 
 * <b>Mappa sfumatura</b>: fate clic con il pulsante centrale del mouse per spostare tutti i [tasti sfumatura](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) verso sinistra o verso destra (in modo da mantenere gli spazi vuoti tra tutti i tasti).
 * <b>Parametri</b>: per inserire funzioni personalizzate tramite parametri, è ora possibile utilizzare il widget della funzione Modifica. È una soluzione efficace per la creazione di strumenti personalizzati in cui si desidera guidare i parametri utilizzando un [grafico delle funzioni Substance](../../function-graphs/the-function-graph/the-function-graph.md).
@@ -146,12 +146,12 @@ Separa normale
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Modifica funzione](../../assets/functionedit.png){zoomable="yes"}
+![Modifica funzione](version-14-0.resources/functionedit.png){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Modifica funzione 2](../../assets/functionedit2.png){zoomable="yes"}
+![Modifica funzione 2](version-14-0.resources/functionedit2.png){zoomable="yes"}
 
 </td>
 </tr>

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Sfocatura radiale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 2%
+source-wordcount: '68'
+ht-degree: 10%
 
 ---
 
@@ -22,34 +22,39 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/radial-blur.png)![](../../../../../../assets/radial-blur-grayscale.png)
+![](radial-blur.resources/radial-blur.png)![](radial-blur.resources/radial-blur-grayscale.png)
 
-## Sfocatura radiale (scala di grigi)
-
-**Ingresso:** *Filtri/Sfocature*
-
-**Semplice**
+<b>Ingresso:</b> Filtri > Sfocature
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
 Genera un effetto movimento rotante su un input.
 
-## Parametri
-
-* **Campioni**: *1 - 128* Impostate la qualità dell&#39;effetto di sfocatura.
-* **Angolo**: *0.0 - 0.5* Impostate la quantità di &quot;rotazione&quot; dell&#39;effetto.
-* **Posizione centrale**:\
-  Impostate il punto centrale dell’effetto.
-
-## Immagini di esempio
-
-![](../../../../../../assets/radial-blur-ex01.png)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Esempi</b> <i>1 - 128</i> | Impostate la qualità dell’effetto di sfocatura. |
+| <b>Angolo</b> <i>0.0 - 0.5</i> | Imposta la quantità di &quot;rotazione&quot; dell’effetto. |
+| <b>Posizione centrale</b> | Impostate il punto centrale dell’effetto. |
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="radial-blur.resources/radial-blur-ex01.png" />
+        </td>
+    </tr>
 </table>

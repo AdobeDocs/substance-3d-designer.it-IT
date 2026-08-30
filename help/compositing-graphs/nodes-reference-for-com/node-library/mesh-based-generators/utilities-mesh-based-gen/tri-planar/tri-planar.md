@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Triplo Planare
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 0%
+source-wordcount: '443'
+ht-degree: 6%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/triplanar-1.png){width="128px"}
+![](tri-planar.resources/triplanar-1.png){width="128px"}
 
-![](../../../../../../assets/triplanar-grayscale.png){width="128px"}
+![](tri-planar.resources/triplanar-grayscale.png){width="128px"}
 
-## Triplo Planare (Scala Di Grigi)
-
-**Ingresso:** *Generatori Basati Su Trama**/Utility*
-
-**Complesso**
+<b>In:</b> Generatori Basati Su Trama > Utility
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -45,46 +41,42 @@ Questo è un buon modo per evitare cuciture senza dover rifare ogni volta (è po
 
 Tieni presente che i tuoi dolci dovrebbero essere ad alta precisione: i dolci a 8 bit non porteranno a risultati molto belli.
 
-## Parametri
-
-### Input
-
-* **Posizione**: *Input colore*\
-  Mappa posizione al forno. Idealmente precisione di 16 bit o superiore.
-* **Spazio Mondiale Normale**: *Input Colore*\
-  Mappa Normale dello Spazio Mondiale al forno, preferibilmente con precisione di 16 bit o superiore.
-* **Input X**: *Input colore (input scala di grigi)*Mappa di input da mappare da UV a World Space tramite proiezione triplanare. Utilizzato per tutti gli assi quando Image Inputs è impostato su 1, per l&#39;asse X se è impostato su 3.
-* **Input Y**: *Input colore (input scala di grigi)*Solo se Image Inputs è impostato su 3. Mappa di input per il mapping dai raggi UV allo spazio globale sull&#39;asse Y.
-* **Input Z**: *Input colore (input scala di grigi)*Solo se Image Inputs è impostato su 3. Mappa di input per il mapping dai raggi UV allo spazio globale sull&#39;asse Z.
-
-### Parametri
-
-* **Proiezione**: *Tutti gli assi, solo X, solo Y, solo Z* Imposta gli assi con cui creare una fusione.
-* **Input immagine**: *1 input, 3 input*\
-  Impostare se utilizzare una mappa per tutti gli assi o una mappa specifica per asse.
-* **Metodo fusione**: *lineare, avanzato* Aumenta la precisione.
-* **Contrasto di fusione**: *0.001 - 1.0* Contrasto di transizione, fusione tra transizioni morbide o dure.
-* **Fattore di normalizzazione**: *0,0 - 1,0*\
-  Migliora la fusione della proiezione ripristinando la perdita di contrasto nell’area di fusione.
-* **Affiancatura texture**: *0.0 - 10.0* Numero di volte in cui affiancare le texture di input.
-* **Rotazione globale**: *0.0 - 1.0*\
-  Rotazione globale per tutti gli assi.
-* **Correggi proiezioni con mirroring**: *False/True* Imposta come gestire le proiezioni con mirroring.
-* **Rotazione X**: *0,0 - 1,0* Rotazione individuale sull&#39;asse X della proiezione.
-* **Rotazione Y**: *0,0 - 1,0* Rotazione individuale sull&#39;asse Y della proiezione.
-* **Rotazione Z**: *0,0 - 1,0* Rotazione individuale sull&#39;asse Z della proiezione.
-* **Scostamento X**: *0,0 - 1,0* Scostamento sull&#39;asse X della proiezione.
-* **Scostamento Casuale X**: *0,0 - 1,0*\
-  Consente la randomizzazione dell’offset dell’asse X.
-* **Scostamento Y**: *0,0 - 1,0* Scostamento sull&#39;asse Y della proiezione.
-* **Scostamento casuale Y**: *0,0 - 1,0*\
-  Consente la randomizzazione dell’offset dell’asse Y.
-* **Scostamento Z**: *0,0 - 1,0* Scostamento sull&#39;asse Z della proiezione.
-* **Scostamento casuale Z**: *0,0 - 1,0*\
-  Consente la randomizzazione dell’offset dell’asse Z.
-
-## Immagini di esempio
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Input
+
+|  |  |
+|:---|:---|
+| <b>Posizione</b> <i>Input colore</i> | Mappa posizione al forno. Idealmente precisione di 16 bit o superiore. |
+| <b>Spazio globale normale</b> <i>Input colore</i> | Mappa Normale dello Spazio Mondiale al forno, preferibilmente con precisione di 16 bit o superiore. |
+| <b>Input X</b> <i>Input colore (input scala di grigi)</i> | Mappa di input da mappare dai raggi UV allo spazio mondiale tramite proiezione triplanare. Utilizzato per tutti gli assi quando Image Inputs è impostato su 1, per l&#39;asse X se è impostato su 3. |
+| <b>Input Y</b> <i>Input colore (input scala di grigi)</i> | Solo se Image Inputs è impostato su 3. Mappa di input per il mapping dai raggi UV allo spazio globale sull&#39;asse Y. |
+| <b>Input Z</b> <i>Input colore (input scala di grigi)</i> | Solo se Image Inputs è impostato su 3. Mappa di input per il mapping dai raggi UV allo spazio globale sull&#39;asse Z. |
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Proiezione</b> <i>Tutti gli assi, solo X, solo Y, solo Z</i> | Imposta gli assi con cui creare una fusione. |
+| <b>Input immagine</b> <i>1 input, 3 input</i> | Impostare se utilizzare una mappa per tutti gli assi o una mappa specifica per asse. |
+| <b>Metodo fusione</b> <i>lineare, avanzato</i> | Aumenta la precisione. |
+| <b>Fusione del contrasto</b> <i>0.001 - 1.0</i> | Contrasto di transizione, fusione tra transizioni morbide o dure. |
+| <b>Fattore di normalizzazione</b> <i>0.0 - 1.0</i> | Migliora la fusione della proiezione ripristinando la perdita di contrasto nell’area di fusione. |
+| <b>Affiancamento Texture</b> <i>0.0 - 10.0</i> | Numero di volte in cui affiancare le texture di input. |
+| <b>Rotazione globale</b> <i>0.0 - 1.0</i> | Rotazione globale per tutti gli assi. |
+| <b>Correggi proiezione con mirroring</b> <i>Falso/Vero</i> | Impostare la modalità di gestione delle proiezioni specchiate. |
+| <b>Rotazione X</b> <i>0.0 - 1.0</i> | Rotazione individuale sull&#39;asse X della proiezione. |
+| <b>Rotazione Y</b> <i>0.0 - 1.0</i> | Rotazione individuale sull&#39;asse Y della proiezione. |
+| <b>Rotazione Z</b> <i>0.0 - 1.0</i> | Rotazione individuale sull&#39;asse Z della proiezione. |
+| <b>Scostamento X</b> <i>0.0 - 1.0</i> | Offset sull&#39;asse X della proiezione. |
+| <b>Scostamento Casuale X</b> <i>0.0 - 1.0</i> | Consente la randomizzazione dell’offset dell’asse X. |
+| <b>Scostamento Y</b> <i>0.0 - 1.0</i> | Offset sull&#39;asse Y della proiezione. |
+| <b>Scostamento casuale Y</b> <i>0.0 - 1.0</i> | Consente la randomizzazione dell’offset dell’asse Y. |
+| <b>Scostamento Z</b> <i>0.0 - 1.0</i> | Offset sull&#39;asse Z della proiezione. |
+| <b>Scostamento casuale Z</b> <i>0.0 - 1.0</i> | Consente la randomizzazione dell’offset dell’asse Z. |

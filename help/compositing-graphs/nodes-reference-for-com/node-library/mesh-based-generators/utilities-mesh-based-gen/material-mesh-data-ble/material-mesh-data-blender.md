@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Miscelatore dati mesh materiale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 0%
+source-wordcount: '572'
+ht-degree: 8%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/material-mesh-data-blender.png){width="128px"}
+![](material-mesh-data-blender.resources/material-mesh-data-blender.png){width="128px"}
 
-## Miscelatore dati mesh materiale
-
-**Ingresso:** *Generatori Basati Su Trama**/Utility*
-
-**Complesso**
+<b>In:</b> Generatori Basati Su Trama > Utility
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -41,75 +37,61 @@ Questo nodo ha lo scopo di semplificare notevolmente l&#39;aggiunta di dettagli 
 
 È utile ad esempio per aggiungere l’evidenziazione dei bordi in base alla curvatura o ad altre mappe, eseguire la fusione in alcuni oggetti AO con Diffusione/Colore di base, aggiungere Occlusioni di Specular basate su Curvatura e/o AO, ecc.
 
-## Parametri
-
-### Input
-
-* **Input materiale completo (gruppo &quot;Materiale&quot;):** set completo di mappe materiale.\
-  Questi elementi vengono modificati da questo nodo e quindi restituiti come output.
-* **Occlusione ambiente**: *Input scala di grigi*\
-  Mappa con baking utilizzata per effetti interni e mascheratura.
-* **Curvatura**: *Input scala di grigi*\
-  Mappa con baking utilizzata per effetti interni e mascheratura.
-* **Height**: *Input scala di grigi*
-* **Normale**: *Input colore*
-* **Colore vertice**: *Input colore*
-* **Spazio Mondiale Normale**: *Input Colore*
-
-### Parametri
-
-* **Canali**
-  * Attivate e disattivate i canali del materiale in questo gruppo, ad esempio quando utilizzate mappe Specular/lucidità invece di Metallico/Rugosità. Influisce sulla disponibilità dei parametri seguenti.
-* **Mappe con baking**
-  * Indica se utilizzare o meno le mappe con baking elencate per i calcoli. Influisce sulla disponibilità dei parametri seguenti.
-* **Diffusione AO**: *0.0 - 1.0* Quantità di Occlusione ambiente da fondere nella diffusione.
-* **Bordi Netti Diffusi**: 0,0 - 1,0\
-  Quantità della mappa di curvatura da fondere con Diffusione.
-* **Colore Diffuso Dal Colore Vertice**: 0,0 - 1,0\
-  Quantità del Color Bake Vertice da fondere con Diffusione.
-* **Pre-illuminazione diffusa**: 0,0 - 1,0\
-  Quantità di (falsa) pre-illuminazione, in base ai World Space Normals.
-* **Bilanciamento Diffusione Illuminazione Cartone Animato**: 0,0 - 1,0\
-  Si sposta tra un’illuminazione realistica e in stile cartone animato per Diffusione.
-* **Livelli di pre-illuminazione per cartoni animati diffusi**: 0 - 10\
-  Controlla l’aspetto dei calcoli di illuminazione per i cartoni animati.
-* **Profili fumetto diffusi**: 0,0 - 1,0\
-  Controlla l’aspetto dei calcoli di illuminazione per i cartoni animati.
-* **Colore base AO**: 0,0 - 1,0\
-  Quantità di Occlusione ambiente da fondere con il colore di base.
-* **Bordi netti colore di base**: 0,0 - 1,0\
-  Quantità della mappa di curvatura da fondere con il colore di base.
-* **Colore Di Base Da Colore Vertice**: 0,0 - 1,0\
-  Quantità del colore Vertice da unire al colore di base.
-* **Intensità materiale normale**: 0,0 - 1,0\
-  Intensità di fusione della Normalmap cotta (tangente).
-* **SpecularAO**: 0,0 - 1,0\
-  Forza di fusione dell’AO nello Specular.
-* **Bordi netti con Specular chiaro**: 0,0 - 1,0\
-  Intensità di fusione della curvatura nello Specular.
-* **Contorni di Specular animato**: 0,0 - 1,0\
-  Intensità di fusione di un effetto Specular bordo-contorno, in base alla curvatura.
-* **Lucentezza Bordi Netti Scuri**: 0,0 - 1,0\
-  Intensità di fusione della curvatura nel livello di lucidità.
-* **Rugosità Bordi Netti E Luminosi**: 0,0 - 1,0\
-  Forza di fusione della curvatura nella rugosità.
-* **Contorni fumetto rugosità**: 0,0 - 1,0\
-  Intensità di fusione di un effetto bordo rugosità fumetto, in base alla curvatura.
-* **Bordi Netti Luminosi Metallici**: 0,0 - 1,0\
-  Intensità di fusione della curvatura nel metallizzato.
-* **Contorni metallizzati dei cartoni animati**: 0,0 - 1,0\
-  Intensità di fusione di un effetto bordo metallico del cartone animato, in base alla curvatura.
-* **Intensità materiale AO**: 0,0 - 1,0\
-  Intensità di fusione di mappa con baking AO con AO generato dal materiale, in che misura combinare entrambe le mappe AO.
-* **Intensità materiale Height**: 0,0 - 1,0\
-  Intensità di fusione del Height mappa con baking con il Height generato dal materiale, in che misura combinare entrambe le mappe altezza.
-* **Tipo di fusione materiale Height**: rinforza, interpolazione\
-  Metodo fusione per combinare entrambe le mappe di altezza.
-
-## Immagini di esempio
-
-![](../../../../../../assets/blenddata-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Input
+
+|  |  |
+|:---|:---|
+| <b>Input materiale completo (gruppo &quot;Materiale&quot;)</b> | Set completo di mappe di materiale.<br><br>Questi elementi sono stati modificati da questo nodo e sono stati restituiti come output. |
+| <b>Occlusione ambiente</b> <i>Input scala di grigi</i> | Mappa con baking utilizzata per effetti interni e mascheratura. |
+| <b>Curvatura</b> <i>Input scala di grigi</i> | Mappa con baking utilizzata per effetti interni e mascheratura. |
+| <b>Height</b> <i>Input scala di grigi</i> |  |
+| <b>Normale</b> <i>Input colore</i> |  |
+| <b>Colore vertice</b> <i>Input colore</i> |  |
+| <b>Spazio globale normale</b> <i>Input colore</i> |  |
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Canali</b> | Attivate e disattivate i canali del materiale in questo gruppo, ad esempio quando utilizzate mappe Specular/lucidità invece di Metallico/Rugosità. Influisce sulla disponibilità dei parametri seguenti. |
+| <b>Mappe con baking</b> | Indica se utilizzare o meno le mappe con baking elencate per i calcoli. Influisce sulla disponibilità dei parametri seguenti. |
+| <b>Diffusa AO</b> <i>0.0 - 1.0</i> | Quantità di Occlusione ambientale da fondere nella Diffusa. |
+| <b>Bordi Netti Diffusa</b> <i>0.0 - 1.0</i> | Quantità della mappa di curvatura da fondere con Diffusione. |
+| <b>Colore Diffusa Da Colore Vertice</b> <i>0.0 - 1.0</i> | Quantità del Color Bake Vertice da fondere con Diffusione. |
+| <b>Pre-illuminazione Diffusa</b> <i>0.0 - 1.0</i> | Quantità di (falsa) pre-illuminazione, in base ai World Space Normals. |
+| <b>Bilanciamento illuminazione cartone animato Diffusa</b> <i>0.0 - 1.0</i> | Si sposta tra un’illuminazione realistica e in stile cartone animato per Diffusione. |
+| <b>Livelli di pre-illuminazione per cartone animato Diffusa</b> <i>0 - 10</i> | Controlla l’aspetto dei calcoli di illuminazione per i cartoni animati. |
+| <b>Contorni cartone animato Diffusa</b> <i>0.0 - 1.0</i> | Controlla l’aspetto dei calcoli di illuminazione per i cartoni animati. |
+| <b>Colore di base AO</b> <i>0.0 - 1.0</i> | Quantità di Occlusione ambiente da fondere con il colore di base. |
+| <b>Colore di base bordi netti</b> <i>0.0 - 1.0</i> | Quantità della mappa di curvatura da fondere con il colore di base. |
+| <b>Colore di base Da Colore Vertice</b> <i>0.0 - 1.0</i> | Quantità del colore Vertice da unire al colore di base. |
+| <b>Intensità materiale normale</b> <i>0.0 - 1.0</i> | Intensità di fusione della Normalmap cotta (tangente). |
+| <b>SpecularAO</b> <i>0.0 - 1.0</i> | Forza di fusione dell’AO nello Specular. |
+| <b>Bordi netti con Specular chiaro</b> <i>0.0 - 1.0</i> | Intensità di fusione della curvatura nello Specular. |
+| <b>Specular contorni cartone animato</b> <i>0.0 - 1.0</i> | Intensità di fusione di un effetto Specular bordo-contorno, in base alla curvatura. |
+| <b>Lucentezza bordi netti scuri</b> <i>0.0 - 1.0</i> | Forza di fusione della curvatura nella Lucentezza. |
+| <b>Rugosità Bordi Netti E Luminosi</b> <i>0.0 - 1.0</i> | Forza di fusione della curvatura nella rugosità. |
+| <b>Contorni fumetto rugosità</b> <i>0.0 - 1.0</i> | Intensità di fusione di un effetto bordo rugosità fumetto, in base alla curvatura. |
+| <b>Bordi Netti Luminosi Metallici</b> <i>0.0 - 1.0</i> | Intensità di fusione della curvatura nel metallizzato. |
+| <b>Contorni metallizzati dei cartoni animati</b> <i>0.0 - 1.0</i> | Intensità di fusione di un effetto bordo metallico del cartone animato, in base alla curvatura. |
+| <b>Intensità materiale AO</b> <i>0.0 - 1.0</i> | Fusione la forza di mappa con baking AO con AO generato dal materiale, a che livello combinare entrambe le mappe AO. |
+| <b>Intensità materiale Height</b> <i>0.0 - 1.0</i> | Fusione la forza del Height mappa con baking con il Height generato dal materiale, a che livello combinare entrambe le mappe altezza. |
+| <b>Tipo di fusione materiale Height</b> <i>Rafforzare, Interpolazione</i> | Modalità Fusione per combinare entrambe le mappe di altezza. |
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="material-mesh-data-blender.resources/blenddata-ex.gif" />
+        </td>
+    </tr>
 </table>

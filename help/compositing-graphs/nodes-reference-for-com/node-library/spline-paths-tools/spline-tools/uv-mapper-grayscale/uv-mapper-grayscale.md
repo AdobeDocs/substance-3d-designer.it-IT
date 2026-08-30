@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Mappatura UV in scala di grigi
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 1%
+source-wordcount: '142'
+ht-degree: 2%
 
 ---
 
@@ -22,13 +22,9 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-<table>
-<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo](../../../../../../assets/uv-mapper-grayscale-icon.png "Icona nodo")
+![Icona nodo](uv-mapper-grayscale.resources/uv-mapper-grayscale-icon.png "Icona nodo")
 
 <b>In:</b> Strumenti Spline E Tracciati > Strumenti spline
 
@@ -47,15 +43,22 @@ Mappa l’immagine in scala di grigio di input usando le coordinate fornite nell
 >
 > Vedere anche [Colore mappatore UV](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md).
 
-## Connettori di ingresso
+<a name="inputs"></a>
 
-<b>UV</b> *Colore* Coordinate dell’immagine codificate nei canali rosso (U) e verde (V) di un’immagine a colori.
+## Input
 
-<b>Input</b> *Colore* Immagine in scala di grigio da mappare alle coordinate fornite nell&#39;input UV.
+|  |  |
+|:---|:---|
+| <b>UV</b> <i>Colore</i> | Coordinate immagine codificate nei canali rosso (U) e verde (V) di un’immagine a colori. |
+| <b>Input</b> <i>Colore</i> | L&#39;immagine in scala di grigio che deve essere mappata alle coordinate fornite nell&#39;input UV. |
 
-## Connettori di uscita
+<a name="outputs"></a>
 
-<b>Output</b> *Colore* Risultato della mappatura dell&#39;immagine di input utilizzando le coordinate UV di input, come immagine in scala di grigio.
+## Output
+
+|  |  |
+|:---|:---|
+| <b>Output</b> <i>Colore</i> | Risultato della mappatura dell’immagine di input utilizzando le coordinate UV di input, come immagine in scala di grigio. |
 
 ## Esempi
 
@@ -66,11 +69,11 @@ Mappa l’immagine in scala di grigio di input usando le coordinate fornite nell
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/UVMapper-Variant1-Before.jpg" alt="UVMapper-Variant1-Before">
+      <img src="uv-mapper-grayscale.resources/UVMapper-Variant1-Before.jpg" alt="UVMapper-Variant1-Before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../../../../../assets/UVMapperGrayscale-Variant1-After.jpg" alt="UVMapperGrayscale-Variant1-After">
+      <img src="uv-mapper-grayscale.resources/UVMapperGrayscale-Variant1-After.jpg" alt="UVMapperGrayscale-Variant1-After">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -82,11 +85,11 @@ Mappa l’immagine in scala di grigio di input usando le coordinate fornite nell
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/UVMapper-Variant2-Before.jpg" alt="UVMapper-Variant2-Before">
+      <img src="uv-mapper-grayscale.resources/UVMapper-Variant2-Before.jpg" alt="UVMapper-Variant2-Before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../../../../../assets/UVMapper-Variant2-After.jpg" alt="UVMapper-Variant2-After">
+      <img src="uv-mapper-grayscale.resources/UVMapper-Variant2-After.jpg" alt="UVMapper-Variant2-After">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -96,18 +99,4 @@ Mappa l’immagine in scala di grigio di input usando le coordinate fornite nell
 </tr>
 </table>
 
-![Esempio di nodo 1](../../../../../../assets/UVMapper-Graph.jpg "Esempio di nodo 1")
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
+![Esempio di nodo 1](uv-mapper-grayscale.resources/UVMapper-Graph.jpg "Esempio di nodo 1")

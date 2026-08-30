@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Explorer
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 2%
@@ -35,7 +35,7 @@ In Esplora risorse puoi avviare e terminare i progetti, poiché consente di crea
 </td>
 <td style="border: 0;" valign="top">
 
-![Ancoraggio Esplora risorse](../../assets/explorer-3.jpg "Ancoraggio Esplora risorse")
+![Ancoraggio Esplora risorse](the-explorer-window.resources/explorer-3.jpg "Ancoraggio Esplora risorse")
 
 </td>
 </tr>
@@ -47,7 +47,7 @@ Puoi eseguire alcune azioni importanti tramite il dock di Esplora risorse:
 * Caricare i pacchetti esistenti
 * Salvare e chiudere i pacchetti caricati
 * [Importare e collegare le risorse](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
-* [Esportare i risultati del grafico nelle texture](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)
+* [Esportare i risultati del grafico in texture](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)
 * [Publish di un pacchetto a una risorsa Substance 3D (SBSAR)](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)
 * [Inviare pacchetti ad altre applicazioni Substance 3D](send-to-interoperability/send-to-interoperability.md)
 * [Bake map da una trama](../../bakers/bakers.md)
@@ -56,16 +56,16 @@ Puoi eseguire alcune azioni importanti tramite il dock di Esplora risorse:
 
 Questa barra degli strumenti consente di eseguire rapidamente le funzioni relative al flusso di lavoro generale. Tutti i pulsanti sono *sensibili al contesto*, il che significa che si attivano e cambiano il comportamento in base alla selezione corrente in Esplora risorse.
 
-![](../../assets/save.png) <b>Salva</b> pacchetto selezionato.
+![](the-explorer-window.resources/save.png) <b>Salva</b> pacchetto selezionato.
 
-![](../../assets/sendto-icon.jpg) <b>Publish o [invia](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)</b> elementi selezionati:
+![](the-explorer-window.resources/sendto-icon.jpg) <b>Publish o [invia](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)</b> elementi selezionati:
 
 * [Publish di qualsiasi pacchetto selezionato in una risorsa Substance 3D (SBSAR)](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md);
 * Invia il pacchetto selezionato a [Substance 3D Sampler](https://www.adobe.com/it/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/it/products/substance3d-painter.html) o [Substance 3D Stager](https://www.adobe.com/it/products/substance3d-stager.html).
 
-![](../../assets/republish.png) <b>Publish o invia come precedente:</b> Publish o invia gli elementi selezionati con le stesse impostazioni di prima. Questa opzione è disponibile solo in un pacchetto che è già stato pubblicato *almeno una volta* nella sessione *corrente*.
+![](the-explorer-window.resources/republish.png) <b>Publish o invia come precedente:</b> Publish o invia gli elementi selezionati con le stesse impostazioni di prima. Questa opzione è disponibile solo in un pacchetto che è già stato pubblicato *almeno una volta* nella sessione *corrente*.
 
-![](../../assets/graph-cleaner.jpg) <b>Rimuovere i nodi inutilizzati</b> nei grafici selezionati. Lo strumento segue queste regole:
+![](the-explorer-window.resources/graph-cleaner.jpg) <b>Rimuovere i nodi inutilizzati</b> nei grafici selezionati. Lo strumento segue queste regole:
 
 * Lo strumento è disponibile solo se gli elementi selezionati sono dello *stesso tipo*: solo grafici, cartelle o pacchetti;
 * Quando la selezione include cartelle o pacchetti, lo strumento pulisce tutti i grafici in esse *in modo ricorsivo*;
@@ -77,14 +77,14 @@ Ulteriori informazioni sullo strumento sono disponibili nella sezione &#39;Rimuo
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Menu a discesa Publish/Invia](../../assets/explorer-sendto-displayed.jpg "Menu a discesa Publish/Invia")
+![Menu a discesa Publish/Invia](the-explorer-window.resources/explorer-sendto-displayed.jpg "Menu a discesa Publish/Invia")
 
 *Publish/Invia*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Rimuovi i nodi inutilizzati dal menu a discesa](../../assets/explorer-graph-cleaner.jpg "Rimuovi i nodi inutilizzati dal menu a discesa")
+![Rimuovi i nodi inutilizzati dal menu a discesa](the-explorer-window.resources/explorer-graph-cleaner.jpg "Rimuovi i nodi inutilizzati dal menu a discesa")
 
 *Rimuovi nodi inutilizzati*
 
@@ -116,9 +116,9 @@ Lo spazio vuoto è disponibile solo al di sotto di qualsiasi pacchetto attualmen
 
 <b>Ricarica</b>, <b>Salva, Salva con nome</b> e<b> Salva una copia come</b> consente di salvare su disco o richiamare dal disco una versione salvata precedentemente del pacchetto.
 
-<b>Il file .sbsar di Publish</b> e<b> il file .sbsar di ripubblicazione</b> ti consente di [pubblicare](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) il tuo grafico Substance non compilato e non ottimizzato, in un file SBSAR efficiente e portatile per noi in altre applicazioni e integrazioni Substance. Publish come precedente ripete l’azione precedente di Publish con le stesse opzioni, ignorando la finestra di dialogo delle opzioni per un’iterazione più veloce. La barra degli strumenti contiene pulsanti con la stessa funzionalità.
+<b>Il file .sbsar di Publish</b> e<b> il file .sbsar di ripubblicazione</b> ti consente di [pubblicare](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) il tuo grafico Substance non compilato e non ottimizzato, in un file SBSAR efficiente e portatile per noi in altre applicazioni e integrazioni Substance. Publish come precedente ripete l’azione precedente di Publish con le stesse opzioni, ignorando la finestra di dialogo delle opzioni per un’iterazione più rapida. La barra degli strumenti contiene pulsanti con la stessa funzionalità.
 
-<b>L&#39;esportazione con dipendenze</b> è diversa dal salvataggio e dalla pubblicazione. Prende i tuoi file SBS, raccoglie tutte le risorse e le dipendenze di riferimento e crea un pacchetto autonomo. La finestra di dialogo consente di scegliere quali librerie raccogliere e se il file deve essere un archivio compresso (7-zip). Questa è una buona scelta per condividere un file SBS con qualcun altro, senza preoccuparsi di dipendenze mancanti.
+<b>L&#39;esportazione con dipendenze</b> è diversa dal salvataggio e dalla pubblicazione. Prende i file SBS, raccoglie tutte le risorse e le dipendenze di riferimento e crea un pacchetto autonomo. La finestra di dialogo consente di scegliere quali librerie raccogliere e se il file deve essere un archivio compresso (7-zip). Questa è una buona scelta per condividere un file SBS con qualcun altro, senza preoccuparsi di dipendenze mancanti.
 
 <b>Invia a...</b> apre un sottomenu che consente di [inviare](send-to-interoperability/send-to-interoperability.md) direttamente il pacchetto a [Substance 3D Sampler](https://www.adobe.com/it/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/it/products/substance3d-painter.html), [Substance 3D Stager](https://www.adobe.com/it/products/substance3d-stager.html) o [Substance Player](https://helpx.adobe.com/substance-3d-player/home.html).
 
@@ -148,7 +148,7 @@ Lo spazio vuoto è disponibile solo al di sotto di qualsiasi pacchetto attualmen
 
 <b>Rinomina:</b> (F2) Rinomina questo grafico.
 
-<b>Visualizza output in visualizzazione 3D:</b> Invia gli output di questo grafico a [visualizzazione 3D](../../interface/3d-view/3d-view.md) per visualizzarli come materiale.
+<b>Visualizza output in vista 3D:</b> Invia gli output di questo grafico a [il vista 3D](../../interface/3d-view/3d-view.md), per visualizzarli come materiale.
 
 <b>Calcola output:</b> Calcola gli output di questo grafico e li mantiene in memoria.
 
@@ -158,7 +158,7 @@ Lo spazio vuoto è disponibile solo al di sotto di qualsiasi pacchetto attualmen
 
 +++Risorsa scena 3D
 
-<b>Apri:</b> (a capo) utilizza questa trama 3D in[vista 3D](../../interface/3d-view/3d-view.md), sostituendo il cubo o il piano standard.
+<b>Apri:</b> (a capo) Utilizza questa trama 3D in[il vista 3D](../../interface/3d-view/3d-view.md), sostituendo il cubo o il piano standard.
 
 <b>Copia:</b> (CTRL-C) Copia la risorsa negli Appunti.
 
@@ -174,13 +174,13 @@ Lo spazio vuoto è disponibile solo al di sotto di qualsiasi pacchetto attualmen
 
 <b>Riposiziona:</b> Modificare la risorsa in modo che sia collegata a un altro file.
 
-<b>Informazioni sul modello di cottura...:</b> Apre la [finestra di dialogo Cottura al forno.](../../bakers/bakers.md)
+<b>Esegue i baking informazioni sul modello...:</b> Apre la [finestra di dialogo di Esegue i baking.](../../bakers/bakers.md)
 
 +++
 
 +++Cartella
 
-<b>Novità:</b> consente di creare nella cartella nuovi grafici ([Substance grafico](../../compositing-graphs/substance-compositing-graphs.md), [Substance grafico funzione](../../function-graphs/function-graphs.md), [bitmap](../../resources/bitmap-resource/bitmap-resource.md) e [grafica vettoriale](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) risorse, nonché *cartelle* per ordinare il contenuto.
+<b>Nuovo:</b> consente di creare nella cartella nuovi grafici ([Grafico Substance](../../compositing-graphs/substance-compositing-graphs.md), [Grafico funzione Substance](../../function-graphs/function-graphs.md), [bitmap](../../resources/bitmap-resource/bitmap-resource.md) e [Risorse grafica vettoriale](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md), nonché *Cartelle* per l&#39;ordinamento del contenuto.
 
 <b>Importa</b> e <b>Collegamento: </b>Consenti di inserire [risorse](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md) e di inserirle nella cartella.
 
@@ -200,9 +200,9 @@ Lo spazio vuoto è disponibile solo al di sotto di qualsiasi pacchetto attualmen
 
 La barra degli strumenti nella parte inferiore dell&#39;ancoraggio di Esplora risorse fornisce informazioni su un pacchetto o una risorsa del pacchetto:
 
-<b>![](../../assets/explorer-dependencies.jpg) dipendenze:</b> Quando si seleziona un pacchetto, le relative dipendenze vengono elencate in un pannello dedicato.
+<b>![](the-explorer-window.resources/explorer-dependencies.jpg) dipendenze:</b> Quando si seleziona un pacchetto, le relative dipendenze vengono elencate in un pannello dedicato.
 
-<b>![](../../assets/explorer-information.jpg) Informazioni:</b> Fornisce i metadati relativi al pacchetto o alla risorsa attualmente selezionata:
+<b>![](the-explorer-window.resources/explorer-information.jpg) Informazioni:</b> Fornisce i metadati relativi al pacchetto o alla risorsa attualmente selezionata:
 
 * Pacchetto: il percorso completo del file del pacchetto
 * [Risorsa bitmap](../../resources/bitmap-resource/bitmap-resource.md): il percorso completo del file della risorsa, il relativo [profilo ICC](../../color-management/color-management.md), le dimensioni dell&#39;immagine e il [metodo di importazione](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md) (ovvero *collegato* o *importato*)
@@ -211,14 +211,14 @@ La barra degli strumenti nella parte inferiore dell&#39;ancoraggio di Esplora ri
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Pannello Dipendenze](../../assets/explorer-dependencies-displayed.jpg "Pannello Dipendenze")
+![Pannello Dipendenze](the-explorer-window.resources/explorer-dependencies-displayed.jpg "Pannello Dipendenze")
 
 *Dipendenze*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Pannello Informazioni](../../assets/explorer-information-displayed.jpg "Pannello Informazioni")
+![Pannello Informazioni](the-explorer-window.resources/explorer-information-displayed.jpg "Pannello Informazioni")
 
 *Informazioni*
 

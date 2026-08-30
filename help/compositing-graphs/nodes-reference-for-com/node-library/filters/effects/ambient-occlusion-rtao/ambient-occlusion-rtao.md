@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Occlusione ambientale (RTAO)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 0%
+source-wordcount: '217'
+ht-degree: 1%
 
 ---
 
@@ -22,14 +22,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo RTAO](../../../../../../assets/rt-ao.png "Icona nodo RTAO")
+![Icona nodo RTAO](ambient-occlusion-rtao.resources/rt-ao.png "Icona nodo RTAO")
 
-<b>Ingresso:</b> *Filtri/Effetti*
+<b>Ingresso:</b> Filtri > Effetti
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -43,42 +43,29 @@ Per un&#39;alternativa più semplice e veloce, vedere [Occlusione ambiente (HBAO
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parametri
 
-<b>Usa Dimensioni fisiche</b> *Booleano*\
-Attivate/disattivate per utilizzare le impostazioni della Dimensioni fisiche per determinare la scala del height.
+|  |  |
+|:---|:---|
+| <b>Usa Dimensioni fisiche</b> <i>Booleano</i> | Attivate/disattivate per utilizzare le impostazioni della Dimensioni fisiche per determinare la scala del height. |
+| <b>Dimensioni fisiche</b> <i>Float3</i> <i>(Disponibile quando <b>Usa Dimensioni fisiche</b> è impostato su <i>Vero</i>)</i> | Regola la scala del height in base alla dimensioni fisiche reale della superficie |
+| <b>Esempi</b> <i>Numero intero</i> | Numero di raggi utilizzati per il calcolo dell&#39;occlusione ambientale.<br>Un valore più elevato fornisce un risultato più uniforme e preciso a scapito delle prestazioni. |
+| <b>Scala Height</b> <i>Mobile</i> <i>(Disponibile quando <b>Usa Dimensioni fisiche</b> è impostato su <i>False</i>)</i> | Moltiplicatore per l&#39;intensità dell&#39;input della mappa del height. |
+| <b>Distribuzione</b> <i>Numero intero</i> | Imposta il metodo di distribuzione. Influisce sul decadimento verso le aree in ombra, |
+| <b>Distanza Massima</b> <i>Mobile</i> | Consente di impostare la distanza massima percorribile dai raggi per l’occlusione. |
+| <b>Angolo di diffusione</b> <i>Mobile</i> | Consente di impostare l’angolo di diffusione dei raggi da riprendere. Un valore pari a 1 è un emisfero completo. |
 
-<b>Dimensioni fisiche</b> *Float3* (disponibile quando <b>Usa Dimensioni fisiche</b> è impostato su *Vero*)\
-Regola la scala del height in base alla dimensioni fisiche reale della superficie
+## Esempi
 
-<b>Esempi </b>*Interi*\
-Numero di raggi utilizzati per calcolare l&#39;occlusione ambientale.\
-Un valore più elevato fornisce un risultato più fluido e preciso a costo delle prestazioni.
-
-<b>Scala Height</b> *Mobile* (disponibile quando <b>Usa Dimensioni fisiche</b> è impostato su *Falso*)\
-Moltiplicatore per l&#39;intensità dell&#39;input della mappa del height.
-
-<b>Distribuzione</b> *Numero intero* Imposta il metodo di distribuzione. Influisce sul decadimento verso le aree in ombra,
-
-<b>Distanza Massima</b> *Mobile*\
-Consente di impostare la distanza massima percorribile dai raggi per l’occlusione.
-
-<b>Angolo di diffusione</b> *Mobile*\
-Consente di impostare l’angolo di diffusione dei raggi da riprendere. Un valore pari a 1 è un emisfero completo.
-
-## Immagini di esempio
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Nodo RTAO - Esempio 1](../../../../../../assets/image2021-6-18-11-7-48.png "Nodo RTAO - Esempio 1")
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Nodo RTAO - Esempio 2](../../../../../../assets/image2021-6-18-11-9-0-1.png "Nodo RTAO - Esempio 2")
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="ambient-occlusion-rtao.resources/image2021-6-18-11-7-48.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="ambient-occlusion-rtao.resources/image2021-6-18-11-9-0-1.png" />
+        </td>
+    </tr>
 </table>

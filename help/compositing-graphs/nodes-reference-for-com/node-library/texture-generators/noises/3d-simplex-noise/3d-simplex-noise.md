@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Disturbo simplex 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 1%
+source-wordcount: '129'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3d-simplex-noise.png){width="128px"}
+![](3d-simplex-noise.resources/3d-simplex-noise.png){width="128px"}
 
-## Disturbo simplex 3D
-
-**Ingresso:** *Generatori Di Texture**/Rumori*
-
-**Intermedio**
+<b>Ingresso:</b> Generatori di Texture > Rumori
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -42,16 +38,25 @@ Simile a [Disturbo Perlin 3D](../../../../../../compositing-graphs/nodes-referen
 
 Questo disturbo può essere testato con [Cubo 3D GBuffer](https://support.allegorithmic.com/documentation/display/SDDOC/Cube+3D+GBuffers) come input anziché come mappa con baking effettiva (come illustrato nell&#39;immagine di esempio seguente).
 
-## Parametri
-
-* **Scala**: *0,0 - 64,0*\
-  Impostate la scala globale per l’effetto.
-* **Dimensioni**: *0,0 - 2,0* Eseguire separatamente il ridimensionamento non uniforme sugli assi X, Y e Z.
-
-## Immagini di esempio
-
-![](../../../../../../assets/3d-simplex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Scala</b> <i>0.0 - 64.0</i> | Impostate la scala globale per l’effetto. |
+| <b>Dimensioni</b> <i>0.0 - 2.0</i> | Eseguire separatamente il ridimensionamento non uniforme sugli assi X, Y e Z. |
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="3d-simplex-noise.resources/3d-simplex.gif" />
+        </td>
+    </tr>
 </table>

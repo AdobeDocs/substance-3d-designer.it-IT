@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Calcolo istogramma
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '310'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Calcolo istogramma: icon](../../../../../../assets/histogram_compute.png "Calcolo istogramma: icon"){width="200px"}
+![Calcolo istogramma: icon](histogram-compute.resources/histogram_compute.png "Calcolo istogramma: icon"){width="200px"}
 
 <b>Ingresso:</b> Filtri > Regolazioni
 
@@ -48,59 +48,45 @@ Gli strumenti personalizzati possono essere creati utilizzando i dati calcolati 
 
 >[!IMPORTANT]
 >
-> Tutti i valori al di fuori dell’intervallo [0,1] vengono bloccati, pertanto l’istogramma potrebbe non essere accurato per le immagini HDR.
+> Tutti i valori al di fuori dell’intervallo [0,1] vengono bloccati, pertanto l’istogramma potrebbe non essere accurato per le immagini dell’HDR.
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Connettori di uscita
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parametri
-
-</td>
-</tr>
-</table>
-
-## Connettori di ingresso
+## Input
 
 |  |  |
-| --- | --- |
-| <b>Input</b> *Scala di grigi* PRIMARIO | Immagine per la quale deve essere calcolato l&#39;istogramma. |
+|:---|:---|
+| <b>Input</b> <i>Scala di grigi</i> PRIMARIO | Immagine per la quale deve essere calcolato l&#39;istogramma. |
 
-## Connettori di uscita
+<a name="outputs"></a>
+
+## Output
 
 |  |  |
-| --- | --- |
-| <b>Istogramma</b> *Scala di grigi* | Istogramma calcolato per l&#39;immagine di input, codificato come una riga di pixel in cui ogni valore di pixel corrisponde alla *popolazione* del valore di colore corrispondente alla posizione dei pixel sull&#39;asse X.   Ad esempio, un valore di pixel di 75 a (0,25, 0) significa che ci sono 75 pixel che hanno il valore di colore 0,25 nell’immagine. |
-| <b>CDF</b> *Scala di grigi* | Risultato della *funzione di distribuzione cumulativa* (CDF) calcolata per l&#39;immagine, codificata in una riga di pixel in cui ogni pixel è la somma di tutti i valori di pixel alla sua sinistra.   La somma viene quindi *normalizzata* rispetto al numero totale di pixel nell&#39;immagine. |
+|:---|:---|
+| <b>Istogramma</b> <i>Scala di grigi</i> | Istogramma calcolato per l&#39;immagine di input, codificato come una riga di pixel in cui ogni valore di pixel corrisponde alla *popolazione* del valore di colore corrispondente alla posizione dei pixel sull&#39;asse X.   Ad esempio, un valore di pixel di 75 a (0,25, 0) significa che ci sono 75 pixel che hanno il valore di colore 0,25 nell’immagine. |
+| <b>CDF</b> <i>Scala di grigi</i> | Risultato della *funzione di distribuzione cumulativa* (CDF) calcolata per l&#39;immagine, codificata in una riga di pixel in cui ogni pixel è la somma di tutti i valori di pixel alla sua sinistra.   La somma viene quindi *normalizzata* rispetto al numero totale di pixel nell&#39;immagine. |
+
+<a name="parameters"></a>
 
 ## Parametri
 
 |  |  |
-| --- | --- |
+|:---|:---|
 | <b>Risoluzione istogramma</b> *Numero intero* | Larghezza dell’istogramma. Un valore più elevato consente una distribuzione più precisa.   Le risoluzioni disponibili sono, in pixel: 256, 512, 1024, 2048, 4096 |
 
 ## Esempi
 
-![Calcolo istogramma: esempio 1](../../../../../../assets/histogram_compute_example_1.jpg "Calcolo istogramma: esempio 1"){zoomable="yes"}
+![Calcolo istogramma: esempio 1](histogram-compute.resources/histogram_compute_example_1.jpg "Calcolo istogramma: esempio 1"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/histogram_compute_example_2_before.jpg" alt="histogram_compute_example_2_before">
+      <img src="histogram-compute.resources/histogram_compute_example_2_before.jpg" alt="histogram_compute_example_2_before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../../../../../assets/histogram_compute_example_2_after.jpg" alt="histogram_compute_example_2_after">
+      <img src="histogram-compute.resources/histogram_compute_example_2_after.jpg" alt="histogram_compute_example_2_after">
       <br><i>Dopo</i>
     </td>
   </tr>

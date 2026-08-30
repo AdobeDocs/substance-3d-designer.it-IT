@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Gestisci i parametri
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 3%
@@ -46,7 +46,7 @@ Quando le proprietà di un nodo vengono visualizzate nel Dock proprietà, i para
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Menu &#39;Gestisci parametri&#39; globale in Proprietà](../../assets/manage-parameters-menu-global.png "menu &#39;Gestisci parametri&#39; globale in Proprietà"){zoomable="yes"}
+![Menu &#39;Gestisci parametri&#39; globale in Proprietà](manage-parameters.resources/manage-parameters-menu-global.png "menu &#39;Gestisci parametri&#39; globale in Proprietà"){zoomable="yes"}
 
 </td>
 </tr>
@@ -59,7 +59,7 @@ Le azioni di questo menu influiranno su *tutti* i parametri elencati in quella s
 * <b>Incolla parametri:</b> Vedere la sezione [Copia e incolla parametri](../../compositing-graphs/manage-parameters/manage-parameters.md) seguente.
 * <b>Salva i parametri come file di predefiniti:</b> Ulteriori informazioni sui predefiniti dei parametri in [questa pagina dedicata](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md).
 * <b>Applicare i parametri da un file di predefiniti:</b> Ulteriori informazioni sui predefiniti dei parametri in [questa pagina dedicata](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md).
-* <b>Reimposta tutto:</b> Reimposta tutti i parametri sui valori e gli intervalli predefiniti. Se una funzione è stata applicata a un parametro, viene ignorata.
+* <b>Reimposta tutto:</b> Reimposta tutti i parametri sui valori e gli intervalli predefiniti. Se una funzione è stata applicata a un parametro, viene ignorata.
 
 >[!NOTE]
 >
@@ -76,7 +76,7 @@ Per gestire un parametro *singolo*, utilizzare il menu &#39;<b>Gestisci funzione
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Menu &#39;Gestisci parametri&#39; locale in Proprietà](../../assets/manage-parameters-menu.png "Menu &#39;Gestisci parametri&#39; locale in Proprietà"){zoomable="yes"}
+![Menu &#39;Gestisci parametri&#39; locale in Proprietà](manage-parameters.resources/manage-parameters-menu.png "Menu &#39;Gestisci parametri&#39; locale in Proprietà"){zoomable="yes"}
 
 </td>
 </tr>
@@ -108,7 +108,7 @@ Le stesse limitazioni elencate di seguito per i nodi atomici si applicano a ques
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
 
-![&#x200B; menu &#39;Gestisci parametri&#39; nel menu contestuale del nodo](../../assets/manage-parameters-node-menu.png " menu &#39;Gestisci parametri&#39; nel menu contestuale del nodo"){zoomable="yes"}
+![&#x200B; menu &#39;Gestisci parametri&#39; nel menu contestuale del nodo](manage-parameters.resources/manage-parameters-node-menu.png " menu &#39;Gestisci parametri&#39; nel menu contestuale del nodo"){zoomable="yes"}
 
 </td>
 </tr>
@@ -120,7 +120,7 @@ Le stesse limitazioni elencate di seguito per i nodi atomici si applicano a ques
 
 ## Copiare e incollare i parametri
 
-È possibile copiare tutti i valori dei parametri per un nodo di origine e incollarli in un nodo di destinazione. I parametri dei nodi di origine e di destinazione sono <b>corrispondenti in base ai relativi identificatori e tipi</b>.
+È possibile copiare tutti i valori dei parametri per un nodo di origine e incollarli in un nodo di destinazione. I parametri dei nodi di origine e di destinazione sono <b>corrispondenti in base ai relativi identificatori e tipi</b>.
 
 Ad esempio, un parametro &#39;Scale&#39; con identificatore &#39;scale&#39; e tipo &#39;Float&#39; può essere copiato e incollato in un altro parametro &#39;Shape Scale&#39; quando anche l&#39;identificatore è &#39;scale&#39; e il relativo tipo è &#39;Float&#39;.
 
@@ -129,7 +129,7 @@ Questa funzionalità funziona come l&#39;utilizzo di un [file di parametri prede
 </td>
 <td style="border: 0;" valign="top">
 
-![Copiare e incollare i parametri](../../assets/copy-paste-parameters.gif "Copiare e incollare i parametri"){zoomable="yes"}
+![Copiare e incollare i parametri](manage-parameters.resources/copy-paste-parameters.gif "Copiare e incollare i parametri"){zoomable="yes"}
 
 </td>
 </tr>

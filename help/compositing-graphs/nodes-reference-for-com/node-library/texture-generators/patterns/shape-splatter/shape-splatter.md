@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-splatter.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo Splatter forme per dispersione forme su texture per la creazione di pattern procedurali e dettagli.
+description: Usa il nodo Splatter forme per dispersione le forme tra le texture per creare pattern e dettagli procedurali.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Shape Splatter
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Spruzzo forma
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 0%
+source-wordcount: '960'
+ht-degree: 7%
 
 ---
 
@@ -22,95 +22,91 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/shape-splatter.png){width="128px"}
+![](shape-splatter.resources/shape-splatter.png){width="128px"}
 
-## Spruzzo forma
-
-**Ingresso:** *Generatori Di Texture**/Pattern*
-
-**Complesso**
+<b>Ingresso:</b> Generatori Texture > Pattern
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
-Nodo molto complesso, progettato per essere utilizzato insieme ai nodi [Shape Splatter Blend](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-blend/shape-splatter-blend.md), [Shape Splatter to Mask](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-to-mask/shape-splatter-to-mask.md) e [Shape Splatter Data Extract](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-data-ext/shape-splatter-data-extract.md). Utilizzato per splattare le forme in modo simile a [Tile Sampler](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md) o [Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md), ma con un processo dinamico e non distruttivo che consente il controllo su ogni passaggio, attraverso un sistema a più livelli simile a [Flood Fill.](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md) Mentre Flood Fill prende una mappa di input di base da un&#39;origine esterna, Shape Splatter genera la mappa e i dati che ne derivano in un unico passaggio, come una sorta di versione più avanzata di [Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md).
+Nodo molto complesso, progettato per essere utilizzato insieme ai nodi [Shape Splatter Fusione](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-blend/shape-splatter-blend.md), [Shape Splatter to Mask](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-to-mask/shape-splatter-to-mask.md) e [Shape Splatter Data Extract](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-data-ext/shape-splatter-data-extract.md). Utilizzato per splattare le forme in modo simile a [Tile Sampler](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md) o [Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md), ma con un processo dinamico e non distruttivo che consente il controllo su ogni passaggio, attraverso un sistema a più livelli simile a [Flood Fill.](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md) Mentre Flood Fill prende una mappa di input di base da un&#39;origine esterna, Shape Splatter genera la mappa e i dati che ne derivano in un unico passaggio, come una sorta di versione più avanzata di [Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md).
 
-Lo scopo principale è quello di consentire il posizionamento di forme su e guidato da una mappa del height e quindi generare varie mappe dai dati di splatter. Ad esempio, posizionare rocce, ramoscelli e foglie su un paesaggio, orientati e guidati da varie mappe. È quindi possibile utilizzare mappe diverse per height, normal, basecolor, rugosità e qualsiasi altro canale, mentre tutte sono ancora basate sugli stessi dati di splatter condivisi.
-
-## Parametri
-
-### Input
-
-* **Height in background**: *Input in scala di grigi* height in background per posizionare le porzioni e attivare vari effetti.
-* **Pattern 1-8**: *Input scala di grigi**Pattern facoltativo*
-* **Distribuzione pattern**: *Input scala di grigi* Mappa scala di grigi a
-* **Scala forme**: *Input scala di grigi* Mappa scala di grigi per il ridimensionamento delle porzioni.
-* **Rotazione forma**: *Input scala di grigi* Mappa scala di grigi per guidare la rotazione delle porzioni.
-* **Scostamento Height**: *Input scala di grigi* Mappa scala di grigi da utilizzare come scostamento per il height di porzioni.
-* **Scala Height**: *Input scala di grigi* Mappa scala di grigi da utilizzare come offset per il height di porzioni.
-* **Maschera casuale**: *Input scala di grigi*\
-  Slot maschera utilizzato per mascherare gli effetti del nodo.
-* **Mappa vettoriale**: *Input colore* Mappa vettoriale colore per guidare il posizionamento e la rotazione del riquadro.
-
-### Parametri
-
-* **Importo X**: *1 - 64*\
-  Quantità di X ripetizioni del pattern.
-* **Importo Y**: *1 - 64*\
-  Quantità di ripetizioni Y del pattern.
-* **Pattern**
-  * **Numero di input pattern**: *1 - 8* Impostare la quantità di pattern diversi da utilizzare. Sblocca i nuovi slot di input pattern.
-  * **Modalità di distribuzione pattern**: *Casuale, Indice pattern, Indice linea, Indice colonna* Impostare come determinare il pattern da utilizzare. In modo casuale o per pattern, linea o colonna.
-  * **Moltiplicatore mappa distribuzione pattern**: *0.0 - 1.0* Impostare l&#39;influenza della mappa di distribuzione opzionale per il posizionamento dei pattern.
-  * **Rotazione motivo**: *0, 90, 180, 270* Impostazione del predefinito, rotazione a 90 gradi dei motivi.
-  * **Rotazione pattern casuale**: *0,0 - 1,0* Impostare la quantità di rotazione a gradino casuale di 90 gradi per i pattern.
-* **Dimensioni**
-  * **Scala**: *0,0 - 5,0*\
-    Impostate la scala uniforme per ogni porzione.
-  * **Scala casuale**: *0,0 - 1,0* Scala casuale uniforme per ogni porzione.
-  * **Scala senza sovrapposizione**: *0.0 - 1.0* Ridimensiona in modo casuale in modo uniforme, ma solo verso il basso, per evitare la sovrapposizione delle porzioni. Non deve essere usato insieme ai due parametri precedenti.
-  * **Moltiplicatore mappa scala**: *0.0 - 1.0* Impostare l&#39;influenza della mappa scala.
-  * **Dimensioni**: *0.0 - 1.0* Consente il ridimensionamento non uniforme delle porzioni.
-  * **Rapporto dimensioni da Pendenza sfondo**: *0.0 - 1.0* Utilizza la pendenza della mappa di sfondo (Normale calcolato) per le porzioni con scala non uniforme. Simula l’alterazione prospettica.
-  * **Rapporto tra dimensioni X/Y**: *0,0 - 1,0* Ridimensionamento non uniforme per compensare un rapporto diverso negli importi X e Y.
-* **Posizione**
-  * **Posizione casuale**: *0,0 - 2,0* Posizione scostata casualmente per ogni porzione.
-  * **Distribuzione casuale**: *Gaussiana, uniforme* Imposta il calcolo da utilizzare per il parametro precedente. Non fa una differenza enorme, più evidente con numeri alti. Il gaussiano tende a dare una diffusione più uniforme.
-  * **Moltiplicatore mappa vettoriale**: *0.0 - 1.0* Influenza della mappa di input vettoriale sugli offset.
-  * **Scostamento orizzontale**: *-2.0 - 2.0* Scostamento orizzontale globale.
-  * **Scostamento verticale**: *-2.0 - 2.0* Scostamento verticale globale.
-  * **Opzione Oltre I Limiti**: *Ridimensionare La Forma, Vincolare La Posizione* Azione Da Eseguire Quando Una Sezione Appare Fuori Dai Limiti.
-* **Rotazione**
-  * **Rotazione**: *0.0 - 1.0* Ruota globalmente tutte le porzioni.
-  * **Rotazione casuale**: *0,0 - 1,0* Ruota in modo casuale per porzione.
-  * **Rotazione dalla Pendenza Bg**: *0.0 - 1.0* Utilizza la pendenza della mappa di sfondo (Normale calcolato) per ruotare le porzioni. Può essere utilizzato per posizionare le forme in alto o in basso sulle pendenze.
-  * **Moltiplicatore Mappa di rotazione**: *0.0 - 1.0* Fusioni nell&#39;effetto della Mappa di rotazione sulla rotazione per porzione.
-  * **Moltiplicatore mappa vettoriale**: *0.0 - 1.0* Fusioni nell&#39;effetto della Mappa di rotazione sulla rotazione per porzione.
-* **Height**
-  * **Regolazione automatica scala Height**: *False/True* Regola automaticamente l&#39;intervallo di height rispetto allo sfondo, anziché definire un intervallo assoluto. Consente un controllo minore o maggiore.
-  * **Scostamento Height**: *-1.0 - 1.0* Modificatore per scostare/spostare tutte le porzioni in modo uniforme nell&#39;intervallo del height.
-  * **Scostamento Height casuale**: *0,0 - 1,0* Cambia casualmente lo scostamento del height in base ai singoli riquadri.
-  * **Moltiplicatore mappa offset Height**: *0.0 - 1.0* Modificatore per impostare l&#39;influenza della mappa di offset.
-  * **Scala Height**: *0.0 - 1.0* Modificatore per ridimensionare/espandere tutti i riquadri in modo uniforme nell&#39;intervallo del height. A differenza dello scostamento, questo sposta ulteriormente i valori, come il contrasto.
-  * **Scala Height casuale**: *0,0 - 1,0* Modifica casualmente la scala dei height in base ai singoli riquadri.
-  * **Moltiplicatore mappa scala Height**: *0.0 - 1.0* Modificatore per impostare l&#39;influenza della mappa scala.
-  * **Conformità allo sfondo**: *0.0 - 1.0* Influisce sulla fusione delle porzioni con lo sfondo. Nessuna conformazione significa che le mappe di altezza rimangono rigide, conformazione significa che la forma di sfondo segue. Ideale, ad esempio, per foglie e bastoni.
-  * **Sfondo uniforme**: *0.0 - 2.0* Valore di arrotondamento per l&#39;effetto precedente, per evitare variazioni errate o estreme.
-  * **Inclina dalla Pendenza Bg**: *0.0 - 1.0* height di sezioni Regola/pendenza guidato dalla pendenza di sfondo (normale calcolato).
-  * **Smoothness della Pendenza di sfondo**: *0.0 - 2.0* Valore di arrotondamento per l&#39;effetto precedente, per evitare variazioni errate o estreme.
-  * **Ritaglia pixel neri**: *False/True* Attiva/disattiva per ignorare i pixel neri (0) piastrellati dalle forme base dei riquadri.
-  * **Base pattern appiattita**: *False/True* Regola il comportamento di fusione delle porzioni con lo sfondo: le porzioni si intersecano con lo sfondo (False) o lo sostituiscono quando sono più basse.
-* **Mascheratura**
-  * **Maschera casuale**: *0.0 - 1.0* Nasconde casualmente le porzioni. Più alto è questo valore, più porzioni scompariranno.
-  * **Moltiplicatore mappa casuale maschera**: *0.0 - 1.0* Soglia per la mappa maschera quando iniziare a nascondere le porzioni.
-  * **Maschera da Pendenza sfondo**: *-1.0 - 1.0* Utilizza la pendenza della mappa di sfondo (Normale calcolato) per nascondere le porzioni.
-
-## Immagini di esempio
+Il suo scopo principale è quello di consentire il posizionamento di forme su e guidate da una mappa di altezza e quindi generare varie mappe dai dati di splatter. Ad esempio, posizionare rocce, ramoscelli e foglie su un paesaggio, orientati e guidati da varie mappe. È quindi possibile utilizzare mappe diverse per height, normal, basecolor, rugosità e qualsiasi altro canale, mentre tutte sono ancora basate sugli stessi dati di splatter condivisi.
 
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Input
+
+|  |  |
+|:---|:---|
+| <b>Height in background</b> <i>Input scala di grigi</i> | Height di sfondo per posizionare le porzioni e attivare vari effetti. |
+| <b>Pattern 1-8</b> <i>Input scala di grigi</i> | Pattern facoltativo |
+| <b>Distribuzione pattern</b> <i>Input scala di grigi</i> | Mappa scala di grigi a |
+| <b>Scala forme</b> <i>Input scala di grigi</i> | Mappa in scala di grigi per applicare la scala ai riquadri. |
+| <b>Rotazione forma</b> <i>Input scala di grigi</i> | Mappa in scala di grigi per guidare la rotazione delle porzioni. |
+| <b>Scostamento Height</b> <i>Input scala di grigi</i> | Mappa in scala di grigi da utilizzare come scostamento per il height di porzioni. |
+| <b>Scala Height</b> <i>Input scala di grigi</i> | Mappa in scala di grigi da utilizzare come scostamento per il height di porzioni. |
+| <b>Maschera casuale</b> <i>Input scala di grigi</i> | Slot maschera utilizzato per mascherare gli effetti del nodo. |
+| <b>Mappa vettoriale</b> <i>Input colore</i> | Mappa vettoriale colori per guidare il posizionamento e la rotazione delle porzioni. |
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>X importo</b> <i>1 - 64</i> | Quantità di X ripetizioni del pattern. |
+| <b>Importo Y</b> <i>1 - 64</i> | Quantità di ripetizioni Y del pattern. |
+| <b>Pattern</b> |  |
+| <b>Numero di input del modello</b> <i>1 - 8</i> | Impostate la quantità di pattern diversi da utilizzare. Sblocca i nuovi slot di input pattern. |
+| <b>Modalità distribuzione pattern</b> <i>Casuale, Indice motivo, Indice riga, Indice colonna</i> | Impostare come determinare il motivo da utilizzare. In modo casuale o per pattern, linea o colonna. |
+| <b>Moltiplicatore mappa distribuzione pattern</b> <i>0.0 - 1.0</i> | Impostate l&#39;influenza della mappa di distribuzione facoltativa per il posizionamento dei pattern. |
+| <b>Rotazione motivo</b> <i>0, 90, 180, 270</i> | Imposta il predefinito, rotazione di 90 gradi dei pattern. |
+| <b>Rotazione motivo casuale</b> <i>0.0 - 1.0</i> | Impostate la quantità di rotazione casuale a gradino di 90 gradi per i pattern. |
+| <b>Dimensioni</b> |  |
+| <b>Scala</b> <i>0.0 - 5.0</i> | Impostate la scala uniforme per ogni porzione. |
+| <b>Scala casuale</b> <i>0.0 - 1.0</i> | Rendete casuale la scala uniforme per ogni porzione. |
+| <b>Scala senza sovrapposizione</b> <i>0.0 - 1.0</i> | Ridimensiona in modo uniforme, ma solo verso il basso, per evitare la sovrapposizione di porzioni. Non deve essere usato insieme ai due parametri precedenti. |
+| <b>Moltiplicatore mappa scala</b> <i>0.0 - 1.0</i> | Impostate l&#39;influenza della mappa scala. |
+| <b>Dimensioni</b> <i>0.0 - 1.0</i> | Consente il ridimensionamento non uniforme delle porzioni. |
+| <b>Rapporto dimensioni da Bg Pendenza</b> <i>0.0 - 1.0</i> | Usa la pendenza della mappa di sfondo (Normale calcolato) per ridimensionare le porzioni in modo non uniforme. Simula l’alterazione prospettica. |
+| <b>Dimensioni in base al rapporto di fattore X/Y</b> <i>0.0 - 1.0</i> | Ridimensionamento non uniforme per compensare un rapporto diverso negli importi X e Y. |
+| <b>Posizione</b> |  |
+| <b>Posizione casuale</b> <i>0.0 - 2.0</i> | Scostamento casuale della posizione per ogni porzione. |
+| <b>Distribuzione casuale</b> <i>Gaussiano, Uniforme</i> | Imposta il calcolo da utilizzare per il parametro precedente. Non fa una differenza enorme, più evidente con numeri alti. Il gaussiano tende a dare una diffusione più uniforme. |
+| <b>Moltiplicatore mappa vettoriale</b> <i>0.0 - 1.0</i> | Influenza della mappa di input vettoriale sugli offset. |
+| <b>Scostamento orizzontale</b> <i>-2.0 - 2.0</i> | Offset orizzontale globale. |
+| <b>Scostamento verticale</b> <i>-2.0 - 2.0</i> | Offset verticale globale. |
+| <b>Opzione Oltre I Limiti</b> <i>Ridimensiona forma, Vincola posizione</i> | Azione da eseguire quando una porzione appare fuori limite. |
+| <b>Rotazione</b> |  |
+| <b>Rotazione</b> <i>0.0 - 1.0</i> | Ruota tutte le porzioni. |
+| <b>Rotazione casuale</b> <i>0.0 - 1.0</i> | Ruota in modo casuale per porzione. |
+| <b>Rotazione da Bg Pendenza</b> <i>0.0 - 1.0</i> | Usa la pendenza della mappa di sfondo (Normale calcolato) per ruotare le porzioni. Può essere utilizzato per posizionare le forme in alto o in basso sulle pendenze. |
+| <b>Moltiplicatore Mappa di rotazione</b> <i>0.0 - 1.0</i> | Fusioni dell&#39;effetto della Mappa di rotazione sulla rotazione per porzione. |
+| <b>Moltiplicatore mappa vettoriale</b> <i>0.0 - 1.0</i> | Fusioni dell&#39;effetto della Mappa di rotazione sulla rotazione per porzione. |
+| <b>Height</b> |  |
+| <b>Regolazione automatica scala Height</b> <i>Falso/Vero</i> | Regola automaticamente l’intervallo di height in relazione allo sfondo, invece di definire un intervallo assoluto. Consente un controllo minore o maggiore. |
+| <b>Scostamento Height</b> <i>-1.0 - 1.0</i> | Modificatore per scostare/spostare tutte le porzioni in modo uniforme nell’intervallo di height. |
+| <b>Scostamento Height casuale</b> <i>0.0 - 1.0</i> | Cambia casualmente lo scostamento del height in base alle porzioni. |
+| <b>Moltiplicatore mappa offset Height</b> <i>0.0 - 1.0</i> | Modificatore per impostare l’influenza della mappa di offset. |
+| <b>Scala Height</b> <i>0.0 - 1.0</i> | Modificatore per ridimensionare/espandere tutte le porzioni in modo uniforme nell’intervallo di height. A differenza dello scostamento, questo sposta ulteriormente i valori, come il contrasto. |
+| <b>Scala Height casuale</b> <i>0.0 - 1.0</i> | Cambia casualmente la scala dei height in base alle porzioni. |
+| <b>Moltiplicatore mappa scala Height</b> <i>0.0 - 1.0</i> | Modificatore per impostare l’influenza della Mappa scala. |
+| <b>Conformità allo sfondo</b> <i>0.0 - 1.0</i> | Influisce sulla fusione delle porzioni con lo sfondo. Nessuna conformazione significa che le mappe di altezza rimangono rigide, conformazione significa che la forma di sfondo segue. Ideale, ad esempio, per foglie e bastoni. |
+| <b>Sfondo uniforme</b> <i>0.0 - 2.0</i> | Valore di arrotondamento per l’effetto precedente, per evitare variazioni errate o estreme. |
+| <b>Inclina da Bg Pendenza</b> <i>0.0 - 1.0</i> | Height di riquadri Regola/pendenza guidato da pendenza di sfondo (normale calcolato). |
+| <b>Smoothness Pendenza in background</b> <i>0.0 - 2.0</i> | Valore di arrotondamento per l’effetto precedente, per evitare variazioni errate o estreme. |
+| <b>Ritaglia pixel neri</b> <i>Falso/Vero</i> | Attivate/disattivate per ignorare i pixel neri (0) interi dalle forme base del riquadro. |
+| <b>Base motivo unico</b> <i>Falso/Vero</i> | Regola il comportamento di fusione delle porzioni con lo sfondo: le porzioni si intersecano con lo sfondo (False) o lo sostituiscono quando sono in basso. |
+| <b>Mascheratura</b> |  |
+| <b>Maschera casuale</b> <i>0.0 - 1.0</i> | Nasconde casualmente le porzioni. Più alto è questo valore, più porzioni scompariranno. |
+| <b>Moltiplicatore mappa casuale maschera</b> <i>0.0 - 1.0</i> | Soglia per la mappa maschera quando iniziare a nascondere le porzioni. |
+| <b>Maschera da Bg Pendenza</b> <i>-1.0 - 1.0</i> | Usa la pendenza della mappa di sfondo (Normale calcolato) per nascondere le porzioni. |

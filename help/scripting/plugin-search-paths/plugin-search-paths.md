@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Percorsi di ricerca plug-in
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Gli utenti possono *aggiungere directory personalizzate* manualmente nelle prefe
 1. Nella scheda <b>Python</b>, fai clic sul pulsante *<b>+</b>*per aggiungere la directory che contiene i plug-in
 1. Fai clic su <b>OK</b> per convalidare
 
-![Impostazioni dei percorsi di ricerca dei plug-in Python Impostazioni del progetto](../../assets/image-70.png "Impostazioni dei percorsi di ricerca dei plug-in Python Impostazioni del progetto")
+![Impostazioni dei percorsi di ricerca dei plug-in Python Impostazioni del progetto](plugin-search-paths.resources/image-70.png "Impostazioni dei percorsi di ricerca dei plug-in Python Impostazioni del progetto")
 
 ## Utilizzo delle variabili di ambiente
 

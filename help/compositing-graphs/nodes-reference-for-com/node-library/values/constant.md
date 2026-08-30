@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Costante
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2cb8395834eb64124ebadb2cd051aead9babfa69
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 I nodi costanti consentono di creare un valore statico da utilizzare all&#39;interno dei grafici delle Substance.
 
 Questi nodi sono disponibili nella sezione **Valori > Costanti** della libreria.\
-Includono tutti un semplice nodo [Value processor](../../atomic-nodes/value-processor/value-processor.md) che genera il valore.
+Includono tutti un semplice nodo [Processore di valori](../../atomic-nodes/value-processor/value-processor.md) che genera il valore.
 
 +++ Nodi costanti nella libreria
 
@@ -31,19 +31,19 @@ Includono tutti un semplice nodo [Value processor](../../atomic-nodes/value-proc
 
 +++
 
-<p style="text-align: center;"><img src="./constant.resources/constants-float-01.png" alt="Nodo mobile costante" /></p>
+<p style="text-align: center;"><img src="./constant.resources/constants-float-01.png" alt="Nodo Virgola mobile costante" /></p>
 
 ## Interi
 
 Gli interi costanti generano numeri interi e hanno un passo di 1.
 
-[Possono essere convertiti in Float,](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md) operazione consigliata quando si eseguono operazioni più complesse di aggiunte, sottrazioni e confronti semplici.
+[Possono essere convertiti in Virgola mobile,](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md) operazione consigliata quando si eseguono operazioni più complesse di aggiunte, sottrazioni e confronti semplici.
 
 <table>
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icona tipo intero](../../../../assets/fn-constant-integer.png "Icona tipo intero")
+![Icona tipo intero](constant.resources/fn-constant-integer.png "Icona tipo intero")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -67,7 +67,7 @@ Un numero intero ha un singolo componente. È utile come indice per effettuare s
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icona tipo Integer2](../../../../assets/fn-constant-integer2.png "Icona tipo Integer2")
+![Icona tipo Integer2](constant.resources/fn-constant-integer2.png "Icona tipo Integer2")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -86,7 +86,7 @@ Uno dei casi d&#39;uso più comuni di Integer2 è l&#39;impostazione delle dimen
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icona tipo Integer3](../../../../assets/fn-constant-integer3.png "Icona tipo Integer3")
+![Icona tipo Integer3](constant.resources/fn-constant-integer3.png "Icona tipo Integer3")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -103,7 +103,7 @@ Un nodo Integer3 genera un vettore intero statico a 3 componenti con componenti 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icona tipo Integer4](../../../../assets/fn-constant-integer4.png "Icona tipo Integer4")
+![Icona tipo Integer4](constant.resources/fn-constant-integer4.png "Icona tipo Integer4")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -118,22 +118,22 @@ Un nodo Integer4 genera un vettore intero statico a 4 componenti con componenti 
 
 ## Galleggianti
 
-I valori a virgola mobile costante generano numeri frazionari, ossia supportano i valori dopo il segno decimale e possono essere regolati in passaggi più piccoli di 1. (Predefinito: 0,01)
+I valori delle Virgole mobili costanti generano numeri frazionari, ossia supportano i valori dopo il segno decimale e possono essere regolati in passaggi più piccoli di 1. (Predefinito: 0,01)
 
-[È possibile convertire i valori float in numeri interi](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md), ma verranno arrotondati per eccesso o per difetto al valore Integer più vicino, con conseguente perdita di dati e precisione.
+[Le Virgole mobili possono essere convertite in numeri interi](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md), ma verranno arrotondate per eccesso o per difetto al numero intero più vicino, con conseguente perdita di dati e precisione.
 
 <table>
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icona tipo float](../../../../assets/fn-constant-float.png "Icona tipo float")
+![Icona tipo Virgola mobile](constant.resources/fn-constant-float.png "Icona tipo Virgola mobile")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 <b>Mobile</b>
 
-Un Float ha un singolo componente ed è molto comunemente usato per ogni singolo valore che richiede precisione.
+Una Virgola mobile ha un singolo componente ed è molto comunemente usata per ogni singolo valore che richiede precisione.
 
 </td>
 </tr>
@@ -143,16 +143,16 @@ Un Float ha un singolo componente ed è molto comunemente usato per ogni singolo
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icona di tipo Float2](../../../../assets/fn-constant-float2.png "Icona di tipo Float2")
+![Icona tipo Virgola mobile 2](constant.resources/fn-constant-float2.png "Icona tipo Virgola mobile 2")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 <b>Float2</b>
 
-Un nodo Float2 genera un vettore a 2 componenti con componenti (X, Y).
+Un nodo Virgola mobile2 genera un vettore a 2 componenti con componenti (X, Y).
 
-Float2 è comunemente usato per [coordinate di campionamento](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md), [trasformazioni di offset](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/transforms.md) e manipolazione vettoriale 2D generale.
+Virgola mobile2 è comunemente utilizzato per [coordinate di campionamento](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md), [trasformazioni di offset](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/transforms.md) e manipolazione vettoriale 2D generale.
 
 </td>
 </tr>
@@ -162,16 +162,16 @@ Float2 è comunemente usato per [coordinate di campionamento](../../../../functi
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icona di tipo Float3](../../../../assets/fn-constant-float3.png "Icona di tipo Float3")
+![Icona tipo Virgola mobile 3](constant.resources/fn-constant-float3.png "Icona tipo Virgola mobile 3")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 <b>Float3</b>
 
-Un nodo Float3 genera un vettore a 3 componenti (X, Y, Z).
+Un nodo Virgola mobile3 genera un vettore a 3 componenti (X, Y, Z).
 
-Float3 viene utilizzato principalmente quando si lavora con oggetti 3D e [coordinate di scala 3D](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d/cube-3d.md), ad esempio nei [nodi SDF 3D](../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-node-library.md#sdf-functions), e come metodo più semplice per memorizzare i colori RGB, ad esempio senza Alpha.
+Virgola mobile3 viene utilizzato principalmente quando si lavora con oggetti 3D e [coordinate di scala 3D](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d/cube-3d.md), ad esempio nei [nodi SDF 3D](../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-node-library.md#sdf-functions), e come metodo più semplice per memorizzare i colori RGB, ad esempio senza Alpha.
 
 </td>
 </tr>
@@ -181,16 +181,16 @@ Float3 viene utilizzato principalmente quando si lavora con oggetti 3D e [coordi
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icona tipo float4](../../../../assets/fn-constant-float4.png "Icona tipo float4")
+![Icona tipo Virgola mobile 4](constant.resources/fn-constant-float4.png "Icona tipo Virgola mobile 4")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 <b>Float4</b>
 
-A Float4 genera un vettore a 4 componenti (X, Y, Z, W).
+Una Virgola mobile 4 genera un vettore a 4 componenti (X, Y, Z, W).
 
-Float4 è il modo preferito per memorizzare e impostare le informazioni sui colori in cui i valori XYZW sono mappati su RGBA, ad esempio nel [nodo di colore uniforme](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md).
+Virgola mobile 4 è il modo preferito per memorizzare e impostare le informazioni sui colori in cui i valori XYZW sono mappati su RGBA, ad esempio nel [nodo di Colore uniforme](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md).
 
 </td>
 </tr>
@@ -202,7 +202,7 @@ Float4 è il modo preferito per memorizzare e impostare le informazioni sui colo
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icona tipo booleano](../../../../assets/fn-constant-boolean.png "Icona tipo booleano")
+![Icona tipo booleano](constant.resources/fn-constant-boolean.png "Icona tipo booleano")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

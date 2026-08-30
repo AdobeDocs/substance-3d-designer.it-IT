@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mappa sfumatura
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1160'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atomico: mappa sfumatura](../../../../assets/comp_gradient_1.png "Nodo atomico: mappa sfumatura"){width="200px"}
+![Nodo atomico: mappa sfumatura](gradient-map.resources/comp_gradient_1.png "Nodo atomico: mappa sfumatura"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -78,7 +78,7 @@ Può essere aperto dalle <b>Proprietà</b> del nodo Mappa sfumatura nei modi seg
 * Fai clic su LMB sul pulsante <b>Editore sfumatura</b>.
 * Fate doppio clic su LMB su una puntina nella barra della sfumatura. La puntina su cui hai fatto clic verrà selezionata automaticamente in Editore sfumatura, così potrai modificarne direttamente i valori.
 
-![Editore sfumatura](../../../../assets/image2017-2-17-16-13-5.png "Editore sfumatura")
+![Editore sfumatura](gradient-map.resources/image2017-2-17-16-13-5.png "Editore sfumatura")
 
 ### Modifica delle puntine della sfumatura
 
@@ -88,7 +88,7 @@ Ogni puntina imposta un colore nella sua posizione lungo la sfumatura.
 
 Le parti della sfumatura prima e dopo il primo e l’ultimo perno vengono impostate rispettivamente sui colori del perno.
 
-![Editore sfumatura - Vista sfumatura](../../../../assets/image2017-2-17-17-27-46.png "Editore sfumatura - Vista sfumatura")
+![Editore sfumatura - Vista sfumatura](gradient-map.resources/image2017-2-17-17-27-46.png "Editore sfumatura - Vista sfumatura")
 
 Per modificare le puntine sono disponibili i seguenti controlli:
 
@@ -105,7 +105,7 @@ Il nuovo perno verrà impostato sul colore della sfumatura in quella posizione.
 </td>
 <td style="border: 0;" valign="top">
 
-![Editore sfumatura - Aggiungi pin](../../../../assets/move-pin.gif "Editore sfumatura - Aggiungi pin")
+![Editore sfumatura - Aggiungi pin](gradient-map.resources/move-pin.gif "Editore sfumatura - Aggiungi pin")
 
 </td>
 </tr>
@@ -121,12 +121,12 @@ Tenete premuto LMB e trascinate i perni selezionati lungo la barra della sfumatu
 
 È inoltre possibile impostare la posizione di un perno con un valore numerico selezionandolo e utilizzando il parametro <b>Posizione</b>. La posizione è un valore nell&#39;intervallo [0;1] in cui 0 rappresenta l&#39;inizio del gradiente e 1 la sua fine.
 
-![Editore sfumatura - Parametro posizione perno](../../../../assets/image2015-8-27-13-56-2.png "Editore sfumatura - Parametro posizione perno")
+![Editore sfumatura - Parametro posizione perno](gradient-map.resources/image2015-8-27-13-56-2.png "Editore sfumatura - Parametro posizione perno")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Editore sfumatura - Sposta perno](../../../../assets/movepin2.gif "Editore sfumatura - Sposta perno")
+![Editore sfumatura - Sposta perno](gradient-map.resources/movepin2.gif "Editore sfumatura - Sposta perno")
 
 </td>
 </tr>
@@ -148,7 +148,7 @@ Selezionate i perni e premete Elimina, oppure trascinateli fuori dalla barra del
 </td>
 <td style="border: 0;" valign="top">
 
-![Editore sfumatura - Elimina perno](../../../../assets/removepin.gif "Editore sfumatura - Elimina perno")
+![Editore sfumatura - Elimina perno](gradient-map.resources/removepin.gif "Editore sfumatura - Elimina perno")
 
 </td>
 </tr>
@@ -165,7 +165,7 @@ Riflette le posizioni dei perni selezionati sulla sfumatura.
 </td>
 <td style="border: 0;" valign="top">
 
-![Editore sfumatura: inverti posizioni](../../../../assets/invert.gif "Editore sfumatura: inverti posizioni")
+![Editore sfumatura: inverti posizioni](gradient-map.resources/invert.gif "Editore sfumatura: inverti posizioni")
 
 </td>
 </tr>
@@ -182,7 +182,7 @@ Rimuove tutti i perni dalla barra della sfumatura.
 </td>
 <td style="border: 0;" valign="top">
 
-![Editore sfumatura - Cancella tutto](../../../../assets/remove.gif "Editore sfumatura - Cancella tutto")
+![Editore sfumatura - Cancella tutto](gradient-map.resources/remove.gif "Editore sfumatura - Cancella tutto")
 
 </td>
 </tr>
@@ -230,7 +230,7 @@ Questo comporta passaggi difficili tra i colori e solo i colori impostati dai pe
 
 ### selettore colore
 
-![Editore sfumatura - Selettore colore](../../../../assets/image2017-2-17-18-21-29.png "Editore sfumatura - Selettore colore")
+![Editore sfumatura - Selettore colore](gradient-map.resources/image2017-2-17-18-21-29.png "Editore sfumatura - Selettore colore")
 
 Il Selettore colore consente di impostare un colore in diversi modi:
 
@@ -245,7 +245,7 @@ Il Selettore colore consente di impostare un colore in diversi modi:
   </td>
   <td style="border: 0;" valign="top">
 
-  ![Selettore colore - Area sfumatura e barra tonalità](../../../../assets/colorpalette.gif "Selettore colore - Area sfumatura e barra tonalità")
+  ![Selettore colore - Area sfumatura e barra tonalità](gradient-map.resources/colorpalette.gif "Selettore colore - Area sfumatura e barra tonalità")
 
   </td>
   </tr>
@@ -264,7 +264,7 @@ Il Selettore colore consente di impostare un colore in diversi modi:
   </td>
   <td width="33.33%" style="border: 0;" valign="top">
 
-  ![Selettore colore - Cursori RGB, HSV e Alpha](../../../../assets/image2017-2-17-18-31-41.png "Selettore colore - Cursori RGB, HSV e Alpha")
+  ![Selettore colore - Cursori RGB, HSV e Alpha](gradient-map.resources/image2017-2-17-18-31-41.png "Selettore colore - Cursori RGB, HSV e Alpha")
 
   </td>
   </tr>
@@ -281,7 +281,7 @@ Il Selettore colore consente di impostare un colore in diversi modi:
   </td>
   <td style="border: 0;" valign="top">
 
-  ![Selettore colore - Seleziona sullo schermo](../../../../assets/pick.gif "Selettore colore - Seleziona sullo schermo")
+  ![Selettore colore - Seleziona sullo schermo](gradient-map.resources/pick.gif "Selettore colore - Seleziona sullo schermo")
 
   </td>
   </tr>
@@ -297,7 +297,7 @@ Nella metà inferiore viene visualizzato il colore utilizzato in precedenza. Fat
 </td>
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Selettore colore - Ripristina colore](../../../../assets/image2015-8-27-14-40-39.png "Selettore colore - Ripristina colore")
+![Selettore colore - Ripristina colore](gradient-map.resources/image2015-8-27-14-40-39.png "Selettore colore - Ripristina colore")
 
 </td>
 </tr>
@@ -326,7 +326,7 @@ Inoltre, sotto la miniatura a colori, sono disponibili come pulsanti le seguenti
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Selettore colore - Pulsanti](../../../../assets/invert2.gif "Selettore colore - Pulsanti")
+![Selettore colore - Pulsanti](gradient-map.resources/invert2.gif "Selettore colore - Pulsanti")
 
 </td>
 </tr>
@@ -336,7 +336,7 @@ Inoltre, sotto la miniatura a colori, sono disponibili come pulsanti le seguenti
 
 Il contagocce Sfumatura è una delle funzioni più utili offerte da questo nodo, in quanto potete creare sfumature complesse disegnando una linea su un&#39;immagine di riferimento.
 
-![Editore sfumatura - Selettore sfumatura](../../../../assets/pickgradient.gif "Editore sfumatura - Selettore sfumatura")
+![Editore sfumatura - Selettore sfumatura](gradient-map.resources/pickgradient.gif "Editore sfumatura - Selettore sfumatura")
 
 Il cursore <b>Precisione</b> ti aiuterà a regolare la sfumatura appena creata aumentando o diminuendo il numero di tasti: più bassi sono i valori, più precisa sarà la sfumatura a corrispondere ai valori selezionati.
 

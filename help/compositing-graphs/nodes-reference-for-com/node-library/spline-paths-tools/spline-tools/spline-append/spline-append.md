@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Aggiungi spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '518'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo](../../../../../../assets/spline-append-icon.png "Icona nodo")
+![Icona nodo](spline-append.resources/spline-append-icon.png "Icona nodo")
 
 <b>In:</b> Strumenti Spline E Tracciati > Strumenti spline
 
@@ -45,82 +45,45 @@ L&#39;ordine degli elenchi viene mantenuto, il che significa che l&#39;aggiunta 
 >
 > Prestare attenzione all&#39;ordine in cui vengono aggiunte le spline, in quanto tale ordine viene preso in considerazione in altri nodi, ad esempio [Dispersione sulle spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color/scatter-on-spline-color.md), [Spline Bridge](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-list/spline-bridge-list.md) e così via.
 
-## Connettori di ingresso
+<a name="inputs"></a>
 
-<b>Anteprima #1</b> *Scala di grigio* Anteprima del primo set di spline di input come immagine in scala di grigio.
+## Input
 
-<b>Spline #1 Coords</b> *Colore* Coordinate dei punti del primo gruppo di spline di input codificate nei canali RGBA di un&#39;immagine a colori.\
-<b>R</b> - Posizione X\
-<b>G</b> - Posizione Y\
-<b>B</b> - Height\
-<b>A</b> - Dati compressi:\
-* Segno: la spline è chiusa (negativa) o aperta (positiva);\
-* Valore assoluto: Thickness + 1.
+|  |  |
+|:---|:---|
+| <b>Anteprima #1</b> <i>Scala di grigi</i> | Anteprima del primo set di spline di input come immagine in scala di grigio. |
+| <b>Spline #1 Coords</b> <i>Colore</i> | Coordinate del primo insieme di punti spline di input codificati nei canali RGBA di un&#39;immagine a colori.<br><b>R</b> - Posizione X<br><b>G</b> - Posizione Y<br><b>B</b> - Height<br><b>A</b> - Dati compressi:<br>- Segno: la spline è chiusa (negativa) o aperta (positiva);<br>- Valore assoluto: Thickness + 1. |
+| <b>Dati #1 spline</b> <i>Colore</i> | Dati aggiuntivi del primo set di spline di input codificate nei canali RGBA di un&#39;immagine a colori.<br><b>R</b> - Tangenti X<br><b>G</b> - Tangenti Y<br><b>B</b> - Non utilizzati<br><b>A</b> - Non utilizzati |
+| <b>Quantità #1 spline</b> <i>Numero intero</i> | Numero di spline di input nel primo set. |
+| <b>Anteprima #2</b> <i>Scala di grigi</i> | Anteprima del secondo set di spline di input come immagine in scala di grigio. |
+| <b>Spline #2 Coords</b> <i>Colore</i> | Coordinate del secondo set di punti spline di input codificati nei canali RGBA di un&#39;immagine a colori.<br><b>R</b> - Posizione X<br><b>G</b> - Posizione Y<br><b>B</b> - Height<br><b>A</b> - Dati compressi:<br>- Segno: la spline è chiusa (negativa) o aperta (positiva);<br>- Valore assoluto: Thickness + 1. |
+| <b>Dati #2 spline</b> <i>Colore</i> | Dati aggiuntivi del secondo set di spline di input codificati nei canali RGBA di un&#39;immagine a colori.<br><b>R</b> - Tangenti X<br><b>G</b> - Tangenti Y<br><b>B</b> - Non utilizzati<br><b>A</b> - Non utilizzati |
+| <b>Quantità #2 spline</b> <i>Numero intero</i> | Numero di spline di input nel secondo set. |
 
-<b>Dati #1 spline</b> *Colore* Dati aggiuntivi del primo set di spline di input codificati nei canali RGBA di un&#39;immagine a colori.\
-<b>R</b> - Tangenti X\
-<b>G</b> - Tangenti Y\
-<b>B</b> - Non utilizzato\
-<b>A</b> - Non in uso
+<a name="outputs"></a>
 
-<b>Quantità #1 spline</b> *Numero intero* Numero di spline di input nel primo set.
+## Output
 
-<b>Anteprima #2</b> *Scala di grigio* Anteprima del secondo set di spline di input come immagine in scala di grigio.
+|  |  |
+|:---|:---|
+| <b>Anteprima</b> <i>Scala di grigi</i> | Anteprima delle spline di output come immagine in scala di grigio. |
+| <b>Spline Coords</b> <i>Colore</i> | Coordinate dei punti delle spline di output codificate nei canali RGBA di un&#39;immagine a colori.<br><b>R</b> - Posizione X<br><b>G</b> - Posizione Y<br><b>B</b> - Height<br><b>A</b> - Dati compressi:<br>- Segno: la spline è chiusa (negativa) o aperta (positiva);<br>- Valore assoluto: Thickness + 1. |
+| <b>Dati spline</b> <i>Colore</i> | Dati aggiuntivi delle spline di output codificate nei canali RGBA di un&#39;immagine a colori.<br><b>R</b> - Tangenti X<br><b>G</b> - Tangenti Y<br><b>B</b> - Non usati<br><b>A</b> - Non usati |
+| <b>Quantità spline</b> <i>Numero intero</i> | Numero di spline di output. |
 
-<b>Spline #2 Coords</b> *Colore* Coordinate del secondo gruppo di punti spline di input codificati nei canali RGBA di un&#39;immagine a colori.\
-<b>R</b> - Posizione X\
-<b>G</b> - Posizione Y\
-<b>B</b> - Height\
-<b>A</b> - Dati compressi:\
-* Segno: la spline è chiusa (negativa) o aperta (positiva);\
-* Valore assoluto: Thickness + 1.
-
-<b>Dati #2 spline</b> *Colore* Dati aggiuntivi del secondo set di spline di input codificati nei canali RGBA di un&#39;immagine a colori.\
-<b>R</b> - Tangenti X\
-<b>G</b> - Tangenti Y\
-<b>B</b> - Non utilizzato\
-<b>A</b> - Non in uso
-
-<b>Quantità #2 spline</b> *Numero intero* Numero di spline di input nel secondo set.
-
-## Connettori di uscita
-
-<b>Anteprima</b> *Scala di grigi* Anteprima delle spline di output come immagine in scala di grigi.
-
-<b>Spline Coords</b> *Colore* Coordinate dei punti delle spline di output codificate nei canali RGBA di un&#39;immagine a colori.\
-<b>R</b> - Posizione X\
-<b>G</b> - Posizione Y\
-<b>B</b> - Height\
-<b>A</b> - Dati compressi:\
-* Segno: la spline è chiusa (negativa) o aperta (positiva);\
-* Valore assoluto: Thickness + 1.
-
-<b>Dati spline</b> *Colore* Dati aggiuntivi delle spline di output codificate nei canali RGBA di un&#39;immagine a colori.\
-<b>R</b> - Tangenti X\
-<b>G</b> - Tangenti Y\
-<b>B</b> - Non utilizzato\
-<b>A</b> - Non in uso
-
-<b>Quantità spline</b> *Numero intero* Numero di spline di output.
+<a name="parameters"></a>
 
 ## Parametri
 
-<b>Inverti direzione spline #1 </b>*Booleano* Inverte la direzione delle spline nel primo set.
-
-<b>Inverti direzione spline #2 </b>*Booleano* Inverte la direzione delle spline nel secondo set.
-
-+++Anteprima
-<b>Importo segmenti</b> *Numero intero* Regola il numero di segmenti utilizzati per disegnare la visualizzazione della spline nell&#39;output di anteprima.\
-Un valore più alto genera una linea più morbida.
-
-<b>Mostra helper direzione</b> *Booleano* Visualizza un punto all&#39;inizio della spline e una freccia alla fine nell&#39;output di anteprima.
-
-<b>Mostra busta Thickness</b> *Booleano*\
-Visualizza le linee aggiuntive ai bordi del thickness della spline.
-
-<b>Thickness (px)</b> *Mobile* Regola il thickness della visualizzazione della spline in pixel nell&#39;output di anteprima.
-
-+++
+|  |  |
+|:---|:---|
+| <b>Inverti direzione #1 spline</b> <i>Booleano</i> | Inverte la direzione delle spline nel primo insieme. |
+| <b>Inverti direzione #2 spline</b> <i>Booleano</i> | Inverte la direzione delle spline nel secondo insieme. |
+| <b>Anteprima</b> |  |
+| <b>Importo segmenti</b> <i>Numero intero</i> | Regola il numero di segmenti utilizzati per disegnare la visualizzazione della spline nell&#39;output di anteprima. Un valore più alto genera una linea più morbida. |
+| <b>Mostra helper direzione</b> <i>Booleano</i> | Visualizza un punto all&#39;inizio della spline e una freccia alla fine nell&#39;output di anteprima. |
+| <b>Mostra busta Thickness</b> <i>Booleano</i> | Visualizza le linee aggiuntive ai bordi del thickness della spline. |
+| <b>Thickness (px)</b> <i>Mobile</i> | Regola il thickness della visualizzazione della spline in pixel nell&#39;output di anteprima. |
 
 ## Esempi
 
@@ -128,15 +91,15 @@ Visualizza le linee aggiuntive ai bordi del thickness della spline.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 1](../../../../../../assets/SplineAppend-Demo.jpg "Esempio di nodo 1")
+![Esempio di nodo 1](spline-append.resources/SplineAppend-Demo.jpg "Esempio di nodo 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 2](../../../../../../assets/SplineAppend-Graph.jpg "Esempio di nodo 2")
+![Esempio di nodo 2](spline-append.resources/SplineAppend-Graph.jpg "Esempio di nodo 2")
 
 </td>
 </tr>
 </table>
 
-![Demo sui nodi](../../../../../../assets/SplineAppend-Demo2.gif "Demo sui nodi")
+![Demo sui nodi](spline-append.resources/SplineAppend-Demo2.gif "Demo sui nodi")

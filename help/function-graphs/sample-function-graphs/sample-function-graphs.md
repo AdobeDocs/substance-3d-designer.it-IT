@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Grafici a funzioni campione
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 5%
@@ -32,12 +32,12 @@ In questa pagina sono elencati [file Substance 3D Designer](https://www.adobe.co
 
 Questo progetto funge da introduzione generale ai grafici a funzione e a come possono essere utilizzati per espandere il controllo disponibile sui parametri del nodo in [Substance grafici di composizione](../../compositing-graphs/substance-compositing-graphs.md).
 
-[![Substance icona file di esempio grafico funzioni](../../assets/sbs-1.png){width="64px"}](https://shared-assets.adobe.com/link/c5aa6fa1-b72e-488b-60b2-eda2c85e5515)
+[![Substance icona file di esempio grafico funzioni](sample-function-graphs.resources/sbs-1.png){width="64px"}](https://shared-assets.adobe.com/link/c5aa6fa1-b72e-488b-60b2-eda2c85e5515)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/demo-functions.png){width="512px"}
+![](sample-function-graphs.resources/demo-functions.png){width="512px"}
 
 </td>
 </tr>

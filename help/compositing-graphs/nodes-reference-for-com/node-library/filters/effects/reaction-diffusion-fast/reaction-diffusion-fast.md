@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Diffusione rapida reazione
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 1%
+source-wordcount: '164'
+ht-degree: 3%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo diffusione reazione](../../../../../../assets/reaction-diffusion.png "Icona nodo diffusione reazione")
+![Icona nodo diffusione reazione](reaction-diffusion-fast.resources/reaction-diffusion.png "Icona nodo diffusione reazione")
 
 <b>Ingresso:</b> Filtri > Effetti
 
@@ -43,20 +43,30 @@ Questo nodo è ottimizzato per le prestazioni e offre alcuni compromessi di prec
 </tr>
 </table>
 
-## Connettori di ingresso
+<a name="inputs"></a>
 
-<b>Input</b> *Scala di grigio* Immagine in scala di grigio a cui deve essere applicato l’effetto di diffusione della reazione.
+## Input
 
-## Connettori di uscita
+|  |  |
+|:---|:---|
+| <b>Input</b> <i>Scala di grigi</i> | Immagine in scala di grigio a cui deve essere applicato l’effetto di diffusione della reazione. |
 
-<b>Output </b>*Scala di grigio* Immagine in scala di grigio che rappresenta l’effetto di diffusione della reazione applicato all’immagine di input.
+<a name="outputs"></a>
+
+## Output
+
+|  |  |
+|:---|:---|
+| <b>Output</b> <i>Scala di grigi</i> | Immagine in scala di grigio che rappresenta l’effetto di diffusione della reazione applicato all’immagine di input. |
+
+<a name="parameters"></a>
 
 ## Parametri
 
-<b>Raggio</b> *Mobile* Indica quanto deve estendersi l’effetto.
-
-<b>Contrasto</b> *Mobile*\
-Regola il contrasto dell&#39;input e funge da soglia.
+|  |  |
+|:---|:---|
+| <b>Raggio</b> *Mobile* | Distanza di diffusione dell’effetto. |
+| <b>Contrasto</b> *Mobile* | Regola il contrasto dell&#39;input e funge da soglia. |
 
 ## Esempi
 
@@ -64,17 +74,17 @@ Regola il contrasto dell&#39;input e funge da soglia.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Esempio 1](../../../../../../assets/reactdiff03.png "Esempio 1")
+![Esempio 1](reaction-diffusion-fast.resources/reactdiff03.png "Esempio 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Esempio 2](../../../../../../assets/reactdiff02.png "Esempio 2")
+![Esempio 2](reaction-diffusion-fast.resources/reactdiff02.png "Esempio 2")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Esempio 3](../../../../../../assets/reactdiff01.gif "Esempio 3")
+![Esempio 3](reaction-diffusion-fast.resources/reactdiff01.gif "Esempio 3")
 
 </td>
 </tr>

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/getting-started/overview.html"
 breadcrumb-title: ''
-description: Ottenete una panoramica di Substance 3D Designer e scoprite le sue funzionalità per la creazione di materiali e texture procedurali.
+description: Ottieni una panoramica di Substance 3D Designer e scopri le sue funzionalità per la creazione di materiali e texture procedurali.
 helpx_creative_field: ""
 helpx_description: Designer > Getting started > Overview
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Panoramica
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e42fdff3a7e8fca5a6d482bee42bb9f32d019c56
+source-git-commit: 9505c371dff25c5d32a409abf76b95655b499571
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 2%
@@ -20,11 +20,11 @@ ht-degree: 2%
 
 # Panoramica
 
-[Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html) è un&#39;applicazione progettata per la creazione di texture, materiali e filtri 2D in un&#39;interfaccia basata su nodi, con particolare attenzione alla generazione procedurale, alla parametrizzazione e ai flussi di lavoro non distruttivi. Si tratta dell&#39;applicazione più longeva dell&#39;ecosistema Substance 3D e le risorse che ne derivano sono le più versatili e dinamiche possibili.
+[Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html) è un&#39;applicazione progettata per la creazione di texture, materiali e filtri 2D in un&#39;interfaccia basata su nodi, con particolare attenzione alla generazione di procedurali, alla parametrizzazione e ai flussi di lavoro non distruttivi. Si tratta dell&#39;applicazione più longeva dell&#39;ecosistema Substance 3D e le risorse che ne derivano sono le più versatili e dinamiche possibili.
 
 Ecco come viene confrontato con altre applicazioni:
 
-|  | <div><img alt="Icona Substance 3D Sampler" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c1_position_position-par_image_713298714" src="../../assets/sa-appicon-noshadow-256.png" title="Icona Substance 3D Sampler" width="64px"/></div>  Substance 3D Sampler | <div><img alt="Icona Substance 3D Painter" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c2_position_position-par_image" src="../../assets/pt-appicon-noshadow-256.png" width="64px"/></div>  Substance 3D Painter | <div><img alt="Icona Substance 3D Designer" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c3_position_position-par_image" src="../../assets/ds-appicon-noshadow-256.png" title="Icona Substance 3D Designer" width="64px"/></div>  Substance 3D Designer |
+|  | <div><img alt="Icona Substance 3D Sampler" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c1_position_position-par_image_713298714" src="overview.resources/sa-appicon-noshadow-256.png" title="Icona Substance 3D Sampler" width="64px"/></div>  Substance 3D Sampler | <div><img alt="Icona Substance 3D Painter" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c2_position_position-par_image" src="overview.resources/pt-appicon-noshadow-256.png" width="64px"/></div>  Substance 3D Painter | <div><img alt="Icona Substance 3D Designer" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c3_position_position-par_image" src="overview.resources/ds-appicon-noshadow-256.png" title="Icona Substance 3D Designer" width="64px"/></div>  Substance 3D Designer |
 | --- | --- | --- | --- |
 | <b>Curva di apprendimento</b> | Basso | Medio | Alta |
 | <b>Materiali per autori</b> | Sì | Sì | Sì |
@@ -32,13 +32,13 @@ Ecco come viene confrontato con altre applicazioni:
 | <b>Filtri, pattern ed effetti per autori</b> | No | Limitato | Sì |
 | <b>Esporta contenuto parametrico</b> | No | No | Sì |
 
-\*: solo Spostamento. Vedere la funzionalità <b>Esportazione scena</b> nella sezione [Vista 3D](../../interface/3d-view/3d-view.md).
+\*: solo Spostamento. Vedere la funzionalità <b>Esportazione scena</b> nella sezione [vista 3D](../../interface/3d-view/3d-view.md).
 
 In breve, Substance 3D Designer dovrebbe essere considerato l’applicazione di texture più tecnica e avanzata disponibile.
 
-Consente di creare contenuti per quasi tutti i casi di utilizzo o scenari. Ciò significa che non sei limitato a un singolo tipo di output, come un materiale o set di texture univoco per una trama con mappatura UV, ma puoi creare contenuti per un set molto più esteso di usi.
+Consente di creare contenuti per quasi tutti i casi di utilizzo o scenari. Ciò significa che non sei limitato a un singolo tipo di output, come un materiale/set di texture univoco per una trama con mappatura UV, ma puoi creare contenuti per una serie di usi molto più estesa.
 
-Ad esempio, la maggior parte dei contenuti avanzati procedurali di Painter e Sampler è stata creata ed esportata da Designer. Cose come Alpha di pennelli, generatori, filtri e Materiali di base possono essere tutte create in Designer.
+Ad esempio, la maggior parte dei contenuti avanzati procedurali in Painter e Sampler è stata creata ed esportata da Designer. Cose come Alpha di pennelli, generatori, filtri e Materiali di base possono essere tutte create in Designer.
 
 ## Flusso di lavoro
 
@@ -60,7 +60,7 @@ L&#39;applicazione e il relativo ecosistema utilizzano 4 diversi tipi di file. P
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../assets/ds-sbs-48.png)
+![](overview.resources/ds-sbs-48.png)
 
 ### File Substance 3D
 
@@ -71,7 +71,7 @@ I file di Substance sono i **file di origine principali** per Designer. Quando a
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/sbsar-48.png)
+![](overview.resources/sbsar-48.png)
 
 ### Risorsa Substance 3D
 
@@ -82,7 +82,7 @@ Gli archivi Substance sono <b> file Substance compilati e ottimizzati</b>. Sono 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/bmp-96.png){width="48px"}
+![](overview.resources/bmp-96.png){width="48px"}
 
 ### File statici
 
@@ -104,7 +104,7 @@ I file Substance 3D possono contenere un’ampia gamma di risorse con scopi dive
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/graph-5.png){width="150px"}](../../compositing-graphs/substance-compositing-graphs.md)
+[![](overview.resources/graph-5.png){width="150px"}](../../compositing-graphs/substance-compositing-graphs.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -123,7 +123,7 @@ I grafici a Substance consentono di generare ed elaborare *dati immagine 2D* e q
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/function-1.png){width="150px"}](../../function-graphs/function-graphs.md)
+[![](overview.resources/function-1.png){width="150px"}](../../function-graphs/function-graphs.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -142,7 +142,7 @@ I grafici a Substance consentono di generare ed elaborare *dati immagine 2D* e q
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/folder-4.png){width="150px"}](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
+[![](overview.resources/folder-4.png){width="150px"}](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

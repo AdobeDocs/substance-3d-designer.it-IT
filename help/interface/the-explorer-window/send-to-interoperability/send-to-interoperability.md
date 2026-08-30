@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Invia a...  Interoperabilità
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '730'
 ht-degree: 1%
 
 ---
@@ -20,14 +20,14 @@ ht-degree: 1%
 
 # Invia a...  Interoperabilità
 
-![Inviare da Designer alle app Substance 3D](../../../assets/explorer-interop.png "Inviare da Designer alle app Substance 3D"){width="512px"}
+![Inviare da Designer alle app Substance 3D](send-to-interoperability.resources/explorer-interop.png "Inviare da Designer alle app Substance 3D"){width="512px"}
 
 Adobe Substance 3D Designer offre interoperabilità con [Substance 3D Sampler](https://www.adobe.com/it/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/it/products/substance3d-painter.html) e [Substance 3D Stager](https://www.adobe.com/it/products/substance3d-stager.html). Consente di *inviare* e *inviare di nuovo* su cui si lavora rapidamente, semplificando l&#39;iterazione nell&#39;ecosistema Substance 3D.
 
 Il flusso di lavoro è in genere il seguente:
 
 1. Impostare l&#39;attributo <b>Type</b> nelle proprietà di un [grafico a Substance](../../../compositing-graphs/graph-parameters/graph-parameters.md)
-1. Nel pannello [Esplora risorse](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), seleziona il pacchetto che desideri inviare
+1. Nel pannello [Esplora risorse](../the-explorer-window.md), seleziona il pacchetto che desideri inviare
 1. Nell&#39;elenco a discesa <b>Publish/Send</b> di Explorer, seleziona l&#39;applicazione di destinazione
 1. Apporta modifiche ai grafici
 1. Ripeti il passaggio 3 per inviare nuovamente il pacchetto e aggiornare la risorsa esistente inviata con le modifiche
@@ -49,7 +49,7 @@ Nella sezione <b>Attributi </b>delle proprietà di un [grafico a Substance](../.
 </td>
 <td style="border: 0;" valign="top">
 
-![Attributo Type del grafico a Substance](../../../assets/type-attribute.jpg "Attributo Type del grafico a Substance")
+![Attributo Type del grafico a Substance](send-to-interoperability.resources/type-attribute.jpg "Attributo Type del grafico a Substance")
 
 </td>
 </tr>
@@ -75,13 +75,13 @@ Il processo di invio ha comportato la [pubblicazione](../../../compositing-graph
 
 L’invio dei contenuti può avvenire nei modi seguenti:
 
-* Fare clic con il pulsante destro del mouse su un pacchetto e aprire <b>Invia a...Sottomenu </b> nel menu di scelta rapida, quindi scegliere <b>Invia a...Opzione </b> per l&#39;applicazione di destinazione;
-* Fai clic sul pulsante ![](../../../assets/sendto-icon.jpg) <b>Publish/Invia</b> nella parte superiore del pannello [Esplora risorse](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), quindi scegli <b>Invia a...Opzione </b> per l&#39;applicazione di destinazione.
+* Fare clic con il pulsante destro del mouse su un pacchetto e aprire il sottomenu <b>Invia a...</b> nel menu di scelta rapida, quindi scegliere l&#39;opzione <b>Invia a...</b> per l&#39;applicazione di destinazione.
+* Fai clic sul pulsante ![](send-to-interoperability.resources/sendto-icon.jpg) <b>Publish/Invia</b> nella parte superiore del pannello Esplora risorse, quindi scegli l&#39;opzione <b>Invia a...</b> per l&#39;applicazione di destinazione.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Menu Publish/Invia a in Esplora risorse](../../../assets/explorer-sendto-displayed.jpg "Menu Publish/Invia a in Esplora risorse")
+![Menu Publish/Invia a in Esplora risorse](send-to-interoperability.resources/explorer-sendto-displayed.jpg "Menu Publish/Invia a in Esplora risorse")
 
 </td>
 </tr>
@@ -107,7 +107,7 @@ In Windows Media Player, la ricezione da Designer richiede che la *directory di 
 
 >[!NOTE]
 >
-> Quando si inviano file Substance 3D (SBS) al lettore, una risorsa Substance 3D (SBSAR) viene pubblicata come *file temporaneo*.
+> Quando si inviano file Substance 3D (SBS) a Windows Media Player, una risorsa Substance 3D (SBSAR) viene pubblicata come *file temporaneo*.
 
 ## Problemi
 

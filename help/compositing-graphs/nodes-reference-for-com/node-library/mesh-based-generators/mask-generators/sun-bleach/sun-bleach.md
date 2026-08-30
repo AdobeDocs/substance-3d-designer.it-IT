@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Sun Bleach
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 1%
+source-wordcount: '161'
+ht-degree: 6%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/sun-bleach.png){width="128px"}
+![](sun-bleach.resources/sun-bleach.png){width="128px"}
 
-## Sun Bleach
-
-**Ingresso:** *Generatori Basati Su Trama**/Generatori Maschera*
-
-**Semplice**
+<b>In:</b> Generatori Basati Su Trama > Generatori di maschere
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -41,26 +37,36 @@ Genera una maschera in bianco e nero in base alle mappe con baking e alle impost
 
 Questa maschera è simile a [Luce](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/light/light.md), ma supporta anche AO, il che porta a una maschera che rappresenta lo sbiancamento della luce e la dissolvenza sopra un effetto.
 
+</td>
+</tr>
+</table>
+
+<a name="inputs"></a>
+
 ## Input
 
-* **Spazio mondo normale**: *Input colore*
-* **Occlusione ambiente**: *Input scala di grigi*\
-  Mappa con baking utilizzata per effetti interni e mascheratura.
-* **Maschera (facoltativo)**: *Input scala di grigi*\
-  Slot maschera utilizzato per mascherare gli effetti del nodo.
+|  |  |
+|:---|:---|
+| <b>Spazio mondo normale</b> <i>Input colore</i> |  |
+| <b>Occlusione ambiente</b> <i>Input scala di grigi</i> | Mappa con baking utilizzata per effetti interni e mascheratura. |
+| <b>Maschera (facoltativo)</b> <i>Input scala di grigi</i> | Slot maschera utilizzato per mascherare gli effetti del nodo. |
+
+<a name="parameters"></a>
 
 ## Parametri
 
-* **Livello**: *0,0 - 1,0*\
-  Consente di impostare la quantità totale di sbiancamento e di spostare l’effetto verso il basso.
-* **Contrasto**: *0.0 - 1.0*\
-  Regola il contrasto del risultato.
-* **Occlusione**: *0.0 - 1.0* Imposta l&#39;influenza dell&#39;AO sul risultato finale.
+|  |  |
+|:---|:---|
+| <b>Livello</b> <i>0.0 - 1.0</i> | Consente di impostare la quantità totale di sbiancamento e di spostare l’effetto verso il basso. |
+| <b>Contrasto</b> <i>0.0 - 1.0</i> | Regola il contrasto del risultato. |
+| <b>Occlusione</b> <i>0.0 - 1.0</i> | Imposta l’influenza dell’AO sul risultato finale. |
 
-## Immagini di esempio
+## Esempi
 
-![](../../../../../../assets/sun-bleach-ex.gif)
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="sun-bleach.resources/sun-bleach-ex.gif" />
+        </td>
+    </tr>
 </table>

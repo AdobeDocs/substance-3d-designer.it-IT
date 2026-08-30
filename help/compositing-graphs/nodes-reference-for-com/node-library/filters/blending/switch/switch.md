@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Cambia
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 4%
+source-wordcount: '134'
+ht-degree: 3%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 4%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/switch-1.png){width="128px"}
+![](switch.resources/switch-1.png){width="128px"}
 
-![](../../../../../../assets/switch-grayscale.png){width="128px"}
+![](switch.resources/switch-grayscale.png){width="128px"}
 
-## Switch (scala di grigi)
-
-**Ingresso:** *Filtri/Fusione*
-
-**Semplice**
+<b>Ingresso:</b> Filtri > Fusione
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -45,19 +41,23 @@ Molto utile per esporre una scelta booleana (Vero/Falso) in un grafico, in cui Ã
 
 Importante: assicurati di utilizzare la versione appropriata per il tuo input. Usare &quot;Switch&quot; per gli ingressi colore, &quot;Switch Greyscale&quot; per gli ingressi scala di grigi.
 
-## Parametri
-
-### Input
-
-* **Input 1 (True)**: *Input a colori o in scala di grigi*
-* **Input 2 (False)**: *Input a colori o in scala di grigi*
-
-### Parametri
-
-* **Switch**: *False/True* Consente di passare dall&#39;input 1 (True) all&#39;input 2 (False).
-
-## Immagini di esempio
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Input
+
+|  |  |
+|:---|:---|
+| <b>Input 1 (True)</b> <i>Input a colori o in scala di grigi</i> |  |
+| <b>Input 2 (False)</b> <i>Input a colori o in scala di grigi</i> |  |
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Switch</b> <i>Falso/Vero</i> | Passa dall&#39;input 1 (True) all&#39;input 2 (False). |

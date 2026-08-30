@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Da Flood Fill a Scala di grigi
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 2%
+source-wordcount: '162'
+ht-degree: 4%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/floodfill-to-grayscale.png){width="128px"}
+![](flood-fill-to-grayscale-color.resources/floodfill-to-grayscale.png){width="128px"}
 
-![](../../../../../../assets/floodfill-to-color.png){width="128px"}
+![](flood-fill-to-grayscale-color.resources/floodfill-to-color.png){width="128px"}
 
-## Flood Fill a gradazioni di grigio/colore casuali
-
-**Ingresso:** *Filtri/Effetti*
-
-**&#x200B;**&#x200B;Semplice&#x200B;**&#x200B;**
+<b>Ingresso:</b> Filtri > Effetti
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -43,18 +39,24 @@ Usa i dati di Flood Fill per generare campioni di valori cromatici o in scala di
 
 È un sistema potente che offre a ogni cella un valore o un colore unico, mantenendo comunque il controllo e basandolo su un input predeterminato.
 
-## Parametri
-
-### Input
-
-* **Flood Fill**: *Input colore*
-* **Input colore/scala di grigi**: *Input colore/scala di grigi*
-
-### Parametri
-
-* **Regolazione luminanza/colore**: *-1.0 - 1.0* Impostare il valore di distorsione o di base per il nodo. Quando si utilizza un input Scala di grigio o Colore, questo viene utilizzato per modificare il valore iniziale come punto di partenza.
-* **Luminanza/Colore casuale**: *-1.0 - 1.0* Impostate la quantità di variazione.
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Input
+
+|  |  |
+|:---|:---|
+| <b>Flood Fill</b> <i>Input colore</i> |  |
+| <b>Input colore/scala di grigi</b> <i>Input colore/scala di grigi</i> |  |
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Regolazione Luminanza/Colore</b> <i>-1.0 - 1.0</i> | Impostare la distorsione o il valore base per il nodo. Quando si utilizza un input Scala di grigio o Colore, questo viene utilizzato per modificare il valore iniziale come punto di partenza. |
+| <b>Luminanza/Colore casuale</b> <i>-1.0 - 1.0</i> | Imposta l&#39;importo della variazione. |

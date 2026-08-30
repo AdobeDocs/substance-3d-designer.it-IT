@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Scala di grigi diffusione
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 1%
+source-wordcount: '215'
+ht-degree: 3%
 
 ---
 
@@ -22,16 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/diffusion-grayscale-icon.png){width="200px"}
+![](diffusion-grayscale.resources/diffusion-grayscale-icon.png){width="200px"}
 
-**Ingresso:** *Filtri/Effetti*
-
-**Intermedio**
+<b>Ingresso:</b> Filtri > Effetti
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -43,61 +41,49 @@ Vengono diffusi solo i valori dei pixel corrispondenti alla maschera; gli altri 
 </tr>
 </table>
 
-## Parametri
-
-* **Iterazioni**: *0.0 - 64.0* Numero di iterazioni di diffusione da eseguire (maggiore è il numero migliore, ma più lento). I valori utili sono compresi nell’intervallo [8, 48].\
-  Si prega di notare che se non si cerca la correttezza matematica, i valori bassi sono buoni o anche meglio.\
-  **Distanza**: **0.0 - 1.0** Regola la distanza massima della diffusione.
-* **Attiva dithering**: *True/False* Controlla il metodo di campionamento di ogni passaggio. Il dithering consente la convergenza in meno passaggi, ma introduce disturbi.\
-  Senza questa opzione, ogni passata è più veloce ma sono necessarie più passate per ottenere un risultato uniforme senza creare artefatti di banda.
+<a name="inputs"></a>
 
 ## Input
 
-* **Origine** *Scala di grigi*\
-  Immagine da diffondere.
-* **Maschera** *Scala di grigi*\
-  Maschera di diffusione: i pixel bianchi vengono campionati in *Sorgente* e diffusi in pixel neri. L’immagine deve essere in bianco e nero. Se la maschera include sfumature, il valore di taglio è 0,5.
-* **Intensità** *Scala Di Grigi*\
-  Definisce localmente la forza con cui viene applicato il processo di diffusione. Questa mappa dovrebbe essere *in contrasto* per ottenere un effetto evidente.
+|  |  |
+|:---|:---|
+| <b>Origine</b> <i>Scala di grigi</i> | Immagine da diffondere. |
+| <b>Maschera</b> <i>Scala di grigi</i> | Maschera di diffusione: i pixel bianchi vengono campionati in <i>Sorgente</i> e diffusi in pixel neri. L’immagine deve essere in bianco e nero. Se la maschera include sfumature, il valore di taglio è 0,5. |
+| <b>Intensità</b> <i>Scala di grigi</i> | Definisce localmente la forza con cui viene applicato il processo di diffusione. Questa mappa dovrebbe essere <i>in contrasto</i> per ottenere un effetto evidente. |
 
-## Immagini di esempio
+<a name="parameters"></a>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+## Parametri
 
-![](../../../../../../assets/diffusion-grayscale-01-before.jpg){width="256px"}
+|  |  |
+|:---|:---|
+| <b>Iterazioni</b> <i>0.0 - 64.0</i> | Numero di iterazioni di diffusione da eseguire (maggiore è migliore ma più lento). I valori utili sono compresi nell’intervallo [8, 48].<br>Si noti che se non si cerca la correttezza matematica, i valori bassi sono corretti o addirittura migliori. |
+| <b>Distanza</b> <i>0.0 - 1.0</i> | Regola la distanza massima della diffusione. |
+| <b>Abilita dithering</b> <i>Vero/Falso</i> | Controlla il metodo di campionamento di ogni passata. Il dithering consente la convergenza in meno passaggi, ma introduce disturbi.<br>In caso contrario, ogni passaggio è più veloce, ma sono necessarie più passaggi per ottenere un risultato uniforme senza artefatti di striatura. |
 
-</td>
-<td style="border: 0;" valign="top">
+## Esempi
 
-![](../../../../../../assets/diffusion-grayscale-01a-after.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/diffusion-grayscale-01b-after.jpg){width="256px"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/diffusion-grayscale-02-before.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/diffusion-grayscale-02-after.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/diffusion-grayscale-02-render.jpg){width="512px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-01-before.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-01a-after.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-01b-after.jpg" />
+        </td>
+    </tr>
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-02-before.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-02-after.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-02-render.jpg" />
+        </td>
+    </tr>
 </table>

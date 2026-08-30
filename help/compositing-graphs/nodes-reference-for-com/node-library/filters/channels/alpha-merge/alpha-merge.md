@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/alpha-merge.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo Unione di Alpha per combinare le texture di RGB con i canali alfa per creare texture RGBA.
+description: Utilizzare il nodo Merge di Alpha per combinare texture RGB con canali alfa per la creazione di texture RGBA.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Channels > Alpha Merge
 helpx_experience_level: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Unione Alpha
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '89'
 ht-degree: 2%
 
 ---
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/rgb-a-merge.png)
+![](alpha-merge.resources/rgb-a-merge.png)
 
-## Unione Alpha
-
-**Ingresso:** *Filtri/Canali*
-
-**Semplice**
+<b>Ingresso:</b> Filtri > Canali
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -41,23 +37,15 @@ Aggiunge un canale alfa a un input senza canale alfa. Da non confondere con [RGB
 
 Nodo semplice ma pratico per quando si desidera semplicemente mascherare qualcosa o quando il risultato richiede un canale alfa.
 
-## Parametri
-
-### Input
-
-* **RGB**: *Input colore*\
-  Immagine a colori senza canale alfa
-* **A**: *Input scala di grigi*\
-  Immagine in scala di grigio da utilizzare come risultato alfa.
-
-*Nessun parametro.*
-
-## Immagini di esempio
-
-|  |
-| --- |
-| Nessuna immagine allegata alla pagina. |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Input
+
+|  |  |
+|:---|:---|
+| <b>RGB</b> <i>Input colore</i> | Immagine a colori senza canale alfa |
+| <b>A</b> <i>Input scala di grigi</i> | Immagine in scala di grigio da utilizzare come risultato alfa. |

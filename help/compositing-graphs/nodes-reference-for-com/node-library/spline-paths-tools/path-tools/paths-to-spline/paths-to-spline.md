@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Tracciati da spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '251'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo](../../../../../../assets/paths-to-splines-icon.png "Icona nodo")
+![Icona nodo](paths-to-spline.resources/paths-to-splines-icon.png "Icona nodo")
 
 <b>In:</b> Strumenti spline e tracciati > Strumenti tracciato
 
@@ -47,35 +47,31 @@ Converte i tracciati in spline che possono essere visualizzate utilizzando un no
 >
 > Questo nodo può essere utilizzato dopo il nodo [Maschera in tracciati](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) per formare una catena che converte una maschera in spline.
 
-## Connettori di ingresso
+<a name="inputs"></a>
 
-<b>Tracciati</b> *Colore*\
-Un elenco di percorsi dei segmenti codificati. Collegare questo input al risultato di una [maschera ai percorsi](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) o a un altro nodo di elaborazione dei percorsi.
+## Input
 
-## Connettori di uscita
+|  |  |
+|:---|:---|
+| <b>Tracciati</b> <i>Colore</i> | Un elenco di percorsi dei segmenti codificati. Collegare questo input al risultato di una [maschera ai percorsi](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) o a un altro nodo di elaborazione dei percorsi. |
 
-<b>Spline coords </b>*Color* Coordinate dei punti delle spline di input codificate nei canali RGBA di un&#39;immagine a colori:\
-<b>R</b> - Posizione X\
-<b>G</b> - Posizione Y\
-<b>B</b> - Height\
-<b>A</b> - Dati compressi:\
-* Segno: la spline è chiusa (negativa) o aperta (positiva);\
-* Valore assoluto: Thickness + 1.
+<a name="outputs"></a>
 
-<b>Dati spline</b> *Colore*\
-Dati aggiuntivi delle spline di input codificate nei canali RGBA di un&#39;immagine <b>a colori</b>:\
-<b>R</b> - Tangenti X\
-<b>G</b> - Tangenti Y\
-<b>B</b> - Non utilizzato\
-<b>A</b> - Non in uso
+## Output
 
-<b>Quantità spline</b> *Numero intero*\
-Numero di spline di input.
+|  |  |
+|:---|:---|
+| <b>Spline Coords</b> <i>Colore</i> | Coordinate dei punti delle spline di input codificate nei canali RGBA di un&#39;immagine a colori:<br><b>R</b> - Posizione X<br><b>G</b> - Posizione Y<br><b>B</b> - Height<br><b>A</b> - Dati compressi:<br> * Segno: la spline è chiusa (negativa) o aperta (positiva);<br> * Valore assoluto: Thickness + 1. |
+| <b>Dati spline</b> <i>Colore</i> | Dati aggiuntivi delle spline di input codificate nei canali RGBA di un&#39;immagine <b>color</b>:<br><b>R</b> - Tangenti X<br><b>G</b> - Tangenti Y<br><b>B</b> - Non utilizzati<br><b>A</b> - Non utilizzati |
+| <b>Quantità spline</b> <i>Numero intero</i> | Numero di spline di input. |
+
+<a name="parameters"></a>
 
 ## Parametri
 
-<b>Spline Precision</b> *Numero intero*\
-Il logaritmo in base 2 (log2) del numero di vertici campionati in ogni percorso dell&#39;input Paths per creare la spline corrispondente.
+|  |  |
+|:---|:---|
+| <b>Spline Precision</b> <i>Numero intero</i> | Il logaritmo in base 2 (log2) del numero di vertici campionati in ogni percorso dell&#39;input Paths per creare la spline corrispondente. |
 
 ## Esempi
 
@@ -86,11 +82,11 @@ Il logaritmo in base 2 (log2) del numero di vertici campionati in ogni percorso 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant1-Before.jpg" alt="PathsToSpline-Variant1-Before">
+      <img src="paths-to-spline.resources/PathsToSpline-Variant1-Before.jpg" alt="PathsToSpline-Variant1-Before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant1-After.jpg" alt="PathsToSpline-Variant1-After">
+      <img src="paths-to-spline.resources/PathsToSpline-Variant1-After.jpg" alt="PathsToSpline-Variant1-After">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -102,11 +98,11 @@ Il logaritmo in base 2 (log2) del numero di vertici campionati in ogni percorso 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="paths-to-spline.resources/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant2-After.jpg" alt="PathsToSpline-Variant2-After">
+      <img src="paths-to-spline.resources/PathsToSpline-Variant2-After.jpg" alt="PathsToSpline-Variant2-After">
       <br><i>Dopo</i>
     </td>
   </tr>

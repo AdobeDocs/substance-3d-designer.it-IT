@@ -10,7 +10,7 @@ helpx_tags: ""
 title: AxF (Appearance eXchange Format)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '2140'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-[![Icona file AxF](../../assets/axf-file-icon.png)](https://www.xrite.com/axf)
+[![Icona file AxF](axf-appearance-exchange-format.resources/axf-file-icon.png)](https://www.xrite.com/axf)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -64,7 +64,7 @@ Il flusso di lavoro per l’importazione di file AxF può essere avviato utilizz
 
 Fare clic sul pulsante <b>Importa AxF...</b> nella sezione a sinistra della [schermata iniziale](../../interface/home-screen/home-screen.md).
 
-![AxF: Avvia importazione dalla schermata Home](../../assets/axf_home-screen.png "AxF: Avvia importazione dalla schermata Home"){width="600px"}
+![AxF: Avvia importazione dalla schermata Home](axf-appearance-exchange-format.resources/axf_home-screen.png "AxF: Avvia importazione dalla schermata Home"){width="600px"}
 
 +++
 
@@ -72,7 +72,7 @@ Fare clic sul pulsante <b>Importa AxF...</b> nella sezione a sinistra della [sch
 
 Fai clic su RMB in un pacchetto in [Esplora risorse](../../interface/the-explorer-window/the-explorer-window.md) e seleziona <b>Importa > AxF</b> nel menu di scelta rapida del pacchetto.
 
-![AxF: Avvia importazione da Esplora risorse](../../assets/axf_explorer.png "AxF: Avvia importazione da Esplora risorse"){width="600px"}
+![AxF: Avvia importazione da Esplora risorse](axf-appearance-exchange-format.resources/axf_explorer.png "AxF: Avvia importazione da Esplora risorse"){width="600px"}
 
 +++
 
@@ -90,7 +90,7 @@ La sezione <b>Modelli</b> consente di impostare il modello [Grafico Substance](.
 
 I <b>metadati</b> e le <b>proprietà</b> elencano i dati estratti dal materiale nel file AxF. Queste modifiche influiscono sulla configurazione di alcune proprietà dei modelli di grafici Substance (vedere la sezione [Modelli di grafico](#graph-templates) di seguito).
 
-![AxF: finestra di dialogo Importa](../../assets/axf_import.png "AxF: finestra di dialogo Importa")
+![AxF: finestra di dialogo Importa](axf-appearance-exchange-format.resources/axf_import.png "AxF: finestra di dialogo Importa")
 
 ### Risultato
 
@@ -110,7 +110,7 @@ Nel caso di [Substance grafici](../../compositing-graphs/substance-compositing-g
 </td>
 <td style="border: 0;" valign="top">
 
-![AxF: Risultato pacchetto del processo di importazione](../../assets/axf_package.png "AxF: Risultato pacchetto del processo di importazione")
+![AxF: Risultato pacchetto del processo di importazione](axf-appearance-exchange-format.resources/axf_package.png "AxF: Risultato pacchetto del processo di importazione")
 
 </td>
 </tr>
@@ -129,7 +129,7 @@ Fai clic sul pulsante <b>Aggiungi modello</b> e seleziona il tipo di grafico des
 </td>
 <td style="border: 0;" valign="top">
 
-![AxF: Aggiungi modello nella finestra di dialogo di importazione](../../assets/axf_add-template.png "AxF: Aggiungi modello nella finestra di dialogo di importazione")
+![AxF: Aggiungi modello nella finestra di dialogo di importazione](axf-appearance-exchange-format.resources/axf_add-template.png "AxF: Aggiungi modello nella finestra di dialogo di importazione")
 
 </td>
 </tr>
@@ -151,7 +151,7 @@ Questi possono quindi essere utilizzati con gli shader della vista 3D predefinit
 </td>
 <td style="border: 0;" valign="top">
 
-![AxF: Substance modelli grafici](../../assets/axf-templates.png "AxF: Substance modelli grafici")
+![AxF: Substance modelli grafici](axf-appearance-exchange-format.resources/axf-templates.png "AxF: Substance modelli grafici")
 
 </td>
 </tr>
@@ -186,7 +186,7 @@ I *metadati* estratti dal materiale nel file AxF vengono copiati nella propriet�
 </td>
 <td style="border: 0;" valign="top">
 
-![AxF: Substance parametri grafico](../../assets/axf_graph-props.png "AxF: Substance parametri grafico")
+![AxF: Substance parametri grafico](axf-appearance-exchange-format.resources/axf_graph-props.png "AxF: Substance parametri grafico")
 
 </td>
 </tr>
@@ -209,7 +209,7 @@ La proprietà <b>Dimensioni fisiche</b> del grafico viene utilizzata per imposta
 >
 > Le modifiche alle risorse nel file vengono aggiunte come *nuovo livello*. Ciò significa che ogni esportazione eseguita da Designer allo stesso file AxF aumenterà le dimensioni di quel file.
 
-![Esporta AxF](../../assets/exportaxf.gif)
+![Esporta AxF](axf-appearance-exchange-format.resources/exportaxf.gif)
 
 <table>
 <tr style="border: 0;">
@@ -219,12 +219,12 @@ La proprietà <b>Dimensioni fisiche</b> del grafico viene utilizzata per imposta
 
 La finestra di dialogo di esportazione <b>AxF</b> è disponibile nella finestra di dialogo <b>Output di esportazione</b> come scheda dedicata.
 
-Nella barra degli strumenti [Visualizzazione grafico](../../interface/the-graph-view/the-graph-view.md), apri il menu ![](../../assets/tools.jpg) <b>Strumenti</b> e seleziona l&#39;opzione <b>Esporta output...</b> per visualizzare la finestra di dialogo, quindi seleziona la scheda <b>AxF</b>.
+Nella barra degli strumenti [Visualizzazione grafico](../../interface/the-graph-view/the-graph-view.md), apri il menu ![](axf-appearance-exchange-format.resources/tools.jpg) <b>Strumenti</b> e seleziona l&#39;opzione <b>Esporta output...</b> per visualizzare la finestra di dialogo, quindi seleziona la scheda <b>AxF</b>.
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-![AxF: opzione di esportazione nella barra degli strumenti della visualizzazione grafico](../../assets/axf_graph-export.png "AxF: opzione di esportazione nella barra degli strumenti della visualizzazione grafico")
+![AxF: opzione di esportazione nella barra degli strumenti della visualizzazione grafico](axf-appearance-exchange-format.resources/axf_graph-export.png "AxF: opzione di esportazione nella barra degli strumenti della visualizzazione grafico")
 
 </td>
 </tr>
@@ -242,7 +242,7 @@ Il campo di input <b>File</b> consente di selezionare il file AxF di destinazion
 >
 > La proprietà <b>Group</b> di un output grafico deve essere impostata su &#39;AxF&#39; affinché venga elencato in questa finestra di dialogo.
 
-![AxF: finestra di dialogo Esportazione](../../assets/axf_export.png "AxF: finestra di dialogo Esportazione")
+![AxF: finestra di dialogo Esportazione](axf-appearance-exchange-format.resources/axf_export.png "AxF: finestra di dialogo Esportazione")
 
 Fai clic su <b>Inizia esportazione </b> per modificare il file AxF di destinazione con il nuovo livello contenente le modifiche negli output mappati.
 
@@ -254,18 +254,18 @@ Il risultato viene visualizzato come messaggio accanto alla barra di avanzamento
 
 ### Associazione degli output alle risorse AxF
 
-Quando esportate in un file AxF esistente, le sue risorse vengono aggiornate utilizzando gli output del grafico. Designer fa corrispondere l&#39;identificatore della risorsa ai nodi [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) che hanno lo stesso identificatore di un <b>Utilizzo</b>.
+Quando esportate in un file AxF esistente, le sue risorse vengono aggiornate utilizzando gli output del grafico. Designer fa corrispondere l&#39;identificatore di risorsa ai nodi [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) che hanno lo stesso identificatore di <b>Utilizzo</b>.
 
 Inoltre, la proprietà *Group* dell&#39;output <b>deve essere impostata su &#39;AxF&#39; affinché venga elencata nella finestra di dialogo di esportazione AxF (vedere sopra).</b>
 
-![AxF: Utilizzo output grafico Substance](../../assets/axf_output_usage.png "AxF: Utilizzo output grafico Substance")
+![AxF: Utilizzo output grafico Substance](axf-appearance-exchange-format.resources/axf_output_usage.png "AxF: Utilizzo output grafico Substance")
 
-Le risorse possono essere texture (ad esempio bitmap) o uniformi (ad esempio valori) con un numero specifico di canali. È obbligatorio che l’output del grafico corrisponda esattamente a tale numero di canali. In caso contrario, verrà generato un errore per la risorsa durante l&#39;esportazione e la risorsa non verrà modificata.
+Le risorse possono essere texture (bitmap) o uniformi (valori) con un numero specifico di canali. È obbligatorio che l’output del grafico corrisponda esattamente a tale numero di canali. In caso contrario, verrà generato un errore per la risorsa durante l&#39;esportazione e la risorsa non verrà modificata.
 
 Il numero di canali viene specificato in modo diverso a seconda del tipo di dati forniti al nodo di output:
 
 * <b>Bitmap (Texture):</b> La proprietà [Componenti](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) viene utilizzata per specificare il numero di canali, dove R è un canale, RG è due canali e così via. Questa proprietà viene utilizzata per comunicare a Designer quale canale RGBA della bitmap deve essere codificato nella risorsa.
-* <b>Valore (uniforme):</b> Il numero di componenti del valore vettoriale viene utilizzato per specificare il numero di canali, dove [Float](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) è un canale, [Float2](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) è due canali e così via.
+* <b>Valore (uniforme):</b> Il numero di componenti del valore vettoriale viene utilizzato per specificare il numero di canali, dove [Virgola mobile](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) è un canale, [Virgola mobile 2](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) è due canali e così via.
 
 >[!IMPORTANT]
 >
@@ -274,18 +274,18 @@ Il numero di canali viene specificato in modo diverso a seconda del tipo di dati
 > 
 > Ad esempio, per una risorsa lobo Specular che utilizza due canali (Rosso per la rugosità dello Specular e Verde per l’Anisotropia dello Specular), imposta la proprietà Componenti su &quot;RG&quot;.
 
-## Visualizzazione dei file AxF nella vista 3D
+## Visualizzazione dei file AxF nel vista 3D
 
-Il metodo per eseguire il rendering dei materiali SVBRDF AxF nella [vista 3D](../../interface/3d-view/3d-view.md) dipende dalla [configurazione dell&#39;importazione](#import).
+Il metodo per eseguire il rendering dei materiali AxF per SVBRDF in [vista 3D](../../interface/3d-view/3d-view.md) dipende dalla [configurazione dell&#39;importazione](#import).
 
 +++Converti in PBR
 
-Se desiderate convertire un materiale SVBRDF in un file AxF in un materiale PBR standard, la configurazione di importazione richiederà probabilmente un [modello di conversione del grafico Substance](#graph-templates).
+Se desideri convertire un materiale SVBRDF contenuto in un file AxF in un materiale PBR standard, la configurazione di importazione richiederà probabilmente un [modello di conversione del grafico di Substance](#graph-templates).
 
-In tal caso, è necessario utilizzare il **modulo di rendering OpenGL** nella vista 3D e selezionare il <code>SVBRF AxF</code> shader.\
-Puoi quindi trascinare e rilasciare il grafico a Substance impostato nella finestra di dialogo di importazione per collegarne gli output allo shader.
+In tal caso, è necessario utilizzare il **modulo di rendering OpenGL** nel vista 3D e selezionare il <code>modulo di rendering AxF SVBRF</code> shader.\
+Puoi quindi trascinare e rilasciare il grafico a Substance impostato nella finestra di dialogo di importazione per connettere gli output allo shader.
 
-![AxF: visualizzazione per la conversione](../../assets/axf-view-for-convert.gif "AxF: visualizzazione per la conversione")
+![AxF: visualizzazione per la conversione](axf-appearance-exchange-format.resources/axf-view-for-convert.gif "AxF: visualizzazione per la conversione")
 
 +++
 
@@ -293,7 +293,7 @@ Puoi quindi trascinare e rilasciare il grafico a Substance impostato nella fines
 
 Se il tuo obiettivo è quello di eseguire *modifiche* su un file AxF esistente, segui le istruzioni riportate di seguito per visualizzare il materiale SVBRDF in base al modulo di rendering selezionato:
 
-Uno shader GLSLFX dedicato è disponibile per visualizzare materiali utilizzando una rappresentazione SVBRDF da un file AxF: <b>AxF SVBRDF</b>.
+È disponibile uno shader GLSLFX dedicato per visualizzare materiali utilizzando una rappresentazione SVBRDF da un file AxF: <b>AxF SVBRDF</b>.
 
 Lo shader è disponibile nel menu <b>Materiali</b>: aprite il sottomenu del materiale della scena (&quot;Predefinito&quot; per impostazione predefinita) e selezionate qualsiasi tecnica nella voce <b>AxF SVBRDF</b>.
 
@@ -302,7 +302,7 @@ In particolare, la proprietà <b>Divisione in porzioni</b> consente di regolare 
 
 Dopo aver selezionato lo shader, fate clic su RMB in uno spazio vuoto nel grafico e selezionate l&#39;opzione <b>Visualizza output in vista 3D</b> per visualizzarne gli output nella [vista 3D](../../interface/3d-view/3d-view.md).
 
-![AxF: SVBRDF GLSLFX shader](../../assets/axf_glslfx-svbrdf.png "AxF: SVBRDF GLSLFX shader"){width="600px"}
+![AxF: SVBRDF GLSLFX shader](axf-appearance-exchange-format.resources/axf_glslfx-svbrdf.png "AxF: SVBRDF GLSLFX shader"){width="600px"}
 
 Questo shader è attualmente un *lavoro in corso* e alcune funzionalità non sono ancora supportate. Pertanto, sebbene possa fornire una panoramica delle caratteristiche dei materiali, non deve essere utilizzato per regolazioni di precisione .
 
@@ -311,7 +311,7 @@ In particolare, la proprietà <b>Divisione in porzioni</b> consente di regolare 
 
 Dopo aver selezionato lo shader, fate clic su RMB in uno spazio vuoto nel grafico e selezionate l&#39;opzione <b>Visualizza output in vista 3D</b> per visualizzarne gli output nella [vista 3D](../../interface/3d-view/3d-view.md).
 
-![AxF: visualizzazione per l&#39;edizione](../../assets/axf-view-for-edit.gif "AxF: visualizzazione per l&#39;edizione")
+![AxF: visualizzazione per l&#39;edizione](axf-appearance-exchange-format.resources/axf-view-for-edit.gif "AxF: visualizzazione per l&#39;edizione")
 <i>Nota:</i> ignorate la parte del video dal passaggio al modulo di rendering Iray fino alla fine, poiché il modulo di rendering Iray e il supporto MDL sono stati <i>rimossi</i> da Designer nella versione 16.0.0.
 
 +++

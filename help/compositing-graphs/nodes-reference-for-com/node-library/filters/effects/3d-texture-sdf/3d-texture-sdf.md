@@ -10,9 +10,9 @@ helpx_tags: ""
 title: SDF texture 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '139'
 ht-degree: 2%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dtexturesdf.png){width="200px"}
+![](3d-texture-sdf.resources/3dtexturesdf.png){width="200px"}
 
-**Ingresso:** *Filtro/Effetto*
-
-**Semplice**
+<b>Ingresso:</b> Filtro > Effetto
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -41,40 +39,35 @@ Il nodo **SDF** della texture 3D genera il *campo distanza con segno* di una for
 </tr>
 </table>
 
+<a name="inputs"></a>
+
+## Input
+
+|  |  |
+|:---|:---|
+| <b>Input maschera</b> <i>Scala di grigi</i> | La maschera <i>texture 3D</i> che rappresenta le sezioni del <i>volume</i> di una forma. |
+
+<a name="parameters"></a>
+
 ## Parametri
 
-### Input
+|  |  |
+|:---|:---|
+| <b>Soglia</b> <i>Mobile</i> | Quando il volume della forma è descritto da una <i>sfumatura di dissolvenza</i>, imposta il valore della sfumatura in base al quale la <i>superficie</i> della forma viene <i>rilevata</i>. |
+| <b>Output</b> <i>Numero intero</i> | Il tipo di campo distanza che deve essere generato:<br>- <i>Campo distanza</i>: genera un campo distanza che descrive le distanze <i>esterne</i> della forma.<br>- <i>Signed distance field</i>: genera un campo distanza che descrive le distanze <i>esterne</i> (positive) e <i>interne</i> (negative) della forma. |
 
-* **Input maschera** *Scala di grigi*\
-  La maschera *texture 3D* che rappresenta le sezioni del *volume* di una forma.
+## Esempi
 
-### Parametri
-
-* **Soglia** *Mobile*\
-  Quando il volume della forma è descritto da una *sfumatura di dissolvenza*, imposta il valore della sfumatura in base al quale la *superficie* della forma viene *rilevata*.
-* **Output** *Intero*\
-  Tipo di campo distanza che deve essere generato:
-  * *Campo distanza*: genera un campo distanza che descrive le distanze *esterne* della forma.
-  * *Signed distance field*: genera un campo distanza che descrive le distanze *esterne* (positive) e *interne* (negative) della forma.
-
-## Immagini di esempio
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturesdf-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturesdf-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturesdf-node.png){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-sdf.resources/3dtexturesdf-variant.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-sdf.resources/3dtexturesdf-variant2.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-sdf.resources/3dtexturesdf-node.png" />
+        </td>
+    </tr>
 </table>

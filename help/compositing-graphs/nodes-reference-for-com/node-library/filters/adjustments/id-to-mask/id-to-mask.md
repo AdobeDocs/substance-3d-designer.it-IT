@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Da ID a maschera in scala di grigio
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 1%
+source-wordcount: '240'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona ID per maschera in scala di grigio](../../../../../../assets/IDToMask.png "Icona ID per maschera in scala di grigio"){width="200px"}
+![Icona ID per maschera in scala di grigio](id-to-mask.resources/IDToMask.png "Icona ID per maschera in scala di grigio"){width="200px"}
 
 <b>Ingresso:</b> Filtri > Regolazioni
 
@@ -41,42 +41,28 @@ Una mappa ID è un’immagine in cui i pixel che fanno parte di un intero (ad es
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Connettori di uscita
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parametri
-
-</td>
-</tr>
-</table>
-
-## Connettori di ingresso
+## Input
 
 |  |  |
-| --- | --- |
-| <b>ID</b> *Scala di grigi* PRIMARIO | Mapping ID di input da cui estrarre una maschera. |
+|:---|:---|
+| <b>ID</b> <i>Scala di grigi</i> PRIMARIO | Mapping ID di input da cui estrarre una maschera. |
 
-## Connettori di uscita
+<a name="outputs"></a>
+
+## Output
 
 |  |  |
-| --- | --- |
-| <b>Output</b> *Scala di grigi* | Maschera binaria estratta dalla mappa ID di input. |
+|:---|:---|
+| <b>Output</b> <i>Scala di grigi</i> | Maschera binaria estratta dalla mappa ID di input. |
+
+<a name="parameters"></a>
 
 ## Parametri
 
 |  |  |
-| --- | --- |
+|:---|:---|
 | <b>Modalità di selezione</b> *Numero intero* | Metodo di selezione dei valori dei pixel nella mappa ID che devono essere bianchi nella maschera:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Solo:</b> selezionare un valore di pixel singolo</li> <li data-preserve-html="true"><b>Intervallo:</b> Selezionare un intervallo di valori di pixel</li> </ul> |
 | <b>ID intero</b> *Intero* *Disponibile quando &#39;Modalità selezione&#39; è impostato su &#39;Solo&#39;* | Il valore in pixel nella mappa ID che dovrebbe essere bianco nella maschera di output. |
 | <b>Intervallo ID</b> *Intero2* *Disponibile quando &#39;Modalità selezione&#39; è impostato su &#39;Intervallo&#39;* | Intervallo di valori dei pixel nella mappa ID, dall’inizio alla fine, che dovrebbe essere bianco nella maschera di output. |
@@ -86,11 +72,11 @@ Una mappa ID è un’immagine in cui i pixel che fanno parte di un intero (ad es
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/id_to_mask_grayscale_example_1_before.jpg" alt="id_to_mask_grayscale_example_1_before">
+      <img src="id-to-mask.resources/id_to_mask_grayscale_example_1_before.jpg" alt="id_to_mask_grayscale_example_1_before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../../../../../assets/id_to_mask_grayscale_example_1_after.jpg" alt="id_to_mask_grayscale_example_1_after">
+      <img src="id-to-mask.resources/id_to_mask_grayscale_example_1_after.jpg" alt="id_to_mask_grayscale_example_1_after">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -100,12 +86,12 @@ Una mappa ID è un’immagine in cui i pixel che fanno parte di un intero (ad es
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![ID da mascherare: Esempio 2](../../../../../../assets/id_to_mask_example_2.gif "ID da mascherare: Esempio 2"){zoomable="yes"}
+![ID da mascherare: Esempio 2](id-to-mask.resources/id_to_mask_example_2.gif "ID da mascherare: Esempio 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![ID da mascherare: Esempio 3](../../../../../../assets/id_to_mask_example_3.png "ID da mascherare: Esempio 3"){zoomable="yes"}
+![ID da mascherare: Esempio 3](id-to-mask.resources/id_to_mask_example_3.png "ID da mascherare: Esempio 3"){zoomable="yes"}
 
 </td>
 </tr>

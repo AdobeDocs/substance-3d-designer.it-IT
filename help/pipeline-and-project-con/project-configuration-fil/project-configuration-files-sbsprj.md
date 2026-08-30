@@ -10,9 +10,9 @@ helpx_tags: ""
 title: File di configurazione del progetto - SBSPRJ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1001'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Sono speciali in quanto consentono di utilizzare più file di configurazione del
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Icona file SBSPRJ](../../assets/sbsprj.png "Icona file SBSPRJ")
+![Icona file SBSPRJ](project-configuration-files-sbsprj.resources/sbsprj.png "Icona file SBSPRJ")
 
 </td>
 </tr>
@@ -55,7 +55,7 @@ Tuttavia, alcune impostazioni <b>espandono</b> in base alle impostazioni princip
 
 I file di progetto possono contenere le seguenti impostazioni:
 
-<b>Vista 3D: </b>Definizioni di shader predefinito, HDR e stato della scena.
+<b>vista 3D: </b>Definizioni di Shader predefinito, HDR e stato della scena.
 
 <b>Alias: </b>Alias parole chiave per percorsi relativi.
 
@@ -63,9 +63,7 @@ I file di progetto possono contenere le seguenti impostazioni:
 
 <b>Generali: </b>Modelli di grafico, plug-in per lo spazio tangente, impostazioni predefinite per formato immagine e normale.
 
-<b>Libreria: </b>Percorsi esaminati da visualizzare nella libreria, nonché [filtri e categorie per la visualizzazione Libreria](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html).
-
-<b>MDL: </b>percorsi controllati da MDL.
+<b>Libreria: </b>Percorsi controllati da visualizzare nella libreria.
 
 <b>Scripting: </b>Script e interpreti di richiamata.
 
@@ -79,7 +77,7 @@ Come tutti gli altri tipi, le configurazioni di progetto vengono salvate come fi
 
 Per ulteriori informazioni sulla gestione dei file di progetto e sulla modifica delle impostazioni del progetto, vedere la pagina [Impostazioni progetto](../../interface/preferences-window/project-settings/project-settings.md).
 
-I file di progetto includono anche <b>categorie</b> e <b>filtri</b> personalizzati per la [libreria](../../interface/the-library/the-library.md). Ulteriori informazioni sono disponibili nella pagina [Gestione di contenuti e filtri personalizzati](https://helpx.adobe.com/it/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html).
+I file di progetto includono anche <b>categorie</b> e <b>filtri</b> personalizzati per la [libreria](../../interface/the-library/the-library.md). Ulteriori informazioni sono disponibili nella pagina [Gestione di contenuti e filtri personalizzati](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md).
 
 ## Modifica XML esternamente
 
@@ -87,11 +85,11 @@ Per Windows, [Blocco note++](https://notepad-plus-plus.org) è una buona opzione
 
 Una volta aperto il file SBSPRJ in un editor, dovresti vedere un layout strutturato abbastanza semplice, con sezioni corrispondenti alle schede nell&#39;interfaccia utente. Non tutte le impostazioni saranno documentate qui, poiché è abbastanza autoesplicativo.
 
-![Modifica XML](../../assets/project-xml.png "Modifica XML")
+![Modifica XML](project-configuration-files-sbsprj.resources/project-xml.png "Modifica XML")
 
 ## Percorsi e alias relativi
 
-I percorsi relativi combinati con gli alias sono una delle parti più complicate, ma più importanti, di una configurazione di progetto. In questa sezione verranno illustrati i dettagli. L&#39;aggiunta di alias personalizzati per un file di progetto specifico viene eseguita nelle [Impostazioni progetto](../../interface/preferences-window/project-settings/project-settings.md).
+I percorsi relativi combinati con gli alias sono una delle parti più complicate, ma più importanti, di una configurazione di progetto. In questa sezione verranno illustrati i dettagli. L&#39;aggiunta di alias personalizzati per un file di progetto specifico viene eseguita nelle [Impostazioni progetto](../../interface/preferences-window/project-settings/project-settings.md).
 
 Uno dei principali problemi con i file che fanno riferimento ad altri file in un sistema su più PC dell&#39;utente, è che i percorsi di file assoluti non funzioneranno. Gli utenti possono definire i propri repository SVN in posizioni completamente diverse (ad es. C:/John/Gamedev/SubstanceLibrary o D:/Dev/SubstanceLibrary). Gli alias e i percorsi relativi funzionano insieme per risolvere il problema. In caso contrario, è possibile che si apra il file di un altro utente, che proverà a cercare il nodo personalizzato utilizzato nel percorso specifico in cui l&#39;utente lo aveva localmente, che probabilmente non sarà stato definito esattamente nello stesso modo.
 

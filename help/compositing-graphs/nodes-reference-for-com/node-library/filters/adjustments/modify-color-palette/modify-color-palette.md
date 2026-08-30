@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Modifica tavolozza colori
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '852'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona Quantizza colore](../../../../../../assets/ModifyColorPalette.png "Icona Quantizza colore"){width="200px"}
+![Icona Quantizza colore](modify-color-palette.resources/ModifyColorPalette.png "Icona Quantizza colore"){width="200px"}
 
 <b>Ingresso:</b> Filtri > Regolazioni
 
@@ -45,44 +45,30 @@ Questo nodo può essere utilizzato in combinazione con i seguenti nodi: [Quantiz
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Connettori di uscita
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parametri
-
-</td>
-</tr>
-</table>
-
-## Connettori di ingresso
+## Input
 
 |  |  |
-| --- | --- |
-| <b>ID</b> *Scala di grigi* PRIMARIO | La mappa dell’ID di input utilizzata per selezionare i colori, al fine di modificarli e distribuirli nell’output.   Una mappa ID è un’immagine in cui i pixel che fanno parte di un intero (ad esempio, una forma) mantengono tutti lo stesso valore di identificazione univoco. In questo caso, il valore è un numero intero.   È possibile produrre una mappa ID utilizzando un nodo [Quantizza colore](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md). |
-| <b>Tavolozza</b> *Colore* | Un elenco ordinato di colori RGB codificati come una riga di pixel. La tavolozza può contenere un massimo di 256 colori. Tavolozza modificata dal nodo.   Le tavolozze possono essere prodotte con i nodi [Quantizza colore](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md) o [Crea tavolozza colori](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md). |
+|:---|:---|
+| <b>ID</b> <i>Scala di grigi</i> PRIMARIO | La mappa dell’ID di input utilizzata per selezionare i colori, al fine di modificarli e distribuirli nell’output.   Una mappa ID è un’immagine in cui i pixel che fanno parte di un intero (ad esempio, una forma) mantengono tutti lo stesso valore di identificazione univoco. In questo caso, il valore è un numero intero.   È possibile produrre una mappa ID utilizzando un nodo [Quantizza colore](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md). |
+| <b>Tavolozza</b> <i>Colore</i> | Un elenco ordinato di colori RGB codificati come una riga di pixel. La tavolozza può contenere un massimo di 256 colori. Tavolozza modificata dal nodo.   Le tavolozze possono essere prodotte con i nodi [Quantizza colore](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md) o [Crea tavolozza colori](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md). |
 
-## Connettori di uscita
+<a name="outputs"></a>
+
+## Output
 
 |  |  |
-| --- | --- |
-| <b>Output</b> *Colore* | Risultato della mappatura dei colori nella tavolozza modificata agli indici della mappa ID. |
-| <b>Tavolozza</b> *Colore* | Tavolozza aggiornata a cui sono state applicate le modifiche di colore specificate.   È possibile applicare la tavolozza a un&#39;altra immagine con il nodo [Applica tavolozza colori](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md) o visualizzarla con il nodo [Visualizza tavolozza colori](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md). |
+|:---|:---|
+| <b>Output</b> <i>Colore</i> | Risultato della mappatura dei colori nella tavolozza modificata agli indici della mappa ID. |
+| <b>Tavolozza</b> <i>Colore</i> | Tavolozza aggiornata a cui sono state applicate le modifiche di colore specificate.   È possibile applicare la tavolozza a un&#39;altra immagine con il nodo [Applica tavolozza colori](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md) o visualizzarla con il nodo [Visualizza tavolozza colori](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md). |
+
+<a name="parameters"></a>
 
 ## Parametri
 
 |  |  |
-| --- | --- |
+|:---|:---|
 | <b>Modalità di selezione colore</b> *Numero intero* | Metodo di selezione del colore di destinazione nella tavolozza che deve essere modificato:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Indice colore:</b> Indice del colore di destinazione</li> <li data-preserve-html="true"><b>Spazio immagine:</b> la posizione nella mappa ID in cui deve essere campionato l&#39;indice. Quando questa modalità è selezionata, nella vista 2D è disponibile un gizmo di posizione che facilita la selezione</li> </ul> |
 | <b>Posizione colore</b> *Float2* *Disponibile quando &#39;Modalità selezione colore&#39; è impostato su &#39;Spazio immagine&#39;* | Posizione nella mappa ID in cui deve essere campionato l’indice.   Utilizzate il gizmo nella vista 2D per selezionare facilmente una posizione nell&#39;immagine.   Suggerimento: puoi visualizzare l&#39;immagine quantizzata da cui è stata estratta la mappa ID, quindi selezionare il nodo Modifica tavolozza colori per visualizzare il gizmo. In questo modo la selezione di un colore da modificare è più intuitiva. |
 | <b>Indice colore</b> *Numero intero* *Disponibile quando &#39;Modalità selezione colore&#39; è impostato su &#39;Indice colore&#39;* | Indice del colore di destinazione.   I colori della tavolozza vengono ordinati da sinistra a destra e l&#39;indice del primo colore è 0. |
@@ -96,18 +82,18 @@ Questo nodo può essere utilizzato in combinazione con i seguenti nodi: [Quantiz
 
 ## Esempi
 
-![Modificare la tavolozza dei colori: Esempio 1](../../../../../../assets/modify_color_palette_example_1.png "Modificare la tavolozza dei colori: Esempio 1"){zoomable="yes"}
+![Modificare la tavolozza dei colori: Esempio 1](modify-color-palette.resources/modify_color_palette_example_1.png "Modificare la tavolozza dei colori: Esempio 1"){zoomable="yes"}
 
-![Modificare la tavolozza dei colori: Esempio 2](../../../../../../assets/modify_color_palette_example_3.png "Modificare la tavolozza dei colori: Esempio 2"){zoomable="yes"}
+![Modificare la tavolozza dei colori: Esempio 2](modify-color-palette.resources/modify_color_palette_example_3.png "Modificare la tavolozza dei colori: Esempio 2"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/modify_color_example_2_before.jpg" alt="modify_color_example_2_before">
+      <img src="modify-color-palette.resources/modify_color_example_2_before.jpg" alt="modify_color_example_2_before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../../../../../assets/modify_color_example_2_after.jpg" alt="modify_color_example_2_after">
+      <img src="modify-color-palette.resources/modify_color_example_2_after.jpg" alt="modify_color_example_2_after">
       <br><i>Dopo</i>
     </td>
   </tr>

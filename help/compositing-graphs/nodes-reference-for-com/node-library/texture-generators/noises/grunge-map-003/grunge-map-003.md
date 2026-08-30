@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Mappa grungi 003
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 1%
+source-wordcount: '124'
+ht-degree: 7%
 
 ---
 
@@ -22,40 +22,41 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungemap-003.png){width="128px"}
+![](grunge-map-003.resources/grungemap-003.png){width="128px"}
 
-## Mappa grungi 003
-
-**Ingresso:** *Generatori Di Texture**/Rumori*
-
-**Semplice**
+<b>Ingresso:</b> Generatori di texture > Rumori
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
 Questo genera una complessa mappa del disturbo combinata. Può essere molto utile come una procedura dettagliata, ma tenete a mente che questi sono molto ad alta intensità di prestazioni e quindi più lenti da generare.
 
-## Parametri
-
-* **Saldo**: *0,0 - 1,0*\
-  Sposta il bilanciamento del risultato tra il bianco o il nero, ad esempio regolando la luminosità.
-* **Contrasto**: *0.0 - 1.0*\
-  Regola il contrasto del risultato.
-* **Inverti**: *Falso/Vero*\
-  Inverte il risultato.
-* **Motivo Pennello**: *0.0 - 1.0*\
-  Aggiunge una maschera intorno ai bordi, per quando viene utilizzato come pennello alfa.
-* **Non square expansion**: *Falso/Vero*\
-  Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati.
-
-## Immagini di esempio
-
-![](../../../../../../assets/grungemap-003-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Saldo</b> <i>0.0 - 1.0</i> | Sposta il bilanciamento del risultato tra il bianco o il nero, ad esempio regolando la luminosità. |
+| <b>Contrasto</b> <i>0.0 - 1.0</i> | Regola il contrasto del risultato. |
+| <b>Inverti</b> <i>Falso/Vero</i> | Inverte il risultato. |
+| <b>Motivo pennello</b> <i>0.0 - 1.0</i> | Aggiunge una maschera intorno ai bordi, per quando viene utilizzato come pennello alfa. |
+| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati. |
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grunge-map-003.resources/grungemap-003-ex.gif" />
+        </td>
+    </tr>
 </table>

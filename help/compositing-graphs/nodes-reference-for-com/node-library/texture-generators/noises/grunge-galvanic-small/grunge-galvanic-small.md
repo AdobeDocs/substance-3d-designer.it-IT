@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Grunge Galvanica Piccola
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '123'
 ht-degree: 2%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungegalvanicsmall.jpg){width="200px"}
+![](grunge-galvanic-small.resources/grungegalvanicsmall.jpg){width="200px"}
 
-**Ingresso:** *Generatori Di Texture**/Rumori*
-
-**Semplice**
+<b>Ingresso:</b> Generatori di texture > Rumori
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -41,30 +39,30 @@ Il nodo **Grunge Galvanica Piccola** genera una mappa di grunge simile al modell
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parametri
 
-* **Bilanciamento** *Fluttuazione* Regola il bilanciamento tra valori scuri e chiari.
-* **Contrasto** *Mobile* Regola il contrasto dell&#39;immagine.
-* **Inverti** *Booleano* Inverte l&#39;output dell&#39;immagine, utilizzando un&#39;operazione `1-x`.
-* **Non square expansion** *Booleano* Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati.
-* Avanzate
-  * **Croccantezza** *Muovi* Regola la nitidezza e la nitidezza delle forme galvanizzate.
-  * **Dirt** *Mobile* Regola l&#39;opacità della sovrapposizione del dirt.
-  * **Micro Distorsione** *Mobile* Regola l&#39;intensità dell&#39;effetto di alterazione ad alta frequenza.
+|  |  |
+|:---|:---|
+| <b>Saldo</b> <i>Mobile</i> | Regola il bilanciamento tra i valori di luminosità e oscurità. |
+| <b>Contrasto</b> <i>Mobile</i> | Regola il contrasto dell’immagine. |
+| <b>Inverti</b> <i>Booleano</i> | Inverte l&#39;output dell&#39;immagine utilizzando un&#39;operazione `1-x`. |
+| <b>Non square expansion</b> <i>Booleano</i> | Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati. |
+| <b>Avanzate</b> |  |
+| <b>Nitidezza</b> <i>Mobile</i> | Regola la nitidezza e la nitidezza delle forme galvanizzate. |
+| <b>Dirt</b> <i>Mobile</i> | Regola l’opacità della sovrapposizione del dirt. |
+| <b>Micro Distorsione</b> <i>Mobile</i> | Regola l’intensità dell’effetto di alterazione ad alta frequenza. |
 
-## Immagini di esempio
+## Esempi
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungegalvanicsmall-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungegalvanicsmall-variant.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grunge-galvanic-small.resources/grungegalvanicsmall-variant2.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="grunge-galvanic-small.resources/grungegalvanicsmall-variant.jpg" />
+        </td>
+    </tr>
 </table>

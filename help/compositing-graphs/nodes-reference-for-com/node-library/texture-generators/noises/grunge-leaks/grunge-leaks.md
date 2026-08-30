@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Perdite di grunge
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '131'
 ht-degree: 2%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungeleaks.jpg){width="200px"}
+![](grunge-leaks.resources/grungeleaks.jpg){width="200px"}
 
-**Ingresso:** *Generatori Di Texture* */Rumori*
-
-**Semplice**
+<b>Ingresso:</b> Generatori di texture > Rumori
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -41,31 +39,31 @@ Il nodo **perdite di Grungi** genera una mappa delle grungi simile a quella che 
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parametri
 
-* **Bilanciamento** *Fluttuazione* Regola il bilanciamento tra valori scuri e chiari.
-* **Contrasto** *Mobile* Regola il contrasto dell&#39;immagine.
-* **Inverti** *Booleano* Inverte l&#39;output dell&#39;immagine, utilizzando un&#39;operazione `1-x`.
-* **Non square expansion** *Booleano* Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati.
-* Avanzate
-  * **Lunghezza goccia** *Fluttuazione* Regola la lunghezza delle striature di goccia.
-  * **Contrasto forma** *Mobile* Si sposta tra forme chiare e scure, creando contrasto tra le gocce.
-  * **Croccantezza goccia** *Fluttuazione* Regola la nitidezza e l&#39;alterazione delle gocce.
-  * **Intensità nitidezza** *Mobile* Regola la granulosità complessiva dell&#39;immagine.
+|  |  |
+|:---|:---|
+| <b>Saldo</b> <i>Mobile</i> | Regola il bilanciamento tra i valori di luminosità e oscurità. |
+| <b>Contrasto</b> <i>Mobile</i> | Regola il contrasto dell’immagine. |
+| <b>Inverti</b> <i>Booleano</i> | Inverte l&#39;output dell&#39;immagine utilizzando un&#39;operazione `1-x`. |
+| <b>Non square expansion</b> <i>Booleano</i> | Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati. |
+| <b>Avanzate</b> |  |
+| <b>Lunghezza sgocciolamento</b> <i>Mobile</i> | Regola la lunghezza delle striature di goccia. |
+| <b>Contrasto forma</b> <i>Mobile</i> | Si sposta tra forme chiare e scure, creando contrasto tra le gocce. |
+| <b>Croccantezza goccia</b> <i>Mobile</i> | Regola la nitidezza e la debolezza delle gocce. |
+| <b>Intensità nitidezza</b> <i>Mobile</i> | Regolate la granulosità complessiva dell&#39;immagine. |
 
-## Immagini di esempio
+## Esempi
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungeleaks-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungeleaks-variant.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grunge-leaks.resources/grungeleaks-variant2.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="grunge-leaks.resources/grungeleaks-variant.jpg" />
+        </td>
+    </tr>
 </table>

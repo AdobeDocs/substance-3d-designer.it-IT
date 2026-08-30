@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Fusione materiale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 0%
+source-wordcount: '458'
+ht-degree: 6%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/material-blend.png){width="128px"}
+![](material-blend.resources/material-blend.png){width="128px"}
 
-## Fusione materiale
-
-**Ingresso:** *Filtri materiale/Fusione*
-
-**Complesso**
+<b>In:</b> Filtri materiali > Fusione
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -41,77 +37,62 @@ Material Blend è l&#39;equivalente materiale completo multicanale di [atomic Bl
 
 Questo nodo è utile se desideri unire due materiali e avere una mappa in scala di grigio ma senza una selezione completa di ID colore. Se disponi di un forno Color ID e desideri fondere più di due materiali, ti consigliamo di utilizzare [Fusione multismateriale](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/multi-material-blend/multi-material-blend.md).
 
-## Parametri
-
-### Input
-
-* **ColorID**: *Input colore*\
-  Mappa ID colore al forno opzionale.
-* **Maschera scala di grigi**: *Input scala di grigi*\
-  Slot maschera utilizzato per mascherare gli effetti del nodo.
-
-### Parametri
-
-* **Canali**
-  * Attivate e disattivate i canali di materiale in questo gruppo quando utilizzate mappe Specular/lucidità invece di Metallico/Rugosità.
-* **Diffusione**
-  * **Opacità**: *0,0 - 1,0*\
-    Fusione dell’opacità tra primo piano e sfondo
-  * **Metodo Di Fusione**: *Normale, Aggiungi, Sottrai, Moltiplica, Aggiungi/Sotto, Max, Min, Scambia*
-* **Colore di base**
-  * **Opacità**: *0,0 - 1,0*\
-    Fusione dell’opacità tra primo piano e sfondo
-  * **Metodo Di Fusione**: *Normale, Aggiungi, Sottrai, Moltiplica, Aggiungi/Sotto, Max, Min, Scambia*
-* **Normale**
-  * **Opacità**: *0,0 - 1,0*\
-    Fusione dell’opacità tra primo piano e sfondo
-* **Specular**
-  * **Opacità**: *0,0 - 1,0*\
-    Fusione dell’opacità tra primo piano e sfondo
-  * **Metodo Di Fusione**: *Normale, Aggiungi, Sottrai, Moltiplica, Aggiungi/Sotto, Max, Min, Scambia*
-* **Emissivo**
-  * **Opacità**: *0,0 - 1,0*\
-    Fusione dell’opacità tra primo piano e sfondo
-  * **Metodo Di Fusione**: *Normale, Aggiungi, Sottrai, Moltiplica, Aggiungi/Sotto, Max, Min, Scambia*
-* **Lucentezza**
-  * **Opacità**: *0,0 - 1,0*\
-    Fusione dell’opacità tra primo piano e sfondo
-  * **Metodo Di Fusione**: *Normale, Aggiungi, Sottrai, Moltiplica, Aggiungi/Sotto, Max, Min, Scambia*
-* **Rugosità**
-  * **Opacità**: *0,0 - 1,0*\
-    Fusione dell’opacità tra primo piano e sfondo
-  * **Metodo Di Fusione**: *Normale, Aggiungi, Sottrai, Moltiplica, Aggiungi/Sotto, Max, Min, Scambia*
-* **Metallico**
-  * **Opacità**: *0,0 - 1,0*\
-    Fusione dell’opacità tra primo piano e sfondo
-  * **Metodo Di Fusione**: *Normale, Aggiungi, Sottrai, Moltiplica, Aggiungi/Sotto, Max, Min, Scambia*
-* **Specular level**
-  * **Opacità**: *0,0 - 1,0*\
-    Fusione dell’opacità tra primo piano e sfondo
-  * **Metodo Di Fusione**: *Normale, Aggiungi, Sottrai, Moltiplica, Aggiungi/Sotto, Max, Min, Scambia*
-* **Occlusione ambiente**
-  * **Opacità**: *0,0 - 1,0*\
-    Fusione dell’opacità tra primo piano e sfondo
-  * **Metodo Di Fusione**: *Normale, Aggiungi, Sottrai, Moltiplica, Aggiungi/Sotto, Max, Min, Scambia*
-* **Height**
-  * **Opacità**: *0,0 - 1,0*\
-    Fusione dell’opacità tra primo piano e sfondo
-  * **Metodo Di Fusione**: *Normale, Aggiungi, Sottrai, Moltiplica, Aggiungi/Sotto, Max, Min, Scambia*
-* **Opacità**
-  * **Opacità**: *0,0 - 1,0*\
-    Fusione dell’opacità tra primo piano e sfondo
-  * **Metodo Di Fusione**: *Normale, Aggiungi, Sottrai, Moltiplica, Aggiungi/Sotto, Max, Min, Scambia*
-* **Maschera ID colore**: *Falso/Vero* Usa Maschera ID colore invece di maschera in scala di grigio. Tieni presente che questo è solo per un colore!
-* **Colore**: *(valore colore)*Quale colore scegliere e convertire in bianco.
-* **Sfocatura**: *0.01 - 1.0* La misura in cui il colore scelto si fonde con le aree adiacenti.
-* **Spaziatura interna**: *0.0 - 1.0* Contrasto di transizione del colore selezionato.
-
-## Immagini di esempio
-
-|  |
-| --- |
-| Nessuna immagine allegata alla pagina. |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Input
+
+|  |  |
+|:---|:---|
+| <b>ID colore</b> <i>Input colore</i> | Mappa ID colore al forno opzionale. |
+| <b>Maschera scala di grigi</b> <i>Input scala di grigi</i> | Slot maschera utilizzato per mascherare gli effetti del nodo. |
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Canali</b> | Attivate e disattivate i canali di materiale in questo gruppo quando utilizzate mappe Specular/lucidità invece di Metallico/Rugosità. |
+| <b>Diffusione</b> |  |
+| <b>Opacità</b> <i>0.0 - 1.0</i> | Fusione dell’opacità tra primo piano e sfondo |
+| <b>Metodo fusione</b> <i>Normale, Aggiungi, Sottrai, Moltiplica, Aggiungi/Sotto, Max, Min, Switch</i> |  |
+| <b>Colore di base</b> |  |
+| <b>Opacità</b> <i>0.0 - 1.0</i> | Fusione dell’opacità tra primo piano e sfondo |
+| <b>Metodo fusione</b> <i>Normale, Aggiungi, Sottrai, Moltiplica, Aggiungi/Sotto, Max, Min, Switch</i> |  |
+| <b>Normale</b> |  |
+| <b>Opacità</b> <i>0.0 - 1.0</i> | Fusione dell’opacità tra primo piano e sfondo |
+| <b>Specular</b> |  |
+| <b>Opacità</b> <i>0.0 - 1.0</i> | Fusione dell’opacità tra primo piano e sfondo |
+| <b>Metodo fusione</b> <i>Normale, Aggiungi, Sottrai, Moltiplica, Aggiungi/Sotto, Max, Min, Switch</i> |  |
+| <b>Emissivo</b> |  |
+| <b>Opacità</b> <i>0.0 - 1.0</i> | Fusione dell’opacità tra primo piano e sfondo |
+| <b>Metodo fusione</b> <i>Normale, Aggiungi, Sottrai, Moltiplica, Aggiungi/Sotto, Max, Min, Switch</i> |  |
+| <b>Lucentezza</b> |  |
+| <b>Opacità</b> <i>0.0 - 1.0</i> | Fusione dell’opacità tra primo piano e sfondo |
+| <b>Metodo fusione</b> <i>Normale, Aggiungi, Sottrai, Moltiplica, Aggiungi/Sotto, Max, Min, Switch</i> |  |
+| <b>Rugosità</b> |  |
+| <b>Opacità</b> <i>0.0 - 1.0</i> | Fusione dell’opacità tra primo piano e sfondo |
+| <b>Metodo fusione</b> <i>Normale, Aggiungi, Sottrai, Moltiplica, Aggiungi/Sotto, Max, Min, Switch</i> |  |
+| <b>Metallico</b> |  |
+| <b>Opacità</b> <i>0.0 - 1.0</i> | Fusione dell’opacità tra primo piano e sfondo |
+| <b>Metodo fusione</b> <i>Normale, Aggiungi, Sottrai, Moltiplica, Aggiungi/Sotto, Max, Min, Switch</i> |  |
+| <b>Specular level</b> |  |
+| <b>Opacità</b> <i>0.0 - 1.0</i> | Fusione dell’opacità tra primo piano e sfondo |
+| <b>Metodo fusione</b> <i>Normale, Aggiungi, Sottrai, Moltiplica, Aggiungi/Sotto, Max, Min, Switch</i> |  |
+| <b>Occlusione ambiente</b> |  |
+| <b>Opacità</b> <i>0.0 - 1.0</i> | Fusione dell’opacità tra primo piano e sfondo |
+| <b>Metodo fusione</b> <i>Normale, Aggiungi, Sottrai, Moltiplica, Aggiungi/Sotto, Max, Min, Switch</i> |  |
+| <b>Height</b> |  |
+| <b>Opacità</b> <i>0.0 - 1.0</i> | Fusione dell’opacità tra primo piano e sfondo |
+| <b>Metodo fusione</b> <i>Normale, Aggiungi, Sottrai, Moltiplica, Aggiungi/Sotto, Max, Min, Switch</i> |  |
+| <b>Opacità</b> |  |
+| <b>Opacità</b> <i>0.0 - 1.0</i> | Fusione dell’opacità tra primo piano e sfondo |
+| <b>Metodo fusione</b> <i>Normale, Aggiungi, Sottrai, Moltiplica, Aggiungi/Sotto, Max, Min, Switch</i> |  |
+| <b>Maschera ID colore</b> <i>Falso/Vero</i> | Usate la maschera Maschera ID colore invece di quella in scala di grigio. Tieni presente che questo è solo per un colore! |
+| <b>Colore</b> <i>(valore colore)</i> | Colore da selezionare e convertire in bianco. |
+| <b>Fuzziness</b> <i>0.01 - 1.0</i> | Misura in cui il colore scelto si fonde con i colori adiacenti. |
+| <b>Spaziatura interna</b> <i>0.0 - 1.0</i> | Contrasto di transizione del colore selezionato. |

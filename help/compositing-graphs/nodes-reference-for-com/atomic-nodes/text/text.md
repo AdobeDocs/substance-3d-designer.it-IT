@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Testo
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atomico: Testo](../../../../assets/comp_text_1.png "Nodo atomico: Testo"){width="200px"}
+![Nodo atomico: Testo](text.resources/comp_text_1.png "Nodo atomico: Testo"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

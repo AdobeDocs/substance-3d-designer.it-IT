@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Crea foto in piastrelle
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 1%
+source-wordcount: '157'
+ht-degree: 9%
 
 ---
 
@@ -22,40 +22,44 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/make-it-tile-photo.png)
+![](make-it-tile-photo.resources/make-it-tile-photo.png)
 
-![](../../../../../../assets/make-it-tile-photo-grayscale.png)
+![](make-it-tile-photo.resources/make-it-tile-photo-grayscale.png)
 
-## Crea foto in porzioni (scala di grigi)
-
-**Entrata:** *Filtri/Divisione in porzioni*
-
-**Intermedio**
+<b>In:</b> Filtri > Affiancamento
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
 Questo nodo fornisce la funzionalità di correzione dei bordi per qualsiasi immagine che potrebbe non essere affiancata a causa di bordi non continui. ma solo sui bordi dell&#39;immagine di input. Se desiderate regolare la scala o il riquadro in diversi modi, osservate [Crea un riquadro](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/tiling/make-it-tile-patch/make-it-tile-patch.md).
 
-## Parametri
-
-* **Alterazione maschera H**: *-100.0 - 100.0* Introduce alterazioni sull&#39;asse orizzontale per evitare transizioni indefinite.
-* **Alterazione maschera V**: *-100.0 - 100.0* Introduce alterazioni sull&#39;asse verticale per evitare transizioni indefinite.
-* **Dimensione maschera H**: *0,0 - 1,0* Imposta la distanza orizzontale del bordo di transizione.
-* **Dimensione maschera V**: *0,0 - 1,0* Imposta la distanza verticale del bordo di transizione.
-* **Precisione maschera H**: *0.0 - 1.0* Imposta la transizione in senso orizzontale.
-* **Precisione maschera V**: *0.0 - 1.0* Imposta la transizione in senso verticale.
-
-## Immagini di esempio
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/mit-photo-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Alterazione maschera H</b> <i>-100.0 - 100.0</i> | Introduce alterazioni sull’asse orizzontale per evitare transizioni indefinite. |
+| <b>Alterazione maschera V</b> <i>-100.0 - 100.0</i> | Introduce alterazioni sull’asse verticale per evitare transizioni indefinite. |
+| <b>Dimensione maschera H</b> <i>0.0 - 1.0</i> | Consente di impostare il valore di distanza orizzontale raggiunto dal bordo della transizione. |
+| <b>Dimensione maschera V</b> <i>0.0 - 1.0</i> | Consente di impostare la distanza verticale del bordo di transizione. |
+| <b>Precisione maschera H</b> <i>0.0 - 1.0</i> | Consente di impostare il grado di transizione orizzontale. |
+| <b>Precisione maschera V</b> <i>0.0 - 1.0</i> | Consente di impostare l’attenuazione verticale della transizione. |
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="make-it-tile-photo.resources/mit-photo-ex.png" />
+        </td>
+    </tr>
 </table>

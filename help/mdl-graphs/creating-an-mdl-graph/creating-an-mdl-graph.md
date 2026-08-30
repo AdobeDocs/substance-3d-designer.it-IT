@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Creazione di un grafico MDL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Questa pagina descrive il processo di creazione di un grafico MDL per creare materiali MDL in Substance 3D Designer.
 
-![Percorsi per la creazione di grafici MDL](../../assets/mdl-new-graph-hl.png "Percorsi per la creazione di grafici MDL")
+![Percorsi per la creazione di grafici MDL](creating-an-mdl-graph.resources/mdl-new-graph-hl.png "Percorsi per la creazione di grafici MDL")
 
 *Percorsi per la creazione di un nuovo grafico MDL nell&#39;interfaccia di Designer*
 
@@ -31,12 +31,12 @@ Questa pagina descrive il processo di creazione di un grafico MDL per creare mat
 Potete creare un grafico MDL utilizzando uno dei seguenti metodi:
 
 * Seleziona l&#39;opzione **File > Nuovo > Grafico MDL** nella *barra dei menu principale*
-* Fai clic sul pulsante ![](../../assets/mdl-new-graph-icon.png) **Aggiungi grafico MDL** nella *barra degli strumenti principale*
+* Fai clic sul pulsante ![](creating-an-mdl-graph.resources/mdl-new-graph-icon.png) **Aggiungi grafico MDL** nella *barra degli strumenti principale*
 * Fate clic con il pulsante destro del mouse su un *pacchetto esistente* nel pannello **Esplora risorse** e selezionate l&#39;opzione **Nuovo > Grafico MDL**
 
 Verrà visualizzata la finestra di dialogo **Nuovo grafico MDL**, vedere di seguito.
 
-![Finestra di dialogo Nuovo grafico MDL](../../assets/mdl-templates.png "Finestra di dialogo Nuovo grafico MDL")
+![Finestra di dialogo Nuovo grafico MDL](creating-an-mdl-graph.resources/mdl-templates.png "Finestra di dialogo Nuovo grafico MDL")
 
 *Finestra di dialogo Nuovo grafico MDL*
 
@@ -46,7 +46,7 @@ Indipendentemente dal metodo utilizzato per creare un nuovo grafico MDL, verrà 
 
 ### Modelli
 
-La sezione <b> modelli</b> consente di selezionare un modello di grafico, che include nodi preconfigurati per iniziare a utilizzare il grafico più rapidamente. I nodi preconfigurati includono nodi di output, nodi semplici per passare i valori a questi output, ad esempio Colore uniforme e nodi di input a seconda del modello.
+La sezione <b> modelli</b> consente di selezionare un modello di grafico, che include nodi preconfigurati per iniziare a utilizzare il grafico più rapidamente. I nodi preconfigurati includono nodi di output, nodi semplici per passare valori a questi output, ad esempio nodi di Colore uniforme e di input a seconda del modello.
 
 Per iniziare da un grafico *vuoto*, selezionate il modello <b>Vuoto</b>.
 
@@ -59,10 +59,10 @@ L&#39;opzione <b>Progetto</b> consente di filtrare l&#39;elenco dei modelli in b
 
 L&#39;elenco dei modelli può essere visualizzato in modalità diverse utilizzando i *pulsanti* accanto alla casella combinata **Progetto**:
 
-* **![](../../assets/mdl-template-recent-icon.png)Visualizzazione utilizzata di recente**: consente di filtrare l&#39;elenco per visualizzare gli ultimi modelli utilizzati nell&#39;ordine *dal più recente al meno recente*. L&#39;elemento principale è il più recente.
-* **![](../../assets/mdl-template-graphs-icon.png)grafici di visualizzazione**: i modelli vengono visualizzati solo dalla relativa *etichetta*, nell&#39;ordine dei [file Substance 3D](https://www.adobe.com/it/products/substance3d/3d-augmented-reality.html) nella directory dei modelli
-* **![](../../assets/mdl-template-packages-icon.png)Visualizza file Substance 3D**: i modelli vengono visualizzati dalla relativa etichetta come *elementi secondari del file Substance 3D a cui appartengono*, nell&#39;ordine dei file nella directory dei modelli
-* **![](../../assets/mdl-template-directory-icon.png)directory di visualizzazione**: i modelli vengono visualizzati dalla relativa etichetta come *figli della directory a cui appartengono*, nell&#39;ordine dei file nella directory dei modelli
+* **![](creating-an-mdl-graph.resources/mdl-template-recent-icon.png)Visualizzazione utilizzata di recente**: consente di filtrare l&#39;elenco per visualizzare gli ultimi modelli utilizzati nell&#39;ordine *dal più recente al meno recente*. L&#39;elemento principale è il più recente.
+* **![](creating-an-mdl-graph.resources/mdl-template-graphs-icon.png)grafici di visualizzazione**: i modelli vengono visualizzati solo dalla relativa *etichetta*, nell&#39;ordine dei [file Substance 3D](https://www.adobe.com/it/products/substance3d/3d-augmented-reality.html) nella directory dei modelli
+* **![](creating-an-mdl-graph.resources/mdl-template-packages-icon.png)Visualizza file Substance 3D**: i modelli vengono visualizzati dalla relativa etichetta come *elementi secondari del file Substance 3D a cui appartengono*, nell&#39;ordine dei file nella directory dei modelli
+* **![](creating-an-mdl-graph.resources/mdl-template-directory-icon.png)directory di visualizzazione**: i modelli vengono visualizzati dalla relativa etichetta come *figli della directory a cui appartengono*, nell&#39;ordine dei file nella directory dei modelli
 
 ### Proprietà
 
