@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/emboss-with-gloss.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/emboss-with-gloss.html"
 breadcrumb-title: ''
-description: Usate il nodo Rilievo con lucentezza per creare effetti in rilievo con mappe di lucentezza per aggiungere profondità e lucentezza alle texture.
+description: Usa il nodo Effetto rilievo con lucentezza per creare effetti in rilievo con mappe di lucentezza per aggiungere profondità e lucentezza alle texture.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Emboss With Gloss
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Effetto rilievo con lucentezza
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 2%
+source-wordcount: '136'
+ht-degree: 6%
 
 ---
 
@@ -22,47 +22,42 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/emboss-with-gloss.png){width="128px"}
+![](emboss-with-gloss.resources/emboss-with-gloss.png){width="128px"}
 
-## Effetto rilievo con lucentezza
-
-**Ingresso:** *Filtri/Effetti*
-
-**Intermedio**
+<b>Ingresso:</b> Filtri > Effetti
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
-Esegue un effetto rilievo con una maggiore lucentezza (riflesso specular) su un colore e un input height. In sostanza aggiunge un&#39;illuminazione falsa e cotta a un&#39;immagine in base alle informazioni del height. Utile per alcuni stili di texture che richiedono un’illuminazione incorporata nelle texture.
+Esegue un effetto rilievo con una maggiore lucentezza (riflesso specular) su un colore e un input height. In sostanza, aggiunge un’illuminazione falsa e eseguita i baking a un’immagine in base alle informazioni del height. Utile per alcuni stili di creazione di texture che richiedono illuminazione eseguita i baking nelle texture.
 
-Per una versione con altre opzioni, consulta [Uber Emboss](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/uber-emboss/uber-emboss.md). Esiste anche la versione atomica più semplice di [Rilievo](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/emboss/emboss.md).
-
-## Parametri
-
-### Input
-
-* **Colore**: *Input colore*
-* **Height**: *Input scala di grigi*
-
-### Parametri
-
-* **Colore evidenziazione**: *(Valore colore)*Colore dell&#39;evidenziazione dello specular.
-* **Colore ombra**: *(Valore colore)*Colore utilizzato nelle aree in ombra/non illuminate.
-* **Lucentezza**: *0.0 - 0.5* Dimensioni luci lucide.
-* **Intensità**: *0,0 - 10,0* Intensità dell&#39;evidenziazione.
-* **Angolo luce**: *0,0 - 1,0*\
-  Angolo di incidenza della luce (simulata).
-
-## Immagini di esempio
-
-|  |
-| --- |
-| Nessuna immagine allegata alla pagina. |
+Per una versione con altre opzioni, consulta [Uber Effetti rilievi](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/uber-emboss/uber-emboss.md). Esiste anche la versione atomica più semplice di [Effetto rilievo](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/emboss/emboss.md).
 
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Input
+
+|  |  |
+|:---|:---|
+| <b>Colore</b> <i>Input colore</i> |  |
+| <b>Height</b> <i>Input scala di grigi</i> |  |
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Colore evidenziazione</b> <i>(valore colore)</i> | Colore della luce dello specular. |
+| <b>Colore ombra</b> <i>(valore colore)</i> | Colore usato nelle aree in ombra o non illuminate. |
+| <b>Lucentezza</b> <i>0.0 - 0.5</i> | Lucentezza dimensioni evidenziazione. |
+| <b>Intensità</b> <i>0.0 - 10.0</i> | Intensità della luce. |
+| <b>Angolo luce</b> <i>0.0 - 1.0</i> | Angolo di incidenza della luce (simulata). |

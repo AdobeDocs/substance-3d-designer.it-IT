@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Risorse di apprendimento MDL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%
@@ -44,9 +44,9 @@ Il nostro sito Web [Substance 3D Tutorials](https://www.adobe.com/learn/substanc
 
 [Questa serie](https://www.adobe.com/learn/substance-3d-designer/web/creating-an-mdl-in-substance-3d-designer) è un *ottimo punto di partenza* per scoprire grafici MDL e lavorare con i materiali MDL in Designer.
 
-È impossibile definire il materiale del rivestimento trasparente metallico in questa esercitazione solo attraverso le texture: presenta *due aree di luce separate* che si comportano in modo diverso: un rivestimento metallico più ruvido con chiazze e un rivestimento in specular trasparente molto liscio.
+È impossibile definire il materiale del rivestimento trasparente metallico in questa esercitazione solo attraverso le texture: presenta *due luci di specular separate* che si comportano in modo diverso: un rivestimento metallico più ruvido con chiazze e un rivestimento superiore trasparente molto liscio.
 
-&quot;In questo corso affronteremo le nozioni di base per la creazione di un file MDL in Substance 3D Designer. Ricreeremo uno shader metallizzato/di rugosità basato fisicamente come MDL per illustrare i concetti fondamentali dei nodi e del grafico MDL. Nel secondo video vedremo come creare un MDL per la pittura di automobili.&quot;
+&quot;In questo corso affronteremo le nozioni di base per la creazione di un file MDL in Substance 3D Designer. Ricreeremo uno shader metallizzato/rugosità basato fisicamente come MDL per illustrare i concetti fondamentali dei nodi e del grafico MDL. Nel secondo video vedremo come realizzare una pittura per auto MDL.&quot;
 
 </td>
 <td style="border: 0;" valign="top">
@@ -63,14 +63,14 @@ Il nostro sito Web [Substance 3D Tutorials](https://www.adobe.com/learn/substanc
 
 ### Degradazione del materiale della malachite MDL
 
-[Questo articolo](https://www.adobe.com/learn/substance-3d-designer/web/mdl-malachite-material-breakdown) ti guida attraverso la produzione di materiale *più elaborato* che non può essere ottenuto solo tramite le texture. In questo caso, la sinergia tra i grafici MDL e i [grafici Substance](../../compositing-graphs/substance-compositing-graphs.md) viene sfruttata per ottenere risultati eccellenti in modo molto efficiente.
+[Questo articolo](https://www.adobe.com/learn/substance-3d-designer/web/mdl-malachite-material-breakdown) ti guida attraverso la produzione di *materiale più elaborato* che non può essere ottenuto solo attraverso la texture. In questo caso, la sinergia tra i grafici MDL e i [grafici Substance](../../compositing-graphs/substance-compositing-graphs.md) viene sfruttata per ottenere risultati eccellenti in modo molto efficiente.
 
 &quot;In questo tutorial epico, [Mark Foreman](https://www.artstation.com/oggyart), Senior Environment Artist di CD PROJEKT RED, scompone il materiale MDL vincente per il Concorso Materializza! Puoi scaricare il materiale di Mark in [Substance share](https://share-legacy.substance3d.com/libraries/4043).&quot;
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Materiale malachite MDL](../../assets/mdl-malachite-example.jpg)](https://substance3d.adobe.com/tutorials/courses/mdl-malachite-material-breakdown)
+[![Materiale malachite MDL](mdl-learning-resources.resources/mdl-malachite-example.jpg)](https://substance3d.adobe.com/tutorials/courses/mdl-malachite-material-breakdown)
 
 *Fare clic sull&#39;immagine per accedere all&#39;esercitazione*
 

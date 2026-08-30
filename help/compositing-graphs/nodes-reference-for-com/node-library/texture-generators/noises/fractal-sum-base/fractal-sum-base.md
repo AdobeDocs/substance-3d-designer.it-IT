@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-base.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-base.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Somma frattale base per generare pattern di disturbo frattale di base per la creazione di texture organiche complesse.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Somma frattale base
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 1%
@@ -22,13 +22,9 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-<table>
-<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Base Somma frattale - Icona](../../../../../../assets/fractal_sum_base.png "Base Somma frattale - Icona"){width="200px"}
+![Base Somma frattale - Icona](fractal-sum-base.resources/fractal_sum_base.png "Base Somma frattale - Icona"){width="200px"}
 
 <b>Ingresso:</b> Generatori di texture > Rumori
 
@@ -47,24 +43,28 @@ Vedere anche: [Somma frattale 1](../../../../../../compositing-graphs/nodes-refe
 </tr>
 </table>
 
+<a name="outputs"></a>
+
 ## Output
 
 |  |  |
-| --- | --- |
-| <b>Output</b> *Scala di grigi* | Il disturbo generato come bitmap in scala di grigio. |
+|:---|:---|
+| <b>Output</b> <i>Scala di grigi</i> | Il disturbo generato come bitmap in scala di grigio. |
+
+<a name="parameters"></a>
 
 ## Parametri
 
 |  |  |
-| --- | --- |
-| <b>Rugosità</b> Mobile | Bilanciamento delle ottave di disturbo.    Un valore più elevato renderà più visibili le ottave con frequenza più elevata. |
-| <b>Min. level</b> Integer | L&#39;ottava minima utilizzata nel rumore.    Un valore più elevato determina una frequenza di disturbo più elevata. |
-| <b>Max. level</b> Integer | Ottava massima utilizzata nel rumore.    Un valore più elevato determina una frequenza di disturbo più elevata. |
-| <b>Disturbo</b> Mobile | Sposta gli ingredienti del disturbo.    Può essere utilizzato per animare il disturbo. |
-| <b>Velocità del disturbo</b> Mobile | Regola la distanza di spostamento applicata dal parametro <b>Disturbo</b>.    Questa opzione consente di controllare la velocità di spostamento durante l’animazione del disturbo. |
-| <b>Contrasto</b> Mobile | Contrasto del risultato finale. |
-| <b>Opacità globale</b> float | Opacità delle ottave di disturbo sommate nel risultato finale.    Un valore elevato può causare la bruciatura di aree bianche. |
-| <b>Espansione non quadrata</b> Booleano | Nelle immagini non quadrate, mantiene il riquadro quadrato generato ed espande la generazione del disturbo fino ai limiti dell&#39;immagine. |
+|:---|:---|
+| <b>Rugosità</b> <i>Mobile</i> | Bilanciamento delle ottave di disturbo.    Un valore più elevato renderà più visibili le ottave con frequenza più elevata. |
+| <b>Min. livello</b> <i>Numero intero</i> | L&#39;ottava minima utilizzata nel rumore.    Un valore più elevato determina una frequenza di disturbo più elevata. |
+| <b>Max. livello</b> <i>Numero intero</i> | Ottava massima utilizzata nel rumore.    Un valore più elevato determina una frequenza di disturbo più elevata. |
+| <b>Disturbo</b> <i>Mobile</i> | Sposta gli ingredienti del disturbo.    Può essere utilizzato per animare il disturbo. |
+| <b>Velocità del disturbo</b> <i>Mobile</i> | Regola la distanza di spostamento applicata dal parametro <b>Disturbo</b>.    Questa opzione consente di controllare la velocità di spostamento durante l’animazione del disturbo. |
+| <b>Contrasto</b> <i>Mobile</i> | Contrasto del risultato finale. |
+| <b>Opacità globale</b> <i>Mobile</i> | Opacità delle ottave di disturbo sommate nel risultato finale.    Un valore elevato può causare la bruciatura di aree bianche. |
+| <b>Espansione non quadrata</b> <i>Booleano</i> | Nelle immagini non quadrate, mantiene il riquadro quadrato generato ed espande la generazione del disturbo fino ai limiti dell&#39;immagine. |
 
 ## Esempi
 
@@ -72,26 +72,12 @@ Vedere anche: [Somma frattale 1](../../../../../../compositing-graphs/nodes-refe
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Base Somma frattale - Esempio 1](../../../../../../assets/fractal_sum_base_1.png "Base Somma frattale - Esempio 1"){zoomable="yes"}
+![Base Somma frattale - Esempio 1](fractal-sum-base.resources/fractal_sum_base_1.png "Base Somma frattale - Esempio 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Base Somma frattale - Esempio 2](../../../../../../assets/noise_fractal_sum_base_v2_speed0.6_aniso0.gif "Base Somma frattale - Esempio 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+![Base Somma frattale - Esempio 2](fractal-sum-base.resources/noise_fractal_sum_base_v2_speed0.6_aniso0.gif "Base Somma frattale - Esempio 2"){zoomable="yes"}
 
 </td>
 </tr>

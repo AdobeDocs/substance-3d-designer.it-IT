@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/non-uniform-rotation.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/non-uniform-rotation.html"
 breadcrumb-title: ''
 description: Usa il nodo Rotazione non uniforme per applicare trasformazioni di rotazione non uniformi per creare effetti a spirale e vortice.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Rotazione non uniforme
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '290'
 ht-degree: 1%
 
 ---
@@ -22,29 +22,27 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../../../../../assets/nonuniformrotationgrayscale.png){width="200px"}
+![](non-uniform-rotation.resources/nonuniformrotationgrayscale.png){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../../../assets/nonuniformrotationcolor.png){width="200px"}
+![](non-uniform-rotation.resources/nonuniformrotationcolor.png){width="200px"}
 
 </td>
 </tr>
 </table>
 
-**In:** Filtri*/Trasformazioni*
-
-**Intermedio**
+<b>Ingresso:</b> Filtri > Trasforma
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -57,51 +55,41 @@ I valori positivi nell&#39;input **Mappa di rotazione** generano una rotazione *
 </tr>
 </table>
 
+<a name="inputs"></a>
+
+## Input
+
+|  |  |
+|:---|:---|
+| <b>Input</b> <i>Scala di grigi/Colore</i> | Immagine in scala di grigio di input da ruotare. |
+| <b>Mappa di rotazione</b> <i>Scala di grigi</i> | La mappa utilizzata per controllare la quantità di rotazione, in *numero di giri*. I valori campionati vengono moltiplicati per **il moltiplicatore dell&#39;angolo di rotazione**. I valori negativi generano una rotazione di *senso antiorario*. |
+| <b>Mappa Posizione dei punti cardini rotazione</b> <i>Colore</i> | Immagine utilizzata per specificare la posizione della rotazione *pivot*. La posizione **X/Y** è mappata ai canali **R/G** dell&#39;immagine. |
+
+<a name="parameters"></a>
+
 ## Parametri
 
-### Input
+|  |  |
+|:---|:---|
+| <b>Moltiplicatore angolo di rotazione</b> <i>Mobile</i> | Regola l&#39;intensità dell&#39;input **Mappe di rotazione**. |
+| <b>Scostamento angolo di rotazione</b> <i>Mobile</i> | Applica la quantità di rotazione aggiuntiva specificata. |
+| <b>Usa mappa Posizione dei punti cardini</b> <i>Booleano</i> | Utilizzare un *input bitmap* per specificare la posizione del perno di rotazione. La posizione **X/Y** è mappata ai canali **R/G** dell&#39;input **Mappa posizione**. |
+| <b>Posizione dei punti cardini</b> <i>Float2</i> | Posizione del perno attorno al quale viene ruotata l’immagine. |
+| <b>Colore di sfondo</b> <i>Float/Float4</i> | Colore di sfondo per visualizzare *all&#39;esterno* dei limiti dell&#39;immagine nel caso in cui l&#39;Affiancamento non sia impostato su **Affiancamento H e V**. |
+| <b>Modalità filtro</b> <i>Numero intero</i> | Definisce come trattare i risultati campionati quando *si interpola* tra i pixel:<br><br>- *Più vicini*: verrà campionato esattamente lo *stesso* valore (più veloce)<br>- *Bilineare*: verrà applicato un filtro bilineare al risultato per un aspetto *più uniforme* |
 
-* **Input** *Scala di grigi/Colore*\
-  Immagine in scala di grigio di input da ruotare.
-* **Mappa di rotazione** *Scala di grigi* La mappa utilizzata per controllare la quantità di rotazione, in *numero di giri*. I valori campionati vengono moltiplicati per **il moltiplicatore dell&#39;angolo di rotazione**. I valori negativi generano una rotazione di *senso antiorario*.
-* **Mappa Posizione dei punti cardini rotazione** *Colore*\
-  Immagine utilizzata per specificare la posizione della rotazione *pivot*. La posizione **X/Y** è mappata ai canali **R/G** dell&#39;immagine.
+## Esempi
 
-### Parametri
-
-* **Moltiplicatore Angolo Di Rotazione** *Mobile*\
-  Regola l&#39;intensità dell&#39;input **Mappe di rotazione**.
-* **Scostamento angolo di rotazione** *Mobile*\
-  Applica la quantità di rotazione aggiuntiva specificata.
-* **Usa mappa Posizione dei punti cardini** *Booleano*\
-  Utilizzare un *input bitmap* per specificare la posizione del perno di rotazione. La posizione **X/Y** è mappata ai canali **R/G** dell&#39;input **Mappa posizione**.
-* **Posizione dei punti cardini** *Float2*\
-  Posizione del perno attorno al quale viene ruotata l’immagine.
-* **Colore di sfondo** *Float/Float4*\
-  Colore di sfondo per visualizzare *all&#39;esterno* dei limiti dell&#39;immagine nel caso in cui la suddivisione in porzioni non sia impostata su **H e V in porzioni**.
-* **Modalità filtro** *Numero intero*\
-  Definisce come trattare i risultati campionati quando *si interpola* tra i pixel:
-  * *Più vicino*: verrà campionato esattamente lo *stesso* valore (più veloce)
-  * *Bilineare*: applicherà un filtro bilineare sul risultato per un aspetto *più uniforme*
-
-## Immagini di esempio
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/nonuniformrotation-demo-02-resized.gif){width="768px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/nonuniformrotation-variant-png.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/nonuniformrotation-node.png){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="non-uniform-rotation.resources/nonuniformrotation-demo-02-resized.gif" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="non-uniform-rotation.resources/nonuniformrotation-variant-png.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="non-uniform-rotation.resources/nonuniformrotation-node.png" />
+        </td>
+    </tr>
 </table>

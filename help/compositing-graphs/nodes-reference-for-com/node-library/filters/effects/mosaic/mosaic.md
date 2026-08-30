@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/mosaic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/mosaic.html"
 breadcrumb-title: ''
 description: Usa il nodo Mosaico per creare effetti di porzioni di mosaico dividendo le texture in blocchi e pattern pixelati.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Mosaico
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 3%
+source-wordcount: '110'
+ht-degree: 7%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/mosaic-1.png){width="128px"}
+![](mosaic.resources/mosaic-1.png){width="128px"}
 
-![](../../../../../../assets/mosaic-grayscale.png){width="128px"}
+![](mosaic.resources/mosaic-grayscale.png){width="128px"}
 
-## Mosaico (scala di grigi)
-
-**Ingresso:** *Filtri/Effetti*
-
-**Intermedio**
+<b>Ingresso:</b> Filtri > Effetti
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -43,25 +39,34 @@ ht-degree: 3%
 
 Questa opzione è utile per aggiungere una maggiore definizione alle mappe in scala di grigio, ad esempio Heightmap, in quanto può introdurre una maggiore definizione alle forme.
 
-## Parametri
-
-### Input
-
-* **Colore**: *Input scala di colore/grigio*
-* **Mappa mosaico**: *Input scala di grigi*\
-  Altera mappa driver. Può essere uguale all&#39;input Primo.
-
-### Parametri
-
-* **Esempi**: *0 - 16* Determina la qualità del campione multiplo.
-* **Intensità**: *0,0 - 1,0* Intensità dell&#39;effetto.
-
-## Immagini di esempio
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/mosaci-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Input
+
+|  |  |
+|:---|:---|
+| <b>Colore</b> <i>Ingresso colore/scala di grigi</i> |  |
+| <b>Mappa mosaico</b> <i>Input scala di grigi</i> | Altera mappa driver. Può essere uguale all&#39;input Primo. |
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Esempi</b> <i>0 - 16</i> | Determina la qualità dei campioni multipli. |
+| <b>Intensità</b> <i>0.0 - 1.0</i> | Intensità dell’effetto. |
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="mosaic.resources/mosaci-ex.png" />
+        </td>
+    </tr>
 </table>

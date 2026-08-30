@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/cube-3d-gbuffers.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/cube-3d-gbuffers.html"
 breadcrumb-title: ''
 description: Usa il nodo Cubo 3D GBuffers per generare buffer di geometria dalle proiezioni di cubi 3D per effetti di rendering avanzati.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Cubo 3D GBuffer
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 1%
+source-wordcount: '105'
+ht-degree: 5%
 
 ---
 
@@ -22,35 +22,30 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/cube3d.png){width="128px"}
+![](cube-3d-gbuffers.resources/cube3d.png){width="128px"}
 
-## Cubo 3D GBuffer
-
-**Ingresso:** *Generatori Di Texture**/Pattern*
-
-**Semplice**
+<b>Ingresso:</b> Generatori Texture > Pattern
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
 Versione avanzata di [Cubo 3D](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d/cube-3d.md) che genera anche solo mappe di posizione e normali invece di heightmap.
 
-## Parametri
-
-* **Scostamento orientamento**:\
-  Consente la rotazione X e Y del cubo in 3D. Può essere effettuata anche manipolando il piccolo punto nell’anteprima 2D.
-* **Dimensioni**: *0.0 - 1.0* Consente il ridimensionamento non uniforme del cubo.
-* **Scala**: *0,0 - 1,0*\
-  Ridimensiona l&#39;intero cubo in modo uniforme.
-* **Non square expansion**: *Falso/Vero*\
-  Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati.
-
-## Immagini di esempio
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Scostamento orientamento</b> | Consente la rotazione X e Y del cubo in 3D. Può essere effettuata anche manipolando il piccolo punto nell’anteprima 2D. |
+| <b>Dimensioni</b> <i>0.0 - 1.0</i> | Consente il ridimensionamento non uniforme del cubo. |
+| <b>Scala</b> <i>0.0 - 1.0</i> | Ridimensiona l&#39;intero cubo in modo uniforme. |
+| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati. |

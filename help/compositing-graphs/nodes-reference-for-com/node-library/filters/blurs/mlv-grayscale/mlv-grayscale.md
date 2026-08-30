@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/mlv-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/mlv-grayscale.html"
 breadcrumb-title: ''
 description: Usate il filtro Sfocatura scala di grigi MLV per applicare gli effetti di sfocatura movimento alle texture in scala di grigi per aspetti dinamici.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Scala di grigi MLV
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 0%
+source-wordcount: '320'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Scala di grigi MLV: icona](../../../../../../assets/MLV_Grayscale_Icon.png "Scala di grigi MLV: icona")
+![Scala di grigi MLV: icona](mlv-grayscale.resources/MLV_Grayscale_Icon.png "Scala di grigi MLV: icona")
 
 <b>Ingresso:</b> Filtri > Sfocature
 
@@ -45,42 +45,44 @@ Il filtro trova le aree strutturanti in un’immagine e le utilizza sia per aume
 >
 > Vedere anche [Colore MLV](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/mlv-color/mlv-color.md).
 
-## Connettori di ingresso
+<a name="inputs"></a>
 
-<b>Immettere </b>*Scala di grigio* L&#39;immagine in scala di grigio che deve essere elaborata.
+## Input
 
-## Connettori di uscita
+|  |  |
+|:---|:---|
+| <b>Input</b> <i>Scala di grigi</i> | Immagine in scala di grigio che deve essere elaborata. |
 
-<b>Output </b>*Scala di grigi* Immagine filtrata in scala di grigi.
+<a name="outputs"></a>
+
+## Output
+
+|  |  |
+|:---|:---|
+| <b>Output</b> <i>Scala di grigi</i> | Immagine filtrata in scala di grigio. |
+
+<a name="parameters"></a>
 
 ## Parametri
 
-<b>Intensità</b> *Mobile* Intensità del filtro applicato all&#39;immagine.\
-Più alti sono i valori, maggiore sarà l’uniformità dei dettagli e del disturbo nelle aree più piatte.
-
-<b>Smoothness</b> *Fluttuazione* L’intensità della smussatura applicata alle aree di strutturazione, che risulta in aree più rotonde e riduce l’effetto di gradazione che può verificarsi con intensità di filtraggio più elevate.
-
-<b>Criterio</b> *Intero* Criterio utilizzato per selezionare i valori che definiranno le aree di strutturazione nell&#39;immagine.\
-In altre parole, come devono essere *raggruppati* i pixel in aree da smussare.\
-*- Varianza:* Selezionare i valori con la dispersione più bassa attorno alla media, che determina gruppi di pixel simili tra loro\
-*- Coefficiente di variazione:* Selezionare i valori tenendo conto della media, il che comporta una minore variazione nelle aree più luminose
-
-<b>Gaussiano</b> *Booleano* Utilizzare una distribuzione gaussiana per raggruppare i pixel in aree strutturanti.\
-Se è impostato su &quot;True&quot;, l’operazione determina aree più uniformi e un effetto di conversione della trasparenza ridotto.
-
-<b>Iterazioni</b> *Numero intero* Numero di volte in cui il filtro viene eseguito, in cui ogni iterazione viene applicata sul risultato di quella precedente.\
-Più iterazioni producono aree strutturanti più piatte e nitide.
+|  |  |
+|:---|:---|
+| <b>Intensità</b> *Mobile* | Intensità del filtro applicato all’immagine.<br><br>Valori più alti determinano una maggiore uniformità dei dettagli e del disturbo nelle aree più piatte. |
+| <b>Smoothness</b> *Mobile* | L’intensità della smussatura applicata alle aree strutturanti, che risulta in aree più rotonde e riduce l’effetto di gradino che può verificarsi a intensità di filtrazione più elevate. |
+| <b>Criterio</b> *Numero intero* | Criterio utilizzato per selezionare i valori che definiranno le aree di strutturazione nell’immagine.<br><br>In altre parole, come devono essere *raggruppati* i pixel in aree da smussare.<br><br>*- Varianza:* Selezionare i valori con la dispersione più bassa intorno alla media, il che risulta in cluster di pixel simili l&#39;uno all&#39;altro <br>*- Coefficiente di variazione:* Selezionare i valori tenendo conto della media, il che risulta in una minore variazione nelle aree più luminose in modo inverso |
+| <b>Gaussiano</b> *Booleano* | Usate una distribuzione Controllo per raggruppare i pixel in aree strutturanti.<br><br>Se è impostato su &quot;True&quot;, l&#39;operazione determina aree più uniformi e un effetto di conversione della trasparenza ridotto. |
+| <b>Iterazioni</b> *Numero intero* | Numero di volte in cui il filtro viene eseguito, in cui ogni iterazione viene applicata al risultato di quella precedente.<br><br>Con più iterazioni le aree strutturate risultano più piatte e nitide. |
 
 ## Esempi
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MLV_Variant1A.png" alt="MLV_Variant1A">
+      <img src="mlv-grayscale.resources/MLV_Variant1A.png" alt="MLV_Variant1A">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MLV_Variant1B.png" alt="MLV_Variant1B">
+      <img src="mlv-grayscale.resources/MLV_Variant1B.png" alt="MLV_Variant1B">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -89,11 +91,11 @@ Più iterazioni producono aree strutturanti più piatte e nitide.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MLV_Variant2A.png" alt="MLV_Variant2A">
+      <img src="mlv-grayscale.resources/MLV_Variant2A.png" alt="MLV_Variant2A">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MLV_Variant2B.png" alt="MLV_Variant2B">
+      <img src="mlv-grayscale.resources/MLV_Variant2B.png" alt="MLV_Variant2B">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -102,11 +104,11 @@ Più iterazioni producono aree strutturanti più piatte e nitide.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MLV_Variant2A.png" alt="MLV_Variant2A">
+      <img src="mlv-grayscale.resources/MLV_Variant2A.png" alt="MLV_Variant2A">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MLV_Variant2C.png" alt="MLV_Variant2C">
+      <img src="mlv-grayscale.resources/MLV_Variant2C.png" alt="MLV_Variant2C">
       <br><i>Dopo</i>
     </td>
   </tr>

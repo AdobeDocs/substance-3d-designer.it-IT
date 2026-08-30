@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
 breadcrumb-title: ''
 description: Scoprite come gestire e organizzare i parametri nei grafici di composizione delle Substance per una migliore organizzazione del flusso di lavoro.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Gestisci i parametri
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 3%
@@ -46,7 +46,7 @@ Quando le proprietà di un nodo vengono visualizzate nel Dock proprietà, i para
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Menu &#39;Gestisci parametri&#39; globale in Proprietà](../../assets/manage-parameters-menu-global.png "menu &#39;Gestisci parametri&#39; globale in Proprietà"){zoomable="yes"}
+![Menu &#39;Gestisci parametri&#39; globale in Proprietà](manage-parameters.resources/manage-parameters-menu-global.png "menu &#39;Gestisci parametri&#39; globale in Proprietà"){zoomable="yes"}
 
 </td>
 </tr>
@@ -76,7 +76,7 @@ Per gestire un parametro *singolo*, utilizzare il menu &#39;<b>Gestisci funzione
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Menu &#39;Gestisci parametri&#39; locale in Proprietà](../../assets/manage-parameters-menu.png "Menu &#39;Gestisci parametri&#39; locale in Proprietà"){zoomable="yes"}
+![Menu &#39;Gestisci parametri&#39; locale in Proprietà](manage-parameters.resources/manage-parameters-menu.png "Menu &#39;Gestisci parametri&#39; locale in Proprietà"){zoomable="yes"}
 
 </td>
 </tr>
@@ -108,7 +108,7 @@ Le stesse limitazioni elencate di seguito per i nodi atomici si applicano a ques
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
 
-![&#x200B; menu &#39;Gestisci parametri&#39; nel menu contestuale del nodo](../../assets/manage-parameters-node-menu.png " menu &#39;Gestisci parametri&#39; nel menu contestuale del nodo"){zoomable="yes"}
+![ menu &#39;Gestisci parametri&#39; nel menu contestuale del nodo](manage-parameters.resources/manage-parameters-node-menu.png " menu &#39;Gestisci parametri&#39; nel menu contestuale del nodo"){zoomable="yes"}
 
 </td>
 </tr>
@@ -129,7 +129,7 @@ Questa funzionalità funziona come l&#39;utilizzo di un [file di parametri prede
 </td>
 <td style="border: 0;" valign="top">
 
-![Copiare e incollare i parametri](../../assets/copy-paste-parameters.gif "Copiare e incollare i parametri"){zoomable="yes"}
+![Copiare e incollare i parametri](manage-parameters.resources/copy-paste-parameters.gif "Copiare e incollare i parametri"){zoomable="yes"}
 
 </td>
 </tr>

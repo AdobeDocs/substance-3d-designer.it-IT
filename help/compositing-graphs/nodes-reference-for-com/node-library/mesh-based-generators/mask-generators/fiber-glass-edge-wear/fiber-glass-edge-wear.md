@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/fiber-glass-edge-wear.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/fiber-glass-edge-wear.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Edge Wear fibra di vetro per generare maschere di usura sui bordi in fibra di vetro in base alla curvatura della trama.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Edge Wear in fibra di vetro
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 1%
+source-wordcount: '290'
+ht-degree: 6%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/fiber-glass-edge-wear.png){width="128px"}
+![](fiber-glass-edge-wear.resources/fiber-glass-edge-wear.png){width="128px"}
 
-## Edge Wear in fibra di vetro
-
-**Ingresso:** *Generatori Basati Su Trama**/Generatori Maschera*
-
-**Intermedio**
+<b>In:</b> Generatori Basati Su Trama > Generatori di maschere
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -41,39 +37,45 @@ Genera una maschera in bianco e nero in base alle mappe con baking e alle impost
 
 Rappresenta una maschera specificamente destinata a un&#39;usura di tipo vetroresina, potrebbe forse essere utilizzata per panno. A causa della natura molto piastrellata e ripetitiva delle fibre, la fusione triplanare può opzionalmente essere abilitata.
 
-## Parametri
-
-### Input
-
-* **Curvatura**: *Input scala di grigi*\
-  Mappa con baking utilizzata per evidenziare i bordi. Obbligatorio!
-* **Occlusione ambiente**: *Input scala di grigi*\
-  Mappa con baking utilizzata per mascherare le aree occluse. Non richiesto, ma sicuramente consigliato.
-* **Input Grunge**: *Input scala di grigi*\
-  Slot personalizzato opzionale per ignorare il motivo a fibra.
-* **Maschera (facoltativo)**: *Input scala di grigi*\
-  Slot maschera utilizzato per mascherare gli effetti del nodo.
-* **Spazio Mondiale Normale**: *Input Colore*\
-  Utilizzato solo per Triplanare.
-* **Posizione**: *Input colore*\
-  Utilizzato solo per Triplanare.
-
-### Parametri
-
-* **Livello di usura**: *0.0 - 1.0* Come una [scansione di istogramma](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md), rivela progressivamente l&#39;usura.
-* **Contrasto usura**: *0.0 - 1.0* Imposta il contrasto totale dell&#39;effetto.
-* **Smoothness bordi**: *0.0 - 16.0* Imposta l&#39;effetto di sfocatura dai bordi evidenziati.
-* **Quantità Grunge**: *0,0 - 1,0* Imposta l’entità dell’effetto fibra da fondere tra i bordi. Modificate questo valore insieme a Livello di usura per ottenere il massimo controllo.
-* **Mascheratura Occlusione ambiente**: *0.0 - 1.0* Imposta l&#39;influenza dell&#39;AO nel nascondere l&#39;effetto.
-* **Spessore curvatura**: *0,0 - 1,0* Imposta la quantità di influenza esercitata dai bordi convessi della curvatura.
-* **Usa Grunge personalizzata**: *False/True* Esegue l&#39;override delle fibre incorporate con la mappa personalizzata.
-* **Usa Triplanare**: *Falso/Vero* Consente a [Triplanare](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/tri-planar/tri-planar.md) di nascondere le giunture.
-* **Contrasto fusione triplanare**: *0.0 - 1.0* Controlla il contrasto dell&#39;effetto triplanare.
-
-## Immagini di esempio
-
-![](../../../../../../assets/fiber-glass-edge-wear-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Input
+
+|  |  |
+|:---|:---|
+| <b>Curvatura</b> <i>Input scala di grigi</i> | Mappa con baking utilizzata per evidenziare i bordi. Obbligatorio! |
+| <b>Occlusione ambiente</b> <i>Input scala di grigi</i> | Mappa con baking utilizzata per mascherare le aree occluse. Non richiesto, ma sicuramente consigliato. |
+| <b>Input Grunge</b> <i>Input scala di grigi</i> | Slot personalizzato opzionale per ignorare il motivo a fibra. |
+| <b>Maschera (facoltativo)</b> <i>Input scala di grigi</i> | Slot maschera utilizzato per mascherare gli effetti del nodo. |
+| <b>Spazio globale normale</b> <i>Input colore</i> | Utilizzato solo per Triplanare. |
+| <b>Posizione</b> <i>Input colore</i> | Utilizzato solo per Triplanare. |
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Livello Di Usura</b> <i>0.0 - 1.0</i> | Come una [scansione dell&#39;istogramma](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md), rivela progressivamente l&#39;usura. |
+| <b>Indossare Contrasto</b> <i>0.0 - 1.0</i> | Imposta il contrasto totale dell’effetto. |
+| <b>Smoothness bordi</b> <i>0.0 - 16.0</i> | Consente di impostare la fuoriuscita/sfocatura dai bordi evidenziati. |
+| <b>Importo Grungi</b> <i>0.0 - 1.0</i> | Imposta l’entità dell’effetto fibra da fondere tra i bordi. Modificate questo valore insieme a Livello di usura per ottenere il massimo controllo. |
+| <b>Mascheratura Occlusione ambientale</b> <i>0.0 - 1.0</i> | Consente di impostare il grado di influenza dell’AO nel nascondere l’effetto. |
+| <b>Spessore curvatura</b> <i>0.0 - 1.0</i> | Imposta l&#39;entità dell&#39;influenza esercitata dagli spigoli convessi rispetto alla curvatura. |
+| <b>Usa Grunge personalizzata</b> <i>Falso/Vero</i> | Sostituisce le fibre incorporate con la mappa personalizzata. |
+| <b>Usa Triplanare</b> <i>Falso/Vero</i> | Consente a [Tri Planare](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/tri-planar/tri-planar.md) di nascondere le giunture. |
+| <b>Contrasto di fusione triplanare</b> <i>0.0 - 1.0</i> | Controlla il contrasto dell’effetto Triplanare. |
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="fiber-glass-edge-wear.resources/fiber-glass-edge-wear-ex.gif" />
+        </td>
+    </tr>
 </table>

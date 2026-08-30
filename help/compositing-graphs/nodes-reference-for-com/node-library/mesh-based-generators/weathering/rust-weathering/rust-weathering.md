@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/rust-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/rust-weathering.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Temperatura Ruggine per generare pattern di ruggine basati sulla geometria della trama per creare effetti di corrosione del metallo realistici.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Ruggine meteorologia
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 1%
+source-wordcount: '237'
+ht-degree: 14%
 
 ---
 
@@ -22,73 +22,66 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/rust-weathering.png){width="128px"}
+![](rust-weathering.resources/rust-weathering.png){width="128px"}
 
-## Ruggine meteorologia
-
-**Ingresso:** *Generatori Basati Su Trama**/Meteorizzazione*
-
-**Complesso**
+<b>In:</b> Generatori Basati Su Trama > Meteo
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
-## Parametri
-
-### Input
-
-* **Occlusione ambiente**: *Input scala di grigi*\
-  Mappa con baking utilizzata per effetti interni e mascheratura.
-* **Curvatura**: *Input scala di grigi*\
-  Mappa con baking utilizzata per effetti interni e mascheratura.
-* **Posizione**: *Input colore*
-* **Maschera** : *Input scala di grigi*\
-  Slot maschera utilizzato per mascherare gli effetti del nodo. Può essere attivato/disattivato con il parametro &quot;Maschera&quot;.
-
-### Parametri
-
-* **Canali**
-  * Attivate e disattivate i canali del materiale in questo gruppo, ad esempio quando utilizzate mappe Specular/lucidità invece di Metallico/Rugosità.
-* **Avanzate**
-  * **Formato normale**: *DirectX, OpenGL*\
-    Passa da un formato Normalmap a un altro (inverte il canale verde).
-  * **Maschera**: *False/True*\
-    Attiva o disattiva l’uso della mappa maschera.
-* **Effetto**
-  * **Ruggine diffusione**: *0.0 - 1.0*
-  * **Smoothness di diffusione**: *0.0 - 1.0*
-  * **Scala danni vernice**: *0,0 - 1,0*
-  * **Intensità gocce**: *0,0 - 1,0*
-  * **Quantità campioni gocce**: *0 - 32*
-  * **Smoothness gocce**: *0.0 - 1.0*
-* **Fusione**
-  * **Intensità diffusione**: *0,0 - 1,0*\
-    Intensità di fusione della Diffusione.
-  * **Intensità colore di base**: *0,0 - 1,0*\
-    Intensità di fusione del colore di base.
-  * **Intensità normale**: *0,0 - 32,0*\
-    Intensità di fusione del normale.
-  * **Intensità Specular**: *0,0 - 1,0*\
-    Forza di fusione dello Specular.
-  * **Intensità lucidità**: *0,0 - 1,0*\
-    Forza di fusione della lucidità.
-  * **Intensità rugosità**: *0,0 - 1,0*\
-    Forza di fusione della rugosità.
-  * **Intensità metallica**: *0,0 - 1,0*\
-    Intensità di fusione del metallizzato.
-  * **Intensità Occlusione ambiente**: *0,0 - 1,0*\
-    Intensità di fusione dell’Occlusione ambiente.
-  * **Intensità Height**: *0,0 - 1,0*\
-    Forza di fusione del Height.
-
-## Immagini di esempio
-
-![](../../../../../../assets/rust-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Input
+
+|  |  |
+|:---|:---|
+| <b>Occlusione ambiente</b> <i>Input scala di grigi</i> | Mappa con baking utilizzata per effetti interni e mascheratura. |
+| <b>Curvatura</b> <i>Input scala di grigi</i> | Mappa con baking utilizzata per effetti interni e mascheratura. |
+| <b>Posizione</b> <i>Input colore</i> |  |
+| <b>Maschera</b> <i>Input scala di grigi</i> | Slot maschera utilizzato per mascherare gli effetti del nodo. Può essere attivato/disattivato con il parametro &quot;Maschera&quot;. |
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Canali</b> | Attivate e disattivate i canali del materiale in questo gruppo, ad esempio quando utilizzate mappe Specular/lucidità invece di Metallico/Rugosità. |
+| <b>Avanzate</b> |  |
+| <b>Formato Normale</b> <i>DirectX, OpenGL</i> | Passa da un formato Normalmap a un altro (inverte il canale verde). |
+| <b>Maschera</b> <i>Falso/Vero</i> | Attiva o disattiva l’uso della mappa maschera. |
+| <b>Effetto</b> |  |
+| <b>Ruggine diffusione</b> <i>0.0 - 1.0</i> |  |
+| <b>Diffusione Smoothness</b> <i>0.0 - 1.0</i> |  |
+| <b>Scala danni vernice</b> <i>0.0 - 1.0</i> |  |
+| <b>Intensità gocce</b> <i>0.0 - 1.0</i> |  |
+| <b>Quantità campioni gocce</b> <i>0 - 32</i> |  |
+| <b>Gocce di Smoothness</b> <i>0.0 - 1.0</i> |  |
+| <b>Fusione</b> |  |
+| <b>Intensità Diffusa</b> <i>0.0 - 1.0</i> | Intensità di fusione della Diffusione. |
+| <b>Intensità Colore di base</b> <i>0.0 - 1.0</i> | Intensità di fusione del colore di base. |
+| <b>Intensità normale</b> <i>0.0 - 32.0</i> | Intensità di fusione del normale. |
+| <b>Intensità Specular</b> <i>0.0 - 1.0</i> | Forza di fusione dello Specular. |
+| <b>Intensità Lucentezza</b> <i>0.0 - 1.0</i> | Forza di fusione della lucidità. |
+| <b>Intensità rugosità</b> <i>0.0 - 1.0</i> | Forza di fusione della rugosità. |
+| <b>Intensità metallica</b> <i>0.0 - 1.0</i> | Intensità di fusione del metallizzato. |
+| <b>Intensità Occlusione ambientale</b> <i>0.0 - 1.0</i> | Intensità di fusione dell’Occlusione ambiente. |
+| <b>Intensità Height</b> <i>0.0 - 1.0</i> | Forza di fusione del Height. |
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="rust-weathering.resources/rust-ex.gif" />
+        </td>
+    </tr>
 </table>

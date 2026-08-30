@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/extend-shape.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/extend-shape.html"
 breadcrumb-title: ''
 description: Usate il nodo di Extend Shape per estendere le forme oltre i loro bordi per creare effetti di maschera e pattern espansi.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Extend Shape
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -22,85 +22,71 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../../../../../assets/extendshapegrayscale.png){width="200px"}
+![](extend-shape.resources/extendshapegrayscale.png){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../../../assets/extendshapecolor.png){width="200px"}
+![](extend-shape.resources/extendshapecolor.png){width="200px"}
 
 </td>
 </tr>
 </table>
 
-**In:** filtri*/Effects*
-
-**Semplice**
+<b>Ingresso:</b> Filtri > Effetti
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
-Il nodo **Extend Shape** estende una *sezione* dell&#39;**Input** su una direzione e una distanza impostate.
+Il nodo <b>Extend Shape</b> estende una <i>sezione</i> dell&#39;<b>Input</b> su una direzione e una distanza impostate.
 
-Il parametro **Mostra helper** consente di visualizzare la direzione della sezione estesa e dell&#39;estensione.
+Il parametro <b>Mostra helper</b> consente di visualizzare la direzione della sezione estesa e dell&#39;estensione.
 
 </td>
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parametri
 
-* **Modalità** *Numero intero* Definisce i *parametri* utilizzati per applicare l&#39;estensione:
-  * *Bidirezionale*: la sezione dell&#39;**Input** specificata dalla **Posizione dell&#39;estensione** e dall&#39;**Angolo di estensione** viene estesa oltre la **Distanza dell&#39;estensione** in *direzioni opposte*
-  * *Unidirezionale*: la sezione dell&#39;**Input** specificata dalla **Posizione di estensione** e dall&#39;**Angolo di estensione** viene estesa oltre la **Distanza di estensione** in una *direzione singola*
-  * *Posizioni iniziale/finale*: un&#39;estensione *vettoriale* è definita da **Posizione iniziale** e **Posizione finale**. La sezione *perpendicolare* dell&#39;**Input** nella **Posizione iniziale** è estesa *su questo vettore* fino alla **Posizione finale**
-* **Distanza di estensione** *Mobile* La distanza oltre la quale deve essere estesa la sezione specificata dalla **Posizione di estensione** e dall&#39;**Angolo di estensione**. La distanza viene espressa come *proporzione* dell&#39;estensione dell&#39;immagine.
-* **Posizione estensione** *Mobile* Posizione nell&#39;immagine della sezione che deve essere estesa. Il valore viene espresso come *offset dal centro*.
-* **Angolo di estensione** *Mobile* L&#39;angolo della sezione che deve essere esteso, considerando il punto di partenza, è una *sezione verticale*.
-* **Posizione iniziale** *Float2* Posizione iniziale del *vettore di estensione*.
-* **Posizione finale** *Float2* Posizione finale del *vettore di estensione*.
-* **Inizia scostamento luminanza** *Mobile* Applica uno scostamento luminanza all&#39;area dell&#39;immagine *che precede* la sezione estesa. Questo scostamento di luminanza è *interpolato lungo la sezione* alla luminanza dell&#39;area dell&#39;immagine che segue la sezione.\
-  *Nota*: questo parametro è disponibile solo nella versione **Scala di grigi** del nodo.
-* **Scostamento luminanza finale** *Mobile* Applica uno scostamento luminanza all&#39;area dell&#39;immagine *che segue* la sezione estesa. Questo scostamento di luminanza è *interpolato lungo la sezione* alla luminanza dell&#39;area dell&#39;immagine che precede la sezione.\
-  *Nota*: questo parametro è disponibile solo nella versione **Scala di grigi** del nodo.
-* **Lum. Lo scostamento ignora i pixel neri** *booleani* Se impostato su *Vero*, gli scostamenti di luminanza specificati in *entrambi* **Inizia scostamento luminanza** e **Fine scostamento luminanza** vengono applicati solo a *pixel non neri*, ovvero pixel il cui valore è superiore a 0.\
-  *Nota*: questo parametro è disponibile solo nella versione **Scala di grigi** del nodo.
-* **Modalità filtro** *Numero intero* Definisce come trattare i risultati campionati quando *si interpola* tra i pixel:
-  * *Più vicino*: verrà campionato esattamente lo *stesso* valore (più veloce)
-  * *Bilineare*: applicherà un filtro bilineare sul risultato per un aspetto *più uniforme*
-* **Mostra helper** *booleano* Visualizza la *sezione estesa* come una sovrapposizione con frecce che mostrano la *direzione* dell&#39;estensione.
+|  |  |
+|:---|:---|
+| <b>Modalità</b> <i>Numero intero</i> | Definisce i <i>parametri</i> utilizzati per applicare l&#39;estensione:<br><br>- <i>Bidirezionale</i>: la sezione dell&#39;<b>Input</b> specificata dalla <b>Posizione estensione</b> e dall&#39;<b>Angolo estensione</b> viene estesa oltre la <b>Distanza estensione</b> in <i>direzioni opposte</i><br>- <i>Unidirezionale</i>: la sezione dell&#39;<b>Input</b> specificata dalla <b>Posizione estensione</b> e dall&#39;<b>Estensione L&#39;angolo</b> viene esteso oltre la <b>distanza di estensione</b> in una <i>direzione singola</i><br>- <i>posizione iniziale/finale</i>: un&#39;estensione <i>vettore</i> è definita da <b>posizione iniziale</b> e <b>posizione finale</b>. La sezione <i>perpendicolare</i> dell&#39;<b>Input</b> nella <b>Posizione iniziale</b> è estesa <i>su questo vettore</i> fino alla <b>Posizione finale</b> |
+| <b>Distanza di estensione</b> <i>Mobile</i> | La distanza oltre la quale deve essere estesa la sezione specificata dalla <b>Posizione estensione</b> e dall&#39;<b>Angolo estensione</b>. La distanza viene espressa come <i>proporzione</i> dell&#39;estensione dell&#39;immagine. |
+| <b>Posizione estensione</b> <i>Mobile</i> | La posizione nell&#39;immagine della sezione che deve essere estesa. Il valore viene espresso come <i>offset dal centro</i>. |
+| <b>Angolo di estensione</b> <i>Mobile</i> | L&#39;angolo della sezione che deve essere estesa, considerando il punto di partenza, è una <i>sezione verticale</i>. |
+| <b>Posizione iniziale</b> <i>Float2</i> | Posizione iniziale del <i>vettore di estensione</i>. |
+| <b>Posizione finale</b> <i>Float2</i> | Posizione finale del <i>vettore di estensione</i>. |
+| <b>Avvia scostamento luminanza</b> <i>Mobile</i> | Applica uno scostamento di luminanza all&#39;area dell&#39;immagine <i>che precede</i> la sezione estesa. Questo scostamento di luminanza è <i>interpolato lungo la sezione</i> alla luminanza dell&#39;area dell&#39;immagine che segue la sezione.<br><br><i>Nota</i>: questo parametro è disponibile solo nella versione <b>Scala di grigi</b> del nodo. |
+| <b>Fine scostamento luminanza</b> <i>Mobile</i> | Applica uno scostamento di luminanza all&#39;area dell&#39;immagine <i>che segue</i> la sezione estesa. Questo scostamento di luminanza è <i>interpolato lungo la sezione</i> alla luminanza dell&#39;area dell&#39;immagine che precede la sezione.<br><br><i>Nota</i>: questo parametro è disponibile solo nella versione <b>Scala di grigi</b> del nodo. |
+| <b>Lum. Offset Ignora I Pixel Neri</b> <i>Booleano</i> | Se impostato su <i>True</i>, gli scostamenti di luminanza specificati in <i>both</i> <b>Lo scostamento di luminanza iniziale</b> e <b>lo scostamento di luminanza finale</b> vengono applicati solo a <i>pixel non neri</i>, ovvero pixel il cui valore è superiore a 0.<br><br><i>Nota</i>: questo parametro è disponibile solo nella versione <b>Scala di grigi</b> del nodo. |
+| <b>Modalità filtro</b> <i>Numero intero</i> | Definisce come trattare i risultati campionati quando <i>si interpola</i> tra i pixel:<br><br>- <i>Più vicini</i>: verrà campionato esattamente lo <i>stesso</i> valore (più veloce)<br>- <i>Bilineare</i>: verrà applicato un filtro bilineare al risultato per un aspetto <i>più uniforme</i> |
+| <b>Mostra helper</b> <i>Booleano</i> | Visualizza la <i>sezione estesa</i> come una sovrapposizione con frecce che mostrano la <i>direzione</i> dell&#39;estensione. |
 
-## Immagini di esempio
+## Esempi
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/extendshape.gif){width="512px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/extendshape-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/extendshape-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/extendshape-node.png){width="360px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="extend-shape.resources/extendshape.gif" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="extend-shape.resources/extendshape-variant.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="extend-shape.resources/extendshape-variant2.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="extend-shape.resources/extendshape-node.png" />
+        </td>
+    </tr>
 </table>

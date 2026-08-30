@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-ridged-noise-fractal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-ridged-noise-fractal.html"
 breadcrumb-title: ''
 description: Utilizza il nodo Frattale disturbo con scanalature 3D per generare pattern di disturbo frattale con scanalature in uno spazio 3D per creare texture simili a quelle delle montagne.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Frattale disturbo con dorso 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
@@ -22,76 +22,59 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dridgednoisefractal.png){width="200px"}
+![](3d-ridged-noise-fractal.resources/3dridgednoisefractal.png){width="200px"}
 
-**Ingresso:** *Generatori Di Texture**/Rumori*
-
-**Intermedio**
+<b>Ingresso:</b> Generatori di Texture > Rumori
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
-Il nodo **Frattale disturbo con dorso 3D** genera un disturbo con dorso *frattale* in uno spazio 3D in base all&#39;input **Mappa posizione**.
+Il nodo <b>Frattale disturbo con dorso 3D</b> genera un disturbo con dorso <i>frattale</i> in uno spazio 3D in base all&#39;input <b>Mappa posizione</b>.
 
 Questo nodo può essere testato con [Cubo 3D GBuffers](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d-gbuffers/cube-3d-gbuffers.md) come input anziché come mappa con baking effettiva (come illustrato nell&#39;immagine di esempio seguente).
-
->[!WARNING]
->
-> Questo rumore deve essere utilizzato solo con *motore GPU* (ad esempio **Direct3D** o **OpenGL**). Vai a **Strumenti > Cambia motore...** oppure premi il tasto **F9** per selezionare il motore desiderato.
 
 </td>
 </tr>
 </table>
 
+>[!WARNING]
+>
+> Questo rumore deve essere utilizzato solo con <i>motore GPU</i> (ad esempio <b>Direct3D</b> o <b>OpenGL</b>). Vai a <b>Strumenti > Cambia motore...</b> oppure premi il tasto <b>F9</b> per selezionare il motore desiderato.
+
+<a name="parameters"></a>
+
 ## Parametri
 
-* **Inverti** *Booleano*\
-  Inverte l’immagine di output.
-* **Scala** *Mobile*\
-  Controlla la scala del disturbo frattale con dorso 3D.
-* **Dimensioni** *Float3*\
-  Controlla la dimensione del disturbo frattale con dorso 3D negli assi **X**, **Y** e **Z**. I valori non uniformi producono un effetto *allungamento o schiacciamento*.
-* **Scostamento** *Float3*\
-  Applica uno scostamento alla *posizione* del disturbo frattale con dorso 3D negli assi **X**, **Y** e **Z**.
-* **Intensità Distorsione** *Mobile*\
-  Controlla l&#39;intensità di un *effetto di alterazione* applicato al disturbo frattale con dorso 3D.
-* **Moltiplicatore scala Distorsione** *Mobile*\
-  Controlla la scala del *pattern di deformazione* utilizzato nell&#39;effetto di alterazione controllato dall&#39;**intensità della Distorsione**.
-* **Livello Min** *Intero*\
-  Il *livello minimo di ripetizione* utilizzato nel pattern frattale. Un intervallo minimo/massimo più ampio genera un *modello più ricco* con variazione su più intervalli di frequenza.
-* **Livello Massimo** *Numero Intero*\
-  Il *livello massimo di ripetizione* utilizzato nel pattern frattale. Un intervallo minimo/massimo più ampio genera un *modello più ricco* con variazione su più intervalli di frequenza.
-* **Rugosità** *Mobile*\
-  Controlla l&#39;*equilibrio* tra *livelli di ripetizione* bassi e alti nel pattern frattale.\
-  *Nota*: un valore di **0** genera un output *non in linea* seguito da altri valori bassi. Questo è previsto.
-* **Lacunarità** *Galleggiante*\
-  Controlla la modalità di riempimento dello spazio del pattern frattale applicato **. Un valore *maggiore* genera *meno spazi vuoti* nel pattern e un disturbo *più denso*.
-* **Opacità globale** *Mobile*\
-  Controlla l&#39;*intervallo* dei valori di disturbo frattale con dorso 3D *attorno* al valore **Baseline**.
-* **Previsione** *Mobile*\
-  Applica un *offset* al valore di *luminanza* della linea di base per la distribuzione del valore del disturbo con dorso 3D.
-* **Contrasto** *Mobile*\
-  Regola il contrasto del disturbo con dorso 3D.
-* **Abilita Porzione** *Booleano*\
-  Regola il disturbo con dorso 3D in modo che il relativo pattern *si ripeta* sugli assi X, Y e Z.
+|  |  |
+|:---|:---|
+| <b>Inverti</b> <i>Booleano</i> | Inverte l’immagine di output. |
+| <b>Scala</b> <i>Mobile</i> | Controlla la scala del disturbo frattale con dorso 3D. |
+| <b>Dimensioni</b> <i>Float3</i> | Controlla la dimensione del disturbo frattale con dorso 3D negli assi <b>X</b>, <b>Y</b> e <b>Z</b>. I valori non uniformi producono un effetto <i>allungamento o schiacciamento</i>. |
+| <b>Scostamento</b> <i>Float3</i> | Applica uno scostamento alla <i>posizione</i> del disturbo frattale con dorso 3D negli assi <b>X</b>, <b>Y</b> e <b>Z</b>. |
+| <b>Intensità Distorsione</b> <i>Mobile</i> | Controlla l&#39;intensità di un <i>effetto di alterazione</i> applicato al disturbo frattale con dorso 3D. |
+| <b>Moltiplicatore scala Distorsione</b> <i>Mobile</i> | Controlla la scala del <i>pattern di deformazione</i> utilizzato nell&#39;effetto di alterazione controllato dall&#39;<b>intensità della Distorsione</b>. |
+| <b>Livello Min</b> <i>Numero intero</i> | Il <i>livello minimo di ripetizione</i> utilizzato nel pattern frattale. Un intervallo minimo/massimo più ampio genera un <i>modello più ricco</i> con variazione su più intervalli di frequenza. |
+| <b>Livello massimo</b> <i>Numero intero</i> | Il <i>livello massimo di ripetizione</i> utilizzato nel pattern frattale. Un intervallo minimo/massimo più ampio genera un <i>modello più ricco</i> con variazione su più intervalli di frequenza. |
+| <b>Rugosità</b> <i>Mobile</i> | Controlla l&#39;<i>equilibrio</i> tra <i>livelli di ripetizione</i> bassi e alti nel pattern frattale.<br><br><i>Nota</i>: un valore di <b>0</b> genera un output <i>non in linea</i> seguito da altri valori bassi. Questo è previsto. |
+| <b>Lacunarità</b> <i>Mobile</i> | Controlla la modalità di riempimento dello spazio del pattern frattale applicato <i></i>. Un valore <i>maggiore</i> genera <i>meno spazi vuoti</i> nel pattern e un disturbo <i>più denso</i>. |
+| <b>Opacità globale</b> <i>Mobile</i> | Controlla l&#39;<i>intervallo</i> dei valori di disturbo frattale con dorso 3D <i>attorno</i> al valore <b>Baseline</b>. |
+| <b>Previsione</b> <i>Mobile</i> | Applica un <i>offset</i> al valore di <i>luminanza</i> della linea di base per la distribuzione del valore del disturbo con dorso 3D. |
+| <b>Contrasto</b> <i>Mobile</i> | Regola il contrasto del disturbo con dorso 3D. |
+| <b>Abilita Affiancamento</b> <i>Booleano</i> | Regola il disturbo con dorso 3D in modo che il relativo pattern <i>si ripeta</i> sugli assi X, Y e Z. |
 
-## Immagini di esempio
+## Esempi
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dridgednoisefractal-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dridgednoisefractal-variant2.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="3d-ridged-noise-fractal.resources/3dridgednoisefractal-variant.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-ridged-noise-fractal.resources/3dridgednoisefractal-variant2.jpg" />
+        </td>
+    </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/working-with-3d-scenes/exporting-scenes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/exporting-scenes.html"
 breadcrumb-title: ''
 description: Esporta scene 3D con tutte le modifiche apportate in Designer utilizzando l’azione Esporta scena nel menu Scena vista 3D.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Esportazione di scene
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Per gli altri formati, il contenuto della scena e la sua struttura interna dipen
 >
 > Tutti gli elementi aggiunti alla scena da Designer verranno inclusi nella scena esportata: la videocamera predefinita, l’ambiente predefinito, tutto il materiale copia eventuali luci aggiuntive.
 
-![Azioni di esportazione scene](../../assets/exportActions.png "Azioni di esportazione scene"){zoomable="yes"}
+![Azioni di esportazione scene](exporting-scenes.resources/exportActions.png "Azioni di esportazione scene"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -65,7 +65,7 @@ Ciò significa che le modifiche apportate alla scena originale non influiscono a
 </td>
 <td style="border: 0;" valign="top">
 
-![File di scena esportati - Con unico livello](../../assets/exportFlattened.png "File di scena esportati - Con unico livello"){zoomable="yes"}
+![File di scena esportati - Con unico livello](exporting-scenes.resources/exportFlattened.png "File di scena esportati - Con unico livello"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,7 +84,7 @@ Questo significa che le modifiche apportate alla scena originale vengono trasfer
 </td>
 <td style="border: 0;" valign="top">
 
-![File di scena esportati - Con livelli](../../assets/exportLayered.png "File di scena esportati - Con livelli"){zoomable="yes"}
+![File di scena esportati - Con livelli](exporting-scenes.resources/exportLayered.png "File di scena esportati - Con livelli"){zoomable="yes"}
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-fill.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-fill.html"
 breadcrumb-title: ''
 description: Usate il nodo Riempimento spline per riempire le aree definite dalle spline chiuse con texture o colori.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Riempimento spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 0%
+source-wordcount: '217'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo](../../../../../../assets/spline-fill-icon.png "Icona nodo")
+![Icona nodo](spline-fill.resources/spline-fill-icon.png "Icona nodo")
 
 <b>In:</b> Strumenti Spline E Tracciati > Strumenti spline
 
@@ -45,28 +45,23 @@ Le spline aperte vengono chiuse con una linea retta dall&#39;inizio alla fine. L
 >
 > Si consiglia di non utilizzare questo nodo su spline che si trovano al di fuori del riquadro [0,1]. Il processo di riempimento non è affidabile in quel caso.
 
-## Connettori di ingresso
+<a name="inputs"></a>
 
-<b>Spline Coords</b> *Colore* Coordinate dei punti delle spline di input codificate nei canali RGBA di un&#39;immagine a colori:\
-<b> R</b> - Posizione X\
-<b> G</b> - Posizione Y\
-<b> B</b> - Height\
-<b>A</b> - Dati compressi:\
-* Segno: la spline è chiusa (negativa) o aperta (positiva);\
-* Valore assoluto: Thickness + 1.
+## Input
 
-<b>Dati spline</b> *Colore* Dati aggiuntivi delle spline di input codificate nei canali RGBA di un&#39;immagine a colori.\
-<b> R</b> - Tangenti X\
-<b> G</b> - Tangenti Y\
-<b> B</b> - Non in uso\
-<b> A</b> - Non in uso
+|  |  |
+|:---|:---|
+| <b>Spline Coords</b> <i>Colore</i> | Coordinate dei punti delle spline di input codificate nei canali RGBA di un&#39;immagine a colori:<br><b>R</b> - Posizione X<br><b>G</b> - Posizione Y<br><b>B</b> - Height<br><b>A</b> - Dati compressi:<br>- Segno: la spline è chiusa (negativa) o aperta (positiva);<br>- Valore assoluto: Thickness + 1. |
+| <b>Dati spline</b> <i>Colore</i> | Dati aggiuntivi delle spline di input codificate nei canali RGBA di un&#39;immagine a colori.<br><b>R</b> - Tangenti X<br><b>G</b> - Tangenti Y<br><b>B</b> - Non utilizzati<br><b>A</b> - Non utilizzati |
+| <b>Quantità spline</b> <i>Numero intero</i> | Numero di spline di input. |
 
-<b>Quantità spline</b> *Numero intero* Numero di spline di input.
+<a name="outputs"></a>
 
-## Connettori di uscita
+## Output
 
-<b>Output</b> *Scala di grigi*\
-Immagine del risultato del riempimento delle spline di input con un colore bianco piatto su uno sfondo nero piatto.
+|  |  |
+|:---|:---|
+| <b>Output</b> <i>Scala di grigi</i> | Immagine del risultato del riempimento delle spline di input con un colore bianco piatto su uno sfondo nero piatto. |
 
 ## Esempi
 
@@ -77,11 +72,11 @@ Immagine del risultato del riempimento delle spline di input con un colore bianc
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineFill-Variant1-Before.jpg" alt="SplineFill-Variant1-Before">
+      <img src="spline-fill.resources/SplineFill-Variant1-Before.jpg" alt="SplineFill-Variant1-Before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineFill-Variant1-After.jpg" alt="SplineFill-Variant1-After">
+      <img src="spline-fill.resources/SplineFill-Variant1-After.jpg" alt="SplineFill-Variant1-After">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -90,7 +85,7 @@ Immagine del risultato del riempimento delle spline di input con un colore bianc
 </td>
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 2](../../../../../../assets/SplineFill-Demo.gif "Esempio di nodo 2")
+![Esempio di nodo 2](spline-fill.resources/SplineFill-Demo.gif "Esempio di nodo 2")
 
 </td>
 </tr>

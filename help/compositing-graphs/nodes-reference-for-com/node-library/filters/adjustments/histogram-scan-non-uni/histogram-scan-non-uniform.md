@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-scan-non-uniform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-scan-non-uniform.html"
 breadcrumb-title: ''
 description: Usa il nodo Istogramma non uniforme per eseguire la scansione istogramma non uniforme per la correzione avanzata del colore.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Scansione istogramma non uniforme
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 1%
+source-wordcount: '210'
+ht-degree: 3%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/histogram-scan-non-uniform.png){width="128px"}
+![](histogram-scan-non-uniform.resources/histogram-scan-non-uniform.png){width="128px"}
 
-## Scansione istogramma non uniforme
-
-**Ingresso:** *Filtri/Regolazioni*
-
-**Complesso**
+<b>Ingresso:</b> Filtri > Regolazioni
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -41,23 +37,27 @@ Versione avanzata di [Scansione istogramma](../../../../../../compositing-graphs
 
 L&#39;utilizzo è molto più complesso rispetto alla normale [scansione dell&#39;istogramma](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md), quindi assicurati di averne familiarità prima di provare a utilizzare la versione non uniforme.
 
-## Parametri
-
-### Input
-
-* **Input**: *Input in scala di grigi* Risultato di origine da modificare.
-* **Mappa posizione**: *Input scala di grigi* Slot di input per l&#39;unità del parametro Posizione. Attivato quando &quot;Usa input posizione&quot; è impostato su True. L’intervallo di valori effettivi è ridotto e dipende dalle impostazioni e dalla mappa del contrasto.
-* **Mappa contrasto**: *Input scala di grigi* Slot di input per attivare il parametro di contrasto. Attivato quando &quot;Usa input contrasto&quot; è impostato su True. L&#39;intervallo dei valori effettivi è ridotto.
-
-### Parametri
-
-* **Usa input posizione**: *False/True* Attiva/disattiva l&#39;uso dello slot di input della mappa posizione.
-* **posizione**: *0.0 - 1.0* Controlla o modifica i risultati della mappa per controllare l&#39;impostazione della posizione.
-* **Usa input contrasto**: *False/True* Attiva/disattiva l&#39;uso dello slot di input Mappa contrasto.
-* **contrasto**: *0.0 - 1.0* Controlla o modifica i risultati della mappa per determinare l&#39;impostazione del contrasto.
-
-## Immagini di esempio
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Input
+
+|  |  |
+|:---|:---|
+| <b>Input</b> <i>Input scala di grigi</i> | Risultato di origine da modificare. |
+| <b>Mappa posizione</b> <i>Input scala di grigi</i> | Slot di input per guidare il parametro Posizione. Attivato quando &quot;Usa input posizione&quot; è impostato su True. L’intervallo di valori effettivi è ridotto e dipende dalle impostazioni e dalla mappa del contrasto. |
+| <b>Mappa contrasto</b> <i>Input scala di grigi</i> | Slot di input per guidare il parametro di contrasto. Attivato quando &quot;Usa input contrasto&quot; è impostato su True. L&#39;intervallo dei valori effettivi è ridotto. |
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Usa input posizione</b> <i>Falso/Vero</i> | Attiva/disattiva l&#39;uso dello slot di input Mappa posizione. |
+| <b>posizione</b> <i>0.0 - 1.0</i> | Controlla o modifica i risultati della mappa per determinare l&#39;impostazione della posizione. |
+| <b>Usa input contrasto</b> <i>Falso/Vero</i> | Attiva/disattiva l&#39;uso dello slot di input Mappa contrasto. |
+| <b>contrasto</b> <i>0.0 - 1.0</i> | Controlla o modifica i risultati della mappa per determinare l’impostazione del contrasto. |

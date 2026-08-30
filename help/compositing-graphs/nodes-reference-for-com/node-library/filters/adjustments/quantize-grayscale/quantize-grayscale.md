@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/quantize-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/quantize-grayscale.html"
 breadcrumb-title: ''
 description: Usate il nodo Quantizza scala di grigi per ridurre il numero di livelli della scala di grigi per gli effetti di posterizzazione.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Quantizza scala di grigi
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '162'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona Quantizza scala di grigi](../../../../../../assets/quantize-grayscale.png "Icona Quantizza scala di grigi"){width="200px"}
+![Icona Quantizza scala di grigi](quantize-grayscale.resources/quantize-grayscale.png "Icona Quantizza scala di grigi"){width="200px"}
 
 <b>Ingresso:</b> Filtri > Regolazioni
 
@@ -39,21 +39,19 @@ Genera una singola spline a forma di cerchio.
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parametri
 
-<b>Passaggi</b> *Intero* Numero di valori separati a cui deve essere approssimato l&#39;intervallo di input.
-
-<b>Scostamento</b> *Mobile* Applica un offset all&#39;intervallo di input, che *sposta* i risultati lungo l&#39;intervallo.
-
-<b>Pendenza</b> *Mobile* Applica una sfumatura pendenza alle *transizioni* tra valori approssimati, fino all&#39;*intera estensione di un passaggio*.
-
-<b>Pendenza curva</b> *Numero intero* Imposta il metodo di acquisizione della curva per la pendenza impostata dal parametro <b>Pendenza</b>:
-* *Lineare*: applica una curva lineare, creando una pendenza retta
-* *Smoothstep*: applica una curva smoothstep, creando una pendenza uniforme
-* *Input curva*: applica la curva descritta dalla mappa di input <b>Input curva</b>. È possibile utilizzare un nodo [Curva](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md) per descrivere questa curva con una grande quantità di controllo.
+|  |  |
+|:---|:---|
+| <b>Passaggi</b> *Numero intero* | Numero di valori separati a cui deve essere approssimato l&#39;intervallo di input. |
+| <b>Scostamento</b> *Mobile* | Applica uno scostamento all&#39;intervallo di input, che *sposta* i risultati lungo l&#39;intervallo. |
+| <b>Pendenza</b> *Mobile* | Applica una sfumatura pendenza alle *transizioni* tra valori approssimati, fino all&#39;*intera estensione di un passaggio*. |
+| <b>Pendenza curva</b> *Numero intero* | Imposta il metodo di acquisizione della curva per la pendenza impostata dal parametro <b>Pendenza</b>:<ul data-preserve-html="true"> <li data-preserve-html="true">*Lineare*: applica una curva lineare, creando una pendenza retta</li> <li data-preserve-html="true">*Smoothstep*: applica una curva smoothstep, creando una pendenza uniforme</li> <li data-preserve-html="true">*Input curva*: applica la curva descritta dalla mappa di input <b>Input curva</b>. È possibile utilizzare un nodo [Curva](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md) per descrivere questa curva con una grande quantità di controllo.</li> </ul> |
 
 ## Esempi
 
-![Esempio 1](../../../../../../assets/quantizegrayscale.gif "Esempio 1")
+![Esempio 1](quantize-grayscale.resources/quantizegrayscale.gif "Esempio 1")
 
-![Esempio 2](../../../../../../assets/quantizegrayscale.png "Esempio 2")
+![Esempio 2](quantize-grayscale.resources/quantizegrayscale.png "Esempio 2")

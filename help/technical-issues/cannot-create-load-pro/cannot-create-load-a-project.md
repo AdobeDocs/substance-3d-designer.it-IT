@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/technical-issues/cannot-create-load-a-project.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/cannot-create-load-a-project.html"
 breadcrumb-title: ''
 description: Risolvi i problemi con la creazione o il caricamento dei progetti in Substance 3D Designer e trova soluzioni.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Impossibile creare un progetto
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 21af965a075e8c119d16922f15b867da99c21397
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1101'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ In questa pagina sono elencate le cause più comuni di mancata creazione o caric
 
 ## Applicazione troppo vecchia per aprire l&#39;URL
 
-**![(errore)](../../assets/error.svg) Problema**
+**![(errore)](cannot-create-load-a-project.resources/error.svg) Problema**
 
-Il **file Substance 3D (SBS)** è caricato da una versione di Substance 3D Designer che *non supporta il formato*. Il file Substance 3D è stato probabilmente *salvato in una versione più recente* del software che utilizza un formato aggiornato per questi file.
+Il file **Substance 3D (SBS)** è caricato da una versione di Substance 3D Designer che *non supporta il formato*. Il file Substance 3D è stato probabilmente *salvato in una versione più recente* del software che utilizza un formato aggiornato per questi file.
 
-**![(tick)](../../assets/check.svg) Passaggi consigliati**
+**![(tick)](cannot-create-load-a-project.resources/check.svg) Passaggi consigliati**
 
 Con l&#39;evoluzione di Substance 3D Designer, si evolve anche il formato di file Substance 3D (SBS). Nella maggior parte dei casi, una nuova versione del software dovrà *aggiornare i file* in modo che possano supportare le funzionalità più recenti.
 
@@ -43,7 +43,7 @@ Ti viene *richiesto* di eseguire questo aggiornamento quando *carichi il file pe
 Innanzitutto, controlla di utilizzare la versione più recente di Substance 3D Designer consentita dalla tua licenza corrente. Di seguito sono riportati i punti di accesso agli aggiornamenti per ogni edizione:
 
 * <b>Abbonamento ad Substance 3D:</b> vai alla sezione Aggiornamenti della scheda App nell’applicazione [Adobe Creative Cloud Desktop](https://creativecloud.adobe.com/en/apps/download/creative-cloud)
-* Abbonamento a <b>[Substance3d.com](http://Substance3d.com):</b> aggiornamento quando richiesto in Substance 3D Designer o download del programma di installazione più recente nella sezione [Licenze personali](https://store.substance3d.com/user) del sito Web [Substance3d.com](http://substance3d.com)
+* <b>[abbonamento a Substance3d.com](http://Substance3d.com):</b> aggiornamento quando richiesto in Substance 3D Designer o download del programma di installazione più recente nella sezione [Licenze personali](https://store.substance3d.com/user) del sito Web [Substance3d.com](http://substance3d.com)
 * <b>Steam:</b> l&#39;applicazione verrà aggiornata automaticamente per impostazione predefinita. Puoi attivare manualmente l&#39;aggiornamento avviando Substance 3D Designer o accedendo alla schermata Download
 
 >[!WARNING]
@@ -54,7 +54,7 @@ Innanzitutto, controlla di utilizzare la versione più recente di Substance 3D D
 
 ## Arresto anomalo durante la creazione o il caricamento di un progetto
 
-<b>![(errore)](../../assets/error.svg) Problema</b>
+<b>![(errore)](cannot-create-load-a-project.resources/error.svg) Problema</b>
 
 Un arresto anomalo durante la creazione o il caricamento di un progetto è spesso causato da un errore durante l&#39;inizializzazione della [vista 3D](../../interface/3d-view/3d-view.md), che si verifica quando viene impostata l&#39;area di lavoro.
 
@@ -62,7 +62,7 @@ Se il sistema è un laptop, un&#39;applicazione di terze parti potrebbe applicar
 
 Può verificarsi un arresto anomalo anche quando la configurazione o il ridimensionamento della visualizzazione *sono stati modificati* tra una sessione e l’altra, per cui il fotogramma di rendering della vista 3D viene creato con coordinate non valide.
 
-<b>![(tick)](../../assets/check.svg) Passaggi consigliati</b>
+<b>![(tick)](cannot-create-load-a-project.resources/check.svg) Passaggi consigliati</b>
 
 Considerando le molteplici cause possibili di questo arresto anomalo, consigliamo di eseguire i seguenti passaggi per la risoluzione dei problemi:
 
@@ -84,7 +84,7 @@ Nella maggior parte dei casi, questo si ottiene in un’applicazione dedicata ch
 
 Ripristina interfaccia utente salvata nel Registro di sistema
 
-Se l’arresto anomalo è causato da una modifica della configurazione o del ridimensionamento dello schermo, prova a eliminare le voci del registro di sistema esistenti per consentire a Designer di ripristinare completamente l’interfaccia utente, tra le altre impostazioni.
+Se l&#39;arresto anomalo è causato da una modifica della configurazione o del ridimensionamento della visualizzazione, è possibile provare a eliminare le voci del Registro di sistema esistenti per Designer per ripristinare completamente l&#39;interfaccia utente, tra le altre impostazioni.
 
 La procedura per eseguire questo ripristino per sistema operativo è descritta di seguito:
 

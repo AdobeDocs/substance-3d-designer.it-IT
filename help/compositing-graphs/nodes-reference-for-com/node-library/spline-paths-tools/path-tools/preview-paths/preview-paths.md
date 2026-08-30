@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/preview-paths.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/preview-paths.html"
 breadcrumb-title: ''
 description: Utilizzare il nodo Anteprima percorsi per visualizzare i dati dei percorsi nella vista 2D per il debug e la verifica.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Anteprima tracciati
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 1%
+source-wordcount: '169'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo](../../../../../../assets/preview-paths-icon.png "Icona nodo")
+![Icona nodo](preview-paths.resources/preview-paths-icon.png "Icona nodo")
 
 <b>In:</b> Strumenti spline e tracciati > Strumenti tracciato
 
@@ -41,24 +41,24 @@ Otterrai un risultato simile all&#39;output <b>Anteprima</b> di [Maschera nei tr
 </tr>
 </table>
 
-## Connettori di ingresso
+<a name="inputs"></a>
 
-<b>Sfondo</b> *Colore*\
-Un&#39;immagine di sfondo sopra a con visualizza il tracciato. Controlla anche le dimensioni di rendering.
+## Input
 
-<b>Tracciati</b> *Colore*\
-Un elenco di percorsi dei segmenti codificati. Collegare questo input al risultato di una [maschera ai percorsi](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) o a un altro nodo di elaborazione dei percorsi.
+|  |  |
+|:---|:---|
+| <b>Sfondo</b> <i>Colore</i> | Un&#39;immagine di sfondo sopra a con visualizza il tracciato. Controlla anche le dimensioni di rendering. |
+| <b>Tracciati</b> <i>Colore</i> | Un elenco di percorsi dei segmenti codificati. Collegare questo input al risultato di una [maschera ai percorsi](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) o a un altro nodo di elaborazione dei percorsi. |
+
+<a name="parameters"></a>
 
 ## Parametri
 
-<b>Mostra angoli</b> *Booleano*\
-Visualizza un quadratino su ciascun vertice contrassegnato come angolo (fusione additiva).
-
-<b>Mostra vertici</b> *Booleano*\
-Visualizza una forma circolare su ciascun vertice (fusione additiva). Gli angoli vengono ancora visualizzati come quadrati.
-
-<b>Thickness segmenti (px)</b> *Mobile*\
-Regola il thickness di segmenti sottoposti a rendering in pixel.
+|  |  |
+|:---|:---|
+| <b>Mostra angoli</b> <i>Booleano</i> | Visualizza un quadratino su ciascun vertice contrassegnato come angolo (fusione additiva). |
+| <b>Mostra vertici</b> <i>Booleano</i> | Visualizza una forma circolare su ciascun vertice (fusione additiva). Gli angoli vengono ancora visualizzati come quadrati. |
+| <b>Thickness segmenti (px)</b> <i>Mobile</i> | Regola il thickness di segmenti sottoposti a rendering in pixel. |
 
 ## Esempi
 
@@ -66,12 +66,12 @@ Regola il thickness di segmenti sottoposti a rendering in pixel.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 1](../../../../../../assets/PathsToSpline-Variant2-Before_1.jpg "Esempio di nodo 1")
+![Esempio di nodo 1](preview-paths.resources/PathsToSpline-Variant2-Before_1.jpg "Esempio di nodo 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 2](../../../../../../assets/PathsToSpline-Variant1-Before_1.jpg "Esempio di nodo 2")
+![Esempio di nodo 2](preview-paths.resources/PathsToSpline-Variant1-Before_1.jpg "Esempio di nodo 2")
 
 </td>
 </tr>

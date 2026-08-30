@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-normalize.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-normalize.html"
 breadcrumb-title: ''
 description: Utilizzare il nodo Normale per normalizzare i vettori di mappe normali per garantire la corretta ombreggiatura e illuminazione della superficie.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Normale - Normale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 2%
+source-wordcount: '64'
+ht-degree: 1%
 
 ---
 
@@ -22,34 +22,20 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/normal-normalize.png){width="128px"}
+![](normal-normalize.resources/normal-normalize.png){width="128px"}
 
-## Normale - Normale
-
-**Ingresso:** *Filtri/Mappa Normale*
-
-**Semplice**
+<b>Ingresso:</b> Filtri > Mappa normale
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
 Esegue un’operazione matematica di normalizzazione vettoriale su ogni singolo pixel dell’immagine.
 
 Utile quando sono state apportate molte fusioni e modifiche alla mappa di normalizzazione e desiderate assicurarvi che venga esportato un risultato corretto.
-
-## Parametri
-
-*Nessun parametro.*
-
-## Immagini di esempio
-
-|  |
-| --- |
-| Nessuna immagine allegata alla pagina. |
 
 </td>
 </tr>

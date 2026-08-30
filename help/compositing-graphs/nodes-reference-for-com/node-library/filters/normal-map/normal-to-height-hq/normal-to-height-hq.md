@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-to-height-hq.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-to-height-hq.html"
 breadcrumb-title: ''
-description: Utilizzare il nodo QG Normale al Height per convertire le mappe normali in mappe di height di alta qualità per l'estrazione dei dettagli della superficie.
+description: Utilizzare il nodo QG Normale al Height per convertire le mappe normali in mappe di altezza di alta qualità per l'estrazione dei dettagli della superficie.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Normal To Height HQ
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Normale alla sede centrale del Height
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 1%
+source-wordcount: '190'
+ht-degree: 3%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/normal-to-height-hq.png){width="128px"}
+![](normal-to-height-hq.resources/normal-to-height-hq.png){width="128px"}
 
-## Normale alla sede centrale del Height
-
-**Ingresso:** *Filtri/Mappa Normale*
-
-**Intermedio**
+<b>Ingresso:</b> Filtri > Mappa normale
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -41,21 +37,28 @@ Nodo di conversione inversa che tenta di riconvertire una Normalmap dello spazio
 
 Utile per quando si dispone solo di una sorgente Normalmap, ma si desidera comunque eseguire operazioni combinandole con una Heightmap. Tenete presente che questo non sarà mai in grado di fornire un risultato corretto al 100%, poiché le informazioni vengono perse per natura del processo quando il Height viene convertito in Normale. Non può mai sostituire una mappa dell&#39;altezza generata correttamente.
 
-## Parametri
-
-* **Formato normale**: *DirectX, OpenGL*\
-  Passa da un formato Normalmap a un altro (inverte il canale verde).
-* **Bilanciamento Rilievi**: *0,0 - 1,0* Fusioni tra distorsione a bassa e alta frequenza.
-* **Intensità Height**: *0,0 - 1,0* Intensità o moltiplicatore per Heightmap, funziona un po&#39; come l&#39;opacità globale.
-* **Normalizzazione Height**: *False/True* Ridimensiona automaticamente l&#39;intervallo della mappa altezza per utilizzare il contrasto completo, ad esempio un [livello automatico](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/auto-levels/auto-levels.md).
-* **Qualità**: *Normale, Alta* Alterna velocità o qualità.
-
-## Immagini di esempio
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/normal2height-hq-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Formato Normale</b> <i>DirectX, OpenGL</i> | Passa da un formato Normalmap a un altro (inverte il canale verde). |
+| <b>Saldo Rilievo</b> <i>0.0 - 1.0</i> | Fusione tra distorsione a bassa e alta frequenza. |
+| <b>Intensità Height</b> <i>0.0 - 1.0</i> | L’intensità o il moltiplicatore per Heightmap funziona un po’ come l’opacità globale. |
+| <b>Normalizzazione Height</b> <i>Falso/Vero</i> | Ridimensiona automaticamente l&#39;intervallo della mappa di altezza in modo da utilizzare l&#39;intero contrasto, ad esempio [livelli automatici](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/auto-levels/auto-levels.md). |
+| <b>Qualità</b> <i>Normale, Alto</i> | Consente di passare dalla velocità alla qualità. |
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="normal-to-height-hq.resources/normal2height-hq-ex.png" />
+        </td>
+    </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/3d-texture-offset.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/3d-texture-offset.html"
 breadcrumb-title: ''
 description: Usate il nodo Scostamento texture 3D per scostare le texture nello spazio 3D per creare effetti di parallasse e variazioni di superficie.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Scostamento texture 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '101'
 ht-degree: 3%
 
 ---
@@ -22,29 +22,27 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dtextureoffsetgrayscale.png){width="200px"}
+![](3d-texture-offset.resources/3dtextureoffsetgrayscale.png){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dtextureoffsetcolor.png){width="200px"}
+![](3d-texture-offset.resources/3dtextureoffsetcolor.png){width="200px"}
 
 </td>
 </tr>
 </table>
 
-**Entrata:** *Filtro/Trasformazione*
-
-**Semplice**
+<b>Entrata:</b> Filtro > Trasformazione
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -54,32 +52,31 @@ Il nodo **Scostamento texture 3D** applica una *trasformazione offset* negli ass
 </tr>
 </table>
 
+<a name="inputs"></a>
+
+## Input
+
+|  |  |
+|:---|:---|
+| <b>Input</b> <i>Scala di grigi/Colore</i> | La <i>texture 3D</i> che descrive un oggetto 3D.<br>L&#39;oggetto è comunemente descritto in un <i>cubo di unità</i>. |
+
+<a name="parameters"></a>
+
 ## Parametri
 
-### Input
+|  |  |
+|:---|:---|
+| <b>Scostamento</b> <i>Float3</i> | Quantità di scostamento nello <i>spazio mondiale</i> applicata all&#39;oggetto descritto dalla <i>texture 3D</i> connessa all&#39;<b>input</b>. |
 
-* **Input** *Scala di grigi/Colore*\
-  La *texture 3D* che descrive un oggetto 3D.\
-  L&#39;oggetto viene comunemente descritto in un *cubo di unità*.
+## Esempi
 
-### Parametri
-
-* **Scostamento** *Float3*\
-  Quantità di scostamento nello *spazio mondiale* applicata all&#39;oggetto descritto dalla *texture 3D* connessa all&#39;**input**.
-
-## Immagini di esempio
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtextureoffset-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtextureoffset-node.png){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-offset.resources/3dtextureoffset-variant.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-offset.resources/3dtextureoffset-node.png" />
+        </td>
+    </tr>
 </table>

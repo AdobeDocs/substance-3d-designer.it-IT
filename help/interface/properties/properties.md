@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/properties.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/properties.html"
 breadcrumb-title: ''
 description: Usate il pannello Proprietà in Substance 3D Designer per visualizzare e modificare le proprietà dei nodi e i parametri dei grafici.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Proprietà
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Il pannello <b>Proprietà </b> è un pannello sensibile al contesto che cambia i
 </td>
 <td style="border: 0;" valign="top">
 
-![Ancoraggio proprietà](../../assets/image2020-11-9-13-49-48.png "Ancoraggio proprietà")
+![Ancoraggio proprietà](properties.resources/image2020-11-9-13-49-48.png "Ancoraggio proprietà")
 
 </td>
 </tr>

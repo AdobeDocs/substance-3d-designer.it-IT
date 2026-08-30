@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
 breadcrumb-title: ''
 description: Scopri come utilizzare i file di configurazione del progetto SBSPRJ in Substance 3D Designer per gestire le impostazioni del progetto.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: File di configurazione del progetto - SBSPRJ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Sono speciali in quanto consentono di utilizzare più file di configurazione del
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Icona file SBSPRJ](../../assets/sbsprj.png "Icona file SBSPRJ")
+![Icona file SBSPRJ](project-configuration-files-sbsprj.resources/sbsprj.png "Icona file SBSPRJ")
 
 </td>
 </tr>
@@ -55,7 +55,7 @@ Tuttavia, alcune impostazioni <b>espandono</b> in base alle impostazioni princip
 
 I file di progetto possono contenere le seguenti impostazioni:
 
-<b>Vista 3D: </b>Definizioni di shader predefinito, HDR e stato della scena.
+<b>vista 3D: </b>Definizioni di Shader predefinito, HDR e stato della scena.
 
 <b>Alias: </b>Alias parole chiave per percorsi relativi.
 
@@ -85,7 +85,7 @@ Per Windows, [Blocco note++](https://notepad-plus-plus.org) è una buona opzione
 
 Una volta aperto il file SBSPRJ in un editor, dovresti vedere un layout strutturato abbastanza semplice, con sezioni corrispondenti alle schede nell&#39;interfaccia utente. Non tutte le impostazioni saranno documentate qui, poiché è abbastanza autoesplicativo.
 
-![Modifica XML](../../assets/project-xml.png "Modifica XML")
+![Modifica XML](project-configuration-files-sbsprj.resources/project-xml.png "Modifica XML")
 
 ## Percorsi e alias relativi
 

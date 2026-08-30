@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-rust-fine.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-rust-fine.html"
 breadcrumb-title: ''
 description: Usa il nodo Fine della Ruggine di Grunge per generare pattern di ruggine fini per aggiungere effetti di corrosione e di resistenza agli agenti atmosferici ai metalli.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Ruggine di grunge fine
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '176'
 ht-degree: 1%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungerustfine.jpg){width="200px"}
+![](grunge-rust-fine.resources/grungerustfine.jpg){width="200px"}
 
-**Ingresso:** *Generatori Di Texture* */Rumori*
-
-**Semplice**
+<b>Ingresso:</b> Generatori di Texture > Rumori
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -41,32 +39,32 @@ Il nodo **Ruggine di Grunge fine** genera una mappa di grunge simile a una sovra
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parametri
 
-* **Bilanciamento** *Fluttuazione* Regola il bilanciamento tra valori scuri e chiari.
-* **Contrasto** *Mobile* Regola il contrasto dell&#39;immagine.
-* **Inverti** *Booleano* Inverte l&#39;output dell&#39;immagine, utilizzando un&#39;operazione `1-x`.
-* **Non square expansion** *Booleano* Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati.
-* Avanzate
-  * **Contrasto base Grunge** *Fluttuazione* Regola il contrasto della texture della grunge utilizzata come base per la ruggine.
-  * **Intensità alterazione base** *Fluttuazione* Regola l’intensità dell’effetto di alterazione applicato sulla mappa della grunge utilizzata come base per la ruggine.
-  * **Intensità striature** *Muovi* Regola l’intensità delle striature più luminose e delle macchie sovrapposte sulla texture della grunge di base.
-  * **Intensità disturbo** *Fluttuazione* Regola l&#39;intensità del disturbo applicato alla texture della grunge di base.
-  * **Intensità nitidezza** *Fluttuazione* Regola l&#39;intensità dell&#39;effetto di nitidezza globale.
+|  |  |
+|:---|:---|
+| <b>Saldo</b> <i>Mobile</i> | Regola il bilanciamento tra i valori di luminosità e oscurità. |
+| <b>Contrasto</b> <i>Mobile</i> | Regola il contrasto dell’immagine. |
+| <b>Inverti</b> <i>Booleano</i> | Inverte l&#39;output dell&#39;immagine utilizzando un&#39;operazione `1-x`. |
+| <b>Non square expansion</b> <i>Booleano</i> | Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati. |
+| <b>Avanzate</b> |  |
+| <b>Contrasto Grunge di base</b> <i>Mobile</i> | Regola il contrasto della texture di grunge utilizzata come base per la ruggine. |
+| <b>Intensità alterazione base</b> <i>Mobile</i> | Regola l’intensità dell’effetto di alterazione applicato alla mappa della grunge usata come base per la ruggine. |
+| <b>Intensità striature</b> <i>Mobile</i> | Regola l’intensità delle striature e delle macchie più luminose sovrapposte alla texture di grunge alla base. |
+| <b>Intensità disturbo</b> <i>Mobile</i> | Consente di regolare l’intensità del disturbo applicato alla texture di grunge di base. |
+| <b>Intensità nitidezza</b> <i>Mobile</i> | Regola l’intensità dell’effetto di nitidezza globale. |
 
-## Immagini di esempio
+## Esempi
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungerustfine-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungerustfine-variant.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grunge-rust-fine.resources/grungerustfine-variant2.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="grunge-rust-fine.resources/grungerustfine-variant.jpg" />
+        </td>
+    </tr>
 </table>

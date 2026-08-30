@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/quantize.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/quantize.html"
 breadcrumb-title: ''
 description: Usate il nodo Quantizza colore per ridurre il numero di colori nelle texture e creare effetti posterizzati e stilizzati.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Quantizza colore (semplice)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '104'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona Quantizza colore](../../../../../../assets/quantize.png "Icona Quantizza colore"){width="200px"}
+![Icona Quantizza colore](quantize.resources/quantize.png "Icona Quantizza colore"){width="200px"}
 
 <b>Ingresso:</b> Filtri > Regolazioni
 
@@ -39,14 +39,13 @@ Approssima l’intervallo di input a un numero predefinito di valori. Introduce 
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parametri
 
-<b>Quantizza canale rosso</b> *Intero* Imposta il numero di passaggi per approssimare il canale rosso di.
-
-<b>Quantizza canale verde</b> *Intero* Imposta il numero di passaggi per approssimare il canale verde in base a.
-
-<b>Quantizza canale blu</b> *Numero intero*
-
-Imposta il numero di passaggi per approssimare il canale Blu di.
-
-<b>Quantizza canale Alpha</b> *Intero* Imposta il numero di passaggi per approssimare il canale di Alpha.
+|  |  |
+|:---|:---|
+| <b>Quantizza canale rosso</b> *Numero intero* | Imposta il numero di passaggi per approssimare il canale Rosso di. |
+| <b>Quantizza canale verde</b> *Numero intero* | Imposta il numero di passaggi per approssimare il canale Verde di. |
+| <b>Quantizza canale blu</b> *Numero intero* | Imposta il numero di passaggi per approssimare il canale Blu di. |
+| <b>Quantizza canale Alpha</b> *Numero intero* | Consente di impostare il numero di passi in base ai quali approssimare il Canale alfa. |

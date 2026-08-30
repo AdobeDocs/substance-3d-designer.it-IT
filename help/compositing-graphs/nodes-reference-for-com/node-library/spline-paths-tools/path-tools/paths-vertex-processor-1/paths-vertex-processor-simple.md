@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-vertex-processor-simple.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-vertex-processor-simple.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Semplice processore vertici tracciati per elaborare i vertici dei tracciati con opzioni di trasformazione semplificate.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Processore vertici tracciati semplice
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 0%
+source-wordcount: '327'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo](../../../../../../assets/paths-vertex-processor-simple-icon.png "Icona nodo")
+![Icona nodo](paths-vertex-processor-simple.resources/paths-vertex-processor-simple-icon.png "Icona nodo")
 
 <b>In:</b> Strumenti spline e tracciati > Strumenti tracciato
 
@@ -55,28 +55,31 @@ Puoi anche accedere alle variabili *vertex.corner* (bool) e *path.id* (float).
 >
 > Vedere anche [Processore vertici tracciati](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md).
 
-## Connettori di ingresso
+<a name="inputs"></a>
 
-<b>Tracciati</b> *Colore*\
-Un elenco di percorsi dei segmenti codificati. Collegare questo input al risultato di una [maschera ai percorsi](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) o a un altro nodo di elaborazione dei percorsi.
+## Input
 
-<b>Input n. </b> *Colore/Scala di grigi*\
-Input per immagini da campionare nella funzione parametro <b>Per vertex function</b>.
+|  |  |
+|:---|:---|
+| <b>Tracciati</b> <i>Colore</i> | Un elenco di percorsi dei segmenti codificati. Collegare questo input al risultato di una [maschera ai percorsi](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) o a un altro nodo di elaborazione dei percorsi. |
+| <b>Input n. </b> <i>Colore/Scala di grigi</i> | Input per immagini da campionare nella funzione parametro <b>Per vertex function</b>. |
 
-## Connettori di uscita
+<a name="outputs"></a>
 
-<b>Tracciati</b> *Colore*\
-I tracciati trasformati. Potete utilizzare [Anteprima tracciati](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) per avere un&#39;idea di ciò che rappresenta il risultato, utilizzare un altro nodo di elaborazione tracciati o inserirlo in un [Tracciati da spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) per elaborarlo ulteriormente come spline.
+## Output
+
+|  |  |
+|:---|:---|
+| <b>Tracciati</b> <i>Colore</i> | I tracciati trasformati. Potete utilizzare [Anteprima tracciati](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) per avere un&#39;idea di ciò che rappresenta il risultato, utilizzare un altro nodo di elaborazione tracciati o inserirlo in un [Tracciati da spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) per elaborarlo ulteriormente come spline. |
+
+<a name="parameters"></a>
 
 ## Parametri
 
-<b>Conteggio input immagine</b> *Numero intero* Numero di connettori di input <b>N. di input</b> visibili per connettere le immagini che devono essere campionate nella funzione parametro <b>Per vertex function</b>.\
-Una volta impostati tutti i campioni desiderati, puoi nascondere i perni inutilizzati riducendo nuovamente il valore di questo parametro su 0.\
-Se avete bisogno di altri input, utilizzate invece il [processore vertici tracciati](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md).
-
-<b>Per vertex function</b> *Float2*\
-Funzione applicata a ciascun vertice. Deve restituire la nuova posizione del vertice.\
-Consulta la sezione <b>Descrizione</b> in questa pagina per indicazioni.
+|  |  |
+|:---|:---|
+| <b>Conteggio input immagine</b> <i>Numero intero</i> | Numero di connettori di input <b>Input n. </b> visibili per connettere le immagini da campionare nella funzione parametro <b>Per vertex function</b>.<br>Una volta impostati tutti i campioni desiderati, è possibile nascondere i segnaposti inutilizzati riducendo il valore di questo parametro a 0.<br>Se sono necessari altri input, utilizzare in alternativa [il processore vertici percorsi](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md). |
+| <b>Per vertex function</b> <i>Float2</i> | Funzione applicata a ciascun vertice. Deve restituire la nuova posizione del vertice.<br>Consulta la sezione <b>Descrizione</b> di questa pagina per indicazioni. |
 
 ## Esempi
 
@@ -84,7 +87,7 @@ Consulta la sezione <b>Descrizione</b> in questa pagina per indicazioni.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 2](../../../../../../assets/PathsVertexProcessor-Demo2.gif "Esempio di nodo 2")
+![Esempio di nodo 2](paths-vertex-processor-simple.resources/PathsVertexProcessor-Demo2.gif "Esempio di nodo 2")
 
 </td>
 <td style="border: 0;" valign="top">

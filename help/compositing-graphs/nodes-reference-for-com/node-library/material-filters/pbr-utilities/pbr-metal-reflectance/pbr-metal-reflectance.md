@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-metal-reflectance.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-metal-reflectance.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Riflettenza metallo PBR per calcolare i valori di riflessione del metallo per i flussi di lavoro dei materiali basati su dati fisici.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Riflettenza metallica PBR
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '109'
 ht-degree: 1%
 
 ---
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pbr-metal-reflectance.png){width="128px"}
+![](pbr-metal-reflectance.resources/pbr-metal-reflectance.png){width="128px"}
 
-## Riflettenza metallica PBR
-
-**Ingresso:** *Filtri materiale/Utility PBR*
-
-**Semplice**
+<b>In:</b> Filtri materiali > Utilità PBR
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -41,16 +37,14 @@ Questo è un rapido nodo Helper predefiniti per restituire i colori di riflessio
 
 Questo nodo è utile quando si desidera un punto di partenza per un metallo puro e consente di evitare la selezione dei colori da un grafico.
 
-## Parametri
-
-* **Colore metallo**: *Oro, Argento, Alluminio, Ferro, Rame, Titanio, Nichel, Cobalto, Platino* Sceglie un valore di metallo predefinito.
-
-## Immagini di esempio
-
-|  |
-| --- |
-| Nessuna immagine allegata alla pagina. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Colore metallo</b> <i>Oro, Argento, Alluminio, Ferro, Rame, Titanio, Nichel, Cobalto, Platino</i> | Seleziona un valore di metallo predefinito. |

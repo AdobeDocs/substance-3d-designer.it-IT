@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/function-graphs/warnings-in-function-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/warnings-in-function-graphs.html"
 breadcrumb-title: ''
 description: Consulta le avvertenze nei grafici delle funzioni di Substance 3D Designer e scopri come risolvere i problemi comuni.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Avvertenze nei grafici delle funzioni
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 0%
@@ -25,7 +25,7 @@ In questa pagina sono elencati gli avvisi e i messaggi di errore che possono ess
 Gli avvisi vengono visualizzati nella descrizione comandi dell&#39;icona di avviso per la risorsa grafico nel pannello [Esplora risorse](../../interface/the-explorer-window/the-explorer-window.md) e nell&#39;angolo inferiore sinistro della [visualizzazione Grafico](../../interface/the-graph-view/the-graph-view.md) se il grafico è caricato.\
 Se la funzione è *applicata a un parametro* in un [grafico di Substance](../../compositing-graphs/substance-compositing-graphs.md), qualsiasi avviso genererà l&#39;avviso &quot;*La funzione del parametro [x] presenta alcuni errori*&quot; generati per tale parametro.
 
-## ![(errore)](../../assets/error.svg) Nessun nodo di output definito
+## ![(errore)](warnings-in-function-graphs.resources/error.svg) Nessun nodo di output definito
 
 Per la funzione non è stato definito alcun nodo di output.
 
@@ -33,7 +33,7 @@ Per la funzione non è stato definito alcun nodo di output.
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-**![(tick)](../../assets/check.svg) Soluzione**
+**![(tick)](warnings-in-function-graphs.resources/check.svg) Soluzione**
 
 Selezionare qualsiasi nodo nel grafico che genera un valore il cui tipo corrisponde al tipo previsto per questa funzione, se presente, quindi fare clic su RMB e selezionare l&#39;opzione **Imposta come nodo di output** nel menu di scelta rapida.\
 Il nodo di output di un grafico a funzioni è colorato in *arancione*.
@@ -45,13 +45,13 @@ Il nodo di output di un grafico a funzioni è colorato in *arancione*.
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warnings-func-output.gif)
+![](warnings-in-function-graphs.resources/warnings-func-output.gif)
 
 </td>
 </tr>
 </table>
 
-### ![(errore)](../../assets/error.svg) Il nodo di output corrente restituisce un valore di tipo *x*
+### ![(errore)](warnings-in-function-graphs.resources/error.svg) Il nodo di output corrente restituisce un valore di tipo *x*
 
 Il nodo di output della funzione restituisce un valore il cui tipo non corrisponde al tipo di valore di output previsto per tale funzione.
 
@@ -59,7 +59,7 @@ Il nodo di output della funzione restituisce un valore il cui tipo non corrispon
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-**![(tick)](../../assets/check.svg) Soluzione**
+**![(tick)](warnings-in-function-graphs.resources/check.svg) Soluzione**
 
 Selezionare qualsiasi nodo nel grafico che genera un valore il cui tipo corrisponde al tipo previsto per questa funzione, quindi fare clic su RMB e selezionare l&#39;opzione **Imposta come nodo di output** nel menu di scelta rapida.\
 Il nodo di output di un grafico a funzioni è colorato in *arancione*.
@@ -71,13 +71,13 @@ Il nodo di output di un grafico a funzioni è colorato in *arancione*.
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warnings-func-output-type.gif)
+![](warnings-in-function-graphs.resources/warnings-func-output-type.gif)
 
 </td>
 </tr>
 </table>
 
-### ![(errore)](../../assets/error.svg) Alcuni nodi Get non hanno un nome di variabile
+### ![(errore)](warnings-in-function-graphs.resources/error.svg) Alcuni nodi Get non hanno un nome di variabile
 
 Per uno o più nodi [Get](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md) è stata lasciata vuota la proprietà <b>Get...</b>, quindi non fare riferimento a nessuna variabile.
 
@@ -85,7 +85,7 @@ Per uno o più nodi [Get](../../function-graphs/nodes-reference-for-fun/atomic-f
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-**![(tick)](../../assets/check.svg) Soluzione**
+**![(tick)](warnings-in-function-graphs.resources/check.svg) Soluzione**
 
 Immettere una stringa corrispondente al nome di una variabile *disponibile nell&#39;ambito della funzione* nella proprietà **Get...** dei nodi Get che generano questo avviso.
 
@@ -96,13 +96,13 @@ Immettere una stringa corrispondente al nome di una variabile *disponibile nell&
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warnings-func-empty-get.gif)
+![](warnings-in-function-graphs.resources/warnings-func-empty-get.gif)
 
 </td>
 </tr>
 </table>
 
-### ![(errore)](../../assets/error.svg) Alcuni nodi Set non hanno un nome di variabile
+### ![(errore)](warnings-in-function-graphs.resources/error.svg) Alcuni nodi Set non hanno un nome di variabile
 
 Per uno o più nodi [Set](../../function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence/using-the-set-sequence-nodes.md) è stata lasciata vuota la proprietà **Set**, pertanto non fare riferimento a nessuna variabile.
 
@@ -110,7 +110,7 @@ Per uno o più nodi [Set](../../function-graphs/fxmaps/using-functions-in-fxmaps
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-**![(tick)](../../assets/check.svg) Soluzione**
+**![(tick)](warnings-in-function-graphs.resources/check.svg) Soluzione**
 
 Immettere una stringa nella proprietà **Set** dei nodi Set che generano questo avviso.
 
@@ -125,7 +125,7 @@ Immettere una stringa nella proprietà **Set** dei nodi Set che generano questo 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warnings-func-empty-set.gif)
+![](warnings-in-function-graphs.resources/warnings-func-empty-set.gif)
 
 </td>
 </tr>

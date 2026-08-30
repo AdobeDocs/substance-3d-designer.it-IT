@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/best-practices/performance-optimization-guidelines.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/performance-optimization-guidelines.html"
 breadcrumb-title: ''
 description: Scopri le linee guida per l'ottimizzazione delle prestazioni per Substance 3D Designer, per migliorare le prestazioni grafiche e ridurre i tempi di elaborazione.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Linee guida per l'ottimizzazione delle prestazioni
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1027'
 ht-degree: 0%
@@ -143,9 +143,9 @@ In questo modo, le dimensioni della bitmap cambieranno in base al grafico princi
 >
 > Se si imposta un nodo [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) su &quot;Rispetto al padre&quot; e si [pubblica](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) il grafico in una risorsa Substance 3D (SBSAR), la bitmap verrà salvata con una risoluzione di **256x256** anziché le dimensioni originali. Si consiglia invece di mantenere il [metodo di ereditarietà](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) dei nodi Bitmap&#39; [Dimensioni output](../../compositing-graphs/output-size/output-size.md) come &#39;Assoluto&#39; e utilizzare un nodo [Trasformazione 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) impostato su &#39;Relativo al padre&#39; subito dopo il nodo Bitmap.
 
-![Ottimizzazione bitmap incorporate 1](../../assets/input-1.jpg "Ottimizzazione bitmap incorporate 1")
+![Ottimizzazione bitmap incorporate 1](performance-optimization-guidelines.resources/input-1.jpg "Ottimizzazione bitmap incorporate 1")
 
-![Ottimizzazione bitmap incorporate 2](../../assets/relativetoparent.jpg "Ottimizzazione bitmap incorporate 2")
+![Ottimizzazione bitmap incorporate 2](performance-optimization-guidelines.resources/relativetoparent.jpg "Ottimizzazione bitmap incorporate 2")
 
 <table>
 <tr style="border: 0;">
@@ -156,7 +156,7 @@ Inoltre, si consiglia di impostare il formato delle risorse Bitmap su Jpeg per r
 </td>
 <td style="border: 0;" valign="top">
 
-![Ottimizzazione bitmap incorporate 3](../../assets/format.jpg "Ottimizzazione bitmap incorporate 3")
+![Ottimizzazione bitmap incorporate 3](performance-optimization-guidelines.resources/format.jpg "Ottimizzazione bitmap incorporate 3")
 
 </td>
 </tr>

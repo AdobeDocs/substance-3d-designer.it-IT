@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/preferences-window.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window.html"
 breadcrumb-title: ''
 description: Accedete alla finestra Preferenze di Substance 3D Designer per personalizzare le impostazioni e il comportamento dell’applicazione.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Preferenze
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1973'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Finestra Preferenze
 
-![Finestra Preferenze](../../assets/image2021-6-22-20-56-1.png "Finestra Preferenze")
+![Finestra Preferenze](preferences-window.resources/image2021-6-22-20-56-1.png "Finestra Preferenze")
 
 Questa pagina presenta la finestra <b>Preferenze</b> e tutte le relative impostazioni.
 
@@ -157,14 +157,14 @@ Consultare la pagina [Impostazioni progetti](../../interface/preferences-window/
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Modifica contestuale disabilitata](../../assets/substance3ddesigner_incontext_no.gif "Modifica contestuale disabilitata")
+![Modifica contestuale disabilitata](preferences-window.resources/substance3ddesigner_incontext_no.gif "Modifica contestuale disabilitata")
 
 *Apri riferimento*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Modifica contestuale abilitata](../../assets/substance3ddesigner_incontext_yes.gif "Modifica contestuale abilitata")
+![Modifica contestuale abilitata](preferences-window.resources/substance3ddesigner_incontext_yes.gif "Modifica contestuale abilitata")
 
 *Apri riferimento nel contesto*
 
@@ -191,7 +191,7 @@ Consultare la pagina [Impostazioni progetti](../../interface/preferences-window/
 
 |  |  |
 | --- | --- |
-| <b>Raytracing GPU</b>  *Impostazione predefinita: selezionata* | Se selezionata, verrà eseguito il ray tracing sulla GPU per [panifici compatibili](https://experienceleague.adobe.com/it/docs/substance-3d/bakers/features/gpu-raytracing).   I seguenti backend Raytracing GPU saranno i predefiniti, a seconda dell’architettura della GPU NVIDIA:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i>: Turing e versioni successive</li> <li data-preserve-html="true"><i>Optix</i>: Pascal e Maxwell</li> </ul>  **Nota:** ulteriori informazioni sui prodotti da forno basati su GPU sono disponibili nella sezione [Raytracing GPU](https://experienceleague.adobe.com/it/docs/substance-3d/bakers/features/gpu-raytracing) della documentazione [Substance Bakers](https://experienceleague.adobe.com/it/docs/substance-3d/bakers/home).  **Suggerimento:** è possibile utilizzare i seguenti *argomenti della riga di comando* quando si avvia l&#39;applicazione per *forzare* l&#39;utilizzo di un back-end di Raytracing GPU diverso: <ul data-preserve-html="true"> <li data-preserve-html="true"><code>—force-optix</code> : forzare l&#39;uso di Optix su Nvidia Turing o GPU più recenti</li> <li data-preserve-html="true"><code>—force-dxr</code> : forzare l&#39;uso di DXR sulle GPU Nvidia Pascal</li> </ul> |
+| <b>Raytracing GPU</b>  *Impostazione predefinita: selezionata* | Se selezionata, verrà eseguito il ray tracing sulla GPU per [panifici compatibili](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing).   I seguenti backend Raytracing GPU saranno i predefiniti, a seconda dell’architettura della GPU NVIDIA:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i>: Turing e versioni successive</li> <li data-preserve-html="true"><i>Optix</i>: Pascal e Maxwell</li> </ul>  **Nota:** ulteriori informazioni sui prodotti da forno basati su GPU sono disponibili nella sezione [Raytracing GPU](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing) della documentazione [Substance Bakers](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home).  **Suggerimento:** è possibile utilizzare i seguenti *argomenti della riga di comando* quando si avvia l&#39;applicazione per *forzare* l&#39;utilizzo di un back-end di Raytracing GPU diverso: <ul data-preserve-html="true"> <li data-preserve-html="true"><code>—force-optix</code> : forzare l&#39;uso di Optix su Nvidia Turing o GPU più recenti</li> <li data-preserve-html="true"><code>—force-dxr</code> : forzare l&#39;uso di DXR sulle GPU Nvidia Pascal</li> </ul> |
 
 ## Libreria
 

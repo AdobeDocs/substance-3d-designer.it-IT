@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/pipeline-and-project-configuration/user-preferences-automating-setup.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/user-preferences-automating-setup.html"
 breadcrumb-title: ''
 description: Scopri come automatizzare la configurazione delle preferenze utente in Substance 3D Designer per una configurazione del flusso di lavoro semplificata.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Preferenze utente - Configurazione automatica
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 0%
@@ -33,7 +33,7 @@ In alternativa, potete ignorare completamente la modifica delle preferenze utent
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Icona file XML](../../assets/xml-5.png "Icona file XML")
+![Icona file XML](user-preferences-automating-setup.resources/xml-5.png "Icona file XML")
 
 </td>
 </tr>
@@ -54,7 +54,7 @@ Esistono due modi diversi per configurare Designer per l&#39;utilizzo di un altr
 
 Se non è disponibile una configurazione automatica o per scopi di test, è possibile accedere manualmente a <b>Modifica > Preferenze...</b> e quindi fare clic sulla sezione &quot;<b>Progetti</b>&quot; a sinistra.
 
-![Impostazioni progetto](../../assets/preferences-ui.png "Impostazioni progetto")
+![Impostazioni progetto](user-preferences-automating-setup.resources/preferences-ui.png "Impostazioni progetto")
 
 Il pulsante contrassegnato in rosso consente all&#39;utente di scegliere un diverso [file SBSCFG](../../pipeline-and-project-con/configuration-list-sbscfg/configuration-list-sbscfg.md).
 
@@ -210,4 +210,4 @@ Sebbene non sia consigliabile utilizzare un metodo manuale in un ambiente di pro
 
    *&quot;C:\Program Files\Adobe\Adobe Substance 3D Designer\Adobe Substance 3D Designer.exe&quot; —config-file &quot;C:\Dev\Substance\custom\_configuration.sbscfg&quot;*
 
-![Input del file di configurazione nelle proprietà del file eseguibile](../../assets/shortcutargument.jpg "Input del file di configurazione nelle proprietà del file eseguibile")
+![Input del file di configurazione nelle proprietà del file eseguibile](user-preferences-automating-setup.resources/shortcutargument.jpg "Input del file di configurazione nelle proprietà del file eseguibile")

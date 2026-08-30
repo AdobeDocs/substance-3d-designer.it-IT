@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/release-notes/version-15-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-15-0.html"
 breadcrumb-title: ''
 description: Consulta le note sulla versione per Substance 3D Designer versione 15.0 per scoprire il nuovo modulo di rendering 3D e il supporto nativo per USD.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versione 15.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1894'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Questo aggiornamento introduce un nuovissimo modulo di rendering 3D, con modalit
 
 *Data di pubblicazione: 15 luglio 2025*
 
-![Banner](../../assets/banner-47.png "Versione 15.0 banner")
+![Banner](version-15-0.resources/banner-47.png "Versione 15.0 banner")
 
 ## Nuovo renderizzatore 3D
 
@@ -32,7 +32,7 @@ Questo aggiornamento introduce un nuovissimo modulo di rendering 3D, con modalit
 
 Questa nuova versione offre l’accesso a un [modulo di rendering 3D](../../interface/3d-view/3d-renderers/3d-renderers.md) avanzato, con una modalità rasterizzatore (per avere un’anteprima in tempo reale mentre lavorate sul materiale) e una modalità tracciatore tracciato (una modalità ray tracing per ottenere un rendering perfetto e preciso). Questo nuovo modulo di rendering migliora le funzionalità con funzioni quali ombre in modalità rasterizzatore, migliora la qualità e le prestazioni ed è progettato per supportare tecnologie future come [MaterialX](https://materialx.org/). Completa i moduli di rendering OpenGL e Iray esistenti in Designer e si allinea con i moduli di rendering disponibili in Substance 3D Viewer e Substance 3D Sampler, garantendo un’esperienza uniforme in tutto l’ecosistema.
 
-![ombre e trasparenza nella rasterizzazione](../../assets/feature_1b.png)
+![ombre e trasparenza nella rasterizzazione](version-15-0.resources/feature_1b.png)
 
 La [barra degli strumenti della vista 3D](../../interface/3d-view/3d-view.md) è stata aggiornata per accedere rapidamente ad alcune delle nuove funzioni disponibili in questo modulo di rendering:
 
@@ -51,13 +51,13 @@ Inoltre, il tasto di scelta rapida per ruotare la luce ambiente è stato modific
 * <b>Mappatura toni: </b>l&#39;intervallo di colori con profili per ottenere un effetto HDR (High-Dynamic-Range).
 * <b>Profondità di campo:</b> simula le proprietà di messa a fuoco di un obiettivo della fotocamera (solo rasterizzatore).
 
-![Post FX in Designer 15.0](../../assets/postfx.gif)
+![Post FX in Designer 15.0](version-15-0.resources/postfx.gif)
 
 ## Edizione delle risorse nel contesto
 
 Quando lavori sui tuoi materiali, potresti voler [visualizzarli in anteprima nel contesto di una scena 3D specifica](../../working-with-3d-scenes/working-with-3d-scenes.md). Ecco perché abbiamo aggiunto la possibilità di importare ed eseguire il rendering di una scena completa, con tutte le texture, le fotocamere e le luci. E ciliegia in alto, se questa scena fa riferimento a Ombreggiature MaterialX, verranno renderizzati correttamente con il rasterizzatore!
 
-![Scena USD caricata e sottoposta a rendering in Designer](../../assets/feature_2.png)
+![Scena USD caricata e sottoposta a rendering in Designer](version-15-0.resources/feature_2.png)
 
 Una volta importato, puoi lavorare sulla scena selezionando una trama (con MAIUSC + clic o grazie al browser scene) e [ignorandone uno qualsiasi dei materiali](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md). L’Utente può quindi:
 
@@ -76,17 +76,17 @@ Sono state introdotte descrizioni avanzate per illustrare meglio lo scopo di ogn
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![nodo di fusione](../../assets/blend.gif)
+![nodo di fusione](version-15-0.resources/blend.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![nodo sfocatura](../../assets/blur.gif)
+![nodo sfocatura](version-15-0.resources/blur.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![nodo di distanza](../../assets/distance.gif)
+![nodo di distanza](version-15-0.resources/distance.gif)
 
 </td>
 </tr>
@@ -96,7 +96,7 @@ Sono state introdotte descrizioni avanzate per illustrare meglio lo scopo di ogn
 
 Se dovete lavorare con texture non quadrate, questa nuova opzione è stata creata appositamente. Nelle [proprietà del materiale](../../interface/3d-view/material-properties/material-properties.md) nella vista 3D, nelle opzioni UV per controllare la suddivisione in porzioni, è ora possibile impostare un valore diverso per entrambi gli assi.
 
-![diversa scala U V](../../assets/nonsquare.png){zoomable="yes"}
+![diversa scala U V](version-15-0.resources/nonsquare.png){zoomable="yes"}
 
 ## Baker
 
@@ -110,7 +110,7 @@ Ogni anno, la [VFX Reference Platform](https://vfxplatform.com/) pubblica un ele
 
 ## Video
 
-[![Aggiornamento Substance 3D Designer: nuovo modulo di rendering, Post FX e modifica contesto | Adobe Substance 3D](../../assets/video_15.png)](https://www.youtube.com/watch?v=6EkXxu-0Q_E)
+[![Aggiornamento Substance 3D Designer: nuovo modulo di rendering, Post FX e modifica contesto | Adobe Substance 3D](version-15-0.resources/video_15.png)](https://www.youtube.com/watch?v=6EkXxu-0Q_E)
 
 ## Note sulla versione
 

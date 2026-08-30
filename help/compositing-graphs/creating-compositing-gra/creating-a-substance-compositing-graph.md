@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph.html"
 breadcrumb-title: ''
 description: Scoprite come creare grafici di composizione Substance in Substance 3D Designer per creare flussi di lavoro procedurali per le texture.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Creazione di un grafico Substance
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1107'
 ht-degree: 1%
@@ -28,7 +28,7 @@ La creazione delle texture in Designer inizia con la creazione di un grafico a S
 
 Per avviare la creazione di un nuovo [grafico Substance](../../compositing-graphs/substance-compositing-graphs.md), è possibile utilizzare uno dei seguenti metodi:
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -38,13 +38,13 @@ Per avviare la creazione di un nuovo [grafico Substance](../../compositing-graph
   </td>
   <td style="border: 0;" valign="top">
 
-  ![Finestra di dialogo Nuovo grafico a Substance - Creazione dalla schermata iniziale](../../assets/newGraphDialog-create-homeScreen.png "Finestra di dialogo Nuovo grafico a Substance - Creazione dalla schermata iniziale"){zoomable="yes"}
+  ![Finestra di dialogo Nuovo grafico a Substance - Creazione dalla schermata iniziale](creating-a-substance-compositing-graph.resources/newGraphDialog-create-homeScreen.png "Finestra di dialogo Nuovo grafico a Substance - Creazione dalla schermata iniziale"){zoomable="yes"}
 
   </td>
   </tr>
   </table>
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -54,29 +54,29 @@ Per avviare la creazione di un nuovo [grafico Substance](../../compositing-graph
   </td>
   <td style="border: 0;" valign="top">
 
-  ![Finestra di dialogo Nuovo grafico a Substance - Creazione da Esplora risorse](../../assets/newGraphDialog-create-explorer.png "Finestra di dialogo Nuovo grafico a Substance - Creazione da Esplora risorse"){zoomable="yes"}
+  ![Finestra di dialogo Nuovo grafico a Substance - Creazione da Esplora risorse](creating-a-substance-compositing-graph.resources/newGraphDialog-create-explorer.png "Finestra di dialogo Nuovo grafico a Substance - Creazione da Esplora risorse"){zoomable="yes"}
 
   </td>
   </tr>
   </table>
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
 
-  Nella barra degli strumenti principale fare clic sul pulsante ![](../../assets/image2021-6-22-20-36-44.png) <b>Nuovo grafico Substance</b>.
+  Nella barra degli strumenti principale fare clic sul pulsante ![](creating-a-substance-compositing-graph.resources/image2021-6-22-20-36-44.png) <b>Nuovo grafico Substance</b>.
 
   </td>
   <td style="border: 0;" valign="top">
 
-  ![Finestra di dialogo Nuovo grafico a Substance - Creazione dalla barra degli strumenti principale](../../assets/newGraphDialog-create-mainToolbar.png "Finestra di dialogo Nuovo grafico a Substance - Creazione dalla barra degli strumenti principale"){zoomable="yes"}
+  ![Finestra di dialogo Nuovo grafico a Substance - Creazione dalla barra degli strumenti principale](creating-a-substance-compositing-graph.resources/newGraphDialog-create-mainToolbar.png "Finestra di dialogo Nuovo grafico a Substance - Creazione dalla barra degli strumenti principale"){zoomable="yes"}
 
   </td>
   </tr>
   </table>
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -86,7 +86,7 @@ Per avviare la creazione di un nuovo [grafico Substance](../../compositing-graph
   </td>
   <td style="border: 0;" valign="top">
 
-  ![](../../assets/newGraphDialog-create-mainMenu.png)
+  ![](creating-a-substance-compositing-graph.resources/newGraphDialog-create-mainMenu.png)
 
   </td>
   </tr>
@@ -102,7 +102,7 @@ Indipendentemente dal metodo scelto, verrà visualizzata la finestra di dialogo 
 
 Indipendentemente dal metodo utilizzato per creare un nuovo grafico Substance, verrà sempre visualizzata la finestra di dialogo <b>Nuovo grafico Substance</b> che consente di configurare il nuovo grafico.
 
-![Nuova finestra di dialogo Grafico a Substance - Materiali](../../assets/newGraphDialog-materials.png "Nuova finestra di dialogo Grafico a Substance - Materiali"){zoomable="yes"}
+![Nuova finestra di dialogo Grafico a Substance - Materiali](creating-a-substance-compositing-graph.resources/newGraphDialog-materials.png "Nuova finestra di dialogo Grafico a Substance - Materiali"){zoomable="yes"}
 
 ### Modelli
 
@@ -139,7 +139,7 @@ Nelle modalità di visualizzazione <b>Elenco</b>, <b>Pacchetti</b> e <b>Director
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Finestra di dialogo Nuovo grafico a Substance - Scheda miniature](../../assets/newGraphDialog-thumbnailCard.png "Finestra di dialogo Nuovo grafico a Substance - Scheda miniature")
+![Finestra di dialogo Nuovo grafico a Substance - Scheda miniature](creating-a-substance-compositing-graph.resources/newGraphDialog-thumbnailCard.png "Finestra di dialogo Nuovo grafico a Substance - Scheda miniature")
 
 </td>
 </tr>
@@ -155,7 +155,7 @@ Puoi anche accedere agli esempi direttamente dalla schermata Home, utilizzando i
 
 Tutti i campioni sono basati sull&#39;[modello di materiale](../../interface/3d-view/material-properties/material-properties.md#openpbr).
 
-![Campioni di materiale - Banner della schermata Home](../../assets/materialSamples-banner.png "Campioni di materiale - Banner della schermata Home"){zoomable="yes"}
+![Campioni di materiale - Banner della schermata Home](creating-a-substance-compositing-graph.resources/materialSamples-banner.png "Campioni di materiale - Banner della schermata Home"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -174,7 +174,7 @@ Passando il cursore del mouse sull’icona delle informazioni per ogni elemento 
 </td>
 <td style="border: 0;" valign="top">
 
-![Finestra di dialogo Nuovo grafico a Substance - Descrizione comando modello](../../assets/newGraphDialog-tooltipTemplate.png "Finestra di dialogo Nuovo grafico a Substance - Descrizione comando modello"){zoomable="yes"}
+![Finestra di dialogo Nuovo grafico a Substance - Descrizione comando modello](creating-a-substance-compositing-graph.resources/newGraphDialog-tooltipTemplate.png "Finestra di dialogo Nuovo grafico a Substance - Descrizione comando modello"){zoomable="yes"}
 
 </td>
 </tr>
@@ -193,14 +193,14 @@ I filtri applicati dalla categoria e dal file di progetto selezionati vengono ap
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Finestra di dialogo Nuovo grafico a Substance - Modalità di visualizzazione](../../assets/newGraphDialog-viewModes.png "Finestra di dialogo Nuovo grafico a Substance - Modalità di visualizzazione"){zoomable="yes"}
+![Finestra di dialogo Nuovo grafico a Substance - Modalità di visualizzazione](creating-a-substance-compositing-graph.resources/newGraphDialog-viewModes.png "Finestra di dialogo Nuovo grafico a Substance - Modalità di visualizzazione"){zoomable="yes"}
 
 </td>
 </tr>
 </table>
 
 +++Modalità di visualizzazione
-![Finestra di dialogo Nuovo grafico a Substance - Visualizzazione miniature](../../assets/newGraphDialog-viewMode-thumbnails.png "Finestra di dialogo Nuovo grafico a Substance - Visualizzazione miniature"){zoomable="yes"}
+![Finestra di dialogo Nuovo grafico a Substance - Visualizzazione miniature](creating-a-substance-compositing-graph.resources/newGraphDialog-viewMode-thumbnails.png "Finestra di dialogo Nuovo grafico a Substance - Visualizzazione miniature"){zoomable="yes"}
 
 
 
@@ -208,7 +208,7 @@ I filtri applicati dalla categoria e dal file di progetto selezionati vengono ap
 
 Schede con miniature che forniscono un’anteprima o un’icona del tipo di modello.
 
-![Finestra di dialogo Nuovo grafico a Substance - Visualizzazione a elenco](../../assets/newGraphDialog-viewMode-list.png "Finestra di dialogo Nuovo grafico a Substance - Visualizzazione a elenco"){zoomable="yes"}
+![Finestra di dialogo Nuovo grafico a Substance - Visualizzazione a elenco](creating-a-substance-compositing-graph.resources/newGraphDialog-viewMode-list.png "Finestra di dialogo Nuovo grafico a Substance - Visualizzazione a elenco"){zoomable="yes"}
 
 
 
@@ -216,7 +216,7 @@ Schede con miniature che forniscono un’anteprima o un’icona del tipo di mode
 
 I modelli sono elencati solo in base alla relativa etichetta.
 
-![Finestra di dialogo Nuovo grafico Substance - Vista Pacchetti](../../assets/newGraphDialog-viewMode-packages.png "Finestra di dialogo Nuovo grafico Substance - Vista Pacchetti"){zoomable="yes"}
+![Finestra di dialogo Nuovo grafico Substance - Vista Pacchetti](creating-a-substance-compositing-graph.resources/newGraphDialog-viewMode-packages.png "Finestra di dialogo Nuovo grafico Substance - Vista Pacchetti"){zoomable="yes"}
 
 
 
@@ -226,7 +226,7 @@ I modelli sono elencati in base alla loro etichetta come elementi secondari del 
 
 Passate il mouse su un elemento del file del pacchetto per visualizzare una descrizione con il percorso completo.
 
-![Finestra di dialogo Nuovo grafico a Substance - Visualizzazione directory](../../assets/newGraphDialog-viewMode-directories.png "Finestra di dialogo Nuovo grafico a Substance - Visualizzazione directory"){zoomable="yes"}
+![Finestra di dialogo Nuovo grafico a Substance - Visualizzazione directory](creating-a-substance-compositing-graph.resources/newGraphDialog-viewMode-directories.png "Finestra di dialogo Nuovo grafico a Substance - Visualizzazione directory"){zoomable="yes"}
 
 
 
@@ -252,7 +252,7 @@ Dopo aver selezionato il modello, potete impostare le informazioni di base relat
 
 Passa il puntatore del mouse sull’icona del punto interrogativo per visualizzare una descrizione con un pulsante che si collega direttamente a questa pagina, in modo da poter fare riferimento a questa documentazione in base alle esigenze.
 
-![Finestra di dialogo Nuovo grafico a Substance - Descrizione della Guida](../../assets/newGraphDialog-tooltipHelp.png "Finestra di dialogo Nuovo grafico a Substance - Descrizione della Guida"){zoomable="yes"}
+![Finestra di dialogo Nuovo grafico a Substance - Descrizione della Guida](creating-a-substance-compositing-graph.resources/newGraphDialog-tooltipHelp.png "Finestra di dialogo Nuovo grafico a Substance - Descrizione della Guida"){zoomable="yes"}
 
 <a name="managing-templates"></a>
 
@@ -271,7 +271,7 @@ Utilizzare la casella combinata <b>Categoria</b> per selezionare la categoria in
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
 
-![Nuova finestra di dialogo Grafico a Substance - Filtraggio per categoria](../../assets/newGraphDialog-categories.png "Nuova finestra di dialogo Grafico a Substance - Filtraggio per categoria"){zoomable="yes"}
+![Nuova finestra di dialogo Grafico a Substance - Filtraggio per categoria](creating-a-substance-compositing-graph.resources/newGraphDialog-categories.png "Nuova finestra di dialogo Grafico a Substance - Filtraggio per categoria"){zoomable="yes"}
 
 </td>
 </tr>
@@ -290,7 +290,7 @@ Le categorie personalizzate possono essere impostate nei modelli forniti dai fil
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
 
-![Nuova finestra di dialogo Grafico a Substance - Impostazione della categoria del modello](../../assets/newGraphDialog-templateCategorySetup.png "Nuova finestra di dialogo Grafico a Substance - Impostazione della categoria del modello"){zoomable="yes"}
+![Nuova finestra di dialogo Grafico a Substance - Impostazione della categoria del modello](creating-a-substance-compositing-graph.resources/newGraphDialog-templateCategorySetup.png "Nuova finestra di dialogo Grafico a Substance - Impostazione della categoria del modello"){zoomable="yes"}
 
 </td>
 </tr>
@@ -309,7 +309,7 @@ Utilizzare quindi il pulsante <b>Filtra per file di progetto</b> per restringere
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Finestra di dialogo Nuovo grafico a Substance - Filtraggio per file di progetto](../../assets/newGraphDialog-projectFiles.png "Finestra di dialogo Nuovo grafico a Substance - Filtraggio per file di progetto"){zoomable="yes"}
+![Finestra di dialogo Nuovo grafico a Substance - Filtraggio per file di progetto](creating-a-substance-compositing-graph.resources/newGraphDialog-projectFiles.png "Finestra di dialogo Nuovo grafico a Substance - Filtraggio per file di progetto"){zoomable="yes"}
 
 </td>
 </tr>

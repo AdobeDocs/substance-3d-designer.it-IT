@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/mesh-data-combiner.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/mesh-data-combiner.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Combinazione dati trama per combinare più input di dati trama per la generazione avanzata di texture basate su trama.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Combinazione dati trama
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '142'
 ht-degree: 1%
 
 ---
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/mesh-data-combiner.png){width="128px"}
+![](mesh-data-combiner.resources/mesh-data-combiner.png){width="128px"}
 
-## Combinazione dati trama
-
-**Ingresso:** *Generatori Basati Su Trama**/Utility*
-
-**Semplice**
+<b>In:</b> Generatori Basati Su Trama > Utility
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -41,30 +37,26 @@ Questo è un nodo molto semplice che &quot;impacchetta&quot; i dati mesh cotti i
 
 Questo nodo è principalmente un helper che semplifica il lavoro con molti input in batch su determinati nodi della raccolta, ad esempio [Material Mesh Data Blender](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/material-mesh-data-ble/material-mesh-data-blender.md). Consente di evitare il collegamento manuale di tutti gli elementi.
 
-## Parametri
-
-### Parametri
-
-Attiva/disattiva gli input di mapping per abilitare e generare il risultato compresso.
-
-* **Occlusione ambiente**: *False/True*
-* **Maschere UV**: *False/True*
-* **Curvatura**: *Falso/Vero*
-* **Height**: *Falso/Vero*
-* **Posizione (Scala Di Grigi)**: *Falso/Vero*
-* **Thickness**: *Falso/Vero*
-* **Normale**: *Falso/Vero*
-* **Posizione (RGB)**: *Falso/Vero*
-* **ID colore**: *Falso/Vero*
-* **Direzione Spazio Mondiale**: *False/True*
-* **Spazio Mondiale Normale**: *False/True*
-
-## Immagini di esempio
-
-|  |
-| --- |
-| Nessuna immagine allegata alla pagina. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parametri
+
+Attiva/disattiva gli input di mapping per abilitare e generare il risultato compresso.
+
+|  |  |
+|:---|:---|
+| <b>Occlusione ambiente</b> <i>Falso/Vero</i> |  |
+| <b>Maschere UV</b> <i>Falso/Vero</i> |  |
+| <b>Curvatura</b> <i>Falso/Vero</i> |  |
+| <b>Height</b> <i>Falso/Vero</i> |  |
+| <b>Posizione (Scala Di Grigi)</b> <i>Falso/Vero</i> |  |
+| <b>Thickness</b> <i>Falso/Vero</i> |  |
+| <b>Normale</b> <i>Falso/Vero</i> |  |
+| <b>Posizione (RGB)</b> <i>Falso/Vero</i> |  |
+| <b>ID colore</b> <i>Falso/Vero</i> |  |
+| <b>Direzione Spazio Mondiale</b> <i>Falso/Vero</i> |  |
+| <b>Spazio globale normale</b> <i>Falso/Vero</i> |  |

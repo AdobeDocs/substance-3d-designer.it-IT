@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-range.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-range.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo Intervallo istogramma per ridefinire i valori della texture in base agli intervalli di istogramma per la correzione e le regolazioni del colore.
+description: Utilizzate il nodo Intervallo istogramma per ridefinire i valori delle texture in base agli intervalli di istogramma per la correzione e le regolazioni del colore.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram Range
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Intervallo istogramma
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 1%
+source-wordcount: '130'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/histogram-range-1.png){width="128px"}
+![](histogram-range.resources/histogram-range-1.png){width="128px"}
 
-## Intervallo istogramma
-
-**Ingresso:** *Filtri/Regolazioni*
-
-**Semplice**
+<b>Ingresso:</b> Filtri > Regolazioni
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
@@ -42,15 +38,25 @@ Consultate anche [Istogramma Scan](../../../../../../compositing-graphs/nodes-re
 
 [Fate clic qui per guardare un video dell’Accademia di Substance sull’intervallo di istogrammi.](https://www.youtube.com/watch?v=p9wcmJBFyGA&t=517s)
 
-## Parametri
-
-* **Intervallo**: *0.0 - 1.0* Quanto ridurre l&#39;intervallo da. Questo effetto è simile a quello che si ottiene spostando verso l’interno i cursori dei livelli minimo e massimo.
-* **Posizione**: *0,0 - 1,0* Scostamento per la riduzione dell&#39;intervallo, impostando un punto medio diverso per la riduzione dell&#39;intervallo.
-
-## Immagini di esempio
-
-![](../../../../../../assets/histogram-range.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parametri
+
+|  |  |
+|:---|:---|
+| <b>Intervallo</b> <i>0.0 - 1.0</i> | Quanto ridurre l’intervallo da. Questo effetto è simile a quello che si ottiene spostando verso l’interno i cursori dei livelli minimo e massimo. |
+| <b>Posizione</b> <i>0.0 - 1.0</i> | Scostamento per la riduzione dell&#39;intervallo, impostando un punto medio diverso per la riduzione dell&#39;intervallo. |
+
+## Esempi
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="histogram-range.resources/histogram-range.gif" />
+        </td>
+    </tr>
 </table>

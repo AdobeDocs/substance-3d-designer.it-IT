@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/pipeline-and-project-configuration.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration.html"
 breadcrumb-title: ''
 description: Configura le impostazioni di pipeline e progetto in Substance 3D Designer per ottimizzare il flusso di lavoro e l’output.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Configurazione della pipeline e del progetto
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 0%
@@ -39,7 +39,7 @@ L&#39;immagine mostra la relazione tra i diversi file nell&#39;installazione pre
 </td>
 <td style="border: 0;" valign="top">
 
-![Gerarchia dei file di configurazione](../assets/filestructureoverview.png "Gerarchia dei file di configurazione")
+![Gerarchia dei file di configurazione](pipeline-and-project-configuration.resources/filestructureoverview.png "Gerarchia dei file di configurazione")
 
 </td>
 </tr>
@@ -56,8 +56,8 @@ L&#39;immagine mostra la relazione tra i diversi file nell&#39;installazione pre
 Ogni tipo di file viene spiegato con maggiori dettagli nelle pagine secondarie di questa pagina, ma la breve panoramica su come definire idealmente una configurazione personalizzata per Designer è la seguente:
 
 1. <b>Identificare e raggruppare le impostazioni da aggiungere ai file di progetto.</b> Questo processo è diverso per ogni studio e richiede una certa quantità di pianificazione.\
-   In quasi tutti i casi devono essere definiti almeno 2 progetti: uno per impostazioni globali a livello di studio (come modelli standard, file shader, impostazioni di cottura) e uno con contenuti più specifici come il contenuto della libreria. Se sono in esecuzione più progetti contemporaneamente, potrebbe essere necessario creare più configurazioni di progetto per ciascuno (quindi 3 o più progetti in totale).
-1. <b>Creare i [file SBSPRJ](../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md) pertinenti e inserirli e il relativo contenuto sotto il controllo della versione.</b> Si consiglia vivamente di separare il contenuto della pipeline e della libreria di Designer dal contenuto e dalle risorse effettive del progetto (modelli 3D, texture, codice) creando un *repository separato*.
-1. <b>Creare un file [&#x200B; SBSCFG configuration](../pipeline-and-project-con/configuration-list-sbscfg/configuration-list-sbscfg.md) che elenca tutti i file di progetto, posizionarlo sotto il controllo della versione</b>. Se disponi di più progetti, puoi creare una configurazione per ogni progetto.
+   In quasi tutti i casi devono essere definiti almeno 2 progetti: uno per impostazioni globali e a livello di studio (come modelli standard, file di shader, impostazioni di esegue i baking) e uno con contenuti più specifici come il contenuto della libreria. Se sono in esecuzione più progetti contemporaneamente, potrebbe essere necessario creare più configurazioni di progetto per ciascuno (quindi 3 o più progetti in totale).
+1. <b>Creare i [file SBSPRJ](../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md) pertinenti e inserirli con i relativi contenuti in controlli versione.</b> Si consiglia vivamente di separare il contenuto della pipeline e della libreria di Designer dal contenuto e dalle risorse effettive del progetto (modelli 3D, texture, codice) creando un *repository separato*.
+1. <b>Creare un file [ SBSCFG configuration](../pipeline-and-project-con/configuration-list-sbscfg/configuration-list-sbscfg.md) che elenca tutti i file di progetto, inserirlo nel controllo versione</b>. Se disponi di più progetti, puoi creare una configurazione per ogni progetto.
 1. <b>Impostare [User\_Preferences.xml](../pipeline-and-project-con/user-preferences-aut/user-preferences-automating-setup.md) di ogni utente in modo che faccia riferimento al relativo file di configurazione.</b>\
    Potete fare in modo che ogni utente esegua questa operazione manualmente oppure potete creare script inserendo linee nel file XML. [Ulteriori informazioni nella pagina pertinente](../pipeline-and-project-con/user-preferences-aut/user-preferences-automating-setup.md).
