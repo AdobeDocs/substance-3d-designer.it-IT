@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-sobel.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-sobel.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Sobel normale (Normal Sobel) per generare mappe normali dalle mappe di altezza utilizzando il rilevamento dei bordi Sobel per i dettagli della superficie.
 helpx_creative_field: ""

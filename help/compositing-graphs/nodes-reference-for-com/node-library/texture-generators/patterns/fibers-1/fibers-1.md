@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/fibers-1.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/fibers-1.html"
 breadcrumb-title: ''
 description: Usa il nodo Fibre 1 per creare texture di base per simulare tessuto, capelli e materiali fibrosi.
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 12%
 
 ## Descrizione
 
-Semplice motivo simile a una fibra. Può essere utilizzato in [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) per le mappe di altezza e i dettagli di corde, trame o tessuti.
+Semplice motivo simile a una fibra. Può essere utilizzato in [Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html) per le mappe di altezza e i dettagli di corde, trame o tessuti.
 
 </td>
 </tr>
