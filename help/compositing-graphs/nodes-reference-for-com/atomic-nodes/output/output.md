@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
 breadcrumb-title: ''
 description: ''
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Output
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atomico: Output](output.resources/comp_output_1.png "Nodo atomico: Output"){width="200px"}
+![Nodo atomico: Output](output.resources/output-01.png "Nodo atomico: Output"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -52,7 +52,7 @@ Ogni grafico Substance deve avere *almeno un* nodo di output. Se non esiste alcu
 | <b>Identificatore</b> *Stringa* | Identificatore univoco dell&#39;output. Questa proprietà non può essere lasciata vuota e non può contenere spazi o caratteri speciali.   L&#39;identificatore viene utilizzato perché l&#39;etichetta del nodo è la proprietà &#39;Label&#39; viene lasciata vuota. Può essere utilizzato anche per denominare [texture esportate](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md). |
 | <b>Descrizione</b> *Stringa* | Descrizione facoltativa utilizzata come descrizione dell&#39;output sono i grafici a Substance. |
 | <b>Etichetta</b> *Stringa* | Viene utilizzata come etichetta per il nodo di output e il connettore corrispondente nei [nodi di istanza](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) che rappresentano questo grafico. L&#39;etichetta può contenere spazi e caratteri speciali. |
-| <b>Dati utente</b> *Stringa* | Metadati facoltativi che possono essere utilizzati per operazioni di filtro specifiche. [Substance 3D Painter](https://www.adobe.com/it/products/substance3d/apps/painter.html) utilizza questi dati per [attivare alcune funzionalità](https://experienceleague.adobe.com/it/docs/substance-3d-painter/using/content/creating-custom-effects/user-data). |
+| <b>Dati utente</b> *Stringa* | Metadati facoltativi che possono essere utilizzati per operazioni di filtro specifiche. [Substance 3D Painter](https://www.adobe.com/products/substance3d/apps/painter.html) utilizza questi dati per [attivare alcune funzionalità](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/user-data). |
 | <b>Gruppo</b> *Stringa* | Attributo utilizzato per raggruppare gli output per le [modalità di creazione dei collegamenti](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) di Designer.   Gli output con un attributo &quot;Group&quot; identico vengono presentati come una singola connessione nella modalità di creazione del collegamento &quot;Compact Material&quot;. |
 
 ## Attributi integrazione
@@ -101,11 +101,11 @@ Di seguito è riportato un esempio di nodi di istanza prima e dopo l&#39;imposta
 <table>
   <tr style="border: 0">
     <td style="border: 0">
-      <img src="output.resources/defaultouput2.png" alt="defaultouput2">
+      <img src="output.resources/output-02.png" alt="defaultouput2">
       <br><i>Prima</i>
     </td>
     <td style="border: 0">
-      <img src="output.resources/defaultouput1.png" alt="defaultouput1">
+      <img src="output.resources/output-03.png" alt="defaultouput1">
       <br><i>Dopo</i>
     </td>
   </tr>

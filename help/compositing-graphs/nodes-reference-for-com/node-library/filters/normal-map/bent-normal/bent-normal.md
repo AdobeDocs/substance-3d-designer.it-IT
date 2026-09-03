@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/bent-normal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/bent-normal.html"
 breadcrumb-title: ''
 description: Utilizzare il nodo Normale piegatura per generare mappe normali piegate che tengano conto dell'occlusione ambientale e dell'illuminazione indiretta.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Curvatura della normal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo normale piegato](bent-normal.resources/rt-bent-normal.png "Icona nodo normale piegato")
+![Icona nodo normale piegato](bent-normal.resources/bent-normal-01.png "Icona nodo normale piegato")
 
 <b>Ingresso:</b> Filtri > Mappa normale
 
@@ -54,7 +54,7 @@ Questo nodo non deve essere utilizzato in combinazione con il motore CPU (SSE) a
 | <b>Scala Height</b> <i>Mobile</i> | (Disponibile quando Usa Dimensioni fisiche è impostato su False) Moltiplicatore per l&#39;intensità dell&#39;input della mappa dell&#39;altezza. |
 | <b>Distribuzione</b> <i>Numero intero</i> | Imposta il metodo di distribuzione. Influisce sul decadimento verso le aree in ombra. |
 | <b>Distanza Massima</b> <i>Mobile</i> | Consente di impostare la distanza massima percorribile dai raggi per l’occlusione. |
-| <b>Angolo di diffusione</b> <i>Mobile</i> | Consente di impostare l’angolo di diffusione dei raggi da riprendere. Un valore pari a 1 è un emisfero completo. |
+| <b>Angolo di diffusione</b> <i>Virgola mobile</i> | Consente di impostare l’angolo di diffusione dei raggi da riprendere. Un valore pari a 1 è un emisfero completo. |
 | <b>Formato Normale</b> <i>Numero intero</i> | Inverte il canale verde dell’output. |
 
 ## Esempi
@@ -62,7 +62,7 @@ Questo nodo non deve essere utilizzato in combinazione con il motore CPU (SSE) a
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="bent-normal.resources/bent-normal-ex-1.jpg" />
+            <img src="bent-normal.resources/bent-normal-02.jpg" />
         </td>
     </tr>
 </table>

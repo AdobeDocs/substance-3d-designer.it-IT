@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/sphere-light.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/sphere-light.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Luce sfera per aggiungere sorgenti di luce sferica agli ambienti HDRI per un migliore controllo dell’illuminazione.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Luce sfera
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](sphere-light.resources/panorama-sphere-light.png){width="200px"}
+![](sphere-light.resources/sphere-light-01.png){width="200px"}
 
 <b>Ingresso:</b> vista 3D > Strumenti HDRI
 
@@ -60,7 +60,7 @@ La Sfera Light è abbastanza versatile e ha opzioni che gli permettono non solo 
 | <b>Coordinate posizione</b> |  |
 | <b>Vettore Su</b> <i>Z Su, Y Su</i> | Solo con la modalità Posizione mondo (World Position), determinate l&#39;orientamento del sistema di coordinate. |
 | <b>Posizione Sphere World</b> <i>-2.0 - 2.0</i> | Solo con la modalità Posizione mondo, imposta la posizione della sfera nello spazio mondo. |
-| <b>Posizione</b> | Solo in modalità Distanza dall&#39;origine. Imposta la posizione rispetto al centro. Può essere manipolato in vista 2D. |
+| <b>Posizione</b> | Solo in modalità Distanza dall&#39;origine. Imposta la posizione rispetto al centro. Può essere manipolato nella vista 2D. |
 | <b>Distanza dall&#39;origine</b> <i>0.0 - 20.0</i> | Solo in modalità Distanza dall&#39;origine. Imposta la distanza dall&#39;origine e influisce sulle dimensioni visibili della sfera. |
 | <b>Metodo colore forma</b> <i>RGB, Temperatura (Kelvin), Input Immagine</i> | Scegliere il metodo da utilizzare per impostare il colore della forma. Image Input consente di utilizzare il secondo slot di ingresso. |
 | <b>Colore</b> <i>(valore colore)</i> | Solo con Metodo colore forma impostato su RGB. Seleziona il colore della forma. |
@@ -82,10 +82,10 @@ La Sfera Light è abbastanza versatile e ha opzioni che gli permettono non solo 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="sphere-light.resources/sphere-light-ex.gif" />
+            <img src="sphere-light.resources/sphere-light-02.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="sphere-light.resources/spherelight-ex1.png" />
+            <img src="sphere-light.resources/sphere-light-03.png" />
         </td>
     </tr>
 </table>

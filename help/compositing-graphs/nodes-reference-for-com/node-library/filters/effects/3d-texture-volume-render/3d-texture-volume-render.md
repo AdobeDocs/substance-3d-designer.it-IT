@@ -1,16 +1,16 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-volume-render.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-volume-render.html"
 breadcrumb-title: ''
-description: Utilizza il nodo Rendering volume Texture 3D per eseguire il rendering delle texture volumetriche dai dati 3D per la creazione di effetti cloud e nebbia.
+description: Utilizza il nodo Rendering volume texture 3D per eseguire il rendering delle texture volumetriche dai dati 3D per creare effetti cloud e nebbia.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > 3D Texture Volume Render
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Rendering volume Texture 3D
+title: Rendering volume texture 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 0%
@@ -18,13 +18,13 @@ ht-degree: 0%
 ---
 
 
-# Rendering volume Texture 3D
+# Rendering volume texture 3D
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-texture-volume-render.resources/3dtexturevolumerender.png){width="200px"}
+![](3d-texture-volume-render.resources/3d-texture-volume-render-01.png){width="200px"}
 
 <b>Ingresso:</b> Filtro > Effetto
 
@@ -33,14 +33,14 @@ ht-degree: 0%
 
 ## Descrizione
 
-Il nodo **Rendering volume Texture 3D** esegue il rendering del volume di una forma descritta da una *texture 3D*, utilizzando il corrispondente *campo distanza con segno* dall&#39;input dell&#39;immagine **Signed distance field 3D**.
+Il nodo **Rendering volume texture 3D** esegue il rendering del volume di una forma descritta da una *texture 3D*, utilizzando il corrispondente *campo distanza con segno* dall&#39;input dell&#39;immagine **3D Signed distance field**.
 
 Il volume è rappresentato entro i limiti di un *cubo di unità*. L&#39;illuminazione viene calcolata utilizzando *luce direzionale* e un *lucernario emisferico*.
 
 >[!NOTE]
 >
 > Il campo distanza con segno deve essere una texture **4096x4096** che descrive la forma con una griglia **16x16** di 256 sezioni.\
-> È possibile utilizzare il nodo [3D Texture SDF](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-sdf/3d-texture-sdf.md) per calcolare il campo distanza firmato per una texture 3D di 256 sezioni.
+> È possibile utilizzare il nodo [3D Texture SDF](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-sdf/3d-texture-sdf.md) per calcolare il campo distanza con segno per una texture 3D di 256 sezioni.
 
 </td>
 </tr>
@@ -87,22 +87,22 @@ Il volume è rappresentato entro i limiti di un *cubo di unità*. L&#39;illumina
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-variant2.jpg" />
+            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-variant5.jpg" />
+            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-variant3.jpg" />
+            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-04.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-variant.jpg" />
+            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-05.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-variant4.jpg" />
+            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-06.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-node.png" />
+            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-07.png" />
         </td>
     </tr>
 </table>

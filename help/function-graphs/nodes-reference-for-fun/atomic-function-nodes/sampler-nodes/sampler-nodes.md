@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/sampler-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/sampler-nodes.html"
 breadcrumb-title: ''
 description: Accedete ai nodi campionatori nei grafici delle funzioni di Substance 3D Designer per campionare le texture ed estrarre i valori cromatici.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Campionatori
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Nodi di Sampler
 
-![Nodi Sampler](sampler-nodes.resources/image2016-1-12-14-45-43.png "Nodi Sampler")
+![Nodi Sampler](sampler-nodes.resources/sampler-nodes-01.png "Nodi Sampler")
 
 Questi nodi campionano un valore in un&#39;immagine di input alle coordinate 2D fornite:
 
@@ -39,7 +39,7 @@ Le posizioni al di fuori di questo intervallo vengono gestite in base alla <b>mo
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Coordinate pixel](sampler-nodes.resources/samplercoords.png "Coordinate pixel")
+![Coordinate pixel](sampler-nodes.resources/sampler-nodes-02.png "Coordinate pixel")
 
 </td>
 </tr>
@@ -79,7 +79,7 @@ Esegue il ciclo nell&#39;intervallo [0;1] man mano che il valore aumenta.\
 Ad esempio: 3,4 è 0,4, -1,7 è 0,3.
 
 <b>Blocca al bordo</b>\
-Blocca i valori all&#39;esterno dell&#39;intervallo [0;1] al limite più vicino.\
+Blocca i valori all&#39;esterno dell&#39;intervallo [0;1] fino al limite più vicino.\
 Esempio: .3.4 è 1, -1.7 è 0.
 
 +++

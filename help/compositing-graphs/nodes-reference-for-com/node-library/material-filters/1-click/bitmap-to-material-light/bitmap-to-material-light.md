@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/1-click/bitmap-to-material-light.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/1-click/bitmap-to-material-light.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Da bitmap a luce materiale per convertire rapidamente le immagini bitmap in materiali con illuminazione ottimizzata per flussi di lavoro veloci.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Da bitmap a luce materiale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 11%
@@ -24,7 +24,7 @@ ht-degree: 11%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](bitmap-to-material-light.resources/b2m-light.png)
+![](bitmap-to-material-light.resources/bitmap-to-material-light-01.png)
 
 <b>In:</b> Filtri materiali > 1 Clic
 
@@ -33,7 +33,7 @@ ht-degree: 11%
 
 ## Descrizione
 
-Questo nodo converte un singolo input di Diffusa/colore di base in un materiale completo. La semplice versione &quot;light&quot; di [Bitmap2Material di Allegorithmic, acquistabile separatamente](https://www.allegorithmic.com/products/bitmap2material), offre un assaggio della versione completa. Può funzionare bene per i casi più semplici.
+Questo nodo converte un singolo input Diffusione/Colore di base in un materiale completo. La semplice versione &quot;light&quot; di [Bitmap2Material di Allegorithmic, acquistabile separatamente](https://www.allegorithmic.com/products/bitmap2material), offre un assaggio della versione completa. Può funzionare bene per i casi più semplici.
 
 Sebbene non sia garantito che si traduca in materiali perfetti e corretti per PBR, è un buon modo e veloce per iniziare se hai solo un&#39;immagine singola e desideri un materiale completo.
 
@@ -47,7 +47,7 @@ Sebbene non sia garantito che si traduca in materiali perfetti e corretti per PB
 
 |  |  |
 |:---|:---|
-| <b>Canali</b> | Attiva o disattiva i canali di materiale in questo gruppo, ad esempio quando si utilizzano mappe Specular/Lucentezza invece di Metallico/Rugosità. |
+| <b>Canali</b> | Attiva e disattiva i canali di materiale in questo gruppo, ad esempio quando si utilizzano mappe Specular/lucidità anziché Metallico/Rugosità. |
 | <b>Globale</b> |  |
 | <b>Saldo Profondità</b> <i>-1.0 - 1.0</i> | Imposta la distorsione/scostamento per la mappa altezza. |
 | <b>Diffusione</b> |  |

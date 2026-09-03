@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-shavings.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-shavings.html"
 breadcrumb-title: ''
-description: Usa il nodo Rasatura Grunge per generare pattern di rasatura per la creazione di granulosità di legno e dettagli di texture del materiale.
+description: Usa il nodo Rasatura Grunge per generare pattern di rasatura per la creazione di dettagli di grana di legno e texture di materiale.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Shavings
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Rasoi Di grunge
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-shavings.resources/grungeshavings.jpg){width="200px"}
+![](grunge-shavings.resources/grunge-shavings-01.jpg){width="200px"}
 
 <b>Ingresso:</b> Generatori di Texture > Rumori
 
@@ -33,7 +33,7 @@ ht-degree: 5%
 
 ## Descrizione
 
-Il nodo **Rasatura di Grungi** in [Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html) genera una mappa di grungi simile ai trucioli sparsi su una superficie.
+Il nodo **Rasatura di Grungi** in [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) genera una mappa di grungi simile ai trucioli sparsi su una superficie.
 
 </td>
 </tr>
@@ -60,10 +60,10 @@ Il nodo **Rasatura di Grungi** in [Substance 3D Designer](https://www.adobe.com/
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-shavings.resources/grungeshavings-variant2.jpg" />
+            <img src="grunge-shavings.resources/grunge-shavings-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="grunge-shavings.resources/grungeshavings-variant.jpg" />
+            <img src="grunge-shavings.resources/grunge-shavings-03.jpg" />
         </td>
     </tr>
 </table>

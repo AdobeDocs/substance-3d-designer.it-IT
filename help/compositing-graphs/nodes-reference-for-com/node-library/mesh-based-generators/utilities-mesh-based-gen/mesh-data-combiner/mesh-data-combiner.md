@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/mesh-data-combiner.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/mesh-data-combiner.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Combinazione dati trama per combinare più input di dati trama per la generazione avanzata di texture basate su trama.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Combinazione dati trama
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](mesh-data-combiner.resources/mesh-data-combiner.png){width="128px"}
+![](mesh-data-combiner.resources/mesh-data-combiner-01.png){width="128px"}
 
 <b>In:</b> Generatori Basati Su Trama > Utility
 

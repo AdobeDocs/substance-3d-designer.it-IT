@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-2d-transform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-2d-transform.html"
 breadcrumb-title: ''
 description: Utilizzare il nodo Trasformazione 2D spline per trasformare le spline con le operazioni di traslazione, rotazione e ridimensionamento.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline 2D Transform
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo](spline-2d-transform.resources/spline-2d-transform-icon.png "Icona nodo")
+![Icona nodo](spline-2d-transform.resources/spline-2d-transform-01.png "Icona nodo")
 
 <b>In:</b> Strumenti Spline E Tracciati > Strumenti spline
 
@@ -85,11 +85,11 @@ Applica una trasformazione globale a tutte le spline di input, inclusa l&#39;inv
 <table>
   <tr>
     <td>
-      <img src="spline-2d-transform.resources/Spline2DTransform-Variant1-Before.jpg" alt="Spline2DTransform-Variant1-Before">
+      <img src="spline-2d-transform.resources/spline-2d-transform-02.jpg" alt="Spline2DTransform-Variant1-Before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="spline-2d-transform.resources/Spline2DTransform-Variant2-After.jpg" alt="Spline2DTransform-Variant2-After">
+      <img src="spline-2d-transform.resources/spline-2d-transform-03.jpg" alt="Spline2DTransform-Variant2-After">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -101,11 +101,11 @@ Applica una trasformazione globale a tutte le spline di input, inclusa l&#39;inv
 <table>
   <tr>
     <td>
-      <img src="spline-2d-transform.resources/Spline2DTransform-Variant1-Before.jpg" alt="Spline2DTransform-Variant1-Before">
+      <img src="spline-2d-transform.resources/spline-2d-transform-02.jpg" alt="Spline2DTransform-Variant1-Before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="spline-2d-transform.resources/Spline2DTransform-Variant1-After.jpg" alt="Spline2DTransform-Variant1-After">
+      <img src="spline-2d-transform.resources/spline-2d-transform-04.jpg" alt="Spline2DTransform-Variant1-After">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -119,7 +119,7 @@ Applica una trasformazione globale a tutte le spline di input, inclusa l&#39;inv
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 1](spline-2d-transform.resources/Spline2DTransform-Demo1.gif "Esempio di nodo 1")
+![Esempio di nodo 1](spline-2d-transform.resources/spline-2d-transform-05.gif "Esempio di nodo 1")
 
 </td>
 <td style="border: 0;" valign="top">

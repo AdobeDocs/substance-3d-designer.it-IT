@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-vertex-processor-simple.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-vertex-processor-simple.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Semplice processore vertici tracciati per elaborare i vertici dei tracciati con opzioni di trasformazione semplificate.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Processore vertici tracciati semplice
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo](paths-vertex-processor-simple.resources/paths-vertex-processor-simple-icon.png "Icona nodo")
+![Icona nodo](paths-vertex-processor-simple.resources/paths-vertex-processor-simple-01.png "Icona nodo")
 
 <b>In:</b> Strumenti spline e tracciati > Strumenti tracciato
 
@@ -36,7 +36,7 @@ ht-degree: 1%
 Applica una trasformazione alla posizione dei vertici dei <b>tracciati</b> di input.
 
 1. Modificare la funzione del parametro <b>Per vertex function</b>;
-1. Utilizzare un nodo <b>Get Float2</b> per la variabile *vertex.pos*;
+1. Utilizzare un nodo <b>Get Virgola mobile2</b> per la variabile *vertex.pos*;
 1. Eseguire alcune operazioni su questo valore (ad esempio, moltiplicarlo per ridimensionare i tracciati);
 1. Imposta il risultato del calcolo come output.
 
@@ -87,7 +87,7 @@ Puoi anche accedere alle variabili *vertex.corner* (bool) e *path.id* (float).
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 2](paths-vertex-processor-simple.resources/PathsVertexProcessor-Demo2.gif "Esempio di nodo 2")
+![Esempio di nodo 2](paths-vertex-processor-simple.resources/paths-vertex-processor-simple-02.gif "Esempio di nodo 2")
 
 </td>
 <td style="border: 0;" valign="top">

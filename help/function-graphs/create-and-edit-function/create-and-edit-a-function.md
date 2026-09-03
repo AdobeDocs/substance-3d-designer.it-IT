@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/function-graphs/create-and-edit-a-function.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/create-and-edit-a-function.html"
 breadcrumb-title: ''
 description: Scopri come creare e modificare grafici delle funzioni in Substance 3D Designer per creare reti di nodi riutilizzabili.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Creare e modificare una funzione
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%
@@ -22,15 +22,15 @@ ht-degree: 0%
 
 ## Creare una funzione
 
-Per creare una funzione, è sufficiente fare clic sull&#39;icona della funzione ![](create-and-edit-a-function.resources/image2017-3-7-17-10-8.png) e scegliere &quot;**Funzione vuota**&quot;.
+Per creare una funzione, è sufficiente fare clic sull&#39;icona della funzione ![](create-and-edit-a-function.resources/create-and-edit-a-function-01.png) e scegliere &quot;**Funzione vuota**&quot;.
 
-![](create-and-edit-a-function.resources/image2017-3-7-17-8-37.png)
+![](create-and-edit-a-function.resources/create-and-edit-a-function-02.png)
 
 ## Modificare una funzione
 
 Una volta creata una funzione, è possibile modificarla facendo di nuovo clic sull&#39;icona della funzione o scegliendo Modifica nell&#39;elenco a discesa.
 
-![](create-and-edit-a-function.resources/image2017-3-7-17-11-42.png)
+![](create-and-edit-a-function.resources/create-and-edit-a-function-03.png)
 
 Si entra quindi nella modalità funzione del grafico.
 
@@ -42,7 +42,7 @@ Il grafico delle funzioni funziona come gli altri tipi di grafico in Designer: c
 
 Potete creare nodi facendo clic con il pulsante destro del mouse nel grafico e scegliendo &quot;Aggiungi elemento&quot; o premendo la barra spaziatrice:
 
-![](create-and-edit-a-function.resources/capture-d-e-cran-2015-02-04-10-05-16.png){width="600px"}
+![](create-and-edit-a-function.resources/create-and-edit-a-function-04.png){width="600px"}
 
 ## Impostare un output
 

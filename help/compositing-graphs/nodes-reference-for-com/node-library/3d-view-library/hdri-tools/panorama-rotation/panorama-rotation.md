@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/panorama-rotation.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/panorama-rotation.html"
 breadcrumb-title: ''
 description: Utilizzare il nodo Rotazione panorama per ruotare gli ambienti panorama HDRI per regolare la direzione dell’illuminazione nella vista 3D.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Rotazione panorama
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 14%
@@ -24,7 +24,7 @@ ht-degree: 14%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](panorama-rotation.resources/panorama-rotation.png){width="200px"}
+![](panorama-rotation.resources/panorama-rotation-01.png){width="200px"}
 
 <b>Ingresso:</b> vista 3D > Strumenti HDRI
 

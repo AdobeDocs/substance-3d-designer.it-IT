@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/moss-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/moss-weathering.html"
 breadcrumb-title: ''
 description: Usa il nodo Meteorizzazione Moss per aggiungere pattern di crescita del muschio ai materiali in base alla curvatura e alla posizione della trama.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Moss Weathering
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](moss-weathering.resources/moss-weathering.png){width="128px"}
+![](moss-weathering.resources/moss-weathering-01.png){width="128px"}
 
 <b>In:</b> Generatori Basati Su Trama > Meteo
 
@@ -35,7 +35,7 @@ ht-degree: 7%
 
 Si tratta di un effetto di materiale completo che funziona su più canali contemporaneamente. Genera un effetto muschio ingrandito, con un singolo controllo per Propagazione.
 
-Questo effetto funziona meglio con una mappa eseguita i baking Posizione spazio mondo e una mappa di altezza aggiuntiva. Anche se questo non è un requisito esatto, conferisce all&#39;effetto un posizionamento più credibile.
+Questo effetto funziona meglio con una mappa di posizione dello spazio mondiale e una mappa dell&#39;altezza aggiuntiva. Anche se questo non è un requisito esatto, conferisce all&#39;effetto un posizionamento più credibile.
 
 Assicurati di aver compreso correttamente le [modalità di creazione del collegamento](https://support.allegorithmic.com/documentation/display/SD5/Link+Creation+Modes) quando lavori con i materiali completi.
 
@@ -49,7 +49,7 @@ Assicurati di aver compreso correttamente le [modalità di creazione del collega
 
 |  |  |
 |:---|:---|
-| <b>Posizione</b> <i>Input colore</i> | Posizione spaziale mondiale eseguita i baking. |
+| <b>Posizione</b> <i>Input colore</i> | Posizione dello spazio mondiale baked. |
 | <b>Height</b> <i>Input scala di grigi</i> | Input aggiuntivo Heightmap. |
 | <b>Maschera</b> <i>Input scala di grigi</i> | Slot maschera utilizzato per mascherare gli effetti del nodo. Può essere attivato/disattivato con il parametro &quot;Maschera&quot;. |
 
@@ -80,7 +80,7 @@ Assicurati di aver compreso correttamente le [modalità di creazione del collega
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="moss-weathering.resources/moss-ex.gif" />
+            <img src="moss-weathering.resources/moss-weathering-02.gif" />
         </td>
     </tr>
 </table>

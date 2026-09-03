@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/swirl.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/swirl.html"
 breadcrumb-title: ''
-description: Usa il nodo Effetto spirale per applicare gli effetti distorsione vortice alle texture per la creazione di pattern a vortice e a spirale.
+description: Usa il nodo Effetto spirale per applicare effetti di distorsione a spirale alle texture per creare pattern a vortice e a spirale.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Swirl
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Vortice
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](swirl.resources/swirl-grayscale.png)![](swirl.resources/swirl.png)
+![](swirl.resources/swirl-01.png)![](swirl.resources/swirl-02.png)
 
 <b>Ingresso:</b> Filtri > Effetti
 
@@ -33,7 +33,7 @@ ht-degree: 6%
 
 ## Descrizione
 
-In questo modo si Trasforma un’immagine di input alterandola in una direzione oscillante. Ha un controllo aggiuntivo per spostare il vortice in alcune parti dell&#39;area di lavoro.
+Questo trasforma un’immagine di input alterandola in una direzione oscillante. Ha un controllo aggiuntivo per spostare il vortice in alcune parti dell&#39;area di lavoro.
 
 </td>
 </tr>

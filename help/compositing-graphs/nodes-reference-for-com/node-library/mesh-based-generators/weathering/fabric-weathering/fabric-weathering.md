@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/fabric-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/fabric-weathering.html"
 breadcrumb-title: ''
 description: Utilizzare il nodo Weathering tessuto per aggiungere effetti di usura e invecchiamento ai materiali in tessuto in base alla geometria e alla curvatura della trama.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Weathering dei tessuti
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](fabric-weathering.resources/fabric-weathering.png){width="128px"}
+![](fabric-weathering.resources/fabric-weathering-01.png){width="128px"}
 
 <b>In:</b> Generatori Basati Su Trama > Meteo
 
@@ -88,7 +88,7 @@ Assicurati di aver compreso appieno le [modalità di creazione dei collegamenti]
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="fabric-weathering.resources/fabric-ex.gif" />
+            <img src="fabric-weathering.resources/fabric-weathering-02.gif" />
         </td>
     </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-color.html"
 breadcrumb-title: ''
 description: Utilizza il nodo Colore di Mappatura spline per mappare le texture di colore lungo i tracciati spline con parametri personalizzabili.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Colore mappatura spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1132'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo](spline-mapper-color.resources/spline-mapper-color-icon.png "Icona nodo")
+![Icona nodo](spline-mapper-color.resources/spline-mapper-color-01.png "Icona nodo")
 
 <b>In:</b> Strumenti Spline E Tracciati > Strumenti spline
 
@@ -112,11 +112,11 @@ Il nodo genera l&#39;immagine mappata come immagine a colori, nonché altre info
 <table>
   <tr>
     <td>
-      <img src="spline-mapper-color.resources/SplineMapperColor-Variant1-Before.jpg" alt="SplineMapperColor-Variant1-Before">
+      <img src="spline-mapper-color.resources/spline-mapper-color-02.jpg" alt="SplineMapperColor-Variant1-Before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="spline-mapper-color.resources/SplineMapperColor-Variant1-After.jpg" alt="SplineMapperColor-Variant1-After">
+      <img src="spline-mapper-color.resources/spline-mapper-color-03.jpg" alt="SplineMapperColor-Variant1-After">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -125,7 +125,7 @@ Il nodo genera l&#39;immagine mappata come immagine a colori, nonché altre info
 </td>
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 2](spline-mapper-color.resources/SplineMapperColor-Demo.gif "Esempio di nodo 2")
+![Esempio di nodo 2](spline-mapper-color.resources/spline-mapper-color-04.gif "Esempio di nodo 2")
 
 </td>
 </tr>
@@ -135,7 +135,7 @@ Il nodo genera l&#39;immagine mappata come immagine a colori, nonché altre info
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 3](spline-mapper-color.resources/SplineMapperColor-Variant1-After1.jpg "Esempio di nodo 3")
+![Esempio di nodo 3](spline-mapper-color.resources/spline-mapper-color-05.jpg "Esempio di nodo 3")
 
 </td>
 <td style="border: 0;" valign="top">

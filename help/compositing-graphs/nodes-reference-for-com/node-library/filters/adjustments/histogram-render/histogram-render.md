@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-render.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-render.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Rendering istogramma per visualizzare i dati dell’istogramma come texture per l’analisi e il debug.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Rendering istogramma
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona Anisotropica in scala di grigio Kuwahara](histogram-render.resources/histogram_render.png "Icona anisotropica in scala di grigio Kuwahara"){width="200px"}
+![Icona Anisotropica in scala di grigio Kuwahara](histogram-render.resources/histogram-render-01.png "Icona anisotropica in scala di grigio Kuwahara"){width="200px"}
 
 <b>Ingresso:</b> Filtri > Regolazioni
 
@@ -69,6 +69,6 @@ Disegna l’istogramma di un’immagine in scala di grigio.
 
 ## Esempi
 
-![Rendering istogramma: esempio 1](histogram-render.resources/histogram_render_example_1.png "Rendering istogramma: esempio 1"){zoomable="yes"}
+![Rendering istogramma: esempio 1](histogram-render.resources/histogram-render-02.png "Rendering istogramma: esempio 1"){zoomable="yes"}
 
-![Rendering istogramma: esempio 2](histogram-render.resources/histogram_render_example_2.png "Rendering istogramma: esempio 2"){zoomable="yes"}
+![Rendering istogramma: esempio 2](histogram-render.resources/histogram-render-03.png "Rendering istogramma: esempio 2"){zoomable="yes"}

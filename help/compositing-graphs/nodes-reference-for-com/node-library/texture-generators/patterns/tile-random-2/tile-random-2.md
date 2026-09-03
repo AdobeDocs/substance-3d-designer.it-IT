@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-random-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-random-2.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Tile Random 2 per creare pattern di riquadri casuali con controlli di variazione avanzati in Substance 3D Designer.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Affianca casuale 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](tile-random-2.resources/tilerandom2.jpg){width="200px"}
+![](tile-random-2.resources/tile-random-2-01.jpg){width="200px"}
 
 <b>Ingresso:</b> Generatori Texture > Pattern
 
@@ -80,14 +80,14 @@ Un output dedicato consente di immettere i **UV** della forma in **Flood Fill a 
 | <b>Mult mappa input raggio angoli arrotondati</b> <i>Mobile</i> | Regola l&#39;intensità con cui la mappa di input <b>Raggio angoli arrotondati</b> influisce sul raggio degli angoli arrotondati.<br><br>La mappa funge da moltiplicatore <i>per pixel</i> per il parametro <b>Raggio angoli arrotondati</b>.<br><br><i>Nota</i>: questo effetto non può essere applicato quando il parametro <b>Abilita controllo smusso per asse</b> è impostato su <i>Vero</i>. |
 | <b>Moltiplicatore di scala</b> <i>Mobile</i> | Regola le dimensioni di ogni forma in proporzione all&#39;<i>area della relativa cella</i>. |
 | <b>Scala casuale</b> <i>Mobile</i> | Regola l&#39;intensità in base alla quale viene applicata una scala casuale a <i>ogni</i> forma. |
-| <b>Rotazione</b> <i>Mobile</i> | Ruota le forme nelle celle spostando ogni <i>angolo</i> nel relativo <i>adiacente</i> lungo il bordo della cella.<br><br>Con questo metodo, <i>distorsione</i> e <i>ridimensionamento</i> vengono applicati alla forma in corrispondenza della rotazione. |
+| <b>Rotazione</b> <i>Virgola mobile</i> | Ruota le forme nelle celle spostando ogni <i>angolo</i> nel relativo <i>adiacente</i> lungo il bordo della cella.<br><br>Con questo metodo, <i>distorsione</i> e <i>ridimensionamento</i> vengono applicati alla forma in corrispondenza della rotazione. |
 | <b>Rotazione casuale</b> <i>Mobile</i> | Regola l’intensità con cui viene applicata una quantità casuale di rotazione a ogni forma.<br><br>Il metodo di rotazione è descritto nel parametro <b>Rotazione</b>. |
-| <b>Posizione angoli casuale</b> <i>Mobile</i> | Distorce le forme applicando una quantità casuale di <i>offset</i> a ciascuno dei relativi <i>angoli</i> lungo il bordo della cella. |
+| <b>Posizione angoli casuale</b> <i>Virgola mobile</i> | Distorce le forme applicando una quantità casuale di <i>offset</i> a ciascuno dei relativi <i>angoli</i> lungo il bordo della cella. |
 | <b>Inclinato</b> |  |
 | <b>Moltiplicatore inclinazione casuale</b> <i>Mobile</i> | Applica una regolazione <i>globale</i> all&#39;intensità dell&#39;inclinazione casuale. |
-| <b>Moltiplicatore mappa di input inclinata casuale</b> <i>Mobile</i> | Regola l’intensità dell’inclinazione casuale utilizzando i valori <i>campionati</i> dall’input <b>Mappa inclinazione casuale</b>. |
-| <b>Inclinazione Casuale X</b> <i>Mobile</i> | Regola l&#39;intensità dell&#39;inclinazione casuale sull&#39;asse <b>X</b> <i>only</i>. |
-| <b>Inclinazione casuale Y</b> <i>Mobile</i> | Regola l&#39;intensità dell&#39;inclinazione casuale sull&#39;asse <b>Y</b> <i>only</i>. |
+| <b>Moltiplicatore mappa di input inclinata casuale</b> <i>Virgola mobile</i> | Regola l’intensità dell’inclinazione casuale utilizzando i valori <i>campionati</i> dall’input <b>Mappa inclinazione casuale</b>. |
+| <b>Inclinazione Casuale X</b> <i>Virgola mobile</i> | Regola l&#39;intensità dell&#39;inclinazione casuale sull&#39;asse <b>X</b> <i>only</i>. |
+| <b>Inclinazione casuale Y</b> <i>Virgola mobile</i> | Regola l&#39;intensità dell&#39;inclinazione casuale sull&#39;asse <b>Y</b> <i>only</i>. |
 | <b>Distribuzione Inclinata Casuale</b> <i>Numero intero</i> | Controlla il metodo di distribuzione dei valori di inclinazione casuale:<br><br>- <i>Uniforme</i>: l&#39;inclinazione casuale viene applicata <i>allo stesso modo</i> su tutte le celle<br>- <i>Disturbo blu</i>: l&#39;inclinazione casuale è <i>regolata</i> utilizzando un pattern di disturbo blu |
 | <b>Smussato</b> |  |
 | <b>Modalità Distanza Smussata</b> <i>Numero intero</i> | Imposta il metodo di <i>acquisizione della distanza</i> entro cui le forme devono essere smussate:<br><br>- <i>Rispetto alle dimensioni della griglia</i>: le forme vengono smussate in base alla <i>proporzione delle dimensioni della griglia</i><br> specificata- <i>Rispetto alle dimensioni della forma</i>: le forme vengono smussate in base alla <i>proporzione delle dimensioni</i><br>- <i>Rispetto alle dimensioni dell&#39;immagine</i>: le forme vengono smussate in base alla <i>proporzione dell&#39;immagine</i> specificata |
@@ -113,25 +113,25 @@ Un output dedicato consente di immettere i **UV** della forma in **Flood Fill a 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tilerandom2-variant.jpg" />
+            <img src="tile-random-2.resources/tile-random-2-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tilerandom2-variant2.jpg" />
+            <img src="tile-random-2.resources/tile-random-2-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tilerandom2-variant3.jpg" />
+            <img src="tile-random-2.resources/tile-random-2-04.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tilerandom2-inputs.gif" />
+            <img src="tile-random-2.resources/tile-random-2-05.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tilerandom2-demo.gif" />
+            <img src="tile-random-2.resources/tile-random-2-06.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tilerandom2-demo2.gif" />
+            <img src="tile-random-2.resources/tile-random-2-07.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tilerandom2-node.png" />
+            <img src="tile-random-2.resources/tile-random-2-08.png" />
         </td>
     </tr>
 </table>

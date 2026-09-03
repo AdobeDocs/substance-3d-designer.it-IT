@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-append.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-append.html"
 breadcrumb-title: ''
 description: Utilizzare il nodo Aggiungi spline per aggiungere più spline insieme per creare tracciati continui più lunghi.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Aggiungi spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo](spline-append.resources/spline-append-icon.png "Icona nodo")
+![Icona nodo](spline-append.resources/spline-append-01.png "Icona nodo")
 
 <b>In:</b> Strumenti Spline E Tracciati > Strumenti spline
 
@@ -91,15 +91,15 @@ L&#39;ordine degli elenchi viene mantenuto, il che significa che l&#39;aggiunta 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 1](spline-append.resources/SplineAppend-Demo.jpg "Esempio di nodo 1")
+![Esempio di nodo 1](spline-append.resources/spline-append-02.jpg "Esempio di nodo 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 2](spline-append.resources/SplineAppend-Graph.jpg "Esempio di nodo 2")
+![Esempio di nodo 2](spline-append.resources/spline-append-03.jpg "Esempio di nodo 2")
 
 </td>
 </tr>
 </table>
 
-![Demo sui nodi](spline-append.resources/SplineAppend-Demo2.gif "Demo sui nodi")
+![Demo sui nodi](spline-append.resources/spline-append-04.gif "Demo sui nodi")

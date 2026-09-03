@@ -1,16 +1,16 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/material-clone-patch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/material-clone-patch.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo Patch clone materiale per clonare e applicare patch alle aree della texture per correggere gli artefatti nei materiali scansionati.
+description: Utilizzare il nodo Patch Clona /Clone materiale per clonare e applicare patch alle aree della texture per la riparazione degli artefatti nei materiali scansionati.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Material Clone Patch
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Patch clone materiale
+title: Patch Clona /Clone materiale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 4%
@@ -18,13 +18,13 @@ ht-degree: 4%
 ---
 
 
-# Patch clone materiale
+# Patch Clona /Clone materiale
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](material-clone-patch.resources/clone-patch-material.png){width="128px"}
+![](material-clone-patch.resources/material-clone-patch-01.png){width="128px"}
 
 <b>Tra:</b> Filtri materiali > Elaborazione scansione
 
@@ -33,7 +33,7 @@ ht-degree: 4%
 
 ## Descrizione
 
-Questa è la versione completa multicanale del materiale di [Patch clone](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md). Esegue una patch clone su tutti i canali di un materiale. [Per ulteriori informazioni, vedere la versione originale.](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md)
+Versione completa del materiale multicanale di [patch Clona /Clone](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md). Esegue una patch Clona /Clone su tutti i canali di un materiale. [Per ulteriori informazioni, vedere la versione originale.](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md)
 
 Ciò è molto utile se desiderate rimuovere un dettaglio da tutti i canali di un materiale. Esegue l’output del debug delle immagini per più canali per vedere esattamente come si presenta l’area delle patch avanzate.
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/bnw-spots-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/bnw-spots-3.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo 3 delle tinte piatte BnW per generare pattern avanzati di punti bianchi e neri per creare variazioni di texture e maschere.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: BnW macchie 3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Punti BnW 3 - Icona](bnw-spots-3.resources/bnw_spots_3.png "Punti BnW 3 - Icona"){width="200px"}
+![Punti BnW 3 - Icona](bnw-spots-3.resources/bnw-spots-3-01.png "Punti BnW 3 - Icona"){width="200px"}
 
 <b>Ingresso:</b> Generatori di texture > Rumori
 
@@ -69,12 +69,12 @@ Consultate anche: [Macchie BnW 1](../../../../../../compositing-graphs/nodes-ref
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Macchie BnW 3 - Esempio 1](bnw-spots-3.resources/bnw_spots_3_1.png "Macchie BnW 3 - Esempio 1"){zoomable="yes"}
+![Macchie BnW 3 - Esempio 1](bnw-spots-3.resources/bnw-spots-3-02.png "Macchie BnW 3 - Esempio 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Macchie BnW 3 - Esempio 2](bnw-spots-3.resources/noise_bnw_spots_3_v2_speed0.6_aniso0.gif "Macchie BnW 3 - Esempio 2"){zoomable="yes"}
+![Macchie BnW 3 - Esempio 2](bnw-spots-3.resources/bnw-spots-3-03.gif "Macchie BnW 3 - Esempio 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,12 +84,12 @@ Consultate anche: [Macchie BnW 1](../../../../../../compositing-graphs/nodes-ref
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Macchie BnW 3 - Esempio 3](bnw-spots-3.resources/noise_bnw_spots_3_v2_speed0.6_aniso1.gif "Macchie BnW 3 - Esempio 3"){zoomable="yes"}
+![Macchie BnW 3 - Esempio 3](bnw-spots-3.resources/bnw-spots-3-04.gif "Macchie BnW 3 - Esempio 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Macchie BnW 3 - Esempio 4](bnw-spots-3.resources/noise_bnw_spots_3_v2_speed0.3_aniso0.6.gif "Macchie BnW 3 - Esempio 4"){zoomable="yes"}
+![Macchie BnW 3 - Esempio 4](bnw-spots-3.resources/bnw-spots-3-05.gif "Macchie BnW 3 - Esempio 4"){zoomable="yes"}
 
 </td>
 </tr>

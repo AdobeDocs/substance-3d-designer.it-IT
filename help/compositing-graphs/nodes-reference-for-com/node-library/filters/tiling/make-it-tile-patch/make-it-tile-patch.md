@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/tiling/make-it-tile-patch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/tiling/make-it-tile-patch.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo Crea patch per porzioni IT per applicare patch e creare texture di Affiancamento uniformi dalle immagini di input.
+description: Utilizzate il nodo Crea patch per porzioni per applicare patch e creare texture di porzioni uniformi dalle immagini di input.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Tiling > Make It Tile Patch
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Imposta come patch porzione
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 8%
@@ -24,9 +24,9 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](make-it-tile-patch.resources/make-it-tile-patch.png)
+![](make-it-tile-patch.resources/make-it-tile-patch-01.png)
 
-![](make-it-tile-patch.resources/make-it-tile-patch-grayscale.png)
+![](make-it-tile-patch.resources/make-it-tile-patch-02.png)
 
 <b>In:</b> Filtri > Affiancamento
 
@@ -35,9 +35,9 @@ ht-degree: 8%
 
 ## Descrizione
 
-Questo nodo è un tiler semi-casuale basato su griglia. Prende una patch di input e la timbra, tentando di trasformarla in un&#39;immagine Affiancamento senza troppe ripetizioni, in base alle tue impostazioni.
+Questo nodo è un tiler semi-casuale basato su griglia. Prende una patch di input e la timbra, tentando di trasformarla in un&#39;immagine in porzioni senza troppe ripetizioni, in base alle tue impostazioni.
 
-Utile per quando si ha una piccola porzione di texture e si desidera creare una texture Affiancamento su scala più grande.
+Utile per quando avete una piccola porzione di texture e desiderate creare una texture in porzioni più grande da essa.
 
 Tieni presente che questo è diverso da [Make-It-Tile Photo](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/tiling/make-it-tile-photo/make-it-tile-photo.md), che corregge principalmente i bordi.
 
@@ -72,7 +72,7 @@ Per eseguire questa operazione con un intero materiale, vedere [Affianca automat
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="make-it-tile-patch.resources/patch-ex.gif" />
+            <img src="make-it-tile-patch.resources/make-it-tile-patch-03.gif" />
         </td>
     </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-render.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-render.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Rendering spline per eseguire il rendering delle spline come texture con metodi personalizzabili di larghezza, colore e fusione.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Rendering spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo](spline-render.resources/spline-render-icon.png "Icona nodo")
+![Icona nodo](spline-render.resources/spline-render-01.png "Icona nodo")
 
 <b>In:</b> Strumenti Spline E Tracciati > Strumenti spline
 
@@ -71,7 +71,7 @@ Disegna stringhe di segmenti lungo le <b>spline</b> di input sullo <b>sfondo</b>
 | <b>Importo segmenti</b> <i>Numero intero</i> | Regola il numero di segmenti disegnati lungo le spline.<br>Un valore più elevato determina linee più uniformi. |
 | <b>Quantità spline busta</b> <i>Numero intero</i> | Numero di segmenti duplicati che devono essere disegnati lungo il thickness di ciascuna spline. |
 | <b>Inizio</b> <i>Mobile</i> | Sposta l&#39;inizio della porzione della spline da disegnare.<br>Il valore rappresenta la lunghezza normalizzata della spline. |
-| <b>Fine</b> <i>Mobile</i> | Sposta l&#39;estremità della porzione della spline da disegnare.<br>Il valore rappresenta la lunghezza normalizzata della spline. |
+| <b>Fine</b> <i>Virgola mobile</i> | Sposta l&#39;estremità della porzione della spline da disegnare.<br>Il valore rappresenta la lunghezza normalizzata della spline. |
 | <b>Modalità dimensioni Thickness</b> <i>Numero intero</i> | Metodo di calcolo del thickness dei segmenti disegnati:<br>- <i>Immagine</i>: il valore viene normalizzato nello spazio della texture, dove 1 rappresenta la larghezza completa dell&#39;immagine. Il thickness è relativo alla risoluzione della texture;<br>- <i>Pixel</i>: il valore è un numero assoluto di pixel nella texture, dove 1 è un pixel pieno. Il thickness è separato dalla risoluzione della texture. |
 | <b>Thickness (immagine)</b> <i>Mobile</i> | (disponibile quando la modalità &quot;Dimensioni Thickness&quot; è impostata su Immagine) Il thickness dei segmenti disegnati normalizzati nello spazio della texture, dove 1 rappresenta l&#39;intera larghezza dell&#39;immagine. |
 | <b>Thickness (px)</b> <i>Mobile</i> | (disponibile quando la modalità &quot;Dimensioni Thickness&quot; è impostata su Pixel) Il thickness dei segmenti disegnati come numero assoluto di pixel nella texture, dove 1 corrisponde a un pixel intero. |
@@ -98,11 +98,11 @@ Disegna stringhe di segmenti lungo le <b>spline</b> di input sullo <b>sfondo</b>
 <table>
   <tr>
     <td>
-      <img src="spline-render.resources/SplineRender-Variant2-Before.jpg" alt="SplineRender-Variant2-Before">
+      <img src="spline-render.resources/spline-render-02.jpg" alt="SplineRender-Variant2-Before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="spline-render.resources/SplineRender-Variant2-After.jpg" alt="SplineRender-Variant2-After">
+      <img src="spline-render.resources/spline-render-03.jpg" alt="SplineRender-Variant2-After">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -114,11 +114,11 @@ Disegna stringhe di segmenti lungo le <b>spline</b> di input sullo <b>sfondo</b>
 <table>
   <tr>
     <td>
-      <img src="spline-render.resources/SplineRender-Variant1-Before.jpg" alt="SplineRender-Variant1-Before">
+      <img src="spline-render.resources/spline-render-04.jpg" alt="SplineRender-Variant1-Before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="spline-render.resources/SplineRender-Variant1-After.jpg" alt="SplineRender-Variant1-After">
+      <img src="spline-render.resources/spline-render-05.jpg" alt="SplineRender-Variant1-After">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -135,11 +135,11 @@ Disegna stringhe di segmenti lungo le <b>spline</b> di input sullo <b>sfondo</b>
 <table>
   <tr>
     <td>
-      <img src="spline-render.resources/SplineRender-Variant1-Before.jpg" alt="SplineRender-Variant1-Before">
+      <img src="spline-render.resources/spline-render-04.jpg" alt="SplineRender-Variant1-Before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="spline-render.resources/SplineRender-Variant3.jpg" alt="SplineRender-Variant3">
+      <img src="spline-render.resources/spline-render-06.jpg" alt="SplineRender-Variant3">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -148,7 +148,7 @@ Disegna stringhe di segmenti lungo le <b>spline</b> di input sullo <b>sfondo</b>
 </td>
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 1](spline-render.resources/SplineRender-Demo.gif "Esempio di nodo 1")
+![Esempio di nodo 1](spline-render.resources/spline-render-07.gif "Esempio di nodo 1")
 
 </td>
 </tr>

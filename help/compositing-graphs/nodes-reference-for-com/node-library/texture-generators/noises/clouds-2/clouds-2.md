@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/clouds-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/clouds-2.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Nuvole 2 per generare pattern di nuvole intermedi per creare effetti di texture atmosferici e volumetrici.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Nuvole 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nuvole 2 - Icona](clouds-2.resources/clouds_2.png "Nuvole 2 - Icona"){width="200px"}
+![Nuvole 2 - Icona](clouds-2.resources/clouds-2-01.png "Nuvole 2 - Icona"){width="200px"}
 
 <b>Ingresso:</b> Generatori di texture > Rumori
 
@@ -69,12 +69,12 @@ Vedere anche: [Nuvole 1](../../../../../../compositing-graphs/nodes-reference-fo
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Nuvole 2 - Esempio 1](clouds-2.resources/clouds_2_1.png "Nuvole 2 - Esempio 1"){zoomable="yes"}
+![Nuvole 2 - Esempio 1](clouds-2.resources/clouds-2-02.png "Nuvole 2 - Esempio 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Nuvole 2 - Esempio 2](clouds-2.resources/noise_clouds_2_v2_speed0.6_aniso0.gif "Nuvole 2 - Esempio 2"){zoomable="yes"}
+![Nuvole 2 - Esempio 2](clouds-2.resources/clouds-2-03.gif "Nuvole 2 - Esempio 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,12 +84,12 @@ Vedere anche: [Nuvole 1](../../../../../../compositing-graphs/nodes-reference-fo
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Nuvole 2 - Esempio 3](clouds-2.resources/noise_clouds_2_v2_speed0.6_aniso1.gif "Nuvole 2 - Esempio 3"){zoomable="yes"}
+![Nuvole 2 - Esempio 3](clouds-2.resources/clouds-2-04.gif "Nuvole 2 - Esempio 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Nuvole 2 - Esempio 4](clouds-2.resources/noise_clouds_2_v2_speed0.3_aniso0.6.gif "Nuvole 2 - Esempio 4"){zoomable="yes"}
+![Nuvole 2 - Esempio 4](clouds-2.resources/clouds-2-05.gif "Nuvole 2 - Esempio 4"){zoomable="yes"}
 
 </td>
 </tr>

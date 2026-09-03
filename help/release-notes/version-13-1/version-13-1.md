@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/release-notes/version-13-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-13-1.html"
 breadcrumb-title: ''
 description: Consultate le note sulla versione per Substance 3D Designer versione 13.1 per informazioni sui miglioramenti del grafico dei nodi e sul supporto per l'esportazione di AxF.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versione 13.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 *Data di pubblicazione: 12 dicembre 2023*
 
-![Banner per Substance 3D Designer 13.1](version-13-1.resources/24-library-hero-1920x620.png "Banner per Substance 3D Designer 13.1")
+![Banner per Substance 3D Designer 13.1](version-13-1.resources/version-13-1-01.png "Banner per Substance 3D Designer 13.1")
 
 ## Miglioramenti per le cornici
 
@@ -34,19 +34,19 @@ Le cornici sono uno strumento obbligatorio per mantenere il grafico ben organizz
 
 Man mano che il grafico cresce, potrebbe essere necessario riorganizzare il contenuto delle cornici. I nodi potrebbero spostarsi per fare spazio ad aggiunte o potrebbe essere necessario spaziare di più i contenuti per promuovere la leggibilità. Per facilitare queste regolazioni, è ora possibile espandere automaticamente una cornice quando si spostano gli oggetti inclusi: tenete premuto <b>Maiusc</b> in qualsiasi punto mentre spostate un oggetto in modo che i bordi della cornice vengano regolati automaticamente per mantenere l&#39;oggetto entro i limiti.
 
-![espansione automatica](version-13-1.resources/autoexpand.gif)
+![espansione automatica](version-13-1.resources/version-13-1-02.gif)
 
 ### Adatta dimensione a contenuto
 
 Man mano che apportate le regolazioni nel grafico, una cornice potrebbe non essere più adattata correttamente al suo contenuto. Questo nuovo comando consente di regolare automaticamente la posizione e le dimensioni della cornice in modo che si adatti all’estensione del suo contenuto, con una spaziatura interna di una cella della griglia media. Se la cornice ha una descrizione, questa viene regolata in modo da utilizzare eventuale spazio vuoto accanto alla descrizione, se possibile.
 
-![dimensioni_filtro](version-13-1.resources/fitsize.gif)
+![dimensioni_filtro](version-13-1.resources/version-13-1-03.gif)
 
 ### Descrizioni migliorate
 
 Il codice HTML consente ora di formattare il testo nella descrizione di una cornice. Questo vale anche per i commenti.
 
-![testo RTF](version-13-1.resources/description-3.png)
+![testo RTF](version-13-1.resources/version-13-1-04.png)
 
 ### <b>...e molto altro!</b>
 
@@ -64,7 +64,7 @@ Sono state ripensate molte cose, come l&#39;appartenenza a regole più tollerant
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Icona file AxF](version-13-1.resources/axf-file-icon.png "Icona file AxF")
+![Icona file AxF](version-13-1.resources/version-13-1-05.png "Icona file AxF")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -77,7 +77,7 @@ In questa nuova versione, viene introdotta la possibilità di modificare i mater
 </tr>
 </table>
 
-![Esporta AxF](version-13-1.resources/exportaxf.gif)
+![Esporta AxF](version-13-1.resources/version-13-1-06.gif)
 
 ## API
 
@@ -130,7 +130,7 @@ Infine, questa versione 13.1 continua a migliorare l’API Python aggiungendo al
 
 ### Correzioni
 
-* [Vista 3D] Impossibile assegnare una texture a un input di tipo texture\_2d di un materiale MDL
+* [vista 3D] Impossibile assegnare una texture a un input di tipo texture\_2d di un materiale MDL
 * [AxF] Gli identificatori grafici nell&#39;elenco dei modelli possono essere vuoti
 * [AxF] Il campo modello grafico Substance è vuoto per impostazione predefinita
 * [Content] Atlas scatter: comportamento errato in casi specifici
@@ -144,13 +144,13 @@ Infine, questa versione 13.1 continua a migliorare l’API Python aggiungendo al
 * [Engine] I booleani nei processori di valore restituiscono sempre &#39;False&#39; (solo Apple Silicon)
 * [Esplora risorse] L&#39;ordine dei pulsanti della barra degli strumenti non è coerente tra i sistemi operativi
 * [Fotogrammi] Non acquisire i nodi quando si sposta un fotogramma con il modificatore CTRL
-* [Gradient Map] reimposta tutte le opzioni dovrebbe ripristinare anche il widget della sfumatura
+* [Mappa sfumatura] l’opzione ripristina tutto dovrebbe ripristinare anche il widget sfumatura
 * [GraphRender] Alcuni nodi vengono renderizzati in nero quando si modifica in modalità di anteprima
 * [Grafico] L’anteprima &quot;Valore di input&quot; è bloccata su &quot;False&quot; quando si modifica il valore booleano predefinito (solo Apple Silicon)
 * [Grafico] I nodi punto vicini al bordo del fotogramma non vengono spostati dal fotogramma
 * [Interoperabilità] L&#39;icona di reinvio non viene aggiornata dopo l&#39;invio a Substance 3D Stager
 * [MDL] Impossibile modificare la rugosità nei nodi in cui è disponibile questo parametro
-* [MDL] Connessioni non valide nel modello &#39;AxF to Metallic Roughness&#39;
+* [MDL] Connessioni non valide nel modello &#39;AxF to Rugosità metallica&#39;
 * [UI] La finestra &quot;Esporta output&quot; può essere ridotta a icona (solo Windows)
 * [UI] Le immagini appaiono pixelate nella schermata Info su quando si utilizza il ridimensionamento della visualizzazione
 * [UI] Strumenti di allineamento dei nodi nella barra degli strumenti del grafico creazione di più passaggi di annullamento

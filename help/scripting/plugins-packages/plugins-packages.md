@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/scripting/plugins-packages.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/plugins-packages.html"
 breadcrumb-title: ''
 description: Scoprite come creare e strutturare i pacchetti di plug-in per lo scripting Substance 3D Designer Python.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Pacchetti di plug-in
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Si tratta di singoli file con estensione sdplugin che contengono tutto ciò di c
 
 ## Installazione dei pacchetti di plug-in
 
-![Gestione plug-in](plugins-packages.resources/screenshot-from-2019-07-18-11-48-56.png "Gestione plug-in")
+![Gestione plug-in](plugins-packages.resources/plugins-packages-01.png "Gestione plug-in")
 
 I pacchetti di plug-in vengono installati utilizzando <b>Gestione plug-in</b>, nel menu <b>Strumenti</b>:
 

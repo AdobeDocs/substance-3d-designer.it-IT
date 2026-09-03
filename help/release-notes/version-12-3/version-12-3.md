@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/release-notes/version-12-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-12-3.html"
 breadcrumb-title: ''
 description: Consulta le note sulla versione per Substance 3D Designer versione 12.3 per informazioni sulle nuove funzioni, i miglioramenti e le correzioni di bug.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versione 12.3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 0%
@@ -20,53 +20,53 @@ ht-degree: 0%
 
 # Versione 12.3
 
-<b>Substance 3D Designer 12.3</b> porta i grafici dei modelli di Substance a un nuovo livello con il <b>supporto dei grafici secondari</b> (o istanze di grafici), più <b> &#39;Visible if&#39; </b>controllo per parametri esposti e alcuni<b> nuovi nodi</b> dedicati all&#39;edizione curve. Questa versione introduce anche due nuovi pannelli (<b>Benvenuti </b>e <b>Novità</b>) per migliorare l&#39;onboarding dell&#39;utente e alcune altre funzioni minori o correzioni di bug descritte di seguito.
+<b>Substance 3D Designer 12.3</b> porta i grafici del modello Substance a un nuovo livello con <b>supporto di grafici secondari</b> (o istanze di grafici), più <b> &#39;Visible if&#39; </b>controllo per parametri esposti e alcuni<b> nuovi nodi</b> dedicati all&#39;edizione curve. Questa versione introduce anche due nuovi pannelli (<b>Benvenuti </b>e <b>Novità</b>) per migliorare l&#39;onboarding dell&#39;utente e alcune altre funzioni minori o correzioni di bug descritte di seguito.
 
 Data di pubblicazione: *6 ottobre 2022*
 
-![](version-12-3.resources/largef.png){width="1111px"}
+![](version-12-3.resources/version-12-3-01.png){width="1111px"}
 
 ## Funzioni principali
 
-### Supporto delle istanze del grafico nei grafici dei modelli di Substance
+### Supporto delle istanze del grafico nei grafici dei modelli Substance
 
 Se siete abituati a creare grafici, volete essere in grado di creare grafici secondari (o istanze di grafici) per riutilizzare il lavoro, rendere i grafici meno disordinati ed essere più efficienti.\
-Questo è ora possibile anche per i grafici dei modelli di Substance: è sufficiente trascinare e rilasciare il grafico secondario da Esplora risorse al grafico principale per utilizzarlo come nodo di istanza.
+Ciò è ora possibile anche per i grafici del modello Substance: è sufficiente trascinare e rilasciare il grafico secondario da Esplora risorse al grafico principale per utilizzarlo come nodo di istanza.
 
-![](version-12-3.resources/subgraph.gif){width="600px"}
+![](version-12-3.resources/version-12-3-02.gif){width="600px"}
 
-Abbiamo anche introdotto il concetto di nodi di output per i grafici dei modelli di Substance, come Scena di output. Ora hai la possibilità di avere uno o più output nel tuo grafico.\
-Ogni output corrisponderà a un pin di output quando verrà creata un’istanza del grafico in un altro grafico.
+Abbiamo anche introdotto il concetto di nodi di output per i grafici dei modelli Substance, come Scena di output. Ora hai la possibilità di avere uno o più output nel tuo grafico.\
+Ogni output corrisponderà a un segnaposto di output quando verrà creata un’istanza del grafico in un altro grafico.
 
-![](version-12-3.resources/image2022-10-4-15-31-27.png){width="600px"}
+![](version-12-3.resources/version-12-3-03.png){width="600px"}
 
 Facendo clic con il pulsante destro del mouse su un nodo di istanza, è possibile accedere al grafico secondario di riferimento per visualizzarlo o modificarlo.
 
-![](version-12-3.resources/image2022-10-4-16-28-36.png){width="600px"}
+![](version-12-3.resources/version-12-3-04.png){width="600px"}
 
 Grazie ai grafici secondari e ai parametri esposti, puoi creare risorse complesse e applicare infinite variazioni, come dimostrato nell&#39;illustrazione seguente.
 
-![](version-12-3.resources/seasons.gif){width="600px"}
+![](version-12-3.resources/version-12-3-05.gif){width="600px"}
 
-### Altri miglioramenti per i grafici dei modelli di Substance
+### Altri miglioramenti per i grafici dei modelli Substance
 
 * <b>Visibile se per i parametri esposti</b>\
   Durante l&#39;esposizione dei parametri, potete nascondere o mostrare i parametri in base allo stato degli altri parametri. Ad esempio, un cursore che viene visualizzato solo quando un pulsante è attivato.\
-  Con <b>Visible If</b>, puoi aggiungere condizioni alla visibilità dei parametri, mantenendo un&#39;interfaccia utente pulita e funzionale. Questo meccanismo, già disponibile per i grafici a Substance, è stato esteso ai grafici dei modelli a Substance, ovviamente utilizzando la stessa sintassi. <b>\
+  Con <b>Visible If</b>, puoi aggiungere condizioni alla visibilità dei parametri, mantenendo un&#39;interfaccia utente pulita e funzionale. Questo meccanismo, già disponibile per i grafici a Substance, è stato esteso ai grafici dei modelli Substance, utilizzando, naturalmente, la stessa sintassi. <b>\
   </b>
 
-  ![](version-12-3.resources/visibleif.gif){width="600px"}
+  ![](version-12-3.resources/version-12-3-06.gif){width="600px"}
 
 * <b>Nuovi nodi dedicati all&#39;edizione curva\
   </b>Questa versione introduce alcuni nuovi nodi dedicati all&#39;edizione della curva: <b>Curva inversa</b> scambia le due estremità di una curva, <b>Suddivisione della curva</b> aggiunge più vertici sui segmenti in base a due metodi, <b>La curva di arrotondamento </b>smussa tutti gli angoli su una curva 2D e infine <b>La curva di scostamento</b> gonfia o sgonfia una curva 2D, come illustrato di seguito.<b>
 
   </b>
 
-  ![](version-12-3.resources/curve-offset-4.gif){width="600px"}
+  ![](version-12-3.resources/version-12-3-07.gif){width="600px"}
 * <b>Nuova finestra del grafico </b>\
-  La finestra <b>Nuovo grafico modello Substance</b> è ora disponibile anche per i grafici modello Substance. Potete aggiungere i vostri modelli o selezionarne uno predefinito, quindi immettere direttamente il nome del grafico e selezionare il pacchetto a cui verrà aggiunto il grafico.
+  La finestra <b>Nuovo grafico del modello Substance</b> è ora disponibile anche per i grafici del modello Substance. Potete aggiungere i vostri modelli o selezionarne uno predefinito, quindi immettere direttamente il nome del grafico e selezionare il pacchetto a cui verrà aggiunto il grafico.
 
-  ![](version-12-3.resources/image2022-10-5-15-25-42.png){width="600px"}
+  ![](version-12-3.resources/version-12-3-08.png){width="600px"}
 
 ### Pannelli Benvenuti e Novità
 
@@ -76,9 +76,9 @@ Innanzitutto, il pannello <b>Benvenuti </b> - visualizzato la prima volta che *a
 
 Questi due pannelli sono accessibili anche dal menu Aiuto.
 
-![](version-12-3.resources/image2022-10-3-15-47-28.png)
+![](version-12-3.resources/version-12-3-09.png)
 
-![](version-12-3.resources/image2022-10-3-15-47-55.png)
+![](version-12-3.resources/version-12-3-10.png)
 
 ### Varie
 
@@ -88,7 +88,7 @@ Questi due pannelli sono accessibili anche dal menu Aiuto.
   Nelle versioni precedenti, Designer non era in grado di gestire correttamente il fattore di ridimensionamento impostato nel sistema operativo. Come potete vedere nell&#39;illustrazione seguente, tutto è perfettamente gestito su un display 4K con un ridimensionamento del 125% e tutti i font e i pulsanti visualizzati a dimensioni coerenti.\
   Si noti che in questa nuova versione l&#39;opzione &quot;Disattiva High DPI&quot; nelle Preferenze è stata reimpostata su *False* poiché questa opzione non è più necessaria per disporre di un&#39;interfaccia utilizzabile.
 
-  ![](version-12-3.resources/highdpi-fix.gif){width="600px"}
+  ![](version-12-3.resources/version-12-3-11.gif){width="600px"}
 
 * **Supporto nativo di Apple Silicon (M1 / M2) per la versione Steam**\
   La versione 12.2 di Designer è stata la prima a portare il supporto completo di nuovi computer Apple basati su chip M1 o M2, ma tale supporto non era presente nell&#39;edizione Steam. D&#39;ora in poi, tutti gli utenti di Designer potranno beneficiare di un&#39;esperienza più veloce ed efficiente su questi computer.

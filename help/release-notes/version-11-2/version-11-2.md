@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/release-notes/version-11-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-11-2.html"
 breadcrumb-title: ''
 description: Consulta le note sulla versione per Substance 3D Designer versione 11.2 per informazioni sulle nuove funzioni, i miglioramenti e le correzioni di bug.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versione 11.2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '974'
 ht-degree: 0%
@@ -34,12 +34,12 @@ Data di pubblicazione: *23 giugno 2021*
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/structure-tower-render-b.jpg){width="300px"}
+![](version-11-2.resources/version-11-2-01.jpg){width="300px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/structure-paper-creatures-render-a.jpg){width="300px"}
+![](version-11-2.resources/version-11-2-02.jpg){width="300px"}
 
 </td>
 </tr>
@@ -53,7 +53,7 @@ Questa è una prima versione, quindi prevedi alcune limitazioni.
 
 Le versioni di Adobe di Substance 3D Designer dispongono della nuova funzionalità Invia a, che consente di inviare rapidamente le risorse ad altre applicazioni Substance 3D. Non è più necessario pubblicare come SBSAR e caricare singoli file, Invia a risolve questo problema con un clic.
 
-![](version-11-2.resources/sendto-button.gif)
+![](version-11-2.resources/version-11-2-03.gif)
 
 >[!NOTE]
 >
@@ -67,12 +67,12 @@ Nessuna versione di Designer è stata completata senza alcuni nuovi nodi. Basand
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/image2021-6-18-11-11-11.png){width="300px"}
+![](version-11-2.resources/version-11-2-04.png){width="300px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/image2021-6-18-11-9-0.png){width="300px"}
+![](version-11-2.resources/version-11-2-05.png){width="300px"}
 
 </td>
 </tr>
@@ -80,11 +80,11 @@ Nessuna versione di Designer è stata completata senza alcuni nuovi nodi. Basand
 
 RTAO fa un lavoro ancora migliore in nitidezza, correggere AO rispetto al nodo HBAO precedente.
 
-![](version-11-2.resources/rt-caustics-grayscale.png){width="300px"}
+![](version-11-2.resources/version-11-2-06.png){width="300px"}
 
 La caustica genera caustiche raytracing fisicamente corrette in base a una mappa di altezza, come un semplice disturbo di Perlin. Ideale per creare texture flipbook realistiche e animate per caustiche in tempo reale.
 
-![](version-11-2.resources/image2021-6-22-16-36-36.png){width="300px"}
+![](version-11-2.resources/version-11-2-07.png){width="300px"}
 
 RT Shadow genera ombre precise e ray tracing, con alcuni semplici controlli.
 
@@ -92,17 +92,17 @@ RT Shadow genera ombre precise e ray tracing, con alcuni semplici controlli.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/rt-irr-01.jpg){width="200px"}
+![](version-11-2.resources/version-11-2-08.jpg){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/rt-irr-03.jpg){width="200px"}
+![](version-11-2.resources/version-11-2-09.jpg){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/rt-irr-02.jpg){width="200px"}
+![](version-11-2.resources/version-11-2-10.jpg){width="200px"}
 
 </td>
 </tr>
@@ -110,11 +110,11 @@ RT Shadow genera ombre precise e ray tracing, con alcuni semplici controlli.
 
 RT Irradiance è il più avanzato tra i nuovi nodi. Effettua l&#39;irraggiamento con ray tracing basato su un materiale con mappa del height e una mappa dell&#39;ambiente e/o una mappa di emissione.
 
-![](version-11-2.resources/rt-irrad-pro.jpg){width="600px"}
+![](version-11-2.resources/version-11-2-11.jpg){width="600px"}
 
 Ciò significa che potete creare texture con illuminazione pre-cotta, come per progetti stilizzati, o potete eseguire il baking in bagliore raytracing che rimbalza sulla mappa dell’altezza.
 
-![](version-11-2.resources/bent-normal-ex.jpg){width="300px"}
+![](version-11-2.resources/version-11-2-12.jpg){width="300px"}
 
 E infine c&#39;è il nodo Normale piegato. Rispetto a una normale conversione normale regolare, questo nodo utilizza AO per modificare la mappa di normalizzazione per utilizzare le informazioni di AO. Prima che tu abbia bisogno di forni a trama per creare l&#39;effetto, questo nodo lo fa in texturespace per te.
 
@@ -139,7 +139,7 @@ Di seguito sono riportate le nostre esercitazioni video sulle nuove funzioni:
 **Aggiunto:**
 
 * Il Substance Designer [Branding] diventa Adobe Substance 3D Designer
-* [Modelli di Substance] Nuovi grafici per modelli di Substance per creare modelli 3D procedurali
+* [Substance modelli] Nuovi grafici dei modelli Substance per creare modelli 3D procedurali
 * [Content] Aggiungi nuove mappe ambiente HDR
 * [Content] Nuovo nodo normale piegato
 * [Content] Nuovo nodo di Occlusione ambiente RT

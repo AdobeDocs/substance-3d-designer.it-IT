@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/resources.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources.html"
 breadcrumb-title: ''
 description: Scopri come importare, creare e gestire risorse in Substance 3D Designer, tra cui bitmap, font e scene 3D.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Risorse
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 7%
@@ -26,7 +26,7 @@ Le risorse sono il contenuto dei pacchetti di Substance 3D Designer. Vengono uti
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![](resources.resources/graph-5.png)
+![](resources.resources/resources-01.png)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -46,7 +46,7 @@ Le risorse del grafico sono le risorse principali create in Designer. Ciascuno d
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![](resources.resources/folder-4.png)
+![](resources.resources/resources-02.png)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

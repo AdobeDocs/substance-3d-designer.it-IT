@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
 breadcrumb-title: ''
 description: Utilizza il nodo Curva per regolare i valori della texture utilizzando curve personalizzabili per un controllo preciso del colore e della luminosità.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Curva
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atomico: curva](curve.resources/comp_curve_1.png "Nodo atomico: curva"){width="200px"}
+![Nodo atomico: curva](curve.resources/curve-01.png "Nodo atomico: curva"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -99,7 +99,7 @@ A differenza della maggior parte degli altri nodi, il nodo Curva non dispone di 
 
 Per creare un punto, fate doppio clic in un punto qualsiasi della vista Curva:
 
-![](curve.resources/createmovepoint.gif)
+![](curve.resources/curve-02.gif)
 
 ### Controllo dell&#39;influenza di un punto
 
@@ -112,31 +112,31 @@ Per ottenere risultati precisi, i nodi della curva offrono diverse modalità per
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](curve.resources/image2017-2-17-14-5-36.png)
+![](curve.resources/curve-03.png)
 
 </td>
 </tr>
 </table>
 
-![](curve.resources/image2017-2-17-14-13-27.png) Reimpostare la modalità punto sul valore predefinito.
+![](curve.resources/curve-04.png) Reimpostare la modalità punto sul valore predefinito.
 
-![](curve.resources/image2017-2-17-14-12-6.png) Bloccare e sbloccare i due gestori Bezier in modo che l&#39;utente possa spostarli insieme o in modo indipendente.
+![](curve.resources/curve-05.png) Bloccare e sbloccare i due gestori Bezier in modo che l&#39;utente possa spostarli insieme o in modo indipendente.
 
-![](curve.resources/image2017-2-17-14-14-0.png) Entrambi i lati del punto sono controllati da un gestore di Bezier.
+![](curve.resources/curve-06.png) Entrambi i lati del punto sono controllati da un gestore di Bezier.
 
-![](curve.resources/image2017-2-17-14-16-22.png) Il lato destro del punto è controllato da un gestore di Bezier mentre il lato sinistro rimane piatto.
+![](curve.resources/curve-07.png) Il lato destro del punto è controllato da un gestore di Bezier mentre il lato sinistro rimane piatto.
 
-![](curve.resources/image2017-2-17-14-18-25.png) Il lato sinistro del punto è controllato da un gestore di Bezier mentre il lato destro rimane piatto.
+![](curve.resources/curve-08.png) Il lato sinistro del punto è controllato da un gestore di Bezier mentre il lato destro rimane piatto.
 
-![](curve.resources/image2017-2-17-14-19-32.png) I lati dei punti rimangono piatti
+![](curve.resources/curve-09.png) I lati dei punti rimangono piatti
 
-![](curve.resources/curvepointsmodes.gif)
+![](curve.resources/curve-10.gif)
 
 ### Mostra istogramma di input
 
-Puoi mostrare/nascondere l&#39;istogramma del tuo input semplicemente facendo clic su ![](curve.resources/image2017-2-17-14-50-13.png)
+Puoi mostrare/nascondere l&#39;istogramma del tuo input semplicemente facendo clic su ![](curve.resources/curve-11.png)
 
-![](curve.resources/image2017-2-17-14-48-35.png)
+![](curve.resources/curve-12.png)
 
 ### Controllo individuale di ciascun canale (input colore)
 
@@ -151,15 +151,15 @@ Seleziona la curva da regolare nell’elenco a discesa in alto a destra:
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](curve.resources/image2017-2-17-14-52-43.png)
+![](curve.resources/curve-13.png)
 
 </td>
 </tr>
 </table>
 
-Nella modalità Curva RGB puoi nascondere/mostrare le singole curve dei canali premendo/depremendo ![](curve.resources/image2017-2-17-14-55-0.png):
+Nella modalità Curva RGB puoi nascondere/mostrare le singole curve dei canali premendo/depremendo ![](curve.resources/curve-14.png):
 
-![](curve.resources/image2017-2-17-14-55-38.png)
+![](curve.resources/curve-15.png)
 
 ### Allineamento, specchiatura e capovolgimento
 
@@ -178,7 +178,7 @@ Se fate clic con il pulsante destro del mouse sulla vista curva, verranno visual
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
 
-![](curve.resources/image2017-6-27-16-11-9.png)
+![](curve.resources/curve-16.png)
 
 </td>
 </tr>
@@ -203,7 +203,7 @@ Disegnate una casella di selezione.
 </td>
 <td style="border: 0;" valign="top">
 
-![](curve.resources/ctrl.gif)
+![](curve.resources/curve-17.gif)
 
 </td>
 </tr>
@@ -220,7 +220,7 @@ Vincola lo spostamento sull’asse X o Y.
 </td>
 <td style="border: 0;" valign="top">
 
-![](curve.resources/shift.gif)
+![](curve.resources/curve-18.gif)
 
 </td>
 </tr>
@@ -237,7 +237,7 @@ Interrompi temporaneamente le maniglie per spostarle in modo indipendente.
 </td>
 <td style="border: 0;" valign="top">
 
-![](curve.resources/altclick.gif)
+![](curve.resources/curve-19.gif)
 
 </td>
 </tr>
@@ -247,11 +247,11 @@ Interrompi temporaneamente le maniglie per spostarle in modo indipendente.
 
 Durante l’ottimizzazione dei gestori, potreste trovarvi in un caso in cui un gestore si trova sopra la vista curva.
 
-In tal caso, è possibile utilizzare il pulsante ![](curve.resources/image2017-2-20-19-11-53.png) per adattare le dimensioni al contenuto.
+In tal caso, è possibile utilizzare il pulsante ![](curve.resources/curve-20.png) per adattare le dimensioni al contenuto.
 
-Il pulsante ![](curve.resources/image2017-2-20-19-12-45.png) ripristina il livello di zoom su 1
+Il pulsante ![](curve.resources/curve-21.png) ripristina il livello di zoom su 1
 
-![](curve.resources/viewzoom.gif)
+![](curve.resources/curve-22.gif)
 
 ## Connettori di ingresso
 

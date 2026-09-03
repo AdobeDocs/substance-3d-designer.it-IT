@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/triangle-grid.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/triangle-grid.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo Triangle Grid per generare pattern a griglia triangolare per la creazione di texture geometriche in Substance 3D Designer.
+description: Utilizzate il nodo Triangle Grid per generare serie di griglia triangolari per la creazione di texture geometriche in Substance 3D Designer.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Triangle Grid
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Triangle Grid
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 0%
@@ -24,18 +24,18 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](triangle-grid.resources/trianglegridgrayscale.jpg){width="200px"}
+![](triangle-grid.resources/triangle-grid-01.jpg){width="200px"}
 
-![](triangle-grid.resources/trianglegridcolor.jpg){width="200px"}
+![](triangle-grid.resources/triangle-grid-02.jpg){width="200px"}
 
-<b>Ingresso:</b> Generatori texture > Pattern
+<b>Ingresso:</b> Generatori Texture > Pattern
 
 </td>
 <td width="58.30%" style="border: 0;" valign="top">
 
 ## Descrizione
 
-Il nodo **Triangle Grid** genera una rappresentazione in scala di grigi di una *superficie triangolata* su *vertici* nello spazio 3D, utilizzando una proiezione ortogonale Z-down.
+Il nodo **Triangle Grid** genera una rappresentazione in scala di grigi di una *superficie triangolata* su *vertici* nello spazio 3D, utilizzando una proiezione ortografica Z-down.
 
 Il parametro **Output colore** consente di selezionare i dati utilizzati per la rappresentazione, creando vari stili visivi.\
 È possibile regolare le *posizioni* dei vertici, che influiscono sulla trama generata.
@@ -84,9 +84,9 @@ Il parametro **Output colore** consente di selezionare i dati utilizzati per la 
 | <b>Metodo fusione</b> *Numero intero* | Imposta il metodo di fusione dei valori di *triangoli sovrapposti*. La modalità consente di selezionare *quali* dei triangoli devono essere visibili: <ul data-preserve-html="true"> <li data-preserve-html="true"><b>Min:</b> Testo</li> <li data-preserve-html="true"><b>Massimo:</b> Testo</li> <li data-preserve-html="true"><b>Profondità test</b>: testo</li> <li data-preserve-html="true"><b>Fusione Alpha:</b> Testo</li> </ul>Nota: i metodi di fusione disponibili dipendono dal valore del parametro <b>Output colore</b>. |
 | <b>Origine colore</b> *Intero* *Disponibile quando il parametro &#39;Output colore&#39; è impostato su &#39;Per vertice&#39;, &#39;Per triangolo&#39; o &#39;Linea sottile&#39;.* | Imposta il metodo di *acquisizione del colore*, ovvero della luminanza, che deve essere assegnato al vertice, al triangolo o al segmento, a seconda della modalità <b>Output colore</b> selezionata:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Height</b><b>:</b> utilizza il height del vertice come luminanza</li> <li data-preserve-html="true"><b>Casuale</b><b>:</b> utilizza un valore di luminanza casuale</li> <li data-preserve-html="true"><b>Input colore</b><b>:</b> utilizza il valore campionato dall&#39;input <b style="">Input colore</b></li> </ul> |
 | <b>Opacità origine colore</b> *Float* *Disponibile quando il parametro &#39;Color Output&#39; è impostato su &#39;Thin Line&#39;.* | Controlla l&#39;*override* del valore <b>Colore linea</b> con i valori risultanti dall&#39;<b>Origine colore</b> selezionata.   Nota: quando questo valore è impostato su 1, il parametro <b>Colore linea</b> non ha alcun impatto. |
-| <b>Distanza dal Thickness di bordi</b> *Virgola mobile* *Disponibile quando il parametro &#39;Output colore&#39; è impostato su &#39;Distanza dal bordo&#39;.* | Imposta il thickness della sfumatura della distanza. Un valore inferiore genera una sfumatura *più breve*. |
-| <b>Colore linea</b> *Virgola mobile/Virgola mobile 4* *Disponibile quando il parametro &#39;Output colore&#39; è impostato su &#39;Linea sottile&#39;.* | Il valore di luminanza dei segmenti.   Nota: quando il valore <b>Opacità origine colore</b> è impostato su 1, questo parametro non ha alcun impatto. |
-| <b>Colore di sfondo</b> *Virgola mobile/Virgola mobile 4* *Disponibile quando il parametro &#39;Output colore&#39; è impostato su &#39;Linea sottile&#39;.* | Luminanza dello sfondo visibile tra i segmenti.   Nota: quando la <b>modalità Fusione</b> è impostata su *Max*, lo sfondo sovrascriverà i segmenti in cui è *più luminoso*, come previsto. |
+| <b>Distanza dal Thickness di bordi</b> *Mobile* *Disponibile quando il parametro &#39;Output colore&#39; è impostato su &#39;Distanza dal bordo&#39;.* | Imposta il thickness della sfumatura della distanza. Un valore inferiore genera una sfumatura *più breve*. |
+| <b>Colore linea</b> *Float/Float4* *Disponibile quando il parametro &#39;Color Output&#39; è impostato su &#39;Thin Line&#39;.* | Il valore di luminanza dei segmenti.   Nota: quando il valore <b>Opacità origine colore</b> è impostato su 1, questo parametro non ha alcun impatto. |
+| <b>Colore di sfondo</b> *Float/Float4* *Disponibile quando il parametro &#39;Color Output&#39; è impostato su &#39;Thin Line&#39;.* | Luminanza dello sfondo visibile tra i segmenti.   Nota: quando <b>Metodo fusione</b> è impostato su *Max*, lo sfondo sovrascriverà i segmenti in cui è *più luminoso*, come previsto. |
 | <b>Modalità colore casuale</b> *Intero* *Disponibile quando il parametro &#39;Color Output&#39; è impostato su &#39;Per Vertex&#39;, &#39;Per Triangle&#39; o &#39;Thin Line&#39; e il parametro &#39;Color Source&#39; è impostato su &#39;Random&#39;.* | Metodo di acquisizione del seme utilizzato nella distribuzione pseudo-casuale dei colori:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Numero casuale globale</b><b>:</b> eredita il numero dal grafico del nodo</li> <li data-preserve-html="true"><b>Valore di inizializzazione manuale</b><b>:</b> utilizza un valore di inizializzazione discreto personalizzato</li> </ul> |
 | <b>Numero di colori casuale</b> *Numero intero* *Disponibile quando il parametro &#39;Metodo di inizializzazione colore casuale&#39; è impostato su &#39;Inizio manuale&#39; e il parametro &#39;Origine colore&#39; è impostato su &#39;Casuale&#39;.* | Valore di inizializzazione discreto utilizzato nella distribuzione pseudo-casuale dei colori. |
 | <b>Non square expansion</b> *Booleano* | Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati. |
@@ -97,37 +97,17 @@ Il parametro **Output colore** consente di selezionare i dati utilizzati per la 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: Esempio 1](triangle-grid.resources/triangle_grid_color_example_1.jpg "Triangle Grid: Esempio 1"){zoomable="yes"}
+![Triangle Grid: Esempio 1](triangle-grid.resources/triangle-grid-03.jpg "Triangle Grid: Esempio 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: Esempio 2](triangle-grid.resources/trianglegrid-variant2.png "Triangle Grid: Esempio 2"){zoomable="yes"}
+![Triangle Grid: Esempio 2](triangle-grid.resources/triangle-grid-04.png "Triangle Grid: Esempio 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: Esempio 3](triangle-grid.resources/trianglegridcolor-variant2.jpg "Triangle Grid: Esempio 3"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Triangle Grid: Esempio 4](triangle-grid.resources/triangle_grid_color_example_2.jpg "Triangle Grid: Esempio 4"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Triangle Grid: Esempio 5](triangle-grid.resources/trianglegridcolor-variant4.jpg "Triangle Grid: Esempio 5"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Triangle Grid: Esempio 6](triangle-grid.resources/trianglegridcolor-variant3.jpg "Triangle Grid: Esempio 6"){zoomable="yes"}
+![Triangle Grid: Esempio 3](triangle-grid.resources/triangle-grid-05.jpg "Triangle Grid: Esempio 3"){zoomable="yes"}
 
 </td>
 </tr>
@@ -137,12 +117,32 @@ Il parametro **Output colore** consente di selezionare i dati utilizzati per la 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: pelle](triangle-grid.resources/trianglegrid-demo.png "Triangle Grid: pelle"){zoomable="yes"}
+![Triangle Grid: Esempio 4](triangle-grid.resources/triangle-grid-06.jpg "Triangle Grid: Esempio 4"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: Grafico](triangle-grid.resources/trianglegrid-node.png "Triangle Grid: Grafico"){zoomable="yes"}
+![Triangle Grid: Esempio 5](triangle-grid.resources/triangle-grid-07.jpg "Triangle Grid: Esempio 5"){zoomable="yes"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![Triangle Grid: Esempio 6](triangle-grid.resources/triangle-grid-08.jpg "Triangle Grid: Esempio 6"){zoomable="yes"}
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![Triangle Grid: pelle](triangle-grid.resources/triangle-grid-09.png "Triangle Grid: pelle"){zoomable="yes"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![Triangle Grid: Grafico](triangle-grid.resources/triangle-grid-10.png "Triangle Grid: Grafico"){zoomable="yes"}
 
 </td>
 </tr>

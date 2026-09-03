@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-invert.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-invert.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo Inverti normale (Normal Invert) per invertire i vettori della mappa normale per invertire l'orientamento della superficie e la direzione della luce.
+description: Utilizzate il nodo Inverti normale (Normal Invert) per invertire i vettori di mappa normale per invertire l'orientamento della superficie e la direzione dell'illuminazione.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Normal Invert
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Inverti normale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](normal-invert.resources/normal-invert.png){width="128px"}
+![](normal-invert.resources/normal-invert-01.png){width="128px"}
 
 <b>Ingresso:</b> Filtri > Mappa normale
 
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## Descrizione
 
-Consente di invertire tutti i canali di una mappa normale, fornendo una scorciatoia rapida e semplice per eseguire questa operazione manualmente.
+Consente di invertire tutti i canali di una mappa normale, fornendo una scelta rapida da tastiera rapida e facile per farlo manualmente.
 
 Tenete presente che quasi tutti i nodi che utilizzano una mappa normale come input o output hanno un&#39;opzione per invertire il canale verde, per le mappe normali in stile DirectX o OpenGL. Ciò significa che per questi casi, non si dovrebbe quasi mai avere bisogno di questo nodo.
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/publishing-substance-3d-asset-files-sbsar.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/publishing-substance-3d-asset-files-sbsar.html"
 breadcrumb-title: ''
 description: Scopri come pubblicare i file delle risorse Substance 3D (SBSAR) da Designer per utilizzarli in altre applicazioni e motori.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Pubblicazione di file di risorse Substance 3D (SBSAR)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 9505c371dff25c5d32a409abf76b95655b499571
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1238'
 ht-degree: 2%
@@ -22,18 +22,18 @@ ht-degree: 2%
 
 Questa pagina spiega come Substance 3D Designer può pubblicare pacchetti come file <b>Substance 3D asset</b>, un formato di file speciale con estensione <b>SBSAR</b>, utilizzato sia nell&#39;ecosistema Substance che in altre applicazioni che lo supportano.
 
-In genere è preferibile utilizzare una risorsa di Substance 3D anziché le bitmap, poiché è molto più flessibile e leggera. Se li utilizzi in Substance 3D [Painter](https://experienceleague.adobe.com/it/docs/substance-3d-painter/using/home), [Sampler](https://experienceleague.adobe.com/it/docs/substance-3d-sampler/using/home) o [Player](https://helpx.adobe.com/substance-3d-player/home.html), è più veloce utilizzare la funzionalità [&#39;Invia a...&#39;](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md).
+In genere è preferibile utilizzare una risorsa di Substance 3D anziché le bitmap, poiché è molto più flessibile e leggera. Se li utilizzi in Substance 3D [Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home), [Sampler](https://experienceleague.adobe.com/en/docs/substance-3d-sampler/using/home) o [Player](https://helpx.adobe.com/substance-3d-player/home.html), è più veloce utilizzare la funzionalità [&#39;Invia a...&#39;](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md).
 
-![Pubblicazione dei file SBSAR semplificata](publishing-substance-3d-asset-files-sbsar.resources/exportflow.png "Pubblicazione dei file SBSAR semplificata")
+![Pubblicazione dei file SBSAR semplificata](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-01.png "Pubblicazione dei file SBSAR semplificata")
 
 ## Concetti di pubblicazione
 
 quando pubblicate un grafico a Substance, è bene tenere presente quanto segue:
 
 * L&#39;utente <b> pubblica un pacchetto</b>, con tutto il relativo contenuto, non un [grafico Substance](../../compositing-graphs/substance-compositing-graphs.md) singolo. Una risorsa Substance 3D consente quindi di generare contenuti da tutti i grafici Substance all&#39;interno di questo pacchetto.
-* I pacchetti pubblicati sono <b>completamente autonomi</b>: tutte le risorse necessarie sono incorporate nel file. Ciò significa che sono molto più facili da condividere rispetto ai file SBS.
+* I pacchetti pubblicati sono <b>completamente autonomi</b>: tutte le risorse necessarie sono incorporate nel file. Questo significa che sono molto più facili da condividere rispetto ai file SBS.
 * L&#39;output delle risorse Substance 3D può essere <b>completamente dinamico</b>. [Risoluzione non impostata. È possibile modificare i parametri esposti.](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md) Tuttavia, la modifica del grafico non è più possibile.
-* Le risorse Substance 3D possono essere utilizzate al di fuori di Designer, in tutti i prodotti Substance 3D di Adobe, Adobe Dimension e in qualsiasi altra applicazione con [integrazione Substance](https://experienceleague.adobe.com/it/docs/substance-3d/ecosystem/home).
+* Le risorse Substance 3D possono essere utilizzate al di fuori di Designer, in tutti i prodotti Substance 3D di Adobe, Adobe Dimension e in qualsiasi altra applicazione con [integrazione Substance](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home).
 * La pubblicazione è diversa dall&#39;[esportazione](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md). Assicurati di aver compreso bene la differenza.
 
 ## Preparazione alla pubblicazione
@@ -55,14 +55,14 @@ Una volta che si è pronti per la pubblicazione, è possibile accedere alla fine
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-In Esplora risorse, fare clic con il pulsante destro del mouse sul pacchetto e scegliere ![](publishing-substance-3d-asset-files-sbsar.resources/image2020-9-23-9-39-58.png) **file Publish .sbsar...**, tasto di scelta rapida alternativo Ctrl + P.
+In Esplora risorse, fare clic con il pulsante destro del mouse sul pacchetto e scegliere ![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-02.png) **file Publish .sbsar...**, tasto di scelta rapida alternativo Ctrl + P.
 
-Dopo aver pubblicato con la finestra di dialogo una volta, puoi anche utilizzare il file ![](publishing-substance-3d-asset-files-sbsar.resources/image2020-9-23-11-15-35.png) **Publish .sbsar come precedente** per ripetere il processo di pubblicazione senza visualizzare le finestre di dialogo, pubblicando immediatamente con le stesse impostazioni.
+Dopo aver pubblicato con la finestra di dialogo una volta, puoi anche utilizzare il file ![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-03.png) **Publish .sbsar come precedente** per ripetere il processo di pubblicazione senza visualizzare le finestre di dialogo, pubblicando immediatamente con le stesse impostazioni.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](publishing-substance-3d-asset-files-sbsar.resources/publish-rightclick.gif)
+![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-04.gif)
 
 </td>
 </tr>
@@ -72,14 +72,14 @@ Dopo aver pubblicato con la finestra di dialogo una volta, puoi anche utilizzare
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-In Esplora risorse, facendo clic sul pulsante Publish ![](publishing-substance-3d-asset-files-sbsar.resources/image2020-9-23-9-39-58.png) nella barra degli strumenti superiore.
+In Esplora risorse, facendo clic sul pulsante Publish ![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-02.png) nella barra degli strumenti superiore.
 
-Dopo aver pubblicato con la finestra di dialogo una volta, è anche possibile utilizzare il pulsante Publish come precedente ![](publishing-substance-3d-asset-files-sbsar.resources/image2020-9-23-11-15-35.png) per ripetere il processo di pubblicazione senza visualizzare le finestre di dialogo, pubblicando immediatamente con le stesse impostazioni.
+Dopo aver pubblicato con la finestra di dialogo una volta, è anche possibile utilizzare il pulsante Publish come precedente ![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-03.png) per ripetere il processo di pubblicazione senza visualizzare le finestre di dialogo, pubblicando immediatamente con le stesse impostazioni.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](publishing-substance-3d-asset-files-sbsar.resources/publish-toolbutton.gif)
+![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-05.gif)
 
 </td>
 </tr>
@@ -96,7 +96,7 @@ Prima che venga visualizzata la finestra Opzioni Asset Publish, ti verrà chiest
 </td>
 <td style="border: 0;" valign="top">
 
-![Opzioni di pubblicazione delle risorse](publishing-substance-3d-asset-files-sbsar.resources/publish-dialog.png "Opzioni di pubblicazione delle risorse")
+![Opzioni di pubblicazione delle risorse](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-06.png "Opzioni di pubblicazione delle risorse")
 
 </td>
 </tr>
@@ -131,7 +131,7 @@ Per impedire che un grafico diventi visibile o utilizzabile all&#39;interno di u
 </td>
 <td style="border: 0;" valign="top">
 
-![](publishing-substance-3d-asset-files-sbsar.resources/image2020-9-23-10-40-21.png)
+![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-07.png)
 
 </td>
 </tr>

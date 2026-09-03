@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/mask-builder.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/mask-builder.html"
 breadcrumb-title: ''
 description: Utilizza il nodo Crea maschera per combinare più input di maschera e creare pattern di maschera complessi per effetti di materiale.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Generatore maschera
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 10%
@@ -24,7 +24,7 @@ ht-degree: 10%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](mask-builder.resources/mask-builder.png){width="128px"}
+![](mask-builder.resources/mask-builder-01.png){width="128px"}
 
 <b>In:</b> Generatori Basati Su Trama > Generatori di maschere
 
@@ -35,9 +35,9 @@ ht-degree: 10%
 
 Genera una maschera in bianco e nero in base alle mappe con baking e alle impostazioni dell’utente. Si tratta più o meno della versione Designer di Painter Mask Builder.
 
-Si tratta di uno strumento complicato inteso come un generatore di maschere onnicomprensivo, basato su mappe con baking, parametri utente e pattern e mappe grunge. È principalmente inteso come un nodo molto avanzato, pieno controllo per fondere in piega dirt e usura dei bordi. Questo nodo è abbastanza potente da imitare ogni altro Generatore di maschere.
+Si tratta di uno strumento complicato inteso come un generatore di maschere onnicomprensivo, basato su mappe con baking, parametri utente e pattern e mappe grunge. È principalmente inteso come un nodo molto avanzato, pieno controllo per fondere in piega dirt e usura dei bordi. Questo nodo è abbastanza potente da simulare ogni altro generatore di maschere.
 
-Nessun eseguo i baking è esplicitamente richiesto, ma più fornisci, più questo nodo è in grado di fare.
+Nessun bakes è esplicitamente richiesto, ma più fornisci, più questo nodo è in grado di fare.
 
 </td>
 </tr>

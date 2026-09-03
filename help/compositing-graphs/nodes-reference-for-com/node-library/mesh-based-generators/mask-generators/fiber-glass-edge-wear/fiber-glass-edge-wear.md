@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/fiber-glass-edge-wear.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/fiber-glass-edge-wear.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Edge Wear fibra di vetro per generare maschere di usura sui bordi in fibra di vetro in base alla curvatura della trama.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Edge Wear in fibra di vetro
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](fiber-glass-edge-wear.resources/fiber-glass-edge-wear.png){width="128px"}
+![](fiber-glass-edge-wear.resources/fiber-glass-edge-wear-01.png){width="128px"}
 
 <b>In:</b> Generatori Basati Su Trama > Generatori di maschere
 
@@ -75,7 +75,7 @@ Rappresenta una maschera specificamente destinata a un&#39;usura di tipo vetrore
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="fiber-glass-edge-wear.resources/fiber-glass-edge-wear-ex.gif" />
+            <img src="fiber-glass-edge-wear.resources/fiber-glass-edge-wear-02.gif" />
         </td>
     </tr>
 </table>

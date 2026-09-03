@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-perlin-noise.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-perlin-noise.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo Disturbo Perlin 3D per generare pattern di disturbo Perlin uniformi in uno spazio 3D per creare texture volumetrica dall'aspetto naturale.
+description: Utilizzate il nodo Disturbo di Perlin 3D per generare pattern di disturbo di Perlin uniformi in uno spazio 3D per creare texture volumetriche dall'aspetto naturale.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Perlin Noise
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Disturbo Perlin 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-perlin-noise.resources/3dperlinnoise.png){width="200px"}
+![](3d-perlin-noise.resources/3d-perlin-noise-01.png){width="200px"}
 
 <b>Ingresso:</b> Generatori di Texture > Rumori
 
@@ -67,13 +67,13 @@ Questo nodo può essere testato con [Cubo 3D GBuffers](../../../../../../composi
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-perlin-noise.resources/3dperlin.gif" />
+            <img src="3d-perlin-noise.resources/3d-perlin-noise-02.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-perlin-noise.resources/3dperlinnoise-variant2.jpg" />
+            <img src="3d-perlin-noise.resources/3d-perlin-noise-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-perlin-noise.resources/3dperlinnoise-variant.jpg" />
+            <img src="3d-perlin-noise.resources/3d-perlin-noise-04.jpg" />
         </td>
     </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/pipeline-and-project-configuration/configuration-list-sbscfg.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/configuration-list-sbscfg.html"
 breadcrumb-title: ''
 description: Scopri come utilizzare gli elenchi di configurazione SBSCFG in Substance 3D Designer per gestire le impostazioni e i predefiniti del progetto.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Elenco configurazioni - SBSCFG
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Puoi avere più configurazioni per ambienti diversi, questi file possono essere 
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Icona file SBSCFG](configuration-list-sbscfg.resources/sbscfg.png "Icona file SBSCFG")
+![Icona file SBSCFG](configuration-list-sbscfg.resources/configuration-list-sbscfg-01.png "Icona file SBSCFG")
 
 </td>
 </tr>
@@ -45,7 +45,7 @@ Questi file sono semplici, ma possono comunque essere modificati in due modi div
 
 La sezione evidenziata è la parte che si riferisce ai File di configurazione, è sufficiente aggiungere più Progetti all&#39;elenco che sono memorizzati nel file SBSCFG sopra definito.
 
-![Impostazioni progetto](configuration-list-sbscfg.resources/config-ui.png "Impostazioni progetto")
+![Impostazioni progetto](configuration-list-sbscfg.resources/configuration-list-sbscfg-02.png "Impostazioni progetto")
 
 ### Modifica esterna come XML
 

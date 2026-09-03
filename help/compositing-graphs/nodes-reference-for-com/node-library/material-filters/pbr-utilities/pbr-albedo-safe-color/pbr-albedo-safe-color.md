@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-albedo-safe-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-albedo-safe-color.html"
 breadcrumb-title: ''
 description: Utilizza il nodo Colore sicuro di Albedo PBR per garantire che i colori di albedo rientrino negli intervalli fisicamente plausibili per i materiali PBR.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Colore sicuro Albedo PBR
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](pbr-albedo-safe-color.resources/pbr-albedo-safe-color.png){width="128px"}
+![](pbr-albedo-safe-color.resources/pbr-albedo-safe-color-01.png){width="128px"}
 
 <b>In:</b> Filtri materiali > Utilità PBR
 
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 ## Descrizione
 
-Si tratta di un nodo di utilità che corregge se i valori Basecolor o Diffuse non rientrano in un intervallo accettabile e corretto per PBR. Quando è impostato su Metallico, il nodo tenta inoltre di correggere i valori di Colore di base in base all&#39;intensità del metallizzato.
+Si tratta di un nodo di utilità che corregge se i valori di Colore di base o Diffusa non rientrano in un intervallo accettabile e corretto per PBR. Quando è impostato su Metallico, il nodo tenta inoltre di correggere i valori di Colore di base in base all&#39;intensità del metallizzato.
 
 Consultate anche [PBR BaseColor / Metallic Validate](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/pbr-basecolor-metallic/pbr-basecolor-metallic-validate.md) per il feedback visivo sulle aree che potrebbero essere errate.
 

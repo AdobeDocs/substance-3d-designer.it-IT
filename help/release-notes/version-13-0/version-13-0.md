@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/release-notes/version-13-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-13-0.html"
 breadcrumb-title: ''
 description: Consulta le note sulla versione per Substance 3D Designer versione 13.0 per informazioni sui nuovi nodi, Substance Engine 9.0 e i nodi portale.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versione 13.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1671'
 ht-degree: 2%
@@ -26,7 +26,7 @@ Come accennato nella versione precedente, questa versione non supporta più i gr
 
 *Data di pubblicazione: 6 giugno 2023*
 
-![Materiale che utilizza i tracciati](version-13-0.resources/Paths2.png "Materiale che utilizza i tracciati")
+![Materiale che utilizza i tracciati](version-13-0.resources/version-13-0-01.png "Materiale che utilizza i tracciati")
 
 *Illustrazione di [Celine Dameron](https://www.artstation.com/cline)*
 
@@ -39,7 +39,7 @@ Questa versione 13.0 introduce molti nuovi contenuti. Sono disponibili principal
 
 Tutti questi nodi offriranno un sacco di possibilità e avranno sicuramente un sacco di applicazioni creative. Consulta la sezione [Utilizzo di tracciati e Strumenti spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/working-with-path-and-spl/working-with-path-and-spline-tools.md) per un tour dei concetti importanti da comprendere per conoscere bene questo set di strumenti.
 
-![Materiale che utilizza spline](version-13-0.resources/Splines.png "Materiale che utilizza spline")
+![Materiale che utilizza spline](version-13-0.resources/version-13-0-02.png "Materiale che utilizza spline")
 
 *Illustrazione di [Louise Melin](https://www.artstation.com/troglodette)*
 
@@ -61,22 +61,22 @@ La prima categoria è naturalmente quella per generare spline:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Spline Cubic](version-13-0.resources/SplineCubic-Demo.gif "Spline Cubic")
+![Spline Cubic](version-13-0.resources/version-13-0-03.gif "Spline Cubic")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Spline Poly Quadratic](version-13-0.resources/SplinePolyQuadratic-Demo.gif "Spline Poly Quadratic")
+![Spline Poly Quadratic](version-13-0.resources/version-13-0-04.gif "Spline Poly Quadratic")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Cerchio spline](version-13-0.resources/SplineCircle-Demo.gif "Cerchio spline")
+![Cerchio spline](version-13-0.resources/version-13-0-05.gif "Cerchio spline")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Elenco Spline Bridge](version-13-0.resources/SplineBridge-List_Demo.gif "Elenco Spline Bridge")
+![Elenco Spline Bridge](version-13-0.resources/version-13-0-06.gif "Elenco Spline Bridge")
 
 </td>
 </tr>
@@ -94,17 +94,17 @@ Forniamo anche strumenti per rielaborare e rifinire le spline. Troverai un nodo 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Spline 2D Transform](version-13-0.resources/Spline2DTransform-Demo1.gif "Spline 2D Transform")
+![Spline 2D Transform](version-13-0.resources/version-13-0-07.gif "Spline 2D Transform")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Alterazione spline](version-13-0.resources/SplineWarp-Demo.gif "Alterazione spline")
+![Alterazione spline](version-13-0.resources/version-13-0-08.gif "Alterazione spline")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Thickness di campioni di spline](version-13-0.resources/SplineSampleThickness-Demo.gif "Thickness di campioni di spline")
+![Thickness di campioni di spline](version-13-0.resources/version-13-0-09.gif "Thickness di campioni di spline")
 
 </td>
 <td style="border: 0;" valign="top">
@@ -125,22 +125,22 @@ Grazie a [Riempimento spline](../../compositing-graphs/nodes-reference-for-com/n
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dispersione su scala di grigi spline](version-13-0.resources/ScatterOnSplineGrayscale-Demo.gif "Dispersione su scala di grigi spline")
+![Dispersione su scala di grigi spline](version-13-0.resources/version-13-0-10.gif "Dispersione su scala di grigi spline")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Riempimento spline](version-13-0.resources/SplineFill-Demo.gif "Riempimento spline")
+![Riempimento spline](version-13-0.resources/version-13-0-11.gif "Riempimento spline")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Colore mappatura spline](version-13-0.resources/SplineMapperColor-Demo.gif "Colore mappatura spline")
+![Colore mappatura spline](version-13-0.resources/version-13-0-12.gif "Colore mappatura spline")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Spline Flow Mapper](version-13-0.resources/SplineFlowMapper-Demo.gif "Spline Flow Mapper")
+![Spline Flow Mapper](version-13-0.resources/version-13-0-13.gif "Spline Flow Mapper")
 
 </td>
 </tr>
@@ -156,12 +156,12 @@ Il nodo [Maschera su tracciati](../../compositing-graphs/nodes-reference-for-com
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Maschera su tracciati](version-13-0.resources/MaskToPaths-Demo2.gif "Maschera su tracciati")
+![Maschera su tracciati](version-13-0.resources/version-13-0-14.gif "Maschera su tracciati")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Maschera nei percorsi 2](version-13-0.resources/MaskToPaths-Demo1.gif "Maschera nei percorsi 2")
+![Maschera nei percorsi 2](version-13-0.resources/version-13-0-15.gif "Maschera nei percorsi 2")
 
 </td>
 <td style="border: 0;" valign="top">
@@ -205,7 +205,7 @@ Grazie a questa funzione, puoi migliorare la leggibilità del grafico nascondend
 
 Questa nuova funzione è stata spiegata dettagliatamente in questo [tutorial](https://www.adobe.com/go/designer-tutorial-portals) dedicato.
 
-![Nodo portale](version-13-0.resources/PortalNodeFinal.gif "Nodo portale")
+![Nodo portale](version-13-0.resources/version-13-0-16.gif "Nodo portale")
 
 ## Schermata Home
 
@@ -216,9 +216,9 @@ Quando avvii Designer, sai di avere accesso a una [schermata Home](../../interfa
 * Una pagina di apprendimento in cui è disponibile un collegamento a risorse di apprendimento, ad esempio esercitazioni per presentarti nuove funzioni o per scoprire suggerimenti rapidi;
 * Collegamenti diretti alla schermata Novità, alla schermata Informazioni su, al sito Web di Substance 3D, al forum della community di supporto e così via.
 
-![Schermata Home - Schermata Home](version-13-0.resources/HomeScreen.png "Schermata Home - Home")
+![Schermata Home - Schermata Home](version-13-0.resources/version-13-0-17.png "Schermata Home - Home")
 
-![Schermata Home - Apprendimento](version-13-0.resources/LearnPage.png "Schermata Home - Apprendimento")
+![Schermata Home - Apprendimento](version-13-0.resources/version-13-0-18.png "Schermata Home - Apprendimento")
 
 ## Nuove lingue
 

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-voronoi-fractal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-voronoi-fractal.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo del 3D voronoi fractal per generare pattern di Voronoi frattali in base alla posizione 3D per le texture volumetriche.
+description: Usa il nodo del 3D voronoi fractal per generare pattern di Voronoi frattali in base alla posizione 3D per le texture volumetriche.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Voronoi Fractal
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D voronoi fractal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-voronoi-fractal.resources/3dvoronoifractal.png){width="200px"}
+![](3d-voronoi-fractal.resources/3d-voronoi-fractal-01.png){width="200px"}
 
 <b>Ingresso:</b> Generatori di Texture > Rumori
 
@@ -60,7 +60,7 @@ Questo nodo può essere testato con [Cubo 3D GBuffers](../../../../../../composi
 | <b>Moltiplicatore scala Distorsione</b> <i>Mobile</i> | Controlla la scala del <i>pattern di deformazione</i> utilizzato nell&#39;effetto di alterazione controllato dall&#39;<b>intensità della Distorsione</b>. |
 | <b>Livello Min</b> <i>Numero intero</i> | Il <i>livello minimo di ripetizione</i> utilizzato nel pattern frattale. Un intervallo minimo/massimo più ampio genera un <i>modello più ricco</i> con variazione su più intervalli di frequenza. |
 | <b>Livello massimo</b> <i>Numero intero</i> | Il <i>livello massimo di ripetizione</i> utilizzato nel pattern frattale. Un intervallo minimo/massimo più ampio genera un <i>modello più ricco</i> con variazione su più intervalli di frequenza. |
-| <b>Rugosità</b> <i>Mobile</i> | Controlla l&#39;<i>equilibrio</i> tra <i>livelli di ripetizione</i> bassi e alti nel pattern frattale.<br><br><i>Nota</i>: un valore di <b>0</b> genera un output <i>non in linea</i> seguito da altri valori bassi. Questo è previsto.<br><br><i>Nota 2</i>: questo parametro è disponibile solo quando <b>Modalità Fusione</b> è impostato su <i>Aggiungi</i>. |
+| <b>Rugosità</b> <i>Mobile</i> | Controlla l&#39;<i>equilibrio</i> tra <i>livelli di ripetizione</i> bassi e alti nel pattern frattale.<br><br><i>Nota</i>: un valore di <b>0</b> genera un output <i>non in linea</i> seguito da altri valori bassi. Questo è previsto.<br><br><i>Nota 2</i>: questo parametro è disponibile solo quando <b>Metodo fusione</b> è impostato su <i>Aggiungi</i>. |
 | <b>Lacunarità</b> <i>Mobile</i> | Controlla la modalità di riempimento dello spazio del pattern frattale applicato <i></i>. Un valore <i>maggiore</i> genera <i>meno spazi vuoti</i> nel pattern e un disturbo <i>più denso</i>. |
 | <b>Opacità globale</b> <i>Mobile</i> | Controlla l&#39;<i>intervallo</i> dei valori di disturbo frattale di Perlin 3D da 0. |
 | <b>Curva arrotondata</b> <i>Mobile</i> | Arrotonda la <i>pendenza</i> attorno a ciascun punto del disturbo per renderlo <i>convesso</i>.<br><br><i>Nota</i>: questo parametro non è disponibile quando il parametro <b>Stile</b> è impostato su <i>Bordo</i>. |
@@ -77,24 +77,24 @@ Questo nodo può essere testato con [Cubo 3D GBuffers](../../../../../../composi
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant6.jpg" />
+            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant2.jpg" />
+            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant4.jpg" />
+            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-04.jpg" />
         </td>
     </tr>
     <tr style="border: 0; background: transparent">
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant5.jpg" />
+            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-05.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant.jpg" />
+            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-06.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant3.jpg" />
+            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-07.jpg" />
         </td>
     </tr>
 </table>

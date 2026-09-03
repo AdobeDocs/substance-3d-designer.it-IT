@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/resources/3d-scene-resource.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/3d-scene-resource.html"
 breadcrumb-title: ''
 description: Scoprite come importare e utilizzare le risorse per scene 3D in Substance 3D Designer per l’anteprima e il test del materiale.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Risorsa scena 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 1%
@@ -26,7 +26,7 @@ Questa pagina descrive il tipo di risorsa **scena 3D** in Substance 3D Designer,
 
 Le risorse per le scene 3D possono essere utilizzate in vari flussi di lavoro:
 
-* [mappe mesh di cottura](../../bakers/bakers.md)
+* [eseguire i baking mappe trama](../../bakers/bakers.md)
 * visualizza in anteprima *texture* da [Substance grafici](../../compositing-graphs/substance-compositing-graphs.md) nella [vista 3D](../../interface/3d-view/3d-view.md)
 
 Sono supportati i seguenti formati di file di scena 3D:
@@ -44,7 +44,7 @@ Sono supportati i seguenti formati di file di scena 3D:
 
 Le scene 3D possono essere collegate *solo*, il che significa che si trovano nella loro posizione sul disco e vi si fa riferimento nell&#39;applicazione.
 
-Quando un pacchetto con una risorsa scena 3D viene pubblicato come risorsa [Substance 3D](https://www.adobe.com/it/products/substance3d/3d-augmented-reality.html) (SBSAR), la trama *non è incorporata*, ma viene eliminata.
+Quando un pacchetto con una risorsa scena 3D viene pubblicato come risorsa [Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html) (SBSAR), la trama *non è incorporata*, ma viene eliminata.
 
 ## Eseguire i baking mappe trama
 
@@ -56,7 +56,7 @@ Il collegamento di una scena 3D nel pacchetto è l&#39;unico modo per [eseguire 
 * Con la risorsa caricata in [Esplora risorse](../../interface/the-explorer-window/the-explorer-window.md), fare clic su *RMB* e selezionare l&#39;opzione <b>Esegue i baking informazioni modello</b> nel menu di scelta rapida
 * Viene visualizzata la finestra di dialogo [Esegue i baking informazioni sul modello](../../bakers/bakers.md) che consente di impostare ed eseguire tutti i esegue i baking delle mappe trama
 
-![Eseguire i baking le mappe trama](3d-scene-resource.resources/bake-model-information.gif "Eseguire i baking le mappe trama"){width="512px"}
+![Eseguire i baking le mappe trama](3d-scene-resource.resources/3d-scene-resource-01.gif "Eseguire i baking le mappe trama"){width="512px"}
 
 ## Utilizzo riquadro UDIM/UV
 

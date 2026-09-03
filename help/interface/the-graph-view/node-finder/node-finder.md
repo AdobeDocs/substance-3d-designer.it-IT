@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/the-graph-view/node-finder.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/node-finder.html"
 breadcrumb-title: ''
 description: Utilizzare Ricerca nodi per individuare e cercare rapidamente i nodi nei grafici Substance per una navigazione efficiente.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ricerca nodi
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 0%
@@ -20,14 +20,14 @@ ht-degree: 0%
 
 # Ricerca nodi
 
-![Barra degli strumenti Ricerca nodi](node-finder.resources/node-finder-toolbar.png "Barra degli strumenti Ricerca nodi"){zoomable="yes"}
+![Barra degli strumenti Ricerca nodi](node-finder.resources/node-finder-01.png "Barra degli strumenti Ricerca nodi"){zoomable="yes"}
 
 Lo strumento Ricerca nodi consente di eseguire una <b>ricerca di nodi e variabili</b> mediante una query di testo. Tutti i nodi che non corrispondono alla query vengono disattivati per rendere visibili i risultati.
 
 La query può soddisfare uno qualsiasi dei seguenti criteri:
 
-* Identificatore <b>di un grafico</b> a cui fa riferimento un nodo di istanza
-* Identificatore <b>di un parametro o di una variabile esposta</b> utilizzato in una funzione dei parametri del nodo
+* <b>identificatore di un grafico</b> a cui fa riferimento un nodo di istanza
+* <b>identificatore di una variabile o di un parametro esposto</b> utilizzato in una funzione di parametro di nodo
 * <b>UID</b> di un nodo (identificatore univoco)
 * <b>etichetta</b> di un nodo
 
@@ -39,21 +39,21 @@ La ricerca può attraversare [istanze del grafico](../../../compositing-graphs/c
 
 Nella visualizzazione Grafico, premere <b>Ctrl+F</b> (Windows) / <b>Cmd+F</b> (macOS) per visualizzare la barra degli strumenti Ricerca nodi e impostare automaticamente lo stato attivo sul campo della query. In questo modo è possibile eseguire una ricerca rapidamente.
 
-Nella barra degli strumenti Visualizzazione grafico fare clic sul pulsante <b>Ricerca nodi ![](node-finder.resources/graph-node-finder.png)</b> per visualizzare la barra degli strumenti Ricerca nodi. Una volta visualizzata, la barra degli strumenti viene chiusa solo facendo clic su questo pulsante.
+Nella barra degli strumenti Visualizzazione grafico fare clic sul pulsante <b>Ricerca nodi ![](node-finder.resources/node-finder-02.png)</b> per visualizzare la barra degli strumenti Ricerca nodi. Una volta visualizzata, la barra degli strumenti viene chiusa solo facendo clic su questo pulsante.
 
 <b>Esegue la ricerca nei grafici incrociati</b>. In altre parole, una ricerca rimane attiva quando si aprono grafici tramite queste azioni:
 
 * Nodo istanza: apri riferimento nel contesto (Ctrl+E/Cmd+E) (*Nota:* la modifica del grafico nel contesto deve essere abilitata in Modifica > Preferenze > Grafico)
-* Processore pixel: funzione Edit (Ctrl+E/Cmd+E)
-* Funzione Value Processor: Modifica (CTRL+E/Cmd+E)
+* Elaboratore pixel: Modifica funzione (Ctrl+E/Cmd+E)
+* Processore di valori: Modifica funzione (CTRL+E/Cmd+E)
 * FX-Map: Modifica grafico FX-Map (Ctrl+E/Cmd+E)
 * Parametri nodo: funzione Modifica
 
-![Ricerca nodi: analisi dei grafici durante la ricerca](node-finder.resources/node-finder-traversal.gif "Ricerca nodi: analisi dei grafici durante la ricerca"){zoomable="yes"}
+![Ricerca nodi: analisi dei grafici durante la ricerca](node-finder.resources/node-finder-03.gif "Ricerca nodi: analisi dei grafici durante la ricerca"){zoomable="yes"}
 
 ### Query di ricerca
 
-![Campo query di ricerca nodi](node-finder.resources/node-finder-query-field.png "Campo query di ricerca nodi"){zoomable="yes"}
+![Campo query di ricerca nodi](node-finder.resources/node-finder-04.png "Campo query di ricerca nodi"){zoomable="yes"}
 
 I termini di ricerca possono essere digitati in questo campo e il pulsante freccia apre un elenco di suggerimenti di query che includono alcune delle variabili disponibili nel contesto corrente.
 
@@ -61,7 +61,7 @@ Ulteriori informazioni sulle query che è possibile eseguire nella sezione [Quer
 
 ### Tipo di nodo
 
-![Tipo di nodo](node-finder.resources/node-finder-node-types.png "Tipo di nodo"){zoomable="yes"}
+![Tipo di nodo](node-finder.resources/node-finder-05.png "Tipo di nodo"){zoomable="yes"}
 
 Questa casella combinata consente di filtrare i risultati della ricerca in modo da mantenere solo un tipo specifico di nodi.
 
@@ -70,13 +70,13 @@ Si noti che tutti i nodi di istanza sono dello *stesso tipo* di nodo, ovvero del
 +++Elenchi dei tipi di nodo
 L’elenco è contestuale al tipo di grafico corrente.
 
-![Tipi di nodo (composizione)](node-finder.resources/node-finder-types-compositing.png "Tipi di nodo (composizione)"){zoomable="yes"}
+![Tipi di nodo (composizione)](node-finder.resources/node-finder-06.png "Tipi di nodo (composizione)"){zoomable="yes"}
 
 
 
 *Tipi di nodo per la composizione dei grafici*
 
-![Tipi di nodo (funzione)](node-finder.resources/node-finder-types-function.png "Tipi di nodo (funzione)"){zoomable="yes"}
+![Tipi di nodo (funzione)](node-finder.resources/node-finder-07.png "Tipi di nodo (funzione)"){zoomable="yes"}
 
 
 
@@ -85,7 +85,7 @@ L’elenco è contestuale al tipo di grafico corrente.
 +++
 
 +++Ricerca di nodi atomici
-![Ricerca nodi: ricerca per tipo &#39;Livelli&#39; (composizione)](node-finder.resources/node-finder-compositing-levels.png "Ricerca nodi: ricerca per tipo &#39;Livelli&#39; (composizione)"){zoomable="yes"}
+![Ricerca nodi: ricerca per tipo &#39;Livelli&#39; (composizione)](node-finder.resources/node-finder-08.png "Ricerca nodi: ricerca per tipo &#39;Livelli&#39; (composizione)"){zoomable="yes"}
 
 
 
@@ -94,13 +94,13 @@ L’elenco è contestuale al tipo di grafico corrente.
 +++
 
 +++Ricerca di nodi di istanza
-![Ricerca nodi: ricerca per tipo &#39;Instance&#39; (composizione)](node-finder.resources/node-finder-compositing-instances.png "Ricerca nodi: ricerca per tipo &#39;Instance&#39; (composizione)"){zoomable="yes"}
+![Ricerca nodi: ricerca per tipo &#39;Instance&#39; (composizione)](node-finder.resources/node-finder-09.png "Ricerca nodi: ricerca per tipo &#39;Instance&#39; (composizione)"){zoomable="yes"}
 
 
 
 *Ricerca del tipo di nodo &#39;Instance&#39; in un grafico a Substance*
 
-![Ricerca nodi: ricerca per tipo &#39;Instance&#39; (funzione)](node-finder.resources/node-finder-functions-instances.png "Ricerca nodi: ricerca per tipo &#39;Instance&#39; (funzione)"){zoomable="yes"}
+![Ricerca nodi: ricerca per tipo &#39;Instance&#39; (funzione)](node-finder.resources/node-finder-10.png "Ricerca nodi: ricerca per tipo &#39;Instance&#39; (funzione)"){zoomable="yes"}
 
 
 
@@ -114,14 +114,14 @@ L’elenco è contestuale al tipo di grafico corrente.
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-Il pulsante <b>Opzioni di ricerca ![](node-finder.resources/node-finder-search-options.png)</b> consente di aprire un elenco delle impostazioni utilizzate per la ricerca che è possibile attivare e disattivare.
+Il pulsante <b>Opzioni di ricerca ![](node-finder.resources/node-finder-11.png)</b> consente di aprire un elenco delle impostazioni utilizzate per la ricerca che è possibile attivare e disattivare.
 
 Ulteriori informazioni su queste opzioni sono disponibili nella sezione Opzioni di ricerca riportata di seguito.
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Opzioni di ricerca Node Finder](node-finder.resources/node-finder-search-options-open.png "Opzioni di ricerca Node Finder"){zoomable="yes"}
+![Opzioni di ricerca Node Finder](node-finder.resources/node-finder-12.png "Opzioni di ricerca Node Finder"){zoomable="yes"}
 
 </td>
 </tr>
@@ -150,7 +150,7 @@ Per trovare i nodi, una query di testo viene confrontata con le proprietà dei n
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ricerca nodi: ricerca per identificatore grafico](node-finder.resources/node-finder-functions-identifier.png "Ricerca nodi: ricerca per identificatore grafico"){zoomable="yes"}
+![Ricerca nodi: ricerca per identificatore grafico](node-finder.resources/node-finder-13.png "Ricerca nodi: ricerca per identificatore grafico"){zoomable="yes"}
 
 *Fare clic sull&#39;immagine per ingrandirla*
 
@@ -161,7 +161,7 @@ Per trovare i nodi, una query di testo viene confrontata con le proprietà dei n
 +++Identificatore in Esplora risorse
 I grafici sono elencati in base ai relativi identificatori in Esplora risorse.
 
-![Esplora risorse: contenuto pacchetto](node-finder.resources/explorer-package-simple.png "Esplora risorse: contenuto pacchetto"){zoomable="yes"}
+![Esplora risorse: contenuto pacchetto](node-finder.resources/node-finder-14.png "Esplora risorse: contenuto pacchetto"){zoomable="yes"}
 
 
 
@@ -170,7 +170,7 @@ I grafici sono elencati in base ai relativi identificatori in Esplora risorse.
 +++Identificatore nella descrizione comando del nodo dell&#39;istanza
 La descrizione dei nodi di istanza include l&#39;identificatore del relativo grafico di riferimento.
 
-![identificatore di grafico nella descrizione del nodo dell&#39;istanza](node-finder.resources/node-finder-compositing-identifier.png "identificatore di grafico nella descrizione del nodo dell&#39;istanza"){zoomable="yes"}
+![Identificatore grafico nella descrizione comandi del nodo dell&#39;istanza](node-finder.resources/node-finder-15.png "Identificatore grafico nella descrizione comandi del nodo dell&#39;istanza"){zoomable="yes"}
 
 
 
@@ -182,12 +182,12 @@ La descrizione dei nodi di istanza include l&#39;identificatore del relativo gra
 
 ### Parametri e variabili esposti
 
-La ricerca può essere eseguita direttamente nell&#39;identificatore di [parametri esposti](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) o in qualsiasi altra variabile.
+È possibile eseguire la ricerca direttamente nell&#39;identificatore di [parametri esposti](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) o in qualsiasi altra variabile.
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ricerca nodi: variabili nodo](node-finder.resources/node-finder-compositing-variable.png "Ricerca nodi: variabili nodo"){zoomable="yes"}
+![Ricerca nodi: variabili nodo](node-finder.resources/node-finder-16.png "Ricerca nodi: variabili nodo"){zoomable="yes"}
 
 *Fare clic sull&#39;immagine per ingrandirla*
 
@@ -200,13 +200,13 @@ Il campo di query può essere espanso per visualizzare un elenco di suggerimenti
 
 Queste includono [variabili incorporate](../../../function-graphs/variables/system-variables/system-variables.md) disponibili per il tipo di grafico corrente, nonché gli identificatori dei parametri esposti del grafico.
 
-![Suggerimenti per le query di ricerca nodi](node-finder.resources/node-finder-available-query-suggestions.png "Suggerimenti per le query di ricerca nodi"){zoomable="yes"}
+![Suggerimenti per le query di ricerca nodi](node-finder.resources/node-finder-17.png "Suggerimenti per le query di ricerca nodi"){zoomable="yes"}
 
 
 
-L&#39;identificatore di parametri esposti può anche essere copiato o modificato direttamente nelle [proprietà del grafico Substance](../../../compositing-graphs/graph-parameters/graph-parameters.md).
+L&#39;identificatore dei parametri esposti può anche essere copiato o modificato direttamente nelle [proprietà del grafico Substance](../../../compositing-graphs/graph-parameters/graph-parameters.md).
 
-![Ricerca nodi: parametri esposti](node-finder.resources/node-finder-compositing-exposed-parameter.png "Ricerca nodi: parametri esposti"){zoomable="yes"}
+![Ricerca nodi: parametri esposti](node-finder.resources/node-finder-18.png "Ricerca nodi: parametri esposti"){zoomable="yes"}
 
 
 
@@ -219,7 +219,7 @@ Quando un grafico presenta errori o avvisi generati da una <b>variabile</b> util
 
 Le variabili possono anche essere copiate direttamente dai dati XML nel file SBS utilizzando qualsiasi editor di testo.
 
-![Ricerca nodi: ricerca variabile da avviso/errore console](node-finder.resources/node-finder-console-identifier.png "Ricerca nodi: ricerca variabile da avviso/errore console"){zoomable="yes"}
+![Ricerca nodi: ricerca variabile da avviso/errore console](node-finder.resources/node-finder-19.png "Ricerca nodi: ricerca variabile da avviso/errore console"){zoomable="yes"}
 
 
 
@@ -228,7 +228,7 @@ Le variabili possono anche essere copiate direttamente dai dati XML nel file SBS
 +++Ottieni/Imposta nodi
 Quando si cerca una variabile in un grafico, inclusi i parametri esposti, la ricerca evidenzierà tutti i nodi in cui un nodo [Get](../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md) o [Set](../../../function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence/using-the-set-sequence-nodes.md) utilizza tale variabile in una qualsiasi delle funzioni dei parametri del nodo.
 
-![Ricerca nodi: ricerca di una variabile corrisponde a Recupero nodi che la utilizzano](node-finder.resources/node-finder-exposed-parameter-01.gif "Ricerca nodi: ricerca di una variabile corrisponde Recupero nodi che la utilizzano"){zoomable="yes"}
+![Ricerca nodi: ricerca di una variabile corrisponde a Recupero nodi che la utilizzano](node-finder.resources/node-finder-20.gif "Ricerca nodi: ricerca di una variabile corrisponde Recupero nodi che la utilizzano"){zoomable="yes"}
 
 
 
@@ -245,7 +245,7 @@ Ogni nodo di un grafico ha un numero identificativo univoco (UID) che può esser
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ricerca nodi: ricerca per UID](node-finder.resources/node-finder-compositing-uid-search.png "Ricerca nodi: ricerca per UID"){zoomable="yes"}
+![Ricerca nodi: ricerca per UID](node-finder.resources/node-finder-21.png "Ricerca nodi: ricerca per UID"){zoomable="yes"}
 
 *Fare clic sull&#39;immagine per ingrandirla*
 
@@ -260,7 +260,7 @@ L&#39;azione copia l&#39;UID in questo formato:
 
 uid=1234567890
 
-![Ricerca nodi: azione UID del nodo di copia](node-finder.resources/node-finder-compositing-uid-copy.png "Ricerca nodi: azione UID del nodo di copia"){zoomable="yes"}
+![Ricerca nodi: azione UID del nodo di copia](node-finder.resources/node-finder-22.png "Ricerca nodi: azione UID del nodo di copia"){zoomable="yes"}
 
 
 
@@ -271,7 +271,7 @@ Quando un grafico presenta errori o avvisi generati da un nodo, accedete a Windo
 
 Gli UID dei nodi possono anche essere copiati direttamente dai dati XML nel file SBS utilizzando qualsiasi editor di testo.
 
-![Ricerca nodi: ricerca dell&#39;UID del nodo dalla console](node-finder.resources/node-finder-console-uid.png "Ricerca nodi: ricerca dell&#39;UID del nodo dalla console"){zoomable="yes"}
+![Ricerca nodi: ricerca dell&#39;UID del nodo dalla console](node-finder.resources/node-finder-23.png "Ricerca nodi: ricerca dell&#39;UID del nodo dalla console"){zoomable="yes"}
 
 
 
@@ -289,14 +289,14 @@ La ricerca di nodi specifici è particolarmente efficace quando si utilizza l&#3
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-Il pulsante <b>Opzioni di ricerca ![](node-finder.resources/node-finder-search-options.png)</b> consente di attivare/disattivare le modalità <b>ricorsiva</b> e <b>sfocata</b> per la ricerca dei nodi.
+Il pulsante <b>Opzioni di ricerca ![](node-finder.resources/node-finder-11.png)</b> consente di attivare/disattivare le modalità <b>ricorsiva</b> e <b>sfocata</b> per la ricerca dei nodi.
 
 Entrambe le opzioni possono essere attivate contemporaneamente.
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Opzioni di ricerca Node Finder](node-finder.resources/node-finder-search-options-open.png "Opzioni di ricerca Node Finder"){zoomable="yes"}
+![Opzioni di ricerca Node Finder](node-finder.resources/node-finder-12.png "Opzioni di ricerca Node Finder"){zoomable="yes"}
 
 </td>
 </tr>
@@ -308,12 +308,12 @@ Abilita questa opzione affinché le ricerche attraversino [istanze del grafico](
 
 Questa opzione può essere essenziale quando si eseguono operazioni di risoluzione dei problemi grafici, se è necessario trovare un nodo in base all&#39;UID acquisito da un messaggio di avviso o di errore nella Console.
 
-![Ricerca nodi: ricerca ricorsiva](node-finder.resources/node-finder-recursion-01.png "Ricerca nodi: ricerca ricorsiva"){zoomable="yes"}
+![Ricerca nodi: ricerca ricorsiva](node-finder.resources/node-finder-24.png "Ricerca nodi: ricerca ricorsiva"){zoomable="yes"}
 
 *La query a destra evidenzia il nodo di istanza sottostante perché il grafico a cui fa riferimento a sinistra contiene corrispondenze per la query*
 
 +++Esempio 1
-![Ricerca nodi: esempio di ricerca ricorsiva 1](node-finder.resources/node-finder-recursion-01.gif "Ricerca nodi: esempio di ricerca ricorsiva 1"){zoomable="yes"}
+![Ricerca nodi: esempio di ricerca ricorsiva 1](node-finder.resources/node-finder-25.gif "Ricerca nodi: esempio di ricerca ricorsiva 1"){zoomable="yes"}
 
 
 
@@ -322,7 +322,7 @@ Un nodo di istanza fa riferimento a un grafico in cui più nodi corrispondono al
 +++
 
 +++Esempio 2
-![Ricerca nodi: esempio di ricerca ricorsiva 2](node-finder.resources/node-finder-recursion-02.gif "Ricerca nodi: esempio di ricerca ricorsiva 2"){zoomable="yes"}
+![Ricerca nodi: esempio di ricerca ricorsiva 2](node-finder.resources/node-finder-26.gif "Ricerca nodi: esempio di ricerca ricorsiva 2"){zoomable="yes"}
 
 
 
@@ -336,4 +336,4 @@ In caso di dubbi sull&#39;ortografia esatta di una query, questa opzione consent
 
 Si noti che l&#39;utilizzo di questa opzione può causare corrispondenze indesiderate.
 
-![Ricerca nodi: modalità fuzzy](node-finder.resources/node-finder-functions-fuzzy.png "Ricerca nodi: modalità fuzzy"){zoomable="yes"}
+![Ricerca nodi: modalità fuzzy](node-finder.resources/node-finder-27.png "Ricerca nodi: modalità fuzzy"){zoomable="yes"}

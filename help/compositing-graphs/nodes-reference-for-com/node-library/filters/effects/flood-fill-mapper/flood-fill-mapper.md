@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-mapper.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-mapper.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo Mappatura Flood Fill per mappare i valori tra aree connesse utilizzando algoritmi di riempimento del flusso per l’elaborazione delle texture.
+description: Utilizzare il nodo Mappatura Flood Fill per mappare i valori tra aree connesse utilizzando algoritmi di riempimento del flusso per l'elaborazione delle texture.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Flood Fill Mapper
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mappatura Flood Fill
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](flood-fill-mapper.resources/floodfill-mapper-gray.png)![](flood-fill-mapper.resources/floodfill-mapper-color.png)
+![](flood-fill-mapper.resources/flood-fill-mapper-01.png)![](flood-fill-mapper.resources/flood-fill-mapper-02.png)
 
 <b>Ingresso:</b> Filtri > Effetti
 
@@ -101,10 +101,10 @@ La versione a colori dispone di controlli aggiuntivi per l&#39;utilizzo delle ma
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="flood-fill-mapper.resources/floodfill-mapper-ex01.png" />
+            <img src="flood-fill-mapper.resources/flood-fill-mapper-03.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="flood-fill-mapper.resources/floodfill-mapper-ex02.jpg" />
+            <img src="flood-fill-mapper.resources/flood-fill-mapper-04.jpg" />
         </td>
     </tr>
 </table>

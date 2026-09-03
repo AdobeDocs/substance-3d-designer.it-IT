@@ -1,7 +1,7 @@
 ---
 title: Colore mapping splatter forma v2
 description: Designer > Substance grafici composizione > Nodi riferimento per Substance grafici composizione > Libreria nodi > Generatore > Pattern > Colore mapper splatter forma v2
-source-git-commit: f688c618b01d3ca8059e67cf0797268e44e94b17
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1948'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona colore splatter v2 mapper &#x200B;](shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color.png "Colore splatter v2 mapper Shape")
+![Icona colore splatter v2 mapper ](shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-01.png "Colore splatter v2 mapper Shape")
 
 <b>Ingresso:</b> Generatore > Pattern
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 Esegue la mappatura delle immagini a colori sulle forme generate e distribuite utilizzando il nodo [splatter di forme v2](../shape-splatter-v2/shape-splatter-v2.md), utilizzando i dati aggiuntivi forniti dal nodo.<br><br>Le immagini vengono fornite come input di pattern separati o inserite in un atlante griglia e possono essere applicate alle forme utilizzando la mappatura UV, la proiezione triplanare o la mappatura personalizzata.<br><br>È possibile colorare le forme e regolarne i colori in modo uniforme o casuale in base alla forma.
 
-Vedere anche [Scala di grigi splatter v2 mapper &#x200B;](../shape-splatter-v2-mapper-grayscale/shape-splatter-v2-mapper-grayscale.md).
+Vedere anche [Scala di grigi splatter v2 mapper ](../shape-splatter-v2-mapper-grayscale/shape-splatter-v2-mapper-grayscale.md).
 
 </td>
 </tr>
@@ -89,8 +89,8 @@ Vedere anche [Scala di grigi splatter v2 mapper &#x200B;](../shape-splatter-v2-m
 | <b>Funzione personalizzata</b> *Float4* | Specifica il colore RGBA per pixel delle forme come Float4.<br><br>Sono disponibili le seguenti variabili:<br>- <code>shape.position.os</code> (Float3) Posizione della superficie della forma nello spazio dell&#39;oggetto.<br>- <code>shape.position.ws</code> (Float3) Posizione della superficie della forma nello spazio mondo*.<br>- <code>shape.normal.os</code> (Float3) Normali della superficie della forma nello spazio dell&#39;oggetto.<br> - <code>forma.normale.ws</code> (Float3) Normali della superficie della forma nello spazio mondo*.<br>- <code>shape.id</code> (Mobile) Identificatore univoco della forma.<br>- <code>material.id</code> (Mobile) ID materiale della superficie della forma, definito dal nodo &#39;Splatter forma v2&#39;.<br><br>*: Lo spazio globale della forma è centrato sul relativo perno e non tiene conto del height della forma. Ciò significa che l&#39;unica differenza con lo spazio dell&#39;oggetto è l&#39;orientamento.<br><br>Se è necessario campionare gli input del nodo &#39;Shape splatter v2 mapper color&#39;, è possibile utilizzare gli slot di input del nodo <b>Sample color</b>:<br>- 0: Atlante griglia<br>- 1-8: Pattern input 1-8 |
 | <b>Mappa normale</b> *Booleano* | Specifica se le immagini fornite all&#39;<b>input Atlante griglia</b> o all&#39;<b>input pattern #</b> sono mappe normali.<br><br>Questo è necessario per abilitare l&#39;elaborazione necessaria per gestire correttamente i vettori normali e applicarli alle forme. |
 | <b>Formato normale di input</b> *Numero intero* | Formato delle mappe normali fornite all&#39;input <b>Atlante griglia</b> o all&#39;input <b>Pattern #</b>.<br><br>Inverte efficacemente il canale verde.<br><br>- <b>DirectX:</b> L&#39;asse Y punta verso l&#39;alto.<br>- <b>OpenGL:</b> L&#39;asse Y punta verso il basso. |
-| <b>Contrasto di fusione</b> *Mobile* | Nitidezza delle transizioni tra proiezioni planari, dove 1 significa nessuna sfumatura di dissolvenza. |
-| <b>Proiezione immagine</b> *Numero intero* | Quantità di <b>immagini di input del pattern n. </b> distribuite tra le proiezioni planari che contribuiscono alla mappatura triplanare.<br><br>Per coprire tutti i lati di una forma, viene eseguita una proiezione piana anteriore (+) e posteriore (-) su ciascun asse, per un totale di 6 proiezioni.<br><br>- <b>1 immagine:</b> L&#39;input pattern 1 viene utilizzato per tutte le proiezioni planari.<br>- <b>3 immagini:</b> Per la proiezione +/- di ciascun asse viene utilizzato un input pattern separato.<br>- <b>6 immagini:</b> Ogni proiezione utilizza un input pattern separato.<br>- <b>1 immagine per ID materiale:</b> Utilizza un input pattern separato ID, in cui ogni immagine viene utilizzata per tutte le proiezioni planari. |
+| <b>Contrasto di fusione</b> *Virgola mobile* | Nitidezza delle transizioni tra proiezioni planari, dove 1 significa nessuna sfumatura di dissolvenza. |
+| <b>Proiezione immagine</b> *Numero intero* | Quantità di <b>immagini di input con pattern #</b> distribuite nelle proiezioni planari che contribuiscono alla mappatura triplanare.<br><br>Per coprire tutti i lati di una forma, viene eseguita una proiezione della planari anteriore (+) e posteriore (-) su ciascun asse, per un totale di 6 proiezioni.<br><br>- <b>1 immagine:</b> L&#39;input pattern 1 viene utilizzato per tutte le proiezioni planari.<br>- <b>3 immagini:</b> Per la proiezione +/- di ciascun asse viene utilizzato un input pattern separato.<br>- <b>6 immagini:</b> Ogni proiezione utilizza un input pattern separato.<br>- <b>1 immagine per ID materiale:</b> Utilizza un input pattern separato per ID materiale dove ciascuna immagine viene utilizzata per tutte le proiezioni planari. |
 | <b>Centro di proiezione</b> *Float3* | Sposta la proiezione triplanare per asse nello spazio dell’oggetto.<br><br>L&#39;offset viene applicato all&#39;<i>intero spazio di proiezione</i>, pertanto un offset su un asse influisce sul posizionamento delle texture proiettate sugli <i>altri due</i> assi. |
 | <b>Scala di proiezione</b> *Mobile* | Regola la scala delle texture proiettate su <i>tutti gli assi</i> in base al fattore specificato. |
 | <b>Modalità di selezione dell&#39;input</b> *Numero intero* | Metodo di selezione delle immagini di input da associare alle forme.<br><br>Il <b>tipo di forma</b> selezionato nel nodo di origine &#39;Splatter forme v2&#39; cambia il modo di assegnare le immagini alle forme:<br><br>- <b>Atlante griglia</b> significa che le immagini vengono recuperate nell&#39;&#39;input Atlante griglia&#39; tramite indici della griglia corrispondenti (entrambi gli atlanti devono utilizzare la stessa dimensione della griglia)<br>- <b>Input motivo</b> significa che le immagini vengono recuperate negli input &#39;N. input motivo&#39; tramite indici corrispondenti.<br>- <b>Altri tipi di forma:</b> le immagini vengono assegnate mediante indici corrispondenti al materiale della forma ID.<br><br>I metodi disponibili per la selezione degli indici sono:<br>- <b>Dai dati splatter:</b> Far corrispondere gli indici delle immagini &#39;N. input motivo&#39; o &#39;Input Atlante griglia&#39; agli indici delle forme assegnate dal nodo &#39;N. splatter forma v2&#39;.<br>- <b>Manuale:</b> Utilizzare l&#39;indice specificato dal parametro &#39;Indice immagine&#39;.<br>- <b>Casuale:</b> Utilizzare un indice casuale nell&#39;intervallo specificato dal parametro &#39;Intervallo casuale&#39;. |
@@ -113,24 +113,24 @@ Vedere anche [Scala di grigi splatter v2 mapper &#x200B;](../shape-splatter-v2-m
 <table style="margin-top: 32px; margin-bottom: 32px; border: none">
     <tr style="border: 0; background: transparent">
         <td style="width: 33%; border: 0; background: transparent">
-            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-triplanar-02.gif" /><br><i>Mappatura triplanare</i>
+            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-02.gif" /><br><i>Mappatura triplanare</i>
         </td>
         <td style="width: 33%; border: 0; background: transparent">
-            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-normal.gif" /><br><i>Mappatura normale</i>
+            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-03.gif" /><br><i>Mappatura normale</i>
         </td>
         <td style="width: 33%; border: 0; background: transparent">
-            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-matID-02.jpg" /><br><i>Mappatura per ID materiale dalle forme SDF</i>
+            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-04.jpg" /><br><i>Mappatura per ID materiale dalle forme SDF</i>
         </td>
     </tr>
     <tr style="border: 0; background: transparent">
         <td style="width: 33%; border: 0; background: transparent">
-            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-tiling.gif" /><br><i>Regolazione della porzione con mappatura triplanare</i>
+            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-05.gif" /><br><i>Regolazione Affiancamento con mappatura triplanare</i>
         </td>
         <td style="width: 33%; border: 0; background: transparent">
-            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-matID-01.jpg" /><br><i>Mappatura per ID materiale dalla forma Cilindro</i>
+            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-06.jpg" /><br><i>Mappatura per ID materiale dalla forma Cilindro</i>
         </td>
         <td style="width: 33%; border: 0; background: transparent">
-            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-graph.png" /><br><i>Nodo nel contesto di un grafico</i>" /&gt;
+            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-07.png" /><br><i>Nodo nel contesto di un grafico</i>" /&gt;
         </td>
     </tr>
 </table>

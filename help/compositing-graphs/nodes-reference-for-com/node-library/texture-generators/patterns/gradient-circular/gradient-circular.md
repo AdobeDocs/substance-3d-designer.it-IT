@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-circular.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-circular.html"
 breadcrumb-title: ''
 description: Utilizza il nodo Circolare sfumatura per creare sfumature radiali per transizioni di colore ed effetti circolari.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Sfumatura circolare
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 1%
@@ -24,9 +24,9 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](gradient-circular.resources/gradient-circular.png){width="128px"}
+![](gradient-circular.resources/gradient-circular-01.png){width="128px"}
 
-<b>Ingresso:</b> Generatori texture > Pattern
+<b>Ingresso:</b> Generatori Texture > Pattern
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/the-graph-view/graph-items/frame.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/frame.html"
 breadcrumb-title: ''
-description: Utilizzate le cornici nella vista Grafico di Substance 3D Designer per organizzare e raggruppare i nodi per una maggiore chiarezza visiva.
+description: I fotogrammi nella vista Grafico di Substance 3D Designer consentono di organizzare e raggruppare i nodi per una maggiore chiarezza visiva.
 helpx_creative_field: ""
 helpx_description: Designer > Interface > Graph view > Graph items > Frame
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Cornice
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1645'
 ht-degree: 1%
@@ -24,14 +24,14 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Icona cornice](frame.resources/graphatomic-frame_1.png "Icona cornice")
+![Icona Fotogramma](frame.resources/frame-01.png "Icona Fotogramma")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-Una cornice facilita la leggibilità e il layout dei grafici, raggruppando visivamente gli oggetti in quel grafico e consentendo di spostare facilmente tutti questi oggetti insieme.
+Un fotogramma agevola la leggibilità e il layout dei grafici, raggruppando visivamente gli oggetti in quel grafico e consentendo di spostare facilmente tutti questi oggetti insieme.
 
-Ad esempio, è possibile assegnare un nome e colorare le cornici in modo che la struttura del grafico emerga chiaramente quando si traccia una panoramica, il che è di grande aiuto con l’aumentare della complessità di un grafico.
+Ad esempio, i fotogrammi possono essere denominati e colorati in modo che la struttura del grafico venga visualizzata chiaramente quando si prende in considerazione una panoramica, il che è di grande aiuto man mano che aumenta la complessità di un grafico.
 
 Possono anche essere annotati e quindi fungere da strumento di documentazione per spiegare perché alcuni nodi sono stati impostati in un modo specifico.
 
@@ -44,49 +44,49 @@ Possono anche essere annotati e quindi fungere da strumento di documentazione pe
 A seconda della posizione del cursore del mouse o se fa parte di una selezione, un fotogramma si presenta con stili visivi diversi per consentirvi di sapere se e come interagire con esso.
 
 +++Predefinito
-Per impostazione predefinita, la cornice è un rettangolo con angoli arrotondati riempiti con il colore selezionato nella proprietà <b>Colore cornice</b>. Una tonalità più scura del colore viene applicata al contorno della cornice.
+Per impostazione predefinita, il fotogramma è un rettangolo con angoli arrotondati riempiti con il colore selezionato nella proprietà <b>Colore Fotogramma</b>. Una tonalità più scura di quel colore viene applicata al contorno del fotogramma.
 
-Il set di titoli nella proprietà <b>Titolo</b> è visualizzato in grigio nell&#39;angolo superiore sinistro della cornice.
+Il set di titoli nella proprietà <b>Titolo</b> è visualizzato in grigio nell&#39;angolo superiore sinistro del fotogramma.
 
-![Fotogramma (stato predefinito)](frame.resources/graph-frames-default.png "Fotogramma (stato predefinito)")
+![Fotogramma (stato predefinito)](frame.resources/frame-02.png "Fotogramma (stato predefinito)")
 
 
 
 +++
 
 +++Passaggio con il mouse sull’intestazione
-Quando si passa il cursore del mouse sulla parte superiore della cornice, viene visualizzata una barra di intestazione.
+Quando si passa il cursore del mouse sopra il fotogramma, viene visualizzata una barra di intestazione.
 
-Per spostare la cornice, trascinate la barra di intestazione o il titolo.
+Per spostare il fotogramma, trascinate la barra di intestazione o il titolo.
 
-![Fotogramma (stato passaggio)](frame.resources/graph-frames-hover.png "Fotogramma (stato passaggio)")
+![Fotogramma (stato passaggio)](frame.resources/frame-03.png "Fotogramma (stato passaggio)")
 
 
 
 +++
 
 +++Selezionato
-Quando questa opzione è selezionata, il titolo e il contorno della cornice vengono evidenziati in bianco. Il contorno diventa più spesso.
+Quando questa opzione è selezionata, il titolo e il contorno del fotogramma vengono evidenziati in bianco. Il contorno diventa più spesso.
 
-![Fotogramma (stato selezionato)](frame.resources/graph-frames-selected.png "Fotogramma (stato selezionato)")
+![Fotogramma (stato selezionato)](frame.resources/frame-04.png "Fotogramma (stato selezionato)")
 
 
 
 +++
 
-## Creazione di cornici
+## Creazione di fotogrammi
 
-Le cornici possono essere aggiunte con qualsiasi tipo di grafico, in uno dei seguenti modi:
+I fotogrammi possono essere aggiunti con qualsiasi tipo di grafico, in uno dei modi seguenti:
 
 +++Menu Nodo
-Premi <b>Barra spaziatrice</b> nella vista Grafico per aprire il <b>menu Nodo</b> e seleziona la voce &quot;Cornice&quot; nell&#39;elenco.
+Premi <b>Barra spaziatrice</b> nella vista Grafico per aprire il <b>menu Nodo</b> e seleziona la voce &#39;Fotogramma&#39; nell&#39;elenco.
 
-Digita &quot;frame&quot; nel campo di ricerca per posizionare la superficie dell&#39;elemento e trovarlo più rapidamente.
+Digita &quot;fotogramma&quot; nel campo di ricerca per evidenziare l’elemento e trovarlo più rapidamente.
 
 +++
 
 +++Scelta rapida
-Se una scelta rapida da tastiera è mappata all&#39;elemento &#39;Frame&#39; nelle [Preferenze](../../../../interface/preferences-window/preferences-window.md), premi la scelta rapida quando la visualizzazione Grafico è attiva.
+Se una scelta rapida da tastiera da tastiera è mappata all&#39;elemento &#39;Fotogramma&#39; nelle [Preferenze](../../../../interface/preferences-window/preferences-window.md), premere la scelta rapida da tastiera quando è attiva la visualizzazione Grafico.
 
 +++
 
@@ -111,7 +111,7 @@ Se una selezione è attiva in un grafico quando viene creata una cornice, questa
 
 Tenendo presente questo aspetto, la creazione di fotogrammi mediante una scelta rapida da tastiera rende ancora più veloce l’inquadratura del contenuto in un grafico.
 
-![Fotogrammi: metodi di creazione](frame.resources/graph-frames_creation.gif "Fotogrammi: metodi di creazione"){width="480px"}
+![Fotogrammi: metodi di creazione](frame.resources/frame-05.gif "Fotogrammi: metodi di creazione"){width="480px"}
 
 >[!TIP]
 >
@@ -130,7 +130,7 @@ L&#39;illustrazione evidenzia le zone di interazione per il panning (blu) e il r
 </td>
 <td style="border: 0;" valign="top">
 
-![Fotogrammi: zone di interazione](frame.resources/graph-frames_interaction-zones.png "Fotogrammi: zone di interazione")
+![Fotogrammi: zone di interazione](frame.resources/frame-06.png "Fotogrammi: zone di interazione")
 
 </td>
 </tr>
@@ -149,7 +149,7 @@ Tieni premuto il tasto <b>Ctrl</b> (Windows) / <b>Cmd</b> (macOS) per spostare l
 </td>
 <td style="border: 0;" valign="top">
 
-![Fotogrammi: aggancio griglia](frame.resources/graph-frames_grid-snapping.gif "Fotogrammi: aggancio griglia")
+![Fotogrammi: aggancio griglia](frame.resources/frame-07.gif "Fotogrammi: aggancio griglia")
 
 </td>
 </tr>
@@ -164,7 +164,7 @@ Il <b>Titolo</b> si trova in alto a sinistra nella cornice. È possibile attivar
 
 Le dimensioni del titolo possono essere bloccate con una dimensione minima dello schermo in modo che rimanga leggibile quando si esegue lo zoom out del grafico. A tale scopo, selezionare l&#39;opzione &#39;Titoli cornice&#39; nell&#39;elenco a discesa <b>Informazioni</b> della barra degli strumenti [Visualizzazione grafico](../../../../interface/the-graph-view/the-graph-view.md).
 
-![Fotogrammi: Titolo](frame.resources/graph_frames_title.gif "Fotogrammi: Titolo"){width="640px"}
+![Fotogrammi: Titolo](frame.resources/frame-08.gif "Fotogrammi: Titolo"){width="640px"}
 
 
 
@@ -173,11 +173,11 @@ Le dimensioni del titolo possono essere bloccate con una dimensione minima dello
 +++Descrizione
 La <b>Descrizione</b> è una parte di testo aggiuntiva facoltativa che può essere utilizzata per annotare il contenuto della cornice.
 
-Il testo può essere formattato utilizzando i tag HTML. Per attivare e disattivare questa formattazione, fare clic sul pulsante ![](frame.resources/graph-frames_html-markup-button.png) <b>markup HTML</b>.
+Il testo può essere formattato utilizzando i tag HTML. Per attivare e disattivare questa formattazione, fare clic sul pulsante ![](frame.resources/frame-09.png) <b>markup HTML</b>.
 
 Ulteriori informazioni sono disponibili nella sezione Descrizione riportata di seguito.
 
-![Fotogrammi: Descrizione](frame.resources/graph-frames_description.gif "Fotogrammi: Descrizione"){width="640px"}
+![Fotogrammi: Descrizione](frame.resources/frame-10.gif "Fotogrammi: Descrizione"){width="640px"}
 
 
 
@@ -188,7 +188,7 @@ Il <b>colore fotogramma</b> viene utilizzato per riempire la cornice nella vista
 
 Il canale alfa del colore controlla l&#39;*opacità* del fotogramma, dove il valore 0 indica che il fotogramma è completamente trasparente.
 
-![Fotogrammi: Colore](frame.resources/graph-frames_colour.gif "Fotogrammi: Colore"){width="640px"}
+![Fotogrammi: Colore](frame.resources/frame-11.gif "Fotogrammi: Colore"){width="640px"}
 
 
 
@@ -211,7 +211,7 @@ Le sue dimensioni possono essere bloccate con una dimensione minima dello scherm
 </td>
 <td style="border: 0;" valign="top">
 
-![Fotogramma (descrizione predefinita)](frame.resources/graph-frames-descr.png "Fotogramma (descrizione predefinita)"){zoomable="yes"}
+![Fotogramma (descrizione predefinita)](frame.resources/frame-12.png "Fotogramma (descrizione predefinita)"){zoomable="yes"}
 
 </td>
 </tr>
@@ -223,12 +223,12 @@ Le sue dimensioni possono essere bloccate con una dimensione minima dello scherm
 
 ### Formattazione HTML
 
-È possibile formattare il testo utilizzando i tag HTML nella proprietà <b>Descrizione</b> della cornice. La formattazione deve essere abilitata utilizzando il pulsante ![](frame.resources/graph-frames_html-markup-button.png) <b>markup HTML</b> nella stessa proprietà.
+È possibile formattare il testo utilizzando i tag HTML nella proprietà <b>Descrizione</b> della cornice. La formattazione deve essere abilitata utilizzando il pulsante ![](frame.resources/frame-09.png) <b>markup HTML</b> nella stessa proprietà.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Fotogramma (descrizione formattata da HTML)](frame.resources/graph-frames-descr-html.png "Fotogramma (descrizione formattata da HTML)"){zoomable="yes"}
+![Fotogramma (descrizione formattata da HTML)](frame.resources/frame-13.png "Fotogramma (descrizione formattata da HTML)"){zoomable="yes"}
 
 </td>
 </tr>
@@ -285,7 +285,7 @@ Quando i connettori vengono visualizzati o nascosti, aggiunti o rimossi, il heig
 
 Pertanto, la posizione del punto centrale di un nodo non deve cambiare finché non viene *spostata intenzionalmente*.
 
-![Inclusione Fotogramma: nodi alti](frame.resources/frame_inclusion_node_tall.png "Inclusione Fotogramma: nodi alti")
+![Inclusione Fotogramma: nodi alti](frame.resources/frame-14.png "Inclusione Fotogramma: nodi alti")
 
 
 
@@ -297,11 +297,11 @@ Se più nodi sono ancorati in una catena, il nodo host dell&#39;ultimo nodo anco
 
 I distintivi, i connettori e le informazioni visualizzati sotto il nodo vengono tutti ignorati.
 
-![Inclusione Fotogramma: nodi ancorati](frame.resources/frame_inclusion_node_docked.png "Inclusione Fotogramma: nodi ancorati")
+![Inclusione Fotogramma: nodi ancorati](frame.resources/frame-15.png "Inclusione Fotogramma: nodi ancorati")
 
 
 
-![Inclusione Fotogramma: nodi](frame.resources/frame_inclusion_node.png "Inclusione Fotogramma: nodi")
+![Inclusione Fotogramma: nodi](frame.resources/frame-16.png "Inclusione Fotogramma: nodi")
 
 
 
@@ -312,7 +312,7 @@ Viene utilizzato il <b>punto centrale</b> del punto.
 
 I connettori, le icone dei portali e i nomi vengono ignorati.
 
-![Inclusione Fotogramma: nodi punto](frame.resources/frame_inclusion_dot.png "Inclusione Fotogramma: nodi punto")
+![Inclusione Fotogramma: nodi punto](frame.resources/frame-17.png "Inclusione Fotogramma: nodi punto")
 
 
 
@@ -329,11 +329,11 @@ I distintivi, i connettori e le informazioni visualizzati sotto il nodo vengono 
 
 
 
-![Inclusione Fotogramma: commenti associati](frame.resources/frame_inclusion_comment_parented.png "Inclusione Fotogramma: commenti associati")
+![Inclusione Fotogramma: commenti associati](frame.resources/frame-18.png "Inclusione Fotogramma: commenti associati")
 
 
 
-![Inclusione Fotogramma: commenti](frame.resources/frame_inclusion_comment.png "Inclusione Fotogramma: commenti")
+![Inclusione Fotogramma: commenti](frame.resources/frame-19.png "Inclusione Fotogramma: commenti")
 
 
 
@@ -342,7 +342,7 @@ I distintivi, i connettori e le informazioni visualizzati sotto il nodo vengono 
 +++Puntine
 Viene utilizzata la <b>punta</b> dell&#39;icona del segnaposto.
 
-![Inclusione Fotogramma: segnaposti di navigazione](frame.resources/frame_inclusion_pin.png "Inclusione Fotogramma: segnaposti di navigazione")
+![Inclusione Fotogramma: segnaposti di navigazione](frame.resources/frame-20.png "Inclusione Fotogramma: segnaposti di navigazione")
 
 
 
@@ -355,7 +355,7 @@ Ciò significa che un fotogramma nidificato deve rientrare interamente nei limit
 
 Il titolo viene ignorato.
 
-![Inclusione Fotogramma: fotogrammi nidificati](frame.resources/frame_inclusion_frame.png "Inclusione Fotogramma: fotogrammi nidificati")
+![Inclusione Fotogramma: fotogrammi nidificati](frame.resources/frame-21.png "Inclusione Fotogramma: fotogrammi nidificati")
 
 
 
@@ -363,7 +363,7 @@ Il titolo viene ignorato.
 
 ## Adatta dimensione a contenuto
 
-![Fotogrammi: Adatta dimensioni a contenuto](frame.resources/graph-frames_fit-size-to-content.png "Fotogrammi: Adatta dimensioni a contenuto")
+![Fotogrammi: Adatta dimensioni a contenuto](frame.resources/frame-22.png "Fotogrammi: Adatta dimensioni a contenuto")
 
 Man mano che apportate le regolazioni nel grafico, una cornice potrebbe non essere più adattata correttamente al suo contenuto. In questo caso, è possibile regolare automaticamente la posizione e le dimensioni della cornice in modo che si adatti all&#39;estensione del suo contenuto, con una spaziatura di una cella della griglia media.
 
@@ -386,14 +386,14 @@ Se nessun oggetto incluso può rientrare nello spazio, il height della cornice v
 </td>
 <td style="border: 0;" valign="top">
 
-![Fotogrammi: Adatta dimensioni a contenuto (con descrizione)](frame.resources/graph-frames_fit-description.png "Fotogrammi: Adatta dimensioni a contenuto (con descrizione)")
+![Fotogrammi: Adatta dimensioni a contenuto (con descrizione)](frame.resources/frame-23.png "Fotogrammi: Adatta dimensioni a contenuto (con descrizione)")
 
 </td>
 </tr>
 </table>
 
 +++Esempio
-![Fotogrammi: Adatta dimensioni a contenuto (GIF)](frame.resources/graph-frames_fit-size-to-content.gif "Fotogrammi: Adatta dimensioni a contenuto (GIF)"){width="640px"}
+![Fotogrammi: Adatta dimensioni a contenuto (GIF)](frame.resources/frame-24.gif "Fotogrammi: Adatta dimensioni a contenuto (GIF)"){width="640px"}
 
 
 
@@ -401,7 +401,7 @@ Se nessun oggetto incluso può rientrare nello spazio, il height della cornice v
 
 ## Espandi automaticamente
 
-![Fotogrammi: Espandi automaticamente](frame.resources/graph-frames_auto-expand.png "Fotogrammi: Espandi automaticamente")
+![Fotogrammi: Espandi automaticamente](frame.resources/frame-25.png "Fotogrammi: Espandi automaticamente")
 
 Man mano che il grafico cresce, potrebbe essere necessario riorganizzare il contenuto delle cornici. I nodi potrebbero spostarsi per fare spazio ad aggiunte o potrebbe essere necessario spaziare di più i contenuti per promuovere la leggibilità.
 
@@ -416,7 +416,7 @@ Se un oggetto non è completamente racchiuso nei limiti della cornice, ma soddis
 > Anche se il tasto <b>Maiusc</b> può essere premuto o rilasciato in qualsiasi momento durante lo spostamento per attivare o annullare la regolazione automatica del fotogramma, *deve* essere premuto al completamento dello spostamento per applicare in modo efficace la regolazione.
 
 +++Esempio
-![Fotogrammi: Espansione automatica (GIF)](frame.resources/graph-frames_auto-expand.gif "Fotogrammi: Espansione automatica (GIF)"){width="640px"}
+![Fotogrammi: Espansione automatica (GIF)](frame.resources/frame-26.gif "Fotogrammi: Espansione automatica (GIF)"){width="640px"}
 
 
 

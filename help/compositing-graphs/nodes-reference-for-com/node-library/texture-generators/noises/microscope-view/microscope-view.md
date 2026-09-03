@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/microscope-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/microscope-view.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Vista microscopico per generare pattern di texture microscopiche per creare strutture di superficie dettagliate.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Vista Microscopio
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](microscope-view.resources/microscope-view.png){width="128px"}
+![](microscope-view.resources/microscope-view-01.png){width="128px"}
 
 <b>Ingresso:</b> Generatori di Texture > Rumori
 
@@ -55,7 +55,7 @@ Questo genera un rumore alterato che assomiglia a batteri o organismi al microsc
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="microscope-view.resources/microscope-view-ex.gif" />
+            <img src="microscope-view.resources/microscope-view-02.gif" />
         </td>
     </tr>
 </table>

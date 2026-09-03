@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/line-light.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/line-light.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Luce linea per creare sorgenti luminose lineari in ambienti HDRI per simulare la fluorescenza e l’illuminazione a strisce.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Luce linea
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](line-light.resources/panorama-line-light.png){width="200px"}
+![](line-light.resources/line-light-01.png){width="200px"}
 
 <b>Ingresso:</b> vista 3D > Strumenti HDRI
 
@@ -91,7 +91,7 @@ Le modalità di posizionamento per questo nodo sono leggermente più complesse r
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="line-light.resources/line-light-ex.gif" />
+            <img src="line-light.resources/line-light-02.gif" />
         </td>
     </tr>
 </table>

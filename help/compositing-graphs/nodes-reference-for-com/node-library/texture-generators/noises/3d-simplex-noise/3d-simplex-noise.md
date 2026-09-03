@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-simplex-noise.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-simplex-noise.html"
 breadcrumb-title: ''
-description: Utilizza il nodo Disturbo simplex 3D per generare pattern di disturbo simplex 3D per creare texture volumetriche uniformi e naturali.
+description: Utilizza il nodo Disturbo simplex 3D per generare pattern di disturbo simplex 3D per creare texture volumetrica uniforme e naturale.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Simplex Noise
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Disturbo simplex 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-simplex-noise.resources/3d-simplex-noise.png){width="128px"}
+![](3d-simplex-noise.resources/3d-simplex-noise-01.png){width="128px"}
 
 <b>Ingresso:</b> Generatori di Texture > Rumori
 
@@ -56,7 +56,7 @@ Questo disturbo può essere testato con [Cubo 3D GBuffer](https://support.allego
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-simplex-noise.resources/3d-simplex.gif" />
+            <img src="3d-simplex-noise.resources/3d-simplex-noise-02.gif" />
         </td>
     </tr>
 </table>

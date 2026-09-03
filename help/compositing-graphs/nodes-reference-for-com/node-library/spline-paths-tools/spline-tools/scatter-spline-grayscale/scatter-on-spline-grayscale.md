@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-on-spline-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-on-spline-grayscale.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Dispersione su spline scala di grigi per distribuire gli elementi in scala di grigi lungo i tracciati spline per i pattern procedurali.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Dispersione su scala di grigi spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '2853'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo](scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-icon.png "Icona nodo")
+![Icona nodo](scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-01.png "Icona nodo")
 
 <b>In:</b> Strumenti Spline E Tracciati > Strumenti spline
 
@@ -160,11 +160,11 @@ Alcuni aspetti della dispersione possono essere controllati utilizzando immagini
 <table>
   <tr>
     <td>
-      <img src="scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Variant1-Before.jpg" alt="ScatterOnSplineGreyscale-Variant1-Before">
+      <img src="scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-02.jpg" alt="ScatterOnSplineGreyscale-Variant1-Before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Variant1-After.jpg" alt="ScatterOnSplineGreyscale-Variant1-After">
+      <img src="scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-03.jpg" alt="ScatterOnSplineGreyscale-Variant1-After">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -176,11 +176,11 @@ Alcuni aspetti della dispersione possono essere controllati utilizzando immagini
 <table>
   <tr>
     <td>
-      <img src="scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Variant2-Before.jpg" alt="ScatterOnSplineGreyscale-Variant2-Before">
+      <img src="scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-04.jpg" alt="ScatterOnSplineGreyscale-Variant2-Before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Variant2-After.jpg" alt="ScatterOnSplineGreyscale-Variant2-After">
+      <img src="scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-05.jpg" alt="ScatterOnSplineGreyscale-Variant2-After">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -194,12 +194,12 @@ Alcuni aspetti della dispersione possono essere controllati utilizzando immagini
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 2](scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Demo.gif "Esempio di nodo 2")
+![Esempio di nodo 2](scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-06.gif "Esempio di nodo 2")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Demo nodo 2](scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Demo2.gif "Demo nodo 2")
+![Demo nodo 2](scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-07.gif "Demo nodo 2")
 
 </td>
 </tr>

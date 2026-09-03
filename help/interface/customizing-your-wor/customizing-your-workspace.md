@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/customizing-your-workspace.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/customizing-your-workspace.html"
 breadcrumb-title: ''
 description: Scoprite come personalizzare il vostro spazio di lavoro in Substance 3D Designer per ottimizzare il flusso di lavoro e le preferenze di layout.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Personalizzazione dell’area di lavoro
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Personalizzazione dell’area di lavoro
 
-In questa pagina sono illustrati i modi per disporre i pannelli nell&#39;interfaccia utente di [Adobe Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html) e sfruttarne le funzionalità per migliorare i flussi di lavoro.
+In questa pagina sono illustrati i modi per disporre i pannelli nell&#39;interfaccia utente di [Adobe Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) e sfruttarne le funzionalità per migliorare i flussi di lavoro.
 
 <table>
 <tr style="border: 0;">
@@ -32,7 +32,7 @@ Questo menu consente di gestire i principali elementi dell’interfaccia utente 
 
 ### Visualizzare/nascondere una vista
 
-Per visualizzare o nascondere un elemento specifico dell&#39;interfaccia, fare clic sul relativo nome nel menu *Windows*. Gli elementi visualizzati hanno un segno di spunta ![](customizing-your-workspace.resources/image2015-12-17-10-43-24.png).
+Per visualizzare o nascondere un elemento specifico dell&#39;interfaccia, fare clic sul relativo nome nel menu *Windows*. Gli elementi visualizzati hanno un segno di spunta ![](customizing-your-workspace.resources/customizing-your-workspace-01.png).
 
 ### Popolare un’area di ancoraggio con una vista
 
@@ -46,7 +46,7 @@ Le opzioni <b>Nuovo Explorer</b>, <b>Nuova visualizzazione 3D</b> e <b>Nuova vis
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Menu Windows](customizing-your-workspace.resources/windows-menu-1.png "Menu Windows")
+![Menu Windows](customizing-your-workspace.resources/customizing-your-workspace-02.png "Menu Windows")
 
 </td>
 </tr>
@@ -56,13 +56,13 @@ Le opzioni <b>Nuovo Explorer</b>, <b>Nuova visualizzazione 3D</b> e <b>Nuova vis
 
 È possibile ridimensionare i banchi spostandone i bordi. Gli altri dock verranno ridimensionati dinamicamente per adattarsi.
 
-![Ridimensionamento dei dock](customizing-your-workspace.resources/interface-customisation-resize.gif "Ridimensionamento dei dock")
+![Ridimensionamento dei dock](customizing-your-workspace.resources/customizing-your-workspace-03.gif "Ridimensionamento dei dock")
 
 ## Spostamento dei dock
 
 È possibile spostare qualsiasi ancoraggio nella finestra principale utilizzando la relativa *barra del titolo*. A seconda della posizione in cui viene spostato l’ancoraggio, verrà ridimensionato per adattarlo.
 
-![Spostamento dei dock](customizing-your-workspace.resources/interface-customisation-move.gif "Spostamento dei dock")
+![Spostamento dei dock](customizing-your-workspace.resources/customizing-your-workspace-04.gif "Spostamento dei dock")
 
 ## Ancoraggi a schede
 
@@ -70,7 +70,7 @@ I dock possono essere impilati in schede. Questo è utile per salvare la visuali
 
 È possibile spostare un ancoraggio mediante la barra del titolo *su un ancoraggio esistente*, ad esempio i punti di ancoraggio non vengono ridimensionati né spostati, ma attorno all&#39;ancoraggio di destinazione viene visualizzato un *fotogramma*.
 
-![Ancoraggi di tabulazione](customizing-your-workspace.resources/interface-customisation-tab.gif "Ancoraggi di tabulazione")
+![Ancoraggi di tabulazione](customizing-your-workspace.resources/customizing-your-workspace-05.gif "Ancoraggi di tabulazione")
 
 ## Disancoraggio
 
@@ -78,10 +78,10 @@ Un ancoraggio può essere disancorato in una *finestra mobile* che può essere r
 
 Questo può essere fatto in due modi:
 
-* Spostamento dell&#39;ancoraggio utilizzando la relativa *barra del titolo* e posizionandolo *fuori dalla finestra principale* o su un&#39;area della finestra principale che è *non un ancoraggio*. Puoi ancorare nuovamente questo ancoraggio spostandolo su un altro ancoraggio *nella finestra principale* o facendo clic sul pulsante <b>![](customizing-your-workspace.resources/dock-icons-redock.png) Riancoraggio</b>;
-* Fare clic sul pulsante <b>![](customizing-your-workspace.resources/dock-icons-undock.png) Disancora</b>. Un ancoraggio disancorato con questo metodo può essere riancorato *solo* facendo clic sul pulsante <b>![](customizing-your-workspace.resources/dock-icons-redock.png) Riancoraggio</b>.
+* Spostamento dell&#39;ancoraggio utilizzando la relativa *barra del titolo* e posizionandolo *fuori dalla finestra principale* o su un&#39;area della finestra principale che è *non un ancoraggio*. Puoi ancorare nuovamente questo ancoraggio spostandolo su un altro ancoraggio *nella finestra principale* o facendo clic sul pulsante <b>![](customizing-your-workspace.resources/customizing-your-workspace-06.png) Riancoraggio</b>;
+* Fare clic sul pulsante <b>![](customizing-your-workspace.resources/customizing-your-workspace-07.png) Disancora</b>. Un ancoraggio disancorato con questo metodo può essere riancorato *solo* facendo clic sul pulsante <b>![](customizing-your-workspace.resources/customizing-your-workspace-06.png) Riancoraggio</b>.
 
-![Disancoraggio](customizing-your-workspace.resources/interface-customisation-undock.gif "Disancoraggio")
+![Disancoraggio](customizing-your-workspace.resources/customizing-your-workspace-08.gif "Disancoraggio")
 
 ## Ingrandimento dei dock
 
@@ -93,12 +93,12 @@ Questo può essere fatto in due modi:
 I dock possono essere ingranditi in due modi:
 
 * Posizionare il *cursore sull&#39;ancoraggio* e premere il tasto <b>Maiusc+Barra spaziatrice</b>
-* Fare clic sul pulsante Ingrandisci <b>![](customizing-your-workspace.resources/dock-icons-maximise.png)</b>
+* Fare clic sul pulsante Ingrandisci <b>![](customizing-your-workspace.resources/customizing-your-workspace-09.png)</b>
 
 I dock ingranditi possono essere ridotti al minimo nelle dimensioni e nella posizione in cui si trovavano *prima di essere ingranditi*. Questo può essere fatto in tre modi:
 
 * Posizionare il *cursore sull&#39;ancoraggio* e premere il tasto <b>Maiusc+Barra spaziatrice</b>
-* Fare clic sul pulsante Riduci a icona <b>![](customizing-your-workspace.resources/dock-icons-minimise.png)</b>
+* Fare clic sul pulsante Riduci a icona <b>![](customizing-your-workspace.resources/customizing-your-workspace-10.png)</b>
 * Apertura del menu <b>Windows</b> e selezione dell&#39;opzione <b>Annulla ingrandimento finestra</b>
 
 >[!NOTE]
@@ -114,7 +114,7 @@ I dock ingranditi possono essere ridotti al minimo nelle dimensioni e nella posi
 > * I pulsanti sono *disabilitati* nella barra del titolo del dock
 > * Un ancoraggio ingrandito nella finestra principale *non può essere spostato* utilizzando la barra del titolo
 
-![Ingrandimento dei dock](customizing-your-workspace.resources/interface-customisation-maximise.gif "Ingrandimento dei dock")
+![Ingrandimento dei dock](customizing-your-workspace.resources/customizing-your-workspace-11.gif "Ingrandimento dei dock")
 
 ## Blocco dei dock
 
@@ -122,7 +122,7 @@ L&#39;aggiunta di un ancoraggio *impedisce che venga popolato* con altro contenu
 
 Quando un ancoraggio è bloccato, qualsiasi contenuto futuro che dovrebbe essere visualizzato nel relativo verrà invece *creato un nuovo ancoraggio* per ospitarlo. Questo nuovo dock non verrà bloccato e quindi può aggiornare e ospitare nuovi contenuti.
 
-Per bloccare un ancoraggio, fai clic sul relativo pulsante ![](customizing-your-workspace.resources/dock-icons-pin.png) <b>Pin</b>. Puoi quindi *sbloccarlo* utilizzando il pulsante ![](customizing-your-workspace.resources/dock-icons-pinned.png) <b>Sblocca</b> per renderlo nuovamente *disponibile* per ospitare nuovi contenuti.
+Per bloccare un ancoraggio, fai clic sul relativo pulsante ![](customizing-your-workspace.resources/customizing-your-workspace-12.png) <b>Pin</b>. Puoi quindi *sbloccarlo* utilizzando il pulsante ![](customizing-your-workspace.resources/customizing-your-workspace-13.png) <b>Sblocca</b> per renderlo nuovamente *disponibile* per ospitare nuovi contenuti.
 
 *È possibile bloccare più ancoraggi* alla volta, inclusi più ancoraggi dello *stesso tipo*.
 
@@ -132,11 +132,11 @@ L’aggiunta di dock consente di avere le seguenti capacità:
 * Visualizzazione simultanea di due o più bitmap
 * Lavorare su più grafici contemporaneamente
 
-![Blocco dei dock](customizing-your-workspace.resources/interface-customisation-pin.gif "Blocco dei dock")
+![Blocco dei dock](customizing-your-workspace.resources/customizing-your-workspace-14.gif "Blocco dei dock")
 
 ## Chiusura dei bacini
 
-È possibile chiudere qualsiasi ancoraggio facendo clic sul relativo pulsante ![](customizing-your-workspace.resources/dock-icons-close.png) <b>Chiudi</b>.
+È possibile chiudere qualsiasi ancoraggio facendo clic sul relativo pulsante ![](customizing-your-workspace.resources/customizing-your-workspace-15.png) <b>Chiudi</b>.
 
 ## Reimpostazione del layout dell&#39;interfaccia
 
@@ -144,4 +144,4 @@ L’aggiunta di dock consente di avere le seguenti capacità:
 
 Anche lo stato di visualizzazione verrà reimpostato, ovvero i dock chiusi potrebbero essere *riaperti* (ad esempio, vista 3D) e quelli visualizzati potrebbero essere *chiusi* (ad esempio, console, gestione dipendenze, dock creati da plug-in).
 
-![Ripristina layout](customizing-your-workspace.resources/interface-customisation-reset.gif "Ripristina layout")
+![Ripristina layout](customizing-your-workspace.resources/customizing-your-workspace-16.gif "Ripristina layout")

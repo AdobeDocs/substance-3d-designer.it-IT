@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/polygon-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/polygon-2.html"
 breadcrumb-title: ''
 description: Utilizza il nodo Polygon 2 per generare pattern poligonali avanzati con lati e proprietà personalizzabili.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Poligono 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 11%
@@ -24,7 +24,7 @@ ht-degree: 11%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](polygon-2.resources/polygon-2-1.png){width="128px"}
+![](polygon-2.resources/polygon-2-01.png){width="128px"}
 
 <b>Ingresso:</b> Generatori Texture > Pattern
 
@@ -59,7 +59,7 @@ Genera una forma poligonale con sfumature omogenee con opzioni di regolazione. P
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="polygon-2.resources/polygon-2-ex.gif" />
+            <img src="polygon-2.resources/polygon-2-02.gif" />
         </td>
     </tr>
 </table>

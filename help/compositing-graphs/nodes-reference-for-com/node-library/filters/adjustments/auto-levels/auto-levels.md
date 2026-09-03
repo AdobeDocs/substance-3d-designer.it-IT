@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/auto-levels.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/auto-levels.html"
 breadcrumb-title: ''
 description: Utilizza il nodo Livelli automatici per regolare automaticamente i livelli della texture per una luminosità e una distribuzione del contrasto ottimali.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Livelli automatici
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '68'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](auto-levels.resources/auto-levels.png){width="128px"}
+![](auto-levels.resources/auto-levels-01.png){width="128px"}
 
 <b>Ingresso:</b> Filtri > Regolazioni
 
@@ -44,7 +44,7 @@ Regola automaticamente i livelli di input in modo da utilizzare l’intera gamma
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="auto-levels.resources/auto-levels-example.png" />
+            <img src="auto-levels.resources/auto-levels-02.png" />
         </td>
     </tr>
 </table>

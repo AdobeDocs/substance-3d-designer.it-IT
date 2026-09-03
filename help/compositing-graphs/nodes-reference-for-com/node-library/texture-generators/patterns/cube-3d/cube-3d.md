@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/cube-3d.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/cube-3d.html"
 breadcrumb-title: ''
 description: Usa il nodo 3D del cubo per generare texture basata sulle proiezioni del cubo 3D per creare mappe dell’ambiente ed effetti.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Cubo 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 5%
@@ -24,9 +24,9 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](cube-3d.resources/cube3-ex.png)
+![](cube-3d.resources/cube-3d-01.png)
 
-<b>Ingresso:</b> Generatori texture > Pattern
+<b>Ingresso:</b> Generatori Texture > Pattern
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -48,14 +48,14 @@ Esegue il rendering di un cubo 3D in scala di grigio con ombreggiatura che funge
 | <b>Scostamento orientamento</b> | Consente la rotazione X e Y del cubo in 3D. Può essere effettuata anche manipolando il piccolo punto nell’anteprima 2D (come mostrato nell’esempio seguente) |
 | <b>Dimensioni</b> <i>0.0 - 1.0</i> | Consente il ridimensionamento non uniforme del cubo. |
 | <b>Scala</b> <i>0.0 - 1.0</i> | Ridimensiona l&#39;intero cubo in modo uniforme. |
-| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati. |
+| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di squash e allungamento con rapporti non quadrati. |
 
 ## Esempi
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="cube-3d.resources/cube3d-ex.gif" />
+            <img src="cube-3d.resources/cube-3d-02.gif" />
         </td>
     </tr>
 </table>

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-smooth.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-smooth.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo Arrotondamento curvatura (Curvature Smooth) per generare mappe di curvatura omogenee dalle mappe di height per l'estrazione dei dettagli della superficie.
+description: Utilizzate il nodo Arrotondamento curvatura (Curvature Smooth) per generare mappe di curvatura uniformi da mappe di altezza per l'estrazione dei dettagli della superficie.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Curvature Smooth
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Curvatura uniforme
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo arrotondato curvatura](curvature-smooth.resources/CurvatureSmooth.png "Icona nodo arrotondato curvatura"){width="200px"}
+![Icona nodo arrotondato curvatura](curvature-smooth.resources/curvature-smooth-01.png "Icona nodo arrotondato curvatura"){width="200px"}
 
 <b>Ingresso:</b> Filtri > Effetti
 
@@ -54,7 +54,7 @@ Anche le aree concave e convesse vengono suddivise nelle rispettive uscite, per 
 
 |  |  |
 |:---|:---|
-| <b>Normale</b> <i>Colore</i> <b>PRIMARIO</b> | La mappa normale che descrive la superficie da calcolare per la curvatura. |
+| <b>Normale</b> <i>Colore</i> <b>PRIMARIO</b> | Mappa normale che descrive la superficie da calcolare per la curvatura. |
 
 <a name="outputs"></a>
 
@@ -79,11 +79,11 @@ Anche le aree concave e convesse vengono suddivise nelle rispettive uscite, per 
 <table>
   <tr>
     <td>
-      <img src="curvature-smooth.resources/curvature_smooth_example_1_before.jpg" alt="curvature_smog_example_1_before">
+      <img src="curvature-smooth.resources/curvature-smooth-02.jpg" alt="curvature_smog_example_1_before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="curvature-smooth.resources/curvature_smooth_example_1_after.jpg" alt="curvature_smog_example_1_after">
+      <img src="curvature-smooth.resources/curvature-smooth-03.jpg" alt="curvature_smog_example_1_after">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -93,12 +93,12 @@ Anche le aree concave e convesse vengono suddivise nelle rispettive uscite, per 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Curvatura uniforme: Esempio 2](curvature-smooth.resources/curvature_smooth_example_2.jpg "Curvatura uniforme: Esempio 2"){zoomable="yes"}
+![Curvatura uniforme: Esempio 2](curvature-smooth.resources/curvature-smooth-04.jpg "Curvatura uniforme: Esempio 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Curvatura uniforme: Esempio 3](curvature-smooth.resources/curvature_smooth_example_3.jpg "Curvatura uniforme: Esempio 3"){zoomable="yes"}
+![Curvatura uniforme: Esempio 3](curvature-smooth.resources/curvature-smooth-05.jpg "Curvatura uniforme: Esempio 3"){zoomable="yes"}
 
 </td>
 </tr>
@@ -107,11 +107,11 @@ Anche le aree concave e convesse vengono suddivise nelle rispettive uscite, per 
 <table>
   <tr>
     <td>
-      <img src="curvature-smooth.resources/curvature_smooth_example_4_before.jpg" alt="curvature_smog_example_4_before">
+      <img src="curvature-smooth.resources/curvature-smooth-06.jpg" alt="curvature_smog_example_4_before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="curvature-smooth.resources/curvature_smooth_example_4_after.jpg" alt="curvature_smog_example_4_after">
+      <img src="curvature-smooth.resources/curvature-smooth-07.jpg" alt="curvature_smog_example_4_after">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -121,12 +121,12 @@ Anche le aree concave e convesse vengono suddivise nelle rispettive uscite, per 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Curvatura uniforme: Esempio 4](curvature-smooth.resources/curvature_smooth_example_5.jpg "Curvatura uniforme: Esempio 4"){zoomable="yes"}
+![Curvatura uniforme: Esempio 4](curvature-smooth.resources/curvature-smooth-08.jpg "Curvatura uniforme: Esempio 4"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Curvatura uniforme: Esempio 5](curvature-smooth.resources/curvature_smooth_example_6.jpg "Curvatura uniforme: Esempio 5"){zoomable="yes"}
+![Curvatura uniforme: Esempio 5](curvature-smooth.resources/curvature-smooth-09.jpg "Curvatura uniforme: Esempio 5"){zoomable="yes"}
 
 </td>
 </tr>

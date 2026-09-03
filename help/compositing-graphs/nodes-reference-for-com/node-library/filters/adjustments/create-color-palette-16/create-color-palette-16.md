@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/create-color-palette-16.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/create-color-palette-16.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Crea tavolozza colori per estrarre una tavolozza di 16 colori dalle texture per ottenere effetti stilizzati.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Crea tavolozza colori (16)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona Quantizza colore](create-color-palette-16.resources/CreateColorPalette16.png "Icona Quantizza colore"){width="200px"}
+![Icona Quantizza colore](create-color-palette-16.resources/create-color-palette-16-01.png "Icona Quantizza colore"){width="200px"}
 
 <b>Ingresso:</b> Filtri > Regolazioni
 
@@ -76,15 +76,15 @@ Questo nodo può essere utilizzato in combinazione con i seguenti nodi: [Quantiz
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Creare una tavolozza di colori: esempio 1](create-color-palette-16.resources/create_color_palette_example_1.png "Creare una tavolozza di colori: esempio 1"){zoomable="yes"}
+![Creare una tavolozza di colori: esempio 1](create-color-palette-16.resources/create-color-palette-16-02.png "Creare una tavolozza di colori: esempio 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Creare una tavolozza di colori: esempio 2](create-color-palette-16.resources/create_color_palette_example_2.png "Creare una tavolozza di colori: esempio 2"){zoomable="yes"}
+![Creare una tavolozza di colori: esempio 2](create-color-palette-16.resources/create-color-palette-16-03.png "Creare una tavolozza di colori: esempio 2"){zoomable="yes"}
 
 </td>
 </tr>
 </table>
 
-![Creare una tavolozza di colori: esempio 3](create-color-palette-16.resources/create_color_palette_example_3.png "Creare una tavolozza di colori: esempio 3"){zoomable="yes"}
+![Creare una tavolozza di colori: esempio 3](create-color-palette-16.resources/create-color-palette-16-04.png "Creare una tavolozza di colori: esempio 3"){zoomable="yes"}

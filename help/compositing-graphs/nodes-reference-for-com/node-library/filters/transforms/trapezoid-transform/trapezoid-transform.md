@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/trapezoid-transform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/trapezoid-transform.html"
 breadcrumb-title: ''
-description: Usa il nodo Trasformazione trapezoidale per applicare la distorsione trapezoidale alle texture e creare effetti di correzione prospettica.
+description: Usa il nodo di Trasforma Trapezoide per applicare la distorsione trapezoidale alle texture per la creazione di effetti di correzione della Prospettiva.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Trapezoid Transform
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Trasformazione trapezio
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 6%
@@ -24,9 +24,9 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](trapezoid-transform.resources/trapeze-transform.png){width="128px"}
+![](trapezoid-transform.resources/trapezoid-transform-01.png){width="128px"}
 
-![](trapezoid-transform.resources/trapeze-transform-grayscale.png){width="128px"}
+![](trapezoid-transform.resources/trapezoid-transform-02.png){width="128px"}
 
 <b>Ingresso:</b> Filtri > Trasforma
 
@@ -35,7 +35,7 @@ ht-degree: 6%
 
 ## Descrizione
 
-Nodo di trasformazione speciale che modifica l’input in modo prospettico/con alterazione trapezoidale. Consente di controllare l&#39;estensione superiore e inferiore. I valori possono essere spinti oltre i limiti per gli effetti più forti.
+Nodo di Trasforma speciale che modifica l&#39;input in modo Prospettiva/alterazione trapezoidale. Dispone del controllo per allungamento superiore e inferiore. I valori possono essere spinti oltre i limiti per gli effetti più forti.
 
 </td>
 </tr>
@@ -49,7 +49,7 @@ Nodo di trasformazione speciale che modifica l’input in modo prospettico/con a
 |:---|:---|
 | <b>Allungamento principale</b> <i>0.0 - 1.0</i> | Imposta la quantità di allungamento o schiaccia nella parte superiore. |
 | <b>Allungamento inferiore</b> <i>0.0 - 1.0</i> | Impostate la quantità di allungamento o schiaccia sul fondo. |
-| <b>Colore di sfondo</b> <i>(valore scala di grigi/colore)</i> | Impostate il colore di sfondo in tinta unita nel caso in cui la suddivisione in porzioni sia disattivata. |
+| <b>Colore di sfondo</b> <i>(valore scala di grigi/colore)</i> | Impostate il colore di sfondo in tinta unita nel caso in cui l&#39;Affiancamento sia disattivato. |
 | <b>Campionamento</b> <i>Bilineare, Più Vicino</i> | Impostate la qualità di campionamento. |
 
 ## Esempi
@@ -57,7 +57,7 @@ Nodo di trasformazione speciale che modifica l’input in modo prospettico/con a
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="trapezoid-transform.resources/trapeze-example.gif" />
+            <img src="trapezoid-transform.resources/trapezoid-transform-03.gif" />
         </td>
     </tr>
 </table>

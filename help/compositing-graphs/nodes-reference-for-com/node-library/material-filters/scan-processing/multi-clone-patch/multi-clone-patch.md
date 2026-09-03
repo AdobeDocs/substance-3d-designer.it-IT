@@ -1,16 +1,16 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-clone-patch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-clone-patch.html"
 breadcrumb-title: ''
-description: Utilizza il nodo Toppa con più cloni per clonare e riparare più canali di texture per correggere gli artefatti del materiale scansionato.
+description: Utilizza il nodo Toppa per più Clona /Clone per clonare e applicare patch a più canali texture per correggere gli artefatti del materiale scansionato.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Multi Clone Patch
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Patch per più cloni
+title: Toppa per più Clona /Clone
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 5%
@@ -18,15 +18,15 @@ ht-degree: 5%
 ---
 
 
-# Patch per più cloni
+# Toppa per più Clona /Clone
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](multi-clone-patch.resources/clone-patch-multi.png){width="128px"}
+![](multi-clone-patch.resources/multi-clone-patch-01.png){width="128px"}
 
-![](multi-clone-patch.resources/clone-patch-multi-grayscale.png){width="128px"}
+![](multi-clone-patch.resources/multi-clone-patch-02.png){width="128px"}
 
 <b>Tra:</b> Filtri materiali > Elaborazione scansione
 
@@ -35,11 +35,11 @@ ht-degree: 5%
 
 ## Descrizione
 
-Questo nodo è la versione di input multiplo di [Patch clone](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md). Collega fino a otto input ed esegue esattamente la stessa operazione Patch clone su tutti gli input. È destinato principalmente all&#39;uso con foto con più angoli, che vengono quindi combinate con [Da multi-angolo a Albedo](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-albedo/multi-angle-to-albedo.md) o [Da multi-angolo a normale](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-normal/multi-angle-to-normal.md).
+Questo nodo è la versione di input multiplo di [Clona /Clone patch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md). Collega fino a otto ingressi ed esegue esattamente su tutti gli ingressi la stessa operazione Clona /Clone Patch. È destinato principalmente all&#39;uso con foto con più angoli, che vengono quindi combinate con [Da multi-angolo a Albedo](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-albedo/multi-angle-to-albedo.md) o [Da multi-angolo a normale](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-normal/multi-angle-to-normal.md).
 
 >[!NOTE]
 >
-> Consultate [Patch clone](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md) per ulteriori informazioni, consultate [Patch clone materiale](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/material-clone-patch/material-clone-patch.md) per la versione del materiale.
+> Per ulteriori informazioni, vedere [Clona /Clone patch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md). Per la versione del materiale, vedere [Materiale Clona /Clone patch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/material-clone-patch/material-clone-patch.md).
 
 </td>
 </tr>

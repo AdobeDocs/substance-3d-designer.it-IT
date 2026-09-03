@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-normalize.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-normalize.html"
 breadcrumb-title: ''
-description: Utilizzare il nodo Normale per normalizzare i vettori di mappe normali per garantire la corretta ombreggiatura e illuminazione della superficie.
+description: Utilizzare il nodo Normale per normalizzare i vettori di mappa normale per garantire la corretta ombreggiatura e illuminazione della superficie.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Normal Normalize
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Normale - Normale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](normal-normalize.resources/normal-normalize.png){width="128px"}
+![](normal-normalize.resources/normal-normalize-01.png){width="128px"}
 
 <b>Ingresso:</b> Filtri > Mappa normale
 

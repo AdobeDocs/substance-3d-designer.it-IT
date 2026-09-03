@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/noise-upscale-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/noise-upscale-1.html"
 breadcrumb-title: ''
 description: Utilizzare il nodo Noise Upscale 1 per ingrandire la texture utilizzando algoritmi basati sul rumore per mantenere i dettagli quando si aumenta la risoluzione della texture.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ingrandimento disturbo 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](noise-upscale-1.resources/noise-upscale.png){width="128px"}
+![](noise-upscale-1.resources/noise-upscale-1-01.png){width="128px"}
 
 <b>Ingresso:</b> Filtri > Trasforma
 
@@ -59,7 +59,7 @@ Consultate anche [Noise Upscale 2](../../../../../../compositing-graphs/nodes-re
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="noise-upscale-1.resources/noise1ex.png" />
+            <img src="noise-upscale-1.resources/noise-upscale-1-02.png" />
         </td>
     </tr>
 </table>

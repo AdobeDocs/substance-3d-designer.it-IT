@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/preferences-window.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window.html"
 breadcrumb-title: ''
 description: Accedete alla finestra Preferenze di Substance 3D Designer per personalizzare le impostazioni e il comportamento dell’applicazione.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Preferenze
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1973'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Finestra Preferenze
 
-![Finestra Preferenze](preferences-window.resources/image2021-6-22-20-56-1.png "Finestra Preferenze")
+![Finestra Preferenze](preferences-window.resources/preferences-window-01.png "Finestra Preferenze")
 
 Questa pagina presenta la finestra <b>Preferenze</b> e tutte le relative impostazioni.
 
@@ -55,14 +55,14 @@ Ti consigliamo di rivedere tutte queste impostazioni per comprendere meglio come
 
 |  |  |
 | --- | --- |
-| <b>Inverti zoom nelle visualizzazioni</b>  *Impostazione predefinita: deselezionata* | Se selezionata, i controlli di zoom verranno invertiti nelle [viste 2D](../../interface/2d-view/2d-view.md), [viste 3D](../../interface/3d-view/3d-view.md) e [grafiche](../../interface/the-graph-view/the-graph-view.md). |
+| <b>Inverti zoom nelle visualizzazioni</b>  *Impostazione predefinita: deselezionata* | Se selezionata, i controlli di zoom verranno invertiti nei [vista 2D](../../interface/2d-view/2d-view.md), [vista 3D](../../interface/3d-view/3d-view.md) e [grafici](../../interface/the-graph-view/the-graph-view.md). |
 
 ### Percorsi
 
 |  |  |
 | --- | --- |
 | <b>Salva/Esporta percorso</b>  *Impostazione predefinita: ultimo percorso* | Determina se il percorso di salvataggio/esportazione suggerito è l&#39;ultimo percorso selezionato o il percorso del [pacchetto SBS](../../getting-started/overview/overview.md). L’ultimo percorso selezionato viene salvato tra le sessioni. |
-| <b>Cartella temporanea</b>  *Impostazione predefinita: percorso a seconda del sistema operativo di sistema* | Quando i dati immagine di un grafico superano il pool di memoria allocato (vedere di seguito <b>Memoria > Cache immagini</b>), i dati in overflow vengono scritti sul disco. Questa impostazione consente di definire la posizione in cui vengono scritti i dati della cache delle immagini in overflow.   Questa posizione viene utilizzata anche per archiviare una copia del pacchetto SBS attualmente aperto con le ultime modifiche dall&#39;ultimo salvataggio manuale. |
+| <b>Cartella temporanea</b>  *Impostazione predefinita: percorso a seconda del sistema operativo di sistema* | Quando i dati immagine di un grafico superano il pool di memoria allocato (vedere di seguito <b>Memoria > Cache immagini</b>), i dati in overflow vengono scritti sul disco. Questa impostazione consente di definire la posizione in cui vengono scritti i dati della cache delle immagini in overflow.   Questo percorso viene utilizzato anche per archiviare una copia del pacchetto SBS attualmente aperto con le ultime modifiche dall&#39;ultimo salvataggio manuale. |
 
 ### Memoria
 
@@ -82,7 +82,7 @@ Per evitare che ciò accada, si consiglia di esaminare i suggerimenti per la rid
 
 #### Pianificazione lavori
 
-Durante attività specifiche, ad esempio le conversioni delle immagini per le miniature o la [vista 2D](../../interface/2d-view/2d-view.md), verranno creati e distribuiti processi separati tra i core di elaborazione del sistema per una maggiore efficienza. Ogni processo scriverà i dati nella memoria di sistema per eseguire le operazioni.\
+Durante attività specifiche, ad esempio le conversioni delle immagini per le miniature o il [vista 2D](../../interface/2d-view/2d-view.md), verranno creati e distribuiti processi separati tra i core di elaborazione del sistema per una maggiore efficienza. Ogni processo scriverà i dati nella memoria di sistema per eseguire le operazioni.\
 Questa impostazione consente di definire il pool di memoria allocato per *tutti i processi simultanei*. Quando questo pool viene utilizzato completamente, i nuovi processi verranno accodati fino al completamento di quelli correnti.
 
 |  |  |
@@ -141,7 +141,7 @@ Consultare la pagina [Impostazioni progetti](../../interface/preferences-window/
 | --- | --- |
 | <b>Il tasto Tab mostra il menu del nodo</b>  *Impostazione predefinita: selezionata* | Se questa opzione è selezionata, il tasto &#39;Tab&#39; aprirà il menu <b>Nodo</b>, replicando la funzionalità del tasto &#39;Space&#39;. |
 | <b>Abilita la creazione di nodi mediante il trascinamento di connettori</b>  *Impostazione predefinita: selezionata* | Se selezionata, quando fai clic su un connettore, trascina il cursore e rilascia il collegamento creato nello spazio vuoto del grafico per visualizzare il <b>menu Nodo</b>.   Il menu verrà inoltre *filtrato* in base al tipo di connettore su cui si è fatto clic. Ciò significa che verranno visualizzati solo i nodi compatibili con il connettore selezionato. |
-| <b>Visualizzare gli output nella vista 3D all’apertura di un grafico</b>  *Impostazione predefinita: selezionata* | Se questa opzione è selezionata, tutti gli output del grafico vengono applicati automaticamente nella [vista 3D](../../interface/3d-view/3d-view.md) quando il grafico viene aperto.   In questo modo viene eseguito anche il rendering di tutti i nodi che fanno parte di un flusso che conduce a un nodo [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md). |
+| <b>Visualizzare gli output nella vista 3D all’apertura di un grafico</b>  *Impostazione predefinita: selezionata* | Se questa opzione è selezionata, tutti gli output del grafico vengono applicati automaticamente nel [vista 3D](../../interface/3d-view/3d-view.md) quando il grafico viene aperto.   In questo modo viene eseguito anche il rendering di tutti i nodi che fanno parte di un flusso che conduce a un nodo [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md). |
 
 ### Grafici di composizione Substance
 
@@ -157,14 +157,14 @@ Consultare la pagina [Impostazioni progetti](../../interface/preferences-window/
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Modifica contestuale disabilitata](preferences-window.resources/substance3ddesigner_incontext_no.gif "Modifica contestuale disabilitata")
+![Modifica contestuale disabilitata](preferences-window.resources/preferences-window-02.gif "Modifica contestuale disabilitata")
 
 *Apri riferimento*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Modifica contestuale abilitata](preferences-window.resources/substance3ddesigner_incontext_yes.gif "Modifica contestuale abilitata")
+![Modifica contestuale abilitata](preferences-window.resources/preferences-window-03.gif "Modifica contestuale abilitata")
 
 *Apri riferimento nel contesto*
 
@@ -178,20 +178,20 @@ Consultare la pagina [Impostazioni progetti](../../interface/preferences-window/
 
 |  |  |
 | --- | --- |
-| <b>Ambiente nascosto per impostazione predefinita</b>  *Impostazione predefinita: selezionata* | Determina l&#39;impostazione di visibilità predefinita [Ambiente](../../interface/3d-view/3d-view.md). Quando è nascosto, lo sfondo della vista 3D viene sostituito con un *colore in tinta unita*. |
-| <b>Ridimensionamento del riquadro di visualizzazione</b>  *Predefinito: Automatico* | Controlla il ridimensionamento della risoluzione di rendering della vista 3D quando il sistema utilizza il ridimensionamento della visualizzazione.<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Automatico</i>: la risoluzione di rendering si basa sulla risoluzione di visualizzazione <i>ridimensionata</i></li> <li data-preserve-html="true"><i>Nessuno</i>: la risoluzione di rendering si basa sulla risoluzione di visualizzazione <i>nativa</i></li> </ul> |
+| <b>Ambiente nascosto per impostazione predefinita</b>  *Impostazione predefinita: selezionata* | Determina l&#39;impostazione di visibilità predefinita [Ambiente](../../interface/3d-view/3d-view.md). Se nascosto, lo sfondo del vista 3D viene sostituito con un *colore in tinta unita*. |
+| <b>Ridimensionamento del riquadro di visualizzazione</b>  *Predefinito: Automatico* | Consente di controllare il ridimensionamento della risoluzione di rendering del vista 3D quando viene utilizzato il ridimensionamento.<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Automatico</i>: la risoluzione di rendering si basa sulla risoluzione di visualizzazione <i>ridimensionata</i></li> <li data-preserve-html="true"><i>Nessuno</i>: la risoluzione di rendering si basa sulla risoluzione di visualizzazione <i>nativa</i></li> </ul> |
 
 ### OpenGL
 
 |  |  |
 | --- | --- |
-| <b>Numero di campioni</b>  *Impostazione predefinita: 64* | Influisce sulle dimensioni della tabella di esempio degli ombreggiatori della vista 3D. Un valore più elevato determinerà un miglioramento della qualità dell&#39;immagine a scapito delle prestazioni.  **Nota:** anche la tabella di esempio degli shader è interessata dalla GPU e dal sistema operativo del sistema. |
+| <b>Numero di campioni</b>  *Impostazione predefinita: 64* | Influisce sulle dimensioni della tabella di esempio dei vista 3D. Un valore più elevato determinerà un miglioramento della qualità dell&#39;immagine a scapito delle prestazioni.  **Nota:** anche la tabella di esempio degli shader è interessata dalla GPU e dal sistema operativo del sistema. |
 
 ## Baker
 
 |  |  |
 | --- | --- |
-| <b>Raytracing GPU</b>  *Impostazione predefinita: selezionata* | Se selezionata, verrà eseguito il ray tracing sulla GPU per [panifici compatibili](https://experienceleague.adobe.com/it/docs/substance-3d/bakers/features/gpu-raytracing).   I seguenti backend Raytracing GPU saranno i predefiniti, a seconda dell’architettura della GPU NVIDIA:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i>: Turing e versioni successive</li> <li data-preserve-html="true"><i>Optix</i>: Pascal e Maxwell</li> </ul>  **Nota:** ulteriori informazioni sui prodotti da forno basati su GPU sono disponibili nella sezione [Raytracing GPU](https://experienceleague.adobe.com/it/docs/substance-3d/bakers/features/gpu-raytracing) della documentazione [Substance Bakers](https://experienceleague.adobe.com/it/docs/substance-3d/bakers/home).  **Suggerimento:** è possibile utilizzare i seguenti *argomenti della riga di comando* quando si avvia l&#39;applicazione per *forzare* l&#39;utilizzo di un back-end di Raytracing GPU diverso: <ul data-preserve-html="true"> <li data-preserve-html="true"><code>—force-optix</code> : forzare l&#39;uso di Optix su Nvidia Turing o GPU più recenti</li> <li data-preserve-html="true"><code>—force-dxr</code> : forzare l&#39;uso di DXR sulle GPU Nvidia Pascal</li> </ul> |
+| <b>Raytracing GPU</b>  *Impostazione predefinita: selezionata* | Se selezionata, il raytracing verrà eseguito sulla GPU per [baker compatibili](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing).   I seguenti backend Raytracing GPU saranno i predefiniti, a seconda dell’architettura della GPU NVIDIA:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i>: Turing e versioni successive</li> <li data-preserve-html="true"><i>Optix</i>: Pascal e Maxwell</li> </ul>  **Nota:** ulteriori informazioni sui baker basati su GPU sono disponibili nella sezione [Raytracing GPU](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing) della documentazione [Substance Bakers](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home).  **Suggerimento:** è possibile utilizzare i seguenti *argomenti della riga di comando* quando si avvia l&#39;applicazione per *forzare* l&#39;utilizzo di un back-end di Raytracing GPU diverso: <ul data-preserve-html="true"> <li data-preserve-html="true"><code>—force-optix</code> : forzare l&#39;uso di Optix su Nvidia Turing o GPU più recenti</li> <li data-preserve-html="true"><code>—force-dxr</code> : forzare l&#39;uso dell&#39;DXR sulle GPU Nvidia Pascal</li> </ul> |
 
 ## Libreria
 
@@ -205,14 +205,14 @@ Potete assegnare scelte rapide da tastiera personalizzate per creare nodi nei gr
 
 È possibile assegnare scelte rapide per i nodi in tutti i tipi di grafici: [Substance grafici](../../compositing-graphs/substance-compositing-graphs.md), [Substance grafici di funzione](../../function-graphs/function-graphs.md) e [FX-Map grafici](../../function-graphs/fxmaps/fxmaps.md).
 
-È possibile assegnare un collegamento a qualsiasi nodo, anche ai nodi di libreria personalizzati. Una stessa scelta rapida può essere assegnata a tipi di grafici diversi. Per impostazione predefinita non sono assegnate scelte rapide; puoi personalizzarle a tuo piacimento.
+È possibile assegnare una scelta rapida da tastiera a qualsiasi nodo, anche ai nodi di libreria personalizzati. Una stessa scelta rapida da tastiera può essere assegnata in diversi tipi di grafici. Per impostazione predefinita non sono assegnate scelte rapide; puoi personalizzarle a tuo piacimento.
 
-In caso di conflitto con un altro collegamento nodo o un collegamento programma incorporato, la voce verrà evidenziata e verrà visualizzato un avviso. La scelta rapida non avrà *alcun effetto* finché il conflitto non verrà risolto.
+In caso di conflitto con un&#39;altra scelta rapida da tastiera nodo o con una scelta rapida da tastiera programma incorporata, la voce verrà evidenziata e verrà visualizzato un avviso. La scelta rapida da tastiera non avrà *alcun effetto* finché il conflitto non verrà risolto.
 
 >[!IMPORTANT]
 >
 > Scelte rapide sostituite dai plug-in Python
 > 
-> Quando un plug-in Python definisce una scelta rapida da tastiera assegnata a un nodo, il plug-in la sovrascriverà. Questo significa che la chiave attiverà l&#39;azione del plug-in invece di creare un nodo.
+> Quando un plug-in Python definisce una scelta rapida da tastiera da tastiera assegnata a un nodo, il plug-in la sovrascrive. Questo significa che la chiave attiverà l&#39;azione del plug-in invece di creare un nodo.
 > 
 > Questo è già il caso delle chiavi H, S e V utilizzate dagli [strumenti di allineamento dei nodi](../../interface/the-graph-view/node-alignment-tools/node-alignment-tools.md).

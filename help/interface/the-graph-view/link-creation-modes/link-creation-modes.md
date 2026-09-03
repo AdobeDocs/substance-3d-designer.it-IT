@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/the-graph-view/link-creation-modes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/link-creation-modes.html"
 breadcrumb-title: ''
 description: Scoprite le modalità di creazione dei collegamenti nella vista Grafico di Substance 3D Designer per connettere i nodi in modo efficiente.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Modalità di creazione del collegamento
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 0%
@@ -26,22 +26,22 @@ In [Substance grafici](../../../compositing-graphs/substance-compositing-graphs.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Modalità creazione collegamento: standard](link-creation-modes.resources/link-creation-mode-standard.gif "Modalità creazione collegamento: standard"){zoomable="yes"}
+![Modalità creazione collegamento: standard](link-creation-modes.resources/link-creation-modes-01.gif "Modalità creazione collegamento: standard"){zoomable="yes"}
 
 *Fare clic per ingrandire*
 
-<b>![](link-creation-modes.resources/image2020-10-6-19-40-25.png) Standard</b> (1)
+<b>![](link-creation-modes.resources/link-creation-modes-02.png) Standard</b> (1)
 
 Nessuna condizione applicata.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Modalità creazione collegamento: materiale](link-creation-modes.resources/link-creation-mode-material.gif "Modalità creazione collegamento: materiale"){zoomable="yes"}
+![Modalità creazione collegamento: materiale](link-creation-modes.resources/link-creation-modes-03.gif "Modalità creazione collegamento: materiale"){zoomable="yes"}
 
 *Fare clic per ingrandire*
 
-![](link-creation-modes.resources/image2020-10-6-17-11-20.png) <b>Materiale</b> (2)
+![](link-creation-modes.resources/link-creation-modes-04.png) <b>Materiale</b> (2)
 
 Input e output vengono confrontati in base al loro utilizzo.
 
@@ -50,11 +50,11 @@ Se solo uno dei due presenta un utilizzo, la connessione viene eseguita come in 
 </td>
 <td style="border: 0;" valign="top">
 
-![Modalità creazione collegamento: materiale compatto](link-creation-modes.resources/link-creation-mode-compact-material.gif "Modalità creazione collegamento: materiale compatto"){zoomable="yes"}
+![Modalità creazione collegamento: materiale compatto](link-creation-modes.resources/link-creation-modes-05.gif "Modalità creazione collegamento: materiale compatto"){zoomable="yes"}
 
 *Fare clic per ingrandire*
 
-![](link-creation-modes.resources/image2020-10-6-19-40-46.png) <b>Materiale compatto</b> (3)
+![](link-creation-modes.resources/link-creation-modes-06.png) <b>Materiale compatto</b> (3)
 
 Come Materiale.
 
@@ -64,13 +64,13 @@ Input e output appartenenti allo stesso *gruppo* sono compressi.
 </tr>
 </table>
 
-È possibile passare da una modalità all&#39;altra in qualsiasi momento nella barra degli strumenti del grafico facendo clic sul pulsante ![](link-creation-modes.resources/link-creation-mode.png) <b>Modalità creazione collegamento</b> o utilizzando le scelte rapide da tastiera elencate sopra.
+È possibile passare da una modalità all&#39;altra in qualsiasi momento nella barra degli strumenti del grafico facendo clic sul pulsante ![](link-creation-modes.resources/link-creation-modes-07.png) <b>Modalità creazione collegamento</b> o utilizzando le scelte rapide da tastiera elencate sopra.
 
 Nelle modalità <b>Materiale</b> e <b>Materiale compatto</b>, le connessioni tra input e output con *utilizzi non corrispondenti* non sono consentite.
 
 ## Le modalità
 
-|  | <div><img data-preserve-html="true" height="23" src="link-creation-modes.resources/image2020-10-6-19-40-25.png"/></div> Standard | <div><img data-preserve-html="true" height="23" src="link-creation-modes.resources/image2020-10-6-17-11-20.png"/></div> Compatta | <div><img data-preserve-html="true" height="23" src="link-creation-modes.resources/image2020-10-6-19-40-46.png"/></div> Materiale compatto |
+|  | <div><img data-preserve-html="true" height="23" src="link-creation-modes.resources/link-creation-modes-02.png"/></div> Standard | <div><img data-preserve-html="true" height="23" src="link-creation-modes.resources/link-creation-modes-04.png"/></div> Compatta | <div><img data-preserve-html="true" height="23" src="link-creation-modes.resources/link-creation-modes-06.png"/></div> Materiale compatto |
 | --- | --- | --- | --- |
 | <b>Input</b> | Tutti gli input sono visibili | Tutti gli input sono visibili | Solo 1 ingresso per gruppo |
 | <b>Output</b> | Tutti gli output sono visibili | Tutti gli output sono visibili | Solo 1 output per gruppo |
@@ -92,7 +92,7 @@ Gli input e gli output raggruppati di un grafico vengono identificati visivament
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Capsula di gruppo sul nodo](link-creation-modes.resources/link-creation-mode-group-node.png "Capsula di gruppo sul nodo"){zoomable="yes"}
+![Capsula di gruppo sul nodo](link-creation-modes.resources/link-creation-modes-08.png "Capsula di gruppo sul nodo"){zoomable="yes"}
 
 </td>
 </tr>
@@ -107,7 +107,7 @@ Gli input e gli output raggruppati di un grafico vengono identificati visivament
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-![Attributo gruppo](link-creation-modes.resources/link-creation-mode-group.png "Attributo gruppo"){zoomable="yes"}
+![Attributo gruppo](link-creation-modes.resources/link-creation-modes-09.png "Attributo gruppo"){zoomable="yes"}
 
 *Fare clic per ingrandire*
 
@@ -133,7 +133,7 @@ Una volta raggruppati i collegamenti, i singoli input devono corrispondere agli 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-![Attributo di utilizzo](link-creation-modes.resources/link-creation-mode-usage.png "Attributo di utilizzo"){zoomable="yes"}
+![Attributo di utilizzo](link-creation-modes.resources/link-creation-modes-10.png "Attributo di utilizzo"){zoomable="yes"}
 
 *Fare clic per ingrandire*
 

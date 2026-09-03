@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/color-blend-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/color-blend-node.html"
 breadcrumb-title: ''
-description: Utilizza il nodo Fusione colori per fondere le texture in modalità colore, per mantenere la luminanza durante la modifica di tonalità e saturazione.
+description: Utilizza il nodo Fusione colori per fondere le texture utilizzando il metodo colore per mantenere la luminanza durante la modifica della tonalità e della saturazione.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blending > Color (Blend Node)
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Colore (nodo di fusione)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](color-blend-node.resources/difference.png){width="128px"}
+![](color-blend-node.resources/color-blend-node-01.png){width="128px"}
 
 <b>Ingresso:</b> Filtri > Fusione
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-dirt.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-dirt.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Dirt bordi (Edge) per generare maschere di accumulo dirt sui bordi della trama per creare effetti meteorologici realistici.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Dirt bordi
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](edge-dirt.resources/edge-dirt.png){width="128px"}
+![](edge-dirt.resources/edge-dirt-01.png){width="128px"}
 
 <b>In:</b> Generatori Basati Su Trama > Generatori di maschere
 
@@ -67,7 +67,7 @@ Questa maschera rappresenta un effetto dirt che si accumula attorno ai bordi, ba
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="edge-dirt.resources/edge-dirt-ex.gif" />
+            <img src="edge-dirt.resources/edge-dirt-02.gif" />
         </td>
     </tr>
 </table>

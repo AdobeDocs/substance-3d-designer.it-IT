@@ -7,10 +7,10 @@ helpx_description: ""
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Vista 3D - Finestra a comparsa Spostamento
+title: Popup vista 3D - Spostamento
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: c7b3b375144c8b58a8e7a7a408895a23e9bd1143
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 2%
@@ -23,14 +23,14 @@ ht-degree: 2%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="vertical-align: top; border: 0">
         <td style="border: 0">
-            <p>La finestra a comparsa Spostamento disponibile nella barra degli strumenti Vista 3D offre controlli diretti sullo spostamento e la tassellatura delle trame.</p>
+            <p>La finestra a comparsa Spostamento disponibile nella barra degli strumenti vista 3D offre controlli diretti per lo spostamento e la tassellatura delle trame.</p>
             <p>Sono disponibili tre parametri:<ul>
                 <li>Scala altezza</li>
                 <li>Livello di altezza</li>
                 <li>Tassellatura</li></ul>
         </td>
         <td style="width: 60%; margin-left: 32px; border: 0">
-            <img src="./displacement.resources/3d-view-displacement-popup-mograph.gif" alt="Finestra a comparsa Spostamento nella vista 3D" />
+            <img src="./displacement.resources/displacement-01.gif" alt="Finestra a comparsa Spostamento nella vista 3D" />
         </td>
     </tr>
 </table>
@@ -38,7 +38,7 @@ ht-degree: 2%
 ## Scala altezza
 
 La distanza massima di spostamento per i vertici della trama lungo il normale, espressa in unità di scena.<br>
-Questa è la distanza percorsa per un valore di 1,0 nella mappa del height.
+Questa è la distanza percorsa per un valore di 1,0 nella mappa dell&#39;altezza.
 
 Quando un grafico a Substance è collegato a un materiale e tale grafico include un [nodo di output](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) con
 <code>heightScale</code> , il parametro di scala Height nel pop-up è *disabled* per tale materiale
@@ -51,7 +51,7 @@ poiché è attualmente guidato dal grafico.
 
 ## Livello di altezza
 
-Valore in scala di grigio nella mappa del height utilizzato come *punto intermedio* per il height di spostamento.
+Valore in scala di grigio nella mappa dell&#39;altezza utilizzato come *punto intermedio* per il height di spostamento.
 Ossia il valore di soglia utilizzato come elevazione 0,0.
 
 I valori inferiori a tale soglia determinano lo spostamento dei vertici all’indietro, mentre i valori superiori a tale soglia determinano
@@ -90,7 +90,7 @@ Di seguito sono descritti i passaggi per visualizzare il wireframe per ogni rend
 
 ### Rasterizzatore/Pathtracer GPU
 
-Utilizzare la <img src="../3d-view.resources/3d-view-scene-toolbar-render-settings.png" width="22" /> **Impostazioni rendering**
+Utilizzare la <img src="../3d-view.resources/3d-view-18.png" width="22" /> **Impostazioni rendering**
  quindi, nel Dock proprietà, passa a **Impostazioni rendering > Modalità diagnostica** e seleziona **Wireframe
  (spazio mondo)**.
 

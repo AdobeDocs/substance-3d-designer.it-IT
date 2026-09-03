@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-3.html"
 breadcrumb-title: ''
 description: Utilizza il nodo Cella 3 per generare pattern cellulari intermedi per la creazione di effetti di texture organici e biologici.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: CELLE 3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 1%
@@ -24,9 +24,9 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Celle 3 - Icona](cells-3.resources/cells_3.png "Celle 3 - Icona"){width="200px"}
+![Celle 3 - Icona](cells-3.resources/cells-3-01.png "Celle 3 - Icona"){width="200px"}
 
-<b>Ingresso:</b> Generatori di texture > Rumori
+<b>Ingresso:</b> generatori di Texture > Rumori
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -77,12 +77,12 @@ Vedere anche: [Celle 1](../../../../../../compositing-graphs/nodes-reference-for
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Celle 3 - Esempio 1](cells-3.resources/cells_3_1.png "Celle 3 - Esempio 1"){zoomable="yes"}
+![Celle 3 - Esempio 1](cells-3.resources/cells-3-02.png "Celle 3 - Esempio 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Celle 3 - Esempio 2](cells-3.resources/noise_cells_3_v2_speed0.6_aniso0.gif "Celle 3 - Esempio 2"){zoomable="yes"}
+![Celle 3 - Esempio 2](cells-3.resources/cells-3-03.gif "Celle 3 - Esempio 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -92,12 +92,12 @@ Vedere anche: [Celle 1](../../../../../../compositing-graphs/nodes-reference-for
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Celle 3 - Esempio 3](cells-3.resources/noise_cells_3_v2_speed0.6_aniso1.gif "Celle 3 - Esempio 3"){zoomable="yes"}
+![Celle 3 - Esempio 3](cells-3.resources/cells-3-04.gif "Celle 3 - Esempio 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Celle 3 - Esempio 4](cells-3.resources/noise_cells_3_v2_speed0.3_aniso0.6.gif "Celle 3 - Esempio 4"){zoomable="yes"}
+![Celle 3 - Esempio 4](cells-3.resources/cells-3-05.gif "Celle 3 - Esempio 4"){zoomable="yes"}
 
 </td>
 </tr>

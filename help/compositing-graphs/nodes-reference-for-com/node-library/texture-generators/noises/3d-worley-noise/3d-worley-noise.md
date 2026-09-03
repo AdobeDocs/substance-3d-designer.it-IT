@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-worley-noise.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-worley-noise.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo Disturbo di Worley 3D per generare il disturbo di Worley in base alla posizione 3D per creare effetti di texture volumetrica.
+description: Utilizzate il nodo Disturbo di Worley 3D per generare il disturbo di Worley in base alla posizione 3D per la creazione di effetti di texture volumetrica.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Worley Noise
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Disturbo di Worley 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-worley-noise.resources/3d-worley.png){width="128px"}
+![](3d-worley-noise.resources/3d-worley-noise-01.png){width="128px"}
 
 <b>Ingresso:</b> Generatori di Texture > Rumori
 
@@ -59,16 +59,16 @@ Uno dei rumori più versatili e avanzati della libreria, genera un disturbo di W
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-worley-noise.resources/3d-worley-ex04.png" />
+            <img src="3d-worley-noise.resources/3d-worley-noise-02.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-worley-noise.resources/3d-worley-ex03.png" />
+            <img src="3d-worley-noise.resources/3d-worley-noise-03.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-worley-noise.resources/3d-worley-ex02.png" />
+            <img src="3d-worley-noise.resources/3d-worley-noise-04.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-worley-noise.resources/3d-worley-ex01.png" />
+            <img src="3d-worley-noise.resources/3d-worley-noise-05.png" />
         </td>
     </tr>
 </table>

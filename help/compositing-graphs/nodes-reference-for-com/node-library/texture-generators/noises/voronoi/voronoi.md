@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/voronoi.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/voronoi.html"
 breadcrumb-title: ''
-description: Utilizza il nodo Voronoi per generare pattern Voronoi per creare trame cellulari ed effetti di materiale organico.
+description: Utilizzare il nodo Voronoi per generare modelli Voronoi per la creazione di texture cellulari ed effetti di materiale organico.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Voronoi
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Voronoi
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](voronoi.resources/voronoi.png){width="200px"}
+![](voronoi.resources/voronoi-01.png){width="200px"}
 
 <b>Ingresso:</b> Generatori di Texture > Rumori
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ## Descrizione
 
-Il nodo **Voronoi** genera un disturbo 3D di Voronoi mappato a un&#39;immagine 2D utilizzando una *proiezione ortogonale Z-down*.
+Il nodo **Voronoi** genera un disturbo 3D di Voronoi mappato a un&#39;immagine 2D utilizzando una *proiezione ortografica a Z*.
 
 Questo nodo può essere testato con [Cubo GBuffer](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d-gbuffers/cube-3d-gbuffers.md) come input anziché come mappa con baking effettiva (come illustrato nell&#39;immagine di esempio seguente).
 
@@ -73,22 +73,22 @@ Questo nodo può essere testato con [Cubo GBuffer](../../../../../../compositing
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="voronoi.resources/voronoi-variant2.jpg" />
+            <img src="voronoi.resources/voronoi-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi.resources/voronoi-variant3.jpg" />
+            <img src="voronoi.resources/voronoi-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi.resources/voronoi-variant5.jpg" />
+            <img src="voronoi.resources/voronoi-04.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi.resources/voronoi-variant.jpg" />
+            <img src="voronoi.resources/voronoi-05.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi.resources/voronoi-variant4.jpg" />
+            <img src="voronoi.resources/voronoi-06.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi.resources/voronoi-variant6.jpg" />
+            <img src="voronoi.resources/voronoi-07.jpg" />
         </td>
     </tr>
 </table>

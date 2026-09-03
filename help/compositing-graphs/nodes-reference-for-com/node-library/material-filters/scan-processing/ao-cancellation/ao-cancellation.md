@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/ao-cancellation.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/ao-cancellation.html"
 breadcrumb-title: ''
-description: Utilizza il nodo Annullamento OA per rimuovere l’occlusione dell’ambiente dai materiali scansionati per un’elaborazione pulita delle texture.
+description: Utilizza il nodo Annullamento OA per rimuovere l’occlusione ambientale dai materiali scansionati per un’elaborazione pulita delle texture.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > AO Cancellation
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Annullamento AO
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](ao-cancellation.resources/ao-cancel.png){width="128px"}
+![](ao-cancellation.resources/ao-cancellation-01.png){width="128px"}
 
 <b>Tra:</b> Filtri materiali > Elaborazione scansione
 
@@ -33,9 +33,9 @@ ht-degree: 4%
 
 ## Descrizione
 
-Questo nodo tenta di rimuovere qualsiasi informazione di illuminazione dell&#39;Occlusione ambiente dalla mappa dell&#39;Albedo (Colore base), in base a un input mappa AO separato. Può essere utilizzato per garantire che le informazioni di Albedo siano PBR corrette e per lo più prive di (forti) informazioni di illuminazione.
+Questo nodo tenta di rimuovere qualsiasi informazione relativa all&#39;illuminazione dell&#39;Occlusione ambientale dalla mappa di Albedo (Colore di base), in base a un input di mappa AO separato. Può essere utilizzato per garantire che le informazioni di Albedo siano PBR corrette e per lo più prive di (forti) informazioni di illuminazione.
 
-Un nodo utile per quando si dispone di una mappa dell&#39;operatore aereo cotta da una trama scansionata o in alternativa anche una mappa dell&#39;operatore aereo generata da informazioni di Height o Normale.
+Un nodo utile per quando si dispone di una mappa AO eseguita i baking da una trama scansionata o in alternativa anche una mappa AO generata da informazioni di Height o Normale.
 
 </td>
 </tr>

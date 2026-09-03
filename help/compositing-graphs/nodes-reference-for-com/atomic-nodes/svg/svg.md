@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo SVG per importare ed eseguire il rendering della grafica vettoriale di SVG come texture per la creazione di elementi grafici scalabili.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: SVG
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atomico: SVG](svg.resources/comp_svg_1.png "Nodo atomico: SVG"){width="200px"}
+![Nodo atomico: SVG](svg.resources/svg-01.png "Nodo atomico: SVG"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

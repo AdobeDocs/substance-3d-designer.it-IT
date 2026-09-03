@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/color-burn.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/color-burn.html"
 breadcrumb-title: ''
-description: Utilizza il nodo di fusione Colore brucia per scurire la texture aumentando il contrasto per la creazione di effetti di ombreggiatura e scurimento.
+description: Utilizza il nodo di fusione Colore brucia per scurire le texture aumentando il contrasto per creare effetti di ombra e bruciatura.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blending > Color Burn
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Colore brucia
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](color-burn.resources/color-burn.png){width="128px"}
+![](color-burn.resources/color-burn-01.png){width="128px"}
 
 <b>Ingresso:</b> Filtri > Fusione
 

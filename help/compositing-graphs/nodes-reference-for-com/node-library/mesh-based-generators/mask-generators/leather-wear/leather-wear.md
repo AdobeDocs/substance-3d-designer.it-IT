@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/leather-wear.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/leather-wear.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Usura in pelle per generare maschere di usura sulle superfici in pelle in base alla curvatura della trama e ai punti di contatto.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Usura in pelle
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](leather-wear.resources/leather-wear.png){width="128px"}
+![](leather-wear.resources/leather-wear-01.png){width="128px"}
 
 <b>In:</b> Generatori Basati Su Trama > Generatori di maschere
 
@@ -70,7 +70,7 @@ Questa maschera rappresenta l&#39;usura con un motivo in pelle, con più usura s
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="leather-wear.resources/leather-wear-ex.gif" />
+            <img src="leather-wear.resources/leather-wear-02.gif" />
         </td>
     </tr>
 </table>

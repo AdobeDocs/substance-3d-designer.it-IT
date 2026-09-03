@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
 breadcrumb-title: ''
 description: Usate il nodo Sfocatura direzione per applicare gli effetti di sfocatura in una direzione specifica per creare l’effetto movimento e la striatura.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Sfocatura direzionale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atomico: sfocatura direzione](directional-blur.resources/comp_dirmotionblur_1.png "Nodo atomico: sfocatura direzione"){width="200px"}
+![Nodo atomico: sfocatura direzione](directional-blur.resources/directional-blur-01.png "Nodo atomico: sfocatura direzione"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -69,14 +69,14 @@ Le immagini seguenti mostrano la sfocatura direzionale e la [sfocatura anisotrop
 
 <b>Sfocatura direzionale</b>
 
-![Confronto sfocatura direzione](directional-blur.resources/dirblur-01.png "Confronto sfocatura direzione"){zoomable="yes"}
+![Confronto sfocatura direzione](directional-blur.resources/directional-blur-02.png "Confronto sfocatura direzione"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
 <b>Sfocatura anisotropa</b>
 
-![Confronto della sfocatura anisotropa](directional-blur.resources/aniso-01.png "Confronto della sfocatura anisotropa"){zoomable="yes"}
+![Confronto della sfocatura anisotropa](directional-blur.resources/directional-blur-03.png "Confronto della sfocatura anisotropa"){zoomable="yes"}
 
 </td>
 </tr>

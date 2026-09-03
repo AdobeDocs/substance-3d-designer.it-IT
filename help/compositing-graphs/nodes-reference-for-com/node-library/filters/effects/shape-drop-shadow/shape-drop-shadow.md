@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shape-drop-shadow.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shape-drop-shadow.html"
 breadcrumb-title: ''
 description: Usate il nodo Ombra esterna forma per aggiungere effetti di ombra esterna alle forme per creare profondità e dimensione nelle texture.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ombra esterna forma
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 6%
@@ -24,9 +24,9 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](shape-drop-shadow.resources/shape-dropshadow-grayscale.png){width="128px"}
+![](shape-drop-shadow.resources/shape-drop-shadow-01.png){width="128px"}
 
-![](shape-drop-shadow.resources/shape-dropshadow.png){width="128px"}
+![](shape-drop-shadow.resources/shape-drop-shadow-02.png){width="128px"}
 
 <b>Ingresso:</b> Filtri > Effetti
 
@@ -64,7 +64,7 @@ Si differenzia dall&#39;effetto [Ombre](../../../../../../compositing-graphs/nod
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="shape-drop-shadow.resources/dropshadowex.png" />
+            <img src="shape-drop-shadow.resources/shape-drop-shadow-03.png" />
         </td>
     </tr>
 </table>

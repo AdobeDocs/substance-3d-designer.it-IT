@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/release-notes/version-12-4.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-12-4.html"
 breadcrumb-title: ''
 description: Consulta le note sulla versione per Substance 3D Designer versione 12.4 per informazioni sulle nuove funzioni, i miglioramenti e le correzioni di bug.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versione 12.4
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 1%
@@ -30,49 +30,49 @@ Data di pubblicazione: *31 gennaio 2023*
 
 Quando modificate il grafico, a volte dovete sperimentare diverse possibilità e collegare/scollegare vari nodi fino al momento in cui ottenete il risultato desiderato. Quindi, alla fine, nel grafico ci sono alcuni nodi che non sono collegati a un output, quindi non hanno alcun impatto sul risultato finale. Questo nuovo strumento consentirà di rilevare ed eliminare automaticamente questi nodi per pulire i grafici prima di finalizzarli. Lo strumento di pulizia è anche disponibile come opzione nelle funzioni dei parametri e può essere avviato sul grafico corrente tramite il pulsante dedicato nella barra degli strumenti Visualizzazione grafico oppure su una selezione di grafici dalla visualizzazione Esplora.
 
-![](version-12-4.resources/final-clean.gif){width="640px"}
+![](version-12-4.resources/version-12-4-01.gif){width="640px"}
 
 ### Digitare le formule nei campi dei parametri
 
 Non è più necessario utilizzare una calcolatrice o calcolare nella testa quando si desidera immettere valori di parametri specifici. È ora possibile immettere direttamente formule di base come aggiunte, divisioni, moltiplicazioni o sottrazioni quando si imposta un valore numerico per un parametro nelle proprietà e in altre posizioni dell&#39;applicazione.
 
-![](version-12-4.resources/final-formula.gif){width="640px"}
+![](version-12-4.resources/version-12-4-02.gif){width="640px"}
 
 ### Pulsanti di accesso rapido nella vista 3D
 
 Nella [vista 3D](../../interface/3d-view/3d-view.md) è stata aggiunta una barra degli strumenti aggiuntiva che corrisponde a tutte le opzioni disponibili nel menu [Visualizza](../../interface/3d-view/3d-view.md), per un rapido accesso a tutte queste opzioni (ad esempio, Wireframe, Griglia, Rettangolo di selezione e così via) come pulsante. È stato inoltre aggiunto un interruttore per mostrare/nascondere la mappa dell&#39;ambiente.
 
-![](version-12-4.resources/final-3dview.gif){width="640px"}
+![](version-12-4.resources/version-12-4-03.gif){width="640px"}
 
 ### Pulsante per generare un valore di Numero casuale
 
 Ora puoi creare rapidamente diverse variazioni utilizzando un nuovo pulsante per generare il valore di inizializzazione casuale per il grafico, anziché spostare un cursore.
 
-![](version-12-4.resources/final-seed.gif){width="640px"}
+![](version-12-4.resources/version-12-4-04.gif){width="640px"}
 
 ### Blocca per il widget Dimensione output
 
 Ora puoi bloccare la larghezza e il height delle dimensioni di output per assicurarti di mantenere una dimensione quadrata ed evitare di manipolare i due valori ogni volta che desideri aggiornarli.
 
-![](version-12-4.resources/final-lock.gif){width="640px"}
+![](version-12-4.resources/version-12-4-05.gif){width="640px"}
 
 ### Trasforma l&#39;input dell&#39;immagine in scala di colori/grigi
 
 Passate rapidamente da un [colore di input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) a un [scala di grigi di input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) tramite il menu di scelta rapida del nodo.
 
-![](version-12-4.resources/final-switch.gif){width="640px"}
+![](version-12-4.resources/version-12-4-06.gif){width="640px"}
 
 ### Seleziona la puntina su cui si fa clic durante la visualizzazione dell’Editore sfumatura
 
-Nel pannello delle proprietà, se fai clic su una puntina per modificare una sfumatura, ora selezionerai automaticamente la puntina corrispondente nell&#39;[Editore sfumatura](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) visualizzato.
+Nel pannello delle proprietà, se fai clic su un segnaposto per modificare una sfumatura, ora selezionerai automaticamente il segnaposto corrispondente nell&#39;[Editore sfumatura](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) visualizzato.
 
-![](version-12-4.resources/final-gradient.gif){width="640px"}
+![](version-12-4.resources/version-12-4-07.gif){width="640px"}
 
 ### Seleziona nodi a valle
 
 Nuova voce nel menu contestuale [nodo](../../interface/the-graph-view/the-graph-view.md) per selezionare direttamente o indirettamente tutti i nodi connessi all&#39;output dei nodi selezionati. In questo modo si selezionano tutti i nodi interessati dal nodo. Utile per eliminare parte del grafico o rielaborare il layout del grafico.
 
-![](version-12-4.resources/final-downstream.gif){width="640px"}
+![](version-12-4.resources/version-12-4-08.gif){width="640px"}
 
 ## Aggiornamenti dell’API Python
 
@@ -106,12 +106,12 @@ Questa versione 12.4 offre anche il supporto completo dei grafici dei modelli di
 
 <b>Corretto:</b>
 
-* [Vista 3D] Il valore della proprietà &quot;DirectX normale&quot; non è condiviso tra i moduli di rendering
+* [vista 3D] Il valore della proprietà &quot;Normale a livello di DirectX&quot; non è condiviso tra i moduli di rendering
 * [Vista 3D] La visualizzazione delle statistiche della scena viene estesa quando la finestra della vista è piccola
 * [Vista 3D] La proprietà di visualizzazione Wireframi non viene salvata
 * [Contenuto] I parametri del colore Sfocatura radiale non hanno effetto sul canale alfa
 * [Localizzazione] Ulteriori cursori e pulsanti vengono visualizzati in Proprietà OpenGL dell&#39;ambiente.
-* [MDL]&#x200B;[Substance modello] Arresto anomalo durante l&#39;eliminazione di nodi esposti
+* [MDL][Substance modello] Arresto anomalo durante l&#39;eliminazione di nodi esposti
 * [Preferenze] Il file predefinito\_config non viene mai ricreato se viene eliminato
-* [Modello Substance] Parametro di riordinamento in caso di arresto anomalo che non viene visualizzato a livello di istanza
+* [Modello Substance] Parametro di riordinamento Arresto anomalo che non viene visualizzato a livello di istanza
 * [API] SDProperty.getDefaultValue() restituisce quasi sempre Nessuno

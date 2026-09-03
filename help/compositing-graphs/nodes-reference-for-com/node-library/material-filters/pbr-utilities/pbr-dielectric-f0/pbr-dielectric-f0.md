@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-dielectric-f0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-dielectric-f0.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo F0 dielettrico PBR per calcolare i valori F0 dielettrici per i flussi di lavoro dei materiali basati su dati fisici.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: PBR dielettrico F0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](pbr-dielectric-f0.resources/pbr-dielectric-f0.png){width="128px"}
+![](pbr-dielectric-f0.resources/pbr-dielectric-f0-01.png){width="128px"}
 
 <b>In:</b> Filtri materiali > Utilità PBR
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/clone-filter-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/clone-filter-node.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo del filtro Clona per duplicare e scostare le aree della texture e creare pattern ed effetti di affiancamento uniformi.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Clona (nodo filtro)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](clone-filter-node.resources/clone-4.png)
+![](clone-filter-node.resources/clone-filter-node-01.png)
 
 <b>Ingresso:</b> Filtri > Trasforma
 
@@ -68,7 +68,7 @@ Clona l&#39;immagine di input una volta in una posizione specificata. Può funzi
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="clone-filter-node.resources/clone-example.png" />
+            <img src="clone-filter-node.resources/clone-filter-node-02.png" />
         </td>
     </tr>
 </table>

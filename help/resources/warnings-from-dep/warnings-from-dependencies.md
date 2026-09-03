@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/resources/warnings-from-dependencies.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/warnings-from-dependencies.html"
 breadcrumb-title: ''
 description: Informazioni sugli avvisi relativi alle dipendenze tra risorse in Substance 3D Designer e su come risolverli.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Avvisi da dipendenze
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1158'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Esistono due modi principali per risolvere questo problema:
 
    Quindi, ricaricare il pacchetto host facendo clic su RMB nel pannello [Esplora risorse](../../interface/the-explorer-window/the-explorer-window.md) e selezionando l&#39;opzione <b>Ricarica</b> nel menu di scelta rapida.
 
-   ![&quot;Soluzione del pacchetto dipendente non valida&quot; 1](warnings-from-dependencies.resources/warnings-dep-invalid-dependent-pkg.gif "&quot;Soluzione del pacchetto dipendente non valida&quot; 1")
+   ![&quot;Soluzione del pacchetto dipendente non valida&quot; 1](warnings-from-dependencies.resources/warnings-from-dependencies-01.gif "&quot;Soluzione del pacchetto dipendente non valida&quot; 1")
 1. <b>Riposizionare la dipendenza nel pacchetto</b>
 
    È possibile riposizionare la dipendenza utilizzando [Gestione dipendenze](../../interface/dependency-manager/dependency-manager.md). Fare clic su RMB sul pacchetto host nel pannello [Esplora risorse](../../interface/the-explorer-window/the-explorer-window.md) e selezionare l&#39;opzione <b>Gestione dipendenze</b> nel menu di scelta rapida.
@@ -47,17 +47,17 @@ Esistono due modi principali per risolvere questo problema:
 
    Quindi, ricaricare il pacchetto host facendo clic su RMB nel pannello [Esplora risorse](../../interface/the-explorer-window/the-explorer-window.md) e selezionando l&#39;opzione <b>Ricarica</b> nel menu di scelta rapida.
 
-   ![&#39;Soluzione del pacchetto dipendente non valida&#39; 2](warnings-from-dependencies.resources/warnings-dep-invalid-dependent-pkg-2.gif "&#39;Soluzione del pacchetto dipendente non valida&#39; 2")
+   ![&#39;Soluzione del pacchetto dipendente non valida&#39; 2](warnings-from-dependencies.resources/warnings-from-dependencies-02.gif "&#39;Soluzione del pacchetto dipendente non valida&#39; 2")
 
 ## ![(errore)](warnings-from-dependencies.resources/error.svg) Verificare che l&#39;alias *&#39;X&#39;* sia definito nel progetto
 
-È in corso il caricamento di una delle dipendenze o delle risorse del pacchetto da una posizione [con alias](../../interface/preferences-window/project-settings/project-settings.md) nei dati del file Substance 3D (SBS) nell&#39;alias riportato nell&#39;avviso, sebbene tale alias non sia definito nei [file di progetto](../../interface/preferences-window/project-settings/project-settings.md) correnti.
+È in corso il caricamento di una delle dipendenze o delle risorse del pacchetto da una posizione con [alias](../../interface/preferences-window/project-settings/project-settings.md) nei dati del file Substance 3D (SBS) nell&#39;alias riportato nell&#39;avviso, sebbene tale alias non sia definito nei [file di progetto](../../interface/preferences-window/project-settings/project-settings.md) correnti.
 
 <b>![(tick)](warnings-from-dependencies.resources/check.svg) Soluzione</b>
 
 Almeno uno dei [file di progetto](../../interface/preferences-window/project-settings/project-settings.md) deve definire l&#39;alias riportato nell&#39;avviso.
 
-![&#39;L&#39;alias di controllo è definito&#39; soluzione](warnings-from-dependencies.resources/warnings-dep-alias.gif "&#39;L&#39;alias di controllo è definito&#39; soluzione")
+![&#39;L&#39;alias di controllo è definito&#39; soluzione](warnings-from-dependencies.resources/warnings-from-dependencies-03.gif "&#39;L&#39;alias di controllo è definito&#39; soluzione")
 
 ## ![(errore)](warnings-from-dependencies.resources/error.svg) Nessun file corrispondente a questa risorsa
 
@@ -65,7 +65,7 @@ Impossibile trovare i file corrispondenti al *modello UDIM* per una [risorsa bit
 
 <b>![(tick)](warnings-from-dependencies.resources/check.svg) Soluzione</b>
 
-Quando una risorsa [bitmap](../../resources/bitmap-resource/bitmap-resource.md) è collegata e Designer rileva una tassonomia di denominazione *UDIM* nel nome del file, ad esempio `0x1` in `my_texture_0x1.png`, la collega come *modello UDIM*, in modo che i nodi [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) possano *passare automaticamente* ad altre bitmap in un set UDIM utilizzando tale tassonomia, quando si utilizza un flusso di lavoro UDIM in Designer. In tal caso, Designer collega la risorsa Bitmap in un *modo diverso* che tiene conto del modello di numerazione UDIM.
+Quando una risorsa [Bitmap](../../resources/bitmap-resource/bitmap-resource.md) è collegata e Designer rileva una *tassonomia dei nomi UDIM* nel nome file, ad esempio `0x1` in `my_texture_0x1.png`, la collega come *modello UDIM*, in modo che i nodi [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) possano *passare automaticamente* ad altre bitmap in un set UDIM utilizzando tale tassonomia, quando si utilizza un flusso di lavoro UDIM in Designer. In tal caso, Designer collega la risorsa Bitmap in un *modo diverso* che tiene conto del modello di numerazione UDIM.
 
 Esistono due modi principali per risolvere questo problema:
 
@@ -73,12 +73,12 @@ Esistono due modi principali per risolvere questo problema:
 
    Accedere al percorso specificato dall&#39;attributo <b>Percorso file</b> della risorsa e verificare che i file che seguono il modello esistano. In caso contrario, ripristinarle o ricrearle.
 
-   ![&#39;Nessun file corrispondente alla soluzione della risorsa&#39; 1](warnings-from-dependencies.resources/warnings-dep-udim-2.gif "&#39;Nessun file corrispondente alla soluzione della risorsa&#39; 1")
+   ![&#39;Nessun file corrispondente alla soluzione della risorsa&#39; 1](warnings-from-dependencies.resources/warnings-from-dependencies-04.gif "&#39;Nessun file corrispondente alla soluzione della risorsa&#39; 1")
 1. <b>Riposizionare i file</b>
 
    Se i file sono stati spostati o rinominati, riposizionali facendo clic su RMB sull&#39;elemento risorsa nel pannello [Esplora risorse](../../interface/the-explorer-window/the-explorer-window.md) e seleziona l&#39;opzione <b>Riposiziona</b> per collegare la risorsa al *primo file di un set* di immagini UDIM dello stesso tipo.
 
-   ![&#39;Nessun file corrispondente alla soluzione della risorsa&#39; 2](warnings-from-dependencies.resources/warnings-dep-udim.gif "&#39;Nessun file corrispondente alla soluzione della risorsa&#39; 2")
+   ![&#39;Nessun file corrispondente alla soluzione della risorsa&#39; 2](warnings-from-dependencies.resources/warnings-from-dependencies-05.gif "&#39;Nessun file corrispondente alla soluzione della risorsa&#39; 2")
 
 ## ![(errore)](warnings-from-dependencies.resources/error.svg) File collegato non trovato
 
@@ -92,12 +92,12 @@ Esistono due modi principali per risolvere questo problema:
 
    Accedere al percorso specificato dall&#39;attributo <b>Percorso file</b> della risorsa e verificare che il file esista. In caso contrario, ripristinarla o ricrearla.
 
-   ![&#39;File collegato non trovato&#39; soluzione 1](warnings-from-dependencies.resources/warnings-dep-file-not-found.gif "&#39;File collegato non trovato&#39; soluzione 1")
+   ![&#39;File collegato non trovato&#39; soluzione 1](warnings-from-dependencies.resources/warnings-from-dependencies-06.gif "&#39;File collegato non trovato&#39; soluzione 1")
 1. <b>Riposizionare il file</b>
 
    Se il file è stato spostato o rinominato, riposizionarlo facendo clic su RMB sull&#39;elemento risorsa nel pannello [Esplora risorse](../../interface/the-explorer-window/the-explorer-window.md) e selezionare l&#39;opzione <b>Riposiziona</b> per collegare la risorsa a un altro file dello stesso tipo.
 
-   ![&#39;File collegato non trovato&#39; soluzione 2](warnings-from-dependencies.resources/warnings-dep-file-not-found-2.gif "&#39;File collegato non trovato&#39; soluzione 2")
+   ![&#39;File collegato non trovato&#39; soluzione 2](warnings-from-dependencies.resources/warnings-from-dependencies-07.gif "&#39;File collegato non trovato&#39; soluzione 2")
 
 ## Spazio colore ![(errore)](warnings-from-dependencies.resources/error.svg) non trovato
 
@@ -113,7 +113,7 @@ In alternativa, aggiungi tale spazio colore all&#39;ambiente [gestione colore](.
 >
 > Questo avviso viene attivato solo quando si utilizza una modalità di gestione del colore diversa da **Legacy** (simile alla disattivazione della gestione del colore). È possibile abilitare la gestione del colore nella sezione **Gestione colore** delle [impostazioni del progetto](../../interface/preferences-window/project-settings/project-settings.md).
 
-Soluzione ![&#39;Spazio colore non trovato&#39;](warnings-from-dependencies.resources/warnings-dep-color-space.gif "&#39;Spazio colore non trovato&#39; soluzione")
+Soluzione ![&#39;Spazio colore non trovato&#39;](warnings-from-dependencies.resources/warnings-from-dependencies-08.gif "&#39;Spazio colore non trovato&#39; soluzione")
 
 ## ![(errore)](warnings-from-dependencies.resources/error.svg) Risorsa di riferimento non trovata
 
@@ -127,12 +127,12 @@ Esistono due modi principali per risolvere questo problema:
 
    Controllate il contenuto del pacchetto nel pannello [Esplora risorse](../../interface/the-explorer-window/the-explorer-window.md) per il grafico specificato nell&#39;elenco <b>Riquadri UV</b>. Se non esiste, ripristinarla o ricrearla.
 
-   ![&#39;Risorsa di riferimento non trovata&#39; soluzione 1](warnings-from-dependencies.resources/warnings-dep-udim-graph-2.gif "&#39;Risorsa di riferimento non trovata&#39; soluzione 1")
+   ![&#39;Risorsa di riferimento non trovata&#39; soluzione 1](warnings-from-dependencies.resources/warnings-from-dependencies-09.gif "&#39;Risorsa di riferimento non trovata&#39; soluzione 1")
 1. <b>Selezionare un altro grafico</b>
 
    Assegna un altro grafico nel pacchetto al riquadro UV.
 
-   ![&#39;Risorsa di riferimento non trovata&#39; soluzione 1](warnings-from-dependencies.resources/warnings-dep-udim-graph.gif "&#39;Risorsa di riferimento non trovata&#39; soluzione 2")
+   ![&#39;Risorsa di riferimento non trovata&#39; soluzione 1](warnings-from-dependencies.resources/warnings-from-dependencies-10.gif "&#39;Risorsa di riferimento non trovata&#39; soluzione 2")
 
 ## ![(errore)](warnings-from-dependencies.resources/error.svg) riquadri UV assegnati più volte
 
@@ -142,7 +142,7 @@ Un riquadro UV per una [risorsa scena 3D](../3d-scene-resource/3d-scene-resource
 
 Per ogni set UV di una risorsa trama 3D, accertatevi che non sia presente alcun indice UDIM *più di una volta* nell&#39;elenco <b>Riquadri UV</b>.
 
-![&#39;I riquadri UV vengono assegnati più volte&#39; soluzione](warnings-from-dependencies.resources/warnings-dep-udim-same.gif "&#39;I riquadri UV vengono assegnati più volte&#39; soluzione")
+![&#39;I riquadri UV vengono assegnati più volte&#39; soluzione](warnings-from-dependencies.resources/warnings-from-dependencies-11.gif "&#39;I riquadri UV vengono assegnati più volte&#39; soluzione")
 
 ## ![(errore)](warnings-from-dependencies.resources/error.svg) riquadri UV non validi
 
@@ -156,4 +156,4 @@ Per ogni set UV di una risorsa con trama 3D, assicuratevi che tutti gli elementi
 >
 > Questo avviso non può essere attivato tramite l&#39;interfaccia utente, poiché *solo* elenca gli UDIM rilevati nella risorsa collegata. Solo la modifica dei dati nel file Substance 3D (SBS) *direttamente* può attivare questo avviso.
 
-![&#39;Soluzione per riquadri UV non validi&#39;](warnings-from-dependencies.resources/warnings-dep-udim-invalid.gif "&#39;Soluzione per riquadri UV non validi&#39;")
+![&#39;Soluzione per riquadri UV non validi&#39;](warnings-from-dependencies.resources/warnings-from-dependencies-12.gif "&#39;Soluzione per riquadri UV non validi&#39;")

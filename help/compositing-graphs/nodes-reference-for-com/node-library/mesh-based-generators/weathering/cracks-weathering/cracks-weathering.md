@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/cracks-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/cracks-weathering.html"
 breadcrumb-title: ''
 description: Usa il nodo Temperatura Crepe per aggiungere pattern di crepe ai materiali in base alla curvatura della trama e ai punti di sollecitazione.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Crepe meteorologiche
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](cracks-weathering.resources/cracks-weathering.png){width="128px"}
+![](cracks-weathering.resources/cracks-weathering-01.png){width="128px"}
 
 <b>In:</b> Generatori Basati Su Trama > Meteo
 
@@ -47,8 +47,8 @@ Assicurati di aver compreso correttamente le [modalità di creazione del collega
 
 |  |  |
 |:---|:---|
-| <b>Curvatura</b> <i>Input scala di grigi</i> | Mappa eseguita i baking o generata utilizzata per effetti interni e mascheratura. |
-| <b>Height</b> <i>Input scala di grigi</i> | Mappa eseguita i baking o generata utilizzata per effetti interni e mascheratura. |
+| <b>Curvatura</b> <i>Input scala di grigi</i> | Mappe infornate o generate utilizzate per effetti interni e mascheratura. |
+| <b>Height</b> <i>Input scala di grigi</i> | Mappe infornate o generate utilizzate per effetti interni e mascheratura. |
 | <b>Maschera</b> <i>Input scala di grigi</i> | Slot maschera utilizzato per mascherare gli effetti del nodo. Può essere attivato/disattivato con il parametro &quot;Maschera&quot;. |
 
 <a name="parameters"></a>
@@ -71,7 +71,7 @@ Assicurati di aver compreso correttamente le [modalità di creazione del collega
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="cracks-weathering.resources/cracks-ex.gif" />
+            <img src="cracks-weathering.resources/cracks-weathering-02.gif" />
         </td>
     </tr>
 </table>
