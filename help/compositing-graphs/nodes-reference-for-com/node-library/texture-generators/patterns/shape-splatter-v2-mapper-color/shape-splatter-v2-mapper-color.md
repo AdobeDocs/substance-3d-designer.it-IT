@@ -15,7 +15,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona colore splatter v2 mapper ](shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-01.png "Colore splatter v2 mapper Shape")
+![Icona colore splatter v2 mapper &#x200B;](shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-01.png "Colore splatter v2 mapper Shape")
 
 <b>Ingresso:</b> Generatore > Pattern
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 Esegue la mappatura delle immagini a colori sulle forme generate e distribuite utilizzando il nodo [splatter di forme v2](../shape-splatter-v2/shape-splatter-v2.md), utilizzando i dati aggiuntivi forniti dal nodo.<br><br>Le immagini vengono fornite come input di pattern separati o inserite in un atlante griglia e possono essere applicate alle forme utilizzando la mappatura UV, la proiezione triplanare o la mappatura personalizzata.<br><br>È possibile colorare le forme e regolarne i colori in modo uniforme o casuale in base alla forma.
 
-Vedere anche [Scala di grigi splatter v2 mapper ](../shape-splatter-v2-mapper-grayscale/shape-splatter-v2-mapper-grayscale.md).
+Vedere anche [Scala di grigi splatter v2 mapper &#x200B;](../shape-splatter-v2-mapper-grayscale/shape-splatter-v2-mapper-grayscale.md).
 
 </td>
 </tr>
