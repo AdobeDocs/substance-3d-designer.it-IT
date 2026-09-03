@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/warnings-and-errors.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/technical-issues/warnings-and-errors.html"
 breadcrumb-title: ''
 description: Trovate le soluzioni per gli avvisi e gli errori più comuni in Substance 3D Designer per risolvere rapidamente i problemi.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 # Avvertenze ed errori
 
-In questa pagina vengono illustrate le segnalazioni di avvisi e messaggi di errore che possono essere visualizzati in [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) e vengono forniti collegamenti alla risoluzione dei problemi relativi agli avvisi in base alla loro origine.
+In questa pagina vengono illustrate le segnalazioni di avvisi e messaggi di errore che possono essere visualizzati in [Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html) e vengono forniti collegamenti alla risoluzione dei problemi relativi agli avvisi in base alla loro origine.
 
 ## Panoramica
 

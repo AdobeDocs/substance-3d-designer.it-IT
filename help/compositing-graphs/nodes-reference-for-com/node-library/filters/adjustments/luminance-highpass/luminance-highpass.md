@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/luminance-highpass.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/luminance-highpass.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Superficie luminanza per estrarre i dettagli di luminanza ad alta frequenza dalle texture per migliorare i dettagli della superficie.
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 9%
 
 ## Descrizione
 
-Consente di annullare le informazioni di illuminazione eseguendo un [highpass](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/highpass/highpass.md)sul valore Luminanza dell&#39;input. Utile per correggere texture fotografate con informazioni sull’illuminazione. Può essere combinato in [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) con più passaggi per rimuovere diverse frequenze di dettagli di illuminazione.
+Consente di annullare le informazioni di illuminazione eseguendo un [highpass](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/highpass/highpass.md)sul valore Luminanza dell&#39;input. Utile per correggere texture fotografate con informazioni sull’illuminazione. Può essere combinato in [Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html) con più passaggi per rimuovere diverse frequenze di dettagli di illuminazione.
 
 Mantenere i colori è un&#39;operazione leggermente migliore rispetto a [Illuminazione Annulla basse frequenze.](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/lighting-cancel-low-fre/lighting-cancel-low-frequencies.md)
 

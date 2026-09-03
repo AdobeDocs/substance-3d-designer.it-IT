@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-003.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-003.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Mappa Grunge 003 per creare texture procedurali di grunge per aggiungere effetti di variazione della superficie e di invecchiamento.
 helpx_creative_field: ""

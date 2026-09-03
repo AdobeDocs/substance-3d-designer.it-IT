@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
 breadcrumb-title: ''
 description: Scoprite come gestire e organizzare i parametri nei grafici di composizione delle Substance per una migliore organizzazione del flusso di lavoro.
 helpx_creative_field: ""

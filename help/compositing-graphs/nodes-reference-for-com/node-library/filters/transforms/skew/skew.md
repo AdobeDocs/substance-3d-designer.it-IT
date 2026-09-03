@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/skew.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/skew.html"
 breadcrumb-title: ''
 description: Usate il nodo Inclina per applicare le trasformazioni di inclinazione alle texture per creare pattern inclinati e distorti.
 helpx_creative_field: ""

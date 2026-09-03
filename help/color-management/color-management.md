@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/color-management.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/color-management.html"
 breadcrumb-title: ''
 description: Scoprite come gestire il colore in Substance 3D Designer, inclusi gli spazi colore, i profili e i flussi di lavoro per le tinte piatte.
 helpx_creative_field: ""

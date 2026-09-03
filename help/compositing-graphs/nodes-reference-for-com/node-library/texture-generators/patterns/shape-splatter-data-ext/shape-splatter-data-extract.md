@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-splatter-data-extract.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-splatter-data-extract.html"
 breadcrumb-title: ''
 description: Utilizzare il nodo Estrazione dati splatter forma per estrarre dati dalle operazioni di splatter forma per il controllo avanzato del pattern.
 helpx_creative_field: ""

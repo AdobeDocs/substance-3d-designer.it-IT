@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/3d-renderers.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/3d-view/3d-renderers.html"
 breadcrumb-title: ''
 description: Nella vista 3D, potete scegliere tra i moduli di rendering rasterizzatore e tracciatore, per ottenere diverse prestazioni e qualità di anteprima.
 helpx_creative_field: ""
@@ -178,7 +178,7 @@ Per la visualizzazione del height sono disponibili due tecniche:
 
 <b>Tassellatura + Spostamento</b>: suddivide la geometria e sposta i vertici lungo le normali.
 
-Il materiale standard Adobe è documentato in dettaglio in [questa sezione](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material) della nostra documentazione.
+Il materiale standard Adobe è documentato in dettaglio in [questa sezione](https://experienceleague.adobe.com/it/docs/substance-3d/general-knowledge/asm/adobe-standard-material) della nostra documentazione.
 
 +++
 

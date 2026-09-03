@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-scan.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-scan.html"
 breadcrumb-title: ''
 description: Usate il nodo Scansione istogramma per eseguire la scansione e l’analisi degli istogrammi delle texture per la correzione e le regolazioni del colore.
 helpx_creative_field: ""

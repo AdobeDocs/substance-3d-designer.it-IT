@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/package-metadata.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/package-metadata.html"
 breadcrumb-title: ''
 description: Scopri come creare e gestire i metadati dei pacchetti in Substance 3D Designer per le librerie di risorse organizzate.
 helpx_creative_field: ""

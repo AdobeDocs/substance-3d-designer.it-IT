@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Scoprite come funziona l’ereditarietà nella composizione dei grafici per Substance gerarchie grafiche e variazioni riutilizzabili.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Ereditarietà nei grafici Substance
 
-Questa pagina descrive come l&#39;ereditarietà viene applicata nei [grafici Substance](../../compositing-graphs/substance-compositing-graphs.md) in [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) e l&#39;impatto che ha sull&#39;output del grafico.
+Questa pagina descrive come l&#39;ereditarietà viene applicata nei [grafici Substance](../../compositing-graphs/substance-compositing-graphs.md) in [Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html) e l&#39;impatto che ha sull&#39;output del grafico.
 
 ![Metodi di ereditarietà](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-01.jpg "Metodi di ereditarietà"){width="1400px"}
 

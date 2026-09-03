@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/home.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/home.html"
 breadcrumb-title: ''
 description: Scopri come utilizzare Substance 3D Designer per creare materiali procedurali, trame e risorse 3D con flussi di lavoro basati sui nodi.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 89%
 
 ![Finestra principale di Substance 3D Designer](home.resources/home-01.jpg "Finestra principale di Substance 3D Designer")
 
-[Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) è un software per la creazione di materiali. Consente di utilizzare un grafico a nodi per generare texture da pattern e rumori procedurali, nonché per manipolare le bitmap.
+[Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html) è un software per la creazione di materiali. Consente di utilizzare un grafico a nodi per generare texture da pattern e rumori procedurali, nonché per manipolare le bitmap.
 
 Una parola o un concetto utilizzato in Designer non è familiare? Per ulteriori informazioni, consultate il nostro [Glossario](../glossary/glossary.md).
 
@@ -36,7 +36,7 @@ In caso di domande a cui non ha risposto questo manuale, è possibile scrivere n
 
 * [Attivazione e licenze](../getting-started/activation-and-licenses/activation-and-licenses.md): questa pagina contiene informazioni su come attivare e gestire le licenze per iniziare a utilizzare Designer.
 * [Requisiti di sistema](../getting-started/system-requirements/system-requirements.md): questa pagina elenca i requisiti di sistema e le informazioni sulla compatibilità hardware.
-* [Panoramica](../getting-started/overview/overview.md): in questa pagina viene fornita una panoramica di Substance 3D Designer https://www.adobe.com/products/substance3d-designer.html, del confronto con le altre applicazioni nell&#39;ecosistema Substance e del tipo di file e di risorse utilizzati.
+* [Panoramica](../getting-started/overview/overview.md): in questa pagina viene fornita una panoramica di Substance 3D Designer https://www.adobe.com/it/products/substance3d-designer.html, del confronto con le altre applicazioni nell&#39;ecosistema Substance e del tipo di file e di risorse utilizzati.
 * [Panoramica del flusso di lavoro](../getting-started/workflow-overview/workflow-overview.md): questa pagina spiega il concetto di flussi di lavoro basati su nodi e fornisce un riepilogo dei tre tipi principali di grafici che è possibile creare in Designer.
 * [Scelte rapide](../getting-started/shortcuts/shortcuts.md): in questa pagina è disponibile una panoramica di tutte le scelte rapide per Substance 3D Designer.
 * [Tutorial e apprendimento](../getting-started/tutorials-learning/tutorials-learning.md): se preferite immergervi con video e altro materiale di apprendimento più mirato, questi tutorial sono utili per iniziare.
@@ -47,7 +47,7 @@ In caso di domande a cui non ha risposto questo manuale, è possibile scrivere n
 ## Interfaccia
 
 * [Schermata Home](../interface/home-screen/home-screen.md): la schermata Home accoglie all&#39;avvio di Substance 3D Designer. È qui per aiutare a iniziare a lavorare con il software e accedere ai collegamenti più utili.
-* [Personalizzazione dell&#39;area di lavoro](../interface/customizing-your-wor/customizing-your-workspace.md): questa pagina presenta i modi per disporre i pannelli nell&#39;interfaccia utente https://www.adobe.com/products/substance3d-designer.html di Adobe Substance 3D Designer e sfruttare le loro funzionalità per migliorare i flussi di lavoro.
+* [Personalizzazione dell&#39;area di lavoro](../interface/customizing-your-wor/customizing-your-workspace.md): questa pagina presenta i modi per disporre i pannelli nell&#39;interfaccia utente https://www.adobe.com/it/products/substance3d-designer.html di Adobe Substance 3D Designer e sfruttare le loro funzionalità per migliorare i flussi di lavoro.
 * [Barra degli strumenti principale](../interface/the-main-toolbar/the-main-toolbar.md): questa pagina descrive la barra degli strumenti principale e il menu di Adobe Substance 3D Designer, visualizzati in alto a sinistra nella finestra principale.
 * [Preferenze](../interface/preferences-window/preferences-window.md): questa pagina presenta la finestra Preferenze e tutte le relative impostazioni.
 * [Esplora risorse](../interface/the-explorer-window/the-explorer-window.md): questa pagina descrive il dock di Esplora risorse in Adobe Substance 3D Designer. Questo dock consente di gestire i pacchetti e le relative risorse.

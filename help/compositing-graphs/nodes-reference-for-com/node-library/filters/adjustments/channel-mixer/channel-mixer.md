@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/channel-mixer.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/channel-mixer.html"
 breadcrumb-title: ''
 description: Usate il nodo Miscelatore canale per miscelare i canali di colore e creare effetti cromatici e convertire gli spazi cromatici.
 helpx_creative_field: ""

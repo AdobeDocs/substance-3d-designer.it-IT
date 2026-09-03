@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/selective-dirt.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/selective-dirt.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Dirt selettivo per generare maschere di accumulo dirt selettivo in base alla geometria della trama per un'attenuazione atmosferica realistica.
 helpx_creative_field: ""
@@ -35,7 +35,7 @@ ht-degree: 8%
 
 Genera una maschera in bianco e nero in base alle mappe con baking e alle impostazioni dell’utente. Simile a [Maschere avanzate](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) in [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
-Questa maschera [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) rappresenta un semplice effetto dirt sui bordi convessi.
+Questa maschera [Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html) rappresenta un semplice effetto dirt sui bordi convessi.
 
 </td>
 </tr>

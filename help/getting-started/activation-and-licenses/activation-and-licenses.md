@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/activation-and-licenses.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/getting-started/activation-and-licenses.html"
 breadcrumb-title: ''
 description: Scopri come attivare Substance 3D Designer e gestire le licenze per accedere a tutte le funzioni e le funzionalità.
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ Il processo di attivazione dipende da dove hai acquistato o hai accesso a Design
 
 | Edizione | Processo di attivazione |
 |------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Creative Cloud desktop (CCD) | Installa il prodotto dall&#39;app CCD, quindi avvialo. Visita queste pagine se riscontri problemi con la tua licenza: [Le app non verranno avviate a causa di un errore di abbonamento](https://helpx.adobe.com/creative-cloud/apps/troubleshoot/launch-issues/apps-wont-launch-due-to-subscription-error.html) / [Account, piani e Guida alla fatturazione](https://helpx.adobe.com/account/individual.html) |
+| Creative Cloud desktop (CCD) | Installa il prodotto dall&#39;app CCD, quindi avvialo. Visita queste pagine se riscontri problemi con la tua licenza: [Le app non verranno avviate a causa di un errore di abbonamento](https://helpx.adobe.com/it/creative-cloud/apps/troubleshoot/launch-issues/apps-wont-launch-due-to-subscription-error.html) / [Account, piani e Guida alla fatturazione](https://helpx.adobe.com/it/account/individual.html) |
 | Vapore | Avvia il prodotto direttamente dalla libreria Steam. |
 | Substance (indipendente) | Consulta il processo di attivazione descritto di seguito. |
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-linear-1.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-linear-1.html"
 breadcrumb-title: ''
 description: Utilizza il nodo Sfumatura lineare 1 per creare sfumature lineari per la fusione dei colori e la creazione di transizioni graduali.
 helpx_creative_field: ""

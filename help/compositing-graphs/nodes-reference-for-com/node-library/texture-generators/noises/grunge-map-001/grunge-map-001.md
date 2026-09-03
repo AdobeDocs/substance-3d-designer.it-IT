@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-001.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-001.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Mappa Grunge 001 per creare trame procedurali di grunge per aggiungere dettagli della superficie ed effetti di usura ai materiali.
 helpx_creative_field: ""

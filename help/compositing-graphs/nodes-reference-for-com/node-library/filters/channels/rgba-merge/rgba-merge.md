@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/rgba-merge.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/rgba-merge.html"
 breadcrumb-title: ''
 description: Utilizzare il nodo Unione RGBA per combinare canali alfa separati di colore rosso, verde, blu e in un'unica texture RGBA.
 helpx_creative_field: ""
