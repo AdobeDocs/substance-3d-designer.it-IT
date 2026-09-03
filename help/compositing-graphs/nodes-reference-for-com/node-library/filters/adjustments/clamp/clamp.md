@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/clamp.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo Blocca (Clamp) per bloccare i valori della texture entro gli intervalli minimo e massimo specificati per il controllo dei limiti dei valori.
+description: Utilizzare il nodo di Blocca per bloccare i valori delle texture entro gli intervalli minimo e massimo specificati per il controllo dei limiti dei valori.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Clamp
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Blocca
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '62'
 ht-degree: 14%
@@ -24,9 +24,9 @@ ht-degree: 14%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](clamp.resources/clamp-grayscale.png){width="128px"}
+![](clamp.resources/clamp-01.png){width="128px"}
 
-![](clamp.resources/clamp-1.png){width="128px"}
+![](clamp.resources/clamp-02.png){width="128px"}
 
 <b>Ingresso:</b> Filtri > Regolazioni
 
@@ -56,7 +56,7 @@ Blocca i valori di input ai limiti definiti.
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="clamp.resources/clamp.gif" />
+            <img src="clamp.resources/clamp-03.gif" />
         </td>
     </tr>
 </table>

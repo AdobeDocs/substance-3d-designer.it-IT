@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/replace-color.html"
 breadcrumb-title: ''
-description: Utilizza il nodo Sostituisci colore per sostituire determinati colori nelle texture con nuovi colori per la correzione e le regolazioni del colore.
+description: Utilizza il nodo Sostituisci colore per sostituire colori specifici nelle texture con nuovi colori per la correzione e le regolazioni del colore.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Replace Color
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Sostituisci colore
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '66'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](replace-color.resources/replace-color.png){width="128px"}
+![](replace-color.resources/replace-color-01.png){width="128px"}
 
 <b>Ingresso:</b> Filtri > Regolazioni
 
@@ -55,7 +55,7 @@ Consultate [Sostituisci intervallo colore](../../../../../../compositing-graphs/
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="replace-color.resources/replace-color-example.png" />
+            <img src="replace-color.resources/replace-color-02.png" />
         </td>
     </tr>
 </table>

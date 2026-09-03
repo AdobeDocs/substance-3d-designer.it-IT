@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Maschera volume 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-volume-mask.resources/3dvolumemask.png){width="256px"}
+![](3d-volume-mask.resources/3d-volume-mask-01.png){width="256px"}
 
 <b>Ingresso:</b> Generatore > Pattern
 
@@ -67,16 +67,16 @@ Il nodo **Maschera volume 3D** genera una rappresentazione di una *forma primiti
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-volume-mask.resources/3dvolumemask-variant.jpg" />
+            <img src="3d-volume-mask.resources/3d-volume-mask-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-volume-mask.resources/3dvolumemask-variant2.jpg" />
+            <img src="3d-volume-mask.resources/3d-volume-mask-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-volume-mask.resources/3dvolumemask-variant3.jpg" />
+            <img src="3d-volume-mask.resources/3d-volume-mask-04.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-volume-mask.resources/3dvolumemask-variant4.jpg" />
+            <img src="3d-volume-mask.resources/3d-volume-mask-05.jpg" />
         </td>
     </tr>
 </table>

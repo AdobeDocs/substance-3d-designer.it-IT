@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Speculare (nodo filtro)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 4%
@@ -24,9 +24,9 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](mirror-filter-node.resources/mirror-2.png){width="128px"}
+![](mirror-filter-node.resources/mirror-filter-node-01.png){width="128px"}
 
-![](mirror-filter-node.resources/mirror-grayscale.png){width="128px"}
+![](mirror-filter-node.resources/mirror-filter-node-02.png){width="128px"}
 
 <b>Ingresso:</b> Filtri > Trasforma
 
@@ -59,7 +59,7 @@ L&#39;immagine di input viene riflessa da un lato scelto su un asse selezionato.
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="mirror-filter-node.resources/mirror-example.png" />
+            <img src="mirror-filter-node.resources/mirror-filter-node-03.png" />
         </td>
     </tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versione 12.2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 Data di pubblicazione: *19 luglio 2022*
 
-![](version-12-2.resources/final3.png)
+![](version-12-2.resources/version-12-2-01.png)
 
 ## Funzioni principali
 
@@ -32,20 +32,20 @@ Data di pubblicazione: *19 luglio 2022*
 
 La versione 12.2 di Designer è la prima con il supporto nativo completo dei nuovi computer Apple basati su chip M1. Anche se in precedenza Designer poteva essere eseguito tecnicamente sui dispositivi Apple Silicon, il supporto nativo ti offrirà un&#39;esperienza più veloce ed efficiente. Come si può vedere nell&#39;immagine seguente, il calcolo è *fino a due volte più veloce* con questa nuova versione su questi computer.
 
-![](version-12-2.resources/ds-perf-applem1.png){width="600px"}
+![](version-12-2.resources/version-12-2-02.png){width="600px"}
 
 ### Miglioramenti per i grafici dei modelli Substance
 
 * <b>Suggerimenti sui nodi\
-  </b>Non è sempre possibile spiegare le operazioni eseguite da un nodo solo con un&#39;icona e un titolo, per cui è ora disponibile una descrizione con *descrizione completa del nodo* quando si è nella libreria o nella vista Grafico. Ti aiuterà a trovare il nodo che stai cercando o a capire meglio quali sono le sue funzionalità. ![](version-12-2.resources/tootlipnode.png)
+  </b>Non è sempre possibile spiegare le operazioni eseguite da un nodo solo con un&#39;icona e un titolo, per cui è ora disponibile una descrizione con *descrizione completa del nodo* quando si è nella libreria o nella vista Grafico. Ti aiuterà a trovare il nodo che stai cercando o a capire meglio quali sono le sue funzionalità. ![](version-12-2.resources/version-12-2-03.png)
 
 * <b>Scelte rapide per la creazione di nodi\
-  </b>Per velocizzare la creazione dei nodi più utilizzati, è ora possibile definire scelte rapide personalizzate nelle Preferenze, come per gli altri tipi di grafici.![](version-12-2.resources/shorcuts.png)
+  </b>Per velocizzare la creazione dei nodi più utilizzati, è ora possibile definire scelte rapide personalizzate nelle Preferenze, come per gli altri tipi di grafici.![](version-12-2.resources/version-12-2-04.png)
 
 * <b>Anteprima del nodo dal menu di scelta rapida del nodo\
   </b>Nell&#39;ultima versione è stata aggiunta la possibilità di visualizzare in anteprima un nodo nella vista 3D grazie a una scelta rapida da tastiera da tastiera (*MAIUSC + clic* su un nodo). Questa funzionalità è ora disponibile anche nel menu contestuale *nodo* per renderla più individuabile.
 
-  ![](version-12-2.resources/previewnode.gif){width="600px"}
+  ![](version-12-2.resources/version-12-2-05.gif){width="600px"}
 * <b>Ricerca basata sulla compatibilità dei nodi\
   </b>Quando si cerca un nodo dal menu del nodo (accessibile premendo *Barra spaziatrice* nella vista Grafico), i nodi vengono ora filtrati correttamente per visualizzare solo quelli *compatibili con quello attualmente selezionato* nel grafico. Consente di trovare rapidamente il nodo che si sta cercando.
 
@@ -54,12 +54,12 @@ La versione 12.2 di Designer è la prima con il supporto nativo completo dei nuo
 * <b>Miglioramenti ai vista 2D</b>\
   Nelle versioni precedenti era possibile visualizzare gli output del grafico nella vista 3D tramite il *menu contestuale* del grafico Substance, ma non era possibile visualizzare un output del grafico nella vista 2D. Questa opzione è stata aggiunta a questo menu, con un sottomenu che elenca tutti gli output del grafico da visualizzare nel vista 2D.\
   Anche il pulsante &quot;Visualizza output&quot; nella barra degli strumenti di vista 2D è stato aggiornato con una freccia rivolta verso il basso e una descrizione comandi per rendere più chiaro il suo comportamento.\
-  Infine, l’opzione &quot;Visualizzazione automatica degli output del grafico durante il caricamento di un grafico&quot; nelle Preferenze è stata *divisa in due impostazioni separate* - rispettivamente per la Vista 2D e la Vista 3D - per consentire di controllare quale vista deve essere aperta e popolata automaticamente quando si carica un grafico.
+  Infine, l’opzione &quot;Visualizzazione automatica degli output del grafico durante il caricamento di un grafico&quot; nelle Preferenze è stata *divisa in due impostazioni separate* - rispettivamente per il vista 2D e il vista 3D - per consentire di controllare quale visualizzazione deve essere aperta e popolata automaticamente quando si carica un grafico.
 
 * <b>Modello CLO</b>\
   Per migliorare l&#39;interoperabilità con il software CLO, è stato aggiunto un *nuovo modello dedicato*. Aggiungerà automaticamente al grafico tutti i *metadati* necessari per importare correttamente il materiale in CLO.
 
-  ![](version-12-2.resources/clo.png){width="600px"}
+  ![](version-12-2.resources/version-12-2-06.png){width="600px"}
 
 * <b>Requisiti per la piattaforma di riferimento VFX</b>\
   Ogni anno, la piattaforma di riferimento VFX pubblica un elenco di strumenti e librerie di versioni da utilizzare in ogni software per il settore VFX al fine di ridurre al minimo le incompatibilità tra i software. Come al solito, *aggiorniamo tutte le nostre dipendenze* al fine di rispettare tutte queste raccomandazioni.
@@ -77,7 +77,7 @@ La versione 12.2 di Designer è la prima con il supporto nativo completo dei nuo
 * [Substance grafico modello] Visualizza descrizioni comandi nodo nella libreria
 * [Substance grafico modello] Aggiungi una voce di menu contestuale per visualizzare in anteprima i nodi
 * [Substance grafico modello] Consente all&#39;utente di creare scelte rapide per la creazione di nodi
-* [UI] Aggiungi l’opzione &quot;Visualizza output in vista 2D&quot; nel menu di scelta rapida del grafico Substance
+* [UI] Aggiungi l’opzione &quot;Visualizza output in vista 2D&quot; nel menu di scelta rapida del grafico a Substance
 * [UI] Suddividi l&#39;impostazione &quot;Visualizzazione automatica degli output&quot; in impostazioni specifiche della vista 2D/3D
 * [UI] Aggiungi freccia a discesa e descrizione comandi al pulsante &quot;Visualizza output&quot; nella barra degli strumenti Visualizzazione 2D
 * [UI] Rimodellare e riordinare gli elementi nel pannello Informazioni di Esplora risorse

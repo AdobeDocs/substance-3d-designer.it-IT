@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Istanze e grafici secondari del grafico
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Istanze e grafici secondari del grafico
 
-![](graph-instances-sub-graphs.resources/sub-graph.png)
+![](graph-instances-sub-graphs.resources/graph-instances-sub-graphs-01.png)
 
 Le istanze del grafico sono nodi che <b>fanno riferimento a un altro grafico</b>. Un grafico a cui fa riferimento un nodo di istanza in un grafico host può essere denominato <b>grafico secondario</b> del grafico host.
 

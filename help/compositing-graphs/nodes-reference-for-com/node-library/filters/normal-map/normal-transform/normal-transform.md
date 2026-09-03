@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Trasformazione normale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](normal-transform.resources/normal-transform.png){width="128px"}
+![](normal-transform.resources/normal-transform-01.png){width="128px"}
 
 <b>Ingresso:</b> Filtri > Mappa normale
 

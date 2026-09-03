@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Esposizione dei parametri nei grafici MDL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Questa pagina spiega il processo di esposizione dei parametri nei grafici MDL in modo che possano essere collegati ai valori e alle texture forniti da *altri nodi* nel grafico o da *origini esterne*.
 
-![Stato esposto degli input del nodo](exposing-parameters-in-mdl-graphs.resources/mdl-node-inputs-hl.png "Stato esposto degli input del nodo")
+![Stato esposto degli input del nodo](exposing-parameters-in-mdl-graphs.resources/exposing-parameters-in-mdl-graphs-01.png "Stato esposto degli input del nodo")
 
 *Stato esposto degli input del nodo*
 
@@ -32,11 +32,11 @@ Nella maggior parte dei casi, i *connettori di input* delle proprietà di un nod
 
 Quando si seleziona un nodo nella <b>visualizzazione Grafico</b>, le relative proprietà vengono visualizzate nel pannello <b>Proprietà</b>. La maggior parte delle proprietà è elencata con un set di pulsanti a destra della relativa etichetta:
 
-* **![](exposing-parameters-in-mdl-graphs.resources/mdl-expose-new-node.png)Copia il valore in un nuovo nodo e collegalo a questo parametro**: crea un *connettore di input* per questa proprietà e lo connette a un *nuovo nodo* che genera il valore corrente di questa proprietà
-* **![](exposing-parameters-in-mdl-graphs.resources/mdl-expose-new-input.png)Crea un pin di input per questo parametro**: crea un *connettore di input* per questa proprietà
-* **![](exposing-parameters-in-mdl-graphs.resources/mdl-expose-reset.png)Reimposta il parametro sul valore predefinito**: quando nessun valore è connesso al connettore di input della proprietà, reimposta il valore predefinito
+* **![](exposing-parameters-in-mdl-graphs.resources/exposing-parameters-in-mdl-graphs-02.png)Copia il valore in un nuovo nodo e collegalo a questo parametro**: crea un *connettore di input* per questa proprietà e lo connette a un *nuovo nodo* che genera il valore corrente di questa proprietà
+* **![](exposing-parameters-in-mdl-graphs.resources/exposing-parameters-in-mdl-graphs-03.png)Crea un pin di input per questo parametro**: crea un *connettore di input* per questa proprietà
+* **![](exposing-parameters-in-mdl-graphs.resources/exposing-parameters-in-mdl-graphs-04.png)Reimposta il parametro sul valore predefinito**: quando nessun valore è connesso al connettore di input della proprietà, reimposta il valore predefinito
 
-![](exposing-parameters-in-mdl-graphs.resources/mdl-expose-input.gif)
+![](exposing-parameters-in-mdl-graphs.resources/exposing-parameters-in-mdl-graphs-05.gif)
 
 *Manipolazione degli input del nodo*
 
@@ -47,7 +47,7 @@ Se si fa clic su uno dei primi due pulsanti, al nodo verrà aggiunto un *connett
 
 È possibile *rimuovere* il connettore di input facendo nuovamente clic sul pulsante **Crea un pin di input per questo parametro**. A questo punto, il valore della proprietà torna al valore impostato nel pannello **Proprietà**.
 
-![Parametri del nodo esposti](exposing-parameters-in-mdl-graphs.resources/mdl-exposed-float-hl.png "Parametri del nodo esposti")
+![Parametri del nodo esposti](exposing-parameters-in-mdl-graphs.resources/exposing-parameters-in-mdl-graphs-06.png "Parametri del nodo esposti")
 
 *Parametri del nodo esposti*
 
@@ -57,7 +57,7 @@ Nel grafico MDL, l&#39;esposizione di un parametro al livello del grafico, ovver
 
 I nodi che possono essere esposti dispongono di un&#39;opzione <b>Esposizione</b> nel menu di scelta rapida. Nella maggior parte dei casi, si tratta di nodi che generano un valore o dati quali coordinate di virgola mobile, colore o texture.
 
-Opzione ![&quot;Esposizione&quot; nel menu contestuale di un nodo](exposing-parameters-in-mdl-graphs.resources/mdl-expose-float-menu-hl.png "&quot;Esposizione&quot; nel menu contestuale di un nodo")
+Opzione ![&quot;Esposizione&quot; nel menu contestuale di un nodo](exposing-parameters-in-mdl-graphs.resources/exposing-parameters-in-mdl-graphs-07.png "&quot;Esposizione&quot; nel menu contestuale di un nodo")
 
 Opzione *&quot;Esposizione&quot; nel menu contestuale di un nodo*
 
@@ -75,12 +75,12 @@ Il parametro esposto è configurato direttamente nel *nodo esposto*, non nelle p
 * <b>Tipo gamma</b>: gamma da utilizzare per il campionamento dei valori da una texture collegata a questo parametro
 * <b>Visibile per impostazione predefinita</b>: imposta la visibilità di questo parametro nelle integrazioni MDL nei casi in cui alcuni parametri potrebbero essere nascosti
 * <b>Modificatore di tipo</b>: imposta se il valore è uniforme o variabile. Quando è impostato su auto, il parametro eredita questa proprietà dall’input (ad esempio, per un valore Float: uniforme se connesso a un valore Float, variabile se connesso a una texture)
-* <b>Utilizzo di Sampler</b>: identificatore dell&#39;utilizzo del parametro, utilizzato per *connettere la texture appropriata* s quando più output sono connessi a un materiale MDL contemporaneamente. Ad esempio, quando si connette un [grafico a Substance](../../compositing-graphs/substance-compositing-graphs.md) a un materiale MDL nella vista 3D, le texture vengono collegate agli input corretti in base ai loro identificatori di utilizzo.
+* <b>Utilizzo di Sampler</b>: identificatore dell&#39;utilizzo del parametro, utilizzato per *connettere la texture appropriata* s quando più output sono connessi contemporaneamente a un materiale MDL. Ad esempio, quando si connette un [grafico a Substance](../../compositing-graphs/substance-compositing-graphs.md) a un materiale MDL nella vista 3D, le texture vengono collegate agli input corretti in base agli identificatori di utilizzo corrispondenti.
 
 >[!WARNING]
 >
 > Mentre gli input del grafico sono configurati come configurati a livello *nodo*, il loro ordine è gestito a livello *grafico* nella sezione **Input grafico** delle [proprietà del grafico](../../mdl-graphs/creating-an-mdl-graph/creating-an-mdl-graph.md).
 
-![Esposizione di nodi negli input del grafico](exposing-parameters-in-mdl-graphs.resources/mdl-expose-parameter.gif "Esposizione di nodi negli input del grafico")
+![Esposizione di nodi negli input del grafico](exposing-parameters-in-mdl-graphs.resources/exposing-parameters-in-mdl-graphs-08.gif "Esposizione di nodi negli input del grafico")
 
 *Esposizione di nodi negli input del grafico*

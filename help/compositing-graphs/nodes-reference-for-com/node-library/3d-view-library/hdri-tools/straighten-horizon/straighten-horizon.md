@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Raddrizza orizzonte
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](straighten-horizon.resources/straighten-horizon.png){width="200px"}
+![](straighten-horizon.resources/straighten-horizon-01.png){width="200px"}
 
 <b>Ingresso:</b> vista 3D > Strumenti HDRI
 
@@ -46,6 +46,6 @@ Per le immagini HDRI con un orizzonte non retto, questo nodo fornisce un modo se
 |  |  |
 |:---|:---|
 | <b>Abilita correzione orizzonte</b> <i>Falso/Vero</i> | Attiva e disattiva l’effetto. Consente di attivare/disattivare per confrontare prima e dopo e trovare i punti corretti. |
-| <b>Posizione #1 punto orizzonte</b> | Primo punto, con maniglia vista 2D. |
-| <b>Posizione #2 punto orizzonte</b> | Secondo punto, con maniglia vista 2D. |
+| <b>Posizione #1 punto orizzonte</b> | Primo punto, con maniglia di visualizzazione 2D. |
+| <b>Posizione #2 punto orizzonte</b> | Secondo punto, con maniglia di visualizzazione 2D. |
 | <b>Rotazione orizzontale</b> <i>0.0 - 1.0</i> | Rotazione aggiuntiva attorno all’asse centrale. |

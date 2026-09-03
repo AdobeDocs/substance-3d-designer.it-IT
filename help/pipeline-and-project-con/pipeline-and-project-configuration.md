@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Configurazione della pipeline e del progetto
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 0%
@@ -39,7 +39,7 @@ L&#39;immagine mostra la relazione tra i diversi file nell&#39;installazione pre
 </td>
 <td style="border: 0;" valign="top">
 
-![Gerarchia dei file di configurazione](pipeline-and-project-configuration.resources/filestructureoverview.png "Gerarchia dei file di configurazione")
+![Gerarchia dei file di configurazione](pipeline-and-project-configuration.resources/pipeline-and-project-configuration-01.png "Gerarchia dei file di configurazione")
 
 </td>
 </tr>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versione 14.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 1%
@@ -24,7 +24,7 @@ Questo aggiornamento introduce nuove funzioni per migliorare l’utilizzo quotid
 
 *Data di pubblicazione: 14 gennaio 2025*
 
-![Dispersione spline sulle spline](version-14-1.resources/fond.png)
+![Dispersione spline sulle spline](version-14-1.resources/version-14-1-01.png)
 
 ## Aggiornamenti di spline e tracciati
 
@@ -34,12 +34,12 @@ Le spline e i nodi di percorso sono stati introdotti nella versione 13.0 e, graz
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dispersione spline sull&#39;animazione spline 1](version-14-1.resources/spline1.gif){zoomable="yes"}
+![Dispersione spline sull&#39;animazione spline 1](version-14-1.resources/version-14-1-02.gif){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Dispersione spline su spline 2](version-14-1.resources/spline2.gif){zoomable="yes"}
+![Dispersione spline su spline 2](version-14-1.resources/version-14-1-03.gif){zoomable="yes"}
 
 </td>
 </tr>
@@ -49,7 +49,7 @@ Le spline e i nodi di percorso sono stati introdotti nella versione 13.0 e, graz
 
 Se desideri mantenere un grafico pulito e leggibile, gli [strumenti di allineamento dei nodi](../../interface/the-graph-view/node-alignment-tools/node-alignment-tools.md) sono stati creati per te e sono stati completamente rinnovati. Ora è possibile spaziare in modo uniforme i nodi (in orizzontale o in verticale) e allineando i nodi si evitano sovrapposizioni sovrapponendoli in modo ordinato. Ciliegia in alto: entrambe le funzionalità tengono conto delle dimensioni effettive dei nodi.
 
-![Allineare i nodi](version-14-1.resources/alignment.gif){zoomable="yes"}
+![Allineare i nodi](version-14-1.resources/version-14-1-04.gif){zoomable="yes"}
 
 ## Copia/incolla i parametri
 
@@ -59,7 +59,7 @@ Se desideri mantenere un grafico pulito e leggibile, gli [strumenti di allineame
 
 Il nuovo [strumento Sampler colori](../../interface/2d-view/color-sampler/color-sampler.md) nella vista 2D consente di tenere traccia del valore di un pixel selezionato rilasciando un perno su di esso. Questo è molto utile per assicurarti di visualizzare sempre le informazioni dello stesso pixel su più nodi in un grafico. Aprite il pannello Informazioni per accedere allo strumento e provatelo!
 
-![Campionatore colore: uso dello strumento](version-14-1.resources/color-sampler-demo.gif "Campionatore colore: uso dello strumento"){width="640px" zoomable="yes"}
+![Campionatore colore: uso dello strumento](version-14-1.resources/version-14-1-05.gif "Campionatore colore: uso dello strumento"){width="640px" zoomable="yes"}
 
 ## Miglioramenti alla ricerca
 
@@ -70,7 +70,7 @@ Lo strumento [Ricerca nodi](../../interface/the-graph-view/node-finder/node-find
 * Quando si abilita lo strumento Node Finder, l’attenzione viene impostata automaticamente sul campo di ricerca;
 * Il layout della barra degli strumenti è stato ripensato per risparmiare spazio.
 
-![Barra degli strumenti di ricerca](version-14-1.resources/search-53.png){width="640px"}
+![Barra degli strumenti di ricerca](version-14-1.resources/version-14-1-06.png){width="640px"}
 
 ## Video
 
@@ -78,12 +78,12 @@ Lo strumento [Ricerca nodi](../../interface/the-graph-view/node-finder/node-find
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![spline dispersione su spline](version-14-1.resources/video_spline.png)](https://www.youtube.com/watch?v=aUUWV1dYQdI)
+[![spline dispersione su spline](version-14-1.resources/version-14-1-07.png)](https://www.youtube.com/watch?v=aUUWV1dYQdI)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![funzionalità dell&#39;esperienza utente video](version-14-1.resources/video_ux.png)](https://www.youtube.com/watch?v=LwexybAEjaI)
+[![funzionalità dell&#39;esperienza utente video](version-14-1.resources/version-14-1-08.png)](https://www.youtube.com/watch?v=LwexybAEjaI)
 
 </td>
 </tr>

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-random.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo Affianca casuale per creare pattern di riquadri casuali con variazioni procedurali per effetti di texture organica.
+description: Utilizzate il nodo Affianca casuale per creare pattern di riquadri casuali con variazioni procedurali per gli effetti di texture organica.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Tile Random
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Affianca casuale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](tile-random.resources/tile-random.png){width="128px"}
+![](tile-random.resources/tile-random-01.png){width="128px"}
 
 <b>In:</b> Generatori > Pattern
 
@@ -33,7 +33,7 @@ ht-degree: 7%
 
 ## Descrizione
 
-Porzione Casuale genera un motivo di porzione procedurale che presenta un po&#39; più di caos nelle forme delle porzioni rispetto alla sua controparte, [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md). Lo fa dividendo casualmente alcune porzioni in porzioni più piccole. Ti consigliamo di trovare prima il modo di aggirare il Tile Generator prima di affrontare Tile Random, come molti concetti sono simili.
+Porzione Casuale genera un motivo di porzione procedurale che presenta un po&#39; più di caos nelle forme della porzione rispetto alla sua controparte, [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md). Lo fa dividendo casualmente alcune porzioni in porzioni più piccole. Ti consigliamo di trovare prima il modo di aggirare il Tile Generator prima di affrontare Tile Random, come molti concetti sono simili.
 
 Affianca casuale viene utilizzato al posto di [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md) quando l&#39;obiettivo è un modello meno organizzato e dall&#39;aspetto più vecchio. Tuttavia, presenta dei limiti, quindi [Affianca Sampler](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md) per qualsiasi altra esigenza avanzata.
 
@@ -106,7 +106,7 @@ Affianca casuale viene utilizzato al posto di [Tile Generator](../../../../../..
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="tile-random.resources/tile-random-1.png" />
+            <img src="tile-random.resources/tile-random-02.png" />
         </td>
     </tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Cubo 3D GBuffer
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](cube-3d-gbuffers.resources/cube3d.png){width="128px"}
+![](cube-3d-gbuffers.resources/cube-3d-gbuffers-01.png){width="128px"}
 
 <b>Ingresso:</b> Generatori Texture > Pattern
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Poligono tracciati
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo](paths-polygon.resources/paths-polygon-icon.png "Icona nodo")
+![Icona nodo](paths-polygon.resources/paths-polygon-01.png "Icona nodo")
 
 <b>In:</b> Strumenti spline e tracciati > Strumenti tracciato
 
@@ -63,12 +63,12 @@ Utilizza il nodo [Trasformazione 2D tracciato](../../../../../../compositing-gra
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 1](paths-polygon.resources/PathsPolygon_Variant1_1.jpg "Esempio di nodo 1")
+![Esempio di nodo 1](paths-polygon.resources/paths-polygon-02.jpg "Esempio di nodo 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 2](paths-polygon.resources/PathsPolygon_Variant2.jpg "Esempio di nodo 2")
+![Esempio di nodo 2](paths-polygon.resources/paths-polygon-03.jpg "Esempio di nodo 2")
 
 </td>
 </tr>

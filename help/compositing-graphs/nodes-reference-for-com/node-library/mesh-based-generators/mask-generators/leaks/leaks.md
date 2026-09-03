@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Perdite
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](leaks.resources/leaks.png){width="128px"}
+![](leaks.resources/leaks-01.png){width="128px"}
 
 <b>In:</b> Generatori Basati Su Trama > Generatori di maschere
 
@@ -74,7 +74,7 @@ Assicuratevi di provare a modificare la maschera di variazione: poiché guida il
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="leaks.resources/leaks-ex.gif" />
+            <img src="leaks.resources/leaks-02.gif" />
         </td>
     </tr>
 </table>

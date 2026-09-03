@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Gestione plug-in
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 3%
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 La finestra di dialogo <b>Gestione plug-in</b> è accessibile dal menu <b>Strumenti</b> nella barra dei menu principale. Consente di visualizzare i plug-in *attivi* e i plug-in *carica e scarica*.
 
-![Gestione plug-in](plugin-manager.resources/pluginmgr.png "Gestione plug-in")
+![Gestione plug-in](plugin-manager.resources/plugin-manager-01.png "Gestione plug-in")
 
 È anche possibile *caricare manualmente* i plug-in utilizzando il pulsante <b>Sfoglia</b> e scegliendo un file Python.
 

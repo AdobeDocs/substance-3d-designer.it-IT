@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline (Quadratico)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '824'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Spline (Quadratic): icon](spline-quadratic.resources/spline-quadratic-icon.png "Spline (Quadratic): icon")
+![Spline (Quadratic): icon](spline-quadratic.resources/spline-quadratic-01.png "Spline (Quadratic): icon")
 
 <b>In:</b> Strumenti Spline E Tracciati > Strumenti spline
 
@@ -75,7 +75,7 @@ L&#39;estensione dell&#39;arco formato dalla spline è *regolabile*, in modo che
 | <b>Distribuzione uniforme</b> <i>Booleano</i> | Se <i>Vero</i>, i punti della spline sono equamente distanziati dall&#39;inizio alla fine. |
 | <b>Aggiungi spline di input</b> <i>Booleano</i> | Aggiunge la spline generata alla fine dell&#39;elenco di spline connesse agli input <b>Spline</b>. |
 | <b>Correzione non quadrata</b> <i>Booleano</i> | Regolate le posizioni e il thickness dei punti per mantenere la forma della spline in risoluzioni non quadrate. Questo incide anche sulla distribuzione uniforme. |
-| <b>Smoothness</b> <i>Mobile</i> | Regola l&#39;<i>estensione dell&#39;arco</i> formato dalla spline, dove 1 indica che la spline è completamente arcuata e 0 indica che la spline è completamente dritta. L&#39;arco progredisce dal punto <b>p3</b> lungo la spline fino alle estremità. |
+| <b>Smoothness</b> <i>Virgola mobile</i> | Regola l&#39;<i>estensione dell&#39;arco</i> formato dalla spline, dove 1 indica che la spline è completamente arcuata e 0 indica che la spline è completamente dritta. L&#39;arco progredisce dal punto <b>p3</b> lungo la spline fino alle estremità. |
 | <b>Height</b> |  |
 | <b>Inizia height</b> <i>Mobile</i> | Regola il height del punto <b>p1</b> in cui un valore più basso indica una posizione più bassa o più profonda.<br>Questo influisce sul height della spline in <b>p1</b>. |
 | <b>Fine height</b> <i>Mobile</i> | Regola il height del punto <b>p3</b> in cui un valore più basso indica una posizione più bassa o più profonda.<br>Questo influisce sul thickness della spline in <b>p3</b>. |
@@ -103,12 +103,12 @@ L&#39;estensione dell&#39;arco formato dalla spline è *regolabile*, in modo che
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Spline (Quadratic): Esempio 1](spline-quadratic.resources/spline-quadratic-example-1.png "Spline (Quadratic): Esempio 1"){zoomable="yes"}
+![Spline (Quadratic): Esempio 1](spline-quadratic.resources/spline-quadratic-02.png "Spline (Quadratic): Esempio 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Spline (Quadratic): Esempio 2](spline-quadratic.resources/spline-quadratic-example-2.png "Spline (Quadratic): Esempio 2"){zoomable="yes"}
+![Spline (Quadratic): Esempio 2](spline-quadratic.resources/spline-quadratic-03.png "Spline (Quadratic): Esempio 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -118,7 +118,7 @@ L&#39;estensione dell&#39;arco formato dalla spline è *regolabile*, in modo che
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Spline (Quadratic): Demo](spline-quadratic.resources/spline-quadratic-demo.gif "Spline (Quadratic): Demo"){zoomable="yes"}
+![Spline (Quadratic): Demo](spline-quadratic.resources/spline-quadratic-04.gif "Spline (Quadratic): Demo"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">

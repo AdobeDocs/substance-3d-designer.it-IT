@@ -1,16 +1,16 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/multi-directional-warp.html"
 breadcrumb-title: ''
-description: Usate il nodo Alterazione multidirezionale per applicare gli effetti di alterazione in più direzioni per la creazione di serie di distorsioni complesse.
+description: Utilizzare il nodo Alterazioni direzionali multiple per applicare effetti di alterazione in più direzioni per la creazione di serie di distorsioni complesse.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Multi Directional Warp
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Alterazione multidirezionale
+title: Alterazioni direzionali multiple
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 3%
@@ -18,13 +18,13 @@ ht-degree: 3%
 ---
 
 
-# Alterazione multidirezionale
+# Alterazioni direzionali multiple
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](multi-directional-warp.resources/multi-directional-warp-color.png)![](multi-directional-warp.resources/multi-directional-warp-grayscalepng.png)
+![](multi-directional-warp.resources/multi-directional-warp-01.png)![](multi-directional-warp.resources/multi-directional-warp-02.png)
 
 <b>Ingresso:</b> Filtri > Effetti
 
@@ -33,7 +33,7 @@ ht-degree: 3%
 
 ## Descrizione
 
-Alterazione multidirezionale applica [Alterazione direzionale](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md) più volte in direzioni opposte, mentre la texture spostata rimane al suo posto. Differisce dall&#39;Alterazione direzionale standard in quanto può spingere in più direzioni, mentre la versione atomica ne consente solo una. In questo modo viene risolto il problema classico per cui Alterazione direzione sembra sempre allontanare troppo l’immagine in un’unica direzione, invece di funzionare lungo più direzioni o assi.
+Alterazione multidirezionale applica [Alterazione direzionale](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md) più volte in direzioni opposte, mentre la texture spostata rimane al suo posto. Differisce dall&#39;Alterazione direzionale standard in quanto può spingere in più direzioni, mentre la versione atomica ne consente solo una. In questo modo si risolve il classico problema per cui l’Alterazione direzionale sembra sempre allontanare troppo l’immagine in un’unica direzione, invece di funzionare lungo più direzioni o assi.
 
 Differisce principalmente da [Non Uniform Directional Warp](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/non-uniform-directional/non-uniform-directional-warp.md) in quanto è leggermente più limitato: la direzione dell&#39;alterazione è controllata solo tramite parametri e non può essere impostata tramite una mappa di input. Il vantaggio è che è leggermente più facile da usare e può essere più preciso a seconda del caso d&#39;uso.
 

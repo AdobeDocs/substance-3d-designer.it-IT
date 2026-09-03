@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline Bridge (elenco)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo](spline-bridge-list.resources/spline-bridge-list-icon.png "Icona nodo")
+![Icona nodo](spline-bridge-list.resources/spline-bridge-list-01.png "Icona nodo")
 
 <b>In:</b> Strumenti Spline E Tracciati > Strumenti spline
 
@@ -113,11 +113,11 @@ Le spline generate possono essere lineari (dritte) o quadratiche (curve).
 <table>
   <tr>
     <td>
-      <img src="spline-bridge-list.resources/SplineBridge-List_Variant1_Before.jpg" alt="SplineBridge-List_Variant1_Before">
+      <img src="spline-bridge-list.resources/spline-bridge-list-02.jpg" alt="SplineBridge-List_Variant1_Before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="spline-bridge-list.resources/SplineBridge-List_Variant1_After.jpg" alt="SplineBridge-List_Variant1_After">
+      <img src="spline-bridge-list.resources/spline-bridge-list-03.jpg" alt="SplineBridge-List_Variant1_After">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -126,10 +126,10 @@ Le spline generate possono essere lineari (dritte) o quadratiche (curve).
 </td>
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 2](spline-bridge-list.resources/SplineBridge-List_Demo.gif "Esempio di nodo 2")
+![Esempio di nodo 2](spline-bridge-list.resources/spline-bridge-list-04.gif "Esempio di nodo 2")
 
 </td>
 </tr>
 </table>
 
-![Nodo nel grafico](spline-bridge-list.resources/SplineBridge-List_Graph.jpg "Nodo nel grafico")
+![Nodo nel grafico](spline-bridge-list.resources/spline-bridge-list-05.jpg "Nodo nel grafico")

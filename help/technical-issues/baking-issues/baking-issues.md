@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Problemi di cottura
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 21af965a075e8c119d16922f15b867da99c21397
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 0%
@@ -45,7 +45,7 @@ A partire da Designer 15.0, il nome degli oggetti *geometry* viene utilizzato di
 </td>
 <td style="border: 0;" valign="top">
 
-![Oggetto Geometry e relativo elemento padre nell&#39;albero della scena](baking-issues.resources/sceneTree_objectsName.png "Oggetto Geometry e relativo elemento padre nell&#39;albero della scena"){zoomable="yes"}
+![Oggetto Geometry e relativo elemento padre nell&#39;albero della scena](baking-issues.resources/baking-issues-01.png "Oggetto Geometry e relativo elemento padre nell&#39;albero della scena"){zoomable="yes"}
 
 </td>
 </tr>

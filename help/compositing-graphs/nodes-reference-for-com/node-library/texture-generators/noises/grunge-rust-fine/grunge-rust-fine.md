@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ruggine di grunge fine
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-rust-fine.resources/grungerustfine.jpg){width="200px"}
+![](grunge-rust-fine.resources/grunge-rust-fine-01.jpg){width="200px"}
 
 <b>Ingresso:</b> Generatori di Texture > Rumori
 
@@ -53,7 +53,7 @@ Il nodo **Ruggine di Grunge fine** genera una mappa di grunge simile a una sovra
 | <b>Contrasto Grunge di base</b> <i>Mobile</i> | Regola il contrasto della texture di grunge utilizzata come base per la ruggine. |
 | <b>Intensità alterazione base</b> <i>Mobile</i> | Regola l’intensità dell’effetto di alterazione applicato alla mappa della grunge usata come base per la ruggine. |
 | <b>Intensità striature</b> <i>Mobile</i> | Regola l’intensità delle striature e delle macchie più luminose sovrapposte alla texture di grunge alla base. |
-| <b>Intensità disturbo</b> <i>Mobile</i> | Consente di regolare l’intensità del disturbo applicato alla texture di grunge di base. |
+| <b>Intensità disturbo</b> <i>Virgola mobile</i> | Consente di regolare l’intensità del disturbo applicato alla texture di grunge di base. |
 | <b>Intensità nitidezza</b> <i>Mobile</i> | Regola l’intensità dell’effetto di nitidezza globale. |
 
 ## Esempi
@@ -61,10 +61,10 @@ Il nodo **Ruggine di Grunge fine** genera una mappa di grunge simile a una sovra
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-rust-fine.resources/grungerustfine-variant2.jpg" />
+            <img src="grunge-rust-fine.resources/grunge-rust-fine-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="grunge-rust-fine.resources/grungerustfine-variant.jpg" />
+            <img src="grunge-rust-fine.resources/grunge-rust-fine-03.jpg" />
         </td>
     </tr>
 </table>

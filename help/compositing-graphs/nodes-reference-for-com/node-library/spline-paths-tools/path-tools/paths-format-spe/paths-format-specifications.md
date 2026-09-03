@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Specifiche formato tracciati
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '2491'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Tutti i dati di un pixel nella parte &quot;superiore&quot; sono semanticamente c
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Percorsi Dati con codifica poligonale](paths-format-specifications.resources/PathsPolygon_Data.jpg "Percorsi Dati con codifica poligonale")
+![Percorsi Dati con codifica poligonale](paths-format-specifications.resources/paths-format-specifications-01.jpg "Percorsi Dati con codifica poligonale")
 
 </td>
 </tr>
@@ -49,7 +49,7 @@ Tutti i dati di un pixel nella parte &quot;superiore&quot; sono semanticamente c
 >
 > I dati dei percorsi richiedono una precisione di 32 bit e l&#39;utilizzo di una profondità di bit inferiore produrrà risultati errati.
 > 
-> Pertanto, assicuratevi di impostare il parametro &#39;Formato output&#39; dei nodi che generano i dati dei percorsi su &#39;HDR High Precision (32F)&#39;.
+> Pertanto, assicurati di impostare il parametro &#39;Formato output&#39; dei nodi che generano i dati dei percorsi su &#39;HDR High Precision (32F)&#39;.
 
 Sia `*uv\_pos*` un indirizzo 2D (ad esempio *$pos*) di un pixel della parte &#39;superiore&#39;.
 
@@ -58,7 +58,7 @@ Nel resto del documento:
 * <b>top[uv\_pos].XYZW</b> farà riferimento ai 4 float memorizzati nel pixel della parte superiore.\
   top[uv\_pos] == esempio\_color(percorsi, uv\_pos)
 * <b>bottom[uv\_pos].XYZW</b> farà riferimento ai 4 float memorizzati nel pixel corrispondente della parte inferiore.\
-  bottom[uv\_pos] == esempio\_color(paths, uv\_pos + Float2(0, 0.5))
+  bottom[uv\_pos] == esempio\_color(paths, uv\_pos + Virgola mobile 2(0, 0.5))
 
 top[uv\_pos] e bottom[uv\_pos] insieme formano un&#39;unità semantica U[uv\_pos] del documento, composta da 8 float.
 
@@ -269,11 +269,11 @@ Si noti che per semplicità, si presume che <b>Le informazioni sui percorsi veng
 
 È possibile controllare `*paths\_trace*` [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md), nel parametro Iterazioni del terzo nodo iterato, per un esempio di come utilizzarlo.
 
-![Use case minimo di sample_next](paths-format-specifications.resources/paths-spec_fxmap-sample-next_02.png "Use case minimo di sample_next")
+![Use case minimo di sample_next](paths-format-specifications.resources/paths-format-specifications-02.png "Use case minimo di sample_next")
 
 
 
-![Utilizzo di case di sample_next nei percorsi di anteprima (path_trace)](paths-format-specifications.resources/paths-spec_fxmap-sample-next_01.png "Utilizzo di case di sample_next nei percorsi di anteprima (path_trace)")
+![Utilizzo di case di sample_next nei percorsi di anteprima (path_trace)](paths-format-specifications.resources/paths-format-specifications-03.png "Utilizzo di case di sample_next nei percorsi di anteprima (path_trace)")
 
 
 
@@ -288,7 +288,7 @@ Questo è destinato a funzionare su tracciati chiusi. Per i tracciati aperti, il
 
 Nella cartella `Write`, troverai piccoli helper che creano un Float4 pronto per essere scritto <b>da un [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)</b>.
 
-In effetti, [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) moltiplica RGB per Alpha prima di disegnare, quindi i valori effettivi non vengono premoltiplicati per compensare. Se desideri utilizzare queste funzioni, ad esempio in un [Elaboratore pixel](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), ti consigliamo di applicare nuovamente la premoltiplicazione o di scrivere una versione personalizzata (più ottimizzata per il tuo caso d&#39;uso e più facile da usare).
+In effetti, [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) moltiplica RGB per Alpha prima di disegnare, quindi i valori effettivi non vengono premoltiplicati per compensare. Se si desidera utilizzare queste funzioni, ad esempio in un [processore pixel](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), si consiglia di applicare nuovamente la premoltiplicazione o di scrivere una versione personalizzata (più ottimizzata per il caso d&#39;uso e più facile da usare).
 
 +++document_header
 Crea la parte superiore dell’intestazione del documento, dichiarando il numero di percorsi forniti.
@@ -312,13 +312,13 @@ Informazioni sul parametro *mid\_vertex* e *hasTrivialLinks*: se preferisci impo
 
 +++
 
-Non esiste un generatore di parti inferiori per le intestazioni di percorso e i vertici: entrambi codificano due collegamenti alla parte superiore, quindi questa funzione sarebbe essenzialmente un costruttore Vettore Float4 da due Virgola mobile2. Non dimenticare di dividere XYZ per W se scrivi utilizzando una [Mappa Fx](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) (dove W è la Y di un indirizzo e non deve mai essere null).
+Non esiste un generatore di parti inferiori per le intestazioni di percorso e i vertici: entrambi codificano due collegamenti alla parte superiore, quindi questa funzione sarebbe essenzialmente un costruttore Vector Float4 da due Float2. Non dimenticare di dividere XYZ per W se scrivi utilizzando una [Mappa Fx](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) (dove W è la Y di un indirizzo e non deve mai essere null).
 
 Troverai un esempio pertinente di come utilizzare queste funzioni nel pacchetto <b>*paths\_polygon.sbs* </b>che ospita il nodo [Paths Polygon](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-polygon/paths-polygon.md).
 
 ### Metodi per l’elaborazione dei tracciati
 
-È probabile che per implementare l&#39;elaborazione personalizzata si utilizzi un Elaboratore pixel o una mappa Fx, ognuno dei quali ha i propri punti di forza e di debolezza:
+Per implementare l’elaborazione personalizzata, probabilmente utilizzerai un processore pixel o una mappa Fx, ognuno dei quali ha i suoi punti di forza e di debolezza:
 
 +++FX-Map
 La soluzione basata su [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) sarà in genere preferita quando si eseguono operazioni di alto livello che richiedono una conoscenza globale dell&#39;intero percorso (o percorsi) o una conoscenza cumulativa (ad esempio, se si esegue il reinserimento dei vertici dopo la decimazione o la tassellatura). È anche il metodo più semplice da utilizzare, quindi se si esegue un&#39;elaborazione personalizzata per la prima volta, è possibile utilizzare una mappa Fx, nonostante *potrebbe* essere più lenta.
@@ -330,7 +330,7 @@ Si consiglia di esaminare l&#39;implementazione di [Anteprima tracciati](../../.
 +++
 
 +++Elaborazione pixel
-La soluzione [Elaboratore pixel](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) sarà adatta se sono necessarie solo informazioni &quot;locali&quot;. Qui intendiamo &quot;locale&quot; non spazialmente (la distanza tra gli elementi) ma piuttosto topologicamente (vertici collegati tra loro). Questo è il modo in cui viene implementato il Processore Vertice. L&#39;Elaboratore pixel è in genere più veloce della mappa Fx per questo tipo di operazione, poiché la funzione di ciascun pixel viene valutata in parallelo, mentre si accede solo a una quantità limitata di dati. Lo sforzo di implementazione potrebbe tuttavia essere molto più importante, in quanto è possibile modificare solo il pixel corrente.
+La soluzione [Pixel Processor](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) sarà adatta se sono necessarie solo informazioni &quot;locali&quot;. Qui intendiamo &quot;locale&quot; non spazialmente (la distanza tra gli elementi) ma piuttosto topologicamente (vertici collegati tra loro). Questo è il modo in cui viene implementato il Processore Vertice. Il processore pixel è in genere più veloce rispetto alla mappa Fx per questo tipo di operazioni, poiché la funzione di ciascun pixel viene valutata in parallelo, mentre si accede solo a una quantità limitata di dati. Lo sforzo di implementazione potrebbe tuttavia essere molto più importante, in quanto è possibile modificare solo il pixel corrente.
 
 Non entreremo nei dettagli, poiché c&#39;è così tanto da dire a seconda del tuo caso d&#39;uso specifico, ma la prima cosa da fare è verificare dove sei:
 

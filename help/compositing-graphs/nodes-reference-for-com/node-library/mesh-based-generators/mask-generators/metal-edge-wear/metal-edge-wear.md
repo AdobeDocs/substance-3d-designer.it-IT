@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Edge Wear metallico
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](metal-edge-wear.resources/metal-edge-wear.png){width="128px"}
+![](metal-edge-wear.resources/metal-edge-wear-01.png){width="128px"}
 
 <b>In:</b> Generatori Basati Su Trama > Generatori di maschere
 
@@ -35,7 +35,7 @@ ht-degree: 7%
 
 Genera una maschera in bianco e nero in base alle mappe con baking e alle impostazioni dell’utente. Simile a [Maschere avanzate](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) in [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
-Questa maschera rappresenta l&#39;usura dei bordi di un oggetto metallico, con graffi e scheggiature che appaiono sui bordi sollevati Convessi, potenzialmente mascherati da aree scure di AO cotte.
+Questa maschera rappresenta l&#39;usura dei bordi di un oggetto metallico, con graffi e scheggiature che appaiono sui bordi sollevati Convessi, potenzialmente mascherati da aree scure AO eseguite i baking.
 
 </td>
 </tr>
@@ -76,7 +76,7 @@ Questa maschera rappresenta l&#39;usura dei bordi di un oggetto metallico, con g
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="metal-edge-wear.resources/metal-edge-wear-ex.gif" />
+            <img src="metal-edge-wear.resources/metal-edge-wear-02.gif" />
         </td>
     </tr>
 </table>

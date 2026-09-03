@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Alterazione spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1135'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo](spline-warp.resources/spline-warp-icon.png "Icona nodo")
+![Icona nodo](spline-warp.resources/spline-warp-01.png "Icona nodo")
 
 <b>In:</b> Strumenti Spline E Tracciati > Strumenti spline
 
@@ -77,7 +77,7 @@ L’intensità dell’effetto di alterazione può essere regolata lungo la splin
 | <b>Modalità campionamento</b> <i>Numero intero</i> | Metodo di mappatura dei valori nella mappa di intensità o nella mappa vettoriale sulle spline:<br>- <i>spazio Texture</i>: i valori vengono applicati alle spline in cui si troverebbero se inseriti in una texture utilizzando le coordinate UV della texture. Questo applica efficacemente il valore alle spline &quot;in posizione&quot;;<br>- <i>Orizzontale lungo la spline</i>: i valori vengono applicati direttamente alle coordinate delle spline codificate (vedere l&#39;input Coord spline), in cui ogni riga viene applicata a una spline diversa dall&#39;alto verso il basso;<br>- <i>Hor. lungo spline (rand. offset X)</i>: i valori vengono applicati direttamente alle coordinate delle spline codificate (vedere l&#39;input Coord spline), con uno scostamento orizzontale casuale nella mappa Scala per ogni spline (ovvero, ogni riga nelle coordinate spline);<br>- <i>Hor. lungo spline (rand. offset Y)</i>: i valori vengono applicati direttamente alle coordinate delle spline codificate (vedere l&#39;input Coord spline), con uno scostamento verticale casuale nella mappa Scala per ogni spline (ovvero, ogni riga nelle coordinate spline). |
 | <b>Usa mappa vettoriale</b> <i>Booleano</i> | Passa il metodo di spostamento delle spline all&#39;uso di un input Mappa vettoriale per specificare la direzione dello spostamento.<br>Il colore di ciascun pixel nell&#39;immagine specifica il vettore (X, Y) le coordinate codificate nei canali rosso (X) e verde (Y). +X è corretto e +Y è inattivo.<br>I valori [0; 1] nell&#39;immagine vengono riassociati all&#39;intervallo [-1; 1] quando letti come coordinate vettoriali: 0 rosso sposta i punti a sinistra e 0 verde sposta i punti verso l&#39;alto. 0,5 rosso e verde lasciano la spline in posizione. |
 | <b>Usa curva di attenuazione</b> <i>Booleano</i> | Consente di controllare l’intensità dell’effetto di alterazione lungo una spline utilizzando una curva codificata nell’immagine di input Curva di attenuazione. |
-| <b>Affiancamento mappa intensità</b> <i>Mobile</i> | (Disponibile quando &quot;Modalità campionamento&quot; non è impostato su &quot;Spazio Texture&quot;) Regola l&#39;Affiancamento della mappa di intensità quando viene mappata direttamente alle coordinate della spline (vedere l&#39;input Coord spline). |
+| <b>Porzioni mappa intensità</b> <i>Mobile</i> | (Disponibile quando &quot;Modalità campionamento&quot; non è impostato su &quot;Spazio Texture&quot;) Regola l&#39;Affiancamento della mappa di intensità quando viene mappata direttamente alle coordinate della spline (vedere l&#39;input Coord spline). |
 | <b>Avvia attenuazione</b> <i>Mobile</i> | (Disponibile quando &quot;Usa curva di attenuazione&quot; è impostato su &quot;False&quot;) Un moltiplicatore per l&#39;attenuazione dell&#39;effetto di alterazione vicino all&#39;inizio della spline.<br>Un valore pari a 1 significa che non viene applicata alcuna alterazione all&#39;inizio della spline. |
 | <b>Termina attenuazione</b> <i>Mobile</i> | (Disponibile quando &quot;Usa curva di attenuazione&quot; è impostato su &quot;False&quot;) Moltiplicatore per l&#39;attenuazione dell&#39;effetto di alterazione vicino alla fine della spline.<br>Il valore 1 indica che non viene applicata alcuna alterazione alla fine della spline. |
 | <b>Ricalcola tangenti</b> <i>Booleano</i> | Se è True, le tangenti di una spline vengono ricalcolate dopo l&#39;applicazione dell&#39;effetto di alterazione.<br>In questo modo le tangenti della spline rimangono coerenti con la traiettoria quando vengono utilizzate in nodi quali Dispersione su spline o Spline Flow Mapper. |
@@ -97,11 +97,11 @@ L’intensità dell’effetto di alterazione può essere regolata lungo la splin
 <table>
   <tr>
     <td>
-      <img src="spline-warp.resources/SplineWarp-Variant1-Before.jpg" alt="SplineWarp-Variant1-Before">
+      <img src="spline-warp.resources/spline-warp-02.jpg" alt="SplineWarp-Variant1-Before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="spline-warp.resources/SplineWarp-Variant1-After.jpg" alt="SplineWarp-Variant1-After">
+      <img src="spline-warp.resources/spline-warp-03.jpg" alt="SplineWarp-Variant1-After">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -113,11 +113,11 @@ L’intensità dell’effetto di alterazione può essere regolata lungo la splin
 <table>
   <tr>
     <td>
-      <img src="spline-warp.resources/SplineWarp-Variant2-Before.jpg" alt="SplineWarp-Variant2-Before">
+      <img src="spline-warp.resources/spline-warp-04.jpg" alt="SplineWarp-Variant2-Before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="spline-warp.resources/SplineWarp-Variant2-After.jpg" alt="SplineWarp-Variant2-After">
+      <img src="spline-warp.resources/spline-warp-05.jpg" alt="SplineWarp-Variant2-After">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -131,7 +131,7 @@ L’intensità dell’effetto di alterazione può essere regolata lungo la splin
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 1](spline-warp.resources/SplineWarp-Demo.gif "Esempio di nodo 1")
+![Esempio di nodo 1](spline-warp.resources/spline-warp-06.gif "Esempio di nodo 1")
 
 </td>
 <td style="border: 0;" valign="top">

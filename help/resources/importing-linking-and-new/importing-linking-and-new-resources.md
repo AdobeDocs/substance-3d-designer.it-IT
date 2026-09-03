@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Importazione, collegamento e nuove risorse
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 2%
@@ -69,4 +69,4 @@ Quando si elimina una risorsa da un pacchetto, viene visualizzata la finestra di
 > Si consiglia di prestare attenzione a questi elementi e di intraprendere le azioni necessarie per *prevedere eventuali dipendenze interrotte* che potrebbero derivare dall&#39;eliminazione di elementi da un pacchetto.\
 > Queste azioni possono includere *la rimozione di tutti gli usi* di queste risorse prima dell&#39;eliminazione.
 
-![&quot;Risorsa eliminata in uso&quot; avviso](importing-linking-and-new-resources.resources/confirm-item-removal.png "&quot;Risorsa eliminata in uso&quot; avviso"){width="512px"}
+![&quot;Risorsa eliminata in uso&quot; avviso](importing-linking-and-new-resources.resources/importing-linking-and-new-resources-01.png "&quot;Risorsa eliminata in uso&quot; avviso"){width="512px"}

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Sezione trasversale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![&#39;Icona nodo sezione trasversale&#39;](cross-section.resources/cross-section-2.png "&#39;Icona nodo sezione trasversale&#39;"){width="200px"}
+![&#39;Icona nodo sezione trasversale&#39;](cross-section.resources/cross-section-01.png "&#39;Icona nodo sezione trasversale&#39;"){width="200px"}
 
 <b>Ingresso:</b> Filtri > Effetti
 
@@ -69,10 +69,10 @@ In alternativa, può essere utilizzato per creare forme e silhouette 2D difficil
 
 ## Esempi
 
-![Sezione trasversale: esempio 1](cross-section.resources/cross-section-example-01.gif "Sezione trasversale: esempio 1")
+![Sezione trasversale: esempio 1](cross-section.resources/cross-section-02.gif "Sezione trasversale: esempio 1")
 
-![Sezione trasversale: esempio 2](cross-section.resources/cross-section-example-02.gif "Sezione trasversale: esempio 2")
+![Sezione trasversale: esempio 2](cross-section.resources/cross-section-03.gif "Sezione trasversale: esempio 2")
 
-![Sezione trasversale: esempio 3](cross-section.resources/cross-section-example-03.png "Sezione trasversale: esempio 3")
+![Sezione trasversale: esempio 3](cross-section.resources/cross-section-04.png "Sezione trasversale: esempio 3")
 
-![Sezione trasversale: esempio 4](cross-section.resources/cross-section-example-04.png "Sezione trasversale: esempio 4")
+![Sezione trasversale: esempio 4](cross-section.resources/cross-section-05.png "Sezione trasversale: esempio 4")

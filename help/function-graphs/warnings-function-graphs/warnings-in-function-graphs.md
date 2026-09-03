@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Avvertenze nei grafici delle funzioni
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Il nodo di output di un grafico a funzioni è colorato in *arancione*.
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](warnings-in-function-graphs.resources/warnings-func-output.gif)
+![](warnings-in-function-graphs.resources/warnings-in-function-graphs-01.gif)
 
 </td>
 </tr>
@@ -71,7 +71,7 @@ Il nodo di output di un grafico a funzioni è colorato in *arancione*.
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](warnings-in-function-graphs.resources/warnings-func-output-type.gif)
+![](warnings-in-function-graphs.resources/warnings-in-function-graphs-02.gif)
 
 </td>
 </tr>
@@ -96,7 +96,7 @@ Immettere una stringa corrispondente al nome di una variabile *disponibile nell&
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](warnings-in-function-graphs.resources/warnings-func-empty-get.gif)
+![](warnings-in-function-graphs.resources/warnings-in-function-graphs-03.gif)
 
 </td>
 </tr>
@@ -125,7 +125,7 @@ Immettere una stringa nella proprietà **Set** dei nodi Set che generano questo 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](warnings-in-function-graphs.resources/warnings-func-empty-set.gif)
+![](warnings-in-function-graphs.resources/warnings-in-function-graphs-04.gif)
 
 </td>
 </tr>

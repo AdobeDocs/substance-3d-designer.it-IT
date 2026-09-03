@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Funzioni Hash
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo hash: icon](hash-functions.resources/hash-icon.png "Nodo hash: icon"){width="200px"}
+![Nodo hash: icon](hash-functions.resources/hash-functions-01.png "Nodo hash: icon"){width="200px"}
 
 <b>In:</b> Funzioni > Casuale
 
@@ -82,12 +82,12 @@ Versioni disponibili, con tipo di input e tipo di output:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Esempio di hash 14](hash-functions.resources/hash14-example.png "Esempio di hash 14"){zoomable="yes"}
+![Esempio di hash 14](hash-functions.resources/hash-functions-02.png "Esempio di hash 14"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Esempio di hash 32](hash-functions.resources/hash32-example.png "Esempio di hash 32"){zoomable="yes"}
+![Esempio di hash 32](hash-functions.resources/hash-functions-03.png "Esempio di hash 32"){zoomable="yes"}
 
 </td>
 </tr>

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/brick-generator.html"
 breadcrumb-title: ''
-description: Utilizzare il nodo Brick Generator per creare pattern di mattoni procedurali con proprietà personalizzabili di dimensioni, scostamento e malta.
+description: Utilizzare il nodo Brick Generator per creare pattern di mattoni procedurali con proprietà personalizzabili di dimensioni, offset e malta.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Brick Generator
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Generatore mattoni
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 8%
@@ -24,9 +24,9 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](brick-generator.resources/brick-generator.png){width="128px"}
+![](brick-generator.resources/brick-generator-01.png){width="128px"}
 
-<b>Ingresso:</b> Generatori texture > Pattern
+<b>Ingresso:</b> Generatori Texture > Pattern
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -62,10 +62,10 @@ Per ulteriori opzioni, vedere [Tile Generator](../../../../../../compositing-gra
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="brick-generator.resources/brick-generator-ex-01.gif" />
+            <img src="brick-generator.resources/brick-generator-02.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="brick-generator.resources/brick-generator-ex-02.gif" />
+            <img src="brick-generator.resources/brick-generator-03.gif" />
         </td>
     </tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Rumore di umidità 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Disturbo umidità 1 - Icona](moisture-noise.resources/moisture_noise_1.png "Disturbo umidità 1 - Icona"){width="200px"}
+![Disturbo umidità 1 - Icona](moisture-noise.resources/moisture-noise-01.png "Disturbo umidità 1 - Icona"){width="200px"}
 
 <b>Ingresso:</b> Generatori di texture > Rumori
 
@@ -60,7 +60,7 @@ Vedere anche: [Rumore di umidità 2](../../../../../../compositing-graphs/nodes-
 | <b>Scala</b> <i>Numero intero</i> | Suddivisione della griglia utilizzata per generare le porzioni di disturbo.    Un valore più elevato determina la creazione di più riquadri e un disturbo maggiore. |
 | <b>Disturbo</b> <i>Mobile</i> | Sposta gli ingredienti del disturbo.    Può essere utilizzato per animare il disturbo. |
 | <b>Velocità del disturbo</b> <i>Mobile</i> | Regola la distanza di spostamento applicata dal parametro <b>Disturbo</b>.    Questa opzione consente di controllare la velocità di spostamento durante l’animazione del disturbo. |
-| <b>anisotropia disturbo</b> <i>Mobile</i> | Controlla l&#39;estensione delle direzioni dello spostamento applicato dal parametro <b>Disturbo</b>, in cui un valore più alto determina una direzione più stretta e definita.    La direzione è controllata dal parametro <b>Angolo di anisotropia disturbo</b>. |
+| <b>anisotropia disturbo</b> <i>Virgola mobile</i> | Controlla l&#39;estensione delle direzioni dello spostamento applicato dal parametro <b>Disturbo</b>, in cui un valore più alto determina una direzione più stretta e definita.    La direzione è controllata dal parametro <b>Angolo di anisotropia disturbo</b>. |
 | <b>angolo di anisotropia di disturbo</b> <i>Mobile</i> | Controlla la direzione dello spostamento applicato dal parametro <b>Disturbo</b> quando il parametro <b>anisotropia disturbo</b> è diverso da zero. |
 | <b>Dimensione motivo</b> <i>Float2</i> | Moltiplicatore per la dimensione di un motivo a dispersione., dove 1,0 è la dimensione di deformazione originale. |
 | <b>Angolo motivo</b> <i>Mobile</i> | Angolo utilizzato per impostare la direzione della serie diffusa, in numero di giri e a partire da destra orizzontale. |
@@ -75,12 +75,12 @@ Vedere anche: [Rumore di umidità 2](../../../../../../compositing-graphs/nodes-
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Rumore di umidità 1 - Esempio 1](moisture-noise.resources/moisture_noise_1_1.png "Rumore di umidità 1 - Esempio 1"){zoomable="yes"}
+![Rumore di umidità 1 - Esempio 1](moisture-noise.resources/moisture-noise-02.png "Rumore di umidità 1 - Esempio 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Rumore di umidità 1 - Esempio 2](moisture-noise.resources/noise_moisture_noise_1_v2_speed0.6_aniso0.gif "Rumore di umidità 1 - Esempio 2"){zoomable="yes"}
+![Rumore di umidità 1 - Esempio 2](moisture-noise.resources/moisture-noise-03.gif "Rumore di umidità 1 - Esempio 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -90,12 +90,12 @@ Vedere anche: [Rumore di umidità 2](../../../../../../compositing-graphs/nodes-
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Rumore di umidità 1 - Esempio 3](moisture-noise.resources/noise_moisture_noise_1_v2_speed0.6_aniso1.gif "Rumore di umidità 1 - Esempio 3"){zoomable="yes"}
+![Rumore di umidità 1 - Esempio 3](moisture-noise.resources/moisture-noise-04.gif "Rumore di umidità 1 - Esempio 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Rumore di umidità 1 - Esempio 4](moisture-noise.resources/noise_moisture_noise_1_v2_speed0.3_aniso0.6.gif "Rumore di umidità 1 - Esempio 4"){zoomable="yes"}
+![Rumore di umidità 1 - Esempio 4](moisture-noise.resources/moisture-noise-05.gif "Rumore di umidità 1 - Esempio 4"){zoomable="yes"}
 
 </td>
 </tr>

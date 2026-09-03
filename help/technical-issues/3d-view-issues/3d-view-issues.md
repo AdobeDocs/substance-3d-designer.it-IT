@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Problemi della vista 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 21af965a075e8c119d16922f15b867da99c21397
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1629'
 ht-degree: 0%
@@ -101,7 +101,7 @@ Per impostazione predefinita, potete continuare a utilizzare il modulo di render
 4. Imposta l’opzione &quot;Modulo di rendering predefinito&quot; su &quot;OpenGL (obsoleto)&quot;
 5. Fare clic su &#39;OK&#39; per convalidare le modifiche
 
-Ora, per impostazione predefinita, in tutte le nuove viste 3D viene utilizzato il modulo di rendering OpenGL, che consente di continuare a lavorare come prima.
+Ora tutti i nuovi vista 3D useranno il modulo di rendering OpenGL per impostazione predefinita, che consente di continuare a lavorare come prima.
 
 >[!NOTE]
 >
@@ -123,7 +123,7 @@ In Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md) sono stat
 
 Le GPU supportate includono NVIDIA RTX 20 Series (Turing) o versioni successive, in base ai [requisiti di sistema](../../getting-started/system-requirements/system-requirements.md) di Designer.
 
-In base alle impostazioni predefinite, il vista 3D tornerà automaticamente al modulo di rendering OpenGL se l’opzione &quot;Modulo di rendering predefinito&quot; è impostata su &quot;Predefinito (modulo di rendering predefinito)&quot; nelle [Impostazioni progetto](../../interface/preferences-window/project-settings/project-settings.md).
+In base alle impostazioni predefinite, la Vista 3D tornerà automaticamente al modulo di rendering OpenGL se l’opzione &quot;Modulo di rendering predefinito&quot; è impostata su &quot;Predefinito (modulo di rendering predefinito)&quot; nelle [Impostazioni progetto](../../interface/preferences-window/project-settings/project-settings.md).
 
 Questa opzione può essere individuata e regolata come descritto di seguito:
 
@@ -136,7 +136,7 @@ Questa opzione può essere individuata e regolata come descritto di seguito:
 >
 > Al momento è possibile rilevare come non supportate solo le GPU della <b>serie NVIDIA GTX</b>.
 > 
-> Tuttavia, anche la maggior parte delle GPU AMD e Intel non è supportata e produrrà un rendering nero senza alcun messaggio. Consulta la voce &quot;vista 3D è completamente nero&quot; qui sopra per indicazioni su tali GPU.
+> Tuttavia, anche la maggior parte delle GPU AMD e Intel non è supportata e produrrà un rendering nero senza alcun messaggio. Consulta l&#39;elemento &quot;La vista 3D è completamente nera&quot; qui sopra per indicazioni su tali GPU.
 
 >[!IMPORTANT]
 >
@@ -163,7 +163,7 @@ La soluzione è piuttosto semplice: connettere l&#39;ultimo nodo del flusso che 
 </td>
 <td style="border: 0; width: 40%; vertical-align: top">
 
-![](3d-view-issues.resources/3dview-height-without-normals.gif){width="256px"}
+![](3d-view-issues.resources/3d-view-issues-01.gif){width="256px"}
 
 </td>
 </tr>
@@ -188,7 +188,7 @@ Apri il menu **Modifica** e seleziona l&#39;opzione **Preferenze...**. Nella fin
 </td>
 <td style="border: 0; width: 40%; vertical-align: top">
 
-![](3d-view-issues.resources/demo-viewport-scaling-option.png){width="256px"}
+![](3d-view-issues.resources/3d-view-issues-02.png){width="256px"}
 
 </td>
 </tr>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versione 15.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1894'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Questo aggiornamento introduce un nuovissimo modulo di rendering 3D, con modalit
 
 *Data di pubblicazione: 15 luglio 2025*
 
-![Banner](version-15-0.resources/banner-47.png "Versione 15.0 banner")
+![Banner](version-15-0.resources/version-15-0-01.png "Versione 15.0 banner")
 
 ## Nuovo renderizzatore 3D
 
@@ -32,7 +32,7 @@ Questo aggiornamento introduce un nuovissimo modulo di rendering 3D, con modalit
 
 Questa nuova versione offre l’accesso a un [modulo di rendering 3D](../../interface/3d-view/3d-renderers/3d-renderers.md) avanzato, con una modalità rasterizzatore (per avere un’anteprima in tempo reale mentre lavorate sul materiale) e una modalità tracciatore tracciato (una modalità ray tracing per ottenere un rendering perfetto e preciso). Questo nuovo modulo di rendering migliora le funzionalità con funzioni quali ombre in modalità rasterizzatore, migliora la qualità e le prestazioni ed è progettato per supportare tecnologie future come [MaterialX](https://materialx.org/). Completa i moduli di rendering OpenGL e Iray esistenti in Designer e si allinea con i moduli di rendering disponibili in Substance 3D Viewer e Substance 3D Sampler, garantendo un’esperienza uniforme in tutto l’ecosistema.
 
-![ombre e trasparenza nella rasterizzazione](version-15-0.resources/feature_1b.png)
+![ombre e trasparenza nella rasterizzazione](version-15-0.resources/version-15-0-02.png)
 
 La [barra degli strumenti della vista 3D](../../interface/3d-view/3d-view.md) è stata aggiornata per accedere rapidamente ad alcune delle nuove funzioni disponibili in questo modulo di rendering:
 
@@ -51,13 +51,13 @@ Inoltre, il tasto di scelta rapida per ruotare la luce ambiente è stato modific
 * <b>Mappatura toni: </b>l&#39;intervallo di colori con profili per ottenere un effetto HDR (High-Dynamic-Range).
 * <b>Profondità di campo:</b> simula le proprietà di messa a fuoco di un obiettivo della fotocamera (solo rasterizzatore).
 
-![Post FX in Designer 15.0](version-15-0.resources/postfx.gif)
+![Post FX in Designer 15.0](version-15-0.resources/version-15-0-03.gif)
 
 ## Edizione delle risorse nel contesto
 
 Quando lavori sui tuoi materiali, potresti voler [visualizzarli in anteprima nel contesto di una scena 3D specifica](../../working-with-3d-scenes/working-with-3d-scenes.md). Ecco perché abbiamo aggiunto la possibilità di importare ed eseguire il rendering di una scena completa, con tutte le texture, le fotocamere e le luci. E ciliegia in alto, se questa scena fa riferimento a Ombreggiature MaterialX, verranno renderizzati correttamente con il rasterizzatore!
 
-![Scena USD caricata e sottoposta a rendering in Designer](version-15-0.resources/feature_2.png)
+![Scena USD caricata e sottoposta a rendering in Designer](version-15-0.resources/version-15-0-04.png)
 
 Una volta importato, puoi lavorare sulla scena selezionando una trama (con MAIUSC + clic o grazie al browser scene) e [ignorandone uno qualsiasi dei materiali](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md). L’Utente può quindi:
 
@@ -76,17 +76,17 @@ Sono state introdotte descrizioni avanzate per illustrare meglio lo scopo di ogn
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![nodo di fusione](version-15-0.resources/blend.gif)
+![nodo di fusione](version-15-0.resources/version-15-0-05.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![nodo sfocatura](version-15-0.resources/blur.gif)
+![nodo sfocatura](version-15-0.resources/version-15-0-06.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![nodo di distanza](version-15-0.resources/distance.gif)
+![nodo di distanza](version-15-0.resources/version-15-0-07.gif)
 
 </td>
 </tr>
@@ -96,7 +96,7 @@ Sono state introdotte descrizioni avanzate per illustrare meglio lo scopo di ogn
 
 Se dovete lavorare con texture non quadrate, questa nuova opzione è stata creata appositamente. Nelle [proprietà del materiale](../../interface/3d-view/material-properties/material-properties.md) nella vista 3D, nelle opzioni UV per controllare la suddivisione in porzioni, è ora possibile impostare un valore diverso per entrambi gli assi.
 
-![diversa scala U V](version-15-0.resources/nonsquare.png){zoomable="yes"}
+![diversa scala U V](version-15-0.resources/version-15-0-08.png){zoomable="yes"}
 
 ## Baker
 
@@ -110,7 +110,7 @@ Ogni anno, la [VFX Reference Platform](https://vfxplatform.com/) pubblica un ele
 
 ## Video
 
-[![Aggiornamento Substance 3D Designer: nuovo modulo di rendering, Post FX e modifica contesto | Adobe Substance 3D](version-15-0.resources/video_15.png)](https://www.youtube.com/watch?v=6EkXxu-0Q_E)
+[![Aggiornamento Substance 3D Designer: nuovo modulo di rendering, Post FX e modifica contesto | Adobe Substance 3D](version-15-0.resources/version-15-0-09.png)](https://www.youtube.com/watch?v=6EkXxu-0Q_E)
 
 ## Note sulla versione
 
@@ -190,8 +190,8 @@ Ogni anno, la [VFX Reference Platform](https://vfxplatform.com/) pubblica un ele
 * [Preferenze] Memorizzare le preferenze per le versioni secondarie di SD (XX.X)
 * [VFX] Aggiornamento incrementale alla versione 1.85.0
 * [VFX] Aggiornate MacOS versione minima alla versione 12.0
-* [VFX] Aggiornare OpenColorIO alla versione 2.4.2
-* [VFX] Aggiornamento di OpenColorIO alla versione 2.4.x
+* [VFX] Aggiornamento OpenColorIO alla versione 2.4.2
+* [VFX] Aggiornamento OpenColorIO alla versione 2.4.x
 * [VFX] Aggiornamento di OpenExr alla versione 3.3.x
 * [VFX] Aggiornare Qt alla versione 6.5.8
 
@@ -199,17 +199,17 @@ Ogni anno, la [VFX Reference Platform](https://vfxplatform.com/) pubblica un ele
 
 * [Vista 3D] Le texture nella scena USD esportata non vengono applicate correttamente
 * [Vista 3D] [UDIM] Impossibile visualizzare gli output del grafico UDIM in Vista 3D quando la visualizzazione automatica all&#39;apertura del grafico è disattivata nelle preferenze del grafico
-* [Panettieri] &#39;Antialiasing.&#39; e &#39;Media. le celle normali per i forni non applicabili sono vuote e modificabili
-* [Bakers] L’azione &quot;Aggiorna&quot; utilizza il backend ray tracing quando è disattivato nelle preferenze
+* [Panettieri] &#39;Antialiasing.&#39; e &#39;Media. le celle normali per i baker non applicabili sono vuote e modificabili
+* [Baker] L’azione &quot;Aggiorna&quot; utilizza il back-end raytracing quando è disattivato nelle preferenze
 * [Panettieri] Panettieri bloccati come occupati dopo un errore durante il processo &quot;Aggiorna tutte le mappe con baking&quot;
-* [Bakers] Arresto anomalo a oltre 180 UDIM durante la cottura della mappa di posizione OpenGL su una trama specifica
-* [Bakers] Arresto anomalo quando si apre la finestra di dialogo &quot;Informazioni modello di forno&quot; più volte di seguito (solo macOS)
-* [Bakers] Nell’esportazione dei predefiniti JSON, il valore &quot;udim&quot; è sostituito da &quot;1001&quot; quando era impostato su &quot;All&quot;
+* [Baker] Arresto anomalo a oltre 180 UDIM quando si esegue i baking la mappa di posizione OpenGL su una trama specifica
+* [Baker] Arresto anomalo quando si apre la finestra di dialogo &quot;Esegue i baking informazioni sul modello&quot; più volte in una riga (solo macOS)
+* [Baker] Nell’esportazione dei predefiniti JSON, il valore &quot;udim&quot; è sostituito da &quot;1001&quot; quando era impostato su &quot;All&quot;
 * [Baker] Memoria non rilevata correttamente su Linux
-* [Bakers] La dipendenza di input mappa mancante non attiva il rendering di avvisi e/o blocchi
-* [Bakers] Nessuna etichetta di errore quando il nome dell&#39;output è vuoto
+* [Baker] La dipendenza di input mappa mancante non attiva il rendering di avvisi e/o blocchi
+* [Baker] Nessuna etichetta di errore quando il nome dell&#39;output è vuoto
 * [Pannelli] Il passaggio della trama ad alto poli dal file non ha alcun effetto
-* [Bakers] Il baker di destinazione non è selezionato per impostazione predefinita quando si utilizza l&#39;azione &quot;Rebake&quot;
+* [Baker] Il baker di destinazione non è selezionato per impostazione predefinita quando si utilizza l’azione &quot;Ripristina&quot;
 * [Engine] Distanza: visibile &quot;taglio&quot; in alcune situazioni
 * [Engine] Mappa Fx: i colori negativi non sono supportati quando la profondità di bit è 8 bit (solo motori GPU)
 * [Localizzazione] L’input di caratteri torna dal giapponese al latino nel menu dei nodi

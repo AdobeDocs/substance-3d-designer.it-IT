@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/splatter.html"
 breadcrumb-title: ''
-description: Usa il nodo Splatter per dispersione le forme tra le texture per creare pattern casuali e dettagli di texture organiche.
+description: Usa il nodo Splatter per creare forme dispersioni tra texture per creare pattern casuali e dettagli di texture organiche.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Splatter
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Schizzo
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 9%
@@ -24,11 +24,11 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](splatter.resources/splatter.png)
+![](splatter.resources/splatter-01.png)
 
-![](splatter.resources/splatter-color.png)
+![](splatter.resources/splatter-02.png)
 
-<b>Ingresso:</b> Generatori texture > Pattern
+<b>Ingresso:</b> Generatori Texture > Pattern
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -55,12 +55,12 @@ Tieni presente che i parametri di splatter predefiniti non sembrano affatto casu
 | <b>Height dimensioni pattern</b> <i>0.0 - 1000.0</i> | Numero di serie da utilizzare sull&#39;asse Y. |
 | <b>Rotazione</b> <i>-360.0 - 360.0</i> | Ruota ogni pattern di un valore impostato. |
 | <b>Variazione rotazione</b> <i>0.0 - 360.0</i> | Introduce una rotazione casuale per ogni forma separata. |
-| <b>Zoom</b> <i>100.0 - 10000.0</i> | Ridimensiona il risultato finale. Tenete presente che questo rompe la suddivisione in porzioni! |
+| <b>Zoom</b> <i>100.0 - 10000.0</i> | Ridimensiona il risultato finale. Tenete presente che questo rompe Affiancamento! |
 | <b>Guadagno</b> <i>0.0 - 10.0</i> | Regola il guadagno di fusione di ogni pattern. Le fa risaltare di più. |
 | <b>Panning X</b> <i>-100.0 - 100.0</i> | Esegue il panning dell&#39;intero risultato sull&#39;asse X. |
 | <b>Panning Y</b> <i>-100.0 - 100.0</i> | Esegue il panning dell&#39;intero risultato sull&#39;asse Y. |
 | <b>Disturbo</b> <i>0.0 - 100.0</i> | Sposta le forme a caso. |
-| <b>Numero griglia</b> <i>0 - 8</i> | Passa da una dimensione all’altra della griglia per regolare la scala dei risultati. Mantiene le porzioni. |
+| <b>Numero griglia</b> <i>0 - 8</i> | Passa da una dimensione all’altra della griglia per regolare la scala dei risultati. Mantiene Affiancamento. |
 | <b>Angolo disturbo</b> <i>0.0 - 360.0</i> | Controlla l’angolo di spostamento del disturbo. |
 | <b>Disturbo casuale</b> <i>Falso/Vero</i> | Rende casuale l&#39;angolo del disturbo, aggiungendo molto più caos. |
 | <b>Dimensione motivo</b> <i>5 - 12</i> |  |
@@ -77,7 +77,7 @@ Tieni presente che i parametri di splatter predefiniti non sembrano affatto casu
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="splatter.resources/splatter-ex.gif" />
+            <img src="splatter.resources/splatter-03.gif" />
         </td>
     </tr>
 </table>

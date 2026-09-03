@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-leaky-paint.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo Grunge con perdita per generare pattern di perdita di colore per creare effetti di superficie usurati e invecchiati.
+description: Utilizzate il nodo Pittura con perdita di Grunge per generare pattern di perdita di pittura per la creazione di effetti di superficie usurati e invecchiati.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Leaky Paint
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Vernice a perdita di grunge
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-leaky-paint.resources/grungeleakypaint.jpg){width="200px"}
+![](grunge-leaky-paint.resources/grunge-leaky-paint-01.jpg){width="200px"}
 
 <b>Ingresso:</b> Generatori di texture > Rumori
 
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 ## Descrizione
 
-Il nodo **Grunge leaky Paint** genera una mappa di grunge simile a quella utilizzata per dipingere le gocce attraverso le perdite.
+Il nodo **Pittura con perdita di Grunge** genera una mappa di grunge simile alla pittura che gocciola attraverso le perdite.
 
 </td>
 </tr>
@@ -52,7 +52,7 @@ Il nodo **Grunge leaky Paint** genera una mappa di grunge simile a quella utiliz
 | <b>Avanzate</b> |  |
 | <b>Intensità perdita</b> <i>Mobile</i> | Regola la densità e l’intensità delle gocce. |
 | <b>Scala Di Perdita</b> <i>Numero intero</i> | Regola la scala della separazione delle gocce. |
-| <b>Angolo di perdita casuale</b> <i>Mobile</i> | Regola l&#39;*angolo massimo* gocce che possono essere ruotate casualmente in *numero di giri*. |
+| <b>Angolo di perdita casuale</b> <i>Virgola mobile</i> | Regola l&#39;*angolo massimo* gocce che possono essere ruotate casualmente in *numero di giri*. |
 | <b>Perdita di nitidezza</b> <i>Mobile</i> | Regola la nitidezza e la nitidezza delle gocce. |
 
 ## Esempi
@@ -60,10 +60,10 @@ Il nodo **Grunge leaky Paint** genera una mappa di grunge simile a quella utiliz
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-leaky-paint.resources/grungeleakypaint-variant.jpg" />
+            <img src="grunge-leaky-paint.resources/grunge-leaky-paint-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="grunge-leaky-paint.resources/grungeleakypaint-variant2.jpg" />
+            <img src="grunge-leaky-paint.resources/grunge-leaky-paint-03.jpg" />
         </td>
     </tr>
 </table>

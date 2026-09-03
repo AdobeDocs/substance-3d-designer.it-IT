@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Confronto
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '50'
 ht-degree: 2%
@@ -24,4 +24,4 @@ I nodi di confronto confrontano il risultato dell&#39;input superiore con il ris
 
 Restituisce True o False, a seconda del risultato del confronto:
 
-![](comparison-nodes.resources/image2015-12-23-11-57-3.png)
+![](comparison-nodes.resources/comparison-nodes-01.png)

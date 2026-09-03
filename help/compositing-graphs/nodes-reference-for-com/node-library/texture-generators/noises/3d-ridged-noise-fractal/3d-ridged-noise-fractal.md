@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Frattale disturbo con dorso 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-ridged-noise-fractal.resources/3dridgednoisefractal.png){width="200px"}
+![](3d-ridged-noise-fractal.resources/3d-ridged-noise-fractal-01.png){width="200px"}
 
 <b>Ingresso:</b> Generatori di Texture > Rumori
 
@@ -71,10 +71,10 @@ Questo nodo può essere testato con [Cubo 3D GBuffers](../../../../../../composi
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-ridged-noise-fractal.resources/3dridgednoisefractal-variant.jpg" />
+            <img src="3d-ridged-noise-fractal.resources/3d-ridged-noise-fractal-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-ridged-noise-fractal.resources/3dridgednoisefractal-variant2.jpg" />
+            <img src="3d-ridged-noise-fractal.resources/3d-ridged-noise-fractal-03.jpg" />
         </td>
     </tr>
 </table>

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/difference.html"
 breadcrumb-title: ''
-description: Usate il nodo di fusione Differenza per fondere le texture in modo da creare effetti di inversione e contrasto in modalità Differenza.
+description: Utilizzate il nodo di fusione Differenza per fondere le texture in modo da creare effetti di inversione e contrasto in modalità di differenza.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blending > Difference
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Differenza
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](difference.resources/difference.png){width="128px"}
+![](difference.resources/difference-01.png){width="128px"}
 
 <b>Ingresso:</b> Filtri > Fusione
 

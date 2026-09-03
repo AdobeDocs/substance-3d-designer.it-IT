@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Scala di grigi diffusione
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](diffusion-grayscale.resources/diffusion-grayscale-icon.png){width="200px"}
+![](diffusion-grayscale.resources/diffusion-grayscale-01.png){width="200px"}
 
 <b>Ingresso:</b> Filtri > Effetti
 
@@ -66,24 +66,24 @@ Vengono diffusi solo i valori dei pixel corrispondenti alla maschera; gli altri 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="diffusion-grayscale.resources/diffusion-grayscale-01-before.jpg" />
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="diffusion-grayscale.resources/diffusion-grayscale-01a-after.jpg" />
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="diffusion-grayscale.resources/diffusion-grayscale-01b-after.jpg" />
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-04.jpg" />
         </td>
     </tr>
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="diffusion-grayscale.resources/diffusion-grayscale-02-before.jpg" />
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-05.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="diffusion-grayscale.resources/diffusion-grayscale-02-after.jpg" />
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-06.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="diffusion-grayscale.resources/diffusion-grayscale-02-render.jpg" />
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-07.jpg" />
         </td>
     </tr>
 </table>

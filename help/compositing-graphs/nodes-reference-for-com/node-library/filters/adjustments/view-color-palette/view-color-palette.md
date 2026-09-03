@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Visualizza tavolozza colori
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona Quantizza colore](view-color-palette.resources/ViewColorPalette.png "Icona Quantizza colore"){width="200px"}
+![Icona Quantizza colore](view-color-palette.resources/view-color-palette-01.png "Icona Quantizza colore"){width="200px"}
 
 <b>Ingresso:</b> Filtri > Regolazioni
 
@@ -67,12 +67,12 @@ Questo nodo può essere utilizzato per visualizzare le tavolozze prodotte dai se
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Visualizza tavolozza colori: esempio 1](view-color-palette.resources/view_color_palette_example_1.png "Visualizza tavolozza colori: esempio 1"){zoomable="yes"}
+![Visualizza tavolozza colori: esempio 1](view-color-palette.resources/view-color-palette-02.png "Visualizza tavolozza colori: esempio 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Visualizza tavolozza colori: esempio 2](view-color-palette.resources/view_color_palette_example_2.png "Visualizza tavolozza colori: esempio 2"){zoomable="yes"}
+![Visualizza tavolozza colori: esempio 2](view-color-palette.resources/view-color-palette-03.png "Visualizza tavolozza colori: esempio 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -82,12 +82,12 @@ Questo nodo può essere utilizzato per visualizzare le tavolozze prodotte dai se
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Visualizza tavolozza colori: esempio 3](view-color-palette.resources/view_color_palette_example_3.png "Visualizza tavolozza colori: esempio 3"){zoomable="yes"}
+![Visualizza tavolozza colori: esempio 3](view-color-palette.resources/view-color-palette-04.png "Visualizza tavolozza colori: esempio 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Visualizza tavolozza colori: esempio 4](view-color-palette.resources/view_color_palette_example_4.png "Visualizza tavolozza colori: esempio 4"){zoomable="yes"}
+![Visualizza tavolozza colori: esempio 4](view-color-palette.resources/view-color-palette-05.png "Visualizza tavolozza colori: esempio 4"){zoomable="yes"}
 
 </td>
 </tr>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Grunge Galvanica Piccola
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-galvanic-small.resources/grungegalvanicsmall.jpg){width="200px"}
+![](grunge-galvanic-small.resources/grunge-galvanic-small-01.jpg){width="200px"}
 
 <b>Ingresso:</b> Generatori di texture > Rumori
 
@@ -59,10 +59,10 @@ Il nodo **Grunge Galvanica Piccola** genera una mappa di grunge simile al modell
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-galvanic-small.resources/grungegalvanicsmall-variant2.jpg" />
+            <img src="grunge-galvanic-small.resources/grunge-galvanic-small-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="grunge-galvanic-small.resources/grungegalvanicsmall-variant.jpg" />
+            <img src="grunge-galvanic-small.resources/grunge-galvanic-small-03.jpg" />
         </td>
     </tr>
 </table>

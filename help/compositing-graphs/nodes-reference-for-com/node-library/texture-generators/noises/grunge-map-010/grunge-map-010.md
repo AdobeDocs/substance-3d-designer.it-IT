@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-010.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo Mappa Grunge 010 per generare texture procedurali di grunge per aggiungere dettagli della superficie ed effetti di usura ai materiali.
+description: Utilizzate il nodo Mappa Grunge 010 per generare texture di grunge procedurali per aggiungere dettagli della superficie ed effetti di usura ai materiali.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Map 010
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mappa grungi 010
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-map-010.resources/grungemap-010.png){width="128px"}
+![](grunge-map-010.resources/grunge-map-010-01.png){width="128px"}
 
 <b>Ingresso:</b> Generatori di Texture > Rumori
 
@@ -57,7 +57,7 @@ Questo genera una complessa mappa del disturbo combinata. Può essere molto util
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-map-010.resources/grungemap-010-ex.gif" />
+            <img src="grunge-map-010.resources/grunge-map-010-02.gif" />
         </td>
     </tr>
 </table>

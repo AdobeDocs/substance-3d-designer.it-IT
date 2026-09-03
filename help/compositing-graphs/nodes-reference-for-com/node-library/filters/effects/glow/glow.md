@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/glow.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo Bagliore per aggiungere effetti di bagliore alle texture per creare aspetti di materiale luminoso ed emissivo.
+description: Utilizzate il nodo Bagliore per aggiungere effetti di bagliore alle texture per creare aspetti di materiale luminoso e emissivo.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Glow
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Bagliore
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 5%
@@ -24,9 +24,9 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](glow.resources/glow-greyscale.png){width="128px"}
+![](glow.resources/glow-01.png){width="128px"}
 
-![](glow.resources/glow-3.png){width="128px"}
+![](glow.resources/glow-02.png){width="128px"}
 
 <b>Ingresso:</b> Filtri > Effetti
 
@@ -37,7 +37,7 @@ ht-degree: 5%
 
 Esegue un effetto del tipo &quot;Bagliore esterno&quot;, tipico di altri software di editing di immagini molto diffusi. In sostanza, aggiunge un contorno sfumato di dissolvenza attorno all’input.
 
-Tenete presente che non è destinato a funzionare per immagini con canali Alpha, come potreste aspettarvi. Anche la versione a colori si aspetta solo maschere binarie, in bianco e nero come input; consente solo di utilizzare un bagliore colorato. Se state seguendo una versione che funziona su immagini con trasparenza, consultate [Bagliore forma](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/shape-glow/shape-glow.md).
+Tenete presente che questa opzione non è adatta per immagini con Canali alfa, come potreste aspettarvi. Anche la versione a colori si aspetta solo maschere binarie, in bianco e nero come input; consente solo di utilizzare un bagliore colorato. Se state seguendo una versione che funziona su immagini con trasparenza, consultate [Bagliore forma](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/shape-glow/shape-glow.md).
 
 Importante: assicurati di utilizzare la versione appropriata per il tuo input. Usate &quot;Glow&quot; per gli input di colore o &quot;Glow Greyscale&quot; per gli input di scala di grigio.
 
@@ -61,7 +61,7 @@ Importante: assicurati di utilizzare la versione appropriata per il tuo input. U
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="glow.resources/glow-ex.png" />
+            <img src="glow.resources/glow-03.png" />
         </td>
     </tr>
 </table>

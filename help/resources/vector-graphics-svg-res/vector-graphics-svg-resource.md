@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Risorsa grafici vettoriali (SVG)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 9505c371dff25c5d32a409abf76b95655b499571
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 2%
@@ -87,7 +87,7 @@ L’immagine a destra mostra le opzioni di esportazione consigliate, fai clic su
 > Le tavole da disegno possono influire sul risultato del file SVG generato. Alcuni modelli di file Illustrator presentano più tavole da disegno.\
 > Provate a fare in modo che una sola tavola da disegno sia ritagliata correttamente e a farla selezionare nella finestra Tavola da disegno quando viene salvata come SVG.
 
-![Opzioni di esportazione di Illustrator SVG](vector-graphics-svg-resource.resources/svg-export-options-ai.jpg "Opzioni di esportazione di Illustrator SVG"){width="512px"}
+![Opzioni di esportazione di Illustrator SVG](vector-graphics-svg-resource.resources/vector-graphics-svg-resource-01.jpg "Opzioni di esportazione di Illustrator SVG"){width="512px"}
 
 ### Inkscape
 

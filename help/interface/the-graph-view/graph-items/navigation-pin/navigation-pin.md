@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Puntina
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Icona del pin di navigazione](navigation-pin.resources/graphatomic-pin_1.png "Icona del pin di navigazione")
+![Icona del pin di navigazione](navigation-pin.resources/navigation-pin-01.png "Icona del pin di navigazione")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -78,4 +78,4 @@ In qualsiasi tipo di grafico, premendo il <b>F2</b> si scorrono tutti i perni de
 
 I perni verranno inquadrati nella finestra della vista al livello di zoom corrente.
 
-![Pin: passaggio ai pin](navigation-pin.resources/graph-pin_jumping.gif "Pin: passaggio ai pin")
+![Pin: passaggio ai pin](navigation-pin.resources/navigation-pin-02.gif "Pin: passaggio ai pin")

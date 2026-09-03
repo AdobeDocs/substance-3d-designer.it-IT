@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Nodo di iterazione
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 0%
@@ -38,4 +38,4 @@ Ogni nodo iterato ha due connettori lungo la sua base. Il connettore sinistro è
 
 L’immagine pass-through viene sempre passata inalterata, indipendentemente dall’Iterazione del parametro.
 
-![](the-iterate-node.resources/iterate.jpg)
+![](the-iterate-node.resources/the-iterate-node-01.jpg)

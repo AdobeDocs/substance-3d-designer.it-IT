@@ -10,7 +10,7 @@ helpx_tags: ""
 title: CELLE 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Celle 2 - Icona](cells-2.resources/cells_2.png "Celle 2 - Icona"){width="200px"}
+![Celle 2 - Icona](cells-2.resources/cells-2-01.png "Celle 2 - Icona"){width="200px"}
 
 <b>Ingresso:</b> Generatori di texture > Rumori
 
@@ -70,12 +70,12 @@ Vedere anche: [Celle 1](../../../../../../compositing-graphs/nodes-reference-for
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Celle 2 - Esempio 1](cells-2.resources/cells_2_1.png "Celle 2 - Esempio 1"){zoomable="yes"}
+![Celle 2 - Esempio 1](cells-2.resources/cells-2-02.png "Celle 2 - Esempio 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Celle 2 - Esempio 2](cells-2.resources/noise_cells_2_v2_speed0.3_aniso0.6.gif "Celle 2 - Esempio 2"){zoomable="yes"}
+![Celle 2 - Esempio 2](cells-2.resources/cells-2-03.gif "Celle 2 - Esempio 2"){zoomable="yes"}
 
 </td>
 </tr>

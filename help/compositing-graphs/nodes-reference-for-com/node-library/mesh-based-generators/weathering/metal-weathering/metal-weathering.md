@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Metallo meteorologico
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 14%
@@ -24,7 +24,7 @@ ht-degree: 14%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](metal-weathering.resources/metal-weathering.png){width="128px"}
+![](metal-weathering.resources/metal-weathering-01.png){width="128px"}
 
 <b>In:</b> Generatori Basati Su Trama > Meteo
 
@@ -43,8 +43,8 @@ ht-degree: 14%
 
 |  |  |
 |:---|:---|
-| <b>WS normale</b> <i>Input colore</i> | Baked World Space Normalmap utilizzata per effetti interni e mascheratura. |
-| <b>Occlusione ambiente</b> <i>Input scala di grigi</i> | Mappa con baking utilizzata per effetti interni e mascheratura. |
+| <b>WS normale</b> <i>Input colore</i> | World Space Normalmap eseguita i baking utilizzata per effetti interni e mascheratura. |
+| <b>Occlusione ambientale</b> <i>Input scala di grigi</i> | Mappa con baking utilizzata per effetti interni e mascheratura. |
 | <b>Maschera</b> <i>Input scala di grigi</i> | Slot maschera utilizzato per mascherare gli effetti del nodo. Può essere attivato/disattivato con il parametro &quot;Maschera&quot;. |
 
 <a name="parameters"></a>

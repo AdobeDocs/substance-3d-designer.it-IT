@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/atlas-scatter.html"
 breadcrumb-title: ''
-description: Usa il nodo di Atlas scatter per creare texture su un atlas per creare pattern a piastrelle da materiali scansionati.
+description: Usa il nodo di Atlas scatter per dispersione le texture su un atlas per creare pattern a piastrelle da materiali scansionati.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Atlas Scatter
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Atlas scatter
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1223'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](atlas-scatter.resources/atlas-scatter.png){width="200px"}
+![](atlas-scatter.resources/atlas-scatter-01.png){width="200px"}
 
 <b>Tra:</b> Filtri materiali > Elaborazione scansione
 
@@ -33,7 +33,7 @@ ht-degree: 7%
 
 ## Descrizione
 
-Estrai gli elementi da un Atlas e dispersione sullo sfondo. Gli input di Atlas sono materiali completi, costituiti da singoli elementi disposti e imballati su un singolo foglio di texture. Questo nodo li suddivide (utilizzando un processo [Atlas splitter](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/atlas-splitter/atlas-splitter.md) interno) e li dispersione, in modo simile a [Shape Splatter](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter/shape-splatter.md). L&#39;Atlas scatter richiede almeno un input mappa opacità e un input mappa altezza affinché l&#39;Atlas funzioni.
+Estrai gli elementi da un Atlas e dispersione sullo sfondo. Gli input Atlas sono materiali completi, costituiti da singoli elementi disposti e imballati su un singolo foglio di texture. Questo nodo li suddivide (utilizzando un processo [Atlas splitter](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/atlas-splitter/atlas-splitter.md) interno) e li dispersione, in modo simile a [Shape Splatter](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter/shape-splatter.md). Per funzionare, l’Atlas scatter richiede almeno un input mappa opacità e un input mappa Height per l’Atlas.
 
 </td>
 </tr>
@@ -119,7 +119,7 @@ Estrai gli elementi da un Atlas e dispersione sullo sfondo. Gli input di Atlas s
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="atlas-scatter.resources/atlas-scatter-11.png" />
+            <img src="atlas-scatter.resources/atlas-scatter-02.png" />
         </td>
     </tr>
 </table>

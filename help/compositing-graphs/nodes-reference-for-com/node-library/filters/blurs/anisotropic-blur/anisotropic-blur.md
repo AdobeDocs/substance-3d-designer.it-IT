@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/anisotropic-blur.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo Sfocatura anisotropa per applicare effetti di sfocatura direzionali per creare effetti di sfocatura del movimento e di striatura.
+description: Utilizzate il nodo Sfocatura anisotropa per applicare effetti di sfocatura direzionale per creare effetti di sfocatura movimento e striatura.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > Anisotropic Blur
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Sfocatura anisotropa
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 8%
@@ -24,9 +24,9 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](anisotropic-blur.resources/anisotropic-blur-grayscale.png){width="128px"}
+![](anisotropic-blur.resources/anisotropic-blur-01.png){width="128px"}
 
-![](anisotropic-blur.resources/anisotropic-blur.png){width="128px"}
+![](anisotropic-blur.resources/anisotropic-blur-02.png){width="128px"}
 
 <b>Ingresso:</b> Filtri > Sfocature
 
@@ -59,7 +59,7 @@ Importante: assicurati di utilizzare la versione appropriata per il tuo input. U
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="anisotropic-blur.resources/aniso-blur-example.gif" />
+            <img src="anisotropic-blur.resources/anisotropic-blur-03.gif" />
         </td>
     </tr>
 </table>

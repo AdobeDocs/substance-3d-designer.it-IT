@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/blur-hq.html"
 breadcrumb-title: ''
-description: Usa il nodo Sfoca HQ per applicare effetti di sfocatura di alta qualità alle texture, per creare risultati di sfocatura uniformi e professionali.
+description: Utilizzate il nodo HQ sfocatura per applicare effetti di sfocatura di alta qualità alle texture e ottenere risultati di sfocatura dall’aspetto professionale e uniforme.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > Blur HQ
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Sfocatura HQ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 10%
@@ -24,9 +24,9 @@ ht-degree: 10%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](blur-hq.resources/blur-hq-1.png){width="128px"}
+![](blur-hq.resources/blur-hq-01.png){width="128px"}
 
-![](blur-hq.resources/blur-hq-grayscale.png){width="128px"}
+![](blur-hq.resources/blur-hq-02.png){width="128px"}
 
 <b>Ingresso:</b> Filtri > Sfocature
 
@@ -57,7 +57,7 @@ Importante: assicurati di utilizzare la versione appropriata per il tuo input. U
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="blur-hq.resources/hqblur-example.gif" />
+            <img src="blur-hq.resources/blur-hq-03.gif" />
         </td>
     </tr>
 </table>

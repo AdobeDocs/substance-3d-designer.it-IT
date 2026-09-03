@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Da Flood Fill a Sfumatura
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](flood-fill-to-gradient.resources/floodfill-to-gradient.png){width="128px"}
+![](flood-fill-to-gradient.resources/flood-fill-to-gradient-01.png){width="128px"}
 
 <b>Ingresso:</b> Filtri > Effetti
 
@@ -68,10 +68,10 @@ Trasforma una base di [Flood Fill](../../../../../../compositing-graphs/nodes-re
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="flood-fill-to-gradient.resources/floodgradient-ex2.png" />
+            <img src="flood-fill-to-gradient.resources/flood-fill-to-gradient-02.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="flood-fill-to-gradient.resources/floodgradient-ex1.png" />
+            <img src="flood-fill-to-gradient.resources/flood-fill-to-gradient-03.png" />
         </td>
     </tr>
 </table>

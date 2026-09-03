@@ -10,7 +10,7 @@ helpx_tags: ""
 title: PBR render
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1365'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](pbr-render.resources/pbr-render.png){width="250px"}
+![](pbr-render.resources/pbr-render-01.png){width="250px"}
 
 <b>In:</b> Filtri materiali > Utilità PBR
 
@@ -35,7 +35,7 @@ ht-degree: 6%
 
 Esegue il rendering di un materiale PBR su una sfera, un piano o un cilindro utilizzando l&#39;illuminazione basata su immagine (IBL). Si tratta di un motore di rendering all&#39;interno di un nodo che può essere molto utile per generare miniature, anteprime o risorse 2D. Non è un rendering come la vista 3D, ma una texture effettiva generata nel grafico.
 
-Questo nodo richiede almeno un materiale PBR completo da collegare. Idealmente si utilizza la modalità di creazione del collegamento per collegare il materiale al PBR render. Inoltre, per il rendering è necessario un ambiente HDRI con bordi sferici da cui calcolare l’illuminazione. I materiali per i test sono disponibili in Materiali PBR, le mappe dell&#39;ambiente sono disponibili in [vista 3D nella libreria.](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/3d-view-library.md)
+Questo nodo richiede almeno un materiale PBR completo da collegare. Idealmente si utilizza la modalità di creazione del collegamento per collegare il materiale al PBR render. Inoltre, per il rendering è necessario un ambiente HDRI con bordi sferici da cui calcolare l’illuminazione. I materiali per i test sono disponibili in Materiali PBR, le mappe dell&#39;ambiente sono disponibili in [Vista 3D nella libreria.](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/3d-view-library.md)
 
 </td>
 </tr>
@@ -55,7 +55,7 @@ Questo nodo richiede almeno un materiale PBR completo da collegare. Idealmente s
 |:---|:---|
 | <b>Input del canale del materiale</b> | Per eseguire il rendering del materiale sulla geometria vengono utilizzati più input di materiale:<br><br>- Colore di base<br>- Normale<br>- Emissivo<br>- Rugosità<br>- Metallico<br>- Specular level<br>- Height<br>- Occlusione ambientale<br>- Maschera di opacità<br>- Livello di anisotropia<br>- Angolo di anisotropia<br>- Traslucidità<br>- Scala della distanza di dispersione |
 | <b>Mappa Dirt obiettivo</b> <i>Input scala di grigi</i> | Mappa personalizzata per dirt su obiettivo, visualizzata quando sono visibili i riflessi dell’obiettivo. |
-| <b>Mappa apertura obiettivo</b> <i>Input scala di grigi</i> | Può essere utilizzato per sostituire la forma Bokeh, sfocata. Più è contrastato, più è visibile. Tieni presente che viene campionato solo un cerchio all&#39;interno della texture, in modo che qualsiasi forma si adatti a un cerchio. |
+| <b>Mappa apertura obiettivo</b> <i>Input scala di grigi</i> | Può essere utilizzato per sostituire la forma Bokeh, sfocata. Più è contrastato, più è visibile. Tenete presente che viene campionato solo un cerchio all’interno della texture, quindi qualsiasi forma deve adattarsi all’interno di un cerchio. |
 | <b>Input in background</b> <i>Input colore</i> | Mapping personalizzato utilizzato come sfondo quando il parametro <b>Modalità sfondo</b> è impostato su <i>Input sfondo</i> |
 | <b>Mappa ambiente</b> <i>Input colore</i> | Mappa dell’ambiente utilizzata per calcolare l’illuminazione. Deve essere mappato a livello sferico e in HDR. |
 
@@ -93,7 +93,7 @@ Questo nodo richiede almeno un materiale PBR completo da collegare. Idealmente s
 | <b>Direzione rotazione</b> <i>0.0 - 1.0</i> | Imposta l&#39;asse di rotazione in 2D. |
 | <b>Rotazione Attorno Alla Direzione</b> <i>0.0 - 1.0</i> | Ruota la forma sull&#39;asse di rotazione. |
 | <b>Posizione forma</b> <i>-1.0 - 1.0</i> | Sposta le forme. |
-| <b>Affiancamento UV</b> <i>1.0 - 6.0</i> | Imposta la quantità di Affiancamento UV. |
+| <b>Affiancamento UV</b> <i>1.0 - 6.0</i> | Imposta la quantità di porzioni UV. |
 | <b>Scala UV Sfera</b> <i>0.0 - 4.0</i> | Imposta la scala degli UV sulla sfera. |
 | <b>Scala UV piano</b> <i>1.0 - 4.0</i> | Imposta la scala degli UV sul piano. |
 | <b>Scala UV cilindrica</b> <i>1.0 - 6.0</i> | Imposta la scala degli UV sul cilindro. |
@@ -160,30 +160,30 @@ Tutte le immagini sono state generate direttamente all&#39;interno di Designer, 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/pbr-render-v2.jpg" />
+            <img src="pbr-render.resources/pbr-render-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/sphere-thermal-insulation-panel.jpg" />
+            <img src="pbr-render.resources/pbr-render-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/sphere-ominous-obsidian.jpg" />
+            <img src="pbr-render.resources/pbr-render-04.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/sphere-forest-gravel-1.jpg" />
+            <img src="pbr-render.resources/pbr-render-05.jpg" />
         </td>
     </tr>
     <tr style="border: 0; background: transparent">
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/sphere-chesterfield-1.jpg" />
+            <img src="pbr-render.resources/pbr-render-06.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/sphere-carbon-fiber.jpg" />
+            <img src="pbr-render.resources/pbr-render-07.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/plane-inclined-lumber-tiles.jpg" />
+            <img src="pbr-render.resources/pbr-render-08.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/cylinder-medieval-leaded-glass-window.jpg" />
+            <img src="pbr-render.resources/pbr-render-09.jpg" />
         </td>
     </tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Gestione colore
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1678'
 ht-degree: 1%
@@ -68,7 +68,7 @@ Questi file di configurazione sono disponibili nella cartella <b>risorse > ocio<
 | <b>immagini a 8 bit</b> | Imposta lo spazio colore predefinito per le bitmap a 8 bit. *Impostazione predefinita: impostata dal file di configurazione OpenColorIO* |
 | <b>immagini a 16 bit</b> | Imposta lo spazio colore predefinito per le bitmap a 16 bit. *Impostazione predefinita: impostata dal file di configurazione OpenColorIO* |
 | <b>Immagini a virgola mobile</b> | Imposta lo spazio colore predefinito per le bitmap di precisione a virgola mobile, ad esempio le immagini *HDR* nei formati *\*.exr *o*\*.hdr*. *Impostazione predefinita: impostata dal file di configurazione OpenColorIO* |
-| <b>Usa nome file per rilevare lo spazio colore</b> | Consente a Designer di assegnare automaticamente uno spazio colore se il *suffisso* di un nome file bitmap *corrisponde esattamente* al nome minuscolo di uno spazio colore incluso nella *configurazione* di OpenColorIO corrente. Esempio: una risorsa bitmap *mybitmap\_aces\_acescg.png* verrebbe impostata automaticamente sullo spazio colore *ACES - ACEScg* e la trasformazione appropriata verrà applicata allo spazio colore di lavoro. *Impostazione predefinita: selezionata* |
+| <b>Usa nome file per rilevare lo spazio colore</b> | Consente a Designer di assegnare automaticamente uno spazio colore se il *suffisso* di un nome file bitmap *corrisponde esattamente* al nome minuscolo di uno spazio colore incluso nella *configurazione* OpenColorIO corrente. Esempio: una risorsa bitmap *mybitmap\_aces\_acescg.png* verrebbe impostata automaticamente sullo spazio colore *ACES - ACEScg* e la trasformazione appropriata verrà applicata allo spazio colore di lavoro. *Impostazione predefinita: selezionata* |
 
 ### Visualizzazione predefinita delle viste 2D e 3D
 
@@ -110,7 +110,7 @@ Puoi aggiungere *i tuoi* profili ICC inserendo questi file nella posizione `Adob
 
 |  |  |
 | --- | --- |
-| <b>Miniature per la gestione dei colori</b> | Quando *selezionato*, Designer trasformerà le miniature dei *nodi* nello *spazio cromatico di lavoro* corrente. *Impostazione predefinita:*** Deselezionata &#x200B;**&#x200B;** |
+| <b>Miniature per la gestione dei colori</b> | Quando *selezionato*, Designer Trasforma le *miniature dei nodi* nello *spazio cromatico di lavoro* corrente. *Impostazione predefinita:*** Deselezionata &#x200B;**&#x200B;** |
 
 ## Modalità legacy
 
@@ -130,7 +130,7 @@ In modalità Legacy, Designer utilizza lo spazio colore di lavoro <b>sRGB</b>, c
 
 Considerando che l&#39;opzione &#39;Raw&#39; scrive i dati immagine *così come sono* dal grafico, ovvero utilizzando lo spazio cromatico di lavoro del grafico, ciò significa che le opzioni <b>Raw</b> e <b>sRGB</b> producono lo *stesso output colore*.
 
-Per impostazione predefinita, l&#39;opzione &#39;sRGB&#39; verrà impostata per gli output che contengono *informazioni sul colore* (ad esempio, Colore di base, Emissivo) e l&#39;opzione &#39;Raw&#39; verrà impostata per gli output che contengono *dati puri* (ad esempio, Rugosità, Metallico, Height, Normale). Come spiegato in precedenza, queste impostazioni predefinite producono gli stessi colori e sono impostate solo per *differenziare l&#39;utilizzo finale* dei loro output.
+Per impostazione predefinita, l&#39;opzione &#39;sRGB&#39; verrà impostata per gli output che contengono *informazioni sul colore* (ad esempio Colore di base, Emissivo) e l&#39;opzione &#39;Raw&#39; verrà impostata per gli output che contengono *dati puri* (ad esempio Rugosità, Metallico, Height, Normale). Come spiegato in precedenza, queste impostazioni predefinite producono gli stessi colori e sono impostate solo per *differenziare l&#39;utilizzo finale* dei loro output.
 
 L&#39;opzione <b>Lineare</b> è *solo* e determina l&#39;applicazione di una *trasformazione del colore* all&#39;immagine. Può essere utilizzata solo per le immagini <b>High dynamic range</b> (HDR), che in genere utilizzano *precisione a virgola mobile* (ovvero profondità di bit 16F o 32F) nello spazio cromatico lineare. Queste immagini possono essere utilizzate in una vasta gamma di spazi colore e ambienti di produzione.
 
@@ -152,26 +152,26 @@ Quando si importano o si collegano bitmap, per impostazione predefinita *1&rbrac
 > 
 > In particolare, è possibile utilizzare il **nome file** per impostare lo spazio colore appropriato *automaticamente*. Il nome dello spazio colore nel nome del file deve *corrispondere al nome* nel file di configurazione OpenColorIO (ad esempio *myImage\_utility - linear -srgb.png* verrà impostato sullo spazio colore *Utility - Linear - sRGB*).
 
-![Impostazione spazio colore bitmap](color-management.resources/2019-3-0-bitmap-clr-space.png "Impostazione spazio colore bitmap")
+![Impostazione spazio colore bitmap](color-management.resources/color-management-01.png "Impostazione spazio colore bitmap")
 
 ## Esportazione degli output
 
 Quando si utilizza la finestra di dialogo <b>Output dell&#39;esportazione</b>, è possibile assegnare un <b>spazio colore</b> (OCIO) o allegare un <b>profilo ICC</b> (Adobe ACE) per l&#39;output *ogni*.\
 Designer *converte* le immagini negli spazi colore specificati prima di salvare i file immagine.
 
-![Finestra di dialogo per l’esportazione degli output](color-management.resources/2019-3-0-clr-mgt-export-outputs.png "Finestra di dialogo per l’esportazione degli output"){width="512px"}
+![Finestra di dialogo per l’esportazione degli output](color-management.resources/color-management-02.png "Finestra di dialogo per l’esportazione degli output"){width="512px"}
 
 Potete anche assegnare uno spazio colore (OCIO) o associare un profilo ICC (Adobe ACE) alle immagini *salvate* dalla [vista 2D](../interface/2d-view/2d-view.md).
 
-![Opzioni di esportazione vista 2D](color-management.resources/2019-3-0-clr-mgt-save-image.png "Opzioni di esportazione vista 2D")
+![Opzioni di esportazione vista 2D](color-management.resources/color-management-03.png "Opzioni di esportazione vista 2D")
 
 ## Viste 2D e 3D
 
 ### Visualizza barra degli strumenti
 
-Puoi *attivare/disattivare* Gestione colore e modificare in qualsiasi momento la *trasformazione visualizzazione* per la visualizzazione utilizzando il menu a discesa nella barra degli strumenti di visualizzazione.
+Puoi *attivare/disattivare* la gestione del colore e modificare in qualsiasi momento il *Trasforma di visualizzazione* della visualizzazione utilizzando il menu a discesa nella barra degli strumenti di visualizzazione.
 
-![Impostazione dello spazio colore nella vista 2D](color-management.resources/2019-3-0-clr-mgt-display-toolbar.png "Impostazione dello spazio colore nella vista 2D"){width="512px"}
+![Impostazione dello spazio colore in vista 2D](color-management.resources/color-management-04.png "Impostazione dello spazio colore in vista 2D"){width="512px"}
 
 ### Ambienti HDRI della libreria
 
@@ -180,7 +180,7 @@ Quando si utilizza una configurazione OpenColorIO in cui lo spazio colore linear
 
 In tal caso, lo spazio colore per gli ambienti HDRI della libreria deve essere impostato *manualmente* nelle proprietà dell&#39;ambiente, disponibili nel menu <b>Ambiente</b> del pannello Vista 3D.
 
-![Impostazione dello spazio colore dell&#39;ambiente di visualizzazione 3D](color-management.resources/2019-3-0-clr-mgt-hdri-env.png "Impostazione dello spazio colore dell&#39;ambiente di visualizzazione 3D"){width="512px"}
+![Impostazione dello spazio colore dell&#39;ambiente di visualizzazione 3D](color-management.resources/color-management-05.png "Impostazione dello spazio colore dell&#39;ambiente di visualizzazione 3D"){width="512px"}
 
 ## Nodi di conversione colore
 
@@ -211,7 +211,7 @@ La [libreria](../interface/the-library/the-library.md) include i nodi seguenti p
 
 Sono utili quando si utilizzano grafici creati *senza* Gestione colore o materiali dalla libreria [Risorse Substance 3D](https://substance3d.adobe.com/assets).
 
-![Nodi di conversione colore nella libreria](color-management.resources/2019-3-0-clr-mgt-nodes.png "Nodi di conversione colore nella libreria"){width="512px"}
+![Nodi di conversione colore nella libreria](color-management.resources/color-management-06.png "Nodi di conversione colore nella libreria"){width="512px"}
 
 ## Limitazioni note
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Unione RGBA
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](rgba-merge.resources/rgba-merge.png){width="128px"}
+![](rgba-merge.resources/rgba-merge-01.png){width="128px"}
 
 <b>Ingresso:</b> Filtri > Canali
 

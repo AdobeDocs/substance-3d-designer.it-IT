@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Circolare a dispersione
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '850'
 ht-degree: 8%
@@ -24,11 +24,11 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](splatter-circular.resources/splatter-circular.png){width="128px"}
+![](splatter-circular.resources/splatter-circular-01.png){width="128px"}
 
-![](splatter-circular.resources/splatter-circular-color.png){width="128px"}
+![](splatter-circular.resources/splatter-circular-02.png){width="128px"}
 
-<b>Ingresso:</b> Generatori texture > Pattern
+<b>Ingresso:</b> Generatori Texture > Pattern
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -118,7 +118,7 @@ Entrambi gli ingressi sono opzionali.
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="splatter-circular.resources/circularsplatter-ex.png" />
+            <img src="splatter-circular.resources/splatter-circular-03.png" />
         </td>
     </tr>
 </table>

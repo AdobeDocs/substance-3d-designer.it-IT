@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Panoramica
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 9505c371dff25c5d32a409abf76b95655b499571
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 Ecco come viene confrontato con altre applicazioni:
 
-|  | <div><img alt="Icona Substance 3D Sampler" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c1_position_position-par_image_713298714" src="overview.resources/sa-appicon-noshadow-256.png" title="Icona Substance 3D Sampler" width="64px"/></div>  Substance 3D Sampler | <div><img alt="Icona Substance 3D Painter" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c2_position_position-par_image" src="overview.resources/pt-appicon-noshadow-256.png" width="64px"/></div>  Substance 3D Painter | <div><img alt="Icona Substance 3D Designer" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c3_position_position-par_image" src="overview.resources/ds-appicon-noshadow-256.png" title="Icona Substance 3D Designer" width="64px"/></div>  Substance 3D Designer |
+|  | <div><img alt="Icona Substance 3D Sampler" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c1_position_position-par_image_713298714" src="overview.resources/overview-01.png" title="Icona Substance 3D Sampler" width="64px"/></div>  Substance 3D Sampler | <div><img alt="Icona Substance 3D Painter" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c2_position_position-par_image" src="overview.resources/overview-02.png" width="64px"/></div>  Substance 3D Painter | <div><img alt="Icona Substance 3D Designer" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c3_position_position-par_image" src="overview.resources/overview-03.png" title="Icona Substance 3D Designer" width="64px"/></div>  Substance 3D Designer |
 | --- | --- | --- | --- |
 | <b>Curva di apprendimento</b> | Basso | Medio | Alta |
 | <b>Materiali per autori</b> | Sì | Sì | Sì |
@@ -48,9 +48,9 @@ Substance 3D Designer è un editor basato su nodi che consente di creare contenu
 
 <b>[Non distruttivo](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md) </b>: puoi annullare qualsiasi azione *senza* perdere il tuo lavoro. Le iterazioni e le sperimentazioni risultano molto più rapide e la ricerca di flussi di lavoro ancora più efficienti.
 
-<b>[Cottura al forno integrata](../../bakers/bakers.md) </b>: accedi a strumenti di cottura a trama avanzati e veloci direttamente dal software. Non è più necessario eseguire il baking in un software separato ed eseguire lunghi processi di importazione ed esportazione.
+<b>[Esegue i baking integrata](../../bakers/bakers.md) </b>: accedi a strumenti di esegue i baking a trama avanzati e veloci direttamente dal software. Non è più necessario eseguire il baking in un software separato ed eseguire lunghi processi di importazione ed esportazione.
 
-<b>[Parametrico](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) </b>: puoi impostare il controllo di quasi ogni aspetto di una texture tramite un singolo cursore o menu a discesa. Ciò consente di aggiungere un controllo e una variazione infiniti a una singola risorsa.
+<b>[Parametrico](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) </b>: puoi impostare il controllo di quasi tutti gli aspetti di una texture tramite un singolo cursore o menu a discesa. Ciò consente di aggiungere un controllo e una variazione infiniti a una singola risorsa.
 
 ## Tipi di file
 
@@ -60,7 +60,7 @@ L&#39;applicazione e il relativo ecosistema utilizzano 4 diversi tipi di file. P
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](overview.resources/ds-sbs-48.png)
+![](overview.resources/overview-04.png)
 
 ### File Substance 3D
 
@@ -71,7 +71,7 @@ I file di Substance sono i **file di origine principali** per Designer. Quando a
 </td>
 <td style="border: 0;" valign="top">
 
-![](overview.resources/sbsar-48.png)
+![](overview.resources/overview-05.png)
 
 ### Risorsa Substance 3D
 
@@ -82,7 +82,7 @@ Gli archivi Substance sono <b> file Substance compilati e ottimizzati</b>. Sono 
 </td>
 <td style="border: 0;" valign="top">
 
-![](overview.resources/bmp-96.png){width="48px"}
+![](overview.resources/overview-06.png){width="48px"}
 
 ### File statici
 
@@ -104,7 +104,7 @@ I file Substance 3D possono contenere un’ampia gamma di risorse con scopi dive
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](overview.resources/graph-5.png){width="150px"}](../../compositing-graphs/substance-compositing-graphs.md)
+[![](overview.resources/overview-07.png){width="150px"}](../../compositing-graphs/substance-compositing-graphs.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -123,7 +123,7 @@ I grafici a Substance consentono di generare ed elaborare *dati immagine 2D* e q
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](overview.resources/function-1.png){width="150px"}](../../function-graphs/function-graphs.md)
+[![](overview.resources/overview-08.png){width="150px"}](../../function-graphs/function-graphs.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -142,7 +142,7 @@ I grafici a Substance consentono di generare ed elaborare *dati immagine 2D* e q
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](overview.resources/folder-4.png){width="150px"}](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
+[![](overview.resources/overview-09.png){width="150px"}](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

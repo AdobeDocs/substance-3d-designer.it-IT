@@ -10,7 +10,7 @@ helpx_tags: ""
 title: BnW macchie 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Punti BnW 2 - Icona](bnw-spots-2.resources/bnw_spots_2.png "Punti BnW 2 - Icona"){width="200px"}
+![Punti BnW 2 - Icona](bnw-spots-2.resources/bnw-spots-2-01.png "Punti BnW 2 - Icona"){width="200px"}
 
 <b>Ingresso:</b> Generatori di texture > Rumori
 
@@ -69,12 +69,12 @@ Consultate anche: [macchie BnW 1](../../../../../../compositing-graphs/nodes-ref
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Macchie BnW 2 - Esempio 1](bnw-spots-2.resources/bnw_spots_2_1.png "Macchie BnW 2 - Esempio 1"){zoomable="yes"}
+![Macchie BnW 2 - Esempio 1](bnw-spots-2.resources/bnw-spots-2-02.png "Macchie BnW 2 - Esempio 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Macchie BnW 2 - Esempio 2](bnw-spots-2.resources/noise_bnw_spots_2_v2_speed0.6_aniso0.gif "Macchie BnW 2 - Esempio 2"){zoomable="yes"}
+![Macchie BnW 2 - Esempio 2](bnw-spots-2.resources/bnw-spots-2-03.gif "Macchie BnW 2 - Esempio 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,12 +84,12 @@ Consultate anche: [macchie BnW 1](../../../../../../compositing-graphs/nodes-ref
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Macchie BnW 2 - Esempio 3](bnw-spots-2.resources/noise_bnw_spots_2_v2_speed0.6_aniso1.gif "Macchie BnW 2 - Esempio 3"){zoomable="yes"}
+![Macchie BnW 2 - Esempio 3](bnw-spots-2.resources/bnw-spots-2-04.gif "Macchie BnW 2 - Esempio 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Macchie BnW 2 - Esempio 4](bnw-spots-2.resources/noise_bnw_spots_2_v2_speed0.3_aniso0.6.gif "Macchie BnW 2 - Esempio 4"){zoomable="yes"}
+![Macchie BnW 2 - Esempio 4](bnw-spots-2.resources/bnw-spots-2-05.gif "Macchie BnW 2 - Esempio 4"){zoomable="yes"}
 
 </td>
 </tr>

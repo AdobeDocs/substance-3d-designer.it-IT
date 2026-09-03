@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versione 15.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1719'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Substance Designer 15.1 introduce una finestra di creazione del grafico completa
 
 *Data di pubblicazione: 11 dicembre 2025*
 
-![Banner Designer 15.1](version-15-1.resources/bannerweb.png)
+![Banner Designer 15.1](version-15-1.resources/version-15-1-01.png)
 
 ## Migliorare la creazione di grafici
 
@@ -36,13 +36,13 @@ Sebbene l’interfaccia principale sia stata aggiornata, gli utenti continuano a
 
 [Ulteriori informazioni](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)
 
-![riprogettare la nuova finestra del grafico](version-15-1.resources/newgraph.png){zoomable="yes"}
+![riprogettare la nuova finestra del grafico](version-15-1.resources/version-15-1-02.png){zoomable="yes"}
 
 ## Campioni incorporati
 
 Con il lancio della nuova finestra per la creazione del grafico, abbiamo aggiunto una serie di [<b>materiali di esempio</b>](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md) direttamente all&#39;interno del software. Questo miglioramento risponde alla tua richiesta di un migliore accesso alle risorse di apprendimento.
 
-![Nuova finestra di creazione del grafico per gli esempi](version-15-1.resources/GraphSample.png){zoomable="yes"}
+![Nuova finestra di creazione del grafico per gli esempi](version-15-1.resources/version-15-1-03.png){zoomable="yes"}
 
 Per soddisfare questa esigenza abbiamo incluso campioni di materiale come tessuti (tra cui pelle e raso), legno, metallo, plastica, ceramica e altro ancora. Questi esempi hanno lo scopo di aiutarti a iniziare i tuoi progetti con facilità e a conoscere i principali nodi familiari disponibili in Substance 3D Designer
 
@@ -54,7 +54,7 @@ Oltre a questi materiali di base, abbiamo fornito anche <b>esempi avanzati</b> p
 
 [Ulteriori informazioni](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md)
 
-![esempio di legno in substance designer](version-15-1.resources/samplegraph.png){zoomable="yes"}
+![esempio di legno in substance designer](version-15-1.resources/version-15-1-04.png){zoomable="yes"}
 
 ## Nuovi disturbi
 
@@ -70,7 +70,7 @@ Consulta l&#39;elenco completo dei rumori aggiornati nelle [note sulla versione]
 
 Esempi: [Cella 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md) [Nuvole 2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md) [Graffi direzionali](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-scratches/directional-scratches.md) [Rumore di umidità 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
 
-![disturbo direzionale](version-15-1.resources/directionaldisorder.gif){zoomable="yes"}
+![disturbo direzionale](version-15-1.resources/version-15-1-05.gif){zoomable="yes"}
 
 ## Gerarchia nel menu dei nodi
 
@@ -82,12 +82,12 @@ Il gran numero di nodi disponibili può rendere difficile trovare rapidamente qu
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Ricerca di ![nodi con categoria 1](version-15-1.resources/search1-2.png){zoomable="yes"}
+Ricerca di ![nodi con categoria 1](version-15-1.resources/version-15-1-06.png){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-Ricerca di ![nodi con categoria 2](version-15-1.resources/search2.png){zoomable="yes"}
+Ricerca di ![nodi con categoria 2](version-15-1.resources/version-15-1-07.png){zoomable="yes"}
 
 </td>
 </tr>
@@ -108,11 +108,11 @@ Sperimentate con l’immagine seguente per vedere la differenza prima e dopo la 
 <table>
   <tr>
     <td>
-      <img src="version-15-1.resources/defaultouput2.png" alt="defaultouput2">
+      <img src="version-15-1.resources/version-15-1-08.png" alt="defaultouput2">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="version-15-1.resources/defaultouput1.png" alt="Con l’output predefinito, le miniature sono sempre rilevanti.">
+      <img src="version-15-1.resources/version-15-1-09.png" alt="Con l’output predefinito, le miniature sono sempre rilevanti.">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -126,7 +126,7 @@ Ad esempio, il rilevamento dell’assenza di una variabile consente di fornire u
 
 [Ulteriori informazioni](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md)
 
-![Nodo definito](version-15-1.resources/isdefined.png){zoomable="yes"}
+![Nodo definito](version-15-1.resources/version-15-1-10.png){zoomable="yes"}
 
 ## Note sulla versione
 
@@ -180,7 +180,7 @@ Ad esempio, il rilevamento dell’assenza di una variabile consente di fornire u
 * [Bakers] Aggiungere un&#39;opzione per selezionare il metodo di corrispondenza della geometria in base al nome
 * [Panettieri] Seleziona il panettiere più vicino quando viene eliminato un panettiere
 * [Panettieri] UDIM: definire un elenco di porzioni UV da cuocere
-* [Bakers] Aggiornare bake sdk alla versione 3.15.4
+* [Baker] Aggiorna sdk eseguo i baking alla versione 3.15.4
 * [3D View/SceneBrowser] Evitare di selezionare un oggetto UsdPrimitive quando si fa clic con il pulsante destro del mouse
 * [ColorManagement] Supporto di ACES 2.0
 * [Grafico di composizione] Consenti di impostare un nodo di output come &quot;Output predefinito&quot;
@@ -192,16 +192,16 @@ Ad esempio, il rilevamento dell’assenza di una variabile consente di fornire u
 ### Correzioni
 
 * [Vista 3D] La texture in scala di grigi L16 viene visualizzata con una tinta rossa quando collegata all&#39;ambiente o a baseColor
-* [Vista 3D] La modifica del binding del materiale di una scena senza materiale crea un nuovo materiale &quot;predefinito&quot;
-* [Vista 3D] Le normali calcolate non sono corrette per mesh OBJ specifiche
+* [vista 3D] La modifica della rilegatura del materiale di una scena senza materiale crea un nuovo materiale &quot;predefinito&quot;
+* [vista 3D] Le normali calcolate non sono corrette per maglie OBJ specifiche
 * [Vista 3D] L&#39;ambiente personalizzato da SBSSCN non è visibile al caricamento in Pathtracer
 * [Vista 3D] Errori nella console durante la rotazione di un ambiente disabilitato
 * [Vista 3D] Lo Specular level non viene applicato correttamente
-* [Vista 3D] Il Specular edge color non funziona quando si utilizza il rasterizzatore Eclair
+* [vista 3D] Il Specular edge color non funziona quando si utilizza il rasterizzatore Eclair
 * [Vista 3D] Il materiale aggiunto dall&#39;utente non viene applicato alle scene predefinite
-* [Vista 3D]&#x200B;[Pannelli] Il colore del materiale è troppo scuro una volta sovrascritto o quando si utilizza un panettiere a &quot;colori&quot;
+* [vista 3D]&#x200B;[Baker] Il colore del materiale è troppo scuro una volta modificato localmente o quando si utilizza un baker &quot;Colore&quot;
 * [Vista 3D]&#x200B;[Pannelli] Nessun colore materiale dal file FBX
-* [Pannelli] I colori dei materiali nei file FBX non vengono rilevati correttamente
+* [Baker] I colori dei materiali nei file FBX non vengono rilevati correttamente
 * [Bakers] L’opzione &quot;recompute\_tangents&quot; è sempre &quot;false&quot; nelle esportazioni di predefiniti JSON
 * [Bakers] CLI: arresto anomalo durante l&#39;esecuzione consecutiva dello stesso baker tramite file JSON
 * [Bakers] L&#39;aggiornamento del parametro &#39;color-generator&#39; non funziona per &#39;Grayscale&#39;

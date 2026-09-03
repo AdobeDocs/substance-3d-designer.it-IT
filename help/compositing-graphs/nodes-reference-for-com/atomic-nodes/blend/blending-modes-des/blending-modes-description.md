@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Metodi fusione
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 2%
@@ -26,19 +26,19 @@ Il nodo [Fusione](../../../../../compositing-graphs/nodes-reference-for-com/atom
 
 Il metodo di fusione *Copia* posizionerà il primo piano sopra lo sfondo.
 
-![Metodo fusione: Copia](blending-modes-description.resources/image2015-8-20-9-38-0.png "Metodo fusione: Copia"){zoomable="yes"}
+![Metodo fusione: Copia](blending-modes-description.resources/blending-modes-description-01.png "Metodo fusione: Copia"){zoomable="yes"}
 
 Per le immagini a colori, il canale alfa viene considerato per impostazione predefinita nell’opacità.
 
 Questo può essere modificato utilizzando il parametro &quot;Fusione Alpha&quot;.
 
-![Metodo di fusione: Copia (2)](blending-modes-description.resources/image2015-8-20-14-15-29.png "Metodo di fusione: Copia (2)"){zoomable="yes"}
+![Metodo di fusione: Copia (2)](blending-modes-description.resources/blending-modes-description-02.png "Metodo di fusione: Copia (2)"){zoomable="yes"}
 
 ## Aggiungi (Scherma lineare)
 
 Il metodo di fusione *Aggiungi* aggiungerà il valore di input in primo piano a ciascun pixel corrispondente sullo sfondo.
 
-![Metodo fusione: Aggiungi (Scherma lineare)](blending-modes-description.resources/image2015-8-20-9-38-19.png "Metodo fusione: Aggiungi (Scherma lineare)"){zoomable="yes"}
+![Metodo fusione: Aggiungi (Scherma lineare)](blending-modes-description.resources/blending-modes-description-03.png "Metodo fusione: Aggiungi (Scherma lineare)"){zoomable="yes"}
 
 ## Sottrai
 
@@ -46,7 +46,7 @@ Il metodo di fusione *Substract* sottrarrà il valore dell’input in primo pian
 
 Se il risultato della substrazione è inferiore a 0, il valore viene limitato a 0, ottenendo il nero puro.
 
-![Metodo fusione: Substract](blending-modes-description.resources/image2015-8-20-9-38-35.png "Metodo fusione: Substract"){zoomable="yes"}
+![Metodo fusione: Substract](blending-modes-description.resources/blending-modes-description-04.png "Metodo fusione: Substract"){zoomable="yes"}
 
 ## Moltiplica
 
@@ -54,7 +54,7 @@ Il metodo di fusione *Moltiplica* moltiplicherà il valore di input dello sfondo
 
 Poiché il valore di ciascun pixel è compreso tra 0 e 1, il risultato è sempre uguale o inferiore (più scuro) rispetto all’originale.
 
-![Metodo fusione: Moltiplica](blending-modes-description.resources/image2015-8-20-9-38-53.png "Metodo fusione: Moltiplica"){zoomable="yes"}
+![Metodo fusione: Moltiplica](blending-modes-description.resources/blending-modes-description-05.png "Metodo fusione: Moltiplica"){zoomable="yes"}
 
 ## Aggiungi sub
 
@@ -63,19 +63,19 @@ Il metodo di fusione *Aggiungi sub* funziona come segue:
 * I pixel in primo piano con un valore superiore a 0,5 vengono aggiunti ai rispettivi pixel di sfondo.
 * I pixel in primo piano con un valore inferiore a 0,5 vengono sottratti dai rispettivi pixel di sfondo.
 
-![Metodo di fusione: Aggiungi metodo di fusione secondario](blending-modes-description.resources/image2015-8-20-9-39-11.png "Metodo di fusione: Aggiungi metodo secondario"){zoomable="yes"}
+![Metodo di fusione: Aggiungi metodo di fusione secondario](blending-modes-description.resources/blending-modes-description-06.png "Metodo di fusione: Aggiungi metodo secondario"){zoomable="yes"}
 
 ## Max (Schiarisci)
 
 Il metodo di fusione *Max* selezionerà il valore più alto tra lo sfondo e il primo piano.
 
-![Metodo fusione: Max (Schiarisci)](blending-modes-description.resources/image2015-8-20-9-40-12.png "Metodo fusione: Max (Schiarisci)"){zoomable="yes"}
+![Metodo fusione: Max (Schiarisci)](blending-modes-description.resources/blending-modes-description-07.png "Metodo fusione: Max (Schiarisci)"){zoomable="yes"}
 
 ## Min (Scurisci)
 
 Il metodo di fusione *Min* selezionerà il valore più basso tra lo sfondo e il primo piano.
 
-![Metodo di fusione: Min (scurisci)](blending-modes-description.resources/image2015-8-20-9-40-31.png "Metodo di fusione: Min (scurisci)"){zoomable="yes"}
+![Metodo di fusione: Min (scurisci)](blending-modes-description.resources/blending-modes-description-08.png "Metodo di fusione: Min (scurisci)"){zoomable="yes"}
 
 ## Cambia
 
@@ -88,13 +88,13 @@ Pertanto, questa modalità può essere utilizzata per migliorare le prestazioni 
 
 I nodi [Switch](../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md) e [Switch scala di grigi](../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md) sono configurati per utilizzare i nodi di fusione in queste configurazioni specifiche.
 
-![Metodo fusione: Cambia](blending-modes-description.resources/image2015-8-20-9-38-0.png "Metodo fusione: Cambia"){zoomable="yes"}
+![Metodo fusione: Cambia](blending-modes-description.resources/blending-modes-description-01.png "Metodo fusione: Cambia"){zoomable="yes"}
 
 ## Dividi
 
 Il metodo di fusione *Dividi* dividerà il valore dei pixel di input dello sfondo per ogni pixel corrispondente in primo piano.
 
-![Metodo fusione: Dividi](blending-modes-description.resources/image2015-8-20-9-41-32.png "Metodo fusione: Dividi"){zoomable="yes"}
+![Metodo fusione: Dividi](blending-modes-description.resources/blending-modes-description-09.png "Metodo fusione: Dividi"){zoomable="yes"}
 
 ## Sovrapposizione
 
@@ -104,7 +104,7 @@ Il metodo di fusione *Sovrapposizione* combina i metodi di fusione Moltiplica e 
   * Se il valore del pixel del livello inferiore è inferiore a 0,5, viene applicata una fusione di tipo *Moltiplica*
   * Se il valore del pixel del livello inferiore è superiore a 0,5, viene applicata una fusione di tipo *Schermo*
 
-![Metodo fusione: Sovrapposizione](blending-modes-description.resources/image2015-8-20-9-41-50.png "Metodo fusione: Sovrapposizione"){zoomable="yes"}
+![Metodo fusione: Sovrapposizione](blending-modes-description.resources/blending-modes-description-10.png "Metodo fusione: Sovrapposizione"){zoomable="yes"}
 
 ## Scolora
 
@@ -112,7 +112,7 @@ Con il metodo di fusione Schermo i valori dei pixel nei due input vengono invert
 
 Il risultato è l’effetto opposto a quello della moltiplicazione ed è sempre uguale o superiore (più chiaro) rispetto all’originale.
 
-![Metodo fusione: Schermo](blending-modes-description.resources/image2015-8-20-9-42-11.png "Metodo fusione: Schermo"){zoomable="yes"}
+![Metodo fusione: Schermo](blending-modes-description.resources/blending-modes-description-11.png "Metodo fusione: Schermo"){zoomable="yes"}
 
 ## Luce soffusa
 
@@ -120,4 +120,4 @@ Il metodo di fusione Luce soffusa crea un risultato leggermente più chiaro o pi
 
 La fusione di colori con luminosità superiore al 50% schiarirà i pixel di sfondo e i colori con luminosità inferiore al 50% scurirà i pixel di sfondo.
 
-![Metodo di fusione: luce soffusa](blending-modes-description.resources/image2015-8-20-9-42-32.png "Metodo di fusione: luce soffusa"){zoomable="yes"}
+![Metodo di fusione: luce soffusa](blending-modes-description.resources/blending-modes-description-12.png "Metodo di fusione: luce soffusa"){zoomable="yes"}

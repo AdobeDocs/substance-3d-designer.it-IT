@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Luce piano
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](plane-light.resources/panorama-plane-light.png){width="200px"}
+![](plane-light.resources/plane-light-01.png){width="200px"}
 
 <b>Ingresso:</b> vista 3D > Strumenti HDRI
 
@@ -57,7 +57,7 @@ Si distingue dalla [Luce forma](../../../../../../compositing-graphs/nodes-refer
 
 |  |  |
 |:---|:---|
-| <b>Modalità posizione</b> <i>Terra/Soffitto, Distanza dall&#39;origine, Posizioni nel mondo</i> | Selezionate tre diverse modalità di posizionamento. Le opzioni di manipolazione per il supporto di Distanza dall&#39;origine/Soffitto e Terra nella vista 2D consentono di modificare le posizioni di World solo mediante le proprietà, ma supportano anche un posizionamento più preciso. |
+| <b>Modalità posizione</b> <i>Terra/Soffitto, Distanza dall&#39;origine, Posizioni nel mondo</i> | Selezionate tre diverse modalità di posizionamento. Manipolazione del supporto di terra/soffitto e Distanza dall&#39;origine nella Vista 2D, le posizioni World possono essere modificate solo tramite proprietà, ma supporta il posizionamento più esatto. |
 | <b>Mostra griglia terreno</b> <i>Falso/Vero</i> | Funzione di supporto per consentire la creazione di una griglia di terra di debug. Consente di stimare la posizione delle linee nello spazio. |
 | <b>Coordinate posizione</b> |  |
 | <b>Vettore Su</b> <i>Z Su, Y Su</i> | Solo con la modalità Posizione mondo (World Position), determinate l&#39;orientamento del sistema di coordinate. |
@@ -89,7 +89,7 @@ Si distingue dalla [Luce forma](../../../../../../compositing-graphs/nodes-refer
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="plane-light.resources/plane-light-ex.gif" />
+            <img src="plane-light.resources/plane-light-02.gif" />
         </td>
     </tr>
 </table>

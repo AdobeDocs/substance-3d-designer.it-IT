@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Modifica tavolozza colori
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '852'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona Quantizza colore](modify-color-palette.resources/ModifyColorPalette.png "Icona Quantizza colore"){width="200px"}
+![Icona Quantizza colore](modify-color-palette.resources/modify-color-palette-01.png "Icona Quantizza colore"){width="200px"}
 
 <b>Ingresso:</b> Filtri > Regolazioni
 
@@ -82,18 +82,18 @@ Questo nodo può essere utilizzato in combinazione con i seguenti nodi: [Quantiz
 
 ## Esempi
 
-![Modificare la tavolozza dei colori: Esempio 1](modify-color-palette.resources/modify_color_palette_example_1.png "Modificare la tavolozza dei colori: Esempio 1"){zoomable="yes"}
+![Modificare la tavolozza dei colori: Esempio 1](modify-color-palette.resources/modify-color-palette-02.png "Modificare la tavolozza dei colori: Esempio 1"){zoomable="yes"}
 
-![Modificare la tavolozza dei colori: Esempio 2](modify-color-palette.resources/modify_color_palette_example_3.png "Modificare la tavolozza dei colori: Esempio 2"){zoomable="yes"}
+![Modificare la tavolozza dei colori: Esempio 2](modify-color-palette.resources/modify-color-palette-03.png "Modificare la tavolozza dei colori: Esempio 2"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="modify-color-palette.resources/modify_color_example_2_before.jpg" alt="modify_color_example_2_before">
+      <img src="modify-color-palette.resources/modify-color-palette-04.jpg" alt="modify_color_example_2_before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="modify-color-palette.resources/modify_color_example_2_after.jpg" alt="modify_color_example_2_after">
+      <img src="modify-color-palette.resources/modify-color-palette-05.jpg" alt="modify_color_example_2_after">
       <br><i>Dopo</i>
     </td>
   </tr>

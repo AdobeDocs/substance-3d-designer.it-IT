@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Elenco punti
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo](point-list.resources/point-list-icon.png "Icona nodo")
+![Icona nodo](point-list.resources/point-list-01.png "Icona nodo")
 
 <b>In:</b> Strumenti Spline E Tracciati > Strumenti spline
 
@@ -76,7 +76,7 @@ Se agli input di <b>Point</b> viene fornito un elenco di punti esistente, l&#39;
 |  |  |
 |:---|:---|
 | <b>Numero punto</b> <i>Numero intero</i> | Numero di punti generati. |
-| <b>Regolazione Smoothness globale</b> <i>Mobile</i> | Applica un offset uniforme al valore di smoothness di tutti i punti.<br>Il valore di smoothness risultante è fissato all&#39;intervallo [0;1]. |
+| <b>Regolazione Smoothness globale</b> <i>Virgola mobile</i> | Applica un offset uniforme al valore di smoothness di tutti i punti.<br>Il valore di smoothness risultante è fissato all&#39;intervallo [0;1]. |
 | <b>Proprietà punti</b> |  |
 | <b>p# Proprietà</b> <i>Float3</i> | Imposta le proprietà del punto p#.<br>*- Height:* Regola il height del punto in cui un valore inferiore indica una posizione inferiore o più profonda;<br>*- Smoothness:* Sposta l&#39;inizio dell&#39;arrotondamento della spline in corrispondenza di p#, in cui un valore pari a 0 determina una traiettoria rigida e 1 in una completamente arrotondata;<br>*- Thickness:* Regola il thickness della spline in corrispondenza di p#. Thickness viene utilizzato da nodi Spline specifici. |
 | <b>Coordinate punti</b> |  |
@@ -93,12 +93,12 @@ Se agli input di <b>Point</b> viene fornito un elenco di punti esistente, l&#39;
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 1](point-list.resources/PointList-Variant1.jpg "Esempio di nodo 1")
+![Esempio di nodo 1](point-list.resources/point-list-02.jpg "Esempio di nodo 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 2](point-list.resources/PointList-Demo1.gif "Esempio di nodo 2")
+![Esempio di nodo 2](point-list.resources/point-list-03.gif "Esempio di nodo 2")
 
 </td>
 </tr>

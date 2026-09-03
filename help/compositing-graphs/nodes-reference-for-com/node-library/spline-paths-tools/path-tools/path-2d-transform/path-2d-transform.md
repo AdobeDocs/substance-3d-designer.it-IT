@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Trasforma 2D tracciato
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo](path-2d-transform.resources/path-2d-transform-icon.png "Icona nodo")
+![Icona nodo](path-2d-transform.resources/path-2d-transform-01.png "Icona nodo")
 
 <b>In:</b> Strumenti spline e tracciati > Strumenti tracciato
 
@@ -73,11 +73,11 @@ Trasforma tracciati usando un gizmo.
 <table>
   <tr>
     <td>
-      <img src="path-2d-transform.resources/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
+      <img src="path-2d-transform.resources/path-2d-transform-02.jpg" alt="PathsPolygon_Variant1">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="path-2d-transform.resources/Paths2DTransform-Variant1.jpg" alt="Paths2DTransform-Variant1">
+      <img src="path-2d-transform.resources/path-2d-transform-03.jpg" alt="Paths2DTransform-Variant1">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -89,11 +89,11 @@ Trasforma tracciati usando un gizmo.
 <table>
   <tr>
     <td>
-      <img src="path-2d-transform.resources/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
+      <img src="path-2d-transform.resources/path-2d-transform-02.jpg" alt="PathsPolygon_Variant1">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="path-2d-transform.resources/Paths2DTransform-Variant2.jpg" alt="Paths2DTransform-Variant2">
+      <img src="path-2d-transform.resources/path-2d-transform-04.jpg" alt="Paths2DTransform-Variant2">
       <br><i>Dopo</i>
     </td>
   </tr>

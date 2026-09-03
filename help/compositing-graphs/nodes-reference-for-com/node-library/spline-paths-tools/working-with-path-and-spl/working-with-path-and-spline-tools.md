@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Utilizzo degli Strumenti spline di tracciato
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1544'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Ad esempio, l&#39;immagine a destra rappresenta l&#39;output dell&#39;immagine d
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Output poligono tracciati](working-with-path-and-spline-tools.resources/PathsPolygon_Data.jpg "Output poligono tracciati")
+![Output poligono tracciati](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-01.jpg "Output poligono tracciati")
 
 </td>
 </tr>
@@ -69,7 +69,7 @@ Ad esempio, i nodi di generazione della spline come [Spline (Cubic)](../../../..
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Spline Cubic nella vista 2D](working-with-path-and-spline-tools.resources/SplineCubic-Demo.gif "Spline Cubic nella vista 2D")
+![Spline Cubic nella vista 2D](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-02.gif "Spline Cubic nella vista 2D")
 
 </td>
 </tr>
@@ -86,7 +86,7 @@ Percorso e strumenti spline richiedono calcoli intensivi, al punto che è necess
 
 Quando impostate una di queste due impostazioni sullo stato consigliato, notate un miglioramento significativo delle prestazioni.
 
-![Strumenti di tracciato nella libreria](working-with-path-and-spline-tools.resources/PathsTools.jpg "Strumenti di tracciato nella libreria")
+![Strumenti di tracciato nella libreria](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-03.jpg "Strumenti di tracciato nella libreria")
 
 ## Strumenti percorso
 
@@ -97,7 +97,7 @@ Il [poligono dei tracciati](../../../../../compositing-graphs/nodes-reference-fo
 In alternativa, è possibile estrarre i tracciati da un&#39;immagine in scala di grigio utilizzando il nodo [Maschera in tracciati](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md).\
 Questo è attualmente l&#39;unico modo per produrre forme complesse e consente di sfruttare l&#39;intera libreria di [nodi del grafico a Substance](../../../../../compositing-graphs/nodes-reference-for-com/nodes-reference-for-substance-compositing-graphs.md) per produrre le forme che verranno infine convertite in tracciati.
 
-![Nodi di generazione dei percorsi](working-with-path-and-spline-tools.resources/Paths_Generation.jpg "Nodi di generazione dei percorsi"){width="600px"}
+![Nodi di generazione dei percorsi](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-04.jpg "Nodi di generazione dei percorsi"){width="600px"}
 
 ### Modifica dei tracciati
 
@@ -121,7 +121,7 @@ I tracciati separati hanno un colore unico nell&#39;anteprima per distinguere fa
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo Anteprima tracciati](working-with-path-and-spline-tools.resources/PreviewPaths_Node.jpg "Nodo Anteprima tracciati")
+![Nodo Anteprima tracciati](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-05.jpg "Nodo Anteprima tracciati")
 
 </td>
 </tr>
@@ -137,7 +137,7 @@ Una combinazione molto utile per sfruttare il set di strumenti spline attraverso
 
 <b>Maschera > Maschera su tracciati > Tracciati su spline</b>
 
-![Percorso della spline](working-with-path-and-spline-tools.resources/Spline_PathToSpline.jpg "Percorso della spline")
+![Percorso della spline](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-06.jpg "Percorso della spline")
 
 ### Specifiche del formato del tracciato
 
@@ -146,7 +146,7 @@ Questa codifica segue una specifica descritta nella pagina [Specifiche formato t
 
 È possibile utilizzare questa specifica per produrre nodi personalizzati utilizzando questo formato e sfruttare al meglio i nodi [Paths Vertex Processor](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md).
 
-![Strumenti spline nella libreria](working-with-path-and-spline-tools.resources/SplineTools.jpg "Strumenti spline nella libreria")
+![Strumenti spline nella libreria](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-07.jpg "Strumenti spline nella libreria")
 
 ## Strumenti spline
 
@@ -165,7 +165,7 @@ Le spline possono anche aiutarvi a generare più spline. Ad esempio, [Spline Bri
 
 ### Modifica delle spline
 
-Le opzioni [Trasformazione 2D spline](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-2d-transform/spline-2d-transform.md) e [Alterazione spline](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-warp/spline-warp.md) consentono di modificare la forma delle spline.
+Con [Spline 2D Trasforma](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-2d-transform/spline-2d-transform.md) e [Spline Warp](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-warp/spline-warp.md) potete modificare la forma delle spline.
 
 È inoltre possibile rimuovere le spline indesiderate selezionando i percorsi in base all&#39;indice e rifilare le spline utilizzando il nodo [Selezione spline](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-select/spline-select.md).
 
@@ -185,7 +185,7 @@ Pertanto, è molto importante considerare l&#39;ordine in cui si aggiungono spli
 
 Ciò influisce sui nodi che devono combinare spline, ad esempio [Spline Bridge (List)](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-list/spline-bridge-list.md), [Spline Bridge Mapper](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-gra/spline-bridge-mapper-grayscale.md) e [Spline Merge List](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-merge-list/spline-merge-list.md).
 
-![Aggiunta di spline con modalità di creazione del collegamento](working-with-path-and-spline-tools.resources/LinkCreationMode_Splines.gif "Aggiunta di spline con modalità di creazione del collegamento")
+![Aggiunta di spline con modalità di creazione del collegamento](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-08.gif "Aggiunta di spline con modalità di creazione del collegamento")
 
 ### Ingressi e uscite spline
 
@@ -212,7 +212,7 @@ Questa anteprima può essere modificata nei parametri del nodo, utilizzando i pa
 </td>
 <td style="border: 0;" valign="top">
 
-![Anteprima output su nodo spline](working-with-path-and-spline-tools.resources/Spline_PreviewOutput.jpg "Anteprima output su nodo spline")
+![Anteprima output su nodo spline](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-09.jpg "Anteprima output su nodo spline")
 
 </td>
 </tr>
@@ -231,7 +231,7 @@ Per disegnare una spline come pixel, il set di strumenti li semplifica in linee 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Spline sottoposta a rendering come segmenti](working-with-path-and-spline-tools.resources/Spline_Segments.jpg "Spline sottoposta a rendering come segmenti")
+![Spline sottoposta a rendering come segmenti](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-10.jpg "Spline sottoposta a rendering come segmenti")
 
 </td>
 </tr>

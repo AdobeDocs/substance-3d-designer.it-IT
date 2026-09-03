@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Input
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 0%
@@ -24,17 +24,17 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Nodo atomico: colore di input](input.resources/comp_inputcolor_1.png "Nodo atomico: colore di input"){width="200px"}
+![Nodo atomico: colore di input](input.resources/input-01.png "Nodo atomico: colore di input"){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Nodo atomico: Scala di grigi di input](input.resources/comp_inputgrayscale_1.png "Nodo atomico: Scala di grigi di input"){width="200px"}
+![Nodo atomico: Scala di grigi di input](input.resources/input-02.png "Nodo atomico: Scala di grigi di input"){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Nodo atomico: valore di input](input.resources/comp_inputnumeric_1.png "Nodo atomico: valore di input"){width="200px"}
+![Nodo atomico: valore di input](input.resources/input-03.png "Nodo atomico: valore di input"){width="200px"}
 
 </td>
 </tr>
@@ -108,7 +108,7 @@ Per visualizzarlo con gli output di un altro grafico, dovrete esportare il grafi
 | --- | --- |
 | <b>Identificatore</b> *Stringa* | L&#39;unico attributo univoco obbligatorio. Impossibile contenere spazi.   Questa opzione viene utilizzata per etichettare gli input se non è impostata alcuna etichetta e per distinguere tra output diversi. Non lasciatele solo su &quot;input\_1&quot;! |
 | <b>Descrizione</b> *Stringa* | Descrizione facoltativa utilizzata nella libreria di Designer e nello scaffale di Painter. |
-| <b>Etichetta</b> *Stringa* | Etichetta dell&#39;interfaccia utente utilizzata per un&#39;etichettatura ottimale nell&#39;interfaccia utente di Designer e Painter. Può contenere spazi.   Si consiglia di impostare un nome simile all&#39;identificatore, con le sole barre spaziatrici invece dei caratteri di sottolineatura. |
+| <b>Etichetta</b> *Stringa* | Etichetta dell&#39;interfaccia utente utilizzata per un&#39;etichettatura ottimale nell&#39;interfaccia utente di Designer e Painter. Può contenere spazi.   Consigliato per impostare un nome simile a quello dell&#39;Identificatore, con le sole barre spaziatrici invece dei caratteri di sottolineatura. |
 | <b>Dati utente</b> *Stringa* | Dati utente aggiuntivi e facoltativi che possono essere utilizzati per operazioni di filtro specifiche, in pratica un campo dati personalizzato con caratteri jolly. |
 | <b>Gruppo</b> *Stringa* | Attributo gruppo utilizzato per raggruppare gli input per le [modalità di creazione dei collegamenti](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) di Designer.   Gli input con un attributo di gruppo identico (con distinzione tra maiuscole e minuscole) verranno presentati come una singola connessione in modalità Materiale compatto. |
 
@@ -124,7 +124,7 @@ I parametri di base includono, tra gli altri, <b>Dimensioni output</b>, <b>Forma
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-[![Input primario nel grafico Substance](input.resources/node-primary-input.png)](https://helpx.adobe.com/Primary%20input%20in%20Substance%20graph)
+[![Input primario nel grafico Substance](input.resources/input-04.png)](https://helpx.adobe.com/Primary%20input%20in%20Substance%20graph)
 
 </td>
 </tr>

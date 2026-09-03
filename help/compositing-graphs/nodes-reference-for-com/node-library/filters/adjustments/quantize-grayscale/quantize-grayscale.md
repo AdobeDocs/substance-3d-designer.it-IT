@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Quantizza scala di grigi
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona Quantizza scala di grigi](quantize-grayscale.resources/quantize-grayscale.png "Icona Quantizza scala di grigi"){width="200px"}
+![Icona Quantizza scala di grigi](quantize-grayscale.resources/quantize-grayscale-01.png "Icona Quantizza scala di grigi"){width="200px"}
 
 <b>Ingresso:</b> Filtri > Regolazioni
 
@@ -52,6 +52,6 @@ Genera una singola spline a forma di cerchio.
 
 ## Esempi
 
-![Esempio 1](quantize-grayscale.resources/quantizegrayscale.gif "Esempio 1")
+![Esempio 1](quantize-grayscale.resources/quantize-grayscale-02.gif "Esempio 1")
 
-![Esempio 2](quantize-grayscale.resources/quantizegrayscale.png "Esempio 2")
+![Esempio 2](quantize-grayscale.resources/quantize-grayscale-03.png "Esempio 2")

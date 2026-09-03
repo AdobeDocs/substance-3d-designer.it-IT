@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Rock Weathering
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 16%
@@ -24,7 +24,7 @@ ht-degree: 16%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](rock-weathering.resources/rock-weathering.png){width="128px"}
+![](rock-weathering.resources/rock-weathering-01.png){width="128px"}
 
 <b>In:</b> Generatori Basati Su Trama > Meteo
 
@@ -86,7 +86,7 @@ ht-degree: 16%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="rock-weathering.resources/rock-ex.gif" />
+            <img src="rock-weathering.resources/rock-weathering-02.gif" />
         </td>
     </tr>
 </table>

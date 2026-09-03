@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Colore mappatore UV
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo](uv-mapper-color.resources/uv-mapper-color-icon.png "Icona nodo")
+![Icona nodo](uv-mapper-color.resources/uv-mapper-color-01.png "Icona nodo")
 
 <b>In:</b> Strumenti Spline E Tracciati > Strumenti spline
 
@@ -77,11 +77,11 @@ Esegue la mappatura dell&#39;immagine a colori di input usando le coordinate for
 <table>
   <tr>
     <td>
-      <img src="uv-mapper-color.resources/UVMapper-Variant1-Before.jpg" alt="UVMapper-Variant1-Before">
+      <img src="uv-mapper-color.resources/uv-mapper-color-02.jpg" alt="UVMapper-Variant1-Before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="uv-mapper-color.resources/UVMapper-Variant1-After.jpg" alt="UVMapper-Variant1-After">
+      <img src="uv-mapper-color.resources/uv-mapper-color-03.jpg" alt="UVMapper-Variant1-After">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -93,11 +93,11 @@ Esegue la mappatura dell&#39;immagine a colori di input usando le coordinate for
 <table>
   <tr>
     <td>
-      <img src="uv-mapper-color.resources/UVMapper-Variant2-Before.jpg" alt="UVMapper-Variant2-Before">
+      <img src="uv-mapper-color.resources/uv-mapper-color-04.jpg" alt="UVMapper-Variant2-Before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="uv-mapper-color.resources/UVMapperColor-Variant2-After.jpg" alt="UVMapperColor-Variant2-After">
+      <img src="uv-mapper-color.resources/uv-mapper-color-05.jpg" alt="UVMapperColor-Variant2-After">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -107,4 +107,4 @@ Esegue la mappatura dell&#39;immagine a colori di input usando le coordinate for
 </tr>
 </table>
 
-![Nodo nel grafico](uv-mapper-color.resources/UVMapperColor-Graph.jpg "Nodo nel grafico")
+![Nodo nel grafico](uv-mapper-color.resources/uv-mapper-color-06.jpg "Nodo nel grafico")

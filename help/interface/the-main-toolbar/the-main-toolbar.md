@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Barra degli strumenti principale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 2%
@@ -29,7 +29,7 @@ Questa pagina descrive la barra degli strumenti principale e il menu di [Substan
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
 
-![Barra degli strumenti principale](the-main-toolbar.resources/mainmenu.png "Barra degli strumenti principale")
+![Barra degli strumenti principale](the-main-toolbar.resources/the-main-toolbar-01.png "Barra degli strumenti principale")
 
 </td>
 </tr>
@@ -37,15 +37,15 @@ Questa pagina descrive la barra degli strumenti principale e il menu di [Substan
 
 ## Pulsanti di accesso rapido
 
-![](the-main-toolbar.resources/newsubstance.png) <b>Nuovo grafico Substance...:</b> (Ctrl+N)Visualizza la finestra [Nuovo grafico](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md), quindi crea un nuovo pacchetto con un [grafico Substance](../../compositing-graphs/substance-compositing-graphs.md).
+![](the-main-toolbar.resources/the-main-toolbar-02.png) <b>Nuovo grafico Substance...:</b> (Ctrl+N)Visualizza la finestra [Nuovo grafico](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md), quindi crea un nuovo pacchetto con un [grafico Substance](../../compositing-graphs/substance-compositing-graphs.md).
 
-![](the-main-toolbar.resources/open.png) <b>Apri...:</b> (Ctrl+O) Apri un [pacchetto di Substance esistente (.SBS, .SBSAR, .SBSASM)](../../getting-started/overview/overview.md).
+![](the-main-toolbar.resources/the-main-toolbar-03.png) <b>Apri...:</b> (Ctrl+O) Apri un [pacchetto di Substance esistente (.SBS, .SBSAR, .SBSASM)](../../getting-started/overview/overview.md).
 
-![](the-main-toolbar.resources/saveall.png) <b>Salva tutto:</b> (Ctrl+⇧+S) Salva tutti i pacchetti elencati in [Esplora risorse](../../interface/the-explorer-window/the-explorer-window.md).
+![](the-main-toolbar.resources/the-main-toolbar-04.png) <b>Salva tutto:</b> (Ctrl+⇧+S) Salva tutti i pacchetti elencati in [Esplora risorse](../../interface/the-explorer-window/the-explorer-window.md).
 
-![](the-main-toolbar.resources/undo.png) <b>Annulla:</b> (CTRL+Z) Annulla l&#39;ultima operazione.
+![](the-main-toolbar.resources/the-main-toolbar-05.png) <b>Annulla:</b> (CTRL+Z) Annulla l&#39;ultima operazione.
 
-![](the-main-toolbar.resources/redo.png) <b>Ripeti:</b> (CTRL+Y) Ripeti l&#39;ultima operazione annullata.
+![](the-main-toolbar.resources/the-main-toolbar-06.png) <b>Ripeti:</b> (CTRL+Y) Ripeti l&#39;ultima operazione annullata.
 
 ## File
 
@@ -100,7 +100,7 @@ Questa pagina descrive la barra degli strumenti principale e il menu di [Substan
 
 <b>Nuovo Esplora risorse:</b> apre un nuovo ancoraggio Esplora risorse. È possibile aprire più dock di Esplora risorse.
 
-<b>Nuova vista 3D:</b> apre un nuovo ancoraggio vista 3D. È possibile aprire più ancoraggi di Vista 3D.
+<b>Nuova vista 3D:</b> apre un nuovo ancoraggio di vista 3D. È possibile aprire più dock di vista 3D.
 
 <b>Nuova visualizzazione libreria:</b> apre un nuovo ancoraggio libreria. È possibile aprire più ancoraggi libreria.
 

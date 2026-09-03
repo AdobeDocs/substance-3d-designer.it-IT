@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/highpass.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo Passa alte per estrarre dalle texture i dettagli ad alta frequenza e creare così effetti di nitidezza e di miglioramento dei dettagli.
+description: Utilizzate il nodo Passa alte per estrarre dalla texture i dettagli ad alta frequenza e creare effetti di nitidezza e miglioramento dei dettagli.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Highpass
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Passa alte
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 4%
@@ -24,9 +24,9 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](highpass.resources/high-pass-greyscale.png){width="128px"}
+![](highpass.resources/highpass-01.png){width="128px"}
 
-![](highpass.resources/high-pass.png){width="128px"}
+![](highpass.resources/highpass-02.png){width="128px"}
 
 <b>Ingresso:</b> Filtri > Regolazioni
 
@@ -36,7 +36,7 @@ ht-degree: 4%
 ## Descrizione
 
 Esegue un filtro passa-alto, disponibile sia a colori che in scala di grigio. Simile all’azione Photoshop con lo stesso nome.\
-Utile per rimuovere grandi differenze di luminanza nelle immagini, ad esempio quando si eliminano le texture per l’affiancamento.
+Utile per rimuovere grandi differenze di luminanza nelle immagini, ad Affiancamento quando si rimuovono texture.
 
 Importante: assicurati di utilizzare la versione appropriata per il tuo input. Usate &quot;Highpass&quot; per gli ingressi del colore e &quot;Highpass Greyscale&quot; per gli ingressi della scala di grigi.
 
@@ -57,10 +57,10 @@ Importante: assicurati di utilizzare la versione appropriata per il tuo input. U
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="highpass.resources/highpass.gif" />
+            <img src="highpass.resources/highpass-03.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="highpass.resources/highpass-example.png" />
+            <img src="highpass.resources/highpass-04.png" />
         </td>
     </tr>
 </table>

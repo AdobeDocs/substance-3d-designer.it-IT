@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Da ID a maschera in scala di grigio
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona ID per maschera in scala di grigio](id-to-mask.resources/IDToMask.png "Icona ID per maschera in scala di grigio"){width="200px"}
+![Icona ID per maschera in scala di grigio](id-to-mask.resources/id-to-mask-01.png "Icona ID per maschera in scala di grigio"){width="200px"}
 
 <b>Ingresso:</b> Filtri > Regolazioni
 
@@ -72,11 +72,11 @@ Una mappa ID è un’immagine in cui i pixel che fanno parte di un intero (ad es
 <table>
   <tr>
     <td>
-      <img src="id-to-mask.resources/id_to_mask_grayscale_example_1_before.jpg" alt="id_to_mask_grayscale_example_1_before">
+      <img src="id-to-mask.resources/id-to-mask-02.jpg" alt="id_to_mask_grayscale_example_1_before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="id-to-mask.resources/id_to_mask_grayscale_example_1_after.jpg" alt="id_to_mask_grayscale_example_1_after">
+      <img src="id-to-mask.resources/id-to-mask-03.jpg" alt="id_to_mask_grayscale_example_1_after">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -86,12 +86,12 @@ Una mappa ID è un’immagine in cui i pixel che fanno parte di un intero (ad es
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![ID da mascherare: Esempio 2](id-to-mask.resources/id_to_mask_example_2.gif "ID da mascherare: Esempio 2"){zoomable="yes"}
+![ID da mascherare: Esempio 2](id-to-mask.resources/id-to-mask-04.gif "ID da mascherare: Esempio 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![ID da mascherare: Esempio 3](id-to-mask.resources/id_to_mask_example_3.png "ID da mascherare: Esempio 3"){zoomable="yes"}
+![ID da mascherare: Esempio 3](id-to-mask.resources/id-to-mask-05.png "ID da mascherare: Esempio 3"){zoomable="yes"}
 
 </td>
 </tr>

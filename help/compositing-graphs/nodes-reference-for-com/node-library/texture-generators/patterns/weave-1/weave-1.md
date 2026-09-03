@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/weave-1.html"
 breadcrumb-title: ''
-description: Usa il nodo Weave 1 per creare pattern di tessuto e texture tessili di base in Substance 3D Designer.
+description: Usa il nodo Weave 1 per creare pattern di tessuto di base e texture tessili in Substance 3D Designer.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Weave 1
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Tessuto 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '66'
 ht-degree: 7%
@@ -24,9 +24,9 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](weave-1.resources/weave-1.png){width="128px"}
+![](weave-1.resources/weave-1-01.png){width="128px"}
 
-<b>Ingresso:</b> Generatori texture > Pattern
+<b>Ingresso:</b> Generatori Texture > Pattern
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -54,7 +54,7 @@ Genera un semplice motivo a trama.
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="weave-1.resources/weave-1-ex.gif" />
+            <img src="weave-1.resources/weave-1-02.gif" />
         </td>
     </tr>
 </table>

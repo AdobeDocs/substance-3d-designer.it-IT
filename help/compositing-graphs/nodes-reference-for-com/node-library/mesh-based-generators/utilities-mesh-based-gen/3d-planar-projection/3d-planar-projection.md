@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/3d-planar-projection.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo Proiezione planare 3D per proiettare le texture sulle superfici della trama utilizzando la proiezione planare per la mappatura delle texture.
+description: Utilizzare il nodo Proiezione Planari 3D per proiettare texture su superfici mesh utilizzando la proiezione planari per la mappatura texture.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Utilities (Mesh Based Generators) > 3D Planar Projection
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Proiezione planare 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 7%
@@ -18,13 +18,13 @@ ht-degree: 7%
 ---
 
 
-# Proiezione planare 3D
+# Proiezione Planari 3D
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-planar-projection.resources/3d-planar-gray.png)![](3d-planar-projection.resources/3d-planar.png)
+![](3d-planar-projection.resources/3d-planar-projection-01.png)![](3d-planar-projection.resources/3d-planar-projection-02.png)
 
 <b>In:</b> Generatori Basati Su Trama > Utility
 
@@ -33,7 +33,7 @@ ht-degree: 7%
 
 ## Descrizione
 
-Esegue una proiezione planare basata sui dati della trama cotta (Posizione e Mappe normali mondiali). Consente di proiettare e posizionare decalcomanie tra giunture, indipendentemente dalla mappatura UV originale.
+Esegue una proiezione della planari basata su dati di trama eseguiti i baking (Mappa normale Posizione e Mondo). Consente di proiettare e posizionare decalcomanie tra giunture, indipendentemente dalla mappatura UV originale.
 
 </td>
 </tr>
@@ -57,7 +57,7 @@ Esegue una proiezione planare basata sui dati della trama cotta (Posizione e Map
 |:---|:---|
 | <b>Posizionamento</b> |  |
 | <b>Input progetto</b> <i>Posizione UV, Posizione spazio globale</i> | Scegli se la posizione di proiezione è impostata in uno spazio 2D/UV o 3D/Mondo. |
-| <b>Posizione UV di destinazione</b> | Solo con input posizione UV, ideale per selezionare un punto nella vista 2D sulla mappa posizione. |
+| <b>Posizione UV di destinazione</b> | Solo con input posizione UV, ideale per selezionare un punto nel Vista 2D sulla mappa posizione. |
 | <b>Posizione di destinazione</b> <i>(valore colore)</i> | Solo con l’input Posizione spazio mondo (World Space Position Input) è possibile definire una coordinata 3D esatta. |
 | <b>Destinazione normale</b> <i>(valore colore)</i> |  |
 | <b>Rotazione</b> <i>0.0 - 1.0</i> | Ruota la texture proiettata lungo l&#39;asse normale. |
@@ -74,7 +74,7 @@ Esegue una proiezione planare basata sui dati della trama cotta (Posizione e Map
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-planar-projection.resources/3d-planar-projection-ex.gif" />
+            <img src="3d-planar-projection.resources/3d-planar-projection-03.gif" />
         </td>
     </tr>
 </table>

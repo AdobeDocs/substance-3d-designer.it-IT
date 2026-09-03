@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Estrusione forma
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](shape-extrude.resources/shape-extrude.png){width="128px"}
+![](shape-extrude.resources/shape-extrude-01.png){width="128px"}
 
 <b>Ingresso:</b> Generatori Texture > Pattern
 
@@ -74,7 +74,7 @@ Nodo avanzato che consente il rendering degli input di &quot;forme&quot; binari 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="shape-extrude.resources/shape-extrude-1.png" />
+            <img src="shape-extrude.resources/shape-extrude-02.png" />
         </td>
     </tr>
 </table>

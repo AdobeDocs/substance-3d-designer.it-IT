@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Scala di grigi filtro mediana
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Scala di grigi filtro mediana: icona](median-filter-grayscale.resources/MedianFilter_Icon_Grayscale.png "Scala di grigi filtro mediana: icona")
+![Scala di grigi filtro mediana: icona](median-filter-grayscale.resources/median-filter-grayscale-01.png "Scala di grigi filtro mediana: icona")
 
 <b>Ingresso:</b> Filtri > Sfocature
 
@@ -75,11 +75,11 @@ Per ogni pixel, il nodo calcola un valore in scala di grigio in base al valore m
 <table>
   <tr>
     <td>
-      <img src="median-filter-grayscale.resources/MedianFilter_Variant2A.png" alt="MedianFilter_Variant2A">
+      <img src="median-filter-grayscale.resources/median-filter-grayscale-02.png" alt="MedianFilter_Variant2A">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="median-filter-grayscale.resources/MedianFilter_Variant2B.png" alt="MedianFilter_Variant2B">
+      <img src="median-filter-grayscale.resources/median-filter-grayscale-03.png" alt="MedianFilter_Variant2B">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -88,11 +88,11 @@ Per ogni pixel, il nodo calcola un valore in scala di grigio in base al valore m
 <table>
   <tr>
     <td>
-      <img src="median-filter-grayscale.resources/MedianFilter_Variant4A.png" alt="MedianFilter_Variant4A">
+      <img src="median-filter-grayscale.resources/median-filter-grayscale-04.png" alt="MedianFilter_Variant4A">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="median-filter-grayscale.resources/MedianFilter_Variant4B.png" alt="MedianFilter_Variant4B">
+      <img src="median-filter-grayscale.resources/median-filter-grayscale-05.png" alt="MedianFilter_Variant4B">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -101,11 +101,11 @@ Per ogni pixel, il nodo calcola un valore in scala di grigio in base al valore m
 <table>
   <tr>
     <td>
-      <img src="median-filter-grayscale.resources/MedianFilter_Variant1A.png" alt="MedianFilter_Variant1A">
+      <img src="median-filter-grayscale.resources/median-filter-grayscale-06.png" alt="MedianFilter_Variant1A">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="median-filter-grayscale.resources/MedianFilter_Variant1B.png" alt="MedianFilter_Variant1B">
+      <img src="median-filter-grayscale.resources/median-filter-grayscale-07.png" alt="MedianFilter_Variant1B">
       <br><i>Dopo</i>
     </td>
   </tr>

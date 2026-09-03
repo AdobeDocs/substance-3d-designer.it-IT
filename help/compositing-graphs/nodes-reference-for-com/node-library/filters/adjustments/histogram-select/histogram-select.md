@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Selezione istogramma
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](histogram-select.resources/histogram-select.png){width="128px"}
+![](histogram-select.resources/histogram-select-01.png){width="128px"}
 
 <b>Ingresso:</b> Filtri > Regolazioni
 
@@ -56,7 +56,7 @@ Simile a [Scansione istogramma](../../../../../../compositing-graphs/nodes-refer
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="histogram-select.resources/histoselect-ex.gif" />
+            <img src="histogram-select.resources/histogram-select-02.gif" />
         </td>
     </tr>
 </table>

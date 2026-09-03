@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Converti in lineare
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 2%
@@ -24,9 +24,9 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](convert-to-linear.resources/convert-to-linear.png){width="128px"}
+![](convert-to-linear.resources/convert-to-linear-01.png){width="128px"}
 
-![](convert-to-linear.resources/convert-to-linear-grayscale.png){width="128px"}
+![](convert-to-linear.resources/convert-to-linear-02.png){width="128px"}
 
 <b>Ingresso:</b> Filtri > Regolazioni
 

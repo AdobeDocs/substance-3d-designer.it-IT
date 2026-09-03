@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Colore da Flood Fill a casuale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '53'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](flood-fill-to-random-color.resources/floodfill-to-random-color.png){width="128px"}
+![](flood-fill-to-random-color.resources/flood-fill-to-random-color-01.png){width="128px"}
 
 <b>Ingresso:</b> Filtri > Effetti
 
@@ -44,10 +44,10 @@ Genera porzioni con colori RGB casuali da una base di [Flood Fill](../../../../.
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="flood-fill-to-random-color.resources/floodrandomcolor-ex2.png" />
+            <img src="flood-fill-to-random-color.resources/flood-fill-to-random-color-02.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="flood-fill-to-random-color.resources/floodrandomcolor-ex1.png" />
+            <img src="flood-fill-to-random-color.resources/flood-fill-to-random-color-03.png" />
         </td>
     </tr>
 </table>

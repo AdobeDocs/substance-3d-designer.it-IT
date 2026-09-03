@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Avvertenze nei grafici Substance
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 1%
@@ -36,7 +36,7 @@ Aggiungete uno o più nodi [Output](../../compositing-graphs/nodes-reference-for
 >
 > I modelli di grafico disponibili nella finestra di dialogo [Nuovo grafico](../creating-compositing-gra/creating-a-substance-compositing-graph.md) presentano nodi di output predefiniti pronti per l&#39;uso.
 
-![Correzione dell&#39;avviso &#39;Nessun nodo di output definito&#39;](warnings-in-substance-compositing-graphs.resources/warnings-comp-output.gif "Correzione dell&#39;avviso &#39;Nessun nodo di output definito&#39;"){width="512px"}
+![Correzione dell&#39;avviso &#39;Nessun nodo di output definito&#39;](warnings-in-substance-compositing-graphs.resources/warnings-in-substance-compositing-graphs-01.gif "Correzione dell&#39;avviso &#39;Nessun nodo di output definito&#39;"){width="512px"}
 
 ### ![(errore)](warnings-in-substance-compositing-graphs.resources/error.svg) La funzione del parametro *[x]* contiene alcuni avvisi
 
@@ -51,7 +51,7 @@ Individuare il nodo che emette l&#39;avviso in base all&#39;etichetta e al badge
 
 Quindi, valuta gli avvisi elencati nell’angolo in basso a sinistra della vista Grafico e risolvi i problemi. È possibile fare riferimento alla pagina [Avvisi nei grafici delle funzioni](../../function-graphs/warnings-function-graphs/warnings-in-function-graphs.md) per la risoluzione dei problemi relativi agli avvisi riportati nei grafici delle funzioni.
 
-![Correggere l&#39;avviso &#39;La funzione del parametro contiene alcuni avvisi&#39;](warnings-in-substance-compositing-graphs.resources/warnings-comp-param-function.gif "Correggere l&#39;avviso &#39;La funzione del parametro contiene alcuni avvisi&#39;")
+![Correggere l&#39;avviso &#39;La funzione del parametro contiene alcuni avvisi&#39;](warnings-in-substance-compositing-graphs.resources/warnings-in-substance-compositing-graphs-02.gif "Correggere l&#39;avviso &#39;La funzione del parametro contiene alcuni avvisi&#39;")
 
 ### ![(errore)](warnings-in-substance-compositing-graphs.resources/error.svg) I dati a cui si fa riferimento contengono alcuni avvisi
 
@@ -69,7 +69,7 @@ Nel pannello [Esplora risorse](../../interface/the-explorer-window/the-explorer-
 * Per i grafici, fai riferimento ad altri elementi in questa pagina
 * Per qualsiasi altro tipo di risorsa, consultare la pagina [Avvisi dalle dipendenze](../../resources/warnings-from-dep/warnings-from-dependencies.md)
 
-![Correzione dell&#39;avviso &#39;I dati di riferimento contengono alcuni avvisi&#39;](warnings-in-substance-compositing-graphs.resources/warnings-comp-referenced-data.gif "Correzione dell&#39;avviso &#39;I dati di riferimento contengono alcuni avvisi&#39;")
+![Correzione dell&#39;avviso &#39;I dati di riferimento contengono alcuni avvisi&#39;](warnings-in-substance-compositing-graphs.resources/warnings-in-substance-compositing-graphs-03.gif "Correzione dell&#39;avviso &#39;I dati di riferimento contengono alcuni avvisi&#39;")
 
 ### ![(errore)](warnings-in-substance-compositing-graphs.resources/error.svg) Risorsa di riferimento non trovata
 
@@ -92,7 +92,7 @@ Per i nodi [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-node
 Trovare le risorse a cui si fa riferimento nel pannello Esplora risorse e verificarne la presenza nel percorso salvato nell&#39;attributo **Percorso file**.\
 In caso contrario, fare clic su RMB sull&#39;elemento della risorsa in Esplora risorse e selezionare l&#39;opzione **Riposiziona...** nel menu di scelta rapida per impostare un nuovo file di destinazione valido per la risorsa.
 
-![Correzione dell&#39;avviso &#39;Risorsa di riferimento non trovata&#39;](warnings-in-substance-compositing-graphs.resources/warnings-comp-referenced-resource.gif "Correzione dell&#39;avviso &#39;Risorsa di riferimento non trovata&#39;")
+![Correzione dell&#39;avviso &#39;Risorsa di riferimento non trovata&#39;](warnings-in-substance-compositing-graphs.resources/warnings-in-substance-compositing-graphs-04.gif "Correzione dell&#39;avviso &#39;Risorsa di riferimento non trovata&#39;")
 
 ### ![(errore)](warnings-in-substance-compositing-graphs.resources/error.svg) Il nodo di testo utilizza un font non valido
 

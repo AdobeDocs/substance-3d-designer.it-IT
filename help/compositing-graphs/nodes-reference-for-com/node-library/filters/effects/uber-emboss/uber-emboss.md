@@ -7,10 +7,10 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Rilievo Uber
+title: Uber Effetti rilievi
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](uber-emboss.resources/uber-emboss.png){width="128px"}
+![](uber-emboss.resources/uber-emboss-01.png){width="128px"}
 
 <b>Ingresso:</b> Filtri > Effetti
 
@@ -71,7 +71,7 @@ Versione avanzata con numerose funzionalità di [Effetto rilievo](../../../../..
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="uber-emboss.resources/uberemboss-ex.png" />
+            <img src="uber-emboss.resources/uber-emboss-02.png" />
         </td>
     </tr>
 </table>

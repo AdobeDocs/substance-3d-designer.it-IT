@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Utilizzo di scene 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Utilizzo di scene 3D
 
-![Operazioni con scene 3D](working-with-3d-scenes.resources/workingWith3DScenes.png "Operazioni con scene 3D"){zoomable="yes"}
+![Operazioni con scene 3D](working-with-3d-scenes.resources/working-with-3d-scenes-01.png "Operazioni con scene 3D"){zoomable="yes"}
 
 Designer consente di caricare [scene 3D](../glossary/glossary.md) per lavorare sui materiali nel contesto. Qui trovi un elenco dei formati di file supportati per le scene 3D e un elenco delle funzioni supportate per ogni formato. <b>&lt;collegamento necessario></b>
 
@@ -64,7 +64,7 @@ Potete interagire con i seguenti contenuti della scena:
 * <b>Luci:</b> tutte le luci della scena possono essere disattivate nel [Browser scene](../interface/3d-view/scene-browser/scene-browser.md).
 * <b>Fotocamere:</b> tutte le videocamere rilevate nella scena vengono aggiunte come predefinite alla videocamera aggiunta da Designer.
 
-![Contenuto di una scena 3D](working-with-3d-scenes.resources/loaded3DScene.png "Contenuto di una scena 3D"){zoomable="yes"}
+![Contenuto di una scena 3D](working-with-3d-scenes.resources/working-with-3d-scenes-02.png "Contenuto di una scena 3D"){zoomable="yes"}
 
 Designer usa una descrizione USD per la scena 3D. Il layout può essere visualizzato nel browser Scene, in cui ogni tipo [USD prim](https://openusd.org/release/glossary.html#usdglossary-prim) ha una propria icona (geometria, materiale, shader, fotocamera, Trasforma, ecc.).
 
@@ -85,14 +85,14 @@ Solo i metodi 1 e 4 consentono di caricare nuovamente la scena esattamente come 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Caricamento di una scena 3D - Da una risorsa scena 3D](working-with-3d-scenes.resources/load3DScene-3DSceneResource.gif "Caricamento di una scena 3D - Da una risorsa scena 3D"){zoomable="yes"}
+![Caricamento di una scena 3D - Da una risorsa scena 3D](working-with-3d-scenes.resources/working-with-3d-scenes-03.gif "Caricamento di una scena 3D - Da una risorsa scena 3D"){zoomable="yes"}
 
 Caricamento di una risorsa scena 3D
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Caricamento di una scena 3D - Dalla libreria](working-with-3d-scenes.resources/load3DScene-Library.gif "Caricamento di una scena 3D - Dalla libreria"){zoomable="yes"}
+![Caricamento di una scena 3D - Dalla libreria](working-with-3d-scenes.resources/working-with-3d-scenes-04.gif "Caricamento di una scena 3D - Dalla libreria"){zoomable="yes"}
 
 Caricamento di una scena 3D dalla libreria
 
@@ -104,14 +104,14 @@ Caricamento di una scena 3D dalla libreria
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Caricamento di una scena 3D - Da un file di scena 3D](working-with-3d-scenes.resources/load3DScene-3DSceneFile.gif "Caricamento di una scena 3D - Da un file di scena 3D"){zoomable="yes"}
+![Caricamento di una scena 3D - Da un file di scena 3D](working-with-3d-scenes.resources/working-with-3d-scenes-05.gif "Caricamento di una scena 3D - Da un file di scena 3D"){zoomable="yes"}
 
 Caricamento di un file di scena 3D
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Caricamento di una scena 3D - Da un file di stato della scena](working-with-3d-scenes.resources/load3DScene-sceneStateFile.gif "Caricamento di una scena 3D - Da un file di stato della scena"){zoomable="yes"}
+![Caricamento di una scena 3D - Da un file di stato della scena](working-with-3d-scenes.resources/working-with-3d-scenes-06.gif "Caricamento di una scena 3D - Da un file di stato della scena"){zoomable="yes"}
 
 Caricamento di un file di stato della scena
 
@@ -138,7 +138,7 @@ Tutti gli elementi creati da Designer vengono elencati con <b>etichette in grass
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Browser scene - Elementi creati da Designer](working-with-3d-scenes.resources/sceneBrowser-createdByDesigner.png "Browser scene - Elementi creati da Designer"){zoomable="yes"}
+![Browser scene - Elementi creati da Designer](working-with-3d-scenes.resources/working-with-3d-scenes-07.png "Browser scene - Elementi creati da Designer"){zoomable="yes"}
 
 </td>
 </tr>
@@ -148,7 +148,7 @@ Tutti gli elementi creati da Designer vengono elencati con <b>etichette in grass
 
 Dopo aver impostato materiali, videocamere, luci, ecc. nel vista 3D, tale stato può essere salvato in un file di stato della scena (.sbsscn) che potrebbe essere caricato in seguito per ripristinarlo. Ad esempio, puoi impostare alcune scene per visualizzare in anteprima diversi tipi di materiali o un ambiente di illuminazione specifico.
 
-![Caricare il file di stato della scena](working-with-3d-scenes.resources/loadSceneStateFile.gif "Caricare il file di stato della scena"){zoomable="yes"}
+![Caricare il file di stato della scena](working-with-3d-scenes.resources/working-with-3d-scenes-08.gif "Caricare il file di stato della scena"){zoomable="yes"}
 
 È inoltre possibile utilizzare uno stato di scena salvato come stato predefinito per il vista 3D, in modo che venga utilizzato ogni volta che viene creato un nuovo vista 3D. Ciò è utile se desideri visualizzare in anteprima i materiali dei tuoi materiali per impostazione predefinita sulla trama Sfera 2 porzioni con un valore Affiancamento di 2 e una mappa di ambiente specifica.
 

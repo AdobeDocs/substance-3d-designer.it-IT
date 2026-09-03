@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Perlin noise
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 2%
@@ -24,9 +24,9 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Rumore di Perlin - Icona](perlin-noise.resources/perlin_noise.png "Rumore di Perlin - Icona"){width="200px"}
+![Rumore di Perlin - Icona](perlin-noise.resources/perlin-noise-01.png "Rumore di Perlin - Icona"){width="200px"}
 
-<b>Ingresso:</b> Generatori di texture > Rumori
+<b>Ingresso:</b> generatori di Texture > Rumori
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -54,9 +54,9 @@ Genera un disturbo di Perlin, una distribuzione uniforme ampiamente utilizzata d
 |  |  |
 |:---|:---|
 | <b>Scala</b> <i>Numero intero</i> | Suddivisione della griglia utilizzata per generare le porzioni di disturbo.    Un valore più elevato determina la creazione di più riquadri e un disturbo maggiore. |
-| <b>Disturbo</b> <i>Mobile</i> | Sposta gli ingredienti del disturbo.    Può essere utilizzato per animare il disturbo. |
+| <b>Disturbo</b> <i>Virgola mobile</i> | Sposta gli ingredienti del disturbo.    Può essere utilizzato per animare il disturbo. |
 | <b>Velocità del disturbo</b> <i>Mobile</i> | Regola la distanza di spostamento applicata dal parametro <b>Disturbo</b>.    Questa opzione consente di controllare la velocità di spostamento durante l’animazione del disturbo. |
-| <b>Scostamento porzione</b> <i>Float2</i> | Controlla la posizione della porzione di piano infinito utilizzata per eseguire il rendering del disturbo. |
+| <b>Scostamento porzione</b> <i>Virgola mobile 2</i> | Controlla la posizione della porzione di piano infinito utilizzata per eseguire il rendering del disturbo. |
 | <b>Espansione non quadrata</b> <i>Booleano</i> | Nelle immagini non quadrate, mantiene il riquadro quadrato generato ed espande la generazione del disturbo fino ai limiti dell&#39;immagine. |
 
 ## Esempi
@@ -65,12 +65,12 @@ Genera un disturbo di Perlin, una distribuzione uniforme ampiamente utilizzata d
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Rumore di Perlin - Esempio 1](perlin-noise.resources/perlin_noise_1.png "Rumore di Perlin - Esempio 1"){zoomable="yes"}
+![Rumore di Perlin - Esempio 1](perlin-noise.resources/perlin-noise-02.png "Rumore di Perlin - Esempio 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Rumore di Perlin - Esempio 2](perlin-noise.resources/noise_perlin_noise_v2_speed0.6_aniso0.gif "Rumore di Perlin - Esempio 2"){zoomable="yes"}
+![Rumore di Perlin - Esempio 2](perlin-noise.resources/perlin-noise-03.gif "Rumore di Perlin - Esempio 2"){zoomable="yes"}
 
 </td>
 </tr>

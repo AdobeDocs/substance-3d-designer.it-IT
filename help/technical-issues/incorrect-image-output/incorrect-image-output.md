@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Output immagine errato
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 21af965a075e8c119d16922f15b867da99c21397
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Se non è necessario lavorare specificamente con le immagini HDR, è probabile c
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](incorrect-image-output.resources/demo-stepping-8-bit.png){width="256px"}![](incorrect-image-output.resources/demo-stepping-8-bit-2.png){width="256px"}![](incorrect-image-output.resources/demo-stepping-8-bit-3.png){width="256px"}
+![](incorrect-image-output.resources/incorrect-image-output-01.png){width="256px"}![](incorrect-image-output.resources/incorrect-image-output-02.png){width="256px"}![](incorrect-image-output.resources/incorrect-image-output-03.png){width="256px"}
 
 </td>
 </tr>
@@ -81,7 +81,7 @@ L’output appare a bassa risoluzione.
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](incorrect-image-output.resources/issues-sbsar-bitmap-relative-to.jpg){width="256px"}
+![](incorrect-image-output.resources/incorrect-image-output-04.jpg){width="256px"}
 
 </td>
 </tr>
@@ -91,7 +91,7 @@ L’output appare a bassa risoluzione.
 
 Assicuratevi che la proprietà [Dimensione output](../../compositing-graphs/output-size/output-size.md) di tutti i nodi [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) sia impostata sul metodo *Assoluto* [di ereditarietà](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md).
 
-In caso contrario, la [risorsa bitmap](../../resources/bitmap-resource/bitmap-resource.md) a cui viene fatto riferimento verrà salvata con la risoluzione predefinita 256\*256 nell&#39;archivio di Substance 3D pubblicato, con un impatto* sulla qualità* di uno o più output.
+In caso contrario, la [risorsa bitmap](../../resources/bitmap-resource/bitmap-resource.md) a cui si fa riferimento verrà salvata con la risoluzione predefinita 256\*256 nell&#39;archivio di Substance 3D pubblicato, che* influirà sulla qualità* di uno o più output.
 
 ## L’immagine è sfocata
 
@@ -106,7 +106,7 @@ Le forme risultano leggermente sfocate dopo aver utilizzato alcuni nodi, ad esem
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](incorrect-image-output.resources/issues-bilinear.jpg){width="256px"}
+![](incorrect-image-output.resources/incorrect-image-output-05.jpg){width="256px"}
 
 </td>
 </tr>

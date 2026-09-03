@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Liquido
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](liquid.resources/liquid.png){width="128px"}
+![](liquid.resources/liquid-01.png){width="128px"}
 
 <b>Ingresso:</b> Generatori di Texture > Rumori
 
@@ -55,7 +55,7 @@ Si tratta di una semplice variante di [Disturbo gaussiano](../../../../../../com
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="liquid.resources/liquid-ex.gif" />
+            <img src="liquid.resources/liquid-02.gif" />
         </td>
     </tr>
 </table>

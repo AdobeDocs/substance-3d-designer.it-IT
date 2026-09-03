@@ -10,7 +10,7 @@ helpx_tags: ""
 title: DISTURBO DIREZIONALE 3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Disturbo direzionale 3 - Icona](directional-noise-3.resources/directional_noise_3.png "Disturbo direzionale 3 - Icona"){width="200px"}
+![Disturbo direzionale 3 - Icona](directional-noise-3.resources/directional-noise-3-01.png "Disturbo direzionale 3 - Icona"){width="200px"}
 
 <b>Ingresso:</b> Generatori di texture > Rumori
 
@@ -58,11 +58,11 @@ Vedere anche: [Disturbo direzionale 1](../../../../../../compositing-graphs/node
 | <b>Scala</b> <i>Numero intero</i> | Suddivisione della griglia utilizzata per generare le porzioni di disturbo.    Un valore più elevato determina la creazione di più riquadri e un disturbo maggiore. |
 | <b>Disturbo</b> <i>Mobile</i> | Sposta gli ingredienti del disturbo.    Può essere utilizzato per animare il disturbo. |
 | <b>Velocità del disturbo</b> <i>Mobile</i> | Regola la distanza di spostamento applicata dal parametro <b>Disturbo</b>.    Questa opzione consente di controllare la velocità di spostamento durante l’animazione del disturbo. |
-| <b>anisotropia disturbo</b> <i>Mobile</i> | Controlla l&#39;estensione delle direzioni dello spostamento applicato dal parametro <b>Disturbo</b>, in cui un valore più alto determina una direzione più stretta e definita.    La direzione è controllata dal parametro <b>Angolo di anisotropia disturbo</b>. |
+| <b>anisotropia disturbo</b> <i>Mobile</i> | Controlla l&#39;estensione delle direzioni dello spostamento applicato dal parametro <b>Disturbo</b>, in cui un valore più alto determina una direzione più stretta e definita.    La direzione è controllata dal parametro <b>angolo di anisotropia disturbo</b>. |
 | <b>angolo di anisotropia di disturbo</b> <i>Mobile</i> | Controlla la direzione dello spostamento applicato dal parametro <b>Disorder</b> quando il parametro &#39;anisotropia del disturbo&#39; è diverso da zero. |
 | <b>Angolo</b> <i>Mobile</i> | Angolo utilizzato per impostare la direzione del disturbo, in numero di giri e a partire da destra orizzontale. |
 | <b>Angolo casuale</b> <i>Mobile</i> | L&#39;importo massimo della variazione casuale applicata al valore <b>Angolo</b>, in numero di giri. |
-| <b>Scostamento porzione</b> <i>Float2</i> | Controlla la posizione della porzione di piano infinito utilizzata per eseguire il rendering del disturbo. |
+| <b>Scostamento porzione</b> <i>Virgola mobile 2</i> | Controlla la posizione della porzione di piano infinito utilizzata per eseguire il rendering del disturbo. |
 | <b>Espansione non quadrata</b> <i>Booleano</i> | Nelle immagini non quadrate, mantiene il riquadro quadrato generato ed espande la generazione del disturbo fino ai limiti dell&#39;immagine. |
 
 ## Esempi
@@ -71,12 +71,12 @@ Vedere anche: [Disturbo direzionale 1](../../../../../../compositing-graphs/node
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Disturbo direzionale 3 - Esempio 1](directional-noise-3.resources/directional_noise_3_1.png "Disturbo direzionale 3 - Esempio 1"){zoomable="yes"}
+![Disturbo direzionale 3 - Esempio 1](directional-noise-3.resources/directional-noise-3-02.png "Disturbo direzionale 3 - Esempio 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Disturbo direzionale 3 - Esempio 2](directional-noise-3.resources/noise_directional_noise_3_v2_speed0.6_aniso0.gif "Disturbo direzionale 3 - Esempio 2"){zoomable="yes"}
+![Disturbo direzionale 3 - Esempio 2](directional-noise-3.resources/directional-noise-3-03.gif "Disturbo direzionale 3 - Esempio 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -86,12 +86,12 @@ Vedere anche: [Disturbo direzionale 1](../../../../../../compositing-graphs/node
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Disturbo direzionale 3 - Esempio 3](directional-noise-3.resources/noise_directional_noise_3_v2_speed0.6_aniso1.gif "Disturbo direzionale 3 - Esempio 3"){zoomable="yes"}
+![Disturbo direzionale 3 - Esempio 3](directional-noise-3.resources/directional-noise-3-04.gif "Disturbo direzionale 3 - Esempio 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Disturbo direzionale 3 - Esempio 4](directional-noise-3.resources/noise_directional_noise_3_v2_speed0.3_aniso0.6.gif "Disturbo direzionale 3 - Esempio 4"){zoomable="yes"}
+![Disturbo direzionale 3 - Esempio 4](directional-noise-3.resources/directional-noise-3-05.gif "Disturbo direzionale 3 - Esempio 4"){zoomable="yes"}
 
 </td>
 </tr>

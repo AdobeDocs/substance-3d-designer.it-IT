@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Illuminazione Annulla Frequenze Basse
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '59'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](lighting-cancel-low-frequencies.resources/lighting-cancel-high-low.png){width="128px"}
+![](lighting-cancel-low-frequencies.resources/lighting-cancel-low-frequencies-01.png){width="128px"}
 
 <b>Ingresso:</b> Filtri > Regolazioni
 
@@ -54,7 +54,7 @@ Per una versione più avanzata, vedi anche [Passa luminanza](../../../../../../c
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="lighting-cancel-low-frequencies.resources/lighting-cancel-lowfrequencies-example.png" />
+            <img src="lighting-cancel-low-frequencies.resources/lighting-cancel-low-frequencies-02.png" />
         </td>
     </tr>
 </table>

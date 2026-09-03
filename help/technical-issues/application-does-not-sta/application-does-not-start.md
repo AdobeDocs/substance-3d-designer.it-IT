@@ -10,7 +10,7 @@ helpx_tags: ""
 title: L'applicazione non viene avviata
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 70bcf76fbb7c055ba9aa0b61e6975c266c8dd652
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 1%
@@ -111,7 +111,7 @@ Gli utenti Linux che avviano Designer da Steam possono impostare il comando LD\_
 
 Al termine, Designer può essere avviato da Steam normalmente per tutte le sessioni future.
 
-![Opzioni di avvio Steam](application-does-not-start.resources/steam_linux_launch_option.jpg "Opzioni di avvio Steam")
+![Opzioni di avvio Steam](application-does-not-start.resources/application-does-not-start-01.jpg "Opzioni di avvio Steam")
 
 
 

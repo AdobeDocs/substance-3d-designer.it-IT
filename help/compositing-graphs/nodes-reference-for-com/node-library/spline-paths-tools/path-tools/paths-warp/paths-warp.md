@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Alterazione tracciati
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo](paths-warp.resources/paths-warp-icon.png "Icona nodo")
+![Icona nodo](paths-warp.resources/paths-warp-01.png "Icona nodo")
 
 <b>In:</b> Strumenti spline e tracciati > Strumenti tracciato
 
@@ -74,11 +74,11 @@ Deforma i percorsi di input in base all&#39;<b>input sfumatura</b>. Stesso effet
 <table>
   <tr>
     <td>
-      <img src="paths-warp.resources/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="paths-warp.resources/paths-warp-02.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="paths-warp.resources/PathsWarp-Variant1-After.jpg" alt="PathsWarp-Variant1-After">
+      <img src="paths-warp.resources/paths-warp-03.jpg" alt="PathsWarp-Variant1-After">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -90,11 +90,11 @@ Deforma i percorsi di input in base all&#39;<b>input sfumatura</b>. Stesso effet
 <table>
   <tr>
     <td>
-      <img src="paths-warp.resources/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="paths-warp.resources/paths-warp-02.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="paths-warp.resources/PathsWarp-Variant2-After.jpg" alt="PathsWarp-Variant2-After">
+      <img src="paths-warp.resources/paths-warp-04.jpg" alt="PathsWarp-Variant2-After">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -108,7 +108,7 @@ Deforma i percorsi di input in base all&#39;<b>input sfumatura</b>. Stesso effet
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 1](paths-warp.resources/PathsWarp-Demo1.gif "Esempio di nodo 1")
+![Esempio di nodo 1](paths-warp.resources/paths-warp-05.gif "Esempio di nodo 1")
 
 </td>
 <td style="border: 0;" valign="top">

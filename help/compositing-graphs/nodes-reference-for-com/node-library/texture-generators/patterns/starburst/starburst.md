@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Starburst
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 15%
@@ -24,7 +24,7 @@ ht-degree: 15%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](starburst.resources/starburst.png){width="128px"}
+![](starburst.resources/starburst-01.png){width="128px"}
 
 <b>Ingresso:</b> Generatori Texture > Pattern
 
@@ -58,7 +58,7 @@ Genera un semplice effetto esplosione, con i parametri di regolazione disponibil
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="starburst.resources/starburst-ex.gif" />
+            <img src="starburst.resources/starburst-02.gif" />
         </td>
     </tr>
 </table>
