@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-crop.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-crop.html"
 breadcrumb-title: ''
 description: Usa il nodo Multi Crop per ritagliare più canali texture contemporaneamente per elaborare i materiali scansionati in modo efficiente.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ritaglio multiplo
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 4%
@@ -24,9 +24,9 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](multi-crop.resources/multi-crop-01.png){width="128px"}
+![](../../../../../../assets/crop-multi.png){width="128px"}
 
-![](multi-crop.resources/multi-crop-02.png){width="128px"}
+![](../../../../../../assets/crop-multi-grayscale.png){width="128px"}
 
 <b>Tra:</b> Filtri materiali > Elaborazione scansione
 

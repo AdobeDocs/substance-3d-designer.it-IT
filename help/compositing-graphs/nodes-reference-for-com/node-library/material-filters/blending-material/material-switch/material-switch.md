@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-switch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-switch.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Switch materiale per passare da un materiale all'altro in base alle maschere o alle condizioni di input.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Interruttore materiale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](material-switch.resources/material-switch-01.png){width="128px"}
+![](../../../../../../assets/material-switch.png){width="128px"}
 
 <b>In:</b> Filtri materiali > Fusione
 
@@ -45,5 +45,5 @@ Questo nodo è la versione completa del materiale multicanale di [Switch](../../
 
 |  |  |
 |:---|:---|
-| <b>Canali</b> | Attivate e disattivate i canali del materiale in questo gruppo, ad esempio quando utilizzate mappe Specular/lucidità invece di Metallico/Rugosità. |
+| <b>Canali</b> | Attivate e disattivate i canali del materiale in questo gruppo, ad esempio quando utilizzate mappe Specular/Lucentezza invece di Metallo/Rugosità. |
 | <b>Switch</b> <i>Falso/Vero</i> | Cambia per restituire il Materiale 1 o 2. |
