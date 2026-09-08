@@ -100,7 +100,7 @@ Il metodo di fusione *Dividi* dividerà il valore dei pixel di input dello sfond
 
 Il metodo di fusione *Sovrapposizione* combina i metodi di fusione Moltiplica e Scherma:
 
-* 
+* &#x200B;
   * Se il valore del pixel del livello inferiore è inferiore a 0,5, viene applicata una fusione di tipo *Moltiplica*
   * Se il valore del pixel del livello inferiore è superiore a 0,5, viene applicata una fusione di tipo *Schermo*
 

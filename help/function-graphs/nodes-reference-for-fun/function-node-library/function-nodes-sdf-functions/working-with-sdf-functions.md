@@ -272,7 +272,7 @@ Potete quindi incollare la funzione copiata dal nodo del visualizzatore 3D nel g
 Assicuratevi di regolare il parametro **Dimensione fotogramma di delimitazione SDF** in modo che corrisponda al [fotogramma di delimitazione](#the-bounding-frame) che stavate utilizzando nel nodo del visualizzatore 3D e assicuratevi che la forma sia disegnata correttamente.
 
 ![working-with-sdf-shape-splatter-v2.png](working-with-sdf-functions.resources/working-with-sdf-shape-splatter-v2.png)\
-*Splatter forma v2 con **Tipo di forma**impostato su `SDF function`. Nota: le **dimensioni del fotogramma di delimitazione SDF**sono state regolate in modo da adattarsi alla forma.*
+*Splatter forma v2 con **Tipo di forma**&#x200B;impostato su `SDF function`. Nota: le **dimensioni del fotogramma di delimitazione SDF**&#x200B;sono state regolate in modo da adattarsi alla forma.*
 
 >[!TIP]
 > 
