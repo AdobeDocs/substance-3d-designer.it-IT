@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/rust-weathering.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/rust-weathering.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Temperatura Ruggine per generare pattern di ruggine basati sulla geometria della trama per creare effetti di corrosione del metallo realistici.
 helpx_creative_field: ""
