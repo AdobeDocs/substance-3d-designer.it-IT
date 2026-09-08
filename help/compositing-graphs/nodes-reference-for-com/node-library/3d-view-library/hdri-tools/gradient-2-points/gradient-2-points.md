@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/gradient-2-points.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/gradient-2-points.html"
 breadcrumb-title: ''
 description: Utilizza il nodo Sfumatura 2 punti per creare sfumature a due punti in ambienti HDRI per le transizioni dei colori del cielo e della terra.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Sfumatura 2 punti
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 43dd5433948c89f68426040a2a2d76282072c75d
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](gradient-2-points.resources/gradient-2-points-01.png){width="250px"}
+![](../../../../../../assets/gradient-2-points.png){width="250px"}
 
 <b>Ingresso:</b> vista 3D > Strumenti HDRI
 
@@ -57,7 +57,7 @@ Crea una sfumatura di 2 colori tra due punti selezionati dall’utente. Il risul
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="gradient-2-points.resources/gradient-2-points-02.gif" />
+            <img src="../../../../../../assets/gradient-ex2.gif" />
         </td>
     </tr>
 </table>
