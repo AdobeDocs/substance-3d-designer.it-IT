@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/non-square-transform.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/non-square-transform.html"
 breadcrumb-title: ''
 description: Usa il nodo di Trasforma non quadrato per applicare le trasformazioni alle texture non quadrate con ridimensionamento X e Y indipendente.
 helpx_creative_field: ""
