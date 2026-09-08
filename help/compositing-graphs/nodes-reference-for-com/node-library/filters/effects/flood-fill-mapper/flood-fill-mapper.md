@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-mapper.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-mapper.html"
 breadcrumb-title: ''
-description: Utilizzare il nodo Mappatura Flood Fill per mappare i valori tra aree connesse utilizzando algoritmi di riempimento del flusso per l'elaborazione delle texture.
+description: Utilizzate il nodo Mappatura Flood Fill per mappare i valori tra aree connesse utilizzando algoritmi di riempimento del flusso per l’elaborazione delle texture.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Flood Fill Mapper
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mappatura Flood Fill
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](flood-fill-mapper.resources/flood-fill-mapper-01.png)![](flood-fill-mapper.resources/flood-fill-mapper-02.png)
+![](../../../../../../assets/floodfill-mapper-gray.png)![](../../../../../../assets/floodfill-mapper-color.png)
 
 <b>Ingresso:</b> Filtri > Effetti
 
@@ -60,7 +60,7 @@ La versione a colori dispone di controlli aggiuntivi per l&#39;utilizzo delle ma
 
 |  |  |
 |:---|:---|
-| <b>Modalità Porzione</b> <i>Nessun Affiancamento, H+V</i> | Impostare se utilizzare o meno l&#39;Affiancamento. Visibile solo se Dimensione o Scala sono impostate su un valore inferiore a 1. |
+| <b>Modalità affiancamento</b> <i>Nessun Affiancamento, H+V</i> | Impostare se utilizzare o meno l&#39;Affiancamento. Visibile solo se Dimensione o Scala sono impostate su un valore inferiore a 1. |
 | <b>Pattern</b> |  |
 | <b>Numero di input del modello</b> <i>1 - 8</i> | Impostate la quantità di input pattern personalizzati da utilizzare. |
 | <b>Modalità distribuzione pattern</b> <i>Input casuale, dimensioni forma, mappa di distribuzione</i> | Impostare il metodo per determinare quale motivo viene visualizzato in una cella. |
@@ -89,7 +89,7 @@ La versione a colori dispone di controlli aggiuntivi per l&#39;utilizzo delle ma
 | <b>Colore di sfondo</b> <i>(valore scala di grigi)</i> | Imposta il colore di sfondo su cui viene eseguita la fusione delle texture. |
 | <b>Colore (solo per la versione a colori)</b> |  |
 | <b>Mappa normale</b> <i>Falso/Vero</i> | Imposta questa opzione per interpretare l&#39;input del pattern come Mappa normale. Compenserà e correggerà la rotazione normale dello spazio tangente. |
-| <b>Formato Normale</b> <i>DirectX, OpenGL</i> | Consente di passare da un Formato mappa normale all’altro (inverte il canale verde). Attivo solo quando Is Normal Map è True. |
+| <b>Formato Normale</b> <i>DirectX, OpenGL</i> | Consente di passare da un Formato mappa normale all’altro (inverte il canale verde). Attivo solo quando Is Mappe normali è True. |
 | <b>Regolazione HSL</b> <i>-1.0 - 1.0</i> | Regolare l’HSL a livello globale. |
 | <b>HSL casuale</b> <i>-1.0 - 1.0</i> | Impostare la randomizzazione HSL per cellula. |
 | <b>Regolazione Alpha</b> <i>-1.0 - 1.0</i> | Impostate la regolazione dell&#39;Alpha globale e riducete il contrasto Alpha. |
@@ -101,10 +101,10 @@ La versione a colori dispone di controlli aggiuntivi per l&#39;utilizzo delle ma
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="flood-fill-mapper.resources/flood-fill-mapper-03.png" />
+            <img src="../../../../../../assets/floodfill-mapper-ex01.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="flood-fill-mapper.resources/flood-fill-mapper-04.jpg" />
+            <img src="../../../../../../assets/floodfill-mapper-ex02.jpg" />
         </td>
     </tr>
 </table>

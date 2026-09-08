@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/ambient-occlusion-rtao.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/ambient-occlusion-rtao.html"
 breadcrumb-title: ''
 description: Utilizza il nodo Occlusione ambiente (RTAO) per generare mappe di occlusione ambientale in tempo reale da mappe di height per un'ombreggiatura realistica.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Occlusione ambientale (RTAO)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo RTAO](ambient-occlusion-rtao.resources/ambient-occlusion-rtao-01.png "Icona nodo RTAO")
+![Icona nodo RTAO](../../../../../../assets/rt-ao.png "Icona nodo RTAO")
 
 <b>Ingresso:</b> Filtri > Effetti
 
@@ -62,10 +62,10 @@ Per un&#39;alternativa più semplice e veloce, vedere [Occlusione ambiente (HBAO
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="ambient-occlusion-rtao.resources/ambient-occlusion-rtao-02.png" />
+            <img src="../../../../../../assets/image2021-6-18-11-7-48.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="ambient-occlusion-rtao.resources/ambient-occlusion-rtao-03.png" />
+            <img src="../../../../../../assets/image2021-6-18-11-9-0-1.png" />
         </td>
     </tr>
 </table>

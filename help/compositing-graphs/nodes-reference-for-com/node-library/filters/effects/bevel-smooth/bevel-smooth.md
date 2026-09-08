@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/bevel-smooth.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/bevel-smooth.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Smusso uniforme per creare bordi smussati uniformi su forme e pattern per superfici realistiche.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Smusso uniforme
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '593'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona Anisotropica in scala di grigio Kuwahara](bevel-smooth.resources/bevel-smooth-01.png "Icona anisotropica in scala di grigio Kuwahara"){width="200px"}
+![Icona Anisotropica in scala di grigio Kuwahara](../../../../../../assets/bevel_smooth.png "Icona anisotropica in scala di grigio Kuwahara"){width="200px"}
 
 <b>Ingresso:</b> Filtri > Effetti
 
@@ -75,10 +75,10 @@ La distanza della sfumatura può essere regolata dinamicamente lungo il bordo ut
 | <b>Modalità output</b> *Numero intero* | Metodo di dilatazione dei bordi della maschera:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Smusso:</b> tracciate una sfumatura da 1 a 0 dove 0 viene raggiunto alla &#39;Distanza&#39; massima</li> <li data-preserve-html="true"><b>Dilatazione:</b> disegnate una tinta unita fino alla &#39;Distanza massima&#39;. Questo colore è bianco oppure, se collegato, il colore dell’immagine &quot;Input sorgente&quot; sul bordo della maschera</li> <li data-preserve-html="true"><b>Distanza:</b> la distanza raw dal bordo della maschera più vicino, in uno spazio immagine normalizzato in cui 1 è la lunghezza del lato più corto dell&#39;immagine</li> </ul> |
 | <b>Direzione</b> *Intero* *Disponibile quando &#39;Modalità output&#39; è impostato su &#39;Smussato&#39; o &#39;Dilatazione&#39;* | Lato del bordo della maschera da dilatare:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Entrata:</b> disegnate verso l&#39;interno della maschera</li> <li data-preserve-html="true"><b>Uscita:</b> disegnate verso l&#39;esterno della maschera</li> <li data-preserve-html="true"><b>Attacco/Stacco:</b> disegnare verso l&#39;interno e l&#39;esterno della maschera</li> </ul> |
 | <b>Distanza massima</b> *Virgola mobile* | La distanza di dilatazione, nello spazio normalizzato dell&#39;immagine dove 1 è la lunghezza del lato più corto dell&#39;immagine di input. |
-| <b>smoothness maschera</b> *Mobile* | Intensità dell’attenuazione applicata alla maschera.   Il valore corrisponde al raggio della sfocatura e 1 unità corrisponde a 1/256 dell’immagine. |
-| <b>Scostamento maschera</b> *Mobile* | Sposta i bordi della maschera verso l’interno o l’esterno. |
-| <b>Soglia maschera</b> *Mobile* | Valore utilizzato per rilevare i bordi della maschera nell’immagine di &quot;Input maschera&quot;.   I valori al di sopra di questa soglia sono *interni* delle forme maschera, mentre i valori al di sotto sono *esterni*. |
-| <b>Scala</b> *Float2* | Regola la distanza orizzontale (X) e verticale (Y) della dilatazione.   Questi valori sono moltiplicatori per il valore del parametro &#39;Distanza massima&#39;. |
+| <b>smoothness maschera</b> *Virgola mobile* | Intensità dell’attenuazione applicata alla maschera.   Il valore corrisponde al raggio della sfocatura e 1 unità corrisponde a 1/256 dell’immagine. |
+| <b>Scostamento maschera</b> *Virgola mobile* | Sposta i bordi della maschera verso l’interno o l’esterno. |
+| <b>Soglia maschera</b> *Virgola mobile* | Valore utilizzato per rilevare i bordi della maschera nell’immagine di &quot;Input maschera&quot;.   I valori al di sopra di questa soglia sono *interni* delle forme maschera, mentre i valori al di sotto sono *esterni*. |
+| <b>Scala</b> *Virgola mobile 2* | Regola la distanza orizzontale (X) e verticale (Y) della dilatazione.   Questi valori sono moltiplicatori per il valore del parametro &#39;Distanza massima&#39;. |
 | <b>Moltiplicatore Mappa di distanza</b> *Numero intero* | Regola l’impatto della &quot;Mappa di distanza&quot; sulla &quot;Distanza massima&quot;. |
 
 ## Esempi
@@ -87,12 +87,12 @@ La distanza della sfumatura può essere regolata dinamicamente lungo il bordo ut
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Smusso uniforme: Esempio 1](bevel-smooth.resources/bevel-smooth-02.gif "Smusso uniforme: Esempio 1"){width="1024px" zoomable="yes"}
+![Smusso uniforme: Esempio 1](../../../../../../assets/bevel_smooth_example_1.gif "Smusso uniforme: Esempio 1"){width="1024px" zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Smusso uniforme: Esempio 8](bevel-smooth.resources/bevel-smooth-03.jpg "Smusso uniforme: Esempio 8"){width="1024px" zoomable="yes"}
+![Smusso uniforme: Esempio 8](../../../../../../assets/bevel_smooth_example_8.jpg "Smusso uniforme: Esempio 8"){width="1024px" zoomable="yes"}
 
 </td>
 </tr>
@@ -105,11 +105,11 @@ La distanza della sfumatura può essere regolata dinamicamente lungo il bordo ut
 <table>
   <tr>
     <td>
-      <img src="bevel-smooth.resources/bevel-smooth-04.jpg" alt="bevel_smog_example_4_before">
+      <img src="../../../../../../assets/bevel_smooth_example_4_before.jpg" alt="bevel_smog_example_4_before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="bevel-smooth.resources/bevel-smooth-05.jpg" alt="bevel_smog_example_4_after">
+      <img src="../../../../../../assets/bevel_smooth_example_4_after.jpg" alt="bevel_smog_example_4_after">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -121,11 +121,11 @@ La distanza della sfumatura può essere regolata dinamicamente lungo il bordo ut
 <table>
   <tr>
     <td>
-      <img src="bevel-smooth.resources/bevel-smooth-06.jpg" alt="bevel_smog_example_2_before">
+      <img src="../../../../../../assets/bevel_smooth_example_2_before.jpg" alt="bevel_smog_example_2_before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="bevel-smooth.resources/bevel-smooth-07.jpg" alt="bevel_smog_example_2_after">
+      <img src="../../../../../../assets/bevel_smooth_example_2_after.jpg" alt="bevel_smog_example_2_after">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -142,11 +142,11 @@ La distanza della sfumatura può essere regolata dinamicamente lungo il bordo ut
 <table>
   <tr>
     <td>
-      <img src="bevel-smooth.resources/bevel-smooth-08.jpg" alt="bevel_smog_example_3_before">
+      <img src="../../../../../../assets/bevel_smooth_example_3_before.jpg" alt="bevel_smog_example_3_before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="bevel-smooth.resources/bevel-smooth-09.jpg" alt="bevel_smog_example_3_after">
+      <img src="../../../../../../assets/bevel_smooth_example_3_after.jpg" alt="bevel_smog_example_3_after">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -158,11 +158,11 @@ La distanza della sfumatura può essere regolata dinamicamente lungo il bordo ut
 <table>
   <tr>
     <td>
-      <img src="bevel-smooth.resources/bevel-smooth-10.jpg" alt="bevel_smog_example_5_before">
+      <img src="../../../../../../assets/bevel_smooth_example_5_before.jpg" alt="bevel_smog_example_5_before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="bevel-smooth.resources/bevel-smooth-11.jpg" alt="bevel_smog_example_5_after">
+      <img src="../../../../../../assets/bevel_smooth_example_5_after.jpg" alt="bevel_smog_example_5_after">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -175,11 +175,11 @@ La distanza della sfumatura può essere regolata dinamicamente lungo il bordo ut
 <table>
   <tr>
     <td>
-      <img src="bevel-smooth.resources/bevel-smooth-12.jpg" alt="bevel_smog_example_7_before">
+      <img src="../../../../../../assets/bevel_smooth_example_7_before.jpg" alt="bevel_smog_example_7_before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="bevel-smooth.resources/bevel-smooth-13.jpg" alt="bevel_smog_example_7_after">
+      <img src="../../../../../../assets/bevel_smooth_example_7_after.jpg" alt="bevel_smog_example_7_after">
       <br><i>Dopo</i>
     </td>
   </tr>
