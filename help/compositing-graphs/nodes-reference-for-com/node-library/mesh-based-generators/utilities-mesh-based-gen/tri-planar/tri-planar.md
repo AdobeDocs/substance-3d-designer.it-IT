@@ -1,16 +1,16 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/tri-planar.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/tri-planar.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo Piano trim (Tri Planar) per proiettare le texture da tre piani ortogonali per una mappatura uniforme delle texture su geometria complessa.
+description: Utilizzate il nodo della Planari Tri per proiettare texture da tre piani ortogonali per una mappatura texture uniforme sulla geometria complessa.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Utilities (Mesh Based Generators) > Tri Planar
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Triplo Planare
+title: Tri Planari
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: fbf066c7185f74dcbf35156afc3873d192f77abc
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 6%
@@ -18,15 +18,15 @@ ht-degree: 6%
 ---
 
 
-# Triplo Planare
+# Tri Planari
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](tri-planar.resources/tri-planar-01.png){width="128px"}
+![](../../../../../../assets/triplanar-1.png){width="128px"}
 
-![](tri-planar.resources/tri-planar-02.png){width="128px"}
+![](../../../../../../assets/triplanar-grayscale.png){width="128px"}
 
 <b>In:</b> Generatori Basati Su Trama > Utility
 
@@ -35,11 +35,11 @@ ht-degree: 6%
 
 ## Descrizione
 
-Questo nodo avanzato esegue la mappatura della proiezione triplanare in 2D, in base ai dati di posizione e di World Space Normal. Ciò significa che in pratica converte completamente le coordinate UV in una mappatura (per lo più) libera dalla giuntura basata sulla trama stessa.
+Questo nodo avanzato esegue la mappatura della proiezione triplanare in 2D, in base ai dati eseguiti i baking di Posizione e Normale spazio globale. Ciò significa che in pratica converte completamente le coordinate UV in una mappatura (per lo più) libera dalla giuntura basata sulla trama stessa.
 
-Questo è un buon modo per evitare cuciture senza dover rifare ogni volta (è possibile ottenere qualcosa di simile con il fornaio). Il lato negativo è che questo nodo è piuttosto pesante e quindi non veloce.
+Questo è un buon modo per evitare cuciture senza dover rifare ogni volta (è possibile ottenere qualcosa di simile con il baker). Il lato negativo è che questo nodo è piuttosto pesante e quindi non veloce.
 
-Tieni presente che i tuoi dolci dovrebbero essere ad alta precisione: i dolci a 8 bit non porteranno a risultati molto belli.
+Tieni presente che i tuoi esegue i baking devono essere ad alta precisione: i esegue i baking a 8 bit non porteranno a risultati molto belli.
 
 </td>
 </tr>
@@ -51,8 +51,8 @@ Tieni presente che i tuoi dolci dovrebbero essere ad alta precisione: i dolci a 
 
 |  |  |
 |:---|:---|
-| <b>Posizione</b> <i>Input colore</i> | Mappa posizione al forno. Idealmente precisione di 16 bit o superiore. |
-| <b>Spazio globale normale</b> <i>Input colore</i> | Mappa Normale dello Spazio Mondiale al forno, preferibilmente con precisione di 16 bit o superiore. |
+| <b>Posizione</b> <i>Input colore</i> | Mappa posizione eseguita i baking. Idealmente precisione di 16 bit o superiore. |
+| <b>Spazio globale normale</b> <i>Input colore</i> | Mappa Normale dello Spazio Mondiale eseguita i baking, preferibilmente con precisione di 16 bit o superiore. |
 | <b>Input X</b> <i>Input colore (input scala di grigi)</i> | Mappa di input da mappare dai raggi UV allo spazio mondiale tramite proiezione triplanare. Utilizzato per tutti gli assi quando Image Inputs è impostato su 1, per l&#39;asse X se è impostato su 3. |
 | <b>Input Y</b> <i>Input colore (input scala di grigi)</i> | Solo se Image Inputs è impostato su 3. Mappa di input per il mapping dai raggi UV allo spazio globale sull&#39;asse Y. |
 | <b>Input Z</b> <i>Input colore (input scala di grigi)</i> | Solo se Image Inputs è impostato su 3. Mappa di input per il mapping dai raggi UV allo spazio globale sull&#39;asse Z. |

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/material-mesh-data-blender.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/material-mesh-data-blender.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Miscelatore dati mesh materiale (Material Mesh Data Blender) per fondere i dati della mesh del materiale e creare transizioni uniformi tra le diverse zone materiale.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Miscelatore dati mesh materiale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: fbf066c7185f74dcbf35156afc3873d192f77abc
 workflow-type: tm+mt
 source-wordcount: '572'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](material-mesh-data-blender.resources/material-mesh-data-blender-01.png){width="128px"}
+![](../../../../../../assets/material-mesh-data-blender.png){width="128px"}
 
 <b>In:</b> Generatori Basati Su Trama > Utility
 
@@ -91,7 +91,7 @@ Questo nodo ha lo scopo di semplificare notevolmente l&#39;aggiunta di dettagli 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="material-mesh-data-blender.resources/material-mesh-data-blender-02.gif" />
+            <img src="../../../../../../assets/blenddata-ex.gif" />
         </td>
     </tr>
 </table>
