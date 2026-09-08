@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-switch.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-switch.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Switch materiale per passare da un materiale all'altro in base alle maschere o alle condizioni di input.
 helpx_creative_field: ""

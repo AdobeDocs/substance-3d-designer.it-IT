@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/clone-patch.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/clone-patch.html"
 breadcrumb-title: ''
 description: Utilizza il nodo Patch clone per clonare e applicare patch alle aree nei materiali scansionati per rimuovere artefatti e imperfezioni.
 helpx_creative_field: ""

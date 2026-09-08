@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-angle-to-albedo.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-angle-to-albedo.html"
 breadcrumb-title: ''
 description: Usa il nodo Multi-angolo a Albedo per estrarre le mappe di albedo da immagini acquisite da più angoli per ottenere colori di materiale puliti.
 helpx_creative_field: ""
