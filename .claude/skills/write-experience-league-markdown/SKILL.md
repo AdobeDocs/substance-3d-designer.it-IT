@@ -93,7 +93,7 @@ che l&#39;invenzione di nuovi HTML in linea, se non necessario.
 
 * Codice in linea: singoli segni di spunta.
 * Blocchi recintati: triplo backtick, con un linguaggio opzionale per la sintassi
-evidenziazione (` ```python `, ` ```javascript ` e così via).
+evidenziazione (` `&#x200B;``python `, ` ``&#x200B;`javascript ` e così via).
 
 ## Blocchi note/avvisi
 
