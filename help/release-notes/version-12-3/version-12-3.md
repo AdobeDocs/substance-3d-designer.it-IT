@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versione 12.3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 Data di pubblicazione: *6 ottobre 2022*
 
-![](version-12-3.resources/version-12-3-01.png){width="1111px"}
+![](../../assets/largef.png){width="1111px"}
 
 ## Funzioni principali
 
@@ -33,20 +33,20 @@ Data di pubblicazione: *6 ottobre 2022*
 Se siete abituati a creare grafici, volete essere in grado di creare grafici secondari (o istanze di grafici) per riutilizzare il lavoro, rendere i grafici meno disordinati ed essere più efficienti.\
 Ciò è ora possibile anche per i grafici del modello Substance: è sufficiente trascinare e rilasciare il grafico secondario da Esplora risorse al grafico principale per utilizzarlo come nodo di istanza.
 
-![](version-12-3.resources/version-12-3-02.gif){width="600px"}
+![](../../assets/subgraph.gif){width="600px"}
 
 Abbiamo anche introdotto il concetto di nodi di output per i grafici dei modelli Substance, come Scena di output. Ora hai la possibilità di avere uno o più output nel tuo grafico.\
 Ogni output corrisponderà a un segnaposto di output quando verrà creata un’istanza del grafico in un altro grafico.
 
-![](version-12-3.resources/version-12-3-03.png){width="600px"}
+![](../../assets/image2022-10-4-15-31-27.png){width="600px"}
 
 Facendo clic con il pulsante destro del mouse su un nodo di istanza, è possibile accedere al grafico secondario di riferimento per visualizzarlo o modificarlo.
 
-![](version-12-3.resources/version-12-3-04.png){width="600px"}
+![](../../assets/image2022-10-4-16-28-36.png){width="600px"}
 
 Grazie ai grafici secondari e ai parametri esposti, puoi creare risorse complesse e applicare infinite variazioni, come dimostrato nell&#39;illustrazione seguente.
 
-![](version-12-3.resources/version-12-3-05.gif){width="600px"}
+![](../../assets/seasons.gif){width="600px"}
 
 ### Altri miglioramenti per i grafici dei modelli Substance
 
@@ -55,18 +55,18 @@ Grazie ai grafici secondari e ai parametri esposti, puoi creare risorse compless
   Con <b>Visible If</b>, puoi aggiungere condizioni alla visibilità dei parametri, mantenendo un&#39;interfaccia utente pulita e funzionale. Questo meccanismo, già disponibile per i grafici a Substance, è stato esteso ai grafici dei modelli Substance, utilizzando, naturalmente, la stessa sintassi. <b>\
   </b>
 
-  ![](version-12-3.resources/version-12-3-06.gif){width="600px"}
+  ![](../../assets/visibleif.gif){width="600px"}
 
 * <b>Nuovi nodi dedicati all&#39;edizione curva\
   </b>Questa versione introduce alcuni nuovi nodi dedicati all&#39;edizione della curva: <b>Curva inversa</b> scambia le due estremità di una curva, <b>Suddivisione della curva</b> aggiunge più vertici sui segmenti in base a due metodi, <b>La curva di arrotondamento </b>smussa tutti gli angoli su una curva 2D e infine <b>La curva di scostamento</b> gonfia o sgonfia una curva 2D, come illustrato di seguito.<b>
 
   </b>
 
-  ![](version-12-3.resources/version-12-3-07.gif){width="600px"}
+  ![](../../assets/curve-offset-4.gif){width="600px"}
 * <b>Nuova finestra del grafico </b>\
   La finestra <b>Nuovo grafico del modello Substance</b> è ora disponibile anche per i grafici del modello Substance. Potete aggiungere i vostri modelli o selezionarne uno predefinito, quindi immettere direttamente il nome del grafico e selezionare il pacchetto a cui verrà aggiunto il grafico.
 
-  ![](version-12-3.resources/version-12-3-08.png){width="600px"}
+  ![](../../assets/image2022-10-5-15-25-42.png){width="600px"}
 
 ### Pannelli Benvenuti e Novità
 
@@ -76,9 +76,9 @@ Innanzitutto, il pannello <b>Benvenuti </b> - visualizzato la prima volta che *a
 
 Questi due pannelli sono accessibili anche dal menu Aiuto.
 
-![](version-12-3.resources/version-12-3-09.png)
+![](../../assets/image2022-10-3-15-47-28.png)
 
-![](version-12-3.resources/version-12-3-10.png)
+![](../../assets/image2022-10-3-15-47-55.png)
 
 ### Varie
 
@@ -88,7 +88,7 @@ Questi due pannelli sono accessibili anche dal menu Aiuto.
   Nelle versioni precedenti, Designer non era in grado di gestire correttamente il fattore di ridimensionamento impostato nel sistema operativo. Come potete vedere nell&#39;illustrazione seguente, tutto è perfettamente gestito su un display 4K con un ridimensionamento del 125% e tutti i font e i pulsanti visualizzati a dimensioni coerenti.\
   Si noti che in questa nuova versione l&#39;opzione &quot;Disattiva High DPI&quot; nelle Preferenze è stata reimpostata su *False* poiché questa opzione non è più necessaria per disporre di un&#39;interfaccia utilizzabile.
 
-  ![](version-12-3.resources/version-12-3-11.gif){width="600px"}
+  ![](../../assets/highdpi-fix.gif){width="600px"}
 
 * **Supporto nativo di Apple Silicon (M1 / M2) per la versione Steam**\
   La versione 12.2 di Designer è stata la prima a portare il supporto completo di nuovi computer Apple basati su chip M1 o M2, ma tale supporto non era presente nell&#39;edizione Steam. D&#39;ora in poi, tutti gli utenti di Designer potranno beneficiare di un&#39;esperienza più veloce ed efficiente su questi computer.
@@ -136,11 +136,11 @@ Questi due pannelli sono accessibili anche dal menu Aiuto.
 * [UI] Il pulsante dell’estensione nel menu della vista 3D non è visibile
 * [UI] Il menu dell&#39;estensione della barra degli strumenti Grafico è incompleto
 * [UI] Valore del widget del parametro errato dopo aver annullato l’attivazione dell’intervallo rigido
-* [Vista 3D] L&#39;impostazione dello shader non predefinita viene persa su Iray da una sessione a un&#39;altra
-* [Bakers] Arresto anomalo durante il caricamento della finestra di cottura con una scena senza trame
-* [Funzione] Arresto anomalo quando si copia un’istanza nel grafico a cui fa riferimento
+* [Vista 3D] Le impostazioni di shader non predefinite vengono perse su Iray da una sessione a un&#39;altra
+* [Baker] Arresto anomalo durante il caricamento di una finestra eseguita i baking con una scena senza trame
+* [Function] Arresto anomalo durante la copia di un&#39;istanza nel grafico a cui fa riferimento
 * [Funzione] Correggere un possibile arresto anomalo durante la manipolazione dei nodi
 * [Globalizzazione] Il corsivo non è sempre disabilitato correttamente in giapponese, coreano e cinese
-* [Grafico] Identificatore fallback errato per i nuovi grafici MDL e Substance modelli
+* [Grafico] identificatore di fallback errato per i nuovi grafici MDL e Substance
 * [Grafico] I parametri ereditati guidati da valori a volte vengono calcolati in modo errato
 * [GraphRender] Arresto anomalo durante il cambio di motore durante l&#39;elaborazione del grafico ad alta risoluzione (solo macOS)

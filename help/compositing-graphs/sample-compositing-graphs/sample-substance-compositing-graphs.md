@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Grafici Substance di esempio
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 6%
@@ -32,12 +32,12 @@ In questa pagina sono elencati [file Substance 3D Designer](https://www.adobe.co
 
 Questo progetto presenta una semplice configurazione del grafico da utilizzare come filtro in altri grafici. [I filtri](../../compositing-graphs/nodes-reference-for-com/node-library/filters/filters.md) sono nodi che modificano e/o fondono una o più immagini di input.
 
-[![Icona del file di esempio dei filtri](sample-substance-compositing-graphs.resources/sample-substance-compositing-graphs-01.png){width="64px"}](https://shared-assets.adobe.com/link/f1509448-39d4-4b4a-5d3f-1e0ab0313335)
+[![Icona del file di esempio dei filtri](../../assets/sbs-1.png){width="64px"}](https://shared-assets.adobe.com/link/f1509448-39d4-4b4a-5d3f-1e0ab0313335)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![&#39;Filters&#39; sample](sample-substance-compositing-graphs.resources/sample-substance-compositing-graphs-02.png "&#39;Filters&#39; sample"){zoomable="yes"}
+![&#39;Filters&#39; sample](../../assets/demo-filter.png "&#39;Filters&#39; sample"){zoomable="yes"}
 
 </td>
 </tr>
@@ -53,12 +53,12 @@ In questo progetto vengono illustrati i metodi di ereditarietà disponibili nei 
 
 Puoi conoscere l&#39;ereditarietà in [questa pagina](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) della nostra documentazione.
 
-[![Icona del file di esempio di ereditarietà](sample-substance-compositing-graphs.resources/sample-substance-compositing-graphs-01.png){width="64px"}](https://shared-assets.adobe.com/link/9b155f58-74a1-40b6-47ed-d360b18e0bc4)
+[![Icona del file di esempio di ereditarietà](../../assets/sbs-1.png){width="64px"}](https://shared-assets.adobe.com/link/9b155f58-74a1-40b6-47ed-d360b18e0bc4)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![&#39;Ereditarietà&#39; esempio](sample-substance-compositing-graphs.resources/sample-substance-compositing-graphs-03.png "&#39;Ereditarietà&#39; esempio"){zoomable="yes"}
+![&#39;Ereditarietà&#39; esempio](../../assets/demo-inheritance.png "&#39;Ereditarietà&#39; esempio"){zoomable="yes"}
 
 </td>
 </tr>
@@ -74,12 +74,12 @@ Il nodo [Elaboratore pixel](../../compositing-graphs/nodes-reference-for-com/ato
 
 In questo progetto vengono illustrati due semplici casi d&#39;uso per l&#39;Elaboratore pixel: come generatore e come filtro. È anche un passo avanti per fare di più con [grafici di funzione](../../function-graphs/function-graphs.md).
 
-[![Icona file di esempio Elaboratore pixel](sample-substance-compositing-graphs.resources/sample-substance-compositing-graphs-01.png){width="64px"}](https://shared-assets.adobe.com/link/ad8e013e-ae48-4290-740a-9b28387cab38)
+[![Icona file di esempio Elaboratore pixel](../../assets/sbs-1.png){width="64px"}](https://shared-assets.adobe.com/link/ad8e013e-ae48-4290-740a-9b28387cab38)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![&#39;Elaboratore pixel&#39; campione](sample-substance-compositing-graphs.resources/sample-substance-compositing-graphs-04.png "&#39;Elaboratore pixel&#39; campione"){zoomable="yes"}
+![&#39;Elaboratore pixel&#39; campione](../../assets/demo-pixel-processor.png "&#39;Elaboratore pixel&#39; campione"){zoomable="yes"}
 
 </td>
 </tr>

@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Risorsa grafici vettoriali (SVG)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '728'
 ht-degree: 2%
 
 ---
@@ -60,7 +60,7 @@ In generale, è vero quanto segue:
 * Il tratto è supportato ma produce solo un tratto di 1 pixel di larghezza e lo stile del tratto viene ignorato;
 * Gli stili di linea tratteggiata si interrompono definitivamente;
 * Il testo deve essere convertito in tracciati/contorni per essere sottoposto a rendering;
-* [I percorsi composti](https://helpx.adobe.com/ie/illustrator/desktop/manage-objects/reshape-transform-objects/create-compound-paths.html) non sono supportati;
+* [I percorsi composti](https://helpx.adobe.com/ie/illustrator/using/combining-objects.html#compound_paths) non sono supportati;
 * Le funzioni avanzate, come le sfumature, non sono supportate;
 * Gli elementi di stile per le proprietà CSS non sono supportati.
 
@@ -87,7 +87,7 @@ L’immagine a destra mostra le opzioni di esportazione consigliate, fai clic su
 > Le tavole da disegno possono influire sul risultato del file SVG generato. Alcuni modelli di file Illustrator presentano più tavole da disegno.\
 > Provate a fare in modo che una sola tavola da disegno sia ritagliata correttamente e a farla selezionare nella finestra Tavola da disegno quando viene salvata come SVG.
 
-![Opzioni di esportazione di Illustrator SVG](vector-graphics-svg-resource.resources/vector-graphics-svg-resource-01.jpg "Opzioni di esportazione di Illustrator SVG"){width="512px"}
+![Opzioni di esportazione di Illustrator SVG](../../assets/svg-export-options-ai.jpg "Opzioni di esportazione di Illustrator SVG"){width="512px"}
 
 ### Inkscape
 

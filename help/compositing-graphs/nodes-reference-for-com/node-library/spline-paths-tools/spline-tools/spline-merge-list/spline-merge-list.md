@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Elenco unione spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo](spline-merge-list.resources/spline-merge-list-01.png "Icona nodo")
+![Icona nodo](../../../../../../assets/spline-merge-list-icon.png "Icona nodo")
 
 <b>In:</b> Strumenti Spline E Tracciati > Strumenti spline
 
@@ -82,11 +82,11 @@ Unisce tutte le spline dell&#39;elenco di input in un&#39;unica spline.
 <table>
   <tr>
     <td>
-      <img src="spline-merge-list.resources/spline-merge-list-02.jpg" alt="SplineMergeList-Variant2-Before">
+      <img src="../../../../../../assets/SplineMergeList-Variant2-Before.jpg" alt="SplineMergeList-Variant2-Before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="spline-merge-list.resources/spline-merge-list-03.jpg" alt="SplineMergeList-Variant2-After">
+      <img src="../../../../../../assets/SplineMergeList-Variant2-After.jpg" alt="SplineMergeList-Variant2-After">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -98,11 +98,11 @@ Unisce tutte le spline dell&#39;elenco di input in un&#39;unica spline.
 <table>
   <tr>
     <td>
-      <img src="spline-merge-list.resources/spline-merge-list-04.jpg" alt="SplineMergeList-Variant1-Before">
+      <img src="../../../../../../assets/SplineMergeList-Variant1-Before.jpg" alt="SplineMergeList-Variant1-Before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="spline-merge-list.resources/spline-merge-list-05.jpg" alt="SplineMergeList-Variant1-After">
+      <img src="../../../../../../assets/SplineMergeList-Variant1-After.jpg" alt="SplineMergeList-Variant1-After">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -112,4 +112,4 @@ Unisce tutte le spline dell&#39;elenco di input in un&#39;unica spline.
 </tr>
 </table>
 
-![Demo sui nodi](spline-merge-list.resources/spline-merge-list-06.gif "Demo sui nodi")
+![Demo sui nodi](../../../../../../assets/SplineMergeList-Demo.gif "Demo sui nodi")

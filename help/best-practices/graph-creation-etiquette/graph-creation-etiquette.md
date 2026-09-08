@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Convenzioni per la creazione di grafici
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1163'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Gli elementi del grafico sono oggetti di supporto che possono essere posizionati
 
 La prima cosa che porta a grafici più puliti e facili da leggere è la posizione dei Fotogrammi attorno ai gruppi centrali del tuo grafico. Senza Fotogrammi, un grande grafico è quasi illeggibile, e anche i grafici piccoli diventano molto più facili da capire una volta disegnati i fotogrammi. Un grande vantaggio dei Fotogrammi è che i loro nomi <b> vengono sempre visualizzati con la stessa scala</b>, anche se si esegue uno zoom indietro molto lontano.
 
-![Fotogrammi nei grafici a Substance](graph-creation-etiquette.resources/graph-creation-etiquette-01.gif "Fotogrammi nei grafici a Substance")
+![Fotogrammi nei grafici a Substance](../../assets/frames.gif "Fotogrammi nei grafici a Substance")
 
 I fotogrammi facilitano la comprensione di ciò che accade in un grafico. Possono aiutarti, in qualità di autore, a tornare al tuo lavoro mesi dopo o di un altro utente, ad esempio un collega, a trovare la loro strada in un Grafico a cui non sono abituati.
 
@@ -57,7 +57,7 @@ Commenti e segnaposti sono secondari solo ai Fotogrammi e non sono un must assol
 
 Gli ingressi e le uscite devono essere posizionati alle estremità dei grafici: tutti gli output a destra, tutti gli input a sinistra, ciascuno allineato verticalmente. In questo modo è più facile trovarli e identificarli.
 
-![Posizionamento di input e output](graph-creation-etiquette.resources/graph-creation-etiquette-02.gif "Posizionamento di input e output")
+![Posizionamento di input e output](../../assets/inout.gif "Posizionamento di input e output")
 
 L&#39;esempio precedente è un caso estremo: i fotogrammi non sono sempre necessari o possibili, ma dovrebbe essere chiaro che l&#39;allineamento verticale di In e Output è molto più chiaro rispetto al posizionamento casuale e casuale.
 
@@ -65,7 +65,7 @@ L&#39;esempio precedente è un caso estremo: i fotogrammi non sono sempre necess
 
 Nei grafici di grandi dimensioni e molto lunghi, a volte i collegamenti vengono creati su un&#39;estensione molto ampia. Questo porta a confondere i fili di collegamento che attraversano il grafico senza molto controllo. La scelta rapida &quot;Alt + Maiusc trascina&quot; consente di riorganizzare questi collegamenti, reindirizzandoli su un percorso diverso suddividendo un collegamento e aggiungendo una maniglia aggiuntiva al centro. Si raccomanda di utilizzare questa opzione in scenari in cui abbia senso.
 
-![Reindirizzamento collegamento](graph-creation-etiquette.resources/graph-creation-etiquette-03.gif "Reindirizzamento collegamento")
+![Reindirizzamento collegamento](../../assets/linkjreroute.gif "Reindirizzamento collegamento")
 
 ### Etichetta, identificatore e utilizzo
 
@@ -73,15 +73,15 @@ Qualsiasi grafico progettato per la condivisione o la pubblicazione deve essere 
 
 Le etichette consigliate predefinite non sono mai sufficienti, prendetevi il tempo e l&#39;impegno necessari per aggiungere etichette personalizzate ai parametri esposti e agli input e output.
 
-![Identificatore ed etichetta](graph-creation-etiquette.resources/graph-creation-etiquette-04.png "Identificatore ed etichetta")
+![Identificatore ed etichetta](../../assets/output-label.png "Identificatore ed etichetta")
 
 Cercare di non avere identificatore e Label differiscono troppo: nel caso in cui l&#39;identificatore venga utilizzato altrove (in più funzioni) può essere molto difficile trovare quale proprietà dell&#39;interfaccia utente è correlata a quale variabile.
 
-![Chiarezza dell&#39;identificatore](graph-creation-etiquette.resources/graph-creation-etiquette-05.png "Chiarezza dell&#39;identificatore")
+![Chiarezza dell&#39;identificatore](../../assets/labelvsidentifier.png "Chiarezza dell&#39;identificatore")
 
 Cercate di far corrispondere le Etichette ai termini utilizzati in Cornici (Etichette cornice) e nei commenti. Semplifica la ricerca della sezione del grafico collegata al parametro esposto
 
-![Etichette fotogramma e parametro corrispondenti](graph-creation-etiquette.resources/graph-creation-etiquette-06.png "Etichette fotogramma e parametro corrispondenti")
+![Etichette fotogramma e parametro corrispondenti](../../assets/match-labels.png "Etichette fotogramma e parametro corrispondenti")
 
 ### Impostazioni parametri
 
@@ -103,7 +103,7 @@ Quando si utilizzano i dati a colori e in scala di grigi, è necessaria una gran
 * I dati vengono conservati in scala di grigi il più a lungo possibile e convertiti solo quando assolutamente necessario. Ciò riduce la complessità e consente di risparmiare sulle prestazioni.
 * Gli input e gli output devono essere creati o impostati tenendo presente il tipo corretto: ad esempio, non ha senso avere un input &quot;maschera&quot; impostato sul colore se verrà convertito in scala di grigi per l&#39;uso come maschera binaria.
 
-![Conversioni in scala di colore e di grigio](graph-creation-etiquette.resources/graph-creation-etiquette-07.png "Conversioni in scala di colore e di grigio")
+![Conversioni in scala di colore e di grigio](../../assets/colorgray01.png "Conversioni in scala di colore e di grigio")
 
 ### Controllo della risoluzione
 

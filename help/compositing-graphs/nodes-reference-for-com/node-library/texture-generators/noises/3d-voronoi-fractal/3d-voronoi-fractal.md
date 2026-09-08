@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-voronoi-fractal.html"
 breadcrumb-title: ''
-description: Usa il nodo del 3D voronoi fractal per generare pattern di Voronoi frattali in base alla posizione 3D per le texture volumetriche.
+description: Utilizzate il nodo del 3D voronoi fractal per generare pattern di Voronoi frattali in base alla posizione 3D per le texture volumetriche.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Voronoi Fractal
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D voronoi fractal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-voronoi-fractal.resources/3d-voronoi-fractal-01.png){width="200px"}
+![](../../../../../../assets/3dvoronoifractal.png){width="200px"}
 
 <b>Ingresso:</b> Generatori di Texture > Rumori
 
@@ -52,10 +52,10 @@ Questo nodo può essere testato con [Cubo 3D GBuffers](../../../../../../composi
 |  |  |
 |:---|:---|
 | <b>Inverti</b> <i>Booleano</i> | Inverte l’immagine di output. |
-| <b>Scala</b> <i>Mobile</i> | Controlla la scala del disturbo frattale di Voronoi 3D.<br><br><i>Nota</i>: quando <b>Affiancamento</b> è attivato su <i>qualsiasi asse</i>, la regolazione della scala è <i>incrementata</i>. Questo è previsto. |
-| <b>Dimensioni</b> <i>Float3</i> | Controlla la dimensione del disturbo frattale di Voronoi 3D negli assi <b>X</b>, <b>Y</b> e <b>Z</b>. I valori non uniformi producono un effetto <i>allungamento o schiacciante</i>.<br><br><i>Nota</i>: quando l&#39;opzione <b>Affiancamento</b> è abilitata su <i>qualsiasi asse</i>, la regolazione della dimensione è <i>graduale</i>. Questo è previsto. |
-| <b>Scostamento</b> <i>Float3</i> | Applica uno scostamento alla <i>posizione</i> del disturbo frattale 3D di Voronoi sugli assi <b>X</b>, <b>Y</b> e <b>Z</b>. |
-| <b>Disturbo</b> <i>Float3</i> | Intensità dello <i>scostamento casuale</i> applicato a ciascun punto del disturbo sugli assi <b>X</b>, <b>Y</b> e <b>Z</b>. |
+| <b>Scala</b> <i>Virgola mobile</i> | Controlla la scala del disturbo frattale di Voronoi 3D.<br><br><i>Nota</i>: quando <b>Affiancamento</b> è attivato su <i>qualsiasi asse</i>, la regolazione della scala è <i>incrementata</i>. Questo è previsto. |
+| <b>Dimensioni</b> <i>Virgola mobile 3</i> | Controlla la dimensione del disturbo frattale di Voronoi 3D negli assi <b>X</b>, <b>Y</b> e <b>Z</b>. I valori non uniformi producono un effetto <i>allungamento o schiacciante</i>.<br><br><i>Nota</i>: quando l&#39;opzione <b>Affiancamento</b> è abilitata su <i>qualsiasi asse</i>, la regolazione della dimensione è <i>graduale</i>. Questo è previsto. |
+| <b>Scostamento</b> <i>Virgola mobile 3</i> | Applica uno scostamento alla <i>posizione</i> del disturbo frattale 3D di Voronoi sugli assi <b>X</b>, <b>Y</b> e <b>Z</b>. |
+| <b>Disturbo</b> <i>Virgola mobile 3</i> | Intensità dello <i>scostamento casuale</i> applicato a ciascun punto del disturbo sugli assi <b>X</b>, <b>Y</b> e <b>Z</b>. |
 | <b>Intensità Distorsione</b> <i>Mobile</i> | Controlla l&#39;intensità di un <i>effetto di alterazione</i> applicato al disturbo frattale 3D di Voronoi. |
 | <b>Moltiplicatore scala Distorsione</b> <i>Mobile</i> | Controlla la scala del <i>pattern di deformazione</i> utilizzato nell&#39;effetto di alterazione controllato dall&#39;<b>intensità della Distorsione</b>. |
 | <b>Livello Min</b> <i>Numero intero</i> | Il <i>livello minimo di ripetizione</i> utilizzato nel pattern frattale. Un intervallo minimo/massimo più ampio genera un <i>modello più ricco</i> con variazione su più intervalli di frequenza. |
@@ -77,24 +77,24 @@ Questo nodo può essere testato con [Cubo 3D GBuffers](../../../../../../composi
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-02.jpg" />
+            <img src="../../../../../../assets/3dvoronoifractal-variant6.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-03.jpg" />
+            <img src="../../../../../../assets/3dvoronoifractal-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-04.jpg" />
+            <img src="../../../../../../assets/3dvoronoifractal-variant4.jpg" />
         </td>
     </tr>
     <tr style="border: 0; background: transparent">
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-05.jpg" />
+            <img src="../../../../../../assets/3dvoronoifractal-variant5.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-06.jpg" />
+            <img src="../../../../../../assets/3dvoronoifractal-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-07.jpg" />
+            <img src="../../../../../../assets/3dvoronoifractal-variant3.jpg" />
         </td>
     </tr>
 </table>

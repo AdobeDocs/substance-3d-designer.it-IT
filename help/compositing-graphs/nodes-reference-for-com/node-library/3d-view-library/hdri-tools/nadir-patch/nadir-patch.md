@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Nadir patch
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 43dd5433948c89f68426040a2a2d76282072c75d
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](nadir-patch.resources/nadir-patch-01.png){width="200px"}
+![](../../../../../../assets/panorama-nadir-patch.png){width="200px"}
 
 <b>Ingresso:</b> vista 3D > Strumenti HDRI
 
@@ -33,7 +33,7 @@ ht-degree: 5%
 
 ## Descrizione
 
-Questo nodo fornisce la funzionalità di applicare patch al punto di terra centrale (nadir) di un&#39;immagine mappata a livello sferico. Può essere usato per nascondere o &quot;clonare&quot; un brutto nadir, o una fotocamera visibile o un treppiede. Funziona come una [patch clone](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md), ma con regolazioni per immagini con mappatura sferica. L’utente seleziona un punto altrove nell’immagine, ovvero il punto clonato e fuso in basso. Non sono necessari altri input esterni oltre a un singolo HDRI per l’elaborazione, ma è possibile utilizzare una maschera esterna come canale alfa per l’effetto patch.
+Questo nodo fornisce la funzionalità di applicare patch al punto di terra centrale (nadir) di un&#39;immagine mappata a livello sferico. Può essere usato per nascondere o &quot;clonare&quot; un brutto nadir, o una fotocamera visibile o un treppiede. Funziona come una [patch Clona /Clone](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md), ma con regolazioni per immagini con mappatura sferica. L’utente seleziona un punto altrove nell’immagine, ovvero il punto clonato e fuso in basso. Non sono necessari altri input esterni oltre a un singolo HDRI per l’elaborazione, ma è possibile utilizzare una maschera esterna come canale alfa per l’effetto patch.
 
 l&#39;effetto può essere controllato e convalidato rapidamente con [Nadir extract](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/nadir-extract/nadir-extract.md).
 
@@ -74,7 +74,7 @@ l&#39;effetto può essere controllato e convalidato rapidamente con [Nadir extra
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="nadir-patch.resources/nadir-patch-02.gif" />
+            <img src="../../../../../../assets/nadir-patch-ex.gif" />
         </td>
     </tr>
 </table>

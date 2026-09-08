@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Scelte rapide
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 17%
@@ -32,11 +32,11 @@ In questa pagina puoi trovare una panoramica di tutte le scelte rapide per Subst
 
 **Windows**
 
-![Scelte rapide da tastiera per Windows](shortcuts.resources/shortcuts-01.png "In Windows"){zoomable="yes"}
+![Scelte rapide da tastiera per Windows](../../assets/keyboard_shortcuts_win.png "In Windows"){zoomable="yes"}
 
 **macOS**
 
-![Scelte rapide da tastiera per macOS](shortcuts.resources/shortcuts-02.png "In macOS"){zoomable="yes"}
+![Scelte rapide da tastiera per macOS](../../assets/keyboard_shortcuts_mac.png "In macOS"){zoomable="yes"}
 
 ## Elenchi di collegamenti
 
@@ -66,7 +66,7 @@ In questa pagina puoi trovare una panoramica di tutte le scelte rapide per Subst
 | Incolla | Ctrl + V | ⌘ + V |
 | Menu contestuale | RMB | RMB |
 | Menu Nodo | Barra spaziatrice | Barra spaziatrice |
-| Esegui ciclo di [puntine di navigazione](../../interface/the-graph-view/graph-items/graph-items.md) | F2 | F2 |
+| Esegui ciclo di [segnaposti di navigazione](../../interface/the-graph-view/graph-items/graph-items.md) | F2 | F2 |
 
 <b>Modalità di creazione del collegamento</b>
 

@@ -1,7 +1,7 @@
 ---
 title: Colore Atlante griglia
 description: Designer > Substance grafici composizione > Nodi riferimento per Substance grafici composizione > Libreria nodi > Generatore > Pattern > Colore Atlante griglia
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona colore Atlante griglia](grid-atlas-color.resources/grid-atlas-color-01.png "Colore Atlante griglia")
+![Icona colore Atlante griglia](grid-atlas-color.resources/grid-atlas-color.png "Colore Atlante griglia")
 
 <b>Ingresso:</b> Generatore > Pattern
 
@@ -75,5 +75,5 @@ Vedere anche [scala di grigi Atlanti griglia](../grid-atlas-grayscale/grid-atlas
 
 ## Esempi
 
-<img src="./grid-atlas-color.resources/grid-atlas-color-02.png" alt="Nodo di colore di Atlante griglia nel contesto di un grafico" style="width: 50%"><br>
+<img src="./grid-atlas-color.resources/grid-atlas-color-graph.png" alt="Nodo di colore di Atlante griglia nel contesto di un grafico" style="width: 50%"><br>
 <i>Nodo di colore Atlante griglia nel contesto di un grafico</i>

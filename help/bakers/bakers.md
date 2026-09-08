@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Baker
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 0%
@@ -35,13 +35,13 @@ La esegue i baking fa riferimento all&#39;azione di **trasferimento delle inform
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-Opzione &quot;Esegue i baking informazioni modalità&quot; di ![&#x200B; nel menu contestuale della risorsa scena 3D](bakers.resources/bakers-01.png " opzione &quot;Esegue i baking informazioni modalità&quot; nel menu contestuale della risorsa scena 3D")
+Opzione &quot;Esegue i baking informazioni modalità&quot; di ![&#x200B; nel menu contestuale della risorsa scena 3D](../assets/sd-mesh-right-click.png " opzione &quot;Esegue i baking informazioni modalità&quot; nel menu contestuale della risorsa scena 3D")
 
 </td>
 </tr>
 </table>
 
-![Finestra Eseguita i baking](bakers.resources/bakers-02.png "Finestra Eseguita i baking")
+![Finestra Eseguita i baking](../assets/sd-window-overview.png "Finestra Eseguita i baking")
 
 ## Panoramica
 
@@ -60,7 +60,7 @@ Elenca la geometria trovata all&#39;interno del file mesh low-poly. Per impostaz
 </td>
 <td style="border: 0;" valign="top">
 
-![](bakers.resources/bakers-03.png)
+![](../assets/sd-mesh-selection.png)
 
 </td>
 </tr>
@@ -77,7 +77,7 @@ Questo pannello controlla la posizione della texture cotta.
 </td>
 <td style="border: 0;" valign="top">
 
-![](bakers.resources/bakers-04.png)
+![](../assets/sd-output.png)
 
 </td>
 </tr>
@@ -95,13 +95,13 @@ Questo pannello controlla la posizione della texture cotta.
 
 Questo pannello controlla l’elenco delle trame a poli alti e le relative impostazioni. Per ulteriori informazioni, vedere [parametri comuni](https://experienceleague.adobe.com/it/docs/substance-3d/bakers/bakers-settings/common-parameters).
 
-![Trame ad alta definizione](bakers.resources/bakers-05.png "Trame ad alta definizione")
+![Trame ad alta definizione](../assets/sd-high.png "Trame ad alta definizione")
 
 ### Valori predefiniti
 
 Per ulteriori informazioni, vedere [parametri comuni](https://experienceleague.adobe.com/it/docs/substance-3d/bakers/bakers-settings/common-parameters).
 
-![Valori predefiniti](bakers.resources/bakers-06.png "Valori predefiniti")
+![Valori predefiniti](../assets/sd-default-values.png "Valori predefiniti")
 
 ### Elenco e impostazioni di rendering dei forni
 
@@ -118,4 +118,4 @@ Quando si fa clic su un fornaio nell&#39;elenco, la vista Parametri fornaio vien
 
 Per ulteriori informazioni sui parametri specifici, vedere: [Impostazioni dei forni](https://experienceleague.adobe.com/it/docs/substance-3d/bakers/bakers-settings/bakers-settings).
 
-![Elenco di rendering dei panettieri](bakers.resources/bakers-07.png "Elenco di rendering dei panettieri")
+![Elenco di rendering dei panettieri](../assets/sd-baker-list.png "Elenco di rendering dei panettieri")

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline (Poly Quadratic)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '1149'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo](spline-poly-quadratic.resources/spline-poly-quadratic-01.png "Icona nodo")
+![Icona nodo](../../../../../../assets/spline-poly-quadratic-icon.png "Icona nodo")
 
 <b>In:</b> Strumenti Spline E Tracciati > Strumenti spline
 
@@ -115,11 +115,11 @@ La traiettoria della spline può essere smussata dai suoi punti intermedi, in qu
 <table>
   <tr>
     <td>
-      <img src="spline-poly-quadratic.resources/spline-poly-quadratic-02.jpg" alt="SplinePolyQuadratic-Variant1-Before">
+      <img src="../../../../../../assets/SplinePolyQuadratic-Variant1-Before.jpg" alt="SplinePolyQuadratic-Variant1-Before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="spline-poly-quadratic.resources/spline-poly-quadratic-03.jpg" alt="SplinePolyQuadratic-Variant1-After">
+      <img src="../../../../../../assets/SplinePolyQuadratic-Variant1-After.jpg" alt="SplinePolyQuadratic-Variant1-After">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -128,7 +128,7 @@ La traiettoria della spline può essere smussata dai suoi punti intermedi, in qu
 </td>
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 2](spline-poly-quadratic.resources/spline-poly-quadratic-04.gif "Esempio di nodo 2")
+![Esempio di nodo 2](../../../../../../assets/SplinePolyQuadratic-Demo.gif "Esempio di nodo 2")
 
 </td>
 </tr>

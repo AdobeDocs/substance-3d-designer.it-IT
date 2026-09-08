@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ereditarietà nei grafici Substance
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1681'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Questa pagina descrive come l&#39;ereditarietà viene applicata nei [grafici Substance](../../compositing-graphs/substance-compositing-graphs.md) in [Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html) e l&#39;impatto che ha sull&#39;output del grafico.
 
-![Metodi di ereditarietà](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-01.jpg "Metodi di ereditarietà"){width="1400px"}
+![Metodi di ereditarietà](../../assets/inheritance-overview-1.jpg "Metodi di ereditarietà"){width="1400px"}
 
 ## Panoramica
 
@@ -38,7 +38,7 @@ Tutti i nodi in un grafico a Substance possono *ereditare* il valore di alcuni p
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Icona per il metodo di ereditarietà &#39;Absolute&#39;](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-02.png "Icona per il metodo di ereditarietà &#39;Absolute&#39;"){width="128px"}
+![Icona per il metodo di ereditarietà &#39;Absolute&#39;](../../assets/ds-inheritance-absolute.png "Icona per il metodo di ereditarietà &#39;Absolute&#39;"){width="128px"}
 
 <b>Assoluto</b>
 
@@ -47,7 +47,7 @@ Nessuna ereditarietà. Il valore è definito *arbitrariamente e localmente* per 
 </td>
 <td style="border: 0;" valign="top">
 
-![Icona per il metodo di ereditarietà &#39;Relativo all&#39;input&#39;](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-03.png "Icona per il metodo di ereditarietà &#39;Relativo all&#39;input&#39;"){width="128px"}
+![Icona per il metodo di ereditarietà &#39;Relativo all&#39;input&#39;](../../assets/ds-inheritance-relative-to-input.png "Icona per il metodo di ereditarietà &#39;Relativo all&#39;input&#39;"){width="128px"}
 
 <b>Rispetto all&#39;input</b>
 
@@ -56,7 +56,7 @@ Il valore viene ereditato dai dati connessi all&#39;*input primario* del nodo
 </td>
 <td style="border: 0;" valign="top">
 
-![Icona per il metodo di ereditarietà &#39;Relativo al padre&#39;](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-04.png "Icona per il metodo di ereditarietà &#39;Relativo al padre&#39;"){width="128px"}
+![Icona per il metodo di ereditarietà &#39;Relativo al padre&#39;](../../assets/ds-inheritance-relative-to-parent.png "Icona per il metodo di ereditarietà &#39;Relativo al padre&#39;"){width="128px"}
 
 <b>Rispetto all&#39;elemento padre</b>
 
@@ -66,7 +66,7 @@ Il valore viene ereditato dall&#39;*elemento padre* del nodo o del grafico
 </tr>
 </table>
 
-![Dimostrazione dei metodi di ereditarietà](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-05.gif "Dimostrazione dei metodi di ereditarietà")
+![Dimostrazione dei metodi di ereditarietà](../../assets/inheritance-overview.gif "Dimostrazione dei metodi di ereditarietà")
 
 I metodi di ereditarietà vengono applicati per i [parametri di base](../../compositing-graphs/graph-parameters/graph-parameters.md) di un nodo, ovvero l&#39;insieme di parametri comuni di tutti i nodi che controllano *aspetti fondamentali* del loro comportamento. Tali parametri includono:
 
@@ -86,8 +86,8 @@ Ciò dovrebbe consentirti di comprendere come le modifiche in *un* nodo possano 
 
 >[!NOTE]
 >
-> **Dimensioni output:** Utilizzare il pulsante di blocco ![](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-06.jpg) per fare in modo che il valore Height *corrisponda* al valore della larghezza\
-> **Numero casuale:** Utilizzare il pulsante ![](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-07.jpg) per assegnare un nuovo valore casuale al numero casuale.
+> **Dimensioni output:** Utilizzare il pulsante di blocco ![](../../assets/props-output-size-lock.jpg) per fare in modo che il valore Height *corrisponda* al valore della larghezza\
+> **Numero casuale:** Utilizzare il pulsante ![](../../assets/prop-randomise.jpg) per assegnare un nuovo valore casuale al numero casuale.
 
 ## Apportare modifiche
 
@@ -96,7 +96,7 @@ Ciò dovrebbe consentirti di comprendere come le modifiche in *un* nodo possano 
 Nel pannello Proprietà, tutti i parametri elencati nella sezione [Parametri di base](../../compositing-graphs/graph-parameters/graph-parameters.md) delle proprietà di un nodo dispongono di un pulsante a discesa (icona) <b>Imposta metodo di ereditarietà</b> di fronte all&#39;etichetta.\
 Questo pulsante consente di selezionare il metodo di ereditarietà da utilizzare per un parametro.
 
-![Modifica del metodo di ereditarietà](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-08.gif "Modifica del metodo di ereditarietà"){width="512px"}
+![Modifica del metodo di ereditarietà](../../assets/inheritance-change.gif "Modifica del metodo di ereditarietà"){width="512px"}
 
 Nella maggior parte dei casi, i parametri di base di un *nodo* sono impostati su *Rispetto all&#39;input*, per sfruttare il comportamento procedurale del concatenamento dei nodi, mentre i parametri di base di un *grafico* sono impostati su *Rispetto all&#39;elemento padre*, in modo che i parametri globali possano adattarsi al contesto in cui viene utilizzato il grafico.
 
@@ -146,7 +146,7 @@ Quando un grafico ha più input, ogni input può ereditare dai suoi dati di inpu
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Icona per il metodo di ereditarietà &#39;Relativo all&#39;input&#39;](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-03.png "Icona per il metodo di ereditarietà &#39;Relativo all&#39;input&#39;"){width="128px"}
+![Icona per il metodo di ereditarietà &#39;Relativo all&#39;input&#39;](../../assets/ds-inheritance-relative-to-input.png "Icona per il metodo di ereditarietà &#39;Relativo all&#39;input&#39;"){width="128px"}
 
 <b>Rispetto all&#39;input</b>
 
@@ -155,7 +155,7 @@ L’input eredita dai suoi dati di input discreti, indipendentemente dai paramet
 </td>
 <td style="border: 0;" valign="top">
 
-![Icona per il metodo di ereditarietà &#39;Relativo al padre&#39;](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-04.png "Icona per il metodo di ereditarietà &#39;Relativo al padre&#39;"){width="128px"}
+![Icona per il metodo di ereditarietà &#39;Relativo al padre&#39;](../../assets/ds-inheritance-relative-to-parent.png "Icona per il metodo di ereditarietà &#39;Relativo al padre&#39;"){width="128px"}
 
 <b>Rispetto all&#39;elemento padre</b>
 
@@ -180,17 +180,17 @@ L’input eredita dal grafico e i dati che riceve vengono adattati di conseguenz
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Colore di input principale/scala di grigi](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-09.png){width="48px"}
+![Colore di input principale/scala di grigi](../../assets/inheritance-primary-input-both.png){width="48px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Colore di input primario](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-10.png){width="48px"}
+![Colore di input primario](../../assets/inheritance-primary-input-color.png){width="48px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Scala di grigi di input primaria](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-11.png){width="48px"}
+![Scala di grigi di input primaria](../../assets/inheritance-primary-input-grayscale.png){width="48px"}
 
 </td>
 </tr>
@@ -201,7 +201,7 @@ L’input eredita dal grafico e i dati che riceve vengono adattati di conseguenz
 </td>
 <td style="border: 0;" valign="top">
 
-![Tipi di connettori di input](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-12.jpg "Tipi di connettori di input")
+![Tipi di connettori di input](../../assets/inheritance-primary-input.jpg "Tipi di connettori di input")
 
 </td>
 </tr>
@@ -233,14 +233,14 @@ Le lettere rappresentano *set separati* di parametri di base e dovrebbero aiutar
 
 **Esempio A**
 
-![Diagramma di ereditarietà A](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-13.png "Diagramma di ereditarietà A"){zoomable="yes"}
+![Diagramma di ereditarietà A](../../assets/inheritance-schematic-a.png "Diagramma di ereditarietà A"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
 **Esempio B**
 
-![Diagramma di ereditarietà B](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-14.png "Diagramma di ereditarietà B"){zoomable="yes"}
+![Diagramma di ereditarietà B](../../assets/inheritance-schematic-b.png "Diagramma di ereditarietà B"){zoomable="yes"}
 
 </td>
 </tr>
@@ -252,14 +252,14 @@ Le lettere rappresentano *set separati* di parametri di base e dovrebbero aiutar
 
 **Esempio C**
 
-![Diagramma di ereditarietà C](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-15.png "Diagramma di ereditarietà C"){zoomable="yes"}
+![Diagramma di ereditarietà C](../../assets/inheritance-schematic-c.png "Diagramma di ereditarietà C"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
 **Esempio D**
 
-![Diagramma di ereditarietà D](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-16.png "Diagramma di ereditarietà D"){zoomable="yes"}
+![Diagramma di ereditarietà D](../../assets/inheritance-schematic-d.png "Diagramma di ereditarietà D"){zoomable="yes"}
 
 </td>
 </tr>
@@ -295,6 +295,6 @@ In particolare, il concetto di *input primario* è facilmente *ignorato* e può 
 
 Il nodo [Fusione](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) è molto sensibile a questo, in quanto viene utilizzato molto frequentemente. L&#39;input <b>Background</b> è l&#39;input principale.
 
-![Ereditarietà delle dimensioni di output](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-17.jpg "Ereditarietà delle dimensioni di output"){width="512px"}
+![Ereditarietà delle dimensioni di output](../../assets/inheritance-blend.jpg "Ereditarietà delle dimensioni di output"){width="512px"}
 
 È necessario prestare attenzione all&#39;ordine in cui si fondono i due input: l&#39;input che la risoluzione e la precisione che si desidera mantenere in basso il grafico dovrebbe essere collegato all&#39;input Sfondo, se il metodo di fusione necessario lo rende possibile. In caso contrario, potrebbe essere necessario modificare i parametri di base del nodo di blend e il relativo metodo di ereditarietà per compensare.

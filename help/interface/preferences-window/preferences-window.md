@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Preferenze
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1973'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Finestra Preferenze
 
-![Finestra Preferenze](preferences-window.resources/preferences-window-01.png "Finestra Preferenze")
+![Finestra Preferenze](../../assets/image2021-6-22-20-56-1.png "Finestra Preferenze")
 
 Questa pagina presenta la finestra <b>Preferenze</b> e tutte le relative impostazioni.
 
@@ -55,14 +55,14 @@ Ti consigliamo di rivedere tutte queste impostazioni per comprendere meglio come
 
 |  |  |
 | --- | --- |
-| <b>Inverti zoom nelle visualizzazioni</b>  *Impostazione predefinita: deselezionata* | Se selezionata, i controlli di zoom verranno invertiti nei [vista 2D](../../interface/2d-view/2d-view.md), [vista 3D](../../interface/3d-view/3d-view.md) e [grafici](../../interface/the-graph-view/the-graph-view.md). |
+| <b>Inverti zoom nelle visualizzazioni</b>  *Impostazione predefinita: deselezionata* | Se selezionata, i controlli di zoom verranno invertiti nelle [viste 2D](../../interface/2d-view/2d-view.md), [viste 3D](../../interface/3d-view/3d-view.md) e [grafiche](../../interface/the-graph-view/the-graph-view.md). |
 
 ### Percorsi
 
 |  |  |
 | --- | --- |
 | <b>Salva/Esporta percorso</b>  *Impostazione predefinita: ultimo percorso* | Determina se il percorso di salvataggio/esportazione suggerito è l&#39;ultimo percorso selezionato o il percorso del [pacchetto SBS](../../getting-started/overview/overview.md). L’ultimo percorso selezionato viene salvato tra le sessioni. |
-| <b>Cartella temporanea</b>  *Impostazione predefinita: percorso a seconda del sistema operativo di sistema* | Quando i dati immagine di un grafico superano il pool di memoria allocato (vedere di seguito <b>Memoria > Cache immagini</b>), i dati in overflow vengono scritti sul disco. Questa impostazione consente di definire la posizione in cui vengono scritti i dati della cache delle immagini in overflow.   Questo percorso viene utilizzato anche per archiviare una copia del pacchetto SBS attualmente aperto con le ultime modifiche dall&#39;ultimo salvataggio manuale. |
+| <b>Cartella temporanea</b>  *Impostazione predefinita: percorso a seconda del sistema operativo di sistema* | Quando i dati immagine di un grafico superano il pool di memoria allocato (vedere di seguito <b>Memoria > Cache immagini</b>), i dati in overflow vengono scritti sul disco. Questa impostazione consente di definire la posizione in cui vengono scritti i dati della cache delle immagini in overflow.   Questa posizione viene utilizzata anche per archiviare una copia del pacchetto SBS attualmente aperto con le ultime modifiche dall&#39;ultimo salvataggio manuale. |
 
 ### Memoria
 
@@ -82,7 +82,7 @@ Per evitare che ciò accada, si consiglia di esaminare i suggerimenti per la rid
 
 #### Pianificazione lavori
 
-Durante attività specifiche, ad esempio le conversioni delle immagini per le miniature o il [vista 2D](../../interface/2d-view/2d-view.md), verranno creati e distribuiti processi separati tra i core di elaborazione del sistema per una maggiore efficienza. Ogni processo scriverà i dati nella memoria di sistema per eseguire le operazioni.\
+Durante attività specifiche, ad esempio le conversioni delle immagini per le miniature o la [vista 2D](../../interface/2d-view/2d-view.md), verranno creati e distribuiti processi separati tra i core di elaborazione del sistema per una maggiore efficienza. Ogni processo scriverà i dati nella memoria di sistema per eseguire le operazioni.\
 Questa impostazione consente di definire il pool di memoria allocato per *tutti i processi simultanei*. Quando questo pool viene utilizzato completamente, i nuovi processi verranno accodati fino al completamento di quelli correnti.
 
 |  |  |
@@ -157,14 +157,14 @@ Consultare la pagina [Impostazioni progetti](../../interface/preferences-window/
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Modifica contestuale disabilitata](preferences-window.resources/preferences-window-02.gif "Modifica contestuale disabilitata")
+![Modifica contestuale disabilitata](../../assets/substance3ddesigner_incontext_no.gif "Modifica contestuale disabilitata")
 
 *Apri riferimento*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Modifica contestuale abilitata](preferences-window.resources/preferences-window-03.gif "Modifica contestuale abilitata")
+![Modifica contestuale abilitata](../../assets/substance3ddesigner_incontext_yes.gif "Modifica contestuale abilitata")
 
 *Apri riferimento nel contesto*
 

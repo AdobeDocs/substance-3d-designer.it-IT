@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Creazione di un grafico MDL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Questa pagina descrive il processo di creazione di un grafico MDL per creare materiali MDL in Substance 3D Designer.
 
-![Percorsi per la creazione di grafici MDL](creating-an-mdl-graph.resources/creating-an-mdl-graph-01.png "Percorsi per la creazione di grafici MDL")
+![Percorsi per la creazione di grafici MDL](../../assets/mdl-new-graph-hl.png "Percorsi per la creazione di grafici MDL")
 
 *Percorsi per la creazione di un nuovo grafico MDL nell&#39;interfaccia di Designer*
 
@@ -31,12 +31,12 @@ Questa pagina descrive il processo di creazione di un grafico MDL per creare mat
 Potete creare un grafico MDL utilizzando uno dei seguenti metodi:
 
 * Seleziona l&#39;opzione **File > Nuovo > Grafico MDL** nella *barra dei menu principale*
-* Fai clic sul pulsante ![](creating-an-mdl-graph.resources/creating-an-mdl-graph-02.png) **Aggiungi grafico MDL** nella *barra degli strumenti principale*
+* Fai clic sul pulsante ![](../../assets/mdl-new-graph-icon.png) **Aggiungi grafico MDL** nella *barra degli strumenti principale*
 * Fate clic con il pulsante destro del mouse su un *pacchetto esistente* nel pannello **Esplora risorse** e selezionate l&#39;opzione **Nuovo > Grafico MDL**
 
 Verrà visualizzata la finestra di dialogo **Nuovo grafico MDL**, vedere di seguito.
 
-![Finestra di dialogo Nuovo grafico MDL](creating-an-mdl-graph.resources/creating-an-mdl-graph-03.png "Finestra di dialogo Nuovo grafico MDL")
+![Finestra di dialogo Nuovo grafico MDL](../../assets/mdl-templates.png "Finestra di dialogo Nuovo grafico MDL")
 
 *Finestra di dialogo Nuovo grafico MDL*
 
@@ -59,10 +59,10 @@ L&#39;opzione <b>Progetto</b> consente di filtrare l&#39;elenco dei modelli in b
 
 L&#39;elenco dei modelli può essere visualizzato in modalità diverse utilizzando i *pulsanti* accanto alla casella combinata **Progetto**:
 
-* **![](creating-an-mdl-graph.resources/creating-an-mdl-graph-04.png)Visualizzazione utilizzata di recente**: consente di filtrare l&#39;elenco per visualizzare gli ultimi modelli utilizzati nell&#39;ordine *dal più recente al meno recente*. L&#39;elemento principale è il più recente.
-* **![](creating-an-mdl-graph.resources/creating-an-mdl-graph-05.png)grafici di visualizzazione**: i modelli vengono visualizzati solo dalla relativa *etichetta*, nell&#39;ordine dei [file Substance 3D](https://www.adobe.com/it/products/substance3d/3d-augmented-reality.html) nella directory dei modelli
-* **![](creating-an-mdl-graph.resources/creating-an-mdl-graph-06.png)Visualizza file Substance 3D**: i modelli vengono visualizzati dalla relativa etichetta come *elementi secondari del file Substance 3D a cui appartengono*, nell&#39;ordine dei file nella directory dei modelli
-* **![](creating-an-mdl-graph.resources/creating-an-mdl-graph-07.png)directory di visualizzazione**: i modelli vengono visualizzati dalla relativa etichetta come *figli della directory a cui appartengono*, nell&#39;ordine dei file nella directory dei modelli
+* **![](../../assets/mdl-template-recent-icon.png)Visualizzazione utilizzata di recente**: consente di filtrare l&#39;elenco per visualizzare gli ultimi modelli utilizzati nell&#39;ordine *dal più recente al meno recente*. L&#39;elemento principale è il più recente.
+* **![](../../assets/mdl-template-graphs-icon.png)grafici di visualizzazione**: i modelli vengono visualizzati solo dalla relativa *etichetta*, nell&#39;ordine dei [file Substance 3D](https://www.adobe.com/it/products/substance3d/3d-augmented-reality.html) nella directory dei modelli
+* **![](../../assets/mdl-template-packages-icon.png)Visualizza file Substance 3D**: i modelli vengono visualizzati dalla relativa etichetta come *elementi secondari del file Substance 3D a cui appartengono*, nell&#39;ordine dei file nella directory dei modelli
+* **![](../../assets/mdl-template-directory-icon.png)directory di visualizzazione**: i modelli vengono visualizzati dalla relativa etichetta come *figli della directory a cui appartengono*, nell&#39;ordine dei file nella directory dei modelli
 
 ### Proprietà
 

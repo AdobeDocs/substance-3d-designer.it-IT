@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Fibre disordinate 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Fibre disordinate 1 - Icona](messy-fibers-1.resources/messy-fibers-1-01.png "Fibre disordinate 1 - Icona"){width="200px"}
+![Fibre disordinate 1 - Icona](../../../../../../assets/messy_fibers_1.png "Fibre disordinate 1 - Icona"){width="200px"}
 
 <b>Ingresso:</b> Generatori di texture > Rumori
 
@@ -72,12 +72,12 @@ Vedere anche: [Fibre disordinate 2](../../../../../../compositing-graphs/nodes-r
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Fibre disordinate 1 - Icona](messy-fibers-1.resources/messy-fibers-1-02.png "Fibre disordinate 1 - Icona"){zoomable="yes"}
+![Fibre disordinate 1 - Icona](../../../../../../assets/messy_fibers_1_1.png "Fibre disordinate 1 - Icona"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Fibre disordinate 1 - Esempio 2](messy-fibers-1.resources/messy-fibers-1-03.gif "Fibre disordinate 1 - Esempio 2"){zoomable="yes"}
+![Fibre disordinate 1 - Esempio 2](../../../../../../assets/noise_messy_fibers_1_v2_speed0.1_aniso0.gif "Fibre disordinate 1 - Esempio 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -87,12 +87,12 @@ Vedere anche: [Fibre disordinate 2](../../../../../../compositing-graphs/nodes-r
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Fibre disordinate 1 - Esempio 3](messy-fibers-1.resources/messy-fibers-1-04.gif "Fibre disordinate 1 - Esempio 3"){zoomable="yes"}
+![Fibre disordinate 1 - Esempio 3](../../../../../../assets/noise_messy_fibers_1_v2_speed0.1_aniso1.gif "Fibre disordinate 1 - Esempio 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Fibre disordinate 1 - Esempio 4](messy-fibers-1.resources/messy-fibers-1-05.gif "Fibre disordinate 1 - Esempio 4"){zoomable="yes"}
+![Fibre disordinate 1 - Esempio 4](../../../../../../assets/noise_messy_fibers_1_v2_speed0.1_aniso0.6.gif "Fibre disordinate 1 - Esempio 4"){zoomable="yes"}
 
 </td>
 </tr>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Nodo punto (anche portale)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Icona nodo punto](dot-node.resources/dot-node-01.png "Icona nodo punto")
+![Icona nodo punto](../../../../assets/graphatomic-dot_1.png "Icona nodo punto")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -44,7 +44,7 @@ I nodi punto possono essere aggiunti in qualsiasi tipo di grafico, in uno dei se
 +++Inserisci sul collegamento
 Tieni premuto il tasto <b>Alt</b> mentre posizioni il puntatore del mouse su una connessione per visualizzare l&#39;anteprima del nodo Punto, quindi fai clic su LMB per aggiungere un nodo Punto alla connessione in quella posizione.
 
-![Inserimento di un nodo punto](dot-node.resources/dot-node-02.gif "Inserimento di un nodo punto"){width="512px"}
+![Inserimento di un nodo punto](../../../../assets/dot-node-insert-optim.gif "Inserimento di un nodo punto"){width="512px"}
 
 
 
@@ -55,7 +55,7 @@ Premi il tasto <b>Alt</b> mentre trascini una nuova connessione da un connettore
 
 Puoi continuare a trascinare la nuova connessione e ripetere l&#39;operazione per instradarla come preferisci.
 
-![Punto: creazione dal connettore](dot-node.resources/dot-node-03.gif "Punto: creazione dal connettore")
+![Punto: creazione dal connettore](../../../../assets/graph-dot_create-from-connector.gif "Punto: creazione dal connettore")
 
 
 
@@ -64,7 +64,7 @@ Puoi continuare a trascinare la nuova connessione e ripetere l&#39;operazione pe
 +++Menu Nodo
 Premi <b>Barra spaziatrice</b> per visualizzare il menu <b>Nodo</b>, quindi seleziona l&#39;elemento &#39;Punto&#39; o digita &#39;punto&#39; nel campo di ricerca per far apparire l&#39;elemento e trovarlo più rapidamente.
 
-![Nodo punto nel menu Nodo](dot-node.resources/dot-node-04.png "Nodo punto nel menu Nodo")
+![Nodo punto nel menu Nodo](../../../../assets/dot-node-insert-menu.png "Nodo punto nel menu Nodo")
 
 
 
@@ -85,7 +85,7 @@ Premete ALT e spostate un nodo Punto sui collegamenti per unire più connessioni
 </td>
 <td style="border: 0;" valign="top">
 
-![Unione dei collegamenti](dot-node.resources/dot-node-05.gif "Unione dei collegamenti"){width="512px"}
+![Unione dei collegamenti](../../../../assets/dot-node-congrenate-links-optim.gif "Unione dei collegamenti"){width="512px"}
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ Premete ALT e spostate un nodo Punto sui collegamenti per unire più connessioni
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Nodo punto come portale - icona](dot-node.resources/dot-node-06.png "Nodo punto come portale - icona")
+![Nodo punto come portale - icona](../../../../assets/DotNode_Portal-1.png "Nodo punto come portale - icona")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -108,7 +108,7 @@ I nodi punto possono essere utilizzati come <b>portali</b> per inviare dati su l
 </tr>
 </table>
 
-![Nodo punto come portale](dot-node.resources/dot-node-07.gif "Nodo punto come portale")
+![Nodo punto come portale](../../../../assets/DotNode_Portal.gif "Nodo punto come portale")
 
 ### Creazione di portali
 

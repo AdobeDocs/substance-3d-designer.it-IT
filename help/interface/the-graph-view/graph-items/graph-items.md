@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Elementi grafico
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 7%
@@ -26,14 +26,14 @@ Gli elementi del grafico sono oggetti speciali che consentono di organizzare i g
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![Icona nodo punto](graph-items.resources/graph-items-01.png){width="128px"}](../../../interface/the-graph-view/graph-items/dot-node/dot-node.md)
+[![Icona nodo punto](../../../assets/graphatomic-dot.png){width="128px"}](../../../interface/the-graph-view/graph-items/dot-node/dot-node.md)
 
 ## Nodo punto (anche portale)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Icona fotogramma](graph-items.resources/graph-items-02.png){width="128px"}](../../../interface/the-graph-view/graph-items/frame/frame.md)
+[![Icona fotogramma](../../../assets/graphatomic-frame.png){width="128px"}](../../../interface/the-graph-view/graph-items/frame/frame.md)
 
 ## Cornice
 
@@ -60,14 +60,14 @@ Raggruppare i nodi con etichetta e codifica a colori, quindi spostarli facilment
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![Icona commento](graph-items.resources/graph-items-03.png){width="128px"}](../../../interface/the-graph-view/graph-items/comment/comment.md)
+[![Icona commento](../../../assets/graphatomic-comment.png){width="128px"}](../../../interface/the-graph-view/graph-items/comment/comment.md)
 
 ## Commento
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Icona del pin di navigazione](graph-items.resources/graph-items-04.png){width="128px"}](../../../interface/the-graph-view/graph-items/navigation-pin/navigation-pin.md)
+[![Icona del pin di navigazione](../../../assets/graphatomic-pin.png){width="128px"}](../../../interface/the-graph-view/graph-items/navigation-pin/navigation-pin.md)
 
 ## Puntina
 

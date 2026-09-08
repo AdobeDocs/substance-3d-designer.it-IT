@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Panoramica del flusso di lavoro
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1206'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Substance 3D Designer è un editor basato su nodi. Ciò significa che quasi ogni
 
 [Tipi di grafici](#graph-types)
 
-![Flusso di dati semplificato](workflow-overview.resources/workflow-overview-01.png "Flusso di dati semplificato")
+![Flusso di dati semplificato](../../assets/graph-direction.png "Flusso di dati semplificato")
 
 ## Flusso di lavoro basato su nodi
 
@@ -40,7 +40,7 @@ L’utilizzo di Designer è diverso da quello di altri software di editing di im
 
 Il vantaggio principale è che il flusso di lavoro diventa <b>non lineare</b>. A differenza delle azioni eseguite manualmente che vengono inserite in una pila della cronologia, potete sempre scambiare o modificare un nodo in qualsiasi momento. Se decidete che la vostra primissima regolazione Contrasto, che influisce sul risultato dell&#39;immagine fino alla fine, è stata eccessiva, potete comunque tornare indietro e regolarla o addirittura ritagliarla completamente, senza perdere tutto il lavoro che avete eseguito successivamente.
 
-![Istanze del grafico semplificate](workflow-overview.resources/workflow-overview-02.png "Istanze del grafico semplificate")
+![Istanze del grafico semplificate](../../assets/sub-graph.png "Istanze del grafico semplificate")
 
 ## Flusso di lavoro dell’istanza del grafico
 
@@ -48,7 +48,7 @@ L’istanza di Grafica è un processo chiave in Designer. Consente di creare nod
 
 Per ulteriori informazioni sulle istanze del grafico in [Substance grafici](../../compositing-graphs/substance-compositing-graphs.md), nella documentazione è disponibile una [sezione dedicata](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) su di esse.
 
-![Parametri del grafico semplificati](workflow-overview.resources/workflow-overview-03.png "Parametri del grafico semplificati")
+![Parametri del grafico semplificati](../../assets/parameters-5.png "Parametri del grafico semplificati")
 
 ## Parametri personalizzati
 
@@ -62,7 +62,7 @@ Di seguito sono riportati un riepilogo dei tre tipi di grafici che è possibile 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](workflow-overview.resources/workflow-overview-04.png){width="120px"}](https://substance3d.adobe.com/)
+[![](../../assets/graph-5.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -84,7 +84,7 @@ I grafici a Substance sono[il tipo di grafico più supportato](../../getting-sta
 Di seguito sono riportati alcuni esempi tipici di casi di utilizzo comuni.
 
 +++Forma semplice
-![Forma semplice nel grafico della Substance](workflow-overview.resources/workflow-overview-05.png "Forma semplice nel grafico della Substance"){width="512px"}
+![Forma semplice nel grafico della Substance](../../assets/simpleshape.png "Forma semplice nel grafico della Substance"){width="512px"}
 
 
 
@@ -95,7 +95,7 @@ Il testo con il numero o il thickness del bordo può essere esposto esternamente
 +++
 
 +++Filtro di regolazione
-![Filtro di regolazione nel grafico della Substance](workflow-overview.resources/workflow-overview-06.png "Filtro di regolazione nel grafico della Substance"){width="512px"}
+![Filtro di regolazione nel grafico della Substance](../../assets/simplefilter.png "Filtro di regolazione nel grafico della Substance"){width="512px"}
 
 
 
@@ -106,7 +106,7 @@ I valori di contrasto impostati nell’istogramma possono essere esposti, renden
 +++
 
 +++Materiale completo
-![Materiale completo nel grafico della Substance](workflow-overview.resources/workflow-overview-07.png "Materiale completo nel grafico della Substance"){width="512px"}
+![Materiale completo nel grafico della Substance](../../assets/simplematerial.png "Materiale completo nel grafico della Substance"){width="512px"}
 
 
 
@@ -120,7 +120,7 @@ In questo esempio vengono utilizzate [modalità di creazione del collegamento](.
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](workflow-overview.resources/workflow-overview-08.png){width="120px"}](https://substance3d.adobe.com/)
+[![](../../assets/function-1.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -140,7 +140,7 @@ Le funzioni possono essere utilizzate in molti contesti diversi, principalmente 
 Di seguito sono riportati alcuni esempi da casi d&#39;uso comuni per i grafici delle funzioni Substance.
 
 +++Funzione semplice
-![Grafico a funzioni semplici](workflow-overview.resources/workflow-overview-09.png "Grafico a funzioni semplici"){width="256px"}
+![Grafico a funzioni semplici](../../assets/lerpfunction.png "Grafico a funzioni semplici"){width="256px"}
 
 
 
@@ -151,11 +151,11 @@ Questa funzione potrebbe anche essere scritta come *lerp(0.1, 0.8, Intensità)* 
 +++
 
 +++Funzione avanzata
-![Funzione avanzata](workflow-overview.resources/workflow-overview-10.png "Funzione avanzata"){width="512px"}
+![Funzione avanzata](../../assets/pixel-function.png "Funzione avanzata"){width="512px"}
 
 
 
-Questa funzione avanzata mostra il funzionamento interno di un [Elaboratore pixel](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) destinato a regolare la tonalità di un input della mappa colore in base all&#39;intensità di un secondo input della maschera in scala di grigio.
+Questa funzione avanzata mostra il funzionamento interno di un [processore pixel](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) pensato per regolare la tonalità di un input della mappa colore in base all’intensità di un secondo input della maschera in scala di grigio.
 
 Campiona entrambi gli input con la variabile di Alpha &quot;$pos&quot;, quindi rimuove l’input, converte il valore del colore in HSL e modifica il componente Tonalità moltiplicandolo per il valore della scala di grigi campionata. Successivamente riassembla il vettore, converte nuovamente l&#39;HSL in RGB e aggiunge nuovamente l&#39;Alpha per l&#39;output finale.
 

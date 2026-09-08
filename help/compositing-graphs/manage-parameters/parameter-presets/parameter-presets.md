@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Predefiniti di parametri
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
@@ -24,7 +24,7 @@ I predefiniti di parametro consentono all’utente di memorizzare e trasferire g
 
 Esistono due modi per archiviare e caricare i predefiniti, entrambi con casi d’uso diversi, descritti di seguito.
 
-![Menu a discesa Carica/Salva predefinito](parameter-presets.resources/parameter-presets-01.gif "Menu a discesa Carica/Salva predefinito"){width="512px"}
+![Menu a discesa Carica/Salva predefinito](../../../assets/preset-menu.gif "Menu a discesa Carica/Salva predefinito"){width="512px"}
 
 ## Predefiniti esterni
 
@@ -38,7 +38,7 @@ Vengono semplicemente salvati e caricati tramite questo menu. I file SBSPRS salv
 >
 > Funzioneranno anche le corrispondenze parziali: i parametri memorizzati in un SBSPRS che non esistono nel nodo caricato verranno semplicemente ignorati. Ciò significa che è possibile trasferire proprietà tra nodi che sono per lo più simili, [ad esempio la versione a colori e in scala di grigio di Tile Sampler](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md). Verranno caricati tutti i parametri condivisi. La corrispondenza avviene sull&#39;identificatore e sul tipo.
 
-![Predefiniti incorporati che modificano](parameter-presets.resources/parameter-presets-02.gif "Predefiniti incorporati che modificano"){width="512px"}
+![Predefiniti incorporati che modificano](../../../assets/preset-embed.gif "Predefiniti incorporati che modificano"){width="512px"}
 
 ## Predefiniti incorporati
 

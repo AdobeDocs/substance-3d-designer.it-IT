@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Cubo 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](cube-3d.resources/cube-3d-01.png)
+![](../../../../../../assets/cube3-ex.png)
 
 <b>Ingresso:</b> Generatori Texture > Pattern
 
@@ -55,7 +55,7 @@ Esegue il rendering di un cubo 3D in scala di grigio con ombreggiatura che funge
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="cube-3d.resources/cube-3d-02.gif" />
+            <img src="../../../../../../assets/cube3d-ex.gif" />
         </td>
     </tr>
 </table>

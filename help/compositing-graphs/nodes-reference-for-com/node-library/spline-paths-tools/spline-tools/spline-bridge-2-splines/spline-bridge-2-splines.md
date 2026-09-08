@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ponte spline (2 spline)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '1246'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo](spline-bridge-2-splines.resources/spline-bridge-2-splines-01.png "Icona nodo")
+![Icona nodo](../../../../../../assets/spline-bridge-2splines-icon.png "Icona nodo")
 
 <b>In:</b> Strumenti Spline E Tracciati > Strumenti spline
 
@@ -108,11 +108,11 @@ Genera spline da <b>Spline #1</b> a <b>Spline #2</b> lungo queste spline. Le spl
 <table>
   <tr>
     <td>
-      <img src="spline-bridge-2-splines.resources/spline-bridge-2-splines-02.jpg" alt="SplineBridge-2Splines_Variant1-Before">
+      <img src="../../../../../../assets/SplineBridge-2Splines_Variant1-Before.jpg" alt="SplineBridge-2Splines_Variant1-Before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="spline-bridge-2-splines.resources/spline-bridge-2-splines-03.jpg" alt="SplineBridge-2Splines_Variant1-After">
+      <img src="../../../../../../assets/SplineBridge-2Splines_Variant1-After.jpg" alt="SplineBridge-2Splines_Variant1-After">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -121,7 +121,7 @@ Genera spline da <b>Spline #1</b> a <b>Spline #2</b> lungo queste spline. Le spl
 </td>
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 2](spline-bridge-2-splines.resources/spline-bridge-2-splines-04.gif "Esempio di nodo 2")
+![Esempio di nodo 2](../../../../../../assets/SplineBridge-2Splines_Demo.gif "Esempio di nodo 2")
 
 </td>
 </tr>

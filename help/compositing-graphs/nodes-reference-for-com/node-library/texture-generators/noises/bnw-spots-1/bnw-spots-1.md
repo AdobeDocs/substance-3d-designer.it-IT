@@ -10,7 +10,7 @@ helpx_tags: ""
 title: BnW macchie 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Punti BnW 1 - Icona](bnw-spots-1.resources/bnw-spots-1-01.png "Punti BnW 1 - Icona"){width="200px"}
+![Punti BnW 1 - Icona](../../../../../../assets/bnw_spots_1.png "Punti BnW 1 - Icona"){width="200px"}
 
 <b>Ingresso:</b> Generatori di texture > Rumori
 
@@ -57,7 +57,7 @@ Vedere anche: [macchie BnW 2](../../../../../../compositing-graphs/nodes-referen
 |:---|:---|
 | <b>Scala</b> <i>Numero intero</i> | Suddivisione della griglia utilizzata per generare le porzioni di disturbo.    Un valore più elevato determina la creazione di più riquadri e un disturbo maggiore. |
 | <b>Disturbo</b> <i>Mobile</i> | Sposta gli ingredienti del disturbo.    Può essere utilizzato per animare il disturbo. |
-| <b>Velocità del disturbo</b> <i>Virgola mobile</i> | Regola la distanza di spostamento applicata dal parametro <b>Disturbo</b>.    Questa opzione consente di controllare la velocità di spostamento durante l’animazione del disturbo. |
+| <b>Velocità del disturbo</b> <i>Mobile</i> | Regola la distanza di spostamento applicata dal parametro <b>Disturbo</b>.    Questa opzione consente di controllare la velocità di spostamento durante l’animazione del disturbo. |
 | <b>anisotropia disturbo</b> <i>Mobile</i> | Controlla l&#39;estensione delle direzioni dello spostamento applicato dal parametro <b>Disturbo</b>, in cui un valore più alto determina una direzione più stretta e definita.    La direzione è controllata dal parametro <b>Angolo di anisotropia disturbo</b>. |
 | <b>angolo di anisotropia di disturbo</b> <i>Mobile</i> | Controlla la direzione dello spostamento applicato dal parametro <b>Disturbo</b> quando il parametro <b>anisotropia disturbo</b> è diverso da zero. |
 | <b>Rugosità</b> <i>Mobile</i> | Il bilanciamento delle ottave di disturbo, dove un valore più alto renderà più visibili le ottave di frequenza più alta. |
@@ -70,12 +70,12 @@ Vedere anche: [macchie BnW 2](../../../../../../compositing-graphs/nodes-referen
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Macchie BnW 1 - Esempio 1](bnw-spots-1.resources/bnw-spots-1-02.png "Macchie BnW 1 - Esempio 1"){zoomable="yes"}
+![Macchie BnW 1 - Esempio 1](../../../../../../assets/bnw_spots_1_1.png "Macchie BnW 1 - Esempio 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Macchie BnW 1 - Esempio 2](bnw-spots-1.resources/bnw-spots-1-03.gif "Macchie BnW 1 - Esempio 2"){zoomable="yes"}
+![Macchie BnW 1 - Esempio 2](../../../../../../assets/noise_bnw_spots_1_v2_speed0.6_aniso0.gif "Macchie BnW 1 - Esempio 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -85,12 +85,12 @@ Vedere anche: [macchie BnW 2](../../../../../../compositing-graphs/nodes-referen
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Macchie BnW 1 - Esempio 3](bnw-spots-1.resources/bnw-spots-1-04.gif "Macchie BnW 1 - Esempio 3"){zoomable="yes"}
+![Macchie BnW 1 - Esempio 3](../../../../../../assets/noise_bnw_spots_1_v2_speed0.6_aniso1.gif "Macchie BnW 1 - Esempio 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Macchie BnW 1 - Esempio 4](bnw-spots-1.resources/bnw-spots-1-05.gif "Macchie BnW 1 - Esempio 4"){zoomable="yes"}
+![Macchie BnW 1 - Esempio 4](../../../../../../assets/noise_bnw_spots_1_v2_speed0.3_aniso0.6.gif "Macchie BnW 1 - Esempio 4"){zoomable="yes"}
 
 </td>
 </tr>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Pelliccia 3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 11%
@@ -24,7 +24,7 @@ ht-degree: 11%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](fur-3.resources/fur-3-01.png){width="128px"}
+![](../../../../../../assets/fur-3.png){width="128px"}
 
 <b>Ingresso:</b> Generatori di texture > Rumori
 
@@ -48,14 +48,14 @@ Questo genera un disturbo di diffusione/setole.
 | <b>Scala</b> <i>1 - 8</i> | Imposta la scala globale per l’effetto. |
 | <b>Disturbo</b> <i>0.0 - 1.0</i> | Fase-sposta il disturbo per introdurre piccole variazioni. |
 | <b>Quantità ondate</b> <i>0.0 - 8.0</i> |  |
-| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di squash e allungamento con rapporti non quadrati. |
+| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati. |
 
 ## Esempi
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="fur-3.resources/fur-3-02.gif" />
+            <img src="../../../../../../assets/fur-3-ex.gif" />
         </td>
     </tr>
 </table>

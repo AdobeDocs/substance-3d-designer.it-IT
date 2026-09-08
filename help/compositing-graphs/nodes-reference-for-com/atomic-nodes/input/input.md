@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Input
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 0%
@@ -24,17 +24,17 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Nodo atomico: colore di input](input.resources/input-01.png "Nodo atomico: colore di input"){width="200px"}
+![Nodo atomico: colore di input](../../../../assets/comp_inputcolor_1.png "Nodo atomico: colore di input"){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Nodo atomico: Scala di grigi di input](input.resources/input-02.png "Nodo atomico: Scala di grigi di input"){width="200px"}
+![Nodo atomico: Scala di grigi di input](../../../../assets/comp_inputgrayscale_1.png "Nodo atomico: Scala di grigi di input"){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Nodo atomico: valore di input](input.resources/input-03.png "Nodo atomico: valore di input"){width="200px"}
+![Nodo atomico: valore di input](../../../../assets/comp_inputnumeric_1.png "Nodo atomico: valore di input"){width="200px"}
 
 </td>
 </tr>
@@ -124,7 +124,7 @@ I parametri di base includono, tra gli altri, <b>Dimensioni output</b>, <b>Forma
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-[![Input primario nel grafico Substance](input.resources/input-04.png)](https://helpx.adobe.com/Primary%20input%20in%20Substance%20graph)
+[![Input primario nel grafico Substance](../../../../assets/node-primary-input.png)](https://helpx.adobe.com/Primary%20input%20in%20Substance%20graph)
 
 </td>
 </tr>

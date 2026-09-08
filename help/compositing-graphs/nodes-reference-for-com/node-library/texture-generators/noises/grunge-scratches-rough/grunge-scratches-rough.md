@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Scratches di grunge ruvidi
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-scratches-rough.resources/grunge-scratches-rough-01.jpg){width="200px"}
+![](../../../../../../assets/grungescratchesrough.jpg){width="200px"}
 
 <b>Ingresso:</b> Generatori di Texture > Rumori
 
@@ -45,12 +45,12 @@ Il nodo **Scratches di Grunge su superficie ruvida** genera una mappa di grunge 
 
 |  |  |
 |:---|:---|
-| <b>Saldo</b> <i>Mobile</i> | Regola il bilanciamento tra i valori di luminosità e oscurità. |
-| <b>Contrasto</b> <i>Mobile</i> | Regola il contrasto dell’immagine. |
+| <b>Saldo</b> <i>Virgola mobile</i> | Regola il bilanciamento tra i valori di luminosità e oscurità. |
+| <b>Contrasto</b> <i>Virgola mobile</i> | Regola il contrasto dell’immagine. |
 | <b>Inverti</b> <i>Booleano</i> | Inverte l&#39;output dell&#39;immagine utilizzando un&#39;operazione `1-x`. |
-| <b>Non square expansion</b> <i>Booleano</i> | Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati. |
+| <b>Non square expansion</b> <i>Booleano</i> | Consente la compensazione di squash e allungamento con rapporti non quadrati. |
 | <b>Avanzate</b> |  |
-| <b>Quantità memoria virtuale</b> <i>Mobile</i> | Regola la quantità di graffi sulla superficie. |
+| <b>Quantità memoria virtuale</b> <i>Virgola mobile</i> | Regola la quantità di graffi sulla superficie. |
 | <b>Affiancamento memoria virtuale</b> <i>Numero intero</i> | Regola la quantità di Affiancamento applicata ai graffi. |
 | <b>Sfocatura graffio</b> <i>Mobile</i> | Regola la sfocatura dei graffi. |
 | <b>Larghezza memoria virtuale</b> <i>Mobile</i> | Regola la larghezza dei graffi. |
@@ -69,10 +69,10 @@ Il nodo **Scratches di Grunge su superficie ruvida** genera una mappa di grunge 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-scratches-rough.resources/grunge-scratches-rough-02.jpg" />
+            <img src="../../../../../../assets/grungescratchesrough-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="grunge-scratches-rough.resources/grunge-scratches-rough-03.jpg" />
+            <img src="../../../../../../assets/grungescratchesrough-variant2.jpg" />
         </td>
     </tr>
 </table>

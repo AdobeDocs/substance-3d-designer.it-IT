@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Da multi-angolo a Albedo
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](multi-angle-to-albedo.resources/multi-angle-to-albedo-01.png){width="128px"}
+![](../../../../../../assets/multi-angle-to-albedo.png){width="128px"}
 
 <b>Tra:</b> Filtri materiali > Elaborazione scansione
 
@@ -39,7 +39,7 @@ Tenete presente che più campioni avete e più grande è la differenza nell’an
 
 >[!NOTE]
 >
-> Per la versione Normalmap di questo nodo, vedere [Da multiangolo a normale](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-normal/multi-angle-to-normal.md). Se desiderate pre-elaborare i vostri input, [Multi Color Equalizer](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-color-equalizer/multi-color-equalizer.md), [Multi Crop](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-crop/multi-crop.md) e [Multi Clona /Clone Patch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-clone-patch/multi-clone-patch.md) possono essere utili, in quanto sono destinati a essere combinati con questi nodi.
+> Per la versione Normalmap di questo nodo, vedere [Da multiangolo a normale](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-normal/multi-angle-to-normal.md). Se desiderate pre-elaborare i vostri input, [Multi Color Equalizer](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-color-equalizer/multi-color-equalizer.md), [Multi Crop](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-crop/multi-crop.md) e [Multi Clone Patch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-clone-patch/multi-clone-patch.md) possono essere utili, in quanto sono destinati a essere combinati con questi nodi.
 > 
 > [Il post del blog &quot;Il tuo smartphone è uno scanner di materiali&quot; illustra questo processo un po&#39; meglio.](https://www.allegorithmic.com/blog/your-smartphone-material-scanner)
 

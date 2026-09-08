@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Campionatori
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Nodi di Sampler
 
-![Nodi Sampler](sampler-nodes.resources/sampler-nodes-01.png "Nodi Sampler")
+![Nodi Sampler](../../../../assets/image2016-1-12-14-45-43.png "Nodi Sampler")
 
 Questi nodi campionano un valore in un&#39;immagine di input alle coordinate 2D fornite:
 
@@ -39,7 +39,7 @@ Le posizioni al di fuori di questo intervallo vengono gestite in base alla <b>mo
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Coordinate pixel](sampler-nodes.resources/sampler-nodes-02.png "Coordinate pixel")
+![Coordinate pixel](../../../../assets/samplercoords.png "Coordinate pixel")
 
 </td>
 </tr>
@@ -79,7 +79,7 @@ Esegue il ciclo nell&#39;intervallo [0;1] man mano che il valore aumenta.\
 Ad esempio: 3,4 è 0,4, -1,7 è 0,3.
 
 <b>Blocca al bordo</b>\
-Blocca i valori all&#39;esterno dell&#39;intervallo [0;1] fino al limite più vicino.\
+Blocca i valori all&#39;esterno dell&#39;intervallo [0;1] al limite più vicino.\
 Esempio: .3.4 è 1, -1.7 è 0.
 
 +++

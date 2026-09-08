@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mappatura forme
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Mappatura forme - Icona](shape-mapper.resources/shape-mapper-01.png "Mappatura forme - Icona"){width="200px"}
+![Mappatura forme - Icona](../../../../../../assets/shape_mapper.png "Mappatura forme - Icona"){width="200px"}
 
 <b>Ingresso:</b> generatori di Texture > Pattern
 
@@ -67,9 +67,9 @@ La proiezione deforma l&#39;immagine in modo da seguire il contorno della forma 
 | <b>Quantità motivo</b> <i>Numero intero</i> | Quantità di motivi posizionati lungo la forma selezionata. |
 | <b>Collega segmenti con quantità di pattern</b> <i>Booleano</i>   *Disponibile quando &#39;Shape&#39; è impostato su &#39;Polygon&#39;* | Usate <b>Quantità pattern</b> come numero di <b>Segmenti</b>.   In questo modo si evita che i pattern si avvolgano attorno agli angoli, assicurando un aspetto retto e coerente. |
 | <b>Segmenti</b> <i>Numero intero</i>   *Disponibile quando &#39;Shape&#39; è impostato su &#39;Polygon&#39; e &#39;Link segements with pattern amount&#39; è impostato su &#39;False&#39;* | La quantità di segmenti per il poligono lungo cui vengono posizionati i pattern.   I segmenti sono di *dimensioni uniformi* e tutti i vertici sono *equidistanti dal centro*, in modo che aumentando la quantità di segmenti il poligono converga verso un cerchio. |
-| <b>Raggio</b> <i>Virgola mobile</i> | Moltiplicatore per il raggio della forma, in cui 1,0 corrisponde alla metà della lunghezza del lato più corto dell&#39;immagine. |
-| <b>Larghezza</b> <i>Virgola mobile</i> | Moltiplicatore per la larghezza dei motivi lungo la forma, dove 1,0 corrisponde alla metà della lunghezza del lato più corto dell&#39;immagine. |
-| <b>Rotazione</b> <i>Virgola mobile</i> | Quantità di rotazione applicata alla forma, espressa in numero di giri in senso orario rispetto all&#39;orizzontale a destra. |
+| <b>Raggio</b> <i>Mobile</i> | Moltiplicatore per il raggio della forma, in cui 1,0 corrisponde alla metà della lunghezza del lato più corto dell&#39;immagine. |
+| <b>Larghezza</b> <i>Mobile</i> | Moltiplicatore per la larghezza dei motivi lungo la forma, dove 1,0 corrisponde alla metà della lunghezza del lato più corto dell&#39;immagine. |
+| <b>Rotazione</b> <i>Mobile</i> | Quantità di rotazione applicata alla forma, espressa in numero di giri in senso orario rispetto all&#39;orizzontale a destra. |
 | <b>Capovolgi uno su due</b> <i>Booleano</i> | Capovolgi verticalmente una forma ogni due forme. |
 | <b>Modalità di filtro</b> <i>Numero intero</i> | Metodo di filtraggio applicato ai motivi posizionati lungo la forma:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Più vicino:</i> applica il valore del pixel più vicino così com&#39;è, creando un aspetto più nitido ma con aliasing.</li> <li data-preserve-html="true"><i>Bilineare:</i> applica un filtro bilineare per interpolare il pixel proiettato con i pixel vicini, per un aspetto più uniforme ma più sfocato.</li> </ul> |
 | <b>Espansione non quadrata</b> <i>Booleano</i> | Nelle immagini non quadrate, mantiene la forma generata squadrata ed espande la generazione dell&#39;immagine fino ai limiti dell&#39;immagine. |

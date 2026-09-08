@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ombre (Nodo filtro)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](shadows-filter-node.resources/shadows-filter-node-01.png){width="128px"}
+![](../../../../../../assets/shadows-1.png){width="128px"}
 
 <b>Ingresso:</b> Filtri > Effetti
 
@@ -35,7 +35,7 @@ ht-degree: 8%
 
 Versione non elaborata in scala di grigio del nodo [Ombra esterna forma](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/shape-drop-shadow/shape-drop-shadow.md). Prende solo forme binarie in bianco e nero come input e restituisce solo l&#39;ombra.
 
-Può essere utile se state appena dopo l&#39;ombra e non desiderate lavorare con un nodo più completo, ad esempio quando costruite il vostro materiale o l&#39;illuminazione eseguita i baking.
+Può essere utile se siete appena dopo l&#39;ombra e non volete lavorare con un nodo più completo, ad esempio quando si costruisce il proprio materiale o l&#39;illuminazione al forno.
 
 </td>
 </tr>
@@ -57,7 +57,7 @@ Può essere utile se state appena dopo l&#39;ombra e non desiderate lavorare con
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="shadows-filter-node.resources/shadows-filter-node-02.png" />
+            <img src="../../../../../../assets/shadow-ex.png" />
         </td>
     </tr>
 </table>

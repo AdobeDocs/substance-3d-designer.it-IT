@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Esportazione di contenuto MDL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1078'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Questo è il formato di file di scambio fondamentale per le definizioni dei mate
 * i parametri esposti e i valori predefiniti
 * le relative annotazioni (ad esempio, metadati): autore, tag, categorie, ...
 
-L&#39;esportazione di un modulo MDL viene eseguita al livello *pacchetto*. Per esportare un modulo MDL per un determinato pacchetto, fare clic sul pulsante ![](exporting-mdl-content.resources/exporting-mdl-content-01.png) <b>Esporta modulo MDL</b> in [Esplora risorse](../../interface/the-explorer-window/the-explorer-window.md) o selezionare la stessa opzione nel menu di scelta rapida del *pacchetto*. Selezionare un percorso e un nome di destinazione per il modulo MDL esportato e viene visualizzata la finestra di dialogo <b>Esporta report</b> con l&#39;elenco dei messaggi registrati durante il processo di esportazione.
+L&#39;esportazione di un modulo MDL viene eseguita al livello *pacchetto*. Per esportare un modulo MDL per un determinato pacchetto, fare clic sul pulsante ![](../../assets/mdl-export-module-icon.png) <b>Esporta modulo MDL</b> in [Esplora risorse](../../interface/the-explorer-window/the-explorer-window.md) o selezionare la stessa opzione nel menu di scelta rapida del *pacchetto*. Selezionare un percorso e un nome di destinazione per il modulo MDL esportato e viene visualizzata la finestra di dialogo <b>Esporta report</b> con l&#39;elenco dei messaggi registrati durante il processo di esportazione.
 
 Il modulo esportato conterrà le definizioni di *tutti* i materiali MDL definiti da un [grafico MDL](../../mdl-graphs/mdl-graphs.md) nel pacchetto.
 
@@ -50,7 +50,7 @@ Il modulo esportato conterrà le definizioni di *tutti* i materiali MDL definiti
 >
 > Gli avvisi seguenti questo modello: `x appears to be invalid whereas it was expected to be an mdl::call` sono causati dal modo in cui i materiali MDL vengono elaborati nei grafici MDL e sono *sicuri da ignorare*.
 
-![Percorso di esportazione MDL](exporting-mdl-content.resources/exporting-mdl-content-02.png "Percorso di esportazione MDL")
+![Percorso di esportazione MDL](../../assets/mdl-export-module.png "Percorso di esportazione MDL")
 
 *I percorsi &quot;Esporta modulo MDL&quot; in Esplora risorse e la finestra di dialogo Esporta report risultante*
 
@@ -75,7 +75,7 @@ Il predefinito esportato utilizzerà i *valori correnti* dei parametri del mater
 >
 > Durante l&#39;esportazione di un modulo MDL dal pannello [Esplora risorse](../../interface/the-explorer-window/the-explorer-window.md), viene generato un modulo MDL contenente *tutti* i materiali MDL definiti da un grafico MDL nel pacchetto. L&#39;esportazione di un predefinito MDL dalla [vista 3D](../../interface/3d-view/3d-view.md) genera un modulo MDL contenente *solo* la definizione dei materiali MDL applicata al *materiale selezionato* nel menu - `my_material` in questo esempio.
 
-![Percorso di esportazione predefiniti MDL](exporting-mdl-content.resources/exporting-mdl-content-03.png "Percorso di esportazione predefiniti MDL")
+![Percorso di esportazione predefiniti MDL](../../assets/mdl-export-preset.png "Percorso di esportazione predefiniti MDL")
 
 *Il percorso &quot;Esporta predefinito&quot; nella vista 3D e la finestra di dialogo risultante Esporta predefinito materiale MDL*
 
@@ -83,7 +83,7 @@ Il predefinito esportato utilizzerà i *valori correnti* dei parametri del mater
 
 Un archivio di moduli MDL combina i moduli MDL, vedere sopra, con risorse quali *texture* e file readme in un *singolo file trasportabile*.
 
-L&#39;esportazione di un archivio del modulo MDL viene eseguita al livello *pacchetto*. Per esportare un archivio del modulo MDL per un determinato pacchetto, fare clic sul pulsante ![](exporting-mdl-content.resources/exporting-mdl-content-01.png) <b>Esporta archivio moduli MDL</b> in [Esplora risorse](../../interface/the-explorer-window/the-explorer-window.md) oppure selezionare la stessa opzione nel menu di scelta rapida del *pacchetto*. Selezionare un percorso e un nome di destinazione per l&#39;archivio del modulo MDL esportato e viene visualizzata la finestra di dialogo <b>Esporta report</b> con l&#39;elenco dei messaggi registrati durante il processo di esportazione.
+L&#39;esportazione di un archivio del modulo MDL viene eseguita al livello *pacchetto*. Per esportare un archivio del modulo MDL per un determinato pacchetto, fare clic sul pulsante ![](../../assets/mdl-export-module-icon.png) <b>Esporta archivio moduli MDL</b> in [Esplora risorse](../../interface/the-explorer-window/the-explorer-window.md) oppure selezionare la stessa opzione nel menu di scelta rapida del *pacchetto*. Selezionare un percorso e un nome di destinazione per l&#39;archivio del modulo MDL esportato e viene visualizzata la finestra di dialogo <b>Esporta report</b> con l&#39;elenco dei messaggi registrati durante il processo di esportazione.
 
 L&#39;archivio del modulo esportato conterrà il modulo MDL contenente le definizioni di *tutti* i materiali MDL definiti da un [grafico MDL](../../mdl-graphs/mdl-graphs.md) nel pacchetto. Se un [grafico a Substance](../../compositing-graphs/substance-compositing-graphs.md) è [istantaneo in un grafico MDL](../../mdl-graphs/compositing-graphs-and/substance-compositing-graphs-and-mdl-materials.md) e connesso a un flusso che va al nodo [principale](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md), le texture generate vengono *salvate nell&#39;archivio*.
 
@@ -98,7 +98,7 @@ Oltre a questi elementi, l&#39;archivio include un file <b>MANIFEST</b> che desc
 >
 > Ulteriori informazioni sul formato di file di archivio MDL nell&#39;appendice C della [specifica MDL](https://developer.download.nvidia.com/designworks/mdl-sdk/secure/MDL_spec_1.6.1_16Dec2019.pdf?__token__=exp=1776166178~hmac=38656bc9d8199764568d1fa0d4d945b90c57638ebd37b100a402bdc983e518ee&t=eyJscyI6ImdzZW8iLCJsc2QiOiJodHRwczovL3d3dy5nb29nbGUuY29tLyJ9) di NVIDIA.
 
-![Percorso di esportazione MDR](exporting-mdl-content.resources/exporting-mdl-content-04.png "Percorso di esportazione MDR")
+![Percorso di esportazione MDR](../../assets/mdl-export-archive.png "Percorso di esportazione MDR")
 
 *I percorsi &quot;Esporta archivio moduli MDL&quot; in Esplora risorse e la finestra di dialogo Esporta report risultante*
 
@@ -116,6 +116,6 @@ L&#39;esportazione di un modulo MDL incapsulato viene eseguita in [Esplora risor
 >
 > Per ulteriori informazioni sulle definizioni dei materiali incapsulati, consulta la sezione 13.5 della [specifica MDL](https://developer.download.nvidia.com/designworks/mdl-sdk/secure/MDL_spec_1.6.1_16Dec2019.pdf?__token__=exp=1776166178~hmac=38656bc9d8199764568d1fa0d4d945b90c57638ebd37b100a402bdc983e518ee&t=eyJscyI6ImdzZW8iLCJsc2QiOiJodHRwczovL3d3dy5nb29nbGUuY29tLyJ9) di NVIDIA e la [API MDL SDK](https://raytracing-docs.nvidia.com/mdl/api/mi_neuray_example_mdle.html).
 
-![Percorso di esportazione MDLE](exporting-mdl-content.resources/exporting-mdl-content-05.png "Percorso di esportazione MDLE")
+![Percorso di esportazione MDLE](../../assets/mdl-export-encapsulated.png "Percorso di esportazione MDLE")
 
 *Percorso &quot;Esporta come mdle&quot; in Esplora risorse e finestra di dialogo del report di esportazione*

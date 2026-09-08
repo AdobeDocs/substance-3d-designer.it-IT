@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Controllo
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4b69ef5fd76498339222e7b72708f9833acf0e63
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '557'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ Questa pagina descrive i nodi di [grafici di funzione](../../../../function-grap
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![If...Else node](../../../../assets/IfElse_Node.jpg "If...Else node")
+![Se...nodo secondario](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/IfElse_Node.jpg "Nodo If...Else")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -55,7 +55,7 @@ Condizione che controlla l&#39;output del nodo.
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo sequenza](../../../../assets/Sequence_Node.jpg "Nodo sequenza")
+![Nodo sequenza](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/Sequence_Node.jpg "Nodo sequenza")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -85,7 +85,7 @@ Parte del grafico da calcolare per ultima
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo Whle Loop](../../../../assets/WhileLoop-Node.jpg "Nodo Whle Loop")
+![Nodo Loop completo](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/WhileLoop-Node.jpg "Intero nodo Loop")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -102,7 +102,7 @@ Una volta completato il ciclo, il nodo genera il risultato dell&#39;ultima itera
 
 I loop hanno un numero massimo implicito di iterazioni che può essere disattivato impostandolo su -1.
 
-Le variabili mantengono il loro valore in tutte le iterazioni e sono accessibili nella condizione di uscita (Cond. uscita).\
+Le variabili conservano il valore nelle varie iterazioni e sono accessibili nella condizione di uscita (Cond. uscita).\
 Ciò significa che potete aggiungere a un valore indice ogni iterazione e controllarne il valore nella condizione di uscita per controllare il numero di loop necessari.
 
 >[!IMPORTANT]
@@ -115,7 +115,7 @@ La porzione del grafico che viene calcolata prima della prima iterazione, ovvero
 
 <b>Esci da Cond.</b> *Booleano*\
 Condizione che deve essere vera affinché il ciclo si arresti. Viene ricalcolato su ogni iterazione.\
-*Nota:* il numero massimo di iterazioni è ancora limitato al parametro <b>Numero massimo di iterazioni</b>.
+*Nota:* il numero massimo di iterazioni è ancora limitato al parametro <b>iterazioni massime</b>.
 
 <b>Corpo ciclo</b> *Tipo di variabile*\
 Grafico che beneficia del ciclo. Viene ricalcolato su ogni iterazione.

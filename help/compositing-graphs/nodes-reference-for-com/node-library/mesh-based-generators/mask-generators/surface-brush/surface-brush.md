@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Pennello superficie
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](surface-brush.resources/surface-brush-01.png){width="128px"}
+![](../../../../../../assets/surface-brush.png){width="128px"}
 
 <b>In:</b> Generatori Basati Su Trama > Generatori di maschere
 
@@ -49,7 +49,7 @@ Questa maschera rappresenta un effetto interessante del pennello metallico sulla
 |:---|:---|
 | <b>Spazio globale normale</b> <i>Input colore</i> |  |
 | <b>Curvatura</b> <i>Input scala di grigi</i> | Mappa con baking utilizzata per effetti interni e mascheratura. |
-| <b>Occlusione ambiente</b> <i>Input scala di grigi</i> | Mappa con baking utilizzata per effetti interni e mascheratura. |
+| <b>Occlusione ambientale</b> <i>Input scala di grigi</i> | Mappa con baking utilizzata per effetti interni e mascheratura. |
 | <b>Posizione</b> <i>Input scala di grigi</i> |  |
 | <b>Maschera (facoltativo)</b> <i>Input scala di grigi</i> | Slot maschera utilizzato per mascherare gli effetti del nodo. |
 
@@ -72,7 +72,7 @@ Questa maschera rappresenta un effetto interessante del pennello metallico sulla
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="surface-brush.resources/surface-brush-02.gif" />
+            <img src="../../../../../../assets/surface-brush-ex.gif" />
         </td>
     </tr>
 </table>

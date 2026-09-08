@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Maschera su tracciati
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
 workflow-type: tm+mt
 source-wordcount: '1113'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo](mask-to-paths.resources/mask-to-paths-01.png "Icona nodo")
+![Icona nodo](../../../../../../assets/mask-to-paths-icon.png "Icona nodo")
 
 <b>In:</b> Strumenti spline e tracciati > Strumenti tracciato
 
@@ -92,11 +92,11 @@ I tracciati generati possono essere ulteriormente elaborati utilizzando nodi ded
 <table>
   <tr>
     <td>
-      <img src="mask-to-paths.resources/mask-to-paths-02.jpg" alt="MaskToPaths-Variant2-Before">
+      <img src="../../../../../../assets/MaskToPaths-Variant2-Before.jpg" alt="MaskToPaths-Variant2-Before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="mask-to-paths.resources/mask-to-paths-03.jpg" alt="MaskToPaths-Variant2-After">
+      <img src="../../../../../../assets/MaskToPaths-Variant2-After.jpg" alt="MaskToPaths-Variant2-After">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -108,11 +108,11 @@ I tracciati generati possono essere ulteriormente elaborati utilizzando nodi ded
 <table>
   <tr>
     <td>
-      <img src="mask-to-paths.resources/mask-to-paths-04.jpg" alt="MaskToPaths-Variant1-Before">
+      <img src="../../../../../../assets/MaskToPaths-Variant1-Before.jpg" alt="MaskToPaths-Variant1-Before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="mask-to-paths.resources/mask-to-paths-05.jpg" alt="MaskToPaths-Variant1-After">
+      <img src="../../../../../../assets/MaskToPaths-Variant1-After.jpg" alt="MaskToPaths-Variant1-After">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -126,12 +126,12 @@ I tracciati generati possono essere ulteriormente elaborati utilizzando nodi ded
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 2](mask-to-paths.resources/mask-to-paths-06.gif "Esempio di nodo 2"){zoomable="yes"}
+![Esempio di nodo 2](../../../../../../assets/MaskToPaths-Demo2.gif "Esempio di nodo 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 1](mask-to-paths.resources/mask-to-paths-07.gif "Esempio di nodo 1"){zoomable="yes"}
+![Esempio di nodo 1](../../../../../../assets/MaskToPaths-Demo1.gif "Esempio di nodo 1"){zoomable="yes"}
 
 </td>
 </tr>
@@ -141,12 +141,12 @@ I tracciati generati possono essere ulteriormente elaborati utilizzando nodi ded
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 3: modalità di avvio](mask-to-paths.resources/mask-to-paths-08.gif "Esempio di nodo 3: modalità di avvio"){zoomable="yes"}
+![Esempio di nodo 3: modalità di avvio](../../../../../../assets/MaskToPaths-Demo3.gif "Esempio di nodo 3: modalità di avvio"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 3: modalità di ordinamento](mask-to-paths.resources/mask-to-paths-09.gif "Esempio di nodo 3: modalità di ordinamento"){zoomable="yes"}
+![Esempio di nodo 3: modalità di ordinamento](../../../../../../assets/MaskToPaths-Demo4.gif "Esempio di nodo 3: modalità di ordinamento"){zoomable="yes"}
 
 </td>
 </tr>

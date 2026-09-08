@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Fusione colore materiale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](material-color-blend.resources/material-color-blend-01.png){width="128px"}
+![](../../../../../../assets/material-color-blend.png){width="128px"}
 
 <b>In:</b> Filtri materiali > Fusione
 
@@ -56,8 +56,8 @@ Questo nodo è particolarmente utile se desiderate introdurre un suggerimento di
 
 |  |  |
 |:---|:---|
-| <b>Canali</b> | Attivate e disattivate i canali di materiale in questo gruppo quando utilizzate mappe Specular/Lucentezza invece di Metallico/Rugosità. |
-| <b>Diffusa</b> |  |
+| <b>Canali</b> | Attivate e disattivate i canali di materiale in questo gruppo quando utilizzate mappe Specular/lucidità invece di Metallico/Rugosità. |
+| <b>Diffusione</b> |  |
 | <b>Colore</b> <i>(valore colore)</i> | Quale valore di colore fondere sopra il canale della Diffusa? |
 | <b>Opacità</b> <i>0.0 - 1.0</i> | Fusione dell’opacità tra primo piano e sfondo. |
 | <b>Metodo fusione</b> <i>Normale, Aggiungi, Sottrai, Moltiplica, Aggiungi/Sotto, Max, Min, Switch</i> | Modalità Fusione da utilizzare nell&#39;operazione. |

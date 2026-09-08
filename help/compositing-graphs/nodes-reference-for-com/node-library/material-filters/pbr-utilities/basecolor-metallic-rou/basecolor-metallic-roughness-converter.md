@@ -7,10 +7,10 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Convertitore Rugosità metallica BaseColor
+title: Convertitore rugosità metallica BaseColor
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](basecolor-metallic-roughness-converter.resources/basecolor-metallic-roughness-converter-01.png){width="128px"}
+![](../../../../../../assets/pbr-convert.png){width="128px"}
 
 <b>In:</b> Filtri materiali > Utilità PBR
 
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## Descrizione
 
-Questo nodo converte le mappe Colore di base, Metallico e Rugosità in diversi output del modello PBR, ad esempio il modello Specular/Lucentezza. Alcuni degli obiettivi di output inclusi sono noti motori di rendering come Vray, Corona, Redshift, Renderman e Arnold.
+Questo nodo converte le mappe di colore di base, metallizzato e rugosità in diversi output del modello PBR, ad esempio il modello Specular/lucido. Alcuni degli obiettivi di output inclusi sono noti motori di rendering come Vray, Corona, Redshift, Renderman e Arnold.
 
 Ciò è utile se disponete di grafici o materiali realizzati con un solo modello di PBR, mentre la destinazione richiede un modello diverso.
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mappatura ponti spline in scala di grigi
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-01.png "Icona nodo")
+![Icona nodo](../../../../../../assets/spline-bridge-mapper-grayscale-icon.png "Icona nodo")
 
 <b>In:</b> Strumenti Spline E Tracciati > Strumenti spline
 
@@ -91,11 +91,11 @@ Mappa un&#39;immagine in scala di grigio su un elenco di spline di input in modo
 <table>
   <tr>
     <td>
-      <img src="spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-02.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
+      <img src="../../../../../../assets/SplineBridgeMapperGrayscale-Variant1-Before.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-03.jpg" alt="SplineBridgeMapperGrayscale-Variant1-After">
+      <img src="../../../../../../assets/SplineBridgeMapperGrayscale-Variant1-After.jpg" alt="SplineBridgeMapperGrayscale-Variant1-After">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -104,7 +104,7 @@ Mappa un&#39;immagine in scala di grigio su un elenco di spline di input in modo
 </td>
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 2](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-04.gif "Esempio di nodo 2")
+![Esempio di nodo 2](../../../../../../assets/SplineBridgeMapper-Demo.gif "Esempio di nodo 2")
 
 </td>
 </tr>
@@ -114,12 +114,12 @@ Mappa un&#39;immagine in scala di grigio su un elenco di spline di input in modo
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 1](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-05.jpg "Esempio di nodo 1")
+![Esempio di nodo 1](../../../../../../assets/SplineBridgeMapperGrayscale-Variant1-After1.jpg "Esempio di nodo 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 2](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-06.jpg "Esempio di nodo 2")
+![Esempio di nodo 2](../../../../../../assets/SplineBridgeMapperGrayscale-Graph.jpg "Esempio di nodo 2")
 
 </td>
 </tr>

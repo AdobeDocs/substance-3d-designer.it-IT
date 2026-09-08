@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Nuvole 3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nuvole 3 - Icona](clouds-3.resources/clouds-3-01.png "Nuvole 3 - Icona"){width="200px"}
+![Nuvole 3 - Icona](../../../../../../assets/clouds_3.png "Nuvole 3 - Icona"){width="200px"}
 
 <b>Ingresso:</b> Generatori di texture > Rumori
 
@@ -58,9 +58,9 @@ Vedere anche: [Nuvole 1](../../../../../../compositing-graphs/nodes-reference-fo
 | <b>Scala</b> <i>Numero intero</i> | Suddivisione della griglia utilizzata per generare le porzioni di disturbo.    Un valore più elevato determina la creazione di più riquadri e un disturbo maggiore. |
 | <b>Disturbo</b> <i>Mobile</i> | Sposta gli ingredienti del disturbo.    Può essere utilizzato per animare il disturbo. |
 | <b>Velocità del disturbo</b> <i>Mobile</i> | Regola la distanza di spostamento applicata dal parametro <b>Disturbo</b>.    Questa opzione consente di controllare la velocità di spostamento durante l’animazione del disturbo. |
-| <b>anisotropia disturbo</b> <i>Mobile</i> | Controlla l&#39;estensione delle direzioni dello spostamento applicato dal parametro <b>Disturbo</b>, in cui un valore più alto determina una direzione più stretta e definita.    La direzione è controllata dal parametro <b>Angolo di anisotropia disturbo</b>. |
-| <b>angolo di anisotropia di disturbo</b> <i>Mobile</i> | Controlla la direzione dello spostamento applicato dal parametro <b>Disturbo</b> quando il parametro <b>anisotropia disturbo</b> è diverso da zero. |
-| <b>Scostamento porzione</b> <i>Float2</i> | Controlla la posizione della porzione di piano infinito utilizzata per eseguire il rendering del disturbo. |
+| <b>anisotropia disturbo</b> <i>Mobile</i> | Controlla l&#39;estensione delle direzioni dello spostamento applicato dal parametro <b>Disturbo</b>, in cui un valore più alto determina una direzione più stretta e definita.    La direzione è controllata dal parametro <b>angolo di anisotropia disturbo</b>. |
+| <b>angolo di anisotropia di disturbo</b> <i>Virgola mobile</i> | Controlla la direzione dello spostamento applicato dal parametro <b>Disturbo</b> quando il parametro <b>anisotropia disturbo</b> è diverso da zero. |
+| <b>Scostamento porzione</b> <i>Virgola mobile 2</i> | Controlla la posizione della porzione di piano infinito utilizzata per eseguire il rendering del disturbo. |
 | <b>Espansione non quadrata</b> <i>Booleano</i> | Nelle immagini non quadrate, mantiene il riquadro quadrato generato ed espande la generazione del disturbo fino ai limiti dell&#39;immagine. |
 
 ## Esempi
@@ -69,12 +69,12 @@ Vedere anche: [Nuvole 1](../../../../../../compositing-graphs/nodes-reference-fo
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Nuvole 3 - Esempio 1](clouds-3.resources/clouds-3-02.png "Nuvole 3 - Esempio 1"){zoomable="yes"}
+![Nuvole 3 - Esempio 1](../../../../../../assets/clouds_3_1.png "Nuvole 3 - Esempio 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Nuvole 3 - Esempio 2](clouds-3.resources/clouds-3-03.gif "Nuvole 3 - Esempio 2"){zoomable="yes"}
+![Nuvole 3 - Esempio 2](../../../../../../assets/noise_clouds_3_v2_speed0.6_aniso0.gif "Nuvole 3 - Esempio 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,12 +84,12 @@ Vedere anche: [Nuvole 1](../../../../../../compositing-graphs/nodes-reference-fo
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Nuvole 3 - Esempio 3](clouds-3.resources/clouds-3-04.gif "Nuvole 3 - Esempio 3"){zoomable="yes"}
+![Nuvole 3 - Esempio 3](../../../../../../assets/noise_clouds_3_v2_speed0.6_aniso1.gif "Nuvole 3 - Esempio 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Nuvole 3 - Esempio 4](clouds-3.resources/clouds-3-05.gif "Nuvole 3 - Esempio 4"){zoomable="yes"}
+![Nuvole 3 - Esempio 4](../../../../../../assets/noise_clouds_3_v2_speed0.3_aniso0.6.gif "Nuvole 3 - Esempio 4"){zoomable="yes"}
 
 </td>
 </tr>

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/atlas-splitter.html"
 breadcrumb-title: ''
-description: Usa il nodo di Atlas splitter per dividere gli atlanti delle texture in singole texture per l'elaborazione dei materiali scansionati.
+description: Usa il nodo di Atlas splitter per dividere gli atlanti delle texture in singole texture per l’elaborazione dei materiali scansionati.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Atlas Splitter
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Atlas splitter
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo](atlas-splitter.resources/atlas-splitter-01.png "Icona nodo")
+![Icona nodo](../../../../../../assets/atlas-splitter.png "Icona nodo")
 
 <b>In:</b> Filtri di materiale/Analisi elaborazione
 
@@ -50,8 +50,8 @@ Il nodo funziona come applicazione avanzata del nodo [Flood Fill](../../../../..
 |  |  |
 |:---|:---|
 | <b>Visualizzazione griglia</b> <i>Booleano</i> | Visualizza tutte le forme rilevate in una griglia. |
-| <b>Opacità griglia</b> <i>Virgola mobile</i> | Imposta l&#39;opacità delle linee della griglia quando Grid View è True. Opzione di debug |
-| <b>Opacità selezione griglia</b> <i>Virgola mobile</i> | Imposta l&#39;opacità dell&#39;evidenziazione Selezione griglia se la proprietà Visualizzazione griglia è impostata su True. Opzione di debug |
+| <b>Opacità griglia</b> <i>Mobile</i> | Imposta l&#39;opacità delle linee della griglia quando Grid View è True. Opzione di debug |
+| <b>Opacità selezione griglia</b> <i>Mobile</i> | Imposta l&#39;opacità dell&#39;evidenziazione Selezione griglia se la proprietà Visualizzazione griglia è impostata su True. Opzione di debug |
 | <b>Scala automatica</b> <i>Booleano</i> | Ridimensiona automaticamente le forme per adattarle alla cella della griglia. |
 | <b>Ritaglio automatico</b> <i>Booleano</i> | Ritaglia automaticamente la dimensione di output in base alla forma più grande per ridurre al minimo lo spazio vuoto. |
 | <b>Selezione forma</b> <i>Numero intero</i> | In vista Griglia consente di impostare la cella evidenziata, al di fuori di Vista Griglia consente di impostare la cella restituita. |

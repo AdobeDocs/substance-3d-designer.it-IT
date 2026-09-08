@@ -10,7 +10,7 @@ helpx_tags: ""
 title: CELLE 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 1%
@@ -24,9 +24,9 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Celle 1 - Icona](cells-1.resources/cells-1-01.png "Celle 1 - Icona"){width="200px"}
+![Celle 1 - Icona](../../../../../../assets/cells_1.png "Celle 1 - Icona"){width="200px"}
 
-<b>Ingresso:</b> Generatori di texture > Rumori
+<b>Ingresso:</b> generatori di Texture > Rumori
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -58,9 +58,9 @@ Vedere anche: [Celle 2](../../../../../../compositing-graphs/nodes-reference-for
 |  |  |
 |:---|:---|
 | <b>Scala</b> <i>Numero intero</i> | Suddivisione della griglia utilizzata per generare le porzioni di disturbo.    Un valore più elevato determina la creazione di più riquadri e un disturbo maggiore. |
-| <b>Disturbo</b> <i>Mobile</i> | Sposta gli ingredienti del disturbo.    Può essere utilizzato per animare il disturbo. |
-| <b>Velocità del disturbo</b> <i>Mobile</i> | Regola la distanza di spostamento applicata dal parametro <b>Disturbo</b>.    Questa opzione consente di controllare la velocità di spostamento durante l’animazione del disturbo. |
-| <b>anisotropia disturbo</b> <i>Mobile</i> | Controlla l&#39;estensione delle direzioni dello spostamento applicato dal parametro <b>Disturbo</b>, in cui un valore più alto determina una direzione più stretta e definita.    La direzione è controllata dal parametro <b>Angolo di anisotropia disturbo</b>. |
+| <b>Disturbo</b> <i>Virgola mobile</i> | Sposta gli ingredienti del disturbo.    Può essere utilizzato per animare il disturbo. |
+| <b>Velocità del disturbo</b> <i>Virgola mobile</i> | Regola la distanza di spostamento applicata dal parametro <b>Disturbo</b>.    Questa opzione consente di controllare la velocità di spostamento durante l’animazione del disturbo. |
+| <b>anisotropia disturbo</b> <i>Virgola mobile</i> | Controlla l&#39;estensione delle direzioni dello spostamento applicato dal parametro <b>Disturbo</b>, in cui un valore più alto determina una direzione più stretta e definita.    La direzione è controllata dal parametro <b>Angolo di anisotropia disturbo</b>. |
 | <b>angolo di anisotropia di disturbo</b> <i>Mobile</i> | Controlla la direzione dello spostamento applicato dal parametro <b>Disorder</b> quando il parametro &#39;anisotropia del disturbo&#39; è diverso da zero. |
 | <b>Pattern</b> <i>Numero intero</i> | Forma di base dispersa nell’immagine generata. |
 | <b>Dimensione motivo</b> <i>Float2</i> | Moltiplicatore per la dimensione di un motivo sparso nella relativa cella., dove 1,0 è l&#39;estensione completa della cella. |
@@ -77,12 +77,12 @@ Vedere anche: [Celle 2](../../../../../../compositing-graphs/nodes-reference-for
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Celle 1 - Esempio 1](cells-1.resources/cells-1-02.png "Celle 1 - Esempio 1"){zoomable="yes"}
+![Celle 1 - Esempio 1](../../../../../../assets/cells_1_1.png "Celle 1 - Esempio 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Celle 1 - Esempio 2](cells-1.resources/cells-1-03.gif "Celle 1 - Esempio 2"){zoomable="yes"}
+![Celle 1 - Esempio 2](../../../../../../assets/noise_cells_1_v2_speed0.3_aniso0.3.gif "Celle 1 - Esempio 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -92,12 +92,12 @@ Vedere anche: [Celle 2](../../../../../../compositing-graphs/nodes-reference-for
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Celle 1 - Esempio 3](cells-1.resources/cells-1-04.gif "Celle 1 - Esempio 3"){zoomable="yes"}
+![Celle 1 - Esempio 3](../../../../../../assets/noise_cells_1_v2_speed0.5_aniso0.6.gif "Celle 1 - Esempio 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Celle 1 - Esempio 4](cells-1.resources/cells-1-05.gif "Celle 1 - Esempio 4"){zoomable="yes"}
+![Celle 1 - Esempio 4](../../../../../../assets/noise_cells_1_v2_speed0.3_aniso0.6.gif "Celle 1 - Esempio 4"){zoomable="yes"}
 
 </td>
 </tr>

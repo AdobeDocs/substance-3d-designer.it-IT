@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Popup vista 3D - Spostamento
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 2%
@@ -30,7 +30,7 @@ ht-degree: 2%
                 <li>Tassellatura</li></ul>
         </td>
         <td style="width: 60%; margin-left: 32px; border: 0">
-            <img src="./displacement.resources/displacement-01.gif" alt="Finestra a comparsa Spostamento nella vista 3D" />
+            <img src="./displacement.resources/3d-view-displacement-popup-mograph.gif" alt="Finestra a comparsa Spostamento nella vista 3D" />
         </td>
     </tr>
 </table>
@@ -90,7 +90,7 @@ Di seguito sono descritti i passaggi per visualizzare il wireframe per ogni rend
 
 ### Rasterizzatore/Pathtracer GPU
 
-Utilizzare la <img src="../3d-view.resources/3d-view-18.png" width="22" /> **Impostazioni rendering**
+Utilizzare la <img src="../3d-view.resources/3d-view-scene-toolbar-render-settings.png" width="22" /> **Impostazioni rendering**
  quindi, nel Dock proprietà, passa a **Impostazioni rendering > Modalità diagnostica** e seleziona **Wireframe
  (spazio mondo)**.
 

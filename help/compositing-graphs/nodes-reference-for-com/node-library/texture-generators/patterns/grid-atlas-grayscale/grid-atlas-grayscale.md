@@ -1,7 +1,7 @@
 ---
 title: Scala di grigi Atlante griglia
 description: Designer > Substance grafici composizione > Nodi riferimento per Substance grafici composizione > Libreria nodi > Generatore > Pattern > Atlante griglia scala di grigi
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona scala di grigio Atlante griglia](grid-atlas-grayscale.resources/grid-atlas-grayscale-01.png "Scala di grigio Atlante griglia")
+![Icona scala di grigio Atlante griglia](grid-atlas-grayscale.resources/grid-atlas-grayscale.png "Scala di grigio Atlante griglia")
 
 <b>Ingresso:</b> Generatore > Pattern
 
@@ -75,5 +75,5 @@ Vedere anche [colore Atlante griglia](../grid-atlas-color/grid-atlas-color.md).
 
 ## Esempi
 
-<img src="./grid-atlas-grayscale.resources/grid-atlas-grayscale-02.png" alt="Atlante griglia di nodo in scala di grigi nel contesto di un grafico" style="width: 50%"><br>
+<img src="./grid-atlas-grayscale.resources/grid-atlas-grayscale-graph.png" alt="Atlante griglia di nodo in scala di grigi nel contesto di un grafico" style="width: 50%"><br>
 <i>Nodo Atlante griglia in scala di grigi nel contesto di un grafico</i>

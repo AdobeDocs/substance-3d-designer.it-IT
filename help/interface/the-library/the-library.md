@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Libreria
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Questa pagina presenta il pannello **Libreria** di Substance 3D Designer, il suo layout e gli strumenti disponibili per la ricerca e il filtraggio dei contenuti.
 
-![Libreria](the-library.resources/the-library-01.png "Libreria")
+![Libreria](../../assets/library-main.png "Libreria")
 
 ## Panoramica
 
@@ -103,7 +103,7 @@ Per utilizzare una risorsa della libreria, *trascinala* nella posizione desidera
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
 
-![Eliminazione di un nodo dalla libreria](the-library.resources/the-library-02.gif "Eliminazione di un nodo dalla libreria")
+![Eliminazione di un nodo dalla libreria](../../assets/library-create-node.gif "Eliminazione di un nodo dalla libreria")
 
 </td>
 </tr>
@@ -112,14 +112,14 @@ Per utilizzare una risorsa della libreria, *trascinala* nella posizione desidera
 ### Ricerca di una risorsa per nome
 
 La barra <b>Ricerca</b>, situata in alto a sinistra della sezione <b>Contenuti</b>, consente di cercare *qualsiasi risorsa per nome*. Durante la ricerca di contenuto in questo modo, la selezione corrente nella sezione <b>Categorie</b> viene ignorata e viene eseguita la ricerca dell&#39;*intero contenuto* nella <b>Libreria</b>.\
-È possibile filtrare i risultati della ricerca in base al *tipo di grafico*, utilizzando l&#39;icona ![](the-library.resources/the-library-03.png) <b>Filtra per...</b> accanto alla barra <b>Ricerca</b>.
+È possibile filtrare i risultati della ricerca in base al *tipo di grafico*, utilizzando l&#39;icona ![](../../assets/library-icon-search-filter.png) <b>Filtra per...</b> accanto alla barra <b>Ricerca</b>.
 
 >[!NOTE]
 >
 > La barra di ricerca terrà conto del nome della risorsa che stai cercando, ma anche dei *tag* che la risorsa può contenere o della *categoria* a cui appartiene.\
 > Se ad esempio si digita &#39;*Normale*&#39; verranno elencate tutte le risorse che possono essere utilizzate per generare o modificare una mappa normale. Questo è un buon modo per scoprire nuovi nodi, e quindi nuove possibilità!
 
-![Ricerca di risorse nella libreria](the-library.resources/the-library-04.png "Ricerca di risorse nella libreria")
+![Ricerca di risorse nella libreria](../../assets/library-search-2.png "Ricerca di risorse nella libreria")
 
 <table>
 <tr style="border: 0;">
@@ -127,12 +127,12 @@ La barra <b>Ricerca</b>, situata in alto a sinistra della sezione <b>Contenuti</
 
 ### Visualizzazione delle risorse della libreria
 
-Utilizzando il pulsante a discesa ![](the-library.resources/the-library-05.png) <b>Modalità visualizzazione</b>, è possibile selezionare le dimensioni di visualizzazione per gli elementi di contenuto.
+Utilizzando il pulsante a discesa ![](../../assets/library-icon-view-mode.png) <b>Modalità visualizzazione</b>, è possibile selezionare le dimensioni di visualizzazione per gli elementi di contenuto.
 
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Modalità visualizzazione risorse libreria](the-library.resources/the-library-06.png "Modalità visualizzazione risorse libreria")
+![Modalità visualizzazione risorse libreria](../../assets/library-display-modes.png "Modalità visualizzazione risorse libreria")
 
 </td>
 </tr>
@@ -142,12 +142,12 @@ Utilizzando il pulsante a discesa ![](the-library.resources/the-library-05.png) 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Il pulsante ![](the-library.resources/the-library-07.png) **Attiva/disattiva etichette** consente di visualizzare o nascondere le etichette dei nodi.
+Il pulsante ![](../../assets/library-icon-toggle-label.png) **Attiva/disattiva etichette** consente di visualizzare o nascondere le etichette dei nodi.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Alterna etichetta](the-library.resources/the-library-08.png "Alterna etichetta")
+![Alterna etichetta](../../assets/library-toggle-label.png "Alterna etichetta")
 
 </td>
 </tr>
@@ -163,7 +163,7 @@ Quando si posiziona il cursore su un elemento di contenuto, dopo un breve period
 </td>
 <td style="border: 0;" valign="top">
 
-![Descrizione comando informazioni risorsa](the-library.resources/the-library-09.png "Descrizione comando informazioni risorsa")
+![Descrizione comando informazioni risorsa](../../assets/library-item-tooltip.png "Descrizione comando informazioni risorsa")
 
 </td>
 </tr>
@@ -180,13 +180,13 @@ Quando si posiziona il cursore su un elemento di contenuto, dopo un breve period
 
 ### Preferiti
 
-È possibile aggiungere qualsiasi elemento nella sezione <b>Contenuto</b> all&#39;elenco <b>Preferiti</b> utilizzando il pulsante ![](the-library.resources/the-library-10.png) <b>Aggiungi a Preferiti</b>. Il pulsante consente inoltre di *rimuovere* contenuto dall&#39;elenco, se è già stato aggiunto.\
+È possibile aggiungere qualsiasi elemento nella sezione <b>Contenuto</b> all&#39;elenco <b>Preferiti</b> utilizzando il pulsante ![](../../assets/library-icon-favoritepng.png) <b>Aggiungi a Preferiti</b>. Il pulsante consente inoltre di *rimuovere* contenuto dall&#39;elenco, se è già stato aggiunto.\
 Quando il contenuto viene aggiunto a questo elenco, è disponibile nella categoria <b>Preferiti</b> della <b>Libreria</b> e verrà visualizzato nella *parte superiore* dell&#39;elenco di menu <b>Nodo</b> durante la ricerca di un nodo nel grafico, a condizione che i termini di ricerca corrispondano.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Preferiti nella libreria](the-library.resources/the-library-11.png "Preferiti nella libreria")
+![Preferiti nella libreria](../../assets/library-favourites.png "Preferiti nella libreria")
 
 </td>
 </tr>

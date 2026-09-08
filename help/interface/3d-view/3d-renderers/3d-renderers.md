@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Renderer 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1632'
 ht-degree: 7%
@@ -38,11 +38,11 @@ La vista 3D offre quattro moduli di rendering:
 <table>
   <tr>
     <td>
-      <img src="3d-renderers.resources/3d-renderers-01.jpg" alt="3dRendererRasterizer-2">
+      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
       <br><i>Rasterizzatore</i>
     </td>
     <td>
-      <img src="3d-renderers.resources/3d-renderers-02.jpg" alt="3dRendererPathtracer-2">
+      <img src="../../../assets/3dRendererPathtracer-2.jpg" alt="3dRendererPathtracer-2">
       <br><i>Pathtracer GPU</i>
     </td>
   </tr>
@@ -59,11 +59,11 @@ Grazie alla sua dipendenza da USD, può sfruttare il plug-in [USDFileFormat](htt
 <table>
   <tr>
     <td>
-      <img src="3d-renderers.resources/3d-renderers-01.jpg" alt="3dRendererRasterizer-2">
+      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
       <br><i>Rasterizzatore</i>
     </td>
     <td>
-      <img src="3d-renderers.resources/3d-renderers-03.jpg" alt="3dRendererOpenGL-2">
+      <img src="../../../assets/3dRendererOpenGL-2.jpg" alt="3dRendererOpenGL-2">
       <br><i>OpenGL</i>
     </td>
   </tr>
@@ -111,7 +111,7 @@ Grazie alla sua dipendenza da USD, può sfruttare il plug-in [USDFileFormat](htt
 
 +++
 
-![Rasterizzatore - Esempio 1](3d-renderers.resources/3d-renderers-04.jpg "Rasterizzatore - Esempio 1"){zoomable="yes"}
+![Rasterizzatore - Esempio 1](../../../assets/3dRendererRasterizer.jpg "Rasterizzatore - Esempio 1"){zoomable="yes"}
 
 <a name="gpu-pathtracer"></a>
 
@@ -145,7 +145,7 @@ Grazie alla sua dipendenza da USD, può sfruttare il plug-in [USDFileFormat](htt
 
 +++
 
-![Tracciatore percorso GPU - Esempio 1](3d-renderers.resources/3d-renderers-05.jpg "Tracciatore percorso GPU - Esempio 1"){zoomable="yes"}
+![Tracciatore percorso GPU - Esempio 1](../../../assets/3dRendererPathtracer.jpg "Tracciatore percorso GPU - Esempio 1"){zoomable="yes"}
 
 <a name="opengl"></a>
 
@@ -170,7 +170,7 @@ Ulteriori informazioni sull&#39;OpenPBR in Designer [qui](../material-properties
 
 +++ Materiale standard Adobe
 
-Shader standardizzato di Adobe. Assicura un look corretto tra tutte le applicazioni Substance 3D di Adobe e supporta un’ampia gamma di funzioni.
+Lo shader standardizzato di Adobe. Assicura un look corretto tra tutte le applicazioni Substance 3D di Adobe e supporta un’ampia gamma di funzioni.
 
 Per la visualizzazione del height sono disponibili due tecniche:
 
@@ -178,7 +178,7 @@ Per la visualizzazione del height sono disponibili due tecniche:
 
 <b>Tassellatura + Spostamento</b>: suddivide la geometria e sposta i vertici lungo le normali.
 
-Il materiale standard Adobe è documentato in dettaglio in [questa sezione](https://experienceleague.adobe.com/it/docs/substance-3d/general-knowledge/asm/adobe-standard-material) della nostra documentazione.
+L&#39;Adobe Standard Material è documentato in dettaglio in [questa sezione](https://experienceleague.adobe.com/it/docs/substance-3d/general-knowledge/asm/adobe-standard-material) della documentazione.
 
 +++
 
@@ -198,7 +198,7 @@ Questo shader è attualmente un *lavoro in corso* e fornisce una panoramica dell
 
 +++ Blinn
 
-&quot;Vecchia generazione&quot;, shader non PBR corretto. Usa i canali Diffusione, Specular e Lucentezza accanto ai canali standard come Opacità, Height e Normale.
+&quot;Vecchia generazione&quot;, shader non PBR corretto. Usa i canali Diffusa, Specular e Lucentezza accanto ai canali standard come Opacità, Height e Normale.
 
 Per la visualizzazione del height sono disponibili due tecniche:
 
@@ -296,4 +296,4 @@ Designer offre inoltre la possibilità di configurare shader personalizzati per 
 > 
 > Questo modulo di rendering è **deprecato**: non riceverà nuove funzioni e verrà ritirato in una versione futura di Designer.
 
-![OpenGL - Esempio 1](3d-renderers.resources/3d-renderers-06.jpg "OpenGL - Esempio 1"){zoomable="yes"}
+![OpenGL - Esempio 1](../../../assets/3dRendererOpenGL.jpg "OpenGL - Esempio 1"){zoomable="yes"}

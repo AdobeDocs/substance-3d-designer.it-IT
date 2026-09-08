@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Interfaccia legacy Bakers
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 3%
@@ -24,25 +24,25 @@ Ecco la descrizione dell&#39;interfaccia del baker disponibile nelle versioni [A
 
 ## Panoramica
 
-![](bakers-legacy-interface.resources/bakers-legacy-interface-01.png)
+![](../../assets/image2017-3-13-9-33-40.png)
 
 Il pannello panettiera è suddiviso in 4 parti:
 
 ### 1: Scena
 
-![](bakers-legacy-interface.resources/bakers-legacy-interface-02.png)
+![](../../assets/image2017-3-13-9-35-53.png)
 
 Consente di definire quale parte della trama è coinvolta nel processo di cottura al forno.
 
 Novità nella versione 6, è anche possibile selezionare in base al materiale:
 
-![](bakers-legacy-interface.resources/bakers-legacy-interface-03.png)
+![](../../assets/image2017-3-13-9-45-26.png)
 
 ### 2: Panettieri
 
-![](bakers-legacy-interface.resources/bakers-legacy-interface-04.png)
+![](../../assets/image2017-3-13-9-46-26.png)
 
-Premendo il pulsante ![](bakers-legacy-interface.resources/bakers-legacy-interface-05.png), puoi aggiungere i panettieri desiderati all&#39;elenco di elaborazione
+Premendo il pulsante ![](../../assets/image2017-3-13-9-47-47.png), puoi aggiungere i panettieri desiderati all&#39;elenco di elaborazione
 
 >[!NOTE]
 >
@@ -50,21 +50,21 @@ Premendo il pulsante ![](bakers-legacy-interface.resources/bakers-legacy-interfa
 
 Facendo clic sul segno &quot;+&quot; nel layout panettieri è possibile aggiungere i panettieri in una pila (è possibile inserire tutti i panettieri che si desidera in una pila).
 
-.![](bakers-legacy-interface.resources/bakers-legacy-interface-06.png)
+.![](../../assets/image2017-3-13-9-52-8.png)
 
-È possibile rimuovere un processo di cottura dall&#39;elenco premendo ![](bakers-legacy-interface.resources/bakers-legacy-interface-07.png)
+È possibile rimuovere un processo di cottura dall&#39;elenco premendo ![](../../assets/image2017-3-13-9-54-33.png)
 
-È possibile riordinare l&#39;elenco dei processi di cottura selezionando un processo di cottura e utilizzando ![](bakers-legacy-interface.resources/bakers-legacy-interface-08.png)
+È possibile riordinare l&#39;elenco dei processi di cottura selezionando un processo di cottura e utilizzando ![](../../assets/image2017-3-13-9-55-33.png)
 
 ### 3: Parametri dei forni
 
-![](bakers-legacy-interface.resources/bakers-legacy-interface-09.png)
+![](../../assets/image2017-3-13-13-24-0.png)
 
 In questa sezione vengono visualizzate le opzioni specifiche per il fornaio corrente selezionato.
 
 ### 4: Parametri comuni
 
-![](bakers-legacy-interface.resources/bakers-legacy-interface-10.png)
+![](../../assets/image2017-3-13-13-28-12.png)
 
 Visualizza i parametri condivisi tra i panettieri.
 
@@ -82,4 +82,4 @@ Premendo il pulsante OK in basso a destra della finestra dei panettieri si avvia
 
 Novità della versione 6: è ora possibile annullare la procedura di esegue i baking con il pulsante Annulla:
 
-![](bakers-legacy-interface.resources/bakers-legacy-interface-11.png)
+![](../../assets/image2017-3-13-13-50-4.png)
