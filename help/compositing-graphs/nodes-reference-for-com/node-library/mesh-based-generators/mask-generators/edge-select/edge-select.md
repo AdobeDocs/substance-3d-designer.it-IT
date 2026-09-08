@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-select.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-select.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Selezione bordo per generare maschere selezionando i bordi della trama per creare effetti di usura e di resistenza agli agenti atmosferici basati sui bordi.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Selezione bordo
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](edge-select.resources/edge-select-01.png){width="128px"}
+![](../../../../../../assets/edge-select.png){width="128px"}
 
 <b>In:</b> Generatori Basati Su Trama > Generatori di maschere
 
@@ -72,7 +72,7 @@ Questa maschera è il modo migliore per selezionare qualsiasi tipo di bordo in b
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="edge-select.resources/edge-select-02.gif" />
+            <img src="../../../../../../assets/edge-select-ex.gif" />
         </td>
     </tr>
 </table>

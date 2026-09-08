@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/dripping-rust.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/dripping-rust.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Ruggine di gocciolamento (Dripping) per generare serie di gocce di ruggine in base alla geometria della trama e alla direzione della gravità.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ruggine gocciolante
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](dripping-rust.resources/dripping-rust-01.png){width="128px"}
+![](../../../../../../assets/dripping-rust.png){width="128px"}
 
 <b>In:</b> Generatori Basati Su Trama > Generatori di maschere
 
@@ -47,9 +47,9 @@ Questa maschera rappresenta scaglie e chiazze di ruggine, con perdite che scorro
 
 |  |  |
 |:---|:---|
-| <b>Curvatura</b> <i>Input scala di grigi</i> | Mappa generata o al forno per facilitare il posizionamento della ruggine. |
-| <b>Occlusione ambiente</b> <i>Input scala di grigi</i> | Mappa generata o al forno per facilitare il posizionamento della ruggine. |
-| <b>Posizione</b> <i>Input scala di grigi</i> | Mappa cotta o generata per le direzioni di goccia. |
+| <b>Curvatura</b> <i>Input scala di grigi</i> | Mappa eseguita i baking o generata per facilitare il posizionamento della ruggine. |
+| <b>Occlusione ambientale</b> <i>Input scala di grigi</i> | Mappa eseguita i baking o generata per facilitare il posizionamento della ruggine. |
+| <b>Posizione</b> <i>Input scala di grigi</i> | Mappa eseguita i baking o generata per le direzioni di goccia. |
 | <b>Maschera (facoltativo)</b> <i>Input scala di grigi</i> | Slot maschera utilizzato per mascherare gli effetti del nodo. |
 
 <a name="parameters"></a>
@@ -70,7 +70,7 @@ Questa maschera rappresenta scaglie e chiazze di ruggine, con perdite che scorro
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="dripping-rust.resources/dripping-rust-02.gif" />
+            <img src="../../../../../../assets/dripping-rust-ex3.gif" />
         </td>
     </tr>
 </table>

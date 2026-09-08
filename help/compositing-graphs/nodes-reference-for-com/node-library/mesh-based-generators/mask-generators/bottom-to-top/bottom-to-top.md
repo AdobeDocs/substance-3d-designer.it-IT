@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/bottom-to-top.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/bottom-to-top.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Dal basso verso l'alto per generare maschere di sfumatura dal basso verso l'alto in base alla posizione del mondo della trama.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Dal basso verso l'alto
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](bottom-to-top.resources/bottom-to-top-01.png){width="128px"}
+![](../../../../../../assets/bottom-to-top.png){width="128px"}
 
 <b>In:</b> Generatori Basati Su Trama > Generatori di maschere
 
@@ -33,7 +33,7 @@ ht-degree: 5%
 
 ## Descrizione
 
-Genera una maschera in bianco e nero in base alle mappe con baking e alle impostazioni dell’utente. Simile a [Maschere avanzate](https://experienceleague.adobe.com/it/docs/substance-3d-painter/using/features/smart-materials-and-masks) in [Painter](https://experienceleague.adobe.com/it/docs/substance-3d-painter/using/home).
+Genera una maschera in bianco e nero in base alle mappe con baking e alle impostazioni dell’utente. Simile a [Maschere avanzate](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/features/smart-materials-and-masks) in [Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home).
 
 In questo modo viene generata una transizione dal bianco al nero dal basso verso la parte superiore di un modello, utile per effettuare selezioni e dissolvenze basate sulla geometria.
 
@@ -47,7 +47,7 @@ In questo modo viene generata una transizione dal bianco al nero dal basso verso
 
 |  |  |
 |:---|:---|
-| <b>Posizione</b> <i>Input colore</i> | Mappa posizione al forno. Obbligatorio! |
+| <b>Posizione</b> <i>Input colore</i> | Mappa posizione eseguita i baking. Obbligatorio! |
 | <b>Rugosità</b> <i>Input scala di grigi</i> | Questo non ha nulla a che fare con la rugosità PBR, ma è una mappa di variazione (opzionale) per interrompere la transizione. Viene visualizzato solo quando l’opzione Rugosità è impostata su un valore superiore a 0. |
 | <b>Maschera (facoltativo)</b> <i>Input scala di grigi</i> | Slot maschera utilizzato per mascherare gli effetti del nodo. |
 
@@ -66,7 +66,7 @@ In questo modo viene generata una transizione dal bianco al nero dal basso verso
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="bottom-to-top.resources/bottom-to-top-02.gif" />
+            <img src="../../../../../../assets/bottom-to-top-ex.gif" />
         </td>
     </tr>
 </table>
