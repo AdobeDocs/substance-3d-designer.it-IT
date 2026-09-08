@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Costante
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%
@@ -27,11 +27,11 @@ Includono tutti un semplice nodo [Processore di valori](../../atomic-nodes/value
 
 +++ Nodi costanti nella libreria
 
-![constants-library.png](constant.resources/constant-01.png)
+![constants-library.png](constant.resources/constants-library.png)
 
 +++
 
-<p style="text-align: center;"><img src="./constant.resources/constant-02.png" alt="Nodo Virgola mobile costante" /></p>
+<p style="text-align: center;"><img src="./constant.resources/constants-float-01.png" alt="Nodo Virgola mobile costante" /></p>
 
 ## Interi
 
@@ -43,7 +43,7 @@ Gli interi costanti generano numeri interi e hanno un passo di 1.
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icona tipo intero](constant.resources/constant-03.png "Icona tipo intero")
+![Icona tipo intero](../../../../assets/fn-constant-integer.png "Icona tipo intero")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -67,7 +67,7 @@ Un numero intero ha un singolo componente. È utile come indice per effettuare s
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icona tipo Integer2](constant.resources/constant-04.png "Icona tipo Integer2")
+![Icona tipo Integer2](../../../../assets/fn-constant-integer2.png "Icona tipo Integer2")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -86,7 +86,7 @@ Uno dei casi d&#39;uso più comuni di Integer2 è l&#39;impostazione delle dimen
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icona tipo Integer3](constant.resources/constant-05.png "Icona tipo Integer3")
+![Icona tipo Integer3](../../../../assets/fn-constant-integer3.png "Icona tipo Integer3")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -103,7 +103,7 @@ Un nodo Integer3 genera un vettore intero statico a 3 componenti con componenti 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icona tipo Integer4](constant.resources/constant-06.png "Icona tipo Integer4")
+![Icona tipo Integer4](../../../../assets/fn-constant-integer4.png "Icona tipo Integer4")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -126,7 +126,7 @@ I valori delle Virgole mobili costanti generano numeri frazionari, ossia support
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icona tipo Virgola mobile](constant.resources/constant-07.png "Icona tipo Virgola mobile")
+![Icona tipo Virgola mobile](../../../../assets/fn-constant-float.png "Icona tipo Virgola mobile")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -143,7 +143,7 @@ Una Virgola mobile ha un singolo componente ed è molto comunemente usata per og
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icona tipo Virgola mobile 2](constant.resources/constant-08.png "Icona tipo Virgola mobile 2")
+![Icona tipo Virgola mobile 2](../../../../assets/fn-constant-float2.png "Icona tipo Virgola mobile 2")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -162,7 +162,7 @@ Virgola mobile2 è comunemente utilizzato per [coordinate di campionamento](../.
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icona tipo Virgola mobile 3](constant.resources/constant-09.png "Icona tipo Virgola mobile 3")
+![Icona tipo Virgola mobile 3](../../../../assets/fn-constant-float3.png "Icona tipo Virgola mobile 3")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -181,7 +181,7 @@ Virgola mobile3 viene utilizzato principalmente quando si lavora con oggetti 3D 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icona tipo Virgola mobile 4](constant.resources/constant-10.png "Icona tipo Virgola mobile 4")
+![Icona tipo Virgola mobile 4](../../../../assets/fn-constant-float4.png "Icona tipo Virgola mobile 4")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -202,7 +202,7 @@ Virgola mobile 4 è il modo preferito per memorizzare e impostare le informazion
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icona tipo booleano](constant.resources/constant-11.png "Icona tipo booleano")
+![Icona tipo booleano](../../../../assets/fn-constant-boolean.png "Icona tipo booleano")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

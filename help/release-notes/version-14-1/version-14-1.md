@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/release-notes/version-14-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-14-1.html"
 breadcrumb-title: ''
 description: Consultate le note sulla versione di Substance 3D Designer 14.1 per informazioni sugli strumenti di disposizione dei nodi e sui nuovi nodi Spline e Path.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versione 14.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 1%
@@ -24,7 +24,7 @@ Questo aggiornamento introduce nuove funzioni per migliorare l’utilizzo quotid
 
 *Data di pubblicazione: 14 gennaio 2025*
 
-![Dispersione spline sulle spline](version-14-1.resources/version-14-1-01.png)
+![Dispersione spline sulle spline](../../assets/fond.png)
 
 ## Aggiornamenti di spline e tracciati
 
@@ -34,12 +34,12 @@ Le spline e i nodi di percorso sono stati introdotti nella versione 13.0 e, graz
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dispersione spline sull&#39;animazione spline 1](version-14-1.resources/version-14-1-02.gif){zoomable="yes"}
+![Dispersione spline sull&#39;animazione spline 1](../../assets/spline1.gif){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Dispersione spline su spline 2](version-14-1.resources/version-14-1-03.gif){zoomable="yes"}
+![Dispersione spline su spline 2](../../assets/spline2.gif){zoomable="yes"}
 
 </td>
 </tr>
@@ -49,7 +49,7 @@ Le spline e i nodi di percorso sono stati introdotti nella versione 13.0 e, graz
 
 Se desideri mantenere un grafico pulito e leggibile, gli [strumenti di allineamento dei nodi](../../interface/the-graph-view/node-alignment-tools/node-alignment-tools.md) sono stati creati per te e sono stati completamente rinnovati. Ora è possibile spaziare in modo uniforme i nodi (in orizzontale o in verticale) e allineando i nodi si evitano sovrapposizioni sovrapponendoli in modo ordinato. Ciliegia in alto: entrambe le funzionalità tengono conto delle dimensioni effettive dei nodi.
 
-![Allineare i nodi](version-14-1.resources/version-14-1-04.gif){zoomable="yes"}
+![Allineare i nodi](../../assets/alignment.gif){zoomable="yes"}
 
 ## Copia/incolla i parametri
 
@@ -59,7 +59,7 @@ Se desideri mantenere un grafico pulito e leggibile, gli [strumenti di allineame
 
 Il nuovo [strumento Sampler colori](../../interface/2d-view/color-sampler/color-sampler.md) nella vista 2D consente di tenere traccia del valore di un pixel selezionato rilasciando un perno su di esso. Questo è molto utile per assicurarti di visualizzare sempre le informazioni dello stesso pixel su più nodi in un grafico. Aprite il pannello Informazioni per accedere allo strumento e provatelo!
 
-![Campionatore colore: uso dello strumento](version-14-1.resources/version-14-1-05.gif "Campionatore colore: uso dello strumento"){width="640px" zoomable="yes"}
+![Campionatore colore: uso dello strumento](../../assets/color-sampler-demo.gif "Campionatore colore: uso dello strumento"){width="640px" zoomable="yes"}
 
 ## Miglioramenti alla ricerca
 
@@ -70,7 +70,7 @@ Lo strumento [Ricerca nodi](../../interface/the-graph-view/node-finder/node-find
 * Quando si abilita lo strumento Node Finder, l’attenzione viene impostata automaticamente sul campo di ricerca;
 * Il layout della barra degli strumenti è stato ripensato per risparmiare spazio.
 
-![Barra degli strumenti di ricerca](version-14-1.resources/version-14-1-06.png){width="640px"}
+![Barra degli strumenti di ricerca](../../assets/search-53.png){width="640px"}
 
 ## Video
 
@@ -78,12 +78,12 @@ Lo strumento [Ricerca nodi](../../interface/the-graph-view/node-finder/node-find
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![spline dispersione su spline](version-14-1.resources/version-14-1-07.png)](https://www.youtube.com/watch?v=aUUWV1dYQdI)
+[![spline dispersione su spline](../../assets/video_spline.png)](https://www.youtube.com/watch?v=aUUWV1dYQdI)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![funzionalità dell&#39;esperienza utente video](version-14-1.resources/version-14-1-08.png)](https://www.youtube.com/watch?v=LwexybAEjaI)
+[![funzionalità dell&#39;esperienza utente video](../../assets/video_ux.png)](https://www.youtube.com/watch?v=LwexybAEjaI)
 
 </td>
 </tr>
@@ -111,7 +111,7 @@ Lo strumento [Ricerca nodi](../../interface/the-graph-view/node-finder/node-find
 * [Content] Triangle Grid: modifica il metodo di triangolazione e utilizza i loop
 * [Contenuto] Nuove spline Dispersione nel nodo Spline
 * [Cooker] Esporre il parametro di base &#39;Pixel ratio&#39; come variabile statica &#39;$pixelratio&#39;
-* [CrashReport] Integrazione della nuova finestra di CrashReport
+* [CrashReport] Finestra Integra nuovo report di arresto anomalo
 * [Engine] Aggiungi la versione Vulkan/Metal del motore di fusione
 * [Grafico] Modalità materiale: consente la connessione all&#39;input senza utilizzo quando è selezionato un singolo collegamento
 * [Grafico] Collegamento materiale: consenti connessioni standard quando la connessione non è ambigua
@@ -122,7 +122,7 @@ Lo strumento [Ricerca nodi](../../interface/the-graph-view/node-finder/node-find
 * [Resources] Impostare il formato su &quot;All format&quot; nella finestra di dialogo &quot;Link Bitmap&quot;
 * [Cerca] Aggiungi un modo per abilitare/disabilitare una modalità ricorsiva
 * [Cerca] Aggiungi un modo per abilitare/disabilitare la ricerca fuzzy
-* [Cerca] Mostra sempre e attiva il campo dei termini di ricerca quando si abilita Ricerca nodi utilizzando la relativa scelta rapida da tastiera
+* [Cerca] Mostra sempre e attiva il campo dei termini di ricerca quando si abilita Ricerca nodi utilizzando la relativa scelta rapida da tastiera da tastiera
 * [Search] Rielaborare l&#39;opzione di filtro
 * [Scelte rapide] Consenti assegnazione tasti &#39;V&#39;, &#39;H&#39; e &#39;S&#39;
 * [ThirdParty] Upgrade to Qt 6.5.7
@@ -146,7 +146,7 @@ Lo strumento [Ricerca nodi](../../interface/the-graph-view/node-finder/node-find
 * [Grafico a funzioni] I valori lunghi appaiono sovrapposti sui nodi &quot;mobili&quot;
 * [Fx-Map] Arresto anomalo durante la visualizzazione delle proprietà del nodo quadrante
 * [Grafico] [UDIM] Una barra di scorrimento nell&#39;elenco UDIM genera 1.1 1.2 voci
-* [Grafico]&#x200B;[Scelte rapide] Il nodo creato utilizzando una scelta rapida non viene posizionato sul collegamento esistente dopo la duplicazione del nodo
+* [Grafico][Scelte rapide] Il nodo creato utilizzando una scelta rapida non viene posizionato sul collegamento esistente dopo la duplicazione del nodo
 * [Properties] Visualizzazione del parametro non corretta quando il valore non è valido
 * [Publish] Le dipendenze reciproche generano un ciclo infinito durante la pubblicazione di un pacchetto
 * [Publish] Errore invisibile quando si utilizza l&#39;azione &#39;Publish&#39; su un pacchetto con dipendenza scaricata

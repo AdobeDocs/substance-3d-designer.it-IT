@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/resources/vector-graphics-svg-resource.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/vector-graphics-svg-resource.html"
 breadcrumb-title: ''
 description: Importa e utilizza la grafica vettoriale di SVG come risorse in Substance 3D Designer per la creazione di materiale procedurale.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Risorsa grafici vettoriali (SVG)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '728'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 Substance 3D Designer supporta una forma limitata di grafica vettoriale, tramite il formato di grafica vettoriale scalabile. I file SVG possono essere inseriti come risorse in diversi modi, da utilizzare come risorse per i grafici.
 
-I file SVG [possono essere creati o modificati tramite il nodo atomic SVG,](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md) possono essere creati anche da [UV to SVG baker.](https://experienceleague.adobe.com/it/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg)
+I file SVG [possono essere creati o modificati tramite il nodo atomic SVG,](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md) possono essere creati anche da [UV to SVG baker.](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg)
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ In generale, è vero quanto segue:
 * Il tratto è supportato ma produce solo un tratto di 1 pixel di larghezza e lo stile del tratto viene ignorato;
 * Gli stili di linea tratteggiata si interrompono definitivamente;
 * Il testo deve essere convertito in tracciati/contorni per essere sottoposto a rendering;
-* [I percorsi composti](https://helpx.adobe.com/ie/illustrator/desktop/manage-objects/reshape-transform-objects/create-compound-paths.html) non sono supportati;
+* [I percorsi composti](https://helpx.adobe.com/ie/illustrator/using/combining-objects.html#compound_paths) non sono supportati;
 * Le funzioni avanzate, come le sfumature, non sono supportate;
 * Gli elementi di stile per le proprietà CSS non sono supportati.
 
@@ -70,7 +70,7 @@ Le opzioni di esportazione sono leggermente diverse per ogni applicazione:
 
 ### Adobe Illustrator
 
-[Illustrator](https://www.adobe.com/it/products/illustrator.html) consente il massimo controllo sulle esportazioni di SVG se presti attenzione alle seguenti opzioni.
+[Illustrator](https://www.adobe.com/products/illustrator.html) consente il massimo controllo sulle esportazioni di SVG se presti attenzione alle seguenti opzioni.
 
 * Usa solo <b>Salva con nome</b>, *non* Esporta con nome.
 * <b>Il profilo SVG</b> non ha molta importanza, anche se per lo più il profilo Tiny utilizzerà per impostazione predefinita le impostazioni sicuramente corrette;
@@ -87,7 +87,7 @@ L’immagine a destra mostra le opzioni di esportazione consigliate, fai clic su
 > Le tavole da disegno possono influire sul risultato del file SVG generato. Alcuni modelli di file Illustrator presentano più tavole da disegno.\
 > Provate a fare in modo che una sola tavola da disegno sia ritagliata correttamente e a farla selezionare nella finestra Tavola da disegno quando viene salvata come SVG.
 
-![Opzioni di esportazione di Illustrator SVG](vector-graphics-svg-resource.resources/vector-graphics-svg-resource-01.jpg "Opzioni di esportazione di Illustrator SVG"){width="512px"}
+![Opzioni di esportazione di Illustrator SVG](../../assets/svg-export-options-ai.jpg "Opzioni di esportazione di Illustrator SVG"){width="512px"}
 
 ### Inkscape
 

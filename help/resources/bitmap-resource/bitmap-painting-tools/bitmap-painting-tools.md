@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
 breadcrumb-title: ''
 description: Usate gli strumenti di pittura bitmap in Substance 3D Designer per creare pitture direttamente sulle risorse bitmap per la modifica delle texture.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Strumenti di pittura Bitmap
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1964'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Questa pagina descrive gli strumenti di pittura disponibili nel pannello [vista 2D](../../../interface/2d-view/2d-view.md) per bitmap compatibili.
 
-![Strumenti di pittura bitmap in vista 2D](bitmap-painting-tools.resources/bitmap-painting-tools-01.png "Strumenti di pittura bitmap in vista 2D"){width="512px"}
+![Strumenti di pittura bitmap in vista 2D](../../../assets/2dview-paintingtools-main_1.png "Strumenti di pittura bitmap in vista 2D"){width="512px"}
 
 ## Panoramica
 
@@ -34,7 +34,7 @@ Le modifiche possono essere *annullate singolarmente* e tutte le altre funzioni 
 
 >[!IMPORTANT]
 >
-> È possibile eseguire la pittura di *solo* su *risorse bitmap* [&#128279;](../../../resources/bitmap-resource/bitmap-resource.md) [nuove o importate](../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md).
+> È possibile eseguire la pittura di *solo* su *risorse bitmap* [](../../../resources/bitmap-resource/bitmap-resource.md) [nuove o importate](../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md).
 
 >[!WARNING]
 >
@@ -42,7 +42,7 @@ Le modifiche possono essere *annullate singolarmente* e tutte le altre funzioni 
 > 
 > Gli utenti di Tablet PC devono applicare le impostazioni descritte nella pagina seguente per un&#39;esperienza affidabile: [Configurazione di penne e tablet](https://docs.substance3d.com/display/SPDOC/Configuring+Pens+and+Tablets)
 
-![Nuova finestra di dialogo bitmap](bitmap-painting-tools.resources/bitmap-painting-tools-02.png "Nuova finestra di dialogo bitmap"){width="512px"}
+![Nuova finestra di dialogo bitmap](../../../assets/2dview-paintingtools-new-bitmap.png "Nuova finestra di dialogo bitmap"){width="512px"}
 
 ## Attivazione degli strumenti di pittura
 
@@ -69,27 +69,27 @@ Verrà aperta la finestra <b>Nuova bitmap</b>, che consente di impostare il *nom
 
 ## Barre degli strumenti
 
-Gli strumenti e le opzioni di pittura sono disposti in *barre degli strumenti* all&#39;interno del pannello [vista 2D](../../../interface/2d-view/2d-view.md). Queste barre degli strumenti possono essere riposizionate su *qualsiasi lato* del pannello o come *barra degli strumenti mobile*, facendo clic e tenendo premuto <b>LMB</b> sulla relativa *maniglia*, visualizzata come tripla riga, quindi rilasciando <b>LMB</b> nella posizione desiderata.
+Gli strumenti e le opzioni di pittura sono disposti in *barre degli strumenti* nel pannello [Vista 2D](../../../interface/2d-view/2d-view.md). Queste barre degli strumenti possono essere riposizionate su *qualsiasi lato* del pannello o come *barra degli strumenti mobile*, facendo clic e tenendo premuto <b>LMB</b> sulla relativa *maniglia*, visualizzata come tripla riga, quindi rilasciando <b>LMB</b> nella posizione desiderata.
 
 Quando sono attivati gli strumenti di disegno, vengono visualizzate due barre degli strumenti: la [barra degli strumenti di selezione degli strumenti](#bitmappaintingtools-toolselectiontoolbar) e la barra degli strumenti Opzioni degli strumenti, descritte di seguito.
 
 ## Barra degli strumenti Selezione strumenti
 
-Gli strumenti di pittura si trovano nella **barra degli strumenti di selezione degli strumenti**, che per impostazione predefinita si trova sul *lato sinistro* del pannello [vista 2D](../../../interface/2d-view/2d-view.md). Le scelte rapide da tastiera consentono di accedere rapidamente a questi strumenti e sono contrassegnate di seguito tra parentesi dopo il nome dello strumento/funzione:
+Gli strumenti di pittura si trovano nella **barra degli strumenti di selezione degli strumenti**, che per impostazione predefinita si trova sul *lato sinistro* del pannello [Vista 2D](../../../interface/2d-view/2d-view.md). Le scelte rapide da tastiera consentono di accedere rapidamente a questi strumenti e sono contrassegnate di seguito tra parentesi dopo il nome dello strumento/funzione:
 
-![](bitmap-painting-tools.resources/bitmap-painting-tools-03.png)![](bitmap-painting-tools.resources/bitmap-painting-tools-04.png) <b>Selezione colore</b> <b>miniature:</b> Consente di definire un colore *primario* e *secondario*. Fate clic su una di queste miniature per visualizzare la finestra <b>Editor colori</b> e definire un colore. Gli strumenti utilizzeranno il colore *primario*. I colori primario e secondario possono essere *scambiati* (<b>X</b>) in qualsiasi momento
+![](../../../assets/2dview-paintingtools-icon-colors-primary.png)![](../../../assets/2dview-paintingtools-icon-colors-secondary.png) <b>Selezione colore</b> <b>miniature:</b> Consente di definire un colore *primario* e *secondario*. Fate clic su una di queste miniature per visualizzare la finestra <b>Editor colori</b> e definire un colore. Gli strumenti utilizzeranno il colore *primario*. I colori primario e secondario possono essere *scambiati* (<b>X</b>) in qualsiasi momento
 
-![](bitmap-painting-tools.resources/bitmap-painting-tools-05.png) <b>Strumento Pennello (B):</b> Applica il colore *primario* nella posizione del cursore, quando si preme la punta della penna o il pulsante <b>LMB</b>, utilizzando le opzioni definite nella barra degli strumenti Opzioni strumento
+![](../../../assets/2dview-paintingtools-icon-brush.png) <b>Strumento Pennello (B):</b> Applica il colore *primario* nella posizione del cursore, quando si preme la punta della penna o il pulsante <b>LMB</b>, utilizzando le opzioni definite nella barra degli strumenti Opzioni strumento
 
-![](bitmap-painting-tools.resources/bitmap-painting-tools-06.png) <b>Strumento Timbro (T):</b> consente di applicare un timbro a una parte dell&#39;immagine su un&#39;altra. Puoi definire l&#39;*origine* che deve essere contrassegnata tenendo premuto il tasto <b>Alt</b> e facendo clic su <b>LMB</b>. Quest&#39;area dell&#39;immagine verrà quindi stampata sull&#39;area *target* dell&#39;immagine in corrispondenza della posizione del cursore, quando si preme la punta della penna o il pulsante <b>LMB</b>, utilizzando le opzioni definite nella barra degli strumenti Opzioni strumento. L&#39;origine *tiene traccia* dei movimenti della destinazione e le dimensioni dell&#39;area *origine* *corrispondono* alle dimensioni del *pennello*
+![](../../../assets/2dview-paintingtools-icon-clone.png) <b>Strumento Timbro (T):</b> consente di applicare un timbro a una parte dell&#39;immagine su un&#39;altra. Puoi definire l&#39;*origine* che deve essere contrassegnata tenendo premuto il tasto <b>Alt</b> e facendo clic su <b>LMB</b>. Quest&#39;area dell&#39;immagine verrà quindi stampata sull&#39;area *target* dell&#39;immagine in corrispondenza della posizione del cursore, quando si preme la punta della penna o il pulsante <b>LMB</b>, utilizzando le opzioni definite nella barra degli strumenti Opzioni strumento. L&#39;origine *tiene traccia* dei movimenti della destinazione e le dimensioni dell&#39;area *origine* *corrispondono* alle dimensioni del *pennello*
 
-![](bitmap-painting-tools.resources/bitmap-painting-tools-07.png) <b>Abilita allineamento (opzione strumento Timbro):</b> consente di definire se l&#39;origine deve *rimanere in posizione* quando inizia un nuovo timbro o se deve *spostarsi relativamente nella nuova posizione del timbro*
+![](../../../assets/2dview-paintingtools-clone-alignment.png) <b>Abilita allineamento (opzione strumento Timbro):</b> consente di definire se l&#39;origine deve *rimanere in posizione* quando inizia un nuovo timbro o se deve *spostarsi relativamente nella nuova posizione del timbro*
 
-<b>![](bitmap-painting-tools.resources/bitmap-painting-tools-08.png) Gomma (E):</b> Sostituisce il colore corrente dell&#39;immagine con il valore (0, 0, 0, 0) nella posizione del cursore, quando si preme la punta della penna o il pulsante <b>LMB</b>, utilizzando le opzioni definite nella barra degli strumenti Opzioni strumento. Assicurati che la [visualizzazione della trasparenza](../../../interface/2d-view/2d-view.md) sia abilitata per tenere traccia dell&#39;impatto di questo strumento sul canale <b>Alpha</b>.
+<b>![](../../../assets/2dview-paintingtools-icon-eraser.png) Gomma (E):</b> Sostituisce il colore corrente dell&#39;immagine con il valore (0, 0, 0, 0) nella posizione del cursore, quando si preme la punta della penna o il pulsante <b>LMB</b>, utilizzando le opzioni definite nella barra degli strumenti Opzioni strumento. Assicurati che la [visualizzazione della trasparenza](../../../interface/2d-view/2d-view.md) sia abilitata per tenere traccia dell&#39;impatto di questo strumento sul canale <b>Alpha</b>.
 
 ## Barra degli strumenti Opzioni
 
-Le opzioni per gli strumenti disponibili nella [barra degli strumenti di selezione degli strumenti](#bitmappaintingtools-toolselectiontoolbar) si trovano nella barra degli strumenti Opzioni strumenti, che per impostazione predefinita si trova sul *lato superiore* del pannello [Visualizzazione 2D](../../../interface/2d-view/2d-view.md).
+Le opzioni per gli strumenti disponibili nella [barra degli strumenti di selezione degli strumenti](#bitmappaintingtools-toolselectiontoolbar) si trovano nella barra degli strumenti Opzioni strumenti, che per impostazione predefinita si trova sul *lato superiore* del pannello [Vista 2D](../../../interface/2d-view/2d-view.md).
 
 <table>
 <tr style="border: 0;">
@@ -97,16 +97,16 @@ Le opzioni per gli strumenti disponibili nella [barra degli strumenti di selezio
 
 ### SELEZIONE PENNELLO
 
-La ![](bitmap-painting-tools.resources/bitmap-painting-tools-09.png) <b>Selezione pennello</b> consente di selezionare un pennello *preconfigurato* dal pennello disponibile *predefiniti*, impostarne <b>Dimensioni</b> e <b>Durezza</b> *(* vedere la sezione <b>Forma</b> dell&#39;editor pennelli) e visualizza una *anteprima* di un tratto del pennello.
+La ![](../../../assets/2dview-paintingtools-brush-thumb.png) <b>Selezione pennello</b> consente di selezionare un pennello *preconfigurato* dal pennello disponibile *predefiniti*, impostarne <b>Dimensioni</b> e <b>Durezza</b> *(* vedere la sezione <b>Forma</b> dell&#39;editor pennelli) e visualizza una *anteprima* di un tratto del pennello.
 
-I predefiniti per i pennelli possono essere creati e modificati nell&#39;editor Pennelli e sono disponibili in *librerie*. I pennelli predefiniti che verranno visualizzati in questo pannello sono la *somma* di tutte le librerie di pennelli predefiniti caricate. Queste librerie possono essere gestite accedendo al menu ![](bitmap-painting-tools.resources/bitmap-painting-tools-10.png) <b>Libreria pennelli</b> (consulta la sezione <b>Predefiniti</b> dell&#39;editor pennelli)
+I predefiniti per i pennelli possono essere creati e modificati nell&#39;editor Pennelli e sono disponibili in *librerie*. I pennelli predefiniti che verranno visualizzati in questo pannello sono la *somma* di tutte le librerie di pennelli predefiniti caricate. Queste librerie possono essere gestite accedendo al menu ![](../../../assets/2dview-paintingtools-brushpresets-library.png) <b>Libreria pennelli</b> (consulta la sezione <b>Predefiniti</b> dell&#39;editor pennelli)
 
-Il pulsante ![](bitmap-painting-tools.resources/bitmap-painting-tools-11.png) <b>Seleziona colore di sfondo</b> consente di modificare il colore di sfondo dell&#39;*anteprima del tratto del pennello*.
+Il pulsante ![](../../../assets/2dview-paintingtools-brushpresets-previewbkgd.png) <b>Seleziona colore di sfondo</b> consente di modificare il colore di sfondo dell&#39;*anteprima del tratto del pennello*.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Pannello di selezione pennello](bitmap-painting-tools.resources/bitmap-painting-tools-12.png "Pannello di selezione pennello")
+![Pannello di selezione pennello](../../../assets/2dview-paintingtools-brushes.png "Pannello di selezione pennello")
 
 </td>
 </tr>
@@ -118,15 +118,15 @@ Il pulsante ![](bitmap-painting-tools.resources/bitmap-painting-tools-11.png) <b
 
 ### EDITOR PENNELLI
 
-L&#39;![](bitmap-painting-tools.resources/bitmap-painting-tools-13.png) <b>editor pennelli</b> consente di accedere alle opzioni granulari per definire il comportamento del pennello:
+L&#39;![](../../../assets/2dview-paintingtools-icon-brush-options.png) <b>editor pennelli</b> consente di accedere alle opzioni granulari per definire il comportamento del pennello:
 
 <b>Predefiniti</b>
 
-I pennelli possono essere personalizzati e quindi salvati come <b>Pennello predefinito</b>, che sarà disponibile nell&#39;elenco ![](bitmap-painting-tools.resources/bitmap-painting-tools-14.png) <b>Pennelli predefiniti</b> e nel pannello ![](bitmap-painting-tools.resources/bitmap-painting-tools-09.png) <b>Selezione pennello</b>.
+I pennelli possono essere personalizzati e quindi salvati come <b>Pennello predefinito</b>, che sarà disponibile nell&#39;elenco ![](../../../assets/2dview-paintingtools-editor-currentpreset.png) <b>Pennelli predefiniti</b> e nel pannello ![](../../../assets/2dview-paintingtools-brush-thumb.png) <b>Selezione pennello</b>.
 
-Per creare un predefinito, impostate le proprietà seguenti in base alle vostre preferenze, quindi fate clic sul pulsante ![](bitmap-painting-tools.resources/bitmap-painting-tools-15.png) <b>Aggiungi pennello predefinito </b> e impostate un nome per il pennello nella finestra <b>Nome predefinito</b>. Il nuovo predefinito è ora selezionato automaticamente nell&#39;elenco <b>Pennelli predefiniti</b> e in qualsiasi momento è possibile ![](bitmap-painting-tools.resources/bitmap-painting-tools-16.png) <b>aggiornarlo</b> con le nuove impostazioni correnti o ![](bitmap-painting-tools.resources/bitmap-painting-tools-17.png) <b>eliminarlo</b>.
+Per creare un predefinito, impostate le proprietà seguenti in base alle vostre preferenze, quindi fate clic sul pulsante ![](../../../assets/2dview-paintingtools-editor-addpreset.png) <b>Aggiungi pennello predefinito </b> e impostate un nome per il pennello nella finestra <b>Nome predefinito</b>. Il nuovo predefinito è ora selezionato automaticamente nell&#39;elenco <b>Pennelli predefiniti</b> e in qualsiasi momento è possibile ![](../../../assets/2dview-paintingtools-editor-updatepreset.png) <b>aggiornarlo</b> con le nuove impostazioni correnti o ![](../../../assets/2dview-paintingtools-editor-deletepreset.png) <b>eliminarlo</b>.
 
-I predefiniti sono organizzati e salvati in *librerie*, che possono essere gestite nel menu ![](bitmap-painting-tools.resources/bitmap-painting-tools-18.png) <b>Libreria pennelli</b>:
+I predefiniti sono organizzati e salvati in *librerie*, che possono essere gestite nel menu ![](../../../assets/2dview-paintingtools-editor-presetlibrary.png) <b>Libreria pennelli</b>:
 
 <b>Esporta libreria:</b> *salva* i predefiniti correnti e tutte le relative impostazioni in un file di libreria
 
@@ -139,7 +139,7 @@ I predefiniti sono organizzati e salvati in *librerie*, che possono essere gesti
 </td>
 <td style="border: 0;" valign="top">
 
-![Editor pennelli](bitmap-painting-tools.resources/bitmap-painting-tools-19.png "Editor pennelli")
+![Editor pennelli](../../../assets/2dview-paintingtools-brusheditor.png "Editor pennelli")
 
 </td>
 </tr>
@@ -214,7 +214,7 @@ Il colore applicato dal pennello è definito dal *colore primario selezionato* e
 +++Texture
 Potete applicare un *file bitmap* al pennello e utilizzarlo per *timbrare* quella bitmap anziché un colore a tinta piatta. La texture del pennello si comporta come segue:
 
-<b>File di Texture: </b>definisce il *percorso* della bitmap da utilizzare come texture del pennello. È possibile selezionare la bitmap tramite il browser dei file di sistema utilizzando il pulsante ![](bitmap-painting-tools.resources/bitmap-painting-tools-20.png) accanto al campo di input
+<b>File di Texture: </b>definisce il *percorso* della bitmap da utilizzare come texture del pennello. È possibile selezionare la bitmap tramite il browser dei file di sistema utilizzando il pulsante ![](../../../assets/2dview-paintingtools-brusheditor-selecttexture.png) accanto al campo di input
 
 La texture *solo* sostituisce il colore piatto di base del pennello, il che significa che *tutte le proprietà del pennello sopra elencate possono ancora essere utilizzate* e funzionano come descritto
 
@@ -230,7 +230,7 @@ Gli strumenti Pennello, Timbro e Gomma offrono controlli per <b>Opacità</b> e <
 
 <b>Flusso</b> controlla la *quantità dell&#39;effetto dello strumento* che viene applicata in un dato momento. È *additivo sullo stesso tratto*, il che significa che l&#39;opacità di un&#39;area può essere aggiunta al massimo del 100% eseguendo più passaggi dello *stesso tratto* in quell&#39;area, o più tratti separati.
 
-![Controlli opacità e flusso](bitmap-painting-tools.resources/bitmap-painting-tools-21.png "Controlli opacità e flusso")
+![Controlli opacità e flusso](../../../assets/2dview-paintingtools-opacityflow.png "Controlli opacità e flusso")
 
 <table>
 <tr style="border: 0;">
@@ -238,7 +238,7 @@ Gli strumenti Pennello, Timbro e Gomma offrono controlli per <b>Opacità</b> e <
 
 ### MODALITÀ AFFIANCAMENTO
 
-Gli strumenti Pennello, Timbro e Gomma consentono inoltre di impostare le ![](bitmap-painting-tools.resources/bitmap-painting-tools-22.png) <b>modalità di Affiancamento</b>, che definiscono la loro capacità di *scorrere all&#39;indietro* sul lato opposto dell&#39;immagine quando un tratto influisce su un&#39;area al di fuori dei limiti dell&#39;immagine:
+Gli strumenti Pennello, Timbro e Gomma consentono inoltre di impostare le ![](../../../assets/2dview-paintingtools-icon-tiling.png) <b>modalità di Affiancamento</b>, che definiscono la loro capacità di *scorrere all&#39;indietro* sul lato opposto dell&#39;immagine quando un tratto influisce su un&#39;area al di fuori dei limiti dell&#39;immagine:
 
 <b>Affiancamento X e Y</b>: riquadro tratti pennello *sia in orizzontale che in verticale*
 
@@ -251,7 +251,7 @@ Gli strumenti Pennello, Timbro e Gomma consentono inoltre di impostare le ![](bi
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Modalità Affiancamento](bitmap-painting-tools.resources/bitmap-painting-tools-23.png "Modalità Affiancamento")
+![Modalità Affiancamento](../../../assets/2dview-paintingtools-tiling.png "Modalità Affiancamento")
 
 </td>
 </tr>

@@ -1,7 +1,7 @@
 ---
 title: Splatter forma v2
 description: Designer > Substance grafici composizione > Nodi riferimento per Substance grafici composizione > Libreria nodi > Generatore > Pattern > splatter forma v2
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '4234'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona splatter forma v2](shape-splatter-v2.resources/shape-splatter-v2-01.png "splatter forma v2")
+![Icona splatter forma v2](shape-splatter-v2.resources/shape-splatter-v2.png "splatter forma v2")
 
 <b>Ingresso:</b> Generatore > Pattern
 
@@ -174,29 +174,29 @@ Dispersione forme su una superficie del height di sfondo con funzionalità avanz
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-02.gif" /><br><i>Distribuzione di Poisson</i>
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-3d-distribution-poisson.gif" /><br><i>Distribuzione di Poisson</i>
         </td>
         <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-03.gif" /><br><i>Distribuzione uniforme</i>
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-3d-distribution-uniform.gif" /><br><i>Distribuzione uniforme</i>
         </td>
         <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-04.gif" /><br><i>Mappa di densità</i>
-        </td>
-    </tr>
-    <tr style="border: 0; background: transparent">
-        <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-05.gif" /><br><i>Rotazione 3D casuale</i>
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-06.gif" /><br><i>Rotazione Pendenza</i>
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-07.gif" /><br><i>Estrusione forma</i>
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-density-map.gif" /><br><i>Mappa di densità</i>
         </td>
     </tr>
     <tr style="border: 0; background: transparent">
         <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-08.jpg" /><br><i>Forme SDF 3D</i>
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-3d-rotation.gif" /><br><i>Rotazione 3D casuale</i>
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-background-slope.gif" /><br><i>Rotazione Pendenza</i>
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-shape-extrusion.gif" /><br><i>Estrusione forma</i>
+        </td>
+    </tr>
+    <tr style="border: 0; background: transparent">
+        <td style="border: 0; background: transparent">
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-sdf.jpg" /><br><i>Forme SDF 3D</i>
         </td>
         <td style="border: 0; background: transparent">
         </td>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-warp.html"
 breadcrumb-title: ''
 description: Usate il nodo Alterazione direzione per applicare la distorsione direzionale alle texture per creare effetti di flusso e movimento.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Alterazione direzionale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atomico: alterazione direzionale](directional-warp.resources/directional-warp-01.png "Nodo atomico: alterazione direzionale"){width="200px"}
+![Nodo atomico: alterazione direzionale](../../../../assets/comp_directionalwarp_1.png "Nodo atomico: alterazione direzionale"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -102,17 +102,17 @@ Il nodo Altera è un nodo semplice ma utile che può essere utilizzato come base
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Alterazione direzionale - Esempio 1](directional-warp.resources/directional-warp-02.gif "Alterazione direzionale - Esempio 1"){zoomable="yes"}
+![Alterazione direzionale - Esempio 1](../../../../assets/dir-warp.gif "Alterazione direzionale - Esempio 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Alterazione direzionale - Esempio 2](directional-warp.resources/directional-warp-03.gif "Alterazione direzionale - Esempio 2"){zoomable="yes"}
+![Alterazione direzionale - Esempio 2](../../../../assets/dir-warp02.gif "Alterazione direzionale - Esempio 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Alterazione direzionale - Esempio 3](directional-warp.resources/directional-warp-04.gif "Alterazione direzionale - Esempio 3"){zoomable="yes"}
+![Alterazione direzionale - Esempio 3](../../../../assets/dir-warp03.gif "Alterazione direzionale - Esempio 3"){zoomable="yes"}
 
 </td>
 </tr>

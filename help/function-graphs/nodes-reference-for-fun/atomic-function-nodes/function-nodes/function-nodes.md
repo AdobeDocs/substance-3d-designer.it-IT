@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/function-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/function-nodes.html"
 breadcrumb-title: ''
 description: Accedere ai nodi delle funzioni nei grafici delle funzioni di Substance 3D Designer per richiamare ed eseguire grafici delle funzioni personalizzati.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Funzione
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 5%
@@ -27,7 +27,7 @@ Sebbene i connettori di input non siano in genere tipizzati, non supportano tutt
 ## Elenco nodi
 
 +++Pow
-![Icona nodo di flusso](function-nodes.resources/function-nodes-01.jpg "Icona nodo di flusso")
+![Icona nodo di flusso](../../../../assets/Pow_Node.jpg "Icona nodo di flusso")
 
 
 
@@ -36,7 +36,7 @@ Restituisce il primo input elevato alla potenza del secondo input: <b>X^Y</b>.
 +++
 
 +++2Pow
-![Icona nodo 2Pow](function-nodes.resources/function-nodes-02.jpg "Icona nodo 2Pow")
+![Icona nodo 2Pow](../../../../assets/2Pow_Node.jpg "Icona nodo 2Pow")
 
 
 
@@ -45,7 +45,7 @@ Restituisce 2 alla potenza del valore di input: <b>2^X</b>.
 +++
 
 +++Radice quadrata
-![Icona nodo radice quadrata](function-nodes.resources/function-nodes-03.jpg "Icona nodo radice quadrata")
+![Icona nodo radice quadrata](../../../../assets/SquareRoot_Node.jpg "Icona nodo radice quadrata")
 
 
 
@@ -54,7 +54,7 @@ Restituisce la radice quadrata del valore di input: <b>√X</b>.
 +++
 
 +++Esponenziale
-![Icona nodo esponenziale](function-nodes.resources/function-nodes-04.jpg "Icona nodo esponenziale")
+![Icona nodo esponenziale](../../../../assets/Exponential_Node.jpg "Icona nodo esponenziale")
 
 
 
@@ -65,7 +65,7 @@ Restituisce il valore esponenziale del relativo valore di input: <b>e^X</b>
 +++
 
 +++Logaritmo
-![Icona nodo logaritmo](function-nodes.resources/function-nodes-05.jpg "Icona nodo logaritmo")
+![Icona nodo logaritmo](../../../../assets/Logarithm_Node.jpg "Icona nodo logaritmo")
 
 
 
@@ -74,7 +74,7 @@ Restituisce il logaritmo naturale del valore di input: <b>ln(X)</b>.
 +++
 
 +++Base logaritmica 2
-![Icona nodo Logaritmo Base 2](function-nodes.resources/function-nodes-06.jpg "Icona nodo Logaritmo Base 2")
+![Icona nodo Logaritmo Base 2](../../../../assets/LogarithmBase2_Node.jpg "Icona nodo Logaritmo Base 2")
 
 
 
@@ -83,7 +83,7 @@ Restituisce il logaritmo in base 2 del relativo valore di input: <b>log2(X)</b>.
 +++
 
 +++Assoluto
-![Icona nodo assoluto](function-nodes.resources/function-nodes-07.jpg "Icona nodo assoluto")
+![Icona nodo assoluto](../../../../assets/Absolute_Node.jpg "Icona nodo assoluto")
 
 
 
@@ -92,7 +92,7 @@ Restituisce il valore assoluto del relativo input: <b>abs(X)</b>.
 +++
 
 +++Ceil
-![Icona nodo Ceil](function-nodes.resources/function-nodes-08.jpg "Icona nodo Ceil")
+![Icona nodo Ceil](../../../../assets/Ceil_Node.jpg "Icona nodo Ceil")
 
 
 
@@ -101,7 +101,7 @@ Arrotonda per eccesso il valore di input. Restituisce il valore intero più picc
 +++
 
 +++Floor
-![Icona nodo floor](function-nodes.resources/function-nodes-09.jpg "Icona nodo floor")
+![Icona nodo floor](../../../../assets/Floor_Node.jpg "Icona nodo floor")
 
 
 
@@ -110,7 +110,7 @@ Arrotonda per difetto il valore di input. Restituisce il valore intero più gran
 +++
 
 +++Interpolazione lineare
-![Icona nodo di interpolazione lineare](function-nodes.resources/function-nodes-10.jpg "Icona nodo di interpolazione lineare")
+![Icona nodo di interpolazione lineare](../../../../assets/LinearInterpolation_Node.jpg "Icona nodo di interpolazione lineare")
 
 
 
@@ -119,7 +119,7 @@ Restituisce l&#39;interpolazione lineare tra due valori in funzione di un valore
 +++
 
 +++Minimo
-![Icona nodo minimo](function-nodes.resources/function-nodes-11.jpg "Icona nodo minimo")
+![Icona nodo minimo](../../../../assets/Minimum_Node.jpg "Icona nodo minimo")
 
 
 
@@ -128,7 +128,7 @@ Restituisce il valore più basso tra i due valori di input: <b>min(A, B)</b>.
 +++
 
 +++Massimo
-![Icona nodo massimo](function-nodes.resources/function-nodes-12.jpg "Icona nodo massimo")
+![Icona nodo massimo](../../../../assets/Maximum_Node.jpg "Icona nodo massimo")
 
 
 
@@ -137,7 +137,7 @@ Restituisce il più alto dei due valori di input: <b>max(A, B)</b>.
 +++
 
 +++Coseno
-![Icona nodo coseno](function-nodes.resources/function-nodes-13.jpg "Icona nodo coseno")
+![Icona nodo coseno](../../../../assets/Cosine_Node.jpg "Icona nodo coseno")
 
 
 
@@ -146,7 +146,7 @@ Restituisce il coseno del relativo valore di input in radianti: <b>cos(X)</b>.
 +++
 
 +++Seno
-![Icona nodo sinusoidale](function-nodes.resources/function-nodes-14.jpg "Icona nodo sinusoidale")
+![Icona nodo sinusoidale](../../../../assets/Sine_Node.jpg "Icona nodo sinusoidale")
 
 
 
@@ -155,7 +155,7 @@ Restituisce il seno del valore di input in radianti: <b>sin(X)</b>.
 +++
 
 +++Tangente
-![Icona nodo tangente](function-nodes.resources/function-nodes-15.jpg "Icona nodo tangente")
+![Icona nodo tangente](../../../../assets/Tangent_Node.jpg "Icona nodo tangente")
 
 
 
@@ -164,7 +164,7 @@ Restituisce la tangente del valore di input in radianti: <b>tan(X)</b>.
 +++
 
 +++Tangente arco 2
-![Icona nodo Arco tangente 2](function-nodes.resources/function-nodes-16.jpg "Icona nodo Arco tangente 2")
+![Icona nodo Arco tangente 2](../../../../assets/ArcTangent2_Node.jpg "Icona nodo Arco tangente 2")
 
 
 
@@ -177,7 +177,7 @@ Non è necessario cambiare i componenti X e Y del vettore di input come nella no
 +++
 
 +++Cartesiano
-![Icona nodo assoluto](function-nodes.resources/function-nodes-07.jpg "Icona nodo assoluto")
+![Icona nodo assoluto](../../../../assets/Absolute_Node.jpg "Icona nodo assoluto")
 
 
 
@@ -190,7 +190,7 @@ Le coordinate polari sono una distanza dall&#39;origine e un angolo in radianti 
 +++
 
 +++Casuale
-![Icona nodo casuale](function-nodes.resources/function-nodes-17.jpg "Icona nodo casuale")
+![Icona nodo casuale](../../../../assets/Random_Node.jpg "Icona nodo casuale")
 
 
 

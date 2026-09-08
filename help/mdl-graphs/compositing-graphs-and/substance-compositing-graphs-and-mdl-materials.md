@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Substance grafici e materiali MDL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 1%
@@ -39,7 +39,7 @@ Quando si utilizza l&#39;opzione <b>Visualizza output in visualizzazione 3D</b> 
 
 Le singole texture di un grafico a Substance possono essere collegate a uno qualsiasi dei parametri di materiale MDL che supportano il campionamento delle texture, indipendentemente dall’identificatore, premendo RMB sul nodo del grafico a Substance e trascinando nella vista 3D. Viene visualizzato un elenco degli usi del campionatore disponibili ed è possibile selezionare l’uso di destinazione per la texture selezionata.
 
-![Input grafici MDL esposti](substance-compositing-graphs-and-mdl-materials.resources/substance-compositing-graphs-and-mdl-materials-01.png "Input grafici MDL esposti")
+![Input grafici MDL esposti](../../assets/mdl-graph-inputs-samplers.png "Input grafici MDL esposti")
 
 *Le texture generate da un grafico a Substance sono collegate ai parametri esposti di un grafico MDL nella vista 3D*
 
@@ -48,7 +48,7 @@ Le singole texture di un grafico a Substance possono essere collegate a uno qual
 È possibile inserire le istanze dei grafici delle Substance direttamente nei grafici MDL trascinandole dal pannello <b>Esplora risorse</b> nel grafico MDL. Nei grafici MDL è possibile utilizzare grafici a Substance di <b>file Substance 3D</b> (SBS) e <b>file di risorse Substance 3D</b> (SBSAR).
 
 +++Substance grafico da file Substance 3D (SBS)
-![Substance il grafico dal file SBS nel grafico MDL](substance-compositing-graphs-and-mdl-materials.resources/substance-compositing-graphs-and-mdl-materials-02.png "Substance il grafico dal file SBS nel grafico MDL")
+![Substance il grafico dal file SBS nel grafico MDL](../../assets/mdl-sbs-instance-hl.png "Substance il grafico dal file SBS nel grafico MDL")
 
 
 
@@ -57,7 +57,7 @@ Le singole texture di un grafico a Substance possono essere collegate a uno qual
 +++
 
 +++Substance grafico da risorsa Substance 3D (SBSAR)
-![Substance il grafico dal file SBSAR nel grafico MDL](substance-compositing-graphs-and-mdl-materials.resources/substance-compositing-graphs-and-mdl-materials-03.png "Substance il grafico dal file SBSAR nel grafico MDL")
+![Substance il grafico dal file SBSAR nel grafico MDL](../../assets/mdl-sbsar-instance-hl.png "Substance il grafico dal file SBSAR nel grafico MDL")
 
 
 

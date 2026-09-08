@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/getting-started/overview/what-is-a-substance-3d-file.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview/what-is-a-substance-3d-file.html"
 breadcrumb-title: ''
 description: Scopri di più sui formati di file Substance 3D e su come memorizzano materiali procedurali e texture per l’uso in più applicazioni.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Che cos’è un file Substance 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Che cos&#39;è un file Substance 3D?
 
-![Materiale di parete di mattoni parametrici](what-is-a-substance-3d-file.resources/what-is-a-substance-3d-file-01.gif "Materiale di parete di mattoni parametrici")
+![Materiale di parete di mattoni parametrici](../../../assets/MaterialsOverview.gif "Materiale di parete di mattoni parametrici")
 
 *Esempio di materiale da parete in mattoni realizzato da Käy Vriend.\
 I parametri possono essere modificati per controllare dinamicamente l&#39;aspetto del materiale.*

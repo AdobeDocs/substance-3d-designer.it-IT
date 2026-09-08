@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/function-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs.html"
 breadcrumb-title: ''
 description: Scoprite come creare e utilizzare i grafici delle funzioni Substance in Designer per creare funzioni personalizzate e reti di nodi riutilizzabili.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Substance grafici delle funzioni
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![](function-graphs.resources/function-graphs-01.png){width="120px"}](https://substance3d.adobe.com/)
+[![](../assets/function-1.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td style="border: 0;" valign="top">
@@ -43,7 +43,7 @@ Di seguito sono riportati alcuni esempi di utilizzi comuni per Funzioni.
 
 ### Funzione semplice
 
-![](function-graphs.resources/function-graphs-02.png)
+![](../assets/lerpfunction_1.png)
 
 Funzione semplice nel contesto di un parametro esposto. Ottiene un valore float di input chiamato &quot;Intensità&quot; che è determinato per andare da 0 a 1 (un intervallo facile da capire) e rimappa a un intervallo impostato di 0,1 - 0,8. Ciò significa che se l’utente imposta Intensità su 0, verrà utilizzato internamente 0,1, se l’interfaccia utente è impostata su 1, verrà utilizzato 0,8 e qualsiasi valore intermedio verrà interpolato linearmente. Questo tipo di funzione è in genere utilizzato quando si [espongono parametri](../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), ma si utilizzano funzioni personalizzate.
 
@@ -51,7 +51,7 @@ Questa funzione potrebbe anche essere scritta come *lerp(0.1, 0.8, Intensità)* 
 
 ### Funzione avanzata
 
-![](function-graphs.resources/function-graphs-03.png){width="545px"}
+![](../assets/pixel-function_1.png){width="545px"}
 
 Questa funzione avanzata mostra il funzionamento interno di un [processore pixel](../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) pensato per regolare la tonalità di un input della mappa colore in base all’intensità di un secondo input della maschera in scala di grigio.
 

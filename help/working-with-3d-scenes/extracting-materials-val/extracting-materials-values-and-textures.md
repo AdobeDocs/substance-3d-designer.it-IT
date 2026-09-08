@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/working-with-3d-scenes/extracting-materials-values-and-textures.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/extracting-materials-values-and-textures.html"
 breadcrumb-title: ''
 description: Estrai le proprietà del materiale da scene 3D da utilizzare nei grafici Substance per i flussi di lavoro di creazione del materiale.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Estrazione di valori e texture dei materiali
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 0%
@@ -58,21 +58,21 @@ Quando si utilizza questa azione, si verificano alcuni problemi:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Creare un grafico dagli input della texture - Azione nella finestra della vista &quot;Vista 3D&quot;](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-01.png "Creare un grafico dagli input della texture - Azione nella finestra della vista &quot;Vista 3D&quot;"){zoomable="yes"}
+![Creare un grafico dagli input della texture - Azione nella finestra della vista &quot;Vista 3D&quot;](../../assets/createGraphFromTexturesActionViewport.png "Creare un grafico dagli input della texture - Azione nella finestra della vista &quot;Vista 3D&quot;"){zoomable="yes"}
 
 *Azione nella finestra della vista 3D*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Creare un grafico dagli input della texture - Azione nel menu &quot;Materiali&quot;](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-02.png "Creare un grafico dagli input della texture - Azione nel menu &quot;Materiali&quot;"){zoomable="yes"}
+![Creare un grafico dagli input della texture - Azione nel menu &quot;Materiali&quot;](../../assets/createGraphFromTexturesActionMaterials.png "Creare un grafico dagli input della texture - Azione nel menu &quot;Materiali&quot;"){zoomable="yes"}
 
 *Azione nel menu Materiali*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Creare un grafico dagli input della texture - Azione nel dock &quot;Proprietà&quot;](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-03.png "Creare un grafico dagli input della texture - Azione nel dock &quot;Proprietà&quot;"){zoomable="yes"}
+![Creare un grafico dagli input della texture - Azione nel dock &quot;Proprietà&quot;](../../assets/createGraphFromTexturesActionProps.png "Creare un grafico dagli input della texture - Azione nel dock &quot;Proprietà&quot;"){zoomable="yes"}
 
 *Azione nel Dock delle proprietà*
 
@@ -80,12 +80,12 @@ Quando si utilizza questa azione, si verificano alcuni problemi:
 </tr>
 </table>
 
-![Risultato della creazione del grafico dalle texture dei materiali](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-04.png "Risultato della creazione del grafico dalle texture dei materiali"){zoomable="yes"}
+![Risultato della creazione del grafico dalle texture dei materiali](../../assets/createGraphFromTexturesResult.png "Risultato della creazione del grafico dalle texture dei materiali"){zoomable="yes"}
 
 *Risultato della creazione del grafico dalle texture dei materiali*
 
 +++Dimostrazione
-![Creare un grafico dagli input della texture - Dimostrazione](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-05.gif "Creare un grafico dagli input della texture - Dimostrazione"){zoomable="yes"}
+![Creare un grafico dagli input della texture - Dimostrazione](../../assets/createGraphFromTextures.gif "Creare un grafico dagli input della texture - Dimostrazione"){zoomable="yes"}
 
 
 
@@ -116,14 +116,14 @@ Ad esempio, se si estrae una texture per la proprietà &quot;Colore di base&quot
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Estrarre la texture dal grafico - Azione nel Dock proprietà](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-06.png "Estrarre la texture dal grafico - Azione nel Dock proprietà"){zoomable="yes"}
+![Estrarre la texture dal grafico - Azione nel Dock proprietà](../../assets/extractTextureAction.png "Estrarre la texture dal grafico - Azione nel Dock proprietà"){zoomable="yes"}
 
 Azione per la proprietà del materiale nel Dock Proprietà
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Estrarre la texture dal grafico - Finestra di dialogo &#39;Seleziona grafico di destinazione&#39;](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-07.png "Estrarre la texture dal grafico - Finestra di dialogo &#39;Seleziona grafico di destinazione&#39;"){zoomable="yes"}
+![Estrarre la texture dal grafico - Finestra di dialogo &#39;Seleziona grafico di destinazione&#39;](../../assets/extractTextureSelectGraph.png "Estrarre la texture dal grafico - Finestra di dialogo &#39;Seleziona grafico di destinazione&#39;"){zoomable="yes"}
 
 Finestra di dialogo &#39;Seleziona grafico di destinazione&#39;
 
@@ -136,12 +136,12 @@ Finestra di dialogo &#39;Seleziona grafico di destinazione&#39;
 </tr>
 </table>
 
-![Risultato dell&#39;estrazione della texture](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-08.png "Risultato dell&#39;estrazione della texture"){zoomable="yes"}
+![Risultato dell&#39;estrazione della texture](../../assets/extractTextureResult.png "Risultato dell&#39;estrazione della texture"){zoomable="yes"}
 
 Risultato dell’estrazione della texture
 
 +++Dimostrazione
-![Estrarre la texture dal grafico - Dimostrazione](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-09.gif "Estrarre la texture dal grafico - Dimostrazione"){zoomable="yes"}
+![Estrarre la texture dal grafico - Dimostrazione](../../assets/extractTextureToGraph.gif "Estrarre la texture dal grafico - Dimostrazione"){zoomable="yes"}
 
 
 
@@ -170,21 +170,21 @@ Ad esempio, se si estrae un valore per la proprietà &quot;Livello di anisotropi
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Estrarre il valore dal grafico - Azione nel Dock proprietà](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-10.png "Estrarre il valore dal grafico - Azione nel Dock proprietà"){zoomable="yes"}
+![Estrarre il valore dal grafico - Azione nel Dock proprietà](../../assets/extractValueAction.png "Estrarre il valore dal grafico - Azione nel Dock proprietà"){zoomable="yes"}
 
 Azione per la proprietà del materiale nel Dock Proprietà
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Estrarre il valore dal grafico - Finestra di dialogo &#39;Seleziona grafico di destinazione&#39;](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-11.png "Estrarre il valore dal grafico - Finestra di dialogo &#39;Seleziona grafico di destinazione&#39;"){zoomable="yes"}
+![Estrarre il valore dal grafico - Finestra di dialogo &#39;Seleziona grafico di destinazione&#39;](../../assets/extractValueSelectGraph.png "Estrarre il valore dal grafico - Finestra di dialogo &#39;Seleziona grafico di destinazione&#39;"){zoomable="yes"}
 
 Finestra di dialogo &#39;Seleziona grafico di destinazione&#39;
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Estrarre il valore nel grafico - Nodo costante nella funzione del nodo di Processore di valori](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-12.png "Estrarre il valore nel grafico - Nodo costante nella funzione del nodo di Processore di valori"){zoomable="yes"}
+![Estrarre il valore nel grafico - Nodo costante nella funzione del nodo di Processore di valori](../../assets/extractValueResult2.png "Estrarre il valore nel grafico - Nodo costante nella funzione del nodo di Processore di valori"){zoomable="yes"}
 
 Nodo costante nella funzione del nodo di Processore di valori
 
@@ -192,12 +192,12 @@ Nodo costante nella funzione del nodo di Processore di valori
 </tr>
 </table>
 
-![Risultato dell&#39;estrazione del valore](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-13.png "Risultato dell&#39;estrazione del valore"){zoomable="yes"}
+![Risultato dell&#39;estrazione del valore](../../assets/extractValueResult.png "Risultato dell&#39;estrazione del valore"){zoomable="yes"}
 
 Risultato dell’estrazione del valore
 
 +++Dimostrazione
-![Estrarre valore dal grafico - Dimostrazione](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-14.gif "Estrarre valore dal grafico - Dimostrazione"){zoomable="yes"}
+![Estrarre valore dal grafico - Dimostrazione](../../assets/extractValueToGraph.gif "Estrarre valore dal grafico - Dimostrazione"){zoomable="yes"}
 
 
 

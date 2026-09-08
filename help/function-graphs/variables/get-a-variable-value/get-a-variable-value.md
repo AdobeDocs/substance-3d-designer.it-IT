@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/function-graphs/variables/get-a-variable-value.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables/get-a-variable-value.html"
 breadcrumb-title: ''
 description: Scopri come recuperare i valori delle variabili nei grafici delle funzioni di Substance 3D Designer utilizzando il nodo Ottieni variabile.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ottieni un valore di variabile
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
@@ -24,11 +24,11 @@ Per utilizzare una variabile in una funzione, è necessario &quot;chiamarla&quot
 
 A tale scopo, è necessario utilizzare un nodo *Get*:
 
-![](get-a-variable-value.resources/get-a-variable-value-01.png)
+![](../../../assets/image2015-12-21-7-29-51.png)
 
 Esistono diversi tipi di nodi Get: scegliere quello corretto in base al tipo di valore che si desidera importare:
 
-![](get-a-variable-value.resources/get-a-variable-value-02.png)
+![](../../../assets/image2015-12-21-7-31-4.png)
 
 ## Assegnare una variabile a un nodo Get
 
@@ -38,7 +38,7 @@ Per collegare una variabile, passare ai parametri e scegliere una variabile nell
 
 Il nome della variabile verrà visualizzato nel nodo:
 
-![](get-a-variable-value.resources/get-a-variable-value-03.gif)
+![](../../../assets/assign-getfloat.gif)
 
 Si noti che nell&#39;elenco verranno visualizzate solo le variabili appartenenti allo stesso tipo del nodo Get.
 

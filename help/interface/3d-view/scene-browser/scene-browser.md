@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/3d-view/scene-browser.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/scene-browser.html"
 breadcrumb-title: ''
 description: Utilizza l’Elenco scene per navigare e gestire elementi, materiali e oggetti della scena 3D nella finestra della vista.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Browser scene
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 1%
@@ -26,9 +26,9 @@ Offre controlli per la selezione degli oggetti, l&#39;attivazione della loro vis
 
 Poiché Designer utilizza [USD](https://openusd.org/release/index.html) per descrivere e gestire le scene, la terminologia e i concetti utilizzati sono disponibili nell&#39;albero delle scene.
 
-Viene visualizzato facendo clic sul relativo pulsante di attivazione/disattivazione dedicato ![](scene-browser.resources/scene-browser-01.png) nella barra degli strumenti [della scena della vista 3D](../../../interface/3d-view/3d-view.md).
+Viene visualizzato facendo clic sul relativo pulsante di attivazione/disattivazione dedicato ![](../../../assets/sceneBrowser-toggleButton.png) nella barra degli strumenti [della scena della vista 3D](../../../interface/3d-view/3d-view.md).
 
-![Browser scene - Scena 3D caricata](scene-browser.resources/scene-browser-02.png "Browser scene - Scena 3D caricata"){zoomable="yes"}
+![Browser scene - Scena 3D caricata](../../../assets/loaded3DScene.png "Browser scene - Scena 3D caricata"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -63,7 +63,7 @@ Gli oggetti sono associati ad altri oggetti, fino alla radice della scena. Un og
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Browser scene - Albero scene](scene-browser.resources/scene-browser-03.png "Browser scene - Albero scene"){zoomable="yes"}
+![Browser scene - Albero scene](../../../assets/sceneBrowser-sceneTree.png "Browser scene - Albero scene"){zoomable="yes"}
 
 </td>
 </tr>
@@ -92,7 +92,7 @@ Questi oggetti sono inclusi nella scena quando [viene esportato](../../../workin
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Browser scene - Oggetti aggiunti da Designer elencati in grassetto](scene-browser.resources/scene-browser-04.png "Browser scene - Oggetti aggiunti da Designer elencati in grassetto"){zoomable="yes"}
+![Browser scene - Oggetti aggiunti da Designer elencati in grassetto](../../../assets/sceneBrowser-addedByDesigner.png "Browser scene - Oggetti aggiunti da Designer elencati in grassetto"){zoomable="yes"}
 
 </td>
 </tr>
@@ -111,7 +111,7 @@ Qualsiasi oggetto può essere attivato e disattivato nella scena. Quando è disa
 
 Lo stato di un oggetto principale viene mantenuto sui relativi oggetti secondari, pertanto la disattivazione di un oggetto principale ne comporta anche la disattivazione.
 
-È possibile attivare o disattivare la visibilità di un oggetto facendo clic sul relativo pulsante a forma di occhio ![](scene-browser.resources/scene-browser-05.png) o dal relativo menu di scelta rapida. Il menu offre alcune azioni in più per la gestione della visibilità degli oggetti della scena:
+È possibile attivare o disattivare la visibilità di un oggetto facendo clic sul relativo pulsante a forma di occhio ![](../../../assets/sceneBrowser-eyeButton.png) o dal relativo menu di scelta rapida. Il menu offre alcune azioni in più per la gestione della visibilità degli oggetti della scena:
 
 * <b>Nascondi:</b> disabilita l&#39;oggetto selezionato.
 * <b>Mostra:</b> abilitare l&#39;oggetto selezionato.
@@ -128,7 +128,7 @@ Gli oggetti principali dispongono delle seguenti azioni aggiuntive:
 * <b>Espandere tutti gli elementi figlio:</b> Espandere tutti gli elenchi di elementi figlio sotto l&#39;oggetto selezionato in modo ricorsivo.
 * <b>Comprimi tutti i figli:</b> Comprime tutti gli elenchi di figli sotto l&#39;oggetto selezionato in modo ricorsivo.
 
-![Browser scene - Attivazione/disattivazione della visibilità degli oggetti](scene-browser.resources/scene-browser-06.gif "Browser scene - Attivazione/disattivazione della visibilità degli oggetti"){zoomable="yes"}
+![Browser scene - Attivazione/disattivazione della visibilità degli oggetti](../../../assets/sceneBrowser-toggleVisibility.gif "Browser scene - Attivazione/disattivazione della visibilità degli oggetti"){zoomable="yes"}
 
 ### Ambienti
 
@@ -138,13 +138,13 @@ Quando una luce ambiente è disattivata, anche il suo contributo di illuminazion
 
 Se sono abilitate più luci ambiente, i relativi contributi di illuminazione sono *aggiunti cumulativamente*.
 
-![Browser scene - Attivazione/disattivazione della visibilità dell&#39;ambiente](scene-browser.resources/scene-browser-07.gif "Browser scene - Attivazione/disattivazione della visibilità dell&#39;ambiente"){zoomable="yes"}
+![Browser scene - Attivazione/disattivazione della visibilità dell&#39;ambiente](../../../assets/sceneBrowser-toggleEnvLights.gif "Browser scene - Attivazione/disattivazione della visibilità dell&#39;ambiente"){zoomable="yes"}
 
 ### Luci
 
 Lo stesso vale per qualsiasi luce nella scena: ciascuna può essere attivata o disattivata singolarmente.
 
-![Browser scene - Attivazione/disattivazione della visibilità delle luci](scene-browser.resources/scene-browser-08.gif "Browser scene - Attivazione/disattivazione della visibilità delle luci"){zoomable="yes"}
+![Browser scene - Attivazione/disattivazione della visibilità delle luci](../../../assets/sceneBrowser-toggleLights.gif "Browser scene - Attivazione/disattivazione della visibilità delle luci"){zoomable="yes"}
 
 ## Materiali connessi
 
@@ -163,7 +163,7 @@ Un materiale sottoposto a override offre un elemento aggiuntivo nel relativo men
 </td>
 <td style="border: 0;" valign="top">
 
-![Browser scene - Materiale connesso](scene-browser.resources/scene-browser-09.png "Browser scene - Materiale connesso"){zoomable="yes"}
+![Browser scene - Materiale connesso](../../../assets/sceneBrowser-connectedMaterial.png "Browser scene - Materiale connesso"){zoomable="yes"}
 
 </td>
 </tr>

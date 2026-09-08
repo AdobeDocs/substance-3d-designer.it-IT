@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Iray
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '2151'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Iray
 
-Questa pagina presenta il modulo di rendering Iray disponibile nel pannello di visualizzazione 3D di [Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html), che offre la traccia dei percorsi interattiva per il rendering fotorealistico con accelerazione CPU e/o GPU (solo GPU Nvidia).
+Questa pagina presenta il modulo di rendering Iray disponibile nel pannello di visualizzazione 3D di [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html), che offre la traccia dei percorsi interattiva per il rendering fotorealistico con accelerazione CPU e/o GPU (solo GPU Nvidia).
 
 >[!WARNING]
 > 
@@ -39,7 +39,7 @@ Questa pagina presenta il modulo di rendering Iray disponibile nel pannello di v
 </td>
 <td style="border: 0;" valign="top">
 
-[![Logo NVIDIA Iray](iray.resources/iray-01.jpg)](https://www.nvidia.com/en-us/design-visualization/iray/)
+[![Logo NVIDIA Iray](../../../assets/iray-logo.jpg)](https://www.nvidia.com/en-us/design-visualization/iray/)
 
 </td>
 </tr>
@@ -62,7 +62,7 @@ Per ulteriori informazioni sull&#39;ottimizzazione di queste condizioni, consult
 </td>
 <td style="border: 0;" valign="top">
 
-![Materiale di muri del castello medievale reso in Iray](iray.resources/iray-02.png "Materiale di muri del castello medievale reso in Iray")
+![Materiale di muri del castello medievale reso in Iray](../../../assets/iray-overview.png "Materiale di muri del castello medievale reso in Iray")
 
 *Materiale: [Muro medievale del castello](https://oggyart.artstation.com/projects/Xnzx0a)* *di [Mark Foreman](https://www.artstation.com/oggyart)* *disponibile nelle [risorse Substance 3D](https://substance3d.adobe.com/assets)* *libreria*
 
@@ -104,7 +104,7 @@ Componente di visualizzazione della trama
 > Suddividendo la trama *si aumenta in modo esponenziale il tempo di elaborazione* prima e durante il rendering. Ti consigliamo di essere *conservatore* con i valori immessi.\
 > Fare attenzione a utilizzare valori *alti* **numeri** per il metodo Parametric e valori *bassi* **lunghezza minima** per il metodo Length.
 
-![Opzioni scena](iray.resources/iray-03.gif "Opzioni scena")
+![Opzioni scena](../../../assets/iray-scene-subdivision.gif "Opzioni scena")
 
 <a name="materials"></a>
 
@@ -137,7 +137,7 @@ Altre opzioni importanti in questo menu sono:
 </td>
 <td style="border: 0;" valign="top">
 
-![Menu Materiali](iray.resources/iray-04.png "Menu Materiali")
+![Menu Materiali](../../../assets/iray-mdl-list.png "Menu Materiali")
 
 </td>
 </tr>
@@ -158,7 +158,7 @@ Nelle proprietà della videocamera, quando è selezionato il modulo di rendering
 * <b>Distanza focale</b>: la distanza dalla fotocamera del punto focale, ovvero il punto in cui l&#39;immagine è più nitida
 * <b>Diametro apertura</b>: valore che determina l&#39;apertura della fotocamera. Più basso è il valore, più nitidi saranno gli elementi dell’immagine prima e dopo il punto focale: in termini più semplici, questo valore controlla l’intensità dell’effetto profondità di campo.
 
-![Impostazioni fotocamera](iray.resources/iray-05.png "Impostazioni fotocamera")
+![Impostazioni fotocamera](../../../assets/camera-dof.png "Impostazioni fotocamera")
 
 <a name="environment"></a>
 
@@ -170,7 +170,7 @@ Sono disponibili le seguenti proprietà:
 
 Cupola
 
-* <b>Tipo di cupola</b>: imposta gli oggetti che racchiudono la scena su cui viene proiettata la texture dell&#39;ambiente
+* <b>Tipo cupola</b>: imposta gli oggetti che racchiudono la scena su cui viene proiettata la texture dell’ambiente
   * *Sfera infinita*: ambiente sferico infinito
   * *Terra*: ambiente sferico infinito, ma con un piano terreno strutturato
   * *Sfera*: cupola a forma di sfera di dimensioni finite con raggio personalizzato
@@ -193,7 +193,7 @@ I seguenti parametri si applicano ai tipi di cupola *Ground*, *Sphere with groun
 * **Terra**: abilita il piano terreno
 * **Posizione**: la posizione dell&#39;origine della cupola finita (si applica anche al tipo di cupola *Sfera*)
 * **Riflettività**: opacità e tinta del riflesso di terra, dove il nero indica che il riflesso non è visibile
-* **Lucentezza**: la lucentezza del riflesso di terra
+* **Lucentezza**: la lucentezza della riflessione del terreno
 * **Intensità ombra**: opacità della dominante di ombra sul terreno
 * **Scala texture**: controlla le dimensioni della proiezione della texture dell&#39;ambiente sul terreno (si applica anche al tipo di cupola *Sfera*)
 
@@ -205,11 +205,11 @@ Di seguito è illustrato l’impatto di alcune di queste impostazioni:
 <table>
   <tr>
     <td>
-      <img src="iray.resources/iray-06.png" alt="Iray - Ambiente nascosto">
+      <img src="../../../assets/iray-environment-hidden.png" alt="Iray - Ambiente nascosto">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="iray.resources/iray-07.png" alt="Iray - Ambiente visibile">
+      <img src="../../../assets/iray-env-visible.png" alt="Iray - Ambiente visibile">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -217,9 +217,9 @@ Di seguito è illustrato l’impatto di alcune di queste impostazioni:
 
 
 
-![Iray - Ambiente nascosto](iray.resources/iray-06.png "Iray - Ambiente nascosto")
+![Iray - Ambiente nascosto](../../../assets/iray-environment-hidden.png "Iray - Ambiente nascosto")
 
-![Iray - Ambiente visibile](iray.resources/iray-07.png "Iray - Ambiente visibile")
+![Iray - Ambiente visibile](../../../assets/iray-env-visible.png "Iray - Ambiente visibile")
 
 +++
 
@@ -229,11 +229,11 @@ Di seguito è illustrato l’impatto di alcune di queste impostazioni:
 <table>
   <tr>
     <td>
-      <img src="iray.resources/iray-08.png" alt="Iray - Solo sfera infinita">
+      <img src="../../../assets/iray-env-infinite-sphere.png" alt="Iray - Solo sfera infinita">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="iray.resources/iray-09.png" alt="Iray - Sfera infinita con piano terreno">
+      <img src="../../../assets/iray-env-sphere-ground.png" alt="Iray - Sfera infinita con piano terreno">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -241,35 +241,35 @@ Di seguito è illustrato l’impatto di alcune di queste impostazioni:
 
 
 
-![Iray - Solo sfera infinita](iray.resources/iray-08.png "Iray - Solo sfera infinita")
+![Iray - Solo sfera infinita](../../../assets/iray-env-infinite-sphere.png "Iray - Solo sfera infinita")
 
-![Iray - Sfera infinita con piano terreno](iray.resources/iray-09.png "Iray - Sfera infinita con piano terreno")
+![Iray - Sfera infinita con piano terreno](../../../assets/iray-env-sphere-ground.png "Iray - Sfera infinita con piano terreno")
 
 +++
 
 +++Ruota l&#39;ambiente
-![Ruotare l&#39;ambiente](iray.resources/iray-10.gif "Ruotare l&#39;ambiente")
+![Ruotare l&#39;ambiente](../../../assets/iray-env-rotation.gif "Ruotare l&#39;ambiente")
 
 
 
 +++
 
 +++Regola piano terreno
-![Riflesso terreno](iray.resources/iray-11.gif "Riflesso terreno")
+![Riflesso terreno](../../../assets/iray-env-ground-options.gif "Riflesso terreno")
 
 
 
 +++
 
 +++Regola sfera infinita
-![Scala ambiente (sfera)](iray.resources/iray-12.gif "Scala ambiente (sfera)")
+![Scala ambiente (sfera)](../../../assets/iray-env-sphere-radius.gif "Scala ambiente (sfera)")
 
 
 
 +++
 
 +++Regola casella di selezione
-![Scala ambiente (cubo)](iray.resources/iray-13.gif "Scala ambiente (cubo)")
+![Scala ambiente (cubo)](../../../assets/iray-env-box-dimensions.gif "Scala ambiente (cubo)")
 
 
 
@@ -287,7 +287,7 @@ Queste opzioni visualizzano una *sovrapposizione di testo* sopra l’immagine so
 * <b>Risoluzione</b>: risoluzione effettiva del rendering. Se l’opzione Usa risoluzione finestra nelle proprietà della fotocamera è impostata su False, il rapporto dell’immagine viene regolato automaticamente in modo che corrisponda al rapporto di risoluzione.
 * <b>Statistiche scena</b>: elenco di statistiche relative alla scena sottoposta a rendering, che include il conteggio dei triangoli e dei materiali tra gli altri dati.
 
-![Opzioni di visualizzazione](iray.resources/iray-14.png "Opzioni di visualizzazione"){width="512px"}
+![Opzioni di visualizzazione](../../../assets/iray-display-data.png "Opzioni di visualizzazione"){width="512px"}
 
 <a name="renderer"></a>
 
@@ -316,11 +316,11 @@ L’impatto di alcune di queste impostazioni è dimostrato dai confronti tra le 
 <table>
   <tr>
     <td>
-      <img src="iray.resources/iray-15.png" alt="Iray - Rendering di base">
+      <img src="../../../assets/iray-renderer-none.png" alt="Iray - Rendering di base">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="iray.resources/iray-16.png" alt="Iray - Campionatore caustico abilitato">
+      <img src="../../../assets/iray-renderer-caustics.png" alt="Iray - Campionatore caustico abilitato">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -328,9 +328,9 @@ L’impatto di alcune di queste impostazioni è dimostrato dai confronti tra le 
 
 
 
-![Iray - Rendering di base](iray.resources/iray-15.png "Iray - Rendering di base")
+![Iray - Rendering di base](../../../assets/iray-renderer-none.png "Iray - Rendering di base")
 
-![Iray - Campionatore caustico abilitato](iray.resources/iray-16.png "Iray - Campionatore caustico abilitato")
+![Iray - Campionatore caustico abilitato](../../../assets/iray-renderer-caustics.png "Iray - Campionatore caustico abilitato")
 
 +++
 
@@ -340,11 +340,11 @@ L’impatto di alcune di queste impostazioni è dimostrato dai confronti tra le 
 <table>
   <tr>
     <td>
-      <img src="iray.resources/iray-16.png" alt="Iray - Filtro Firefly disattivato">
+      <img src="../../../assets/iray-renderer-caustics.png" alt="Iray - Filtro Firefly disattivato">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="iray.resources/iray-17.png" alt="Iray - Filtro Firefly abilitato">
+      <img src="../../../assets/iray-renderer-caustics-fireflies.png" alt="Iray - Filtro Firefly abilitato">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -352,9 +352,9 @@ L’impatto di alcune di queste impostazioni è dimostrato dai confronti tra le 
 
 
 
-![Iray - Filtro Firefly disabilitato](iray.resources/iray-16.png "Iray - Filtro Firefly disabilitato")
+![Iray - Filtro Firefly disabilitato](../../../assets/iray-renderer-caustics.png "Iray - Filtro Firefly disabilitato")
 
-![Iray - Filtro Firefly abilitato](iray.resources/iray-17.png "Iray - Filtro Firefly abilitato")
+![Iray - Filtro Firefly abilitato](../../../assets/iray-renderer-caustics-fireflies.png "Iray - Filtro Firefly abilitato")
 
 +++
 
@@ -364,11 +364,11 @@ L’impatto di alcune di queste impostazioni è dimostrato dai confronti tra le 
 <table>
   <tr>
     <td>
-      <img src="iray.resources/iray-17.png" alt="Iray - Post-denoiser disabilitato">
+      <img src="../../../assets/iray-renderer-caustics-fireflies.png" alt="Iray - Post-denoiser disabilitato">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="iray.resources/iray-18.png" alt="Iray - Post-denoiser abilitato">
+      <img src="../../../assets/iray-renderer-caustics-fireflies-denoiser-180.png" alt="Iray - Post-denoiser abilitato">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -376,9 +376,9 @@ L’impatto di alcune di queste impostazioni è dimostrato dai confronti tra le 
 
 
 
-![Iray - Post-denoiser disabilitato](iray.resources/iray-17.png "Iray - Post-denoiser disabilitato")
+![Iray - Post-denoiser disabilitato](../../../assets/iray-renderer-caustics-fireflies.png "Iray - Post-denoiser disabilitato")
 
-![Iray - Post-denoiser abilitato](iray.resources/iray-18.png "Iray - Post-denoiser abilitato")
+![Iray - Post-denoiser abilitato](../../../assets/iray-renderer-caustics-fireflies-denoiser-180.png "Iray - Post-denoiser abilitato")
 
 +++
 
@@ -404,4 +404,4 @@ Quando viene rilevata una GPU supportata, questa viene elencata in questa sezion
 > L’accelerazione hardware GPU utilizza la tecnologia [NVIDIA CUDA](https://developer.nvidia.com/cuda-zone). Assicuratevi che il driver di grafica *sia aggiornato* per la migliore compatibilità e affidabilità. Trova il driver più recente per la tua GPU NVIDIA [qui](https://www.nvidia.com/Download/index.aspx?lang=en-us).\
 > Per le configurazioni con più GPU, si consiglia di *disattivare SLI* e selezionare una sola GPU per una migliore affidabilità.
 
-![Preferenze Iray](iray.resources/iray-19.png "Preferenze Iray")
+![Preferenze Iray](../../../assets/iray-preferences-hardware.png "Preferenze Iray")

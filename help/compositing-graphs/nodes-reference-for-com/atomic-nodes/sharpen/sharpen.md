@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/sharpen.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/sharpen.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Nitidezza per migliorare i dettagli e i bordi della texture e creare dettagli di superficie nitidi e definiti.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Nitidezza
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo contrasta](sharpen.resources/sharpen-01.png "Icona nodo contrasta")
+![Icona nodo contrasta](../../../../assets/sharpen-4.png "Icona nodo contrasta")
 
 <b>In:</b> Nodi Atomici
 
@@ -39,7 +39,7 @@ Il nodo Nitidezza esegue un&#39;operazione di nitidezza su un input. È un nodo 
 </tr>
 </table>
 
-È matematicamente molto simile alla Maschera di contrasto di Photoshop, nonostante il nome sia diverso. Funziona bene per cose come una mappa Basecolor, ma dovrebbe essere evitata su mappe come Mappe normali e mappe Metallic.
+È matematicamente molto simile alla Maschera di contrasto di Photoshop, nonostante il nome sia diverso. Funziona bene per cose come una mappa Basecolor, ma dovrebbe essere evitata su mappe come Normal e Metallic.
 
 ## Input
 
@@ -48,12 +48,12 @@ L&#39;immagine da rendere più nitida.
 
 ## Parametri
 
-<b>Intensità</b> *Virgola mobile*\
+<b>Intensità</b> *Mobile*\
 Consente di impostare l’intensità dell’effetto nitidezza.
 
 <b>Alpha Punchthrough</b> *Booleano* (disponibile quando un&#39;immagine a colori è collegata all&#39;<b>Input</b>)\
-Determina se il canale alfa dell&#39;immagine deve essere reso più nitido o lasciato inalterato.
+Determina se il canale alfa dell’immagine deve essere reso più nitido o lasciato inalterato.
 
 ## Esempi
 
-![Nodo Sharpen - Esempio 1](sharpen.resources/sharpen-02.png "Nodo Sharpen - Esempio 1")
+![Nodo Sharpen - Esempio 1](../../../../assets/sharpen-ex.png "Nodo Sharpen - Esempio 1")
