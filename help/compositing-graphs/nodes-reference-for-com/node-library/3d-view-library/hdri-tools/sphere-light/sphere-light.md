@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/sphere-light.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/sphere-light.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Luce sfera per aggiungere sorgenti di luce sferica agli ambienti HDRI per un migliore controllo dell’illuminazione.
 helpx_creative_field: ""
