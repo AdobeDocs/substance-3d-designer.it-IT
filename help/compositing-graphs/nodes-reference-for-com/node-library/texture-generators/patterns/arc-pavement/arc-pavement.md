@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/arc-pavement.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/arc-pavement.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Padiglione arco per generare pattern di pavimentazione a forma di arco per la creazione di texture di strade e tracciati curvi.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/alveolus.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/alveolus.html"
 breadcrumb-title: ''
 description: Usa il nodo Alveolo per generare pattern cellulari simili a nido d’ape per creare effetti di texture organici e geometrici.
 helpx_creative_field: ""

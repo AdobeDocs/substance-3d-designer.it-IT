@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gaussian-2.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gaussian-2.html"
 breadcrumb-title: ''
 description: Utilizzare il nodo Gaussiano 2 per generare modelli di disturbo gaussiano avanzati con proprietà di distribuzione personalizzabili.
 helpx_creative_field: ""
