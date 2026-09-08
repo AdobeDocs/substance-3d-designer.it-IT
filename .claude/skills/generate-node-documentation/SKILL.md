@@ -1,7 +1,7 @@
 ---
 name: generate-node-documentation
 description: ""
-source-git-commit: 69f546a26d2e09127b1c79ef4003e235536289da
+source-git-commit: 475af5f27b827f66289993dbd8367904c1baf42b
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 4%
@@ -26,7 +26,7 @@ lint gotchas) segui l’abilità `write-experience-league-markdown`.
   `.../node-library/<category>/<subcategory>/<node-name>/<node-name>.md`.
 * La cartella è denominata come titolo del nodo kebab-case. Contiene **un** file `.md`
 con lo stesso nome.
-* Tutti i file multimediali incorporati per la pagina (icona, ad esempio immagini, GIF) sono contenuti in un elemento di pari livello **&#x200B;  `<node-name>.resources/` cartella &#x200B;** accanto a `.md` e a cui viene fatto riferimento con un
+* Tutti i file multimediali incorporati per la pagina (icona, ad esempio immagini, GIF) sono contenuti in un elemento di pari livello **  `<node-name>.resources/` cartella **accanto a `.md` e a cui viene fatto riferimento con un
   percorso relativo (ad esempio `<node-name>.resources/<file>.png`). Non puntare le pagine del nodo a
   la cartella `help/assets/` condivisa, ovvero un modello legacy in fase di eliminazione; nuovo e
   le pagine modificate utilizzano la propria cartella `.resources`.
