@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-circle.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-circle.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Cerchio spline (Spline Circle) per creare spline circolari per generare pattern e forme arrotondate.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Cerchio spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo](spline-circle.resources/spline-circle-01.png "Icona nodo")
+![Icona nodo](../../../../../../assets/spline-circle-icon.png "Icona nodo")
 
 <b>In:</b> Strumenti Spline E Tracciati > Strumenti spline
 
@@ -96,12 +96,12 @@ Genera una singola spline a forma di cerchio.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 1](spline-circle.resources/spline-circle-02.jpg "Esempio di nodo 1")
+![Esempio di nodo 1](../../../../../../assets/SplineCircle-Variant1.jpg "Esempio di nodo 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 2](spline-circle.resources/spline-circle-03.gif "Esempio di nodo 2")
+![Esempio di nodo 2](../../../../../../assets/SplineCircle-Demo.gif "Esempio di nodo 2")
 
 </td>
 </tr>
@@ -111,12 +111,12 @@ Genera una singola spline a forma di cerchio.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Esempio 3](spline-circle.resources/spline-circle-04.jpg "Esempio 3")
+![Esempio 3](../../../../../../assets/SplineCircle-Variant2.jpg "Esempio 3")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Esempio 4](spline-circle.resources/spline-circle-05.jpg "Esempio 4")
+![Esempio 4](../../../../../../assets/SplineCircle-Variant3.jpg "Esempio 4")
 
 </td>
 </tr>

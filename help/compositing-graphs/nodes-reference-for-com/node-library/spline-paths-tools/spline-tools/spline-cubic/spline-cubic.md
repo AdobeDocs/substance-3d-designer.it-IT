@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-cubic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-cubic.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Spline Cubic per creare spline cubiche uniformi con quattro punti di controllo per tracciati curvi.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline (Cubic)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo](spline-cubic.resources/spline-cubic-01.png "Icona nodo")
+![Icona nodo](../../../../../../assets/spline-cubic-icon.png "Icona nodo")
 
 <b>In:</b> Strumenti Spline E Tracciati > Strumenti spline
 
@@ -79,8 +79,8 @@ La traiettoria della spline è controllata dalla tangente &quot;out&quot; di <b>
 | <b>p1 Height tangente</b> <i>Virgola mobile</i> (disponibile quando &#39;Height tangente automatico&#39; è True) | Regola il height della tangente &quot;out&quot; del punto p1 in cui un valore inferiore indica una posizione più bassa o più profonda. Questo influisce sul height lungo la spline quando si allontana da p1. |
 | <b>Height tangente p2</b> <i>Virgola mobile</i> (disponibile quando &#39;Height tangente automatico&#39; è True) | Regola il height della tangente &quot;in&quot; del punto p2 in cui un valore inferiore indica una posizione più bassa o più profonda. Questo influisce sul height lungo la spline quando si allontana da p2. |
 | <b>Thickness</b> |  |
-| <b>Inizia Thickness</b> <i>Virgola mobile</i> | Regola il thickness del punto p1. Questo influisce sul thickness della spline a p1.<br>Nota: il Thickness viene utilizzato da nodi della spline specifici. |
-| <b>Fine Thickness</b> <i>Virgola mobile</i> | Regola il thickness del punto p2. Questo influisce sul thickness della spline a p2.<br>Nota: il Thickness viene utilizzato da nodi della spline specifici. |
+| <b>Inizia Thickness</b> <i>Mobile</i> | Regola il thickness del punto p1. Questo influisce sul thickness della spline a p1.<br>Nota: il Thickness viene utilizzato da nodi della spline specifici. |
+| <b>Fine Thickness</b> <i>Mobile</i> | Regola il thickness del punto p2. Questo influisce sul thickness della spline a p2.<br>Nota: il Thickness viene utilizzato da nodi della spline specifici. |
 | <b>Thickness tangente automatico</b> <i>Booleano</i> | Imposta automaticamente il thickness delle tangenti della spline per l&#39;interpolazione lineare dal Thickness iniziale al Thickness finale.<br>Nota: il Thickness viene utilizzato da nodi della spline specifici. |
 | <b>p1 Thickness tangente</b> <i>Virgola mobile</i> (disponibile quando &#39;Thickness tangente automatico&#39; è True) | Regola il thickness della tangente &#39;out&#39; del punto p1. Questo influisce sul thickness lungo la spline mentre si allontana da p1.<br>Nota: il Thickness viene utilizzato da nodi della spline specifici. |
 | <b>Thickness tangente p2</b> <i>Virgola mobile</i> (disponibile quando &#39;Thickness tangente automatico&#39; è True) | Regola il thickness della tangente &quot;in&quot; del punto p2. Questo influisce sul thickness lungo la spline mentre si allontana da p2.<br>Nota: il Thickness viene utilizzato da nodi della spline specifici. |
@@ -101,12 +101,12 @@ La traiettoria della spline è controllata dalla tangente &quot;out&quot; di <b>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 1](spline-cubic.resources/spline-cubic-02.jpg "Esempio di nodo 1")
+![Esempio di nodo 1](../../../../../../assets/SplineCubic-Variant1.jpg "Esempio di nodo 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 2](spline-cubic.resources/spline-cubic-03.jpg "Esempio di nodo 2")
+![Esempio di nodo 2](../../../../../../assets/SplineCubic-Variant2.jpg "Esempio di nodo 2")
 
 </td>
 </tr>
@@ -116,7 +116,7 @@ La traiettoria della spline è controllata dalla tangente &quot;out&quot; di <b>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 3](spline-cubic.resources/spline-cubic-04.gif "Esempio di nodo 3")
+![Esempio di nodo 3](../../../../../../assets/SplineCubic-Demo.gif "Esempio di nodo 3")
 
 </td>
 <td style="border: 0;" valign="top">

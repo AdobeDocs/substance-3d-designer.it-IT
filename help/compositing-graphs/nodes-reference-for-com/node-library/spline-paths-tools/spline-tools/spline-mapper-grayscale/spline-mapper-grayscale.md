@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-grayscale.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Spline Mapper Scala di grigio per mappare le texture in scala di grigio lungo i tracciati spline con parametri personalizzabili.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mappatura spline in scala di grigi
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '1120'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo](spline-mapper-grayscale.resources/spline-mapper-grayscale-01.png "Icona nodo")
+![Icona nodo](../../../../../../assets/spline-mapper-grayscale-icon.png "Icona nodo")
 
 <b>In:</b> Strumenti Spline E Tracciati > Strumenti spline
 
@@ -83,12 +83,12 @@ Il nodo genera l&#39;immagine mappata come immagine in scala di grigio, nonché 
 |:---|:---|
 | <b>Importo segmenti</b> <i>Numero intero</i> | Le spline vengono semplificate in segmenti prima che le coordinate dell&#39;immagine le attraversino.<br>Una quantità maggiore di segmenti determina una mappatura più fluida lungo le curve. |
 | <b>Scala automatica UV</b> <i>Booleano</i> | Regola automaticamente la scala delle coordinate in modo da mantenere un&#39;immagine quadrata durante la mappatura lungo le spline. |
-| <b>Scala UV</b> <i>Float2</i> | Regola la scala delle coordinate mappate in X (orizzontale) e Y (verticale).<br>Valori più alti generano un&#39;immagine con una maggiore densità di porzioni. |
+| <b>Scala UV</b> <i>Virgola mobile 2</i> | Regola la scala delle coordinate mappate in X (orizzontale) e Y (verticale).<br>Valori più alti generano un&#39;immagine con una maggiore densità di porzioni. |
 | <b>Modalità</b> <i>Numero intero</i> | Metodo di selezione delle spline lungo le quali deve essere eseguito il mapping dell&#39;immagine:<br>- <i>Disegna elenco spline</i>: vengono utilizzate tutte le spline dell&#39;elenco di input;<br>- <i>Disegna spline singola</i>: viene utilizzata solo la spline con l&#39;indice specificato;<br>- <i>Disegna intervallo spline</i>: vengono utilizzate solo le spline che contengono l&#39;indice nell&#39;intervallo specificato. |
 | <b>Disegna indice spline</b> <i>Numero intero</i> | (Disponibile quando Metodo è impostato su Disegna singola spline) Indice della spline lungo la quale deve essere mappata l&#39;immagine. |
 | <b>Disegna intervallo spline</b> <i>Intero2</i> | (Disponibile quando Metodo è impostato su Disegna intervallo spline) Intervallo di indici per le spline lungo le quali deve essere mappata l&#39;immagine. |
-| <b>Inizio</b> <i>Mobile</i> | Sposta l&#39;inizio della porzione della spline da mappare.<br>Il valore rappresenta la lunghezza normalizzata della spline. |
-| <b>Fine</b> <i>Mobile</i> | Sposta l&#39;estremità della porzione della spline da mappare.<br>Il valore rappresenta la lunghezza normalizzata della spline. |
+| <b>Inizio</b> <i>Virgola mobile</i> | Sposta l&#39;inizio della porzione della spline da mappare.<br>Il valore rappresenta la lunghezza normalizzata della spline. |
+| <b>Fine</b> <i>Virgola mobile</i> | Sposta l&#39;estremità della porzione della spline da mappare.<br>Il valore rappresenta la lunghezza normalizzata della spline. |
 | <b>Modalità Thickness</b> <i>Numero intero</i> | Metodo di impostazione del thickness dell&#39;immagine mappata:<br>- <i>Manuale</i>: impostare il thickness in modo esplicito con un valore arbitrario;<br>- <i>Da spline</i>: utilizzare il thickness della spline. |
 | <b>Thickness</b> <i>Mobile</i> | (Disponibile quando &quot;Modalità Thickness&quot; è impostato su &quot;Manuale&quot;) Valore arbitrario per il thickness dell&#39;immagine mappata lungo le spline. |
 | <b>Moltiplicatore Thickness</b> <i>Mobile</i> | (Disponibile quando &quot;Modalità Thickness&quot; è impostato su &quot;Da spline&quot;) Moltiplicatore globale per il thickness dell&#39;immagine mappata lungo le spline, quando tale thickness è guidato da quello delle spline. |
@@ -111,11 +111,11 @@ Il nodo genera l&#39;immagine mappata come immagine in scala di grigio, nonché 
 <table>
   <tr>
     <td>
-      <img src="spline-mapper-grayscale.resources/spline-mapper-grayscale-02.jpg" alt="SplineMapperColor-Variant1-Before">
+      <img src="../../../../../../assets/SplineMapperColor-Variant1-Before.jpg" alt="SplineMapperColor-Variant1-Before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="spline-mapper-grayscale.resources/spline-mapper-grayscale-03.jpg" alt="SplineMapperGrayscale-Variant1-After">
+      <img src="../../../../../../assets/SplineMapperGrayscale-Variant1-After.jpg" alt="SplineMapperGrayscale-Variant1-After">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -124,7 +124,7 @@ Il nodo genera l&#39;immagine mappata come immagine in scala di grigio, nonché 
 </td>
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 2](spline-mapper-grayscale.resources/spline-mapper-grayscale-04.gif "Esempio di nodo 2")
+![Esempio di nodo 2](../../../../../../assets/SplineMapperGrayscale-Demo.gif "Esempio di nodo 2")
 
 </td>
 </tr>
@@ -134,7 +134,7 @@ Il nodo genera l&#39;immagine mappata come immagine in scala di grigio, nonché 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 3](spline-mapper-grayscale.resources/spline-mapper-grayscale-05.jpg "Esempio di nodo 3")
+![Esempio di nodo 3](../../../../../../assets/SplineMapperGrayscale-Variant1-After1.jpg "Esempio di nodo 3")
 
 </td>
 <td style="border: 0;" valign="top">

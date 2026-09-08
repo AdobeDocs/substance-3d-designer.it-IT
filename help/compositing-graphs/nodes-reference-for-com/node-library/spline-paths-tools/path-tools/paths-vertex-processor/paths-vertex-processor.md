@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-vertex-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-vertex-processor.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo Processore vertici tracciati per trasformare e manipolare i vertici dei tracciati con opzioni avanzate.
+description: Utilizzate il nodo Processore vertici tracciati per Trasforma e manipolare i vertici dei tracciati con opzioni avanzate.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Paths Vertex Processor
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Processore vertici tracciati
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo](paths-vertex-processor.resources/paths-vertex-processor-01.png "Icona nodo")
+![Icona nodo](../../../../../../assets/paths-vertex-processor-icon.png "Icona nodo")
 
 <b>In:</b> Strumenti spline e tracciati > Strumenti tracciato
 
@@ -73,7 +73,7 @@ Puoi anche accedere alle variabili *prev[2].pos* (Virgola mobile 2), *next[2].po
 
 |  |  |
 |:---|:---|
-| <b>Tracciati</b> <i>Colore</i> | I Tracciati Trasforma. Potete utilizzare [Anteprima tracciati](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) per avere un&#39;idea di ciò che rappresenta il risultato, utilizzare un altro nodo di elaborazione tracciati o inserirlo in un [Tracciati da spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) per elaborarlo ulteriormente come spline. |
+| <b>Tracciati</b> <i>Colore</i> | I tracciati trasformati. Potete utilizzare [Anteprima tracciati](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) per avere un&#39;idea di ciò che rappresenta il risultato, utilizzare un altro nodo di elaborazione tracciati o inserirlo in un [Tracciati da spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) per elaborarlo ulteriormente come spline. |
 
 <a name="parameters"></a>
 
@@ -84,7 +84,7 @@ Puoi anche accedere alle variabili *prev[2].pos* (Virgola mobile 2), *next[2].po
 | <b>Vertici precedenti utilizzati</b> <i>Numero intero</i> | L&#39;utilizzo di questo parametro consente di ottenere la posizione del vertice precedente lungo il percorso (*prev.pos*) e il vertice precedente (*prev[2].pos*) utilizzando i nodi <b>Get</b> nella funzione del parametro <b>Per vertex function</b>. |
 | <b>Vertici successivi utilizzati</b> <i>Numero intero</i> | L&#39;utilizzo di questo parametro consente di ottenere la posizione del vertice seguente lungo il percorso (*next.pos*) e il vertice successivo (*next[2].pos*) utilizzando i nodi <b>Get</b> nella funzione del parametro <b>Per vertex function</b>. |
 | <b>Conteggio input immagine</b> <i>Numero intero</i> | Numero di connettori di input <b>Input n. </b> visibili per connettere le immagini da campionare nella funzione parametro <b>Per vertex function</b>.<br>Una volta impostati tutti i campioni desiderati, è possibile nascondere i segnaposti inutilizzati riducendo nuovamente il valore di questo parametro su 0. |
-| <b>Per vertex function</b> <i>Virgola mobile 2</i> | Funzione applicata a ciascun vertice. Deve restituire la nuova posizione del vertice.<br>Consulta la sezione <b>Descrizione</b> di questa pagina per indicazioni. |
+| <b>Per vertex function</b> <i>Float2</i> | Funzione applicata a ciascun vertice. Deve restituire la nuova posizione del vertice.<br>Consulta la sezione <b>Descrizione</b> di questa pagina per indicazioni. |
 
 ## Esempi
 
@@ -92,7 +92,7 @@ Puoi anche accedere alle variabili *prev[2].pos* (Virgola mobile 2), *next[2].po
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 2](paths-vertex-processor.resources/paths-vertex-processor-02.gif "Esempio di nodo 2")
+![Esempio di nodo 2](../../../../../../assets/PathsVertexProcessor-Demo2.gif "Esempio di nodo 2")
 
 </td>
 <td style="border: 0;" valign="top">

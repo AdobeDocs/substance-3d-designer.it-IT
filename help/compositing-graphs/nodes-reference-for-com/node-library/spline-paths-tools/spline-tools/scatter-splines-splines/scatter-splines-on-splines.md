@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-splines-on-splines.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-splines-on-splines.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Dispersione spline su spline per distribuire spline figlio lungo tracciati spline padre.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Dispersione spline su spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '2832'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Dispersione spline su spline: icona](scatter-splines-on-splines.resources/scatter-splines-on-splines-01.png "Dispersione spline su spline: icona")
+![Dispersione spline su spline: icona](../../../../../../assets/scatter-splines-on-splines-icon.png "Dispersione spline su spline: icona")
 
 <b>In:</b> Strumenti Spline E Tracciati > Strumenti spline
 
@@ -54,7 +54,7 @@ Fare clic sull&#39;immagine a destra per accedere al nostro <b>tutorial dedicato
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nodi spline video](scatter-splines-on-splines.resources/scatter-splines-on-splines-02.png)](https://youtu.be/aUUWV1dYQdI)
+[![Nodi spline video](../../../../../../assets/video_spline.png)](https://youtu.be/aUUWV1dYQdI)
 
 </td>
 </tr>
@@ -115,7 +115,7 @@ Fare clic sull&#39;immagine a destra per accedere al nostro <b>tutorial dedicato
 | <b>Modalità campionamento input mappa scala</b> *Numero intero* | Metodo di mappatura dei valori nella <b>mappa scala</b> alle spline:<br><br>- <b>spazio Texture</b> I valori vengono applicati alle spline in cui si troverebbero se inseriti in una texture utilizzando le coordinate UV della texture. In questo modo il valore viene applicato alle spline &#39;in posizione&#39;<br>- <b>Orizzontale lungo la spline</b> I valori vengono applicati direttamente alle coordinate delle spline codificate (vedere l&#39;<b>input delle spline</b>), in cui ogni riga viene applicata a una spline diversa dall&#39;alto verso il basso<br>- <b>Ora. lungo spline (rand. offset X)</b> I valori vengono applicati direttamente alle coordinate delle spline codificate (vedere l&#39;input <b>Coord spline</b>), con uno scostamento orizzontale casuale nella <b>Mappa scala</b> per ogni spline (ovvero ogni riga in <b>Coord spline</b>)<br>- <b>Hor. lungo spline (rand. offset Y)</b> I valori vengono applicati direttamente alle coordinate delle spline codificate (vedere l&#39;input <b>Coord spline</b>), con uno scostamento verticale casuale nella <b>Mappa scala</b> per ogni spline (ad esempio, ogni riga in <b>Coord spline</b>) |
 | <b>Attenuazione inizio/fine</b> *Float2* | Fattori nella distanza dal punto medio della spline al suo <b>Inizio</b> e <b>Fine</b> durante il ridimensionamento delle spline.<br>Questo significa che le dimensioni vengono ridotte per le spline più vicine alle estremità di una spline. |
 | <b>Posizione</b> |  |
-| <b>Offset locale</b> *Virgola mobile 2* | Applica uno scostamento alle posizioni delle spline lungo la tangente (parallela) e la normale (perpendicolare) della spline padre. |
+| <b>Offset locale</b> *Float2* | Applica uno scostamento alle posizioni delle spline lungo la tangente (parallela) e la normale (perpendicolare) della spline padre. |
 | <b>Scostamento su intervallo spline</b> *Numero intero* | Imposta l&#39;intervallo di offset applicato alle spline sparse lungo le spline padre.<br><br>- <b>Intervallo</b> L&#39;intervallo si estende *tra* ogni spline sparsa.<br>- <b>Spline padre</b> L&#39;intervallo si estende per *tutta la lunghezza* della spline padre. |
 | <b>Scostamento sulla spline</b> *Mobile* | Applica uno scostamento di posizione alle spline lungo le spline padre. |
 | <b>Intervallo scostamento casuale</b> *Numero intero* | Imposta l&#39;intervallo di scostamento casuale applicato alle spline sparse lungo le spline padre.<br><br>- <b>Intervallo</b> L&#39;intervallo si estende *tra* ogni spline sparsa.<br>- <b>Spline padre</b> L&#39;intervallo si estende per *tutta la lunghezza* della spline padre. |
@@ -124,37 +124,37 @@ Fare clic sull&#39;immagine a destra per accedere al nostro <b>tutorial dedicato
 | <b>Rotazione</b> |  |
 | <b>Allineamento spline personalizzato</b> *Numero intero* | Controlla l&#39;orientamento iniziale delle spline personalizzate sulle spline padre.<br><br>- <b>Tangente primo punto</b> Le spline sono orientate in base alla tangente del primo punto. In altre parole, si allontanano dalle spline padre nella direzione impostata dal primo punto.<br>- <b>Spazio immagine</b> Le spline vengono posizionate come appaiono in origine, senza ulteriori regolazioni alla loro posizione o orientamento, come se l&#39;immagine che le rappresenta fosse appoggiata sulla spline padre. |
 | <b>Modalità di rotazione</b> *Numero intero* | Imposta l&#39;orientamento iniziale delle spline sparse.<br><br>- <b>Dalla spline</b> Le spline sono orientate in modo che corrispondano alla *normale* delle spline padre nella loro posizione.<br>- <b>Assoluto</b> Le spline sono orientate tutte *allo stesso modo*, indipendentemente dalla direzione delle spline padre. |
-| <b>Rotazione</b> *Virgola mobile* | Ruota le spline attorno ai loro perni, in numero di giri. È possibile spostare la posizione dei punti cardini utilizzando il parametro <b>Spline Pivot</b>. |
-| <b>Rotazione casuale</b> *Virgola mobile* | Applica una rotazione casuale aggiuntiva alle spline attorno ai loro perni, in numero di giri. È possibile spostare la posizione dei punti cardini utilizzando il parametro <b>Spline Pivot</b>. |
-| <b>Angolo sinistro/destro</b> *Virgola mobile* | Controlla l&#39;angolo di rotazione simmetrica applicato alle spline su ciascun lato delle spline padre, in numero di giri. |
+| <b>Rotazione</b> *Mobile* | Ruota le spline attorno ai loro perni, in numero di giri. È possibile spostare la posizione dei punti cardini utilizzando il parametro <b>Spline Pivot</b>. |
+| <b>Rotazione casuale</b> *Mobile* | Applica una rotazione casuale aggiuntiva alle spline attorno ai loro perni, in numero di giri. È possibile spostare la posizione dei punti cardini utilizzando il parametro <b>Spline Pivot</b>. |
+| <b>Angolo sinistro/destro</b> *Mobile* | Controlla l&#39;angolo di rotazione simmetrica applicato alle spline su ciascun lato delle spline padre, in numero di giri. |
 | <b>Angolo sinistro/destro casuale</b> *Mobile* | Aggiunge una quantità casuale di rotazione simmetrica alle spline su ciascun lato delle spline padre, in numero di giri. |
 | <b>Moltiplicatore di input Mappa di rotazione</b> *Mobile* | Controlla l&#39;intensità dell&#39;input <b>Mappe di rotazione</b>. Questa mappa funge da moltiplicatore per la rotazione corrente dei pattern.<br>L&#39;effetto di questa mappa è combinato con gli altri parametri nel gruppo <b>Rotazione</b>. |
 | <b>Modalità campionamento input Mappa di rotazione</b> *Numero intero* | Metodo di mappatura dei valori nella <b>Mappa di rotazione</b> alle spline:<br><br>- <b>spazio Texture</b> I valori vengono applicati alle spline in cui si troverebbero se inseriti in una texture utilizzando le coordinate UV della texture. In questo modo il valore viene applicato alle spline &#39;in posizione&#39;,<br>- <b>Orizzontale lungo la spline</b> I valori vengono applicati direttamente alle coordinate delle spline codificate (vedere l&#39;<b>input delle spine</b>), in cui ogni riga viene applicata a una spline diversa dall&#39;alto verso il basso,<br>- <b>Hor. lungo spline (rand. offset X)</b> I valori vengono applicati direttamente alle coordinate delle spline codificate (vedere l&#39;input <b>Spline Coords</b>), con uno scostamento orizzontale casuale nella <b>Mappa di rotazione</b> per ogni spline (ovvero ogni riga in <b>Spline Coords</b>).<br>- <b>Ora. lungo spline (rand. offset Y)</b> I valori vengono applicati direttamente alle coordinate delle spline codificate (vedere l&#39;input <b>Spline Coords</b>), con uno scostamento verticale casuale nella <b>Mappa di rotazione</b> per ogni spline (ovvero ogni riga in <b>Spline Coords</b>)<b>.</b> |
 | <b>L&#39;input Mappa di rotazione ha effetto</b> *Numero intero* | Seleziona il parametro di rotazione interessato dalla <b>Mappa di rotazione</b>:<br><br>- <b>Rotazione spline</b> La mappa influisce sulla rotazione globale delle spline in senso orario.<br>- <b>Angolo sinistro/destro</b> La mappa influisce sulla rotazione simmetrica delle spline <b>Sinistra/Destra</b>. |
 | <b>Height</b> |  |
 | <b>Avvia modalità Height</b> *Numero intero* | Metodo di calcolo del height iniziale delle spline sparse.<br><br>- <b>Manuale</b> Impostare lo stesso valore assoluto per tutte le spline sparse.<br>- <b>Dalla spline padre (+ spline personalizzata)</b> Utilizzare il height della spline padre, quindi aggiungere il height della spline personalizzata utilizzando il mult <b>height iniziale spline personalizzato.</b> parametro.<br>- <b>Dalla spline personalizzata</b> Utilizzare il height della spline personalizzata così com&#39;è.<br><br><i>Nota:</i> Impostare <b>Spline Type</b> su &#39;Custom Spline&#39; e connettere gli input <b>Custom Spline</b> per utilizzare il height di spline personalizzate. |
-| <b>Mult Height iniziale spline personalizzato.</b> *Mobile* | Controlla il contributo del height iniziale della spline personalizzata al height iniziale delle spline sparse, dove 1 indica che viene utilizzato l&#39;intero height della spline personalizzata.<br>Il height della spline personalizzata viene utilizzato in modo diverso in base alla <b>Modalità Height iniziale</b> selezionata:<br>- <i>Dalla spline padre (+ spline personalizzata):</i> Il height viene aggiunto alla spline padre<br>- <i>Dalla spline personalizzata:</i> Il height viene utilizzato direttamente |
-| <b>Scostamento Height iniziale</b> *Mobile* | Applica uno scostamento assoluto al height iniziale della spline dispersa. |
-| <b>Inizia Height</b> *Virgola mobile* | Imposta un valore assoluto per il height iniziale della spline dispersa. |
+| <b>Mult Height iniziale spline personalizzato.</b> *Virgola mobile* | Controlla il contributo del height iniziale della spline personalizzata al height iniziale delle spline sparse, dove 1 indica che viene utilizzato l&#39;intero height della spline personalizzata.<br>Il height della spline personalizzata viene utilizzato in modo diverso in base alla <b>Modalità Height iniziale</b> selezionata:<br>- <i>Dalla spline padre (+ spline personalizzata):</i> Il height viene aggiunto alla spline padre<br>- <i>Dalla spline personalizzata:</i> Il height viene utilizzato direttamente |
+| <b>Scostamento Height iniziale</b> *Virgola mobile* | Applica uno scostamento assoluto al height iniziale della spline dispersa. |
+| <b>Inizia Height</b> *Mobile* | Imposta un valore assoluto per il height iniziale della spline dispersa. |
 | <b>Modalità Height finale</b> *Numero intero* | Metodo di calcolo del height finale delle spline sparse.<br><br>- <b>Manuale</b> Impostare lo stesso valore assoluto per tutte le spline sparse.<br>- <b>Dalla spline padre (+ spline personalizzata)</b> Utilizzare il height della spline padre, quindi aggiungere il height della spline personalizzata utilizzando <b>Spline personalizzata - Height finale.</b> parametro.<br>- <b>Da spline personalizzata</b> Utilizzare il height della spline personalizzata così com&#39;è.<br><br><i>Nota:</i> Impostare <b>Spline Type</b> su Spline personalizzata e connettere gli input <b>Spline personalizzata</b> per utilizzare il height di spline personalizzate. |
-| <b>Mult Height finale spline personalizzato</b> *Virgola mobile* | Controlla il contributo del height finale della spline personalizzata al height finale delle spline sparse, dove 1 indica che viene utilizzato l&#39;intero height della spline personalizzata.<br>Il height della spline personalizzata viene utilizzato in modo diverso in base alla <b>Modalità Height finale</b> selezionata:<br>- <i>Dalla spline padre (+ spline personalizzata):</i> Il height viene aggiunto alla spline padre<br>- <i>Dalla spline personalizzata:</i> Il height viene utilizzato direttamente |
-| <b>Scostamento Height finale</b> *Virgola mobile* | Applica uno scostamento assoluto al height finale della spline dispersa. |
-| <b>Fine Height</b> *Virgola mobile* | Imposta un valore assoluto per il height finale della spline dispersa. |
+| <b>Mult Height finale spline personalizzato</b> *Mobile* | Controlla il contributo del height finale della spline personalizzata al height finale delle spline sparse, dove 1 indica che viene utilizzato l&#39;intero height della spline personalizzata.<br>Il height della spline personalizzata viene utilizzato in modo diverso in base alla <b>Modalità Height finale</b> selezionata:<br>- <i>Dalla spline padre (+ spline personalizzata):</i> Il height viene aggiunto alla spline padre<br>- <i>Dalla spline personalizzata:</i> Il height viene utilizzato direttamente |
+| <b>Scostamento Height finale</b> *Mobile* | Applica uno scostamento assoluto al height finale della spline dispersa. |
+| <b>Fine Height</b> *Mobile* | Imposta un valore assoluto per il height finale della spline dispersa. |
 | <b>Thickness</b> |  |
 | <b>Avvia modalità Thickness</b> *Numero intero* | Metodo di calcolo del thickness iniziale delle spline sparse.<br><br>- <b>Manuale</b> Impostare lo stesso valore assoluto per tutte le spline sparse.<br>- <b>Dalla spline padre</b> Utilizzare il thickness della spline padre.<br>- <b>Dalla spline personalizzata</b> Utilizzare il thickness della spline personalizzata.<br><br><i>Nota:</i> Impostare <b>Tipo spline</b> su Spline personalizzata e collegare gli input <b>Spline personalizzata</b> per utilizzare il thickness di spline personalizzate. |
-| <b>Avvia moltiplicatore Thickness</b> *Virgola mobile* | Ridimensiona il thickness iniziale delle spline sparse, dove 1 rappresenta il thickness completo. |
-| <b>Scostamento Thickness iniziale</b> *Virgola mobile* | Applica uno scostamento assoluto al thickness iniziale della spline dispersa. |
-| <b>Inizia Thickness</b> *Mobile* | Imposta un valore assoluto per il thickness iniziale della spline dispersa. |
+| <b>Avvia moltiplicatore Thickness</b> *Mobile* | Ridimensiona il thickness iniziale delle spline sparse, dove 1 rappresenta il thickness completo. |
+| <b>Scostamento Thickness iniziale</b> *Mobile* | Applica uno scostamento assoluto al thickness iniziale della spline dispersa. |
+| <b>Inizia Thickness</b> *Virgola mobile* | Imposta un valore assoluto per il thickness iniziale della spline dispersa. |
 | <b>Modalità Thickness finale</b> *Numero intero* | Metodo di calcolo del thickness finale delle spline sparse.<br><br>- <b>Manuale</b> Impostare lo stesso valore assoluto per tutte le spline sparse.<br>- <b>Dalla spline padre</b> Utilizzare il thickness della spline padre.<br>- <b>Dalla spline personalizzata</b> Utilizzare il thickness della spline personalizzata.<br><br><i>Nota:</i> Impostare <b>Tipo spline</b> su Spline personalizzata e collegare gli input <b>Spline personalizzata</b> per utilizzare il thickness di spline personalizzate. |
-| <b>Moltiplicatore Thickness finale</b> *Mobile* | Ridimensiona il thickness iniziale delle spline sparse, dove 1 rappresenta il thickness completo. |
-| <b>Scostamento Thickness finale</b> *Mobile* | Applica uno scostamento assoluto al thickness finale della spline dispersa. |
-| <b>Fine Thickness</b> *Mobile* | Imposta un valore assoluto per il thickness finale della spline dispersa. |
+| <b>Moltiplicatore Thickness finale</b> *Virgola mobile* | Ridimensiona il thickness iniziale delle spline sparse, dove 1 rappresenta il thickness completo. |
+| <b>Scostamento Thickness finale</b> *Virgola mobile* | Applica uno scostamento assoluto al thickness finale della spline dispersa. |
+| <b>Fine Thickness</b> *Virgola mobile* | Imposta un valore assoluto per il thickness finale della spline dispersa. |
 | <b>Anteprima</b> |  |
 | <b>Mostra helper direzione</b> *Booleano* | Visualizza un punto all&#39;inizio della spline e una freccia alla fine nell&#39;output <b>Anteprima</b>. |
 | <b>Mostra busta Thickness</b> *Booleano* | Visualizza le linee aggiuntive ai bordi del thickness della spline. |
-| <b>Thickness (px)</b> *Mobile* | Regola il thickness della visualizzazione della spline nell&#39;output <b>Anteprima</b>, in numero di pixel. |
+| <b>Thickness (px)</b> *Virgola mobile* | Regola il thickness della visualizzazione della spline nell&#39;output <b>Anteprima</b>, in numero di pixel. |
 | <b>Importo segmenti</b> *Numero intero* | Regola il numero di segmenti utilizzati per disegnare la visualizzazione della spline nell&#39;output <b>Anteprima</b>. Un valore più alto genera una linea più morbida. |
-| <b>Intensità sfondo</b> *Virgola mobile* | Intensità dell&#39;input <b>Anteprima</b> nella visualizzazione dell&#39;output <b>Anteprima</b>. |
+| <b>Intensità sfondo</b> *Mobile* | Intensità dell&#39;input <b>Anteprima</b> nella visualizzazione dell&#39;output <b>Anteprima</b>. |
 
 ## Esempi
 
@@ -162,12 +162,12 @@ Fare clic sull&#39;immagine a destra per accedere al nostro <b>tutorial dedicato
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dispersione spline su spline: esempio 1](scatter-splines-on-splines.resources/scatter-splines-on-splines-03.png "Dispersione spline su spline: esempio 1"){zoomable="yes"}
+![Dispersione spline su spline: esempio 1](../../../../../../assets/scatter-splines-on-splines-example-1.png "Dispersione spline su spline: esempio 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Dispersione spline su spline: esempio 1](scatter-splines-on-splines.resources/scatter-splines-on-splines-04.png "Dispersione spline su spline: esempio 1"){zoomable="yes"}
+![Dispersione spline su spline: esempio 1](../../../../../../assets/scatter-splines-on-splines-example-2.png "Dispersione spline su spline: esempio 1"){zoomable="yes"}
 
 </td>
 </tr>
@@ -177,12 +177,12 @@ Fare clic sull&#39;immagine a destra per accedere al nostro <b>tutorial dedicato
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dispersione spline su spline: esempio 3](scatter-splines-on-splines.resources/scatter-splines-on-splines-05.png "Dispersione spline su spline: esempio 3"){zoomable="yes"}
+![Dispersione spline su spline: esempio 3](../../../../../../assets/scatter-splines-on-splines-example-4.png "Dispersione spline su spline: esempio 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Dispersione spline su spline: esempio 4](scatter-splines-on-splines.resources/scatter-splines-on-splines-06.png "Dispersione spline su spline: esempio 4"){zoomable="yes"}
+![Dispersione spline su spline: esempio 4](../../../../../../assets/scatter-splines-on-splines-example-3.png "Dispersione spline su spline: esempio 4"){zoomable="yes"}
 
 </td>
 </tr>
@@ -194,15 +194,15 @@ Fare clic sull&#39;immagine a destra per accedere al nostro <b>tutorial dedicato
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dispersione spline su spline: rendering 1](scatter-splines-on-splines.resources/scatter-splines-on-splines-07.png "Dispersione spline su spline: rendering 1"){zoomable="yes"}
+![Dispersione spline su spline: rendering 1](../../../../../../assets/scatter-splines-on-splines-demo-1.png "Dispersione spline su spline: rendering 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Dispersione spline su spline: rendering 2](scatter-splines-on-splines.resources/scatter-splines-on-splines-08.png "Dispersione spline su spline: rendering 2"){zoomable="yes"}
+![Dispersione spline su spline: rendering 2](../../../../../../assets/scatter-splines-on-splines-demo-3.png "Dispersione spline su spline: rendering 2"){zoomable="yes"}
 
 </td>
 </tr>
 </table>
 
-![Dispersione spline su spline: rendering 3](scatter-splines-on-splines.resources/scatter-splines-on-splines-09.png "Dispersione spline su spline: rendering 3"){zoomable="yes"}
+![Dispersione spline su spline: rendering 3](../../../../../../assets/scatter-splines-on-splines-demo-2.png "Dispersione spline su spline: rendering 3"){zoomable="yes"}

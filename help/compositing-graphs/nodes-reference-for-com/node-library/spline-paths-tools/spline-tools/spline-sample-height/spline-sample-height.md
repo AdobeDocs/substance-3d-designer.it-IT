@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-sample-height.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-sample-height.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Height campione spline per campionare i valori dei height lungo le spline per ottenere effetti di spostamento procedurale.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Height di campionamento spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo](spline-sample-height.resources/spline-sample-height-01.png "Icona nodo")
+![Icona nodo](../../../../../../assets/spline-sample-height-icon.png "Icona nodo")
 
 <b>In:</b> Strumenti Spline E Tracciati > Strumenti spline
 
@@ -88,11 +88,11 @@ L’effetto della mappa del height mappato può essere regolato modificandone il
 <table>
   <tr>
     <td>
-      <img src="spline-sample-height.resources/spline-sample-height-02.jpg" alt="SplineSampleHeight-Variant1-Before">
+      <img src="../../../../../../assets/SplineSampleHeight-Variant1-Before.jpg" alt="SplineSampleHeight-Variant1-Before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="spline-sample-height.resources/spline-sample-height-03.jpg" alt="SplineSampleHeight-Variant1-After">
+      <img src="../../../../../../assets/SplineSampleHeight-Variant1-After.jpg" alt="SplineSampleHeight-Variant1-After">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -104,11 +104,11 @@ L’effetto della mappa del height mappato può essere regolato modificandone il
 <table>
   <tr>
     <td>
-      <img src="spline-sample-height.resources/spline-sample-height-02.jpg" alt="SplineSampleHeight-Variant1-Before">
+      <img src="../../../../../../assets/SplineSampleHeight-Variant1-Before.jpg" alt="SplineSampleHeight-Variant1-Before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="spline-sample-height.resources/spline-sample-height-04.jpg" alt="SplineSampleHeight-Variant1-After3">
+      <img src="../../../../../../assets/SplineSampleHeight-Variant1-After3.jpg" alt="SplineSampleHeight-Variant1-After3">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -122,12 +122,12 @@ L’effetto della mappa del height mappato può essere regolato modificandone il
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 1](spline-sample-height.resources/spline-sample-height-05.jpg "Esempio di nodo 1")
+![Esempio di nodo 1](../../../../../../assets/SplineSampleHeight-Variant1-After4.jpg "Esempio di nodo 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 2](spline-sample-height.resources/spline-sample-height-06.gif "Esempio di nodo 2")
+![Esempio di nodo 2](../../../../../../assets/SplineSampleHeight-Demo.gif "Esempio di nodo 2")
 
 </td>
 </tr>

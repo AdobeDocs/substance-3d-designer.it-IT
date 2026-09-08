@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-on-spline-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-on-spline-grayscale.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Dispersione su spline scala di grigi per distribuire gli elementi in scala di grigi lungo i tracciati spline per i pattern procedurali.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Dispersione su scala di grigi spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '2853'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo](scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-01.png "Icona nodo")
+![Icona nodo](../../../../../../assets/scatter-on-spline-grayscale-icon.png "Icona nodo")
 
 <b>In:</b> Strumenti Spline E Tracciati > Strumenti spline
 
@@ -59,7 +59,7 @@ Alcuni aspetti della dispersione possono essere controllati utilizzando immagini
 | <b>Quantità spline</b> <i>Numero intero</i> | Numero di spline di input. |
 | <b>Input pattern n. </b> <i>Scala di grigi</i> | Motivi che devono essere distribuiti lungo le spline. |
 | <b>Mappa scala</b> <i>Scala di grigi</i> | La mappa che controlla la scala dei pattern sparsi. L&#39;effetto di questa mappa è controllato dal parametro &#39;Scale Map Input Multiplier&#39; ed è combinato con gli altri parametri nel gruppo &#39;Size&#39;. |
-| <b>Mappa Height</b> <i>Scala di grigi</i> | La mappa che controlla il height dei pattern sparsi. L&#39;effetto di questa mappa è controllato dal parametro &#39;Moltiplicatore input Height&#39; ed è combinato con gli altri parametri &#39;Colore&#39; nel gruppo &#39;Colore&#39;. |
+| <b>Mappa altezza</b> <i>Scala di grigi</i> | La mappa che controlla il height dei pattern sparsi. L&#39;effetto di questa mappa è controllato dal parametro &#39;Moltiplicatore input Height&#39; ed è combinato con gli altri parametri &#39;Colore&#39; nel gruppo &#39;Colore&#39;. |
 | <b>Mappa maschera</b> <i>Scala di grigi</i> | La mappa che controlla la mascheratura dei pattern sparsi. L&#39;effetto di questa mappa è controllato dal parametro &quot;Soglia mappa maschera&quot; ed è combinato con gli altri parametri &quot;Maschera&quot; nel gruppo &quot;Colore&quot;. |
 
 <a name="outputs"></a>
@@ -126,22 +126,22 @@ Alcuni aspetti della dispersione possono essere controllati utilizzando immagini
 | <b>Scostamento casuale sulla spline</b> <i>Mobile</i> | Applica uno scostamento di posizione aggiuntivo ai pattern lungo le spline. |
 | <b>Rotazione</b> |  |
 | <b>Allinea con tangente</b> <i>Booleano</i> | Ruota i pattern in modo che corrispondano alla direzione della spline nella loro posizione. |
-| <b>Rotazione (pivot)</b> <i>Mobile</i> | Ruota i pattern attorno ai loro perni.<br>È possibile spostare la posizione dei punti cardini utilizzando il parametro &#39;Shape Pivot&#39;. |
-| <b>Rotazione casuale (pivot)</b> <i>Mobile</i> | Applica una rotazione casuale aggiuntiva ai pattern attorno ai loro perni.<br>È possibile spostare la posizione dei punti cardini utilizzando il parametro &#39;Shape Pivot&#39;. |
-| <b>Rotazione al centro casuale (pivot)</b> <i>Mobile</i> | Ruota attorno ai perni del pattern al centro delle rotazioni casuali applicate dal parametro Rotazione casuale. |
-| <b>Rotazione (al centro)</b> <i>Mobile</i> | Ruota i pattern attorno al loro centro. |
-| <b>Rotazione casuale (al centro)</b> <i>Mobile</i> | Applica una rotazione casuale aggiuntiva ai pattern attorno al loro centro. |
-| <b>Rotazione al centro casuale (al centro)</b> <i>Mobile</i> | Ruota attorno al centro del pattern al centro delle rotazioni casuali applicate dal parametro Rotazione casuale. |
+| <b>Rotazione (pivot)</b> <i>Virgola mobile</i> | Ruota i pattern attorno ai loro perni.<br>È possibile spostare la posizione dei punti cardini utilizzando il parametro &#39;Shape Pivot&#39;. |
+| <b>Rotazione casuale (pivot)</b> <i>Virgola mobile</i> | Applica una rotazione casuale aggiuntiva ai pattern attorno ai loro perni.<br>È possibile spostare la posizione dei punti cardini utilizzando il parametro &#39;Shape Pivot&#39;. |
+| <b>Rotazione al centro casuale (pivot)</b> <i>Virgola mobile</i> | Ruota attorno ai perni del pattern al centro delle rotazioni casuali applicate dal parametro Rotazione casuale. |
+| <b>Rotazione (al centro)</b> <i>Virgola mobile</i> | Ruota i pattern attorno al loro centro. |
+| <b>Rotazione casuale (al centro)</b> <i>Virgola mobile</i> | Applica una rotazione casuale aggiuntiva ai pattern attorno al loro centro. |
+| <b>Rotazione al centro casuale (al centro)</b> <i>Virgola mobile</i> | Ruota attorno al centro del pattern al centro delle rotazioni casuali applicate dal parametro Rotazione casuale. |
 | <b>Colore</b> |  |
-| <b>Metodo fusione</b> <i>Numero intero</i> | Metodo di fusione dei colori dei pattern con lo sfondo e altri pattern sovrapposti:<br><br>- <i>Max</i>: usate il colore più chiaro;<br>- <i>Aggiungi</i>: aggiungete i colori. |
-| <b>Colore base forma</b> <i>Mobile</i> | Colore di base dei pattern. |
-| <b>Moltiplicatore colore di base forma</b> <i>Mobile</i> | Intensità del Colore di base di forme dei pattern.<br>Nota: il colore di output è il risultato ponderato di tutti i moltiplicatori di colore. |
-| <b>Moltiplicatore Thickness spline</b> <i>Mobile</i> | Intensità di moltiplicazione del colore di ogni motivo rispetto al thickness della spline nella relativa posizione.<br>Nota: il colore di output è il risultato ponderato di tutti i moltiplicatori di colore. |
-| <b>Moltiplicatore Indice Forma</b> <i>Mobile</i> | Intensità di moltiplicazione del colore di ogni pattern rispetto al relativo indice normalizzato.<br>Nota: il colore di output è il risultato ponderato di tutti i moltiplicatori di colore. |
+| <b>Modalità Fusione</b> <i>Numero intero</i> | Metodo di fusione dei colori dei pattern con lo sfondo e altri pattern sovrapposti:<br><br>- <i>Max</i>: usate il colore più chiaro;<br>- <i>Aggiungi</i>: aggiungete i colori. |
+| <b>Colore di base di forme</b> <i>Virgola mobile</i> | Colore di base dei pattern. |
+| <b>Moltiplicatore Colore di base di forme</b> <i>Virgola mobile</i> | Intensità del Colore di base di forme dei pattern.<br>Nota: il colore di output è il risultato ponderato di tutti i moltiplicatori di colore. |
+| <b>Moltiplicatore Thickness spline</b> <i>Virgola mobile</i> | Intensità di moltiplicazione del colore di ogni motivo rispetto al thickness della spline nella relativa posizione.<br>Nota: il colore di output è il risultato ponderato di tutti i moltiplicatori di colore. |
+| <b>Moltiplicatore Indice Forma</b> <i>Virgola mobile</i> | Intensità di moltiplicazione del colore di ogni pattern rispetto al relativo indice normalizzato.<br>Nota: il colore di output è il risultato ponderato di tutti i moltiplicatori di colore. |
 | <b>Modalità Height emisfero</b> <i>Intero</i> (disponibile quando &#39;Pattern&#39; è impostato su &#39;Emisfero&#39;) | Effetto del height della spline su un pattern emisfero diffuso su di essa:<br><br>- <i>Scostamento</i>: il height della spline viene aggiunto al height dell&#39;emisfero;<br>- <i>Scala</i>: il height della spline viene moltiplicato per il height dell&#39;emisfero. |
-| <b>Moltiplicatore Height spline</b> <i>Mobile</i> | Intensità di moltiplicazione del colore di ogni motivo rispetto al height della spline nella relativa posizione.<br>Nota: il colore di output è il risultato ponderato di tutti i moltiplicatori di colore. |
-| <b>Moltiplicatore scala forme</b> <i>Mobile</i> | Intensità per la quale il colore di ogni pattern viene moltiplicato rispetto alla scala.<br>Nota: il colore di output è il risultato ponderato di tutti i moltiplicatori di colore. |
-| <b>Luminanza casuale</b> <i>Mobile</i> | Applica un moltiplicatore casuale fino al valore specificato per diminuire la luminanza dei pattern.<br>Nota: il colore di output è il risultato ponderato di tutti i moltiplicatori di colore. |
+| <b>Moltiplicatore Height spline</b> <i>Virgola mobile</i> | Intensità di moltiplicazione del colore di ogni motivo rispetto al height della spline nella relativa posizione.<br>Nota: il colore di output è il risultato ponderato di tutti i moltiplicatori di colore. |
+| <b>Moltiplicatore scala forme</b> <i>Virgola mobile</i> | Intensità per la quale il colore di ogni pattern viene moltiplicato rispetto alla scala.<br>Nota: il colore di output è il risultato ponderato di tutti i moltiplicatori di colore. |
+| <b>Luminanza casuale</b> <i>Virgola mobile</i> | Applica un moltiplicatore casuale fino al valore specificato per diminuire la luminanza dei pattern.<br>Nota: il colore di output è il risultato ponderato di tutti i moltiplicatori di colore. |
 | <b>Moltiplicatore di input Height</b> <i>Mobile</i> | Controlla l’intensità dell’input Mappa altezza. Questa mappa funge da moltiplicatore per la luminanza corrente dei pattern.<br>L&#39;effetto di questa mappa è combinato con gli altri parametri nel gruppo &#39;Colore&#39;.<br>Nota: il colore di output è il risultato ponderato di tutti i moltiplicatori di colore. |
 | <b>Modalità campionamento input mappa Height</b> <i>Numero intero</i> | Metodo di mappatura dei valori nella mappa altezza alle spline:<br><br>- <i>spazio Texture</i>: i valori vengono applicati alle spline in cui si troverebbero se inseriti in una texture utilizzando le coordinate UV della texture. In questo modo il valore viene applicato alle spline &#39;in posizione&#39;;<br>- <i>Orizzontale lungo la spline</i>: i valori vengono applicati direttamente alle coordinate delle spline codificate (vedere l&#39;input Coord spline), in cui ogni riga viene applicata a una spline diversa dall&#39;alto verso il basso;<br>- <i>Ora. lungo spline (rand. offset X)</i>: i valori vengono applicati direttamente alle coordinate delle spline codificate (vedere l&#39;input Coord spline), con uno scostamento orizzontale casuale nella mappa Scala per ogni spline (ad esempio, ogni riga nelle coordinate spline);<br>- <i>Hor. lungo spline (rand. offset Y)</i>: i valori vengono applicati direttamente alle coordinate delle spline codificate (vedere l&#39;input Coord spline), con uno scostamento verticale casuale nella mappa Scala per ogni spline (ovvero ogni riga nelle coordinate spline). |
 | <b>Maschera casuale</b> <i>Mobile</i> | Regola l’intervallo della mascheratura casuale dei pattern, dove 0 significa che non viene mascherato alcun pattern e 1 significa che sono tutti i pattern. |
@@ -160,11 +160,11 @@ Alcuni aspetti della dispersione possono essere controllati utilizzando immagini
 <table>
   <tr>
     <td>
-      <img src="scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-02.jpg" alt="ScatterOnSplineGreyscale-Variant1-Before">
+      <img src="../../../../../../assets/ScatterOnSplineGrayscale-Variant1-Before.jpg" alt="ScatterOnSplineGreyscale-Variant1-Before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-03.jpg" alt="ScatterOnSplineGreyscale-Variant1-After">
+      <img src="../../../../../../assets/ScatterOnSplineGrayscale-Variant1-After.jpg" alt="ScatterOnSplineGreyscale-Variant1-After">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -176,11 +176,11 @@ Alcuni aspetti della dispersione possono essere controllati utilizzando immagini
 <table>
   <tr>
     <td>
-      <img src="scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-04.jpg" alt="ScatterOnSplineGreyscale-Variant2-Before">
+      <img src="../../../../../../assets/ScatterOnSplineGrayscale-Variant2-Before.jpg" alt="ScatterOnSplineGreyscale-Variant2-Before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-05.jpg" alt="ScatterOnSplineGreyscale-Variant2-After">
+      <img src="../../../../../../assets/ScatterOnSplineGrayscale-Variant2-After.jpg" alt="ScatterOnSplineGreyscale-Variant2-After">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -194,12 +194,12 @@ Alcuni aspetti della dispersione possono essere controllati utilizzando immagini
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 2](scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-06.gif "Esempio di nodo 2")
+![Esempio di nodo 2](../../../../../../assets/ScatterOnSplineGrayscale-Demo.gif "Esempio di nodo 2")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Demo nodo 2](scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-07.gif "Demo nodo 2")
+![Demo nodo 2](../../../../../../assets/ScatterOnSplineGrayscale-Demo2.gif "Demo nodo 2")
 
 </td>
 </tr>
