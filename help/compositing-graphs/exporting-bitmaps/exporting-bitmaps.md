@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/exporting-bitmaps.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/exporting-bitmaps.html"
 breadcrumb-title: ''
 description: Scoprite come esportare texture e bitmap dai grafici di composizione Substance per utilizzarli in applicazioni e flussi di lavoro esterni.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Esportazione di bitmap
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 7e53313d3c368803a95ebb1f9eee712ae2a05817
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 Questa pagina spiega come Substance 3D Designer può esportare in molti formati di file Bitmap diversi e come esportare più porzioni UV in batch.Se si desidera [esportare nei file PSD](../exporting-psd-files/exporting-psd-files.md), è disponibile una pagina dedicata separata.
 
-![Esportazione semplificata](../../assets/exportflow.png "Esportazione semplificata")
+![Esportazione semplificata](exporting-bitmaps.resources/exportflow.png "Esportazione semplificata")
 
 ## Esportazione di concetti
 
@@ -43,14 +43,14 @@ Una volta che sei pronto per l’esportazione, puoi accedere alla finestra di di
 
 Nella finestra [Esplora risorse](../../interface/the-explorer-window/the-explorer-window.md), fare clic con il pulsante destro del mouse sul grafico da esportare e scegliere **&quot;Esporta output come bitmap&quot;**
 
-![](../../assets/export-explorer.gif)
+![](exporting-bitmaps.resources/export-explorer.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-Nella [vista Grafico](../../interface/the-graph-view/the-graph-view.md), facendo clic sul pulsante Strumenti ![](../../assets/image2019-9-17-14-44-17.png) e scegliendo **&quot;Esporta output...&quot;**
+Nella [vista Grafico](../../interface/the-graph-view/the-graph-view.md), facendo clic sul pulsante Strumenti ![](exporting-bitmaps.resources/image2019-9-17-14-44-17.png) e scegliendo **&quot;Esporta output...&quot;**
 
-![](../../assets/export-graph.gif)
+![](exporting-bitmaps.resources/export-graph.gif)
 
 </td>
 </tr>
@@ -77,7 +77,7 @@ La versione mostrata a destra è la finestra di dialogo standard, la modifica de
 1. <b>Esportazione automatica:</b> pulsante di attivazione/disattivazione per consentire la riesportazione automatica degli output del grafico non appena viene apportata una modifica. Solo per il grafico corrente. Può essere pesante e lento a seconda delle impostazioni.
 1. <b>Pulsante Esporta:</b> Esporta con le impostazioni correnti o chiude la finestra di dialogo.
 
-![Finestra di dialogo per l’esportazione degli output](../../assets/fromgraph-1.png "Finestra di dialogo per l’esportazione degli output")
+![Finestra di dialogo per l’esportazione degli output](exporting-bitmaps.resources/fromgraph-1.png "Finestra di dialogo per l’esportazione degli output")
 
 ## Finestra di dialogo Esporta (porzioni Batch/UV)
 
@@ -90,4 +90,4 @@ Avvia la finestra di dialogo con gli stessi metodi descritti in precedenza, assi
 1. <b>Porzioni UV:</b> come per gli output, consente di attivare o disattivare l&#39;esportazione di Porzioni UV specifiche.
 1. <b>[Dimensioni output](../../compositing-graphs/output-size/output-size.md): </b>Ignora la risoluzione di esportazione, per lavorare in modo più piccolo ed efficiente, esportando al massimo.
 
-![Finestra di dialogo Output esportazione batch](../../assets/batch.png "Finestra di dialogo Output esportazione batch")
+![Finestra di dialogo Output esportazione batch](exporting-bitmaps.resources/batch.png "Finestra di dialogo Output esportazione batch")

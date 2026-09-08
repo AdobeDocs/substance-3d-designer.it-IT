@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html"
 breadcrumb-title: ''
 description: Utilizzate le istanze e i grafici secondari del grafico per creare componenti grafici riutilizzabili e flussi di lavoro di materiale modulare.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Istanze e grafici secondari del grafico
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 7e53313d3c368803a95ebb1f9eee712ae2a05817
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Istanze e grafici secondari del grafico
 
-![](../../../assets/sub-graph.png)
+![](graph-instances-sub-graphs.resources/sub-graph.png)
 
 Le istanze del grafico sono nodi che <b>fanno riferimento a un altro grafico</b>. Un grafico a cui fa riferimento un nodo di istanza in un grafico host può essere denominato <b>grafico secondario</b> del grafico host.
 
@@ -62,14 +62,14 @@ Si noti che, mentre i concetti di istanza e grafico secondario del grafico si ap
 
 ### È possibile esaminare il grafico di origine di un&#39;istanza del grafico?
 
-![(tick)](../../../assets/check.svg) Sì e *solo* per le istanze di grafici caricati da un **file Substance 3D (SBS)**. Questi nodi di istanza hanno un&#39;etichetta *rosso scuro*.\
+![(tick)](graph-instances-sub-graphs.resources/check.svg) Sì e *solo* per le istanze di grafici caricati da un **file Substance 3D (SBS)**. Questi nodi di istanza hanno un&#39;etichetta *rosso scuro*.\
 Fare clic con il pulsante destro del mouse sul nodo per aprire il relativo menu di scelta rapida e selezionare l&#39;opzione **Apri riferimento**.
 
 >[!NOTE]
 >
 > Durante il controllo del grafico di origine, puoi utilizzare i dati di input del grafico dell&#39;istanza se l&#39;opzione **Modifica in contesto** è *selezionata* nella sezione **Grafico** delle [Preferenze](../../../interface/preferences-window/preferences-window.md).
 
-![(meno)](../../../assets/forbidden.svg) È *impossibile* ispezionare i grafici caricati dalle istanze **della risorsa Substance 3D (SBSAR)**, poiché sono già compilati. È possibile caricare la risorsa solo nel pannello **Esplora risorse** per esaminare l&#39;elenco dei grafici esposti e i relativi parametri. Questi nodi di istanza hanno un&#39;etichetta *verde*.\
+![(meno)](graph-instances-sub-graphs.resources/forbidden.svg) È *impossibile* ispezionare i grafici caricati dalle istanze **della risorsa Substance 3D (SBSAR)**, poiché sono già compilati. È possibile caricare la risorsa solo nel pannello **Esplora risorse** per esaminare l&#39;elenco dei grafici esposti e i relativi parametri. Questi nodi di istanza hanno un&#39;etichetta *verde*.\
 Fare clic con il pulsante destro del mouse sul nodo per aprire il relativo menu di scelta rapida e selezionare l&#39;opzione **Carica pacchetto**.
 
 >[!NOTE]
