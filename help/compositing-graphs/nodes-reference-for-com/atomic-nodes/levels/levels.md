@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
 breadcrumb-title: ''
 description: Utilizza il nodo Livelli per regolare la luminosità, il contrasto e la gamma tonale delle texture per la correzione e il miglioramento del colore.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Livelli
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atomico: Livelli](../../../../assets/comp_levels_1.png "Nodo atomico: Livelli"){width="200px"}
+![Nodo atomico: Livelli](levels.resources/comp_levels_1.png "Nodo atomico: Livelli"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -76,9 +76,9 @@ Il pulsante giallo evidenziato alterna l’interfaccia tra i cursori dei valori 
 </td>
 <td width="66.67%" style="border: 0;" valign="top">
 
-![](../../../../assets/levels-2-1.png)
+![](levels.resources/levels-2-1.png)
 
-![](../../../../assets/levels-1-1.png)
+![](levels.resources/levels-1-1.png)
 
 </td>
 </tr>
@@ -101,7 +101,7 @@ Guardate questa panoramica video del nodo Livelli e del relativo editor di istog
 
 Nella barra di intestazione &quot;Parametri specifici&quot;, potete trovare dei pulsanti per accedere alle funzioni più comode dell’istogramma:
 
-![Azioni rapide nodo Livelli](../../../../assets/levels-2.png "Azioni rapide nodo Livelli")
+![Azioni rapide nodo Livelli](levels.resources/levels-2.png "Azioni rapide nodo Livelli")
 
 <b>1 - Inverti:</b> scambia i valori dei parametri &#39;Livello in uscita basso&#39; e &#39;Livello in uscita alto&#39;.
 
@@ -113,7 +113,7 @@ Nella barra di intestazione &quot;Parametri specifici&quot;, potete trovare dei 
 
 L’editor di istogrammi è destinato a regolazioni visive e rapide, in cui non sono realmente necessari valori accurati e l’esposizione dei parametri non è importante. In genere è il modo più rapido e facile di lavorare con i livelli.
 
-![](../../../../assets/levels-histo.gif)
+![](levels.resources/levels-histo.gif)
 
 A seconda del tipo di input (a colori o in scala di grigi), potete utilizzare il menu a discesa sopra l’istogramma per scegliere il canale da modificare.
 
