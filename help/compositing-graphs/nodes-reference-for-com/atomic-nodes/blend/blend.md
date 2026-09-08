@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Fusione per fondere due texture insieme utilizzando vari metodi di fusione per la creazione di effetti compositi.
 helpx_creative_field: ""
@@ -31,13 +31,13 @@ ht-degree: 9%
 
 Combina due immagini usando un metodo di fusione specificato e una maschera facoltativa.
 
-È il nodo più utile di tutti i nodi atomici, quasi tutti i grafici creati in [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) utilizzeranno questo nodo.
+È il nodo più utile di tutti i nodi atomici, quasi tutti i grafici creati in [Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html) utilizzeranno questo nodo.
 
 </td>
 </tr>
 </table>
 
-La sua funzionalità è simile a quella di due livelli sovrapposti in [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) o [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html), che si fondono insieme in base al metodo di fusione impostato sul livello superiore.
+La sua funzionalità è simile a quella di due livelli sovrapposti in [Substance 3D Painter](https://www.adobe.com/it/products/substance3d-painter.html) o [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html), che si fondono insieme in base al metodo di fusione impostato sul livello superiore.
 
 >[!TIP]
 >
