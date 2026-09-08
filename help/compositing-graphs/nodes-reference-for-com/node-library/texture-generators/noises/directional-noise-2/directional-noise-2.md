@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-noise-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-noise-2.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Disturbo direzionale 2 per generare pattern di disturbo direzionale con due ottave per la creazione di effetti anisotropi.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: DISTURBO DIREZIONALE 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Disturbo direzionale 2 - Icona](directional-noise-2.resources/directional-noise-2-01.png "Disturbo direzionale 2 - Icona"){width="200px"}
+![Disturbo direzionale 2 - Icona](../../../../../../assets/directional_noise_2.png "Disturbo direzionale 2 - Icona"){width="200px"}
 
 <b>Ingresso:</b> Generatori di texture > Rumori
 
@@ -59,10 +59,10 @@ Vedere anche: [Disturbo direzionale 1](../../../../../../compositing-graphs/node
 | <b>Disturbo</b> <i>Mobile</i> | Sposta gli ingredienti del disturbo.    Può essere utilizzato per animare il disturbo. |
 | <b>Velocità del disturbo</b> <i>Mobile</i> | Regola la distanza di spostamento applicata dal parametro <b>Disturbo</b>.    Questa opzione consente di controllare la velocità di spostamento durante l’animazione del disturbo. |
 | <b>anisotropia disturbo</b> <i>Mobile</i> | Controlla l&#39;estensione delle direzioni dello spostamento applicato dal parametro <b>Disturbo</b>, in cui un valore più alto determina una direzione più stretta e definita.    La direzione è controllata dal parametro <b>Angolo di anisotropia disturbo</b>. |
-| <b>angolo di anisotropia di disturbo</b> <i>Virgola mobile</i> | Controlla la direzione dello spostamento applicato dal parametro <b>Disorder</b> quando il parametro &#39;anisotropia del disturbo&#39; è diverso da zero. |
+| <b>angolo di anisotropia di disturbo</b> <i>Mobile</i> | Controlla la direzione dello spostamento applicato dal parametro <b>Disorder</b> quando il parametro &#39;anisotropia del disturbo&#39; è diverso da zero. |
 | <b>Angolo</b> <i>Mobile</i> | Angolo utilizzato per impostare la direzione del disturbo, in numero di giri e a partire da destra orizzontale. |
-| <b>Angolo casuale</b> <i>Virgola mobile</i> | L&#39;importo massimo della variazione casuale applicata al valore <b>Angolo</b>, in numero di giri. |
-| <b>Scostamento porzione</b> <i>Virgola mobile 2</i> | Controlla la posizione della porzione di piano infinito utilizzata per eseguire il rendering del disturbo. |
+| <b>Angolo casuale</b> <i>Mobile</i> | L&#39;importo massimo della variazione casuale applicata al valore <b>Angolo</b>, in numero di giri. |
+| <b>Scostamento porzione</b> <i>Float2</i> | Controlla la posizione della porzione di piano infinito utilizzata per eseguire il rendering del disturbo. |
 | <b>Espansione non quadrata</b> <i>Booleano</i> | Nelle immagini non quadrate, mantiene il riquadro quadrato generato ed espande la generazione del disturbo fino ai limiti dell&#39;immagine. |
 
 ## Esempi
@@ -71,12 +71,12 @@ Vedere anche: [Disturbo direzionale 1](../../../../../../compositing-graphs/node
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Disturbo direzionale 2 - Esempio 1](directional-noise-2.resources/directional-noise-2-02.png "Disturbo direzionale 2 - Esempio 1"){zoomable="yes"}
+![Disturbo direzionale 2 - Esempio 1](../../../../../../assets/directional_noise_2_1.png "Disturbo direzionale 2 - Esempio 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Disturbo direzionale 2 - Esempio 2](directional-noise-2.resources/directional-noise-2-03.gif "Disturbo direzionale 2 - Esempio 2"){zoomable="yes"}
+![Disturbo direzionale 2 - Esempio 2](../../../../../../assets/noise_directional_noise_2_v2_speed0.6_aniso0.gif "Disturbo direzionale 2 - Esempio 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -86,12 +86,12 @@ Vedere anche: [Disturbo direzionale 1](../../../../../../compositing-graphs/node
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Disturbo direzionale 2 - Esempio 3](directional-noise-2.resources/directional-noise-2-04.gif "Disturbo direzionale 2 - Esempio 3"){zoomable="yes"}
+![Disturbo direzionale 2 - Esempio 3](../../../../../../assets/noise_directional_noise_2_v2_speed0.6_aniso1.gif "Disturbo direzionale 2 - Esempio 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Disturbo direzionale 2 - Esempio 4](directional-noise-2.resources/directional-noise-2-05.gif "Disturbo direzionale 2 - Esempio 4"){zoomable="yes"}
+![Disturbo direzionale 2 - Esempio 4](../../../../../../assets/noise_directional_noise_2_v2_speed0.3_aniso0.6.gif "Disturbo direzionale 2 - Esempio 4"){zoomable="yes"}
 
 </td>
 </tr>
