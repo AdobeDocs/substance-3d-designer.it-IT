@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/id-to-mask.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/id-to-mask.html"
 breadcrumb-title: ''
 description: Utilizza il nodo ID da mascherare in scala di grigio per convertire i valori della mappa ID in maschere in scala di grigio per la selezione del materiale.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Da ID a maschera in scala di grigio
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona ID per maschera in scala di grigio](id-to-mask.resources/id-to-mask-01.png "Icona ID per maschera in scala di grigio"){width="200px"}
+![Icona ID per maschera in scala di grigio](../../../../../../assets/IDToMask.png "Icona ID per maschera in scala di grigio"){width="200px"}
 
 <b>Ingresso:</b> Filtri > Regolazioni
 
@@ -72,11 +72,11 @@ Una mappa ID è un’immagine in cui i pixel che fanno parte di un intero (ad es
 <table>
   <tr>
     <td>
-      <img src="id-to-mask.resources/id-to-mask-02.jpg" alt="id_to_mask_grayscale_example_1_before">
+      <img src="../../../../../../assets/id_to_mask_grayscale_example_1_before.jpg" alt="id_to_mask_grayscale_example_1_before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="id-to-mask.resources/id-to-mask-03.jpg" alt="id_to_mask_grayscale_example_1_after">
+      <img src="../../../../../../assets/id_to_mask_grayscale_example_1_after.jpg" alt="id_to_mask_grayscale_example_1_after">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -86,12 +86,12 @@ Una mappa ID è un’immagine in cui i pixel che fanno parte di un intero (ad es
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![ID da mascherare: Esempio 2](id-to-mask.resources/id-to-mask-04.gif "ID da mascherare: Esempio 2"){zoomable="yes"}
+![ID da mascherare: Esempio 2](../../../../../../assets/id_to_mask_example_2.gif "ID da mascherare: Esempio 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![ID da mascherare: Esempio 3](id-to-mask.resources/id-to-mask-05.png "ID da mascherare: Esempio 3"){zoomable="yes"}
+![ID da mascherare: Esempio 3](../../../../../../assets/id_to_mask_example_3.png "ID da mascherare: Esempio 3"){zoomable="yes"}
 
 </td>
 </tr>

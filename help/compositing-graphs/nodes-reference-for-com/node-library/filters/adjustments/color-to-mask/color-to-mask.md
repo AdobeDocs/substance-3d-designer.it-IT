@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/color-to-mask.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/color-to-mask.html"
 breadcrumb-title: ''
 description: Utilizza il nodo Colore da mascherare per convertire determinati colori in maschere al fine di creare effetti di elaborazione e mascheratura selettivi.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Colore da mascherare
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Colore da mascherare - Icona](color-to-mask.resources/color-to-mask-01.png "Colore da mascherare - Icona"){width="200px"}
+![Colore da mascherare - Icona](../../../../../../assets/color_to_mask.png "Colore da mascherare - Icona"){width="200px"}
 
 <b>Ingresso:</b> Filtri > Regolazioni
 

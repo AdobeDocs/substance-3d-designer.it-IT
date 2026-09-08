@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/view-color-palette.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/view-color-palette.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Visualizza tavolozza colori per visualizzare i dati della tavolozza dei colori estratti dalle texture per l'analisi.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Visualizza tavolozza colori
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona Quantizza colore](view-color-palette.resources/view-color-palette-01.png "Icona Quantizza colore"){width="200px"}
+![Icona Quantizza colore](../../../../../../assets/ViewColorPalette.png "Icona Quantizza colore"){width="200px"}
 
 <b>Ingresso:</b> Filtri > Regolazioni
 
@@ -67,12 +67,12 @@ Questo nodo può essere utilizzato per visualizzare le tavolozze prodotte dai se
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Visualizza tavolozza colori: esempio 1](view-color-palette.resources/view-color-palette-02.png "Visualizza tavolozza colori: esempio 1"){zoomable="yes"}
+![Visualizza tavolozza colori: esempio 1](../../../../../../assets/view_color_palette_example_1.png "Visualizza tavolozza colori: esempio 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Visualizza tavolozza colori: esempio 2](view-color-palette.resources/view-color-palette-03.png "Visualizza tavolozza colori: esempio 2"){zoomable="yes"}
+![Visualizza tavolozza colori: esempio 2](../../../../../../assets/view_color_palette_example_2.png "Visualizza tavolozza colori: esempio 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -82,12 +82,12 @@ Questo nodo può essere utilizzato per visualizzare le tavolozze prodotte dai se
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Visualizza tavolozza colori: esempio 3](view-color-palette.resources/view-color-palette-04.png "Visualizza tavolozza colori: esempio 3"){zoomable="yes"}
+![Visualizza tavolozza colori: esempio 3](../../../../../../assets/view_color_palette_example_3.png "Visualizza tavolozza colori: esempio 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Visualizza tavolozza colori: esempio 4](view-color-palette.resources/view-color-palette-05.png "Visualizza tavolozza colori: esempio 4"){zoomable="yes"}
+![Visualizza tavolozza colori: esempio 4](../../../../../../assets/view_color_palette_example_4.png "Visualizza tavolozza colori: esempio 4"){zoomable="yes"}
 
 </td>
 </tr>

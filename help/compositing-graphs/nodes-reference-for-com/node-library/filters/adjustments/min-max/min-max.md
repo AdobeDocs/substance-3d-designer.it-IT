@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/min-max.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/min-max.html"
 breadcrumb-title: ''
-description: Usate il nodo Min Max per fissare i valori della texture tra le soglie minima e massima per il controllo degli intervalli di valori.
+description: Utilizzare il nodo Min Max per bloccare i valori delle texture compresi tra le soglie minima e massima per il controllo degli intervalli di valori.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Min Max
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Max min
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](min-max.resources/min-max-01.png){width="200px"}
+![](../../../../../../assets/min-max.png){width="200px"}
 
 <b>Ingresso:</b> Filtri > Regolazioni
 
@@ -46,7 +46,7 @@ Per utilizzare questo nodo con un valore Levels, è necessario almeno sapere com
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="min-max.resources/min-max-02.png" />
+            <img src="../../../../../../assets/minmax.png" />
         </td>
     </tr>
 </table>
