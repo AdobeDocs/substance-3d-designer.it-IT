@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fur-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fur-2.html"
 breadcrumb-title: ''
-description: Usa il nodo Pelliccia 2 per creare trame di pelliccia con controlli avanzati per simulare capelli e materiali fibrosi.
+description: Usa il nodo Pelliccia 2 per creare texture di pelliccia con controlli avanzati per simulare capelli e materiali fibrosi.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Fur 2
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Pelliccia 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 9%
@@ -24,9 +24,9 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](fur-2.resources/fur-2-01.png){width="128px"}
+![](../../../../../../assets/fur-2.png){width="128px"}
 
-<b>Ingresso:</b> Generatori di texture > Rumori
+<b>Ingresso:</b> generatori di Texture > Rumori
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -48,14 +48,14 @@ Questo genera un tipo ondulato di rumore simile a quello delle pellicce.
 | <b>Scala</b> <i>1 - 8</i> | Imposta la scala globale per l’effetto. |
 | <b>Scala Onde</b> <i>0.0 - 1.0</i> | Modifica la scala delle onde, maggiore significa meno ripetizioni. |
 | <b>Rotazione Onde</b> <i>0.0 - 1.0</i> | Ruota le onde di più. Questo valore dovrebbe probabilmente essere mantenuto basso, in quanto i risultati possono essere estremi. |
-| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati. |
+| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di squash e allungamento con rapporti non quadrati. |
 
 ## Esempi
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="fur-2.resources/fur-2-02.gif" />
+            <img src="../../../../../../assets/fur-2-ex.gif" />
         </td>
     </tr>
 </table>

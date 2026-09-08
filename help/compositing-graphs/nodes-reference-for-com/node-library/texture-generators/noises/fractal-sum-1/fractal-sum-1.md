@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-1.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Somma frattale 1 per generare pattern di disturbo frattale sommando più ottave per la creazione di texture dettagliate.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: SOMMA FRATTALE 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 2%
@@ -24,9 +24,9 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Somma frattale 1 - Icona](fractal-sum-1.resources/fractal-sum-1-01.png "Somma frattale 1 - Icona"){width="200px"}
+![Somma frattale 1 - Icona](../../../../../../assets/fractal_sum_1.png "Somma frattale 1 - Icona"){width="200px"}
 
-<b>Ingresso:</b> Generatori di texture > Rumori
+<b>Ingresso:</b> generatori di Texture > Rumori
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -56,7 +56,7 @@ Vedere anche: [Somma frattale base](../../../../../../compositing-graphs/nodes-r
 |  |  |
 |:---|:---|
 | <b>Disturbo</b> <i>Virgola mobile</i> | Sposta gli ingredienti del disturbo.    Può essere utilizzato per animare il disturbo. |
-| <b>Velocità del disturbo</b> <i>Mobile</i> | Regola la distanza di spostamento applicata dal parametro <b>Disturbo</b>.    Questa opzione consente di controllare la velocità di spostamento durante l’animazione del disturbo. |
+| <b>Velocità del disturbo</b> <i>Virgola mobile</i> | Regola la distanza di spostamento applicata dal parametro <b>Disturbo</b>.    Questa opzione consente di controllare la velocità di spostamento durante l’animazione del disturbo. |
 | <b>Espansione non quadrata</b> <i>Booleano</i> | Nelle immagini non quadrate, mantiene il riquadro quadrato generato ed espande la generazione del disturbo fino ai limiti dell&#39;immagine. |
 
 ## Esempi
@@ -65,12 +65,12 @@ Vedere anche: [Somma frattale base](../../../../../../compositing-graphs/nodes-r
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Somma frattale 1 - Esempio 1](fractal-sum-1.resources/fractal-sum-1-02.png "Somma frattale 1 - Esempio 1"){zoomable="yes"}
+![Somma frattale 1 - Esempio 1](../../../../../../assets/fractal_sum_1_1.png "Somma frattale 1 - Esempio 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Somma frattale 1 - Esempio 2](fractal-sum-1.resources/fractal-sum-1-03.gif "Somma frattale 1 - Esempio 2"){zoomable="yes"}
+![Somma frattale 1 - Esempio 2](../../../../../../assets/noise_fractal_sum_1_v2_speed0.6_aniso0.gif "Somma frattale 1 - Esempio 2"){zoomable="yes"}
 
 </td>
 </tr>
