@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-shavings.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-shavings.html"
 breadcrumb-title: ''
-description: Usa il nodo Rasatura Grunge per generare pattern di rasatura per la creazione di dettagli di grana di legno e texture di materiale.
+description: Usa il nodo Rasatura Grunge per generare pattern di rasatura per la creazione di granulosità di legno e dettagli di texture del materiale.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Shavings
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Rasoi Di grunge
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-shavings.resources/grunge-shavings-01.jpg){width="200px"}
+![](../../../../../../assets/grungeshavings.jpg){width="200px"}
 
 <b>Ingresso:</b> Generatori di Texture > Rumori
 
@@ -33,7 +33,7 @@ ht-degree: 5%
 
 ## Descrizione
 
-Il nodo **Rasatura di Grungi** in [Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html) genera una mappa di grungi simile ai trucioli sparsi su una superficie.
+Il nodo **Rasatura di Grungi** in [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) genera una mappa di grungi simile ai trucioli sparsi su una superficie.
 
 </td>
 </tr>
@@ -45,12 +45,12 @@ Il nodo **Rasatura di Grungi** in [Substance 3D Designer](https://www.adobe.com/
 
 |  |  |
 |:---|:---|
-| <b>Saldo</b> <i>Mobile</i> | Regola il bilanciamento tra i valori di luminosità e oscurità. |
-| <b>Contrasto</b> <i>Mobile</i> | Regola il contrasto dell’immagine. |
+| <b>Saldo</b> <i>Virgola mobile</i> | Regola il bilanciamento tra i valori di luminosità e oscurità. |
+| <b>Contrasto</b> <i>Virgola mobile</i> | Regola il contrasto dell’immagine. |
 | <b>Inverti</b> <i>Booleano</i> | Inverte l&#39;output dell&#39;immagine utilizzando un&#39;operazione `1-x`. |
-| <b>Non square expansion</b> <i>Booleano</i> | Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati. |
+| <b>Non square expansion</b> <i>Booleano</i> | Consente la compensazione di squash e allungamento con rapporti non quadrati. |
 | <b>Avanzate</b> |  |
-| <b>Quantità macchie memoria virtuale</b> <i>Mobile</i> | Quantità e *copertura* dell&#39;effetto macchie graffiate utilizzato per generare le rasature. |
+| <b>Quantità macchie memoria virtuale</b> <i>Virgola mobile</i> | Quantità e *copertura* dell&#39;effetto macchie graffiate utilizzato per generare le rasature. |
 | <b>Affiancamento macchie memoria virtuale</b> <i>Numero intero</i> | Quantità di Affiancamento dell’effetto macchie graffiate utilizzato per generare le rasature. |
 | <b>Intensità Dust</b> <i>Mobile</i> | Intensità della sovrapposizione del dust sulla superficie. |
 | <b>Intensità nitidezza</b> <i>Mobile</i> | Intensità dell’effetto nitidezza globale. |
@@ -60,10 +60,10 @@ Il nodo **Rasatura di Grungi** in [Substance 3D Designer](https://www.adobe.com/
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-shavings.resources/grunge-shavings-02.jpg" />
+            <img src="../../../../../../assets/grungeshavings-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="grunge-shavings.resources/grunge-shavings-03.jpg" />
+            <img src="../../../../../../assets/grungeshavings-variant.jpg" />
         </td>
     </tr>
 </table>

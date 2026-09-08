@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-spots-dirty.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-spots-dirty.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Grunge macchie sporche per aggiungere pattern di macchie sporche per creare effetti di materiale invecchiati e soggetti ad agenti atmosferici.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Grunge sporca
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-spots-dirty.resources/grunge-spots-dirty-01.jpg){width="200px"}
+![](../../../../../../assets/grungespotsdirty.jpg){width="200px"}
 
 <b>Ingresso:</b> Generatori di Texture > Rumori
 
@@ -58,10 +58,10 @@ Il nodo **Grungi sporche** genera una mappa delle grungi simile alle macchie di 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-spots-dirty.resources/grunge-spots-dirty-02.jpg" />
+            <img src="../../../../../../assets/grungespotsdirty-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="grunge-spots-dirty.resources/grunge-spots-dirty-03.jpg" />
+            <img src="../../../../../../assets/grungespotsdirty-variant.jpg" />
         </td>
     </tr>
 </table>

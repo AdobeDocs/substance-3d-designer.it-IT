@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-001.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-001.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Mappa Grunge 001 per creare trame procedurali di grunge per aggiungere dettagli della superficie ed effetti di usura ai materiali.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mappa grungi 001
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-map-001.resources/grunge-map-001-01.png){width="128px"}
+![](../../../../../../assets/grungemap-001.png){width="128px"}
 
 <b>Ingresso:</b> Generatori di texture > Rumori
 
@@ -56,7 +56,7 @@ Genera una mappa rumore complessa e combinata. Questo nodo può essere molto uti
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-map-001.resources/grunge-map-001-02.gif" />
+            <img src="../../../../../../assets/grungemap-001-ex.gif" />
         </td>
     </tr>
 </table>
