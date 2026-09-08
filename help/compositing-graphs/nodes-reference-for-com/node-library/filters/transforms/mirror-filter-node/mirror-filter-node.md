@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/mirror-filter-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/mirror-filter-node.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo del filtro Specchia (Mirror) per specchiare le texture orizzontalmente o verticalmente per creare pattern ed effetti simmetrici.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Speculare (nodo filtro)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 4%
@@ -24,9 +24,9 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](mirror-filter-node.resources/mirror-filter-node-01.png){width="128px"}
+![](../../../../../../assets/mirror-2.png){width="128px"}
 
-![](mirror-filter-node.resources/mirror-filter-node-02.png){width="128px"}
+![](../../../../../../assets/mirror-grayscale.png){width="128px"}
 
 <b>Ingresso:</b> Filtri > Trasforma
 
@@ -59,7 +59,7 @@ L&#39;immagine di input viene riflessa da un lato scelto su un asse selezionato.
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="mirror-filter-node.resources/mirror-filter-node-03.png" />
+            <img src="../../../../../../assets/mirror-example.png" />
         </td>
     </tr>
 </table>
