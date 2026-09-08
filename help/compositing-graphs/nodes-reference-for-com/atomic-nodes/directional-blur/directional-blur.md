@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
 breadcrumb-title: ''
 description: Usate il nodo Sfocatura direzione per applicare gli effetti di sfocatura in una direzione specifica per creare l’effetto movimento e la striatura.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Sfocatura direzionale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atomico: sfocatura direzione](../../../../assets/comp_dirmotionblur_1.png "Nodo atomico: sfocatura direzione"){width="200px"}
+![Nodo atomico: sfocatura direzione](directional-blur.resources/comp_dirmotionblur_1.png "Nodo atomico: sfocatura direzione"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -69,14 +69,14 @@ Le immagini seguenti mostrano la sfocatura direzionale e la [sfocatura anisotrop
 
 <b>Sfocatura direzionale</b>
 
-![Confronto sfocatura direzione](../../../../assets/dirblur-01.png "Confronto sfocatura direzione"){zoomable="yes"}
+![Confronto sfocatura direzione](directional-blur.resources/dirblur-01.png "Confronto sfocatura direzione"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
 <b>Sfocatura anisotropa</b>
 
-![Confronto della sfocatura anisotropa](../../../../assets/aniso-01.png "Confronto della sfocatura anisotropa"){zoomable="yes"}
+![Confronto della sfocatura anisotropa](directional-blur.resources/aniso-01.png "Confronto della sfocatura anisotropa"){zoomable="yes"}
 
 </td>
 </tr>
