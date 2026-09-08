@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/pre-multiplied-to-straight.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/pre-multiplied-to-straight.html"
 breadcrumb-title: ''
 description: Usa il nodo Da premoltiplicato a semplice per convertire le texture alfa premoltiplicate in formato alfa semplice.
 helpx_creative_field: ""
