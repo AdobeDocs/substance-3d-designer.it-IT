@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters/parameter-presets.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/manage-parameters/parameter-presets.html"
 breadcrumb-title: ''
 description: Scoprite come creare e utilizzare i predefiniti dei parametri in Substance 3D Designer per salvare e applicare le configurazioni dei parametri.
 helpx_creative_field: ""
