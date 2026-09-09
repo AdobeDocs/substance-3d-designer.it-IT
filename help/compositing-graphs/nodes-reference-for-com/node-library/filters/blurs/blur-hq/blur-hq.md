@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/blur-hq.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/blur-hq.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo HQ sfocatura per applicare effetti di sfocatura di alta qualità alle texture e ottenere risultati di sfocatura dall’aspetto professionale e uniforme.
 helpx_creative_field: ""
