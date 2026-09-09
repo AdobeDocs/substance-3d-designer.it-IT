@@ -1,16 +1,16 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/quad-transform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/quad-transform.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo Trasformazione quadrupla per applicare trasformazioni quadrilaterali alle texture per la correzione prospettica e l’alterazione.
+description: Usa il nodo Trasforma quadrupla per applicare trasformazioni quadrilaterali alle texture per la correzione e l'alterazione delle Prospettive.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Quad Transform
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Trasformazione quadrupla
+title: Trasforma quadruplo
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
+source-git-commit: caf740432682ed82eb55ad2f84bc9dd6ed15ad14
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 2%
@@ -18,15 +18,15 @@ ht-degree: 2%
 ---
 
 
-# Trasformazione quadrupla
+# Trasforma quadruplo
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/quad-transform-grayscale.png){width="128px"}
+![](quad-transform.resources/quad-transform-grayscale.png){width="128px"}
 
-![](../../../../../../assets/quad-transform.png){width="128px"}
+![](quad-transform.resources/quad-transform.png){width="128px"}
 
 <b>Ingresso:</b> Filtri > Trasforma
 
@@ -35,7 +35,7 @@ ht-degree: 2%
 
 ## Descrizione
 
-Nodo di trasformazione speciale che consente la trasformazione di una forma quadrupla attraverso l&#39;interazione con i relativi punti d&#39;angolo. Consente trasformazioni molto specifiche in modo pratico.
+Nodo di Trasforma speciale che consente la trasformazione di una forma quadrupla attraverso l&#39;interazione con i relativi punti d&#39;angolo. Consente Trasforma molto specifici in modo pratico.
 
 </td>
 </tr>
@@ -61,7 +61,7 @@ Nodo di trasformazione speciale che consente la trasformazione di una forma quad
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/quad-example.gif" />
+            <img src="quad-transform.resources/quad-example.gif" />
         </td>
     </tr>
 </table>
