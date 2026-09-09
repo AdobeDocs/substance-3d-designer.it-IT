@@ -111,7 +111,7 @@ Questa versione 12.4 offre anche il supporto completo dei grafici dei modelli di
 * [Vista 3D] La proprietà di visualizzazione Wireframi non viene salvata
 * [Contenuto] I parametri del colore Sfocatura radiale non hanno effetto sul canale alfa
 * [Localizzazione] Ulteriori cursori e pulsanti vengono visualizzati in Proprietà OpenGL dell&#39;ambiente.
-* [MDL][Substance modello] Arresto anomalo durante l&#39;eliminazione di nodi esposti
+* [MDL]&#x200B;[Substance modello] Arresto anomalo durante l&#39;eliminazione di nodi esposti
 * [Preferenze] Il file predefinito\_config non viene mai ricreato se viene eliminato
 * [Modello Substance] Parametro di riordinamento in caso di arresto anomalo che non viene visualizzato a livello di istanza
 * [API] SDProperty.getDefaultValue() restituisce quasi sempre Nessuno

@@ -146,7 +146,7 @@ Lo strumento [Ricerca nodi](../../interface/the-graph-view/node-finder/node-find
 * [Grafico a funzioni] I valori lunghi appaiono sovrapposti sui nodi &quot;mobili&quot;
 * [Fx-Map] Arresto anomalo durante la visualizzazione delle proprietà del nodo quadrante
 * [Grafico] [UDIM] Una barra di scorrimento nell&#39;elenco UDIM genera 1.1 1.2 voci
-* [Grafico][Scelte rapide] Il nodo creato utilizzando una scelta rapida non viene posizionato sul collegamento esistente dopo la duplicazione del nodo
+* [Grafico]&#x200B;[Scelte rapide] Il nodo creato utilizzando una scelta rapida non viene posizionato sul collegamento esistente dopo la duplicazione del nodo
 * [Properties] Visualizzazione del parametro non corretta quando il valore non è valido
 * [Publish] Le dipendenze reciproche generano un ciclo infinito durante la pubblicazione di un pacchetto
 * [Publish] Errore invisibile quando si utilizza l&#39;azione &#39;Publish&#39; su un pacchetto con dipendenza scaricata
