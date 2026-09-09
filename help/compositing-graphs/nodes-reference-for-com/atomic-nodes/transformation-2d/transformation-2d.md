@@ -65,7 +65,7 @@ Tuttavia, non può essere perfetto per alcune applicazioni, quindi i seguenti no
 >
 > Disabilitazione della suddivisione in porzioni
 > 
-> Impostare il [metodo di ereditarietà](../../../../glossary/glossary.md) del parametro di base [ &#39;Tiling mode&#39; ](../../../../glossary/glossary.md) su &#39;Absolute&#39;, che consente di impostare il valore del parametro su &#39;No Tiling&#39;:
+> Impostare il [metodo di ereditarietà](../../../../glossary/glossary.md) del parametro di base [&#x200B; &#39;Tiling mode&#39; &#x200B;](../../../../glossary/glossary.md) su &#39;Absolute&#39;, che consente di impostare il valore del parametro su &#39;No Tiling&#39;:
 > 
 > ![](transformation-2d.resources/tilingmode.png)
 
