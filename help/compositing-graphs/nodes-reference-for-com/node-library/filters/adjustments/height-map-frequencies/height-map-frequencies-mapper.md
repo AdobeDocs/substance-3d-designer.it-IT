@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/height-map-frequencies-mapper.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/height-map-frequencies-mapper.html"
 breadcrumb-title: ''
 description: Utilizzare il nodo Mappatura frequenze mappe altezza per mappare le frequenze delle mappe altezza per separare i livelli di dettaglio nelle texture.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mappatura frequenze mappe height
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: 25c39c29f26db98b103665dba13e7619ed624d0b
 workflow-type: tm+mt
 source-wordcount: '60'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/height-map-frequencies-mapper.png){width="128px"}
+![](height-map-frequencies-mapper.resources/height-map-frequencies-mapper.png){width="128px"}
 
 <b>Ingresso:</b> Filtri > Regolazioni
 
@@ -52,7 +52,7 @@ Separa le frequenze di una mappa dell&#39;altezza in due mappe separate: una con
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/heightmap-frequencies.png" />
+            <img src="height-map-frequencies-mapper.resources/heightmap-frequencies.png" />
         </td>
     </tr>
 </table>
