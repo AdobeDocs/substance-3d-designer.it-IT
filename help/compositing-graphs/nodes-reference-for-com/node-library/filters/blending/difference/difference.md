@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/difference.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/difference.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo di fusione Differenza per fondere le texture in modo da creare effetti di inversione e contrasto in modalità di differenza.
+description: Usate il nodo di fusione Differenza per fondere le texture in modo da creare effetti di inversione e contrasto in modalità Differenza.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blending > Difference
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Differenza
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
+source-git-commit: fca95f162552b0e651c7b590588b69c2c5f5a0c4
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/difference.png){width="128px"}
+![](difference.resources/difference.png){width="128px"}
 
 <b>Ingresso:</b> Filtri > Fusione
 
@@ -56,4 +56,4 @@ Esegue un metodo di fusione per differenza tra gli input in primo piano e in sfo
 |  |  |
 |:---|:---|
 | <b>Opacità</b> <i>0.0 - 1.0</i> | Fusione dell’opacità tra primo piano e sfondo. |
-| <b>Fusione alfa</b> <i>Falso/Vero</i> | Attiva/disattiva la fusione dei canali alfa di primo piano e di sfondo. Se è impostato su False, il canale alfa del primo piano viene ignorato. |
+| <b>Fusione alfa</b> <i>Falso/Vero</i> | Attiva/disattiva la fusione dei canali alfa di primo piano e di sfondo. Se impostato su False, il canale alfa del primo piano viene ignorato. |

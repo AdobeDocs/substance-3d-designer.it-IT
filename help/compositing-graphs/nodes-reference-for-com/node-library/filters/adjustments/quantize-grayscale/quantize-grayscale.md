@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/quantize-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/quantize-grayscale.html"
 breadcrumb-title: ''
 description: Usate il nodo Quantizza scala di grigi per ridurre il numero di livelli della scala di grigi per gli effetti di posterizzazione.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Quantizza scala di grigi
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: fca95f162552b0e651c7b590588b69c2c5f5a0c4
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona Quantizza scala di grigi](../../../../../../assets/quantize-grayscale.png "Icona Quantizza scala di grigi"){width="200px"}
+![Icona Quantizza scala di grigi](quantize-grayscale.resources/quantize-grayscale.png "Icona Quantizza scala di grigi"){width="200px"}
 
 <b>Ingresso:</b> Filtri > Regolazioni
 
@@ -52,6 +52,6 @@ Genera una singola spline a forma di cerchio.
 
 ## Esempi
 
-![Esempio 1](../../../../../../assets/quantizegrayscale.gif "Esempio 1")
+![Esempio 1](quantize-grayscale.resources/quantizegrayscale.gif "Esempio 1")
 
-![Esempio 2](../../../../../../assets/quantizegrayscale.png "Esempio 2")
+![Esempio 2](quantize-grayscale.resources/quantizegrayscale.png "Esempio 2")

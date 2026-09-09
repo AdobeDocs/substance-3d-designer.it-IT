@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/blur-hq.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/blur-hq.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo HQ sfocatura per applicare effetti di sfocatura di alta qualità alle texture e ottenere risultati di sfocatura dall’aspetto professionale e uniforme.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Sfocatura HQ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
+source-git-commit: fca95f162552b0e651c7b590588b69c2c5f5a0c4
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 10%
@@ -24,9 +24,9 @@ ht-degree: 10%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/blur-hq-1.png){width="128px"}
+![](blur-hq.resources/blur-hq-1.png){width="128px"}
 
-![](../../../../../../assets/blur-hq-grayscale.png){width="128px"}
+![](blur-hq.resources/blur-hq-grayscale.png){width="128px"}
 
 <b>Ingresso:</b> Filtri > Sfocature
 
@@ -35,7 +35,7 @@ ht-degree: 10%
 
 ## Descrizione
 
-Consente di eseguire una sfocatura gaussiana di alta qualità sul risultato. Qualità molto migliore rispetto a [la sfocatura standard della scatola atomica](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md) [.](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)
+Consente di eseguire una sfocatura gaussiana di alta qualità sul risultato. Qualità molto migliore rispetto a [la sfocatura standard della scatola atomica](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)[.](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)
 
 Importante: assicurati di utilizzare la versione appropriata per il tuo input. Usate &quot;Blur HQ&quot; per gli input di colore o &quot;Blur HQ Grayscale&quot; per gli input di scala di grigio.
 
@@ -57,7 +57,7 @@ Importante: assicurati di utilizzare la versione appropriata per il tuo input. U
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/hqblur-example.gif" />
+            <img src="blur-hq.resources/hqblur-example.gif" />
         </td>
     </tr>
 </table>
