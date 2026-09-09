@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/mlv-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/mlv-color.html"
 breadcrumb-title: ''
 description: Usate il filtro Sfocatura colore MLV per applicare effetti di sfocatura movimento alle texture di colore per aspetti visivi dinamici.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Colore MLV
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
+source-git-commit: 5efb14d81ad72b1982785319e446d7eb318c9a03
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Colore MLV: icona](../../../../../../assets/MLV_Color_Icon.png "Colore MLV: icona")
+![Colore MLV: icona](mlv-color.resources/MLV_Color_Icon.png "Colore MLV: icona")
 
 <b>Ingresso:</b> Filtri > Sfocature
 
@@ -79,11 +79,11 @@ Il filtro trova le aree strutturanti in un’immagine e le utilizza sia per aume
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MLV_Variant4A.png" alt="MLV_Variant4A">
+      <img src="mlv-color.resources/MLV_Variant4A.png" alt="MLV_Variant4A">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MLV_Variant4B.png" alt="MLV_Variant4B">
+      <img src="mlv-color.resources/MLV_Variant4B.png" alt="MLV_Variant4B">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -92,11 +92,11 @@ Il filtro trova le aree strutturanti in un’immagine e le utilizza sia per aume
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MLV_Variant5A.png" alt="MLV_Variant5A">
+      <img src="mlv-color.resources/MLV_Variant5A.png" alt="MLV_Variant5A">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MLV_Variant5B.png" alt="MLV_Variant5B">
+      <img src="mlv-color.resources/MLV_Variant5B.png" alt="MLV_Variant5B">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -105,11 +105,11 @@ Il filtro trova le aree strutturanti in un’immagine e le utilizza sia per aume
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MLV_Variant3A.png" alt="MLV_Variant3A">
+      <img src="mlv-color.resources/MLV_Variant3A.png" alt="MLV_Variant3A">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MLV_Variant3B.png" alt="MLV_Variant3B">
+      <img src="mlv-color.resources/MLV_Variant3B.png" alt="MLV_Variant3B">
       <br><i>Dopo</i>
     </td>
   </tr>
