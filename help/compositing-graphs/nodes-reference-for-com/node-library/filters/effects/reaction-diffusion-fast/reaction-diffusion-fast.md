@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/reaction-diffusion-fast.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/reaction-diffusion-fast.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Rapida diffusione reazione (Reaction Diffusion Fast) per generare pattern organici utilizzando algoritmi di diffusione rapida di reazione per texture procedurali.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Diffusione rapida reazione
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 2ea5b90ca7a4cbcd0b0049b156e8ded334aa0ceb
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo diffusione reazione](../../../../../../assets/reaction-diffusion.png "Icona nodo diffusione reazione")
+![Icona nodo diffusione reazione](reaction-diffusion-fast.resources/reaction-diffusion.png "Icona nodo diffusione reazione")
 
 <b>Ingresso:</b> Filtri > Effetti
 
@@ -74,17 +74,17 @@ Questo nodo è ottimizzato per le prestazioni e offre alcuni compromessi di prec
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Esempio 1](../../../../../../assets/reactdiff03.png "Esempio 1")
+![Esempio 1](reaction-diffusion-fast.resources/reactdiff03.png "Esempio 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Esempio 2](../../../../../../assets/reactdiff02.png "Esempio 2")
+![Esempio 2](reaction-diffusion-fast.resources/reactdiff02.png "Esempio 2")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Esempio 3](../../../../../../assets/reactdiff01.gif "Esempio 3")
+![Esempio 3](reaction-diffusion-fast.resources/reactdiff01.gif "Esempio 3")
 
 </td>
 </tr>
