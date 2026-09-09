@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/release-notes/version-14-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-14-1.html"
 breadcrumb-title: ''
 description: Consultate le note sulla versione di Substance 3D Designer 14.1 per informazioni sugli strumenti di disposizione dei nodi e sui nuovi nodi Spline e Path.
 helpx_creative_field: ""
@@ -111,7 +111,7 @@ Lo strumento [Ricerca nodi](../../interface/the-graph-view/node-finder/node-find
 * [Content] Triangle Grid: modifica il metodo di triangolazione e utilizza i loop
 * [Contenuto] Nuove spline Dispersione nel nodo Spline
 * [Cooker] Esporre il parametro di base &#39;Pixel ratio&#39; come variabile statica &#39;$pixelratio&#39;
-* [CrashReport] Finestra Integra nuovo report di arresto anomalo
+* [CrashReport] Integrazione della nuova finestra di CrashReport
 * [Engine] Aggiungi la versione Vulkan/Metal del motore di fusione
 * [Grafico] Modalità materiale: consente la connessione all&#39;input senza utilizzo quando è selezionato un singolo collegamento
 * [Grafico] Collegamento materiale: consenti connessioni standard quando la connessione non è ambigua
@@ -122,7 +122,7 @@ Lo strumento [Ricerca nodi](../../interface/the-graph-view/node-finder/node-find
 * [Resources] Impostare il formato su &quot;All format&quot; nella finestra di dialogo &quot;Link Bitmap&quot;
 * [Cerca] Aggiungi un modo per abilitare/disabilitare una modalità ricorsiva
 * [Cerca] Aggiungi un modo per abilitare/disabilitare la ricerca fuzzy
-* [Cerca] Mostra sempre e attiva il campo dei termini di ricerca quando si abilita Ricerca nodi utilizzando la relativa scelta rapida da tastiera da tastiera
+* [Cerca] Mostra sempre e attiva il campo dei termini di ricerca quando si abilita Ricerca nodi utilizzando la relativa scelta rapida da tastiera
 * [Search] Rielaborare l&#39;opzione di filtro
 * [Scelte rapide] Consenti assegnazione tasti &#39;V&#39;, &#39;H&#39; e &#39;S&#39;
 * [ThirdParty] Upgrade to Qt 6.5.7
@@ -146,7 +146,7 @@ Lo strumento [Ricerca nodi](../../interface/the-graph-view/node-finder/node-find
 * [Grafico a funzioni] I valori lunghi appaiono sovrapposti sui nodi &quot;mobili&quot;
 * [Fx-Map] Arresto anomalo durante la visualizzazione delle proprietà del nodo quadrante
 * [Grafico] [UDIM] Una barra di scorrimento nell&#39;elenco UDIM genera 1.1 1.2 voci
-* [Grafico]&#x200B;[Scelte rapide] Il nodo creato utilizzando una scelta rapida non viene posizionato sul collegamento esistente dopo la duplicazione del nodo
+* [Grafico][Scelte rapide] Il nodo creato utilizzando una scelta rapida non viene posizionato sul collegamento esistente dopo la duplicazione del nodo
 * [Properties] Visualizzazione del parametro non corretta quando il valore non è valido
 * [Publish] Le dipendenze reciproche generano un ciclo infinito durante la pubblicazione di un pacchetto
 * [Publish] Errore invisibile quando si utilizza l&#39;azione &#39;Publish&#39; su un pacchetto con dipendenza scaricata

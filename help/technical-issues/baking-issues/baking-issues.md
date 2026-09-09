@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/technical-issues/baking-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/baking-issues.html"
 breadcrumb-title: ''
 description: Scoprite i passaggi per la risoluzione dei problemi tecnici relativi alle texture di cottura in Substance 3D Designer.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Problemi di cottura
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,11 @@ L’opzione &quot;Corrispondenza per nome&quot; non funziona
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-<b>![(errore)](baking-issues.resources/error.svg) Problema</b>
+<b>![(errore)](../../assets/error.svg) Problema</b>
 
 Quando l’opzione &quot;Corrispondenza&quot; è impostata su &quot;Per nome trama&quot;, la corrispondenza non sembra essere applicata o non è coerente in tutti gli oggetti della scena.
 
-<b>![(tick)](baking-issues.resources/check.svg) Passaggi consigliati</b>
+<b>![(tick)](../../assets/check.svg) Passaggi consigliati</b>
 
 Nelle versioni di Designer 14.1 e precedenti, gli oggetti low poly e high poly venivano abbinati utilizzando il nome dei rispettivi oggetti *parent*, nella maggior parte dei casi la trasformazione principale.
 
@@ -45,7 +45,7 @@ A partire da Designer 15.0, il nome degli oggetti *geometry* viene utilizzato di
 </td>
 <td style="border: 0;" valign="top">
 
-![Oggetto Geometry e relativo elemento padre nell&#39;albero della scena](baking-issues.resources/baking-issues-01.png "Oggetto Geometry e relativo elemento padre nell&#39;albero della scena"){zoomable="yes"}
+![Oggetto Geometry e relativo elemento padre nell&#39;albero della scena](../../assets/sceneTree_objectsName.png "Oggetto Geometry e relativo elemento padre nell&#39;albero della scena"){zoomable="yes"}
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/technical-issues/cannot-create-load-a-project.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/cannot-create-load-a-project.html"
 breadcrumb-title: ''
 description: Risolvi i problemi con la creazione o il caricamento dei progetti in Substance 3D Designer e trova soluzioni.
 helpx_creative_field: ""
@@ -180,13 +180,13 @@ Scollega il secondo monitor dal sistema e ricollegalo (ignora questo passaggio s
 
 Avvia Designer, ma *non* crea o apre alcun progetto
 
-* Nella barra superiore, apri il menu <b>Windows</b> e seleziona l&#39;opzione <b>Nuovo vista 3D</b>
+* Nella barra superiore, apri il menu <b>Windows</b> e seleziona l&#39;opzione <b>Nuova vista 3D</b>
 
-Nella barra superiore, apri il menu <b>Windows</b> e seleziona l&#39;opzione <b>Nuovo vista 3D</b>
+Nella barra superiore, apri il menu <b>Windows</b> e seleziona l&#39;opzione <b>Nuova vista 3D</b>
 
-* Verifica che <b>vista 3D</b> sia inizializzato correttamente e prova diverse trame di anteprima nel menu <b>Scena</b> della barra superiore del pannello
+* Verifica che la <b>vista 3D</b> sia inizializzata correttamente e prova diverse trame di anteprima nel menu <b>Scena</b> della barra superiore del pannello
 
-Verifica che <b>vista 3D</b> sia inizializzato correttamente e prova diverse trame di anteprima nel menu <b>Scena</b> della barra superiore del pannello
+Verifica che la <b>vista 3D</b> sia inizializzata correttamente e prova diverse trame di anteprima nel menu <b>Scena</b> della barra superiore del pannello
 
 * Creare o aprire un materiale
 
