@@ -368,7 +368,7 @@ sono sincronizzati
 * [vista 3D] &quot;Salva rendering&quot;: il formato immagine modificato non viene mantenuto
 * [vista 3D] La selezione non funziona su GPU AMD
 * [vista 3D] La scena 3D indipendente non viene aggiornata quando viene modificata sul disco
-* [vista 3D] Alcune proprietà del materiale cromatico non vengono gestite correttamente quando vengono modificate localmente
+* [Vista 3D] Alcune proprietà del materiale cromatico non sono gestite correttamente dal colore quando vengono modificate localmente
 * [vista 3D] Le texture UDIM non vengono applicate correttamente a una trama specifica
 * [vista 3D] La scena USD con materiale MaterialX non viene più riprodotta correttamente
 * [Baker] Arresti anomali con alcune trame

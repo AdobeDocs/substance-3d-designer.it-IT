@@ -200,7 +200,7 @@ Grazie alla possibilità di esportare gli output dei grafici in file AxF, un tip
 
 1. Importa file AxF
 1. Usa il modello di grafico da &#39;AxF a AxF&#39; per la Substance
-1. Modificare la texture estratta utilizzando le funzioni e i nodi disponibili nei grafici a Substance
+1. Modificate le texture estratte utilizzando le funzioni e i nodi disponibili nei grafici a Substance
 1. Esportate gli output del grafico nello stesso file AxF
 
 La proprietà <b>Dimensioni fisiche</b> del grafico viene utilizzata per impostare l&#39;attributo <b>Dimensioni fisiche</b> delle texture aggiornate nel file AxF modificato.
@@ -297,19 +297,19 @@ Se il tuo obiettivo è quello di eseguire *modifiche* su un file AxF esistente, 
 
 Lo shader è disponibile nel menu <b>Materiali</b>: aprite il sottomenu del materiale della scena (&quot;Predefinito&quot; per impostazione predefinita) e selezionate qualsiasi tecnica nella voce <b>AxF SVBRDF</b>.
 
-Utilizzare l&#39;opzione <b>Modifica</b> nello stesso sottomenu per visualizzare le proprietà dello shader nell&#39;ancoraggio [Proprietà](../../interface/properties/properties.md).\
-In particolare, la proprietà <b>Affiancamento</b> consente di regolare l&#39;Affiancamento di texture sul modello, in modo da poter visualizzare il materiale a una scala appropriata.
+Utilizzare l&#39;opzione <b>Modifica</b> nello stesso sottomenu per visualizzare le proprietà dello shader nel dock [Proprietà](../../interface/properties/properties.md).\
+In particolare, la proprietà <b>Divisione in porzioni</b> consente di regolare la suddivisione in porzioni delle texture sul modello, in modo da poter visualizzare il materiale a una scala appropriata.
 
-Dopo aver selezionato lo shader, fai clic su RMB in uno spazio vuoto nel grafico e seleziona l&#39;opzione <b>Visualizza output in vista 3D</b> per visualizzarne gli output nel [vista 3D](../../interface/3d-view/3d-view.md).
+Dopo aver selezionato lo shader, fate clic su RMB in uno spazio vuoto nel grafico e selezionate l&#39;opzione <b>Visualizza output in vista 3D</b> per visualizzarne gli output nella [vista 3D](../../interface/3d-view/3d-view.md).
 
-![AxF: shader GLSLFX](../../assets/axf_glslfx-svbrdf.png "AxF: shader SVBRDF GLSLFX"){width="600px"}
+![AxF: SVBRDF GLSLFX shader](../../assets/axf_glslfx-svbrdf.png "AxF: SVBRDF GLSLFX shader"){width="600px"}
 
 Questo shader è attualmente un *lavoro in corso* e alcune funzionalità non sono ancora supportate. Pertanto, sebbene possa fornire una panoramica delle caratteristiche dei materiali, non deve essere utilizzato per regolazioni di precisione .
 
-Utilizzare l&#39;opzione <b>Modifica</b> nello stesso sottomenu per visualizzare le proprietà dello shader nell&#39;ancoraggio [Proprietà](../../interface/properties/properties.md).\
-In particolare, la proprietà <b>Affiancamento</b> consente di regolare l&#39;Affiancamento di texture sul modello, in modo da poter visualizzare il materiale a una scala appropriata.
+Utilizzare l&#39;opzione <b>Modifica</b> nello stesso sottomenu per visualizzare le proprietà dello shader nel dock [Proprietà](../../interface/properties/properties.md).\
+In particolare, la proprietà <b>Divisione in porzioni</b> consente di regolare la suddivisione in porzioni delle texture sul modello, in modo da poter visualizzare il materiale a una scala appropriata.
 
-Dopo aver selezionato lo shader, fai clic su RMB in uno spazio vuoto nel grafico e seleziona l&#39;opzione <b>Visualizza output in vista 3D</b> per visualizzarne gli output nel [vista 3D](../../interface/3d-view/3d-view.md).
+Dopo aver selezionato lo shader, fate clic su RMB in uno spazio vuoto nel grafico e selezionate l&#39;opzione <b>Visualizza output in vista 3D</b> per visualizzarne gli output nella [vista 3D](../../interface/3d-view/3d-view.md).
 
 ![AxF: visualizzazione per l&#39;edizione](../../assets/axf-view-for-edit.gif "AxF: visualizzazione per l&#39;edizione")
 <i>Nota:</i> ignorate la parte del video dal passaggio al modulo di rendering Iray fino alla fine, poiché il modulo di rendering Iray e il supporto MDL sono stati <i>rimossi</i> da Designer nella versione 16.0.0.
@@ -318,7 +318,7 @@ Dopo aver selezionato lo shader, fai clic su RMB in uno spazio vuoto nel grafico
 
 ### Varianti di modello supportate
 
-Gli shader utilizzati nel vista 3D supportano le seguenti varianti per i modelli di trasmissione a specular, Fresnel e clear coat:
+Gli shader utilizzati nella vista 3D supportano le seguenti varianti per i modelli di trasmissione specular, Fresnel e pelo trasparente:
 
 <table>
 <tr style="border: 0;">

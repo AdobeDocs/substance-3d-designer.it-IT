@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Istogramma equalizza
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: 25c39c29f26db98b103665dba13e7619ed624d0b
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Equalizzazione istogramma: icona](../../../../../../assets/histogram_equalize.png "Equalizzazione istogramma: icona"){width="200px"}
+![Equalizzazione istogramma: icona](histogram-equalize.resources/histogram_equalize.png "Equalizzazione istogramma: icona"){width="200px"}
 
 <b>Ingresso:</b> Filtri > Regolazioni
 
@@ -62,51 +62,51 @@ Equalizza l’istogramma di un’immagine in scala di grigio, regolando efficace
 |  |  |
 |:---|:---|
 | <b>Risoluzione istogramma</b> *Numero intero* | Larghezza dell’istogramma. Un valore più elevato consente una distribuzione più precisa.   Le risoluzioni disponibili sono, in pixel: 256, 512, 1024, 2048, 4096 |
-| <b>Uniformità istogramma</b> *Mobile* | L&#39;istogramma può essere smussato ridistribuendo i valori in scala di grigio nell&#39;immagine per equalizzare la *differenza* tra ciascun valore.   Questo parametro regola l’intensità dell’arrotondamento. |
+| <b>Uniformità istogramma</b> *Virgola mobile* | L&#39;istogramma può essere smussato ridistribuendo i valori in scala di grigio nell&#39;immagine per equalizzare la *differenza* tra ciascun valore.   Questo parametro regola l’intensità dell’arrotondamento. |
 
 ## Esempi
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/histogram_equalize_example_1_before.jpg" alt="histogram_equalize_example_1_before">
+      <img src="histogram-equalize.resources/histogram_equalize_example_1_before.jpg" alt="histogram_equalize_example_1_before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../../../../../assets/histogram_equalize_example_1_after.jpg" alt="histogram_equalize_example_1_after">
+      <img src="histogram-equalize.resources/histogram_equalize_example_1_after.jpg" alt="histogram_equalize_example_1_after">
       <br><i>Dopo</i>
     </td>
   </tr>
 </table>
 
-![Equalizzazione istogramma: esempio 1](../../../../../../assets/histogram_equalize_example_3.png "Equalizzazione istogramma: esempio 1"){zoomable="yes"}
+![Equalizzazione istogramma: esempio 1](histogram-equalize.resources/histogram_equalize_example_3.png "Equalizzazione istogramma: esempio 1"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/histogram_equalize_example_2_before.jpg" alt="histogram_equalize_example_2_before">
+      <img src="histogram-equalize.resources/histogram_equalize_example_2_before.jpg" alt="histogram_equalize_example_2_before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../../../../../assets/histogram_equalize_example_2_after.jpg" alt="histogram_equalize_example_2_after">
+      <img src="histogram-equalize.resources/histogram_equalize_example_2_after.jpg" alt="histogram_equalize_example_2_after">
       <br><i>Dopo</i>
     </td>
   </tr>
 </table>
 
-![Equalizzazione istogramma: esempio 2](../../../../../../assets/histogram_equalize_example_5.png "Equalizzazione istogramma: esempio 2"){zoomable="yes"}
+![Equalizzazione istogramma: esempio 2](histogram-equalize.resources/histogram_equalize_example_5.png "Equalizzazione istogramma: esempio 2"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/histogram_equalize_example_4_before.jpg" alt="histogram_equalize_example_4_before">
+      <img src="histogram-equalize.resources/histogram_equalize_example_4_before.jpg" alt="histogram_equalize_example_4_before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../../../../../assets/histogram_equalize_example_4_after.jpg" alt="histogram_equalize_example_4_after">
+      <img src="histogram-equalize.resources/histogram_equalize_example_4_after.jpg" alt="histogram_equalize_example_4_after">
       <br><i>Dopo</i>
     </td>
   </tr>
 </table>
 
-![Equalizzazione istogramma: esempio 3](../../../../../../assets/histogram_equalize_example_6.png "Equalizzazione istogramma: esempio 3"){zoomable="yes"}
+![Equalizzazione istogramma: esempio 3](histogram-equalize.resources/histogram_equalize_example_6.png "Equalizzazione istogramma: esempio 3"){zoomable="yes"}

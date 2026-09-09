@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Rendering volume texture 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 132a27ad47b0272a877b913eaa7957ccf8b549fd
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dtexturevolumerender.png){width="200px"}
+![](3d-texture-volume-render.resources/3dtexturevolumerender.png){width="200px"}
 
 <b>Ingresso:</b> Filtro > Effetto
 
@@ -63,13 +63,13 @@ Il volume è rappresentato entro i limiti di un *cubo di unità*. L&#39;illumina
 |:---|:---|
 | <b>Risoluzione output</b> <i>Intero2</i> | La risoluzione dell&#39;immagine di output in <b>X</b> e <b>Y</b>, espressa come <i>potenza di due</i>. |
 | <b>Posizione fotocamera</b> <i>Float2</i> | La posizione della videocamera attorno alla forma.<br>Quando il nodo è selezionato, è possibile utilizzare il gizmo posizione nella <b>vista 2D</b> per <i>orbita</i> della fotocamera. |
-| <b>Posizione chiara</b> <i>Float2</i> | Posizione della <i>luce direzionale</i> attorno alla forma.<br>Quando il nodo è selezionato, è possibile utilizzare il gizmo posizione nella <b>vista 2D</b> per <i>orbita</i> della sorgente luminosa. |
-| <b>Distanza fotocamera</b> <i>Mobile</i> | La distanza tra la fotocamera e la forma. |
-| <b>Camera FOV</b> <i>Mobile</i> | Il campo visivo della fotocamera in <i>gradi</i>. |
-| <b>Assorbimento</b> <i>Mobile</i> | Regola la quantità di luce assorbita mentre passa <i>attraverso</i> il volume. |
-| <b>Sfumatura</b> <i>Mobile</i> | Moltiplica il valore fornito dall&#39;input <b>Densità</b> con il valore del campo distanza <i>interna</i>.<br>La larghezza della <i>sfumatura di dissolvenza</i> viene regolata in modo efficace dal limite esterno del volume verso l&#39;interno. |
+| <b>Posizione chiara</b> <i>Virgola mobile 2</i> | Posizione della <i>luce direzionale</i> attorno alla forma.<br>Quando il nodo è selezionato, è possibile utilizzare il gizmo posizione nella <b>vista 2D</b> per <i>orbita</i> della sorgente luminosa. |
+| <b>Distanza fotocamera</b> <i>Virgola mobile</i> | La distanza tra la fotocamera e la forma. |
+| <b>Camera FOV</b> <i>Virgola mobile</i> | Il campo visivo della fotocamera in <i>gradi</i>. |
+| <b>Assorbimento</b> <i>Virgola mobile</i> | Regola la quantità di luce assorbita mentre passa <i>attraverso</i> il volume. |
+| <b>Sfumatura</b> <i>Virgola mobile</i> | Moltiplica il valore fornito dall&#39;input <b>Densità</b> con il valore del campo distanza <i>interna</i>.<br>La larghezza della <i>sfumatura di dissolvenza</i> viene regolata in modo efficace dal limite esterno del volume verso l&#39;interno. |
 | <b>Metodo colore chiaro</b> <i>Numero intero</i> | Imposta il metodo di acquisizione del colore della luce direzionale:<br>- <i>Temperatura (Kelvin)</i>: il colore deriva dalla temperatura della luce, dove un valore <i>inferiore</i> genera un colore <i>più caldo</i><br>- <i>Colore RGB</i>: definite il colore utilizzando i valori RGB |
-| <b>Temperatura leggera (Kelvin)</b> <i>Mobile</i> | Temperatura della luce direzionale che influisce sul <i>colore</i>. Un valore <i>inferiore</i> produce un colore <i>più caldo</i>.<br>Valori utili:<br>1800 K - Luce candela<br>2800 K - Lampada a incandescenza<br>5500 K - Luce diurna<br>6200 K - Bianco naturale<br>7000 K - Cielo coperto<br><i>Nota</i>: questo parametro è disponibile solo quando il parametro <b>Metodo colore chiaro</b> è impostato su <i>Temperatura (Kelvin)</i>. |
+| <b>Temperatura leggera (Kelvin)</b> <i>Virgola mobile</i> | Temperatura della luce direzionale che influisce sul <i>colore</i>. Un valore <i>inferiore</i> produce un colore <i>più caldo</i>.<br>Valori utili:<br>1800 K - Luce candela<br>2800 K - Lampada a incandescenza<br>5500 K - Luce diurna<br>6200 K - Bianco naturale<br>7000 K - Cielo coperto<br><i>Nota</i>: questo parametro è disponibile solo quando il parametro <b>Metodo colore chiaro</b> è impostato su <i>Temperatura (Kelvin)</i>. |
 | <b>Colore chiaro</b> <i>Float3</i> | Colore della luce direzionale.<br><i>Nota</i>: questo parametro è disponibile solo quando <b>Metodo colore chiaro</b> è impostato su <i>Colore RGB</i>. |
 | <b>Intensità luce</b> <i>Mobile</i> | Intensità della luce direzionale. |
 | <b>Colore ambiente</b> <i>Float3</i> | Il colore del lucernario ambiente. |
@@ -87,22 +87,22 @@ Il volume è rappresentato entro i limiti di un *cubo di unità*. L&#39;illumina
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturevolumerender-variant2.jpg" />
+            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturevolumerender-variant5.jpg" />
+            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-variant5.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturevolumerender-variant3.jpg" />
+            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-variant3.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturevolumerender-variant.jpg" />
+            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturevolumerender-variant4.jpg" />
+            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-variant4.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturevolumerender-node.png" />
+            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-node.png" />
         </td>
     </tr>
 </table>

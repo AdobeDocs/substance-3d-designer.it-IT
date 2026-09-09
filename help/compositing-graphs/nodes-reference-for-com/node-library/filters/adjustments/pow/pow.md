@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/pow.html"
 breadcrumb-title: ''
-description: Utilizza il nodo Pow per applicare le regolazioni della funzione di potenza alle texture per controllare le curve di luminosità e la correzione gamma.
+description: Usa il nodo Poa per applicare le regolazioni della funzione di potenza alle texture per controllare le curve di luminosità e la correzione gamma.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Pow
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Pow
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: 7f15827b198bfbc133601581dc54ed894e98d89d
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 8%
@@ -24,9 +24,9 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pow-1.png){width="128px"}
+![](pow.resources/pow-1.png){width="128px"}
 
-![](../../../../../../assets/pow-grayscale.png){width="128px"}
+![](pow.resources/pow-grayscale.png){width="128px"}
 
 <b>Ingresso:</b> Filtri > Regolazioni
 
@@ -56,7 +56,7 @@ Importante: accertatevi di utilizzare la versione corretta, a seconda che dispon
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/pow.gif" />
+            <img src="pow.resources/pow.gif" />
         </td>
     </tr>
 </table>

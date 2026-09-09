@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versione 11.3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1284'
 ht-degree: 1%
@@ -28,7 +28,7 @@ Data di pubblicazione: *24 novembre 2021*
 
 ### Nuove funzionalità per grafici modello
 
-![](version-11-3.resources/version-11-3-01.jpg)
+![](../../assets/banner-model.jpg)
 
 Sono stati aggiunti molti miglioramenti al grafico del modello per espandere le funzionalità di modellazione:
 
@@ -41,7 +41,7 @@ Sono stati aggiunti molti miglioramenti al grafico del modello per espandere le 
   * Sfoltimento particelle
   * Particelle da istanze
 
-  ![](version-11-3.resources/version-11-3-02.gif)
+  ![](../../assets/particle-pruning.gif)
 
 * <b>Nuovi nodi di modellazione e deformazione</b>\
   Sono stati aggiunti nuovi nodi per creare forme più complesse. Fare clic su ogni nodo per ulteriori informazioni:
@@ -59,7 +59,7 @@ Sono stati aggiunti molti miglioramenti al grafico del modello per espandere le 
 
 ### Migliore interoperabilità
 
-![](version-11-3.resources/version-11-3-03.jpg)
+![](../../assets/banner-sendto.jpg)
 
 Le azioni send-o sono state ampliate, con due nuove possibilità:
 
@@ -71,24 +71,24 @@ Le azioni send-o sono state ampliate, con due nuove possibilità:
 
 ### Varie
 
-![](version-11-3.resources/version-11-3-04.jpg)
+![](../../assets/banner-misc-3.jpg)
 
 Sono stati apportati diversi miglioramenti alla qualità della vita:
 
 * **Input relativi agli input**\
   Gli input del grafico impostati in Relativo agli input erediteranno ora la dimensione del nodo connesso invece di quella predefinita del grafico principale. Questo semplifica notevolmente la gestione delle diverse risoluzioni tramite input di dimensioni diverse.
 
-  ![](version-11-3.resources/version-11-3-05.jpg){width="400px"}
+  ![](../../assets/relative-to-inputs.jpg){width="400px"}
 
 * **Nuova finestra del grafico**\
   La nuova finestra grafica è stata rielaborata e ora consente di visualizzare meglio i dettagli di un modello specifico e di creare un nuovo grafico direttamente in un pacchetto esistente.
 
-  ![](version-11-3.resources/version-11-3-06.png){width="400px"}
+  ![](../../assets/new-graph.png){width="400px"}
 
 * **Chiudi tutti i pacchetti**\
   Una piccola azione che rende meno noiosa la gestione di molti pacchetti in Esplora risorse. Utilizza **File** > **Chiudi tutti** per chiudere tutti i pacchetti attualmente aperti.
 
-  ![](version-11-3.resources/version-11-3-07.png)
+  ![](../../assets/close-all-packages.png)
 
 * **Ingrandisci visualizzazione corrente**\
   Utilizzate la nuova barra del titolo **icona** o la scelta rapida **MAIUSC+spazio** per espandere una finestra a schermo intero. Può essere utilizzato anche su finestre mobili.
@@ -98,16 +98,16 @@ Sono stati apportati diversi miglioramenti alla qualità della vita:
 
 ### Contenuto
 
-![](version-11-3.resources/version-11-3-08.jpg)
+![](../../assets/render-content.jpg)
 
 Questa versione aggiunge nuovi nodi di diffusione e miglioramenti per il nodo del PBR render:
 
 * <b>Nodi di diffusione</b>\
   I nuovi nodi UV Diffusione colore, Scala di grigi diffusione e Diffusione consentono di generare sfumature di sanguinamento morbide basate su una maschera di input.
 
-  ![](version-11-3.resources/version-11-3-09.jpg){width="230px"}
+  ![](../../assets/diffusion-normal.jpg){width="230px"}
 
-  ![](version-11-3.resources/version-11-3-10.jpg) ![](version-11-3.resources/version-11-3-11.jpg)
+  ![](../../assets/diffusion-grayscale.jpg) ![](../../assets/diffusion-uv.jpg)
 
 * **Nodo di PBR render migliorato**\
   Questo nodo presenta le seguenti modifiche:
@@ -129,9 +129,9 @@ Questa versione aggiunge nuovi nodi di diffusione e miglioramenti per il nodo de
 * [Modelli Substance] Consente di visualizzare in sovrapposizione nella finestra della vista 3D il risultato di un nodo intermedio
 * [Modelli di Substance] Migliorare la visualizzazione della visualizzazione della base
 * [Modelli Substance] Mantiene la gerarchia degli oggetti durante l&#39;esportazione di un grafico Modello Substance in .fbx
-* [Modelli Substance] Supporto di più materiali nell&#39;esportazione di FBX/OBJ dal grafico del modello Substance
+* [Modelli Substance] Supporto di più materiali nell&#39;esportazione FBX/OBJ dal grafico dei modelli Substance
 * [Modelli Substance]&#x200B;[Contenuto] Nodo particelle
-* [Modelli di Substance]&#x200B;[Contenuto] Nodo di Trasforma generativo
+* [Modelli di Substance]&#x200B;[Contenuto] Nodo Trasformazione generativa
 * [Modelli Substance]&#x200B;[Contenuto] Nodo Pattern organico
 * [Modelli Substance]&#x200B;[Contenuto] Particelle dal nodo Istanze
 * [Modelli di Substance]&#x200B;[Contenuto] Nodo di potatura delle particelle

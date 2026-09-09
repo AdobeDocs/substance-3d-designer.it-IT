@@ -69,13 +69,13 @@ Verrà aperta la finestra <b>Nuova bitmap</b>, che consente di impostare il *nom
 
 ## Barre degli strumenti
 
-Gli strumenti e le opzioni di pittura sono disposti in *barre degli strumenti* nel pannello [Vista 2D](../../../interface/2d-view/2d-view.md). Queste barre degli strumenti possono essere riposizionate su *qualsiasi lato* del pannello o come *barra degli strumenti mobile*, facendo clic e tenendo premuto <b>LMB</b> sulla relativa *maniglia*, visualizzata come tripla riga, quindi rilasciando <b>LMB</b> nella posizione desiderata.
+Gli strumenti e le opzioni di pittura sono disposti in *barre degli strumenti* all&#39;interno del pannello [vista 2D](../../../interface/2d-view/2d-view.md). Queste barre degli strumenti possono essere riposizionate su *qualsiasi lato* del pannello o come *barra degli strumenti mobile*, facendo clic e tenendo premuto <b>LMB</b> sulla relativa *maniglia*, visualizzata come tripla riga, quindi rilasciando <b>LMB</b> nella posizione desiderata.
 
 Quando sono attivati gli strumenti di disegno, vengono visualizzate due barre degli strumenti: la [barra degli strumenti di selezione degli strumenti](#bitmappaintingtools-toolselectiontoolbar) e la barra degli strumenti Opzioni degli strumenti, descritte di seguito.
 
 ## Barra degli strumenti Selezione strumenti
 
-Gli strumenti di pittura si trovano nella **barra degli strumenti di selezione degli strumenti**, che per impostazione predefinita si trova sul *lato sinistro* del pannello [Vista 2D](../../../interface/2d-view/2d-view.md). Le scelte rapide da tastiera consentono di accedere rapidamente a questi strumenti e sono contrassegnate di seguito tra parentesi dopo il nome dello strumento/funzione:
+Gli strumenti di pittura si trovano nella **barra degli strumenti di selezione degli strumenti**, che per impostazione predefinita si trova sul *lato sinistro* del pannello [vista 2D](../../../interface/2d-view/2d-view.md). Le scelte rapide da tastiera consentono di accedere rapidamente a questi strumenti e sono contrassegnate di seguito tra parentesi dopo il nome dello strumento/funzione:
 
 ![](../../../assets/2dview-paintingtools-icon-colors-primary.png)![](../../../assets/2dview-paintingtools-icon-colors-secondary.png) <b>Selezione colore</b> <b>miniature:</b> Consente di definire un colore *primario* e *secondario*. Fate clic su una di queste miniature per visualizzare la finestra <b>Editor colori</b> e definire un colore. Gli strumenti utilizzeranno il colore *primario*. I colori primario e secondario possono essere *scambiati* (<b>X</b>) in qualsiasi momento
 
@@ -89,7 +89,7 @@ Gli strumenti di pittura si trovano nella **barra degli strumenti di selezione d
 
 ## Barra degli strumenti Opzioni
 
-Le opzioni per gli strumenti disponibili nella [barra degli strumenti di selezione degli strumenti](#bitmappaintingtools-toolselectiontoolbar) si trovano nella barra degli strumenti Opzioni strumenti, che per impostazione predefinita si trova sul *lato superiore* del pannello [Vista 2D](../../../interface/2d-view/2d-view.md).
+Le opzioni per gli strumenti disponibili nella [barra degli strumenti di selezione degli strumenti](#bitmappaintingtools-toolselectiontoolbar) si trovano nella barra degli strumenti Opzioni strumenti, che per impostazione predefinita si trova sul *lato superiore* del pannello [Visualizzazione 2D](../../../interface/2d-view/2d-view.md).
 
 <table>
 <tr style="border: 0;">

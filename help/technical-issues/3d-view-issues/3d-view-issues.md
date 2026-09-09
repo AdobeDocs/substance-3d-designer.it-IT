@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/technical-issues/3d-view-issues.html"
 breadcrumb-title: ''
-description: Risoluzione dei problemi di Visualizzazione 3D in Substance 3D Designer, inclusi problemi di rendering, visualizzazione e prestazioni.
+description: Risoluzione dei problemi di vista 3D in Substance 3D Designer, inclusi problemi di rendering, visualizzazione e prestazioni.
 helpx_creative_field: ""
 helpx_description: Designer > Technical issues > 3D View issues
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Problemi della vista 3D
+title: Problemi di vista 3D
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# Problemi della vista 3D
+# Problemi di vista 3D
 
 In questa pagina sono elencati i problemi tecnici relativi alla [vista 3D](../../interface/3d-view/3d-view.md) in Substance 3D Designer e sono disponibili procedure per la risoluzione dei problemi per ciascuno di essi.
 
@@ -97,11 +97,11 @@ Per impostazione predefinita, potete continuare a utilizzare il modulo di render
 
 1. Seleziona Modifica > Preferenze > Progetti.
 2. Seleziona l’ultimo file di progetto nell’elenco
-3. Nell’elenco dei file di progetto, seleziona la scheda Visualizzazione 3D
+3. Nell’elenco dei file di progetto, seleziona la scheda vista 3D
 4. Imposta l’opzione &quot;Modulo di rendering predefinito&quot; su &quot;OpenGL (obsoleto)&quot;
 5. Fare clic su &#39;OK&#39; per convalidare le modifiche
 
-Ora, per impostazione predefinita, in tutte le nuove viste 3D viene utilizzato il modulo di rendering OpenGL, che consente di continuare a lavorare come prima.
+Ora tutti i nuovi vista 3D useranno il modulo di rendering OpenGL per impostazione predefinita, che consente di continuare a lavorare come prima.
 
 >[!NOTE]
 >

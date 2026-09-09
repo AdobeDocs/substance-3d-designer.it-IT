@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Preferenze utente - Configurazione automatica
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 0%
@@ -33,7 +33,7 @@ In alternativa, potete ignorare completamente la modifica delle preferenze utent
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Icona file XML](user-preferences-automating-setup.resources/user-preferences-automating-setup-01.png "Icona file XML")
+![Icona file XML](../../assets/xml-5.png "Icona file XML")
 
 </td>
 </tr>
@@ -54,7 +54,7 @@ Esistono due modi diversi per configurare Designer per l&#39;utilizzo di un altr
 
 Se non è disponibile una configurazione automatica o per scopi di test, è possibile accedere manualmente a <b>Modifica > Preferenze...</b> e quindi fare clic sulla sezione &quot;<b>Progetti</b>&quot; a sinistra.
 
-![Impostazioni progetto](user-preferences-automating-setup.resources/user-preferences-automating-setup-02.png "Impostazioni progetto")
+![Impostazioni progetto](../../assets/preferences-ui.png "Impostazioni progetto")
 
 Il pulsante contrassegnato in rosso consente all&#39;utente di scegliere un diverso [file SBSCFG](../../pipeline-and-project-con/configuration-list-sbscfg/configuration-list-sbscfg.md).
 
@@ -194,7 +194,7 @@ def SetConfigurationFile(p_ConfigPath):
 ```
 
 
-## Scelta rapida degli argomenti della riga di comando
+## Scelta rapida da tastiera degli argomenti della riga di comando
 
 In modo molto più semplice, Designer può essere avvisato di utilizzare un SBSCFG specifico all&#39;avvio tramite l&#39;argomento &quot;—config-file&quot; (opzionale).
 
@@ -210,4 +210,4 @@ Sebbene non sia consigliabile utilizzare un metodo manuale in un ambiente di pro
 
    *&quot;C:\Program Files\Adobe\Adobe Substance 3D Designer\Adobe Substance 3D Designer.exe&quot; —config-file &quot;C:\Dev\Substance\custom\_configuration.sbscfg&quot;*
 
-![Input del file di configurazione nelle proprietà del file eseguibile](user-preferences-automating-setup.resources/user-preferences-automating-setup-03.jpg "Input del file di configurazione nelle proprietà del file eseguibile")
+![Input del file di configurazione nelle proprietà del file eseguibile](../../assets/shortcutargument.jpg "Input del file di configurazione nelle proprietà del file eseguibile")

@@ -136,11 +136,11 @@ Questi due pannelli sono accessibili anche dal menu Aiuto.
 * [UI] Il pulsante dell’estensione nel menu della vista 3D non è visibile
 * [UI] Il menu dell&#39;estensione della barra degli strumenti Grafico è incompleto
 * [UI] Valore del widget del parametro errato dopo aver annullato l’attivazione dell’intervallo rigido
-* [Vista 3D] Le impostazioni di shader non predefinite vengono perse su Iray da una sessione a un&#39;altra
-* [Baker] Arresto anomalo durante il caricamento di una finestra eseguita i baking con una scena senza trame
-* [Function] Arresto anomalo durante la copia di un&#39;istanza nel grafico a cui fa riferimento
+* [Vista 3D] L&#39;impostazione dello shader non predefinita viene persa su Iray da una sessione a un&#39;altra
+* [Bakers] Arresto anomalo durante il caricamento della finestra di cottura con una scena senza trame
+* [Funzione] Arresto anomalo quando si copia un’istanza nel grafico a cui fa riferimento
 * [Funzione] Correggere un possibile arresto anomalo durante la manipolazione dei nodi
 * [Globalizzazione] Il corsivo non è sempre disabilitato correttamente in giapponese, coreano e cinese
-* [Grafico] identificatore di fallback errato per i nuovi grafici MDL e Substance
+* [Grafico] Identificatore fallback errato per i nuovi grafici MDL e Substance modelli
 * [Grafico] I parametri ereditati guidati da valori a volte vengono calcolati in modo errato
 * [GraphRender] Arresto anomalo durante il cambio di motore durante l&#39;elaborazione del grafico ad alta risoluzione (solo macOS)

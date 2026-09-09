@@ -53,4 +53,4 @@ Un grafico della funzione Substance applicato a un parametro del nodo non genera
 
 <b>![(tick)](../../assets/check.svg) Passaggi consigliati</b>
 
-I numeri interi negativi non sono attualmente supportati correttamente. Come soluzione alternativa, utilizzare il valore intero negativo in un valore [Integer2](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) ed estrarlo utilizzando un nodo [di Swizzle integer](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/vector-and-swizzle-nodes/vector-and-swizzle-nodes.md).
+I numeri interi negativi non sono attualmente supportati correttamente. Come soluzione alternativa, utilizzare il valore intero negativo in un valore [Integer2](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) ed estrarlo utilizzando un nodo [Swizzle Integer](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/vector-and-swizzle-nodes/vector-and-swizzle-nodes.md).

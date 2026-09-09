@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Calcolo istogramma
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: 25c39c29f26db98b103665dba13e7619ed624d0b
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Calcolo istogramma: icon](../../../../../../assets/histogram_compute.png "Calcolo istogramma: icon"){width="200px"}
+![Calcolo istogramma: icon](histogram-compute.resources/histogram_compute.png "Calcolo istogramma: icon"){width="200px"}
 
 <b>Ingresso:</b> Filtri > Regolazioni
 
@@ -77,16 +77,16 @@ Gli strumenti personalizzati possono essere creati utilizzando i dati calcolati 
 
 ## Esempi
 
-![Calcolo istogramma: esempio 1](../../../../../../assets/histogram_compute_example_1.jpg "Calcolo istogramma: esempio 1"){zoomable="yes"}
+![Calcolo istogramma: esempio 1](histogram-compute.resources/histogram_compute_example_1.jpg "Calcolo istogramma: esempio 1"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/histogram_compute_example_2_before.jpg" alt="histogram_compute_example_2_before">
+      <img src="histogram-compute.resources/histogram_compute_example_2_before.jpg" alt="histogram_compute_example_2_before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../../../../../assets/histogram_compute_example_2_after.jpg" alt="histogram_compute_example_2_after">
+      <img src="histogram-compute.resources/histogram_compute_example_2_after.jpg" alt="histogram_compute_example_2_after">
       <br><i>Dopo</i>
     </td>
   </tr>

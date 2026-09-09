@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Rendering superficie texture 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 132a27ad47b0272a877b913eaa7957ccf8b549fd
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dtexturesurfacerender.png){width="200px"}
+![](3d-texture-surface-render.resources/3dtexturesurfacerender.png){width="200px"}
 
 <b>Ingresso:</b> Filtro > Effetto
 
@@ -63,33 +63,33 @@ La superficie è rappresentata entro i limiti di un *cubo di unità*. L&#39;illu
 |:---|:---|
 | <b>Risoluzione output</b> <i>Intero2</i> | La risoluzione dell&#39;immagine di output in <b>X</b> e <b>Y</b>, espressa come <i>potenza di due</i>. |
 | <b>Posizione fotocamera</b> <i>Float2</i> | La posizione della videocamera attorno alla forma.<br>Quando il nodo è selezionato, è possibile utilizzare il gizmo posizione nella <b>vista 2D</b> per <i>orbita</i> della fotocamera. |
-| <b>Distanza fotocamera</b> <i>Mobile</i> | La distanza tra la fotocamera e la forma. |
-| <b>Camera FOV</b> <i>Mobile</i> | Il campo visivo della fotocamera in <i>gradi</i>. |
-| <b>Albedo</b> <i>Float3</i> | Colore di albedo della superficie della forma. |
+| <b>Distanza fotocamera</b> <i>Virgola mobile</i> | La distanza tra la fotocamera e la forma. |
+| <b>Camera FOV</b> <i>Virgola mobile</i> | Il campo visivo della fotocamera in <i>gradi</i>. |
+| <b>Albedo</b> <i>Virgola mobile 3</i> | Colore di albedo della superficie della forma. |
 | <b>Modalità sfondo</b> <i>Numero intero</i> | Metodo di rappresentazione dello sfondo della scena renderizzata:<br>- <i>Irradianza terreno</i>: irradianza calcolata del piano terreno<br>- <i>Ambiente</i>: colore ambientale dell&#39;immagine <b>Ambiente</b> mappato su una sfera infinita, simile a una versione fortemente sfocata dell&#39;immagine<br>- <i>Colore uniforme</i>: riempi in modo uniforme lo sfondo con un colore specificato<br>- <i>Ambiente</i>: l&#39;immagine <b>Ambiente</b> mappata su una sfera infinita di input |
-| <b>Colore di sfondo</b> <i>Float4</i> | Colore utilizzato per riempire in modo uniforme lo sfondo della scena sottoposta a rendering.<br><i>Nota</i>: questo parametro è disponibile solo quando il parametro <b>Modalità sfondo</b> è impostato su <i>Colore uniforme</i>. |
+| <b>Colore di sfondo</b> <i>Virgola mobile 4</i> | Colore utilizzato per riempire in modo uniforme lo sfondo della scena sottoposta a rendering.<br><i>Nota</i>: questo parametro è disponibile solo quando il parametro <b>Modalità sfondo</b> è impostato su <i>Colore uniforme</i>. |
 | <b>Abilita piano terreno</b> <i>Booleano</i> | Se <i>True</i>, esegue il rendering di un piano terreno. Il <i>cubo di unità</i> che racchiude la forma si trova su questo piano. |
 | <b>Piano infinito</b> <i>Booleano</i> | Imposta il piano terreno in modo che si estenda <i>all&#39;infinito</i> fino all&#39;orizzonte.<br><i>Nota</i>: questo parametro è disponibile solo quando il parametro <b>Abilita piano terreno</b> è impostato su <i>True</i>. |
-| <b>Dimensioni piano terreno</b> <i>Float2</i> | Regola la dimensione del piano terreno.<br><i>Nota</i>: questo parametro è disponibile solo quando il parametro <b>Abilita piano terreno</b> è impostato su <i>True</i> e il parametro <b>Piano infinito</b> è impostato su <i>False</i>. |
+| <b>Dimensioni piano terreno</b> <i>Virgola mobile 2</i> | Regola la dimensione del piano terreno.<br><i>Nota</i>: questo parametro è disponibile solo quando il parametro <b>Abilita piano terreno</b> è impostato su <i>True</i> e il parametro <b>Piano infinito</b> è impostato su <i>False</i>. |
 
 ## Esempi
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturesurfacerender-variant.jpg" />
+            <img src="3d-texture-surface-render.resources/3dtexturesurfacerender-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturesurfacerender-variant2.jpg" />
+            <img src="3d-texture-surface-render.resources/3dtexturesurfacerender-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturesurfacerender-variant3.jpg" />
+            <img src="3d-texture-surface-render.resources/3dtexturesurfacerender-variant3.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturesurfacerender-variant4.jpg" />
+            <img src="3d-texture-surface-render.resources/3dtexturesurfacerender-variant4.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturesurfacerender-node.png" />
+            <img src="3d-texture-surface-render.resources/3dtexturesurfacerender-node.png" />
         </td>
     </tr>
 </table>

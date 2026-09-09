@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Curvatura uniforme
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 07f136ebd89fbe737b6c042f1275bd348b2be514
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo arrotondato curvatura](../../../../../../assets/CurvatureSmooth.png "Icona nodo arrotondato curvatura"){width="200px"}
+![Icona nodo arrotondato curvatura](curvature-smooth.resources/CurvatureSmooth.png "Icona nodo arrotondato curvatura"){width="200px"}
 
 <b>Ingresso:</b> Filtri > Effetti
 
@@ -64,7 +64,7 @@ Anche le aree concave e convesse vengono suddivise nelle rispettive uscite, per 
 |:---|:---|
 | <b>Curvatura</b> <i>Scala di grigi</i> | Mappa di curvatura calcolata a partire dalla mappa normale di input.   Le aree piatte sono grigie al 50%. Le aree convesse sono più luminose, mentre quelle concave più scure. |
 | <b>Convessità</b> <i>Scala di grigi</i> | La mappa di convessità calcolata a partire dalla mappa normale di input.   Più convessa è un&#39;area, più luminosa è nella mappa.  Le aree piatte o concave sono nere. |
-| <b>Concavità</b> <i>Scala di grigi</i> | La mappa di concavità calcolata dalla mappa normale di input.   Più concava è un&#39;area, più luminosa è nella mappa.  Le aree piatte o convesse sono nere. |
+| <b>Concavità</b> <i>Scala di grigi</i> | Mappa di concavità calcolata a partire dalla mappa normale di input.   Più concava è un&#39;area, più luminosa è nella mappa.  Le aree piatte o convesse sono nere. |
 
 <a name="parameters"></a>
 
@@ -79,11 +79,11 @@ Anche le aree concave e convesse vengono suddivise nelle rispettive uscite, per 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/curvature_smooth_example_1_before.jpg" alt="curvature_smog_example_1_before">
+      <img src="curvature-smooth.resources/curvature_smooth_example_1_before.jpg" alt="curvature_smog_example_1_before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../../../../../assets/curvature_smooth_example_1_after.jpg" alt="curvature_smog_example_1_after">
+      <img src="curvature-smooth.resources/curvature_smooth_example_1_after.jpg" alt="curvature_smog_example_1_after">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -93,12 +93,12 @@ Anche le aree concave e convesse vengono suddivise nelle rispettive uscite, per 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Curvatura uniforme: Esempio 2](../../../../../../assets/curvature_smooth_example_2.jpg "Curvatura uniforme: Esempio 2"){zoomable="yes"}
+![Curvatura uniforme: Esempio 2](curvature-smooth.resources/curvature_smooth_example_2.jpg "Curvatura uniforme: Esempio 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Curvatura uniforme: Esempio 3](../../../../../../assets/curvature_smooth_example_3.jpg "Curvatura uniforme: Esempio 3"){zoomable="yes"}
+![Curvatura uniforme: Esempio 3](curvature-smooth.resources/curvature_smooth_example_3.jpg "Curvatura uniforme: Esempio 3"){zoomable="yes"}
 
 </td>
 </tr>
@@ -107,11 +107,11 @@ Anche le aree concave e convesse vengono suddivise nelle rispettive uscite, per 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/curvature_smooth_example_4_before.jpg" alt="curvature_smog_example_4_before">
+      <img src="curvature-smooth.resources/curvature_smooth_example_4_before.jpg" alt="curvature_smog_example_4_before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../../../../../assets/curvature_smooth_example_4_after.jpg" alt="curvature_smog_example_4_after">
+      <img src="curvature-smooth.resources/curvature_smooth_example_4_after.jpg" alt="curvature_smog_example_4_after">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -121,12 +121,12 @@ Anche le aree concave e convesse vengono suddivise nelle rispettive uscite, per 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Curvatura uniforme: Esempio 4](../../../../../../assets/curvature_smooth_example_5.jpg "Curvatura uniforme: Esempio 4"){zoomable="yes"}
+![Curvatura uniforme: Esempio 4](curvature-smooth.resources/curvature_smooth_example_5.jpg "Curvatura uniforme: Esempio 4"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Curvatura uniforme: Esempio 5](../../../../../../assets/curvature_smooth_example_6.jpg "Curvatura uniforme: Esempio 5"){zoomable="yes"}
+![Curvatura uniforme: Esempio 5](curvature-smooth.resources/curvature_smooth_example_6.jpg "Curvatura uniforme: Esempio 5"){zoomable="yes"}
 
 </td>
 </tr>

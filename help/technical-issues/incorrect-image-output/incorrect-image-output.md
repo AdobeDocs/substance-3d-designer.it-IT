@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Output immagine errato
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '751'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Questa pagina elenca i problemi tecnici che si verificano in Substance 3D Design
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-**![(errore)](incorrect-image-output.resources/error.svg) Problema**
+**![(errore)](../../assets/error.svg) Problema**
 
 Le sfumature nell’output dell’immagine vengono sfumate e non uniformi. Il passaggio è causato dall&#39;intervallo di valori *utilizzato dall&#39;immagine troppo stretta*.\
 Questo significa che non ci sono abbastanza valori per una transizione uniforme da un passaggio di una sfumatura al successivo.
@@ -43,13 +43,13 @@ Se non è necessario lavorare specificamente con le immagini HDR, è probabile c
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](incorrect-image-output.resources/incorrect-image-output-01.png){width="256px"}![](incorrect-image-output.resources/incorrect-image-output-02.png){width="256px"}![](incorrect-image-output.resources/incorrect-image-output-03.png){width="256px"}
+![](../../assets/demo-stepping-8-bit.png){width="256px"}![](../../assets/demo-stepping-8-bit-2.png){width="256px"}![](../../assets/demo-stepping-8-bit-3.png){width="256px"}
 
 </td>
 </tr>
 </table>
 
-**![(tick)](incorrect-image-output.resources/check.svg) Passaggi consigliati**
+**![(tick)](../../assets/check.svg) Passaggi consigliati**
 
 Controllare il **formato di output** (ovvero la profondità di bit) del nodo e di tutti i nodi a monte e assicurarsi che questi nodi utilizzino *una precisione Integer di almeno 16 bit*.
 
@@ -73,7 +73,7 @@ Ad esempio:
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-<b>![(errore)](incorrect-image-output.resources/error.svg) Problema</b>
+<b>![(errore)](../../assets/error.svg) Problema</b>
 
 La qualità delle immagini generate da un archivio Substance 3D (SBSAR) è notevolmente inferiore rispetto al grafico del file Substance 3D da cui viene pubblicato, come mostrato nell&#39;immagine a destra.\
 L’output appare a bassa risoluzione.
@@ -81,17 +81,17 @@ L’output appare a bassa risoluzione.
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](incorrect-image-output.resources/incorrect-image-output-04.jpg){width="256px"}
+![](../../assets/issues-sbsar-bitmap-relative-to.jpg){width="256px"}
 
 </td>
 </tr>
 </table>
 
-<b>![(tick)](incorrect-image-output.resources/check.svg) Passaggi consigliati</b>
+<b>![(tick)](../../assets/check.svg) Passaggi consigliati</b>
 
 Assicuratevi che la proprietà [Dimensione output](../../compositing-graphs/output-size/output-size.md) di tutti i nodi [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) sia impostata sul metodo *Assoluto* [di ereditarietà](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md).
 
-In caso contrario, la [risorsa bitmap](../../resources/bitmap-resource/bitmap-resource.md) a cui si fa riferimento verrà salvata con la risoluzione predefinita 256\*256 nell&#39;archivio di Substance 3D pubblicato, che* influirà sulla qualità* di uno o più output.
+In caso contrario, la [risorsa bitmap](../../resources/bitmap-resource/bitmap-resource.md) a cui viene fatto riferimento verrà salvata con la risoluzione predefinita 256\*256 nell&#39;archivio di Substance 3D pubblicato, con un impatto* sulla qualità* di uno o più output.
 
 ## L’immagine è sfocata
 
@@ -99,20 +99,20 @@ In caso contrario, la [risorsa bitmap](../../resources/bitmap-resource/bitmap-re
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-**![(errore)](incorrect-image-output.resources/error.svg) Problema**
+**![(errore)](../../assets/error.svg) Problema**
 
 Le forme risultano leggermente sfocate dopo aver utilizzato alcuni nodi, ad esempio [Trasformazione 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) o [Fusione](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md).
 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](incorrect-image-output.resources/incorrect-image-output-05.jpg){width="256px"}
+![](../../assets/issues-bilinear.jpg){width="256px"}
 
 </td>
 </tr>
 </table>
 
-**![(tick)](incorrect-image-output.resources/check.svg) Passaggi consigliati**
+**![(tick)](../../assets/check.svg) Passaggi consigliati**
 
 Quando si riordinano i pixel in un&#39;immagine, ad esempio quando si ridimensiona una forma o si modifica la risoluzione di un&#39;immagine, esistono due modi per determinare in che modo i pixel dell&#39;origine devono essere *mappati* alla destinazione:
 

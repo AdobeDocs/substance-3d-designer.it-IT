@@ -45,7 +45,7 @@ Altri nodi potenti si uniscono al gruppo:
 * [<b>Curvatura uniforme</b>](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md): questa nuova versione ora supporta correttamente tutte le modalità di Affiancamento, aggiunge due nuovi output (convessità e concavità) e migliora sia la precisione che le prestazioni.
 * <b>[Equalizzazione istogramma](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-equalize/histogram-equalize.md):</b> questo nodo equalizza l&#39;istogramma di un&#39;immagine in scala di grigio regolando i valori per ottenere una distribuzione uniforme. Questi nodi sono dotati di due nodi complementari: [Rendering istogramma](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-render/histogram-render.md) per generare l&#39;istogramma dell&#39;immagine e [Calcolo istogramma](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-compute/histogram-compute.md)<b> </b>per codificare un istogramma come riga di pixel.
 * <b>[Smusso uniforme](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/bevel-smooth/bevel-smooth.md):</b> grazie a questo, puoi disegnare una sfumatura o un colore piatto dai bordi di una maschera (verso l&#39;esterno, l&#39;interno o entrambi). Nodo [Distanza direzionale](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/directional-distance/directional-distance.md)<b> </b>disegna anche la sfumatura, ma in una direzione specifica.
-* <b>[Normal uncombine](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-uncombine/normal-uncombine.md):</b> questo nodo è l&#39;opposto del nodo [Normal combine](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md) e rimuove da una mappa normale i dettagli della superficie descritti da una mappa di height.
+* <b>[Normal uncombine](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-uncombine/normal-uncombine.md):</b> questo nodo è l&#39;opposto del nodo [Normal combine](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md) e rimuove da una mappa normale i dettagli della superficie descritti da una mappa di altezza.
 
 <table>
 <tr style="border: 0;">
@@ -135,7 +135,7 @@ Separa normale
 * <b>Parametri ereditati</b>: quando un parametro è [ereditato](../../glossary/glossary.md), invece di visualizzare il valore predefinito, viene visualizzato quello ereditato in modo da conoscere il valore attualmente utilizzato. Ulteriori informazioni sull&#39;ereditarietà in [questa pagina dedicata della nostra documentazione](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md).
 * Il supporto per <b>trackpad</b> su MacOS è stato completamente rielaborato per essere più naturale e in linea con altri software. Anche lo spostamento di nodi oltre i bordi della [Visualizzazione grafico](../../interface/the-graph-view/the-graph-view.md) è stato riprogettato per garantire maggiore fluidità e coerenza in tutti i sistemi operativi.
 
-* <b>Vista 2D: </b>quando la visualizzazione in porzioni è abilitata nella [vista 2D](../../interface/2d-view/2d-view.md), ora puoi ottenere valori anche per i pixel che non si trovano nella porzione originale: è molto utile controllare il [campionamento](../../glossary/glossary.md) e le transizioni dei valori tra le porzioni.
+* <b>vista 2D: </b>quando la visualizzazione in porzioni è abilitata in [vista 2D](../../interface/2d-view/2d-view.md), ora puoi ottenere valori anche per i pixel che non si trovano nella porzione originale: è molto utile controllare il [campionamento](../../glossary/glossary.md) e le transizioni dei valori tra le porzioni.
 
 ![vista 2d](../../assets/2dview.gif){width="320px" zoomable="yes"}
 
@@ -164,7 +164,7 @@ L’API di scripting include quattro nuovi metodi:
 * Metodi per ottenere e impostare il tipo di grafico di un grafico di composizione Substance: myGraph.setGraphType(&quot;newType&quot;) ; myGraph.getGraphType()
 * Metodo per aprire una risorsa pacchetto nel relativo editor (ad esempio, un grafico a Substance nella visualizzazione Grafico): myUIManager.openResourceInEditor(myResource)
 * Metodo per selezionare una risorsa pacchetto in Esplora risorse (ad esempio, un grafico a Substance): myUIManager.setExplorerSelection(myResource)
-* Metodo per creare un frame di un nodo specifico nella visualizzazione grafico: myUIManager.focusGraphNode(myGraphViewID, myNode)
+* Metodo per il fotogramma di un nodo specifico nella visualizzazione grafico: myUIManager.focusGraphNode(myGraphViewID, myNode)
 
 ## Requisiti della piattaforma VFX
 
@@ -207,17 +207,17 @@ Tieni presente che questi aggiornamenti hanno due conseguenze principali:
 * [UX] Modernizza il panning quando si raggiunge il bordo del grafico durante la selezione
 * [UX] Rimozione della funzionalità &quot;Disattiva High DPI&quot;
 * [Branding] Nuovo branding per la schermata iniziale e la finestra Informazioni su
-* [Gradient Map] Aggiungi un modo per spostare tutti i tasti e il ciclo
+* [Mappa sfumatura] Aggiungi un modo per spostare tutti i tasti e il ciclo
 * [Library] Imposta tutti i filtri predefiniti su maiuscole/minuscole
-* [API] Metodo Add per inserire un frame in un nodo specifico nella finestra della vista Grafico
+* [API] Aggiungi metodo per raggruppare un nodo specifico nella finestra della vista Grafico
 * [API] Metodo Add per aprire una risorsa pacchetto nel relativo editor (ad esempio, un grafico a Substance nella vista Grafico)
 * [API] Aggiungi metodo per selezionare una risorsa pacchetto in Esplora risorse (ad esempio, un grafico a Substance)
 * [API] Aggiungi metodi per ottenere e impostare il tipo di grafico di un grafico di composizione Substance
 * [ThirdParty] Segui le raccomandazioni sulle piattaforme VFX del 2023
 * [ThirdParty] Segui le raccomandazioni sulle piattaforme VFX del 2024
-* [ThirdParty] Aggiorna Boost a 1.82.0 + USD a 23.08
+* [Third Party] Aggiornamento incrementato alla versione 1.82.0 + USD alla versione 23.08
 * [ThirdParty] Aggiornamento NGL alla 1.38
-* [ThirdParty] Aggiorna OpenColorIO alla versione 2.3.x
+* [Third Party] Aggiornamento OpenColorIO alla versione 2.3.x
 * [ThirdParty] Aggiornamento di OpenExr alla versione 3.2.x
 * [ThirdParty] Aggiornamento di OpenSubdiv alla versione 3.6.x
 * [ThirdParty] Aggiorna Python alla versione 3.11.x
@@ -229,7 +229,7 @@ Tieni presente che questi aggiornamenti hanno due conseguenze principali:
 
 ### Correzioni
 
-* [Bakers] Arresto anomalo quando si ripristina una scena il cui nome file è stato modificato
+* [Baker] Arresto anomalo quando si rigenera una scena il cui nome file è stato modificato
 * [Bakers] Arresto anomalo durante il salvataggio del predefinito bakers in un file JSON
 * [Content] &#39;Dispersione su spline&#39;: Esposizione parametro alfa immagine di input
 * [Content] &#39;Tile Sampler Color&#39;: espressione visibleif mancante
