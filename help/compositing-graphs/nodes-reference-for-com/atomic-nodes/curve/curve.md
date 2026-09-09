@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Curva
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atomico: curva](../../../../assets/comp_curve_1.png "Nodo atomico: curva"){width="200px"}
+![Nodo atomico: curva](curve.resources/comp_curve_1.png "Nodo atomico: curva"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -90,7 +90,7 @@ A differenza della maggior parte degli altri nodi, il nodo Curva non dispone di 
 |  |  |
 | --- | --- |
 | <b>Applica/Esporta curva</b> *Booleano* | Consente di copiare la curva utente nell&#39;output invece di applicarla all&#39;immagine di input |
-| <b>Indirizzamento della curva</b> *Booleano* | Questo parametro determina il modo in cui vengono gestiti i pixel HDR fuori dall’intervallo [0, 1] nell’input: bloccati o piegati fino a [0, 1]. |
+| <b>Indirizzamento della curva</b> *Booleano* | Questo parametro determina il modo in cui vengono gestiti i pixel HDR che non rientrano nell’intervallo [0, 1] nell’input: bloccati o piegati fino a [0, 1]. |
 | <b>Curva</b> *Matrice di chiavi di curva* | Curva personalizzata utilizzata per mappare i valori in scala di grigio di input.   Può essere modificato utilizzando l&#39;[editor curva](#curve-editor). |
 
 ## Editor curva
@@ -99,7 +99,7 @@ A differenza della maggior parte degli altri nodi, il nodo Curva non dispone di 
 
 Per creare un punto, fate doppio clic in un punto qualsiasi della vista Curva:
 
-![](../../../../assets/createmovepoint.gif)
+![](curve.resources/createmovepoint.gif)
 
 ### Controllo dell&#39;influenza di un punto
 
@@ -112,31 +112,31 @@ Per ottenere risultati precisi, i nodi della curva offrono diverse modalità per
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../assets/image2017-2-17-14-5-36.png)
+![](curve.resources/image2017-2-17-14-5-36.png)
 
 </td>
 </tr>
 </table>
 
-![](../../../../assets/image2017-2-17-14-13-27.png) Reimpostare la modalità punto sul valore predefinito.
+![](curve.resources/image2017-2-17-14-13-27.png) Reimpostare la modalità punto sul valore predefinito.
 
-![](../../../../assets/image2017-2-17-14-12-6.png) Bloccare e sbloccare i due gestori Bezier in modo che l&#39;utente possa spostarli insieme o in modo indipendente.
+![](curve.resources/image2017-2-17-14-12-6.png) Bloccare e sbloccare i due gestori Bezier in modo che l&#39;utente possa spostarli insieme o in modo indipendente.
 
-![](../../../../assets/image2017-2-17-14-14-0.png) Entrambi i lati del punto sono controllati da un gestore di Bezier.
+![](curve.resources/image2017-2-17-14-14-0.png) Entrambi i lati del punto sono controllati da un gestore di Bezier.
 
-![](../../../../assets/image2017-2-17-14-16-22.png) Il lato destro del punto è controllato da un gestore di Bezier mentre il lato sinistro rimane piatto.
+![](curve.resources/image2017-2-17-14-16-22.png) Il lato destro del punto è controllato da un gestore di Bezier mentre il lato sinistro rimane piatto.
 
-![](../../../../assets/image2017-2-17-14-18-25.png) Il lato sinistro del punto è controllato da un gestore di Bezier mentre il lato destro rimane piatto.
+![](curve.resources/image2017-2-17-14-18-25.png) Il lato sinistro del punto è controllato da un gestore di Bezier mentre il lato destro rimane piatto.
 
-![](../../../../assets/image2017-2-17-14-19-32.png) I lati dei punti rimangono piatti
+![](curve.resources/image2017-2-17-14-19-32.png) I lati dei punti rimangono piatti
 
-![](../../../../assets/curvepointsmodes.gif)
+![](curve.resources/curvepointsmodes.gif)
 
 ### Mostra istogramma di input
 
-Puoi mostrare/nascondere l&#39;istogramma del tuo input semplicemente facendo clic su ![](../../../../assets/image2017-2-17-14-50-13.png)
+Puoi mostrare/nascondere l&#39;istogramma del tuo input semplicemente facendo clic su ![](curve.resources/image2017-2-17-14-50-13.png)
 
-![](../../../../assets/image2017-2-17-14-48-35.png)
+![](curve.resources/image2017-2-17-14-48-35.png)
 
 ### Controllo individuale di ciascun canale (input colore)
 
@@ -151,15 +151,15 @@ Seleziona la curva da regolare nell’elenco a discesa in alto a destra:
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../assets/image2017-2-17-14-52-43.png)
+![](curve.resources/image2017-2-17-14-52-43.png)
 
 </td>
 </tr>
 </table>
 
-Nella modalità Curva RGB puoi nascondere/mostrare le singole curve dei canali premendo/depremendo ![](../../../../assets/image2017-2-17-14-55-0.png):
+Nella modalità Curva RGB puoi nascondere/mostrare le singole curve dei canali premendo/depremendo ![](curve.resources/image2017-2-17-14-55-0.png):
 
-![](../../../../assets/image2017-2-17-14-55-38.png)
+![](curve.resources/image2017-2-17-14-55-38.png)
 
 ### Allineamento, specchiatura e capovolgimento
 
@@ -178,7 +178,7 @@ Se fate clic con il pulsante destro del mouse sulla vista curva, verranno visual
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
 
-![](../../../../assets/image2017-6-27-16-11-9.png)
+![](curve.resources/image2017-6-27-16-11-9.png)
 
 </td>
 </tr>
@@ -203,7 +203,7 @@ Disegnate una casella di selezione.
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../assets/ctrl.gif)
+![](curve.resources/ctrl.gif)
 
 </td>
 </tr>
@@ -220,7 +220,7 @@ Vincola lo spostamento sull’asse X o Y.
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../assets/shift.gif)
+![](curve.resources/shift.gif)
 
 </td>
 </tr>
@@ -237,7 +237,7 @@ Interrompi temporaneamente le maniglie per spostarle in modo indipendente.
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../assets/altclick.gif)
+![](curve.resources/altclick.gif)
 
 </td>
 </tr>
@@ -247,11 +247,11 @@ Interrompi temporaneamente le maniglie per spostarle in modo indipendente.
 
 Durante l’ottimizzazione dei gestori, potreste trovarvi in un caso in cui un gestore si trova sopra la vista curva.
 
-In tal caso, è possibile utilizzare il pulsante ![](../../../../assets/image2017-2-20-19-11-53.png) per adattare le dimensioni al contenuto.
+In tal caso, è possibile utilizzare il pulsante ![](curve.resources/image2017-2-20-19-11-53.png) per adattare le dimensioni al contenuto.
 
-Il pulsante ![](../../../../assets/image2017-2-20-19-12-45.png) ripristina il livello di zoom su 1
+Il pulsante ![](curve.resources/image2017-2-20-19-12-45.png) ripristina il livello di zoom su 1
 
-![](../../../../assets/viewzoom.gif)
+![](curve.resources/viewzoom.gif)
 
 ## Connettori di ingresso
 

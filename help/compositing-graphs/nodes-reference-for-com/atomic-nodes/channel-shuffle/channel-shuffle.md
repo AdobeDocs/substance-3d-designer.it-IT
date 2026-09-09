@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spostamento casuale canali
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atomico: slittamento canali](../../../../assets/comp_shuffle.png "Nodo atomico: slittamento canali"){width="200px"}
+![Nodo atomico: slittamento canali](channel-shuffle.resources/comp_shuffle.png "Nodo atomico: slittamento canali"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

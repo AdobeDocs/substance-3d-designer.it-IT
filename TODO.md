@@ -1,7 +1,7 @@
 ---
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 475af5f27b827f66289993dbd8367904c1baf42b
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '106'
 ht-degree: 11%
 
 ---
@@ -15,13 +15,14 @@ ht-degree: 11%
 ## Incrementi
 
 * Punti di ingresso per la documentazione delle API Python su AdobeDocs
+* Vista 3D: utilizza `refineLevel = 0` per migliorare le prestazioni quando utilizzi lo spostamento su trame a poli elevato
 * Esempi nella pagina a comparsa Documentazione
 * Glossario:
   * HDR
   * Metallicità/Metallica
   * HDR
   * Speculare
-  * Mappa height
+  * Mappa altezza
   * Opacità
   * Frustum
   * Spazio tangente
@@ -33,8 +34,6 @@ ht-degree: 11%
 ## Correzioni
 
 * Collegamenti e formattazione interrotti nel [nodo di output](help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
-* Rimuovi ToC all&#39;interno della pagina (es. nuovi rumori)
-* Correggi layout di pagina nodo (es. nuovi rumori)
 * Correggi collegamento per immagine di primo esempio nelle pagine del nodo (ad es. nuovi rumori)
 * Elemento &#39;Numero intero negativo&#39; mancante e collegamenti interrotti in [parameters-not-working-as-expect.md](help/technical-issues/parameters-not-working/parameters-not-working-as-expected.md)
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Campioni di materiale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 7e53313d3c368803a95ebb1f9eee712ae2a05817
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Campioni di materiale
 
-![Esempi di materiale - Schede modello](../../../assets/materialSamples-cards.png "Esempi di materiale - Schede modello")
+![Esempi di materiale - Schede modello](material-samples.resources/materialSamples-cards.png "Esempi di materiale - Schede modello")
 
 Designer offre una selezione accurata di grafici campione su vari tipi di materiali da imparare e con cui sperimentare.
 
@@ -36,14 +36,14 @@ Durante la creazione di un nuovo grafico a Substance, i campioni sono disponibil
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Finestra di dialogo Nuovo grafico a Substance - Campioni di materiale](../../../assets/newGraphDialog-samples-1.png "Finestra di dialogo Nuovo grafico a Substance - Campioni di materiale"){zoomable="yes"}
+![Finestra di dialogo Nuovo grafico a Substance - Campioni di materiale](material-samples.resources/newGraphDialog-samples-1.png "Finestra di dialogo Nuovo grafico a Substance - Campioni di materiale"){zoomable="yes"}
 
 Aprite la casella combinata <b>Categoria</b> e selezionate <b>Campioni di materiale</b> per elencare i modelli disponibili.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Campioni di materiale - Pulsante Banner](../../../assets/materialSamples-bannerButton.png "Campioni di materiale - Pulsante Banner"){zoomable="yes"}
+![Campioni di materiale - Pulsante Banner](material-samples.resources/materialSamples-bannerButton.png "Campioni di materiale - Pulsante Banner"){zoomable="yes"}
 
 Puoi accedere direttamente all&#39;elenco dei campioni nella finestra di dialogo, utilizzando il pulsante <b>Vai a campioni</b> comodamente posizionato
 nella <b>schermata iniziale</b>.
@@ -62,7 +62,7 @@ esplorato nel campione.
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-![Esempi di materiale - Descrizione comando scheda modello](../../../assets/newGraphDialog-sampleTooltip.png "Esempi di materiale - Descrizione comando scheda modello"){zoomable="yes"}
+![Esempi di materiale - Descrizione comando scheda modello](material-samples.resources/newGraphDialog-sampleTooltip.png "Esempi di materiale - Descrizione comando scheda modello"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,4 +84,4 @@ L&#39;area di lavoro viene configurata automaticamente e sei pronto per iniziare
 > il materiale nella vista 3D passerà automaticamente alla superficie OpenPBR <code></code> shader per
 > visualizzare il campione con precisione.
 
-![Esempio di materiale - Grafico](../../../assets/materialSamples-graph.png "Esempio di materiale - Grafico"){zoomable="yes"}
+![Esempio di materiale - Grafico](material-samples.resources/materialSamples-graph.png "Esempio di materiale - Grafico"){zoomable="yes"}
