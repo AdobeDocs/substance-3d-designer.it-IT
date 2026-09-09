@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shape-glow.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shape-glow.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Bagliore forma per aggiungere effetti di bagliore a forme e texture per creare effetti visivi luminosi e atmosferici.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Bagliore forma
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 67f8f59bf50387b87e9009b042f269208c665c65
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 4%
@@ -24,9 +24,9 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/shape-glow-grayscale.png){width="128px"}
+![](shape-glow.resources/shape-glow-grayscale.png){width="128px"}
 
-![](../../../../../../assets/shape-glow.png){width="128px"}
+![](shape-glow.resources/shape-glow.png){width="128px"}
 
 <b>Ingresso:</b> Filtri > Effetti
 
@@ -61,7 +61,7 @@ Consente di creare un bagliore morbido attorno a una maschera di input (per la v
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/shapeglow-ex.png" />
+            <img src="shape-glow.resources/shapeglow-ex.png" />
         </td>
     </tr>
 </table>
