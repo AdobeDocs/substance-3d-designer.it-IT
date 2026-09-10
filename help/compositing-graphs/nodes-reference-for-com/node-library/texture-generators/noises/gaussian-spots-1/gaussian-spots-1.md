@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/gaussian-spots-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/gaussian-spots-1.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Gaussiana macchie 1 per generare pattern di macchie gaussiane per creare variazioni e dettagli della texture organica.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Macchie gaussiane 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
+source-git-commit: a2d6381b9bf224008fa412ef70c9b63b9b2756e8
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Macchie gaussiane 1 - Icona](../../../../../../assets/gaussian_spots_1.png "Macchie gaussiane 1 - Icona"){width="200px"}
+![Macchie gaussiane 1 - Icona](gaussian-spots-1.resources/gaussian_spots_1.png "Macchie gaussiane 1 - Icona"){width="200px"}
 
 <b>Ingresso:</b> Generatori di texture > Rumori
 
@@ -70,12 +70,12 @@ Vedere anche: [macchie gaussiane 2](../../../../../../compositing-graphs/nodes-r
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Macchie gaussiane 1 - Esempio 1](../../../../../../assets/gaussian_spots_1_1.png "Macchie gaussiane 1 - Esempio 1"){zoomable="yes"}
+![Macchie gaussiane 1 - Esempio 1](gaussian-spots-1.resources/gaussian_spots_1_1.png "Macchie gaussiane 1 - Esempio 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Macchie gaussiane 1 - Esempio 2](../../../../../../assets/noise_gaussian_spots_1_v2_speed0.6_aniso0.gif "Macchie gaussiane 1 - Esempio 2"){zoomable="yes"}
+![Macchie gaussiane 1 - Esempio 2](gaussian-spots-1.resources/noise_gaussian_spots_1_v2_speed0.6_aniso0.gif "Macchie gaussiane 1 - Esempio 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -85,12 +85,12 @@ Vedere anche: [macchie gaussiane 2](../../../../../../compositing-graphs/nodes-r
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Macchie gaussiane 1 - Esempio 3](../../../../../../assets/noise_gaussian_spots_1_v2_speed0.6_aniso1.gif "Macchie gaussiane 1 - Esempio 3"){zoomable="yes"}
+![Macchie gaussiane 1 - Esempio 3](gaussian-spots-1.resources/noise_gaussian_spots_1_v2_speed0.6_aniso1.gif "Macchie gaussiane 1 - Esempio 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Macchie gaussiane 1 - Esempio 4](../../../../../../assets/noise_gaussian_spots_1_v2_speed0.3_aniso0.6.gif "Macchie gaussiane 1 - Esempio 4"){zoomable="yes"}
+![Macchie gaussiane 1 - Esempio 4](gaussian-spots-1.resources/noise_gaussian_spots_1_v2_speed0.3_aniso0.6.gif "Macchie gaussiane 1 - Esempio 4"){zoomable="yes"}
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-2.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Somma frattale 2 per generare un disturbo frattale con due ottave per creare variazioni di texture organiche.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: SOMMA FRATTALE 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
+source-git-commit: a2d6381b9bf224008fa412ef70c9b63b9b2756e8
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Somma frattale 2 - Icona](../../../../../../assets/fractal_sum_2.png "Somma frattale 2 - Icona"){width="200px"}
+![Somma frattale 2 - Icona](fractal-sum-2.resources/fractal_sum_2.png "Somma frattale 2 - Icona"){width="200px"}
 
 <b>Ingresso:</b> Generatori di texture > Rumori
 
@@ -65,12 +65,12 @@ Vedere anche: [Somma frattale base](../../../../../../compositing-graphs/nodes-r
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Somma frattale 2 - Esempio 1](../../../../../../assets/fractal_sum_2_1.png "Somma frattale 2 - Esempio 1"){zoomable="yes"}
+![Somma frattale 2 - Esempio 1](fractal-sum-2.resources/fractal_sum_2_1.png "Somma frattale 2 - Esempio 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Somma frattale 2 - Esempio 2](../../../../../../assets/noise_fractal_sum_2_v2_speed0.6_aniso0.gif "Somma frattale 2 - Esempio 2"){zoomable="yes"}
+![Somma frattale 2 - Esempio 2](fractal-sum-2.resources/noise_fractal_sum_2_v2_speed0.6_aniso0.gif "Somma frattale 2 - Esempio 2"){zoomable="yes"}
 
 </td>
 </tr>
