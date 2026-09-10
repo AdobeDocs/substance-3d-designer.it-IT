@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/color-equalizer.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/color-equalizer.html"
 breadcrumb-title: ''
-description: Utilizza il nodo Color Equalizer per bilanciare le variazioni di colore nei materiali scansionati per ottenere un aspetto della texture uniforme.
+description: Utilizza il nodo Color Equalizer per bilanciare le variazioni di colore nei materiali scansionati per ottenere un aspetto coerente delle texture.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Color Equalizer
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Color Equalizer
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
+source-git-commit: 2c331b568074714ea71231410f997f965e2bcdaa
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/color-equalizer.png){width="128px"}
+![](color-equalizer.resources/color-equalizer.png){width="128px"}
 
 <b>Tra:</b> Filtri materiali > Elaborazione scansione
 
