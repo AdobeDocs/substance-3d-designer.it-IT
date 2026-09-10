@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-poly-quadratic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-poly-quadratic.html"
 breadcrumb-title: ''
 description: Utilizzare il nodo Quadratico Poly spline per creare spline quadratiche complesse con più punti di controllo.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline (Poly Quadratic)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 4ae20991693573dd44016a411c233b071fa96df6
 workflow-type: tm+mt
 source-wordcount: '1149'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo](../../../../../../assets/spline-poly-quadratic-icon.png "Icona nodo")
+![Icona nodo](spline-poly-quadratic.resources/spline-poly-quadratic-icon.png "Icona nodo")
 
 <b>In:</b> Strumenti Spline E Tracciati > Strumenti spline
 
@@ -94,15 +94,15 @@ La traiettoria della spline può essere smussata dai suoi punti intermedi, in qu
 | <b>Proprietà punti</b> |  |
 | <b>p# Proprietà</b> <i>Float3</i> | Imposta le proprietà del punto p#.<br>- <i>Height:</i> Regola il height del punto in cui un valore inferiore indica una posizione inferiore o più profonda;<br>- <i>Smoothness:</i> Sposta l&#39;inizio dell&#39;arrotondamento della spline in corrispondenza di p#, in cui un valore pari a 0 determina una traiettoria rigida e 1 in una completamente arrotondata;<br>- <i>Thickness:</i> Regola il thickness della spline in corrispondenza di p#. Thickness viene utilizzato da nodi Spline specifici. |
 | <b>Coordinate punti</b> |  |
-| <b>p#</b> <i>Float2</i> | Imposta la posizione del punto p# nello spazio della texture. |
+| <b>p#</b> <i>Virgola mobile 2</i> | Imposta la posizione del punto p# nello spazio della texture. |
 | <b>Anteprima</b> |  |
 | <b>Mostra tangenti</b> <i>Booleano</i> | Visualizza le tangenti dei punti p1 e p3 a p2 nell&#39;output Preview. |
 | <b>Mostra helper direzione</b> <i>Booleano</i> | Visualizza un punto all&#39;inizio della spline e una freccia alla fine nell&#39;output di anteprima. |
 | <b>Mostra busta Thickness</b> <i>Booleano</i> | Visualizza le linee aggiuntive ai bordi del thickness della spline. |
 | <b>Mostra etichetta punti</b> <i>Booleano</i> | Per ogni punto, visualizza il nome del punto accanto nell&#39;output &quot;Anteprima&quot;. |
-| <b>Dimensioni etichetta punti</b> <i>Mobile</i> | (Disponibile quando &#39;Mostra etichetta punti&#39; è impostato su &#39;True&#39;) Dimensione dell&#39;etichetta per ogni punto nello spazio della texture, dove 0,1 è un decimo della larghezza della texture. |
+| <b>Dimensioni etichetta punti</b> <i>Virgola mobile</i> | (Disponibile quando &#39;Mostra etichetta punti&#39; è impostato su &#39;True&#39;) Dimensione dell&#39;etichetta per ogni punto nello spazio della texture, dove 0,1 è un decimo della larghezza della texture. |
 | <b>Mostra punti</b> <i>Booleano</i> | Visualizza i punti di controllo della spline. |
-| <b>Dimensioni Punti</b> <i>Mobile</i> | (Disponibile quando &#39;Mostra punti&#39; è impostato su &#39;True&#39;) Raggio dei punti nello spazio della texture, dove 0,1 è un decimo della larghezza della texture. |
+| <b>Dimensioni Punti</b> <i>Virgola mobile</i> | (Disponibile quando &#39;Mostra punti&#39; è impostato su &#39;True&#39;) Raggio dei punti nello spazio della texture, dove 0,1 è un decimo della larghezza della texture. |
 | <b>Importo segmenti</b> <i>Numero intero</i> | Regola il numero di segmenti utilizzati per disegnare la visualizzazione della spline nell&#39;output di anteprima.<br>Un valore più elevato determina una linea più fluida. |
 | <b>Thickness (px)</b> <i>Mobile</i> | Regola il thickness della visualizzazione della spline in pixel nell&#39;output di anteprima. |
 
@@ -115,11 +115,11 @@ La traiettoria della spline può essere smussata dai suoi punti intermedi, in qu
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplinePolyQuadratic-Variant1-Before.jpg" alt="SplinePolyQuadratic-Variant1-Before">
+      <img src="spline-poly-quadratic.resources/SplinePolyQuadratic-Variant1-Before.jpg" alt="SplinePolyQuadratic-Variant1-Before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplinePolyQuadratic-Variant1-After.jpg" alt="SplinePolyQuadratic-Variant1-After">
+      <img src="spline-poly-quadratic.resources/SplinePolyQuadratic-Variant1-After.jpg" alt="SplinePolyQuadratic-Variant1-After">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -128,7 +128,7 @@ La traiettoria della spline può essere smussata dai suoi punti intermedi, in qu
 </td>
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 2](../../../../../../assets/SplinePolyQuadratic-Demo.gif "Esempio di nodo 2")
+![Esempio di nodo 2](spline-poly-quadratic.resources/SplinePolyQuadratic-Demo.gif "Esempio di nodo 2")
 
 </td>
 </tr>

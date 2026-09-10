@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-quadratic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-quadratic.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Quadratico spline per creare spline quadratiche uniformi con tre punti di controllo.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline (Quadratico)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 4ae20991693573dd44016a411c233b071fa96df6
 workflow-type: tm+mt
 source-wordcount: '824'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Spline (Quadratic): icon](../../../../../../assets/spline-quadratic-icon.png "Spline (Quadratic): icon")
+![Spline (Quadratic): icon](spline-quadratic.resources/spline-quadratic-icon.png "Spline (Quadratic): icon")
 
 <b>In:</b> Strumenti Spline E Tracciati > Strumenti spline
 
@@ -103,12 +103,12 @@ L&#39;estensione dell&#39;arco formato dalla spline è *regolabile*, in modo che
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Spline (Quadratic): Esempio 1](../../../../../../assets/spline-quadratic-example-1.png "Spline (Quadratic): Esempio 1"){zoomable="yes"}
+![Spline (Quadratic): Esempio 1](spline-quadratic.resources/spline-quadratic-example-1.png "Spline (Quadratic): Esempio 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Spline (Quadratic): Esempio 2](../../../../../../assets/spline-quadratic-example-2.png "Spline (Quadratic): Esempio 2"){zoomable="yes"}
+![Spline (Quadratic): Esempio 2](spline-quadratic.resources/spline-quadratic-example-2.png "Spline (Quadratic): Esempio 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -118,7 +118,7 @@ L&#39;estensione dell&#39;arco formato dalla spline è *regolabile*, in modo che
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Spline (Quadratic): Demo](../../../../../../assets/spline-quadratic-demo.gif "Spline (Quadratic): Demo"){zoomable="yes"}
+![Spline (Quadratic): Demo](spline-quadratic.resources/spline-quadratic-demo.gif "Spline (Quadratic): Demo"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
