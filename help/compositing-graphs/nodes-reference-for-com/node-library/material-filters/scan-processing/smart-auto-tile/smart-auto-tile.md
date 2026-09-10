@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/smart-auto-tile.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/smart-auto-tile.html"
 breadcrumb-title: ''
 description: Utilizza il nodo Smart Auto Tile per creare automaticamente porzioni uniformi dai materiali scansionati utilizzando il rilevamento intelligente dei pattern.
 helpx_creative_field: ""

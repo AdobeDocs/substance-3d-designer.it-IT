@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/cloth-wear.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/cloth-wear.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Usura stoffa per generare maschere di usura sulle superfici dei tessuti in base alla curvatura della trama e alle aree di contatto.
 helpx_creative_field: ""
