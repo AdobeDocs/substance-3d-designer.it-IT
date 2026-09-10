@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-polygon.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-polygon.html"
 breadcrumb-title: ''
 description: Usa il nodo Poligono tracciati per creare tracciati poligonali dai dati dei vertici per la generazione di pattern geometrici.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Poligono tracciati
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
+source-git-commit: f9ae596767e754b5c0f62ed6bdb6f16dd33bb799
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo](../../../../../../assets/paths-polygon-icon.png "Icona nodo")
+![Icona nodo](paths-polygon.resources/paths-polygon-icon.png "Icona nodo")
 
 <b>In:</b> Strumenti spline e tracciati > Strumenti tracciato
 
@@ -35,7 +35,7 @@ ht-degree: 3%
 
 Genera un primitivo (poligono) nel formato Tracciati.
 
-Utilizza il nodo [Trasformazione 2D tracciato](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md) per posizionare con precisione il primitivo.
+Utilizza il nodo [Path 2D Trasforma](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md) per posizionare con precisione il primitivo.
 
 </td>
 </tr>
@@ -63,12 +63,12 @@ Utilizza il nodo [Trasformazione 2D tracciato](../../../../../../compositing-gra
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 1](../../../../../../assets/PathsPolygon_Variant1_1.jpg "Esempio di nodo 1")
+![Esempio di nodo 1](paths-polygon.resources/PathsPolygon_Variant1_1.jpg "Esempio di nodo 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 2](../../../../../../assets/PathsPolygon_Variant2.jpg "Esempio di nodo 2")
+![Esempio di nodo 2](paths-polygon.resources/PathsPolygon_Variant2.jpg "Esempio di nodo 2")
 
 </td>
 </tr>

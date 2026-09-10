@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-select.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-select.html"
 breadcrumb-title: ''
 description: Utilizzare il nodo Selezione percorsi per selezionare e filtrare percorsi specifici da un elenco di percorsi in base ai criteri.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Selezione tracciati
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
+source-git-commit: f9ae596767e754b5c0f62ed6bdb6f16dd33bb799
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo](../../../../../../assets/paths-select-icon.png "Icona nodo")
+![Icona nodo](paths-select.resources/paths-select-icon.png "Icona nodo")
 
 <b>In:</b> Strumenti spline e tracciati > Strumenti tracciato
 
@@ -75,11 +75,11 @@ Isolate un tracciato tra più tracciati contenuti in Tracciati.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="paths-select.resources/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../../../../../assets/PathsSelect-Variant1.jpg" alt="PathsSelect-Variant1">
+      <img src="paths-select.resources/PathsSelect-Variant1.jpg" alt="PathsSelect-Variant1">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -91,11 +91,11 @@ Isolate un tracciato tra più tracciati contenuti in Tracciati.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="paths-select.resources/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../../../../../assets/PathsSelect-Variant2.jpg" alt="PathsSelect-Variant2">
+      <img src="paths-select.resources/PathsSelect-Variant2.jpg" alt="PathsSelect-Variant2">
       <br><i>Dopo</i>
     </td>
   </tr>

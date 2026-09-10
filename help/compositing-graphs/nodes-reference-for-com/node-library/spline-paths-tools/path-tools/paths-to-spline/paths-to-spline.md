@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-to-spline.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-to-spline.html"
 breadcrumb-title: ''
 description: Utilizzare il nodo Tracciati su spline per convertire i dati del tracciato in spline da utilizzare con i nodi basati su spline.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Tracciati da spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
+source-git-commit: f9ae596767e754b5c0f62ed6bdb6f16dd33bb799
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo](../../../../../../assets/paths-to-splines-icon.png "Icona nodo")
+![Icona nodo](paths-to-spline.resources/paths-to-splines-icon.png "Icona nodo")
 
 <b>In:</b> Strumenti spline e tracciati > Strumenti tracciato
 
@@ -82,11 +82,11 @@ Converte i tracciati in spline che possono essere visualizzate utilizzando un no
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant1-Before.jpg" alt="PathsToSpline-Variant1-Before">
+      <img src="paths-to-spline.resources/PathsToSpline-Variant1-Before.jpg" alt="PathsToSpline-Variant1-Before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant1-After.jpg" alt="PathsToSpline-Variant1-After">
+      <img src="paths-to-spline.resources/PathsToSpline-Variant1-After.jpg" alt="PathsToSpline-Variant1-After">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -98,11 +98,11 @@ Converte i tracciati in spline che possono essere visualizzate utilizzando un no
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="paths-to-spline.resources/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant2-After.jpg" alt="PathsToSpline-Variant2-After">
+      <img src="paths-to-spline.resources/PathsToSpline-Variant2-After.jpg" alt="PathsToSpline-Variant2-After">
       <br><i>Dopo</i>
     </td>
   </tr>

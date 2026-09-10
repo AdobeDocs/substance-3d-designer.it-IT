@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
 breadcrumb-title: ''
 description: Informazioni sulle specifiche di formato dei percorsi e sulla struttura dei dati utilizzata dai nodi di percorso e spline.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Specifiche formato tracciati
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f9ae596767e754b5c0f62ed6bdb6f16dd33bb799
 workflow-type: tm+mt
 source-wordcount: '2491'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Tutti i dati di un pixel nella parte &quot;superiore&quot; sono semanticamente c
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Percorsi Dati con codifica poligonale](../../../../../../assets/PathsPolygon_Data.jpg "Percorsi Dati con codifica poligonale")
+![Percorsi Dati con codifica poligonale](paths-format-specifications.resources/PathsPolygon_Data.jpg "Percorsi Dati con codifica poligonale")
 
 </td>
 </tr>
@@ -90,7 +90,7 @@ Ciò è utile quando si leggono i percorsi da un [processore pixel](../../../../
 
 L&#39;indirizzo dell&#39;ultimo vertice definito in questo documento. Questo è utile per aggiungere nuovi dati.
 
-Può quindi essere qualsiasi indirizzo maggiore (in ordine di scansione) dell&#39;indirizzo dell&#39;ultimo vertice. Deve trovarsi nell&#39;intervallo &rbrack;0, 1[×]0,.5&lbrack;
+Può quindi essere qualsiasi indirizzo maggiore (in ordine di scansione) dell&#39;indirizzo dell&#39;ultimo vertice. Deve trovarsi nell&#39;intervallo ]0, 1[×]0,.5[
 
 <b>ZW</b>
 
@@ -156,7 +156,7 @@ Formalmente, ogni vertice all&#39;indirizzo `*vert\_addr*` è definito nel modo 
 +++In alto
 <b>XY</b>
 
-Posizione del vertice. Le coordinate possono essere qualsiasi valore float diverso da NaN o ±inf. Non esiste una nozione di Affiancamento a questo livello (può essere gestito o meno dall&#39;implementazione di ogni filtro), quindi i percorsi dovrebbero essere definiti sul piano euclideo.
+Posizione del vertice. Le coordinate possono essere qualsiasi valore float diverso da NaN o ±inf. Non c&#39;è alcun concetto di affiancamento a questo livello (può essere maneggiato o meno dall&#39;implementazione di ogni filtro), quindi i percorsi dovrebbero essere definiti sul piano euclideo.
 
 <b>Z</b>
 
@@ -203,7 +203,7 @@ Se desiderate creare nodi di elaborazione tracciati personalizzati, avete a disp
 
 Le nozioni di base sono fornite dai nodi [Paths Vertex Processor](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md) e [Paths Vertex Processor Simple](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor-1/paths-vertex-processor-simple.md), che possono essere utilizzati nello stesso modo di un [Pixel Processor](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md).
 
-Se sono necessarie funzionalità che vanno oltre quelle offerte dai nodi del processore vertici percorsi (più texture di input o più vertici precedenti o successivi), la copia dell&#39;implementazione di questo grafico potrebbe essere un buon punto di partenza (supponendo di sostituire il nodo <b>Get(&quot;%perVertex&quot;)</b> con l&#39;elaborazione personalizzata).
+Se sono necessarie funzionalità che vanno oltre a quelle offerte dai nodi del processore del vertice dei percorsi (più texture di input o più vertici precedenti o successivi), copiare l&#39;implementazione di questo grafico potrebbe essere un buon punto di partenza (supponendo di sostituire il nodo <b>Get(&quot;%perVertex&quot;)</b> con l&#39;elaborazione personalizzata).
 
 Ma se volete fare qualcosa di più alieno che applicare una funzione per vertice, ecco una spiegazione dettagliata degli strumenti che potete usare. Si tratta in genere di piccole funzioni di supporto che si trovano nello stesso pacchetto degli altri nodi Percorsi (*percorsi\_tools.sbs)*. Queste funzioni non sono disponibili nel menu [<b>Libreria</b>](../../../../../../interface/the-library/the-library.md) e <b>Nodo</b>.
 
@@ -211,7 +211,7 @@ Ma se volete fare qualcosa di più alieno che applicare una funzione per vertice
 
 Nella cartella `Read`, puoi trovare alcuni di questi elementi, utili per raccogliere informazioni sui percorsi:
 
-Alcuni possono fornire informazioni su un determinato pixel. Tutti accettano come input il valore Virgola mobile 4 campionato nella parte \*top\*. Se guardate alla loro implementazione, sono molto semplici. Il loro scopo è quello di trasmettere più significato dei semplici nodi atomici:
+Alcuni possono fornire informazioni su un determinato pixel. Tutti accettano il valore Float4 campionato nella parte \*top\* come input. Se guardate alla loro implementazione, sono molto semplici. Il loro scopo è quello di trasmettere più significato dei semplici nodi atomici:
 
 +++is_header
 Verificate che il valore campionato corrente sia un’intestazione tracciato o un’intestazione documento.
@@ -269,11 +269,11 @@ Si noti che per semplicità, si presume che <b>Le informazioni sui percorsi veng
 
 È possibile controllare `*paths\_trace*` [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md), nel parametro Iterazioni del terzo nodo iterato, per un esempio di come utilizzarlo.
 
-![Use case minimo di sample_next](../../../../../../assets/paths-spec_fxmap-sample-next_02.png "Use case minimo di sample_next")
+![Use case minimo di sample_next](paths-format-specifications.resources/paths-spec_fxmap-sample-next_02.png "Use case minimo di sample_next")
 
 
 
-![Utilizzo di case di sample_next nei percorsi di anteprima (path_trace)](../../../../../../assets/paths-spec_fxmap-sample-next_01.png "Utilizzo di case di sample_next nei percorsi di anteprima (path_trace)")
+![Utilizzo di case di sample_next nei percorsi di anteprima (path_trace)](paths-format-specifications.resources/paths-spec_fxmap-sample-next_01.png "Utilizzo di case di sample_next nei percorsi di anteprima (path_trace)")
 
 
 
