@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-2.html"
 breadcrumb-title: ''
-description: Utilizza il nodo Celle 2 per generare modelli cellulari intermedi per la creazione di effetti di texture organici e biologici.
+description: Utilizza il nodo Celle 2 per generare pattern cellulari intermedi per la creazione di effetti di texture organici e biologici.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Cells 2
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: CELLE 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 77626800e9c3434a519ca045aad1e185d9dc1476
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 1%
@@ -24,9 +24,9 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Celle 2 - Icona](../../../../../../assets/cells_2.png "Celle 2 - Icona"){width="200px"}
+![Celle 2 - Icona](cells-2.resources/cells_2.png "Celle 2 - Icona"){width="200px"}
 
-<b>Ingresso:</b> generatori di Texture > Rumori
+<b>Ingresso:</b> Generatori di texture > Rumori
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -58,9 +58,9 @@ Vedere anche: [Celle 1](../../../../../../compositing-graphs/nodes-reference-for
 |  |  |
 |:---|:---|
 | <b>Scala</b> <i>Numero intero</i> | Suddivisione della griglia utilizzata per generare le porzioni di disturbo.    Un valore più elevato determina la creazione di più riquadri e un disturbo maggiore. |
-| <b>Larghezza bordo</b> <i>Virgola mobile</i> | Regola il thickness delle pareti tra le celle, come rapporto della griglia. (ovvero non dipendente dalla risoluzione) |
+| <b>Larghezza bordo</b> <i>Mobile</i> | Regola il thickness delle pareti tra le celle, come rapporto della griglia. (ovvero non dipendente dalla risoluzione) |
 | <b>Inverti</b> <i>Booleano</i> | Scambia i neri e i bianchi nell&#39;immagine di output. |
-| <b>Disturbo</b> <i>Virgola mobile</i> | Sposta gli ingredienti del disturbo.    Può essere utilizzato per animare il disturbo. |
+| <b>Disturbo</b> <i>Mobile</i> | Sposta gli ingredienti del disturbo.    Può essere utilizzato per animare il disturbo. |
 | <b>Velocità del disturbo</b> <i>Mobile</i> | Regola la distanza di spostamento applicata dal parametro <b>Disturbo</b>.    Questa opzione consente di controllare la velocità di spostamento durante l’animazione del disturbo. |
 | <b>Espansione non quadrata</b> <i>Booleano</i> | Nelle immagini non quadrate, mantiene il riquadro quadrato generato ed espande la generazione del disturbo fino ai limiti dell&#39;immagine. |
 
@@ -70,12 +70,12 @@ Vedere anche: [Celle 1](../../../../../../compositing-graphs/nodes-reference-for
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Celle 2 - Esempio 1](../../../../../../assets/cells_2_1.png "Celle 2 - Esempio 1"){zoomable="yes"}
+![Celle 2 - Esempio 1](cells-2.resources/cells_2_1.png "Celle 2 - Esempio 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Celle 2 - Esempio 2](../../../../../../assets/noise_cells_2_v2_speed0.3_aniso0.6.gif "Celle 2 - Esempio 2"){zoomable="yes"}
+![Celle 2 - Esempio 2](cells-2.resources/noise_cells_2_v2_speed0.3_aniso0.6.gif "Celle 2 - Esempio 2"){zoomable="yes"}
 
 </td>
 </tr>

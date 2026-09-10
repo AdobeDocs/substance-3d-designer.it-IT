@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-1.html"
 breadcrumb-title: ''
 description: Utilizza il nodo Celle 1 per generare pattern cellulari di base per la creazione di effetti di texture organici e biologici.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: CELLE 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 77626800e9c3434a519ca045aad1e185d9dc1476
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Celle 1 - Icona](../../../../../../assets/cells_1.png "Celle 1 - Icona"){width="200px"}
+![Celle 1 - Icona](cells-1.resources/cells_1.png "Celle 1 - Icona"){width="200px"}
 
 <b>Ingresso:</b> generatori di Texture > Rumori
 
@@ -60,15 +60,15 @@ Vedere anche: [Celle 2](../../../../../../compositing-graphs/nodes-reference-for
 | <b>Scala</b> <i>Numero intero</i> | Suddivisione della griglia utilizzata per generare le porzioni di disturbo.    Un valore più elevato determina la creazione di più riquadri e un disturbo maggiore. |
 | <b>Disturbo</b> <i>Virgola mobile</i> | Sposta gli ingredienti del disturbo.    Può essere utilizzato per animare il disturbo. |
 | <b>Velocità del disturbo</b> <i>Virgola mobile</i> | Regola la distanza di spostamento applicata dal parametro <b>Disturbo</b>.    Questa opzione consente di controllare la velocità di spostamento durante l’animazione del disturbo. |
-| <b>anisotropia disturbo</b> <i>Virgola mobile</i> | Controlla l&#39;estensione delle direzioni dello spostamento applicato dal parametro <b>Disturbo</b>, in cui un valore più alto determina una direzione più stretta e definita.    La direzione è controllata dal parametro <b>Angolo di anisotropia disturbo</b>. |
-| <b>angolo di anisotropia di disturbo</b> <i>Mobile</i> | Controlla la direzione dello spostamento applicato dal parametro <b>Disorder</b> quando il parametro &#39;anisotropia del disturbo&#39; è diverso da zero. |
+| <b>anisotropia disturbo</b> <i>Virgola mobile</i> | Controlla l&#39;estensione delle direzioni dello spostamento applicato dal parametro <b>Disturbo</b>, in cui un valore più alto determina una direzione più stretta e definita.    La direzione è controllata dal parametro <b>angolo di anisotropia disturbo</b>. |
+| <b>angolo di anisotropia di disturbo</b> <i>Virgola mobile</i> | Controlla la direzione dello spostamento applicato dal parametro <b>Disorder</b> quando il parametro &#39;anisotropia del disturbo&#39; è diverso da zero. |
 | <b>Pattern</b> <i>Numero intero</i> | Forma di base dispersa nell’immagine generata. |
-| <b>Dimensione motivo</b> <i>Float2</i> | Moltiplicatore per la dimensione di un motivo sparso nella relativa cella., dove 1,0 è l&#39;estensione completa della cella. |
-| <b>Scala pattern</b> <i>Mobile</i> | Un moltiplicatore per la <b>dimensione del pattern</b>, dove 1,0 corrisponde alla dimensione reale. |
-| <b>Luminanza casuale</b> <i>Mobile</i> | Intervallo di luminanza sottratto casualmente dalle celle, dove 1 rappresenta l’intervallo completo. |
-| <b>Angolo</b> <i>Mobile</i> | Angolo utilizzato per impostare la direzione delle celle, in numero di giri e a partire da destra orizzontale. |
-| <b>Angolo casuale</b> <i>Mobile</i> | L&#39;importo massimo della variazione casuale applicata al valore <b>Angolo</b>, in numero di giri. |
-| <b>Scostamento porzione</b> <i>Float2</i> | Controlla la posizione della porzione di piano infinito utilizzata per eseguire il rendering del disturbo. |
+| <b>Dimensione motivo</b> <i>Virgola mobile 2</i> | Moltiplicatore per la dimensione di un motivo sparso nella relativa cella., dove 1,0 è l&#39;estensione completa della cella. |
+| <b>Scala pattern</b> <i>Virgola mobile</i> | Un moltiplicatore per la <b>dimensione del pattern</b>, dove 1,0 corrisponde alla dimensione reale. |
+| <b>Luminanza casuale</b> <i>Virgola mobile</i> | Intervallo di luminanza sottratto casualmente dalle celle, dove 1 rappresenta l’intervallo completo. |
+| <b>Angolo</b> <i>Virgola mobile</i> | Angolo utilizzato per impostare la direzione delle celle, in numero di giri e a partire da destra orizzontale. |
+| <b>Angolo casuale</b> <i>Virgola mobile</i> | L&#39;importo massimo della variazione casuale applicata al valore <b>Angolo</b>, in numero di giri. |
+| <b>Scostamento porzione</b> <i>Virgola mobile 2</i> | Controlla la posizione della porzione di piano infinito utilizzata per eseguire il rendering del disturbo. |
 | <b>Espansione non quadrata</b> <i>Booleano</i> | Nelle immagini non quadrate, mantiene il riquadro quadrato generato ed espande la generazione del disturbo fino ai limiti dell&#39;immagine. |
 
 ## Esempi
@@ -77,12 +77,12 @@ Vedere anche: [Celle 2](../../../../../../compositing-graphs/nodes-reference-for
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Celle 1 - Esempio 1](../../../../../../assets/cells_1_1.png "Celle 1 - Esempio 1"){zoomable="yes"}
+![Celle 1 - Esempio 1](cells-1.resources/cells_1_1.png "Celle 1 - Esempio 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Celle 1 - Esempio 2](../../../../../../assets/noise_cells_1_v2_speed0.3_aniso0.3.gif "Celle 1 - Esempio 2"){zoomable="yes"}
+![Celle 1 - Esempio 2](cells-1.resources/noise_cells_1_v2_speed0.3_aniso0.3.gif "Celle 1 - Esempio 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -92,12 +92,12 @@ Vedere anche: [Celle 2](../../../../../../compositing-graphs/nodes-reference-for
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Celle 1 - Esempio 3](../../../../../../assets/noise_cells_1_v2_speed0.5_aniso0.6.gif "Celle 1 - Esempio 3"){zoomable="yes"}
+![Celle 1 - Esempio 3](cells-1.resources/noise_cells_1_v2_speed0.5_aniso0.6.gif "Celle 1 - Esempio 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Celle 1 - Esempio 4](../../../../../../assets/noise_cells_1_v2_speed0.3_aniso0.6.gif "Celle 1 - Esempio 4"){zoomable="yes"}
+![Celle 1 - Esempio 4](cells-1.resources/noise_cells_1_v2_speed0.3_aniso0.6.gif "Celle 1 - Esempio 4"){zoomable="yes"}
 
 </td>
 </tr>
