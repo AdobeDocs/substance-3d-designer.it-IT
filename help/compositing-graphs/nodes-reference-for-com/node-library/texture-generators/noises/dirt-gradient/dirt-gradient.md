@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-gradient.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-gradient.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Sfumatura Dirt per generare pattern di dirt basati su sfumature per creare effetti di accumulazione e di erosione atmosferica direzionali.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Sfumatura dirt
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 1241ebb4d1e67c9ed9d86285a6397ddc335e0f37
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Sfumatura Dirt - Icona](../../../../../../assets/dirt_gradient.png "Sfumatura Dirt - Icona"){width="200px"}
+![Sfumatura Dirt - Icona](dirt-gradient.resources/dirt_gradient.png "Sfumatura Dirt - Icona"){width="200px"}
 
 <b>Ingresso:</b> Generatori di texture > Rumori
 
@@ -67,12 +67,12 @@ Vedere anche: [Dirt 1](../../../../../../compositing-graphs/nodes-reference-for-
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Sfumatura Dirt - Esempio 1](../../../../../../assets/dirt_gradient_1.png "Sfumatura Dirt - Esempio 1"){zoomable="yes"}
+![Sfumatura Dirt - Esempio 1](dirt-gradient.resources/dirt_gradient_1.png "Sfumatura Dirt - Esempio 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Sfumatura Dirt - Esempio 2](../../../../../../assets/noise_dirt_gradient_v2_speed0.6_aniso0.gif "Sfumatura Dirt - Esempio 2"){zoomable="yes"}
+![Sfumatura Dirt - Esempio 2](dirt-gradient.resources/noise_dirt_gradient_v2_speed0.6_aniso0.gif "Sfumatura Dirt - Esempio 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -82,12 +82,12 @@ Vedere anche: [Dirt 1](../../../../../../compositing-graphs/nodes-reference-for-
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Sfumatura Dirt - Esempio 3](../../../../../../assets/noise_dirt_gradient_v2_speed0.6_aniso1.gif "Sfumatura Dirt - Esempio 3"){zoomable="yes"}
+![Sfumatura Dirt - Esempio 3](dirt-gradient.resources/noise_dirt_gradient_v2_speed0.6_aniso1.gif "Sfumatura Dirt - Esempio 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Sfumatura Dirt - Esempio 4](../../../../../../assets/noise_dirt_gradient_v2_speed0.3_aniso0.6.gif "Sfumatura Dirt - Esempio 4"){zoomable="yes"}
+![Sfumatura Dirt - Esempio 4](dirt-gradient.resources/noise_dirt_gradient_v2_speed0.3_aniso0.6.gif "Sfumatura Dirt - Esempio 4"){zoomable="yes"}
 
 </td>
 </tr>

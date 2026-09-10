@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-scratches.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-scratches.html"
 breadcrumb-title: ''
 description: Utilizza il nodo Scratches direzionali per creare pattern di graffi direzionali per aggiungere effetti di usura e danneggiamento ai materiali.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Graffi direzionali
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 1241ebb4d1e67c9ed9d86285a6397ddc335e0f37
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Graffi direzionali - Icona](../../../../../../assets/directional_scratches.png "Graffi direzionali - Icona"){width="200px"}
+![Graffi direzionali - Icona](directional-scratches.resources/directional_scratches.png "Graffi direzionali - Icona"){width="200px"}
 
 <b>Ingresso:</b> Generatori di texture > Rumori
 
@@ -72,27 +72,12 @@ Dispersione casuale di pattern di graffi con angolo e dimensioni regolabili.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Graffi direzionali - Esempio 1](../../../../../../assets/directional_scratches_1.png "Graffi direzionali - Esempio 1"){zoomable="yes"}
+![Graffi direzionali - Esempio 1](directional-scratches.resources/directional_scratches_1.png "Graffi direzionali - Esempio 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Graffi direzionali - Esempio 2](../../../../../../assets/noise-directional-scratches-speed0.3-aniso0.gif "Graffi direzionali - Esempio 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Graffi direzionali - Esempio 3](../../../../../../assets/noise-directional-scratches-speed0.3-aniso0.6.gif "Graffi direzionali - Esempio 3"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Graffi direzionali - Esempio 4](../../../../../../assets/noise-directional-scrat-1.gif "Graffi direzionali - Esempio 4"){zoomable="yes"}
+![Graffi direzionali - Esempio 2](directional-scratches.resources/noise-directional-scratches-speed0.3-aniso0.gif "Graffi direzionali - Esempio 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -102,7 +87,22 @@ Dispersione casuale di pattern di graffi con angolo e dimensioni regolabili.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Graffi direzionali - Esempio 5](../../../../../../assets/noise-directional-scrat-2.gif "Graffi direzionali - Esempio 5"){zoomable="yes"}
+![Graffi direzionali - Esempio 3](directional-scratches.resources/noise-directional-scratches-speed0.3-aniso0.6.gif "Graffi direzionali - Esempio 3"){zoomable="yes"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![Graffi direzionali - Esempio 4](directional-scratches.resources/noise-directional-scrat-1.gif "Graffi direzionali - Esempio 4"){zoomable="yes"}
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![Graffi direzionali - Esempio 5](directional-scratches.resources/noise-directional-scrat-2.gif "Graffi direzionali - Esempio 5"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
