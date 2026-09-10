@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-shavings.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-shavings.html"
 breadcrumb-title: ''
 description: Usa il nodo Rasatura Grunge per generare pattern di rasatura per la creazione di granulosità di legno e dettagli di texture del materiale.
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 5%
 
 ## Descrizione
 
-Il nodo **Rasatura di Grungi** in [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) genera una mappa di grungi simile ai trucioli sparsi su una superficie.
+Il nodo **Rasatura di Grungi** in [Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html) genera una mappa di grungi simile ai trucioli sparsi su una superficie.
 
 </td>
 </tr>
