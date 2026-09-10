@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-flow-mapper.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-flow-mapper.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Mappatura flusso spline per creare pattern di texture fluide lungo tracciati spline per ottenere effetti organici.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline Flow Mapper
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 86e504c9dfe76516c56a7950f0bf70090270a60c
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo](../../../../../../assets/spline-flow-mapper-icon.png "Icona nodo")
+![Icona nodo](spline-flow-mapper.resources/spline-flow-mapper-icon.png "Icona nodo")
 
 <b>In:</b> Strumenti Spline E Tracciati > Strumenti spline
 
@@ -94,11 +94,11 @@ In questo modo potete utilizzare le spline per controllare la direzione, la trai
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineFlowMapper-Variant1-Before.jpg" alt="SplineFlowMapper-Variant1-Before">
+      <img src="spline-flow-mapper.resources/SplineFlowMapper-Variant1-Before.jpg" alt="SplineFlowMapper-Variant1-Before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineFlowMapper-Variant1-After.jpg" alt="SplineFlowMapper-Variant1-After">
+      <img src="spline-flow-mapper.resources/SplineFlowMapper-Variant1-After.jpg" alt="SplineFlowMapper-Variant1-After">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -107,7 +107,7 @@ In questo modo potete utilizzare le spline per controllare la direzione, la trai
 </td>
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 2](../../../../../../assets/SplineFlowMapper-Demo.gif "Esempio di nodo 2")
+![Esempio di nodo 2](spline-flow-mapper.resources/SplineFlowMapper-Demo.gif "Esempio di nodo 2")
 
 </td>
 </tr>

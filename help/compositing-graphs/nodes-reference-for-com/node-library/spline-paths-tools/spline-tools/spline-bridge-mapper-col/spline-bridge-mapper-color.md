@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-color.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Colore di Mappatura ponti spline per collegare le texture tra due spline con la mappatura dei colori.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Colore mapping spline bridge
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 86e504c9dfe76516c56a7950f0bf70090270a60c
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo](../../../../../../assets/spline-bridge-mapper-color-icon.png "Icona nodo")
+![Icona nodo](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-icon.png "Icona nodo")
 
 <b>In:</b> Strumenti Spline E Tracciati > Strumenti spline
 
@@ -92,11 +92,11 @@ Esegue la mappatura di un&#39;immagine a colori su un elenco di spline di input 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineBridgeMapperGrayscale-Variant1-Before.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
+      <img src="spline-bridge-mapper-color.resources/SplineBridgeMapperGrayscale-Variant1-Before.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineBridgeMapperColor-Variant1-After.jpg" alt="SplineBridgeMapperColor-Variant1-After">
+      <img src="spline-bridge-mapper-color.resources/SplineBridgeMapperColor-Variant1-After.jpg" alt="SplineBridgeMapperColor-Variant1-After">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -105,7 +105,7 @@ Esegue la mappatura di un&#39;immagine a colori su un elenco di spline di input 
 </td>
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 2](../../../../../../assets/SplineBridgeMapperColor-Demo.gif "Esempio di nodo 2")
+![Esempio di nodo 2](spline-bridge-mapper-color.resources/SplineBridgeMapperColor-Demo.gif "Esempio di nodo 2")
 
 </td>
 </tr>
@@ -115,12 +115,12 @@ Esegue la mappatura di un&#39;immagine a colori su un elenco di spline di input 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 1](../../../../../../assets/SplineBridgeMapperColor-Variant1-After1.jpg "Esempio di nodo 1")
+![Esempio di nodo 1](spline-bridge-mapper-color.resources/SplineBridgeMapperColor-Variant1-After1.jpg "Esempio di nodo 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 2](../../../../../../assets/SplineBridgeMapperColor-Graph.jpg "Esempio di nodo 2")
+![Esempio di nodo 2](spline-bridge-mapper-color.resources/SplineBridgeMapperColor-Graph.jpg "Esempio di nodo 2")
 
 </td>
 </tr>
