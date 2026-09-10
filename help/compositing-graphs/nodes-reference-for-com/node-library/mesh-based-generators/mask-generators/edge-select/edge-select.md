@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-select.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-select.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Selezione bordo per generare maschere selezionando i bordi della trama per creare effetti di usura e di resistenza agli agenti atmosferici basati sui bordi.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Selezione bordo
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
+source-git-commit: 78cf3f307bd33c6d8b399043ff1c5e5d1764b606
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/edge-select.png){width="128px"}
+![](edge-select.resources/edge-select.png){width="128px"}
 
 <b>In:</b> Generatori Basati Su Trama > Generatori di maschere
 
@@ -35,7 +35,7 @@ ht-degree: 7%
 
 Genera una maschera in bianco e nero in base alle mappe con baking e alle impostazioni dell’utente. Simile a [Maschere avanzate](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) in [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
-Questa maschera è il modo migliore per selezionare qualsiasi tipo di bordo in base alla curvatura. È possibile isolare Convessi, Concavi a qualsiasi livello o contrasto, fornendo una scorciatoia eccellente per evitare di farlo manualmente tramite un [nodo Livelli](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md).
+Questa maschera è il modo migliore per selezionare qualsiasi tipo di bordo in base alla curvatura. È possibile isolare un oggetto convesso, concavo a qualsiasi livello o contrasto, fornendo una scelta rapida da tastiera eccellente per evitare di farlo manualmente tramite un [nodo Livelli](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md).
 
 </td>
 </tr>
@@ -72,7 +72,7 @@ Questa maschera è il modo migliore per selezionare qualsiasi tipo di bordo in b
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/edge-select-ex.gif" />
+            <img src="edge-select.resources/edge-select-ex.gif" />
         </td>
     </tr>
 </table>

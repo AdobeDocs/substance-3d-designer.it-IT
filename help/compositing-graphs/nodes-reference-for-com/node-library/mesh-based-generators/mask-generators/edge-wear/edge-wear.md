@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-wear.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-wear.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Edge Wear per generare maschere di usura sui bordi della trama per creare danni realistici ai bordi e effetti meteorologici.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Edge Wear
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
+source-git-commit: 78cf3f307bd33c6d8b399043ff1c5e5d1764b606
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/edge-wear.png){width="128px"}
+![](edge-wear.resources/edge-wear.png){width="128px"}
 
 <b>In:</b> Generatori Basati Su Trama > Generatori di maschere
 
@@ -67,7 +67,7 @@ Questo nodo rappresenta l&#39;usura sui bordi degli oggetti. Ha alcuni parametri
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/edge-wear-ex.gif" />
+            <img src="edge-wear.resources/edge-wear-ex.gif" />
         </td>
     </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/selective-dirt.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/selective-dirt.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Dirt selettivo per generare maschere di accumulo dirt selettivo in base alla geometria della trama per un'attenuazione atmosferica realistica.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Dirt selettivo
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
+source-git-commit: 78cf3f307bd33c6d8b399043ff1c5e5d1764b606
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/selective-dirt.png){width="128px"}
+![](selective-dirt.resources/selective-dirt.png){width="128px"}
 
 <b>In:</b> Generatori Basati Su Trama > Generatori di maschere
 
@@ -35,7 +35,7 @@ ht-degree: 8%
 
 Genera una maschera in bianco e nero in base alle mappe con baking e alle impostazioni dell’utente. Simile a [Maschere avanzate](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) in [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
-Questa maschera [Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html) rappresenta un semplice effetto dirt sui bordi convessi.
+Questa maschera [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) rappresenta un semplice effetto dirt sui bordi convessi.
 
 </td>
 </tr>
@@ -67,7 +67,7 @@ Questa maschera [Substance 3D Designer](https://www.adobe.com/it/products/substa
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/selective-dirt-ex.gif" />
+            <img src="selective-dirt.resources/selective-dirt-ex.gif" />
         </td>
     </tr>
 </table>
