@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Atlas splitter
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
+source-git-commit: 2c331b568074714ea71231410f997f965e2bcdaa
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo](../../../../../../assets/atlas-splitter.png "Icona nodo")
+![Icona nodo](atlas-splitter.resources/atlas-splitter.png "Icona nodo")
 
 <b>In:</b> Filtri di materiale/Analisi elaborazione
 
@@ -63,10 +63,10 @@ Il nodo funziona come applicazione avanzata del nodo [Flood Fill](../../../../..
 | <b>Larghezza dilatazione</b> <i>Mobile</i> | Applica un effetto di dilatazione basato sulla maschera Opacità a tutti i canali tranne Normale e Height. |
 | <b>Abilita input aggiuntivi</b> <i>Booleano</i> | Rende disponibili le impostazioni e gli ingressi per USer 1 e User 2 per qualsiasi mappa aggiuntiva non coperta. |
 | <b>Colore di sfondo personalizzato</b> <i>Booleano</i> | Consente di scegliere un colore di sfondo personalizzato, anziché una dilatazione del contenuto di quel livello. |
-| <b>Colore base sfondo</b> <i>Float3</i> | Colore BG personalizzato per Colore base. |
-| <b>Colore sfondo normale</b> <i>Float3</i> | Colore BG personalizzato per Mappa normale. |
-| <b>Colore sfondo metallico</b> <i>Mobile</i> | Colore BG personalizzato per Metallico. |
-| <b>Colore sfondo rugosità</b> <i>Mobile</i> | Colore BG personalizzato per rugosità |
-| <b>Colore sfondo Height</b> <i>Mobile</i> | Colore BG personalizzato per il Height |
-| <b>Utente 1 Colore Bg</b> <i>Mobile</i> | Colore BG personalizzato per la mappa utente 1 personalizzata |
-| <b>Utente 2 Colore Bg</b> <i>Mobile</i> | Colore BG personalizzato per la mappa utente 1 personalizzata |
+| <b>Colore sfondo Colore di base</b> <i>Virgola mobile 3</i> | Colore BG personalizzato per il Colore di base. |
+| <b>Colore sfondo normale</b> <i>Virgola mobile 3</i> | Colore BG personalizzato per Mappa normale. |
+| <b>Colore sfondo metallico</b> <i>Virgola mobile</i> | Colore BG personalizzato per Metallico. |
+| <b>Colore sfondo rugosità</b> <i>Virgola mobile</i> | Colore BG personalizzato per rugosità |
+| <b>Colore sfondo Height</b> <i>Virgola mobile</i> | Colore BG personalizzato per il Height |
+| <b>Utente 1 Colore Bg</b> <i>Virgola mobile</i> | Colore BG personalizzato per la mappa utente 1 personalizzata |
+| <b>Utente 2 Colore Bg</b> <i>Virgola mobile</i> | Colore BG personalizzato per la mappa utente 1 personalizzata |

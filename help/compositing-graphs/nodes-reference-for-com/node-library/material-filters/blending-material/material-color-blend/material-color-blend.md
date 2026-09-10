@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Fusione colore materiale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
+source-git-commit: db158eba37ce52811a853adc20ca6143f96a79b6
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/material-color-blend.png){width="128px"}
+![](material-color-blend.resources/material-color-blend.png){width="128px"}
 
 <b>In:</b> Filtri materiali > Fusione
 
@@ -74,7 +74,7 @@ Questo nodo è particolarmente utile se desiderate introdurre un suggerimento di
 | <b>Rugosità</b> | Fusione un colore in tinta unita sopra questo canale con le opzioni come nel gruppo di Diffuse. |
 | <b>Metallico</b> | Fusione un colore in tinta unita sopra questo canale con le opzioni come nel gruppo di Diffuse. |
 | <b>Specular level</b> | Fusione un colore in tinta unita sopra questo canale con le opzioni come nel gruppo di Diffuse. |
-| <b>Occlusione ambiente</b> | Fusione un colore in tinta unita sopra questo canale con le opzioni come nel gruppo di Diffuse. |
+| <b>Occlusione ambientale</b> | Fusione un colore in tinta unita sopra questo canale con le opzioni come nel gruppo di Diffuse. |
 | <b>Height</b> | Fusione un colore in tinta unita sopra questo canale con le opzioni come nel gruppo di Diffuse. |
 | <b>Opacità</b> | Fusione un colore in tinta unita sopra questo canale con le opzioni come nel gruppo di Diffuse. |
 | <b>Maschera ID colore</b> <i>Falso/Vero</i> | Usate la maschera Maschera ID colore invece di quella in scala di grigio. Tieni presente che questa opzione è valida solo per un colore.<br><br>Consente di attivare tutte le opzioni seguenti. |

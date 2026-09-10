@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Alterazione spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: e23f692fa31d1e7b9eeac692bb41186441fdda53
 workflow-type: tm+mt
 source-wordcount: '1135'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo](../../../../../../assets/spline-warp-icon.png "Icona nodo")
+![Icona nodo](spline-warp.resources/spline-warp-icon.png "Icona nodo")
 
 <b>In:</b> Strumenti Spline E Tracciati > Strumenti spline
 
@@ -97,11 +97,11 @@ L’intensità dell’effetto di alterazione può essere regolata lungo la splin
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineWarp-Variant1-Before.jpg" alt="SplineWarp-Variant1-Before">
+      <img src="spline-warp.resources/SplineWarp-Variant1-Before.jpg" alt="SplineWarp-Variant1-Before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineWarp-Variant1-After.jpg" alt="SplineWarp-Variant1-After">
+      <img src="spline-warp.resources/SplineWarp-Variant1-After.jpg" alt="SplineWarp-Variant1-After">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -113,11 +113,11 @@ L’intensità dell’effetto di alterazione può essere regolata lungo la splin
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineWarp-Variant2-Before.jpg" alt="SplineWarp-Variant2-Before">
+      <img src="spline-warp.resources/SplineWarp-Variant2-Before.jpg" alt="SplineWarp-Variant2-Before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineWarp-Variant2-After.jpg" alt="SplineWarp-Variant2-After">
+      <img src="spline-warp.resources/SplineWarp-Variant2-After.jpg" alt="SplineWarp-Variant2-After">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -131,7 +131,7 @@ L’intensità dell’effetto di alterazione può essere regolata lungo la splin
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 1](../../../../../../assets/SplineWarp-Demo.gif "Esempio di nodo 1")
+![Esempio di nodo 1](spline-warp.resources/SplineWarp-Demo.gif "Esempio di nodo 1")
 
 </td>
 <td style="border: 0;" valign="top">

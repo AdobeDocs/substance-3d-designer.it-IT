@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Sun Bleach
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
+source-git-commit: 1ea5f4e048a3b4591bf71d9b18707837dac1bf6f
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/sun-bleach.png){width="128px"}
+![](sun-bleach.resources/sun-bleach.png){width="128px"}
 
 <b>In:</b> Generatori Basati Su Trama > Generatori di maschere
 
@@ -48,7 +48,7 @@ Questa maschera è simile a [Luce](../../../../../../compositing-graphs/nodes-re
 |  |  |
 |:---|:---|
 | <b>Spazio mondo normale</b> <i>Input colore</i> |  |
-| <b>Occlusione ambientale</b> <i>Input scala di grigi</i> | Mappa con baking utilizzata per effetti interni e mascheratura. |
+| <b>Occlusione ambiente</b> <i>Input scala di grigi</i> | Mappa con baking utilizzata per effetti interni e mascheratura. |
 | <b>Maschera (facoltativo)</b> <i>Input scala di grigi</i> | Slot maschera utilizzato per mascherare gli effetti del nodo. |
 
 <a name="parameters"></a>
@@ -66,7 +66,7 @@ Questa maschera è simile a [Luce](../../../../../../compositing-graphs/nodes-re
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/sun-bleach-ex.gif" />
+            <img src="sun-bleach.resources/sun-bleach-ex.gif" />
         </td>
     </tr>
 </table>

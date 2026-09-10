@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Anteprima tracciati
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
+source-git-commit: f9ae596767e754b5c0f62ed6bdb6f16dd33bb799
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo](../../../../../../assets/preview-paths-icon.png "Icona nodo")
+![Icona nodo](preview-paths.resources/preview-paths-icon.png "Icona nodo")
 
 <b>In:</b> Strumenti spline e tracciati > Strumenti tracciato
 
@@ -66,12 +66,12 @@ Otterrai un risultato simile all&#39;output <b>Anteprima</b> di [Maschera nei tr
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 1](../../../../../../assets/PathsToSpline-Variant2-Before_1.jpg "Esempio di nodo 1")
+![Esempio di nodo 1](preview-paths.resources/PathsToSpline-Variant2-Before_1.jpg "Esempio di nodo 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 2](../../../../../../assets/PathsToSpline-Variant1-Before_1.jpg "Esempio di nodo 2")
+![Esempio di nodo 2](preview-paths.resources/PathsToSpline-Variant1-Before_1.jpg "Esempio di nodo 2")
 
 </td>
 </tr>

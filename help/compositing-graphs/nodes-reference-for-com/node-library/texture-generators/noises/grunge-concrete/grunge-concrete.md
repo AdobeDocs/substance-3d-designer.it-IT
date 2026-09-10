@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Cemento di grunge
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
+source-git-commit: a2d6381b9bf224008fa412ef70c9b63b9b2756e8
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 1%
@@ -24,9 +24,9 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungeconcrete.jpg){width="200px"}
+![](grunge-concrete.resources/grungeconcrete.jpg){width="200px"}
 
-<b>Ingresso:</b> Generatori di texture > Rumori
+<b>Ingresso:</b> generatori di Texture > Rumori
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -45,13 +45,13 @@ Il nodo **Cemento Grunge** genera una mappa delle grungi simile alla mappa di al
 
 |  |  |
 |:---|:---|
-| <b>Saldo</b> <i>Mobile</i> | Regola il bilanciamento tra i valori di luminosità e oscurità. |
-| <b>Contrasto</b> <i>Mobile</i> | Regola il contrasto dell’immagine. |
+| <b>Saldo</b> <i>Virgola mobile</i> | Regola il bilanciamento tra i valori di luminosità e oscurità. |
+| <b>Contrasto</b> <i>Virgola mobile</i> | Regola il contrasto dell’immagine. |
 | <b>Inverti</b> <i>Booleano</i> | Inverte l&#39;output dell&#39;immagine utilizzando un&#39;operazione `1-x`. |
-| <b>Non square expansion</b> <i>Booleano</i> | Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati. |
+| <b>Non square expansion</b> <i>Booleano</i> | Consente la compensazione di squash e allungamento con rapporti non quadrati. |
 | <b>Avanzate</b> |  |
-| <b>Disturbo di base</b> <i>Mobile</i> | Regola il disturbo della texture di base. |
-| <b>Opacità macchie Dirt</b> <i>Mobile</i> | Regola l’opacità delle macchie del dirt. |
+| <b>Disturbo di base</b> <i>Virgola mobile</i> | Regola il disturbo della texture di base. |
+| <b>Opacità macchie Dirt</b> <i>Virgola mobile</i> | Regola l’opacità delle macchie del dirt. |
 | <b>Inverti Dirt</b> <i>Booleano</i> | Inverte l’impatto delle macchie di dirt. |
 | <b>Opacità Scratches</b> <i>Mobile</i> | Regola l’opacità dei graffi. |
 | <b>Contrasta</b> <i>Mobile</i> | Regola l’intensità di un effetto di nitidezza applicato all’immagine. |
@@ -62,7 +62,7 @@ Il nodo **Cemento Grunge** genera una mappa delle grungi simile alla mappa di al
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungeconcrete-variant.jpg" />
+            <img src="grunge-concrete.resources/grungeconcrete-variant.jpg" />
         </td>
     </tr>
 </table>

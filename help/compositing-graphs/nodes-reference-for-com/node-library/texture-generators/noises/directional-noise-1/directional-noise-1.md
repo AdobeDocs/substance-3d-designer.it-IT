@@ -10,7 +10,7 @@ helpx_tags: ""
 title: DISTURBO DIREZIONALE 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 93824555c1b2d3de289eaf470e6f929ebf90dd71
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Disturbo direzionale 1 - Icona](../../../../../../assets/directional_noise_1.png "Disturbo direzionale 1 - Icona"){width="200px"}
+![Disturbo direzionale 1 - Icona](directional-noise-1.resources/directional_noise_1.png "Disturbo direzionale 1 - Icona"){width="200px"}
 
 <b>Ingresso:</b> Generatori di texture > Rumori
 
@@ -71,12 +71,12 @@ Vedere anche: [Disturbo direzionale 2](../../../../../../compositing-graphs/node
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Disturbo direzionale 1 - Esempio 1](../../../../../../assets/directional_noise_1_1.png "Disturbo direzionale 1 - Esempio 1"){zoomable="yes"}
+![Disturbo direzionale 1 - Esempio 1](directional-noise-1.resources/directional_noise_1_1.png "Disturbo direzionale 1 - Esempio 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Disturbo direzionale 1 - Esempio 2](../../../../../../assets/noise_directional_noise_1_v2_speed0.6_aniso0.gif "Disturbo direzionale 1 - Esempio 2"){zoomable="yes"}
+![Disturbo direzionale 1 - Esempio 2](directional-noise-1.resources/noise_directional_noise_1_v2_speed0.6_aniso0.gif "Disturbo direzionale 1 - Esempio 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -86,12 +86,12 @@ Vedere anche: [Disturbo direzionale 2](../../../../../../compositing-graphs/node
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Disturbo direzionale 1 - Esempio 3](../../../../../../assets/noise_directional_noise_1_v2_speed0.6_aniso1.gif "Disturbo direzionale 1 - Esempio 3"){zoomable="yes"}
+![Disturbo direzionale 1 - Esempio 3](directional-noise-1.resources/noise_directional_noise_1_v2_speed0.6_aniso1.gif "Disturbo direzionale 1 - Esempio 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Disturbo direzionale 1 - Esempio 4](../../../../../../assets/noise_directional_noise_1_v2_speed0.3_aniso0.6.gif "Disturbo direzionale 1 - Esempio 4"){zoomable="yes"}
+![Disturbo direzionale 1 - Esempio 4](directional-noise-1.resources/noise_directional_noise_1_v2_speed0.3_aniso0.6.gif "Disturbo direzionale 1 - Esempio 4"){zoomable="yes"}
 
 </td>
 </tr>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Processore vertici tracciati semplice
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
+source-git-commit: f9ae596767e754b5c0f62ed6bdb6f16dd33bb799
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo](../../../../../../assets/paths-vertex-processor-simple-icon.png "Icona nodo")
+![Icona nodo](paths-vertex-processor-simple.resources/paths-vertex-processor-simple-icon.png "Icona nodo")
 
 <b>In:</b> Strumenti spline e tracciati > Strumenti tracciato
 
@@ -87,7 +87,7 @@ Puoi anche accedere alle variabili *vertex.corner* (bool) e *path.id* (float).
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 2](../../../../../../assets/PathsVertexProcessor-Demo2.gif "Esempio di nodo 2")
+![Esempio di nodo 2](paths-vertex-processor-simple.resources/PathsVertexProcessor-Demo2.gif "Esempio di nodo 2")
 
 </td>
 <td style="border: 0;" valign="top">

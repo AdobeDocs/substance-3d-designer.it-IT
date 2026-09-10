@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ponte spline (2 spline)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 86e504c9dfe76516c56a7950f0bf70090270a60c
 workflow-type: tm+mt
 source-wordcount: '1246'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo](../../../../../../assets/spline-bridge-2splines-icon.png "Icona nodo")
+![Icona nodo](spline-bridge-2-splines.resources/spline-bridge-2splines-icon.png "Icona nodo")
 
 <b>In:</b> Strumenti Spline E Tracciati > Strumenti spline
 
@@ -81,8 +81,8 @@ Genera spline da <b>Spline #1</b> a <b>Spline #2</b> lungo queste spline. Le spl
 |:---|:---|
 | <b>Quantità spline bridge</b> <i>Numero intero</i> | Numero di spline generate lungo la spline #1 alla spline #2. |
 | <b>Tipo spline bridge</b> <i>Numero intero</i> | Tipo di spline generato:<br><br>- Lineare: una spline retta da Inizio a Fine;<br>- Bezier cubico: una spline curva da Inizio a Fine, la curva è controllata dalla lunghezza e dall&#39;angolo dei punti Inizio e Fine. |
-| <b>Avvia spline #1</b> <i>Mobile</i> | Sposta la posizione lungo la spline #1 da dove vengono generate le spline. Il valore corrisponde alla lunghezza normalizzata della spline #1.<br>Un valore più elevato determina un maggiore restringimento dello stesso numero di spline. |
-| <b>Avvia spline #2</b> <i>Mobile</i> | Sposta la posizione lungo la spline #2 da dove vengono generate le spline. Il valore corrisponde alla lunghezza normalizzata della spline #2.<br>Un valore più elevato determina un maggiore restringimento dello stesso numero di spline. |
+| <b>Avvia spline #1</b> <i>Virgola mobile</i> | Sposta la posizione lungo la spline #1 da dove vengono generate le spline. Il valore corrisponde alla lunghezza normalizzata della spline #1.<br>Un valore più elevato determina un maggiore restringimento dello stesso numero di spline. |
+| <b>Avvia spline #2</b> <i>Virgola mobile</i> | Sposta la posizione lungo la spline #2 da dove vengono generate le spline. Il valore corrisponde alla lunghezza normalizzata della spline #2.<br>Un valore più elevato determina un maggiore restringimento dello stesso numero di spline. |
 | <b>Fine spline #1</b> <i>Mobile</i> | Sposta la posizione lungo la spline #1 fino al punto in cui vengono generate le spline. Il valore corrisponde alla lunghezza normalizzata della spline #1.<br>Un valore inferiore determina un maggiore restringimento dello stesso numero di spline. |
 | <b>Fine spline #1</b> <i>Mobile</i> | Sposta la posizione lungo la spline #2 fino al punto in cui vengono generate le spline. Il valore corrisponde alla lunghezza normalizzata della spline #2.<br>Un valore inferiore determina un maggiore restringimento dello stesso numero di spline. |
 | <b>Spline offset #1</b> <i>Mobile</i> | Applica uno scostamento al punto iniziale di tutte le spline lungo l&#39;#1. spline Il valore corrisponde alla lunghezza normalizzata della spline #1.<br>Le spline che incontrano l&#39;inizio o la fine della spline vengono lasciate lì. |
@@ -97,7 +97,7 @@ Genera spline da <b>Spline #1</b> a <b>Spline #2</b> lungo queste spline. Le spl
 | <b>Importo segmenti</b> <i>Numero intero</i> | Regola il numero di segmenti utilizzati per disegnare la visualizzazione della spline nell&#39;output di anteprima. Un valore più alto genera una linea più morbida. |
 | <b>Mostra helper direzione</b> <i>Booleano</i> | Visualizza un punto all&#39;inizio della spline e una freccia alla fine nell&#39;output di anteprima. |
 | <b>Mostra busta Thickness</b> <i>Booleano</i> | Visualizza le linee aggiuntive ai bordi del thickness della spline. |
-| <b>Thickness (px)</b> <i>Mobile</i> | Regola il thickness della visualizzazione della spline in pixel nell&#39;output di anteprima. |
+| <b>Thickness (px)</b> <i>Virgola mobile</i> | Regola il thickness della visualizzazione della spline in pixel nell&#39;output di anteprima. |
 
 ## Esempi
 
@@ -108,11 +108,11 @@ Genera spline da <b>Spline #1</b> a <b>Spline #2</b> lungo queste spline. Le spl
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineBridge-2Splines_Variant1-Before.jpg" alt="SplineBridge-2Splines_Variant1-Before">
+      <img src="spline-bridge-2-splines.resources/SplineBridge-2Splines_Variant1-Before.jpg" alt="SplineBridge-2Splines_Variant1-Before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineBridge-2Splines_Variant1-After.jpg" alt="SplineBridge-2Splines_Variant1-After">
+      <img src="spline-bridge-2-splines.resources/SplineBridge-2Splines_Variant1-After.jpg" alt="SplineBridge-2Splines_Variant1-After">
       <br><i>Dopo</i>
     </td>
   </tr>
@@ -121,7 +121,7 @@ Genera spline da <b>Spline #1</b> a <b>Spline #2</b> lungo queste spline. Le spl
 </td>
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 2](../../../../../../assets/SplineBridge-2Splines_Demo.gif "Esempio di nodo 2")
+![Esempio di nodo 2](spline-bridge-2-splines.resources/SplineBridge-2Splines_Demo.gif "Esempio di nodo 2")
 
 </td>
 </tr>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ruggine gocciolante
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
+source-git-commit: 2c331b568074714ea71231410f997f965e2bcdaa
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/dripping-rust.png){width="128px"}
+![](dripping-rust.resources/dripping-rust.png){width="128px"}
 
 <b>In:</b> Generatori Basati Su Trama > Generatori di maschere
 
@@ -47,9 +47,9 @@ Questa maschera rappresenta scaglie e chiazze di ruggine, con perdite che scorro
 
 |  |  |
 |:---|:---|
-| <b>Curvatura</b> <i>Input scala di grigi</i> | Mappa eseguita i baking o generata per facilitare il posizionamento della ruggine. |
-| <b>Occlusione ambientale</b> <i>Input scala di grigi</i> | Mappa eseguita i baking o generata per facilitare il posizionamento della ruggine. |
-| <b>Posizione</b> <i>Input scala di grigi</i> | Mappa eseguita i baking o generata per le direzioni di goccia. |
+| <b>Curvatura</b> <i>Input scala di grigi</i> | Mappa generata o al forno per facilitare il posizionamento della ruggine. |
+| <b>Occlusione ambiente</b> <i>Input scala di grigi</i> | Mappa generata o al forno per facilitare il posizionamento della ruggine. |
+| <b>Posizione</b> <i>Input scala di grigi</i> | Mappa cotta o generata per le direzioni di goccia. |
 | <b>Maschera (facoltativo)</b> <i>Input scala di grigi</i> | Slot maschera utilizzato per mascherare gli effetti del nodo. |
 
 <a name="parameters"></a>
@@ -70,7 +70,7 @@ Questa maschera rappresenta scaglie e chiazze di ruggine, con perdite che scorro
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/dripping-rust-ex3.gif" />
+            <img src="dripping-rust.resources/dripping-rust-ex3.gif" />
         </td>
     </tr>
 </table>

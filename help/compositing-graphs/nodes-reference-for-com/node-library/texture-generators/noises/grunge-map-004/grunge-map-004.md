@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mappa grungi 004
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
+source-git-commit: 1668632724231982c98a508ae7f87642c5888648
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 7%
@@ -24,16 +24,16 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungemap-004.png){width="128px"}
+![](grunge-map-004.resources/grungemap-004.png){width="128px"}
 
-<b>Ingresso:</b> Generatori di texture > Rumori
+<b>Ingresso:</b> generatori di Texture > Rumori
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
-Questo genera una complessa mappa del disturbo combinata. Può essere molto utile come una procedura dettagliata, ma tenete a mente che questi sono molto ad alta intensità di prestazioni e quindi più lenti da generare.
+Questo genera una complessa mappa del disturbo combinata. Può essere molto utile come procedurali dettagliata, ma tenete presente che si tratta di elementi che richiedono molte prestazioni e che quindi sono più lenti da generare.
 
 </td>
 </tr>
@@ -49,14 +49,14 @@ Questo genera una complessa mappa del disturbo combinata. Può essere molto util
 | <b>Contrasto</b> <i>0.0 - 1.0</i> | Regola il contrasto del risultato. |
 | <b>Inverti</b> <i>Falso/Vero</i> | Inverte il risultato. |
 | <b>Motivo pennello</b> <i>0.0 - 1.0</i> | Aggiunge una maschera intorno ai bordi, per quando viene utilizzato come pennello alfa. |
-| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati. |
+| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di squash e allungamento con rapporti non quadrati. |
 
 ## Esempi
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungemap-004-ex.gif" />
+            <img src="grunge-map-004.resources/grungemap-004-ex.gif" />
         </td>
     </tr>
 </table>

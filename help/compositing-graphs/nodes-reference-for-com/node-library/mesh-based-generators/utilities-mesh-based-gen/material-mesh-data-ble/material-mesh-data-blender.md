@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Miscelatore dati mesh materiale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: fbf066c7185f74dcbf35156afc3873d192f77abc
+source-git-commit: 1ea5f4e048a3b4591bf71d9b18707837dac1bf6f
 workflow-type: tm+mt
 source-wordcount: '572'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/material-mesh-data-blender.png){width="128px"}
+![](material-mesh-data-blender.resources/material-mesh-data-blender.png){width="128px"}
 
 <b>In:</b> Generatori Basati Su Trama > Utility
 
@@ -33,9 +33,9 @@ ht-degree: 8%
 
 ## Descrizione
 
-Questo nodo ha lo scopo di semplificare notevolmente l&#39;aggiunta di dettagli in base ai dati elaborati. Viene fornito con molti cursori per modificare un materiale completo di input, basato su qualsiasi e tutte le mappe con baking come input. Sperimenta, dato che ci sono molte opzioni.
+Questo nodo ha lo scopo di semplificare notevolmente l&#39;aggiunta di dettagli in base ai dati eseguiti i baking. Viene fornito con molti cursori per modificare un materiale completo di input, basato su qualsiasi e tutte le mappe con baking come input. Sperimenta, dato che ci sono molte opzioni.
 
-È utile ad esempio per aggiungere l’evidenziazione dei bordi in base alla curvatura o ad altre mappe, eseguire la fusione in alcuni oggetti AO con Diffusione/Colore di base, aggiungere Occlusioni di Specular basate su Curvatura e/o AO, ecc.
+È utile ad esempio per aggiungere l’evidenziazione dei bordi in base alla curvatura o ad altre mappe, per fondere in alcuni oggetti AO con il colore di base o della Diffusa, per aggiungere l’Occlusione degli Specular in base a curvatura e/o oggetti AO e così via.
 
 </td>
 </tr>
@@ -48,7 +48,7 @@ Questo nodo ha lo scopo di semplificare notevolmente l&#39;aggiunta di dettagli 
 |  |  |
 |:---|:---|
 | <b>Input materiale completo (gruppo &quot;Materiale&quot;)</b> | Set completo di mappe di materiale.<br><br>Questi elementi sono stati modificati da questo nodo e sono stati restituiti come output. |
-| <b>Occlusione ambiente</b> <i>Input scala di grigi</i> | Mappa con baking utilizzata per effetti interni e mascheratura. |
+| <b>Occlusione ambientale</b> <i>Input scala di grigi</i> | Mappa con baking utilizzata per effetti interni e mascheratura. |
 | <b>Curvatura</b> <i>Input scala di grigi</i> | Mappa con baking utilizzata per effetti interni e mascheratura. |
 | <b>Height</b> <i>Input scala di grigi</i> |  |
 | <b>Normale</b> <i>Input colore</i> |  |
@@ -61,16 +61,16 @@ Questo nodo ha lo scopo di semplificare notevolmente l&#39;aggiunta di dettagli 
 
 |  |  |
 |:---|:---|
-| <b>Canali</b> | Attivate e disattivate i canali del materiale in questo gruppo, ad esempio quando utilizzate mappe Specular/lucidità invece di Metallico/Rugosità. Influisce sulla disponibilità dei parametri seguenti. |
+| <b>Canali</b> | Attivate e disattivate i canali del materiale in questo gruppo, ad esempio quando utilizzate mappe Specular/Lucentezza invece di Metallo/Rugosità. Influisce sulla disponibilità dei parametri seguenti. |
 | <b>Mappe con baking</b> | Indica se utilizzare o meno le mappe con baking elencate per i calcoli. Influisce sulla disponibilità dei parametri seguenti. |
 | <b>Diffusa AO</b> <i>0.0 - 1.0</i> | Quantità di Occlusione ambientale da fondere nella Diffusa. |
-| <b>Bordi Netti Diffusa</b> <i>0.0 - 1.0</i> | Quantità della mappa di curvatura da fondere con Diffusione. |
-| <b>Colore Diffusa Da Colore Vertice</b> <i>0.0 - 1.0</i> | Quantità del Color Bake Vertice da fondere con Diffusione. |
+| <b>Bordi Netti Diffusa</b> <i>0.0 - 1.0</i> | Quantità della mappa di curvatura da fondere con la Diffusa. |
+| <b>Colore Diffusa Da Colore Vertice</b> <i>0.0 - 1.0</i> | Quantità della esegue i baking Colore vertice da fondere nella Diffusa. |
 | <b>Pre-illuminazione Diffusa</b> <i>0.0 - 1.0</i> | Quantità di (falsa) pre-illuminazione, in base ai World Space Normals. |
-| <b>Bilanciamento illuminazione cartone animato Diffusa</b> <i>0.0 - 1.0</i> | Si sposta tra un’illuminazione realistica e in stile cartone animato per Diffusione. |
+| <b>Bilanciamento illuminazione cartone animato Diffusa</b> <i>0.0 - 1.0</i> | Sposta l&#39;illuminazione realistica da cartone animato a quella della Diffusa. |
 | <b>Livelli di pre-illuminazione per cartone animato Diffusa</b> <i>0 - 10</i> | Controlla l’aspetto dei calcoli di illuminazione per i cartoni animati. |
 | <b>Contorni cartone animato Diffusa</b> <i>0.0 - 1.0</i> | Controlla l’aspetto dei calcoli di illuminazione per i cartoni animati. |
-| <b>Colore di base AO</b> <i>0.0 - 1.0</i> | Quantità di Occlusione ambiente da fondere con il colore di base. |
+| <b>Colore di base AO</b> <i>0.0 - 1.0</i> | Quantità di Occlusione ambientale da fondere nel colore di base. |
 | <b>Colore di base bordi netti</b> <i>0.0 - 1.0</i> | Quantità della mappa di curvatura da fondere con il colore di base. |
 | <b>Colore di base Da Colore Vertice</b> <i>0.0 - 1.0</i> | Quantità del colore Vertice da unire al colore di base. |
 | <b>Intensità materiale normale</b> <i>0.0 - 1.0</i> | Intensità di fusione della Normalmap cotta (tangente). |
@@ -91,7 +91,7 @@ Questo nodo ha lo scopo di semplificare notevolmente l&#39;aggiunta di dettagli 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/blenddata-ex.gif" />
+            <img src="material-mesh-data-blender.resources/blenddata-ex.gif" />
         </td>
     </tr>
 </table>

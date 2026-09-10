@@ -7,10 +7,10 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Trasforma materiale
+title: Trasformazione materiale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
+source-git-commit: 2c331b568074714ea71231410f997f965e2bcdaa
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 2%
@@ -18,13 +18,13 @@ ht-degree: 2%
 ---
 
 
-# Trasforma materiale
+# Trasformazione materiale
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/material-transforms.png){width="128px"}
+![](material-transform.resources/material-transforms.png){width="128px"}
 
 <b>Tra:</b> Filtri materiali > Trasforma
 
@@ -50,4 +50,4 @@ La Trasforma dei materiali è semplicemente la versione &quot;Multi-Channel&quot
 | <b>Trasformazione</b> <i>(Matrice di trasformazione)</i> | Ruota e ridimensiona il risultato. Lo spostamento e il panning vengono eseguiti tramite il parametro Offset |
 | <b>Scostamento</b> <i>-0.5 - 0.5</i> | Sposta o converte il risultato. Quando è presente il controllo Trasformazione, il risultato può essere modificato interagendo direttamente con l’area di lavoro. |
 | <b>Formato Normale</b> | Scegliete tra il formato DirectX e OpenGL (capovolgi verde). |
-| <b>Canali</b> | Attivate e disattivate i canali del materiale in questo gruppo, ad esempio quando utilizzate mappe Specular/Lucentezza invece di Metallo/Rugosità. |
+| <b>Canali</b> | Attivate e disattivate i canali del materiale in questo gruppo, ad esempio quando utilizzate mappe Specular/lucidità invece di Metallico/Rugosità. |

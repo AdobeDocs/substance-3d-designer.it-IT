@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/mesh-data-combiner.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo Combinazione dati trama per combinare più input di dati trama per la generazione avanzata di texture basate su trama.
+description: Utilizzare il nodo Combinazione dati trama per combinare più input di dati trama per la generazione avanzata di texture basate su trama.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Utilities (Mesh Based Generators) > Mesh Data Combiner
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Combinazione dati trama
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: fbf066c7185f74dcbf35156afc3873d192f77abc
+source-git-commit: 1ea5f4e048a3b4591bf71d9b18707837dac1bf6f
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/mesh-data-combiner.png){width="128px"}
+![](mesh-data-combiner.resources/mesh-data-combiner.png){width="128px"}
 
 <b>In:</b> Generatori Basati Su Trama > Utility
 
@@ -33,9 +33,9 @@ ht-degree: 1%
 
 ## Descrizione
 
-Questo è un nodo molto semplice che &quot;impacchetta&quot; i dati mesh cotti in un unico gruppo, da utilizzare con &quot;Compact Material Mode&quot;.
+Questo è un nodo molto semplice che &quot;impacchetta&quot; i dati mesh eseguiti i baking in un unico gruppo, da utilizzare con &quot;Compact Material Mode&quot;.
 
-Questo nodo è principalmente un helper che semplifica il lavoro con molti input in batch su determinati nodi della raccolta, ad esempio [Material Mesh Data Blender](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/material-mesh-data-ble/material-mesh-data-blender.md). Consente di evitare il collegamento manuale di tutti gli elementi.
+Questo nodo è principalmente un supporto che semplifica l&#39;utilizzo di numerosi input eseguiti i baking su determinati nodi della raccolta, ad esempio [Material Mesh Data Blender](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/material-mesh-data-ble/material-mesh-data-blender.md). Consente di evitare il collegamento manuale di tutti gli elementi.
 
 </td>
 </tr>
@@ -49,7 +49,7 @@ Attiva/disattiva gli input di mapping per abilitare e generare il risultato comp
 
 |  |  |
 |:---|:---|
-| <b>Occlusione ambiente</b> <i>Falso/Vero</i> |  |
+| <b>Occlusione ambientale</b> <i>Falso/Vero</i> |  |
 | <b>Maschere UV</b> <i>Falso/Vero</i> |  |
 | <b>Curvatura</b> <i>Falso/Vero</i> |  |
 | <b>Height</b> <i>Falso/Vero</i> |  |

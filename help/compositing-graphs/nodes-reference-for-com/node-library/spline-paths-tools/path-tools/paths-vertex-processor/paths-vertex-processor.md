@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-vertex-processor.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo Processore vertici tracciati per Trasforma e manipolare i vertici dei tracciati con opzioni avanzate.
+description: Utilizzate il nodo Processore vertici tracciati per trasformare e manipolare i vertici dei tracciati con opzioni avanzate.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Paths Vertex Processor
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Processore vertici tracciati
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
+source-git-commit: f9ae596767e754b5c0f62ed6bdb6f16dd33bb799
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo](../../../../../../assets/paths-vertex-processor-icon.png "Icona nodo")
+![Icona nodo](paths-vertex-processor.resources/paths-vertex-processor-icon.png "Icona nodo")
 
 <b>In:</b> Strumenti spline e tracciati > Strumenti tracciato
 
@@ -92,7 +92,7 @@ Puoi anche accedere alle variabili *prev[2].pos* (Virgola mobile 2), *next[2].po
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 2](../../../../../../assets/PathsVertexProcessor-Demo2.gif "Esempio di nodo 2")
+![Esempio di nodo 2](paths-vertex-processor.resources/PathsVertexProcessor-Demo2.gif "Esempio di nodo 2")
 
 </td>
 <td style="border: 0;" valign="top">

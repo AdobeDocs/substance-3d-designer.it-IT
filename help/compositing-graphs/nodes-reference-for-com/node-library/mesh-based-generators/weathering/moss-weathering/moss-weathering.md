@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Moss Weathering
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6eb38d6ccaadda1d070e4e0b67311312adb7d082
+source-git-commit: 1ea5f4e048a3b4591bf71d9b18707837dac1bf6f
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/moss-weathering.png){width="128px"}
+![](moss-weathering.resources/moss-weathering.png){width="128px"}
 
 <b>In:</b> Generatori Basati Su Trama > Meteo
 
@@ -35,7 +35,7 @@ ht-degree: 7%
 
 Si tratta di un effetto di materiale completo che funziona su più canali contemporaneamente. Genera un effetto muschio ingrandito, con un singolo controllo per Propagazione.
 
-Questo effetto funziona meglio con una mappa di posizione dello spazio mondiale e una mappa dell&#39;altezza aggiuntiva. Anche se questo non è un requisito esatto, conferisce all&#39;effetto un posizionamento più credibile.
+Questo effetto funziona meglio con una mappa eseguita i baking Posizione spazio mondo e una mappa di altezza aggiuntiva. Anche se questo non è un requisito esatto, conferisce all&#39;effetto un posizionamento più credibile.
 
 Assicurati di aver compreso correttamente le [modalità di creazione del collegamento](https://support.allegorithmic.com/documentation/display/SD5/Link+Creation+Modes) quando lavori con i materiali completi.
 
@@ -49,7 +49,7 @@ Assicurati di aver compreso correttamente le [modalità di creazione del collega
 
 |  |  |
 |:---|:---|
-| <b>Posizione</b> <i>Input colore</i> | Posizione dello spazio mondiale baked. |
+| <b>Posizione</b> <i>Input colore</i> | Posizione spaziale mondiale eseguita i baking. |
 | <b>Height</b> <i>Input scala di grigi</i> | Input aggiuntivo Heightmap. |
 | <b>Maschera</b> <i>Input scala di grigi</i> | Slot maschera utilizzato per mascherare gli effetti del nodo. Può essere attivato/disattivato con il parametro &quot;Maschera&quot;. |
 
@@ -59,7 +59,7 @@ Assicurati di aver compreso correttamente le [modalità di creazione del collega
 
 |  |  |
 |:---|:---|
-| <b>Canali</b> | Attivate e disattivate i canali del materiale in questo gruppo, ad esempio quando utilizzate mappe Specular/lucidità invece di Metallico/Rugosità. |
+| <b>Canali</b> | Attivate e disattivate i canali del materiale in questo gruppo, ad esempio quando utilizzate mappe Specular/Lucentezza invece di Metallo/Rugosità. |
 | <b>Avanzate</b> |  |
 | <b>Formato Normale</b> <i>DirectX, OpenGL</i> | Passa da un formato Normalmap a un altro (inverte il canale verde). |
 | <b>Maschera</b> <i>Falso/Vero</i> | Attiva o disattiva l’uso della mappa maschera. |
@@ -80,7 +80,7 @@ Assicurati di aver compreso correttamente le [modalità di creazione del collega
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/moss-ex.gif" />
+            <img src="moss-weathering.resources/moss-ex.gif" />
         </td>
     </tr>
 </table>

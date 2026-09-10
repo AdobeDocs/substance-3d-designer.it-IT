@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline (Cubic)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 86e504c9dfe76516c56a7950f0bf70090270a60c
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona nodo](../../../../../../assets/spline-cubic-icon.png "Icona nodo")
+![Icona nodo](spline-cubic.resources/spline-cubic-icon.png "Icona nodo")
 
 <b>In:</b> Strumenti Spline E Tracciati > Strumenti spline
 
@@ -101,12 +101,12 @@ La traiettoria della spline è controllata dalla tangente &quot;out&quot; di <b>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 1](../../../../../../assets/SplineCubic-Variant1.jpg "Esempio di nodo 1")
+![Esempio di nodo 1](spline-cubic.resources/SplineCubic-Variant1.jpg "Esempio di nodo 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 2](../../../../../../assets/SplineCubic-Variant2.jpg "Esempio di nodo 2")
+![Esempio di nodo 2](spline-cubic.resources/SplineCubic-Variant2.jpg "Esempio di nodo 2")
 
 </td>
 </tr>
@@ -116,7 +116,7 @@ La traiettoria della spline è controllata dalla tangente &quot;out&quot; di <b>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Esempio di nodo 3](../../../../../../assets/SplineCubic-Demo.gif "Esempio di nodo 3")
+![Esempio di nodo 3](spline-cubic.resources/SplineCubic-Demo.gif "Esempio di nodo 3")
 
 </td>
 <td style="border: 0;" valign="top">
