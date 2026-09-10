@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/metal-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/metal-weathering.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Metallo meteorologico per aggiungere effetti di corrosione e ruggine realistici ai materiali metallici in base alla geometria della trama.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Metallo meteorologico
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6eb38d6ccaadda1d070e4e0b67311312adb7d082
+source-git-commit: 1ea5f4e048a3b4591bf71d9b18707837dac1bf6f
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 14%
@@ -24,7 +24,7 @@ ht-degree: 14%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/metal-weathering.png){width="128px"}
+![](metal-weathering.resources/metal-weathering.png){width="128px"}
 
 <b>In:</b> Generatori Basati Su Trama > Meteo
 
