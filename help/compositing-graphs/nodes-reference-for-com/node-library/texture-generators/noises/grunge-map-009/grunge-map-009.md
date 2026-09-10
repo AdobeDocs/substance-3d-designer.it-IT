@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-009.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-009.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Mappa Grunge 009 per generare texture di grunge procedurali per aggiungere dettagli della superficie ed effetti di usura ai materiali.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mappa grungi 009
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
+source-git-commit: 1668632724231982c98a508ae7f87642c5888648
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungemap-009.png){width="128px"}
+![](grunge-map-009.resources/grungemap-009.png){width="128px"}
 
 <b>Ingresso:</b> Generatori di Texture > Rumori
 
@@ -33,7 +33,7 @@ ht-degree: 7%
 
 ## Descrizione
 
-Questo genera una complessa mappa del disturbo combinata. Può essere molto utile come procedurali dettagliata, ma tenete presente che si tratta di elementi che richiedono molte prestazioni e che quindi sono più lenti da generare.
+Questo genera una complessa mappa del disturbo combinata. Può essere molto utile come una procedura dettagliata, ma tenete a mente che questi sono molto ad alta intensità di prestazioni e quindi più lenti da generare.
 
 </td>
 </tr>
@@ -49,14 +49,14 @@ Questo genera una complessa mappa del disturbo combinata. Può essere molto util
 | <b>Contrasto</b> <i>0.0 - 1.0</i> | Regola il contrasto del risultato. |
 | <b>Inverti</b> <i>Falso/Vero</i> | Inverte il risultato. |
 | <b>Motivo pennello</b> <i>0.0 - 1.0</i> | Aggiunge una maschera intorno ai bordi, per quando viene utilizzato come pennello alfa. |
-| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di squash e allungamento con rapporti non quadrati. |
+| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati. |
 
 ## Esempi
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungemap-009-ex.gif" />
+            <img src="grunge-map-009.resources/grungemap-009-ex.gif" />
         </td>
     </tr>
 </table>
