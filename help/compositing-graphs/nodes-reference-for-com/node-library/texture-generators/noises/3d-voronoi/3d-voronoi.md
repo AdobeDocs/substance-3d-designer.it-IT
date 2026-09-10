@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-voronoi.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-voronoi.html"
 breadcrumb-title: ''
-description: Utilizza il nodo Voronoi 3D per generare pattern Voronoi in base alla posizione del mondo 3D per creare texture cellulari volumetriche.
+description: Utilizza il nodo Voronoi 3D per generare modelli Voronoi in base alla posizione del mondo 3D per la creazione di texture cellulari volumetriche.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Voronoi
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Voronoi 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 8be4dabbdf7bd618ca2ee21c64655952474b9df2
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dvoronoi.png){width="200px"}
+![](3d-voronoi.resources/3dvoronoi.png){width="200px"}
 
 <b>Ingresso:</b> Generatori di Texture > Rumori
 
@@ -52,10 +52,10 @@ Questo nodo può essere testato con [Cubo 3D GBuffers](../../../../../../composi
 |  |  |
 |:---|:---|
 | <b>Inverti</b> <i>Booleano</i> | Inverte l’immagine di output. |
-| <b>Scala</b> <i>Mobile</i> | Controlla la scala del disturbo 3D di Voronoi.<br><br><i>Nota</i>: quando <b>Affiancamento</b> è attivato su <i>qualsiasi asse</i>, la regolazione della scala è <i>incrementata</i>. Questo è previsto. |
-| <b>Dimensioni</b> <i>Float3</i> | Controlla la dimensione del disturbo 3D di Voronoi sugli assi <b>X</b>, <b>Y</b> e <b>Z</b>. I valori non uniformi producono un effetto <i>allungamento o schiacciante</i>.<br><br><i>Nota</i>: quando l&#39;opzione <b>Affiancamento</b> è abilitata su <i>qualsiasi asse</i>, la regolazione della dimensione è <i>graduale</i>. Questo è previsto. |
-| <b>Scostamento</b> <i>Float3</i> | Applica uno scostamento alla <i>posizione</i> del disturbo 3D di Voronoi sugli assi <b>X</b>, <b>Y</b> e <b>Z</b>. |
-| <b>Disturbo</b> <i>Float3</i> | Intensità dello <i>scostamento casuale</i> applicato a ciascun punto del disturbo sugli assi <b>X</b>, <b>Y</b> e <b>Z</b>. |
+| <b>Scala</b> <i>Virgola mobile</i> | Controlla la scala del disturbo 3D di Voronoi.<br><br><i>Nota</i>: quando <b>Affiancamento</b> è attivato su <i>qualsiasi asse</i>, la regolazione della scala è <i>incrementata</i>. Questo è previsto. |
+| <b>Dimensioni</b> <i>Virgola mobile 3</i> | Controlla la dimensione del disturbo 3D di Voronoi sugli assi <b>X</b>, <b>Y</b> e <b>Z</b>. I valori non uniformi producono un effetto <i>allungamento o schiacciante</i>.<br><br><i>Nota</i>: quando l&#39;opzione <b>Affiancamento</b> è abilitata su <i>qualsiasi asse</i>, la regolazione della dimensione è <i>graduale</i>. Questo è previsto. |
+| <b>Scostamento</b> <i>Virgola mobile 3</i> | Applica uno scostamento alla <i>posizione</i> del disturbo 3D di Voronoi sugli assi <b>X</b>, <b>Y</b> e <b>Z</b>. |
+| <b>Disturbo</b> <i>Virgola mobile 3</i> | Intensità dello <i>scostamento casuale</i> applicato a ciascun punto del disturbo sugli assi <b>X</b>, <b>Y</b> e <b>Z</b>. |
 | <b>Intensità Distorsione</b> <i>Mobile</i> | Controlla l’intensità di un <i>effetto di alterazione</i> applicato al disturbo 3D di Voronoi. |
 | <b>Moltiplicatore scala Distorsione</b> <i>Mobile</i> | Controlla la scala del <i>pattern di deformazione</i> utilizzato nell&#39;effetto di alterazione controllato dall&#39;<b>intensità della Distorsione</b>. |
 | <b>Curva arrotondata</b> <i>Mobile</i> | Arrotonda la <i>pendenza</i> attorno a ciascun punto del disturbo per renderlo <i>convesso</i>.<br><br><i>Nota</i>: questo parametro non è disponibile quando il parametro <b>Stile</b> è impostato su <i>Bordo</i>. |
@@ -71,24 +71,24 @@ Questo nodo può essere testato con [Cubo 3D GBuffers](../../../../../../composi
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoi-variant.jpg" />
+            <img src="3d-voronoi.resources/3dvoronoi-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoi-variant5.jpg" />
+            <img src="3d-voronoi.resources/3dvoronoi-variant5.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoi-variant2.jpg" />
+            <img src="3d-voronoi.resources/3dvoronoi-variant2.jpg" />
         </td>
     </tr>
     <tr style="border: 0; background: transparent">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoi-variant4.jpg" />
+            <img src="3d-voronoi.resources/3dvoronoi-variant4.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoi-variant3.jpg" />
+            <img src="3d-voronoi.resources/3dvoronoi-variant3.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoi-variant6.jpg" />
+            <img src="3d-voronoi.resources/3dvoronoi-variant6.jpg" />
         </td>
     </tr>
 </table>
