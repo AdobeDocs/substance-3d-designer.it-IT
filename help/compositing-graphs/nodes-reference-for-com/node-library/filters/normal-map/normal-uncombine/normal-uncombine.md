@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Normale non combinato
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
+source-git-commit: f792519db40504d7bb888acf0dc418c6ebfd688a
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icona di separazione normale](../../../../../../assets/NormalUncombine.png "Icona di separazione normale"){width="200px"}
+![Icona di separazione normale](normal-uncombine.resources/NormalUncombine.png "Icona di separazione normale"){width="200px"}
 
 <b>In:</b> Filtri > Mappa normale
 
@@ -70,44 +70,44 @@ Rimuove da una mappa normale i dettagli della superficie descritti da una mappa 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/normal_uncombine_example_3_before.jpg" alt="normal_uncombine_example_3_before">
+      <img src="normal-uncombine.resources/normal_uncombine_example_3_before.jpg" alt="normal_uncombine_example_3_before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../../../../../assets/normal_uncombine_example_3_after.jpg" alt="normal_uncombine_example_3_after">
+      <img src="normal-uncombine.resources/normal_uncombine_example_3_after.jpg" alt="normal_uncombine_example_3_after">
       <br><i>Dopo</i>
     </td>
   </tr>
 </table>
 
-![Separazione normale: esempio 2](../../../../../../assets/normal_uncombine_example_4.png "Separazione normale: esempio 2"){zoomable="yes"}
+![Separazione normale: esempio 2](normal-uncombine.resources/normal_uncombine_example_4.png "Separazione normale: esempio 2"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/normal_uncombine_example_1_before.jpg" alt="normal_uncombine_example_1_before">
+      <img src="normal-uncombine.resources/normal_uncombine_example_1_before.jpg" alt="normal_uncombine_example_1_before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../../../../../assets/normal_uncombine_example_1_after.jpg" alt="normal_uncombine_example_1_after">
+      <img src="normal-uncombine.resources/normal_uncombine_example_1_after.jpg" alt="normal_uncombine_example_1_after">
       <br><i>Dopo</i>
     </td>
   </tr>
 </table>
 
-![Separazione normale: esempio 4](../../../../../../assets/normal_uncombine_example_6.png "Separazione normale: esempio 4"){zoomable="yes"}
+![Separazione normale: esempio 4](normal-uncombine.resources/normal_uncombine_example_6.png "Separazione normale: esempio 4"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/normal_uncombine_example_2_before.jpg" alt="normal_uncombine_example_2_before">
+      <img src="normal-uncombine.resources/normal_uncombine_example_2_before.jpg" alt="normal_uncombine_example_2_before">
       <br><i>Prima</i>
     </td>
     <td>
-      <img src="../../../../../../assets/normal_uncombine_example_2_after.jpg" alt="normal_uncombine_example_2_after">
+      <img src="normal-uncombine.resources/normal_uncombine_example_2_after.jpg" alt="normal_uncombine_example_2_after">
       <br><i>Dopo</i>
     </td>
   </tr>
 </table>
 
-![Separazione normale: esempio 6](../../../../../../assets/normal_uncombine_example_5.png "Separazione normale: esempio 6"){zoomable="yes"}
+![Separazione normale: esempio 6](normal-uncombine.resources/normal_uncombine_example_5.png "Separazione normale: esempio 6"){zoomable="yes"}
