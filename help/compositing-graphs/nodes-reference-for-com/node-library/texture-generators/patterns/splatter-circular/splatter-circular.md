@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/splatter-circular.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/splatter-circular.html"
 breadcrumb-title: ''
 description: Usa il nodo Circolare di splatter per dispersione forme circolari tra texture per creare pattern organici e casuali.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Circolare a dispersione
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: dbfe5b7ce453a6178d8d970698d3a5f8225151b4
 workflow-type: tm+mt
 source-wordcount: '850'
 ht-degree: 8%
@@ -24,9 +24,9 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/splatter-circular.png){width="128px"}
+![](splatter-circular.resources/splatter-circular.png){width="128px"}
 
-![](../../../../../../assets/splatter-circular-color.png){width="128px"}
+![](splatter-circular.resources/splatter-circular-color.png){width="128px"}
 
 <b>Ingresso:</b> Generatori Texture > Pattern
 
@@ -118,7 +118,7 @@ Entrambi gli ingressi sono opzionali.
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/circularsplatter-ex.png" />
+            <img src="splatter-circular.resources/circularsplatter-ex.png" />
         </td>
     </tr>
 </table>
