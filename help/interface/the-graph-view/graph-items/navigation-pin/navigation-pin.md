@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/the-graph-view/graph-items/navigation-pin.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/navigation-pin.html"
 breadcrumb-title: ''
 description: Utilizzate i perni di navigazione nella vista del grafico per passare rapidamente tra diverse posizioni nei grafici di Substance 3D Designer.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Puntina
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 01adf91721f742481a84e22a1fa0c22e5e0de887
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Icona del pin di navigazione](../../../../assets/graphatomic-pin_1.png "Icona del pin di navigazione")
+![Icona del pin di navigazione](navigation-pin.resources/graphatomic-pin_1.png "Icona del pin di navigazione")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -78,4 +78,4 @@ In qualsiasi tipo di grafico, premendo il <b>F2</b> si scorrono tutti i perni de
 
 I perni verranno inquadrati nella finestra della vista al livello di zoom corrente.
 
-![Pin: passaggio ai pin](../../../../assets/graph-pin_jumping.gif "Pin: passaggio ai pin")
+![Pin: passaggio ai pin](navigation-pin.resources/graph-pin_jumping.gif "Pin: passaggio ai pin")
