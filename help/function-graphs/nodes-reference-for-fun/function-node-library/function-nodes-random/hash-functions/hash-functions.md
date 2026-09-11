@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Funzioni Hash
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 81c39001686736d41614fd59247d53e6d8438def
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo hash: icon](../../../../../assets/hash-icon.png "Nodo hash: icon"){width="200px"}
+![Nodo hash: icon](hash-functions.resources/hash-icon.png "Nodo hash: icon"){width="200px"}
 
 <b>In:</b> Funzioni > Casuale
 
@@ -49,22 +49,22 @@ Versioni disponibili, con tipo di input e tipo di output:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-<b>Hash 11:</b> Mobile → Mobile
+<b>Hash 11:</b> Virgola mobile → Virgola mobile
 
-<b>Hash 14:</b> Mobile → Float4
+<b>Hash 14:</b> Virgola mobile → Virgola mobile 4
 
-<b>Hash 21:</b> Mobile2 → Mobile
+<b>Hash 21:</b> Virgola mobile 2 → Virgola mobile
 
-<b>Hash 22:</b> Float2 → Float2
+<b>Hash 22:</b> Virgola mobile2 → Virgola mobile2
 
 </td>
 <td style="border: 0;" valign="top">
 
-<b>Hash 24:</b> Float2 → Float4
+<b>Hash 24:</b> Virgola mobile2 → Virgola mobile4
 
-<b>Hash31:</b> Mobile3 → Mobile
+<b>Hash31:</b> Virgola mobile 3 → Virgola mobile
 
-<b>Hash 32:</b> Float3 → Float2
+<b>Hash 32:</b> Virgola mobile3 → Virgola mobile2
 
 </td>
 </tr>
@@ -82,12 +82,12 @@ Versioni disponibili, con tipo di input e tipo di output:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Esempio di hash 14](../../../../../assets/hash14-example.png "Esempio di hash 14"){zoomable="yes"}
+![Esempio di hash 14](hash-functions.resources/hash14-example.png "Esempio di hash 14"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Esempio di hash 32](../../../../../assets/hash32-example.png "Esempio di hash 32"){zoomable="yes"}
+![Esempio di hash 32](hash-functions.resources/hash32-example.png "Esempio di hash 32"){zoomable="yes"}
 
 </td>
 </tr>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Grafici MDL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 2a6e26cc03e887569a518cadd171ae1b51ae6abd
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Questa pagina presenta i grafici MDL in Substance 3D Designer, che consentono di creare materiali MDL e visualizzare in anteprima il loro comportamento in tempo reale.
 
-![Materiale MDL malachita](../assets/mdl-malachite-example.jpg "Materiale MDL malachita")
+![Materiale MDL malachita](mdl-graphs.resources/mdl-malachite-example.jpg "Materiale MDL malachita")
 
 *Malachite con Chrysocolla, materiale MDL di [Mark Foreman](https://www.artstation.com/oggyart)* *disponibile sul nostro [Substance share legacy](https://share-legacy.substance3d.com/libraries/4043)* *piattaforma*
 
@@ -62,7 +62,7 @@ Vuoi entrare? Introduzione ai grafici MDL nella sezione Risorse di apprendimento
 >
 > Ulteriori informazioni sull&#39;implementazione tecnica del linguaggio di definizione dei materiali sono disponibili nella [documentazione NVIDIA MDL](https://raytracing-docs.nvidia.com/mdl/index.html), che include collegamenti alla specifica MDL e al [manuale MDL](http://mdlhandbook.com/), tutti creati e gestiti da NVIDIA.
 
-![Proprietà grafico MDL](../assets/mdl-main.png "Proprietà grafico MDL")
+![Proprietà grafico MDL](mdl-graphs.resources/mdl-main.png "Proprietà grafico MDL")
 
 *Proprietà del grafico MDL nel pannello Proprietà*
 

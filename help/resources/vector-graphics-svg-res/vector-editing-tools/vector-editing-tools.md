@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/resources/vector-graphics-svg-resource/vector-editing-tools.html"
 breadcrumb-title: ''
-description: Utilizza gli strumenti di modifica vettoriale per creare e modificare la grafica SVG in Substance 3D Designer per la texture procedurale.
+description: Utilizza gli strumenti di modifica vettoriale per creare e modificare la grafica SVG in Substance 3D Designer per le texture procedurali.
 helpx_creative_field: ""
 helpx_description: Designer > Resources > Vector graphics (SVG) resource > Vector editing tools
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Strumenti di modifica vettoriale
 
-Questa pagina descrive gli strumenti di modifica disponibili nel pannello [vista 2D](https://docs.substance3d.com/display/SDDOC/2D+view) per la grafica vettoriale compatibile.
+Questa pagina descrive gli strumenti di modifica disponibili nel pannello [Vista 2D](https://docs.substance3d.com/display/SDDOC/2D+view) per la grafica vettoriale compatibile.
 
 ## Panoramica
 
@@ -28,11 +28,11 @@ Questa pagina descrive gli strumenti di modifica disponibili nel pannello [vista
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Il pannello [vista 2D](https://docs.substance3d.com/display/SDDOC/2D+view) offre strumenti di base per la modifica vettoriale che consentono di creare o modificare la grafica vettoriale *manualmente* direttamente in [Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html). Questi strumenti sono particolarmente utili, ad esempio, per creare rapidamente *maschere* o *pattern*.
+Il pannello [Vista 2D](https://docs.substance3d.com/display/SDDOC/2D+view) offre strumenti di base per la modifica vettoriale che consentono di creare o modificare la grafica vettoriale *manualmente* direttamente in [Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html). Questi strumenti sono particolarmente utili, ad esempio, per creare rapidamente *maschere* o *pattern*.
 
-Gli strumenti supportano l&#39;input penna. Per sfruttare le visualizzazioni a penna, puoi [disancorare](https://docs.substance3d.com/display/SDDOC/Customizing+your+workspace) il pannello [Vista 2D](https://docs.substance3d.com/display/SDDOC/2D+view), quindi posizionarlo e ridimensionarlo in qualsiasi configurazione più adatta per la pittura.
+Gli strumenti supportano l&#39;input penna. Per sfruttare le visualizzazioni a penna, puoi [disancorare](https://docs.substance3d.com/display/SDDOC/Customizing+your+workspace) il pannello [Visualizzazione 2D](https://docs.substance3d.com/display/SDDOC/2D+view), quindi posizionarlo e ridimensionarlo in qualsiasi configurazione più adatta per la pittura.
 
-Le modifiche possono essere *annullate singolarmente* e tutte le altre funzioni del pannello vista 2D sono ancora *disponibili* mentre modificate l&#39;immagine vettoriale, ad esempio il pannello [Istogramma](https://docs.substance3d.com/display/SDDOC/2D+view#id-2Dview-Histogram), [Visualizzazione affiancata](https://docs.substance3d.com/display/SDDOC/2D+view#id-2Dview-Viewport) e [Immagine di sfondo](https://docs.substance3d.com/display/SDDOC/2D+view#id-2Dview-Backgroundimage).
+Le modifiche possono essere *annullate singolarmente* e tutte le altre funzioni del pannello Vista 2D sono ancora *disponibili* mentre modificate l&#39;immagine vettoriale, ad esempio il pannello [Istogramma](https://docs.substance3d.com/display/SDDOC/2D+view#id-2Dview-Histogram), [Visualizzazione affiancata](https://docs.substance3d.com/display/SDDOC/2D+view#id-2Dview-Viewport) e [Immagine di sfondo](https://docs.substance3d.com/display/SDDOC/2D+view#id-2Dview-Backgroundimage).
 
 </td>
 <td style="border: 0;" valign="top">

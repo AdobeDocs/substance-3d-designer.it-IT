@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-position.html"
 breadcrumb-title: ''
-description: Utilizzare il nodo Flood Fill in posizione per riempire le aree con valori basati sulla posizione per la creazione di pattern procedurali.
+description: Utilizzare il nodo Flood Fill in posizione per riempire le aree con valori basati sulla posizione per la creazione di serie di procedurali.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Flood Fill to Position
 helpx_experience_level: ""

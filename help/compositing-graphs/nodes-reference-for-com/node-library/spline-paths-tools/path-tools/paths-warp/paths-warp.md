@@ -62,7 +62,7 @@ Deforma i percorsi di input in base all&#39;<b>input sfumatura</b>. Stesso effet
 
 |  |  |
 |:---|:---|
-| <b>Intensità</b> <i>Mobile</i> | Il parametro <b>Intensità</b> imposta l&#39;intensità dell&#39;alterazione. |
+| <b>Intensità</b> <i>Virgola mobile</i> | Il parametro <b>Intensità</b> imposta l&#39;intensità dell&#39;alterazione. |
 | <b>Numero di passaggi</b> <i>Numero intero</i> | Usate un valore più alto per alterare i tracciati di input di più piccoli incrementi.<br>Questo può impedire al percorso di intersecarsi, soprattutto quando si utilizzano valori di <b>intensità</b> elevati. |
 
 ## Esempi

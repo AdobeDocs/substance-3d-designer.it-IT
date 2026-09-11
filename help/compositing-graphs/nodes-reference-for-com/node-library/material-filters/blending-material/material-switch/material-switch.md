@@ -45,5 +45,5 @@ Questo nodo è la versione completa del materiale multicanale di [Switch](../../
 
 |  |  |
 |:---|:---|
-| <b>Canali</b> | Attivate e disattivate i canali del materiale in questo gruppo, ad esempio quando utilizzate mappe Specular/lucidità invece di Metallico/Rugosità. |
+| <b>Canali</b> | Attivate e disattivate i canali del materiale in questo gruppo, ad esempio quando utilizzate mappe Specular/Lucentezza invece di Metallo/Rugosità. |
 | <b>Switch</b> <i>Falso/Vero</i> | Cambia per restituire il Materiale 1 o 2. |

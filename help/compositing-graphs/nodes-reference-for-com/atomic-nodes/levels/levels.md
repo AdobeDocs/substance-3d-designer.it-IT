@@ -86,11 +86,11 @@ Il pulsante giallo evidenziato alterna l’interfaccia tra i cursori dei valori 
 
 |  |  |
 | --- | --- |
-| <b>Livello in entrata basso</b> *Float/Float4* | Definisce i livelli di scarsa illuminazione dell&#39;immagine di input. Modifica i valori di input Bassi in modo che diventino nero intero. |
-| <b>Livello in entrata alto</b> *Float/Float4* | Definisce i livelli di luce dell&#39;immagine di input.  Modifica l’input con valori alti per rendere il bianco intero. |
-| <b>Livello a metà</b> *Float/Float4* | Definisce i livelli dei mezzitoni dell’immagine di input.  Modifica i valori di input di Mid in modo che diventino grigio medio. |
-| <b>Livella in basso</b> *Float/Float4* | Definisce i livelli di scarsa illuminazione dell&#39;immagine di output.  Blocca i valori di nero di output per impostare il limite. |
-| <b>Livella in alto</b> *Float/Float4* | Definisce i livelli di luce dell’immagine di output.  Blocca i valori bianchi di output per impostare il limite. |
+| <b>Livello in entrata basso</b> *Virgola mobile/Virgola mobile4* | Definisce i livelli di scarsa illuminazione dell&#39;immagine di input. Modifica i valori di input Bassi in modo che diventino nero intero. |
+| <b>Livello in entrata alto</b> *Virgola mobile/Virgola mobile4* | Definisce i livelli di luce dell&#39;immagine di input.  Modifica l’input con valori alti per rendere il bianco intero. |
+| <b>Livello in entrata medio</b> *Virgola mobile/Virgola mobile4* | Definisce i livelli dei mezzitoni dell’immagine di input.  Modifica i valori di input di Mid in modo che diventino grigio medio. |
+| <b>Livella in basso</b> *Virgola mobile/Virgola mobile4* | Definisce i livelli di scarsa illuminazione dell&#39;immagine di output.  Blocca i valori di nero di output per impostare il limite. |
+| <b>Livello in uscita alto</b> *Virgola mobile/Virgola mobile4* | Definisce i livelli di luce dell’immagine di output.  Blocca i valori bianchi di output per impostare il limite. |
 | <b>Morsetto intermedio</b> *Booleano* | Determina se il valore di input Trasforma è bloccato su [0, 1] prima di calcolare il livello di output. |
 
 ## Guida all’uso

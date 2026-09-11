@@ -20,7 +20,7 @@ ht-degree: 3%
 
 # Regolazioni
 
-Si tratta di una delle principali categorie di filtri, con nodi destinati a regolare i valori e gli intervalli di input in vari modi. La maggior parte dei nodi è un modo avanzato ed espanso di utilizzare i nodi [Livelli](../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) e [Fusione](../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) ed è intesa come scelta rapida più intelligente per determinate operazioni.
+Si tratta di una delle principali categorie di filtri, con nodi destinati a regolare i valori e gli intervalli di input in vari modi. La maggior parte dei nodi è un modo avanzato ed espanso di utilizzare i nodi [Livelli](../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) e [Fusione](../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) e costituisce una scelta rapida più intelligente per determinate operazioni.
 
 Utilizzare l&#39;<b>elenco di navigazione a sinistra</b> per sfogliare tutti i nodi in Adjustments.
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Valori nei grafici Substance
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 46563ec789547cc1add76655dbad02f5099927a6
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 2%
@@ -34,18 +34,18 @@ Due nuovi nodi atomici funzionano con valori:
 
 |  |  |
 | --- | --- |
-| <div><img alt="Icona nodo processore valori" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="../../assets/valueprocessor.png" title="Icona nodo processore valori" width="100px"/></div>  <b>[Processore valori](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)</b> | [Elaboratore valori](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) accetta un numero qualsiasi di input in scala di grigio o a colori e consente di restituire un singolo valore dai calcoli basati su tali input. |
-| <div><img alt="Icona nodo di input valore" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="../../assets/inputnumeric.png" title="Icona nodo di input valore" width="100px"/></div>  **[Input valore](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)** | L&#39;[Input valore](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)consente di creare uno slot di input nei sottografi definito in modo esplicito come valore. |
+| <div><img alt="Icona nodo processore valori" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="values-in-substance-compositing-graphs.resources/valueprocessor.png" title="Icona nodo processore valori" width="100px"/></div>  <b>[Processore valori](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)</b> | [Elaboratore valori](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) accetta un numero qualsiasi di input in scala di grigio o a colori e consente di restituire un singolo valore dai calcoli basati su tali input. |
+| <div><img alt="Icona nodo di input valore" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="values-in-substance-compositing-graphs.resources/inputnumeric.png" title="Icona nodo di input valore" width="100px"/></div>  **[Input valore](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)** | L&#39;[Input valore](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)consente di creare uno slot di input nei sottografi definito in modo esplicito come valore. |
 
 Inoltre, altri nodi li gestiscono in un modo specifico:
 
 Il [nodo di output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) viene automaticamente regolato in modo da diventare un output di valore se si collega una connessione di valore a tale nodo, come in precedenza per Scala di grigi e Colore.
 
-![Nodo del valore di output](../../assets/values-output.gif "Nodo del valore di output"){width="512px"}
+![Nodo del valore di output](values-in-substance-compositing-graphs.resources/values-output.gif "Nodo del valore di output"){width="512px"}
 
 Su ogni singolo nodo ([Atomic](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)e [Library](../../compositing-graphs/nodes-reference-for-com/node-library/node-library.md)/Instance) è presente una nuova scheda che consente di definire gli input di valore.
 
-![Aggiunta di valori di input nel nodo](../../assets/values-inputs.gif "Aggiunta di valori di input nel nodo")
+![Aggiunta di valori di input nel nodo](values-in-substance-compositing-graphs.resources/values-inputs.gif "Aggiunta di valori di input nel nodo")
 
 ## Utilizzo dei valori
 
@@ -57,4 +57,4 @@ Elaboratore valori può restituire un solo valore. Se si desidera restituire pi�
 
 Per evidenziare la posizione in cui i valori sono esposti o in uso, qualsiasi nodo con input di valori o output di valori viene evidenziato con un bordo giallo spesso:
 
-![Utilizzo dei valori](../../assets/yellowhighlight.png "Utilizzo dei valori")
+![Utilizzo dei valori](values-in-substance-compositing-graphs.resources/yellowhighlight.png "Utilizzo dei valori")

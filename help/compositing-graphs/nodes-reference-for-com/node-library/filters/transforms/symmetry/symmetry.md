@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/symmetry.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo Simmetria (Symmetry) per creare serie simmetriche specchiando le texture lungo assi specificati.
+description: Utilizzate il nodo Simmetria per creare serie simmetriche specchiando le texture lungo assi specificati.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Symmetry
 helpx_experience_level: ""
@@ -33,7 +33,7 @@ ht-degree: 7%
 
 ## Descrizione
 
-Esegue una serie di operazioni di simmetria su un&#39;immagine di input. Può essere utilizzato per rendere simmetriche le forme geometriche.
+Esegue diverse operazioni di simmetria su un&#39;immagine di input. Può essere utilizzato per rendere simmetriche le forme geometriche.
 
 Questo nodo è molto simile a [Mirror](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/mirror-filter-node/mirror-filter-node.md), ma dispone di controlli aggiuntivi per i metodi di fusione.
 

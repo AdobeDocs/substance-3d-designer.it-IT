@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Creare e modificare una funzione
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 46563ec789547cc1add76655dbad02f5099927a6
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%
@@ -22,15 +22,15 @@ ht-degree: 0%
 
 ## Creare una funzione
 
-Per creare una funzione, è sufficiente fare clic sull&#39;icona della funzione ![](../../assets/image2017-3-7-17-10-8.png) e scegliere &quot;**Funzione vuota**&quot;.
+Per creare una funzione, è sufficiente fare clic sull&#39;icona della funzione ![](create-and-edit-a-function.resources/image2017-3-7-17-10-8.png) e scegliere &quot;**Funzione vuota**&quot;.
 
-![](../../assets/image2017-3-7-17-8-37.png)
+![](create-and-edit-a-function.resources/image2017-3-7-17-8-37.png)
 
 ## Modificare una funzione
 
 Una volta creata una funzione, è possibile modificarla facendo di nuovo clic sull&#39;icona della funzione o scegliendo Modifica nell&#39;elenco a discesa.
 
-![](../../assets/image2017-3-7-17-11-42.png)
+![](create-and-edit-a-function.resources/image2017-3-7-17-11-42.png)
 
 Si entra quindi nella modalità funzione del grafico.
 
@@ -42,7 +42,7 @@ Il grafico delle funzioni funziona come gli altri tipi di grafico in Designer: c
 
 Potete creare nodi facendo clic con il pulsante destro del mouse nel grafico e scegliendo &quot;Aggiungi elemento&quot; o premendo la barra spaziatrice:
 
-![](../../assets/capture-d-e-cran-2015-02-04-10-05-16.png){width="600px"}
+![](create-and-edit-a-function.resources/capture-d-e-cran-2015-02-04-10-05-16.png){width="600px"}
 
 ## Impostare un output
 

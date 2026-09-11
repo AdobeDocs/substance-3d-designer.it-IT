@@ -20,6 +20,6 @@ ht-degree: 0%
 
 # Utilità (generatori basati su trama)
 
-Questi nodi sono strumenti più astratti che consentono di lavorare con i nodi adattativi della trama. In alcuni casi, la loro funzionalità è strettamente collegata anche ai [filtri materiale](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/material-filters.md).
+Questi nodi sono strumenti più astratti che consentono di lavorare con i nodi adattativi della trama. In alcuni casi, la loro funzionalità è strettamente collegata anche a [Filtri materiali](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/material-filters.md).
 
 In questa categoria sono presenti solo alcuni nodi, quindi assicurati di estrarli tutti.

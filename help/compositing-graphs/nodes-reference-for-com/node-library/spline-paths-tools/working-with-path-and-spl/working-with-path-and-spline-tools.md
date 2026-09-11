@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/working-with-path-and-spline-tools.html"
 breadcrumb-title: ''
-description: Scopri come utilizzare tracciati e strumenti spline per creare pattern procedurali e forme organiche nei tuoi grafici.
+description: Scopri come lavorare con tracciati e strumenti spline per creare pattern procedurali e forme organiche nei tuoi grafici.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Working with Path  Spline tools
 helpx_experience_level: ""
@@ -60,16 +60,16 @@ Mentre lavorate con tracciati e spline, potete visualizzare in anteprima questi 
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-### Interazione vista 2D
+### Interazione con vista 2D
 
-Un numero significativo di nodi nel set di strumenti offre la possibilità di eseguire modifiche direttamente nella [vista 2D](../../../../../interface/2d-view/2d-view.md) utilizzando gizmo di controllo. Questi gizmo includono la posizione gizmo e la matrice di trasformazione.
+Un numero significativo di nodi nel set di strumenti offre la possibilità di eseguire modifiche direttamente nel [vista 2D](../../../../../interface/2d-view/2d-view.md) utilizzando gizmo di controllo. Questi gizmo includono la posizione gizmo e la matrice di trasformazione.
 
-Ad esempio, i nodi di generazione della spline come [Spline (Cubic)](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-cubic/spline-cubic.md) o [Spline (Poly Quadratic)](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-poly-quadratic/spline-poly-quadratic.md) consentono di spostare i punti di controllo delle spline. Per i percorsi, [Quad Transform on Path](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/quad-transform-on-path/quad-transform-on-path.md) dispone di controlli simili quando è selezionato.
+Ad esempio, i nodi di generazione della spline come [Spline (Cubic)](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-cubic/spline-cubic.md) o [Spline (Poly Quadratic)](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-poly-quadratic/spline-poly-quadratic.md) consentono di spostare i punti di controllo delle spline. Per i percorsi, [La Trasforma quadrupla nel percorso](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/quad-transform-on-path/quad-transform-on-path.md) dispone di controlli simili quando è selezionata.
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Spline Cubic nella vista 2D](working-with-path-and-spline-tools.resources/SplineCubic-Demo.gif "Spline Cubic nella vista 2D")
+![Spline Cubic in vista 2D](working-with-path-and-spline-tools.resources/SplineCubic-Demo.gif "Spline Cubic in vista 2D")
 
 </td>
 </tr>

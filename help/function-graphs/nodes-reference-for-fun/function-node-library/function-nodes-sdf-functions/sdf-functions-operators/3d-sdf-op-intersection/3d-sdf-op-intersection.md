@@ -40,5 +40,5 @@ Restituisce il volume comune a due forme SDF, ovvero il volume creato quando si 
 
 |  |  |
 | :--- | :--- |
-| <b>SDF 1</b> *Mobile* | La prima forma SDF. |
-| <b>SDF 2</b> *Mobile* | La seconda forma SDF. |
+| <b>SDF 1</b> *Virgola mobile* | La prima forma SDF. |
+| <b>SDF 2</b> *Virgola mobile* | La seconda forma SDF. |

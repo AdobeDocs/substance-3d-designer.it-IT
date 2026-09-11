@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blur.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo Sfocatura per applicare effetti di sfocatura alle texture, per attenuare i dettagli e creare effetti di sfocatura leggera.
+description: Utilizzate il nodo Sfocatura per applicare effetti di sfocatura alla texture per attenuare i dettagli e creare effetti di sfocatura leggera.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Blur
 helpx_experience_level: ""

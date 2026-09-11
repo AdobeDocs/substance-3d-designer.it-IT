@@ -73,7 +73,7 @@ Sinistra: Anisotropia 0.0 / Destra: Anisotropia 1.0
 |  |  |
 |:---|:---|
 | <b>Input</b> <i>Colore</i> primario | Immagine a colori da elaborare. |
-| <b>Mappa Angolo di anisotropia</b> <i>Scala di grigi</i> | Immagine in scala di grigio che descrive la rotazione aggiuntiva applicata alla direzione calcolata, in cui il valore della scala di grigio è un numero di giri.   La mappa ha ancora un effetto quando il parametro &#39;Anisotropia&#39; è impostato su 0, in quanto influisce sulla rotazione del kernel utilizzato dal filtro Kuwahara. |
+| <b>Mappa angolo Anisotropia</b> <i>Scala di grigi</i> | Immagine in scala di grigio che descrive la rotazione aggiuntiva applicata alla direzione calcolata, in cui il valore della scala di grigio è un numero di giri.   La mappa ha ancora un effetto quando il parametro &#39;Anisotropia&#39; è impostato su 0, in quanto influisce sulla rotazione del kernel utilizzato dal filtro Kuwahara. |
 | <b>Pendenza mappa</b> <i>Scala di grigi</i> | La mappa che rappresenta le pendenze a cui è conforme la mappa direzionale, in base al valore del parametro &#39;Pendenza Map Input Multiplier&#39;. |
 | <b>Mappa raggio (facoltativa)</b> <i>Scala di grigi</i> | Una volta connesso, il &#39;raggio&#39; della sfocatura viene moltiplicato per l&#39;immagine di input. |
 | <b>Mappa direzionale</b> <i>Colore</i> | La mappa che descrive la direzione utilizzata dal kernel filtro anisotropo.   La mappa ha ancora un effetto quando il parametro &#39;Anisotropia&#39; è impostato su 0, in quanto influisce sulla rotazione del kernel utilizzato dal filtro Kuwahara.   Nota: questo input viene utilizzato solo quando il parametro &#39;Usa Mappa direzionale di input&#39; è impostato su &#39;True&#39;. |

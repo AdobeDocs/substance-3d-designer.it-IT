@@ -26,7 +26,7 @@ ht-degree: 1%
 
 ![](grunge-concrete.resources/grungeconcrete.jpg){width="200px"}
 
-<b>Ingresso:</b> generatori di Texture > Rumori
+<b>Ingresso:</b> Generatori di texture > Rumori
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -45,13 +45,13 @@ Il nodo **Cemento Grunge** genera una mappa delle grungi simile alla mappa di al
 
 |  |  |
 |:---|:---|
-| <b>Saldo</b> <i>Virgola mobile</i> | Regola il bilanciamento tra i valori di luminosità e oscurità. |
-| <b>Contrasto</b> <i>Virgola mobile</i> | Regola il contrasto dell’immagine. |
+| <b>Saldo</b> <i>Mobile</i> | Regola il bilanciamento tra i valori di luminosità e oscurità. |
+| <b>Contrasto</b> <i>Mobile</i> | Regola il contrasto dell’immagine. |
 | <b>Inverti</b> <i>Booleano</i> | Inverte l&#39;output dell&#39;immagine utilizzando un&#39;operazione `1-x`. |
-| <b>Non square expansion</b> <i>Booleano</i> | Consente la compensazione di squash e allungamento con rapporti non quadrati. |
+| <b>Non square expansion</b> <i>Booleano</i> | Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati. |
 | <b>Avanzate</b> |  |
-| <b>Disturbo di base</b> <i>Virgola mobile</i> | Regola il disturbo della texture di base. |
-| <b>Opacità macchie Dirt</b> <i>Virgola mobile</i> | Regola l’opacità delle macchie del dirt. |
+| <b>Disturbo di base</b> <i>Mobile</i> | Regola il disturbo della texture di base. |
+| <b>Opacità macchie Dirt</b> <i>Mobile</i> | Regola l’opacità delle macchie del dirt. |
 | <b>Inverti Dirt</b> <i>Booleano</i> | Inverte l’impatto delle macchie di dirt. |
 | <b>Opacità Scratches</b> <i>Mobile</i> | Regola l’opacità dei graffi. |
 | <b>Contrasta</b> <i>Mobile</i> | Regola l’intensità di un effetto di nitidezza applicato all’immagine. |

@@ -45,24 +45,24 @@ Il nodo **Scratches di Grunge su superficie ruvida** genera una mappa di grunge 
 
 |  |  |
 |:---|:---|
-| <b>Saldo</b> <i>Virgola mobile</i> | Regola il bilanciamento tra i valori di luminosità e oscurità. |
-| <b>Contrasto</b> <i>Virgola mobile</i> | Regola il contrasto dell’immagine. |
+| <b>Saldo</b> <i>Mobile</i> | Regola il bilanciamento tra i valori di luminosità e oscurità. |
+| <b>Contrasto</b> <i>Mobile</i> | Regola il contrasto dell’immagine. |
 | <b>Inverti</b> <i>Booleano</i> | Inverte l&#39;output dell&#39;immagine utilizzando un&#39;operazione `1-x`. |
-| <b>Non square expansion</b> <i>Booleano</i> | Consente la compensazione di squash e allungamento con rapporti non quadrati. |
+| <b>Non square expansion</b> <i>Booleano</i> | Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati. |
 | <b>Avanzate</b> |  |
-| <b>Quantità memoria virtuale</b> <i>Virgola mobile</i> | Regola la quantità di graffi sulla superficie. |
+| <b>Quantità memoria virtuale</b> <i>Mobile</i> | Regola la quantità di graffi sulla superficie. |
 | <b>Affiancamento memoria virtuale</b> <i>Numero intero</i> | Regola la quantità di Affiancamento applicata ai graffi. |
-| <b>Sfocatura graffio</b> <i>Virgola mobile</i> | Regola la sfocatura dei graffi. |
-| <b>Larghezza memoria virtuale</b> <i>Virgola mobile</i> | Regola la larghezza dei graffi. |
-| <b>Lunghezza memoria virtuale</b> <i>Virgola mobile</i> | Regola la lunghezza dei graffi. |
-| <b>Mascheratura graffi</b> <i>Virgola mobile</i> | Regola l’intensità della maschera applicata a parti dei graffi. |
-| <b>Irritazione memoria virtuale</b> <i>Virgola mobile</i> | Regola la sporcizia dei graffi, interrompendone la nitidezza e la continuità. |
-| <b>Doppio graffio</b> <i>Virgola mobile</i> | Regola l’opacità di un secondo graffio applicato accanto a ciascun graffio, con un leggero effetto di alterazione. |
-| <b>Intensità macchie memoria virtuale</b> <i>Virgola mobile</i> | Regola l’intensità delle macchie danneggiate applicate accanto ai graffi. |
+| <b>Sfocatura graffio</b> <i>Mobile</i> | Regola la sfocatura dei graffi. |
+| <b>Larghezza memoria virtuale</b> <i>Mobile</i> | Regola la larghezza dei graffi. |
+| <b>Lunghezza memoria virtuale</b> <i>Mobile</i> | Regola la lunghezza dei graffi. |
+| <b>Mascheratura graffi</b> <i>Mobile</i> | Regola l’intensità della maschera applicata a parti dei graffi. |
+| <b>Irritazione memoria virtuale</b> <i>Mobile</i> | Regola la sporcizia dei graffi, interrompendone la nitidezza e la continuità. |
+| <b>Doppio graffio</b> <i>Mobile</i> | Regola l’opacità di un secondo graffio applicato accanto a ciascun graffio, con un leggero effetto di alterazione. |
+| <b>Intensità macchie memoria virtuale</b> <i>Mobile</i> | Regola l’intensità delle macchie danneggiate applicate accanto ai graffi. |
 | <b>Affiancamento macchie memoria virtuale</b> <i>Numero intero</i> | Regola l’Affiancamento delle macchie danneggiate. |
-| <b>Intensità Dust</b> <i>Virgola mobile</i> | Regola l’intensità della sovrapposizione del dust. |
+| <b>Intensità Dust</b> <i>Mobile</i> | Regola l’intensità della sovrapposizione del dust. |
 | <b>Affiancamento Dust</b> <i>Numero intero</i> | Regola l’Affiancamento della sovrapposizione dust. |
-| <b>Intensità nitidezza</b> <i>Virgola mobile</i> | Regola l’intensità dell’effetto di nitidezza globale. |
+| <b>Intensità nitidezza</b> <i>Mobile</i> | Regola l’intensità dell’effetto di nitidezza globale. |
 
 ## Esempi
 

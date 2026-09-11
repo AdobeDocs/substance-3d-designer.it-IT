@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Substance grafici e materiali MDL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 2a6e26cc03e887569a518cadd171ae1b51ae6abd
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Substance grafici e materiali MDL
 
-In queste pagine sono descritte le sinergie tra i [grafici Substance](../../compositing-graphs/substance-compositing-graphs.md) e i grafici MDL e viene descritto come collegare le texture dagli [output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) del grafico Substance agli input del grafico MDL.
+In queste pagine sono descritte le sinergie tra i [grafici Substance](../../compositing-graphs/substance-compositing-graphs.md) e i grafici MDL e viene descritto come connettere le texture dal grafico Substance [output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) agli input del grafico MDL.
 
 ## Panoramica
 
@@ -29,26 +29,26 @@ Gli output dei grafici Substance possono essere *passati ai parametri esposti* d
 Se il materiale MDL attualmente applicato nella vista 3D ha parametri esposti il cui tipo è *[variabile](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)* - questo tipo può essere impostato utilizzando l&#39;opzione <b>Modificatore tipo</b> nelle proprietà del [parametro esposto](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), questi possono essere connessi a *texture*:
 
 * un parametro <b>Color</b> può essere collegato alle texture RGBA
-* un parametro <b>Float</b> per le texture in scala di grigio
+* un parametro <b>Virgola mobile</b> per le texture in scala di grigio
 
-In questi casi, il valore uniforme grezzo è sostituito da un campionatore di texture che fornisce un valore variabile. Questi campionatori hanno un attributo <b>usage</b> definito nel parametro esposto e questo utilizzo consente a Designer di connettere le texture generate dai grafici Substance al parametro appropriato nel materiale MDL, per *utilizzi corrispondenti*.
+In questi casi, il valore uniforme grezzo è sostituito da un campionatore di texture che fornisce un valore variabile. Questi campionatori hanno un attributo <b>utilizzo</b> definito nel parametro esposto e questo utilizzo consente a Designer di connettere l&#39;output texture per Substance grafici al parametro appropriato nel materiale MDL, per *utilizzi corrispondenti*.
 
 ## Substance grafici nella vista 3D
 
-Quando si utilizza l&#39;opzione <b>Visualizza output in visualizzazione 3D</b> per un grafico a Substance o si trascina un grafico a Substance dal pannello <b>Esplora risorse</b> alla <b>visualizzazione 3D</b>, gli output sono collegati ai parametri esposti di *utilizzi corrispondenti* nel materiale MDL attualmente visualizzato nella visualizzazione 3D.
+Quando si utilizza l&#39;opzione <b>Visualizza output in vista 3D</b> per un grafico a Substance o si trascina un grafico a Substance dal pannello <b>Esplora risorse</b> alla <b>vista 3D</b>, gli output sono collegati ai parametri esposti di *utilizzi corrispondenti* nel materiale MDL attualmente visualizzato nella vista 3D.
 
-Le singole texture di un grafico a Substance possono essere collegate a uno qualsiasi dei parametri di materiale MDL che supportano il campionamento delle texture, indipendentemente dall’identificatore, premendo RMB sul nodo del grafico a Substance e trascinando nella vista 3D. Viene visualizzato un elenco degli usi del campionatore disponibili ed è possibile selezionare l’uso di destinazione per la texture selezionata.
+Le singole texture di un grafico a Substance possono essere collegate a uno qualsiasi dei parametri del materiale MDL che supportano il campionamento delle texture, indipendentemente dall&#39;identificatore, premendo RMB sul nodo del grafico a Substance e trascinando nella vista 3D. Viene visualizzato un elenco degli utilizzi del campionatore disponibili ed è possibile selezionare l’utilizzo di destinazione per la texture selezionata.
 
-![Input grafici MDL esposti](../../assets/mdl-graph-inputs-samplers.png "Input grafici MDL esposti")
+![Input grafici MDL esposti](substance-compositing-graphs-and-mdl-materials.resources/mdl-graph-inputs-samplers.png "Input grafici MDL esposti")
 
-*Le texture generate da un grafico a Substance sono collegate ai parametri esposti di un grafico MDL nella vista 3D*
+*L&#39;output Texture di un grafico a Substance è collegato ai parametri esposti di un grafico MDL nel vista 3D*
 
 ## Substance grafici nei grafici MDL
 
 È possibile inserire le istanze dei grafici delle Substance direttamente nei grafici MDL trascinandole dal pannello <b>Esplora risorse</b> nel grafico MDL. Nei grafici MDL è possibile utilizzare grafici a Substance di <b>file Substance 3D</b> (SBS) e <b>file di risorse Substance 3D</b> (SBSAR).
 
 +++Substance grafico da file Substance 3D (SBS)
-![Substance il grafico dal file SBS nel grafico MDL](../../assets/mdl-sbs-instance-hl.png "Substance il grafico dal file SBS nel grafico MDL")
+![Substance il grafico dal file SBS nel grafico MDL](substance-compositing-graphs-and-mdl-materials.resources/mdl-sbs-instance-hl.png "Substance il grafico dal file SBS nel grafico MDL")
 
 
 
@@ -57,7 +57,7 @@ Le singole texture di un grafico a Substance possono essere collegate a uno qual
 +++
 
 +++Substance grafico da risorsa Substance 3D (SBSAR)
-![Substance il grafico dal file SBSAR nel grafico MDL](../../assets/mdl-sbsar-instance-hl.png "Substance il grafico dal file SBSAR nel grafico MDL")
+![Substance il grafico dal file SBSAR nel grafico MDL](substance-compositing-graphs-and-mdl-materials.resources/mdl-sbsar-instance-hl.png "Substance il grafico dal file SBSAR nel grafico MDL")
 
 
 

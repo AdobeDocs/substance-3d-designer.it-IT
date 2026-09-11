@@ -20,7 +20,7 @@ ht-degree: 7%
 
 # Utility PBR
 
-Questa categoria contiene nodi di supporto per l&#39;utilizzo dei materiali PBR. È stato progettato per essere utilizzato sia con flussi di lavoro Specular-lucidità che con flussi di lavoro PBR rugosità metallica. Tutti i nodi sono destinati a materiali multicanale e i canali possono essere attivati per supportare uno o entrambi i flussi di lavoro.
+Questa categoria contiene nodi di supporto per l&#39;utilizzo dei materiali PBR. È stato progettato per essere utilizzato sia con i flussi di lavoro di Lucentezza a Specular che con quelli di Rugosità metallica PBR. Tutti i nodi sono destinati a materiali multicanale e i canali possono essere attivati per supportare uno o entrambi i flussi di lavoro.
 
 I seguenti nodi sono particolarmente utili:
 

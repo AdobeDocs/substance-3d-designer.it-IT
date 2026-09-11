@@ -27,4 +27,4 @@ Questi nodi consentono di risparmiare una grande quantità di lavoro, ma è impo
 I nodi seguenti sono quelli utili per iniziare:
 
 * [Fusione multimateriale](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/multi-material-blend/multi-material-blend.md)
-* [Blend di regolazione materiale](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-adjustment-blend/material-adjustment-blend.md)
+* [Fusione di regolazione materiale](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-adjustment-blend/material-adjustment-blend.md)

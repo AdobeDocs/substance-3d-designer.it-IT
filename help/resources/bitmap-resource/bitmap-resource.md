@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/resources/bitmap-resource.html"
 breadcrumb-title: ''
-description: Scoprite come importare, creare e utilizzare le risorse bitmap in Substance 3D Designer per la creazione di materiale basato sulle texture.
+description: Scoprite come importare, creare e utilizzare le risorse bitmap in Substance 3D Designer per la creazione di materiale basato su texture.
 helpx_creative_field: ""
 helpx_description: Designer > Resources > Bitmap resource
 helpx_experience_level: ""
@@ -24,8 +24,8 @@ Una risorsa bitmap è una risorsa in un pacchetto di Substance. È diverso dal n
 
 Le bitmap sono tra le risorse non grafiche più comuni di Substance 3D Designer, di solito il loro utilizzo rientra in una delle seguenti categorie:
 
-* Una mappa con baking, [creata internamente da Designer](../../bakers/bakers.md) o esternamente da un&#39;altra applicazione.
-* Una texture di supporto, come un pattern, una mappa di grunge o una decalcomania.
+* Una mappa con baking, [eseguita i baking internamente da Designer](../../bakers/bakers.md) o esternamente da un&#39;altra applicazione.
+* Una texture di supporto, come un motivo, una mappa di grunge o una decalcomania.
 * Una semplice maschera in scala di grigio per la fusione, creata internamente utilizzando [il nodo bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) o con un&#39;app esterna.
 
 ## Archiviazione bitmap
@@ -34,9 +34,9 @@ Le bitmap sono in genere le risorse più grandi gestite da Designer. Ecco perch�
 
 ### Nei file Substance 3D (SBS)
 
-La modalità di archiviazione delle bitmap in SBS dipende da se le si [Collega o importa, accertarsi innanzitutto di avere familiarità con il concetto.](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md) Le bitmap importate possono essere modificate utilizzando gli [strumenti di pittura bitmap](../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md).
+La modalità di archiviazione delle bitmap nell&#39;SBS dipende dal fatto che [le colleghi o le importi, accertarsi innanzitutto di avere familiarità con il concetto.](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md) Le bitmap importate possono essere modificate utilizzando gli [strumenti di pittura bitmap](../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md).
 
-A differenza delle risorse SVG (grafica vettoriale), le bitmap vengono sempre memorizzate esternamente, anche se create come nuova risorsa, o importate. I nuovi pacchetti di Substance vengono mantenuti in memoria fino a quando il file .SBS non viene salvato su disco. Una volta salvate su disco, le bitmap vengono archiviate in una cartella */resources* accanto al file SBS.
+A differenza delle risorse SVG (Grafiche vettoriali), le immagini bitmap vengono sempre memorizzate esternamente, anche se create come nuova risorsa o importate. I nuovi pacchetti di Substance vengono mantenuti in memoria fino a quando il file .SBS non viene salvato su disco. Una volta salvate su disco, le bitmap vengono archiviate in una cartella */resources* accanto al file SBS.
 
 ### In risorse Substance 3D (SBSAR)
 
@@ -46,7 +46,7 @@ In [file SBSAR](../../compositing-graphs/publishing-asset-files/publishing-subst
 
 Substance 3D Designer è in grado di modificare e riorganizzare facilmente i dati dalle bitmap, ma è preferibile tenere presente quanto segue:
 
-* Imposta le risoluzioni su 2, ovvero segui le dimensioni della texture in tempo reale standard come <b>256, 512, 1024 ,2048,</b> e così via. Designer ridimensionerà le texture al di fuori di questo intervallo alla risoluzione corrispondente più vicina. Si noti che non devono essere in proporzioni quadrate.
+* Imposta le risoluzioni su 2, ovvero segui le dimensioni standard della texture in tempo reale come <b>256, 512, 1024 ,2048,</b> ecc. Designer ridimensionerà le texture al di fuori di questo intervallo alla risoluzione corrispondente più vicina. Si noti che non devono essere in proporzioni quadrate.
 * Sono supportati molti tipi di file, ma scegline uno che sia il più adatto alle tue esigenze. <b>La compressione senza perdita di dati o anche i tipi di file non compressi</b> come PNG o TGA offrono una qualità migliore rispetto a JPG o DDS.
 * Assicuratevi di <b>impostare correttamente il metodo colore</b>, a seconda che siano necessari colori, scala di grigi o un canale alfa.
 

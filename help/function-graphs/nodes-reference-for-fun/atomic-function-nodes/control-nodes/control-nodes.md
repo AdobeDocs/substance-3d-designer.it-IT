@@ -111,7 +111,7 @@ Ciò significa che potete aggiungere a un valore indice ogni iterazione e contro
 
 +++Connettori di ingresso
 <b>Inizio.</b> *Tipo di variabile*\
-La porzione del grafico che viene calcolata prima della prima iterazione, ovvero l&#39;inizio del ciclo.
+La porzione del grafico che viene calcolata prima della prima iterazione, ovvero l’inizio del ciclo.
 
 <b>Esci da Cond.</b> *Booleano*\
 Condizione che deve essere vera affinché il ciclo si arresti. Viene ricalcolato su ogni iterazione.\
@@ -128,7 +128,7 @@ Numero massimo di iterazioni eseguite dal nodo.\
 Il nodo interrompe l&#39;iterazione quando viene soddisfatto per primo uno dei seguenti criteri: questo numero massimo viene raggiunto o la condizione di uscita diventa vera.\
 Questo valore massimo può essere disabilitato impostando il valore su *-1*. A questo punto, solo la condizione di uscita può interrompere le iterazioni.
 
-Impostazione di &#39;Max. iterazioni&#39; a -1 migliora le prestazioni in loop di piccole dimensioni in quanto è disponibile un contatore in meno per tenere traccia e aggiornare.
+Impostazione di &#39;Max. iterazioni a -1 migliorano le prestazioni in loop di piccole dimensioni poiché è disponibile un contatore in meno per tenere traccia e aggiornare.
 
 Tuttavia, tieni presente che il nodo è configurato in quanto è possibile produrre un <b>ciclo infinito</b> che potrebbe causare la mancata risposta di Designer.
 

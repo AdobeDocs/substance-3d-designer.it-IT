@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/multi-switch.html"
 breadcrumb-title: ''
-description: Usate il nodo Multi Switch per passare da una texture di input a un’altra in base a un selettore per la selezione di texture condizionale.
+description: Utilizzare il nodo Multi Switch per passare da una texture di input all'altra in base a un selettore per la selezione della texture condizionale.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blending > Multi Switch
 helpx_experience_level: ""

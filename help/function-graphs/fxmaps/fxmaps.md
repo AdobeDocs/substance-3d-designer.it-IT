@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # FXMaps
 
-**Il nodo FX-Map consente la creazione di immagini procedurali**. È una delle caratteristiche più potenti della tecnologia di Substance.
+**Il nodo FX-Map consente la creazione delle immagini procedurali**. È una delle caratteristiche più potenti della tecnologia di Substance.
 
 FX-Map rappresenta un particolare tipo di grafico, noto come catena di Markov. Le catene di Markov rappresentano un semplice processo di base: replicare e suddividere ripetutamente un&#39;immagine. Ad ogni passaggio, un’immagine può essere ruotata, tradotta e fusa a proprio piacimento. I risultati possono essere di qualsiasi tipo, da semplici pattern a rumori complessi. FX-Maps è la base per molte delle Substance di esempio installate con Substance 3D Designer.
 
@@ -30,7 +30,7 @@ Per visualizzare un grafico FX-Map, è sufficiente aggiungere un [nodo FX-Map](.
 
 ## A cosa servono FX-Maps?
 
-Gli usi più comuni di FX-Maps sono la creazione di pattern ripetitivi, come strisce e mattoni, e rumori, come Perlin, Brownian e Gaussian. I rumori sono particolarmente utili per la creazione di texture organiche dall’aspetto naturale, come dirt, dust, calcestruzzo, superfici in pietra, macchie liquide e così via.
+Gli usi più comuni di FX-Maps sono la creazione di pattern ripetitivi, come strisce e mattoni, e rumori, come Perlin, Brownian e Gaussian. I rumori sono particolarmente utili per la creazione di texture organiche dall’aspetto naturale come dirt, dust, calcestruzzo, superfici in pietra, macchie liquide e così via.
 
 I grafici FX-Map non funzionano allo stesso modo dei grafici a Substance: nei grafici a Substance, ogni nodo è indipendente e non ha alcuna conoscenza della sua posizione nel grafico complessivo, né importa da dove provengono i suoi dati immagine o dove sta andando.
 
@@ -50,7 +50,7 @@ Questo probabilmente non avrà molto senso per molti lettori, ma a breve approfo
 
 Ripete l’immagine passata al connettore di destra sull’immagine passata al connettore di sinistra per il numero di iterazioni impostato.
 
-Questo nodo viene spesso utilizzato con uno o più grafici di Funzioni dinamiche per spostare o ruotare in qualche modo l&#39;immagine di input in ogni iterazione.
+Questo nodo viene spesso utilizzato con uno o più grafici di Funzioni dinamiche per spostare o ruotare in qualche modo l’immagine di input in ogni iterazione.
 
 ### Cambia
 
@@ -65,7 +65,7 @@ FX-Maps supporta le variabili di sistema. Queste variabili iniziano sempre con i
 | $time | - | float1 | Questa variabile restituisce il tempo in secondi dall&#39;avvio del motore di rendering della Substance.È ideale per Substance che devono essere animate in base al tempo. (E.g. in alcune applicazioni, tra cui Substance Player, una Substance che utilizza $time causerà la visualizzazione di una linea temporale nell&#39;interfaccia utente. |
 | $profondità | - | float1 | Restituisce il numero di ottava (livello) del nodo FX-Map. Ciò consente a un nodo di modificare il proprio comportamento in base al livello nell&#39;albero quadruplo che rappresenta. |
 | $depthpow2 | - | float1 | Come sopra, ma restituisce 2 elevato alla potenza del numero di ottava (livello). Si tratta di un valore di supporto utile per alcuni calcoli comuni. |
-| $number | Esegui iterazione solo dei nodi | float1 | Restituisce il numero del pattern disegnato. È possibile accedere a questa funzionalità mediante i grafici Dynamic Function che controllano un nodo iterato per modificarne il comportamento in ogni fase dell&#39;iterazione. Si noti che $number inizia a contare da 0, non da 1. |
+| $number | Esegui iterazione solo dei nodi | float1 | Restituisce il numero del pattern disegnato. È possibile accedere a questa funzionalità mediante i grafici Dynamic Function che controllano un nodo Iterate per modificarne il comportamento in ogni fase dell&#39;iterazione. Si noti che $number inizia a contare da 0, non da 1. |
 | $size | - | float2 | Restituisce le dimensioni del nodo corrente in pixel. |
 | $sizelog2 | - | float2 | Come sopra, ma restituisce le dimensioni come valori di potenza di 2 (ad esempio, per l&#39;immagine 2048\*2048, $sizelog2 restituisce 11). |
 | $pos | Solo nodi quadranti | float2 | Restituisce la posizione di nascita del pattern. Il risultato è sempre un valore compreso tra 0 e 1. |

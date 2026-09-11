@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Versione 12.4
 
-**Substance 3D Designer 12.4** offre diversi miglioramenti a livello di qualità di vita (uno strumento per ripulire un grafico, utilizzando formule di base per impostare i parametri, un pulsante per generare un valore di inizializzazione casuale, un blocco per le dimensioni, ecc.) e il supporto dei grafici dei modelli Substance nell’API Python. Vedere di seguito per ulteriori dettagli su tutte queste modifiche.
+**Substance 3D Designer 12.4** offre diversi miglioramenti a livello di qualità di vita (uno strumento per ripulire un grafico, utilizzando formule di base per impostare i parametri, un pulsante per generare un valore di inizializzazione casuale, un blocco per le dimensioni, ecc.) e il supporto di Substance grafiche di modelli nell’API Python. Vedere di seguito per ulteriori dettagli su tutte queste modifiche.
 
 Data di pubblicazione: *31 gennaio 2023*
 
@@ -62,7 +62,7 @@ Passate rapidamente da un [colore di input](../../compositing-graphs/nodes-refer
 
 ![](../../assets/final-switch.gif){width="640px"}
 
-### Seleziona il segnaposto su cui si fa clic durante la visualizzazione dell’Editore sfumatura
+### Seleziona la puntina su cui si fa clic durante la visualizzazione dell’Editore sfumatura
 
 Nel pannello delle proprietà, se fai clic su un segnaposto per modificare una sfumatura, ora selezionerai automaticamente il segnaposto corrispondente nell&#39;[Editore sfumatura](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) visualizzato.
 

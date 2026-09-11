@@ -33,7 +33,7 @@ Prima di tutto, sostituisci (o aggiungi il file nella parte superiore se non lo 
 
 ### Sostituisci &quot;attributo&quot; e &quot;variabile&quot; con &quot;attacco&quot; o &quot;stacco&quot;
 
-Ora, le variabili `attribute` e `varying` sono dichiarate in modo esplicito come `in` o `out` a seconda dello stadio dello shader:
+Ora, le variabili `attribute` e `varying` sono dichiarate in modo esplicito come `in` o `out` a seconda dello stadio di shader:
 
 Nello shader dei vertici, `attribute` dei vertici vengono dichiarati come `in`, mentre `varying` da passare allo shader dei frammenti vengono dichiarati come `out`.\
 Ad esempio:
@@ -78,7 +78,7 @@ out vec2 fragmentUV;
 ```
 
 
-Analogamente, nello shader del frammento, l’opzione variabile diventa attiva. È inoltre necessario dichiarare una variabile out che sostituirà gl\_FracColor (che non è più incorporata):
+Analogamente, nello shader del frammento, la variazione diventa variabile. È inoltre necessario dichiarare una variabile out che sostituirà gl\_FracColor (che non è più incorporata):
 
 ```
 ## version 120
@@ -128,9 +128,9 @@ outColor = vec4(myColor.rgb, 1.0);
 ```
 
 
-### Usare le nuove funzioni di ricerca delle texture
+### Usa nuove funzioni di ricerca texture
 
-Con la nuova versione del linguaggio di ombreggiatura, l’API di ricerca delle texture è stata semplificata e migliorata.
+Con la nuova versione del linguaggio di ombreggiatura, le API di ricerca texture sono state semplificate e potenziate.
 
 Le funzioni `texture1D()`, `texture2D()`, `texture3D()` e `textureCube()` diventano tutti overload di `texture()`.\
 Analogamente `texture2DLod()` diventa `textureLod()`, `texture2DGrad()` diventa `textureGrad()` e così via.

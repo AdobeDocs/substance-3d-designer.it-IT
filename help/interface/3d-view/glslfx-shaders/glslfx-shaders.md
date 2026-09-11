@@ -88,12 +88,12 @@ Gli elementi definiti in una passata di rendering hanno la precedenza su quelli 
 
 #### Shader
 
-Impostate i file dello shader GLSL per ogni tipo.
+Impostate i file di shader GLSL per ciascun tipo.
 
 Definizione elemento XML:
 
 +++Definizione elemento XML
-Shader <b>Nome:</b>
+<b>Nome:</b> shader
 
 <b>Attributi:</b>
 
@@ -332,7 +332,7 @@ Nome: &#39;sampler&#39;
 
 Attributi:
 
-* &#39;name&#39;: il nome della variabile del campionatore nel file shader.
+* &#39;name&#39;: il nome della variabile del campionatore nel file di shader.
 * &#39;utilizzo&#39;: utilizzo del campionatore. Corrisponde all’utilizzo specificato nel nodo Output del grafico.
 
 | Valore &#39;usage&#39; | Descrizione |
@@ -351,11 +351,11 @@ Attributi:
 | specularlevel | Specular level mappa |
 | specularcolor | Mappa colore Specular |
 | specular | Specular mappa |
-| lucentezza | Mappa lucidità |
+| lucentezza | Lucentezza mappa |
 | ruvidità | Mappa rugosità |
 | anisotropilivello | Mappa del livello di antisotropia |
 | anisotropiangolo | Mappa dell&#39;angolo dell&#39;antisotropia |
-| trasmissivo | Mappa trasmissiva |
+| trasmissivo | mappa trasmissivo |
 | riflesso | Mappa di riflessione |
 | rifrazione | Mappa rifrazione |
 | ambiente | Mappa ambiente (mappa cubo) |
@@ -551,7 +551,7 @@ Nome: &#39;uniforme&#39;
 
 Attributi:
 
-* &#39;name&#39;: nome dell&#39;uniforme nel file shader.
+* &#39;name&#39;: il nome dell&#39;uniforme nel file di shader.
 * &#39;default&#39;: il valore predefinito uniforme
 * &#39;min&#39;: valore minimo dell&#39;intervallo di validità
 * &#39;max&#39;: valore massimo dell&#39;intervallo di validità
@@ -571,7 +571,7 @@ Attributi:
 
 ## Esempio: tassellatura/parallasse
 
-### File Shader Vertice Parallasse
+### File Shader vertice parallasse
 
 Disponibile in .\tessellation\_parallax\parallax\vs.glsl
 
@@ -724,13 +724,13 @@ vec3 newTangent = normalize(interpolate3D(oTCS\_Tangent[0].xyz, oTCS\_Tangent[1]
 vec3 newBinormal = normalize(interpolate3D(oTCS\_Binormal[0].xyz, oTCS\_Binormal[1].xyz, oTCS\_Binormal[2].xyz, uvw));\
 vec2 newUV = interpolate2D(oTCS\_UV[0], oTCS\_UV[1], oTCS\_UV[2], uvw);
 
-float heightTexSample = texture(heightMap, newUV \&#42; affiancamento).x \&#42; 2.0 - 1.0;\
+float heightTexSample = texture(heightMap, newUV \&#42; Affiancamento).x \&#42; 2.0 - 1.0;\
 newPos += newNormal \&#42; heightTexSample \&#42; heightMapScale;
 
 vec4 obj\_pos = vec4(newPos, 1);\
 gl\_Position = worldViewProjMatrix \&#42; obj\_pos;
 
-iFS\_UV = newUV \&#42; affiancamento;\
+iFS\_UV = Affiancamento newUV \&#42;;\
 iFS\_Tangent = newTangent;\
 iFS\_Binormal = newBinormal;\
 iFS\_Normal = newNormal;\
@@ -916,7 +916,7 @@ specContrib += specContrib2;
 
 vec4 diffusaColor = texture2D(diffusaMap,uv);
 
-vec3 specularColor = texture2D(specularMap,uv).rgb;\
+vec3 specularColor = texture 2D(specularMap,uv).rgb;\
 vec3 R = reflection(pointToCameraDirWS,cumululatedNormalWS);\
 vec3 reflColor = Kr \&#42; textureCube(environmentMap,R.xyz).bgr;
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Pubblicazione di file di risorse Substance 3D (SBSAR)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 46563ec789547cc1add76655dbad02f5099927a6
 workflow-type: tm+mt
 source-wordcount: '1234'
 ht-degree: 2%
@@ -24,7 +24,7 @@ Questa pagina spiega come Substance 3D Designer può pubblicare pacchetti come f
 
 In genere è preferibile utilizzare una risorsa di Substance 3D anziché le bitmap, poiché è molto più flessibile e leggera. Se li utilizzi in Substance 3D [Painter](https://experienceleague.adobe.com/it/docs/substance-3d-painter/using/home), [Sampler](https://helpx.adobe.com/it/substance-3d-sampler.html) o [Player](https://helpx.adobe.com/substance-3d-player/home.html), è più veloce utilizzare la funzionalità [&#39;Invia a...&#39;](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md).
 
-![Pubblicazione dei file SBSAR semplificata](../../assets/exportflow.png "Pubblicazione dei file SBSAR semplificata")
+![Pubblicazione dei file SBSAR semplificata](publishing-substance-3d-asset-files-sbsar.resources/exportflow.png "Pubblicazione dei file SBSAR semplificata")
 
 ## Concetti di pubblicazione
 
@@ -55,14 +55,14 @@ Una volta che si è pronti per la pubblicazione, è possibile accedere alla fine
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-In Esplora risorse, fare clic con il pulsante destro del mouse sul pacchetto e scegliere ![](../../assets/image2020-9-23-9-39-58.png) **file Publish .sbsar...**, tasto di scelta rapida alternativo Ctrl + P.
+In Esplora risorse, fare clic con il pulsante destro del mouse sul pacchetto e scegliere ![](publishing-substance-3d-asset-files-sbsar.resources/image2020-9-23-9-39-58.png) **file Publish .sbsar...**, tasto di scelta rapida alternativo Ctrl + P.
 
-Dopo aver pubblicato con la finestra di dialogo una volta, puoi anche utilizzare il file ![](../../assets/image2020-9-23-11-15-35.png) **Publish .sbsar come precedente** per ripetere il processo di pubblicazione senza visualizzare le finestre di dialogo, pubblicando immediatamente con le stesse impostazioni.
+Dopo aver pubblicato con la finestra di dialogo una volta, puoi anche utilizzare il file ![](publishing-substance-3d-asset-files-sbsar.resources/image2020-9-23-11-15-35.png) **Publish .sbsar come precedente** per ripetere il processo di pubblicazione senza visualizzare le finestre di dialogo, pubblicando immediatamente con le stesse impostazioni.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/publish-rightclick.gif)
+![](publishing-substance-3d-asset-files-sbsar.resources/publish-rightclick.gif)
 
 </td>
 </tr>
@@ -72,14 +72,14 @@ Dopo aver pubblicato con la finestra di dialogo una volta, puoi anche utilizzare
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-In Esplora risorse, facendo clic sul pulsante Publish ![](../../assets/image2020-9-23-9-39-58.png) nella barra degli strumenti superiore.
+In Esplora risorse, facendo clic sul pulsante Publish ![](publishing-substance-3d-asset-files-sbsar.resources/image2020-9-23-9-39-58.png) nella barra degli strumenti superiore.
 
-Dopo aver pubblicato con la finestra di dialogo una volta, è anche possibile utilizzare il pulsante Publish come precedente ![](../../assets/image2020-9-23-11-15-35.png) per ripetere il processo di pubblicazione senza visualizzare le finestre di dialogo, pubblicando immediatamente con le stesse impostazioni.
+Dopo aver pubblicato con la finestra di dialogo una volta, è anche possibile utilizzare il pulsante Publish come precedente ![](publishing-substance-3d-asset-files-sbsar.resources/image2020-9-23-11-15-35.png) per ripetere il processo di pubblicazione senza visualizzare le finestre di dialogo, pubblicando immediatamente con le stesse impostazioni.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/publish-toolbutton.gif)
+![](publishing-substance-3d-asset-files-sbsar.resources/publish-toolbutton.gif)
 
 </td>
 </tr>
@@ -91,12 +91,12 @@ Dopo aver pubblicato con la finestra di dialogo una volta, è anche possibile ut
 
 ## Opzioni di pubblicazione delle risorse
 
-Prima che vengano visualizzate le Opzioni Asset Publish, se questa operazione non è stata eseguita verrà richiesto di salvare il file Substance 3D (SBS) e verrà chiesto dove salvare la risorsa Substance 3D. Per evitare di visualizzare le richieste di file e la finestra di dialogo e di scaricare il file più rapidamente, utilizza <b>Publish come metodo</b> descritto in precedenza.
+Prima che venga visualizzata la finestra Opzioni Asset Publish, ti verrà chiesto di salvare il file Substance 3D (SBS) se questo non è stato fatto e ti verrà chiesto dove salvare la risorsa Substance 3D. Per evitare di visualizzare le richieste di file e la finestra di dialogo e di scaricare il file più rapidamente, utilizza <b>Publish come metodo</b> descritto in precedenza.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Opzioni di pubblicazione delle risorse](../../assets/publish-dialog.png "Opzioni di pubblicazione delle risorse")
+![Opzioni di pubblicazione delle risorse](publishing-substance-3d-asset-files-sbsar.resources/publish-dialog.png "Opzioni di pubblicazione delle risorse")
 
 </td>
 </tr>
@@ -131,7 +131,7 @@ Per impedire che un grafico diventi visibile o utilizzabile all&#39;interno di u
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/image2020-9-23-10-40-21.png)
+![](publishing-substance-3d-asset-files-sbsar.resources/image2020-9-23-10-40-21.png)
 
 </td>
 </tr>

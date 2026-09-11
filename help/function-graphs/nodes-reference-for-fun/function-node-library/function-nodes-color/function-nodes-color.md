@@ -61,11 +61,11 @@ Tonalità RGB 2 polare
 
 Tonalità RGB esagonale
 
-Media luminosità RGB
+Media Luminosità RGB
 
-bi-escone RGB lightness
+RGB Luminosità bi-escone
 
-Escone luminosità RGB
+Escone Luminosità RGB
 
 Luma RGB lightness Rec. 601
 
@@ -73,7 +73,7 @@ Luma RGB lightness Rec. 709
 
 HSI saturazione RGB
 
-HSL saturazione RGB
+HSL a saturazione RGB
 
 HSV saturazione RGB
 
@@ -94,7 +94,7 @@ da sRGB a lineare
 
 Temperatura sRGB
 
-Contagocce ACES
+Tonemapper ACE
 
 Tonemapper AgX
 

@@ -71,8 +71,8 @@ I valori positivi nell&#39;input **Mappa di rotazione** generano una rotazione *
 
 |  |  |
 |:---|:---|
-| <b>Moltiplicatore angolo di rotazione</b> <i>Virgola mobile</i> | Regola l&#39;intensità dell&#39;input **Mappe di rotazione**. |
-| <b>Scostamento angolo di rotazione</b> <i>Virgola mobile</i> | Applica la quantità di rotazione aggiuntiva specificata. |
+| <b>Moltiplicatore angolo di rotazione</b> <i>Mobile</i> | Regola l&#39;intensità dell&#39;input **Mappe di rotazione**. |
+| <b>Scostamento angolo di rotazione</b> <i>Mobile</i> | Applica la quantità di rotazione aggiuntiva specificata. |
 | <b>Usa mappa Posizione dei punti cardini</b> <i>Booleano</i> | Utilizzare un *input bitmap* per specificare la posizione del perno di rotazione. La posizione **X/Y** è mappata ai canali **R/G** dell&#39;input **Mappa posizione**. |
 | <b>Posizione dei punti cardini</b> <i>Float2</i> | Posizione del perno attorno al quale viene ruotata l’immagine. |
 | <b>Colore di sfondo</b> <i>Float/Float4</i> | Colore di sfondo per visualizzare *all&#39;esterno* dei limiti dell&#39;immagine nel caso in cui l&#39;Affiancamento non sia impostato su **Affiancamento H e V**. |

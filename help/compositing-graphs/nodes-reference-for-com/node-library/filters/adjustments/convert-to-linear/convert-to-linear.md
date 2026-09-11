@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/convert-to-linear.html"
 breadcrumb-title: ''
-description: Utilizza il nodo Converti in lineare per convertire la texture da sRGB a spazio colore lineare per calcoli accurati del colore.
+description: Utilizza il nodo Converti in lineare per convertire le texture da sRGB a spazio colore lineare per calcoli accurati del colore.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Convert To Linear
 helpx_experience_level: ""

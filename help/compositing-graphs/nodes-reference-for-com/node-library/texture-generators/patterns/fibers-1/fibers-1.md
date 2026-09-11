@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Fibre 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: 827e738d5db4d64bf366d332a62a7bbd2fa840fc
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 12%
@@ -24,7 +24,7 @@ ht-degree: 12%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/fibers-1.png){width="128px"}
+![](fibers-1.resources/fibers-1.png){width="128px"}
 
 <b>Ingresso:</b> Generatori Texture > Pattern
 
@@ -53,7 +53,7 @@ Semplice motivo simile a una fibra. Può essere utilizzato in [Substance 3D Desi
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/fibers-1-ex.gif" />
+            <img src="fibers-1.resources/fibers-1-ex.gif" />
         </td>
     </tr>
 </table>

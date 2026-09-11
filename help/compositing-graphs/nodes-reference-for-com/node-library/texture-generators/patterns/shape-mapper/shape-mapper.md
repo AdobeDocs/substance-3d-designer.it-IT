@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mappatura forme
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: dbfe5b7ce453a6178d8d970698d3a5f8225151b4
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Mappatura forme - Icona](../../../../../../assets/shape_mapper.png "Mappatura forme - Icona"){width="200px"}
+![Mappatura forme - Icona](shape-mapper.resources/shape_mapper.png "Mappatura forme - Icona"){width="200px"}
 
 <b>Ingresso:</b> generatori di Texture > Pattern
 

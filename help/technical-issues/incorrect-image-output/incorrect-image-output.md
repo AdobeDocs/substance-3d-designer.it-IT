@@ -36,9 +36,9 @@ Questo significa che non ci sono abbastanza valori per una transizione uniforme 
 I valori Luminanza/RGBA possono essere codificati utilizzando valori interi o a virgola mobile, con impatto sulla *precisione*:
 
 * **L&#39;elemento Integer** offre una precisione a 8 bit (0-255, ovvero 256 valori possibili) e una precisione a 16 bit (0-65535, ovvero 65536 valori possibili) per memorizzare un valore nell&#39;intervallo 0-1.
-* **Virgola mobile** offre precisione a 16 bit (HDR 16F) e a 32 bit (HDR 32F), con la possibilità di memorizzare valori al di fuori dell&#39;intervallo 0-1, inclusi valori negativi. Ciò consente di lavorare con immagini high dynamic range (HDR), in cui il valore di luminanza può superare di gran lunga 1,0.
+* **La virgola mobile** offre precisione a 16 bit (HDR 16F) e a 32 bit (HDR 32F), con la possibilità di memorizzare valori al di fuori dell&#39;intervallo 0-1, inclusi valori negativi. Questo consente di lavorare con immagini da high dynamic range (HDR), in cui il valore di luminanza può superare di gran lunga 1,0.
 
-Se non è necessario lavorare specificamente con le immagini HDR, è probabile che la maggior parte dei nodi restituisca un valore compreso nell’intervallo 0-1 codificato con numeri interi. Se il formato di output dell’immagine è a 8 bit, l’immagine può utilizzare solo valori a 256, il che spesso determina l’aggiunta di sfumature visibili. Ciò può influire in particolare sull&#39;output dei nodi Normal.
+Se non è necessario lavorare specificamente con le immagini HDR, è probabile che la maggior parte dei nodi produca un valore compreso nell’intervallo 0-1 codificato con numeri interi. Se il formato di output dell’immagine è a 8 bit, l’immagine può utilizzare solo valori a 256, il che spesso determina l’aggiunta di sfumature visibili. Ciò può influire in particolare sull&#39;output dei nodi Normal.
 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">

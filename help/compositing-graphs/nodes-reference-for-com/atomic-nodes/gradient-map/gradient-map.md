@@ -86,26 +86,26 @@ I colori e la loro posizione lungo la sfumatura sono controllati dai perni posiz
 
 Ogni puntina imposta un colore nella sua posizione lungo la sfumatura.
 
-Le parti della sfumatura prima e dopo il primo e l’ultimo perno vengono impostate rispettivamente sui colori del perno.
+Le parti della sfumatura prima e dopo il primo e l’ultimo segnaposto vengono impostate rispettivamente sui colori di tali segnaposti.
 
 ![Editore sfumatura - Vista sfumatura](gradient-map.resources/image2017-2-17-17-27-46.png "Editore sfumatura - Vista sfumatura")
 
-Per modificare le puntine sono disponibili i seguenti controlli:
+Per modificare i segnaposti sono disponibili i seguenti controlli:
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-<b>Aggiungi pin</b>
+<b>Aggiungi segnaposto</b>
 
-Fate clic su LMB sulla sfumatura o appena sotto per aggiungere una puntina nella posizione in cui avete fatto clic nella barra della sfumatura.
+Fate clic su LMB sulla sfumatura o appena sotto per aggiungere un segnaposto nella posizione in cui avete fatto clic nella barra della sfumatura.
 
-Il nuovo perno verrà impostato sul colore della sfumatura in quella posizione.
+Il nuovo segnaposto verrà impostato sul colore della sfumatura in quella posizione.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Editore sfumatura - Aggiungi pin](gradient-map.resources/move-pin.gif "Editore sfumatura - Aggiungi pin")
+![Editore sfumatura - Aggiungi segnaposto](gradient-map.resources/move-pin.gif "Editore sfumatura - Aggiungi segnaposto")
 
 </td>
 </tr>
@@ -115,40 +115,40 @@ Il nuovo perno verrà impostato sul colore della sfumatura in quella posizione.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-<b>Sposta pin</b>
+<b>Sposta segnaposto</b>
 
-Tenete premuto LMB e trascinate i perni selezionati lungo la barra della sfumatura per spostarli.
+Tenete premuto LMB e trascinate i segnaposti selezionati lungo la barra della sfumatura per spostarli.
 
-È inoltre possibile impostare la posizione di un perno con un valore numerico selezionandolo e utilizzando il parametro <b>Posizione</b>. La posizione è un valore nell&#39;intervallo [0;1] in cui 0 rappresenta l&#39;inizio del gradiente e 1 la sua fine.
+È inoltre possibile impostare la posizione di un segnaposto con un valore numerico selezionandolo e utilizzando il parametro <b>Posizione</b>. La posizione è un valore nell&#39;intervallo [0;1] in cui 0 rappresenta l&#39;inizio del gradiente e 1 la sua fine.
 
-![Editore sfumatura - Parametro posizione perno](gradient-map.resources/image2015-8-27-13-56-2.png "Editore sfumatura - Parametro posizione perno")
+![Editore sfumatura - Parametro posizione Segnaposto](gradient-map.resources/image2015-8-27-13-56-2.png "Editore sfumatura - Parametro posizione Segnaposto")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Editore sfumatura - Sposta perno](gradient-map.resources/movepin2.gif "Editore sfumatura - Sposta perno")
+![Editore sfumatura - Sposta segnaposto](gradient-map.resources/movepin2.gif "Editore sfumatura - Sposta segnaposto")
 
 </td>
 </tr>
 </table>
 
-Quando sono selezionati più perni, è possibile spostarli tutti *contemporaneamente*. Quando una o più puntine raggiungono e terminano la sfumatura mentre vengono spostate, sono disponibili due comportamenti a seconda del pulsante del mouse utilizzato per lo spostamento:
+Quando sono selezionati più segnaposti, è possibile spostarli tutti *contemporaneamente*. Quando uno o più segnaposti raggiungono e terminano la sfumatura mentre vengono spostati, sono disponibili due comportamenti a seconda del pulsante del mouse utilizzato per lo spostamento:
 
-* <b>LMB:</b> i perni rimangono alla fine, il che significa che verranno impilati in quella posizione mentre lo raggiungono e le loro posizioni relative vengono modificate;
-* <b>MMB:</b> i perni tornano indietro all&#39;altra estremità della sfumatura, il che significa che le loro posizioni relative rimangono invariate.
+* <b>LMB:</b> Segnaposti rimanenti alla fine, ovvero verranno impilati in quella posizione mentre lo raggiungono e le loro posizioni relative verranno modificate;
+* <b>MMB:</b> Segnaposti tornano all&#39;altra estremità della sfumatura, il che significa che le loro posizioni relative rimangono invariate.
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-<b>Elimina pin</b>
+<b>Elimina segnaposto</b>
 
-Selezionate i perni e premete Elimina, oppure trascinateli fuori dalla barra della sfumatura per eliminarli.
+Selezionate i segnaposti e premete Elimina, oppure trascinate i segnaposti fuori dalla barra della sfumatura per eliminarli.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Editore sfumatura - Elimina perno](gradient-map.resources/removepin.gif "Editore sfumatura - Elimina perno")
+![Editore sfumatura - Elimina segnaposto](gradient-map.resources/removepin.gif "Editore sfumatura - Elimina segnaposto")
 
 </td>
 </tr>
@@ -160,7 +160,7 @@ Selezionate i perni e premete Elimina, oppure trascinateli fuori dalla barra del
 
 <b>Inverti posizioni</b>
 
-Riflette le posizioni dei perni selezionati sulla sfumatura.
+Riflette le posizioni dei segnaposti selezionati sulla sfumatura.
 
 </td>
 <td style="border: 0;" valign="top">
@@ -177,7 +177,7 @@ Riflette le posizioni dei perni selezionati sulla sfumatura.
 
 <b>Cancella tutto</b>
 
-Rimuove tutti i perni dalla barra della sfumatura.
+Rimuove tutti i segnaposti dalla barra della sfumatura.
 
 </td>
 <td style="border: 0;" valign="top">

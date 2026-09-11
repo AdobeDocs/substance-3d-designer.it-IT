@@ -60,9 +60,9 @@ La quantità di strisce è regolabile, così come lo smoothness delle loro trans
 | <b>Importo Y per risoluzione</b> <i>Booleano</i> | Se è True, il numero di strisce sull&#39;asse Y sarà uguale alle dimensioni dell&#39;immagine su tale asse. |
 | <b>Ruota</b> <i>Booleano</i> | Ruota il disturbo di 90 gradi. |
 | <b>Smoothness</b> <i>Mobile</i> | Quantità di dissolvenza tra le strisce, dove 0 non è una dissolvenza e 1 è una dissolvenza per l&#39;intera lunghezza. |
-| <b>Interpolazione Smoothness</b> <i>Mobile</i> | Ponderazione dei due metodi di interpolazione applicati per sfumare le strisce, dove 0 è lineare e 1 è gaussiano. |
-| <b>Disturbo</b> <i>Mobile</i> | Sposta gli ingredienti del disturbo.   Può essere utilizzato per animare il disturbo. |
-| <b>Velocità del disturbo</b> <i>Mobile</i> | Regola la distanza di spostamento applicata dal parametro <b>Disturbo</b>.   Questa opzione consente di controllare la velocità di spostamento durante l’animazione del disturbo. |
+| <b>Interpolazione Smoothness</b> <i>Virgola mobile</i> | Ponderazione dei due metodi di interpolazione applicati per sfumare le strisce, dove 0 è lineare e 1 è gaussiano. |
+| <b>Disturbo</b> <i>Virgola mobile</i> | Sposta gli ingredienti del disturbo.   Può essere utilizzato per animare il disturbo. |
+| <b>Velocità del disturbo</b> <i>Virgola mobile</i> | Regola la distanza di spostamento applicata dal parametro <b>Disturbo</b>.   Questa opzione consente di controllare la velocità di spostamento durante l’animazione del disturbo. |
 | <b>Espansione non quadrata</b> <i>Booleano</i> | Nelle immagini non quadrate, mantiene il riquadro quadrato generato ed espande la generazione del disturbo fino ai limiti dell&#39;immagine. |
 
 ## Esempi

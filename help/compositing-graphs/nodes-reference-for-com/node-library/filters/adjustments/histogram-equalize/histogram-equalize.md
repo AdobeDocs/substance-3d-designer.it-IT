@@ -62,7 +62,7 @@ Equalizza l’istogramma di un’immagine in scala di grigio, regolando efficace
 |  |  |
 |:---|:---|
 | <b>Risoluzione istogramma</b> *Numero intero* | Larghezza dell’istogramma. Un valore più elevato consente una distribuzione più precisa.   Le risoluzioni disponibili sono, in pixel: 256, 512, 1024, 2048, 4096 |
-| <b>Uniformità istogramma</b> *Virgola mobile* | L&#39;istogramma può essere smussato ridistribuendo i valori in scala di grigio nell&#39;immagine per equalizzare la *differenza* tra ciascun valore.   Questo parametro regola l’intensità dell’arrotondamento. |
+| <b>Uniformità istogramma</b> *Mobile* | L&#39;istogramma può essere smussato ridistribuendo i valori in scala di grigio nell&#39;immagine per equalizzare la *differenza* tra ciascun valore.   Questo parametro regola l’intensità dell’arrotondamento. |
 
 ## Esempi
 

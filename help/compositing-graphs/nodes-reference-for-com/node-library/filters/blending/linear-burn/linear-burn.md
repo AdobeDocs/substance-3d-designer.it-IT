@@ -56,4 +56,4 @@ Esegue una fusione di Brucie lineari. Formula matematica: primo piano + sfondo -
 |  |  |
 |:---|:---|
 | <b>Opacità</b> <i>0.0 - 1.0</i> | Fusione dell’opacità tra primo piano e sfondo. |
-| <b>Fusione alfa</b> <i>Falso/Vero</i> | Attiva/disattiva la fusione dei canali alfa di primo piano e di sfondo. Se è impostato su False, il canale alfa del primo piano viene ignorato. |
+| <b>Fusione alfa</b> <i>Falso/Vero</i> | Attiva/disattiva la fusione dei canali alfa di primo piano e di sfondo. Se impostato su False, il canale alfa del primo piano viene ignorato. |

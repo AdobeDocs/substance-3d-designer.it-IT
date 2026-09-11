@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-color.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo Colore di Mappatura ponti spline per collegare le texture tra due spline con la mappatura dei colori.
+description: Utilizzare il nodo Colore di Spline Bridge Mapper per collegare le texture tra due spline con la mappatura dei colori.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Bridge Mapper Color
 helpx_experience_level: ""

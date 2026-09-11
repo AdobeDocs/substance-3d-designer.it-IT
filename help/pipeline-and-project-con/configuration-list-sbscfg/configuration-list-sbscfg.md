@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Elenco configurazioni - SBSCFG
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ea2e2d76d225a0e17c84c3312934f62aa5ef3915
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%
@@ -26,12 +26,12 @@ ht-degree: 0%
 
 Il file di configurazione è molto più semplice rispetto ai [file di configurazione del progetto](../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md), in quanto contiene solo un elenco di progetti e una modalità di compatibilità del motore. Fungono da elenco di configurazione di progetto/ambiente di livello superiore rispetto ai singoli file di progetto.
 
-Puoi avere più configurazioni per ambienti diversi, questi file possono essere mantenuti sotto il controllo della versione insieme ai file SBSPRJ.
+È possibile avere più configurazioni per ambienti diversi, questi file possono essere mantenuti nel controllo versione insieme ai file SBSPRJ.
 
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Icona file SBSCFG](../../assets/sbscfg.png "Icona file SBSCFG")
+![Icona file SBSCFG](configuration-list-sbscfg.resources/sbscfg.png "Icona file SBSCFG")
 
 </td>
 </tr>
@@ -45,7 +45,7 @@ Questi file sono semplici, ma possono comunque essere modificati in due modi div
 
 La sezione evidenziata è la parte che si riferisce ai File di configurazione, è sufficiente aggiungere più Progetti all&#39;elenco che sono memorizzati nel file SBSCFG sopra definito.
 
-![Impostazioni progetto](../../assets/config-ui.png "Impostazioni progetto")
+![Impostazioni progetto](configuration-list-sbscfg.resources/config-ui.png "Impostazioni progetto")
 
 ### Modifica esterna come XML
 

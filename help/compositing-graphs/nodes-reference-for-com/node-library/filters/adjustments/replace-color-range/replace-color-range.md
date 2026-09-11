@@ -33,7 +33,7 @@ ht-degree: 5%
 
 ## Descrizione
 
-Sostituisce il colore di origine con il colore di destinazione, con controlli aggiuntivi. Può essere utilizzato, ad esempio, per ricolorare parti di una mappa ID materiale (eseguo i baking).
+Sostituisce il colore di origine con il colore di destinazione, con controlli aggiuntivi. Può essere utilizzato, ad esempio, per ricolorare parti di una mappa ID materiale (bake).
 
 Per una versione più avanzata, vedere [Corrispondenza colori.](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/color-match/color-match.md)
 

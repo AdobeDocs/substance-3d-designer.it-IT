@@ -47,9 +47,9 @@ Questa maschera rappresenta scaglie e chiazze di ruggine, con perdite che scorro
 
 |  |  |
 |:---|:---|
-| <b>Curvatura</b> <i>Input scala di grigi</i> | Mappa generata o al forno per facilitare il posizionamento della ruggine. |
-| <b>Occlusione ambiente</b> <i>Input scala di grigi</i> | Mappa generata o al forno per facilitare il posizionamento della ruggine. |
-| <b>Posizione</b> <i>Input scala di grigi</i> | Mappa cotta o generata per le direzioni di goccia. |
+| <b>Curvatura</b> <i>Input scala di grigi</i> | Mappa eseguita i baking o generata per facilitare il posizionamento della ruggine. |
+| <b>Occlusione ambientale</b> <i>Input scala di grigi</i> | Mappa eseguita i baking o generata per facilitare il posizionamento della ruggine. |
+| <b>Posizione</b> <i>Input scala di grigi</i> | Mappa eseguita i baking o generata per le direzioni di goccia. |
 | <b>Maschera (facoltativo)</b> <i>Input scala di grigi</i> | Slot maschera utilizzato per mascherare gli effetti del nodo. |
 
 <a name="parameters"></a>

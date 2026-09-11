@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shape-drop-shadow.html"
 breadcrumb-title: ''
-description: Usate il nodo Ombra esterna forma per aggiungere effetti di ombra esterna alle forme per creare profondità e dimensione nelle texture.
+description: Usate il nodo Ombra esterna forma per aggiungere effetti di ombra esterna alle forme per la creazione di profondità e dimensione nelle texture.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Shape Drop Shadow
 helpx_experience_level: ""

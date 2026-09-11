@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Forma
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: dbfe5b7ce453a6178d8d970698d3a5f8225151b4
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/shape-2.png){width="128px"}
+![](shape.resources/shape-2.png){width="128px"}
 
 <b>Ingresso:</b> Generatori Texture > Pattern
 
@@ -54,7 +54,7 @@ Nonostante la sua semplicità, questo è un nodo molto utile: è l&#39;elemento 
 | <b>Dimensioni</b> <i>0.0 - 1.0</i> | Consente il ridimensionamento non uniforme su un asse X o Y. |
 | <b>Angolo</b> <i>0.0 - 1.0</i> | Ruota l&#39;intera forma. |
 | <b>Rotazione 45°</b> <i>Falso/Vero</i> | Ruota a 45 gradi preimpostati. |
-| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati. |
+| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di squash e allungamento con rapporti non quadrati. |
 | <b>Affiancamento non quadrato</b> <i>Falso/Vero</i> | Quando è abilitato il Non square expansion, la forma verrà affiancata senza schiacciamenti. |
 
 ## Esempi
@@ -62,7 +62,7 @@ Nonostante la sua semplicità, questo è un nodo molto utile: è l&#39;elemento 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/shape-ex.gif" />
+            <img src="shape.resources/shape-ex.gif" />
         </td>
     </tr>
 </table>

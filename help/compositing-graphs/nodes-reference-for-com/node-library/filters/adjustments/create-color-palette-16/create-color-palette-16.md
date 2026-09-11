@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/create-color-palette-16.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo Crea tavolozza colori per estrarre una tavolozza di 16 colori dalle texture per ottenere effetti stilizzati.
+description: Utilizzare il nodo Crea tavolozza colori per estrarre una tavolozza di 16 colori dalla texture per gli effetti stilizzati.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Create Color Palette (16)
 helpx_experience_level: ""
@@ -68,7 +68,7 @@ Questo nodo può essere utilizzato in combinazione con i seguenti nodi: [Quantiz
 |  |  |
 |:---|:---|
 | <b>Quantità colore</b> *Numero intero* | Quantità di colori da aggiungere alla tavolozza. |
-| <b>Colore n. </b> *Virgola mobile 3* *Numero di parametri disponibili corrispondente al valore &#39;Quantità colore&#39;* | Un colore da aggiungere alla tavolozza.   I colori vengono aggiunti alla tavolozza nello stesso ordine dell&#39;elenco numerato. |
+| <b>Colore n. </b> *Float3* *Numero di parametri disponibili corrispondente al valore &#39;Quantità colore&#39;* | Un colore da aggiungere alla tavolozza.   I colori vengono aggiunti alla tavolozza nello stesso ordine dell&#39;elenco numerato. |
 
 ## Esempi
 

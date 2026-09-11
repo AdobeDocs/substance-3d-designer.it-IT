@@ -41,6 +41,6 @@ Questi valori possono quindi essere recuperati per tutte le forme SDF suddivise 
 |                            |                                  |
 |----------------------------|----------------------------------|
 | <b>Scena SDF</b> *Mobile* | Scena SDF di input. |
-| <b>Colore di base</b> *Float3* | Valore del colore di base RGB da impostare. |
+| <b>Colore di base</b> *Float3* | Il valore del colore di base di RGB da impostare. |
 | <b>Metallicità</b> *Mobile* | Valore di metallizzazione da impostare. |
 | <b>Rugosità</b> *Mobile* | Valore di rugosità da impostare. |

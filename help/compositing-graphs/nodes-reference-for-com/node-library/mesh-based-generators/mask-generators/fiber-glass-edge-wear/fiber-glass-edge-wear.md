@@ -48,7 +48,7 @@ Rappresenta una maschera specificamente destinata a un&#39;usura di tipo vetrore
 |  |  |
 |:---|:---|
 | <b>Curvatura</b> <i>Input scala di grigi</i> | Mappa con baking utilizzata per evidenziare i bordi. Obbligatorio! |
-| <b>Occlusione ambiente</b> <i>Input scala di grigi</i> | Mappa con baking utilizzata per mascherare le aree occluse. Non richiesto, ma sicuramente consigliato. |
+| <b>Occlusione ambientale</b> <i>Input scala di grigi</i> | Mappa con baking utilizzata per mascherare le aree occluse. Non richiesto, ma sicuramente consigliato. |
 | <b>Input Grunge</b> <i>Input scala di grigi</i> | Slot personalizzato opzionale per ignorare il motivo a fibra. |
 | <b>Maschera (facoltativo)</b> <i>Input scala di grigi</i> | Slot maschera utilizzato per mascherare gli effetti del nodo. |
 | <b>Spazio globale normale</b> <i>Input colore</i> | Utilizzato solo per Triplanare. |

@@ -47,7 +47,7 @@ Genera un disturbo di tipo Worlye Voronoi, con una metrica della distanza legger
 |:---|:---|
 | <b>Scala</b> <i>1 - 256</i> | Imposta la scala globale per l’effetto. |
 | <b>Disturbo</b> <i>0.0 - 1.0</i> | Fase-sposta il disturbo per introdurre piccole variazioni. |
-| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati. |
+| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di squash e allungamento con rapporti non quadrati. |
 
 ## Esempi
 

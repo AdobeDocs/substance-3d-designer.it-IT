@@ -56,14 +56,14 @@ Questo nodo può essere testato con [Cubo 3D GBuffers](../../../../../../composi
 | <b>Dimensioni</b> <i>Float3</i> | Controlla la dimensione del disturbo frattale di Perlin 3D negli assi <b>X</b>, <b>Y</b> e <b>Z</b>. I valori non uniformi producono un effetto <i>allungamento o schiacciamento</i>. |
 | <b>Scostamento</b> <i>Float3</i> | Applica uno scostamento alla <i>posizione</i> del disturbo frattale di Perlin 3D sugli assi <b>X</b>, <b>Y</b> e <b>Z</b>. |
 | <b>Intensità Distorsione</b> <i>Mobile</i> | Controlla l&#39;intensità di un <i>effetto di alterazione</i> applicato al disturbo frattale di Perlin 3D. |
-| <b>Moltiplicatore scala Distorsione</b> <i>Virgola mobile</i> | Controlla la scala del <i>pattern di deformazione</i> utilizzato nell&#39;effetto di alterazione controllato dall&#39;<b>intensità della Distorsione</b>. |
+| <b>Moltiplicatore scala Distorsione</b> <i>Mobile</i> | Controlla la scala del <i>pattern di deformazione</i> utilizzato nell&#39;effetto di alterazione controllato dall&#39;<b>intensità della Distorsione</b>. |
 | <b>Livello Min</b> <i>Numero intero</i> | Il <i>livello minimo di ripetizione</i> utilizzato nel pattern frattale. Un intervallo minimo/massimo più ampio genera un <i>modello più ricco</i> con variazione su più intervalli di frequenza. |
 | <b>Livello massimo</b> <i>Numero intero</i> | Il <i>livello massimo di ripetizione</i> utilizzato nel pattern frattale. Un intervallo minimo/massimo più ampio genera un <i>modello più ricco</i> con variazione su più intervalli di frequenza. |
-| <b>Rugosità</b> <i>Virgola mobile</i> | Controlla l&#39;<i>equilibrio</i> tra <i>livelli di ripetizione</i> bassi e alti nel pattern frattale.<br><br><i>Nota</i>: un valore di <b>0</b> genera un output <i>non in linea</i> seguito da altri valori bassi. Questo è previsto. |
-| <b>Lacunarità</b> <i>Virgola mobile</i> | Controlla la modalità di riempimento dello spazio del pattern frattale applicato <i></i>. Un valore <i>maggiore</i> genera <i>meno spazi vuoti</i> nel pattern e un disturbo <i>più denso</i>. |
-| <b>Opacità globale</b> <i>Virgola mobile</i> | Controlla l&#39;<i>intervallo</i> dei valori di disturbo frattale di Perlin 3D <i>attorno</i> al valore <b>Linea di base</b>. |
-| <b>Previsione</b> <i>Virgola mobile</i> | Applica un <i>offset</i> al valore di <i>luminanza</i> della linea di base per la distribuzione del valore di disturbo Perlin 3D. |
-| <b>Contrasto</b> <i>Mobile</i> | Regola il contrasto del disturbo 3D di Perlin. |
+| <b>Rugosità</b> <i>Mobile</i> | Controlla l&#39;<i>equilibrio</i> tra <i>livelli di ripetizione</i> bassi e alti nel pattern frattale.<br><br><i>Nota</i>: un valore di <b>0</b> genera un output <i>non in linea</i> seguito da altri valori bassi. Questo è previsto. |
+| <b>Lacunarità</b> <i>Mobile</i> | Controlla la modalità di riempimento dello spazio del pattern frattale applicato <i></i>. Un valore <i>maggiore</i> genera <i>meno spazi vuoti</i> nel pattern e un disturbo <i>più denso</i>. |
+| <b>Opacità globale</b> <i>Mobile</i> | Controlla l&#39;<i>intervallo</i> dei valori di disturbo frattale di Perlin 3D <i>attorno</i> al valore <b>Linea di base</b>. |
+| <b>Previsione</b> <i>Mobile</i> | Applica un <i>offset</i> al valore di <i>luminanza</i> della linea di base per la distribuzione del valore di disturbo Perlin 3D. |
+| <b>Contrasto</b> <i>Virgola mobile</i> | Regola il contrasto del disturbo 3D di Perlin. |
 | <b>Assoluto</b> <i>Booleano</i> | Usa valori assoluti nel disturbo di Perlin 3D. In questo modo <i>viene invertita</i> la distribuzione dei valori <i>inferiori a 0,5</i>. |
 | <b>Abilita Affiancamento</b> <i>Booleano</i> | Regola il disturbo di Perlin 3D in modo che il relativo pattern <i>si ripeta</i> sugli assi X, Y e Z. |
 

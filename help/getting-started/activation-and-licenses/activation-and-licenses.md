@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Attivazione e licenze
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Sono disponibili tre opzioni:
 >
 > Per installare il file di licenza con l&#39;Attivazione guidata, assicurati di eseguire Designer come amministratore e di disattivare temporaneamente l&#39;antivirus.
 
-![Attivazione guidata](../../assets/activation-wizard.png "Attivazione guidata")
+![Attivazione guidata](activation-and-licenses.resources/activation-wizard.png "Attivazione guidata")
 
 ### Attivazione manuale
 

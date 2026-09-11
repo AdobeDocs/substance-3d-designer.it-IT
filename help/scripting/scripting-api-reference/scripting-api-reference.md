@@ -134,9 +134,9 @@ Un oggetto grafico (*SDGraphObject*) è un oggetto che <b>aggiunge informazioni 
 
 Esistono <b>3 tipi</b> di oggetti grafici:
 
-* <b>Pin</b> (*SDGraphObjectPin*)
+* <b>Segnaposto</b> (*SDGraphObjectPin*)
 * <b>Commento</b> (*SDGraphObjectComment*)
-* <b>Frame</b> (*SDGraphObjectFrame*)
+* <b>Fotogramma</b> (*SDGraphObjectFrame*)
 
 Per ulteriori informazioni su come <b>crearli</b>, vedere il metodo statico &#39;*sNew()*&#39; su questi oggetti.
 
@@ -147,7 +147,7 @@ Una proprietà (*SDProperty*) è un oggetto che <b>descrive</b> una proprietà d
 Appartiene a una <b>categoria</b> specifica (*SDPropertyCategory*):
 
 * <b>Input</b>: classifica le proprietà di input di un oggetto, che in genere <b> influiscono sull&#39;operazione</b> eseguita dall&#39;oggetto corrente;
-  * Esempio: la proprietà &#39;*color*&#39; di un nodo Uniform Color in un grafico a Substance è una proprietà di input.
+  * Esempio: la proprietà &#39;*color*&#39; di un nodo di Colore uniforme in un grafico a Substance è una proprietà di input.
 * <b>Output</b>: classifica le proprietà di output di un oggetto. Viene utilizzato per identificare un <b>risultato</b> di un oggetto;
 * <b>Annotazione</b>: classifica le proprietà che <b>*non* influiscono sull&#39;operazione</b> eseguita da un oggetto;
   * Esempio: &#39;*label*&#39; di un grafico è una proprietà di annotazione, in quanto non influisce sul calcolo del grafico.

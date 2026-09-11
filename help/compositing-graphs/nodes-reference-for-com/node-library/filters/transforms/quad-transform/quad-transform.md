@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/quad-transform.html"
 breadcrumb-title: ''
-description: Usa il nodo Trasforma quadrupla per applicare trasformazioni quadrilaterali alle texture per la correzione e l'alterazione delle Prospettive.
+description: Utilizzate il nodo Trasformazione quadrupla per applicare trasformazioni quadrilaterali alle texture per la correzione prospettica e l’alterazione.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Quad Transform
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Trasforma quadruplo
+title: Trasformazione quadrupla
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: caf740432682ed82eb55ad2f84bc9dd6ed15ad14
@@ -18,7 +18,7 @@ ht-degree: 2%
 ---
 
 
-# Trasforma quadruplo
+# Trasformazione quadrupla
 
 <table>
 <tr style="border: 0;">
@@ -35,7 +35,7 @@ ht-degree: 2%
 
 ## Descrizione
 
-Nodo di Trasforma speciale che consente la trasformazione di una forma quadrupla attraverso l&#39;interazione con i relativi punti d&#39;angolo. Consente Trasforma molto specifici in modo pratico.
+Nodo di trasformazione speciale che consente la trasformazione di una forma quadrupla attraverso l&#39;interazione con i relativi punti d&#39;angolo. Consente trasformazioni molto specifiche in modo pratico.
 
 </td>
 </tr>

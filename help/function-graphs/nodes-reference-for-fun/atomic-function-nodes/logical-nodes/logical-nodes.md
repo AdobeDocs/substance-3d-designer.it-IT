@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Logico
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f28a2ba2531cfc4456744ff151432ed8308275ec
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 I nodi logici vengono utilizzati per aggiungere più condizioni al grafico:
 
-![](../../../../assets/image2015-12-23-11-23-21.png)
+![](logical-nodes.resources/image2015-12-23-11-23-21.png)
 
 ## Nodo *And*
 
-![](../../../../assets/image2015-12-23-11-30-9.png)
+![](logical-nodes.resources/image2015-12-23-11-30-9.png)
 
 Il nodo And accetta due nodi booleani come input:
 
@@ -35,7 +35,7 @@ Il nodo And accetta due nodi booleani come input:
 
 ## Nodo *O*
 
-![](../../../../assets/image2015-12-23-11-30-44.png)
+![](logical-nodes.resources/image2015-12-23-11-30-44.png)
 
 Il nodo Or accetta due nodi booleani come input:
 
@@ -44,7 +44,7 @@ Il nodo Or accetta due nodi booleani come input:
 
 ## Nodo *Not*
 
-![](../../../../assets/image2015-12-23-11-31-46.png)
+![](logical-nodes.resources/image2015-12-23-11-31-46.png)
 
 Il nodo Not assume un valore booleano come input: esaminerà il valore di input e restituirà il suo opposto:
 

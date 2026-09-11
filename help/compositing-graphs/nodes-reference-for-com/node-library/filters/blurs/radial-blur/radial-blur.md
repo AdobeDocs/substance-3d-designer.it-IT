@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/radial-blur.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo Sfocatura radiale per applicare effetti di sfocatura radiale da un punto centrale per creare effetti di movimento e zoom.
+description: Utilizzate il nodo Sfocatura radiale per applicare effetti di sfocatura radiali da un punto centrale per creare effetti di movimento e zoom.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > Radial Blur
 helpx_experience_level: ""

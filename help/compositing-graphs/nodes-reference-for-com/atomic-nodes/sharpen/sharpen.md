@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/sharpen.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo Nitidezza per migliorare i dettagli e i bordi della texture e creare dettagli di superficie nitidi e definiti.
+description: Utilizzate il nodo Contrasta (Sharpen) per migliorare i dettagli e gli spigoli delle texture e creare dettagli di superficie nitidi e definiti.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Sharpen
 helpx_experience_level: ""
@@ -39,7 +39,7 @@ Il nodo Nitidezza esegue un&#39;operazione di nitidezza su un input. È un nodo 
 </tr>
 </table>
 
-È matematicamente molto simile alla Maschera di contrasto di Photoshop, nonostante il nome sia diverso. Funziona bene per cose come una mappa Basecolor, ma dovrebbe essere evitata su mappe come Normal e Metallic.
+È matematicamente molto simile alla Maschera di contrasto di Photoshop, nonostante il nome sia diverso. Funziona bene per cose come una mappa Basecolor, ma dovrebbe essere evitata su mappe come Mappe normali e mappe Metallic.
 
 ## Input
 
@@ -48,11 +48,11 @@ L&#39;immagine da rendere più nitida.
 
 ## Parametri
 
-<b>Intensità</b> *Mobile*\
+<b>Intensità</b> *Virgola mobile*\
 Consente di impostare l’intensità dell’effetto nitidezza.
 
 <b>Alpha Punchthrough</b> *Booleano* (disponibile quando un&#39;immagine a colori è collegata all&#39;<b>Input</b>)\
-Determina se il canale alfa dell’immagine deve essere reso più nitido o lasciato inalterato.
+Determina se il canale alfa dell&#39;immagine deve essere reso più nitido o lasciato inalterato.
 
 ## Esempi
 

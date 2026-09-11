@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Schermata Home
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 9297416d538a70b80b8be3b2d23a3c442a79a23b
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 2%
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 # Schermata Home
 
-![Schermata Home](../../assets/home-screen-home.jpg "Schermata Home")
+![Schermata Home](home-screen.resources/home-screen-home.jpg "Schermata Home")
 
 Schermata <b>Home<b> </b></b>ti accoglie all&#39;avvio di Substance 3D Designer. Ti aiuta a iniziare con i tuoi progetti e ad accedere a collegamenti utili.
 
@@ -33,18 +33,18 @@ Per chiudere la schermata Home, utilizza il pulsante <b>Indietro</b> in alto a s
 </td>
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Pulsante Indietro](../../assets/home-screen-back-icon.jpg "Pulsante Indietro")
+![Pulsante Indietro](home-screen.resources/home-screen-back-icon.jpg "Pulsante Indietro")
 
 </td>
 </tr>
 </table>
 
-![Sezione Home](../../assets/home-screen-home_1.jpg "Sezione Home"){width="512px"}
+![Sezione Home](home-screen.resources/home-screen-home_1.jpg "Sezione Home"){width="512px"}
 
 ## Home
 
-La sezione ![](../../assets/home-screen-home-icon.jpg) <b>Home</b> offre un banner con un suggerimento evidenziato per andare oltre con Designer.\
-Questo banner può essere compresso utilizzando il pulsante ![](../../assets/home-screen-expand-icon.jpg) <b>Nascondi suggerimenti</b> a destra.
+La sezione ![](home-screen.resources/home-screen-home-icon.jpg) <b>Home</b> offre un banner con un suggerimento evidenziato per andare oltre con Designer.\
+Questo banner può essere compresso utilizzando il pulsante ![](home-screen.resources/home-screen-expand-icon.jpg) <b>Nascondi suggerimenti</b> a destra.
 
 Di seguito, un elenco dei file recenti sotto l&#39;intestazione <b>Recenti</b> offre un accesso rapido agli ultimi progetti caricati, dal più recente al più vecchio.
 
@@ -54,11 +54,11 @@ I file recenti possono essere filtrati utilizzando il campo di input <b>Filtro</
 >
 > Lasciare il cursore su una voce per alcuni secondi per visualizzare il percorso completo del file.
 
-![Sezione Scopri](../../assets/home-screen-learn.jpg "Sezione Scopri"){width="512px"}
+![Sezione Scopri](home-screen.resources/home-screen-learn.jpg "Sezione Scopri"){width="512px"}
 
 ## Impara
 
-La sezione ![](../../assets/home-screen-learn-icon.jpg) <b>Scopri</b> offre utili risorse di apprendimento per approfondire la comprensione di Substance 3D Designer.
+La sezione ![](home-screen.resources/home-screen-learn-icon.jpg) <b>Scopri</b> offre utili risorse di apprendimento per approfondire la comprensione di Substance 3D Designer.
 
 Queste risorse sono elencate come collegamenti a schede e raggruppate come segue:
 
@@ -68,11 +68,11 @@ Queste risorse sono elencate come collegamenti a schede e raggruppate come segue
   * [Quicktips](https://substance3d.adobe.com/tutorials/courses/Designer-Quicktips/youtube-Q9mEcCWsOQc) è una playlist selezionata di tecniche per la creazione di materiali, pattern, filtri, ecc.;
   * La [documentazione online](../../home/home.md) consente di accedere a questa documentazione.
 
-![Schermata delle novità](../../assets/home-screen-whats-new.jpg "Schermata delle novità"){width="512px"}
+![Schermata delle novità](home-screen.resources/home-screen-whats-new.jpg "Schermata delle novità"){width="512px"}
 
 ## Novità
 
-Il pulsante ![](../../assets/home-screen-whats-new-icon.jpg) <b>Novità</b> in alto a destra della schermata mostra una schermata che elenca le principali funzionalità aggiunte alla versione di Designer in uso, nonché un collegamento alle [note sulla versione](../../release-notes/release-notes.md) complete per tale versione.
+Il pulsante ![](home-screen.resources/home-screen-whats-new-icon.jpg) <b>Novità</b> in alto a destra della schermata mostra una schermata che elenca le principali funzionalità aggiunte alla versione di Designer in uso, nonché un collegamento alle [note sulla versione](../../release-notes/release-notes.md) complete per tale versione.
 
 ## Avvia progetto
 
@@ -82,7 +82,7 @@ A sinistra della schermata, puoi trovare un elenco di scelte rapide per creare u
 * <b>Apri pacchetto:</b> consente di caricare un pacchetto esistente;
 * <b>Importazione AxF:</b> Avvia un [flusso di lavoro di importazione AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md).
 
-![Informazioni sulla schermata di Substance 3D Designer](../../assets/home-screen-about.jpg "Informazioni sulla schermata di Substance 3D Designer"){width="256px"}
+![Informazioni sulla schermata di Substance 3D Designer](home-screen.resources/home-screen-about.jpg "Informazioni sulla schermata di Substance 3D Designer"){width="256px"}
 
 ## Collegamenti
 

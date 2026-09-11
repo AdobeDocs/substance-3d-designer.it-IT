@@ -57,7 +57,7 @@ Per utilizzare questo nodo, iniziate definendo l&#39;area Ritagliata, quindi usa
 |:---|:---|
 | <b>Ritaglio</b> |  |
 | <b>Dimensione input</b> <i>0 - 8192</i> | Immettere la risoluzione e le proporzioni delle immagini. Molto importante per immagini non quadrate. |
-| <b>Trasformazione</b> <i>(Matrice di trasformazione)</i> | Ruota e ridimensiona il risultato. Il risultato può essere modificato interagendo direttamente con l’area di lavoro. |
+| <b>Trasforma</b> <i>(Matrice di trasformazione)</i> | Ruota e ridimensiona il risultato. Il risultato può essere modificato interagendo direttamente con l’area di lavoro. |
 | <b>Scostamento</b> <i>0.0 - 1.0</i> | Sposta o converte il risultato. Il risultato può essere modificato interagendo direttamente con l’area di lavoro. |
 | <b>Edge</b> |  |
 | <b>Rileva bordi</b> <i>Falso/Vero</i> | Attiva o disattiva la fusione rilevata dal bordo speciale. |

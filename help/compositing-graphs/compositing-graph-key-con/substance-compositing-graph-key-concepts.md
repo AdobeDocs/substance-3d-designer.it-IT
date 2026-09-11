@@ -30,7 +30,7 @@ Input, Output e Parametri esposti sono estremamente importanti per questo concet
 
 * Nessun output significa che il grafico <b>non genera nulla,</b> nessun dato.
 * Nessun parametro esposto indica che il grafico <b>non può essere personalizzato</b> in alcun modo. Non è possibile impostare valori quali l’intensità di un effetto, l’opacità di un’immagine da fondere, il colore di un’area specifica e così via.
-* Nessun input significa che in alcuni casi non è possibile personalizzare il risultato di un grafico con<b> dati di immagini personali</b>, ad esempio mappe con trama al forno da cui generare effetti, un&#39;immagine di input da cui eseguire una sfocatura o una maschera personalizzata per isolare determinate aree di un&#39;immagine.
+* Nessun input significa che in alcuni casi non è possibile personalizzare il risultato di un grafico con<b> dati di immagini personali</b>, ad esempio mappe trama eseguite i baking da cui generare effetti, un&#39;immagine di input da cui eseguire una sfocatura o una maschera personalizzata per isolare determinate aree di un&#39;immagine.
 
 ## Ingressi e uscite
 
@@ -54,7 +54,7 @@ Ecco alcuni aspetti da considerare:
 
 ## Ereditarietà
 
-Poiché le immagini e i valori vengono passati dai nodi ad altri, alcuni *attributi* di queste immagini, ovvero i <b>parametri di base</b>, sono *propagati* anche nel grafico, ad esempio risoluzione, precisione (ovvero profondità di bit), suddivisione in porzioni e numero casuale.
+Poiché le immagini e i valori vengono passati dai nodi ad altri, alcuni *attributi* di queste immagini, ovvero i <b>parametri di base</b>, vengono *propagati* anche nel grafico, ad esempio risoluzione, precisione (ovvero profondità di bit), Affiancamento e numero casuale.
 
 Questa propagazione è definita dai [metodi di ereditarietà](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) applicati da ogni nodo per questi attributi. In effetti, i nodi possono *ereditare attributi* da altri nodi o dal grafico in cui esistono.\
 I metodi di ereditarietà possono essere:

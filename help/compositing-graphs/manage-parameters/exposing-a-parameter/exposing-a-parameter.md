@@ -91,9 +91,9 @@ Quando si espone un parametro, questo metodo sarà un po’ più lento rispetto 
 1. Scegli <b>Parametri di visualizzazione batch...</b> dal menu a discesa.
 1. Viene visualizzata la finestra di dialogo <b>Esposizione batch</b>, che consente di personalizzare l&#39;esposizione di tutti i <b>parametri specifici</b> di un nodo
 1. Utilizza <b>Tutti</b>, <b>Nessuno</b> o caselle di controllo specifiche per decidere quali parametri esporre
-1. Fare clic su un nome di parametro nella colonna <b>identificatore di input grafico</b> dell&#39;elenco per modificarne il nome.
+1. Fare clic su un nome di parametro nella colonna <b>Identificatore di input grafico</b> dell&#39;elenco per modificarne il nome.
 1. Fare clic su un <b>nome gruppo</b> nella colonna <b>Gruppo di input grafico</b> dell&#39;elenco per aggiungere un (sotto)gruppo per un parametro specifico
-1. Utilizza le caselle di tipo <b>identificatore di input grafico</b> e <b>Gruppo di input grafico</b> nella parte inferiore per aggiungere prefisso, suffisso e gruppi di input a tutti i parametri esposti contemporaneamente. Tutti questi valori vengono applicati sopra le impostazioni per parametro.
+1. Utilizza le caselle di tipo <b>Identificatore di input grafico</b> e <b>Gruppo di input grafico</b> nella parte inferiore per aggiungere prefisso, suffisso e gruppi di input a tutti i parametri esposti contemporaneamente. Tutti questi valori vengono applicati sopra le impostazioni per parametro.
 1. Fai clic su <b>OK</b> per confermare ed esporre tutti i parametri selezionati. I nomi dei parametri ora mostrano *blu* per confermare che i parametri sono esposti, nonché un pulsante ![](exposing-a-parameter.resources/image2020-9-17-15-35-46.png) <b>Modifica funzione</b>.
 
 ## Limitazioni
@@ -114,7 +114,7 @@ Come soluzione alternativa, è possibile utilizzare un nodo [Switch](../../../co
 
 | Nodo | Parametro |
 | --- | --- |
-| Tutti i nodi | Modalità di Affiancamento Rapporto pixel |
+| Tutti i nodi | Modalità di stampa in porzioni |
 | [Colore uniforme](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md) | Metodo colore |
 | [Processore pixel](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) | Metodo colore |
 | [Fusione](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) | Metodo fusione Alpha fusione Area di ritaglio |

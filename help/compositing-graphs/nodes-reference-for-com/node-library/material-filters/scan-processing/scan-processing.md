@@ -20,7 +20,7 @@ ht-degree: 5%
 
 # Elaborazione scansione
 
-Questa categoria risponde alle tue esigenze di elaborazione di foto e scansioni in materiali PBR completi e in porzioni. Contiene un ampio assortimento di strumenti con funzioni per rimuovere l&#39;illuminazione, ritagliare i bordi e migliorare la suddivisione in porzioni.
+Questa categoria risponde alle tue esigenze di elaborazione di foto e scansioni in materiali PBR completi e in porzioni. Contiene un ampio assortimento di strumenti con funzioni per rimuovere l&#39;illuminazione, ritagliare i bordi e migliorare l&#39;Affiancamento.
 
 I seguenti nodi sono buone introduzioni:
 

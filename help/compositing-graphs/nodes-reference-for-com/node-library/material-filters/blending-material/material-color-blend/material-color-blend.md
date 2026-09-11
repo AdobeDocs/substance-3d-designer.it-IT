@@ -56,8 +56,8 @@ Questo nodo è particolarmente utile se desiderate introdurre un suggerimento di
 
 |  |  |
 |:---|:---|
-| <b>Canali</b> | Attivate e disattivate i canali di materiale in questo gruppo quando utilizzate mappe Specular/lucidità invece di Metallico/Rugosità. |
-| <b>Diffusione</b> |  |
+| <b>Canali</b> | Attivate e disattivate i canali di materiale in questo gruppo quando utilizzate mappe Specular/Lucentezza invece di Metallico/Rugosità. |
+| <b>Diffusa</b> |  |
 | <b>Colore</b> <i>(valore colore)</i> | Quale valore di colore fondere sopra il canale della Diffusa? |
 | <b>Opacità</b> <i>0.0 - 1.0</i> | Fusione dell’opacità tra primo piano e sfondo. |
 | <b>Metodo fusione</b> <i>Normale, Aggiungi, Sottrai, Moltiplica, Aggiungi/Sotto, Max, Min, Switch</i> | Modalità Fusione da utilizzare nell&#39;operazione. |

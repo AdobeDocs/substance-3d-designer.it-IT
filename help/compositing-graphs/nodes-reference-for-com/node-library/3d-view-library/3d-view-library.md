@@ -7,7 +7,7 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Vista 3D (Libreria)
+title: vista 3D (Libreria)
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
@@ -18,11 +18,11 @@ ht-degree: 0%
 ---
 
 
-# Vista 3D (Libreria)
+# vista 3D (Libreria)
 
-La categoria Vista 3D contiene solo nodi correlati agli HDRI proiettati a livello sferico, utilizzati nella Vista 3D di Substance 3D Designer o per l’esportazione in altre applicazioni come Substance 3D Painter.
+La categoria vista 3D contiene solo i nodi relativi agli HDRI proiettati a livello sferico, utilizzati nel vista 3D di Substance 3D Designer o per l&#39;esportazione in altre applicazioni come Substance 3D Painter.
 
 Esistono due sottocategorie:
 
-* **Ambienti HDRI**: non è disponibile alcuna documentazione, poiché si tratta esclusivamente di immagini destinate alla visualizzazione nella vista 3D, senza parametri aggiuntivi.
+* **Ambienti HDRI**: non è disponibile alcuna documentazione, poiché si tratta esclusivamente di immagini destinate alla visualizzazione nel vista 3D, senza parametri aggiuntivi.
 * **Strumenti HDRI**: nodi di strumenti per la creazione e la modifica di immagini HDRI sferiche. Funzione introdotta in SD 2019.2.

@@ -40,7 +40,7 @@ Questo valore può quindi essere recuperato per tutte le forme SDF schizzate nel
 
 |                          |                        |
 |--------------------------|------------------------|
-| <b>Scena SDF</b> *Mobile* | Scena SDF di input. |
+| <b>Scena SDF</b> *Virgola mobile* | Scena SDF di input. |
 | <b>ID</b> *Numero intero* | ID intero da impostare. |
 
 

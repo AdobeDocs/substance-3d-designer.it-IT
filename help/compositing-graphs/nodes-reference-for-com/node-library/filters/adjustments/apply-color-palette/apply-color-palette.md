@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/apply-color-palette.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo Applica tavolozza colori per ridefinire la texture utilizzando una tavolozza di colori per ottenere effetti di colore stilizzati.
+description: Utilizzate il nodo Applica tavolozza colori per ridefinire le texture utilizzando una tavolozza di colori per ottenere effetti di colore stilizzati.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Apply Color Palette
 helpx_experience_level: ""

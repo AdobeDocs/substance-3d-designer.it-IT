@@ -26,14 +26,14 @@ ht-degree: 2%
 
 ![Icona di separazione normale](normal-uncombine.resources/NormalUncombine.png "Icona di separazione normale"){width="200px"}
 
-<b>In:</b> Filtri > Mappa normale
+<b>Ingresso:</b> Filtri > Mappa normale
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
-Rimuove da una mappa normale i dettagli della superficie descritti da una mappa di height.
+Rimuove da una mappa normale i dettagli della superficie descritti da una mappa di altezza.
 
 </td>
 </tr>
@@ -45,8 +45,8 @@ Rimuove da una mappa normale i dettagli della superficie descritti da una mappa 
 
 |  |  |
 |:---|:---|
-| <b>Normale combinato</b> <i>Colore</i> PRIMARIO | La mappa normale da cui rimuovere i dettagli. |
-| <b>Height</b> <i>Scala di grigi</i> | La mappa del height che rappresenta i dettagli della superficie da rimuovere dalla mappa normale combinata. |
+| <b>Normale combinato</b> <i>Colore</i> PRIMARIO | Mappa normale da cui rimuovere i dettagli. |
+| <b>Height</b> <i>Scala di grigi</i> | La mappa dell&#39;altezza che rappresenta i dettagli della superficie da rimuovere dalla mappa normale combinata. |
 
 <a name="outputs"></a>
 
@@ -54,8 +54,8 @@ Rimuove da una mappa normale i dettagli della superficie descritti da una mappa 
 
 |  |  |
 |:---|:---|
-| <b>Normale non combinato</b> <i>Colore</i> | La mappa normale in cui sono stati rimossi i dettagli della superficie descritti dalla mappa del height di input. |
-| <b>Intensità presunta</b> <i>Mobile</i> | Stima dell&#39;intensità che deve essere impostata su un nodo [Normale](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md) connesso alla mappa del height di input, in modo che corrisponda all&#39;intensità della mappa normale di input. |
+| <b>Normale non combinato</b> <i>Colore</i> | Mappa normale in cui sono stati rimossi i dettagli della superficie descritti dalla mappa dell&#39;altezza di input. |
+| <b>Intensità presunta</b> <i>Virgola mobile</i> | Stima dell&#39;intensità che deve essere impostata su un nodo [Normale](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md) connesso alla mappa dell&#39;altezza di input, per corrispondere all&#39;intensità della mappa normale di input. |
 
 <a name="parameters"></a>
 

@@ -35,7 +35,7 @@ Tutti gli altri nodi del grafico a Substance nella [libreria](../../../interface
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nodo atomico: Fusione](atomic-nodes.resources/comp_blend.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)
+[![Nodo atomico: fusione](atomic-nodes.resources/comp_blend.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)
 
 [Fusione](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)
 
@@ -75,7 +75,7 @@ Tutti gli altri nodi del grafico a Substance nella [libreria](../../../interface
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nodo atomico: Effetto rilievo](atomic-nodes.resources/comp_emboss.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/emboss/emboss.md)
+[![Nodo atomico: Rilievo](atomic-nodes.resources/comp_emboss.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/emboss/emboss.md)
 
 [Effetto rilievo](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/emboss/emboss.md)
 
@@ -176,7 +176,7 @@ Tutti gli altri nodi del grafico a Substance nella [libreria](../../../interface
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nodo atomico: Elaboratore pixel](atomic-nodes.resources/comp_pixelprocessor.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)
+[![Nodo atomico: processore pixel](atomic-nodes.resources/comp_pixelprocessor.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)
 
 [Elaboratore pixel](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)
 

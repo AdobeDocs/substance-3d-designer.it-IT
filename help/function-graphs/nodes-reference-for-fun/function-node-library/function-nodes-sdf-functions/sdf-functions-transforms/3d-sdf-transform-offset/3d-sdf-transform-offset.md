@@ -34,6 +34,6 @@ Spostate una forma SDF lungo un vettore.
 
 |  |  |
 | :--- | :--- |
-| <b>SDF</b> *Mobile* | Forma SDF di input. |
-| <b>Scostamento</b> *Float3* | Distanza di offset della forma SDF nelle direzioni X, Y e Z.<br><br><i>Impostazione predefinita: (0, 0, 0)</i> |
-| <b>P</b> *Float3* | La posizione trasformata dello spazio mondiale. Utilizza questo input per applicare trasformazioni aggiuntive utilizzando i nodi <b>Offset P</b> e <b>Rotazione P</b>.<br><br><i>Impostazione predefinita: la posizione dello spazio globale non trasformata.</i> |
+| <b>SDF</b> *Virgola mobile* | Forma SDF di input. |
+| <b>Scostamento</b> *Virgola mobile 3* | Distanza di offset della forma SDF nelle direzioni X, Y e Z.<br><br><i>Impostazione predefinita: (0, 0, 0)</i> |
+| <b>P</b> *Virgola mobile 3* | La posizione Trasforma nello spazio mondiale. Utilizza questo input per applicare trasformazioni aggiuntive utilizzando i nodi <b>Offset P</b> e <b>Rotazione P</b>.<br><br><i>Impostazione predefinita: la posizione dello spazio globale non trasformata.</i> |

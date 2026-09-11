@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Renderer 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: c7bf2522b15bef308d1471ca234c6619091f95fc
 workflow-type: tm+mt
 source-wordcount: '1632'
 ht-degree: 7%
@@ -20,7 +20,7 @@ ht-degree: 7%
 
 # Renderer 3D
 
-La vista 3D offre quattro moduli di rendering:
+Il vista 3D offre quattro moduli di rendering:
 
 * Due versioni del modulo di rendering 3D interno di Adobe: Rasterizzatore per la visualizzazione in tempo reale con supporto per le ombre e Pathtracer GPU per il rendering accurato di ombre, riflessi, proprietà di materiali complessi e altro ancora.
 * Due moduli di rendering di terze parti obsoleti: OpenGL e Iray di NVIDIA.
@@ -38,11 +38,11 @@ La vista 3D offre quattro moduli di rendering:
 <table>
   <tr>
     <td>
-      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
+      <img src="3d-renderers.resources/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
       <br><i>Rasterizzatore</i>
     </td>
     <td>
-      <img src="../../../assets/3dRendererPathtracer-2.jpg" alt="3dRendererPathtracer-2">
+      <img src="3d-renderers.resources/3dRendererPathtracer-2.jpg" alt="3dRendererPathtracer-2">
       <br><i>Pathtracer GPU</i>
     </td>
   </tr>
@@ -50,20 +50,20 @@ La vista 3D offre quattro moduli di rendering:
 
 +++
 
-Il modulo di rendering 3D di Adobe è stato creato appositamente per supportare le tecnologie più recenti, come il linguaggio di ombreggiatura [MaterialX](https://materialx.org/) e la descrizione della scena [USD](https://openusd.org/release/index.html), ed è in grado di offrire la massima coerenza visiva per l’intero ecosistema Substance 3D.
+Il modulo di rendering 3D di Adobe è stato creato appositamente per supportare le tecnologie più recenti, come il linguaggio di ombreggiatura [MaterialX](https://materialx.org/) e la descrizione della scena [USD](https://openusd.org/release/index.html), ed è in grado di offrire una completa coerenza visiva in tutto l’ecosistema Substance 3D.
 
-Grazie alla sua dipendenza da USD, può sfruttare il plug-in [USDFileFormat](https://github.com/adobe/USD-Fileformat-plugins) di Adobe per importare molti formati di scene 3D, come FBX e GLTF, ed eseguire il rendering di queste scene completamente, inclusi materiali, trame, fotocamere e luci.
+Grazie alla sua dipendenza dall&#39;USD, può sfruttare il plug-in [USDFileFormat](https://github.com/adobe/USD-Fileformat-plugins) di Adobe per importare molti formati di scene 3D, come FBX e GLTF, ed eseguire il rendering di queste scene completamente, inclusi materiali, texture, fotocamere e luci.
 
 +++ Importazione scene: rasterizzatore e OpenGL
 
 <table>
   <tr>
     <td>
-      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
+      <img src="3d-renderers.resources/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
       <br><i>Rasterizzatore</i>
     </td>
     <td>
-      <img src="../../../assets/3dRendererOpenGL-2.jpg" alt="3dRendererOpenGL-2">
+      <img src="3d-renderers.resources/3dRendererOpenGL-2.jpg" alt="3dRendererOpenGL-2">
       <br><i>OpenGL</i>
     </td>
   </tr>
@@ -111,7 +111,7 @@ Grazie alla sua dipendenza da USD, può sfruttare il plug-in [USDFileFormat](htt
 
 +++
 
-![Rasterizzatore - Esempio 1](../../../assets/3dRendererRasterizer.jpg "Rasterizzatore - Esempio 1"){zoomable="yes"}
+![Rasterizzatore - Esempio 1](3d-renderers.resources/3dRendererRasterizer.jpg "Rasterizzatore - Esempio 1"){zoomable="yes"}
 
 <a name="gpu-pathtracer"></a>
 
@@ -121,9 +121,9 @@ Grazie alla sua dipendenza da USD, può sfruttare il plug-in [USDFileFormat](htt
 
 |                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 |-----------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Esempi** Mobile | Specifica il numero di campioni di pixel da calcolare prima che l&#39;immagine venga considerata convergente. |
+| Virgola mobile **Esempi** | Specifica il numero di campioni di pixel da calcolare prima che l&#39;immagine venga considerata convergente. |
 | **Attiva spostamento** booleano | Specifica se abilitare lo spostamento. |
-| **Soglia di Spostamento** Mobile | Imposta una soglia per abilitare o disabilitare la tassellatura GPU. |
+| Virgola mobile **soglia Spostamento** | Imposta una soglia per abilitare o disabilitare la tassellatura GPU. |
 | **Abilita eliminazione backface** booleano | Un valore vero consentirà di eliminare le trame triangolari che hanno delle normali orientate in direzione opposta rispetto alla fotocamera. Un valore falso disattiverà l’eliminazione del backface. |
 | **Tipo di ciclo pixel** Intero | Specifica la tecnica da utilizzare per ridurre la risoluzione di calcolo per il rendering interattivo:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Nessun ciclo:</i> disabilita il ciclo dei pixel e calcola ogni campione di pixel completo.</li> <li data-preserve-html="true"><i>Ottimale dispositivo:</i> seleziona la risoluzione ottimale del ciclo dei pixel in base al dispositivo utilizzato per il rendering.</li> <li data-preserve-html="true"><i>4x4:</i> Campiona 1/16 dei pixel per passaggio del ciclo.</li> <li data-preserve-html="true"><i>8x8:</i> Campiona 1/64 del passaggio pixel per ciclo.</li><li data-preserve-html="true"><i>Disturbo blu:</i> campiona adattivamente un numero di pixel e li suddivide per raggiungere una frequenza di fotogrammi oggettiva.</li> </ul> |
 | **Modalità diagnostica** Numero intero | Determina la modalità diagnostica da renderizzare. |
@@ -145,7 +145,7 @@ Grazie alla sua dipendenza da USD, può sfruttare il plug-in [USDFileFormat](htt
 
 +++
 
-![Tracciatore percorso GPU - Esempio 1](../../../assets/3dRendererPathtracer.jpg "Tracciatore percorso GPU - Esempio 1"){zoomable="yes"}
+![Tracciatore percorso GPU - Esempio 1](3d-renderers.resources/3dRendererPathtracer.jpg "Tracciatore percorso GPU - Esempio 1"){zoomable="yes"}
 
 <a name="opengl"></a>
 
@@ -210,7 +210,7 @@ Per la visualizzazione del height sono disponibili due tecniche:
 
 +++ Lambert
 
-Molto semplice lambert shader illuminazione, supporta solo il canale Diffuso. Utilizza il vecchio sistema di luci per punti e non supporta l’illuminazione delle immagini HDR.
+Molto semplice shader di illuminazione lambert, supporta solo canale Diffusa. Utilizza il vecchio sistema di luci puntiformi, non supporta l’illuminazione dell’immagine HDR.
 
 +++
 
@@ -238,7 +238,7 @@ La visualizzazione è bloccata a [0, 1]. Non è quindi possibile acquisire una l
 
 +++ Rugosità metallica
 
-Materiale PBR standard per il modello di rugosità metallica. Usa i canali Colore base, Metallico e Rugosità.
+Materiale PBR standard per il modello di Rugosità metallica. Usa canali Colore di base, Metallico e Rugosità.
 
 Per la visualizzazione del height sono disponibili due tecniche:
 
@@ -250,7 +250,7 @@ Per la visualizzazione del height sono disponibili due tecniche:
 
 +++ Rugosità metallica - Rivestita
 
-Materiale PBR rivestito per il modello di rugosità metallica. Usa i canali Colore base, Metallico e Rugosità, nonché i canali aggiuntivi &quot;Pelo&quot;.
+Materiale PBR rivestito per il modello di Rugosità metallica. Usa canali di Colore di base, metallici e di rugosità, oltre a canali aggiuntivi &quot;Pelo&quot;.
 
 Per la visualizzazione del height sono disponibili due tecniche:
 
@@ -260,9 +260,9 @@ Per la visualizzazione del height sono disponibili due tecniche:
 
 +++
 
-+++ Rugosità metallica - SSS
++++ RUGOSITÀ METALLICA - SSS
 
-Materiale PBR a dispersione sottosuperficie per il modello di rugosità metallica. Usa i canali Colore base, Metallico e Rugosità, nonché il canale di dispersione aggiuntivo.
+Materiale PBR a dispersione sottosuperficie per il modello di Rugosità metallica. Usa canali di Colore di base, metallici e di rugosità, nonché canali di dispersione aggiuntivi.
 
 Per la visualizzazione del height sono disponibili due tecniche:
 
@@ -296,4 +296,4 @@ Designer offre inoltre la possibilità di configurare shader personalizzati per 
 > 
 > Questo modulo di rendering è **deprecato**: non riceverà nuove funzioni e verrà ritirato in una versione futura di Designer.
 
-![OpenGL - Esempio 1](../../../assets/3dRendererOpenGL.jpg "OpenGL - Esempio 1"){zoomable="yes"}
+![OpenGL - Esempio 1](3d-renderers.resources/3dRendererOpenGL.jpg "OpenGL - Esempio 1"){zoomable="yes"}

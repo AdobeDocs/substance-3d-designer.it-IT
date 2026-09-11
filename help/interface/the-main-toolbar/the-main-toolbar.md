@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Barra degli strumenti principale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 2a6e26cc03e887569a518cadd171ae1b51ae6abd
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 2%
@@ -29,7 +29,7 @@ Questa pagina descrive la barra degli strumenti principale e il menu di [Substan
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
 
-![Barra degli strumenti principale](../../assets/mainmenu.png "Barra degli strumenti principale")
+![Barra degli strumenti principale](the-main-toolbar.resources/mainmenu.png "Barra degli strumenti principale")
 
 </td>
 </tr>
@@ -37,15 +37,15 @@ Questa pagina descrive la barra degli strumenti principale e il menu di [Substan
 
 ## Pulsanti di accesso rapido
 
-![](../../assets/newsubstance.png) <b>Nuovo grafico Substance...:</b> (Ctrl+N)Visualizza la finestra [Nuovo grafico](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md), quindi crea un nuovo pacchetto con un [grafico Substance](../../compositing-graphs/substance-compositing-graphs.md).
+![](the-main-toolbar.resources/newsubstance.png) <b>Nuovo grafico Substance...:</b> (Ctrl+N)Visualizza la finestra [Nuovo grafico](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md), quindi crea un nuovo pacchetto con un [grafico Substance](../../compositing-graphs/substance-compositing-graphs.md).
 
-![](../../assets/open.png) <b>Apri...:</b> (Ctrl+O) Apri un [pacchetto di Substance esistente (.SBS, .SBSAR, .SBSASM)](../../getting-started/overview/overview.md).
+![](the-main-toolbar.resources/open.png) <b>Apri...:</b> (Ctrl+O) Apri un [pacchetto di Substance esistente (.SBS, .SBSAR, .SBSASM)](../../getting-started/overview/overview.md).
 
-![](../../assets/saveall.png) <b>Salva tutto:</b> (Ctrl+⇧+S) Salva tutti i pacchetti elencati in [Esplora risorse](../../interface/the-explorer-window/the-explorer-window.md).
+![](the-main-toolbar.resources/saveall.png) <b>Salva tutto:</b> (Ctrl+⇧+S) Salva tutti i pacchetti elencati in [Esplora risorse](../../interface/the-explorer-window/the-explorer-window.md).
 
-![](../../assets/undo.png) <b>Annulla:</b> (CTRL+Z) Annulla l&#39;ultima operazione.
+![](the-main-toolbar.resources/undo.png) <b>Annulla:</b> (CTRL+Z) Annulla l&#39;ultima operazione.
 
-![](../../assets/redo.png) <b>Ripeti:</b> (CTRL+Y) Ripeti l&#39;ultima operazione annullata.
+![](the-main-toolbar.resources/redo.png) <b>Ripeti:</b> (CTRL+Y) Ripeti l&#39;ultima operazione annullata.
 
 ## File
 

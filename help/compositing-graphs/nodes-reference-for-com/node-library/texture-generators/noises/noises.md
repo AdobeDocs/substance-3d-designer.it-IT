@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises.html"
 breadcrumb-title: ''
-description: Accedete ai nodi dei generatori di rumore in Substance 3D Designer per creare pattern di disturbo procedurali per la generazione e la variazione delle texture.
+description: Accedere ai nodi dei generatori di rumore in Substance 3D Designer per creare pattern di disturbo procedurali per la generazione e la variazione delle texture.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises
 helpx_experience_level: ""
@@ -30,7 +30,7 @@ All’interno della categoria Rumori sono disponibili 3 diversi gruppi di utiliz
 
 * La grande maggioranza sono i rumori standard, che estendono un ampio spettro e sono utili in molti casi.
 * Le mappe delle grungi sono rumori composti con profondità e dettagli molto più numerosi rispetto ai rumori standard, al costo di una velocità di calcolo molto più lenta.
-* Rumori 3D che richiedono almeno una mappa di posizione cotta da una trama, sono destinati a casi d&#39;uso molto specifici.
+* Rumori 3D che richiedono almeno una mappa di posizione eseguita i baking da una trama, sono destinati a casi d&#39;uso molto specifici.
 
 Utilizza l&#39;<b>elenco di navigazione a sinistra</b> per sfogliare tutti i nodi in Disturbi.
 

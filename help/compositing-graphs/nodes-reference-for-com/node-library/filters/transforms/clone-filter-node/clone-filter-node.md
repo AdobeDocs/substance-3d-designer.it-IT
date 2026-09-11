@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/clone-filter-node.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo del filtro Clona per duplicare e scostare le aree della texture e creare pattern ed effetti di affiancamento uniformi.
+description: Utilizzate il nodo del filtro Clona /Clone per duplicare e scostare le aree della texture per creare pattern senza interruzioni ed effetti Affiancamenti.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Clone (Filter Node)
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Clona (nodo filtro)
+title: Clona /Clone (nodo filtro)
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: f792519db40504d7bb888acf0dc418c6ebfd688a
@@ -18,7 +18,7 @@ ht-degree: 4%
 ---
 
 
-# Clona (nodo filtro)
+# Clona /Clone (nodo filtro)
 
 <table>
 <tr style="border: 0;">
@@ -33,7 +33,7 @@ ht-degree: 4%
 
 ## Descrizione
 
-Clona l&#39;immagine di input una volta in una posizione specificata. Può funzionare come uno strumento &quot;timbro clone&quot; grezzo.
+Clona /Clone l&#39;immagine di input una volta in una posizione specificata. Può funzionare come uno strumento &quot;timbro clone&quot; grezzo.
 
 È necessario prestare particolare attenzione per ottenere i risultati desiderati:
 
@@ -51,7 +51,7 @@ Clona l&#39;immagine di input una volta in una posizione specificata. Può funzi
 
 |  |  |
 |:---|:---|
-| <b>Origine</b> <i>Input colore</i> | Immagine da clonare. Importante: l’ideale sarebbe che l’immagine avesse un canale alfa. |
+| <b>Origine</b> <i>Input colore</i> | Immagine da clonare. Importante: idealmente, l&#39;immagine avrà un canale alfa. |
 | <b>Maschera</b> <i>Input scala di grigi</i> | Slot maschera utilizzato per mascherare gli effetti del nodo. Il valore predefinito è nero. |
 
 <a name="parameters"></a>

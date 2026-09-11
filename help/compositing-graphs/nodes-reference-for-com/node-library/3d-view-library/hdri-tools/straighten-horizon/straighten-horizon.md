@@ -46,6 +46,6 @@ Per le immagini HDRI con un orizzonte non retto, questo nodo fornisce un modo se
 |  |  |
 |:---|:---|
 | <b>Abilita correzione orizzonte</b> <i>Falso/Vero</i> | Attiva e disattiva l’effetto. Consente di attivare/disattivare per confrontare prima e dopo e trovare i punti corretti. |
-| <b>Posizione #1 punto orizzonte</b> | Primo punto, con maniglia di visualizzazione 2D. |
-| <b>Posizione #2 punto orizzonte</b> | Secondo punto, con maniglia di visualizzazione 2D. |
+| <b>Posizione #1 punto orizzonte</b> | Primo punto, con maniglia vista 2D. |
+| <b>Posizione #2 punto orizzonte</b> | Secondo punto, con maniglia vista 2D. |
 | <b>Rotazione orizzontale</b> <i>0.0 - 1.0</i> | Rotazione aggiuntiva attorno all’asse centrale. |

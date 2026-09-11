@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/multi-directional-warp.html"
 breadcrumb-title: ''
-description: Usate il nodo Alterazione multidirezionale per applicare gli effetti di alterazione in più direzioni per la creazione di serie di distorsioni complesse.
+description: Utilizzare il nodo Alterazioni direzionali multiple per applicare effetti di alterazione in più direzioni per la creazione di serie di distorsioni complesse.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Multi Directional Warp
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Alterazione multidirezionale
+title: Alterazioni direzionali multiple
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 2ea5b90ca7a4cbcd0b0049b156e8ded334aa0ceb
@@ -18,7 +18,7 @@ ht-degree: 3%
 ---
 
 
-# Alterazione multidirezionale
+# Alterazioni direzionali multiple
 
 <table>
 <tr style="border: 0;">
@@ -33,7 +33,7 @@ ht-degree: 3%
 
 ## Descrizione
 
-Alterazione multidirezionale applica [Alterazione direzionale](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md) più volte in direzioni opposte, mentre la texture spostata rimane al suo posto. Differisce dall&#39;Alterazione direzionale standard in quanto può spingere in più direzioni, mentre la versione atomica ne consente solo una. In questo modo viene risolto il problema classico per cui Alterazione direzione sembra sempre allontanare troppo l’immagine in un’unica direzione, invece di funzionare lungo più direzioni o assi.
+L&#39;Alterazione direzionale multipla applica [l&#39;Alterazione direzionale](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md) più volte in direzioni opposte mentre la texture spostata rimane in posizione. Si differenzia dall&#39;Alterazione direzionale standard in quanto può spingere in più direzioni, mentre la versione atomica ne consente solo una. In questo modo si risolve il classico problema per cui l’Alterazione direzionale sembra sempre allontanare troppo l’immagine in un’unica direzione, invece di funzionare lungo più direzioni o assi.
 
 Differisce principalmente da [Non Uniform Directional Warp](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/non-uniform-directional/non-uniform-directional-warp.md) in quanto è leggermente più limitato: la direzione dell&#39;alterazione è controllata solo tramite parametri e non può essere impostata tramite una mappa di input. Il vantaggio è che è leggermente più facile da usare e può essere più preciso a seconda del caso d&#39;uso.
 
@@ -58,5 +58,5 @@ Differisce principalmente da [Non Uniform Directional Warp](../../../../../../co
 |:---|:---|
 | <b>Intensità</b> <i>0.0 - 20.0</i> | Consente di impostare l’intensità dell’effetto di alterazione e l’ampiezza dell’allontanamento dei pixel. |
 | <b>Angolo di alterazione</b> <i>0.0 - 1.0</i> | Consente di impostare l’angolo o la direzione in cui applicare l’effetto Altera. |
-| <b>Modalità</b> <i>Media, Max, Min, Catena</i> | Imposta il metodo di fusione per le passate consecutive. Ha effetto solo se Direzioni è 2 o 4! |
+| <b>Modalità</b> <i>Media, Max, Min, Catena</i> | Imposta la modalità di Fusione per le passate consecutive. Ha effetto solo se Direzioni è 2 o 4! |
 | <b>Indicazioni</b> <i>1, 2, 4</i> | Consente di impostare il numero di assi di funzionamento dell’alterazione. 1 significa che si muove nella direzione dell&#39;angolo, e l&#39;opposto di quella direzione, 2 significa l&#39;asse dell&#39;angolo, più l&#39;asse perpendicolare, 4 significa gli assi precedenti, più inclinazioni di 45 gradi. |

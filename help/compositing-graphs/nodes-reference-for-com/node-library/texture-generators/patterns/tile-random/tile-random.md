@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Affianca casuale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: b63bc7a45aa6eadef1b72eb05d4a6aded05866a8
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/tile-random.png){width="128px"}
+![](tile-random.resources/tile-random.png){width="128px"}
 
 <b>In:</b> Generatori > Pattern
 
@@ -58,7 +58,7 @@ Affianca casuale viene utilizzato al posto di [Tile Generator](../../../../../..
 |:---|:---|
 | <b>X importo</b> <i>1 - 64</i> | Quantità di ripetizioni X del pattern. |
 | <b>Importo Y</b> <i>1 - 64</i> | Quantità di ripetizioni Y del pattern. |
-| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati. |
+| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di squash e allungamento con rapporti non quadrati. |
 | <b>Pattern</b> |  |
 | <b>Pattern</b> <i>Input pattern, Quadrato, Disco, Paraboloide, Campana, Gaussiana, Torace, Piramide, Mattone, Gradazione, Onde, Mezza campana, Campana Ridotta, Mezzaluna, Capsula, Cono</i> | Seleziona la forma del motivo da utilizzare. |
 | <b>Filtro input immagine (motore > v4)</b> <i>Bilineare + Mipmap, Bilineare, Più Vicino</i> |  |
@@ -106,7 +106,7 @@ Affianca casuale viene utilizzato al posto di [Tile Generator](../../../../../..
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/tile-random-1.png" />
+            <img src="tile-random.resources/tile-random-1.png" />
         </td>
     </tr>
 </table>

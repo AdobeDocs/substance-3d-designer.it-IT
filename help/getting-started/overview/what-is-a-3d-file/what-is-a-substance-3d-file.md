@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Che cos’è un file Substance 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Che cos&#39;è un file Substance 3D?
 
-![Materiale di parete di mattoni parametrici](../../../assets/MaterialsOverview.gif "Materiale di parete di mattoni parametrici")
+![Materiale di parete di mattoni parametrici](what-is-a-substance-3d-file.resources/MaterialsOverview.gif "Materiale di parete di mattoni parametrici")
 
 *Esempio di materiale da parete in mattoni realizzato da Käy Vriend.\
 I parametri possono essere modificati per controllare dinamicamente l&#39;aspetto del materiale.*

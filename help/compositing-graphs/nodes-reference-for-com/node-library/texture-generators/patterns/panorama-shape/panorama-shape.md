@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/panorama-shape.html"
 breadcrumb-title: ''
-description: Utilizzare il nodo Forma panorama per creare forme associate a coordinate panoramiche per la generazione di texture ambientali.
+description: Utilizzate il nodo Forma panorama per creare forme associate a coordinate panoramiche per la generazione di texture nell'ambiente.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Panorama Shape
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Forma panorama
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: dbfe5b7ce453a6178d8d970698d3a5f8225151b4
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/panorama-shape-1.png){width="128px"}
+![](panorama-shape.resources/panorama-shape-1.png){width="128px"}
 
 <b>Ingresso:</b> Generatori Texture > Pattern
 
@@ -33,7 +33,7 @@ ht-degree: 6%
 
 ## Descrizione
 
-Questo è un nodo utile per la generazione di mappe panoramiche procedurali di tipo &quot;Studio&quot;. Consente di posizionare e modificare le immagini in evidenza, nonché di impostarne le proprietà HDR. Può essere concatenato per più forme.
+Questo è un nodo utile per generare mappe panoramiche procedurali di tipo &quot;Studio&quot;. Consente di posizionare e modificare le immagini in evidenza, nonché di impostarne le proprietà HDR. Può essere concatenato per più forme.
 
 </td>
 </tr>

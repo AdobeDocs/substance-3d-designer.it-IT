@@ -20,11 +20,11 @@ ht-degree: 6%
 
 # Fusione
 
-Questa categoria è un&#39;estensione del nodo di fusione atomica [.](../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) Contiene metodi di fusione espansi e più complessi che non si trovano nel nodo standard.
+Questa categoria è un&#39;estensione del nodo di Fusione atomica [.](../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) Contiene modalità di Fusione espanse e più complesse che non si trovano nel nodo standard.
 
 Utilizza l&#39;<b>elenco di navigazione a sinistra</b> per sfogliare tutti i nodi in Fusione.
 
-Alcuni nodi di blend interessanti:
+Alcuni nodi di Fusione interessanti:
 
 * [Differenza](../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/difference/difference.md)
 * [Cambia](../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md)

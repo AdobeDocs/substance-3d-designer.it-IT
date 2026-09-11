@@ -30,9 +30,9 @@ Questa pagina descrive il formato Tracciati e fornisce indicazioni per la modifi
 
 Questa sezione spiega come viene codificato un documento (o immagine) di <b>tracciati</b>:
 
-Un documento Percorsi è un elenco di percorsi, ognuno dei quali descrive un elenco di segmenti, codificato in una texture di colore a virgola mobile a <b>32 bit</b>.
+Un documento Percorsi è un elenco di percorsi, ognuno dei quali descrive un elenco di segmenti, codificato in una texture di colori a virgola mobile a <b>32 bit</b>.
 
-La texture viene divisa in parti &#39;top&#39; (*$pos.y &lt; 0.5*) e &#39;bottom&#39; (*$pos.y > 0.5*).
+La texture è divisa in parti &#39;top&#39; (*$pos.y &lt; 0.5*) e &#39;bottom&#39; (*$pos.y > 0.5*).
 
 Tutti i dati di un pixel nella parte &quot;superiore&quot; sono semanticamente correlati al pixel corrispondente nella parte &quot;inferiore&quot; e viceversa.
 
@@ -49,7 +49,7 @@ Tutti i dati di un pixel nella parte &quot;superiore&quot; sono semanticamente c
 >
 > I dati dei percorsi richiedono una precisione di 32 bit e l&#39;utilizzo di una profondità di bit inferiore produrrà risultati errati.
 > 
-> Pertanto, assicuratevi di impostare il parametro &#39;Formato output&#39; dei nodi che generano i dati dei percorsi su &#39;HDR High Precision (32F)&#39;.
+> Pertanto, assicurati di impostare il parametro &#39;Formato output&#39; dei nodi che generano i dati dei percorsi su &#39;HDR High Precision (32F)&#39;.
 
 Sia `*uv\_pos*` un indirizzo 2D (ad esempio *$pos*) di un pixel della parte &#39;superiore&#39;.
 
@@ -58,7 +58,7 @@ Nel resto del documento:
 * <b>top[uv\_pos].XYZW</b> farà riferimento ai 4 float memorizzati nel pixel della parte superiore.\
   top[uv\_pos] == esempio\_color(percorsi, uv\_pos)
 * <b>bottom[uv\_pos].XYZW</b> farà riferimento ai 4 float memorizzati nel pixel corrispondente della parte inferiore.\
-  bottom[uv\_pos] == esempio\_color(paths, uv\_pos + Float2(0, 0.5))
+  bottom[uv\_pos] == esempio\_color(paths, uv\_pos + Virgola mobile 2(0, 0.5))
 
 top[uv\_pos] e bottom[uv\_pos] insieme formano un&#39;unità semantica U[uv\_pos] del documento, composta da 8 float.
 
@@ -203,7 +203,7 @@ Se desiderate creare nodi di elaborazione tracciati personalizzati, avete a disp
 
 Le nozioni di base sono fornite dai nodi [Paths Vertex Processor](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md) e [Paths Vertex Processor Simple](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor-1/paths-vertex-processor-simple.md), che possono essere utilizzati nello stesso modo di un [Pixel Processor](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md).
 
-Se sono necessarie funzionalità che vanno oltre a quelle offerte dai nodi del processore del vertice dei percorsi (più texture di input o più vertici precedenti o successivi), copiare l&#39;implementazione di questo grafico potrebbe essere un buon punto di partenza (supponendo di sostituire il nodo <b>Get(&quot;%perVertex&quot;)</b> con l&#39;elaborazione personalizzata).
+Se sono necessarie funzionalità che vanno oltre quelle offerte dai nodi del processore vertici percorsi (più texture di input o più vertici precedenti o successivi), la copia dell&#39;implementazione di questo grafico potrebbe essere un buon punto di partenza (supponendo di sostituire il nodo <b>Get(&quot;%perVertex&quot;)</b> con l&#39;elaborazione personalizzata).
 
 Ma se volete fare qualcosa di più alieno che applicare una funzione per vertice, ecco una spiegazione dettagliata degli strumenti che potete usare. Si tratta in genere di piccole funzioni di supporto che si trovano nello stesso pacchetto degli altri nodi Percorsi (*percorsi\_tools.sbs)*. Queste funzioni non sono disponibili nel menu [<b>Libreria</b>](../../../../../../interface/the-library/the-library.md) e <b>Nodo</b>.
 
@@ -211,7 +211,7 @@ Ma se volete fare qualcosa di più alieno che applicare una funzione per vertice
 
 Nella cartella `Read`, puoi trovare alcuni di questi elementi, utili per raccogliere informazioni sui percorsi:
 
-Alcuni possono fornire informazioni su un determinato pixel. Tutti accettano il valore Float4 campionato nella parte \*top\* come input. Se guardate alla loro implementazione, sono molto semplici. Il loro scopo è quello di trasmettere più significato dei semplici nodi atomici:
+Alcuni possono fornire informazioni su un determinato pixel. Tutti accettano come input il valore Virgola mobile 4 campionato nella parte \*top\*. Se guardate alla loro implementazione, sono molto semplici. Il loro scopo è quello di trasmettere più significato dei semplici nodi atomici:
 
 +++is_header
 Verificate che il valore campionato corrente sia un’intestazione tracciato o un’intestazione documento.
@@ -261,7 +261,7 @@ Se si tratta di un vertice, indica se è possibile dedurre facilmente la posizio
 +++
 
 +++sample_next, sample_prev
-Dato il valore campionato della parte superiore `*sampled*` e la sua posizione `*sampled\_position*`, restituisce il valore campionato della parte superiore del vertice successivo (rispettivamente precedente) e Imposta una variabile Float2 `*next\_sampled\_pos*` sulla posizione (nella parte superiore) di questo vicino (ovvero &lt;valore restituito> = SampleColor(next\_samples\_pos, image0)). `*input0PixSize*`deve essere uguale alla dimensione in pixel del tracciato (top[(0,0)].YZ).
+Dato il valore campionato della parte superiore `*sampled*` e la sua posizione `*sampled\_position*`, restituisce il valore campionato della parte superiore del vertice successivo (rispettivamente precedente) e Imposta una variabile Virgola mobile2 `*next\_sampled\_pos*` sulla posizione (nella parte superiore) di questo vicino (ovvero &lt;valore restituito> = SampleColor(next\_samples\_pos, image0)). `*input0PixSize*`deve essere uguale alla dimensione in pixel del tracciato (top[(0,0)].YZ).
 
 Se il pixel corrente (`*sampled*`) è un vertice <b>Inizio</b>, *esempio\_prev* restituirà il fratello successivo di questo vertice; allo stesso modo, se è un vertice <b>Fine</b>, *campione\_successivo* restituirà il fratello successivo di questo vertice (ovvero, potrebbe non essere quello desiderato). Per risolvere il problema, vedere `*sample\_next\_advanced*` e `*sample\_prev\_advanced*` di seguito.
 
@@ -286,9 +286,9 @@ Questo è destinato a funzionare su tracciati chiusi. Per i tracciati aperti, il
 
 ### Funzioni &#39;Write&#39;
 
-Nella cartella `Write`, troverai piccoli helper che creano un Float4 pronto per essere scritto <b>da un [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)</b>.
+Nella cartella `Write`, troverai piccoli helper che creano una Virgola mobile4 pronta per essere scritta <b>da un [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)</b>.
 
-In effetti, [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) moltiplica RGB per Alpha prima di disegnare, quindi i valori effettivi non vengono premoltiplicati per compensare. Se si desidera utilizzare queste funzioni, ad esempio in un [processore pixel](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), si consiglia di applicare nuovamente la premoltiplicazione o di scrivere una versione personalizzata (più ottimizzata per il caso d&#39;uso e più facile da usare).
+In effetti, [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) moltiplica RGB per Alpha prima di disegnare, quindi i valori effettivi non vengono premoltiplicati per compensare. Se desideri utilizzare queste funzioni, ad esempio in un [Elaboratore pixel](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), ti consigliamo di applicare nuovamente la premoltiplicazione o di scrivere una versione personalizzata (più ottimizzata per il tuo caso d&#39;uso e più facile da usare).
 
 +++document_header
 Crea la parte superiore dell’intestazione del documento, dichiarando il numero di percorsi forniti.
@@ -312,13 +312,13 @@ Informazioni sul parametro *mid\_vertex* e *hasTrivialLinks*: se preferisci impo
 
 +++
 
-Non esiste un generatore di parti inferiori per le intestazioni di percorso e i vertici: entrambi codificano due collegamenti alla parte superiore, quindi questa funzione sarebbe essenzialmente un costruttore Vector Float4 da due Float2. Non dimenticare di dividere XYZ per W se scrivi utilizzando una [Mappa Fx](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) (dove W è la Y di un indirizzo e non deve mai essere null).
+Non esiste un generatore di parti inferiori per le intestazioni di percorso e i vertici: entrambi codificano due collegamenti alla parte superiore, quindi questa funzione sarebbe essenzialmente un costruttore Vettore Float4 da due Virgola mobile2. Non dimenticare di dividere XYZ per W se scrivi utilizzando una [Mappa Fx](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) (dove W è la Y di un indirizzo e non deve mai essere null).
 
 Troverai un esempio pertinente di come utilizzare queste funzioni nel pacchetto <b>*paths\_polygon.sbs* </b>che ospita il nodo [Paths Polygon](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-polygon/paths-polygon.md).
 
 ### Metodi per l’elaborazione dei tracciati
 
-Per implementare l’elaborazione personalizzata, probabilmente utilizzerai un processore pixel o una mappa Fx, ognuno dei quali ha i suoi punti di forza e di debolezza:
+È probabile che per implementare l&#39;elaborazione personalizzata si utilizzi un Elaboratore pixel o una mappa Fx, ognuno dei quali ha i propri punti di forza e di debolezza:
 
 +++FX-Map
 La soluzione basata su [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) sarà in genere preferita quando si eseguono operazioni di alto livello che richiedono una conoscenza globale dell&#39;intero percorso (o percorsi) o una conoscenza cumulativa (ad esempio, se si esegue il reinserimento dei vertici dopo la decimazione o la tassellatura). È anche il metodo più semplice da utilizzare, quindi se si esegue un&#39;elaborazione personalizzata per la prima volta, è possibile utilizzare una mappa Fx, nonostante *potrebbe* essere più lenta.
@@ -330,7 +330,7 @@ Si consiglia di esaminare l&#39;implementazione di [Anteprima tracciati](../../.
 +++
 
 +++Elaborazione pixel
-La soluzione [Pixel Processor](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) sarà adatta se sono necessarie solo informazioni &quot;locali&quot;. Qui intendiamo &quot;locale&quot; non spazialmente (la distanza tra gli elementi) ma piuttosto topologicamente (vertici collegati tra loro). Questo è il modo in cui viene implementato il Processore Vertice. Il processore pixel è in genere più veloce rispetto alla mappa Fx per questo tipo di operazioni, poiché la funzione di ciascun pixel viene valutata in parallelo, mentre si accede solo a una quantità limitata di dati. Lo sforzo di implementazione potrebbe tuttavia essere molto più importante, in quanto è possibile modificare solo il pixel corrente.
+La soluzione [Elaboratore pixel](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) sarà adatta se sono necessarie solo informazioni &quot;locali&quot;. Qui intendiamo &quot;locale&quot; non spazialmente (la distanza tra gli elementi) ma piuttosto topologicamente (vertici collegati tra loro). Questo è il modo in cui viene implementato il Processore Vertice. L&#39;Elaboratore pixel è in genere più veloce della mappa Fx per questo tipo di operazione, poiché la funzione di ciascun pixel viene valutata in parallelo, mentre si accede solo a una quantità limitata di dati. Lo sforzo di implementazione potrebbe tuttavia essere molto più importante, in quanto è possibile modificare solo il pixel corrente.
 
 Non entreremo nei dettagli, poiché c&#39;è così tanto da dire a seconda del tuo caso d&#39;uso specifico, ma la prima cosa da fare è verificare dove sei:
 

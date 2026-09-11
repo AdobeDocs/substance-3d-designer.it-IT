@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Variabili
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 81c39001686736d41614fd59247d53e6d8438def
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 1%
@@ -61,7 +61,7 @@ Ancora una volta tutti i valori devono essere dello stesso tipo.
 
 A tale scopo, è possibile scegliere tra tutti i seguenti valori numerici:
 
-![](../../assets/image2015-12-18-14-10-36.png)
+![](variables.resources/image2015-12-18-14-10-36.png)
 
 ## Booleano
 

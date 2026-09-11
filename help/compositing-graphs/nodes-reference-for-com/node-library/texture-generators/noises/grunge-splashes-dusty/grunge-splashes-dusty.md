@@ -52,8 +52,8 @@ Il nodo **Schizzi di Grunge polverosi** genera una mappa di grunge simile a schi
 | <b>Avanzate</b> |  |
 | <b>Quantità splash</b> <i>Mobile</i> | Regola la quantità di spruzzi sulla superficie. |
 | <b>Distorsione schizzi</b> <i>Mobile</i> | Regola l’intensità dell’effetto di alterazione applicato agli schizzi. |
-| <b>Rapporto splash/Dirt</b> <i>Mobile</i> | Regola le *proporzioni* del dirt e ne provoca l&#39;apertura. |
-| <b>Pagine affiancate di Dirt</b> <i>Mobile</i> | Regola la diffusione del dirt. |
+| <b>Rapporto splash/Dirt</b> <i>Virgola mobile</i> | Regola le *proporzioni* del dirt e ne provoca l&#39;apertura. |
+| <b>Pagine affiancate di Dirt</b> <i>Virgola mobile</i> | Regola la diffusione del dirt. |
 
 ## Esempi
 

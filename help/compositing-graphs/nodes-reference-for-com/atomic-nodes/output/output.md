@@ -69,24 +69,24 @@ Di conseguenza, non influiscono sul formato delle [esportazioni bitmap](../../..
 | <b>Utilizzo</b> *Stringa* | Definisce il tipo e l&#39;utilizzo del nodo di output. Questa proprietà è importante in quanto guida:<ul data-preserve-html="true"> <li data-preserve-html="true">Connessione di nodi nei grafici a Substance quando si utilizzano alcune [modalità di creazione del collegamento](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) </li> <li data-preserve-html="true">Connessione delle texture agli shader nella vista 3D (vedere di seguito: &#39;[Informazioni sul ruolo degli usi nella vista 3D](#usages-role-3dview)&#39;)</li> <li data-preserve-html="true">Connessione della texture ai materiali nelle integrazioni/plug-in</li> </ul> |
 | <b>Spazio colore</b> *Stringa* | Imposta lo spazio cromatico in cui deve essere interpretato questo output. Viene utilizzato da alcune integrazioni in altre applicazioni e non ha alcun impatto su Designer. |
 
-### Informazioni sul ruolo degli utilizzi nella vista 3D
+### Informazioni sul ruolo degli utilizzi nel vista 3D
 
-Poiché gli output dei grafici sono spesso destinati a essere il risultato finale per un canale di texture specifico, gli output possono essere inviati automaticamente al campionatore appropriato dello shader utilizzato nella vista 3D.
+Poiché le uscite dei grafici sono spesso intese come il risultato finale per un canale di texture specifico, le uscite possono essere inviate automaticamente al campionatore appropriato dello shader utilizzato nel vista 3D.
 
-In effetti, un output la cui proprietà *Utilizzo</b> corrisponde all&#39;utilizzo di un campionatore* nella vista 3D verrà collegato a tale campionatore. <b>Ad esempio, un output con utilizzo `basecolor` verrà collegato al campionatore `basecolor` dello shader vista 3D. Ulteriori informazioni sono disponibili nella sezione [Visualizza dati nella vista 3D](../../../../interface/3d-view/3d-view.md) della pagina [Vista 3D](https://substance3d.adobe.com/documentation/display/draftdesigner/.3d%20view%20vdraftversion).
+Infatti, un output la cui proprietà *Utilizzo</b> corrisponde all&#39;utilizzo di un campionatore* nel vista 3D verrà collegato a tale campionatore. <b>Ad esempio, un output con utilizzo `basecolor` verrà collegato al campionatore `basecolor` dello shader di vista 3D. Ulteriori informazioni sono disponibili nella sezione [Visualizza dati nella vista 3D](../../../../interface/3d-view/3d-view.md) della pagina [vista 3D](https://substance3d.adobe.com/documentation/display/draftdesigner/.3d%20view%20vdraftversion).
 
-Fate clic su RMB in un&#39;area vuota della [vista Grafico](../../../../interface/the-graph-view/the-graph-view.md) e selezionate l&#39;opzione <b>Visualizza output in vista 3D</b> nel menu di scelta rapida per connettere tutti gli output ai campionatori della vista 3D con *usi corrispondenti*.
+Fate clic su RMB in un&#39;area vuota della [visualizzazione Grafico](../../../../interface/the-graph-view/the-graph-view.md) e selezionate l&#39;opzione <b>Visualizza output in visualizzazione 3D</b> nel menu di scelta rapida per connettere tutti gli output ai campionatori di vista 3D con *utilizzi corrispondenti*.
 
 >[!IMPORTANT]
 >
-> Se sono impostati più utilizzi, ad esempio per assegnare gli utilizzi ai canali in una texture compressa, solo il *primo utilizzo* nell&#39;elenco sarà connesso alla vista 3D. Si tratta di una limitazione nota.
+> Se sono impostati più usi, ad esempio per assegnare gli usi ai canali di una texture compressa, solo il *primo utilizzo* dell&#39;elenco sarà connesso alla vista 3D. Si tratta di una limitazione nota.
 
 ## Output predefinito
 
 Quando un grafico ha più di un output, uno di questi può essere impostato come output predefinito per quel grafico. Specifica quali output devono essere utilizzati per:
 
 * Miniatura di qualsiasi nodo di istanza che rappresenta il grafico
-* Visualizzazione di questi nodi di istanza nella vista 2D
+* Visualizzazione di questi nodi di istanza nel vista 2D
 * Miniatura del grafico nella libreria (ulteriori informazioni sull&#39;aggiunta di risorse proprie [qui](../../../../interface/preferences-window/project-settings/project-settings.md))
 
 Questa funzione consente di disporre gli output del grafico in qualsiasi ordine indipendentemente da come verrà visualizzato il grafico come nodo.

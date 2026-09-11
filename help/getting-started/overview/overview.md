@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Panoramica
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 Ecco come viene confrontato con altre applicazioni:
 
-|  | <div><img alt="Icona Substance 3D Sampler" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c1_position_position-par_image_713298714" src="../../assets/sa-appicon-noshadow-256.png" title="Icona Substance 3D Sampler" width="64px"/></div>  Substance 3D Sampler | <div><img alt="Icona Substance 3D Painter" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c2_position_position-par_image" src="../../assets/pt-appicon-noshadow-256.png" width="64px"/></div>  Substance 3D Painter | <div><img alt="Icona Substance 3D Designer" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c3_position_position-par_image" src="../../assets/ds-appicon-noshadow-256.png" title="Icona Substance 3D Designer" width="64px"/></div>  Substance 3D Designer |
+|  | <div><img alt="Icona Substance 3D Sampler" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c1_position_position-par_image_713298714" src="overview.resources/sa-appicon-noshadow-256.png" title="Icona Substance 3D Sampler" width="64px"/></div>  Substance 3D Sampler | <div><img alt="Icona Substance 3D Painter" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c2_position_position-par_image" src="overview.resources/pt-appicon-noshadow-256.png" width="64px"/></div>  Substance 3D Painter | <div><img alt="Icona Substance 3D Designer" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c3_position_position-par_image" src="overview.resources/ds-appicon-noshadow-256.png" title="Icona Substance 3D Designer" width="64px"/></div>  Substance 3D Designer |
 | --- | --- | --- | --- |
 | <b>Curva di apprendimento</b> | Basso | Medio | Alta |
 | <b>Materiali per autori</b> | Sì | Sì | Sì |
@@ -60,7 +60,7 @@ L&#39;applicazione e il relativo ecosistema utilizzano 4 diversi tipi di file. P
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../assets/ds-sbs-48.png)
+![](overview.resources/ds-sbs-48.png)
 
 ### File Substance 3D
 
@@ -71,7 +71,7 @@ I file di Substance sono i **file di origine principali** per Designer. Quando a
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/sbsar-48.png)
+![](overview.resources/sbsar-48.png)
 
 ### Risorsa Substance 3D
 
@@ -82,7 +82,7 @@ Gli archivi Substance sono <b> file Substance compilati e ottimizzati</b>. Sono 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/bmp-96.png){width="48px"}
+![](overview.resources/bmp-96.png){width="48px"}
 
 ### File statici
 
@@ -94,7 +94,7 @@ Substance 3D Designer supporta sempre l’esportazione in tipi di file statici. 
 </tr>
 </table>
 
-Ciò significa che generalmente manterrai il tuo lavoro in formato SBS quando lavori in Designer, che esporterai in SBSAR se la destinazione lo supporta (ad esempio, Painter) o che utilizzerai file bitmap statici se non è necessario o non è supportato SBSAR.
+In genere, questo significa che manterrai il tuo lavoro nel formato SBS quando lavori in Designer, che esporterai in SBSAR se la destinazione lo supporta (Painter, ad esempio) o che utilizzerai file bitmap statici se non è necessario o non è supportato SBSAR.
 
 ## Tipi di risorse
 
@@ -104,14 +104,14 @@ I file Substance 3D possono contenere un’ampia gamma di risorse con scopi dive
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/graph-5.png){width="150px"}](../../compositing-graphs/substance-compositing-graphs.md)
+[![](overview.resources/graph-5.png){width="150px"}](../../compositing-graphs/substance-compositing-graphs.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ### Grafici Substance
 
-I grafici a Substance consentono di generare ed elaborare *dati immagine 2D* e quindi di inviarli a uno o più output di texture. In molti casi d’uso, un progetto ruoterà attorno a uno o più grafici a Substance.
+I grafici a Substance consentono di generare ed elaborare *dati immagine 2D* e quindi di inviarli a uno o più output texture. In molti casi d’uso, un progetto ruoterà attorno a uno o più grafici a Substance.
 
 [Vai alla sezione dedicata ai grafici Substance.](../../compositing-graphs/substance-compositing-graphs.md)
 
@@ -123,7 +123,7 @@ I grafici a Substance consentono di generare ed elaborare *dati immagine 2D* e q
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/function-1.png){width="150px"}](../../function-graphs/function-graphs.md)
+[![](overview.resources/function-1.png){width="150px"}](../../function-graphs/function-graphs.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -142,7 +142,7 @@ I grafici a Substance consentono di generare ed elaborare *dati immagine 2D* e q
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/folder-4.png){width="150px"}](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
+[![](overview.resources/folder-4.png){width="150px"}](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -154,7 +154,7 @@ Le risorse non grafiche possono provenire da applicazioni esterne (come Photosho
 Esistono i seguenti tipi di risorse:
 
 * [Bitmap](../../resources/bitmap-resource/bitmap-resource.md)
-* [Grafica vettoriale (SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
+* [Grafiche vettoriali (SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
 * [Scene 3D](../../resources/3d-scene-resource/3d-scene-resource.md)
 * [Font](../../resources/font-resource/font-resource.md)
 * [File AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)

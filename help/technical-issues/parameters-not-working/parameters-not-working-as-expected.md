@@ -38,10 +38,10 @@ Di seguito è riportato un elenco di parametri statici:
 
 | Nodo | Parametro |
 | --- | --- |
-| Tutti i nodi | Modalità di stampa in porzioni |
+| Tutti i nodi | Modalità di Affiancamento Rapporto pixel |
 | [Colore uniforme](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md) | Metodo colore |
-| [Processore pixel](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) | Metodo colore |
-| [Fusione](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) | Metodo fusione Alpha fusione Area di ritaglio |
+| [Elaboratore pixel](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) | Metodo colore |
+| [Fusione](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) | Metodo fusione Area di ritaglio fusione alfa |
 | [FX-Map](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) | Metodo fusione |
 | [Quadrante](../../function-graphs/fxmaps/the-quadrant-node/the-quadrant-node.md) | Immagine di input pattern alfa Filtraggio dell&#39;immagine di input |
 
@@ -53,4 +53,4 @@ Un grafico della funzione Substance applicato a un parametro del nodo non genera
 
 <b>![(tick)](../../assets/check.svg) Passaggi consigliati</b>
 
-I numeri interi negativi non sono attualmente supportati correttamente. Come soluzione alternativa, utilizzare il valore intero negativo in un valore [Integer2](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) ed estrarlo utilizzando un nodo [Swizzle Integer](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/vector-and-swizzle-nodes/vector-and-swizzle-nodes.md).
+I numeri interi negativi non sono attualmente supportati correttamente. Come soluzione alternativa, utilizzare il valore intero negativo in un valore [Integer2](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) ed estrarlo utilizzando un nodo [di Swizzle integer](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/vector-and-swizzle-nodes/vector-and-swizzle-nodes.md).

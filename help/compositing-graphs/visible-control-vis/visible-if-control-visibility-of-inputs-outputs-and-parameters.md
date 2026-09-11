@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Visibile se le espressioni
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 46563ec789547cc1add76655dbad02f5099927a6
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 1%
@@ -30,7 +30,7 @@ A tale scopo, è possibile immettere un&#39;*espressione logica* nella propriet�
 * nodo [Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) di un grafico;
 * nodo [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) di un grafico.
 
-![Attivazione/disattivazione della visibilità dei parametri di input](../../assets/visible-if-example.gif "Attivazione/disattivazione della visibilità dei parametri di input"){width="512px"}
+![Attivazione/disattivazione della visibilità dei parametri di input](visible-if-control-visibility-of-inputs-outputs-and-parameters.resources/visible-if-example.gif "Attivazione/disattivazione della visibilità dei parametri di input"){width="512px"}
 
 Se l&#39;espressione logica restituisce `true`, il parametro, l&#39;input o l&#39;output viene visualizzato in tutti i [nodi di istanza](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) che rappresentano il grafico corrente. In caso contrario, è *nascosto*.
 

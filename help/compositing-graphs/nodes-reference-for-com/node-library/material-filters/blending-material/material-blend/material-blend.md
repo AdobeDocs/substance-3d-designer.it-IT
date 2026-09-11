@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-blend.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo Fusione materiale per fondere interi materiali utilizzando maschere per creare effetti di materiale composito.
+description: Utilizzate il nodo Fusione materiale per fondere interi materiali utilizzando maschere per la creazione di effetti di materiale composito.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Blending (Material) > Material Blend
 helpx_experience_level: ""
@@ -33,9 +33,9 @@ ht-degree: 6%
 
 ## Descrizione
 
-Material Blend è l&#39;equivalente materiale completo multicanale di [atomic Blend Node](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md). Si fonde tra due materiali completi (tutti i possibili canali) in base a una maschera in scala di grigio o facoltativamente in base a un singolo colore da una Maschera ID colore.
+La Fusione materiale è l&#39;equivalente materiale completo multicanale di [nodo Fusione atomica](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md). Si fonde tra due materiali completi (tutti i possibili canali) in base a una maschera in scala di grigio o facoltativamente in base a un singolo colore da una Maschera ID colore.
 
-Questo nodo è utile se desideri unire due materiali e avere una mappa in scala di grigio ma senza una selezione completa di ID colore. Se disponi di un forno Color ID e desideri fondere più di due materiali, ti consigliamo di utilizzare [Fusione multismateriale](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/multi-material-blend/multi-material-blend.md).
+Questo nodo è utile se desideri unire due materiali e avere una mappa in scala di grigio ma senza eseguire i baking l&#39;ID colore completo. Se hai una esegue i baking ID colore e desideri fondere più di due materiali, ti consigliamo di utilizzare [Fusione multismateriale](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/multi-material-blend/multi-material-blend.md).
 
 </td>
 </tr>
@@ -47,7 +47,7 @@ Questo nodo è utile se desideri unire due materiali e avere una mappa in scala 
 
 |  |  |
 |:---|:---|
-| <b>ID colore</b> <i>Input colore</i> | Mappa ID colore al forno opzionale. |
+| <b>ID colore</b> <i>Input colore</i> | Mappa ID colore Eseguita i baking facoltativa. |
 | <b>Maschera scala di grigi</b> <i>Input scala di grigi</i> | Slot maschera utilizzato per mascherare gli effetti del nodo. |
 
 <a name="parameters"></a>
@@ -56,8 +56,8 @@ Questo nodo è utile se desideri unire due materiali e avere una mappa in scala 
 
 |  |  |
 |:---|:---|
-| <b>Canali</b> | Attivate e disattivate i canali di materiale in questo gruppo quando utilizzate mappe Specular/lucidità invece di Metallico/Rugosità. |
-| <b>Diffusione</b> |  |
+| <b>Canali</b> | Attivate e disattivate i canali di materiale in questo gruppo quando utilizzate mappe Specular/Lucentezza invece di Metallico/Rugosità. |
+| <b>Diffusa</b> |  |
 | <b>Opacità</b> <i>0.0 - 1.0</i> | Fusione dell’opacità tra primo piano e sfondo |
 | <b>Metodo fusione</b> <i>Normale, Aggiungi, Sottrai, Moltiplica, Aggiungi/Sotto, Max, Min, Switch</i> |  |
 | <b>Colore di base</b> |  |

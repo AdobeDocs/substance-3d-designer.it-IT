@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend/blending-modes-description.html"
 breadcrumb-title: ''
-description: Scoprite i metodi di fusione disponibili in Substance 3D Designer per combinare la texture con diversi effetti di composizione.
+description: Scoprite i metodi di fusione disponibili in Substance 3D Designer per combinare le texture con diversi effetti di composizione.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Blend > Blending modes
 helpx_experience_level: ""
@@ -30,7 +30,7 @@ Il metodo di fusione *Copia* posizionerà il primo piano sopra lo sfondo.
 
 Per le immagini a colori, il canale alfa viene considerato per impostazione predefinita nell’opacità.
 
-Questo può essere modificato utilizzando il parametro &quot;Fusione alfa&quot;.
+Questo può essere modificato utilizzando il parametro &quot;Fusione Alpha&quot;.
 
 ![Metodo di fusione: Copia (2)](blending-modes-description.resources/image2015-8-20-14-15-29.png "Metodo di fusione: Copia (2)"){zoomable="yes"}
 
@@ -69,7 +69,7 @@ Il metodo di fusione *Aggiungi sub* funziona come segue:
 
 Il metodo di fusione *Max* selezionerà il valore più alto tra lo sfondo e il primo piano.
 
-![Metodo di fusione: Max (Schiarisci)](blending-modes-description.resources/image2015-8-20-9-40-12.png "Metodo di fusione: Max (Schiarisci)"){zoomable="yes"}
+![Metodo fusione: Max (Schiarisci)](blending-modes-description.resources/image2015-8-20-9-40-12.png "Metodo fusione: Max (Schiarisci)"){zoomable="yes"}
 
 ## Min (Scurisci)
 

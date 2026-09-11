@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Tessuto 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: b63bc7a45aa6eadef1b72eb05d4a6aded05866a8
 workflow-type: tm+mt
 source-wordcount: '66'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/weave-1.png){width="128px"}
+![](weave-1.resources/weave-1.png){width="128px"}
 
 <b>Ingresso:</b> Generatori Texture > Pattern
 
@@ -45,16 +45,16 @@ Genera un semplice motivo a trama.
 
 |  |  |
 |:---|:---|
-| <b>Affiancamento</b> <i>1 - 16</i> | Imposta il numero di volte in cui il risultato deve essere affiancato. |
+| <b>Affiancatura</b> <i>1 - 16</i> | Imposta il numero di volte in cui il risultato deve essere affiancato. |
 | <b>Ruotare Di 45 Gradi</b> <i>Falso/Vero</i> |  |
-| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di squash e allungamento con rapporti non quadrati. |
+| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati. |
 
 ## Esempi
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/weave-1-ex.gif" />
+            <img src="weave-1.resources/weave-1-ex.gif" />
         </td>
     </tr>
 </table>

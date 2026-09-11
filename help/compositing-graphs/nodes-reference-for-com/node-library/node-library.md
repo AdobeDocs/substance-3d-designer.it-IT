@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library.html"
 breadcrumb-title: ''
-description: Accedi alla libreria completa dei nodi in Substance 3D Designer per creare materiali procedurali, texture ed effetti.
+description: Accedi alla libreria dei nodi completa in Substance 3D Designer per creare materiali, texture ed effetti procedurali.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library
 helpx_experience_level: ""
@@ -78,7 +78,7 @@ Il pannello Libreria di Designer visualizza più categorie di quelle attualmente
 * [Grunge Galvanica Grande](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/grunge-galvanic-large/grunge-galvanic-large.md)
 * [Grunge Galvanica Piccola](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/grunge-galvanic-small/grunge-galvanic-small.md)
 * [Perdite di grunge](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/grunge-leaks/grunge-leaks.md)
-* [Vernice a perdita di grunge](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/grunge-leaky-paint/grunge-leaky-paint.md)
+* [Grunge che perde Pittura](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/grunge-leaky-paint/grunge-leaky-paint.md)
 * [Mappa grungi 001](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/grunge-map-001/grunge-map-001.md)
 * [Mappa grungi 002](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/grunge-map-002/grunge-map-002.md)
 * [Mappa grungi 003](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/grunge-map-003/grunge-map-003.md)
@@ -182,7 +182,7 @@ Il pannello Libreria di Designer visualizza più categorie di quelle attualmente
 * [Contrasto/Luminosità](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/contrast-luminosity/contrast-luminosity.md)
 * [Converti in lineare](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/convert-to-linear/convert-to-linear.md)
 * [Converti in sRGB](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/convert-to-srgb/convert-to-srgb.md)
-* [Conversione avanzata scala di grigi](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/grayscale-conversion-adv/grayscale-conversion-advanced.md)
+* [Conversione in scala di grigi avanzate](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/grayscale-conversion-adv/grayscale-conversion-advanced.md)
 * [Hald CLUT](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/hald-clut/hald-clut.md)
 * [Visualizzatore intervallo HDR](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/hdr-range-viewer/hdr-range-viewer.md)
 * [Mappatura frequenze mappe height](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/height-map-frequencies/height-map-frequencies-mapper.md)
@@ -290,7 +290,7 @@ Il pannello Libreria di Designer visualizza più categorie di quelle attualmente
 * [Sobel normale](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-sobel/normal-sobel.md)
 * [Normale al Height](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-to-height/normal-to-height.md)
 * [Normale alla sede centrale del Height](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-to-height-hq/normal-to-height-hq.md)
-* [Trasformazione normale](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-transform/normal-transform.md)
+* [Trasforma normale](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-transform/normal-transform.md)
 * [Rotazione vettoriale normale](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-vector-rotation/normal-vector-rotation.md)
 * [Curvatura della normal](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/bent-normal/bent-normal.md)
 
@@ -301,23 +301,23 @@ Il pannello Libreria di Designer visualizza più categorie di quelle attualmente
 
 ### Trasformazioni
 
-* [Scostamento texture 3D](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/3d-texture-offset/3d-texture-offset.md)
+* [Scostamento Texture 3D](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/3d-texture-offset/3d-texture-offset.md)
 * [Ritaglio automatico](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/auto-crop/auto-crop.md)
 * [Da Cartesiano A Polare](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/cartesian-to-polar/cartesian-to-polar.md)
 * [Da polare a cartesiano](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/polar-to-cartesian/polar-to-cartesian.md)
-* [Clona (nodo filtro)](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/clone-filter-node/clone-filter-node.md)
+* [Clona /Clone (nodo filtro)](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/clone-filter-node/clone-filter-node.md)
 * [Speculare (nodo filtro)](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/mirror-filter-node/mirror-filter-node.md)
 * [Ingrandimento disturbo 1](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-1/noise-upscale-1.md)
 * [Noise Upscale 2](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-2/noise-upscale-2.md)
 * [Aumento disturbo 3](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-3/noise-upscale-3.md)
-* [Trasformazione sicura](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/safe-transform/safe-transform.md)
-* [Trasformazione non quadrata](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/non-square-transform/non-square-transform.md)
+* [Trasforma sicura](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/safe-transform/safe-transform.md)
+* [Trasforma non quadrata](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/non-square-transform/non-square-transform.md)
 * [Rotazione non uniforme](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/non-uniform-rotation/non-uniform-rotation.md)
 * [Inclina](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/skew/skew.md)
 * [Simmetria](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/symmetry/symmetry.md)
-* [Sezione simmetria](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/symmetry-slice/symmetry-slice.md)
-* [Trasformazione trapezio](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/trapezoid-transform/trapezoid-transform.md)
-* [Trasformazione quadrupla](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/quad-transform/quad-transform.md)
+* [Simmetria sezione](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/symmetry-slice/symmetry-slice.md)
+* [Trasforma trapezio](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/trapezoid-transform/trapezoid-transform.md)
+* [Trasforma quadruplo](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/quad-transform/quad-transform.md)
 
 ## Filtri materiale
 
@@ -333,7 +333,7 @@ Il pannello Libreria di Designer visualizza più categorie di quelle attualmente
 * [Copertina Snow](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/snow-cover/snow-cover.md)
 * [Livello dell&#39;acqua](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/water-level/water-level.md)
 
-### Trasformazioni (materiale)
+### Trasforma (materiale)
 
 * [Trasformazione materiale](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/transforms-material/material-transform/material-transform.md)
 
@@ -364,11 +364,11 @@ Il pannello Libreria di Designer visualizza più categorie di quelle attualmente
 * [Patch clone](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md)
 * [Color Equalizer](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/color-equalizer/color-equalizer.md)
 * [Ritaglia](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md)
-* [Patch clone materiale](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/material-clone-patch/material-clone-patch.md)
+* [Patch Clona /Clone materiale](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/material-clone-patch/material-clone-patch.md)
 * [Ritaglio materiale](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/material-crop/material-crop.md)
 * [Da multi-angolo a Albedo](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-albedo/multi-angle-to-albedo.md)
 * [Da multi-angolo a normale](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-normal/multi-angle-to-normal.md)
-* [Patch per più cloni](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-clone-patch/multi-clone-patch.md)
+* [Toppa per più Clona /Clone](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-clone-patch/multi-clone-patch.md)
 * [Color Equalizer multiplo](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-color-equalizer/multi-color-equalizer.md)
 * [Ritaglio multiplo](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-crop/multi-crop.md)
 * [Affianca automatica avanzata](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/smart-auto-tile/smart-auto-tile.md)
@@ -420,7 +420,7 @@ Il pannello Libreria di Designer visualizza più categorie di quelle attualmente
 * [Combinazione dati trama](../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/mesh-data-combiner/mesh-data-combiner.md)
 * [Triplo Planare](../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/tri-planar/tri-planar.md)
 
-## Vista 3D (Libreria)
+## vista 3D (Libreria)
 
 ### Strumenti HDRI
 

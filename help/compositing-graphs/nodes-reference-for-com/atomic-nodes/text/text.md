@@ -83,7 +83,7 @@ Quando un grafico che utilizza il testo viene pubblicato per sbsar, il font vien
 | <b>Metodo colore</b> *Booleano* | Alterna tra un’immagine in scala di grigio e un’immagine a colori in output. |
 | <b>Testo</b> *Stringa* | Determina la descrizione del testo. |
 | <b>Carattere</b> *Stringa* | Risorsa font utilizzata per il rendering del testo. |
-| <b>Dimensione font</b> *Mobile* | Dimensione del carattere per il testo in punti. |
+| <b>Dimensione font</b> *Virgola mobile* | Dimensione del carattere per il testo in punti. |
 | <b>Allineamento</b> *Numero intero* | Consente di impostare l’allineamento del testo a sinistra, al centro (impostazione predefinita) o a destra. |
 | <b>Trasformazione</b> *Float4* | Matrice di trasformazione 2x2 applicata al testo sottoposto a rendering. |
 | <b>Posizione</b> *Float2* | Posizione del testo nell’immagine di output. |

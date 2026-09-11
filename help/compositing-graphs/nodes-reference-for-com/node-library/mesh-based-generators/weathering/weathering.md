@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Intemperie
 
-I nodi meteorologici fanno un ulteriore passo avanti ai [Generatori di maschere](../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/mask-generators.md): creano un effetto meteorologico completo basato su parametri e mappe con baking. Il concetto è molto simile a quello di [Smart Materials](https://experienceleague.adobe.com/it/docs/substance-3d-painter/using/features/smart-materials-and-masks) in Substance Painter.
+I nodi meteorologici fanno un ulteriore passo avanti di [Generatori di maschere](../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/mask-generators.md): creano un effetto meteorologico a tutto contenuto basato su parametri e mappe con baking. Il concetto è molto simile a [Materiali avanzati](https://experienceleague.adobe.com/it/docs/substance-3d-painter/using/features/smart-materials-and-masks) nella Substance Painter.
 
 È necessario disporre di una o più mappe con baking per ottenere un risultato completo da questi nodi.
 

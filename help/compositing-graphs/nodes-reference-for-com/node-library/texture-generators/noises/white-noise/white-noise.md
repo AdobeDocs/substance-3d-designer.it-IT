@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Disturbo bianco
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
+source-git-commit: db5ad9a6ad1d03fedcc3d760cc8886501d16b87f
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Rumore bianco - Icona](../../../../../../assets/white_noise_v2.png "Rumore bianco - Icona"){width="200px"}
+![Rumore bianco - Icona](white-noise.resources/white_noise_v2.png "Rumore bianco - Icona"){width="200px"}
 
 <b>Ingresso:</b> Generatori di texture > Rumori
 
@@ -63,12 +63,12 @@ Genera un disturbo bianco utilizzando uno dei tre metodi disponibili per diverse
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Rumore bianco - Esempio 1](../../../../../../assets/white_noise_v2_1.png "Rumore bianco - Esempio 1"){zoomable="yes"}
+![Rumore bianco - Esempio 1](white-noise.resources/white_noise_v2_1.png "Rumore bianco - Esempio 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Rumore bianco - Esempio 2](../../../../../../assets/white_noise_v2_speed0.6_aniso0.gif "Rumore bianco - Esempio 2"){zoomable="yes"}
+![Rumore bianco - Esempio 2](white-noise.resources/white_noise_v2_speed0.6_aniso0.gif "Rumore bianco - Esempio 2"){zoomable="yes"}
 
 </td>
 </tr>

@@ -90,7 +90,7 @@ A differenza della maggior parte degli altri nodi, il nodo Curva non dispone di 
 |  |  |
 | --- | --- |
 | <b>Applica/Esporta curva</b> *Booleano* | Consente di copiare la curva utente nell&#39;output invece di applicarla all&#39;immagine di input |
-| <b>Indirizzamento della curva</b> *Booleano* | Questo parametro determina il modo in cui vengono gestiti i pixel HDR che non rientrano nell’intervallo [0, 1] nell’input: bloccati o piegati fino a [0, 1]. |
+| <b>Indirizzamento della curva</b> *Booleano* | Questo parametro determina il modo in cui vengono gestiti i pixel HDR fuori dall’intervallo [0, 1] nell’input: bloccati o piegati fino a [0, 1]. |
 | <b>Curva</b> *Matrice di chiavi di curva* | Curva personalizzata utilizzata per mappare i valori in scala di grigio di input.   Può essere modificato utilizzando l&#39;[editor curva](#curve-editor). |
 
 ## Editor curva

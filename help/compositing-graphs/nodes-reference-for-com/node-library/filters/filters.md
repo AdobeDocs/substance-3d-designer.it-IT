@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters.html"
 breadcrumb-title: ''
-description: Accedete ai nodi dei filtri in Substance 3D Designer per applicare effetti, regolazioni, trasformazioni e operazioni di elaborazione alle texture.
+description: Accedere ai nodi dei filtri in Substance 3D Designer per applicare effetti, regolazioni, Trasforma e operazioni di elaborazione alle texture.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Filtri
 
-I filtri sono nodi che elaborano un input per creare un output &quot;filtrato&quot; modificato, in un modo in cui potreste essere utilizzati da altre applicazioni di imaging note. La grande differenza con i [filtri materiale](../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/material-filters.md) è che funzionano solo su uno (a volte più) input che non rappresentano un materiale completo.
+I filtri sono nodi che elaborano un input per creare un output &quot;filtrato&quot; modificato, in un modo in cui potreste essere utilizzati da altre applicazioni di imaging note. La grande differenza con [Filtri materiali](../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/material-filters.md) è che funzionano solo su uno (a volte più) input che non rappresentano un materiale completo.
 
 I filtri sono una delle categorie principali più utilizzate. A parte la categoria [Nodi atomici](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md), nessun&#39;altra categoria è utile quando si creano texture da zero. Prendetevi del tempo per conoscere ognuna delle sottocategorie:
 
@@ -35,10 +35,10 @@ I filtri sono una delle categorie principali più utilizzate. A parte la categor
 * [Effetti](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/effects.md)\
   Effetti di immagine orientati alla creazione di texture ed effetti di tipo &quot;Stile livello&quot;.
 * [Mappa normale](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-map.md)\
-  Operazioni mirate della mappa normale.
+  Operazioni mirate alle mappe normali.
 * [Affiancatura](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/tiling/tiling.md)\
-  I nodi si sono concentrati sulla correzione e il miglioramento delle porzioni.
-* [Trasformazioni](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/transforms.md)\
+  I nodi si sono concentrati sulla correzione e il miglioramento degli Affiancamenti.
+* [Trasforma](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/transforms.md)\
   Operazioni di trasformazione dello spazio 2D avanzate (matematiche).
 
 >[!NOTE]

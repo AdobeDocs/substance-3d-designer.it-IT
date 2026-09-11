@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/facing-normal.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo Normale di sfacciatura (Facing Normal) per generare mappe normali basate sulla direzione della superficie per creare effetti basati sull'orientamento.
+description: Utilizzate il nodo Normale di sfacciatura (Facing Normal) per generare mappe normali basate sulla direzione della superficie per la creazione di effetti basati sull'orientamento.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Facing Normal
 helpx_experience_level: ""
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## Descrizione
 
-Questo filtro accetta una mappa Normale come immagine di entrata e produce un’immagine in scala di grigio in cui il valore corrisponde alla quantità di normalità rivolte verso l’osservatore nello spazio della texture.
+Questo filtro accetta una mappa Normale come immagine di entrata e produce un’immagine in scala di grigio in cui il valore corrisponde alla quantità di normalità rivolte verso il visualizzatore nello spazio texture.
 
 </td>
 </tr>

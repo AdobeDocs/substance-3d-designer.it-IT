@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Campionatori
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f28a2ba2531cfc4456744ff151432ed8308275ec
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Nodi di Sampler
 
-![Nodi Sampler](../../../../assets/image2016-1-12-14-45-43.png "Nodi Sampler")
+![Nodi Sampler](sampler-nodes.resources/image2016-1-12-14-45-43.png "Nodi Sampler")
 
 Questi nodi campionano un valore in un&#39;immagine di input alle coordinate 2D fornite:
 
@@ -39,7 +39,7 @@ Le posizioni al di fuori di questo intervallo vengono gestite in base alla <b>mo
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Coordinate pixel](../../../../assets/samplercoords.png "Coordinate pixel")
+![Coordinate pixel](sampler-nodes.resources/samplercoords.png "Coordinate pixel")
 
 </td>
 </tr>

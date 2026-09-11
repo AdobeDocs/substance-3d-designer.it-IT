@@ -94,7 +94,7 @@ Forniamo anche strumenti per rielaborare e rifinire le spline. Troverai un nodo 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Spline 2D Transform](../../assets/Spline2DTransform-Demo1.gif "Spline 2D Transform")
+![Spline 2D Trasforma](../../assets/Spline2DTransform-Demo1.gif "Spline 2D Trasforma")
 
 </td>
 <td style="border: 0;" valign="top">

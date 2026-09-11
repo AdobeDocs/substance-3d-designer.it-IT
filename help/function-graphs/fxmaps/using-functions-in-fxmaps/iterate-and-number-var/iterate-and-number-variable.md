@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Variabile di iterazione e numerazione
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 4e61f5588fb279e139240ac5939d6b7e58e1027a
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 # Itera e variabile $number
 
-![](../../../../assets/iterate-1.jpg)
+![](iterate-and-number-variable.resources/iterate-1.jpg)
 
 Il nodo iterazione eseguirà il rendering dei nodi connessi all&#39;output destro per la quantità di tempo specificata dal valore iterazioni.
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="../../../../assets/1-iteration.png"/></div> | 1 iterazione: il pattern gaussiano viene renderizzato una volta |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="iterate-and-number-variable.resources/1-iteration.png"/></div> | 1 iterazione: il pattern gaussiano viene renderizzato una volta |
 | --- | --- |
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="../../../../assets/10-iterations.png"/></div> | 10 iterazioni: il pattern gaussiano viene renderizzato 10 volte nello stesso punto |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="iterate-and-number-variable.resources/10-iterations.png"/></div> | 10 iterazioni: il pattern gaussiano viene renderizzato 10 volte nello stesso punto |
 
 Quando si utilizza un nodo Iterate, è possibile utilizzare la variabile $number per ottenere il valore di iterazione corrente. $number è un valore a virgola mobile e inizia da 0.
 
@@ -34,12 +34,12 @@ Quando si utilizza un nodo Iterate, è possibile utilizzare la variabile $number
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../../../assets/position-function.jpg){width="300px"}
+![](iterate-and-number-variable.resources/position-function.jpg){width="300px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../assets/10-iterations-position-function.png){width="300px"}
+![](iterate-and-number-variable.resources/10-iterations-position-function.png){width="300px"}
 
 </td>
 </tr>

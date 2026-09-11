@@ -61,19 +61,19 @@ Questo nodo ha lo scopo di semplificare notevolmente l&#39;aggiunta di dettagli 
 
 |  |  |
 |:---|:---|
-| <b>Canali</b> | Attivate e disattivate i canali del materiale in questo gruppo, ad esempio quando utilizzate mappe Specular/Lucentezza invece di Metallo/Rugosità. Influisce sulla disponibilità dei parametri seguenti. |
+| <b>Canali</b> | Attivate e disattivate i canali del materiale in questo gruppo, ad esempio quando utilizzate mappe Specular/lucidità invece di Metallico/Rugosità. Influisce sulla disponibilità dei parametri seguenti. |
 | <b>Mappe con baking</b> | Indica se utilizzare o meno le mappe con baking elencate per i calcoli. Influisce sulla disponibilità dei parametri seguenti. |
 | <b>Diffusa AO</b> <i>0.0 - 1.0</i> | Quantità di Occlusione ambientale da fondere nella Diffusa. |
-| <b>Bordi Netti Diffusa</b> <i>0.0 - 1.0</i> | Quantità della mappa di curvatura da fondere con la Diffusa. |
-| <b>Colore Diffusa Da Colore Vertice</b> <i>0.0 - 1.0</i> | Quantità della esegue i baking Colore vertice da fondere nella Diffusa. |
+| <b>Bordi Netti Diffusa</b> <i>0.0 - 1.0</i> | Quantità della mappa di curvatura da fondere con Diffusione. |
+| <b>Colore Diffusa Da Colore Vertice</b> <i>0.0 - 1.0</i> | Quantità del Color Bake Vertice da fondere con Diffusione. |
 | <b>Pre-illuminazione Diffusa</b> <i>0.0 - 1.0</i> | Quantità di (falsa) pre-illuminazione, in base ai World Space Normals. |
-| <b>Bilanciamento illuminazione cartone animato Diffusa</b> <i>0.0 - 1.0</i> | Sposta l&#39;illuminazione realistica da cartone animato a quella della Diffusa. |
+| <b>Bilanciamento illuminazione cartone animato Diffusa</b> <i>0.0 - 1.0</i> | Si sposta tra un’illuminazione realistica e in stile cartone animato per Diffusione. |
 | <b>Livelli di pre-illuminazione per cartone animato Diffusa</b> <i>0 - 10</i> | Controlla l’aspetto dei calcoli di illuminazione per i cartoni animati. |
 | <b>Contorni cartone animato Diffusa</b> <i>0.0 - 1.0</i> | Controlla l’aspetto dei calcoli di illuminazione per i cartoni animati. |
-| <b>Colore di base AO</b> <i>0.0 - 1.0</i> | Quantità di Occlusione ambientale da fondere nel colore di base. |
+| <b>Colore di base AO</b> <i>0.0 - 1.0</i> | Quantità di Occlusione ambiente da fondere con il colore di base. |
 | <b>Colore di base bordi netti</b> <i>0.0 - 1.0</i> | Quantità della mappa di curvatura da fondere con il colore di base. |
-| <b>Colore di base Da Colore Vertice</b> <i>0.0 - 1.0</i> | Quantità del colore Vertice da unire al colore di base. |
-| <b>Intensità materiale normale</b> <i>0.0 - 1.0</i> | Intensità di fusione della Normalmap cotta (tangente). |
+| <b>Colore di base Da Colore Vertice</b> <i>0.0 - 1.0</i> | Quantità del eseguo i baking Colore vertice da fondere con Colore di base. |
+| <b>Intensità materiale normale</b> <i>0.0 - 1.0</i> | Intensità di fusione della mappa normale eseguita i baking (tangente). |
 | <b>SpecularAO</b> <i>0.0 - 1.0</i> | Forza di fusione dell’AO nello Specular. |
 | <b>Bordi netti con Specular chiaro</b> <i>0.0 - 1.0</i> | Intensità di fusione della curvatura nello Specular. |
 | <b>Specular contorni cartone animato</b> <i>0.0 - 1.0</i> | Intensità di fusione di un effetto Specular bordo-contorno, in base alla curvatura. |

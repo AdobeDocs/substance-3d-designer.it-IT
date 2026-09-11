@@ -35,7 +35,7 @@ ht-degree: 0%
 
 Modifica il thickness delle spline di input mappando su di esse una mappa dello spessore di input.
 
-L’effetto della mappa dell’altezza mappata può essere regolato modificandone il metodo di fusione e l’opacità.
+L’effetto della mappa del height mappato può essere regolato modificandone il metodo di fusione e l’opacità.
 
 </td>
 </tr>
@@ -51,7 +51,7 @@ L’effetto della mappa dell’altezza mappata può essere regolato modificandon
 | <b>Spline Coords</b> <i>Colore</i> | Coordinate dei punti delle spline di input codificate nei canali RGBA di un&#39;immagine a colori:<br><b>R</b> - Posizione X<br><b>G</b> - Posizione Y<br><b>B</b> - Height<br><b>A</b> - Dati compressi:<br> - Segno: la spline è chiusa (negativa) o aperta (positiva);<br> - Valore assoluto: Thickness + 1. |
 | <b>Dati spline</b> <i>Colore</i> | Dati aggiuntivi delle spline di input codificate nei canali RGBA di un&#39;immagine a colori.<br><b>R</b> - Tangenti X<br><b>G</b> - Tangenti Y<br><b>B</b> - Non utilizzati<br><b>A</b> - Non utilizzati |
 | <b>Quantità spline</b> <i>Numero intero</i> | Numero di spline di input. |
-| <b>Mappa spessore</b> <i>Scala di grigi</i> | Immagine in scala di grigio di input utilizzata per modificare il thickness della spline di input. |
+| <b>Mappa Thickness</b> <i>Scala di grigi</i> | Immagine in scala di grigio di input utilizzata per modificare il thickness della spline di input. |
 
 <a name="outputs"></a>
 
@@ -71,13 +71,13 @@ L’effetto della mappa dell’altezza mappata può essere regolato modificandon
 |  |  |
 |:---|:---|
 | <b>Modalità campionamento</b> <i>Numero intero</i> | Metodo di mappatura dei valori nella mappa di spessore sulle spline:<br>- <i>spazio Texture</i>: i valori vengono applicati alle spline nelle posizioni in cui verrebbero se inseriti in una texture utilizzando le coordinate UV della texture. Questo applica efficacemente il valore alle spline &quot;in posizione&quot;;<br>- <i>Orizzontale lungo la spline</i>: i valori vengono applicati direttamente alle coordinate delle spline codificate (vedere l&#39;input Coord spline), in cui ogni riga viene applicata a una spline diversa dall&#39;alto verso il basso;<br>- <i>Hor. lungo spline (rand. offset X)</i>: i valori vengono applicati direttamente alle coordinate delle spline codificate (vedere l&#39;input Coord spline), con uno scostamento orizzontale casuale nella mappa Scala per ogni spline (ovvero, ogni riga nelle coordinate spline);<br>- <i>Hor. lungo spline (rand. offset Y)</i>: i valori vengono applicati direttamente alle coordinate delle spline codificate (vedere l&#39;input Coord spline), con uno scostamento verticale casuale nella mappa Scala per ogni spline (ovvero, ogni riga nelle coordinate spline). |
-| <b>Opacità</b> <i>Mobile</i> | Un moltiplicatore per l’intensità del contributo dell’input Mappa spessore al thickness della spline. |
+| <b>Opacità</b> <i>Virgola mobile</i> | Un moltiplicatore per l’intensità del contributo dell’input Mappa spessore al thickness della spline. |
 | <b>Metodo fusione</b> <i>Numero intero</i> | Metodo di fusione dei dati della mappa di spessore con quelli della spline di input <span id="_Hlk135820484"></span>thickness:<br>- <i>Copia</i>: ignorare il thickness della spline con i valori della mappa di altezza;<br>- <i>Aggiungi</i>: aggiungere i valori della mappa di spessore al thickness della spline;<br>- <i>Sottrai</i>: Sottrai i valori della mappa di spessore al thickness della spline;<br>- <i>Moltiplica</i>: moltiplicare i valori della mappa di spessore sul thickness della spline. |
 | <b>Anteprima</b> |  |
 | <b>Importo segmenti</b> <i>Numero intero</i> | Regola il numero di segmenti utilizzati per disegnare la visualizzazione della spline nell&#39;output di anteprima.<br>Un valore più elevato determina una linea più fluida. |
 | <b>Mostra helper direzione</b> <i>Booleano</i> | Visualizza un punto all&#39;inizio della spline e una freccia alla fine nell&#39;output di anteprima. |
 | <b>Mostra busta Thickness</b> <i>Booleano</i> | Visualizza le linee aggiuntive ai bordi del thickness della spline. |
-| <b>Thickness (px)</b> <i>Mobile</i> | Regola il thickness della visualizzazione della spline in pixel nell&#39;output di anteprima. |
+| <b>Thickness (px)</b> <i>Virgola mobile</i> | Regola il thickness della visualizzazione della spline in pixel nell&#39;output di anteprima. |
 
 ## Esempi
 

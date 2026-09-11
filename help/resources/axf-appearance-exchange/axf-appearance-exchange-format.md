@@ -200,7 +200,7 @@ Grazie alla possibilità di esportare gli output dei grafici in file AxF, un tip
 
 1. Importa file AxF
 1. Usa il modello di grafico da &#39;AxF a AxF&#39; per la Substance
-1. Modificate le texture estratte utilizzando le funzioni e i nodi disponibili nei grafici a Substance
+1. Modificare la texture estratta utilizzando le funzioni e i nodi disponibili nei grafici a Substance
 1. Esportate gli output del grafico nello stesso file AxF
 
 La proprietà <b>Dimensioni fisiche</b> del grafico viene utilizzata per impostare l&#39;attributo <b>Dimensioni fisiche</b> delle texture aggiornate nel file AxF modificato.

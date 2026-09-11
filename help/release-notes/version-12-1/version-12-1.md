@@ -146,18 +146,18 @@ Date un&#39;occhiata alle pagine dei nodi collegate di seguito per esempi dell&#
 * [ThirdParty] Aggiornamento di OpenSSL a 1.1.1m
 * [UI] Migliora il comportamento del menu Nodo quando si fa clic su di esso
 * [UI] Apri i grafici secondari nella stessa scheda anche se bloccati
-* [UI] Rimuovi il pulsante del perno dalla barra del titolo del pannello Esplora risorse
+* [UI] Rimuovi il pulsante Segnaposto dalla barra del titolo del pannello Esplora risorse
 * [UI] Salva l’opzione &quot;Non visualizzare più&quot; nella schermata di benvenuto nelle diverse versioni
-* [Vista 3D] Visualizza l&#39;unità della griglia nella finestra della vista quando è attivato l&#39;helper &quot;Asse&quot;
+* [vista 3D] Visualizza l&#39;unità Griglia nella finestra della vista quando è attivato l&#39;helper &quot;Asse&quot;
 * [Automazione] Fornisci lo strumento da riga di comando sbsbaker con Designer
-* [Gestione colore] Implementazione del nuovo back-end GPU per Adobe
+* [Gestione colore] Implementazione del nuovo back-end GPU per Adobe ACE
 * [Cooker] Aggiungi un&#39;opzione per cucinare un pacchetto senza timestamp
 * [Grafico] Aggiungere i distintivi nel grafico FxMap
 * [Library] Aggiungi un nuovo filtro per le funzioni di regolazione
 * [Player] Supporto USD
 * [Properties] Aggiunge un errore di avvertenza nel parametro &quot;PKG Resource Path&quot; di un nodo Bitmap quando la risorsa non viene trovata
 * [Substance Engine] Aggiornamento alla versione 8.4.1
-* [Sì] Avvisa l’utente che gli effetti post di Yebis verranno rimossi nella prossima versione
+* [Yebis] Avvisa l’utente che gli effetti post Yebis verranno rimossi nella prossima versione
 * [Documentazione] Nuova pagina &quot;Avvisi ed errori&quot;
 * [Documentazione] Nuova pagina che descrive l’ereditarietà nei grafici Substance
 * [Documentation] Aggiornamento della sezione &#39;Iray&#39;

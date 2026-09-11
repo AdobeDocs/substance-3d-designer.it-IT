@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Grafico della funzione Substance
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 81c39001686736d41614fd59247d53e6d8438def
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 A prima vista, il grafico della funzione Substance è molto simile a quello della Substance e il flusso di lavoro è quasi lo stesso.
 
-![Substance grafico funzioni](../../assets/image2015-12-18-11-29-28.png "Substance grafico funzioni")
+![Substance grafico funzioni](the-function-graph.resources/image2015-12-18-11-29-28.png "Substance grafico funzioni")
 
 ## La navigazione è simile
 
@@ -53,7 +53,7 @@ I nodi disponibili nel grafico della funzione Substance sono completamente diver
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Elenco dei nodi del grafico della funzione Substance](../../assets/image2015-12-18-13-46-55.png "Elenco dei nodi del grafico della funzione Substance")
+![Elenco dei nodi del grafico della funzione Substance](the-function-graph.resources/image2015-12-18-13-46-55.png "Elenco dei nodi del grafico della funzione Substance")
 
 </td>
 </tr>
@@ -72,7 +72,7 @@ Un altro punto da notare è che non esiste un nodo di output specifico in cui co
 </td>
 <td style="border: 0;" valign="top">
 
-![Nodo di output del grafico a funzioni Substance](../../assets/image2015-12-18-13-49-43.png "Nodo di output del grafico a funzioni Substance")
+![Nodo di output del grafico a funzioni Substance](the-function-graph.resources/image2015-12-18-13-49-43.png "Nodo di output del grafico a funzioni Substance")
 
 </td>
 </tr>
@@ -82,13 +82,13 @@ Un altro punto da notare è che non esiste un nodo di output specifico in cui co
 
 Per definire l&#39;output, fare clic con il pulsante destro del mouse sul nodo che genera l&#39;output previsto e scegliere *Imposta come nodo di output:*
 
-![Definizione del nodo di output](../../assets/setoutputnode.gif "Definizione del nodo di output")
+![Definizione del nodo di output](the-function-graph.resources/setoutputnode.gif "Definizione del nodo di output")
 
 >[!WARNING]
 >
 > <b>Verificare il tipo di risultato generato</b>
 > 
-> Se si nota che *Imposta come nodo di output* è disattivato, il valore generato dal nodo è diverso dal valore previsto dal parametro o dall&#39;elaboratore pixel.
+> Se si nota che *Imposta come nodo di output* è disattivato, significa che il valore generato dal nodo è diverso dal valore previsto dal parametro o dal processore pixel.
 
 <table>
 <tr style="border: 0;">
@@ -99,7 +99,7 @@ Per quanto riguarda i grafici a Substance, potete importare funzioni create in u
 </td>
 <td style="border: 0;" valign="top">
 
-![Apri grafico della funzione Substance con riferimento](../../assets/image2017-6-27-10-44-55.png "Apri grafico della funzione Substance con riferimento")
+![Apri grafico della funzione Substance con riferimento](the-function-graph.resources/image2017-6-27-10-44-55.png "Apri grafico della funzione Substance con riferimento")
 
 </td>
 </tr>
@@ -107,4 +107,4 @@ Per quanto riguarda i grafici a Substance, potete importare funzioni create in u
 
 Se disponi di un file sbs contenente più funzioni, puoi trascinarlo direttamente in un grafico a funzioni Substance e scegliere la funzione che desideri importare nell’elenco visualizzato:
 
-![Rilasciare il grafico della funzione Substance dal pacchetto](../../assets/sbsdrag.gif "Rilasciare il grafico della funzione Substance dal pacchetto")
+![Rilasciare il grafico della funzione Substance dal pacchetto](the-function-graph.resources/sbsdrag.gif "Rilasciare il grafico della funzione Substance dal pacchetto")

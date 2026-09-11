@@ -50,8 +50,8 @@ Per posizionare i Fotogrammi, utilizzate i seguenti criteri:
 
 Commenti e segnaposti sono secondari solo ai Fotogrammi e non sono un must assoluto per grafici ben scritti. Possono essere utilizzati nei seguenti scenari:
 
-* I commenti sono utili per aggiungere testo aggiuntivo oltre a quanto consentito dalla descrizione di una cornice. Potete aggiungere piccoli bit di testo per nodo, principalmente per piccole informazioni dettagliate. I commenti non vengono ridimensionati correttamente e non leggono da un livello di zoom a distanza.
-* I perni di navigazione consentono di scorrere aree specifiche del grafico utilizzando la scelta rapida F2. Questo può essere utile per i grafici molto grandi in cui spesso è necessario saltare tra due aree che sono molto distanti tra loro.
+* I commenti sono utili per aggiungere testo aggiuntivo oltre a quanto consentito dalla descrizione di un Fotogramma. Potete aggiungere piccoli bit di testo per nodo, principalmente per piccole informazioni dettagliate. I commenti non vengono ridimensionati correttamente e non leggono da un livello di zoom a distanza.
+* I Segnaposti di navigazione consentono di scorrere aree specifiche del grafico utilizzando la scelta rapida da tastiera F2. Questo può essere utile per i grafici molto grandi in cui spesso è necessario saltare tra due aree che sono molto distanti tra loro.
 
 ### Posizionamento di input e output
 
@@ -59,11 +59,11 @@ Gli ingressi e le uscite devono essere posizionati alle estremità dei grafici: 
 
 ![Posizionamento di input e output](graph-creation-etiquette.resources/inout.gif "Posizionamento di input e output")
 
-L&#39;esempio precedente è un caso estremo: i fotogrammi non sono sempre necessari o possibili, ma dovrebbe essere chiaro che l&#39;allineamento verticale di In e Output è molto più chiaro rispetto al posizionamento casuale e casuale.
+L’esempio precedente è un caso estremo: i Fotogrammi non sono sempre necessari o possibili, ma dovrebbe essere chiaro che l’allineamento verticale di In e Output è molto più chiaro rispetto al posizionamento casuale e casuale.
 
 ### Reindirizzamento collegamento
 
-Nei grafici di grandi dimensioni e molto lunghi, a volte i collegamenti vengono creati su un&#39;estensione molto ampia. Questo porta a confondere i fili di collegamento che attraversano il grafico senza molto controllo. La scelta rapida &quot;Alt + Maiusc trascina&quot; consente di riorganizzare questi collegamenti, reindirizzandoli su un percorso diverso suddividendo un collegamento e aggiungendo una maniglia aggiuntiva al centro. Si raccomanda di utilizzare questa opzione in scenari in cui abbia senso.
+Nei grafici di grandi dimensioni e molto lunghi, a volte i collegamenti vengono creati su un&#39;estensione molto ampia. Questo porta a confondere i fili di collegamento che attraversano il grafico senza molto controllo. La scelta rapida da tastiera &quot;Alt + Maiusc Trascina&quot; consente di riorganizzare questi Collegamenti, reindirizzandoli su un percorso diverso suddividendo un collegamento e aggiungendo una maniglia aggiuntiva al centro. Si raccomanda di utilizzare questa opzione in scenari in cui abbia senso.
 
 ![Reindirizzamento collegamento](graph-creation-etiquette.resources/linkjreroute.gif "Reindirizzamento collegamento")
 
@@ -75,11 +75,11 @@ Le etichette consigliate predefinite non sono mai sufficienti, prendetevi il tem
 
 ![Identificatore ed etichetta](graph-creation-etiquette.resources/output-label.png "Identificatore ed etichetta")
 
-Cercare di non avere identificatore e Label differiscono troppo: nel caso in cui l&#39;identificatore venga utilizzato altrove (in più funzioni) può essere molto difficile trovare quale proprietà dell&#39;interfaccia utente è correlata a quale variabile.
+Cercate di non avere identificatore e Etichetta troppo diversi: nel caso in cui l&#39;Identificatore venga utilizzato altrove (in più Funzioni) può essere molto difficile trovare quale proprietà dell&#39;interfaccia utente è correlata a quale variabile.
 
-![Chiarezza dell&#39;identificatore](graph-creation-etiquette.resources/labelvsidentifier.png "Chiarezza dell&#39;identificatore")
+![Chiarezza Identificatore](graph-creation-etiquette.resources/labelvsidentifier.png "Chiarezza Identificatore")
 
-Cercate di far corrispondere le Etichette ai termini utilizzati in Cornici (Etichette cornice) e nei commenti. Semplifica la ricerca della sezione del grafico collegata al parametro esposto
+Prova a far corrispondere le tue etichette ai termini che utilizzi nei Fotogrammi (Etichette Fotogramma) e nei commenti. Semplifica la ricerca della sezione del grafico collegata al parametro esposto
 
 ![Etichette fotogramma e parametro corrispondenti](graph-creation-etiquette.resources/match-labels.png "Etichette fotogramma e parametro corrispondenti")
 

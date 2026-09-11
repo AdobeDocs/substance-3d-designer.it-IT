@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Costante
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 4e61f5588fb279e139240ac5939d6b7e58e1027a
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Gli interi costanti generano numeri interi e hanno un passo di 1.
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icona tipo intero](../../../../assets/fn-constant-integer.png "Icona tipo intero")
+![Icona tipo intero](constant-nodes.resources/fn-constant-integer.png "Icona tipo intero")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -58,7 +58,7 @@ Un numero intero ha un singolo componente. È utile come indice per effettuare s
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icona tipo Integer2](../../../../assets/fn-constant-integer2.png "Icona tipo Integer2")
+![Icona tipo Integer2](constant-nodes.resources/fn-constant-integer2.png "Icona tipo Integer2")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -77,7 +77,7 @@ Integer2 non è comune, ma viene utilizzato ad esempio per impostare l&#39;Affia
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icona tipo Integer3](../../../../assets/fn-constant-integer3.png "Icona tipo Integer3")
+![Icona tipo Integer3](constant-nodes.resources/fn-constant-integer3.png "Icona tipo Integer3")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -97,7 +97,7 @@ Intero 3 non è comune ed è improbabile che venga rilevato molto.<b>\
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icona tipo Integer4](../../../../assets/fn-constant-integer4.png "Icona tipo Integer4")
+![Icona tipo Integer4](constant-nodes.resources/fn-constant-integer4.png "Icona tipo Integer4")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -123,7 +123,7 @@ Le Virgole mobili costanti generano numeri frazionari, non numeri interi, il che
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icona tipo Virgola mobile](../../../../assets/fn-constant-float.png "Icona tipo Virgola mobile")
+![Icona tipo Virgola mobile](constant-nodes.resources/fn-constant-float.png "Icona tipo Virgola mobile")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -140,7 +140,7 @@ Una Virgola mobile, ha un singolo componente, il (1) è omesso dal nome per brev
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icona tipo Virgola mobile 2](../../../../assets/fn-constant-float2.png "Icona tipo Virgola mobile 2")
+![Icona tipo Virgola mobile 2](constant-nodes.resources/fn-constant-float2.png "Icona tipo Virgola mobile 2")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -157,7 +157,7 @@ Un nodo Virgola mobile2 genera un vettore Virgola mobile statico a 2 componenti.
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icona tipo Virgola mobile 3](../../../../assets/fn-constant-float3.png "Icona tipo Virgola mobile 3")
+![Icona tipo Virgola mobile 3](constant-nodes.resources/fn-constant-float3.png "Icona tipo Virgola mobile 3")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -175,7 +175,7 @@ Un nodo Virgola mobile3 genera un vettore Virgola mobile statico a 3 componenti.
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icona tipo Virgola mobile 4](../../../../assets/fn-constant-float4.png "Icona tipo Virgola mobile 4")
+![Icona tipo Virgola mobile 4](constant-nodes.resources/fn-constant-float4.png "Icona tipo Virgola mobile 4")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -197,7 +197,7 @@ Esistono due tipi di dati aggiuntivi all&#39;interno dei grafici delle funzioni 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icona tipo booleano](../../../../assets/fn-constant-boolean.png "Icona tipo booleano")
+![Icona tipo booleano](constant-nodes.resources/fn-constant-boolean.png "Icona tipo booleano")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -214,7 +214,7 @@ Un valore Boolean è il tipo di dati più semplice, con due stati distinti: True
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icona tipo stringa](../../../../assets/fn-constant-string.png "Icona tipo stringa")
+![Icona tipo stringa](constant-nodes.resources/fn-constant-string.png "Icona tipo stringa")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

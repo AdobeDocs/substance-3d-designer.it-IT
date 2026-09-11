@@ -40,7 +40,7 @@ ht-degree: 0%
 
 **Aggiunto:**
 
-* [vista 3D] È stato aggiunto un pulsante per selezionare il file AOV corrente
+* [Vista 3D] È stato aggiunto un pulsante per selezionare l&#39;AOV corrente
 * [Content] Rumore di Perlin/Gaussian: parametro scala di sblocco
 * [Contenuto] Nascondere le risorse bitmap non necessarie dalla libreria
 <!--
@@ -49,9 +49,9 @@ ht-degree: 0%
 
 **Corretto:**
 
-* [vista 3D] Le modifiche alla visibilità ambientale apportate in OpenGL non vengono trasferite ai moduli di rendering Eclair
-* [Baker] Il contesto di Eseguo i baking non è stato eliminato dopo l&#39;aggiornamento dei esegue i baking per una risorsa bitmap UDIM eliminata
-* [Baker] È stato corretto un arresto anomalo durante l’eliminazione di una risorsa bitmap UDIM durante l’aggiornamento dei relativi esegue i baking.
+* [Vista 3D] Le modifiche alla visibilità dell’ambiente apportate in OpenGL non vengono trasferite ai moduli di rendering Eclair
+* [Bakers] Il contesto di cottura non è stato eliminato dopo l&#39;aggiornamento dei dolci per una risorsa bitmap UDIM eliminata
+* [Bakers] È stato risolto un arresto anomalo durante l’eliminazione di una risorsa bitmap UDIM durante l’aggiornamento dei relativi bakes.
 * [Content] Splatter forma v2: height forma cilindro non corretto
 * [Content] Splatter forma v2: la mappa di densità non funziona correttamente quando le dimensioni del nodo superano 4096
 * [Content] Splatter forma v2: l&#39;uso dell&#39;SDF &quot;Rock&quot; dietro un If/Else può portare a un ciclo infinito
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 **Aggiunto:**
 
-* [vista 3D] Blocca la risoluzione di rendering a 4096 in X e Y
+* [Vista 3D] Blocca la risoluzione di rendering a 4096 in X e Y
 * [Baker] Aggiorna eseguite i baking-sdk alla versione 3.22.3
 * [Engine] Aggiorna il motore di Substance alla versione 9.4.4
 * [OpenGL]&#x200B;[OpenPBR] Riduci il disturbo nel lobo specular per elevata rugosità + anisotropia
@@ -82,7 +82,7 @@ ht-degree: 0%
 **Corretto:**
 
 * [vista 3D] Esportazione USD: il percorso delle risorse viene memorizzato con un percorso assoluto
-* [Baker] Il Eseguo i baking non riesce quando viene annullato il caricamento di una trama poly elevata (Windows)
+* [Pannelli] Il forno non riesce quando il caricamento di una trama poly elevata viene annullato (Windows)
 * [Baker] L’elenco delle scene 3D con poli alti non include risorse con lo stesso identificatore di poli bassi
 * [Baker] Spazio normale: una normale WS viene sempre restituita quando è presente una normale di input
 * [Contenuto] Normale non corretto durante il ridimensionamento non uniforme del pattern nello splatter forma V2
@@ -218,10 +218,10 @@ ht-degree: 0%
 
 **Corretto:**
 
-* [vista 2D] L’intervallo di selezione dell’istogramma non viene mantenuto quando la larghezza del widget diventa piccola
+* [Vista 2D] L&#39;intervallo di selezione dell&#39;istogramma non viene mantenuto quando la larghezza del widget diventa piccola
 * [Esportazione 3D] Le trame esportate da Designer non vengono riprodotte nello stesso modo in usdview
-* [vista 3D] L’assegnazione di elementi non udim alla modalità di rendering a porzione singola lascia
-* [vista 3D] Risultato Blocca quando si utilizza OCIO
+* [Vista 3D] L’assegnazione di elementi non udim alla vista 3D lascia la modalità di rendering a porzione singola
+* [Vista 3D] Risultato bloccato quando si utilizza OCIO
 * [vista 3D] Arresto anomalo quando si applica una texture del grafico a un materiale non sottoposto a override per una scena specifica
 * [vista 3D] Arresto anomalo durante la creazione di buffer di fotogramma
 * [vista 3D] Pathtracer GPU Eclair: geometria danneggiata e prestazioni ridotte durante il rendering di un modello specifico
@@ -236,7 +236,7 @@ ht-degree: 0%
 * [vista 3D] &quot;Salva rendering&quot;: il formato immagine modificato non viene mantenuto
 * [vista 3D] La selezione non funziona su GPU AMD
 * [vista 3D] La scena 3D indipendente non viene aggiornata quando viene modificata sul disco
-* [vista 3D] Alcune proprietà del materiale cromatico non vengono gestite correttamente quando vengono modificate localmente
+* [Vista 3D] Alcune proprietà del materiale cromatico non sono gestite correttamente dal colore quando vengono modificate localmente
 * [vista 3D] Le texture UDIM non vengono applicate correttamente a una trama specifica
 * [vista 3D] La scena USD con materiale MaterialX non viene più riprodotta correttamente
 * [Baker] Arresti anomali con alcune trame
@@ -248,7 +248,7 @@ ht-degree: 0%
 * [Grafico] I collegamenti del grafico vengono eliminati quando un nodo di input dell&#39;immagine viene rinominato
 * [Grafico] A volte collegamenti e segnaposti visualizzano artefatti
 * [Preferenze] Il ridimensionamento del riquadro di visualizzazione è invertito
-* [Properties] Arresto anomalo di modifica dell&#39;input grafico durante la visualizzazione dei parametri dell&#39;istanza
+* [Properties] Arresto anomalo durante la modifica della regolazione dell&#39;input grafico durante la visualizzazione dei parametri dell&#39;istanza
 * [Python] Impossibile importare moduli PySide6 (possibile conflitto con l&#39;installazione PySide6 esistente)
 * [Python] I moduli PySide e Shiboken esistenti sono in conflitto con i moduli Designer
 * [UI] Lo stile del passaggio del mouse scompare sui pulsanti in casi specifici (solo Windows)
@@ -258,8 +258,8 @@ ht-degree: 0%
 **Problemi noti:**
 
 * [Grafico] Le icone generate per gli OpenPBR non sono accurate
-* [vista 3D] Le scene con forme di base animate non sono supportate correttamente
-* [vista 3D] Pathtracer non è supportato su tutte le schede grafiche AMD
+* [Vista 3D] Le scene con forme di base animate non sono supportate correttamente
+* [Vista 3D] Il tracciatore non è supportato su tutte le schede grafiche AMD
 
 ## Versione 15
 
@@ -285,24 +285,24 @@ ht-degree: 0%
 
 * [vista 3D] L’opzione &quot;Visualizza output in vista 3D&quot; non sostituisce l’assegnazione esistente sui grafici con output singolo
 * [vista 3D] In alcuni casi non è possibile visualizzare gli UV
-* [vista 3D] Le tangenti calcolate appaiono rotte per l&#39;USD
-* [vista 3D] Arresto anomalo all’apertura del menu Modulo di rendering
-* [Baker] Impossibile impostare una distanza maggiore di 1 quando l&#39;opzione &quot;Rispetto alla casella di riepilogo&quot; è deselezionata
-* Il completamento del baker di colori [Baker] richiede troppo tempo in casi specifici
-* [Baker] Colore: Arresto anomalo quando si eseguono i baking Isole UV
-* [Baker] Gli intervalli dei parametri di distanza e raggio sono troppo stretti quando il valore è assoluto
-* [Baker] Errore durante la esegue i baking da tangenti e bitangenti mancanti di poli alti non necessari
-* [Baker] I colori dei materiali non sono corretti nella riga di comando del baker
-* [Baker] In alcune situazioni vengono ignorate più trame poly alte
-* [Baker] Normale: output nero quando si utilizza l’antialiasing e la diffusione (solo macOS)
-* [Baker] Il controllo del percorso della mappa di offset segnala errori imprevisti durante l&#39;utilizzo delle risorse del pacchetto bitmap
-* [Baker] Descrizione comando Offset map non corretta
-* [Baker] L’inserimento della risorsa in una cartella specifica della trama non funziona
-* [Baker] Trasferimento Texture: il valore &#39;UV set&#39; non viene ripristinato come quando si riapre la finestra eseguita i baking
-* [Baker] Trasferimento Texture: un input in scala di grigio non genera un output in scala di grigio
-* [Baker] Avviso per il baker ereditato disattivato non cancellato quando si modifica l&#39;origine texture nel baker di destinazione
-* [Baker] [UDIM] La mappa di offset viene applicata solo all&#39;UDIM 1001
-* [Grafico] L&#39;UDIM 1001 viene sempre calcolato indipendentemente dal file UVT utilizzato
+* [Vista 3D] Le tangenti calcolate appaiono spezzate per USD
+* [Vista 3D] Arresto anomalo all’apertura del menu Modulo di rendering
+* [Bakers] Impossibile impostare una distanza maggiore di 1 quando l&#39;opzione &quot;Rispetto a Bbox&quot; è deselezionata
+* [Panettieri] Il panettiere a colori impiega troppo tempo per finire in casi specifici
+* [Panettieri] Colore: arresto anomalo durante le Isole UV di cottura al forno
+* [Bakers] Gli intervalli dei parametri di distanza e raggio sono troppo stretti quando il valore è assoluto
+* [Panettieri] Errore durante la cottura da tangenti e bitangenti mancanti di poli alti che non sono necessari
+* [Panettieri] I colori dei materiali non sono corretti nella riga di comando del panettiere
+* [Panettieri] In alcune situazioni vengono ignorate più trame poly alte
+* [Pannelli] Normale: output nero quando si utilizza l&#39;antialiasing e la diffusione (solo macOS)
+* [Bakers] Il controllo del percorso della mappa di offset segnala errori imprevisti durante l&#39;utilizzo delle risorse del pacchetto bitmap
+* [Bakers] Descrizione comando Offset map non corretta
+* [Pannelli] L’inserimento della risorsa in una cartella specifica della trama non funziona
+* [Panettieri] Trasferimento texture: il valore &#39;UV set&#39; non viene ripristinato come quando si riapre la finestra di cottura
+* [Bakers] Trasferimento texture: un input in scala di grigio non genera un output in scala di grigio
+* [Baker] Avvertenza per il fornaio ereditato disattivato non viene cancellato quando si cambia l’origine della texture nel fornaio di destinazione
+* [Bakers] [UDIM] La mappa di offset viene applicata solo a UDIM 1001
+* [Grafico] UDIM 1001 viene sempre calcolato indipendentemente dal file UVT utilizzato
 
 ### 15.1.2
 
@@ -425,10 +425,10 @@ ht-degree: 0%
 * [Contenuto] Maschera per tracciati: errore nelle proporzioni non quadrate
 * [Content] Renderer PBR render/icone: funzione del lobo specular errata
 * [Content] Tracciati da spline: impostare &#39;Dimensioni output&#39; su &#39;Relative a padre&#39; per impostazione predefinita
-* [Contenuto] Elenco punti: i punti non sono nell&#39;ordine corretto quando la texture dati non è quadrata
+* [Contenuto] Elenco punti: i punti non sono nell&#39;ordine corretto quando la texture dei dati è non quadrata
 * [Content] Mappatura spline: errore di riga di 1px in casi casuali
-* [Contenuto] Mappatura spline: UV allungamento in alcuni casi quando il thickness è 0
-* [Grafico] Arresto anomalo quando si elimina l&#39;output di un grafico secondario di funzioni
+* [Contenuto] Mappatura spline: UV estesi in alcuni casi quando il thickness è 0
+* [Grafico] Arresto anomalo quando si elimina l’output di un grafico secondario di funzioni
 * [Grafico] Il tipo di colore del nodo di input può essere modificato in pacchetti di sola lettura
 * [Graph] L&#39;input principale può essere modificato in pacchetti di sola lettura
 * [Proprietà] Il colore del widget di anteprima colore non corrisponde allo stato del pulsante sRGB
@@ -442,7 +442,7 @@ ht-degree: 0%
 **Corretto:**
 
 * [Content] L&#39;anteprima dell&#39;output dei nodi di Strumento spline non viene visualizzata per impostazione predefinita
-* [Grafico] Arresto anomalo quando si elimina l&#39;output di un grafico secondario di funzioni
+* [Grafico] Arresto anomalo quando si elimina l’output di un grafico secondario di funzioni
 
 ### 15.0.2
 
@@ -450,39 +450,39 @@ ht-degree: 0%
 
 **Aggiunto:**
 
-* [vista 3D/OpenGL] Rimuovi l’effetto wireframe applicato alla trama selezionata
-* [vista 3D] Consente di usare il tasto &quot;F&quot; per mettere a fuoco una trama selezionata quando l&#39;Elenco scene è attivo
-* [vista 3D] Rendering non aggiornato quando si cambia formato mappa normale
+* [3D View/OpenGL] Rimuovi l&#39;effetto wireframe applicato alla trama selezionata
+* [Vista 3D] Consente di usare il tasto &quot;F&quot; per mettere a fuoco una trama selezionata quando l&#39;Elenco scene è attivo
+* [Vista 3D] Il rendering non viene aggiornato quando si modifica il formato mappa normale
 * [BakersCLI] Aggiungi opzione per controllare la dimensione della cache di superficie
 * [BakersCLI] Rinomina l&#39;opzione &quot;use\_cache&quot; in &quot;keep\_meshes\_in\_cache&quot;
 * [UI] Icona di aggiornamento per le scene 3D nella libreria
 
 **Corretto:**
 
-* [vista 3D] Arresto anomalo durante l’assegnazione di un nodo di materiale a una scena multimateriale
+* [Vista 3D] Arresto anomalo durante l’assegnazione di un nodo di materiale a una scena con più materiali
 * [vista 3D] Il grafico creato dagli input della texture viene sempre visualizzato in vista 3D, indipendentemente dalle preferenze
-* [vista 3D] Utilizzo errato in un tooltip del badge &quot;Visualizzato in vista 3D&quot; in un caso specifico
-* [vista 3D] Molti errori USD durante l&#39;override di scene specifiche
-* [vista 3D] Artefatti dell’ombra quando si utilizza lo spostamento su una scena piatta nella rasterizzazione
-* [vista 3D] Alcune scene specifiche non sono visibili quando si utilizza il modulo di rendering OpenGL
-* [vista 3D] La finestra di dialogo utilizzata per &quot;Selezionare il Grafico Substance di destinazione&quot; presenta sempre l’icona del grafico &quot;In sospeso&quot;.
-* [vista 3D] Il menu di scelta rapida della finestra della vista non viene visualizzato per scene specifiche
-* [vista 3D] I distintivi &quot;Visualizzato in vista 3D&quot; non vengono cancellati quando si cambia scena in un caso specifico
-* [vista 3D] Colore sbiadito in vista 3D quando si utilizza la gestione colore ACE Adobe
-* [vista 3D]&#x200B;[Linux] Diverse scene vengono renderizzate in nero nel modulo di rendering OpenGL
+* [Vista 3D] Utilizzo errato in una descrizione del badge &quot;Visualizzato in vista 3D&quot; in un caso specifico
+* [Vista 3D] Molti errori USD durante l&#39;override di scene specifiche
+* [Vista 3D] Artefatti dell&#39;ombra quando si utilizza lo spostamento su una scena piatta nella rasterizzazione
+* [Vista 3D] Alcune scene specifiche non sono visibili quando si utilizza il modulo di rendering OpenGL
+* [Vista 3D] La finestra di dialogo utilizzata per &quot;Selezionare il Grafico Substance di destinazione&quot; presenta sempre l&#39;icona del grafico &quot;In sospeso&quot;.
+* [Vista 3D] Il menu di scelta rapida della finestra della vista non viene visualizzato per scene specifiche
+* [Vista 3D] I badge &quot;Visualizzato in vista 3D&quot; non vengono cancellati quando si cambia scena in un caso specifico
+* [Vista 3D] Colore sbiadito nella vista 3D quando si utilizza la gestione colore di Adobe
+* [Vista 3D]&#x200B;[Linux] Diverse scene vengono renderizzate in nero nel modulo di rendering OpenGL
 * [vista 3D]&#x200B;[Visualizzatore scene] I tasti freccia spostano la selezione alla radice
 * [BakerCLI] Impossibile eseguire l&#39;override di alcuni parametri
-* [Baker] Artefatti durante la dilatazione quando si utilizzano baker normali con anti-alias
-* [Baker] Il processo di Esegue i baking si è interrotto bruscamente in CLI mentre si eseguiva i baking un elevato numero di UDIM in 4K
-* [Baker] Arresto anomalo quando si spinge il baker verso il basso nell&#39;elenco dei baker in casi specifici
-* [Baker] La selezione del formato passa da .surface a .dds
-* [Baker] Si verifica un blocco quando si esegue i baking un numero elevato di UDIM in 4K
-* arresto anomalo [Baker]&#x200B;[macOS] quando si esegue i baking il trasferimento di Texture con antialiasing
-* [Contenuto] Elenco punti: i punti non sono nell&#39;ordine corretto quando la texture dati non è quadrata
+* [Panettieri] Artefatti nella dilatazione quando si utilizzano panettieri normali con antialiasing
+* [Bakers] Il processo di cottura si è interrotto bruscamente in CLI durante la cottura di un&#39;elevata quantità di UDIM in 4K
+* [Panettieri] Arresto anomalo quando si spinge il panettiere verso il basso nell&#39;elenco dei panettieri in casi specifici
+* [Bakers] La selezione del formato passa da .surface a .dds
+* [Panettieri] Si blocca durante la cottura di grandi quantità di UDIM a 4K
+* [Bakers]&#x200B;[macOS] Arresto anomalo durante il trasferimento di texture con antialising
+* [Contenuto] Elenco punti: i punti non sono nell&#39;ordine corretto quando la texture dei dati è non quadrata
 * [Content] Visualizza tavolozza colori: i nodi interni vengono calcolati con risoluzioni troppo alte
 * [Data] Arresto anomalo durante la ridenominazione dell’output per correggere l’output fantasma nell’istanza
 * [Engine] Distanza: la luminanza della maschera di input viene modificata
-* [FxMap] $Affiancamenti non ha effetto se FX-Map si trova all’interno di un grafico secondario
+* [FxMap] $tiling non ha alcun effetto se FX-Map si trova all’interno di un grafico secondario
 * [Grafico] La ricerca fuzzy restituisce risultati irrilevanti
 * [Python Editor] Gli script caricati non vengono riaperti tra le sessioni
 
@@ -492,34 +492,34 @@ ht-degree: 0%
 
 **Aggiunto:**
 
-* [vista 3D] Consenti la texture di trame USD con DisplayColor e nessuna associazione di materiale
-* [vista 3D] Non creare automaticamente un materiale per trama che non ha un legame con il materiale
-* [vista 3D] Rinomina &quot;Campioni pixel convergenti&quot; in &quot;Campioni&quot;
-* [vista 3D] Rinomina il parametro &quot;Scala UV abilitata&quot; in &quot;Abilita Dimensioni fisiche da grafico&quot;.
-* [vista 3D] Riduce l&#39;intensità dello spostamento in base al parametro &#39;Affiancamento&#39;
-* [vista 3D/OpenGL/Iray] Aggiunge un messaggio nella finestra della vista quando l’ambiente predefinito è disattivato
-* [Baker] Usare le icone per i pulsanti per riordinare le linee nell&#39;elenco Rendering Baker
-* [Preferenze] Aggiungete un’opzione per definire il modulo di rendering di vista 3D predefinito
+* [Vista 3D] Consente di creare texture di trame USD con associazioni displayColor e nessuna associazione Material
+* [Vista 3D] Non creare automaticamente un solo materiale per trama che non ha un legame con il materiale
+* [Vista 3D] Rinomina &quot;Campioni di pixel convergenti&quot; in &quot;Campioni&quot;
+* [Vista 3D] Rinomina il parametro &quot;Scala UV abilitata&quot; in &quot;Attiva Dimensioni fisiche da grafico&quot;.
+* [Vista 3D] Riduce l&#39;intensità dello spostamento in base al parametro &#39;Tiling&#39;
+* [3D View/OpenGL/Iray] Aggiunge un messaggio nella finestra della vista quando l&#39;ambiente predefinito è disattivato
+* [Panettieri] Usare le icone dei pulsanti per riordinare le linee nell&#39;elenco di rendering Panettieri
+* [Preferenze] Aggiungete un’opzione per definire il modulo di rendering per la vista 3D predefinito
 * [Properties] Fai in modo che &quot;Ripristina predefiniti&quot; utilizzi gli eventuali valori predefiniti creati
 
 **Corretto:**
 
-* [vista 3D] Artefatti su scene specifiche quando sottoposti a rendering con OpenGL
-* [vista 3D] L’ambiente predefinito non è disattivato quando si carica una risorsa scena USD 3D che ne contiene una
-* [vista 3D] La visualizzazione del menu di scelta rapida della finestra della vista richiede diversi secondi in scene di grandi dimensioni
-* [vista 3D] L&#39;intensità dell&#39;Emissivo è 0 quando si escludono materiali non USD utilizzando solo il colore Emissivo
-* [vista 3D] I canali Rosso e Blu vengono scambiati in una texture a 8 bit utilizzata come ambiente
-* [vista 3D] Il trascinamento RMB non funziona in modo uniforme a causa del pulsante destro del mouse sul registro
-* [vista 3D] &quot;Mostra solo&quot; nel sottoinsieme nasconde la trama principale
-* [vista 3D] Le scene predefinite caricate da un file vengono visualizzate con un colore di base errato
-* [vista 3D] La proprietà &quot;Scala UV&quot; viene reimpostata quando si passa da OpenGL a un altro modulo di rendering e viceversa
-* I rendering [vista 3D]&#x200B;[Iray] sono spesso sfocati e pixelati
+* [Vista 3D] Artefatti su scene specifiche quando renderizzati con OpenGL
+* [Vista 3D] L’ambiente predefinito non è disattivato quando si carica una risorsa scena 3D USD che ne contiene una
+* [Vista 3D] La visualizzazione del menu contestuale del riquadro di visualizzazione richiede diversi secondi in scene di grandi dimensioni
+* [Vista 3D] L’intensità di emissione è 0 quando si sostituiscono materiali non USD utilizzando solo il colore di emissione
+* [Vista 3D] I canali Rosso e Blu vengono scambiati in una texture a 8 bit utilizzata come ambiente
+* [Vista 3D] Il trascinamento RMB non funziona in modo uniforme a causa del clic con il pulsante destro del mouse sul registro
+* [Vista 3D] L’opzione &quot;Mostra solo&quot; del sottoinsieme nasconde la trama principale
+* [Vista 3D] Le scene predefinite caricate da un file vengono visualizzate con un colore di base errato
+* [Vista 3D] La proprietà &quot;Scala UV&quot; viene reimpostata quando si passa da OpenGL a un altro modulo di rendering e viceversa
+* [3D View]&#x200B;[Iray] I rendering sono spesso sfocati e pixelati
 * [Baker] Artefatti quando si utilizza la diffusione su una GPU AMD
-* [Baker] La Esegue i baking non riesce con alcune scene per i set UV diversi da 0
-* [Baker] &#39;texture trasferita&#39;: l&#39;elenco &#39;UV Set&#39; non tiene conto dell&#39;opzione &#39;Use low as high poly&#39;
-* [Baker] La selezione dei riquadri UV è sempre impostata su &quot;Tutto&quot;
+* [Panettieri] La cottura non riesce con alcune scene per i set UV diversi da 0
+* [Panettieri] &quot;Texture trasferita&quot;: l&#39;elenco &quot;UV Set&quot; non tiene conto dell&#39;opzione &quot;Usa come poly alto&quot;
+* [Panettieri] La selezione dei riquadri UV è sempre impostata su &quot;Tutto&quot;
 * [Grafico] Arresto anomalo durante l&#39;eliminazione di un nodo nel contesto
-* [Mac OS]&#x200B;[vista 3D] Risoluzione di rendering errata sui display mac
+* [Mac OS]&#x200B;[Vista 3D] Risoluzione di rendering errata sui display mac
 * [Parametri] I parametri modificati non vengono formattati sul primo display
 * [UX] Le voci disabilitate nel menu a discesa sono invisibili
 
@@ -529,57 +529,57 @@ ht-degree: 0%
 
 **Aggiunto:**
 
-* [vista 3D] Nuovo modulo di rendering, con modalità rasterizzatore e tracciatore tracciatore
-* [vista 3D] Aggiungi uno strumento di selezione per selezionare un oggetto nella scena 3D
-* [vista 3D] Aggiungi nuova &quot;Esporta scena con livelli...&quot; azione nel menu &quot;Scena&quot;
-* [vista 3D] Aggiungi nuovi pulsanti della barra degli strumenti
-* [vista 3D] Aggiungete la possibilità di passare da una videocamera all’altra contenuta in una scena USD
-* [vista 3D] Consente di attivare l&#39;oggetto selezionato quando si preme &#39;F&#39; nella finestra della vista
-* [vista 3D] Consente di generare un grafico di composizione Substance da un materiale esistente
-* [vista 3D] Consenti l’invio di un grafico composizione SBS nel vista 3D e assegna il suo output univoco all’utilizzo di Ambiente/Panorama
-* [vista 3D] Cancella la selezione corrente premendo il tasto Esc
-* [vista 3D] Visualizzare una scena 3D importata con la texture
-* [vista 3D] Distinguere i controlli di ripetizione delle texture X e Y
-* [vista 3D] Attivare/Disattivare le ombre
-* [vista 3D] Attivare/Disattivare il piano terreno
-* [vista 3D] Nel menu &quot;Materiali&quot;, aggiungi &quot;Rimuovi&quot; solo per il Materiale che è stato aggiunto manualmente e che non è stato utilizzato
-* [vista 3D] Nel menu &quot;Materiali&quot;, rimuovi l&#39;azione &quot;Rimuovi tutto&quot;
-* [vista 3D] Rendere i file USDZ esportati autonomi
-* [vista 3D] Rendi persistenti le proprietà del modulo di rendering quando si cambia modalità
-* [vista 3D] Mantenere gli input di materiale esistenti quando si esegue l&#39;override di un materiale
-* [vista 3D] Ridisporre le proprietà della videocamera
-* [vista 3D] Rimuovi le azioni &quot;Fotocamera/Salva schermata...&quot; e &quot;Videocamera/Copia schermata negli Appunti&quot;
-* [vista 3D] Rimuovi l’azione del menu &quot;Materiale/Ricostruisci tutto&quot;
-* [vista 3D] Rimuovere il prefisso &quot;Default&quot; dell&#39;etichetta della fotocamera predefinita
-* [vista 3D] Impostate l&#39;azione di menu &quot;Ripristina valore predefinito&quot; come ultima nel menu hamburger delle proprietà di input del materiale
-* [vista 3D] Rettifiche per Scelta rapida da tastiera
-* [vista 3D] Supporto di ombre e traslucidità in modalità tempo reale
-* [vista 3D] Supporto degli shader MaterialX da una scena USD importata
-* [vista 3D / OpenGL] Rinomina il parametro &quot;Scala UV abilitata&quot; in &quot;Abilita Dimensioni fisiche da grafico&quot;.
-* [vista 3D / Effetti post] Fioritura
-* profondità del campo [vista 3D/Effetti post]
-* [vista 3D/Effetti post] Mappatura toni
-* [Browser scene / vista 3D] Consente di visualizzare le proprietà dei materiali quando lo si seleziona in SceneBrowser
-* [Browser scene/vista 3D] Nascondi la colonna &quot;Materiale&quot;
-* [Visualizzatore vista 3D/scena] Inserire in grassetto le impostazioni di base dell&#39;USD controllate da un&#39;entità predefinita
-* [Baker] Aggiungi un menu di scelta rapida nella vista albero con le azioni &quot;Seleziona tutto&quot;/&quot;Deseleziona tutto&quot;
-* [Baker] Aggiungete un’opzione per controllare l’interpolazione bitangente
-* [Baker] Aggiungi splitter orizzontale nella GUI
-* [Baker] Aggiungi macro UDIM per impostazione predefinita nel nome di output quando la scena è udim
-* [Baker] Consente di ricalcolare la tangente
-* [Baker] Consente di rinominare un baker senza interrompere i collegamenti
-* [Baker] Modifica le dimensioni predefinite del pannello centrale
-* [Baker] texture di input per flusso di lavoro UDIM
-* [Baker] Imposta l&#39;ordine dell&#39;elenco di vista 2D come Baker l&#39;ordine dell&#39;elenco di rendering
-* [Baker] Rendi modale la finestra di esegue i baking
-* [Baker] Gestire i parametri di mappatura tonale
-* [Baker] Rimuovi selezione plug-in spazio tangente
-* [Baker] Salvare lo stato &quot;abilitato&quot; o &quot;disabilitato&quot; per i Baker durante il salvataggio di un predefinito
-* [Baker] Selezionare il materiale per impostazione predefinita nel widget di selezione
-* [Baker] Imposta l’orientamento predefinito della texture di output Normale in relazione alla preferenza
-* [Baker] Per impostazione predefinita, imposta le porzioni UV su Tutto
-* [Baker] Opzione di aggiunta WordSpaceDirection FromTexture/FromValue
-* [Baker] Da mondo a tangente: imposta l&#39;input predefinito su &quot;Da texture&quot;
+* [Vista 3D] Nuovo modulo di rendering, con modalità rasterizzatore e tracciatore tracciatore
+* [Vista 3D] Aggiungi uno strumento di selezione per selezionare un oggetto nella scena 3D
+* [Vista 3D] Aggiungi nuova &quot;Esporta scena con livelli...&quot; azione nel menu &quot;Scena&quot;
+* [Vista 3D] Aggiungere nuovi pulsanti della barra degli strumenti
+* [Vista 3D] Aggiungi la possibilità di passare da una videocamera all’altra contenuta in una scena USD
+* [Vista 3D] Consente di attivare l&#39;oggetto selezionato quando si preme &#39;F&#39; nella finestra della vista
+* [Vista 3D] Consente di generare un grafico di composizione Substance da un materiale esistente
+* [Vista 3D] Consenti l’invio di un grafico composizione SBS nella vista 3D e assegna il suo output univoco all’utilizzo Ambiente/Panorama
+* [Vista 3D] Cancella la selezione corrente premendo il tasto Esc
+* [Vista 3D] Visualizza una scena 3D importata con texture
+* [Vista 3D] Distinguere i controlli di ripetizione delle texture X e Y
+* [Vista 3D] Attivare/Disattivare le ombre
+* [Vista 3D] Attivare/Disattivare il piano terreno
+* [Vista 3D] Nel menu &quot;Materiali&quot;, aggiungi &quot;Rimuovi&quot; solo per il Materiale che è stato aggiunto manualmente e che non è utilizzato
+* [Vista 3D] Nel menu &quot;Materiali&quot;, rimuovi l&#39;azione &quot;Rimuovi tutto&quot;
+* [Vista 3D] Rendere i file USDZ esportati autonomi
+* [Vista 3D] Rendi persistenti le proprietà del modulo di rendering quando si cambia modalità
+* [Vista 3D] Mantiene gli input di materiale esistenti quando si sostituisce un materiale
+* [Vista 3D] Ridisporre le proprietà della videocamera
+* [Vista 3D] Rimuovi azioni &quot;Videocamera/Salva schermata...&quot; e &quot;Videocamera/Copia schermata negli Appunti&quot;
+* [Vista 3D] Rimuovi l&#39;azione del menu &quot;Materiale/Ricostruisci tutto&quot;
+* [Vista 3D] Rimuovi il prefisso &quot;Default&quot; dell&#39;etichetta della fotocamera predefinita
+* [Vista 3D] Imposta l&#39;azione di menu &quot;Ripristina valore predefinito&quot; come ultima nel menu hamburger delle proprietà di input del materiale
+* [Vista 3D] Regolazioni scelte rapide
+* [Vista 3D] Supporto di ombre e trasparenza in modalità tempo reale
+* [Vista 3D] Supporto degli shader MaterialX da una scena USD importata
+* [Vista 3D/OpenGL] Rinomina il parametro &quot;Scala UV abilitata&quot; in &quot;Abilita Dimensioni fisiche da grafico&quot;.
+* [Vista 3D / Effetti Post] Bloom
+* profondità del campo [Vista 3D/Effetti Post]
+* [Vista 3D / Effetti Post] Mappatura toni
+* [Vista 3D / Browser scena] Consente di visualizzare le proprietà del materiale quando lo si seleziona in SceneBrowser
+* [Vista 3D/Visualizzatore scene] Nascondi la colonna &quot;Materiale&quot;
+* [Vista 3D/Visualizzatore scene] Inserisci in grassetto gli elementi di base USD controllati da un&#39;entità predefinita
+* [Panettieri] Aggiungi un menu di scelta rapida nella vista albero con le azioni &quot;Seleziona tutto&quot;/&quot;Deseleziona tutto&quot;
+* [Baker] Aggiungete un&#39;opzione per controllare l&#39;interpolazione bitangent
+* [Bakers] Aggiungi splitter orizzontale nella GUI
+* [Bakers] Aggiungi macro UDIM per impostazione predefinita nel nome di output quando la scena è udim
+* [Pannelli] Consente di ricalcolare la tangente
+* [Panettieri] Consenti di rinominare un panettiere senza interrompere i collegamenti
+* [Panettieri] Modificare le dimensioni predefinite del pannello centrale
+* [Bakers] Texture di input per flusso di lavoro UDIM
+* [Bakers] Imposta l&#39;ordine dell&#39;elenco di mappe 2D View come ordine dell&#39;elenco di rendering Bakers
+* [Panettieri] Rendete modale la finestra di cottura
+* [Panettieri] Gestire i parametri di mappatura tonale
+* [Bakers] Rimuovi selezione plug-in spazio tangente
+* [Panettieri] Salva stato &quot;abilitato&quot; o &quot;disabilitato&quot; per i panettieri durante il salvataggio di un predefinito
+* [Panettieri] Selezionare il materiale per impostazione predefinita nel widget di selezione
+* [Bakers] Impostare l&#39;orientamento predefinito della texture di output Normale rispetto alla preferenza
+* [Panettieri] Per impostazione predefinita, imposta le porzioni UV su Tutto
+* [Bakers] Opzione di aggiunta WordSpaceDirection FromTexture/FromValue
+* [Pannelli] Da universale a tangente: imposta l’input predefinito su &quot;Da texture&quot;
 * [SBSBaker] Create un&#39;opzione per controllare l&#39;ordine backend
 * [SBSBaker] Migliore utilizzo dell&#39;argomento StringList
 * [SBSBaker] Rinominare &quot;match\_source\_instance&quot; in &quot;match\_mesh\_name&quot;
@@ -594,31 +594,31 @@ ht-degree: 0%
 * [Nodes] Aggiungere descrizioni comandi avanzate per i nodi atomici
 * [Parameters] Chiude la sezione &#39;Attributes&#39; per impostazione predefinita
 * [Parametri] Consente all&#39;utente di specificare i valori di default dei parametri di base per le nuove istanze
-* [Preferenze] Baker: aggiungi un&#39;opzione booleana per calcolare lo spazio tangente per frammento
+* [Preferenze] Pannelli: aggiungi un&#39;opzione booleana per calcolare lo spazio tangente per frammento
 * [Preferenze] Rimuovi i plug-in dello spazio tangente
 * [Preferenze] Memorizzare le preferenze per le versioni secondarie di SD (XX.X)
 * [VFX] Aggiornamento incrementale alla versione 1.85.0
 * [VFX] Aggiornate MacOS versione minima alla versione 12.0
-* [VFX] Aggiornamento OpenColorIO alla versione 2.4.2
-* [VFX] Aggiornamento OpenColorIO alla versione 2.4.x
+* [VFX] Aggiornare OpenColorIO alla versione 2.4.2
+* [VFX] Aggiornamento di OpenColorIO alla versione 2.4.x
 * [VFX] Aggiornamento di OpenExr alla versione 3.3.x
 * [VFX] Aggiornare Qt alla versione 6.5.8
 
 **Corretto:**
 
-* [vista 3D] Le Texture nella scena USD esportata non vengono applicate correttamente
-* [vista 3D] [UDIM] Impossibile visualizzare gli output del grafico UDIM in vista 3D quando la visualizzazione automatica all&#39;apertura del grafico è disattivata nelle preferenze del grafico
-* [Baker] &#39;Antialiasing.&#39; e &#39;Media. le celle normali per i baker non applicabili sono vuote e modificabili
-* [Baker] L’azione &quot;Aggiorna&quot; utilizza il back-end raytracing quando è disattivato nelle preferenze
-* [Baker] Baker bloccati come occupati dopo un errore durante la procedura &quot;Aggiorna tutte le mappe con baking&quot;
-* [Baker] Arresto anomalo a oltre 180 UDIM quando si esegue i baking la mappa di posizione OpenGL su una trama specifica
-* [Baker] Arresto anomalo quando si apre la finestra di dialogo &quot;Esegue i baking informazioni sul modello&quot; più volte in una riga (solo macOS)
-* [Baker] Nell’esportazione dei predefiniti JSON, il valore &quot;udim&quot; è sostituito da &quot;1001&quot; quando era impostato su &quot;All&quot;
+* [Vista 3D] Le texture nella scena USD esportata non vengono applicate correttamente
+* [Vista 3D] [UDIM] Impossibile visualizzare gli output del grafico UDIM in Vista 3D quando la visualizzazione automatica all&#39;apertura del grafico è disattivata nelle preferenze del grafico
+* [Panettieri] &#39;Antialiasing.&#39; e &#39;Media. le celle normali per i forni non applicabili sono vuote e modificabili
+* [Bakers] L’azione &quot;Aggiorna&quot; utilizza il backend ray tracing quando è disattivato nelle preferenze
+* [Panettieri] Panettieri bloccati come occupati dopo un errore durante il processo &quot;Aggiorna tutte le mappe con baking&quot;
+* [Bakers] Arresto anomalo a oltre 180 UDIM durante la cottura della mappa di posizione OpenGL su una trama specifica
+* [Bakers] Arresto anomalo quando si apre la finestra di dialogo &quot;Informazioni modello di forno&quot; più volte di seguito (solo macOS)
+* [Bakers] Nell’esportazione dei predefiniti JSON, il valore &quot;udim&quot; è sostituito da &quot;1001&quot; quando era impostato su &quot;All&quot;
 * [Baker] Memoria non rilevata correttamente su Linux
-* [Baker] La dipendenza di input mappa mancante non attiva il rendering di avvisi e/o blocchi
-* [Baker] Nessuna etichetta di errore quando il nome dell&#39;output è vuoto
-* [Baker] Il passaggio della trama ad alto poli dal file non ha alcun effetto
-* [Baker] Il baker di destinazione non è selezionato per impostazione predefinita quando si utilizza l’azione &quot;Ripristina&quot;
+* [Bakers] La dipendenza di input mappa mancante non attiva il rendering di avvisi e/o blocchi
+* [Bakers] Nessuna etichetta di errore quando il nome dell&#39;output è vuoto
+* [Pannelli] Il passaggio della trama ad alto poli dal file non ha alcun effetto
+* [Bakers] Il baker di destinazione non è selezionato per impostazione predefinita quando si utilizza l&#39;azione &quot;Rebake&quot;
 * [Engine] Distanza: visibile &quot;taglio&quot; in alcune situazioni
 * [Engine] Mappa Fx: i colori negativi non sono supportati quando la profondità di bit è 8 bit (solo motori GPU)
 * [Localizzazione] L’input di caratteri torna dal giapponese al latino nel menu dei nodi
@@ -699,7 +699,7 @@ ht-degree: 0%
 * [Content] Triangle Grid: modifica il metodo di triangolazione e utilizza i loop
 * [Contenuto] Nuove spline Dispersione nel nodo Spline
 * [Cooker] Esporre il parametro di base &#39;Pixel ratio&#39; come variabile statica &#39;$pixelratio&#39;
-* [CrashReport] Finestra Integra nuovo report di arresto anomalo
+* [CrashReport] Integrazione della nuova finestra di CrashReport
 * [Engine] Aggiungi la versione Vulkan/Metal del motore di fusione
 * [Grafico] Modalità materiale: consente la connessione all&#39;input senza utilizzo quando è selezionato un singolo collegamento
 * [Grafico] Collegamento materiale: consenti connessioni standard quando la connessione non è ambigua
@@ -710,7 +710,7 @@ ht-degree: 0%
 * [Resources] Impostare il formato su &quot;All format&quot; nella finestra di dialogo &quot;Link Bitmap&quot;
 * [Cerca] Aggiungi un modo per abilitare/disabilitare una modalità ricorsiva
 * [Cerca] Aggiungi un modo per abilitare/disabilitare la ricerca fuzzy
-* [Cerca] Mostra sempre e attiva il campo dei termini di ricerca quando si abilita Ricerca nodi utilizzando la relativa scelta rapida da tastiera da tastiera
+* [Cerca] Mostra sempre e attiva il campo dei termini di ricerca quando si abilita Ricerca nodi utilizzando la relativa scelta rapida da tastiera
 * [Search] Rielaborare l&#39;opzione di filtro
 * [Scelte rapide] Consenti assegnazione tasti &#39;V&#39;, &#39;H&#39; e &#39;S&#39;
 * [ThirdParty] Upgrade to Qt 6.5.7
@@ -728,13 +728,13 @@ ht-degree: 0%
 * [Contenuto] Elenco Spline Bridge: risultato errato quando si utilizzano gli offset di inizio/fine
 * [Contenuto] Selezione spline: la quantità di spline di output può essere maggiore della quantità di spline di input
 * [Content] Spline Warp genera un risultato nero con il motore SSE
-* Triangle Grid [Content]: il pattern non è Affiancamento correttamente
-* Triangle Grid [Content]: l&#39;Affiancamento è interrotto in un caso specifico
-* arresto anomalo [Data] quando si modifica l’identificatore di input del grafico in un caso specifico
-* [Grafico a funzioni] I valori lunghi appaiono sovrapposti sui nodi &#39;Virgola mobile&#39;
-* arresto anomalo [Fx-Map] durante la visualizzazione delle proprietà del nodo Quadrante
-* [Grafico] [UDIM] Una barra di scorrimento nell&#39;elenco UDIM genera 1..1 1..2 voci
-* [Graph]&#x200B;[Shortcuts] Il nodo creato utilizzando una scelta rapida da tastiera non viene posizionato sul collegamento esistente dopo la duplicazione del nodo
+* Triangle Grid [Content]: il pattern non viene affiancato correttamente
+* [Content] Triangle Grid: la suddivisione in porzioni è interrotta in un caso specifico
+* [Data] Arresto anomalo quando si modifica l’identificatore di input del grafico in un caso specifico
+* [Grafico a funzioni] I valori lunghi appaiono sovrapposti sui nodi &quot;mobili&quot;
+* [Fx-Map] Arresto anomalo durante la visualizzazione delle proprietà del nodo quadrante
+* [Grafico] [UDIM] Una barra di scorrimento nell&#39;elenco UDIM genera 1.1 1.2 voci
+* [Grafico]&#x200B;[Scelte rapide] Il nodo creato utilizzando una scelta rapida non viene posizionato sul collegamento esistente dopo la duplicazione del nodo
 * [Properties] Visualizzazione del parametro non corretta quando il valore non è valido
 * [Publish] Le dipendenze reciproche generano un ciclo infinito durante la pubblicazione di un pacchetto
 * [Publish] Errore invisibile quando si utilizza l&#39;azione &#39;Publish&#39; su un pacchetto con dipendenza scaricata
@@ -753,8 +753,8 @@ ht-degree: 0%
 
 <b>Corretto:</b>
 
-* [Bitmap] I tratti Pittura nella risorsa bitmap non contrassegnano il pacchetto host come modificato
-* [Grafico a funzioni] Arresto anomalo durante la chiusura del pacchetto con il grafico a funzioni che ospita un nodo di istanza
+* [Bitmap] I tratti di disegno sulla risorsa bitmap non contrassegnano il pacchetto host come modificato
+* [Grafico a funzioni] Arresto anomalo quando si chiude un pacchetto con grafico a funzioni che ospita un nodo di istanza
 * [Grafico a funzioni] Arresto anomalo quando si annullano due modifiche del nodo Colore di esempio in una riga
 
 ### 14.0.1
@@ -770,12 +770,12 @@ ht-degree: 0%
 
 * [API] Impossibile caricare di nuovo i plug-in scaricati
 * [Contenuto] Calcolo istogramma: il risultato è 16 volte quello che dovrebbe essere
-* Triangle Grid [Content]: il pattern non è Affiancamento correttamente
-* arresto anomalo [Data] quando si modifica l’identificatore di input del grafico in un caso specifico
+* Triangle Grid [Content]: il pattern non viene affiancato correttamente
+* [Data] Arresto anomalo quando si modifica l’identificatore di input del grafico in un caso specifico
 * [Engine] Il nodo Distanza produce artefatti quando si utilizzano dimensioni dei pixel molto basse
 * [Engine] Risultato nodo Distanza errato con risoluzione 8K sul motore SSE2
-* [Grafico a funzioni] I valori lunghi appaiono sovrapposti sui nodi &#39;Virgola mobile&#39;
-* [Graph]&#x200B;[Shortcuts] Il nodo creato utilizzando una scelta rapida da tastiera non viene posizionato sul collegamento esistente dopo la duplicazione del nodo
+* [Grafico a funzioni] I valori lunghi appaiono sovrapposti sui nodi &quot;mobili&quot;
+* [Grafico]&#x200B;[Scelte rapide] Il nodo creato utilizzando una scelta rapida non viene posizionato sul collegamento esistente dopo la duplicazione del nodo
 * [Properties] Visualizzazione del parametro non corretta quando il valore non è valido
 
 ### 14.0.0
@@ -816,9 +816,9 @@ ht-degree: 0%
 * [API] Aggiungi metodi per ottenere e impostare il tipo di grafico di un grafico di composizione Substance
 * [ThirdParty] Segui le raccomandazioni sulle piattaforme VFX del 2023
 * [ThirdParty] Segui le raccomandazioni sulle piattaforme VFX del 2024
-* [Third Party] Aggiornamento incrementato alla versione 1.82.0 + USD alla versione 23.08
+* [ThirdParty] Aggiorna Boost a 1.82.0 + USD a 23.08
 * [ThirdParty] Aggiornamento NGL alla 1.38
-* [Third Party] Aggiornamento OpenColorIO alla versione 2.3.x
+* [ThirdParty] Aggiorna OpenColorIO alla versione 2.3.x
 * [ThirdParty] Aggiornamento di OpenExr alla versione 3.2.x
 * [ThirdParty] Aggiornamento di OpenSubdiv alla versione 3.6.x
 * [ThirdParty] Aggiorna Python alla versione 3.11.x
@@ -830,12 +830,12 @@ ht-degree: 0%
 
 <b>Corretto:</b>
 
-* [Baker] Arresto anomalo quando si rigenera una scena il cui nome file è stato modificato
-* [Baker] Arresto anomalo quando si salvano i baker predefiniti in File JSON
+* [Bakers] Arresto anomalo quando si ripristina una scena il cui nome file è stato modificato
+* [Bakers] Arresto anomalo durante il salvataggio del predefinito bakers in un file JSON
 * [Content] &#39;Dispersione su spline&#39;: Esposizione parametro alfa immagine di input
 * [Content] &#39;Tile Sampler Color&#39;: espressione visibleif mancante
 * [Contenuto] Disturbo anisotropo: un valore negativo per la quantità X/Y produce un risultato errato
-* [Contenuto] Disturbo anisotropo: problema di Affiancamento quando si utilizza un valore dispari come quantità X e nessun smoothness
+* [Content] Disturbo anisotropo: problema di suddivisione quando si utilizza un valore dispari come quantità X e nessun smoothness
 * [Content] Funzione Distrib normale: max() posizionato in modo errato può portare a NaN
 * [Contenuto] Le ombre RTAO, Normale piegato e RT non funzionano correttamente su alcune piattaforme
 * [Content] Colore Fusione splatter forma: le mappe normali OpenGL non vengono fuse correttamente
@@ -875,7 +875,7 @@ ht-degree: 0%
 * [Grafico] Migliorare lo spostamento dei commenti
 * [Grafico] Agganciare fotogrammi incollati/duplicati e commenti alla griglia
 * [Fotogrammi] Agganciare nuovi fotogrammi e commenti alla griglia
-* [Content] &quot;Curvatura uniforme&quot;: aggiungete una nota sul supporto degli Affiancamenti nella descrizione
+* [Content] &quot;Curvatura uniforme&quot;: aggiungete una nota sul supporto della suddivisione in porzioni nella descrizione
 * [3DView]&#x200B;[IRay] Consente l&#39;assegnazione dell&#39;output int al parametro enum
 * [AxF] Aggiungi proprietà sul modello di camice trasparente
 * [AxF] Miglioramento della gestione degli errori durante l’esportazione
@@ -886,13 +886,13 @@ ht-degree: 0%
 
 <b>Corretto:</b>
 
-* [vista 3D] Arresto anomalo durante la reimpostazione di un parametro Int MDL mappato a un enumeratore MDL
+* [Vista 3D] Arresto anomalo durante la reimpostazione di un parametro Int MDL mappato a un enumeratore MDL
 * [vista 3D] Widget errati per le proprietà dello shader SVBRDF quando il materiale viene reimpostato dopo la modifica della scena 3D
-* [vista 3D] Widget errati per le proprietà dello shader SVBRDF quando non viene applicato alcun grafico
-* [vista 3D] Il pulsante &#39;Mostra ambiente&#39; è disabilitato per le nuove visualizzazioni senza file SBSSCN predefinito
-* [vista 3D] Il passaggio dal modulo di rendering Iray a OpenGL disconnette l’output di un grafico
+* [Vista 3D] Widget non corretti per le proprietà dello shader SVBRDF quando non viene applicato alcun grafico
+* [Vista 3D] Il pulsante &quot;Mostra ambiente&quot; è disabilitato per le nuove viste senza file SBSSCN predefinito
+* [Vista 3D] Il passaggio dal modulo di rendering Iray a OpenGL disconnette l’output di un grafico
 * [AxF] La variante Fresnel non viene aggiornata dall&#39;output del grafico
-* [AxF] Le etichette delle proprietà degli shader AxF sono formattate in modo incoerente
+* [AxF] Le etichette delle proprietà dello shader AxF sono formattate in modo incoerente
 * [AxF] L&#39;avviso relativo alle risorse non modificate viene visualizzato solo in Console
 * [Content] &quot;Non uniforme&quot; non viene scritto in modo uniforme in tutti i nodi
 * [Content] Dispersione sulla spline: pattern mancanti sulle spline del ponte
@@ -960,19 +960,19 @@ ht-degree: 0%
 * [Dipendenze] Aggiorna Incremento a 1.80.0
 * [Dipendenze] Aggiornare OpenSubdiv alla versione 3.5.x
 * [Dipendenze] Aggiornamento di gcc alla versione 11.2.1 - Problema con Iray/MDL C++20
-* [Dipendenze] Aggiornamento dell’SDK FBX al 2020.3
+* [Dipendenze] Aggiornate FBX SDK al 2020.3
 * [Dipendenze] Aggiorna NGL in 1.35.0.20
 * [Gestione colore] Aggiungi il supporto per i display ICC OCIO
 * [Livelli] Aggiungi un modo per ripristinare l’istogramma
 * [Python] Avvisa gli utenti se non è possibile importare QtForPython
 * [Vista 2D] Salva lo stato delle opzioni di visualizzazione
-* [vista 3D] Aggiungere la tecnica Posizione allo shader informazioni trama
+* [Vista 3D] Tecnica Aggiungi posizione allo shader delle informazioni sulla trama
 * [Esporta] Aggiungi un pulsante &quot;Salva impostazioni&quot; per salvare le modifiche alle opzioni di esportazione
 
 <b>Corretto:</b>
 
-* [vista 3D] Impossibile assegnare una texture a un input di tipo texture\_2d di un materiale MDL
-* [AxF] Gli identificatori del grafico nell&#39;elenco dei modelli possono essere vuoti
+* [Vista 3D] Impossibile assegnare una texture a un input di tipo texture\_2d di un materiale MDL
+* [AxF] Gli identificatori grafici nell&#39;elenco dei modelli possono essere vuoti
 * [AxF] Il campo modello grafico Substance è vuoto per impostazione predefinita
 * [Content] Atlas scatter: comportamento errato in casi specifici
 * [Content] Mappatura Flood Fill: output vuoto quando tutte le forme hanno la stessa dimensione Bbox
@@ -982,7 +982,7 @@ ht-degree: 0%
 * [Content] Descrizione mancante per i nodi Valore di input, Scala di grigi di input, Colore di input e Output
 * [Content] Descrizione mancante per i nodi Set e Sequence
 * [Content] Splatter forma: artefatti di imprecisione nell&#39;output &#39;Splatter data 2&#39;
-* [Engine] I booleani nei Processori di valori restituiscono sempre &#39;False&#39; (solo Apple Silicon)
+* [Engine] I booleani nei processori di valore restituiscono sempre &#39;False&#39; (solo Apple Silicon)
 * [Esplora risorse] L&#39;ordine dei pulsanti della barra degli strumenti non è coerente tra i sistemi operativi
 * [Fotogrammi] Non acquisire i nodi quando si sposta un fotogramma con il modificatore CTRL
 * [Gradient Map] reimposta tutte le opzioni dovrebbe ripristinare anche il widget della sfumatura
@@ -1027,9 +1027,9 @@ ht-degree: 0%
 * [Contenuto] Thickness di campionamento spline: la spline può essere sottratta in valori negativi
 * [Contenuto] Selezione spline: per impostazione predefinita, le spline vengono chiuse con un singolo segmento
 * [Arresto anomalo]&#x200B;[Cooker] Arresto anomalo durante il caricamento di grafici specifici
-* [Arresto anomalo]&#x200B;[UI] Arresto anomalo quando si abilitano i menu dopo aver caricato il pacchetto dalla schermata iniziale
+* [Arresto anomalo]&#x200B;[UI] Arresto anomalo durante l’attivazione dei menu dopo il caricamento del pacchetto dalla schermata Home
 * [API] Il collegamento &quot;Documentazione utente&quot; nel riferimento agli script è obsoleto
-* Impossibile aprire la funzione di Processore di valori [Properties] in un grafico bloccato
+* [Properties] Impossibile aprire la funzione Value Processor in un grafico bloccato
 * [Publish] Impossibile pubblicare pacchetti contenenti grafici MDL
 * [UI] L’opzione &quot;Gestisci account...&quot; è disattivata nel menu Aiuto
 * [UI] Voci mancanti nel menu Aiuto quando si apre Designer tramite un file
@@ -1049,7 +1049,7 @@ ht-degree: 0%
 * [Contenuto] Risultato errato in diversi nodi della spline quando si utilizza la distribuzione uniforme
 * [Content] Errori minori nelle descrizioni comandi dei nodi Spline &amp; Path
 * [Content] Trasforma quadrupla su tracciato: i valori predefiniti p01 e p10 sono invertiti
-* [Content] Trasforma quadrupla: il risultato non è corretto in una situazione specifica
+* [Content] Quad Transform: il risultato non è corretto in una situazione specifica
 * [Contenuto] Cerchio spline: il risultato &quot;Capovolgi direzione&quot; non è corretto quando non si utilizza la distribuzione uniforme
 * [Contenuto] Cerchio spline: le tangenti non sono corrette durante la regolazione dei parametri di spirale e dimensione
 * [Content] Mappatura flusso spline: striature nere nel risultato quando si utilizza la potenza a spirale elevata in Spline Circle
@@ -1108,14 +1108,14 @@ ht-degree: 0%
 * [Contenuto] Nodo in scala di grigi con mappatura UV
 * [Content] Percorsi al nodo Spline
 * Nodo [Contenuto] Maschere su tracciati
-* [Content] Nodenode Trasforma tracciati 2D
+* [Content] Nodenode trasformazione tracciati 2D
 * Nodo poligono [Content] Paths
 * [Contenuto] Nodo Anteprima tracciati
 * [Contenuto] Nodo Alterazione tracciati
 * [Content] Seleziona tracciati, nodo
 * [Content] Nodo processore vertici tracciati
 * [Content] Elaboratore vertici tracciati Nodo semplice
-* [Content] Trasforma quadruplo nel nodo Percorso
+* [Content] Quad Transform sul nodo Path
 * [Content] Occlusione ambientale con ray tracing v2
 * [Contenuto] Normale curvato con ray tracing v2
 * [Content] Ombre con ray tracing v2
@@ -1124,12 +1124,12 @@ ht-degree: 0%
 * [Motore] Aggiungi modalità solida a Sfumatura
 * [Engine] Nodo atomic pow() nel grafico delle funzioni
 * [Engine] Aggiungi opzioni di disposizione dei bordi (blocco a spigolo / ripetizione) nel nodo Sampler
-* [Engine] Campionamento più vicino nel nodo Altera e Alterazione direzionale
+* [Engine] Campionamento più vicino nei nodi Altera e Alterazione direzionale
 * [Motore] Aggiungete una modalità &quot;punchthrough alfa&quot; al filtro Nitidezza per gli input di colore
 * [Engine] FxMap: morphlet Emisfero
 * [Engine] Operazioni Atomic Get/Set nei grafici delle funzioni
 * [Motore] Funzioni: utilizzare la funzione precisa di log/log2/exp, 2pow - Unificare le funzioni tra la cucina e il motore
-* [Engine] Aggiunge un parametro di &quot;offset intensità&quot; al filtro di Alterazione direzionale
+* [Engine] Aggiungete un parametro di &quot;offset intensità&quot; al filtro Alterazione direzione
 * [API] Supporto della gestione dei predefiniti per la composizione di grafici
 * [Funzioni] Modificare il nome di input per le funzioni nodi atomici
 * [Localizzazione] Aggiungere le lingue portoghese (Brasile), italiano (Italia) e spagnolo (Spagna)
@@ -1139,7 +1139,7 @@ ht-degree: 0%
 
 <b>Corretto:</b>
 
-* [vista 3D] La visualizzazione di stringhe lunghe nelle statistiche delle scene è tagliata (solo macOS)
+* [Vista 3D] La visualizzazione di stringhe lunghe nelle statistiche delle scene è tagliata (solo macOS)
 * [API] Il modulo &#39;structure::Structure&#39; è ancora incluso nel riferimento API
 * [API] I nodi dei punti nei grafici MDL non hanno definizioni né proprietà
 * [API] Comportamento errato durante l&#39;impostazione del parametro dei nodi di funzione
@@ -1151,7 +1151,7 @@ ht-degree: 0%
 * [Grafico] Attivazione errata nella finestra di dialogo &#39;Esporta parametro&#39; quando si utilizza il tasto &#39;Invio&#39;
 * [Grafico] Risultato errato nella scansione dell&#39;istogramma con bitmap nella modifica del contesto
 * [Localizzazione] Risolvere vari problemi di ritaglio
-* arresto anomalo di [Parameters] quando si elimina un parametro di input
+* [Parametri] Arresto anomalo quando si elimina un parametro di input
 * [Publish] I grafici nelle cartelle vengono spostati nella cartella principale nel pacchetto pubblicato
 * [Resources] Arresto anomalo durante l&#39;aggiornamento di una risorsa caricata sul disco
 * [VisibleIf] Correggere la regressione nella valutazione della visibilità condizionale
@@ -1165,18 +1165,18 @@ ht-degree: 0%
 **Aggiunto:**
 
 * [Cooker]&#x200B;[Grafico] Tenere in considerazione i tag di trasformazione EXIF nel file JPEG
-* [Security] Aggiornamento a USD 23.02
+* [Sicurezza] Aggiorna a USD 23.02
 * [Sicurezza] Rimuovi il supporto per l&#39;importazione di formati di file Collada (.dae)
-* [Modelli di Substance] Avvertenza sulla fine del ciclo di vita dei grafici dei modelli di Substance nella prossima versione principale
+* [Modelli di Substance] Avvertenza sulla fine del ciclo di Substance dei grafici dei modelli nella prossima versione principale
 
 **Corretto:**
 
-* [vista 3D]&#x200B;[ASM] Rivestimento dell&#39;artefatto di rugosità quando si utilizza CoatNormal
+* [3D View]&#x200B;[ASM] Rivestimento dell&#39;artefatto di rugosità quando si utilizza CoatNormal
 * [Content] Il parametro &#39;Gradient Filled Cella&#39; del nodo Alveolus è invertito
 * [Content] Il numero di input dei nodi Multi-Switch non è bloccato
 * [Contenuto] Avviso di cottura nel nodo Normale di Generator Scratches
-* [Data] Arresto anomalo di caricamento manuale del pacchetto dopo aver annullato il caricamento precedente
-* [Dati] Arresto anomalo quando si annullano rapidamente più operazioni del grafico fino al carico del pacchetto
+* [Data] Arresto anomalo durante il caricamento manuale del pacchetto dopo aver annullato il caricamento precedente
+* [Data] Arresto anomalo quando si annullano rapidamente più operazioni grafiche fino al caricamento del pacchetto
 
 ### 12.4.0
 
@@ -1184,14 +1184,14 @@ ht-degree: 0%
 
 **Aggiunto:**
 
-* [vista 3D] Aggiungi tutte le opzioni del menu Visualizza come pulsanti della barra degli strumenti
+* [Vista 3D] Aggiungi tutte le opzioni del menu Visualizza come pulsanti della barra degli strumenti
 * [API] Consenti l’aggiunta di azioni alle barre degli strumenti della visualizzazione grafico
-* [API] Consenti di creare, modificare o valutare un grafico del modello Substance dall’API
-* [Gestione colore] Migliorare la qualità delle LUT 3D eseguite i baking in modalità ACE
+* [API] Consenti di creare, modificare o valutare un grafico del modello di Substance dall’API
+* [Gestione colore] Migliorare la qualità delle LUT 3D al forno in modalità ACE
 * [Documentazione] Progetti di esempio per Substance grafici di composizione
 * [Documentazione] Progetto di esempio per i grafici delle funzioni
 * [Explorer] Consente di spostare il grafico e le risorse da un elemento padre a un altro senza chiudere o invalidare i widget
-* [Editore sfumatura] Seleziona il segnaposto su cui si fa clic durante la visualizzazione dell’editor delle sfumature
+* [Editore sfumatura] Seleziona la puntina su cui hai fatto clic quando visualizzi l’editor della sfumatura
 * [Grafico] Aggiungere l&#39;opzione nel menu di scelta rapida di un nodo per selezionare tutti i relativi figli
 * [Grafico] Pulisci lo strumento grafico per rilevare e rimuovere i nodi inutilizzati in tutti i tipi di grafico e i grafici delle proprietà
 * [Grafico] Trasforma l&#39;input dell&#39;immagine in scala di colori/grigi
@@ -1229,10 +1229,10 @@ ht-degree: 0%
 **Corretto:**
 
 * [Risorse 3D] &quot;Guida > Risorse Substance 3D&quot; è erroneamente destinato a Creative Cloud Desktop su Linux
-* [vista 3D] I materiali non vengono creati quando viene caricata la trama
-* [vista 3D] L&#39;elenco dei materiali si apre quando si rilascia il grafico del modello Substance nella finestra della vista
-* [Explorer] Impossibile eliminare la selezione con la tastiera se è incluso un grafico del modello Substance
-* [Esplora] Arresto anomalo durante l&#39;apertura del menu contestuale dell&#39;elemento materiale di una risorsa trama in Mac
+* [Vista 3D] I materiali non vengono creati quando viene caricata la trama
+* [Vista 3D] L&#39;elenco dei materiali viene aperto quando si rilascia il grafico del modello di Substance nella finestra della vista
+* [Explorer] Impossibile eliminare la selezione con la tastiera se è incluso un grafico del modello di Substance
+* [Explorer] Arresto anomalo all&#39;apertura del menu di scelta rapida di un elemento materiale di una risorsa trama in Mac
 * [Grafico] Le istanze le cui immagini di input dipendono da Valori generano risultati errati nei nodi successivi
 * [Grafico] Risultato errato quando si utilizza la catena di grafici secondari con la modifica contestuale dei grafici abilitata
 * [MDL] Arresto anomalo durante il caricamento di un grafico MDL che fa riferimento a un grafico di composizione con output obsoleti
@@ -1241,13 +1241,13 @@ ht-degree: 0%
 * [Onboarding] I pannelli non vengono visualizzati correttamente quando si avvia l’app aprendo un file
 * [Preferenze] La cache delle immagini ignora il percorso dei file temporanei impostato dall&#39;utente
 * [Proprietà] Le modifiche eseguite nei pannelli di anteprima/predefiniti vengono unite nella pila di annullamento
-* [Scelta rapida da tastiera] Le Scelte rapide da tastiera assegnate a nodi obsoleti creano conflitti e non possono essere pulite
+* [Scelta rapida] La scelta rapida assegnata ai nodi obsoleti crea conflitti e non può essere pulita
 * [Substance modelli] Arresto anomalo quando si chiude un pacchetto dopo aver eseguito azioni specifiche
 * [Modelli di Substance] I nodi delle istanze e i collegamenti dai pacchetti riposizionati non vengono aggiornati correttamente
 * [Modelli di Substance] L&#39;annullamento dell&#39;eliminazione dei grafici secondari non aggiorna i nodi delle istanze e i collegamenti in modo coerente
-* [Modelli di Substance] Il valore aumenta improvvisamente troppo velocemente nel nodo di Trasforma
+* [Modelli Substance] Il valore aumenta improvvisamente troppo velocemente sul nodo di trasformazione
 * [UI] Le icone di avviso della proprietà &quot;Visible if&quot; non dispongono di una descrizione comandi
-* [UI] Il testo delle informazioni sull&#39;immagine è troppo scuro nella finestra della vista di vista 2D
+* [UI] Il testo delle informazioni sull&#39;immagine è troppo scuro nella finestra della vista di 2D View
 * [Annulla] Quando si sposta un widget posizione in modalità di anteprima vengono memorizzati tutti i valori intermedi
 
 ### 12.3.0
@@ -1286,17 +1286,17 @@ ht-degree: 0%
 **Corretto:**
 
 * [UI] Risoluzione dei problemi di ridimensionamento per schermi ad alto DPI
-* [UI] Modello &#39;$(udim)&#39; mancante dall&#39;elenco nella finestra di cottura
+* [UI] Modello &#39;$(udim)&#39; mancante dall&#39;elenco nella finestra di esegue i baking
 * [UI] Arresto anomalo durante la visualizzazione del menu Nodo sul bordo destro dello schermo (solo macOS)
 * [UI] Il pulsante dell’estensione nel menu della vista 3D non è visibile
 * [UI] Il menu dell&#39;estensione della barra degli strumenti Grafico è incompleto
 * [UI] Valore del widget del parametro errato dopo aver annullato l’attivazione dell’intervallo rigido
-* [Vista 3D] L&#39;impostazione dello shader non predefinita viene persa su Iray da una sessione a un&#39;altra
-* [Bakers] Arresto anomalo durante il caricamento della finestra di cottura con una scena senza trame
-* [Funzione] Arresto anomalo quando si copia un’istanza nel grafico a cui fa riferimento
+* [Vista 3D] Le impostazioni di shader non predefinite vengono perse su Iray da una sessione a un&#39;altra
+* [Baker] Arresto anomalo durante il caricamento di una finestra eseguita i baking con una scena senza trame
+* [Function] Arresto anomalo durante la copia di un&#39;istanza nel grafico a cui fa riferimento
 * [Funzione] Correggere un possibile arresto anomalo durante la manipolazione dei nodi
 * [Globalizzazione] Il corsivo non è sempre disabilitato correttamente in giapponese, coreano e cinese
-* [Grafico] Identificatore fallback errato per i nuovi grafici MDL e Substance modelli
+* [Grafico] identificatore di fallback errato per i nuovi grafici MDL e Substance
 * [Grafico] I parametri ereditati guidati da valori a volte vengono calcolati in modo errato
 * [GraphRender] Arresto anomalo durante il cambio di motore durante l&#39;elaborazione del grafico ad alta risoluzione (solo macOS)
 
@@ -1307,10 +1307,10 @@ ht-degree: 0%
 **Corretto:**
 
 * [Grafico] Risultati errati quando si modifica la dimensione principale del grafico
-* [Arresto anomalo] Arresto anomalo durante l’elaborazione di un grafico di composizione Substance a una risoluzione molto elevata
+* [Arresto anomalo] Arresto anomalo durante l’elaborazione del grafico composizione Substance a una risoluzione molto elevata
 * [Arresto anomalo] Arresto anomalo quando si esaurisce la memoria durante il caricamento del pacchetto
-* [Arresto anomalo] Arresto anomalo quando si utilizza la parentesi nelle annotazioni del parametro esposto in un grafico del modello di Substance
-* [Arresto anomalo] Migliorare la stabilità del rendering dei grafici di composizione della Substance
+* [Arresto anomalo] Arresto anomalo di utilizzo della parentesi quadra nelle annotazioni del parametro esposto in un grafico del modello Substance
+* [Arresto anomalo] Migliorare la stabilità del rendering dei grafici di composizione delle Substance
 * [Iray] Aggiornamento alla versione 2021.1.6
 
 ### 12.2.0
@@ -1320,19 +1320,19 @@ ht-degree: 0%
 **Aggiunto:**
 
 * [Apple] Supporto nativo per Apple Silicon (M1) (solo versione di Creative Cloud)
-* [Grafico del modello Substance] Visualizza le descrizioni dei nodi nella vista Grafico
-* [Grafico del modello Substance] Visualizza le descrizioni dei nodi nella libreria
-* [Grafico del modello Substance] Aggiungi una voce di menu contestuale ai nodi di anteprima
-* [Grafico del modello Substance] Consenti all&#39;utente di creare scelte rapide per la creazione di nodi
+* [Substance grafico modello] Visualizza descrizioni comandi nodo in vista grafico
+* [Substance grafico modello] Visualizza descrizioni comandi nodo nella libreria
+* [Substance grafico modello] Aggiungi una voce di menu contestuale per visualizzare in anteprima i nodi
+* [Substance grafico modello] Consente all&#39;utente di creare scelte rapide per la creazione di nodi
 * [UI] Aggiungi l’opzione &quot;Visualizza output in vista 2D&quot; nel menu di scelta rapida del grafico di composizione
-* [UI] Suddividi l’impostazione &quot;Visualizzazione automatica degli output&quot; in impostazioni specifiche per vista 2D/vista 3D
-* [UI] Aggiungi freccia a discesa e descrizione comandi al pulsante &quot;Visualizza output&quot; nella barra degli strumenti di vista 2D
+* [UI] Suddividi l&#39;impostazione &quot;Visualizzazione automatica degli output&quot; in impostazioni specifiche della vista 2D/3D
+* [UI] Aggiungi freccia a discesa e descrizione comandi al pulsante &quot;Visualizza output&quot; nella barra degli strumenti Visualizzazione 2D
 * [UI] Rimodellare e riordinare gli elementi nel pannello Informazioni di Esplora risorse
-* [Gestione colore] Aggiungi gli spazi colore di esportazione &quot;Linear Adobe RGB (1998)&quot; e &quot;Adobe RGB (1998)&quot; per l&#39;esportazione di ACE
-* [Gestione colore] Aggiungi spazio cromatico di lavoro &quot;Linear Adobe RGB (1998)&quot; per ACE Adobe
-* [Gestione colore] Aggiungi supporto per display ICC OCIO
+* [Gestione colore] Aggiungere gli spazi colore di esportazione &quot;Linear Adobe RGB (1998)&quot; e &quot;Adobe RGB (1998)&quot; per Adobe
+* [Gestione colore] Aggiungi spazio colore di lavoro &quot;Linear Adobe RGB (1998)&quot; per Adobe
+* [Gestione colore] Aggiungi il supporto per i display ICC OCIO
 * [Gestione colore] Nascondi lo spazio colore di lavoro di Adobe RGB dalle preferenze ACE
-* [Gestione colore] Migliorare la qualità delle LUT 3D eseguite i baking in modalità ACE
+* [Gestione colore] Migliorare la qualità delle LUT 3D al forno in modalità ACE
 * [Gestione colore] Utilizza il nuovo back-end GPU nel visualizzatore 3D
 * [Localizzazione] Aggiornamento completo della lingua coreana
 * [Engine] Aggiornamento alla versione 8.6.0
@@ -1344,19 +1344,19 @@ ht-degree: 0%
 * [Dipendenze] Aggiorna Alembic alla versione 1.8.3
 * [Dipendenze] Aggiornamento di AXF alla versione 1.9.0
 * [Dipendenze] Aggiornamento della versione avanzata alla versione 1.76
-* [Dipendenze] Aggiornamento FBX alla versione 2020.2.1
+* [Dipendenze] Aggiorna FBX alla versione 2020.2.1
 * [Dipendenze] Aggiorna IRay alla versione 2021.1.0
-* [Dipendenze] Aggiornamento OpenColorIO alla versione 2.1.1
+* [Dipendenze] Aggiorna OpenColorIO alla versione 2.1.1
 * [Dipendenze] Aggiorna OpenEXR alla versione 3.1.5
 * [Dipendenze] Aggiorna TBB alla versione 2020.3
 * [Dipendenze] Aggiorna USD alla versione 0.22.3
-* [Rimuovi] Disattiva la funzione effetti post (Sì)
-* [Rimuovi] Rimuovi il comando &quot;Salva rendering su Artstation&quot; dal menu vista 3D
+* [Rimuovi] Disattiva la funzione post effetti (Sì)
+* [Rimuovi] Rimuovi il comando &quot;Salva rendering su Artstation&quot; dal menu Vista 3D
 
 **Corretto:**
 
 * [Modelli Substance] L&#39;intervallo rigido impostato sul parametro esposto viene salvato quando si annulla l&#39;esposizione
-* [Modelli di Substance] L&#39;Identificatore non è di facile utilizzo sui nodi costanti
+* [Modelli di Substance] L&#39;identificatore non è di facile utilizzo sui nodi costanti
 * [Substance modelli] Miglioramento della ricerca in base alla compatibilità dei nodi
 * [UI] L&#39;ordine del sottomenu &quot;Nuovo&quot; non è corretto per le risorse della cartella
 * [UI] La dimensione predefinita della finestra principale è molto piccola
@@ -1364,7 +1364,7 @@ ht-degree: 0%
 * [UI] Griglia di trasparenza visibile sull&#39;icona della risorsa font in Esplora risorse
 * [Cooker] I grafici di composizione istanziati nel grafico MDL vengono sempre completamente ricolorati
 * [Grafico] Arresto anomalo quando si incolla un nodo copiato da un grafico con identificatore vuoto
-* [MDL] Arresto anomalo durante la chiusura di un grafico MDL specifico
+* [MDL] Arresto anomalo quando si chiude un grafico MDL specifico
 * [Prestazioni] L&#39;applicazione non risponde durante il caricamento di pacchetti di grandi dimensioni
 * [Resources] Le risorse Scena 3D possono essere importate in un caso specifico
 
@@ -1379,7 +1379,7 @@ ht-degree: 0%
 * [Content] Il parametro &quot;Numero colore casuale&quot; nei nodi Voronoi 2D non ha alcun effetto
 * [SBSRender] L’esportazione di un grafico in EXR non genera lo stesso bpc di Designer
 * [Modelli Substance] &quot;Tipo gamma&quot; non dovrebbe apparire nelle proprietà dei parametri esposti
-* [Modelli di Substance] Arresto anomalo di utilizzo della parentesi quadra nelle annotazioni del parametro esposto
+* [Modelli di Substance] Arresto anomalo quando si utilizza la parentesi nelle annotazioni dei parametri esposti
 
 ### 12.1.0
 
@@ -1392,13 +1392,13 @@ ht-degree: 0%
 * [Principale] Supporto dei file USD
 * [Principale] Miglioramento della segnalazione degli errori nell’interfaccia utente
 * [Principale] Nodi di Gestione scene per i grafici dei modelli
-* [Contenuto] Aggiungi più opzioni ai Rumori Perlin 3D (Affiancamento, assoluto...)
+* [Contenuto] Aggiungi più opzioni ai Rumori Perlin 3D (affiancatura, assoluto...)
 * [Content] Nuovo nodo frattale con disturbo ridotto 3D
-* [Content] Nuovo nodo Scostamento Texture 3D
-* [Content] Nuovo nodo Posizione Texture 3D
-* [Content] Nuovo nodo Superficie di rendering Texture 3D
-* [Content] Nuovo nodo Volume rendering Texture 3D
-* [Content] Nuovo nodo Signed distance field 3D
+* [Contenuto] Nuovo nodo Scostamento texture 3D
+* [Content] Nuovo nodo Posizione texture 3D
+* [Content] Nuovo nodo superficie di rendering texture 3D
+* [Content] Nuovo nodo Volume rendering texture 3D
+* [Content] Nuovo nodo Signed distance field texture 3D
 * [Content] Nuovo nodo Ritaglio automatico
 * [Content] Nuove funzioni di ottimizzazione
 * [Content] Nuovi nodi di Extend Shape
@@ -1410,7 +1410,7 @@ ht-degree: 0%
 * [Content] Nuova versione del nodo Quantizza scala di grigi
 * [Content] Nuovi rumori frattali di Voronoi e Voronoi (2D/3D)
 * [Content] Threshold: aggiungi modalità di confronto &#39;Lower&#39; e &#39;Lower and equal&#39;
-* [Content]&#x200B;[Vista 3D] Aggiungi una trama adatta alla visualizzazione dei tessuti nelle risorse spedite
+* [Content]&#x200B;[vista 3D] Aggiungi una trama adatta per visualizzare i tessuti alle risorse spedite
 * [Substance modelli] Nuovo nodo Espandi istanze gruppo
 * [Modelli Substance] Nuovo nodo Fuse
 * [Substance modelli] Nuovo nodo Rinomina
@@ -1419,21 +1419,21 @@ ht-degree: 0%
 * [Substance modelli] Aggiornamento a SDK 1.6.0
 * [UI] Migliora il comportamento del menu Nodo quando si fa clic su di esso
 * [UI] Apri i grafici secondari nella stessa scheda anche se bloccati
-* [UI] Rimuovi il pulsante del perno dalla barra del titolo del pannello Esplora risorse
+* [UI] Rimuovi il pulsante Segnaposto dalla barra del titolo del pannello Esplora risorse
 * [UI] Salva l’opzione &quot;Non visualizzare più&quot; nella schermata di benvenuto nelle diverse versioni
 * [ThirdParty] Aggiorna Qt (e QtForPython) alla versione 5.15.8
 * [Third Party] Aggiorna Python alla versione 3.9.9
 * [ThirdParty] Aggiornamento di OpenSSL a 1.1.1m
-* [Vista 3D] Visualizza l&#39;unità della griglia nella finestra della vista quando è attivato l&#39;helper &quot;Asse&quot;
+* [vista 3D] Visualizza l&#39;unità Griglia nella finestra della vista quando è attivato l&#39;helper &quot;Asse&quot;
 * [Automazione] Fornisci lo strumento da riga di comando sbsbaker con Designer
-* [Gestione colore] Implementazione del nuovo back-end GPU per Adobe
+* [Gestione colore] Implementazione del nuovo back-end GPU per Adobe ACE
 * [Cooker] Aggiungi un&#39;opzione per cucinare un pacchetto senza timestamp
 * [Grafico] Aggiungere i distintivi nel grafico FxMap
 * [Library] Aggiungi un nuovo filtro per le funzioni di regolazione
 * [Player] Supporto USD
 * [Properties] Aggiunge un errore di avvertenza nel parametro &quot;PKG Resource Path&quot; di un nodo Bitmap quando la risorsa non viene trovata
 * [Substance Engine] Aggiornamento alla versione 8.4.1
-* [Yebis] Avvisa l’utente che gli effetti post Yebis verranno rimossi nella prossima versione
+* [Sì] Avvisa l’utente che gli effetti post di Yebis verranno rimossi nella prossima versione
 * [Documentazione] Nuova pagina &quot;Avvisi ed errori&quot;
 * [Documentazione] Nuova pagina che descrive l’ereditarietà nei grafici di composizione della Substance
 * [Documentation] Aggiornamento della sezione &#39;Iray&#39;
@@ -1451,12 +1451,12 @@ ht-degree: 0%
 * [Content] Mappatura Flood Fill: selezione di input errata in un caso specifico
 * [Content] Flood Fill: pagina al vivo del testo nei pulsanti dei parametri booleani
 * [Contenuto] Intervallo errato per il parametro da multi-angolo a angolo luce primo campione del nodo normale
-* [Modelli Substance] Nelle proprietà del nodo viene visualizzato l&#39;identificatore anziché l&#39;etichetta
+* [Modelli Substance] Le proprietà del nodo mostrano l&#39;identificatore anziché l&#39;etichetta
 * [Substance modelli]&#x200B;[Vista 3D] Problema di aggiornamento durante la riapertura di un progetto
 * [Substance models]&#x200B;[3Dview] Problema di aggiornamento quando si utilizza l&#39;anteprima wireframi
 * [Parametri] Arresto anomalo quando si eliminano gli input del grafico in rapida successione in un caso specifico
 * [Parametri] Arresto anomalo durante la reimpostazione di un parametro di istanza durante la modifica della relativa descrizione di riferimento
-* [Bitmap] Il rilevamento UDIM non viene attivato per i file bitmap eliminati nel grafico
+* [Bitmap] Il rilevamento UDIM non viene attivato per i file bitmap rilasciati nel grafico
 * [Grafico] I nodi Bitmap/SVG non vengono invalidati quando la risorsa viene modificata sul disco dopo aver caricato il pacchetto
 * [GraphRender] Perdita di memoria quando la valutazione del grafico Substance viene annullata
 * [Localizzazione] La stringa &quot;Ripristina tutte le mappe per questa risorsa&quot; viene visualizzata non localizzata
@@ -1492,7 +1492,7 @@ ht-degree: 0%
 * [Modelli Substance] Rendete più coerenti gli intervalli dei parametri
 * [MDL] Arresto anomalo durante l&#39;esportazione del file MDLE
 * [MDL] File mdl errato generato quando un grafico MDL contiene nodi punto connessi a parametri esposti
-* [vista 2D] Ottimizzare la visualizzazione degli strumenti di pittura
+* [Vista 2D] Ottimizzare la visualizzazione degli strumenti di pittura
 * [Content] Impostazione incoerente dei parametri relativi alle dimensioni dell&#39;output nei grafici di origine del modello
 * [Proprietà] Le etichette degli intervalli soft/hard sono errate nel pannello Proprietà per i nodi esposti dei modelli MDL e Substance
 * [Modelli] Aggiorna i valori predefiniti degli input nel modello &quot;Filtro Sampler&quot;
@@ -1512,19 +1512,19 @@ ht-degree: 0%
 * [UI] Evidenziazione errata nelle preferenze Scelte rapide
 * [UI] La dimensione della finestra principale è troppo piccola dopo il riavvio di una sessione con finestre (solo macOS)
 * [UI] Il dock ingrandito non viene ridotto a icona all’uscita (solo Windows)
-* [UI] Lo spazio mancante nel tooltip del parametro &#39;Livelli in uscita alti&#39;[3DView] Axis nella vista 3D è troppo piccolo quando il rettangolo di selezione della scena è sottile
+* [UI] Lo spazio mancante nella descrizione del parametro &#39;Level Out High&#39; [3DView] Axis nella vista 3D è troppo piccolo quando il rettangolo di selezione della scena è sottile
 * [UI] Problema di stile su parte del testo nelle impostazioni del progetto per la lingua francese
-* [Modelli di Substance] Il Blocca sui parametri esposti non viene salvato tra le sessioni
-* [Modelli di Substance] Il modificatore Maiusc è ancora abilitato dopo l&#39;utilizzo della scelta rapida da tastiera di anteprima del nodo
+* [Modelli di Substance] Il blocco sui parametri esposti non viene salvato tra le sessioni
+* [Substance modelli] Il modificatore Maiusc è ancora abilitato dopo l&#39;utilizzo della scelta rapida anteprima nodo
 * [Substance modelli] Alcuni nodi eliminati rimangono nel modulo SBSM esportato
-* [Modelli di Substance] I nodi di destinazione della valutazione si accumulano e non vengono eliminati[API] Arresto anomalo durante il rendering del nodo Curva le cui proprietà sono state impostate tramite API
-* [Baker] Il widget &quot;Colore materiale&quot; non è visibile e non funziona come previsto
+* [Modelli di Substance] I nodi di destinazione della valutazione si accumulano e non vengono eliminati.[API] Arresto anomalo durante il rendering del nodo Curva, proprietà impostate tramite API
+* [Panettieri] Il widget &quot;Colore materiale&quot; non è visibile e non funziona come previsto
 * [Content] Nodo di PBR render: calcolo interno non eseguito alla risoluzione del nodo
 * [Grafico a funzioni] In alcuni casi i messaggi che visualizzano i tipi previsti sono errati
 * [Grafico] Input relativo all&#39;input: i parametri ereditati non sono corretti con le istanze connesse
 * [MDL] Le istanze dei grafici a Substance non vengono aggiornate in modo affidabile nei grafici MDL
 * [Publish] Grafico di pubblicazione non riuscita che contiene dipendenze circolari
-* [Scelte rapide] Maiusc+Spazio non deve essere una scelta rapida da tastiera da tastiera assegnabile per i nodi
+* [Scelte rapide] Maiusc+Spazio non deve essere una scelta rapida da tastiera assegnabile per i nodi
 * [Modelli] Formato di output dei modelli personalizzati ignorato
 
 ### 11.3.0
@@ -1536,10 +1536,10 @@ ht-degree: 0%
 * [Modelli Substance] Aggiungere descrizioni comandi per i parametri dei nodi
 * [Modelli Substance] Consente di visualizzare in sovrapposizione nella finestra della vista 3D il risultato di un nodo intermedio
 * [Modelli di Substance] Migliorare la visualizzazione della visualizzazione della base
-* [Modelli di Substance] Mantiene la gerarchia degli oggetti durante l&#39;esportazione di un grafico del modello Substance in .fbx
-* [Modelli Substance] Supporto di più materiali nell&#39;esportazione di FBX/OBJ dal grafico del modello Substance
+* [Modelli Substance] Mantiene la gerarchia degli oggetti durante l&#39;esportazione di un grafico Modello Substance in .fbx
+* [Modelli Substance] Supporto di più materiali nell&#39;esportazione FBX/OBJ dal grafico dei modelli Substance
 * [Modelli Substance]&#x200B;[Contenuto] Nodo particelle
-* [Modelli di Substance]&#x200B;[Contenuto] Nodo di Trasforma generativo
+* [Modelli di Substance]&#x200B;[Contenuto] Nodo Trasformazione generativa
 * [Modelli Substance]&#x200B;[Contenuto] Nodo Pattern organico
 * [Modelli Substance]&#x200B;[Contenuto] Particelle dal nodo Istanze
 * [Modelli di Substance]&#x200B;[Contenuto] Nodo di potatura delle particelle
@@ -1556,58 +1556,58 @@ ht-degree: 0%
 * [UX] Aggiungi la voce &quot;Chiudi tutto&quot; al menu del file
 * [UX] Applicare maiuscole/minuscole uniformi in tutto il menu principale
 * [UX] Visualizza automaticamente le proprietà degli elementi del grafico duplicati
-* [UX] Aggiungi pulsanti nella barra degli strumenti del grafico per disabilitare le dimensioni dello schermo costanti per i titoli dei Fotogrammi / Commenti / Segnaposti
+* [UX] Aggiungi pulsanti nella barra degli strumenti del grafico per disabilitare le dimensioni costanti dello schermo per i titoli dei fotogrammi / Commenti / Pins
 * [UX] Pulsanti per copiare le informazioni sulle versioni negli Appunti della finestra di dialogo Informazioni su
 * Input [Materiali] relativi agli input
-* [Content] Aggiungi l’opzione &quot;Affiancamento&quot; sui rumori Perlin 3D
+* [Content] Aggiungi l&#39;opzione &#39;Tiling&#39; ai rumori di Perlin 3D
 * [Content] Nuovo nodo del processo di diffusione
 * [Content] Nuova versione del nodo di PBR render
 * [Interoperabilità] Ricezione di SBS e SBSAR da Sampler
 * [Interoperabilità] Invia SBSM a Stager
-* [vista 3D] Aggiungi un’opzione per disabilitare l’eliminazione del backface
-* [vista 3D] Aggiungete un&#39;opzione per visualizzare lo spazio tangente vertice
+* [Vista 3D] Aggiungi un&#39;opzione per disabilitare l&#39;eliminazione del backface
+* [Vista 3D] Aggiungere un&#39;opzione per visualizzare lo spazio tangente vertice
 * [Esplora] Evidenzia il grafico in Esplora risorse quando si fa doppio clic sullo sfondo della visualizzazione Grafico
 * [Esplora] Rimuovi l’opzione &quot;Esplora&quot; dai menu contestuali
-* [Baker] Nascondi baker obsoleti
+* [Panettieri] Nascondi panettieri obsoleti
 * [Gestione colore] Aggiungi il supporto per le regole del file di configurazione OCIO v2
 * [Libreria] Rinomina le categorie in base ai tipi di grafico
 * [Preferenze] Disattiva automaticamente la CPU nelle preferenze hardware di Iray se viene rilevata una GPU CUDA supportata
 
 **Corretto:**
 
-* [Substance modelli] Arresto anomalo su Mac quando si utilizza l&#39;opzione &quot;as sudb&quot; su .fbx
-* [Modelli di Substance] Arresto anomalo durante l&#39;esportazione in SBSM in un caso specifico
+* [Substance modelli] Arresto anomalo di Mac quando si utilizza l’opzione &quot;as sudb&quot; su .fbx
+* [Substance modelli] Arresto anomalo durante l&#39;esportazione in SBSM in un caso specifico
 * [Modelli di Substance] Errore di esportazione durante l&#39;esportazione di parametri esposti che non sono mai stati creati
-* [Substance modelli] arresto anomalo casuale quando si apre un grafico che fa riferimento a più file .fbx
+* [Modelli di Substance] Arresto anomalo casuale quando si apre un grafico che fa riferimento a più file .fbx
 * [Modelli di Substance] Gli intervalli non vengono applicati dinamicamente nei widget dei parametri esposti
 * [Modelli Substance] L&#39;opzione Ricarica trama non funziona sul grafico dei modelli di Substance
-* [Modelli di Substance] Le scene non vengono visualizzate in una vista 3D disponibile in un caso specifico
+* [Substance modelli] Le scene non vengono visualizzate in una vista 3D disponibile in un caso specifico
 * [UI] L’area di disattivazione è troppo grande nelle opzioni del materiale
 * [UI] Problema di stile nella finestra di dialogo &quot;File pacchetto non salvato&quot;
 * [UI] Il tasto Tab deve essere premuto due volte per spostarsi tra i valori
-* [UI] Lo zoom con il trascinamento del mouse è invertito tra vista 3D e altre finestre di visualizzazione
-* [UI] Il caricamento di un SBS già aperto utilizzando l’elenco &quot;File recenti&quot; attiva erroneamente un messaggio &quot;Pacchetto non trovato&quot;
+* [UI] Lo zoom con il trascinamento del mouse è invertito tra Vista 3D e altre Finestre
+* [UI] Il caricamento di un SBS già aperto utilizzando l’elenco &quot;File recenti&quot; attiva in modo errato un messaggio &quot;Pacchetto non trovato&quot;
 * [UI]&#x200B;[macOS] Layout di interfaccia predefinito non corretto dopo l&#39;avvio dell&#39;applicazione
 * [UI] Impossibile salvare i pacchetti nella directory principale di un&#39;unità (solo Windows)
-* [Grafico] L&#39;opzione &quot;Visualizza automaticamente in vista 2D&quot; non è coerente in un caso specifico
+* [Grafico] L&#39;opzione &quot;Visualizza automaticamente nella vista 2D&quot; non è coerente in un caso specifico
 * [Graph] L&#39;opzione &#39;Apri riferimento&#39; è disponibile per i nodi dell&#39;istanza SBSAR
-* [Grafico] Le proprietà del Segnaposto vengono visualizzate solo quando viene creato l&#39;elemento
-* [Grafico] Le regole delle stringhe di Segnaposto non vengono applicate in modo coerente
+* [Grafico] Le proprietà del pin vengono visualizzate solo quando viene creato un elemento
+* [Grafico] Le regole delle stringhe pin vengono applicate in modo incoerente
 * [Grafico] Arresto anomalo durante il salvataggio di un grafico vuoto
-* [vista 3D] L&#39;Angolo di anisotropia viene invertito nello shader ASM
-* [vista 3D] Shader ASM: problemi di linearizzazione con le mappe relative a SSS
-* [vista 3D] Rendering OpenGL interrotto dopo la chiusura di viste 3D aggiuntive in un caso specifico
-* [vista 3D] Le posizioni predefinite delle telecamere non sono corrette in vista 3D con alcuni file .fbx
+* [Vista 3D] L&#39;angolo di Anisotropia viene invertito nello shader ASM
+* [Vista 3D] ASM Shader: problemi di linearizzazione con le mappe relative a SSS
+* [Vista 3D] Rendering OpenGL interrotto dopo la chiusura di viste 3D aggiuntive in un caso specifico
+* [Vista 3D] Le posizioni predefinite delle fotocamere non sono corrette nella vista 3D con alcuni file .fbx
 * [MDL] &quot;Aggiungi nodo&quot; dal menu di scelta rapida non funziona per i grafici MDL
 * [MDL] Bug: la connessione del nodo non riesce quando si utilizzano componenti float2.x e simili (SD 11.1.2)
-* [MDL] Arresto anomalo all&#39;apertura di un file .sbs specifico
+* [MDL] Arresto anomalo all’apertura di un file .sbs specifico
 * [MDL] Unità scena per metro nell&#39;Iray non impostate all&#39;avvio della sessione di rendering
 * [MDL] Si blocca quando si modifica un nodo lerp nel grafico MDL
 * [MDL] Ordine dei parametri nel codice MDL esportato
 * [Esplora risorse] dopo l&#39;annullamento della creazione della risorsa viene creata una cartella risorse vuota
 * [Explorer] Solo il primo elemento di un pacchetto può essere spostato nella parte inferiore dell&#39;elenco
 * [Content] RT Bent Normal e RT AO attivano il calcolo dei nodi nei grafici nidificati
-* [Nodo di input] La bitmap nei nodi di input non viene aggiornata quando cambia l&#39;UDIM
+* [Nodo di input] La bitmap nei nodi di input non viene aggiornata quando si modifica UDIM
 * [Iray] Si impiega molto tempo quando si tenta di visualizzare una scena di modelli di Substance con molte istanze
 * [Preferenze] Riga vuota quando si annulla l’aggiunta di un file di progetto
 * [Editor Python] L’opzione &quot;Chiudi&quot; rimane abilitata dopo la chiusura dell’ultimo script e include ancora il nome æ
@@ -1618,16 +1618,16 @@ ht-degree: 0%
 
 **Aggiunto:**
 
-* [Proprietà] Aggiungi nuovi tipi di grafici per decalcomanie, atlanti, Luci ambientali e texture leggere
+* [Proprietà] Aggiungi nuovi tipi di grafici per decalcomanie, atlanti, luci ambiente e trame di luce
 
 **Corretto:**
 
 * [UI] Layout dell’interfaccia non corretto dopo l’avvio dell’applicazione
-* [Stabilità] Correggere gli arresti anomali quando si esce dalla modalità di sospensione su Windows e quando si collegano/scollegano le schermate
-* [vista 3D] La creazione di una risorsa Scena 3D da Scena del grafico del modello Substance non ha alcun effetto
-* [Fusione] I valori Enum risultano mancanti quando si espone il metodo di fusione
+* [Stabilità] Correzione degli arresti anomali quando si esce dalla modalità di sospensione su Windows e quando si collegano/scollegano le schermate
+* [Vista 3D] La creazione di una risorsa Scena 3D da Substance grafica modello Scena non ha alcun effetto
+* [Fusione] I valori enum non sono presenti quando si espone il metodo di fusione
 * [Esporta] L’esportazione di scene di modelli di Substance genera una geometria duplicata
-* [MDL] Arresto anomalo durante l&#39;apertura di un file SBS specifico
+* [MDL] Arresto anomalo all&#39;apertura di un file SBS specifico
 * [Trama] Arresto anomalo quando si collega una trama specifica con geometria difettosa
 * [Modelli Substance] L’esportazione non riesce quando il valore predefinito del parametro esposto non è compreso nell’intervallo consentito
 
@@ -1638,7 +1638,7 @@ ht-degree: 0%
 **Aggiunto:**
 
 * [Modello di Substance] Aggiornamento alla versione 1.0.3
-* [Modello Substance] Completare e migliorare la documentazione dei grafici del modello Substance
+* [Modello Substance] Completare e migliorare la documentazione dei grafici del modello di Substance
 * [Substance modello] Visualizza i registri nella console
 * [Modello Substance]&#x200B;[ScatterOnCurves] Modifica il valore predefinito per la spaziatura
 * [Modello Substance]&#x200B;[ScatterOnCurves] Rimozione del parametro HalfSpaceOddEven non necessario
@@ -1650,12 +1650,12 @@ ht-degree: 0%
 * [Interoperabilità] Aggiungere il comando &quot;Invia a lettore&quot; al menu &quot;Invia a&quot;
 * [Interoperabilità] Semplificare il flusso di lavoro di invio/invio a Sampler e Painter
 * [API] Aggiungi SDApplication.getVersion() per consentire il recupero della versione dell&#39;applicazione host
-* [Explorer] Aggiungere un&#39;azione Apri agli elementi del grafico del modello Substance
+* [Esplora risorse] Aggiungere un&#39;azione Apri agli elementi del grafico del modello di Substance
 * [Grafico] Disattiva le azioni &quot;Visualizza nella vista 3D&quot; per i nodi delle istanze fantasma
 
 **Corretto:**
 
-* arresto anomalo di [modello Substance] quando si elimina una sequenza
+* [Substance modello] Arresto anomalo durante l’eliminazione di una sequenza
 * [Modello Substance] Le basi non vengono disegnate correttamente in alcuni casi
 * [Modello di Substance] Impossibile esportare progetti specifici
 * [Modello Substance] Assegnazione del materiale interrotta all&#39;apertura di un progetto con Iray abilitato
@@ -1732,7 +1732,7 @@ ht-degree: 0%
 * [API Python] Aggiungi un metodo per eseguire una query sulla directory tmp specificata nelle impostazioni
 * [API Python] Aggiungi un metodo isModified a SDPackage per verificare se un pacchetto è stato salvato
 * [API Python] Aggiungi alcuni metodi di conversione del colore a SDColorManagementEngine
-* [API Python] Elimina gli oggetti del grafico (Commenti, perni, fotogrammi, ecc.)
+* [API Python] Elimina gli oggetti del grafico (Commenti, segnaposti, fotogrammi, ecc.)
 * [API Python] Esposizione della proprietà della Dimensioni fisiche per i nodi dell&#39;istanza del grafico
 * [API Python] Esponi Salva una copia con nome
 * [API Python] Correggere il metodo SDPackageMgr.savePackage
@@ -1758,10 +1758,10 @@ ht-degree: 0%
 **Corretto:**
 
 * [Libreria] Le miniature non vengono aggiornate in modo uniforme
-* [Content] La proprietà &#39;Proporzioni pixel&#39; dei grafici &#39;Vector morph&#39; è impostata su &#39;Estendi (assoluto)&#39;
+* [Content] La proprietà &#39;Pixel ratio&#39; dei grafici &#39;Vector morph&#39; è impostata su &#39;Allungamento (Absolute)&#39;
 * [Contenuto] Le bitmap utilizzate negli strumenti di pittura vengono visualizzate nel menu Nodo
 * [Contenuto] Output NaN per l&#39;input di colore piatto nel nodo Livelli automatici con precisione a virgola mobile
-* [Engine]&#x200B;[SSE2] Il valore &#39;Level in mid&#39; diverso da 0,5 genera un output 1,0
+* [Engine]&#x200B;[SSE2] Un valore &#39;Livello in entrata medio&#39; diverso da 0,5 genera un output 1,0
 * [Miniatura] Le mappe di input vengono ridotte a 256
 * [UI] Le descrizioni dei nodi atomici contengono un&#39;interruzione di riga errata
 
@@ -1824,13 +1824,13 @@ ht-degree: 0%
 * [Esporta] Il budget di memoria è troppo basso quando si utilizza l’esportazione in batch
 * [Vista 2D] Artefatti/bande durante la copia di immagini HDR negli Appunti
 * [Vista 2D] L&#39;esportazione di immagini dalle risorse esporta sempre 8 bit
-* [Vista 3D] Iray: la modifica del valore normale con l&#39;editor fornisce un risultato strano
-* [Vista 3D] Iray: la disattivazione del canale normale non produce il risultato giusto
+* [vista 3D] Iray: la modifica del valore normale con l&#39;editor fornisce un risultato strano
+* [vista 3D] Iray: disabilitando il canale normale non si ottiene il risultato giusto
 * [Library] Il filtro in base all’URL non funziona correttamente
 * [Library] Le risorse corrispondenti a un pattern escluso dalla libreria non possono essere importate manualmente
-* [Panettieri] La ridenominazione di un panettiere non influisce sulla sua voce nell’elenco di anteprima della vista 2D
+* [Baker] La ridenominazione di un baker non influisce sulla sua voce nell’elenco di anteprima del vista 2D
 * [Esplora] Perdita di sincronizzazione tra Esplora risorse e dati del grafico
-* [Grafico a funzioni] Arresto anomalo durante l’impostazione del nodo a funzioni con tipo di output non corrispondente come output
+* [Grafico a funzioni] Arresto anomalo durante l&#39;impostazione del nodo a funzioni con tipo di output non corrispondente come output
 * [MDL] I nodi dell&#39;istanza SBS non hanno anteprima, generano 0 e non attivano il calcolo del grafico
 * [API Python] Impossibile modificare la proprietà &#39;editor&#39; del parametro di input
 * [Python] Il ripristino del layout non reimposta correttamente i dock creati da Python
@@ -1844,8 +1844,8 @@ ht-degree: 0%
 
 **Aggiunto:**
 
-* [Vista 3D] Ripristinare la posizione della videocamera memorizzata in una risorsa Scena
-* [Grafico] Rimuovi &quot;nodi di input&quot; nel menu di scelta rapida per FXMap e value processor
+* [vista 3D] Ripristinare la posizione della fotocamera memorizzata in una risorsa Scena
+* [Grafico] Rimuovi &quot;nodi di input&quot; nel menu di scelta rapida per FXMap e processori di valori
 
 **Corretto:**
 
@@ -1889,8 +1889,8 @@ ht-degree: 0%
 * [Vista 3D] OpenGL: la modifica del valore predefinito di un campionatore in un file .glslfx non si riflette correttamente nell&#39;interfaccia utente
 * [vista 3D] Pixel rossi e neri sul bordo più a destra delle immagini sottoposte a rendering OpenGL
 * [Dipendenze] Impossibile riposizionare le dipendenze mancanti di tipo &#39;Altro&#39;
-* [Dipendenze] Arresto anomalo all&#39;uscita quando Dependency Viewer è aperto
-* [Grafico] Arresto anomalo durante la duplicazione di un nodo dell&#39;istanza Ghost
+* [Dipendenze] Arresto anomalo all’uscita quando il Visualizzatore dipendenze è aperto
+* [Grafico] Arresto anomalo durante la duplicazione di un nodo di istanza Ghost
 * [Grafico] La modifica in contesto è disponibile tramite la sequenza di tasti quando è disattivata in Preferenze
 * [UI] Il titolo della finestra di avviso &quot;Individua lettore&quot; non è corretto
 * [UI] L&#39;attivazione guidata ha un comportamento errato
@@ -1928,7 +1928,7 @@ ht-degree: 0%
 * [UX] Accettare colori RGB a 6 cifre nel campo esadecimale del Selettore colore
 * [UX] Evita di visualizzare le proprietà dei commenti non appena vengono selezionati
 * [UX] Visualizzare i gruppi rilevanti quando si inizia a scrivere un nome di gruppo
-* [UX] Scelta rapida da tastiera per riesportare gli output del grafico
+* [UX] Scelta rapida per riesportare gli output del grafico
 * [UX] Rendi tutte le caselle combinate Dropdown-textfield diverse dalle caselle combinate normali
 * [GraphRender] Visualizza le miniature dei nodi uno alla volta e non solo quando vengono calcolate tutte
 * [GraphRender] Migliora il ritardo di annullamento durante il rendering del grafico
@@ -1937,7 +1937,7 @@ ht-degree: 0%
 * [Miniature] Rielaborazione dell&#39;esperienza utente per aggiungere una miniatura (icona) a un pacchetto
 * [Preferenze] Abilita Raytracing GPU per impostazione predefinita per i nuovi utenti
 * [Preferenze] 3DView/OpenGL/Qualità: sostituisci il cursore per il conteggio dei campioni con un elenco di opzioni più intuitivo
-* [Baker] Miglioramento delle prestazioni post-elaborazione
+* [Panettieri] Migliorare le prestazioni post-elaborazione
 * [Gestione colore] Mostra lo spazio colore di lavoro corrente nella finestra di dialogo delle preferenze.
 * [Iray] Passa automaticamente alla modalità CPU quando non è disponibile una GPU compatibile
 * [Prestazioni] Migliorare il tempo di risposta per calcolare il nodo di interesse (ora calcolato per primo)
@@ -1949,7 +1949,7 @@ ht-degree: 0%
 **Corretto:**
 
 * [Grafico] La modifica delle dimensioni della pagina principale o del riquadro uv non annulla il rendering corrente
-* [Grafico] Arresto anomalo quando si sposta una connessione di output e si preme Alt+LMB
+* [Grafico] Arresto anomalo durante lo spostamento di una connessione di output, quindi premendo Alt+LMB
 * [Grafico] Arresto anomalo durante lo spostamento delle connessioni in modalità Materiale o Materiale compatto
 * [Grafico] I nodi di input non possono visualizzare in anteprima le risorse bitmap
 * [Grafico] Compatibilità del nodo interrotta sulle istanze
@@ -1958,9 +1958,9 @@ ht-degree: 0%
 * [Contenuto] Risultato errato con Variazione colore personalizzata nel nodo Corrispondenza colore
 * [Content] Il rapporto tra dimensioni X/Y in Atlas scatter ha l&#39;effetto opposto
 * [Content] Il rapporto tra dimensioni X/Y nello splatter di forma ha l&#39;effetto opposto
-* [Vista 3D] Arresto anomalo durante l’operazione Annulla dopo il caricamento di una risorsa Scena da un pacchetto
-* [Vista 3D] Ambiente personalizzato non salvato in SBSSCN se il percorso contiene alias con caratteri speciali
-* [Vista 3D] Il passaggio dal formato normale alle impostazioni del materiale genera stati capovolti
+* [vista 3D] Arresto anomalo sull’operazione Annulla dopo il caricamento di una risorsa Scena da un pacchetto
+* [vista 3D] Ambiente personalizzato non salvato in SBSSCN se il percorso contiene alias con caratteri speciali
+* [vista 3D] Quando si passa dal formato normale alle impostazioni del materiale, gli stati vengono capovolti
 * [UI] Il testo del pulsante &quot;Imposta come principale&quot; è in eccesso dall’area di visualizzazione
 * [UI] La posizione della finestra principale non viene ripristinata correttamente quando si lavora in modalità finestra
 * [UI] Il testo della barra di stato viene scostato quando la finestra è a schermo intero o trascinata vicino al bordo dello schermo
@@ -1969,7 +1969,7 @@ ht-degree: 0%
 * [Predefiniti] Arresto anomalo quando si applicano predefiniti in istanze di alcuni grafici a Substance Source
 * [Predefiniti] nome errato visualizzato dopo l&#39;annullamento sull&#39;istanza sbs
 * [Rendering] Rendering errato durante l’ottimizzazione di un parametro in modalità di anteprima
-* [Baker] L’aggiornamento di più mappe con baking genera avvisi che bloccano alcuni esegue i baking
+* [Panettieri] L&#39;aggiornamento di più mappe con baking genera avvisi che bloccano alcuni dolci
 * [Cooker] La modifica dei nodi SBSAR nelle istanze SBS genera un output pari a 0 dall&#39;istanza
 * [Explorer] Gli alias personalizzati non vengono passati quando si utilizza &#39;Salva e apri in Substance Player&#39;
 * [Editore sfumatura] La selezione assoluta del colore non influisce su tutti i tasti selezionati
@@ -1980,27 +1980,27 @@ ht-degree: 0%
 
 **Aggiunto:**
 
-* [Content] Esponi il parametro &#39;Colore mascherino&#39; nel nodo Trasforma in scala di grigi sicuro
+* [Content] Esponi il parametro &#39;Colore mascherino&#39; nel nodo Trasformazione sicura in scala di grigi
 * [Content] PBR render: aggiungi un’opzione di input in background personalizzata
 * [Contenuto] Nodi luce panorama: nuova opzione per campionare il colore dall&#39;immagine di sfondo
 * [Parametri] Nascondere i parametri con il flag &#39;not-supported&#39; dall&#39;elenco della finestra Parametri di esposizione
 
 **Corretto:**
 
-* [vista 3D] Arresto anomalo di cambio di trame personalizzate in un caso specifico
-* [vista 3D] Il formato normale è sempre all’avvio di DirectX
+* [Vista 3D] Arresto anomalo durante il cambio di trame personalizzate in un caso specifico
+* [Vista 3D] Il formato normale è sempre all’avvio di DirectX
 * [Content] Disturbo di Worley 3D: rendering artefatto quando si utilizza un valore elevato per le dimensioni della griglia
 * [Content] La fusione del nodo Dissolve non è corretta
 * [Contenuto] PBR render: rimuovi avviso cucina
 * [Content] PBR render: il risultato contiene colori negativi in alcuni casi
 * [Cooker] Problema di inserimento nella cache per nodi di istanze con più output
-* [Esplora risorse] Arresto anomalo di chiusura di un pacchetto contenente un grafico MDL visualizzato
+* [Explorer] Arresto anomalo quando si chiude un pacchetto che contiene un grafico MDL visualizzato
 * [Grafico] Cottura a 2 passaggi: la modifica del tipo di nodo non attiva un ricreazione
-* [Grafico] Arresto anomalo di eliminazione degli input durante l&#39;utilizzo della connessione
+* [Grafico] Arresto anomalo quando si eliminano input durante l’utilizzo della connessione
 * [Grafico] Gli endpoint del collegamento possono essere spostati in uno spazio vuoto
 * [MDL] Arresto anomalo durante l&#39;annullamento dell&#39;esportazione MDL dal grafico MaterialX
 * [MDL] Errore durante l&#39;annullamento dell&#39;esportazione in MDLE
-* [Predefiniti] Arresto anomalo nella scheda Predefiniti dopo aver modificato il tipo di parametro incluso nel predefinito
+* [Predefiniti] Arresto anomalo nella scheda Predefiniti dopo la modifica del tipo di parametro incluso nel predefinito
 * [Risorse] L&#39;elenco dei materiali è vuoto nel menu di scelta rapida del grafico per le trame collegate come non UDIM
 
 ### 10.1.2 (2020.1.2)
@@ -2013,26 +2013,26 @@ ht-degree: 0%
 * [Content] PBR render: aggiungete i parametri per controllare l&#39;intensità delle ombre di diffusione/specular
 * [Content] Nodi luce forma: aggiungete il parametro della posizione della fotocamera
 * [News] Lo stile &quot;Freccia&quot; del gruppo viene interrotto la prima volta che la finestra viene visualizzata
-* [Baker] Aggiungete la scelta rapida da tastiera Z alla vista 2D per visualizzare l&#39;immagine in formato 1:1
+* [Baker] Aggiungete il tasto di scelta rapida Z alla vista 2D per visualizzare l&#39;immagine in formato 1:1
 * [Project] Nascondi l&#39;alias $(PROJECT\_DIR) dall&#39;elenco
 * [Esplora risorse] Non creare risorse personalizzate per le risorse che non sono un file su disco
 
 **Corretto:**
 
-* [Player] Segnala alias mancanti durante il caricamento dei pacchetti SBS
+* [Player] Segnala gli alias mancanti durante il caricamento dei pacchetti SBS
 * [Player] Visualizza il valore di Numero casuale in base decimale
 * [Player] Raggruppa tutte le mappe dell&#39;ambiente incluse nel Substance Designer
-* [Player] Arresto anomalo all&#39;uscita da macOS High Sierra
+* [Player] Arresto anomalo all’uscita da macOS High Sierra
 * [Player] Impossibile caricare i pacchetti che utilizzano sbs://
 * [Content] Disturbo di Worley 3D: rendering artefatto quando si utilizza un valore elevato per le dimensioni della griglia
 * [Content] L&#39;input &#39;majorThanZero&#39; nel nodo &#39;Wave&#39; non è utilizzato
 * [Contenuto] Luce piana: la modalità Posizione spazio mondo non funziona
 * [Content] Sphere Light: la posizione interna della luce non funziona correttamente
-* [Baker] Arresto anomalo quando si esegue i baking con la finestra di esegue i baking mentre è in esecuzione una mappa con baking di tipo &quot;Aggiorna tutto&quot;
-* [Baker] Eseguo i baking non riuscito su Optix per AO da Trama utilizzando Bassa come Alta con una Mappa normale
-* [Baker] La risoluzione dell&#39;anteprima dei file UVT non corrisponde alle dimensioni dello schermo
-* [vista 3D] La bitmap assegnata viene sostituita durante il caricamento di un file MDL se il valore predefinito non è texture2d
-* [vista 3D] I widget Proprietà materiali cambiano dopo la reimpostazione di una proprietà
+* [Panettieri] Arresto anomalo durante la cottura con la finestra di cottura mentre è in esecuzione una mappa con baking &quot;Aggiorna tutto&quot;
+* [Panettieri] La cottura al forno non riesce su Optix per AO da Trama utilizzando Bassa come Alta con una mappa Normale
+* [Pannelli] La risoluzione dell&#39;anteprima dei file UVT non corrisponde alle dimensioni dello schermo
+* [Vista 3D] La bitmap assegnata viene sostituita durante il caricamento di un file MDL se il valore predefinito non è una texture2d
+* [Vista 3D] I widget Proprietà materiali cambiano dopo la reimpostazione di una proprietà
 * [Vista 3D] La preferenza globale Formato normale non funziona più
 * [MatX] Libreria: la categoria Grafico di MaterialX non visualizza tutti i nodi disponibili
 * [MatX] Il menu di scelta rapida di un grafico personalizzato può contenere sottocartelle vuote nella cartella &quot;Aggiungi nodo&quot;
@@ -2069,16 +2069,16 @@ ht-degree: 0%
 * [Content] Nuovo filtro FXAA
 * [Content] Nuovo filtro Hald CLUT
 * [Content] Esporre i filtri nei nodi &quot;Ritaglia&quot;
-* [vista 3D] Migliorare i parametri degli Shader/flusso di lavoro di assegnazione delle texture
-* [vista 3D] Nuovo shader non illuminato
-* [vista 3D] Aggiungi un &quot;Valore zero scalare&quot; agli ombreggiatori di spostamento
-* [vista 3D] Aggiungere un’opzione per ridurre la risoluzione della finestra della vista quando è attivato il valore High DPI
-* [vista 3D] GLSLFX: consente di impostare le informazioni dell&#39;interfaccia grafica del campionatore (impostazione predefinita, min, max, guiMin, guiMax, guiStep, guiWidget, guiName, guiGroup)
-* [vista 3D] Aggiungi l’opzione &quot;Carica stato con trama...&quot; nel menu Scena
-* [vista 3D] Aggiungere il Trasforma di output con mappatura tonale ACE nella modalità di gestione colore legacy
-* [Baker] Nuovo metodo di campionamento in AO, Curvatura, Normale piegato, baker Thickness
-* [Baker] Nuove opzioni di normalizzazione nei baker di Height e Thickness
-* [Gestione colore] Integrazione di ACE Adobe (Adobe Color Engine)
+* [Vista 3D] Miglioramento del flusso di lavoro per i parametri Shader e l’assegnazione delle texture
+* [Vista 3D] Nuovo shader non illuminato
+* [Vista 3D] Aggiungi un &quot;Valore zero scalare&quot; agli ombreggiatori di spostamento
+* [Vista 3D] Aggiungi un’opzione per ridurre la risoluzione della finestra della vista quando è attivato il valore elevato di DPI
+* [Vista 3D] GLSLFX: consente di impostare le informazioni dell&#39;interfaccia grafica sul campionatore (impostazione predefinita, min, max, guiMin, guiMax, guiStep, guiWidget, guiName, guiGroup)
+* [Vista 3D] Aggiungi l’opzione &quot;Carica stato con trama...&quot; nel menu Scena
+* [Vista 3D] Aggiungi la trasformazione dell’output con mappatura tonale ACES nella modalità di gestione colore legacy
+* [Panettieri] Nuovo metodo di campionamento in AO, curvatura, curvatura normale piegato, panettieri Thickness
+* [Panettieri] Nuove opzioni di normalizzazione nei panettieri per Height e Thickness
+* [Gestione colore] Integrazione di Adobe (Adobe Color Engine)
 * [Gestione colore] Aggiungi opzioni per impostare il comportamento predefinito quando manca il profilo ICC
 * [Parametri] Rendete i cursori incrementali coerenti con Substance Painter
 * [Packaging] Aggancia il maggior numero di DLL Qt possibile per gli script Python
@@ -2090,11 +2090,11 @@ ht-degree: 0%
 
 **Corretto:**
 
-* [vista 3D] I parametri della luce ambiente non sono visibili anche se è attivato
-* [vista 3D] glslfx: il widget colore è sempre un vec3 senza alfa
-* [vista 3D] Il set di mappe dell&#39;ambiente da una risorsa non viene salvato nella risorsa scena
-* [vista 3D] Iray: la luce ambiente viene convertita in una luce punto all’origine della scena
-* [vista 3D] glslfx: il widget colore è sempre un vec3 senza alfa
+* [Vista 3D] I parametri Luce ambiente non sono visibili anche se è attivato
+* [Vista 3D] glslfx: il widget Colore è sempre un vec3 senza alfa
+* [Vista 3D] La mappa dell&#39;ambiente impostata da una risorsa non viene salvata nella risorsa scena
+* [Vista 3D] Iray: la luce ambiente viene convertita in una luce punto all&#39;origine della scena
+* [Vista 3D] glslfx: il widget Colore è sempre un vec3 senza alfa
 * [Parametri] L&#39;URL del pacchetto dell&#39;istanza non è corretto nel gruppo di attributi
 * [Parameters] Arresto anomalo durante l&#39;esposizione dei parametri
 * [Parametri] Le icone non sono allineate correttamente nei parametri dei nodi di Curva
@@ -2120,11 +2120,11 @@ ht-degree: 0%
 * [Publish] Avviso argomento obsoleto in SBSCooker durante la pubblicazione in SBSAR
 * [API] Impossibile ottenere i metadati da un pacchetto proveniente da un file .sbsar
 * [Esporta] In modalità Legacy, l’opzione spazio colore torna ai valori predefiniti per output specifici
-* [vista 2D] La copia negli Appunti non tiene conto dello stato di Gestione colore
+* [Vista 2D] La copia negli Appunti non tiene conto dello stato di Gestione colore
 * [Unix] Designer ignora i segnali di sistema
 * [Libreria] Alcuni filtri nella libreria non funzionano correttamente a causa dei tag tradotti
 * [Cooker] La radice quadrata di numeri negativi dovrebbe restituire 0 invece di NaN
-* [vista 2D] I canali rosso e blu vengono scambiati dopo aver annullato il primo tratto pittura
+* [Vista 2D] I canali rosso e blu vengono scambiati dopo aver annullato il primo tratto pennello
 * [Console] Troppi messaggi di avviso nella console &quot;QPixmap::scaled: Pixmap è un pixmap null&quot;
 * [Content] &quot;Shape Glow&quot;: avvertenza di cottura
 * [Dipendenze] L’assegnazione di un grafico situato in un pacchetto diverso a una trama non crea dipendenze
@@ -2138,7 +2138,7 @@ ht-degree: 0%
 
 **Aggiunto:**
 
-* [Batchtools] Spedire profili OCIO predefiniti con strumenti batch
+* [Batchtools] Spedizione di profili OCIO predefiniti con strumenti batch
 
 **Corretto:**
 
@@ -2172,28 +2172,28 @@ ht-degree: 0%
 * [Grafico] Il commento non viene spostato quando il fotogramma corrispondente viene spostato
 * [Grafico] Nomi di input mancanti nel nodo di istanza personalizzato
 * [Grafico] Le miniature potrebbero essere renderizzate durante il caricamento del grafico, anche se l&#39;opzione corrispondente è disattivata nelle Preferenze
-* [vista 2D] L&#39;opzione Alfa negativo mostra il controllo indipendentemente dall&#39;opzione di visualizzazione
-* [vista 2D] La conversione della superficie da 32f a 8 bit non riesce con valori alti
-* [vista 2D] Inclinazione superiore/sinistra e &#39;Crea quadrato&#39; impostano alcune coordinate su valori enormi nelle matrici di trasformazione in avanti
-* [vista 2D] Gli UV di tutti gli oggetti con trama non vengono visualizzati su set UV diversi da &quot;0&quot;
-* [Contenuto] Smussato: la modalità Angular non funziona correttamente su maschera Affiancamento
+* [Vista 2D] L&#39;alfa negativa mostra il controllo indipendentemente dall&#39;opzione di visualizzazione
+* [Vista 2D] La conversione della superficie da 32f a 8 bit non riesce con valori alti
+* [Vista 2D] Inclinazione superiore/sinistra e &#39;Crea quadrato&#39; impostano alcune coordinate su valori enormi nelle matrici di trasformazione in avanti
+* [Vista 2D] Gli UV di tutti gli oggetti con trama non vengono visualizzati su set UV diversi da &quot;0&quot;
+* [Contenuto] Smusso: la modalità Angular non funziona correttamente su una maschera di affiancamento
 * [Contenuto] Flood Fill a sfumatura: il valore pendenza immagine non viene campionato al centro della forma
 * [Content] Funzione; &quot;Equality Boolean&quot; è interrotto
-* [Baker] Artefatti quando si utilizza la mappatura automatica dei toni nel baker &quot;Curvatura da trama&quot; in casi specifici
-* [Baker] Arresto anomalo in DXR quando si esegue i baking senza materiale selezionato
-* [Baker] Problema di prestazioni nel vista 2D quando si abilita &quot;info&quot;
+* [Panettieri] Artefatti quando si utilizza la mappatura automatica dei toni nel panettiere &quot;Curvatura da trama&quot; in casi specifici
+* [Bakers] Arresto anomalo in DXR durante la cottura al forno senza materiale selezionato
+* [Baker] Problema di prestazioni nella vista 2D quando si abilita &quot;info&quot;
 * [Engine] La funzione &#39;Pow&#39; genera valori enormi quando si utilizza un valore di input molto basso e un esponente elevato sul motore SSE2
-* [Engine] Arresto anomalo quando si utilizza una compressione jpg elevata sulle risorse bitmap
-* [Engine] Il Processore di valori restituisce un valore $size errato quando è all’interno di un grafico secondario
+* [Engine] Arresto anomalo quando si utilizza una compressione JPG elevata su risorse bitmap
+* [Engine] Il processore valori restituisce un valore $size errato quando è all’interno di un grafico secondario
 * [Parametri] Viene visualizzata una finestra a comparsa vuota quando si seleziona un nodo di istanza con un numero elevato di parametri
 * [Parametri] Il valore intero non viene visualizzato negli elementi dei parametri a discesa
 * [Parametri] Il pulsante &quot;Modifica&quot; della Matrice di trasformazione non è disponibile in modalità di anteprima
 * [Cooker] $size in ValueProcessor è errato quando si trova all’interno di un’istanza del grafico
 * [Cooker] Outputsize non corretto quando il collegamento del valore passa da un nodo punto a un nodo atomico
-* [UI] Il pulsante per visualizzare tutti gli elementi nella barra inferiore della vista 2D non è visibile
+* Il pulsante [UI] per visualizzare tutti gli elementi nella barra inferiore del vista 2D non è visibile
 * [UI] L’anteprima dei valori RGB selezionati mostra numeri errati quando si utilizza Gestione colore
 * [Esportazione] Le immagini RGBA 16f vengono esportate come scala di grigi
-* [Vista 3D] Impossibile importare OBJ con più spazi
+* [vista 3D] Impossibile importare OBJ con più spazi
 * [Gestione colore] La configurazione OCIO non viene presa in considerazione durante la pubblicazione del file sbsar
 * [Color Widget] Gli intervalli dei cursori dei colori possono espandersi in modo esponenziale in un caso specifico
 * La sezione [Doc] &quot;paramValue&quot; è incompleta nella Guida di riferimento del formato Sbs
@@ -2211,14 +2211,14 @@ ht-degree: 0%
 
 * [Generale] Supporto della gestione del colore mediante il file di configurazione OpenColorIO
 * [Predefiniti] Migliorare la gestione dei predefiniti
-* [Predefiniti] Sincronizzare il gizmo della vista 2D e i cursori di anteprima
+* [Predefiniti] Sincronizzare il widget del vista 2D e i cursori di anteprima
 * [Predefiniti] Ripristina i valori di anteprima quando si torna alla modalità Anteprima
 * [Predefiniti] Mantiene attiva la modalità di anteprima quando si modificano altri nodi, risorse o grafici
 * [Predefiniti] L’annullamento funziona in modo uniforme quando si naviga tra le 3 schede dei predefiniti
 * [Predefiniti] Consenti di ripristinare i parametri al valore predefinito del grafico o al valore predefinito del predefinito in modalità Anteprima
 * [Predefiniti] Migliorare il fissaggio dei parametri
 * [Predefiniti] Importa/esporta in un file tutti i predefiniti di un grafico
-* [Panettieri] Nuovo panettiere &quot;Curvatura da trama&quot; basato sul ray tracing
+* [Baker] Nuovo baker &quot;Curvatura da trama&quot; in base al raytracing
 * [Baker] Aggiungi opzione piano terreno nel baker &quot;AO da trama&quot;
 * [Baker] Aggiungi opzione Corrispondenza per nome per ignorare il backface nel baker &quot;AO da trama&quot;
 * [Content] Nuovo nodo di Atlas scatter
@@ -2249,7 +2249,7 @@ ht-degree: 0%
 * [Grafico] I nodi bitmap non riflettono la compressione della bitmap associata
 * [Grafico] La cache non viene cancellata quando si cancellano le miniature dei nodi dopo il primo rendering
 * [Grafico] Dimensione del nodo invalidata in modo errato
-* [Grafico] Arresto anomalo in alcuni casi durante la modifica delle connessioni di input in un nodo di Elaboratore pixel
+* [Grafico] Arresto anomalo quando si esegue l&#39;im in alcuni casi quando si modificano le connessioni di input in un nodo del processore pixel
 * [Grafico MDL] Errore durante il ripristino di un valore predefinito della chiamata di funzione
 * [Proprietà] I pulsanti &quot;Modifica&quot; e &quot;Matrice&quot; nei parametri della matrice di trasformazione sono confusi
 
@@ -2263,11 +2263,11 @@ ht-degree: 0%
 
 **Corretto:**
 
-* [Baker] Arresto anomalo quando si esegue i baking utilizzando una risorsa mappa di inclinazione con un collegamento non valido
-* [Baker] I set UV diversi da 0 non sono considerati su Embree
-* [Baker] &quot;Normali incurvate da trama&quot; genera risultati errati con set UV diversi da 0 su DXR
-* [Baker] I parametri &#39;UV Set&#39; vengono reimpostati sul valore &#39;0&#39; quando si riapre la finestra eseguita i baking
-* [Baker] ‘Posizione’ genera un’immagine nera con set UV diversi da 0
+* [Bakers] Arresto anomalo durante la cottura in forno utilizzando una risorsa mappa di inclinazione con un collegamento non valido
+* [Panettieri] I set UV diversi da 0 non sono presi in considerazione su Embree
+* [Bakers] &quot;Bent Normals from Mesh&quot; produce risultati errati con set UV diversi da 0 su DXR
+* [Panettieri] I parametri &#39;UV Set&#39; vengono reimpostati sul valore &#39;0&#39; quando si riapre la finestra di cottura
+* [Pannelli] La &quot;Posizione&quot; genera un&#39;immagine nera con set UV diversi da 0
 * [Content] Smart Auto Tile: problema di campionamento in 8k
 * [Content] Atlas splitter: il rilevamento della forma in alcuni casi non riesce, il parametro di precisione dovrebbe essere esposto
 * [Content] Pow in alcuni casi non restituisce il valore corretto
@@ -2315,32 +2315,32 @@ ht-degree: 0%
 
 **Aggiunto:**
 
-* [Modelli] Aggiungi nodi di input predefiniti a Specular/Lucentezza e ad altri modelli
+* [Modelli] Aggiungi nodi di input predefiniti a Specular/lucidità e ad altri modelli
 * [Modelli] Aggiungi modello di Anisotropia PBR
-* [vista 3D] Aumentare le distanze del piano di taglio automatico
-* [vista 3D] PBR Coated: modifica il valore predefinito per l&#39;ereditarietà dei Normali del rivestimento
+* [Vista 3D] Aumentare le distanze di distanza del piano di ritaglio automatico
+* [Vista 3D] PBR Coated: modifica il valore predefinito per l&#39;ereditarietà normale Coat
 * [Content] Atlas splitter: aggiungi l&#39;opzione per la funzione &quot;Ritaglio automatico&quot;
 * [Menu Nodo] Non filtrare i nodi senza input
 
 **Corretto:**
 
 * [Contenuto] Atlas splitter: alcuni output non vengono ritagliati correttamente quando si utilizza l’opzione &quot;Ritaglio automatico&quot;
-* [Contenuto] Fusione Height materiale: errore di cottura relativo a parametro inesistente
+* [Contenuto] Fusione Height di materiali: errore di cottura relativo a un parametro inesistente
 * [Contenuto] &quot;Luce piana&quot;: la modalità UV del pattern non funziona correttamente
 * [Content] &quot;Height a unità normale&quot;: l&#39;input è forzato a 16 bit
-* [Contenuto] Forme impreviste quando si utilizza il nodo angular &quot;Smussato&quot; senza Affiancamento su forme piccole
+* [Contenuto] Forme impreviste quando si utilizza il nodo angular &quot;Smussato&quot; senza affiancamento su forme di piccole dimensioni
 * [Library] Le icone per sbsar non sono visibili nella libreria
 * [Libreria] L’utilizzo di &quot;\&quot; per filtrare l’URL non funziona più
 * [Library] I valori dei filtri fanno distinzione tra maiuscole e minuscole
 * [Library] Il filtro di ricerca non funziona quando &quot;Composizione&quot; è selezionato
-* [Baker] Se si fa doppio clic su celle specifiche e si annulla la modifica, queste vengono ripristinate a valori errati
-* [Baker] Il testo dello stato backend nella finestra baker mostra sempre &quot;Accelerazione GPU: abilita&quot;
+* [Bakers] Se si fa doppio clic su celle specifiche e si ignora la modifica, queste vengono ripristinate a valori errati
+* [Bakers] Il testo dello stato backend nella finestra bakers mostra sempre &quot;Accelerazione GPU: abilita&quot;
 * [Cooker] Arresto anomalo durante l&#39;elaborazione di una dipendenza &#39;impostore&#39; in un grafico
 * [Cooker] la conversione in scala di grigi ha dimensioni di output errate quando si utilizza il valore
-* [Esplora risorse] Arresto anomalo durante l’elaborazione di &quot;Publish su condivisione&quot;
-* [Grafico] Arresto anomalo durante l&#39;apertura di un pacchetto specifico
-* [MDL] Arresto anomalo quando si utilizza l&#39;operatore di cast
-* [Modelli] Gli identificatori di output non sono corretti nel modello patinato PBR
+* [Explorer] Arresto anomalo durante l&#39;elaborazione di &quot;Publish su condivisione&quot;
+* [Grafico] Arresto anomalo all’apertura di un pacchetto specifico
+* [MDL] Arresto anomalo durante l’utilizzo dell’operatore di cast
+* [Modelli] Gli identificatori di output non sono corretti nel modello rivestito PBR
 
 ### 9.2.0 (2019.2.0)
 
@@ -2365,9 +2365,9 @@ ht-degree: 0%
 * [UI] Aggiunge/rimuove un nodo dai preferiti dal menu Creazione nodo
 * [UI] Menu per la creazione di nodi: crea un menu facendo clic/trascinando un collegamento da un output
 * [UI] Menu per la creazione dei nodi: filtra il contenuto in base al tipo di selezione corrente
-* [vista 3D] Anisotropia di supporto
-* [vista 3D] Effetto di rivestimento di supporto
-* [vista 3D] Supporto della dispersione del sottosuolo
+* [Vista 3D] Anisotropia di supporto
+* [Vista 3D] Supporto dell&#39;effetto di rivestimento
+* [Vista 3D] Supporto della dispersione del sottosuolo
 * [Grafico] Nodo punto
 * [Grafico] Ottimizza il rendering dei grafici memorizzando nella cache i risultati della cottura
 * [Preferenze] Modificate il valore predefinito &quot;Limite dimensione cottura&quot; in 8192
@@ -2378,27 +2378,27 @@ ht-degree: 0%
 * [GradientNode] Premete ESC per annullare la selezione della sfumatura
 * [Parametri] Rimuovi maiuscole automatiche sugli identificatori
 * [Project] Aggiungi un&#39;opzione per specificare se i grafici e le risorse sono &quot;Visibili nella libreria&quot; per impostazione predefinita
-* [Predefiniti] segnaposto automaticamente i parametri modificati
+* [Predefiniti] Blocca automaticamente i parametri modificati
 
 **Corretto:**
 
 * [MDL] Impossibile esportare il modulo a causa di un problema di tipo di parametro
 * [MDL] L&#39;Exposedint non è visibile durante il caricamento
-* [MDL] Arresto anomalo che si verifica durante l&#39;esportazione MDL
-* [MDL] Arresto anomalo durante la modifica del colore di un nodo di superficie materiale
+* [MDL] Arresto anomalo durante l’esportazione MDL
+* [MDL] Arresto anomalo durante la modifica del colore di un nodo di superficie del materiale
 * [MDL] MDLGraphNodeControllerSelector vuoto::updateSelectorCurrentMember(const DataMessage&amp; msg) interrotto
 * [Grafico] thickness di collegamenti errato nella visualizzazione del grafico
 * [Grafico] Troppe invalidazioni vengono attivate quando si modificano i parametri
-* [Grafico] Arresto anomalo di chiusura di un pacchetto mentre sono aperte due relative finestre e utilizzo della modifica in contesto
+* [Grafico] Arresto anomalo quando si chiude un pacchetto mentre sono aperte due finestre dello stesso e si utilizza la modifica in contesto
 * [Grafico a funzioni] L&#39;avviso non viene visualizzato quando si chiude la vista delle funzioni
-* [vista 3D] Arresto anomalo sull&#39;inizializzazione del vista 3D quando la proiezione della fotocamera è impostata come &#39;ortografica&#39; come stato della scena predefinito
-* [vista 3D] La funzione DOF post-FX rimane abilitata in Iray
+* [Vista 3D] Arresto anomalo all’inizializzazione della vista 3D quando la proiezione della videocamera è impostata come &quot;ortogonale&quot; come stato della scena predefinito
+* [Vista 3D] La funzionalità DOF post-FX rimane abilitata in Iray
 * [Vista 2D] La finestra di selezione del pennello scompare quando si modifica la dimensione del pennello
-* [vista 2D] Pannello Informazioni: i valori vengono ritagliati con un layout specifico
-* [vista 2D] L&#39;immagine viene spostata quando si riduce a icona e si ripristina la finestra principale
+* [Vista 2D] Pannello Informazioni: i valori vengono ritagliati con un layout specifico
+* [Vista 2D] L&#39;immagine viene spostata quando si riduce a icona e si ripristina la finestra principale
 * [Baker] L’elenco di selezione &quot;Da risorsa&quot; non viene filtrato correttamente
-* [Baker] Arresto anomalo di concatenamento dei baker &#39;Mappa colori da mesh&#39; e &#39;Mappa normale da trama&#39; su Embree
-* [Baker] La esegue i baking di curvatura per vertice provoca artefatti gravi
+* [Panettieri] Arresto anomalo durante il concatenamento dei panettieri &#39;Color Map from Mesh&#39; e &#39;Normal Map from Mesh&#39; su Embree
+* [Panettieri] La curvatura per vertice determina artefatti gravi
 * [Explorer] Impossibile importare le risorse UDIM trascinandole in Esplora risorse
 * [Esplora risorse] La finestra di Esplora risorse non viene filtrata correttamente quando si collegano trame e font dopo aver collegato formati di file insoliti
 * [Explorer] Le risorse sono visibili quando il grafico ha &#39;show in Library&#39; impostato su &#39;no&#39;
@@ -2412,7 +2412,7 @@ ht-degree: 0%
 * [Dipendenze] L&#39;avviso di risorsa bitmap mancante rimane attivo dopo il trasferimento
 * [Libreria] Alcune miniature non vengono generate
 * [Library] I file MDL vengono visualizzati nella libreria
-* arresto anomalo di [Parameters] durante l&#39;esposizione dei parametri
+* [Parameters] Arresto anomalo durante l&#39;esposizione dei parametri
 * [Parametri] Arresto anomalo dopo la ricreazione di un nuovo elemento nell&#39;elenco a discesa
 * [Esportazione] L’esportazione batch 8K non riesce
 * [Predefiniti] Arresto anomalo quando si applica un predefinito che coinvolge booleani nelle istanze SBS
@@ -2424,9 +2424,9 @@ ht-degree: 0%
 
 **Corretto:**
 
-* [Baker] Arresto anomalo in DXR quando le proporzioni dell&#39;output eseguo i baking e della mappa di inclinazione non corrispondono
-* [Baker] Il baker &quot;Occlusione ambientale da trama&quot; genera risultati errati con Optix o DXR quando si utilizza una Mappa normale
-* [Baker] Il baker &quot;Curvatura&quot; genera risultati errati quando si utilizza l’impostazione &quot;Per vertice&quot;
+* [Bakers] Arresto anomalo in DXR quando le proporzioni dell’output di cottura e della mappa di inclinazione non corrispondono
+* [Panettieri] Il fornaio &quot;Occlusione ambientale da trama&quot; produce risultati errati con Optix o DXR quando si utilizza una mappa normale
+* [Baker] Il baker &quot;Curvatura&quot; genera risultati errati quando si utilizza l&#39;impostazione &quot;Per vertice&quot;
 * [Baker] I messaggi di errore indicano il backend che non è riuscito invece della causa dell&#39;errore
 * [Baker] Arresto anomalo durante l&#39;elaborazione di un baker di mappe di dettaglio senza una trama poly elevata
 * [Baker] La mappa di inclinazione non sembra influire su tutto l’output con DXR abilitato
@@ -2460,8 +2460,8 @@ ht-degree: 0%
 * [UI] Il menu di alcuni pulsanti è a malapena raggiungibile
 * [UI] Arresto anomalo durante il trascinamento di un’istanza di baker
 * [SVG] Gli strumenti di modifica di SVG incorporati non sono affidabili
-* [Parameters] Arresto anomalo quando si applica un predefinito con parametri booleani in un&#39;istanza SBSAR
-* [Rete] Arresto anomalo talvolta quando si verifica un errore in una connessione crittografata SSL
+* [Parametri] Arresto anomalo quando si applica un predefinito con parametri booleani in un&#39;istanza SBSAR
+* [Rete] A volte si verifica un arresto anomalo quando si verifica un errore in una connessione crittografata SSL
 
 ### 9.1.1 (2019.1.1)
 
@@ -2480,14 +2480,14 @@ ht-degree: 0%
 * [Content] Il nodo &#39;Mappatura Flood Fill scala di grigi&#39; genera artefatti di incremento
 * [Content] Impossibile pubblicare il Height Extrude
 * [Parametri] I predefiniti incorporati in sbsar non vengono caricati in Designer
-* Il nome del Baker [Baker] non viene visualizzato correttamente nell&#39;elenco dei baker
-* [vista 3D] L’opzione &quot;Visualizza output in vista 3d&quot; non funziona per i valori
+* [Panettieri] Il nome del panettiere non viene visualizzato correttamente nell&#39;elenco panettieri
+* [Vista 3D] &quot;Visualizza output in Vista 3D&quot; non funziona per i valori
 * [Cooker] Arresto anomalo durante la correzione di un tipo di parametro errato
 * [API] La funzione SDResource.setInputPropertyFromId non funziona sui parametri di input SDSBSCompGraph
 * [Updater] alcuni sbs non possono essere aggiornati nel 2019
-* [Explorer] Arresto anomalo durante l&#39;importazione di un file obj specifico
+* [Explorer] Arresto anomalo durante l&#39;importazione di un file .obj specifico
 * [PythonIntegration] Backslash non eseguito correttamente in Windows durante l&#39;inizializzazione di PYTHONPATH
-* [UI] problema di valore con alcuni cursori nei baker
+* [UI] problema di valore con alcuni cursori nei panifici
 * [Linux] Designer non può essere eseguito su CentOS &lt; 7.6
 
 ### 9.1.0 (2019.1.0)
@@ -2507,7 +2507,7 @@ ht-degree: 0%
 * [API] Aggiungi il parametro &#39;reloadIfModified&#39; al metodo SDPackageMGR.loadUserPackage() per controllare se un pacchetto è stato ricaricato se modificato
 * [API] Aggiungi metodo SDPackageMgr.getPackages()
 * [API] Aggiunta della possibilità di ottenere, aggiungere o rimuovere percorsi radice da SDModuleMgr
-* [API] Consente di ottenere il puntatore del buffer di pixel e l&#39;intonazione di una texture SDT
+* [API] Consente di ottenere il puntatore del buffer dei pixel e l&#39;intonazione di un&#39;estensione SDT
 * [API] Consente di recuperare il puntatore di MainWindow.
 * [API] Consente di creare menu personalizzati nel menu principale
 * [API] Consente di creare DockWidget personalizzati nella finestra principale
@@ -2525,15 +2525,15 @@ ht-degree: 0%
 * [Content] Nuovo filtro &quot;Flood Fill per indicizzazione&quot;
 * [Content] Nuovo filtro &quot;Mappatura Flood Fill&quot;
 * [Content] Nuovo filtro Atlas splitter
-* [Content] Migliora il filtro Planare Tri
+* [Content] Migliora il filtro Tri Planar
 * [Content] Nuovo filtro Non Uniform Directional Warp
-* [Content] New Multi Alterazioni direzionali (Contenuto)
+* [Content] New Multi Directional Warp (Contenuto)
 * [Content] Nuovo filtro Height Extrude
 * [Engine] Fxmap: nuovo pattern &quot;Gradazione con offset&quot;
-* [Engine] Supporto per l&#39;elaborazione uniforme dei valori (nuovo nodo di Processore di valori)
-* [vista 3D]&#x200B;[Baker] Miglioramento delle prestazioni del caricatore OBJ
-* [vista 3D] Aumentare le distanze piane della clip della videocamera
-* [Preferenze] Aggiungere impostazioni per i Baker
+* [Engine] Supporto per l&#39;elaborazione uniforme dei valori (nuovo nodo Processore valori)
+* [3D View]&#x200B;[Bakers] Miglioramento delle prestazioni del caricatore OBJ
+* [Vista 3D] Aumentare le distanze piane della clip della videocamera
+* [Preferenze] Aggiungere impostazioni per i panettieri
 * [Grafico] Annullare la convalida più rapidamente evitando i confronti tra stringhe
 * [MDL] Supporto di array MDL
 * [UI] Miglioramenti dell’interfaccia utente per la selezione del motore
@@ -2547,9 +2547,9 @@ ht-degree: 0%
 * [Grafico] Le connessioni sono interrotte quando si modifica il nome dell&#39;input
 * [Grafico] Troppe invalidazioni vengono attivate quando si modificano i parametri
 * [Grafico] L’azione &quot;Copia negli Appunti&quot; non funziona se si fa clic con il pulsante destro del mouse su un badge
-* [Grafico] Lo spostamento di un fotogramma mediante Alt non è memorizzato nel file sbs
+* [Grafico] Lo spostamento di un fotogramma utilizzando Alt non è memorizzato nel file .sbs
 * [MDL] Il profilo colore non viene aggiornato automaticamente nell&#39;editor MDL
-* [MDL] arresto anomalo durante l&#39;esportazione di un modulo che contiene una configurazione specifica
+* [MDL] arresto anomalo durante l’esportazione di un modulo che contiene una configurazione specifica
 * [MDL] Impossibile esportare un grafico MDL contenente un LightProfile o una risorsa MBSDF
 * [UI] Le scelte rapide non vengono più visualizzate nei menu di scelta rapida
 * [UI] La finestra mobile diventa ancorabile dopo il riavvio
@@ -2602,7 +2602,7 @@ ht-degree: 0%
 
 **Aggiunto:**
 
-* [Baker] Aggiungi un’etichetta che indica l’impostazione corrente del suffisso &quot;Corrispondenza per nome&quot;
+* [Bakers] Aggiungi un&#39;etichetta che indica l&#39;impostazione corrente del suffisso per &quot;Corrispondenza per nome&quot;
 
 **Corretto:**
 
@@ -2614,20 +2614,20 @@ ht-degree: 0%
 * [Grafico] Le miniature non vengono visualizzate correttamente nei grafici a funzione/mdl sugli schermi ad alta risoluzione
 * [Contenuto] Colore Fusione splatter forma: nessuna opzione per specificare il formato mappa normale
 * [Contenuto] Errore ortografico nella descrizione comando dell’interpolazione lineare
-* [Content] Il Trasforma normale non gestisce correttamente la trasformazione a specchio e inclinazione
+* [Contenuto] La Trasformazione normale non gestisce correttamente la trasformazione a specchio e inclinazione
 * [Content] Le funzioni Assiale sfumatura, Radiale e Circolare non supportano le funzioni casuali
 * [Contenuto] La Sfumatura radiale non funziona correttamente in un non quadrato
 * [API] output\_esportazione.sbs deve sempre essere aggiornato quando si utilizza lo script export\_output
 * [API] Arresto anomalo dopo l’utilizzo dello script export\_output
 * [API] Impossibile impostare il valore numerico delle annotazioni sugli input del grafico di composizione
-* [Esplora risorse] arresto anomalo casuale durante il salvataggio di un progetto
+* [Explorer] Arresto anomalo casuale durante il salvataggio di un progetto
 * [Explorer] Impossibile aprire sbs con estensione maiuscola
 * [UI] Le dimensioni della finestra &quot;Nuova Substance&quot; non sono persistenti
 * [UI] Il menu di scelta rapida sull’istanza della funzione non è coerente con la composizione del grafico
 * [Baker] Arresto anomalo durante l’apertura dei baker su una trama specifica
 * [Baker] Calcolo errato per i baker DXR quando gli UV hanno un valore di ordinata 0
 * [Updater] Arresto anomalo quando si annulla il programma di aggiornamento
-* [vista 3D] Sphere primitive ha i suoi UV scostati di 1 unità
+* [Vista 3D] La sfera primitiva ha i suoi UV sfalsati di 1 unità
 * [Cooker] Dithering casuale durante la cottura di bitmap
 * [Player] I pulsanti di controllo della finestra sono piccoli
 * [Lettore] Le icone dei pulsanti non funzionano
@@ -2690,16 +2690,16 @@ ht-degree: 0%
 * [Grafico] Evita di aprire gli output nella vista 3D quando si apre un grafico in una console
 * [Grafico] L&#39;operazione Incolla nodi è lenta quando l&#39;opzione &quot;Apri nodo appena creato&quot; è abilitata
 * [Vista 3D] Asserzione quando si trascina e si rilascia una trama specifica
-* [Vista 3D] L&#39;opzione Scala UV abilitata non funziona sulla mappa dell&#39;altezza
-* [Content] Tri-Planari: Vari problemi relativi all&#39;asse e ai Trasforma
+* [Vista 3D] L’opzione Scala UV abilitata non funziona sulla mappa del height
+* [Content] Tri-Planar: Vari problemi relativi all&#39;asse e alle trasformazioni
 * [Contenuto] Pendenza scala di grigi sfocatura: uno dei campioni non dispone del metodo di fusione corretto quando si utilizza min o max
 * [Contenuto] Risultato errato sfumatura lineare 2 a bassa risoluzione
 * [API] SDPackage.findResourceFromUrl() può anche recuperare risorse che si trovano in un altro SDPackage
 * [API] SDPackage.getChildrenResources() restituisce sempre il primo elemento in modalità non ricorsiva
 * [API] [Documentazione] Gli enumeratori, gli struct che si trovano nella cartella &#39;generate&#39; non sono riportati nella documentazione
-* [UI] La larghezza del Vista 2D non deve essere vincolata
+* [UI] La larghezza della vista 2D non deve essere vincolata
 * [Sfumatura] Arresto anomalo durante il prelievo su Mac
-* [Esplora risorse] Arresto anomalo di chiusura e riapertura di un grafico
+* [Explorer] Arresto anomalo quando si chiude e si riapre un grafico
 * [Mac] Il selettore colore non funziona su più schermi
 * [Parametri] La casella di selezione sui parametri interi non funziona
 * [Cooker] Arresto anomalo durante la creazione di determinati nodi su OSX 10.13
@@ -2713,21 +2713,21 @@ ht-degree: 0%
 
 **Corretto:**
 
-* [Contenuto] Ombra forma non funziona correttamente quando l’Affiancamento è disattivato
+* [Contenuto] Ombra forma non funziona correttamente quando la suddivisione in porzioni è disattivata
 * [Contenuto] In alcuni casi, l’opzione Riempimento a scala di grigi casuale o colore non funziona correttamente
 * Il Flood Fill [Content] non è corretto in un elemento non quadrato
 * [Contenuto] Il Flood Fill a colore/scala di grigi è interrotto
 * [Content] QuadTransform è irregolare nella CPU
-* [Content] Star Shape genera un Affiancamento &quot;No Affiancamento&quot;
-* [Content] Fusione splatter forma Output del colore assoluto 32f bitdepth
-* [Contenuto] Il colore della Fusione dello splatter di forma è lungo da calcolare se il suo formato non è impostato su 32F
+* [Content] Star Shape genera un metodo di affiancatura &quot;No Tiling&quot;
+* [Contenuto] Risultato colore fusione splatter forma assoluto 32f bitdepth
+* [Contenuto] Il colore di fusione dello splatter di forma è lungo da calcolare se il suo formato non è impostato su 32F
 * [Grafico] Arresto anomalo quando si collega un’immagine come input di una mappa Fx mentre sono visualizzate le proprietà di iterazione
 * [Grafico] Gli intervalli sembrano errati durante la modifica del grafico nel contesto
-* [Grafico] arresto anomalo casuale durante il salvataggio del grafico
+* [Grafico] Arresto anomalo casuale durante il salvataggio del grafico
 * [Grafico] la modalità materiale non funziona con sbsar
-* [vista 3D] L&#39;assegnazione del materiale non viene ripristinata correttamente
-* [vista 3D] Alcune impostazioni del file di stato 3Dview non vengono caricate correttamente
-* [vista 2D] Il display Alpha visualizza sempre il nero
+* [Vista 3D] L&#39;assegnazione del materiale non viene ripristinata correttamente
+* [Vista 3D] Alcune impostazioni del file di stato 3Dview non vengono caricate correttamente
+* [Vista 2D] La visualizzazione in Alpha mostra sempre il nero
 * [vista 2D] Il pulsante Visualizza immagine in scala di grigio non funziona per le immagini con canale alfa
 * [UI] il gestore delle dipendenze si attiva all’avvio anche se non è attivato in Mac
 * [UI] Alcuni pulsanti eseguono azioni anche quando si rilascia il mouse all’esterno
@@ -2736,7 +2736,7 @@ ht-degree: 0%
 * [Grafico MDL] Lo Spostamento del nodo di anteprima è diverso da quello di 3DView
 * [Console] Le prestazioni diventano molto lente quando la console contiene molti messaggi
 * [Console] Avvisi Qt all&#39;avvio di Designer su CentOS
-* arresto anomalo [FX-Map] durante l’eliminazione dei collegamenti tra input e FX-map
+* [FX-Map] Arresto anomalo durante l’eliminazione dei collegamenti tra input e FX-map
 * [Functions] Impossibile impostare un nodo di tipo stringa come output nella risorsa funzione
 * [Preferenze] Il menu Preferenze è vuoto e l&#39;utente può modificare accidentalmente un valore durante lo scorrimento
 * Casella combinata Indice immagine di input [FX-Map] non aggiornata correttamente quando si aggiungono o si rimuovono input
@@ -2755,18 +2755,18 @@ ht-degree: 0%
 
 **Corretto:**
 
-* [Grafico] Incolla senza scelta rapida da tastiera di collegamento non funziona nel grafico di composizione
+* [Grafico] Incolla senza scelta rapida collegamento non funziona nel grafico di composizione
 * [Grafico] L&#39;annullamento della convalida è molto lungo quando è abilitata la modifica in contesto
 * [Grafico] Arresto anomalo durante il collegamento dei nodi
-* [Grafico] Arresto anomalo di ricollegamento dei nodi
-* [Grafico] Arresto anomalo di fotogrammi mobili
-* [Grafico] Arresto anomalo in cui il cambio di file UVT nel grafico e nella trama non è più udim
+* [Grafico] Arresto anomalo durante il ricollegamento dei nodi
+* [Grafico] Arresto anomalo dei fotogrammi in movimento
+* [Grafico] Arresto anomalo quando si cambia file UVT nel grafico e la trama non è più udim
 * [Grafico] Arresto anomalo quando si utilizza ctrl+z dopo aver incollato i nodi
 * [Grafico] Seleziona nodi principali è molto lento
-* [Baker] Lo spostamento delle mappe in alto/in basso consente all’utente di ridimensionare la riga
+* [Bakers] Lo spostamento delle mappe verso l’alto/il basso consente all’utente di ridimensionare la riga
 * [Baker] Il percorso per salvare o caricare il predefinito non viene mai salvato
-* [Baker] La gabbia viene utilizzata anche quando non è selezionata nella finestra di esegue i baking
-* [Baker] La correzione dell’inclinazione non funziona correttamente
+* [Panettieri] La gabbia viene utilizzata anche quando non è selezionata nella finestra di cottura
+* [Pannelli] La correzione dell&#39;inclinazione non funziona correttamente
 * [Panettieri] Prestazioni molto lente quando è visibile uno spazio UV negativo
 * [Panettieri] Facendo clic sul pulsante Annulla non si annulla il caricamento della trama
 * [Panettieri] Impossibile cuocere con una gabbia se la mappa di inclinazione è vuota e impostata su true
@@ -2795,8 +2795,8 @@ ht-degree: 0%
 * [Iray] La scena viene aggiornata quando viene modificata una luce disattivata
 * [MDL] Arresto anomalo durante l&#39;eliminazione di tutti i nodi di un modello MDL
 * [Engine] L’enorme quantità di scostamento in FX-Map può bloccare SD
-* Arresti anomali di Crashpad all’avvio
-* La variabile di ambiente Python rende Designer arresto anomalo all’avvio
+* Arresto anomalo del blocco all’avvio
+* La variabile di ambiente Python causa l’arresto anomalo di Designer all’avvio
 
 ### 8.2.0 (2018.2.0)
 
@@ -2819,7 +2819,7 @@ ht-degree: 0%
 * [Contenuto] Ottimizza il filtro Livello automatico
 * [Contenuto] Nuovo filtro Estrusione forma
 * [Content] Trasforma materiale: aggiungi supporto per mappe normali ruotate
-* [Contenuto] Nuovi filtri Rotazione vettoriale normale e Trasforma normale
+* [Content] Nuovi filtri Rotazione vettoriale normale e Trasformazione normale
 * [Contenuto] Normale: migliora la qualità dei risultati.
 * [Content] Nuovo filtro di Trasforma Trapezoid
 * [Content] Nuovo filtro Quad Trasforma
@@ -2850,18 +2850,18 @@ ht-degree: 0%
 * [Grafico] arresto anomalo quando si collega un nodo a un altro
 * [Grafico] il recupero delle variabili nella funzione di inizializzazione casuale del grafico non funziona
 * [Grafico] arresto anomalo di trascinamento del disturbo in un grafico
-* [Grafico] arresto anomalo quando si apre un grafico specifico
+* [Grafico] arresto anomalo all’apertura di un grafico specifico
 * [Contenuto] Il risultato è diverso tra Colore casuale porzione e Scala di grigi
-* [Content] Tile Random: il risultato cambia quando si modifica &quot;Simmetria modalità casuale&quot;
+* [Content] Tile Random: il risultato cambia quando si modifica la &quot;Modalità casuale simmetria&quot;
 * [Content] Il rilevamento di Edge non funziona con risoluzioni non quadrate
-* [Baker] Artefatti durante la esegue i baking di curvatura utilizzando una trama UDIM
-* [Baker] La mappa di Occlusione ambientale dalla trama viene invertita quando si utilizza una mappa normale
-* [Baker] L&#39;elenco dei set UV deve essere limitato ai set UV disponibili
-* [Esplora risorse] arresto anomalo di eliminazione delle risorse durante la esegue i baking
-* [Trasforma 2D] Arresto anomalo durante l&#39;esposizione dei parametri del livello della mappa Mip e del colore di sfondo
-* [Trasforma 2D] Comportamento errato durante l’esposizione di un Livello mipmap di Trasforma
-* L&#39;esportazione di [PSDExport] PSD non esporta correttamente la scala di grigi 32F
-* [vista 2D] Il calcolo dell’istogramma non funziona con i nodi 16F
+* [Panettieri] Artefatti durante la curvatura con una trama UDIM
+* [Panettieri] La mappa di Occlusione ambientale dalla trama viene invertita quando si utilizza una mappa normale
+* [Panettieri] L&#39;elenco dei set UV deve essere limitato ai set UV disponibili
+* [Esplora risorse] arresto anomalo durante l&#39;eliminazione di risorse durante la cottura al forno
+* [Transform2D] Arresto anomalo durante l&#39;esposizione dei parametri del livello della mappa di interpolazione e del colore di sfondo
+* [Transform2D] Comportamento errato durante l&#39;esposizione di un Livello mipmap di trasformazione
+* [PSDExport] Il modulo di esportazione di PSD non esporta correttamente la scala di grigi 32F
+* [Vista 2D] Il calcolo dell&#39;istogramma non funziona con i nodi 16F
 * [PSD] PSD collegati non funzionanti
 * [Cooker] La funzione nel parametro outputsize non viene valutata correttamente
 * [Esporta] Il percorso degli output di esportazione deve essere uguale al percorso del pacchetto
@@ -2876,8 +2876,8 @@ ht-degree: 0%
 
 **Aggiunto:**
 
-* [vista 3D] Consenti di impostare lo stato predefinito della luce nelle impostazioni del progetto
-* [Controllo versione] Rimuovi il timeout degli anni &#39;30 quando chiami gli script python
+* [Vista 3D] Consenti di impostare lo stato predefinito della luce nelle impostazioni del progetto
+* [Controllo versione] Rimuovi il timeout di 30s quando si chiamano gli script python
 
 **Corretto:**
 
@@ -2995,8 +2995,8 @@ ht-degree: 0%
 * [Grafico] A volte la funzione di ricollegamento multiplo collega un solo collegamento
 * [Grafico] Ctrl+Maiusc+D dovrebbe rimuovere solo i collegamenti esterni, non quelli interni
 * [Grafico] Il collegamento tra scala di grigi e colore non è corretto
-* [vista 3D] Impossibile impostare una risorsa come mapping env
-* [vista 3D] Lo shader informazioni trama non visualizza i risultati nello spazio cromatico corretto
+* [Vista 3D] Impossibile impostare una risorsa come mappa env
+* [Vista 3D] Lo shader delle informazioni sulla trama non visualizza i risultati nello spazio cromatico corretto
 * [Parametri] I parametri non esponibili possono essere esposti utilizzando CTRL+P
 * [Parametri] I campi di testo non vengono aggiornati correttamente in caso di annullamento/ripetizione
 * [Content] Artefatti in Grunge Mappa 003
@@ -3015,12 +3015,12 @@ ht-degree: 0%
 
 * [Content] Errori di battitura nella funzione.sbs
 * [Contenuto] Riduci l&#39;intervallo predefinito di disturbo perlin e disturbo gaussiano
-* [vista 3D] Regola l&#39;intervallo predefinito per il parametro &quot;Scala Height&quot;
+* [Vista 3D] Regola l&#39;intervallo predefinito per il parametro &quot;Scala Height&quot;
 * [AXF] Aggiorna modelli mdl
 
 **Corretto:**
 
-* [vista 3D]&#x200B;[Baker] Le normali non vengono ricalcolate se il modello non contiene normali
+* [Vista 3D]&#x200B;[Pannelli] Le normali non vengono ricalcolate se il modello non ha normali
 * [Grafico] Una volta creata l&#39;istanza, la risorsa bitmap non quadrata è vuota
 * [Content] Il rumore di Perlin dà risultati diversi tra la CPU e il motore GPU
 
@@ -3031,11 +3031,11 @@ ht-degree: 0%
 **Aggiunto:**
 
 * [Importazione AXF] Consente di specificare la modalità di filtro sulle bitmap di input
-* [vista 2D] Non modificare le proporzioni dell&#39;immagine nella Vista 2D quando la dimensioni fisiche è abilitata
+* [Vista 2D] Non modificare le proporzioni dell&#39;immagine nella vista 2D quando la dimensioni fisiche è abilitata
 
 **Corretto:**
 
-* [Libreria] arresto anomalo di attivazione/disattivazione del percorso nelle preferenze
+* [Library] arresto anomalo quando si abilita/disabilita il percorso nelle preferenze
 * [Baker] La corrispondenza per nome ignora alcune trame con nomi specifici
 * [Content] Il filtro Premult to Straight rimuove il canale alfa
 
@@ -3054,24 +3054,24 @@ ht-degree: 0%
 * [Contenuto] Mappatura forme: le funzioni casuali non possono essere utilizzate per guidare Quantità pattern, Raggio, Larghezza e così via
 * [Contenuto] Poligono 2: impossibile utilizzare funzioni casuali per aumentare la quantità dei lati
 * [Contenuto] Alcuni rumori/generatori di pattern generano avvisi nella console
-* [Content] La scala di grigi non quadrata genera una dimensione dei pixel errata
-* [Content] Il filtro a spirale non considera la modalità di Affiancamento
+* [Contenuto] La trasformazione non quadrata della scala di grigi genera una dimensione dei pixel errata
+* [Content] Il filtro a spirale non considera la modalità di suddivisione in porzioni
 * [Grafico] Il trascinamento della risorsa bitmap sul nodo di input dell&#39;immagine non funziona più
 * [Grafico] CTRL+R (ricarica) non funziona più
 * [Grafico] Problema durante l&#39;utilizzo del fotogramma in un altro fotogramma
-* [Grafico] Arresto anomalo durante lo spostamento di fotogrammi contenenti Segnaposti
-* [Grafico] L&#39;istanza &quot;Shape (Legacy)&quot; viene Trasforma in &quot;Shape&quot; al salvataggio
-* [Baker] arresto anomalo quando si utilizza una non alimentazione di 2 immagini
-* [Baker] Colore da trama: l&#39;ID poligruppo o trama secondaria restituisce sempre un&#39;immagine nera
-* [Baker] AO da trama: la distanza di occlusione è bloccata a 1 indipendentemente dal valore di input
-* [Iray] Arresto anomalo che passa a Iray
-* [Iray] Il valore Affiancamento deve influire sull&#39;intensità della scala heighScale
+* [Grafico] Arresto anomalo durante lo spostamento di fotogrammi contenenti perni
+* [Grafico] L&#39;istanza &quot;Shape (Legacy)&quot; viene trasformata in &quot;Shape&quot; al salvataggio
+* [Baker] arresto anomalo quando si utilizza un computer senza alimentazione di 2 immagini
+* [Pannelli] Colore da trama: l&#39;ID poligruppo o sottorete restituisce sempre un&#39;immagine nera
+* [Panettieri] AO da trama: la distanza di occlusione è bloccata a 1 indipendentemente dal valore di input
+* [Iray] Arresto anomalo durante il passaggio a Iray
+* [Iray] Il valore Tiling deve influire sull&#39;intensità della scala heigh
 * [Iray] Impossibile caricare IRay sul computer Windows in cui non era presente VCCOMP110.dll
-* [vista 3D]&#x200B;[Baker] Gli UV non possono essere decodificati dall&#39;oggetto esportato da Modo
-* [vista 3D] Le intensità di Spostamento non sono coerenti tra Opengl e Iray
-* [vista 3D] L’intensità dell’Occlusione Spostamento/Parallasse è il doppio di quella prevista
-* [vista 2D] offset durante la visualizzazione dell&#39;immagine alfa
-* [Cooker] Impossibile trovare il parametro Constant ($Affiancamenti) se utilizzato all’interno di un’istanza del grafico
+* [Vista 3D]&#x200B;[Pannelli] Gli UV non possono essere decodificati dall&#39;oggetto esportato da Modo
+* [Vista 3D] Le intensità di Spostamento non sono coerenti tra Opengl e Iray
+* [Vista 3D] L&#39;intensità dell&#39;Occlusione Spostamento/Parallasse è il doppio di quella prevista
+* [Vista 2D] offset durante la visualizzazione dell&#39;immagine alfa
+* [Cooker] Impossibile trovare il parametro Constant ($tiling) se utilizzato all’interno di un’istanza del grafico
 * [Cooker] Valutazione errata della variabile nelle istanze concatenate
 * [Parametri] Il percorso di risorsa PKG bitmap non deve essere modificabile
 * [Parametri] I parametri di uno stesso gruppo sono invisibili se un solo parametro ha la sua visibilità su false
@@ -3090,11 +3090,11 @@ ht-degree: 0%
 * [Content] Vari errori di battitura
 * [Content] Tile Sampler è impostato su &quot;Absolute 32 bit&quot;
 * [Contenuto] Mappatura forme: in alcuni casi, artefatti visibili sul bordo della forma
-* [Content] I parametri &quot;Non-Square Expansion&quot; e &quot;Affiancamenti Content&quot; nel poligono 1 sono interrotti
+* [Content] i parametri di affiancamento e &quot;Espansione non quadrata&quot; nel poligono 1 sono danneggiati
 * [Content] &quot;Numero casuale&quot; e &quot;Espansione non quadrata&quot; non funzionano con Disturbo anisotropo
 * [Content] Istanza &quot;Shape&quot; danneggiata in alcune mappe di Grungi
-* [vista 3D] Il ridimensionamento UV non viene applicato se la scala height è 0
-* [vista 3D] Il riflesso con il cieco shader non funziona più
+* [Vista 3D] Il ridimensionamento UV non viene applicato se la scala height è 0
+* [Vista 3D] La riflessione con il blinn dello shader non funziona più
 * [vista 2D] Il layout della finestra delle informazioni è interrotto
 * [Grafico] problema durante il controllo delle dimensioni di output con la funzione su un&#39;istanza bitmap collegata creata in un grafico
 * [Funzione] Il grafico non viene invalidato quando viene eliminato un collegamento
@@ -3104,8 +3104,8 @@ ht-degree: 0%
 * [Modelli] La mappa della posizione per i modelli di Substance Painter non è corretta
 * [AxF] height fisico errato
 * [MDL] Il ridimensionamento UVW da dimensioni fisiche è invertito nei nodi SBS MDL
-* [Baker] $custom non funziona più
-* [Preferenze] arresto anomalo all’avvio in Mac
+* [Panettieri] $custom non funziona più
+* Arresto anomalo di [Preferenze] all’avvio in Mac
 
 ### 7.2.1 (2017.2.1)
 
@@ -3138,13 +3138,13 @@ ht-degree: 0%
 * [Content] Affianca casuale / Tile Generator: aggiungi modalità simmetria (h+v, h, v)
 * Tile Generator [Content]: aggiungete più immagini
 * [Content] Rinomina &quot;Unione RGB-A&quot; in &quot;Unione Alpha&quot;
-* [vista 2D] visualizzazione dell&#39;output del nodo dello switch utilizzando il tasto C
-* [vista 2D] Ottimizzare il layout di istogramma/info in base al rapporto di visualizzazione
-* [vista 2D] Aggiungi un pulsante per attivare/disattivare la visualizzazione dell&#39;Affiancamento
+* [2D View] (Visualizzazione 2D) visualizza l&#39;output del nodo dello switch utilizzando il tasto C
+* [Vista 2D] Ottimizza il layout istogramma/info in base al rapporto di visualizzazione
+* [Vista 2D] Aggiungere un pulsante per attivare/disattivare la visualizzazione in porzioni
 * [3DView] Ottimizzare la velocità di calcolo delle armoniche sferiche
-* [vista 3D] Aggiornate gli shader PBR per utilizzare il campionamento di Fibonacci invece di Hammersley
-* [vista 3D] Aggiungi un’opzione per salvare lo stato della scena corrente come predefinito
-* [vista 3D]&#x200B;[Baker] Serializza i dati in un formato leggibile
+* [Vista 3D] Aggiornate gli shader PBR per utilizzare il campionamento di Fibonacci invece di Hammersley
+* [Vista 3D] Aggiungi un&#39;opzione per salvare lo stato della scena corrente come predefinito
+* [3D View]&#x200B;[Bakers] Serializza i dati in un formato leggibile
 * [Baker] Aggiungere predefiniti di esportazione/importazione (json)
 * [Publish] Crea l&#39;archivio sbsar come non solido
 * [Publish] Memorizza l’immagine o la miniatura del grafico nel database
@@ -3180,21 +3180,21 @@ ht-degree: 0%
 * [Grafico] Comportamento anomalo con collegamenti tra nodi
 * [Grafico] I nodi compressi si dispersione e si scollegano quando si annulla
 * [Grafico] L&#39;istanza della funzione non viene aggiornata quando viene modificato il riferimento
-* [Controlli versione] Il pacchetto viene ricaricato quando viene attivata un&#39;azione personalizzata di Controllo versione
-* [Controllo versione] Gli spazi di lavoro controlli versione disattivati sono ancora disponibili nel menu di scelta rapida di un pacchetto
-* [Controlli versione] Rimuovi azione personalizzata non rimuoverla dal menu di scelta rapida di un pacchetto
+* [Controllo versione] Il pacchetto viene ricaricato quando viene attivata un&#39;azione personalizzata di Controllo versione
+* [Controllo versione] Gli spazi di lavoro disattivati per il controllo delle versioni sono ancora disponibili nel menu di scelta rapida di un pacchetto
+* [Controllo della versione] Rimuovi azione personalizzata non rimuoverla dal menu di scelta rapida di un pacchetto
 * [Proprietà] L&#39;anteprima del parametro non viene aggiornata quando si utilizza il gizmo
 * [Iray] Problema di visualizzazione del tempo massimo
 * [Iray] Problema di opzione Pausa
 * [Baker] arresto anomalo quando si esegue i baking Converti UV in SVG utilizzando la traduzione coreano/giapponese
-* [Baker] la modifica del tracciato dopo una prima esegue i baking non funziona
+* [Panettieri] cambiare il percorso dopo una prima cottura non funziona
 * [Esportazione PSD] problema di annullamento
 * La cartella [PSD] e i livelli sono bloccati in Photoshop CS5
 * [UI] il cursore colore è sempre impostato sul bianco quando viene creato il nodo di colore uniforme
 * [UI] Se apri una scheda esistente, dovrebbe visualizzarla invece di duplicarla.
 * [Predefiniti] arresto anomalo quando si modifica il tipo di parametro utilizzato in un predefinito
 * [vista 3D] i campionatori con lo stesso utilizzo vengono uniti
-* [vista 2D] Le informazioni sui pixel non funzionano per le immagini la cui risoluzione non è una potenza di 2
+* [Vista 2D] Le informazioni sui pixel non funzionano per le immagini la cui risoluzione non è una potenza di 2
 * Problema [Libreria] durante la ridenominazione dei filtri
 * [Data] Correggere vari errori di battitura nei file SBS
 * Nodo di livello [Parameters] - problema di precisione a livello automatico
@@ -3435,10 +3435,10 @@ ht-degree: 0%
 * [MDL] Nessun avviso tra nodi in conflitto
 * [MDL] Messaggi di avviso inutili durante l&#39;esportazione
 * [Curva] L’esposizione dei parametri di indirizzamento non deve essere esposta
-* [Engine] Arresto anomalo che importa un file sbsar contenente una bitmap HDR
+* [Engine] Arresto anomalo durante l’importazione di un file sbsar che contiene una bitmap HDR
 * [Nodo di testo] La specifica del font genera un file XML non valido
 * [Editore sfumatura] I valori non vengono bloccati correttamente
-* [vista 3D] Arresto anomalo quando si utilizza un HDRi personalizzato (ad alta risoluzione) come ambiente
+* [Vista 3D] Arresto anomalo quando si utilizza un HDRi personalizzato (ad alta risoluzione) come ambiente
 
 ### 6.0.1
 
@@ -3446,34 +3446,34 @@ ht-degree: 0%
 
 **Aggiunto:**
 
-* [Baker] Miglioramento della gestione delle attività in corso
-* [Baker] Modifica la descrizione comando di errore quando non è selezionata alcuna trama
+* [Bakers] Miglioramento della gestione delle attività in corso
+* [Pannelli] Modifica la descrizione comandi di errore quando non è selezionata alcuna trama
 * [Proprietà] I parametri degli effetti Post di DView devono essere disattivati quando &quot;Post-elaborazione&quot; è disattivato in Preferenze
 * [Licenza] Consenti di specificare un percorso personalizzato per la licenza del Substance Designer 6
 * [Sfumatura] Disattiva il cursore &quot;precisione&quot; se non è stato effettuato alcun selettore sfumatura
 * [Cooker] Ignora risorsa mancante nell&#39;input dell&#39;immagine per evitare problemi di cottura
-* [vista 3D] Cambiare la gestione delle perdite dovute ai riflessi degli specular
+* [Vista 3D] Modificare la gestione delle perdite di riflessi di specular
 * [Grafico] Aggiungere altri parametri per la compatibilità del motore v6
 
 **Corretto:**
 
-* [Baker] La Mappa normale dalla trama (spazio mondo) viene capovolta sull’asse Y
-* [Baker] Se si Esegue i baking una trama senza UV, viene restituito un errore
-* [Baker] La media normale non funziona
-* [Baker] arresti anomali SD quando si esegue i baking AO con una trama specifica
-* [Baker] Il formato di output non viene ripristinato correttamente
+* [Bakers] La mappa normale dalla trama (spazio mondo) viene capovolta sull&#39;asse Y
+* [Panettieri] La cottura di una trama senza UV non segnala errori
+* [Panettieri] La media normale non funziona
+* [Bakers] SD si arresta in modo anomalo quando si esegue la cottura di AO con una trama specifica
+* [Bakers] Il formato di output non viene ripristinato correttamente
 * [Text] il font personalizzato non funziona nel lettore
 * [Text] Avviso di font non valido quando riapri un pacchetto con font nelle risorse
 * [Text] L&#39;input di testo non funziona in modalità di anteprima
 * [Text] È possibile esporre il parametro Font
 * [Text] blocco/arresto anomalo durante la creazione di una funzione nel parametro text
-* [Text] Arresti anomali quando si espongono le dimensioni del font
-* [vista 2D] La percentuale di zoom non viene visualizzata correttamente quando si utilizza il tasto &quot;F&quot;
-* [vista 2D] L’immagine viene spostata quando si cambia la dimensione
+* [Text] Si arresta in modo anomalo quando si espongono le dimensioni del font
+* [Vista 2D] La percentuale di zoom non viene visualizzata correttamente quando si utilizza il tasto &quot;F&quot;
+* [Vista 2D] L&#39;immagine viene spostata quando si cambia la dimensione
 * [vista 2D] Discontinuità durante la visualizzazione dell&#39;Affiancamento
-* [vista 2D] Il guizmo di trasformazione non è visibile/modificabile in modalità di anteprima
-* [vista 3D] Dimensioni fisiche non presa in considerazione da PBR Parralax shader
-* [vista 3D] L&#39;impostazione della frequenza di aggiornamento non viene ripristinata correttamente da una sessione all&#39;altra
+* [Vista 2D] Il guizmo di trasformazione non è visibile/modificabile in modalità di anteprima
+* [Vista 3D] Dimensioni fisiche non presa in considerazione dallo shader PBR Parralax
+* [Vista 3D] L&#39;impostazione della frequenza di aggiornamento non viene ripristinata correttamente da una sessione all&#39;altra
 * [Graph] multiangle\_to\_normal impedisce la pubblicazione
 * [Grafico] La dimensione dell&#39;output del filtro di attivazione è bloccata
 * [Graph]Impossibile creare un&#39;istanza dei file .sbsar
@@ -3481,10 +3481,10 @@ ht-degree: 0%
 * [Curva] I numeri sono leggermente ritagliati
 * [Curva] Il widget scompare quando la barra degli strumenti viene ridimensionata
 * [Contenuto] Il nodo del bagliore è interrotto
-* [Content] Affianca Sampler: i pattern sono invisibili se l&#39;Affiancamento è disattivato
+* [Contenuto] Affianca Sampler: i pattern sono invisibili se l&#39;affiancatura è disattivata
 * [Content] MG Mask Builder - Parametri di contrasto curvatura invertiti
 * [Content] Color Equalizer: parametri personalizzati del gruppo\_color\_variation non connessi
-* [Contenuto] Clona /Clone patch: l’area della patch non è visibile se posizionata negli angoli
+* [Contenuto] Toppa clone: area della patch non visibile quando posizionata negli angoli
 * [Explorer] Il ricaricamento di un pacchetto mentre è aperta la relativa dipendenza interrompe il pacchetto di dipendenze
 * [Explorer] Impossibile importare una risorsa PSD a 32 bit
 * [Publish] errore di cottura (ERR:No ereditarietà (assoluta))
@@ -3547,27 +3547,27 @@ ht-degree: 0%
 * [Grafico] Lo spostamento di nodi mentre è selezionato un punto di divisione consente di ricalcolare i nodi
 * [Grafico] I punti divisi non supportano l’opzione &quot;Annulla&quot;
 * [Grafico] descrizione vuota visualizzata quando la descrizione del grafico contiene caratteri non stampabili
-* [Grafico MDL] Arresto anomalo quando il nodo corrente visualizzato nella visualizzazione delle proprietà viene eliminato
-* [Grafico MDL] Il grafico MDL che utilizza la funzione di costruzione material() come root non viene renderizzato correttamente nella vista 3D
+* [Grafico MDL] Arresto anomalo di eliminazione del nodo corrente visualizzato nella visualizzazione delle proprietà
+* [Grafico MDL] Il grafico MDL che utilizza la funzione di costruzione material() come radice non viene renderizzato correttamente nel vista 3D
 * [MDL] Impossibile esportare il modulo MDL quando si utilizza l&#39;operatore condizionale con il parametro di esposizione booleano uniforme
 * [MDL] Arresto anomalo durante il caricamento di un modello di grafico MDL due volte
 * [Archivio MDL] I materiali che utilizzano una texture non vengono gestiti correttamente
-* [Vista 3D] Il materiale IRay non viene modificato quando cambia il nodo principale di MDLGraph
-* [Vista 3D] arresto casuale quando si chiude la Vista 3D mentre è in corso il caricamento di una trama
-* [Vista 3D] Yebis non viene riattivato dopo il salvataggio del rendering
-* [Vista 3D] File PSD non valido generato durante il salvataggio del risultato di rendering di una scena iray
-* [Vista 3D] la luce 1 del punto non si illumina
-* [UI] L&#39;area di rilevamento delle caselle di controllo è troppo ampia nei parametri &quot;Pannelli da trama&quot;
-* [UI] Problema estetico nei parametri &quot;Bakers from Mesh&quot;
+* [vista 3D] Il materiale IRay non viene modificato quando cambia il nodo radice di MDLGraph
+* [vista 3D] arresto anomalo casuale durante la chiusura del vista 3D mentre è in corso il caricamento di una trama
+* [vista 3D] Yebis non viene riattivato dopo il salvataggio del rendering
+* [vista 3D] File PSD non valido generato durante il salvataggio del risultato di rendering di una scena iray
+* [vista 3D] la luce 1 del punto non si illumina
+* [UI] L’area di rilevamento delle caselle di controllo è troppo ampia nei parametri &quot;Baker da trama&quot;
+* [UI] Problema estetico nei parametri &quot;Baker da trama&quot;
 * [Mac] L’apertura di SD con doppio clic su un file sbs non invia l’output alla vista 3d
 * [Mac] [Iray] Il rendering del cluster Photoreal non funziona su MacOS
-* [Engine] Atan2(0, 0) provoca l&#39;arresto del motore
+* [Engine] Atan2(0, 0) rende il motore arresto anomalo
 * [Engine] Problema critico di sincronizzazione
-* [Panettieri] Impossibile disattivare la normalizzazione automatica per il panettiere di Height
+* [Baker] Impossibile disabilitare la normalizzazione automatica per il baker di Height
 * [Parametri] quando si converte la scala di grigi in rgba, il valore di alfa deve essere 255
 * [Funzioni] È possibile impostare una funzione come nodo di output anche se non compatibile
 * [Esporta] Dipendenze non valide dopo l&#39;esportazione di un pacchetto con risorse PSD
-* [Console] Se si cancella la console, SD si arresta in modo anomalo
+* [Console] Se si cancella la console, viene generato l&#39;arresto anomalo SD
 
 ## Versione 5
 
@@ -3623,8 +3623,8 @@ ht-degree: 0%
 * [Grafico MDL] i collegamenti per la risorsa mancante non vengono eliminati nel grafico MDL
 * [Library] La creazione di un nuovo filtro crea due condizioni di base
 * [Library] Folders non filtra più il contenuto della libreria
-* [Panettieri] Barra di avanzamento continua
-* [Panettieri] Una risorsa gabbia inesistente impedisce di cuocere
+* [Baker] Barra di avanzamento continua
+* [Baker] Una risorsa gabbia inesistente impedisce di eseguire i baking
 * [Contenuto] Vari errori in &quot;Functions.sbs&quot;
 * [Esporta] Il formato del file è sempre reimpostato su png
 * [UI] Problema di ridimensionamento dell’interfaccia utente di Substance Designer
@@ -3654,7 +3654,7 @@ ht-degree: 0%
 * [MDL] Supporto per trascinamento del grafico SBSAR
 * [IRay] aggiornamento a SDK 2016.1.6 (261500.16187)
 * [sbsrender] Ottimizza la gestione della memoria del sbsrender in base alle prestazioni del lettore
-* [Vista 3D] Consente di ridurre le dimensioni del widget rispetto alla barra dei menu superiore
+* [vista 3D] Consente di ridurre le dimensioni del widget rispetto alla barra dei menu superiore
 * [Console] Consenti di copiare alcune righe negli Appunti
 
 **Corretto:**
@@ -3662,16 +3662,16 @@ ht-degree: 0%
 * [Player] Arresto anomalo durante la riproduzione di un pacchetto direttamente in Designer tramite il pulsante di riproduzione
 * File nvcuvid.dll mancante nella visualizzazione popup [Avvio]
 * [Inizializzazione ambiente] quando si fa doppio clic su un file .sbs, questo non viene caricato in SD
-* [Esportazione] Esportazione con dipendenze in arresto anomalo
+* [Esporta] arresto anomalo Esporta con dipendenze
 * [MDL] Problema di sincronizzazione tra un grafico e la relativa istanza
-* [MDL] I nodi dell&#39;istanza sbsar stanno eseguendo l&#39;output della texture\_return anziché dei valori
-* [Vista 3D IRay] Nel modulo di rendering Iray il &quot;Canale di Height&quot; non viene aggiornato correttamente quando si cambia la mappa del height
+* [MDL] I nodi dell&#39;istanza sbsar stanno eseguendo l&#39;output di texture\_return anziché di valori
+* [vista 3D IRay] Nel modulo di rendering Iray il &quot;Canale Height&quot; non viene aggiornato correttamente quando si modifica la mappa dell&#39;altezza
 * [vista 3D IRay disancorato] &quot;Fotocamera>Salva rendering&quot; non funziona dopo aver nascosto l&#39;app nella barra delle applicazioni di Windows
 * [Mac IRay] GPU NVIDIA non più rilevata da IRay
-* [Panettieri] Arresto anomalo della texture trasferita dalla trama durante la cottura di texture non PENTOLA
+* [Baker] Arresto anomalo Texture trasferita da trama quando si eseguono i baking texture non POT
 * [Arresto anomalo] Arresto anomalo durante l’esportazione di un grafico su un Substance share
-* [Grafico] Arresto anomalo quando si seleziona un’istanza fantasma
-* [Vista 3D] Impossibile spostare (Zoom in o Zoom out) la videocamera ortogonale in modalità Iray
+* [Grafico] Arresto anomalo durante la selezione di un&#39;istanza fantasma
+* [vista 3D] Impossibile spostare (Zoom in o Zoom out) la fotocamera ortografica in modalità Iray
 * [UI] Il selettore colore non gestisce la visualizzazione ad alto valore DPI
 * [Graph] (MacOS 10.11.06) Calcolo infinito con nodo di fusione multimateriale
 * [Grafico] Copia/Incolla il contenuto del grafico ==> incolla nel contenuto e anche un riferimento a quel grafico
@@ -3691,24 +3691,24 @@ ht-degree: 0%
 
 **Corretto:**
 
-* [MDL] La vista in vista 3D non funziona correttamente la prima volta
+* [MDL] La vista in Vista 3D non funziona correttamente la prima volta
 * [MDL] la sfumatura\_interpolation\_linear non viene esportata con il percorso completo
-* [MDL] l&#39;angolo inferiore destro del fotogramma appena creato è esattamente allineato al nodo correlato
+* [MDL] il riquadro in basso a destra appena creato è esattamente allineato al nodo correlato
 * [MDL] In alcuni casi la miniatura del materiale principale non viene aggiornata
 * [MDL] Arresto anomalo quando si eliminano e si ripristinano tutti i nodi
 * [MDL] Prestazioni lente nel grafico rispetto al Grafico Substance
 * [MDL] Impossibile esportare il modulo MDL a causa del parametro IOR
 * [MDL] I parametri visualizzati non corrispondono al nodo selezionato
-* [vista 3D] Il materiale MDL proveniente da un grafico MDL non viene reimpostato quando viene eliminato il nodo principale
-* [vista 3D] L’inquadratura predefinita della fotocamera viene persa dopo aver caricato la trama di fbx
-* [vista 3D] L&#39;assegnazione della Texture non viene mantenuta quando si passa a Iray
+* [Vista 3D] Il materiale MDL proveniente da un grafico MDL non viene reimpostato quando viene eliminato il nodo principale
+* [Vista 3D] L’inquadratura predefinita della fotocamera viene persa dopo aver caricato la trama fbx
+* [Vista 3D] L&#39;assegnazione della texture non viene mantenuta quando si passa a Iray
 * [Iray] Messaggio di avviso da IRay durante lo spostamento della fotocamera
-* arresto anomalo [Iray] quando si passa a Iray
+* [Iray] Arresto anomalo quando si passa a Iray
 * [Iray] Password VCA non salvata
 * [Grafico] Arresto anomalo durante l&#39;eliminazione dei nodi
 * [Grafico] Premere CTRL per copiare il collegamento non funziona con la modalità Materiale
 * [Grafico] Arresto anomalo durante l&#39;eliminazione del nodo di output in un materiale del nodo di istanza
-* [Baker]&#x200B;[vista 3D] Impossibile caricare la trama ad alta definizione
+* [Pannelli]&#x200B;[Vista 3D] Impossibile caricare la trama ad alta definizione
 * [Mac]&#x200B;[Vista 3D] Arresto anomalo quando si tenta di ripristinare le finestre scollegate sul monitor secondario
 * [Parametri] Impossibile modificare un valore in uno spinboxedit senza rimuovere il suffisso
 * [UI] Usa &quot;Annulla&quot; quando si chiude SD dovrebbe interrompere la finestra di messaggio
@@ -3747,21 +3747,21 @@ ht-degree: 0%
 * [Grafico] Deselezionando dovrebbe anche essere selezionato un nodo sotto il mouse
 * [Grafico] L&#39;inserimento del nodo non si connette a tutti i collegamenti
 * [Baker] Diffusione errata nel baker di curvatura
-* [Baker] arresti anomali &quot;Texture trasferita da trama&quot; se la trama ad alta definizione non ha UV
+* [Bakers] &quot;Texture trasferita da trama&quot; si arresta in modo anomalo se la trama ad alta definizione non ha UV
 * [UI] L’icona della funzione nei parametri non viene modificata quando viene definita una funzione
 * [UI] Suggerimenti per i parametri tagliati
-* [vista 3D] più di 1000 luci nella scena
-* [vista 3D] GLSL Lambert shader non gestisce correttamente la texture srgb
+* [Vista 3D] nella scena sono visualizzate più di 1000 luci
+* [Vista 3D] Lo shader Lambert GLSL non gestisce correttamente la texture srgb
 * [vista 3D] Parametri Affiancamenti mancanti quando si collegano le sostanze nell&#39;Iray
 * [Iray] L’esportazione dei predefiniti di mdl non funziona quando gli spazi nel nome
 * [Iray] I parametri di suddivisione non sono presi in considerazione
-* [Parameters] L&#39;identificatore di parametro non viene più visualizzato
-* [Parametri] Arresto anomalo quando si modifica l&#39;URL della risorsa da &quot;Da risorsa...&quot; azione
+* [Parametri] L&#39;identificatore del parametro non è più visualizzato
+* [Parametri] Arresto anomalo quando si modifica l’URL della risorsa da &quot;Da risorsa...&quot; azione
 * [Parametri] Conversione errata di &amp; character
 * [Explorer] Quando si fa doppio clic su un grafico &quot;grande&quot;, spesso non si apre nella vista del grafico
 * [Explorer] I SVG incorporati risultano mancanti in Esplora risorse
 * [Explorer] Arresto anomalo durante la ridenominazione di un elemento con il carattere &quot;&amp;&quot;
-* [Contenuto] L&#39;Affiancamento della sfumatura 1 è errato quando si utilizza la rotazione a 90/180°
+* [Contenuto] L&#39;affiancamento della sfumatura 1 è errato quando si utilizza la rotazione a 90/180°
 * [Perforce] L’integrazione non sembra funzionare se l’area di lavoro si trova nella directory principale dell’HDD
 * [Data] UID generato per i nodi non univoco
 * [Preferenze] L&#39;aggiunta di un alias che ha come destinazione la directory principale del disco rigido comporta la modifica dei percorsi in sbsprj
@@ -3802,20 +3802,20 @@ ht-degree: 0%
 
 * [Vista 2D] Opzione di menu di scelta rapida Trasformazione 2D disponibile su qualsiasi nodo
 * [Vista 2D] trasformazione 2d gizmo ancora modificabile dopo l&#39;eliminazione del nodo di trasformazione
-* [vista 3D] Il percorso dell&#39;ambiente non deve essere visualizzato in Parametri ambiente
-* [vista 3D] I parametri degli Effetti post non vengono salvati nelle risorse 3D
-* [vista 3D] Il menu della barra degli strumenti non si comporta come un menu normale
+* [Vista 3D] Il percorso dell&#39;ambiente non deve essere visualizzato in Parametri ambiente
+* [Vista 3D] I parametri degli effetti post non vengono salvati nelle risorse 3D
+* [Vista 3D] Il menu della barra degli strumenti non si comporta come un menu normale
 * [Preferenze] Impossibile impostare il &quot;Limite cache motore&quot; su un valore superiore a 4095
 * [Preferenze] L’impostazione di uno shader predefinito non viene considerata
 * [Iray] I parametri del colore non vengono recuperati correttamente
 * [Iray] I colori dei materiali MDL vengono reimpostati
 * [Iray] Le bitmap non vengono esportate insieme al predefinito MDL
-* [IRay/Mac] Il ridimensionamento delle vista 3D rende arresto anomalo la workstation Mac
+* [IRay/Mac] Il ridimensionamento della vista 3D provoca l&#39;arresto anomalo della workstation Mac
 * Il documento [Graph] PSD non viene esportato
 * [Grafico] Dimensione del nodo visualizzata non corretta
 * [Grafico a funzioni] L&#39;immagine di input del nodo di esempio non è modificabile se è collegata una sola immagine
 * [Engine] Arresto anomalo durante l&#39;elaborazione del grafico Fxmap
-* [Engine OGL] Errore nella generazione dell&#39;elaboratore pixel
+* [Engine OGL] Errore nella generazione del processore pixel
 * [Sfumatura] Il selettore sfumatura non funziona sul Mac
 * [PSD] Immagine a 8 bit non convertita correttamente in 16 bit
 * [Parametri] Il widget Istogramma livello non ha lo stesso height nel colore e nella scala di grigi
@@ -3831,8 +3831,8 @@ ht-degree: 0%
 * [Iray] tangente/binormale non sono presi correttamente in considerazione
 * [Explorer] Il pacchetto è contrassegnato come salvato subito dopo l&#39;apertura
 * [vista 3D] Il riflesso della Diffusa IBL è troppo forte
-* [vista 3D] Arresto anomalo quando si trascina un&#39;immagine a 8 bit da explorer a vista 3D
-* Arresti anomali di applicazioni dal 1° gennaio 2016
+* [Vista 3D] Arresto anomalo durante il trascinamento di un&#39;immagine a 8 bit da Esplora risorse a Vista 3D
+* L’applicazione si blocca dal 1° gennaio 2016
 
 ### 5.3.3
 
@@ -3846,9 +3846,9 @@ ht-degree: 0%
 **Corretto:**
 
 * Arresto anomalo durante la creazione di una nuova Substance in alcune situazioni
-* [Baker] Arresto anomalo in cui le mappe con baking aggiornano il grafico
-* [Baker] L’OBJ proveniente da zbrush deve utilizzare il nome file per Corrispondenza per nome
-* [Parametri] Arresto anomalo quando si esegue Annulla/Ripeti/Annulla nel grafico delle funzioni
+* [Bakers] Arresto anomalo quando la mappa con baking aggiorna il grafico
+* [Bakers] L&#39;OBJ proveniente da zbrush deve utilizzare il nome file per Corrispondenza per nome
+* [Parameters] Arresto anomalo durante l&#39;esecuzione di Annulla/Ripeti/Annulla nel grafico delle funzioni
 * [Grafico] I punti di divisione non vengono incollati nella posizione corretta
 
 ### 5.3.2
@@ -3862,17 +3862,17 @@ ht-degree: 0%
 **Corretto:**
 
 * [vista 3D] Punto di interesse non inizializzato correttamente
-* [vista 3D] Piano della clip remota errato quando si cambia più volte le risorse della trama 3D
-* [vista 3D] Breve artefatto di rendering durante il caricamento di una trama
-* [vista 3D] La mappa dell&#39;ambiente è nera quando non è possibile trovare il file -> fallback all&#39;envmap predefinita
-* [vista 3D] Arresto anomalo dopo l&#39;utilizzo di un&#39;immagine personalizzata di latitudine e longitudine
-* [vista 3D] Arresto anomalo durante il caricamento di un file obj specifico
-* [vista 3D] il caricamento automatico della trama non funziona correttamente
+* [Vista 3D] Piano della clip distante errato quando si cambia più volte le risorse della trama 3D
+* [Vista 3D] Breve artefatto di rendering durante il caricamento di una trama
+* [Vista 3D] La mappa dell&#39;ambiente è nera quando non è possibile trovare il file -> fallback all&#39;envmap predefinita
+* [Vista 3D] Arresto anomalo dopo l’utilizzo di un’immagine personalizzata per la latitudine e la longitudine
+* [Vista 3D] Arresto anomalo durante il caricamento di un file obj specifico
+* [Vista 3D] il caricamento automatico della trama non funziona correttamente
 * [Iray] Impossibile assegnare la texture su un mdl esterno
 * [Iray] Impossibile assegnare texture al canale di anisotropia dopo il ripristino del materiale
 * [UI] Viene visualizzato il menu di scelta rapida di Windows quando viene rilasciato il pulsante destro del mouse dopo lo spostamento in 3DView
-* [vista 2D] Lo strumento Info non restituisce il valore del colore del pixel sotto il cursore
-* [Baker] Le immagini in scala di grigio vengono salvate come indicizzate con il formato tga
+* [Vista 2D] Lo strumento Informazioni non restituisce il valore del colore del pixel sotto il cursore
+* [Pannelli] Le immagini in scala di grigio vengono salvate come indicizzate con il formato tga
 * [Grafico] Visualizza output in vista 3D dovrebbe reimpostare i canali prima di inviare gli output in vista 3D
 * [Parameters] Il nome di input del parametro è vuoto quando viene esposto da &quot;Exposé node parameters&quot;
 * [Prestazioni] Impostare il callback onSubstanceCallbackProfileEvent sul motore SOLO se gli intervalli sono abilitati
@@ -3883,55 +3883,55 @@ ht-degree: 0%
 
 **Aggiunto:**
 
-* [vista 3D] Visualizza il nome della trama nella scena/modifica invece di &quot;Entità&quot;
-* [vista 3D] Ripristina il colore predefinito quando viene aperto un nuovo vista 3D
-* [vista 3D] Messa a fuoco della telecamera quando si passa da scena a primitiva
-* [vista 3D] Visualizza la risoluzione della finestra della vista di rendering quando viene utilizzata una risoluzione personalizzata
+* [Vista 3D] Visualizza il nome della trama nella scena/modifica invece di &quot;Entità&quot;
+* [Vista 3D] Ripristina il colore predefinito quando viene aperta una nuova vista 3D
+* [Vista 3D] Messa a fuoco della fotocamera quando si passa da scena a primitiva
+* [Vista 3D] Visualizza la risoluzione della finestra della vista di rendering quando si utilizza la risoluzione personalizzata
 * [Iray] Regola presentazione dei parametri di suddivisione
 * [Iray] Trasmette le informazioni di log IRay al log SD
-* [Baker] Leggi correttamente i file OBJ per rendere compatibile la corrispondenza per nome
+* [Bakers] Leggi correttamente i file OBJ per rendere compatibile la corrispondenza per nome
 
 **Corretto:**
 
-* [vista 3D] Visualizzazione errata di maglie con una scala diversa da 1,0
-* [vista 3D] Il calcolo automatico del piano vicino alla clip non funziona bene per gli oggetti grandi
-* [vista 3D] La modalità Wireframe visualizza fili troppo spessi
-* [vista 3D] La finestra Salva rendering non viene visualizzata se gli effetti post sono disattivati
-* [vista 3D] Arresto anomalo quando si cambia geometria
-* [vista 3D] Messaggio &quot;QOpenGLWidget: Impossibile rendere corrente il widget non inizializzato&quot; nel registro
-* [vista 3D] L&#39;illuminazione non viene calcolata se la mappa dell&#39;ambiente viene modificata mentre Iray è in esecuzione
+* [Vista 3D] Visualizzazione errata di trame con una scala diversa da 1.0
+* [Vista 3D] Il calcolo automatico del piano vicino alla clip non funziona bene per gli oggetti grandi
+* [Vista 3D] La modalità Wireframe visualizza fili troppo spessi
+* [Vista 3D] La finestra Salva rendering non viene visualizzata se gli effetti post sono disattivati
+* [Vista 3D] Arresto anomalo quando si cambia geometria
+* [Vista 3D] Messaggio &quot;QOpenGLWidget: Cannot make uninitialized widget current&quot; nel registro
+* [Vista 3D] L&#39;illuminazione non viene calcolata se la mappa dell&#39;ambiente viene modificata mentre Iray è in esecuzione
 * [vista 3D] Arresto anomalo durante la visualizzazione della trama 3d
-* [vista 3D] Prestazioni OpenGL molto cattive dopo aver utilizzato Iray
+* [Vista 3D] Prestazioni OpenGL molto cattive dopo aver utilizzato Iray
 * [vista 3D] I piani di clipping non vengono calcolati correttamente
-* [vista 3D] La modifica della mappa dell&#39;ambiente non aggiorna la vista 3D
-* [vista 3D] Le Texture non vengono aggiornate al cambio del grafico
-* [vista 3D] I campionatori GLSLFX nascosti sono ancora visualizzati nel menu di selezione
+* [Vista 3D] La modifica della mappa dell&#39;ambiente non aggiorna la vista 3D
+* [Vista 3D] Le texture non vengono aggiornate al cambio del grafico
+* [Vista 3D] I campionatori GLSLFX nascosti sono ancora visualizzati nel menu di selezione
 * [vista 3D] Materiale non ripristinato correttamente all&#39;apertura della risorsa mesh
-* [vista 3D] Perdita di memoria RAM/VRAM quando si aprono varie trame e si assegnano più grafici su di esse
-* [vista 3D] Focus non tiene conto della lunghezza focale
+* [Vista 3D] Perdita di memoria RAM/VRAM quando si aprono varie trame e si assegnano più grafici su di esse
+* [Vista 3D] L&#39;attivazione non tiene conto della lunghezza focale
 * [Iray] nvcuvid.dll mancante (disinstallare la versione precedente per eliminare il messaggio)
 * [Iray] Il pulsante &quot;...&quot; della finestra di dialogo Esportazione predefiniti non apre la finestra di dialogo
 * [Iray] La rifrazione/dispersione non funziona correttamente in specular\_diffuso\
 * [Iray] Impossibile trovare il mdl predefinito (colore magenta)
-* [Iray] Non inserire texture predefinite al materiale mdl per attivare la modalità valore in Modifica materiale
+* [Iray] Non collegate le texture predefinite al materiale mdl per attivare la modalità valore in Modifica materiale
 * [Iray] Descale non viene attivato quando si aggiorna una texture
-* [Baker] Il baker normale Worldspace esegue il rendering di un’immagine nera
-* [Baker] Arresto anomalo quando si esegue i baking una mappa normale con la vista 3d non ancorata
-* [Baker] Se si Esegue i baking con il metodo &quot;Embedded&quot; mentre è impostato un percorso non valido per &quot;link&quot;, non è possibile salvare la risorsa.
-* [Baker] Se si Esegue i baking con il metodo &quot;Embedded&quot; e si cambia il formato del file, l’estensione del disco non cambia.
-* [Baker] I nomi casuali per le risorse incorporate hanno tutti un nome XXX..
-* [Baker] Più oggetti in .obj non vengono importati correttamente
-* [Contenuto] Fusione materiale: l&#39;output del colore di base non viene nascosto quando il canale è disattivato
+* [Panettieri] Worldspace fornaio normale rende un&#39;immagine nera
+* [Bakers] Arresto anomalo durante la cottura di una mappa normale con vista 3D non ancorata
+* [Bakers] Il funzionamento in baking con il metodo &quot;Embedded&quot; mentre è impostato un percorso non valido per &quot;link&quot; impedisce il salvataggio della risorsa
+* [Baker] Il funzionamento in baking con il metodo &quot;Embedded&quot; e la modifica del formato del file non modifica l&#39;estensione sul disco
+* [Bakers] I nomi casuali per le risorse incorporate hanno tutti un nome XXX..
+* [Pannelli] Più oggetti in .obj non vengono importati correttamente
+* [Content] Fusione materiale: l&#39;output del colore di base non viene nascosto quando il canale è disattivato
 * [Contenuto] Bianco\_disturbo e derivati non vengono riprodotti correttamente in 8k
 * [Grafico] Prestazioni lente nel grafico
-* [Grafico] Arresto anomalo in cui si trascina un elemento di funzione dalla libreria al grafico delle funzioni
+* [Grafico] Arresto anomalo quando si trascina un elemento di funzione dalla libreria al grafico delle funzioni
 * [Grafico] &quot;Visualizza output nella vista 3D&quot; dovrebbe inviare solo l&#39;output visibile del nodo nella vista 3D
-* [Preferenze] L’utente predefinito\_project ha un &quot;Suffisso nome&quot; vuoto per la funzione di baker Corrispondenza per nome
+* [Preferenze] L’utente predefinito\_project ha un &quot;Suffisso nome&quot; vuoto per la funzione di aggiunta nome
 * [Engine] La conversione a colori -> in scala di grigi produce perdita di precisione
 * [Console] Console/Log è inquinato da molti messaggi
 * [Condividi] Arresto anomalo quando si tenta di condividere un pacchetto
 * [UI] La descrizione è bloccata sopra il menu File recenti
-* Arresto anomalo all&#39;uscita
+* Arresto anomalo all’uscita
 
 ### 5.3.0
 
@@ -3940,23 +3940,23 @@ ht-degree: 0%
 <b>Aggiunto:</b>
 
 * [vista 3D] Aggiungere il modulo di rendering Nvidia Iray
-* [vista 3D] Ruotare l&#39;ambiente utilizzando CTRL+MAIUSC+RMB
-* [vista 3D] Esegui il rendering della finestra della vista 3D a una risoluzione personalizzata (Ogl / Iray)
+* [Vista 3D] Ruota l&#39;ambiente utilizzando CTRL+MAIUSC+RMB
+* [Vista 3D] Esegui il rendering della vista 3D a una risoluzione personalizzata (Ogl / Iray)
 * [vista 3D] Rendi asincrono il caricamento della scena
-* [vista 3D] Visualizzare la scena globale nel Visualizzatore scene
-* [vista 3D] Disattiva la griglia per impostazione predefinita
-* [vista 3D] Aggiungi attenuazione distanza quadrata inversa per luci di posizione
-* [vista 3D] Visualizza il parametro del colore in RGB anziché in RGBA
-* [vista 3D] Impostazioni Luci/Videocamera/Ambiente separate
+* [Vista 3D] Visualizza la scena globale nel Visualizzatore scene
+* [Vista 3D] Disattiva la griglia per impostazione predefinita
+* [Vista 3D] Aggiungi attenuazione distanza quadrata inversa per luci di punti
+* [Vista 3D] Visualizza il parametro del colore in RGB anziché in RGBA
+* [Vista 3D] Impostazioni Luci/Videocamera/Ambiente separate
 * [Condividi] Miglioramenti per la finestra di caricamento del Substance share
 
 <b>Corretto:</b>
 
-* [vista 3D] Errore nella normalizzazione degli shader PBR
-* [vista 3D] Arresto anomalo in cui si fa clic con il pulsante destro del mouse sulla cartella principale nell&#39;elenco scene
-* [vista 3D] Ombreggiatori PBR: risparmio energetico e luci di posizione diffuse e specifiche
-* [vista 3D] Rendi &quot;Materiale/Ripristina&quot; anche ripristinando i canali al colore predefinito
-* [Baker] Posizione con normalizzazione Bsphere non centrata
+* [Vista 3D] Errore nella normalizzazione degli shader PBR
+* [Vista 3D] Arresto anomalo quando si fa clic con il pulsante destro del mouse sulla cartella principale nell&#39;elenco scene
+* [3D View] Ombreggiatori PBR: risparmio energetico e punti di interesse diffusi rispetto alle specifiche
+* [Vista 3D] Rendi &quot;Materiale/Ripristina&quot; anche ripristinando i canali al colore predefinito
+* [Panettieri] Posizione con normalizzazione sfera non centrata
 * [UI] Stato mobile di Windows non salvato alla chiusura dell’applicazione
 * [Cooker] Impossibile pubblicare quando l&#39;sbs si trova in un percorso contenente un carattere speciale
 * [Pubblicazione] Premendo &quot;invio&quot; nel campo del nome dopo la pubblicazione, la finestra di dialogo viene annullata
@@ -4007,16 +4007,16 @@ ht-degree: 0%
 * [Libreria] Aggiungi un’opzione nelle preferenze per nascondere/visualizzare i livelli PSD
 * [Parametri] Consenti dati utente su più righe
 * [Grafico] Aggiungi un’opzione di preferenza per eseguire il rendering dei commenti a dimensioni costanti
-* [Grafico] Aggiungi un&#39;opzione di preferenza per disattivare la visualizzazione del nuovo nodo in vista 2D
-* [Prestazioni] Prestazioni Elaboratori pixel migliorate con il motore DX10
-* [vista 3D] Aggiungere tassellatura agli shader PBR
-* [vista 3D] Aggiungi opacità semplice agli shader PBR (nessun ordinamento dei volti)
+* [Grafico] Aggiungere un&#39;opzione di preferenza per disattivare la visualizzazione di nuovi nodi nella vista 2D
+* [Prestazioni] Le prestazioni del processore pixel aumentano con il motore DX10
+* [Vista 3D] Aggiungere tassellatura agli shader PBR
+* [Vista 3D] Aggiungi opacità semplice agli shader PBR (nessun ordinamento dei volti)
 * [Content] Aggiungi le destinazioni Vray/Corona/Redshift/Arnold al filtro di conversione PBR (per convertire le mappe per questi renderer)
 * [Content] Aggiungi la tecnica &quot;Detail Oriented&quot; al filtro di combinazione Normale
 
 **Corretto:**
 
-* Arresto anomalo durante l&#39;apertura di sbs con dipendenza vuota
+* Arresto anomalo all&#39;apertura di sbs con dipendenza vuota
 * Il collegamento ai livelli PSD viene interrotto dopo il ricaricamento del pacchetto
 * [Funzioni] Funzioni nidificate interrompono la sicurezza del tipo
 * [Funzioni] Le etichette, i gruppi e le descrizioni non vengono visualizzati
@@ -4025,7 +4025,7 @@ ht-degree: 0%
 * [Grafico] La creazione di più nodi bitmap dalle risorse rende il nodo sovrapposto tra loro
 * [Grafico] elemento commento non creato nella posizione corretta quando è figlio di un nodo
 * [Grafico] Selezione area blocco commenti lunghi
-* [Baker] La mappa normale dello spazio tangente esegue i baking il nero su Mac
+* [Panettieri] Mappa normale dello spazio tangente rende nero su Mac
 * [Parametri] Visibile Se non funziona quando il nome di input contiene &quot;-&quot;
 * [Parametri] Valore passo in Parametri di input ignorato se inferiore a 0,01
 * [Library] Il tag &quot;Visible in library&quot; non viene preso in considerazione per sbsar
@@ -4038,24 +4038,24 @@ ht-degree: 0%
 
 * [Grafico] Riduzione dello spazio tra due nodi quando si utilizza la connessione automatica
 * [Grafico] Disattiva la connessione automatica quando si utilizza il trascinamento nel grafico
-* [Grafico] Far scattare il fotogramma sulla griglia
+* [Grafico] Far sì che la cornice si agganci sulla griglia
 * [Grafico] Disattiva inserimento nodo sopra/su collegamento selezionato per collegamento materiale
 * [Preferenze] Imposta il valore massimo per Dimensione massima texture su 8192
-* [Contenuto] Aggiungere opzioni simmetria al nodo &quot;Trasforma sicura&quot;
+* [Content] Aggiungi opzioni di simmetria al nodo &quot;Trasformazione sicura&quot;
 
 **Corretto:**
 
 * [Grafico] Il nuovo nodo non è allineato sulla griglia
-* [Grafico] Lo scambio di collegamenti può generare loop/arresto anomalo
+* [Grafico] Lo scambio di collegamenti può generare loop/arresti anomali
 * [Grafico] Problema di visualizzazione quando le dimensioni del nodo e gli intervalli sono disattivati
-* [Baker] Arresto anomalo durante la esegue i baking in una risorsa che utilizza lo stesso nome della scena
-* [Baker] Il nome della risorsa predefinito non viene ricavato dal file di progetto corretto
+* [Panettieri] Arresto anomalo durante la cottura in forno in una risorsa che utilizza lo stesso nome della scena
+* [Bakers] Il nome della risorsa predefinito non viene ricavato dal file di progetto corretto
 * [Engine] Problema di funzione Pow2/log
 * [Engine] Errore nella valutazione della funzione
-* [Fxmaps] Arresto anomalo quando si reimposta il parametro sul valore predefinito
+* [Fxmaps] Arresto anomalo quando si ripristina il parametro ai valori predefiniti
 * [FxMaps] Valutazione della funzione non valida
-* [Preferenze] Cliccando sulla scheda del progetto arresti anomali SD
-* [vista 3D] L’utilizzo personalizzato viene convertito in lettere minuscole
+* [Preferenze] Facendo clic sulla scheda del progetto si arresta in modo anomalo SD
+* [Vista 3D] L’utilizzo personalizzato viene convertito in lettere minuscole
 * [Parametri] Impossibile riordinare gli elementi negli elenchi a discesa
 * [Explorer] Arresto anomalo durante lo spostamento di un grafico delle funzioni nell&#39;elenco delle cartelle
 
@@ -4072,11 +4072,11 @@ ht-degree: 0%
 * [Grafico] Scambia 2 collegamenti (X)
 * [Grafico] Inserire un nodo su un collegamento mediante trascinamento
 * [Grafico] Crea un grafico da una selezione di nodi
-* [Grafico] Elimina collegamento quando si utilizza Alt + LMB su un segnaposto di nodi
+* [Grafico] Elimina collegamento quando si utilizza Alt + LMB su una puntina del nodo
 * [Grafico] Non connettere il nuovo nodo al precedente utilizzando Maiusc
 * [Grafico] Aggiungi una barra degli strumenti per i filtri di base
 * [Grafico] Migliorare la griglia (aggancio e risoluzione)
-* [Grafico] Spostare il commento, il Fotogramma o il Segnaposto nel menu di scelta rapida
+* [Grafico] Spostare il commento/fotogramma/puntina nel menu di scelta rapida
 * [Grafico] Crea un nodo su un collegamento selezionato
 * [Grafico] Aggiungere icone alle voci di funzione
 * [Grafico] Modificare i colori dei segnaposti nel grafico delle funzioni
@@ -4084,13 +4084,13 @@ ht-degree: 0%
 * [Grafico] Fare in modo che il collegamento selezionato venga disegnato sopra gli altri collegamenti
 * [Grafico] Aggiungere icone ai nodi Fxmap
 * [Grafico] Aggiungi un interruttore per disegnare collegamenti curvi o rettangolari
-* [Funzione] Rendi più distinto il diverso tipo di vettore nel grafico delle funzioni (colori segnaposto/collegamento)
+* [Funzione] Rendi più distinto il diverso tipo di vettore nel grafico delle funzioni (colori pin/link)
 * [Funzioni] Aggiungi icone sui nodi e visualizza valori per costante / set / get
 * [Funzioni] Aggiungere colori al titolo del nodo
 * [Funzione] Migliorare le prestazioni per la valutazione delle funzioni (utilizzare il codice generato dall&#39;SSE)
 * [Function] Visualizza un avviso se il nodo Set/Get è vuoto
-* [Baker]&#x200B;[Grafico] Dithering bitmap durante la conversione in 8 bpc
-* [Baker] Media delle normali dei vertici nel file OBJ se la trama non contiene alcun valore
+* [Bakers]&#x200B;[Grafico] Dithering bitmap durante la conversione in 8 bpc
+* [Bakers] Media delle normali dei vertici nel file OBJ se la trama non contiene alcun valore
 * [Baker] Corrispondenza per nome: utilizzare il suffisso come separatore
 * [Parametri] Aggiungi l’opzione per passare da RGB a HSV nel widget colore
 * [Parametri] Pulsante Aggiungi contagocce nel widget colore
@@ -4118,12 +4118,12 @@ ht-degree: 0%
 * [Dipendenze] arresto anomalo durante l&#39;apertura della finestra delle dipendenze del pacchetto che contiene i cicli del pacchetto
 * [Grafico] la selezione della selezione viene ridimensionata in funzione dello zoom
 * Il collegamento [Grafico] non &quot;scatta&quot; all&#39;input/output più vicino
-* [Grafico] Stack di annullamento errato (può generare arresti anomali)
-* [Grafico] La connessione multipla con Ctrl non funziona se il segnaposto è già collegato
-* [vista 3D] Il colore della griglia è influenzato dal colore di sfondo
-* Il nodo di output [vista 3D]&#x200B;[Grafico] contenente più utilizzi non viene inviato correttamente alla vista 3d
+* [Grafico] Stack di annullamento errato (potrebbe generare arresti anomali)
+* [Grafico] La connessione multipla con Ctrl non funziona se il pin è già collegato
+* [Vista 3D] Il colore della griglia è influenzato dal colore di sfondo
+* [Vista 3D]&#x200B;[Grafico] il nodo di output contenente più utilizzi non viene inviato correttamente alla vista 3D
 * [vista 3D] shader di tasselation : bug di compilazione nelle GPU AMD
-* [vista 2D] Problema di Segnaposto
+* [Vista 2D] Problema di sistema del pin
 * [Funzioni] Bug di compilazione delle funzioni (in caso contrario)
 * [Preferenze] suffisso alto/basso non letto correttamente da sbsprj
 * [Libreria] Se trascini una cartella su un’altra, la rimuovi
@@ -4137,7 +4137,7 @@ ht-degree: 0%
 
 **Aggiunto:**
 
-* [Preferenze]&#x200B;[Baker] Aggiungi un’opzione per calcolare la tabulazione per vertice o pixel in modo che corrisponda all’UE4
+* [Preferences]&#x200B;[Bakers] Aggiungete un’opzione per calcolare la tabulazione per vertice o pixel in modo che corrisponda all’UE4
 * [Libreria] Usa filtro bilineare per le miniature
 * [Baker] Consente il ridimensionamento della finestra a un height inferiore a 800 px
 * [3DView] Equalizza l&#39;esposizione della mappa dell&#39;ambiente / normalizza la rotazione per ottenere un fulmine uniforme
@@ -4151,7 +4151,7 @@ ht-degree: 0%
 * [Grafico] Le impostazioni per gli output di esportazione non sono memorizzate per grafico
 * [Grafico] Stato di ancoraggio del nodo non valido durante l&#39;eliminazione del nodo
 * [Baker] Gli errori non vengono più visualizzati in una finestra di dialogo
-* [Baker] La risorsa mancante non viene visualizzata come mancante nella finestra di esegue i baking
+* [Panettieri] La risorsa mancante non viene visualizzata come mancante nella finestra di cottura
 * La finestra [Pubblicazione] non riuscita non deve essere modificabile
 * [Pubblicazione] Sbsar Risultato non corretto
 * [vista 3D] I materiali multipli delle trame FBX aggiornate non vengono ricaricati correttamente
@@ -4161,7 +4161,7 @@ ht-degree: 0%
 * [Menu] &quot;Esporta file di registro...&quot; azione non gestire per individuare il file log.txt
 * [Batchtools] Errore subsmutator
 * [Explorer] Il caricamento dei pacchetti mantiene l&#39;evidenziazione
-* [Properties] Arresto anomalo durante la cancellazione di una funzione su un parametro enum
+* [Proprietà] Arresto anomalo durante la cancellazione di una funzione su un parametro enum
 * [Preferenze] Il plug-in dello spazio tangente Mikkt non è impostato sull&#39;impostazione predefinita in utente\_progetto
 * [Valutazione/Attivazione] Impossibile valutare/attivare online su Windows
 * Elaborazione della barra di stato: sposta l&#39;interfaccia durante l&#39;aggiornamento
@@ -4182,21 +4182,21 @@ ht-degree: 0%
 **Corretto:**
 
 * [Arresto anomalo] OSX 10.9 e 10.10 in FreeImage
-* [Arresto anomalo] Quando si apre un file fbx contenente elementi senza vertici
+* [Arresto anomalo] Quando si apre un file fbx che contiene elementi senza vertici
 * [Grafico] Problemi di trascinamento
-* [Grafico] Cancella scelta rapida da tastiera cache interrotta
+* [Grafico] La scelta rapida Cancella cache è interrotta
 * [Grafico] TGA appare nero/trasparente in SD
 * [Library] Input normale scala di grigi triplanare errato
 * [Library] Il nodo di rilevamento di Edge non funziona correttamente con il motore della CPU
 * [Parametri] Intervallo del cursore non corretto per float2/3/4
-* [Parameters] Esecuzione di &quot;Exposé Parameters&quot; due volte arresto anomalo Designer
+* [Parametri] Se si esegue &quot;Esporta parametri&quot; due volte, Designer si arresta in modo anomalo
 * [Console] non è ridimensionato correttamente
 * [Console] Duplicazione nell&#39;elenco dei canali: View3D e 3DView
 * [3DView] L&#39;ordine dei parametri definito in glslfx non viene mantenuto nella GUI
 * [Esplora risorse] Arresto anomalo durante l&#39;aggiornamento delle texture mancanti sul disco
-* [Funzione] Modifica il valore e modifica i lead all’arresto anomalo
-* [Baker] Arresto anomalo quando si apre la finestra di esegue i baking su una risorsa 3d mancante
-* [PSD] arresto anomalo Psdparse (MSVCR120.dll mancante)
+* [Funzione] Modifica del valore e modifica causa l’arresto anomalo
+* [Baker] Arresto anomalo quando si apre la finestra di cottura su una risorsa 3D mancante
+* [PSD] Arresto anomalo di Psdparse (MSVCR120.dll mancante)
 * [Informazioni sulla finestra] Interruzione di riga mancante con la versione di Steam
 * [Sbs] Nuove funzioni inutilizzate del motore in sbs
 * [Sbsar] Nuove funzioni non supportate in SD
@@ -4221,24 +4221,24 @@ ht-degree: 0%
 
 **Aggiunto:**
 
-* [Esporta] elimina il Canale alfa per TGA e BMP quando è completamente opaco
+* [Esporta] elimina il canale di Alpha per TGA e BMP quando è completamente opaco
 * [Vista 3d] Impostare lo shader PBR per impostazione predefinita
-* [vista 2D] Passa all’immagine di visualizzazione come alfa premoltiplicata
+* [Vista 2D] Passa alla visualizzazione dell&#39;immagine come alfa premoltiplicata
 * [Parametri] Dimensione: Aggiungi un blocco di larghezza/Height / valori di visualizzazione negli elenchi a discesa
 * [Dipendenze] Nuovo gestore dipendenze
 * [Dipendenze] visualizza/trova l&#39;istanza del nodo corrispondente a una dipendenza
 * [Dipendenza] Aprire un pacchetto di dipendenze in Esplora pacchetti
-* Fusione [Engine]: supporta il parametro Opacità quando si utilizza una maschera
-* [Engine] Fusione: aggiunta di nuovi metodi di fusione (overlay, screen, softlight, divide)
-* Fusione [Engine]: supporta la fusione alfa retta
-* [Egne] Nuovo nodo Sfumatura dinamica
+* [Engine] Fusione: supporta il parametro Opacità quando viene utilizzata una maschera
+* [Engine] Fusione: Aggiungi nuovi metodi di fusione (sovrapposizione, schermo, softlight, divisione)
+* [Engine] Fusione: supporta la fusione alfa retta
+* [Motivo] Nuovo nodo Sfumatura dinamica
 * [Engine] Nuovo nodo Distanza
-* [Engine] Nuovo nodo Elaboratore pixel
+* [Engine] Nuovo nodo Pixel Processor
 * [Engine] Fxmap: supporta la funzione dinamica per le immagini di input
 * [Engine] Funzione Sampler: supporto del campionamento bilineare
 * [Engine] Fxmap: supporta il filtro bilineare/più vicino per le immagini di input
 * [Engine] Fxmap: supporta l&#39;immagine di input dritta/premoltiplicata alfa
-* [Baker] Aggiungete un&#39;opzione per far corrispondere la geometria in base al nome della trama tra trame a bassa e ad alta definizione
+* [Pannelli] Aggiungete un&#39;opzione per abbinare la geometria in base al nome della trama tra trame a bassa e ad alta definizione
 * [Modelli] Creazione di una sostanza modello per Substance Painter
 * [Baker] Nuova mappa Texture da baker trama
 * [Grafico] Aggiungere una &quot;verifica di compatibilità&quot; per evidenziare i nodi non compatibili con il motore precedente
@@ -4257,9 +4257,9 @@ ht-degree: 0%
 * [Grafico] I nodi ancorati nel fotogramma si spostano in modo strano
 * [Parametri] Percorso libreria personalizzato non caricato dai file sbsprj
 * [vista 3D] CTRL+R per ricaricare tutti gli shader attiva anche la reimpostazione del vista 3D
-* [vista 3D] Inv. Mipmap height uniforme passa all&#39;impostazione predefinita durante il caricamento degli shader
+* [vista 3D] Inv. Mipmap height uniforme passa all&#39;impostazione predefinita durante il caricamento dello shader
 * [vista 3D] shader PBR : Diffusa rispetto a baseColor
-* [Library] Il percorso non ricorsivo della libreria interrompe le texture collegate nei pacchetti
+* [Library] I percorsi libreria non ricorsivi interrompono le texture collegate nei pacchetti
 * [Library] Mappe ambiente non visualizza .hdr
 * [Explorer] &quot;Copia/Incolla&quot; sulla sostanza non dovrebbe essere possibile
 * [Explorer] Fare clic con il pulsante destro del mouse sull&#39;opzione &quot;Incolla&quot; ancora disponibile su un grafico

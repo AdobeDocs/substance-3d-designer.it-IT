@@ -26,14 +26,14 @@ ht-degree: 8%
 
 ![](grunge-map-005.resources/grungemap-005.png){width="128px"}
 
-<b>Ingresso:</b> Generatori di texture > Rumori
+<b>Ingresso:</b> generatori di Texture > Rumori
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
-Questo genera una complessa mappa del disturbo combinata. Può essere molto utile come una procedura dettagliata, ma tenete a mente che questi sono molto ad alta intensità di prestazioni e quindi più lenti da generare.
+Questo genera una complessa mappa del disturbo combinata. Può essere molto utile come procedurali dettagliata, ma tenete presente che si tratta di elementi che richiedono molte prestazioni e che quindi sono più lenti da generare.
 
 </td>
 </tr>
@@ -50,7 +50,7 @@ Questo genera una complessa mappa del disturbo combinata. Può essere molto util
 | <b>Disturbo</b> <i>0.0 - 1.0</i> | Fase-sposta il disturbo per introdurre piccole variazioni. |
 | <b>Inverti</b> <i>Falso/Vero</i> | Inverte il risultato. |
 | <b>Motivo pennello</b> <i>0.0 - 1.0</i> | Aggiunge una maschera intorno ai bordi, per quando viene utilizzato come pennello alfa. |
-| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati. |
+| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di squash e allungamento con rapporti non quadrati. |
 
 ## Esempi
 

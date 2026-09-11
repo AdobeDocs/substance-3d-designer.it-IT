@@ -7,7 +7,7 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Effetto rilievo con brillantezza
+title: Effetto rilievo con lucentezza
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 5c9ae53c1de18b1c09789a480cba6b1d70bd350d
@@ -18,7 +18,7 @@ ht-degree: 6%
 ---
 
 
-# Effetto rilievo con brillantezza
+# Effetto rilievo con lucentezza
 
 <table>
 <tr style="border: 0;">

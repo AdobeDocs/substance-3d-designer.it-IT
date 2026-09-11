@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Gestione di contenuti e filtri personalizzati
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 2a6e26cc03e887569a518cadd171ae1b51ae6abd
 workflow-type: tm+mt
 source-wordcount: '912'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Le categorie e i filtri personalizzati possono essere *specifici del progetto* e
 
 Ciò significa che con uno o più file di Project è possibile impostare le cartelle in cui inserire i contenuti da aggiungere alla <b>Libreria</b>, nonché le categorie e i filtri che consentono di ordinare e organizzare tali contenuti.
 
-![Contenuto personalizzato nella libreria](../../../assets/library-filters.png "Contenuto personalizzato nella libreria")
+![Contenuto personalizzato nella libreria](managing-custom-content-and-filters.resources/library-filters.png "Contenuto personalizzato nella libreria")
 
 ## Attributi del grafico
 
@@ -57,11 +57,11 @@ I filtri sono semplici parametri di ricerca booleani (True/False) che determinan
 
 Le categorie (ad esempio, le cartelle) e i filtri vengono creati e modificati utilizzando i pulsanti riportati di seguito.
 
-<b>![](../../../assets/library-icon-new-folder.png) Aggiungi cartella:</b> Crea una cartella espandibile nella visualizzazione Libreria. *non puoi* creare sottocartelle.
+<b>![](managing-custom-content-and-filters.resources/library-icon-new-folder.png) Aggiungi cartella:</b> Crea una cartella espandibile nella visualizzazione Libreria. *non puoi* creare sottocartelle.
 
-<b>![](../../../assets/library-icon-new-filter.png) Aggiungi filtro:</b> Aggiunge un nuovo filtro nella cartella selezionata. *Impossibile* aggiungere filtri alle cartelle predefinite esistenti.
+<b>![](managing-custom-content-and-filters.resources/library-icon-new-filter.png) Aggiungi filtro:</b> Aggiunge un nuovo filtro nella cartella selezionata. *Impossibile* aggiungere filtri alle cartelle predefinite esistenti.
 
-<b>![](../../../assets/library-icon-edit.png) Modifica elemento:</b> Modifica la cartella o il filtro attualmente selezionato. L&#39;utente *non può* modificare le proprietà dei filtri e delle cartelle predefiniti.
+<b>![](managing-custom-content-and-filters.resources/library-icon-edit.png) Modifica elemento:</b> Modifica la cartella o il filtro attualmente selezionato. L&#39;utente *non può* modificare le proprietà dei filtri e delle cartelle predefiniti.
 
 Per *rimuovere* una cartella o un filtro, *fare clic con il pulsante destro del mouse* su di esso e selezionare l&#39;opzione <b>Rimuovi</b> dal menu di scelta rapida.
 
@@ -76,7 +76,7 @@ Per *rimuovere* una cartella o un filtro, *fare clic con il pulsante destro del 
 >
 > È *molto* importante configurarli correttamente, per assicurarti di modificare il *progetto corretto*.
 
-![Edizione filtro personalizzata](../../../assets/library-filters-edit.png "Edizione filtro personalizzata")
+![Edizione filtro personalizzata](managing-custom-content-and-filters.resources/library-filters-edit.png "Edizione filtro personalizzata")
 
 Per poter utilizzare i filtri di **Filtri**, in genere è necessario configurare *condizioni*. Queste condizioni sono configurate utilizzando i seguenti criteri:
 

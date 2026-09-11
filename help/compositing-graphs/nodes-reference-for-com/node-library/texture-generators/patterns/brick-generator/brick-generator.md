@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Generatore mattoni
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: 827e738d5db4d64bf366d332a62a7bbd2fa840fc
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/brick-generator.png){width="128px"}
+![](brick-generator.resources/brick-generator.png){width="128px"}
 
 <b>Ingresso:</b> Generatori Texture > Pattern
 
@@ -55,17 +55,17 @@ Per ulteriori opzioni, vedere [Tile Generator](../../../../../../compositing-gra
 | <b>Height</b> <i>-1.0 - 1.0</i> | Modifica i profili di height. Consente di introdurre la variazione di luminanza e tutti i tipi di randomizzazione. |
 | <b>Pendenza</b> <i>-1.0 - 1.0</i> | Introduce una pendenza per mattoni, come se alcuni mattoni si trovassero in un angolo. |
 | <b>Scostamento</b> <i>0.0 - 1.0</i> | Sposta i mattoni in base alla riga, influisce sulla spaziatura per riga. |
-| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati. |
+| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di squash e allungamento con rapporti non quadrati. |
 
 ## Esempi
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/brick-generator-ex-01.gif" />
+            <img src="brick-generator.resources/brick-generator-ex-01.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/brick-generator-ex-02.gif" />
+            <img src="brick-generator.resources/brick-generator-ex-02.gif" />
         </td>
     </tr>
 </table>

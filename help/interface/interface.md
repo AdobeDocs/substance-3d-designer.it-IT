@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spazio di lavoro
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 1%
@@ -24,7 +24,7 @@ L&#39;area di lavoro è suddivisa in aree separate denominate <b>ancoraggi</b>, 
 
 Ecco il layout di ancoraggio predefinito di Designer:
 
-![Finestra principale di Substance 3D Designer](../assets/interface-overview.jpg "Finestra principale di Substance 3D Designer")
+![Finestra principale di Substance 3D Designer](interface.resources/interface-overview.jpg "Finestra principale di Substance 3D Designer")
 
 <table>
 <tr style="border: 0;">
@@ -73,7 +73,7 @@ La barra degli strumenti principale consente di accedere a menu aggiuntivi, come
 </td>
 <td style="border: 0;" valign="top">
 
-![Menu principale e barra degli strumenti](../assets/mainmenu-1.png "Menu principale e barra degli strumenti")
+![Menu principale e barra degli strumenti](interface.resources/mainmenu-1.png "Menu principale e barra degli strumenti")
 
 </td>
 </tr>
@@ -89,34 +89,34 @@ La barra degli strumenti principale consente di accedere a menu aggiuntivi, come
 
 [La finestra Esplora risorse](the-explorer-window/the-explorer-window.md) è il modo principale di interagire con qualsiasi tipo di file e risorsa. Offre più opzioni rispetto al menu File nella barra degli strumenti principale.
 
-![Esplora risorse](../assets/explorer-4.png "Esplora risorse")
+![Esplora risorse](interface.resources/explorer-4.png "Esplora risorse")
 
 ## Vista Grafico
 
 [L&#39;ancoraggio della vista Grafico](../interface/the-graph-view/the-graph-view.md) è la finestra più importante di Substance 3D Designer. Visualizza le reti nodali di qualsiasi tipo di grafico disponibile in Designer ([Grafici a Substance](../compositing-graphs/substance-compositing-graphs.md), [Grafici a funzione Substance](../function-graphs/function-graphs.md), [Grafici FX-Map](../function-graphs/fxmaps/fxmaps.md)) e consente di crearli e modificarli.
 
-![Visualizzazione grafico](../assets/graph-6.png "Visualizzazione grafico")
+![Visualizzazione grafico](interface.resources/graph-6.png "Visualizzazione grafico")
 
 ## Proprietà
 
 [Ancoraggio proprietà](properties/properties.md) è la finestra più tecnica. È sempre sensibile al contesto e presenterà cursori, menu a discesa e altri elementi che modificano il comportamento di una risorsa o di un nodo selezionato.
 
-![Proprietà](../assets/properties-15.jpg "Proprietà")
+![Proprietà](interface.resources/properties-15.jpg "Proprietà")
 
 ## Vista 2D
 
-[La vista 2D](../interface/2d-view/2d-view.md) è lo strumento di anteprima più semplice. Funziona a stretto contatto con il grafico: facendo doppio clic su qualsiasi nodo nella vista grafico, il risultato visivo verrà visualizzato nella vista 2D.
+[Il vista 2D](../interface/2d-view/2d-view.md) è lo strumento di anteprima più semplice. Funziona a stretto contatto con il grafico: facendo doppio clic su qualsiasi nodo nella vista Grafico, il risultato visivo verrà visualizzato nel vista 2D.
 
-![Visualizzazione 2D](../assets/2d-view-1.jpg "Visualizzazione 2D")
+![vista 2D](interface.resources/2d-view-1.jpg "vista 2D")
 
 ## Vista 3D
 
-[La vista 3D](../interface/3d-view/3d-view.md) è la finestra di anteprima più interattiva e avanzata. A differenza della vista 2D, utilizza una serie di diverse mappe di output per eseguire il rendering di un materiale completo. Ciò significa che sono rappresentati tutti i canali, ad esempio Colore di base, Normale e Rugosità.
+[Il vista 3D](../interface/3d-view/3d-view.md) è la finestra di anteprima più interattiva e avanzata. A differenza del vista 2D, utilizza una serie di mappe di output diverse per eseguire il rendering di un materiale completo. Ciò significa che sono rappresentati tutti i canali, ad esempio Colore di base, Normale e Rugosità.
 
-![Visualizzazione 3D](../assets/3dview-3.jpg "Visualizzazione 3D")
+![vista 3D](interface.resources/3dview-3.jpg "vista 3D")
 
 ## Libreria
 
 [Il dock della libreria](../interface/the-library/the-library.md) consente di accedere a tutti i contenuti inclusi nella libreria di Designer per impostazione predefinita, nonché ai [contenuti personalizzati](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md). Per comprendere meglio la differenza tra i nodi atomici e i nodi di istanza nella libreria, assicurati di leggere la [panoramica dei nodi](https://helpx.adobe.com/substance-designer/using/nodes-overview.html).
 
-![Libreria](../assets/library-3.jpg "Libreria")
+![Libreria](interface.resources/library-3.jpg "Libreria")

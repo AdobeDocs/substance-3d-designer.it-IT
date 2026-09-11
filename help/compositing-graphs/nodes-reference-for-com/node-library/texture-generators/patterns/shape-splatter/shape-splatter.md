@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spruzzo forma
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: dbfe5b7ce453a6178d8d970698d3a5f8225151b4
 workflow-type: tm+mt
 source-wordcount: '960'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/shape-splatter.png){width="128px"}
+![](shape-splatter.resources/shape-splatter.png){width="128px"}
 
 <b>Ingresso:</b> Generatori Texture > Pattern
 
@@ -77,7 +77,7 @@ Il suo scopo principale è quello di consentire il posizionamento di forme su e 
 | <b>Scala senza sovrapposizione</b> <i>0.0 - 1.0</i> | Ridimensiona in modo uniforme, ma solo verso il basso, per evitare la sovrapposizione di porzioni. Non deve essere usato insieme ai due parametri precedenti. |
 | <b>Moltiplicatore mappa scala</b> <i>0.0 - 1.0</i> | Impostate l&#39;influenza della mappa scala. |
 | <b>Dimensioni</b> <i>0.0 - 1.0</i> | Consente il ridimensionamento non uniforme delle porzioni. |
-| <b>Rapporto dimensioni da Bg Pendenza</b> <i>0.0 - 1.0</i> | Usa la pendenza della mappa di sfondo (Normale calcolato) per ridimensionare le porzioni in modo non uniforme. Simula l’alterazione prospettica. |
+| <b>Rapporto dimensioni da Bg Pendenza</b> <i>0.0 - 1.0</i> | Usa la pendenza della mappa di sfondo (Normale calcolato) per ridimensionare le porzioni in modo non uniforme. Simula l’alterazione della Prospettiva. |
 | <b>Dimensioni in base al rapporto di fattore X/Y</b> <i>0.0 - 1.0</i> | Ridimensionamento non uniforme per compensare un rapporto diverso negli importi X e Y. |
 | <b>Posizione</b> |  |
 | <b>Posizione casuale</b> <i>0.0 - 2.0</i> | Scostamento casuale della posizione per ogni porzione. |
