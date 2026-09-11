@@ -57,7 +57,7 @@ Nel grafico MDL, l&#39;esposizione di un parametro al livello del grafico, ovver
 
 I nodi che possono essere esposti dispongono di un&#39;opzione <b>Esposizione</b> nel menu di scelta rapida. Nella maggior parte dei casi, si tratta di nodi che generano un valore o dati quali coordinate di virgola mobile, colore o texture.
 
-Opzione ![&quot;Esposizione&quot; nel menu contestuale di un nodo](../../assets/mdl-expose-float-menu-hl.png "&amp;quot;Esposizione&amp;quot; nel menu contestuale di un nodo")
+Opzione ![&quot;Esposizione&quot; nel menu contestuale di un nodo](../../assets/mdl-expose-float-menu-hl.png "&quot;Esposizione&quot; nel menu contestuale di un nodo")
 
 Opzione *&quot;Esposizione&quot; nel menu contestuale di un nodo*
 

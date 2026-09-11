@@ -90,7 +90,7 @@ Ciò è utile quando si leggono i percorsi da un [processore pixel](../../../../
 
 L&#39;indirizzo dell&#39;ultimo vertice definito in questo documento. Questo è utile per aggiungere nuovi dati.
 
-Può quindi essere qualsiasi indirizzo maggiore (in ordine di scansione) dell&#39;indirizzo dell&#39;ultimo vertice. Deve trovarsi nell&#39;intervallo ]0, 1[×]0,.5[
+Può quindi essere qualsiasi indirizzo maggiore (in ordine di scansione) dell&#39;indirizzo dell&#39;ultimo vertice. Deve trovarsi nell&#39;intervallo &rbrack;0, 1[×]0,.5&lbrack;
 
 <b>ZW</b>
 
