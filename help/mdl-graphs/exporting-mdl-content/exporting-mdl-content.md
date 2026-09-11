@@ -61,7 +61,7 @@ Un predefinito del modulo MDL è in gran parte identico al modulo su cui è basa
 Un predefinito per un materiale MDL assegnato a un materiale di scena `my_material` può essere esportato dai seguenti percorsi:
 
 * Nel pannello [Esplora risorse](../../interface/the-explorer-window/the-explorer-window.md), facendo clic su <b>RMB</b> nella risorsa grafico MDL e selezionando l&#39;opzione <b>Esporta predefinito...</b> nel menu di scelta rapida
-* Il pannello [Vista 3D](../../interface/3d-view/3d-view.md) utilizzando l&#39;opzione di menu <b>Materiali > il mio\_materiale > Esporta predefinito...</b>
+* Il pannello [vista 3D](../../interface/3d-view/3d-view.md), utilizzando l&#39;opzione di menu <b>Materiali > il mio\_materiale > Esporta predefinito...</b>
 
 L&#39;opzione di menu apre la finestra di dialogo <b>Esporta predefinito materiale MDL</b>, che offre le seguenti opzioni:
 
@@ -69,19 +69,19 @@ L&#39;opzione di menu apre la finestra di dialogo <b>Esporta predefinito materia
 * <b>Nome file MDL</b>: nome del modulo MDL
 * <b>Incorpora moduli MDL importati</b>: se il modulo MDL si basa su moduli importati, ovvero presenta dipendenze del modulo, selezionando questa opzione le dipendenze del modulo verranno *incorporate* nel modulo MDL esportato, rendendolo *autosufficiente* a scapito della dimensione del file e dell&#39;ereditarietà dinamica
 
-Il predefinito esportato utilizzerà i *valori correnti* dei parametri del materiale nella vista 3D come *nuovi valori predefiniti*. Questi valori possono essere modificati utilizzando l&#39;opzione <b>Materiali > il mio\_materiale > Modifica</b>, che visualizzerà i parametri esposti del materiale nel pannello Proprietà.
+Il predefinito esportato utilizzerà i *valori correnti* dei parametri del materiale nel vista 3D come *nuovi valori predefiniti*. Questi valori possono essere modificati utilizzando l&#39;opzione <b>Materiali > il mio\_materiale > Modifica</b>, che visualizzerà i parametri esposti del materiale nel pannello Proprietà.
 
 >[!WARNING]
 >
-> Durante l&#39;esportazione di un modulo MDL dal pannello [Esplora risorse](../../interface/the-explorer-window/the-explorer-window.md), viene generato un modulo MDL contenente *tutti* i materiali MDL definiti da un grafico MDL nel pacchetto. L&#39;esportazione di un predefinito MDL dalla [vista 3D](../../interface/3d-view/3d-view.md) genera un modulo MDL contenente *solo* la definizione dei materiali MDL applicata al *materiale selezionato* nel menu - `my_material` in questo esempio.
+> Durante l&#39;esportazione di un modulo MDL dal pannello [Esplora risorse](../../interface/the-explorer-window/the-explorer-window.md), viene creato un modulo MDL contenente *tutti* i materiali MDL definiti da un grafico MDL nel pacchetto. L&#39;esportazione di un predefinito MDL dal [vista 3D](../../interface/3d-view/3d-view.md) genera un modulo MDL contenente *solo* la definizione dei materiali MDL applicata al *materiale selezionato* nel menu - `my_material` in questo esempio.
 
 ![Percorso di esportazione predefiniti MDL](../../assets/mdl-export-preset.png "Percorso di esportazione predefiniti MDL")
 
-*Il percorso &quot;Esporta predefinito&quot; nella vista 3D e la finestra di dialogo risultante Esporta predefinito materiale MDL*
+*Il percorso &quot;Esporta predefinito&quot; nel vista 3D e la finestra di dialogo risultante Esporta predefinito materiale MDL*
 
 ## Archivio modulo MDL (\*.mdr)
 
-Un archivio di moduli MDL combina i moduli MDL, vedere sopra, con risorse quali *texture* e file readme in un *singolo file trasportabile*.
+Un archivio di moduli MDL combina i moduli MDL, vedere sopra, con risorse quali *texture* e file Leggimi in un *singolo file trasportabile*.
 
 L&#39;esportazione di un archivio del modulo MDL viene eseguita al livello *pacchetto*. Per esportare un archivio del modulo MDL per un determinato pacchetto, fare clic sul pulsante ![](../../assets/mdl-export-module-icon.png) <b>Esporta archivio moduli MDL</b> in [Esplora risorse](../../interface/the-explorer-window/the-explorer-window.md) oppure selezionare la stessa opzione nel menu di scelta rapida del *pacchetto*. Selezionare un percorso e un nome di destinazione per l&#39;archivio del modulo MDL esportato e viene visualizzata la finestra di dialogo <b>Esporta report</b> con l&#39;elenco dei messaggi registrati durante il processo di esportazione.
 

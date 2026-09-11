@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-base.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-base.html"
 breadcrumb-title: ''
-description: Utilizzare il nodo Base Somma frattale per generare pattern di disturbo frattale di base per la creazione di texture organiche complesse.
+description: Utilizzate il nodo Somma frattale base per generare pattern di disturbo frattale di base per la creazione di texture organiche complesse.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Fractal sum base
 helpx_experience_level: ""
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 ![Base Somma frattale - Icona](fractal-sum-base.resources/fractal_sum_base.png "Base Somma frattale - Icona"){width="200px"}
 
-<b>Ingresso:</b> generatori di Texture > Rumori
+<b>Ingresso:</b> Generatori di texture > Rumori
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -57,13 +57,13 @@ Vedere anche: [Somma frattale 1](../../../../../../compositing-graphs/nodes-refe
 
 |  |  |
 |:---|:---|
-| <b>Rugosità</b> <i>Virgola mobile</i> | Bilanciamento delle ottave di disturbo.    Un valore più elevato renderà più visibili le ottave con frequenza più elevata. |
+| <b>Rugosità</b> <i>Mobile</i> | Bilanciamento delle ottave di disturbo.    Un valore più elevato renderà più visibili le ottave con frequenza più elevata. |
 | <b>Min. livello</b> <i>Numero intero</i> | L&#39;ottava minima utilizzata nel rumore.    Un valore più elevato determina una frequenza di disturbo più elevata. |
 | <b>Max. livello</b> <i>Numero intero</i> | Ottava massima utilizzata nel rumore.    Un valore più elevato determina una frequenza di disturbo più elevata. |
-| <b>Disturbo</b> <i>Virgola mobile</i> | Sposta gli ingredienti del disturbo.    Può essere utilizzato per animare il disturbo. |
-| <b>Velocità del disturbo</b> <i>Virgola mobile</i> | Regola la distanza di spostamento applicata dal parametro <b>Disturbo</b>.    Questa opzione consente di controllare la velocità di spostamento durante l’animazione del disturbo. |
-| <b>Contrasto</b> <i>Virgola mobile</i> | Contrasto del risultato finale. |
-| <b>Opacità globale</b> <i>Virgola mobile</i> | Opacità delle ottave di disturbo sommate nel risultato finale.    Un valore elevato può causare la bruciatura di aree bianche. |
+| <b>Disturbo</b> <i>Mobile</i> | Sposta gli ingredienti del disturbo.    Può essere utilizzato per animare il disturbo. |
+| <b>Velocità del disturbo</b> <i>Mobile</i> | Regola la distanza di spostamento applicata dal parametro <b>Disturbo</b>.    Questa opzione consente di controllare la velocità di spostamento durante l’animazione del disturbo. |
+| <b>Contrasto</b> <i>Mobile</i> | Contrasto del risultato finale. |
+| <b>Opacità globale</b> <i>Mobile</i> | Opacità delle ottave di disturbo sommate nel risultato finale.    Un valore elevato può causare la bruciatura di aree bianche. |
 | <b>Espansione non quadrata</b> <i>Booleano</i> | Nelle immagini non quadrate, mantiene il riquadro quadrato generato ed espande la generazione del disturbo fino ai limiti dell&#39;immagine. |
 
 ## Esempi

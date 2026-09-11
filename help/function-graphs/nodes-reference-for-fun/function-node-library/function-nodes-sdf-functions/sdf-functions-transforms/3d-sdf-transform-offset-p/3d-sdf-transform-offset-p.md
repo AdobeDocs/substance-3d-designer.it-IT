@@ -24,7 +24,7 @@ ht-degree: 1%
 
 ## Descrizione
 
-Sposta lo spazio globale lungo un vettore.<br>La posizione del mondo trasformato in output può essere collegata all&#39;input <b>P</b> della maggior parte delle Funzioni SDF per definirle in questo spazio del mondo trasformato.<br><br><i>Suggerimento:</i> le trasformazioni P possono essere concatenate, ma tenete presente che i risultati dipendono dall&#39;ordine delle operazioni.
+Sposta lo spazio globale lungo un vettore.<br>La posizione del mondo Trasforma per l&#39;output può essere collegata all&#39;input <b>P</b> della maggior parte delle Funzioni SDF per definirle in questo spazio del mondo Trasforma.<br><br><i>Suggerimento:</i> I Trasforma P possono essere concatenati, ma tenete presente che i risultati dipendono dall&#39;ordine delle operazioni.
 
 </td>
 </tr>

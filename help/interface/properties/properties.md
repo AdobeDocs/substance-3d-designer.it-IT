@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/properties.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/properties.html"
 breadcrumb-title: ''
 description: Usate il pannello Proprietà in Substance 3D Designer per visualizzare e modificare le proprietà dei nodi e i parametri dei grafici.
 helpx_creative_field: ""

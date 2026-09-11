@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/release-notes/version-14-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-14-0.html"
 breadcrumb-title: ''
 description: Consulta le note sulla versione per Substance 3D Designer versione 14.0 per informazioni sui nuovi nodi, la navigazione del grafico e i miglioramenti delle prestazioni.
 helpx_creative_field: ""
@@ -38,14 +38,14 @@ Questa versione 14.0 introduce molti nuovi contenuti con i nuovi nodi elencati d
 
 * <b>Filtro Kuwahara</b>: se desiderate migliorare ulteriormente la stilizzazione, potete generare alcuni effetti pittorici grazie ai filtri [Colore Kuwahara anisotropo](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara/anisotropic-kuwahara.md) / [Scala di grigi](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara-gra/anisotropic-kuwahara-grayscale.md). Nei dettagli, applica una sfocatura direzionale anisotropa conforme ai dettagli dell&#39;immagine. Il risultato è un’immagine che sembra scorrere nella direzione delle forme al suo interno.
 
-Questi nodi (Quantizza colore e Kuwahara anisotropo) sono spiegati in [questa esercitazione](https://www.adobe.com/go/designer-tutorial-quantize_it). Mostra come utilizzarli per stilizzare i materiali e gestire i colori in modo più efficiente e intuitivo.
+Questi nodi (Quantizza colore e Kuwahara anisotropo) sono spiegati in [questa esercitazione](https://www.adobe.com/go/designer-tutorial-quantize). Mostra come utilizzarli per stilizzare i materiali e gestire i colori in modo più efficiente e intuitivo.
 
 Altri nodi potenti si uniscono al gruppo:
 
 * [<b>Curvatura uniforme</b>](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md): questa nuova versione ora supporta correttamente tutte le modalità di Affiancamento, aggiunge due nuovi output (convessità e concavità) e migliora sia la precisione che le prestazioni.
 * <b>[Equalizzazione istogramma](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-equalize/histogram-equalize.md):</b> questo nodo equalizza l&#39;istogramma di un&#39;immagine in scala di grigio regolando i valori per ottenere una distribuzione uniforme. Questi nodi sono dotati di due nodi complementari: [Rendering istogramma](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-render/histogram-render.md) per generare l&#39;istogramma dell&#39;immagine e [Calcolo istogramma](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-compute/histogram-compute.md)<b> </b>per codificare un istogramma come riga di pixel.
 * <b>[Smusso uniforme](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/bevel-smooth/bevel-smooth.md):</b> grazie a questo, puoi disegnare una sfumatura o un colore piatto dai bordi di una maschera (verso l&#39;esterno, l&#39;interno o entrambi). Nodo [Distanza direzionale](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/directional-distance/directional-distance.md)<b> </b>disegna anche la sfumatura, ma in una direzione specifica.
-* <b>[Normal uncombine](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-uncombine/normal-uncombine.md):</b> questo nodo è l&#39;opposto del nodo [Normal combine](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md) e rimuove da una mappa normale i dettagli della superficie descritti da una mappa di altezza.
+* <b>[Normal uncombine](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-uncombine/normal-uncombine.md):</b> questo nodo è l&#39;opposto del nodo [Normal combine](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md) e rimuove da una mappa normale i dettagli della superficie descritti da una mappa di height.
 
 <table>
 <tr style="border: 0;">
@@ -135,7 +135,7 @@ Separa normale
 * <b>Parametri ereditati</b>: quando un parametro è [ereditato](../../glossary/glossary.md), invece di visualizzare il valore predefinito, viene visualizzato quello ereditato in modo da conoscere il valore attualmente utilizzato. Ulteriori informazioni sull&#39;ereditarietà in [questa pagina dedicata della nostra documentazione](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md).
 * Il supporto per <b>trackpad</b> su MacOS è stato completamente rielaborato per essere più naturale e in linea con altri software. Anche lo spostamento di nodi oltre i bordi della [Visualizzazione grafico](../../interface/the-graph-view/the-graph-view.md) è stato riprogettato per garantire maggiore fluidità e coerenza in tutti i sistemi operativi.
 
-* <b>vista 2D: </b>quando la visualizzazione in porzioni è abilitata in [vista 2D](../../interface/2d-view/2d-view.md), ora puoi ottenere valori anche per i pixel che non si trovano nella porzione originale: è molto utile controllare il [campionamento](../../glossary/glossary.md) e le transizioni dei valori tra le porzioni.
+* <b>Vista 2D: </b>quando la visualizzazione in porzioni è abilitata nella [vista 2D](../../interface/2d-view/2d-view.md), ora puoi ottenere valori anche per i pixel che non si trovano nella porzione originale: è molto utile controllare il [campionamento](../../glossary/glossary.md) e le transizioni dei valori tra le porzioni.
 
 ![vista 2d](../../assets/2dview.gif){width="320px" zoomable="yes"}
 
@@ -164,7 +164,7 @@ L’API di scripting include quattro nuovi metodi:
 * Metodi per ottenere e impostare il tipo di grafico di un grafico di composizione Substance: myGraph.setGraphType(&quot;newType&quot;) ; myGraph.getGraphType()
 * Metodo per aprire una risorsa pacchetto nel relativo editor (ad esempio, un grafico a Substance nella visualizzazione Grafico): myUIManager.openResourceInEditor(myResource)
 * Metodo per selezionare una risorsa pacchetto in Esplora risorse (ad esempio, un grafico a Substance): myUIManager.setExplorerSelection(myResource)
-* Metodo per il fotogramma di un nodo specifico nella visualizzazione grafico: myUIManager.focusGraphNode(myGraphViewID, myNode)
+* Metodo per creare un frame di un nodo specifico nella visualizzazione grafico: myUIManager.focusGraphNode(myGraphViewID, myNode)
 
 ## Requisiti della piattaforma VFX
 
@@ -198,7 +198,7 @@ Tieni presente che questi aggiornamenti hanno due conseguenze principali:
 * [Content] Nodo &#39;Negate Float1&#39; deprecato nel grafico della funzione Substance
 * [Content] Rinomina &quot;Quantizza colore&quot; in &quot;Quantizza colore (semplice)&quot;
 * [Vista 2D] Visualizza i valori nel pannello Informazioni per i pixel esterni all’intervallo 0-1
-* [Engine]&#x200B;[Testo] Nuova crenatura per alcuni font
+* [Engine][Testo] Nuova crenatura per alcuni font
 * [Grafico] Miglioramento del tempo di invalidamento durante la modifica di grafici secondari profondi durante l&#39;utilizzo di un&#39;edizione contestuale
 * [Linker] Non duplicare bitmap in SBSASM
 * [Parameters] Aggiungere un nuovo widget &quot;function&quot; per tutti i tipi di parametri di input
@@ -207,17 +207,17 @@ Tieni presente che questi aggiornamenti hanno due conseguenze principali:
 * [UX] Modernizza il panning quando si raggiunge il bordo del grafico durante la selezione
 * [UX] Rimozione della funzionalità &quot;Disattiva High DPI&quot;
 * [Branding] Nuovo branding per la schermata iniziale e la finestra Informazioni su
-* [Mappa sfumatura] Aggiungi un modo per spostare tutti i tasti e il ciclo
+* [Gradient Map] Aggiungi un modo per spostare tutti i tasti e il ciclo
 * [Library] Imposta tutti i filtri predefiniti su maiuscole/minuscole
-* [API] Aggiungi metodo per raggruppare un nodo specifico nella finestra della vista Grafico
+* [API] Metodo Add per inserire un frame in un nodo specifico nella finestra della vista Grafico
 * [API] Metodo Add per aprire una risorsa pacchetto nel relativo editor (ad esempio, un grafico a Substance nella vista Grafico)
 * [API] Aggiungi metodo per selezionare una risorsa pacchetto in Esplora risorse (ad esempio, un grafico a Substance)
 * [API] Aggiungi metodi per ottenere e impostare il tipo di grafico di un grafico di composizione Substance
 * [ThirdParty] Segui le raccomandazioni sulle piattaforme VFX del 2023
 * [ThirdParty] Segui le raccomandazioni sulle piattaforme VFX del 2024
-* [Third Party] Aggiornamento incrementato alla versione 1.82.0 + USD alla versione 23.08
+* [ThirdParty] Aggiorna Boost a 1.82.0 + USD a 23.08
 * [ThirdParty] Aggiornamento NGL alla 1.38
-* [Third Party] Aggiornamento OpenColorIO alla versione 2.3.x
+* [ThirdParty] Aggiorna OpenColorIO alla versione 2.3.x
 * [ThirdParty] Aggiornamento di OpenExr alla versione 3.2.x
 * [ThirdParty] Aggiornamento di OpenSubdiv alla versione 3.6.x
 * [ThirdParty] Aggiorna Python alla versione 3.11.x
@@ -229,7 +229,7 @@ Tieni presente che questi aggiornamenti hanno due conseguenze principali:
 
 ### Correzioni
 
-* [Baker] Arresto anomalo quando si rigenera una scena il cui nome file è stato modificato
+* [Bakers] Arresto anomalo quando si ripristina una scena il cui nome file è stato modificato
 * [Bakers] Arresto anomalo durante il salvataggio del predefinito bakers in un file JSON
 * [Content] &#39;Dispersione su spline&#39;: Esposizione parametro alfa immagine di input
 * [Content] &#39;Tile Sampler Color&#39;: espressione visibleif mancante

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/the-graph-view/node-finder.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/node-finder.html"
 breadcrumb-title: ''
 description: Utilizzare Ricerca nodi per individuare e cercare rapidamente i nodi nei grafici Substance per una navigazione efficiente.
 helpx_creative_field: ""
@@ -198,13 +198,13 @@ La descrizione dei nodi di istanza include l&#39;identificatore del relativo gra
 +++Suggerimenti per query
 Il campo di query può essere espanso per visualizzare un elenco di suggerimenti.
 
-Queste includono [variabili incorporate](../../../function-graphs/variables/system-variables/system-variables.md) disponibili per il tipo di grafico corrente, nonché gli identificatori dei parametri esposti del grafico.
+Queste includono [variabili incorporate](../../../function-graphs/variables/system-variables/system-variables.md) disponibili per il tipo di grafico corrente, nonché identificatori dei parametri esposti del grafico.
 
 ![Suggerimenti per le query di ricerca nodi](../../../assets/node-finder-available-query-suggestions.png "Suggerimenti per le query di ricerca nodi"){zoomable="yes"}
 
 
 
-L&#39;identificatore dei parametri esposti può anche essere copiato o modificato direttamente nelle [proprietà del grafico Substance](../../../compositing-graphs/graph-parameters/graph-parameters.md).
+L&#39;identificatore di parametri esposti può anche essere copiato o modificato direttamente nelle [proprietà del grafico Substance](../../../compositing-graphs/graph-parameters/graph-parameters.md).
 
 ![Ricerca nodi: parametri esposti](../../../assets/node-finder-compositing-exposed-parameter.png "Ricerca nodi: parametri esposti"){zoomable="yes"}
 
@@ -240,7 +240,7 @@ Quando si cerca una variabile in un grafico, inclusi i parametri esposti, la ric
 
 ### UID nodo
 
-Ogni nodo di un grafico ha un numero identificativo univoco (UID) che può essere utilizzato per cercare quel nodo.
+Ogni nodo di un grafico ha un numero di identificatore univoco (UID) che può essere utilizzato per cercare quel nodo.
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">

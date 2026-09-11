@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-uv.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-uv.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo UV Diffusione per applicare effetti di diffusione nello spazio UV per creare transizioni di colore uniformi e fusione.
 helpx_creative_field: ""
@@ -37,11 +37,11 @@ Applicate un processo di diffusione alle coordinate UV nell&#39;input dell&#39;i
 
 Vengono diffusi solo gli UV dei pixel corrispondenti alla maschera; gli altri pixel non partecipano al risultato.
 
-Si noti che l&#39;Affiancamento viene gestito in modo speciale: quando l&#39;Affiancamento è *abilitato* (che è il caso per impostazione predefinita) le coordinate adiacenti possono essere calcolate in media attraverso il limite 0/1.
+Si noti che la suddivisione in porzioni viene gestita in modo speciale: quando la suddivisione in porzioni è *abilitata* (che è il caso per impostazione predefinita), è possibile calcolare la media delle coordinate adiacenti per il limite 0/1.
 
-Ad esempio, se il valore della coordinata U è 0,1 su un pixel e 0,8 su un altro, il valore medio sarà 0,95 anziché 0,45 perché si presuppone *un Affiancamento di coordinate*. Ciò è indipendente dalla posizione effettiva dei pixel: i valori delle coordinate vengono gestiti allo stesso modo in tutta l’immagine.
+Ad esempio, se il valore della coordinata U è 0,1 su un pixel e 0,8 su un altro, il valore medio sarà 0,95 anziché 0,45 perché si presuppone che *le coordinate siano affiancate*. Ciò è indipendente dalla posizione effettiva dei pixel: i valori delle coordinate vengono gestiti allo stesso modo in tutta l’immagine.
 
-Ciò può portare a risultati indesiderati quando si utilizza questo filtro per *deformazione texture*. In tal caso, assicurati che la maschera definisca &quot;curve/punti di controllo&quot; a non più di *mezza lunghezza della texture*.
+Ciò può portare a risultati indesiderati quando si utilizza questo filtro per *deformazioni della texture*. In tal caso, assicurati che la maschera definisca &quot;curve/punti di controllo&quot; a non più di *mezza lunghezza della texture*.
 
 </td>
 </tr>
@@ -53,7 +53,7 @@ Ciò può portare a risultati indesiderati quando si utilizza questo filtro per 
 
 |  |  |
 |:---|:---|
-| <b>Origine</b> <i>Colore</i> | UV da diffondere. L&#39;Affiancamento è gestito in modo speciale in questo filtro (vedere <i>Descrizione</i>). |
+| <b>Origine</b> <i>Colore</i> | UV da diffondere. In questo filtro la suddivisione in porzioni viene gestita in modo speciale (vedere <i>Descrizione</i>). |
 | <b>Maschera</b> <i>Scala di grigi</i> | Maschera di diffusione: i pixel bianchi vengono campionati in <i>Sorgente</i> e diffusi in pixel neri. L’immagine deve essere in bianco e nero. Se la maschera include sfumature, il valore di taglio è 0,5. |
 
 <a name="parameters"></a>

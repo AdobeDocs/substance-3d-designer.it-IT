@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/ambient-occlusion-rtao.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/ambient-occlusion-rtao.html"
 breadcrumb-title: ''
-description: Utilizza il nodo Occlusione ambiente (RTAO) per generare mappe di occlusione ambientale in tempo reale da mappe di height per un'ombreggiatura realistica.
+description: Utilizza il nodo Occlusione ambientale (RTAO) per generare mappe di occlusione ambientale in tempo reale da mappe di altezza per un'ombreggiatura realistica.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Ambient Occlusion (RTAO)
 helpx_experience_level: ""
@@ -33,11 +33,11 @@ ht-degree: 1%
 
 ## Descrizione
 
-Genera una mappa di Occlusione ambientale in base all&#39;input di una mappa di height.
+Genera una mappa di Occlusione ambientale basata sull&#39;input di una mappa di altezza.
 
 Questo filtro fornisce risultati più accurati rispetto all&#39;HBAO ma non deve essere utilizzato in combinazione con il motore CPU (SSE) a causa del tempo di calcolo.
 
-Per un&#39;alternativa più semplice e veloce, vedere [Occlusione ambiente (HBAO) (nodo filtro)](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/ambient-occlusion-hbao/ambient-occlusion-hbao-filter-node.md).
+Per un&#39;alternativa più semplice e veloce, vedere [Occlusione ambientale (nodo filtro)](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/ambient-occlusion-hbao/ambient-occlusion-hbao-filter-node.md).
 
 </td>
 </tr>
@@ -50,12 +50,12 @@ Per un&#39;alternativa più semplice e veloce, vedere [Occlusione ambiente (HBAO
 |  |  |
 |:---|:---|
 | <b>Usa Dimensioni fisiche</b> <i>Booleano</i> | Attivate/disattivate per utilizzare le impostazioni della Dimensioni fisiche per determinare la scala del height. |
-| <b>Dimensioni fisiche</b> <i>Float3</i> <i>(Disponibile quando <b>Usa Dimensioni fisiche</b> è impostato su <i>Vero</i>)</i> | Regola la scala del height in base alla dimensioni fisiche reale della superficie |
+| <b>Dimensioni fisiche</b> <i>Virgola mobile 3</i> <i>(Disponibile quando <b>Usa Dimensioni fisiche</b> è impostato su <i>Vero</i>)</i> | Regola la scala del height in base alla dimensioni fisiche reale della superficie |
 | <b>Esempi</b> <i>Numero intero</i> | Numero di raggi utilizzati per il calcolo dell&#39;occlusione ambientale.<br>Un valore più elevato fornisce un risultato più uniforme e preciso a scapito delle prestazioni. |
-| <b>Scala Height</b> <i>Mobile</i> <i>(Disponibile quando <b>Usa Dimensioni fisiche</b> è impostato su <i>False</i>)</i> | Moltiplicatore per l&#39;intensità dell&#39;input della mappa del height. |
+| <b>Scala Height</b> <i>Virgola mobile</i> <i>(Disponibile quando <b>Usa Dimensioni fisiche</b> è impostato su <i>False</i>)</i> | Moltiplicatore per l&#39;intensità dell&#39;input della mappa dell&#39;altezza. |
 | <b>Distribuzione</b> <i>Numero intero</i> | Imposta il metodo di distribuzione. Influisce sul decadimento verso le aree in ombra, |
-| <b>Distanza Massima</b> <i>Virgola mobile</i> | Consente di impostare la distanza massima percorribile dai raggi per l’occlusione. |
-| <b>Angolo di diffusione</b> <i>Virgola mobile</i> | Consente di impostare l’angolo di diffusione dei raggi da riprendere. Un valore pari a 1 è un emisfero completo. |
+| <b>Distanza Massima</b> <i>Mobile</i> | Consente di impostare la distanza massima percorribile dai raggi per l’occlusione. |
+| <b>Angolo di diffusione</b> <i>Mobile</i> | Consente di impostare l’angolo di diffusione dei raggi da riprendere. Un valore pari a 1 è un emisfero completo. |
 
 ## Esempi
 

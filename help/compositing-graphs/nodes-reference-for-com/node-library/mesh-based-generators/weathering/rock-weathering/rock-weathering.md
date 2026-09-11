@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/rock-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/rock-weathering.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo di erosione rocciosa per generare pattern di erosione sulle superfici rocciose in base alla geometria della trama per ottenere effetti di erosione realistici.
 helpx_creative_field: ""
@@ -72,11 +72,11 @@ ht-degree: 16%
 | <b>Desaturazione roccia usata</b> <i>0.0 - 1.0</i> |  |
 | <b>Luminosità Rock Usata</b> <i>0.0 - 1.0</i> |  |
 | <b>Fusione</b> |  |
-| <b>Intensità Diffusa</b> <i>0.0 - 1.0</i> | Intensità di fusione delle Diffuse. |
-| <b>Intensità Colore di base</b> <i>0.0 - 1.0</i> | Forza di fusione del Colore di base. |
+| <b>Intensità Diffusa</b> <i>0.0 - 1.0</i> | Intensità di fusione della Diffusione. |
+| <b>Intensità Colore di base</b> <i>0.0 - 1.0</i> | Intensità di fusione del colore di base. |
 | <b>Intensità normale</b> <i>0.0 - 64.0</i> | Intensità di fusione del normale. |
 | <b>Intensità Specular</b> <i>0.0 - 1.0</i> | Forza di fusione dello Specular. |
-| <b>Intensità Lucentezza</b> <i>0.0 - 1.0</i> | Forza di fusione della Lucentezza. |
+| <b>Intensità Lucentezza</b> <i>0.0 - 1.0</i> | Forza di fusione della lucidità. |
 | <b>Intensità rugosità</b> <i>0.0 - 1.0</i> | Forza di fusione della rugosità. |
 | <b>Intensità Occlusione ambientale</b> <i>0.0 - 1.0</i> | Intensità di fusione dell’Occlusione ambiente. |
 | <b>Intensità Height</b> <i>0.0 - 1.0</i> | Forza di fusione del Height. |

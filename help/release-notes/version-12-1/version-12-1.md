@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/release-notes/version-12-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-12-1.html"
 breadcrumb-title: ''
 description: Consulta le note sulla versione per Substance 3D Designer versione 12.1 per informazioni sulle nuove funzioni, i miglioramenti e le correzioni di bug.
 helpx_creative_field: ""
@@ -134,7 +134,7 @@ Date un&#39;occhiata alle pagine dei nodi collegate di seguito per esempi dell&#
 * [Content] Nuova versione del nodo Quantizza scala di grigi
 * [Content] Nuovi rumori frattali di Voronoi e Voronoi (2D/3D)
 * [Content] Threshold: aggiungi modalità di confronto &#39;Lower&#39; e &#39;Lower and equal&#39;
-* [Content]&#x200B;[Vista 3D] Aggiungi una trama adatta alla visualizzazione dei tessuti nelle risorse spedite
+* [Content][Vista 3D] Aggiungi una trama adatta alla visualizzazione dei tessuti nelle risorse spedite
 * [Substance modelli] Nuovo nodo Espandi istanze gruppo
 * [Modelli Substance] Nuovo nodo Fuse
 * [Substance modelli] Nuovo nodo Rinomina
@@ -146,18 +146,18 @@ Date un&#39;occhiata alle pagine dei nodi collegate di seguito per esempi dell&#
 * [ThirdParty] Aggiornamento di OpenSSL a 1.1.1m
 * [UI] Migliora il comportamento del menu Nodo quando si fa clic su di esso
 * [UI] Apri i grafici secondari nella stessa scheda anche se bloccati
-* [UI] Rimuovi il pulsante del perno dalla barra del titolo del pannello Esplora risorse
+* [UI] Rimuovi il pulsante Segnaposto dalla barra del titolo del pannello Esplora risorse
 * [UI] Salva l’opzione &quot;Non visualizzare più&quot; nella schermata di benvenuto nelle diverse versioni
-* [Vista 3D] Visualizza l&#39;unità della griglia nella finestra della vista quando è attivato l&#39;helper &quot;Asse&quot;
+* [vista 3D] Visualizza l&#39;unità Griglia nella finestra della vista quando è attivato l&#39;helper &quot;Asse&quot;
 * [Automazione] Fornisci lo strumento da riga di comando sbsbaker con Designer
-* [Gestione colore] Implementazione del nuovo back-end GPU per Adobe
+* [Gestione colore] Implementazione del nuovo back-end GPU per Adobe ACE
 * [Cooker] Aggiungi un&#39;opzione per cucinare un pacchetto senza timestamp
 * [Grafico] Aggiungere i distintivi nel grafico FxMap
 * [Library] Aggiungi un nuovo filtro per le funzioni di regolazione
 * [Player] Supporto USD
 * [Properties] Aggiunge un errore di avvertenza nel parametro &quot;PKG Resource Path&quot; di un nodo Bitmap quando la risorsa non viene trovata
 * [Substance Engine] Aggiornamento alla versione 8.4.1
-* [Sì] Avvisa l’utente che gli effetti post di Yebis verranno rimossi nella prossima versione
+* [Yebis] Avvisa l’utente che gli effetti post Yebis verranno rimossi nella prossima versione
 * [Documentazione] Nuova pagina &quot;Avvisi ed errori&quot;
 * [Documentazione] Nuova pagina che descrive l’ereditarietà nei grafici Substance
 * [Documentation] Aggiornamento della sezione &#39;Iray&#39;
@@ -176,8 +176,8 @@ Date un&#39;occhiata alle pagine dei nodi collegate di seguito per esempi dell&#
 * [Content] Flood Fill: pagina al vivo del testo nei pulsanti dei parametri booleani
 * [Contenuto] Intervallo errato per il parametro da multi-angolo a angolo luce primo campione del nodo normale
 * [Modelli Substance] Le proprietà del nodo mostrano l&#39;identificatore anziché l&#39;etichetta
-* [Substance modelli]&#x200B;[Vista 3D] Problema di aggiornamento durante la riapertura di un progetto
-* [Substance models]&#x200B;[3Dview] Problema di aggiornamento quando si utilizza l&#39;anteprima wireframi
+* [Substance modelli][Vista 3D] Problema di aggiornamento durante la riapertura di un progetto
+* [Substance models][3Dview] Problema di aggiornamento quando si utilizza l&#39;anteprima wireframi
 * [Parametri] Arresto anomalo quando si eliminano gli input del grafico in rapida successione in un caso specifico
 * [Parametri] Arresto anomalo durante la reimpostazione di un parametro di istanza durante la modifica della relativa descrizione di riferimento
 * [Bitmap] Il rilevamento UDIM non viene attivato per i file bitmap rilasciati nel grafico

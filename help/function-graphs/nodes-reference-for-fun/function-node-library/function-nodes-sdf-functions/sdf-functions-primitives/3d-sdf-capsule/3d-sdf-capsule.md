@@ -40,9 +40,9 @@ Una Funzione SDF per una capsula di lunghezza e raggio regolabili.<br>La capsula
 
 |  |  |
 | :--- | :--- |
-| <b>Inizio</b> *Float3* | Posizione della sfera iniziale.<br><br><i>Impostazione predefinita: (0, 0, 0)</i> |
-| <b>Fine</b> *Float3* | Posizione della sfera finale.<br><br><i>Impostazione predefinita: (0, 0, 1)</i> |
-| <b>Raggio</b> *Mobile* | Raggio delle sfere iniziale e finale.<br><br><i>Impostazione predefinita: 0.25</i> |
+| <b>Inizio</b> *Virgola mobile 3* | Posizione della sfera iniziale.<br><br><i>Impostazione predefinita: (0, 0, 0)</i> |
+| <b>Fine</b> *Virgola mobile 3* | Posizione della sfera finale.<br><br><i>Impostazione predefinita: (0, 0, 1)</i> |
+| <b>Raggio</b> *Virgola mobile* | Raggio delle sfere iniziale e finale.<br><br><i>Impostazione predefinita: 0.25</i> |
 | <b>Inizio/fine alla punta</b> *Booleano* | Controlla se le posizioni <b>Inizio</b> e <b>Fine</b> devono essere alle estremità delle sfere.<br>Controlla ad esempio se il height della capsula deve includere il raggio delle sfere.<br><br><i>Impostazione predefinita: False</i> |
-| <b>Posizione centrale</b> *Float3* | Posizione nello spazio globale del perno della capsula.<br><br><i>Impostazione predefinita: (0, 0, 0)</i> |
-| <b>P</b> *Float3* | La posizione trasformata dello spazio mondiale. Utilizza questo input per applicare trasformazioni aggiuntive utilizzando i nodi <b>Offset P</b> e <b>Rotazione P</b>.<br><br><i>Impostazione predefinita: la posizione dello spazio globale non trasformata.</i> |
+| <b>Posizione centrale</b> *Virgola mobile 3* | Posizione nello spazio globale del perno della capsula.<br><br><i>Impostazione predefinita: (0, 0, 0)</i> |
+| <b>P</b> *Virgola mobile 3* | La posizione Trasforma nello spazio mondiale. Utilizza questo input per applicare trasformazioni aggiuntive utilizzando i nodi <b>Offset P</b> e <b>Rotazione P</b>.<br><br><i>Impostazione predefinita: la posizione dello spazio globale non trasformata.</i> |

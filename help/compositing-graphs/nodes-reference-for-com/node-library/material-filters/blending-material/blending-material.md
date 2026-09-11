@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material.html"
 breadcrumb-title: ''
 description: Accedete ai nodi di fusione dei materiali in Substance 3D Designer per combinare e fondere i materiali per creare effetti di materiale composito.
 helpx_creative_field: ""
@@ -27,4 +27,4 @@ Questi nodi consentono di risparmiare una grande quantità di lavoro, ma è impo
 I nodi seguenti sono quelli utili per iniziare:
 
 * [Fusione multimateriale](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/multi-material-blend/multi-material-blend.md)
-* [Blend di regolazione materiale](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-adjustment-blend/material-adjustment-blend.md)
+* [Fusione di regolazione materiale](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-adjustment-blend/material-adjustment-blend.md)

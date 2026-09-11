@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/output-size.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/output-size.html"
 breadcrumb-title: ''
 description: Configura le impostazioni delle dimensioni di output per Substance grafici di composizione per controllare la risoluzione e la qualità delle texture.
 helpx_creative_field: ""
@@ -77,7 +77,7 @@ Quando la proprietà Dimensione output utilizza un *Relativo a...* [metodo di er
 
 Modificatori relativi all’intervallo di risoluzione ereditato compreso tra -12 e +12 su una scala logaritmica; il valore predefinito è 0. Questo significa che ogni passaggio sopra o sotto comporta il raddoppio o il dimezzamento della risoluzione. La tabella a destra fornisce un esempio di come la risoluzione relativa cambia in una dimensione per un valore ereditato di 9 (ovvero, 512 = 2^9) e 11 (ovvero, 2048 = 2^11):
 
-Al di sopra di 8196, la dimensione è *limitata*. Questo limite è controllato dall&#39;impostazione <b>Limite dimensione cottura</b> nella sezione <b>Generali</b> delle [Preferenze](../../interface/preferences-window/preferences-window.md). Notate che lavorare con risoluzioni molto elevate comporta un costo delle prestazioni proporzionale e un ingombro di memoria esponenziale. Inoltre, i limiti nell’elaborazione grafica pongono un limite rigido alle dimensioni massime di una texture.
+Al di sopra di 8196, la dimensione è *limitata*. Questo limite è controllato dall&#39;impostazione <b>Limite dimensione cottura</b> nella sezione <b>Generali</b> delle [Preferenze](../../interface/preferences-window/preferences-window.md). Notate che lavorare con risoluzioni molto elevate comporta un costo delle prestazioni proporzionale e un ingombro di memoria esponenziale. Inoltre, i limiti nell’elaborazione grafica pongono un limite rigido alla dimensione massima di una texture.
 
 | -5 | -4 | -3 | -2 | -1 | 0 | +1 | +2 | +3 | +4 | +5 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -102,7 +102,7 @@ Visualizzare le proprietà di un nodo o di un grafico facendo clic sull&#39;elem
 
 ## Problemi di esempio
 
-Se sei un nuovo utente di [Adobe Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html), potresti riscontrare alcuni problemi comuni. Di seguito sono riportati alcuni esempi e alcune soluzioni.
+Se sei un nuovo utente di [Adobe Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html), potresti riscontrare alcuni problemi comuni. Di seguito sono riportati alcuni esempi e alcune soluzioni.
 
 +++Problema 1
 **![(errore)](../../assets/error.svg) Problema**

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/home-screen.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/home-screen.html"
 breadcrumb-title: ''
 description: Utilizza la schermata Home in Substance 3D Designer per accedere a progetti, modelli e risorse di apprendimento recenti.
 helpx_creative_field: ""
@@ -90,6 +90,6 @@ Nella parte inferiore sinistra dello schermo, i collegamenti utili sono elencati
 
 * <b>Informazioni su Designer:</b> Visualizza la schermata Informazioni su Designer (vedere sopra);
 * <b>Documentazione online:</b> apre una pagina Web per [questa documentazione](../../home/home.md);
-* <b>Sito Web:</b> apre una pagina Web nella [pagina del prodotto](https://www.adobe.com/it/products/substance3d-designer.html) di Substance 3D Designer;
+* <b>Sito Web:</b> apre una pagina Web nella [pagina del prodotto](https://www.adobe.com/products/substance3d-designer.html) di Substance 3D Designer;
 * <b>Forum:</b> apre una pagina Web per la [community di supporto](https://community.adobe.com/t5/substance-3d-designer/ct-p/ct-substance-3d-designer?page=1&sort=latest_replies&filter=all&lang=all&tabid=discussions) di Substance 3D Designer;
 * <b>Risorse della community:</b> Apre una pagina Web per Substance 3D [Risorse della community](https://substance3d.adobe.com/community-assets/).

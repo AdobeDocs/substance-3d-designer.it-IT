@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Iray
 
-Questa pagina presenta il modulo di rendering Iray disponibile nel pannello di visualizzazione 3D di [Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html), che offre la traccia dei percorsi interattiva per il rendering fotorealistico con accelerazione CPU e/o GPU (solo GPU Nvidia).
+Questa pagina presenta il modulo di rendering Iray disponibile nel pannello di visualizzazione 3D di [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html), che offre la traccia dei percorsi interattiva per il rendering fotorealistico con accelerazione CPU e/o GPU (solo GPU Nvidia).
 
 >[!WARNING]
 > 

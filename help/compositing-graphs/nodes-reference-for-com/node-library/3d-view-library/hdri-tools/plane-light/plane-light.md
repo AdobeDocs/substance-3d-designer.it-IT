@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/plane-light.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/plane-light.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Luce piano per aggiungere sorgenti planari di luce agli ambienti HDRI per il controllo direzionale dell’illuminazione.
 helpx_creative_field: ""
@@ -62,7 +62,7 @@ Si distingue dalla [Luce forma](../../../../../../compositing-graphs/nodes-refer
 | <b>Coordinate posizione</b> |  |
 | <b>Vettore Su</b> <i>Z Su, Y Su</i> | Solo con la modalità Posizione mondo (World Position), determinate l&#39;orientamento del sistema di coordinate. |
 | <b>Posizione UV piano</b> | Solo con messa a terra/a soffitto e Distanza dall&#39;origine. Imposta la posizione del piano nello spazio UV. |
-| <b>Posizione Plane World</b> <i>-2.0 - 2.0</i> | Solo con la modalità Posizioni mondiali. Imposta lo spazio del mondo della posizione piana. Nessuna interazione di visualizzazione 2D supportata. |
+| <b>Posizione Plane World</b> <i>-2.0 - 2.0</i> | Solo con la modalità Posizioni mondiali. Imposta lo spazio del mondo della posizione piana. Nessuna interazione di Vista 2D supportata. |
 | <b>Height assoluto piano</b> <i>0.0 - 1.0</i> | Solo con la modalità di posizione Terra/Soffitto, imposta il height assoluto dal soffitto. Utilizzate Mostra griglia terreno per stimare meglio la posizione. |
 | <b>Distanza dall&#39;origine</b> <i>0.0 - 1.0</i> | Solo con la modalità Posizione Distanza dall&#39;origine. Imposta la distanza dal centro del panorama per entrambi i punti. |
 | <b>Metodo colore forma</b> <i>RGB, Temperatura (Kelvin), Input Immagine</i> | Scegliere il metodo da utilizzare per impostare il colore della forma. Image Input consente di utilizzare il secondo slot di ingresso. |

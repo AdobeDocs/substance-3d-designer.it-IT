@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/view-color-palette.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/view-color-palette.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo Visualizza tavolozza colori per visualizzare i dati della tavolozza dei colori estratti dalle texture per l'analisi.
+description: Utilizzare il nodo Visualizza tavolozza colori per visualizzare i dati della tavolozza dei colori estratti dalle texture per l'analisi.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > View Color Palette
 helpx_experience_level: ""
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## Descrizione
 
-Inserisce una tavolozza di colori in un quadrato o in un rettangolo per visualizzarla più facilmente nella vista Grafico o 2D.\
+Inserisce una tavolozza di colori in un quadrato o in un rettangolo per visualizzarla più facilmente nella Vista grafico o nel vista 2D.\
 L&#39;impacchettamento mira a lasciare il minor numero possibile di slot vuoti.
 
 </td>

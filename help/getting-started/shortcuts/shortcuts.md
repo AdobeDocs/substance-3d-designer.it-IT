@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/getting-started/shortcuts.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/shortcuts.html"
 breadcrumb-title: ''
 description: Scopri le scelte rapide da tastiera in Substance 3D Designer per velocizzare il flusso di lavoro e migliorare la produttività.
 helpx_creative_field: ""
@@ -66,7 +66,7 @@ In questa pagina puoi trovare una panoramica di tutte le scelte rapide per Subst
 | Incolla | Ctrl + V | ⌘ + V |
 | Menu contestuale | RMB | RMB |
 | Menu Nodo | Barra spaziatrice | Barra spaziatrice |
-| Esegui ciclo di [segnaposti di navigazione](../../interface/the-graph-view/graph-items/graph-items.md) | F2 | F2 |
+| Esegui ciclo di [puntine di navigazione](../../interface/the-graph-view/graph-items/graph-items.md) | F2 | F2 |
 
 <b>Modalità di creazione del collegamento</b>
 

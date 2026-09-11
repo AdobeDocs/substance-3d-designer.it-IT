@@ -40,6 +40,6 @@ Restituisce il volume comune a due forme SDF, in pratica il volume creato quando
 
 |  |  |
 | :--- | :--- |
-| <b>SDF 1</b> *Mobile* | La prima forma SDF. |
-| <b>SDF 2</b> *Mobile* | La seconda forma SDF. |
-| <b>Smoothness</b> *Mobile* | Smoothness dei bordi in corrispondenza dell&#39;intersezione delle due forme SDF.<br><br><i>Nota:</i> bordi rigidi possono apparire nel punto in cui i raggi di arrotondamento si intersecano.<br><br><i>Impostazione predefinita: 0</i> |
+| <b>SDF 1</b> *Virgola mobile* | La prima forma SDF. |
+| <b>SDF 2</b> *Virgola mobile* | La seconda forma SDF. |
+| <b>Smoothness</b> *Virgola mobile* | Smoothness dei bordi in corrispondenza dell&#39;intersezione delle due forme SDF.<br><br><i>Nota:</i> bordi rigidi possono apparire nel punto in cui i raggi di arrotondamento si intersecano.<br><br><i>Impostazione predefinita: 0</i> |

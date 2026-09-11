@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/2d-view/color-sampler.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/2d-view/color-sampler.html"
 breadcrumb-title: ''
-description: Utilizzate lo strumento Sampler colori nella vista 2D per campionare i colori dalle texture per una corrispondenza di colore precisa.
+description: Utilizzate lo strumento Sampler colori nella Vista 2D per campionare i colori dalle texture per una corrispondenza di colore precisa.
 helpx_creative_field: ""
 helpx_description: Designer > Interface > 2D view > Color sampler tool
 helpx_experience_level: ""
@@ -24,18 +24,18 @@ ht-degree: 0%
 
 Lo strumento Sampler colori consente di <b>tenere traccia del valore di un pixel specifico</b> nella [vista 2D](../../../interface/2d-view/2d-view.md) mentre si modificano i parametri o si cambiano i nodi.
 
-Posiziona un perno nella finestra della vista e campiona il colore e la posizione del pixel in quella posizione.
+Inserisce un segnaposto nella finestra della vista ed esegue un campionamento del colore e della posizione del pixel in quella posizione.
 
 ## Utilizzo dello strumento
 
 Seguite questi passaggi per accedere e utilizzare lo strumento:
 
-1. Fare clic sul pulsante ![](../../../assets/color-sampler-information-button.png) <b>Informazioni</b> nella barra degli strumenti della visualizzazione 2D per aprire l&#39;ancoraggio informazioni e la barra degli strumenti
+1. Fare clic sul pulsante ![](../../../assets/color-sampler-information-button.png) <b>Informazioni</b> nella barra degli strumenti di Vista 2D per aprire l&#39;area informazioni e la barra degli strumenti
 1. Fai clic sul pulsante ![](../../../assets/color-sampler-tool-icon.png) <b>Strumento Sampler colori</b> nella barra degli strumenti Informazioni
-1. Nella finestra della vista, fate clic sul pixel specifico da campionare per posizionare un ![](../../../assets/color-sampler-pin-icon.png) <b>pin</b>
+1. Nella finestra della vista, fate clic sul pixel specifico da campionare per posizionare un ![](../../../assets/color-sampler-pin-icon.png) <b>segnaposto</b>
 1. Esaminare i valori campionati nella sezione dedicata del Dock informazioni
-1. Al termine, fare clic sul pulsante ![](../../../assets/color-sampler-remove-pin.png) <b>Elimina</b> per rimuovere il pin dalla finestra della vista.\
-   Puoi anche rimuovere il perno facendo clic su RMB e selezionando l&#39;azione &quot;Elimina&quot; nel menu di scelta rapida.
+1. Al termine, fare clic sul pulsante ![](../../../assets/color-sampler-remove-pin.png) <b>Elimina</b> per rimuovere il segnaposto dalla finestra della vista.\
+   Puoi anche rimuovere il segnaposto facendo clic su RMB e selezionando l&#39;azione &quot;Elimina&quot; nel menu di scelta rapida.
 
 Ecco una dimostrazione dello strumento in azione:
 
@@ -44,7 +44,7 @@ Ecco una dimostrazione dello strumento in azione:
 *Fare clic per ingrandire*
 
 +++Copiare i valori RGBA campionati
-Potete copiare i valori campionati facendo clic su RMB sul pin e selezionando l’azione &quot;Copia valori RGBA&quot; nel menu di scelta rapida.
+Potete copiare i valori campionati facendo clic su RMB sul segnaposto e selezionando l’azione &quot;Copia valori RGBA&quot; nel menu di scelta rapida.
 
 I valori copiati possono essere <b>incollati nei parametri utilizzando una miniatura di colore</b>.
 

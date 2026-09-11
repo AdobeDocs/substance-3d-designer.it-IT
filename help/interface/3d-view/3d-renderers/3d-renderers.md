@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/3d-view/3d-renderers.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/3d-renderers.html"
 breadcrumb-title: ''
 description: Nella vista 3D, potete scegliere tra i moduli di rendering rasterizzatore e tracciatore, per ottenere diverse prestazioni e qualità di anteprima.
 helpx_creative_field: ""
@@ -73,7 +73,7 @@ Grazie alla sua dipendenza da USD, può sfruttare il plug-in [USDFileFormat](htt
 
 >[!TIP]
 >
-> È possibile selezionare il modulo di rendering utilizzato per impostazione predefinita all&#39;avvio di una nuova visualizzazione 3D nella sezione [&quot;Visualizzazione 3D&quot; delle impostazioni del progetto](../../../interface/preferences-window/project-settings/project-settings.md).
+> È possibile selezionare il modulo di rendering utilizzato per impostazione predefinita all&#39;avvio di un nuovo vista 3D nella sezione [&quot;Visualizzazione 3D&quot; delle impostazioni del progetto](../../../interface/preferences-window/project-settings/project-settings.md).
 
 <a name="rasterizer"></a>
 
@@ -83,15 +83,15 @@ Grazie alla sua dipendenza da USD, può sfruttare il plug-in [USDFileFormat](htt
 
 |                                                                 |                                                                                                                                                                                                                                                                             |
 |-----------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Esempi** Mobile | Specifica il numero di campioni di pixel da calcolare prima che l&#39;immagine venga considerata convergente. |
-| **Opacità occlusione ambiente** Mobile | Specifica il valore dell’opacità di occlusione ambientale. |
+| Virgola mobile **Esempi** | Specifica il numero di campioni di pixel da calcolare prima che l&#39;immagine venga considerata convergente. |
+| Virgola mobile **Opacità Occlusione ambientale** | Specifica il valore dell’opacità di occlusione ambientale. |
 | **Attiva spostamento** booleano | Specifica se abilitare lo spostamento. |
-| **Soglia di Spostamento** Mobile | Imposta una soglia per abilitare o disabilitare la tassellatura GPU. |
+| Virgola mobile **soglia Spostamento** | Imposta una soglia per abilitare o disabilitare la tassellatura GPU. |
 | **Abilita eliminazione backface** booleano | Un valore vero consentirà di eliminare le trame triangolari che hanno delle normali orientate in direzione opposta rispetto alla fotocamera. Un valore falso disattiverà l’eliminazione del backface. |
 | **Modalità diagnostica** Numero intero | Determina la modalità diagnostica da renderizzare. |
 | **Modalità ombreggiatura rasterizzatore** Numero intero | Specifica la tecnica da utilizzare per il rendering delle ombre:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Nessuna ombra:</i> Nessuna ombra verrà visualizzata.</li> <li data-preserve-html="true"><i>Voxel ha marciato:</i> ha marciato i raggi delle ombre in una scena voxelizzata.</li> </ul> |
 | **Conteggio campioni ombreggiatura rasterizzatore** Numero intero | Specifica quanti raggi di ombra vengono tracciati per pixel. |
-| **Opacità ombra rasterizzatore** mobile | Consente di specificare l’opacità delle ombre, da 0,0 (nessuna ombra) a 1,0 (ombre complete). |
+| Virgola mobile **Opacità ombra rasterizzatore** | Consente di specificare l’opacità delle ombre, da 0,0 (nessuna ombra) a 1,0 (ombre complete). |
 | **Trasparenza indipendente dall&#39;ordine rasterizzatore abilitata** booleano | Non tiene conto dell&#39;ordine delle superfici trasparenti durante il rendering. In questo modo si sacrifica una certa precisione per un rendering più veloce delle superfici trasparenti. |
 | **Abilita booleano SSS** rasterizzatore | Attiva/disattiva l’effetto di dispersione del sottosuolo. |
 | **Conteggio campioni SSS rasterizzatore** Numero intero | Specifica quanti campioni vengono prelevati per pixel per eseguire il rendering della dispersione sottosuperficie. |
@@ -178,7 +178,7 @@ Per la visualizzazione del height sono disponibili due tecniche:
 
 <b>Tassellatura + Spostamento</b>: suddivide la geometria e sposta i vertici lungo le normali.
 
-L&#39;Adobe Standard Material è documentato in dettaglio in [questa sezione](https://experienceleague.adobe.com/it/docs/substance-3d/general-knowledge/asm/adobe-standard-material) della documentazione.
+L&#39;Adobe Standard Material è documentato in dettaglio in [questa sezione](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material) della documentazione.
 
 +++
 
@@ -210,7 +210,7 @@ Per la visualizzazione del height sono disponibili due tecniche:
 
 +++ Lambert
 
-Molto semplice lambert shader illuminazione, supporta solo il canale Diffuso. Utilizza il vecchio sistema di luci per punti e non supporta l’illuminazione delle immagini HDR.
+Molto semplice shader di illuminazione lambert, supporta solo canale Diffusa. Utilizza il vecchio sistema di luci puntiformi, non supporta l’illuminazione dell’immagine HDR.
 
 +++
 
@@ -238,7 +238,7 @@ La visualizzazione è bloccata a [0, 1]. Non è quindi possibile acquisire una l
 
 +++ Rugosità metallica
 
-Materiale PBR standard per il modello di rugosità metallica. Usa i canali Colore base, Metallico e Rugosità.
+Materiale PBR standard per il modello di Rugosità metallica. Usa canali Colore di base, Metallico e Rugosità.
 
 Per la visualizzazione del height sono disponibili due tecniche:
 
@@ -250,7 +250,7 @@ Per la visualizzazione del height sono disponibili due tecniche:
 
 +++ Rugosità metallica - Rivestita
 
-Materiale PBR rivestito per il modello di rugosità metallica. Usa i canali Colore base, Metallico e Rugosità, nonché i canali aggiuntivi &quot;Pelo&quot;.
+Materiale PBR rivestito per il modello di Rugosità metallica. Usa canali di Colore di base, metallici e di rugosità, oltre a canali aggiuntivi &quot;Pelo&quot;.
 
 Per la visualizzazione del height sono disponibili due tecniche:
 
@@ -260,9 +260,9 @@ Per la visualizzazione del height sono disponibili due tecniche:
 
 +++
 
-+++ Rugosità metallica - SSS
++++ RUGOSITÀ METALLICA - SSS
 
-Materiale PBR a dispersione sottosuperficie per il modello di rugosità metallica. Usa i canali Colore base, Metallico e Rugosità, nonché il canale di dispersione aggiuntivo.
+Materiale PBR a dispersione sottosuperficie per il modello di Rugosità metallica. Usa canali di Colore di base, metallici e di rugosità, nonché canali di dispersione aggiuntivi.
 
 Per la visualizzazione del height sono disponibili due tecniche:
 
@@ -272,9 +272,9 @@ Per la visualizzazione del height sono disponibili due tecniche:
 
 +++
 
-+++ Lucidità Specular
++++ lucentezza Specular
 
-Materiale PBR standard per il modello di lucidità degli Specular. Usa canali diffusi, Specular e lucidi.
+Materiale PBR standard per il modello di Lucentezza a Specular. Usa canali di Diffusa, Specular e Lucentezza.
 
 Per la visualizzazione del height sono disponibili due tecniche:
 
@@ -286,11 +286,11 @@ Per la visualizzazione del height sono disponibili due tecniche:
 
 +++ Non illuminato
 
-Lo shader di debug non è illuminato per visualizzare le mappe texture senza alcuna illuminazione. Utilizza solo un canale di colore.
+Disattiva shader di debug per visualizzare le mappe texture senza alcuna illuminazione. Utilizza solo un canale di colore.
 
 +++
 
-Designer offre inoltre la possibilità di configurare shader personalizzati per il modulo di rendering OpenGL [utilizzando file GLSLFX](../../../interface/3d-view/glslfx-shaders/glslfx-shaders.md).
+Designer offre inoltre la possibilità di configurare ombreggiatori personalizzati per il modulo di rendering OpenGL [utilizzando file GLSLFX](../../../interface/3d-view/glslfx-shaders/glslfx-shaders.md).
 
 >[!IMPORTANT]
 > 

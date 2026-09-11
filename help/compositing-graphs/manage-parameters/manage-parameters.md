@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
 breadcrumb-title: ''
 description: Scoprite come gestire e organizzare i parametri nei grafici di composizione delle Substance per una migliore organizzazione del flusso di lavoro.
 helpx_creative_field: ""
@@ -108,7 +108,7 @@ Le stesse limitazioni elencate di seguito per i nodi atomici si applicano a ques
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
 
-![&#x200B; menu &#39;Gestisci parametri&#39; nel menu contestuale del nodo](manage-parameters.resources/manage-parameters-node-menu.png " menu &#39;Gestisci parametri&#39; nel menu contestuale del nodo"){zoomable="yes"}
+![ menu &#39;Gestisci parametri&#39; nel menu contestuale del nodo](manage-parameters.resources/manage-parameters-node-menu.png " menu &#39;Gestisci parametri&#39; nel menu contestuale del nodo"){zoomable="yes"}
 
 </td>
 </tr>

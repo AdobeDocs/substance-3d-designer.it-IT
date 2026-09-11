@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-grayscale.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Spline Mapper Scala di grigio per mappare le texture in scala di grigio lungo i tracciati spline con parametri personalizzabili.
 helpx_creative_field: ""
@@ -97,9 +97,9 @@ Il nodo genera l&#39;immagine mappata come immagine in scala di grigio, nonché 
 | <b>Scostamento Height cilindro</b> <i>Mobile</i> | (Disponibile quando &quot;Shape&quot; (Forma) è impostato su &quot;Half Cylinder&quot; (Mezzo cilindro) o &quot;Cylinder&quot;) Sposta il centro del profilo di forma del cilindro o del semicilindro dalla superficie della spline a un diametro al di sotto della superficie. |
 | <b>Intensità UV torsione</b> <i>Mobile</i> | (disponibile quando &quot;Shape&quot; (Forma) è impostato su &quot;Half Cylinder&quot; (Mezzo cilindro) o &quot;Cylinder&quot;) La torsione delle coordinate dell’immagine attorno al cilindro, in numero di giri.<br>La torsione comporta la rotazione del cilindro solo alla fine della spline. La rotazione viene quindi interpolata lungo la spline. |
 | <b>Moltiplicatore curva UV torsione</b> <i>Mobile</i> | (disponibile quando &quot;Shape&quot; è impostato su &quot;Half Cylinder&quot; o &quot;Cylinder&quot;) Un moltiplicatore per l’intensità del contributo dell’input del Twist curve alla torsione del cilindro.<br>La curva fornisce un profilo per la quantità di rotazione lungo la spline, dove il primo pixel della riga è la rotazione all&#39;inizio della spline e l&#39;ultimo è la rotazione alla fine. Il valore in scala di grigi rappresenta un numero di giri. |
-| <b>Scostamento curva UV torsione</b> <i>Virgola mobile</i> | (Disponibile quando &quot;Shape&quot; è impostato su &quot;Half Cylinder&quot; o &quot;Cylinder&quot;) Applica uno scostamento globale ai valori di rotazione forniti dal Twist curve, in numero di giri. |
-| <b>Moltiplicatore Height spline</b> <i>Virgola mobile</i> | Regola l’intensità del contributo dell’input del Height spline all’output del Height.<br>Le regolazioni di Height sono cumulative. |
-| <b>Moltiplicatore Height Di Input</b> <i>Virgola mobile</i> | Regola l’intensità del contributo dell’input Mappa altezza all’output del Height.<br>Le regolazioni di Height sono cumulative. |
+| <b>Scostamento curva UV torsione</b> <i>Mobile</i> | (Disponibile quando &quot;Shape&quot; è impostato su &quot;Half Cylinder&quot; o &quot;Cylinder&quot;) Applica uno scostamento globale ai valori di rotazione forniti dal Twist curve, in numero di giri. |
+| <b>Moltiplicatore Height spline</b> <i>Mobile</i> | Regola l’intensità del contributo dell’input del Height spline all’output del Height.<br>Le regolazioni di Height sono cumulative. |
+| <b>Moltiplicatore Height Di Input</b> <i>Mobile</i> | Regola l’intensità del contributo dell’input Mappa altezza all’output del Height.<br>Le regolazioni di Height sono cumulative. |
 | <b>Correzione non quadrata</b> <i>Booleano</i> | Regolate le posizioni e il thickness dei punti per mantenere la forma della spline in risoluzioni non quadrate.<br>Questo influisce anche sulla distribuzione uniforme. |
 
 ## Esempi

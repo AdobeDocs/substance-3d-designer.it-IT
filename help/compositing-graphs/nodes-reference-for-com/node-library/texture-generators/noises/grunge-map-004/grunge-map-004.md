@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-004.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-004.html"
 breadcrumb-title: ''
 description: Utilizza il nodo Mappa Grunge 004 per generare pattern di grunge procedurali per aggiungere effetti di texture usurati e usurati.
 helpx_creative_field: ""
@@ -26,14 +26,14 @@ ht-degree: 7%
 
 ![](grunge-map-004.resources/grungemap-004.png){width="128px"}
 
-<b>Ingresso:</b> generatori di Texture > Rumori
+<b>Ingresso:</b> Generatori di texture > Rumori
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrizione
 
-Questo genera una complessa mappa del disturbo combinata. Può essere molto utile come procedurali dettagliata, ma tenete presente che si tratta di elementi che richiedono molte prestazioni e che quindi sono più lenti da generare.
+Questo genera una complessa mappa del disturbo combinata. Può essere molto utile come una procedura dettagliata, ma tenete a mente che questi sono molto ad alta intensità di prestazioni e quindi più lenti da generare.
 
 </td>
 </tr>
@@ -49,7 +49,7 @@ Questo genera una complessa mappa del disturbo combinata. Può essere molto util
 | <b>Contrasto</b> <i>0.0 - 1.0</i> | Regola il contrasto del risultato. |
 | <b>Inverti</b> <i>Falso/Vero</i> | Inverte il risultato. |
 | <b>Motivo pennello</b> <i>0.0 - 1.0</i> | Aggiunge una maschera intorno ai bordi, per quando viene utilizzato come pennello alfa. |
-| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di squash e allungamento con rapporti non quadrati. |
+| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati. |
 
 ## Esempi
 

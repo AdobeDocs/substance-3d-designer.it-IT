@@ -40,6 +40,6 @@ Restituisce i volumi aggiunti di due forme SDF, con arrotondamento regolabile de
 
 |  |  |
 | :--- | :--- |
-| <b>SDF 1</b> *Mobile* | La prima forma SDF. |
-| <b>SDF 2</b> *Mobile* | La seconda forma SDF. |
-| <b>Smoothness</b> *Mobile* | Raggio di arrotondamento, a partire dai bordi dell&#39;intersezione.<br><br><i>Impostazione predefinita: 0</i><br><br><i>Nota:</i> bordi rigidi possono apparire nel punto di intersezione dei raggi di arrotondamento. |
+| <b>SDF 1</b> *Virgola mobile* | La prima forma SDF. |
+| <b>SDF 2</b> *Virgola mobile* | La seconda forma SDF. |
+| <b>Smoothness</b> *Virgola mobile* | Raggio di arrotondamento, a partire dai bordi dell&#39;intersezione.<br><br><i>Impostazione predefinita: 0</i><br><br><i>Nota:</i> bordi rigidi possono apparire nel punto di intersezione dei raggi di arrotondamento. |

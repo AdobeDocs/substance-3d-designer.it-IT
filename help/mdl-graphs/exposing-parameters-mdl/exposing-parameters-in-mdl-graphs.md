@@ -33,7 +33,7 @@ Nella maggior parte dei casi, i *connettori di input* delle proprietà di un nod
 Quando si seleziona un nodo nella <b>visualizzazione Grafico</b>, le relative proprietà vengono visualizzate nel pannello <b>Proprietà</b>. La maggior parte delle proprietà è elencata con un set di pulsanti a destra della relativa etichetta:
 
 * **![](../../assets/mdl-expose-new-node.png)Copia il valore in un nuovo nodo e collegalo a questo parametro**: crea un *connettore di input* per questa proprietà e lo connette a un *nuovo nodo* che genera il valore corrente di questa proprietà
-* **![](../../assets/mdl-expose-new-input.png)Crea un pin di input per questo parametro**: crea un *connettore di input* per questa proprietà
+* **![](../../assets/mdl-expose-new-input.png)Crea un segnaposto di input per questo parametro**: crea un *connettore di input* per questa proprietà
 * **![](../../assets/mdl-expose-reset.png)Reimposta il parametro sul valore predefinito**: quando nessun valore è connesso al connettore di input della proprietà, reimposta il valore predefinito
 
 ![](../../assets/mdl-expose-input.gif)
@@ -45,7 +45,7 @@ Se si fa clic su uno dei primi due pulsanti, al nodo verrà aggiunto un *connett
 * **Non connesso**: il parametro è ancora modificabile nel pannello **Proprietà** e il valore immesso in questo pannello è *applicato*
 * **Connesso**: il parametro non è più modificabile nel pannello **Proprietà**, il valore immesso in questo pannello è *sostituito* dal valore ricevuto dal *connettore di input* e non è possibile ripristinare il valore predefinito della proprietà
 
-È possibile *rimuovere* il connettore di input facendo nuovamente clic sul pulsante **Crea un pin di input per questo parametro**. A questo punto, il valore della proprietà torna al valore impostato nel pannello **Proprietà**.
+È possibile *rimuovere* il connettore di input facendo nuovamente clic sul pulsante **Crea un segnaposto di input per questo parametro**. A questo punto, il valore della proprietà torna al valore impostato nel pannello **Proprietà**.
 
 ![Parametri del nodo esposti](../../assets/mdl-exposed-float-hl.png "Parametri del nodo esposti")
 
@@ -57,7 +57,7 @@ Nel grafico MDL, l&#39;esposizione di un parametro al livello del grafico, ovver
 
 I nodi che possono essere esposti dispongono di un&#39;opzione <b>Esposizione</b> nel menu di scelta rapida. Nella maggior parte dei casi, si tratta di nodi che generano un valore o dati quali coordinate di virgola mobile, colore o texture.
 
-Opzione ![&quot;Esposizione&quot; nel menu contestuale di un nodo](../../assets/mdl-expose-float-menu-hl.png "&quot;Esposizione&quot; nel menu contestuale di un nodo")
+Opzione ![&quot;Esposizione&quot; nel menu contestuale di un nodo](../../assets/mdl-expose-float-menu-hl.png "&amp;quot;Esposizione&amp;quot; nel menu contestuale di un nodo")
 
 Opzione *&quot;Esposizione&quot; nel menu contestuale di un nodo*
 

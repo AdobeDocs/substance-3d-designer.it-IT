@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-bbox-size.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-bbox-size.html"
 breadcrumb-title: ''
 description: Utilizzare il nodo Flood Fill a dimensioni casella di riepilogo per riempire le aree con valori di dimensioni del rettangolo di selezione per gli effetti di ridimensionamento procedurali.
 helpx_creative_field: ""
@@ -35,7 +35,7 @@ ht-degree: 3%
 
 Genera una mappa in scala di grigio da una base di [Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md), con valori associati alle dimensioni di ogni singola porzione.
 
-I valori sono relativi alle dimensioni totali dell’area di lavoro (un riquadro bianco completo significa che si estende sull’intera area di lavoro), quindi il contrasto è spesso basso.
+I valori sono relativi alle dimensioni totali dell’area di lavoro (un riquadro bianco completo significa che allungamento l’intera area di lavoro), quindi il contrasto è spesso basso.
 
 </td>
 </tr>

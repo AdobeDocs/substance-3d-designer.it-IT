@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/warnings-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/warnings-in-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Consulta le avvertenze nella sezione Substance grafici di composizione e scopri come risolvere problemi ed errori comuni.
 helpx_creative_field: ""
@@ -43,7 +43,7 @@ Aggiungete uno o più nodi [Output](../../compositing-graphs/nodes-reference-for
 Il [grafico della funzione](../../function-graphs/function-graphs.md) applicato al parametro specificato del nodo specificato presenta almeno un avviso.\
 Il parametro del nodo viene specificato tra parentesi quadre dopo l&#39;etichetta del nodo, seguendo il modello Node[Parameter].
 
-E.g. Colore uniforme[Colore Di Output], Elaboratore pixel[Funzione Per Pixel]
+E.g. Uniform Color[Colore Di Output], Processore Pixel[Funzione Per Pixel]
 
 **![(tick)](../../assets/check.svg) Soluzione**
 
@@ -73,7 +73,7 @@ Nel pannello [Esplora risorse](../../interface/the-explorer-window/the-explorer-
 
 ### ![(errore)](../../assets/error.svg) Risorsa di riferimento non trovata
 
-Impossibile trovare la risorsa a cui fa riferimento un nodo nel percorso salvato nel file di [Substance 3D](https://www.adobe.com/it/products/substance3d/3d-augmented-reality.html) (SBS). Di seguito sono riportati alcuni nodi che fanno riferimento a una risorsa:
+Impossibile trovare la risorsa a cui fa riferimento un nodo nel percorso salvato nel file di [Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html) (SBS). Di seguito sono riportati alcuni nodi che fanno riferimento a una risorsa:
 
 * Un nodo [istanza del grafico](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) fa riferimento a un grafico
 * Un nodo [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) fa riferimento a una [risorsa Bitmap](../../resources/bitmap-resource/bitmap-resource.md)

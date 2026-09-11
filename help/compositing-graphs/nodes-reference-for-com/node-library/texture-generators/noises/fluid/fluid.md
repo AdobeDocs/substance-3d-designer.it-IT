@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fluid.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fluid.html"
 breadcrumb-title: ''
-description: Utilizza il nodo Fluido per generare pattern di disturbo simili a fluidi per creare effetti di texture di superficie di liquidi e acqua.
+description: Utilizzate il nodo Fluido per generare pattern di disturbo simili a fluidi per creare effetti di texture superficiale di liquidi e acqua.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Fluid
 helpx_experience_level: ""
@@ -51,7 +51,7 @@ Questo rumore riempie una nicchia specifica: può essere utile per generare piog
 | <b>Disturbo</b> <i>0.0 - 1.0</i> | Fase-sposta il disturbo per introdurre piccole variazioni. |
 | <b>Intensità alterazione</b> <i>0.0 - 1.0</i> |  |
 | <b>Dimensione motivo</b> <i>0.0 - 1.0</i> |  |
-| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati. |
+| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di squash e allungamento con rapporti non quadrati. |
 
 ## Esempi
 

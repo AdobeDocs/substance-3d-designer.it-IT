@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/function-graphs/variables/system-variables.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables/system-variables.html"
 breadcrumb-title: ''
 description: Scopri le variabili di sistema incorporate disponibili nei grafici delle funzioni di Substance 3D Designer per i flussi di lavoro avanzati.
 helpx_creative_field: ""
@@ -32,8 +32,8 @@ Variabili di sistema
 | --- | --- | --- |
 | $size | Float2 | Restituisce la dimensione del nodo corrente in pixel.   Se utilizzato nel parametro [Dimensione output](../../../compositing-graphs/output-size/output-size.md) impostato su un *Relativo a...* [metodo di ereditarietà](../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md), restituisce il *valore ereditato*. |
 | $sizelog2 | Float2 | Come sopra, ma restituisce le dimensioni come valori di potenza di 2 (ad esempio, per l&#39;immagine 2048\*2048, `$sizelog2` restituisce 11).   Se utilizzato nel parametro [Dimensione output](../../../compositing-graphs/output-size/output-size.md) impostato su un *Relativo a...* [metodo di ereditarietà](../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md), restituisce il *valore ereditato*. |
-| $pixelratio | Intero | Restituisce un valore intero corrispondente alle proporzioni in pixel del nodo corrente (ereditato o assoluto): 0: Stretch 1: Square |
-| $tiling | Intero | Restituisce un valore intero corrispondente alla modalità di suddivisione in porzioni del nodo corrente (ereditata o assoluta): 0: Nessuna porzione 1: Porzione orizzontale 2: Porzione verticale 3: Porzione H e V |
+| $pixelratio | Intero | Restituisce un valore intero corrispondente alle proporzioni in pixel del nodo corrente (ereditato o assoluto): 0: Allungamento 1: Quadrato |
+| $Affiancamento | Intero | Restituisce un valore intero corrispondente alla modalità di Affiancamento del nodo corrente (ereditata o assoluta): 0: Nessun Affiancamento 1: Affiancamento orizzontale 2: Affiancamento verticale 3: Affiancamento H e V |
 | $phyalsize | Float3 | Restituisce il valore della proprietà <b>Dimensioni fisiche</b> del [grafico.](../../../compositing-graphs/graph-parameters/graph-parameters.md) |
 | $uvtile | Integer2 | Quando si utilizzano flussi di lavoro UDIM, questa variabile restituisce l&#39;indice dell&#39;udim corrente in U e V.   Esempio: (2, 0) per il riquadro 1003, (7, 11) per il riquadro 1118, ... |
 
@@ -62,5 +62,5 @@ Variabili di sistema
 
 | Nome | Tipo | Scopo |
 | --- | --- | --- |
-| $time | A virgola mobile | Questa variabile restituisce il tempo in secondi dall&#39;avvio della Substance Engine. Può essere usato nei grafici che il risultato dovrebbe cambiare in base al tempo trascorso.  **Nota:** sebbene non sia possibile apportare questa modifica di valore in Designer, le applicazioni che integrano la Substance Engine possono sfruttarla, ad esempio [Substance Player](https://helpx.adobe.com/substance-3d-player/home.html) per l&#39;animazione o [Substance 3D Painter](https://experienceleague.adobe.com/it/docs/substance-3d-painter/using/home) per [tratti dinamici](https://experienceleague.adobe.com/it/docs/substance-3d-painter/using/painting/dynamic-strokes/creating-custom-dynamic-strokes). |
+| $time | A virgola mobile | Questa variabile restituisce il tempo in secondi dall&#39;avvio della Substance Engine. Può essere usato nei grafici che il risultato dovrebbe cambiare in base al tempo trascorso.  **Nota:** sebbene non sia possibile apportare questa modifica di valore in Designer, le applicazioni che integrano la Substance Engine possono sfruttarla, ad esempio [Substance Player](https://helpx.adobe.com/substance-3d-player/home.html) per l&#39;animazione o [Substance 3D Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home) per [tratti dinamici](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/painting/dynamic-strokes/creating-custom-dynamic-strokes). |
 | $normalformat | Intero | Il formato normale (ad esempio, DirectX o OpenGL) utilizzato nell’ambiente corrente.  **Nota:** questa variabile non ha alcun effetto in Designer e può essere utilizzata da altre applicazioni che integrano la Substance Engine. |

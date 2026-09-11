@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
 breadcrumb-title: ''
 description: Usate gli strumenti di pittura bitmap in Substance 3D Designer per creare pitture direttamente sulle risorse bitmap per la modifica delle texture.
 helpx_creative_field: ""
@@ -34,7 +34,7 @@ Le modifiche possono essere *annullate singolarmente* e tutte le altre funzioni 
 
 >[!IMPORTANT]
 >
-> È possibile eseguire la pittura di *solo* su *risorse bitmap* [&#128279;](../../../resources/bitmap-resource/bitmap-resource.md) [nuove o importate](../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md).
+> È possibile eseguire la pittura di *solo* su *risorse bitmap* [](../../../resources/bitmap-resource/bitmap-resource.md) [nuove o importate](../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md).
 
 >[!WARNING]
 >

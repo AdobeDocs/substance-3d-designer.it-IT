@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/star.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/star.html"
 breadcrumb-title: ''
-description: Utilizza il nodo Stella per generare pattern a stella con punti e dimensioni personalizzabili per le texture geometriche.
+description: Utilizza il nodo Stella per generare motivi a stella con punti e dimensioni personalizzabili per la texture geometrica.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Star
 helpx_experience_level: ""
@@ -46,4 +46,4 @@ Genera una stella a cinque punte.
 |  |  |
 |:---|:---|
 | <b>Scala</b> <i>0.0 - 1.0</i> | Ridimensiona l&#39;intera forma in modo uniforme. |
-| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati. |
+| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di squash e allungamento con rapporti non quadrati. |

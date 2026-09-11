@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/starburst.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/starburst.html"
 breadcrumb-title: ''
 description: Utilizzare il nodo Starburst per creare pattern di starburst che si irradiano da un punto centrale per ottenere effetti di texture decorativi.
 helpx_creative_field: ""
@@ -51,7 +51,7 @@ Genera un semplice effetto esplosione, con i parametri di regolazione disponibil
 | <b>Dimensioni minime</b> <i>0.0 - 1.0</i> | Imposta la dimensione minima per la variazione. |
 | <b>Dimensioni massime</b> <i>0.0 - 2.0</i> | Imposta la dimensione massima, controlla la scala globale se la variazione non viene utilizzata. |
 | <b>Variazione dimensioni</b> <i>0.0 - 1.0</i> | Introduce il ridimensionamento casuale per ramo. |
-| <b>Affiancatura</b> <i>1 - 16</i> | Imposta il numero di volte in cui il risultato deve essere affiancato. |
+| <b>Affiancamento</b> <i>1 - 16</i> | Imposta il numero di volte in cui il risultato deve essere affiancato. |
 
 ## Esempi
 

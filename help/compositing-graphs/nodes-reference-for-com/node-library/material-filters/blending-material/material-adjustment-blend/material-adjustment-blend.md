@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-adjustment-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-adjustment-blend.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Fusione di regolazione materiale per fondere le regolazioni del materiale tra i materiali per ottimizzare gli effetti compositi.
 helpx_creative_field: ""
@@ -7,7 +7,7 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Blend di regolazione materiale
+title: Fusione di regolazione materiale
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: db158eba37ce52811a853adc20ca6143f96a79b6
@@ -18,7 +18,7 @@ ht-degree: 2%
 ---
 
 
-# Blend di regolazione materiale
+# Fusione di regolazione materiale
 
 <table>
 <tr style="border: 0;">
@@ -57,8 +57,8 @@ Questo nodo consente la regolazione di tutti i canali di un materiale completo, 
 |  |  |
 |:---|:---|
 | <b>Canali</b> | Attiva e disattiva i canali di materiale in questo gruppo, ad esempio quando si utilizzano mappe Specular/Lucentezza anziché Metallico/Rugosità.<br><br>In questo modo si attiva e disattiva anche l&#39;aspetto dei gruppi rilevanti del canale. |
-| <b>Diffusione</b> | Esegue le operazioni di regolazione sul canale Diffusione, nelle aree definite dalla maschera. |
-| <b>Colore di base</b> | Esegue le operazioni di regolazione sul canale Colore di base, nelle aree definite dalla maschera. |
+| <b>Diffusa</b> | Esegue le operazioni di regolazione sul canale della Diffusa, nelle aree definite dalla maschera. |
+| <b>Colore di base</b> | Esegue le operazioni di regolazione sul canale del Colore di base, nelle aree definite dalla maschera. |
 | <b>Normale</b> |  |
 | <b>Intensità</b> <i>0.0 - 1.0</i> | Riduce l&#39;intensità normale |
 | <b>Specular</b> | Esegue le operazioni di regolazione sul canale dello Specular, nelle aree definite dalla maschera. |

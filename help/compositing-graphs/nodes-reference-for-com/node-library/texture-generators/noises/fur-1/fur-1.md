@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fur-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fur-1.html"
 breadcrumb-title: ''
-description: Utilizza il nodo Pelliccia 1 per generare texture di base per la creazione di capelli, tessuto e materiali fibrosi.
+description: Usa il nodo Pelliccia 1 per generare trame di pelliccia di base per creare effetti per capelli, tessuto e materiali fibrosi.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Fur 1
 helpx_experience_level: ""
@@ -47,7 +47,7 @@ Questo genera un disturbo di tipo pelliccia diritta.
 |:---|:---|
 | <b>Scala</b> <i>1 - 8</i> | Imposta la scala globale per l’effetto. |
 | <b>Disturbo</b> <i>0.0 - 1.0</i> | Fase-sposta il disturbo per introdurre piccole variazioni. |
-| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di squash e allungamento con rapporti non quadrati. |
+| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati. |
 
 ## Esempi
 

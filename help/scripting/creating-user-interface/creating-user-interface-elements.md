@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/scripting/creating-user-interface-elements.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/creating-user-interface-elements.html"
 breadcrumb-title: ''
 description: Scopri come creare elementi dell'interfaccia utente nei plug-in Substance 3D Designer Python per esperienze utente interattive.
 helpx_creative_field: ""

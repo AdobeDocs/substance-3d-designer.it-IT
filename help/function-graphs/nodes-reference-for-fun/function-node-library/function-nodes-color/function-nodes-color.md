@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-color.html"
 breadcrumb-title: ''
 description: Utilizzate i nodi delle funzioni colore per eseguire le conversioni dei colori e le operazioni di mappatura dei toni nei grafici delle funzioni.
 helpx_creative_field: ""
@@ -61,11 +61,11 @@ Tonalità RGB 2 polare
 
 Tonalità RGB esagonale
 
-Media luminosità RGB
+Media Luminosità RGB
 
-bi-escone RGB lightness
+RGB Luminosità bi-escone
 
-Escone luminosità RGB
+Escone Luminosità RGB
 
 Luma RGB lightness Rec. 601
 
@@ -73,7 +73,7 @@ Luma RGB lightness Rec. 709
 
 HSI saturazione RGB
 
-HSL saturazione RGB
+HSL a saturazione RGB
 
 HSV saturazione RGB
 
@@ -94,7 +94,7 @@ da sRGB a lineare
 
 Temperatura sRGB
 
-Contagocce ACES
+Tonemapper ACE
 
 Tonemapper AgX
 

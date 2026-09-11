@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/the-main-toolbar.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-main-toolbar.html"
 breadcrumb-title: ''
 description: Scopri la barra degli strumenti principale di Substance 3D Designer per accedere a strumenti e comandi comuni per il tuo flusso di lavoro.
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-Questa pagina descrive la barra degli strumenti principale e il menu di [Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html), visualizzati in alto a sinistra nella finestra principale.È costituito da due parti: i menu principali a discesa e i pulsanti di accesso rapido. È possibile accedere a tutte le funzioni dei pulsanti di accesso rapido anche dai menu <b>File</b> e <b>Modifica</b>.
+Questa pagina descrive la barra degli strumenti principale e il menu di [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html), visualizzati in alto a sinistra nella finestra principale.È costituito da due parti: i menu principali a discesa e i pulsanti di accesso rapido. È possibile accedere a tutte le funzioni dei pulsanti di accesso rapido anche dai menu <b>File</b> e <b>Modifica</b>.
 
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
@@ -165,7 +165,7 @@ Questa pagina descrive la barra degli strumenti principale e il menu di [Substan
 
 <b>Novità...:</b> Visualizza una schermata che evidenzia le funzionalità aggiunte all&#39;ultima versione di Designer
 
-<b>Schermata introduttiva...\*:</b> Visualizza la schermata iniziale che guida i nuovi utenti attraverso lo scopo di Designer e la sua posizione nell&#39;[ecosistema Substance 3D](https://helpx.adobe.com/it/substance-3d.html)
+<b>Schermata introduttiva...\*:</b> Visualizza la schermata iniziale che guida i nuovi utenti attraverso lo scopo di Designer e la sua posizione nell&#39;[ecosistema Substance 3D](https://helpx.adobe.com/substance-3d.html)
 
 <b>Partner:</b> consente di accedere alle esclusioni di garanzia e agli avvisi per le integrazioni di terze parti dei nostri partner in Designer.
 

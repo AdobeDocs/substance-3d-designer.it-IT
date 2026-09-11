@@ -40,8 +40,8 @@ Funzione SDF di un cono chiuso definita dalle posizioni della base e della sommi
 
 |  |  |
 | :--- | :--- |
-| <b>Base posizione</b> *Float3* | Posizione della base del cono con capping.<br><br><i>Impostazione predefinita: (0, 0, 0)</i> |
-| <b>Posizione superiore</b> *Float3* | La posizione della parte superiore del cono con capping.<br><br><i>Impostazione predefinita: (0, 0, 1)</i> |
-| <b>Base raggio</b> *Mobile* | Raggio della base del cono chiuso.<br><br><i>Impostazione predefinita: 0.5</i> |
-| <b>Raggio superiore</b> *Mobile* | Raggio della parte superiore del cono chiuso.<br><br><i>Impostazione predefinita: 0.2</i> |
-| <b>P</b> *Float3* | La posizione trasformata dello spazio mondiale. Utilizza questo input per applicare trasformazioni aggiuntive utilizzando i nodi <b>Offset P</b> e <b>Rotazione P</b>.<br><br><i>Impostazione predefinita: la posizione dello spazio globale non trasformata.</i> |
+| <b>Base posizione</b> *Virgola mobile 3* | Posizione della base del cono con capping.<br><br><i>Impostazione predefinita: (0, 0, 0)</i> |
+| <b>Posizione superiore</b> *Virgola mobile 3* | La posizione della parte superiore del cono con capping.<br><br><i>Impostazione predefinita: (0, 0, 1)</i> |
+| <b>Base raggio</b> *Virgola mobile* | Raggio della base del cono chiuso.<br><br><i>Impostazione predefinita: 0.5</i> |
+| <b>Raggio superiore</b> *Virgola mobile* | Raggio della parte superiore del cono chiuso.<br><br><i>Impostazione predefinita: 0.2</i> |
+| <b>P</b> *Virgola mobile 3* | La posizione Trasforma nello spazio mondiale. Utilizza questo input per applicare trasformazioni aggiuntive utilizzando i nodi <b>Offset P</b> e <b>Rotazione P</b>.<br><br><i>Impostazione predefinita: la posizione dello spazio globale non trasformata.</i> |

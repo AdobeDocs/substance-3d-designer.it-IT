@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/working-with-3d-scenes/extracting-materials-values-and-textures.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/extracting-materials-values-and-textures.html"
 breadcrumb-title: ''
 description: Estrai le proprietà del materiale da scene 3D da utilizzare nei grafici Substance per i flussi di lavoro di creazione del materiale.
 helpx_creative_field: ""
@@ -44,13 +44,13 @@ Le proprietà dei materiali possono essere estratte per essere utilizzate nei gr
 
 ## Nuovo grafico da texture
 
-L’azione &quot;Crea grafico da input texture&quot; crea un nuovo grafico Substance con tutte le texture utilizzate da un materiale
+L’azione &quot;Crea grafico da input texture&quot; crea un nuovo grafico a Substance con tutte le texture utilizzate da un materiale
 
 Quando si utilizza questa azione, si verificano alcuni problemi:
 
 * Nella posizione selezionata viene creato un grafico a Substance con il nome del materiale.
-* Viene creata una [risorsa bitmap](../../resources/bitmap-resource/bitmap-resource.md) per ogni texture utilizzata dal materiale e inserita in una cartella denominata in base al materiale, sotto una cartella &quot;Risorse&quot;.
-* Nel grafico vengono creati nodi [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) per ognuna di queste risorse bitmap e vengono automaticamente connessi ai nodi [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) configurati dopo le proprietà dei materiali utilizzando la texture.
+* Per ogni texture utilizzata dal materiale viene creata una [risorsa bitmap](../../resources/bitmap-resource/bitmap-resource.md), che viene quindi inserita in una cartella denominata in base al materiale, sotto la cartella ‘Resources’.
+* Nel grafico vengono creati nodi [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) per ognuna di queste risorse bitmap e vengono automaticamente connessi ai nodi [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) configurati dopo le proprietà dei materiali utilizzando le texture.
 * Se ogni canale di una stessa texture viene utilizzato per gestire proprietà di materiale diverse (la tecnica è chiamata [impacchettamento canale](../../glossary/glossary.md)), i nodi [di conversione della scala di grigi](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/grayscale-conversion/grayscale-conversion.md) vengono aggiunti automaticamente per selezionare i canali appropriati.
 * Il grafico viene automaticamente collegato al materiale e il suo aspetto non dovrebbe cambiare finché non apportate modifiche nel grafico.
 
@@ -58,9 +58,9 @@ Quando si utilizza questa azione, si verificano alcuni problemi:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Creazione di un grafico dagli input di texture - Azione nella finestra della vista &quot;vista 3D&quot;](../../assets/createGraphFromTexturesActionViewport.png "Creazione di un grafico dagli input di texture - Azione nella finestra della vista &quot;vista 3D&quot;"){zoomable="yes"}
+![Creare un grafico dagli input della texture - Azione nella finestra della vista &quot;Vista 3D&quot;](../../assets/createGraphFromTexturesActionViewport.png "Creare un grafico dagli input della texture - Azione nella finestra della vista &quot;Vista 3D&quot;"){zoomable="yes"}
 
-*Azione in vista 3D viewport*
+*Azione nella finestra della vista 3D*
 
 </td>
 <td style="border: 0;" valign="top">
@@ -72,7 +72,7 @@ Quando si utilizza questa azione, si verificano alcuni problemi:
 </td>
 <td style="border: 0;" valign="top">
 
-![Creazione di un grafico dagli input di texture - Azione nel Dock &#39;Proprietà&#39;](../../assets/createGraphFromTexturesActionProps.png "Creazione di un grafico dagli input di texture - Azione nel Dock &#39;Proprietà&#39;"){zoomable="yes"}
+![Creare un grafico dagli input della texture - Azione nel dock &quot;Proprietà&quot;](../../assets/createGraphFromTexturesActionProps.png "Creare un grafico dagli input della texture - Azione nel dock &quot;Proprietà&quot;"){zoomable="yes"}
 
 *Azione nel Dock delle proprietà*
 
@@ -80,12 +80,12 @@ Quando si utilizza questa azione, si verificano alcuni problemi:
 </tr>
 </table>
 
-![Risultato della creazione del grafico dalle texture di materiale](../../assets/createGraphFromTexturesResult.png "Risultato della creazione del grafico dalle texture di materiale"){zoomable="yes"}
+![Risultato della creazione del grafico dalle texture dei materiali](../../assets/createGraphFromTexturesResult.png "Risultato della creazione del grafico dalle texture dei materiali"){zoomable="yes"}
 
 *Risultato della creazione del grafico dalle texture dei materiali*
 
 +++Dimostrazione
-![Creazione di un grafico dagli input della texture - Dimostrazione](../../assets/createGraphFromTextures.gif "Creazione di un grafico dagli input della texture - Dimostrazione"){zoomable="yes"}
+![Creare un grafico dagli input della texture - Dimostrazione](../../assets/createGraphFromTextures.gif "Creare un grafico dagli input della texture - Dimostrazione"){zoomable="yes"}
 
 
 
@@ -93,7 +93,7 @@ Quando si utilizza questa azione, si verificano alcuni problemi:
 
 >[!TIP]
 >
-> Per accedere all&#39;azione in modo rapido e diretto nella finestra della vista vista 3D, posizionare il cursore sull&#39;oggetto e premere <b>Maiusc+LMB</b> per selezionarlo. quindi facendo clic su RMB per accedere a un menu di scelta rapida che contiene l’azione.
+> Puoi accedere all&#39;azione rapidamente e direttamente nella finestra della vista 3D, posizionando il cursore sull&#39;oggetto e premendo <b>Maiusc+LMB</b> per selezionarlo. quindi facendo clic su RMB per accedere a un menu di scelta rapida che contiene l’azione.
 
 >[!NOTE]
 >

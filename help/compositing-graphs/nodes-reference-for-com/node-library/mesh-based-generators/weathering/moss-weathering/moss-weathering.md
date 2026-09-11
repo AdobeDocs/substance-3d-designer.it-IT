@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/moss-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/moss-weathering.html"
 breadcrumb-title: ''
 description: Usa il nodo Meteorizzazione Moss per aggiungere pattern di crescita del muschio ai materiali in base alla curvatura e alla posizione della trama.
 helpx_creative_field: ""
@@ -35,7 +35,7 @@ ht-degree: 7%
 
 Si tratta di un effetto di materiale completo che funziona su più canali contemporaneamente. Genera un effetto muschio ingrandito, con un singolo controllo per Propagazione.
 
-Questo effetto funziona meglio con una mappa eseguita i baking Posizione spazio mondo e una mappa di altezza aggiuntiva. Anche se questo non è un requisito esatto, conferisce all&#39;effetto un posizionamento più credibile.
+Questo effetto funziona meglio con una mappa di posizione dello spazio mondiale e una mappa dell&#39;altezza aggiuntiva. Anche se questo non è un requisito esatto, conferisce all&#39;effetto un posizionamento più credibile.
 
 Assicurati di aver compreso correttamente le [modalità di creazione del collegamento](https://support.allegorithmic.com/documentation/display/SD5/Link+Creation+Modes) quando lavori con i materiali completi.
 
@@ -49,7 +49,7 @@ Assicurati di aver compreso correttamente le [modalità di creazione del collega
 
 |  |  |
 |:---|:---|
-| <b>Posizione</b> <i>Input colore</i> | Posizione spaziale mondiale eseguita i baking. |
+| <b>Posizione</b> <i>Input colore</i> | Posizione dello spazio mondiale baked. |
 | <b>Height</b> <i>Input scala di grigi</i> | Input aggiuntivo Heightmap. |
 | <b>Maschera</b> <i>Input scala di grigi</i> | Slot maschera utilizzato per mascherare gli effetti del nodo. Può essere attivato/disattivato con il parametro &quot;Maschera&quot;. |
 
@@ -59,7 +59,7 @@ Assicurati di aver compreso correttamente le [modalità di creazione del collega
 
 |  |  |
 |:---|:---|
-| <b>Canali</b> | Attivate e disattivate i canali del materiale in questo gruppo, ad esempio quando utilizzate mappe Specular/Lucentezza invece di Metallo/Rugosità. |
+| <b>Canali</b> | Attivate e disattivate i canali del materiale in questo gruppo, ad esempio quando utilizzate mappe Specular/lucidità invece di Metallico/Rugosità. |
 | <b>Avanzate</b> |  |
 | <b>Formato Normale</b> <i>DirectX, OpenGL</i> | Passa da un formato Normalmap a un altro (inverte il canale verde). |
 | <b>Maschera</b> <i>Falso/Vero</i> | Attiva o disattiva l’uso della mappa maschera. |

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/season-filter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/season-filter.html"
 breadcrumb-title: ''
 description: Utilizza il nodo Filtro stagione per applicare effetti stagionali ai materiali per creare variazioni in primavera, estate, autunno e inverno.
 helpx_creative_field: ""
@@ -80,11 +80,11 @@ Il nodo richiede un corretto insieme di input di materiale, principalmente con u
 | <b>Colore Moss</b> <i>(valore colore)</i> | Imposta il colore del muschio. |
 | <b>Colore dell&#39;acqua</b> <i>(valore colore)</i> | Imposta il colore dell’acqua, inclusi canale alfa/opacità. |
 | <b>Fusione</b> |  |
-| <b>Intensità Diffusa</b> <i>0.0 - 1.0</i> | Intensità di fusione della Diffusione. |
-| <b>Intensità Colore di base</b> <i>0.0 - 1.0</i> | Intensità di fusione del colore di base. |
+| <b>Intensità Diffusa</b> <i>0.0 - 1.0</i> | Intensità di fusione delle Diffuse. |
+| <b>Intensità Colore di base</b> <i>0.0 - 1.0</i> | Forza di fusione del Colore di base. |
 | <b>Intensità normale</b> <i>0.0 - 1.0</i> | Intensità di fusione del normale. |
 | <b>Intensità Specular</b> <i>0.0 - 1.0</i> | Forza di fusione dello Specular. |
-| <b>Intensità Lucentezza</b> <i>0.0 - 1.0</i> | Forza di fusione della lucidità. |
+| <b>Intensità Lucentezza</b> <i>0.0 - 1.0</i> | Forza di fusione della Lucentezza. |
 | <b>Intensità rugosità</b> <i>0.0 - 1.0</i> | Forza di fusione della rugosità. |
-| <b>Intensità Occlusione ambientale</b> <i>0.0 - 1.0</i> | Intensità di fusione dell’Occlusione ambiente. |
+| <b>Intensità Occlusione ambientale</b> <i>0.0 - 1.0</i> | Forza di fusione dell’Occlusione ambientale. |
 | <b>Intensità Height</b> <i>0.0 - 1.0</i> | Forza di fusione del Height. |

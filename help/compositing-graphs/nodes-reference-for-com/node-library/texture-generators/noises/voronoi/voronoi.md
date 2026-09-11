@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/voronoi.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/voronoi.html"
 breadcrumb-title: ''
 description: Utilizzare il nodo Voronoi per generare modelli Voronoi per la creazione di texture cellulari ed effetti di materiale organico.
 helpx_creative_field: ""
@@ -52,10 +52,10 @@ Questo nodo può essere testato con [Cubo GBuffer](../../../../../../compositing
 |  |  |
 |:---|:---|
 | <b>Inverti</b> <i>Booleano</i> | Inverte l’immagine di output. |
-| <b>Scala</b> <i>Virgola mobile</i> | Controlla la scala del rumore di Voronoi.<br><br>*Nota*: quando **Affiancamento** è attivato su *qualsiasi asse*, la regolazione della scala è *graduale*. Questo è previsto. |
-| <b>Dimensioni</b> <i>Virgola mobile 3</i> | Controlla la dimensione del disturbo di Voronoi sugli assi **X**, **Y** e **Z**. I valori non uniformi producono un effetto *allungamento o schiacciante*.<br><br>*Nota*: quando l&#39;opzione **Affiancamento** è abilitata su *qualsiasi asse*, la regolazione della dimensione è *graduale*. Questo è previsto. |
-| <b>Scostamento</b> <i>Virgola mobile 3</i> | Applica uno scostamento alla *posizione* del rumore di Voronoi sugli assi **X**, **Y** e **Z**. |
-| <b>Disturbo</b> <i>Virgola mobile 3</i> | Intensità dello *scostamento casuale* applicato a ciascun punto del disturbo sugli assi **X**, **Y** e **Z**. |
+| <b>Scala</b> <i>Mobile</i> | Controlla la scala del rumore di Voronoi.<br><br>*Nota*: quando **Affiancamento** è attivato su *qualsiasi asse*, la regolazione della scala è *graduale*. Questo è previsto. |
+| <b>Dimensioni</b> <i>Float3</i> | Controlla la dimensione del disturbo di Voronoi sugli assi **X**, **Y** e **Z**. I valori non uniformi producono un effetto *allungamento o schiacciante*.<br><br>*Nota*: quando l&#39;opzione **Affiancamento** è abilitata su *qualsiasi asse*, la regolazione della dimensione è *graduale*. Questo è previsto. |
+| <b>Scostamento</b> <i>Float3</i> | Applica uno scostamento alla *posizione* del rumore di Voronoi sugli assi **X**, **Y** e **Z**. |
+| <b>Disturbo</b> <i>Float3</i> | Intensità dello *scostamento casuale* applicato a ciascun punto del disturbo sugli assi **X**, **Y** e **Z**. |
 | <b>Intensità Distorsione</b> <i>Mobile</i> | Controlla l&#39;intensità di un *effetto di alterazione* applicato al disturbo di Voronoi. |
 | <b>Moltiplicatore scala Distorsione</b> <i>Mobile</i> | Controlla la scala del *pattern di deformazione* utilizzato nell&#39;effetto di alterazione controllato dall&#39;**intensità della Distorsione**. |
 | <b>Curva arrotondata</b> <i>Mobile</i> | Arrotonda la *pendenza* attorno a ciascun punto del disturbo per renderlo *convesso*.<br><br>*Nota*: questo parametro non è disponibile quando il parametro **Stile** è impostato su *Bordo*. |
@@ -66,7 +66,7 @@ Questo nodo può essere testato con [Cubo GBuffer](../../../../../../compositing
 | <b>Thickness Edge</b> <i>Mobile</i> | Regola il thickness dei bordi rilevati tra le celle del disturbo di Voronoi. Gli spigoli vengono rilevati negli assi X, Y e Z, pertanto alcuni spessori possono aumentare più rapidamente di altri a seconda della *profondità* delle celle.<br><br>*Nota*: questo parametro è disponibile solo quando il parametro **Stile** è impostato su *Spigolo*. |
 | <b>Modalità colore casuale</b> <i>Numero intero</i> | Imposta il metodo di *acquisizione* del valore di inizializzazione casuale per la selezione colore per cella:<br><br>- *Numero casuale globale*: utilizzare il valore di inizializzazione *ereditato* dal nodo<br>- *Numero manuale*: utilizzare un valore di inizializzazione *discreto*<br><br>*Nota*: questo parametro è disponibile solo quando il parametro **Stile** è impostato su *Colore casuale*. |
 | <b>Numero di colori casuale</b> <i>Numero intero</i> | Valore di inizializzazione casuale discreto da utilizzare per la selezione del colore per cella.<br><br>*Nota*: questo parametro è disponibile solo quando il parametro **Style** è impostato su *Colore casuale* e il parametro **Modalità di inizializzazione colore casuale** è impostato su ***Numero manuale***. |
-| <b>Non square expansion</b> <i>Booleano</i> | Consente la compensazione di squash e allungamento con rapporti non quadrati. |
+| <b>Non square expansion</b> <i>Booleano</i> | Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati. |
 
 ## Esempi
 

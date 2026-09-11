@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/cube-3d.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/cube-3d.html"
 breadcrumb-title: ''
-description: Usa il nodo 3D del cubo per generare texture basata sulle proiezioni del cubo 3D per creare mappe dell’ambiente ed effetti.
+description: Utilizza il nodo 3D del cubo per generare trame basate sulle proiezioni di cubi 3D per creare mappe dell’ambiente ed effetti.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Cube 3D
 helpx_experience_level: ""
@@ -48,7 +48,7 @@ Esegue il rendering di un cubo 3D in scala di grigio con ombreggiatura che funge
 | <b>Scostamento orientamento</b> | Consente la rotazione X e Y del cubo in 3D. Può essere effettuata anche manipolando il piccolo punto nell’anteprima 2D (come mostrato nell’esempio seguente) |
 | <b>Dimensioni</b> <i>0.0 - 1.0</i> | Consente il ridimensionamento non uniforme del cubo. |
 | <b>Scala</b> <i>0.0 - 1.0</i> | Ridimensiona l&#39;intero cubo in modo uniforme. |
-| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di squash e allungamento con rapporti non quadrati. |
+| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati. |
 
 ## Esempi
 

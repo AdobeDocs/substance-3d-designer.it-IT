@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/resources/font-resource.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/font-resource.html"
 breadcrumb-title: ''
 description: Importa e utilizza le risorse di font in Substance 3D Designer per aggiungere testo e composizione tipografica ai tuoi materiali.
 helpx_creative_field: ""
@@ -26,7 +26,7 @@ Le risorse dei font devono essere utilizzate insieme al [nodo di testo atomico](
 >
 > **Font in SBSAR**
 > 
-> I font sono sempre incorporati in un SBSAR, indipendentemente dal fatto che provengano da una risorsa collegata o utilizzando un font installato nel sistema. Il vantaggio di questo metodo è che non c&#39;è bisogno di installare, e quando si esporta un file SBS con dipendenze, è possibile essere sicuri che i file di font vengono.
+> I font sono sempre incorporati in un SBSAR, indipendentemente dal fatto che provengano da una risorsa collegata o utilizzando un font installato nel sistema. Il vantaggio di questo metodo è che non c&#39;è bisogno di installare, e quando si esporta un file SBS con dipendenze, è possibile essere sicuri che i file dei font vengono.
 
 ## Utilizzo di risorse per font personalizzati
 

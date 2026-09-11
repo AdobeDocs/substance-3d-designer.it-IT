@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/cross-section.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/cross-section.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Sezione trasversale per creare maschere di sezione trasversale in base alle mappe di altezza per gli effetti di taglio e suddivisione in sezioni.
 helpx_creative_field: ""
@@ -54,14 +54,14 @@ In alternativa, può essere utilizzato per creare forme e silhouette 2D difficil
 | <b>Mostra helper</b> *Booleano* | Attiva una sovrapposizione che mostra la posizione della sezione sull’immagine di input. |
 | <b>Impostazioni helper</b> |  |
 | <b>Scala helper</b> *Virgola mobile* | La dimensione della sovrapposizione espressa come multiplo, dove 1,0 è l’intera immagine. |
-| <b>Posizione helper</b> *Virgola mobile 2* | Posizione (X, Y) della sovrapposizione nell’immagine di output, dove (0,0, 0,0) è in alto a sinistra e (1,0, 1,0) è in basso a destra. |
-| <b>Scala Height</b> *Virgola mobile* | Riduce l&#39;intero grafico. Utile per la visualizzazione dell’HDR. |
-| <b>Offset Height</b> *Virgola mobile* | Sposta l’intero grafico in alto o in basso. Utile per la visualizzazione dell’HDR. |
+| <b>Posizione helper</b> *Float2* | Posizione (X, Y) della sovrapposizione nell’immagine di output, dove (0,0, 0,0) è in alto a sinistra e (1,0, 1,0) è in basso a destra. |
+| <b>Scala Height</b> *Mobile* | Riduce l&#39;intero grafico. Utile per la visualizzazione HDR. |
+| <b>Offset Height</b> *Mobile* | Sposta l’intero grafico in alto o in basso. Utile per la visualizzazione HDR. |
 | <b>Stile disegno</b> *Numero intero* | Consente di passare dal riempimento pieno al disegno con linea. |
 | <b>Inverti sfumatura</b> *Booleano* | Se lo stile di disegno è impostato su *Sfumatura* o *Sfumatura specchiata*, consente di invertire la sfumatura senza influire sullo sfondo.<br><br>*Nota:* disponibile solo quando &quot;Stile di disegno&quot; è impostato su &quot;Sfumatura&quot; o &quot;Sfumatura specchiata&quot;. |
 | <b>Uniforme/Poligonale</b> *Booleano* | Alterna la forma tra un profilo morbido perfetto o un profilo poligonale frastagliato.<br><br>*Nota:* disponibile solo quando &#39;Stile disegno&#39; è impostato su &#39;Uniforme&#39;, &#39;Sfumatura&#39; o &#39;Sfumatura speculare&#39;. |
 | <b>Importo segmento</b> *Numero intero* | Imposta la quantità di segmenti da disegnare in stile poligonale o in stile linea.<br><br>*Nota:* disponibile solo quando &#39;Uniforme/Poligonale&#39; è impostato su &#39;Poligonale&#39; o quando &#39;Stile disegno&#39; è impostato su &#39;Linea&#39;. |
-| <b>thickness di righe</b> *Virgola mobile* | Imposta il thickness della linea.<br><br>*Nota:* disponibile solo quando &#39;Stile disegno&#39; è impostato su &#39;Linea&#39;. |
+| <b>thickness di righe</b> *Mobile* | Imposta il thickness della linea.<br><br>*Nota:* disponibile solo quando &#39;Stile disegno&#39; è impostato su &#39;Linea&#39;. |
 | <b>Stile linea</b> *Numero intero* | Consente di scegliere la colorazione e il decadimento della linea.<br><br>*Nota:* disponibile solo quando &#39;Stile disegno&#39; è impostato su &#39;Linea&#39;. |
 | <b>smoothness riga</b> *Virgola mobile* | Imposta il decadimento della sfumatura della linea.<br><br>*Nota:* disponibile solo quando &#39;Stile disegno&#39; è impostato su &#39;Linea&#39;. |
 | <b>Colore</b> *Virgola mobile* | Colore in scala di grigi della linea o della forma.<br><br>*Nota:* disponibile solo quando &#39;Stile disegno&#39; è impostato su &#39;Tinta unita&#39; o &#39;Linea&#39; e &#39;Stile linea&#39; è impostato su &#39;Uniforme&#39; o &#39;Tinta unita&#39;. |

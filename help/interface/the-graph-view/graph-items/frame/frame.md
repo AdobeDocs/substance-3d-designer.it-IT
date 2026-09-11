@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/the-graph-view/graph-items/frame.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/frame.html"
 breadcrumb-title: ''
 description: I fotogrammi nella vista Grafico di Substance 3D Designer consentono di organizzare e raggruppare i nodi per una maggiore chiarezza visiva.
 helpx_creative_field: ""
@@ -270,9 +270,9 @@ Di seguito è riportato un elenco di tag utili per la formattazione del testo:
 
 ## Regole di inclusione
 
-Un oggetto si considera incluso in una cornice se soddisfa la relativa regola di inclusione. Queste regole variano a seconda dell&#39;oggetto e del caso speciale. Sono elencati di seguito.
+Un oggetto viene considerato incluso in un fotogramma se soddisfa la relativa regola di inclusione. Queste regole variano a seconda dell&#39;oggetto e del caso speciale. Sono elencati di seguito.
 
-Il simbolo giallo in ogni illustrazione rappresenta il punto o l&#39;area che deve rientrare interamente nei limiti di una cornice affinché un oggetto venga incluso nella cornice.
+Il simbolo giallo in ogni illustrazione rappresenta il punto o l&#39;area che deve essere interamente compreso nei limiti di un fotogramma affinché un oggetto venga incluso in quel fotogramma.
 
 +++Nodi
 <b>punto centrale</b> utilizzato.

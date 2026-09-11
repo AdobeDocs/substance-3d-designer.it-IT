@@ -40,6 +40,6 @@ Restituisce i volumi aggiunti di due forme SDF, con un volume aggiuntivo di ragg
 
 |  |  |
 | :--- | :--- |
-| <b>SDF 1</b> *Mobile* | La prima forma SDF. |
-| <b>SDF 2</b> *Mobile* | La seconda forma SDF. |
-| <b>Raggio</b> *Mobile* | Raggio del volume aggiunto lungo i bordi dell&#39;intersezione delle forme.<br><br><i>Impostazione predefinita: 0</i> |
+| <b>SDF 1</b> *Virgola mobile* | La prima forma SDF. |
+| <b>SDF 2</b> *Virgola mobile* | La seconda forma SDF. |
+| <b>Raggio</b> *Virgola mobile* | Raggio del volume aggiunto lungo i bordi dell&#39;intersezione delle forme.<br><br><i>Impostazione predefinita: 0</i> |

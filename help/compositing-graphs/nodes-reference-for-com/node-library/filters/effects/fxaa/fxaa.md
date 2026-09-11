@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/fxaa.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/fxaa.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo FXAA per applicare l’anti-alias approssimativo rapido alle texture, al fine di ridurre gli artefatti di alias.
+description: Utilizzare il nodo FXAA per applicare l'anti-alias approssimativo rapido alle texture per ridurre gli artefatti di alias.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > FXAA
 helpx_experience_level: ""

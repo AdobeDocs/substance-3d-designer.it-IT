@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/line-light.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/line-light.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Luce linea per creare sorgenti luminose lineari in ambienti HDRI per simulare la fluorescenza e l’illuminazione a strisce.
 helpx_creative_field: ""
@@ -57,7 +57,7 @@ Le modalità di posizionamento per questo nodo sono leggermente più complesse r
 
 |  |  |
 |:---|:---|
-| <b>Modalità posizione</b> <i>Terra/Soffitto, Distanza dall&#39;origine, Posizioni nel mondo</i> | Selezionate tre diverse modalità di posizionamento. Le opzioni di manipolazione per il supporto di Distanza dall&#39;origine/Soffitto e Terra nella vista 2D consentono di modificare le posizioni di World solo mediante le proprietà, ma supportano anche un posizionamento più preciso. |
+| <b>Modalità posizione</b> <i>Terra/Soffitto, Distanza dall&#39;origine, Posizioni nel mondo</i> | Selezionate tre diverse modalità di posizionamento. Manipolazione del supporto di terra/soffitto e Distanza dall&#39;origine nella Vista 2D, le posizioni World possono essere modificate solo tramite proprietà, ma supporta il posizionamento più esatto. |
 | <b>Mostra griglia terreno</b> <i>Falso/Vero</i> | Funzione di supporto per consentire la creazione di una griglia di terra di debug. Consente di stimare la posizione delle linee nello spazio. |
 | <b>Coordinate posizione</b> |  |
 | <b>Vettore Su</b> <i>Z Su, Y Su</i> | Solo con la modalità Posizione mondo (World Position), determinate l&#39;orientamento del sistema di coordinate. |

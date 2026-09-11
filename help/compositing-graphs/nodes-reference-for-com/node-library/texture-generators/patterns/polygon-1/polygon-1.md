@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/polygon-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/polygon-1.html"
 breadcrumb-title: ''
 description: Usa il nodo Poligono 1 per generare pattern poligonali di base con lati e proprietà personalizzabili per texture geometriche.
 helpx_creative_field: ""
@@ -53,8 +53,8 @@ Genera una forma poligonale, con molte opzioni di regolazione. Per una versione 
 | <b>Rotazione</b> <i>0.0 - 1.0</i> | Ruota l&#39;intera forma. |
 | <b>Sfumatura</b> <i>Falso/Vero</i> | Genera fette/triangoli con gradiente anziché solidi. Nota: diventa simile al Poligono 2 con questa impostazione attivata. |
 | <b>Inversione sfumatura</b> <i>Falso/Vero</i> | Capovolge la direzione della sfumatura se &quot;Sfumatura&quot; è abilitato. |
-| <b>Affiancatura</b> <i>1 - 16</i> | Imposta il numero di volte in cui il risultato deve essere affiancato. |
-| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati. |
+| <b>Affiancamento</b> <i>1 - 16</i> | Imposta il numero di volte in cui il risultato deve essere affiancato. |
+| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di squash e allungamento con rapporti non quadrati. |
 | <b>Affiancamento non quadrato</b> <i>Falso/Vero</i> | Quando è abilitato il Non square expansion, la forma verrà affiancata senza schiacciamenti. |
 
 ## Esempi

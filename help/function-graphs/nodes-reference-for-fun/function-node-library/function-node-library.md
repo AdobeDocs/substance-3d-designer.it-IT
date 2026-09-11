@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library.html"
 breadcrumb-title: ''
 description: Accesso a grafici preconfigurati delle funzioni Substance come nodi di istanza per velocizzare il flusso di lavoro e migliorare le funzionalità.
 helpx_creative_field: ""
@@ -360,19 +360,19 @@ Tonalità RGB 2 polare
 
 Tonalità RGB esagonale
 
-Media luminosità RGB
+Media Luminosità RGB
 
-bi-escone RGB lightness
+RGB Luminosità bi-escone
 
-Escone luminosità RGB
+Escone Luminosità RGB
 
-Luma RGB lightness Rec.601
+Luma RGB Luminosità Rec.601
 
-Luma RGB lightness Rec.709
+Luma RGB Luminosità Rec.709
 
 HSI saturazione RGB
 
-HSL saturazione RGB
+HSL a saturazione RGB
 
 HSV saturazione RGB
 
@@ -393,7 +393,7 @@ da sRGB a lineare
 
 Temperatura al RGB
 
-Contagocce ACES
+Tonemapper ACE
 
 Tonemapper Agx (circa)
 
@@ -465,15 +465,15 @@ Globale casuale
 
 Distribuzione normale
 
-Uniforme casuale &lbrack;-1, 1&lbrack;
+Uniforme casuale [-1, 1[
 
-Uniforme casuale &lbrack;a, b&lbrack;
+Uniforme casuale [a, b[
 
-Variabile casuale uniforme 2 &lbrack;a, b&lbrack;
+Variabile casuale uniforme 2 [a, b[
 
-Variabile casuale uniforme 3 &lbrack;a, b&lbrack;
+Variabile casuale uniforme 3 [a, b[
 
-Variabile casuale uniforme 4 &lbrack;a, b&lbrack;
+Variabile casuale uniforme 4 [a, b[
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/function-graphs/create-and-edit-a-function.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/create-and-edit-a-function.html"
 breadcrumb-title: ''
 description: Scopri come creare e modificare grafici delle funzioni in Substance 3D Designer per creare reti di nodi riutilizzabili.
 helpx_creative_field: ""

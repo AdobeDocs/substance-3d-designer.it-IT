@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/1-click/bitmap-to-material-light.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/1-click/bitmap-to-material-light.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Da bitmap a luce materiale per convertire rapidamente le immagini bitmap in materiali con illuminazione ottimizzata per flussi di lavoro veloci.
 helpx_creative_field: ""
@@ -79,7 +79,7 @@ Sebbene non sia garantito che si traduca in materiali perfetti e corretti per PB
 | <b>Livelli Di Rugosità In</b> <i>0.0 - 1.0</i> | Imposta i livelli di input per l’interpretazione della rugosità. |
 | <b>Livelli di rugosità in uscita</b> <i>0.0 - 1.0</i> | Modifica i livelli di output della rugosità. |
 | <b>Rugosità metallica influenza</b> <i>0.0 - 1.0</i> | Determina l&#39;influenza dell&#39;input metallico opzionale sulla mappa Lucentezza. |
-| <b>Occlusione ambientale</b> |  |
+| <b>Occlusione ambiente</b> |  |
 | <b>Occlusione ambientale Nelle Diffuse</b> <i>0.0 - 1.0</i> | Fusioni in AO generato in output Diffusa. |
 | <b>Occlusione ambientale pagine affiancate</b> <i>0.0 - 1.0</i> | Consente di impostare la distanza di diffusione dell’audio originale generato. |
 | <b>Occlusione ambientale distanza luce</b> <i>0.0 - 1.0</i> | Imposta l’interpretazione &quot;profondità&quot; di AO. Ha meno influenza quando c&#39;è una grande diffusione. |

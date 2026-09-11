@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/fiber-glass-edge-wear.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/fiber-glass-edge-wear.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Edge Wear fibra di vetro per generare maschere di usura sui bordi in fibra di vetro in base alla curvatura della trama.
 helpx_creative_field: ""
@@ -48,7 +48,7 @@ Rappresenta una maschera specificamente destinata a un&#39;usura di tipo vetrore
 |  |  |
 |:---|:---|
 | <b>Curvatura</b> <i>Input scala di grigi</i> | Mappa con baking utilizzata per evidenziare i bordi. Obbligatorio! |
-| <b>Occlusione ambiente</b> <i>Input scala di grigi</i> | Mappa con baking utilizzata per mascherare le aree occluse. Non richiesto, ma sicuramente consigliato. |
+| <b>Occlusione ambientale</b> <i>Input scala di grigi</i> | Mappa con baking utilizzata per mascherare le aree occluse. Non richiesto, ma sicuramente consigliato. |
 | <b>Input Grunge</b> <i>Input scala di grigi</i> | Slot personalizzato opzionale per ignorare il motivo a fibra. |
 | <b>Maschera (facoltativo)</b> <i>Input scala di grigi</i> | Slot maschera utilizzato per mascherare gli effetti del nodo. |
 | <b>Spazio globale normale</b> <i>Input colore</i> | Utilizzato solo per Triplanare. |

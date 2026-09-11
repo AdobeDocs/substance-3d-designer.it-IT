@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/preferences-window/version-control.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window/version-control.html"
 breadcrumb-title: ''
 description: Configura le impostazioni di controllo della versione nelle preferenze di Substance 3D Designer per l’integrazione con Git e altri sistemi.
 helpx_creative_field: ""
@@ -68,7 +68,7 @@ Installazione di ![P4 in Designer: workspace](../../../assets/p4v-project-settin
 
 ### Impostazione delle azioni
 
-Le azioni saranno disponibili nel menu di scelta rapida di un pacchetto in Esplora risorse. Sono disponibili azioni predefinite che corrispondono alla maggior parte dei concetti dello strumento Controllo versione:
+Le azioni saranno disponibili nel menu di scelta rapida di un pacchetto in Esplora risorse. Esistono azioni predefinite che corrispondono alla maggior parte dei concetti degli strumenti di Controllo versione:
 
 * Tutte le etichette delle azioni possono essere modificate in base alle esigenze.
 * Per essere valide, tutte le azioni richiedono uno script.
@@ -92,7 +92,7 @@ Installazione di ![P4 in Designer: actions](../../../assets/p4v-project-settings
 
 ### Impostazione delle azioni personalizzate
 
-Poiché tutti gli strumenti per il controllo delle versioni sono diversi e includono numerose funzionalità, è possibile aggiungere azioni personalizzate.
+Poiché tutti gli strumenti di controllo versione sono diversi e includono molte funzioni, è possibile aggiungere azioni personalizzate.
 
 1. Fai clic su &quot;Aggiungi elemento&quot;.
 1. Compila l’etichetta della nuova azione e impostane il percorso di script.
@@ -105,11 +105,11 @@ Poiché tutti gli strumenti per il controllo delle versioni sono diversi e inclu
 
 Installazione di ![P4 in Designer: interpreter](../../../assets/p4v-project-settings-interpreters.jpg "Installazione di P4 in Designer: interpreter"){zoomable="yes"}
 
-## Come utilizzare il controllo delle versioni
+## Come usare controlli versione
 
 1. Crea un nuovo pacchetto
 1. Salva il pacchetto nella directory &quot;Percorso area di lavoro&quot;.
-1. Fai clic su RMB sul pacchetto: ora hai accesso al sottomenu &quot;Controllo versione&quot;
+1. Fai clic su RMB sul pacchetto: ora hai accesso al sottomenu &quot;Controllo versione&quot;.
 1. Sono disponibili diverse azioni, a seconda dello stato del file di pacchetto nell’area di lavoro:
 
    * <b>Aggiungi:</b> Contrassegna i file come &#39;ToAdd&#39;
@@ -138,7 +138,7 @@ Installazione di ![P4 in Designer: interpreter](../../../assets/p4v-project-sett
 >
 > Tutte le azioni supportano la selezione multipla
 > 
-> Per P4 e altri strumenti di controllo delle versioni che utilizzano autorizzazioni di sola lettura per limitare le modifiche, l&#39;utente dovrà prima estrarre il pacchetto prima di modificarlo.
+> Per P4 e altri strumenti di controllo versione che utilizzano autorizzazioni di sola lettura per limitare le modifiche, l&#39;utente dovrà prima estrarre il pacchetto prima di modificarlo.
 > 
 > I file dei pacchetti di sola lettura non possono essere modificati in SD.
 

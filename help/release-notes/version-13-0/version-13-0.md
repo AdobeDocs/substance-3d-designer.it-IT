@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/release-notes/version-13-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-13-0.html"
 breadcrumb-title: ''
 description: Consulta le note sulla versione per Substance 3D Designer versione 13.0 per informazioni sui nuovi nodi, Substance Engine 9.0 e i nodi portale.
 helpx_creative_field: ""
@@ -94,7 +94,7 @@ Forniamo anche strumenti per rielaborare e rifinire le spline. Troverai un nodo 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Spline 2D Transform](../../assets/Spline2DTransform-Demo1.gif "Spline 2D Transform")
+![Spline 2D Trasforma](../../assets/Spline2DTransform-Demo1.gif "Spline 2D Trasforma")
 
 </td>
 <td style="border: 0;" valign="top">

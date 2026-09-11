@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/release-notes/version-15-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-15-0.html"
 breadcrumb-title: ''
-description: Consulta le note sulla versione per Substance 3D Designer versione 15.0 per scoprire il nuovo modulo di rendering 3D e il supporto nativo per USD.
+description: Consulta le note sulla versione per Substance 3D Designer versione 15.0 per informazioni sul nuovo modulo di rendering 3D e sul supporto nativo per USD.
 helpx_creative_field: ""
 helpx_description: Designer > Release Notes > Version 15.0
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Versione 15.0
 
-Questo aggiornamento introduce un nuovissimo modulo di rendering 3D, con modalità rasterizzatore e tracciatore dei percorsi, e un supporto nativo di [USD](https://openusd.org/release/index.html) per consentire la modifica e l’esportazione delle scene senza perdita di dati.
+Questo aggiornamento introduce un nuovissimo modulo di rendering 3D, con modalità rasterizzatore e tracciatore dei percorsi, oltre a un supporto nativo di [USD](https://openusd.org/release/index.html) che consente di modificare ed esportare le scene senza perdita di dati.
 
 *Data di pubblicazione: 15 luglio 2025*
 
@@ -32,7 +32,7 @@ Questo aggiornamento introduce un nuovissimo modulo di rendering 3D, con modalit
 
 Questa nuova versione offre l’accesso a un [modulo di rendering 3D](../../interface/3d-view/3d-renderers/3d-renderers.md) avanzato, con una modalità rasterizzatore (per avere un’anteprima in tempo reale mentre lavorate sul materiale) e una modalità tracciatore tracciato (una modalità ray tracing per ottenere un rendering perfetto e preciso). Questo nuovo modulo di rendering migliora le funzionalità con funzioni quali ombre in modalità rasterizzatore, migliora la qualità e le prestazioni ed è progettato per supportare tecnologie future come [MaterialX](https://materialx.org/). Completa i moduli di rendering OpenGL e Iray esistenti in Designer e si allinea con i moduli di rendering disponibili in Substance 3D Viewer e Substance 3D Sampler, garantendo un’esperienza uniforme in tutto l’ecosistema.
 
-![ombre e trasparenza nella rasterizzazione](../../assets/feature_1b.png)
+![ombre e traslucidità nella rasterizzazione](../../assets/feature_1b.png)
 
 La [barra degli strumenti della vista 3D](../../interface/3d-view/3d-view.md) è stata aggiornata per accedere rapidamente ad alcune delle nuove funzioni disponibili in questo modulo di rendering:
 
@@ -41,13 +41,13 @@ La [barra degli strumenti della vista 3D](../../interface/3d-view/3d-view.md) è
 * <b>Attiva ombre:</b> per attivare le ombre nella scena, utile per vedere come si comportano i materiali in base alla luce.
 * <b>Abilitare il piano terreno </b> per abilitare o meno il piano terreno nella scena.
 
-Inoltre, il tasto di scelta rapida per ruotare la luce ambiente è stato modificato in modo che corrisponda alle altre app Substance, quindi ora è *<b>clic con il pulsante destro del mouse tenendo premuto il tasto Maiusc</b>* invece di *<b>clic con il tasto Ctrl e il tasto Maiusc</b>*.
+Inoltre, il tasto di scelta rapida per ruotare la luce ambientale è stato modificato in modo che corrisponda alle altre app Substance, quindi ora è *<b>clic con il pulsante destro del mouse tenendo premuto il tasto Maiusc</b>* invece di *<b>clic con il tasto Ctrl e il tasto Maiusc</b>*.
 
 ### Effetti post
 
-[Gli effetti post sono tornati](../../interface/3d-view/camera/post-effects/post-effects.md). Sono ora disponibili tramite il menu Camera e sono stati sviluppati internamente.
+[Gli Effetti post sono tornati](../../interface/3d-view/camera/post-effects/post-effects.md)! Sono ora disponibili tramite il menu Camera e sono stati sviluppati internamente.
 
-* <b>Bloom:</b> simula il bagliore attorno a punti luminosi come luci e riflessi, consentendo una migliore visualizzazione delle superfici emissive.
+* <b>Bloom:</b> simulate il bagliore attorno a punti luminosi come luci e riflessi, per visualizzare meglio le superfici emissivi.
 * <b>Mappatura toni: </b>l&#39;intervallo di colori con profili per ottenere un effetto HDR (High-Dynamic-Range).
 * <b>Profondità di campo:</b> simula le proprietà di messa a fuoco di un obiettivo della fotocamera (solo rasterizzatore).
 
@@ -161,16 +161,16 @@ Ogni anno, la [VFX Reference Platform](https://vfxplatform.com/) pubblica un ele
 * [Panettieri] Consenti di rinominare un panettiere senza interrompere i collegamenti
 * [Panettieri] Modificare le dimensioni predefinite del pannello centrale
 * [Bakers] Texture di input per flusso di lavoro UDIM
-* [Bakers] Imposta l&#39;ordine dell&#39;elenco di mappe 2D View come ordine dell&#39;elenco di rendering Bakers
-* [Panettieri] Rendete modale la finestra di cottura
-* [Panettieri] Gestire i parametri di mappatura tonale
-* [Bakers] Rimuovi selezione plug-in spazio tangente
-* [Panettieri] Salva stato &quot;abilitato&quot; o &quot;disabilitato&quot; per i panettieri durante il salvataggio di un predefinito
-* [Panettieri] Selezionare il materiale per impostazione predefinita nel widget di selezione
-* [Bakers] Impostare l&#39;orientamento predefinito della texture di output Normale rispetto alla preferenza
-* [Panettieri] Per impostazione predefinita, imposta le porzioni UV su Tutto
-* [Bakers] Opzione di aggiunta WordSpaceDirection FromTexture/FromValue
-* [Pannelli] Da universale a tangente: imposta l’input predefinito su &quot;Da texture&quot;
+* [Baker] Imposta l&#39;ordine dell&#39;elenco di vista 2D come Baker l&#39;ordine dell&#39;elenco di rendering
+* [Baker] Rendi modale la finestra di esegue i baking
+* [Baker] Gestire i parametri di mappatura tonale
+* [Baker] Rimuovi selezione plug-in spazio tangente
+* [Baker] Salvare lo stato &quot;abilitato&quot; o &quot;disabilitato&quot; per i Baker durante il salvataggio di un predefinito
+* [Baker] Selezionare il materiale per impostazione predefinita nel widget di selezione
+* [Baker] Imposta l’orientamento predefinito della texture di output Normale in relazione alla preferenza
+* [Baker] Per impostazione predefinita, imposta le porzioni UV su Tutto
+* [Baker] Opzione di aggiunta WordSpaceDirection FromTexture/FromValue
+* [Baker] Da mondo a tangente: imposta l&#39;input predefinito su &quot;Da texture&quot;
 * [SBSBaker] Create un&#39;opzione per controllare l&#39;ordine backend
 * [SBSBaker] Migliore utilizzo dell&#39;argomento StringList
 * [SBSBaker] Rinominare &quot;match\_source\_instance&quot; in &quot;match\_mesh\_name&quot;
@@ -185,31 +185,31 @@ Ogni anno, la [VFX Reference Platform](https://vfxplatform.com/) pubblica un ele
 * [Nodes] Aggiungere descrizioni comandi avanzate per i nodi atomici
 * [Parameters] Chiude la sezione &#39;Attributes&#39; per impostazione predefinita
 * [Parametri] Consente all&#39;utente di specificare i valori di default dei parametri di base per le nuove istanze
-* [Preferenze] Pannelli: aggiungi un&#39;opzione booleana per calcolare lo spazio tangente per frammento
+* [Preferenze] Baker: aggiungi un&#39;opzione booleana per calcolare lo spazio tangente per frammento
 * [Preferenze] Rimuovi i plug-in dello spazio tangente
 * [Preferenze] Memorizzare le preferenze per le versioni secondarie di SD (XX.X)
 * [VFX] Aggiornamento incrementale alla versione 1.85.0
 * [VFX] Aggiornate MacOS versione minima alla versione 12.0
-* [VFX] Aggiornare OpenColorIO alla versione 2.4.2
-* [VFX] Aggiornamento di OpenColorIO alla versione 2.4.x
+* [VFX] Aggiornamento OpenColorIO alla versione 2.4.2
+* [VFX] Aggiornamento OpenColorIO alla versione 2.4.x
 * [VFX] Aggiornamento di OpenExr alla versione 3.3.x
 * [VFX] Aggiornare Qt alla versione 6.5.8
 
 ### Correzioni
 
-* [Vista 3D] Le texture nella scena USD esportata non vengono applicate correttamente
-* [Vista 3D] [UDIM] Impossibile visualizzare gli output del grafico UDIM in Vista 3D quando la visualizzazione automatica all&#39;apertura del grafico è disattivata nelle preferenze del grafico
-* [Panettieri] &#39;Antialiasing.&#39; e &#39;Media. le celle normali per i forni non applicabili sono vuote e modificabili
-* [Bakers] L’azione &quot;Aggiorna&quot; utilizza il backend ray tracing quando è disattivato nelle preferenze
-* [Panettieri] Panettieri bloccati come occupati dopo un errore durante il processo &quot;Aggiorna tutte le mappe con baking&quot;
-* [Bakers] Arresto anomalo a oltre 180 UDIM durante la cottura della mappa di posizione OpenGL su una trama specifica
-* [Bakers] Arresto anomalo quando si apre la finestra di dialogo &quot;Informazioni modello di forno&quot; più volte di seguito (solo macOS)
-* [Bakers] Nell’esportazione dei predefiniti JSON, il valore &quot;udim&quot; è sostituito da &quot;1001&quot; quando era impostato su &quot;All&quot;
+* [vista 3D] Le Texture nella scena USD esportata non vengono applicate correttamente
+* [vista 3D] [UDIM] Impossibile visualizzare gli output del grafico UDIM in vista 3D quando la visualizzazione automatica all&#39;apertura del grafico è disattivata nelle preferenze del grafico
+* [Baker] &#39;Antialiasing.&#39; e &#39;Media. le celle normali per i baker non applicabili sono vuote e modificabili
+* [Baker] L’azione &quot;Aggiorna&quot; utilizza il back-end raytracing quando è disattivato nelle preferenze
+* [Baker] Baker bloccati come occupati dopo un errore durante la procedura &quot;Aggiorna tutte le mappe con baking&quot;
+* [Baker] Arresto anomalo a oltre 180 UDIM quando si esegue i baking la mappa di posizione OpenGL su una trama specifica
+* [Baker] Arresto anomalo quando si apre la finestra di dialogo &quot;Esegue i baking informazioni sul modello&quot; più volte in una riga (solo macOS)
+* [Baker] Nell’esportazione dei predefiniti JSON, il valore &quot;udim&quot; è sostituito da &quot;1001&quot; quando era impostato su &quot;All&quot;
 * [Baker] Memoria non rilevata correttamente su Linux
-* [Bakers] La dipendenza di input mappa mancante non attiva il rendering di avvisi e/o blocchi
-* [Bakers] Nessuna etichetta di errore quando il nome dell&#39;output è vuoto
-* [Pannelli] Il passaggio della trama ad alto poli dal file non ha alcun effetto
-* [Bakers] Il baker di destinazione non è selezionato per impostazione predefinita quando si utilizza l&#39;azione &quot;Rebake&quot;
+* [Baker] La dipendenza di input mappa mancante non attiva il rendering di avvisi e/o blocchi
+* [Baker] Nessuna etichetta di errore quando il nome dell&#39;output è vuoto
+* [Baker] Il passaggio della trama ad alto poli dal file non ha alcun effetto
+* [Baker] Il baker di destinazione non è selezionato per impostazione predefinita quando si utilizza l’azione &quot;Ripristina&quot;
 * [Engine] Distanza: visibile &quot;taglio&quot; in alcune situazioni
 * [Engine] Mappa Fx: i colori negativi non sono supportati quando la profondità di bit è 8 bit (solo motori GPU)
 * [Localizzazione] L’input di caratteri torna dal giapponese al latino nel menu dei nodi
@@ -217,18 +217,18 @@ Ogni anno, la [VFX Reference Platform](https://vfxplatform.com/) pubblica un ele
 * [Security] Vulnerabilità di scrittura II non associata, durante l&#39;analisi del file NEF
 * [Sicurezza] Vulnerabilità di lettura non associata III, durante l&#39;analisi del file DNG
 * [Preferenze] Problemi UX nelle impostazioni del progetto per progetti di sola lettura
-* [Risorse] Più set UV non vengono visualizzati quando si aprono file FBX
+* [Risorse] Più set UV non vengono visualizzati quando si aprono i file FBX
 * [UI] Etichette sovrapposte nella barra di stato
 * [UI] Le descrizioni del menu a discesa &quot;Modalità creazione collegamento&quot; non vengono visualizzate
 
 ### PROBLEMI NOTI
 
-* [Bakers] Arresto anomalo durante la cottura con alcuni driver NVidia specifici
-* [Vista 3D] OpenGL: alcune scene importate potrebbero non essere renderizzate
-* [Vista 3D] Rasterizzatore: artefatti di ombra quando si utilizza lo spostamento su una scena piatta
-* [Vista 3D] Tracciatore: prestazioni lente durante l&#39;aggiornamento delle texture con tasselation/spostamento abilitato
-* [Vista 3D] Alcune proprietà del materiale cromatico non sono gestite correttamente dal colore quando vengono modificate localmente
-* [Vista 3D] Le scene con forme di base animate non sono supportate correttamente
-* [Vista 3D] La trama con più elementi UDim non è ancora supportata
-* [Vista 3D] Le trame con più UV non sono supportate e potrebbero causare un rendering del materiale non valido
-* [Vista 3D] Tracciatore non supportato sulle schede grafiche AMD
+* [Baker] Arresti anomali durante la esegue i baking con alcuni driver NVidia specifici
+* [vista 3D] OpenGL: alcune scene importate potrebbero non essere renderizzate
+* [vista 3D] Rasterizzatore: artefatti di ombra quando si utilizza lo spostamento su una scena piatta
+* [vista 3D] Tracciatore: prestazioni lente durante l&#39;aggiornamento della texture con tasselation/spostamento abilitato
+* [vista 3D] Alcune proprietà del materiale cromatico non vengono gestite correttamente quando vengono modificate localmente
+* [vista 3D] Le scene con forme di base animate non sono supportate correttamente
+* [vista 3D] La trama con più UDim non è ancora supportata
+* [vista 3D] Le trame con più UV non sono supportate in modo affermativo e potrebbero causare una resa del materiale non valida
+* [vista 3D] Tracciatore non supportato sulle schede grafiche AMD

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-random.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-random.html"
 breadcrumb-title: ''
 description: Usa i nodi della funzione Casuale per generare valori casuali entro limiti specifici utilizzando vari algoritmi.
 helpx_creative_field: ""
@@ -32,15 +32,15 @@ Distribuzione normale
 
 Casuale discreto [a, b]
 
-Uniforme casuale &lbrack;-1, 1&lbrack;
+Uniforme casuale [-1, 1[
 
-Uniforme casuale &lbrack;a, b&lbrack;
+Uniforme casuale [a, b[
 
-Variabile casuale uniforme 2 &lbrack;a, b&lbrack;
+Variabile casuale uniforme 2 [a, b[
 
-Variabile casuale uniforme 3 &lbrack;a, b&lbrack;
+Variabile casuale uniforme 3 [a, b[
 
-Variabile casuale uniforme 4 &lbrack;a, b&lbrack;
+Variabile casuale uniforme 4 [a, b[
 
 </td>
 <td style="border: 0;" valign="top">

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-fine.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-fine.html"
 breadcrumb-title: ''
 description: Usa il nodo Fine degli Scratches di Grunge per aggiungere motivi di graffio fini per un'usura delicata e effetti di dettaglio superficiali.
 helpx_creative_field: ""
@@ -45,14 +45,14 @@ Il nodo **Scratches fini** delle Grungi genera una mappa delle grungi simile a u
 
 |  |  |
 |:---|:---|
-| <b>Saldo</b> <i>Virgola mobile</i> | Regola il bilanciamento tra i valori di luminosità e oscurità. |
-| <b>Contrasto</b> <i>Virgola mobile</i> | Regola il contrasto dell’immagine. |
+| <b>Saldo</b> <i>Mobile</i> | Regola il bilanciamento tra i valori di luminosità e oscurità. |
+| <b>Contrasto</b> <i>Mobile</i> | Regola il contrasto dell’immagine. |
 | <b>Inverti</b> <i>Booleano</i> | Inverte l&#39;output dell&#39;immagine utilizzando un&#39;operazione `1-x`. |
-| <b>Non square expansion</b> <i>Booleano</i> | Consente la compensazione di squash e allungamento con rapporti non quadrati. |
+| <b>Non square expansion</b> <i>Booleano</i> | Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati. |
 | <b>Avanzate</b> |  |
-| <b>Importo Scratches</b> <i>Virgola mobile</i> | Regola la quantità di graffi fini sulla superficie. |
-| <b>Intensità nitidezza</b> <i>Virgola mobile</i> | Regola l’intensità dell’effetto di nitidezza globale. |
-| <b>Differenza valore memoria virtuale</b> <i>Mobile</i> | Regola il bilanciamento dei valori di luminanza assegnati ai singoli graffi. |
+| <b>Importo Scratches</b> <i>Mobile</i> | Regola la quantità di graffi fini sulla superficie. |
+| <b>Intensità nitidezza</b> <i>Mobile</i> | Regola l’intensità dell’effetto di nitidezza globale. |
+| <b>Differenza valore memoria virtuale</b> <i>Virgola mobile</i> | Regola il bilanciamento dei valori di luminanza assegnati ai singoli graffi. |
 
 ## Esempi
 

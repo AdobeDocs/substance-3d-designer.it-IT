@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/quad-transform-on-path.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/quad-transform-on-path.html"
 breadcrumb-title: ''
-description: Usa il nodo Trasformazione quadrata su tracciato per applicare trasformazioni quadratiche agli elementi lungo le curve del tracciato.
+description: Usa il nodo Trasforma quadrato su tracciato per applicare trasformazioni quadratiche agli elementi lungo le curve del tracciato.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Quad Transform on Path
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Quad Transform on Path
+title: Trasforma quadrupla su tracciato
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 29dd2e6adc826f63ee26defc0032b0e52d4e30fb
@@ -18,7 +18,7 @@ ht-degree: 2%
 ---
 
 
-# Quad Transform on Path
+# Trasforma quadrupla su tracciato
 
 <table>
 <tr style="border: 0;">
@@ -53,7 +53,7 @@ Deforma un tracciato usando 4 maniglie.
 
 |  |  |
 |:---|:---|
-| <b>Tracciati</b> <i>Colore</i> | I tracciati trasformati. Potete utilizzare [Anteprima tracciati](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) per avere un&#39;idea di ciò che rappresenta il risultato, utilizzare un altro nodo di elaborazione tracciati o inserirlo in un [Tracciati da spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) per elaborarlo ulteriormente come spline. |
+| <b>Tracciati</b> <i>Colore</i> | I Tracciati Trasforma. Potete utilizzare [Anteprima tracciati](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) per avere un&#39;idea di ciò che rappresenta il risultato, utilizzare un altro nodo di elaborazione tracciati o inserirlo in un [Tracciati da spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) per elaborarlo ulteriormente come spline. |
 
 <a name="parameters"></a>
 
@@ -61,10 +61,10 @@ Deforma un tracciato usando 4 maniglie.
 
 |  |  |
 |:---|:---|
-| <b>p00</b> <i>Float2</i> | Posizione della maniglia superiore sinistra. |
-| <b>p01</b> <i>Float2</i> | Posizione della maniglia superiore destra. |
-| <b>p02</b> <i>Float2</i> | Posizione della maniglia inferiore sinistra. |
-| <b>p03</b> <i>Float2</i> | Posizione della maniglia inferiore destra. |
+| <b>p00</b> <i>Virgola mobile 2</i> | Posizione della maniglia superiore sinistra. |
+| <b>p01</b> <i>Virgola mobile 2</i> | Posizione della maniglia superiore destra. |
+| <b>p02</b> <i>Virgola mobile 2</i> | Posizione della maniglia inferiore sinistra. |
+| <b>p03</b> <i>Virgola mobile 2</i> | Posizione della maniglia inferiore destra. |
 
 ## Esempi
 

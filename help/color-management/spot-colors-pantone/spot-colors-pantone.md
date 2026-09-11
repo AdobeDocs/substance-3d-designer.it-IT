@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/color-management/spot-colors-pantone.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/color-management/spot-colors-pantone.html"
 breadcrumb-title: ''
 description: Scoprite come utilizzare le tinte piatte di Pantone in Substance 3D Designer per ottenere una corrispondenza di colore accurata nella stampa e nei flussi di lavoro di progettazione.
 helpx_creative_field: ""

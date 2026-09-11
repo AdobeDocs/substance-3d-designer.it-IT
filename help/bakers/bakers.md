@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/bakers.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/bakers.html"
 breadcrumb-title: ''
 description: Scoprite come utilizzare i baker Substance 3D Designer per calcolare le informazioni basate su mesh nei file texture.
 helpx_creative_field: ""
@@ -24,18 +24,18 @@ La esegue i baking fa riferimento all&#39;azione di **trasferimento delle inform
 
 >[!NOTE]
 >
-> Per ulteriori informazioni sulla esegue i baking, consulta la [Documentazione di Esegue i baking](https://experienceleague.adobe.com/it/docs/substance-3d/bakers/home).
+> Per ulteriori informazioni sulla esegue i baking, consulta la [Documentazione di Esegue i baking](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home).
 
 <table>
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-È possibile accedere alla finestra di esegue i baking tramite il file mesh nella finestra [Esplora risorse](../interface/the-explorer-window/the-explorer-window.md). Fate clic con il pulsante destro del mouse sul nome della trama e scegliete &quot;**Esegue i baking informazioni modello**&quot; per aprire la finestra di esegue i baking.
+È possibile accedere alla finestra di cottura tramite il file mesh nella finestra [Esplora risorse](../interface/the-explorer-window/the-explorer-window.md). Fate clic con il pulsante destro del mouse sul nome della trama e scegliete &quot;**Informazioni sul modello di forno**&quot; per aprire la finestra di cottura al forno.
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-Opzione &quot;Esegue i baking informazioni modalità&quot; di ![&#x200B; nel menu contestuale della risorsa scena 3D](bakers.resources/sd-mesh-right-click.png " opzione &quot;Esegue i baking informazioni modalità&quot; nel menu contestuale della risorsa scena 3D")
+Opzione &quot;Esegue i baking informazioni modalità&quot; di ![ nel menu contestuale della risorsa scena 3D](bakers.resources/sd-mesh-right-click.png " opzione &quot;Esegue i baking informazioni modalità&quot; nel menu contestuale della risorsa scena 3D")
 
 </td>
 </tr>
@@ -45,7 +45,7 @@ Opzione &quot;Esegue i baking informazioni modalità&quot; di ![&#x200B; nel men
 
 ## Panoramica
 
-La finestra eseguente i baking di è suddivisa in diversi pannelli descritti di seguito.
+La finestra di cottura di è divisa in diversi pannelli che sono descritti di seguito.
 
 <table>
 <tr style="border: 0;">
@@ -53,9 +53,9 @@ La finestra eseguente i baking di è suddivisa in diversi pannelli descritti di 
 
 ### Elementi da eseguire i baking
 
-Questo pannello controlla quale parte della trama a basso poli verrà utilizzata per eseguire la esegue i baking.
+Questo pannello controlla quale parte della trama a basso poli verrà utilizzata per la cottura al forno.
 
-Elenca la geometria trovata all&#39;interno del file mesh low-poly. Per impostazione predefinita, l’elenco si basa sui singoli materiali presenti nel file, ma può essere sostituito da sottoreti, se necessario. Potete deselezionare gli elementi che devono essere ignorati durante la esegue i baking.
+Elenca la geometria trovata all&#39;interno del file mesh low-poly. Per impostazione predefinita, l’elenco si basa sui singoli materiali presenti nel file, ma può essere sostituito da sottoreti, se necessario. Potete deselezionare gli elementi che devono essere ignorati durante il processo di cottura al forno.
 
 </td>
 <td style="border: 0;" valign="top">
@@ -72,7 +72,7 @@ Elenca la geometria trovata all&#39;interno del file mesh low-poly. Per impostaz
 
 ### Output
 
-Questo pannello controlla la posizione della texture eseguita i baking.
+Questo pannello controlla la posizione della texture cotta.
 
 </td>
 <td style="border: 0;" valign="top">
@@ -85,7 +85,7 @@ Questo pannello controlla la posizione della texture eseguita i baking.
 
 | *Parametro* | *Descrizione* |
 | --- | --- |
-| **Metodo** | Controlla la modalità di memorizzazione delle texture eseguite i baking con il pacchetto di Substance.Valori possibili:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Incorporata</strong>: la texture eseguita i baking viene archiviata in una sottocartella accanto al pacchetto di Substance con un nome specifico.</li><li data-preserve-html="true"><strong>Collegata</strong> (impostazione predefinita): la texture in baked viene memorizzata nella cartella definita e quindi referenziata nella Substance collocata.</li></ul> |
+| **Metodo** | Controlla come verranno memorizzate le texture cotte con la confezione di Substance.Valori possibili:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Embedded</strong>: la texture baked è memorizzata in una sottocartella accanto al pacchetto Substance con un nome specifico.</li><li data-preserve-html="true"><strong>Collegata</strong> (impostazione predefinita): la texture in baked viene memorizzata nella cartella definita e quindi referenziata nella Substance collocata.</li></ul> |
 | **Cartella** | Posizione delle texture al forno quando vengono salvate. Fai clic sul pulsante con tre punti per aprire una finestra di dialogo e scegli la cartella di esportazione. A destra sarà visibile un segno di spunta che indica se la cartella esiste effettivamente o meno. |
 | **Nome** | Convenzione di denominazione delle texture cotte. Fate clic sul pulsante con tre punti per aprire un menu a discesa e inserire altri segnaposto (nome di backup, personalizzato, materiale, trama). |
 | **Esempio** | Simulare un nome di file per verificare la convenzione di denominazione. |
@@ -93,13 +93,13 @@ Questo pannello controlla la posizione della texture eseguita i baking.
 
 ### Trame ad alta definizione
 
-Questo pannello controlla l’elenco delle trame a poli alti e le relative impostazioni. Per ulteriori informazioni, vedere [parametri comuni](https://experienceleague.adobe.com/it/docs/substance-3d/bakers/bakers-settings/common-parameters).
+Questo pannello controlla l’elenco delle trame a poli alti e le relative impostazioni. Per ulteriori informazioni, vedere [parametri comuni](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/common-parameters).
 
 ![Trame ad alta definizione](bakers.resources/sd-high.png "Trame ad alta definizione")
 
 ### Valori predefiniti
 
-Per ulteriori informazioni, vedere [parametri comuni](https://experienceleague.adobe.com/it/docs/substance-3d/bakers/bakers-settings/common-parameters).
+Per ulteriori informazioni, vedere [parametri comuni](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/common-parameters).
 
 ![Valori predefiniti](bakers.resources/sd-default-values.png "Valori predefiniti")
 
@@ -112,10 +112,10 @@ L&#39;**elenco dei forni** è il punto in cui puoi scegliere quale texture infor
 * **Spostamento di un fornaio in alto:** Selezionare il fornaio nell&#39;elenco, quindi fare clic sul pulsante &quot;Tirare in alto&quot;.
 * **Spostamento in basso di un fornaio:** Selezionare il fornaio nell&#39;elenco, quindi fare clic sul pulsante &quot;Spingi in basso&quot;.
 
-Per impostazione predefinita, ogni baker eredita i Valori predefiniti (vedere sopra). Le dimensioni (risoluzione), ad esempio, possono essere sostituite facendo clic sulla cella sulla linea del fornaio. Questo vale per le altre impostazioni della riga.
+Per impostazione predefinita, ogni baker eredita i Valori predefiniti (vedere sopra). È possibile, ad esempio, ignorare le dimensioni (risoluzione) facendo clic sulla cella sulla riga del baker. Questo vale per le altre impostazioni della riga.
 
-Quando si fa clic su un fornaio nell&#39;elenco, la vista Parametri fornaio viene aggiornata con i relativi parametri specifici.
+Quando si fa clic su un baker nell&#39;elenco, la vista Parametri Baker viene aggiornata con i relativi parametri specifici.
 
-Per ulteriori informazioni sui parametri specifici, vedere: [Impostazioni dei forni](https://experienceleague.adobe.com/it/docs/substance-3d/bakers/bakers-settings/bakers-settings).
+Per ulteriori informazioni sui parametri specifici, vedere: [Impostazioni Baker](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/bakers-settings).
 
-![Elenco di rendering dei panettieri](bakers.resources/sd-baker-list.png "Elenco di rendering dei panettieri")
+![Elenco di rendering Baker](bakers.resources/sd-baker-list.png "Elenco di rendering Baker")

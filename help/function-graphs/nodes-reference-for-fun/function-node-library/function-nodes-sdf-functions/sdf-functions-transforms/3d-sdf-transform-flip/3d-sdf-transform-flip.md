@@ -24,7 +24,7 @@ ht-degree: 3%
 
 ## Descrizione
 
-Applica una trasformazione a specchio alla forma SDF di input.<br>Esegue essenzialmente una scala negativa sugli assi selezionati.
+Applica un Trasforma speculare alla forma SDF di input.<br>Esegue essenzialmente una scala negativa sugli assi selezionati.
 
 </td>
 </tr>

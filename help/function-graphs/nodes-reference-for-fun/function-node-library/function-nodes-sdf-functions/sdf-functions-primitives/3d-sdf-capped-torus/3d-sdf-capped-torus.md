@@ -46,4 +46,4 @@ Funzione SDF per un toro con cappuccio, in cui l&#39;apertura del cerchio minore
 | <b>Scostamento angolo</b> *Mobile* | Offset lungo il raggio principale dell&#39;arco di rifilatura lungo il quale il cerchio secondario non verrà spostato.<br><br><i>Impostazione predefinita: 0</i> |
 | <b>Simmetrico</b> *Booleano* | Controlla se l&#39;arco di rifilo deve essere disegnato in una o due direzioni.<br><br><i>Impostazione predefinita: True</i> |
 | <b>Posizione centrale</b> *Float3* | Posizione nello spazio globale del perno del toro con cappuccio.<br><br><i>Impostazione predefinita: (0, 0, 0,5)</i> |
-| <b>P</b> *Float3* | La posizione trasformata dello spazio mondiale. Utilizza questo input per applicare trasformazioni aggiuntive utilizzando i nodi <b>Offset P</b> e <b>Rotazione P</b>.<br><br><i>Impostazione predefinita: la posizione dello spazio globale non trasformata.</i> |
+| <b>P</b> *Virgola mobile 3* | La posizione Trasforma nello spazio mondiale. Utilizza questo input per applicare trasformazioni aggiuntive utilizzando i nodi <b>Offset P</b> e <b>Rotazione P</b>.<br><br><i>Impostazione predefinita: la posizione dello spazio globale non trasformata.</i> |

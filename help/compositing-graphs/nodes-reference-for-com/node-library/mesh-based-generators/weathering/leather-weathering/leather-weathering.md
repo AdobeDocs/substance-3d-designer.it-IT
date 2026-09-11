@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/leather-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/leather-weathering.html"
 breadcrumb-title: ''
 description: Utilizza il nodo Leather Weathering per aggiungere modelli di usura ed effetti di invecchiamento ai materiali in pelle in base alla curvatura della trama.
 helpx_creative_field: ""
@@ -75,13 +75,13 @@ Assicurati di aver compreso appieno le [modalità di creazione dei collegamenti]
 | <b>Desaturazione Della Pelle Usata</b> <i>0.0 - 1.0</i> | Consente di impostare la saturazione dell’effetto pelle usurata dagli effetti Età e Usato. |
 | <b>Luminosità pelle usata</b> <i>0.0 - 1.0</i> | Consente di impostare la luminosità dell’aspetto in pelle usurato dagli effetti Età e Usato. |
 | <b>Fusione</b> |  |
-| <b>Intensità Diffusa</b> <i>0.0 - 1.0</i> | Intensità di fusione della Diffusione. |
-| <b>Intensità Colore di base</b> <i>0.0 - 1.0</i> | Intensità di fusione del colore di base. |
+| <b>Intensità Diffusa</b> <i>0.0 - 1.0</i> | Intensità di fusione delle Diffuse. |
+| <b>Intensità Colore di base</b> <i>0.0 - 1.0</i> | Forza di fusione del Colore di base. |
 | <b>Intensità normale</b> <i>0.0 - 1.0</i> | Intensità di fusione del normale. |
 | <b>Intensità Specular</b> <i>0.0 - 1.0</i> | Forza di fusione dello Specular. |
-| <b>Intensità Lucentezza</b> <i>0.0 - 1.0</i> | Forza di fusione della lucidità. |
+| <b>Intensità Lucentezza</b> <i>0.0 - 1.0</i> | Forza di fusione della Lucentezza. |
 | <b>Intensità rugosità</b> <i>0.0 - 1.0</i> | Forza di fusione della rugosità. |
-| <b>Intensità Occlusione ambientale</b> <i>0.0 - 1.0</i> | Intensità di fusione dell’Occlusione ambiente. |
+| <b>Intensità Occlusione ambientale</b> <i>0.0 - 1.0</i> | Forza di fusione dell’Occlusione ambientale. |
 | <b>Intensità Height</b> <i>0.0 - 1.0</i> | Forza di fusione del Height. |
 
 ## Esempi

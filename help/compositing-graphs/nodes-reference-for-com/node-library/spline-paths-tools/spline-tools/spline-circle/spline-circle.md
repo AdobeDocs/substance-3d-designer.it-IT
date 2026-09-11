@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-circle.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-circle.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Cerchio spline (Spline Circle) per creare spline circolari per generare pattern e forme arrotondate.
 helpx_creative_field: ""
@@ -73,13 +73,13 @@ Genera una singola spline a forma di cerchio.
 | <b>Cerchio dopo la rotazione</b> <i>Mobile</i> | Applica una rotazione al cerchio di base dopo l’applicazione di Dimensione. |
 | <b>Posizione cerchio</b> <i>Float2</i> | Imposta la posizione del centro del cerchio nello spazio della texture. |
 | <b>Inizia Thickness</b> <i>Mobile</i> | Regola il thickness del punto iniziale del cerchio. Questo thickness viene interpolato lungo la spline fino al Thickness finale.<br>Nota: il Thickness viene utilizzato da nodi della spline specifici. |
-| <b>Fine Thickness</b> <i>Virgola mobile</i> | Regola il thickness del punto finale del cerchio. Questo thickness viene interpolato lungo la spline nel Thickness iniziale.<br>Nota: il Thickness viene utilizzato da nodi della spline specifici. |
-| <b>Inizia Height</b> <i>Virgola mobile</i> | Regola il height del punto iniziale del cerchio in cui un valore più basso indica una posizione più bassa o più profonda. Questo height viene interpolato lungo la spline fino al Height finale. |
-| <b>Fine Height</b> <i>Virgola mobile</i> | Regola il height del punto finale del cerchio in cui un valore più basso indica una posizione più bassa o più profonda. Questo height viene interpolato lungo la spline dal Height Inizio. |
-| <b>Taglia</b> <i>Virgola mobile 2</i> | Sposta i punti iniziale e finale della spline lungo il cerchio. Questi valori vengono normalizzati. |
-| <b>Spirale</b> <i>Virgola mobile</i> | Sposta il punto iniziale del cerchio dal raggio al centro. La distanza dal centro viene quindi interpolata lungo la spline fino all&#39;estremità della spline. Questo valore è normalizzato. |
-| <b>Cicli a spirale</b> <i>Virgola mobile</i> | Definisce il numero di giri effettuati dalla spirale attorno al suo centro. |
-| <b>Potenza a spirale</b> <i>Virgola mobile</i> | Applica una curva di potenza alla distanza dal centro utilizzata per disegnare la spirale. Un valore maggiore di uno significa che una porzione maggiore della spirale rimane vicina al centro. |
+| <b>Fine Thickness</b> <i>Mobile</i> | Regola il thickness del punto finale del cerchio. Questo thickness viene interpolato lungo la spline nel Thickness iniziale.<br>Nota: il Thickness viene utilizzato da nodi della spline specifici. |
+| <b>Inizia Height</b> <i>Mobile</i> | Regola il height del punto iniziale del cerchio in cui un valore più basso indica una posizione più bassa o più profonda. Questo height viene interpolato lungo la spline fino al Height finale. |
+| <b>Fine Height</b> <i>Mobile</i> | Regola il height del punto finale del cerchio in cui un valore più basso indica una posizione più bassa o più profonda. Questo height viene interpolato lungo la spline dal Height Inizio. |
+| <b>Taglia</b> <i>Float2</i> | Sposta i punti iniziale e finale della spline lungo il cerchio. Questi valori vengono normalizzati. |
+| <b>Spirale</b> <i>Mobile</i> | Sposta il punto iniziale del cerchio dal raggio al centro. La distanza dal centro viene quindi interpolata lungo la spline fino all&#39;estremità della spline. Questo valore è normalizzato. |
+| <b>Cicli a spirale</b> <i>Mobile</i> | Definisce il numero di giri effettuati dalla spirale attorno al suo centro. |
+| <b>Potenza a spirale</b> <i>Mobile</i> | Applica una curva di potenza alla distanza dal centro utilizzata per disegnare la spirale. Un valore maggiore di uno significa che una porzione maggiore della spirale rimane vicina al centro. |
 | <b>Direzione capovolgimento</b> <i>Booleano</i> | Inverte la direzione della spline. |
 | <b>Distribuzione uniforme</b> <i>Booleano</i> | Se è impostato su True, i punti della spline sono distribuiti uniformemente dall&#39;inizio alla fine. |
 | <b>Aggiungi spline di input</b> <i>Booleano</i> | Aggiunge la spline generata alla fine dell&#39;elenco di spline connesse agli input <b>Spline</b>. |
@@ -88,7 +88,7 @@ Genera una singola spline a forma di cerchio.
 | <b>Mostra helper direzione</b> <i>Booleano</i> | Visualizza un punto all&#39;inizio della spline e una freccia alla fine nell&#39;output di anteprima. |
 | <b>Mostra busta Thickness</b> <i>Booleano</i> | Visualizza le linee aggiuntive ai bordi del thickness della spline. |
 | <b>Importo segmenti</b> <i>Numero intero</i> | Regola il numero di segmenti utilizzati per disegnare la visualizzazione della spline nell&#39;output di anteprima. Un valore più alto genera una linea più morbida. |
-| <b>Thickness (px)</b> <i>Mobile</i> | Regola il thickness in pixel della visualizzazione spline nell&#39;output di anteprima. |
+| <b>Thickness (px)</b> <i>Virgola mobile</i> | Regola il thickness in pixel della visualizzazione spline nell&#39;output di anteprima. |
 
 ## Esempi
 

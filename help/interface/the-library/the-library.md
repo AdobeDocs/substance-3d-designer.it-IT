@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/the-library.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-library.html"
 breadcrumb-title: ''
 description: Utilizza la libreria in Substance 3D Designer per accedere e gestire i predefiniti dei nodi, i materiali e il contenuto personalizzato.
 helpx_creative_field: ""

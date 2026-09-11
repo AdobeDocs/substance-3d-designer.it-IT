@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Utilizzo della Funzione SDF
 
-Nella versione 16.0.0, Substance 3D Designer ha introdotto un potente set di nodi per l&#39;authoring della Funzione SDF, che può essere utilizzato per creare e manipolare forme 3D procedurali.
+Nella versione 16.0.0, Substance 3D Designer ha introdotto un potente set di nodi per l’authoring della Funzione SDF, che può essere utilizzato per creare e manipolare forme 3D procedurali.
 
 Le funzioni SDF sono grafici a funzioni Substance che combinano i nodi SDF disponibili nel set di strumenti e vengono applicati a parametri dedicati nei nodi che supportano le Funzioni SDF.
 
@@ -180,7 +180,7 @@ Gli elementi di base delle Funzioni SDF, che consentono di creare forme di base 
 Questi nodi consentono di combinare e modificare le forme create con forme di base. Esse comprendono:
 * **Operatori booleani diretti** come [Unione](sdf-functions-operators/3d-sdf-op-union/3d-sdf-op-union.md), [Intersezione](sdf-functions-operators/3d-sdf-op-intersection/3d-sdf-op-intersection.md) e [Sottrazione](sdf-functions-operators/3d-sdf-op-subtraction/3d-sdf-op-subtraction.md) che consentono di combinare le forme in vari modi.
 * **Deformazione di operatori booleani** come [Arrotondamento](sdf-functions-operators/3d-sdf-op-rounding/3d-sdf-op-rounding.md) e [Morphing](sdf-functions-operators/3d-sdf-op-morph/3d-sdf-op-morph.md) che consentono di combinare forme con un effetto di fusione.
-* **Altri operatori** specializzati, ad esempio [Shell](sdf-functions-operators/3d-sdf-op-shell/3d-sdf-op-shell.md) e [Simmetria](sdf-functions-operators/3d-sdf-op-symmetry/3d-sdf-op-symmetry.md), che consentono di modificare e/o duplicare una forma.
+* **Altri operatori** specializzati, ad esempio [Shell](sdf-functions-operators/3d-sdf-op-shell/3d-sdf-op-shell.md) e [Simmetrie](sdf-functions-operators/3d-sdf-op-symmetry/3d-sdf-op-symmetry.md), che consentono di modificare e/o duplicare una forma.
 
 +++ Nodi
 
@@ -202,8 +202,8 @@ Questi nodi consentono di combinare e modificare le forme create con forme di ba
 
 ### Trasformazioni
 
-Le forme possono essere trasformate in vari modi, ad esempio [tradotto](sdf-functions-transforms/3d-sdf-transform-offset/3d-sdf-transform-offset.md), [ruotato](sdf-functions-transforms/3d-sdf-transform-rotate/3d-sdf-transform-rotate.md), [ridimensionato](sdf-functions-transforms/3d-sdf-transform-scale/3d-sdf-transform-scale.md), [ritorto](sdf-functions-transforms/3d-sdf-transform-twist/3d-sdf-transform-twist.md) e altro ancora.
-Questi nodi consentono di eseguire queste trasformazioni *trasformando lo spazio stesso* in cui sono definite le superfici.
+Le forme possono essere Trasforma in vari modi, ad esempio [tradotto](sdf-functions-transforms/3d-sdf-transform-offset/3d-sdf-transform-offset.md), [ruotato](sdf-functions-transforms/3d-sdf-transform-rotate/3d-sdf-transform-rotate.md), [ridimensionato](sdf-functions-transforms/3d-sdf-transform-scale/3d-sdf-transform-scale.md), [ritorto](sdf-functions-transforms/3d-sdf-transform-twist/3d-sdf-transform-twist.md) e altro ancora.
+Questi nodi consentono di eseguire queste trasformazioni *Trasforma lo spazio stesso* in cui sono definite le superfici.
 
 Tale spazio è denominato `P`. Passare alla sezione successiva per ulteriori informazioni sul significato e sul funzionamento della trasformazione dello spazio.
 
@@ -272,7 +272,7 @@ Potete quindi incollare la funzione copiata dal nodo del visualizzatore 3D nel g
 Assicuratevi di regolare il parametro **Dimensione fotogramma di delimitazione SDF** in modo che corrisponda al [fotogramma di delimitazione](#the-bounding-frame) che stavate utilizzando nel nodo del visualizzatore 3D e assicuratevi che la forma sia disegnata correttamente.
 
 ![working-with-sdf-shape-splatter-v2.png](working-with-sdf-functions.resources/working-with-sdf-shape-splatter-v2.png)\
-*Splatter forma v2 con **Tipo di forma**&#x200B;impostato su `SDF function`. Nota: le **dimensioni del fotogramma di delimitazione SDF**&#x200B;sono state regolate in modo da adattarsi alla forma.*
+*Splatter forma v2 con **Tipo di forma**impostato su `SDF function`. Nota: le **dimensioni del fotogramma di delimitazione SDF**sono state regolate in modo da adattarsi alla forma.*
 
 >[!TIP]
 > 

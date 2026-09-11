@@ -109,7 +109,7 @@ Tuttavia, vi sono casi in cui l&#39;elenco dei nodi nel menu Nodo viene filtrato
 
 I materiali MDL possono ricevere dati da fonti esterne, ad esempio sotto forma di valori e texture. Questo risultato si ottiene <b>esponendo un nodo</b>, contrariamente al [grafico della Substance](../../compositing-graphs/substance-compositing-graphs.md) in cui esistono nodi di input dedicati per questo scopo.
 
-I dati possono essere passati al nodo esposto a seconda del relativo *tipo*. Ad esempio, i valori Float possono essere passati a un nodo <b>float</b> esposto e una texture può essere passata a un nodo <b>color</b> esposto (in questo caso, i valori RGBA del pixel campionato vengono passati come valore di colore).
+I dati possono essere passati al nodo esposto a seconda del relativo *tipo*. Ad esempio, i valori delle Virgole mobili possono essere passati a un nodo <b>float</b> esposto e una texture può essere passata a un nodo <b>color</b> esposto (in questo caso, i valori RGBA del pixel campionato vengono passati come valore di colore).
 
 ![Input grafici esposti](../../assets/mdl-graph-inputs-samplers.png "Input grafici esposti")
 

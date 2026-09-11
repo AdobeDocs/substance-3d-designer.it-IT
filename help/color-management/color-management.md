@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/color-management.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/color-management.html"
 breadcrumb-title: ''
 description: Scoprite come gestire il colore in Substance 3D Designer, inclusi gli spazi colore, i profili e i flussi di lavoro per le tinte piatte.
 helpx_creative_field: ""
@@ -22,16 +22,16 @@ ht-degree: 1%
 
 Questa pagina spiega le funzioni e le impostazioni di Gestione colore di Substance 3D Designer.
 
-È possibile configurare Substance 3D Designer per l&#39;utilizzo di [OpenColorIO](https://opencolorio.org/) (OCIO) o Adobe Color Engine (ACE) per la gestione del colore. Ciò consente di avere *Trasforma di colore* coerenti e la visualizzazione dell&#39;immagine in più applicazioni.
+Substance 3D Designer può essere configurato per l&#39;utilizzo di [OpenColorIO](https://opencolorio.org/) (OCIO) o dell&#39;Adobe Color Engine (ACE) per la gestione del colore. Ciò consente di avere *trasformazioni di colore* coerenti e la visualizzazione dell&#39;immagine in più applicazioni.
 
-In questa modalità, Designer funzionerà internamente con **colori RGB lineari**. Poiché 8 profondità di bit non sono in genere sufficienti per rappresentare i colori lineari, si consiglia di utilizzare *almeno* profondità a **16 bit** per le texture di colori nel [grafico](../compositing-graphs/substance-compositing-graphs.md).
+In questa modalità, Designer funzionerà internamente con **colori RGB lineari**. Poiché 8 profondità di bit non sono in genere sufficienti per rappresentare i colori lineari, si consiglia di utilizzare *almeno* profondità a **16 bit** per le texture di colore nel [grafico](../compositing-graphs/substance-compositing-graphs.md).
 
 >[!WARNING]
 >
 > Un flusso di lavoro efficace per la gestione del colore si basa sul lavoro con uno schermo *calibrato* corretto. Esistono soluzioni di terze parti per calibrare correttamente il monitor per l’ambiente di lavoro utilizzando hardware specializzato.
 > 
-> Gli utenti OpenColorIO devono utilizzare spazi cromatici OpenColorIO corrispondenti per i loro monitor.\
-> Gli utenti ACE devono assicurarsi che i profili ICC selezionati *nel sistema operativo* corrispondano ai *monitor*.
+> Gli utenti di OpenColorIO devono utilizzare gli spazi colore OpenColorIO corrispondenti per i monitor.\
+> Gli utenti di Adobe devono assicurarsi che i profili ICC selezionati *nel sistema operativo* corrispondano ai *monitor*.
 
 ## Configurazione
 
@@ -47,7 +47,7 @@ Le impostazioni di Gestione colore possono essere configurate nella scheda [Prog
 
 ### Configurazione OpenColorIO
 
-Quando si utilizza la modalità OpenColorIO per la gestione del colore, Designer utilizzerà le informazioni memorizzate in un <b>file di configurazione</b> (*\*.config*) per eseguire Trasforma di colore, identificare gli spazi colore e impostare i valori predefiniti.
+Quando si utilizza la modalità OpenColorIO per la gestione del colore, Designer utilizzerà le informazioni memorizzate in un <b>file di configurazione</b> (*\*.config*) per eseguire trasformazioni di colore, identificare gli spazi colore e impostare le impostazioni predefinite.
 
 Substance 3D Designer viene fornito con le seguenti configurazioni:
 
@@ -104,13 +104,13 @@ Puoi aggiungere *i tuoi* profili ICC inserendo questi file nella posizione `Adob
 
 |  |  |
 | --- | --- |
-| <b>Visualizzazione predefinita delle viste 2D e 3D</b> | Imposta lo spazio colore predefinito *visualizzazione* per le finestre delle viste [2D](../interface/2d-view/2d-view.md) e [3D](../interface/3d-view/3d-view.md). *Impostazione predefinita:*** Profilo ICC per la schermata principale, recuperato dal sistema operativo &#x200B;**&#x200B;** |
+| <b>Visualizzazione predefinita delle viste 2D e 3D</b> | Imposta lo spazio colore predefinito *visualizzazione* per le finestre delle viste [2D](../interface/2d-view/2d-view.md) e [3D](../interface/3d-view/3d-view.md). *Impostazione predefinita:*** Profilo ICC per la schermata principale, recuperato dal sistema operativo **** |
 
 ### Visualizzazione grafico
 
 |  |  |
 | --- | --- |
-| <b>Miniature per la gestione dei colori</b> | Quando *selezionato*, Designer Trasforma le *miniature dei nodi* nello *spazio cromatico di lavoro* corrente. *Impostazione predefinita:*** Deselezionata &#x200B;**&#x200B;** |
+| <b>Miniature per la gestione dei colori</b> | Quando *selezionato*, Designer Trasforma le *miniature dei nodi* nello *spazio cromatico di lavoro* corrente. *Impostazione predefinita:*** Deselezionata **** |
 
 ## Modalità legacy
 
@@ -130,9 +130,9 @@ In modalità Legacy, Designer utilizza lo spazio colore di lavoro <b>sRGB</b>, c
 
 Considerando che l&#39;opzione &#39;Raw&#39; scrive i dati immagine *così come sono* dal grafico, ovvero utilizzando lo spazio cromatico di lavoro del grafico, ciò significa che le opzioni <b>Raw</b> e <b>sRGB</b> producono lo *stesso output colore*.
 
-Per impostazione predefinita, l&#39;opzione &#39;sRGB&#39; verrà impostata per gli output che contengono *informazioni sul colore* (ad esempio Colore di base, Emissivo) e l&#39;opzione &#39;Raw&#39; verrà impostata per gli output che contengono *dati puri* (ad esempio Rugosità, Metallico, Height, Normale). Come spiegato in precedenza, queste impostazioni predefinite producono gli stessi colori e sono impostate solo per *differenziare l&#39;utilizzo finale* dei loro output.
+Per impostazione predefinita, l&#39;opzione &#39;sRGB&#39; verrà impostata per gli output che contengono *informazioni sul colore* (ad esempio, Colore di base, Emissivo) e l&#39;opzione &#39;Raw&#39; verrà impostata per gli output che contengono *dati puri* (ad esempio, Rugosità, Metallico, Height, Normale). Come spiegato in precedenza, queste impostazioni predefinite producono gli stessi colori e sono impostate solo per *differenziare l&#39;utilizzo finale* dei loro output.
 
-L&#39;opzione <b>Lineare</b> è *unica* e determina l&#39;applicazione di una *Trasforma di colore* all&#39;immagine. Può essere utilizzata solo per le immagini <b>High dynamic range</b> (HDR), che in genere utilizzano *precisione a virgola mobile* (ovvero profondità di bit 16F o 32F) nello spazio cromatico lineare. Queste immagini possono essere utilizzate in una vasta gamma di spazi colore e ambienti di produzione.
+L&#39;opzione <b>Lineare</b> è *solo* e determina l&#39;applicazione di una *trasformazione del colore* all&#39;immagine. Può essere utilizzata solo per le immagini <b>High dynamic range</b> (HDR), che in genere utilizzano *precisione a virgola mobile* (ovvero profondità di bit 16F o 32F) nello spazio cromatico lineare. Queste immagini possono essere utilizzate in una vasta gamma di spazi colore e ambienti di produzione.
 
 >[!NOTE]
 >
@@ -142,7 +142,7 @@ L&#39;opzione <b>Lineare</b> è *unica* e determina l&#39;applicazione di una *T
 
 Potete assegnare un <b>spazio colore</b> (OCIO) o un <b>profilo ICC</b> (Adobe ACE) alle bitmap importate e collegate.
 
-Quando si importano o si collegano bitmap, per impostazione predefinita *1&rbrace; verrà impostato uno spazio colore o un profilo ICC per la risorsa bitmap, utilizzando le opzioni impostate nella sezione <b>Impostazioni predefinite spazio colore bitmap</b> della scheda <b>Gestione colore</b> nelle [impostazioni progetto](../interface/preferences-window/project-settings/project-settings.md).*
+Quando si importano o si collegano bitmap, per impostazione predefinita *1} verrà impostato uno spazio colore o un profilo ICC per la risorsa bitmap, utilizzando le opzioni impostate nella sezione <b>Impostazioni predefinite spazio colore bitmap</b> della scheda <b>Gestione colore</b> nelle [impostazioni progetto](../interface/preferences-window/project-settings/project-settings.md).*
 
 È possibile modificare lo spazio cromatico di una bitmap in qualsiasi momento. L&#39;opzione si trova nelle <b>Proprietà</b> della risorsa bitmap.
 
@@ -161,7 +161,7 @@ Designer *converte* le immagini negli spazi colore specificati prima di salvare 
 
 ![Finestra di dialogo per l’esportazione degli output](color-management.resources/2019-3-0-clr-mgt-export-outputs.png "Finestra di dialogo per l’esportazione degli output"){width="512px"}
 
-È inoltre possibile assegnare uno spazio colore (OCIO) o associare un profilo ICC (Adobe ACE) alle immagini *salvate* dal [vista 2D](../interface/2d-view/2d-view.md).
+Potete anche assegnare uno spazio colore (OCIO) o associare un profilo ICC (Adobe ACE) alle immagini *salvate* dalla [vista 2D](../interface/2d-view/2d-view.md).
 
 ![Opzioni di esportazione vista 2D](color-management.resources/2019-3-0-clr-mgt-save-image.png "Opzioni di esportazione vista 2D")
 
@@ -169,9 +169,9 @@ Designer *converte* le immagini negli spazi colore specificati prima di salvare 
 
 ### Visualizza barra degli strumenti
 
-Puoi *attivare/disattivare* la gestione del colore e modificare in qualsiasi momento il *Trasforma di visualizzazione* della visualizzazione utilizzando il menu a discesa nella barra degli strumenti di visualizzazione.
+Puoi *attivare/disattivare* Gestione colore e modificare in qualsiasi momento la *trasformazione visualizzazione* per la visualizzazione utilizzando il menu a discesa nella barra degli strumenti di visualizzazione.
 
-![Impostazione dello spazio colore in vista 2D](color-management.resources/2019-3-0-clr-mgt-display-toolbar.png "Impostazione dello spazio colore in vista 2D"){width="512px"}
+![Impostazione dello spazio colore nella vista 2D](color-management.resources/2019-3-0-clr-mgt-display-toolbar.png "Impostazione dello spazio colore nella vista 2D"){width="512px"}
 
 ### Ambienti HDRI della libreria
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/getting-started/overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview.html"
 breadcrumb-title: ''
 description: Ottieni una panoramica di Substance 3D Designer e scopri le sue funzionalità per la creazione di materiali e texture procedurali.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 # Panoramica
 
-[Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html) è un&#39;applicazione progettata per la creazione di texture, materiali e filtri 2D in un&#39;interfaccia basata su nodi, con particolare attenzione alla generazione di procedurali, alla parametrizzazione e ai flussi di lavoro non distruttivi. Si tratta dell&#39;applicazione più longeva dell&#39;ecosistema Substance 3D e le risorse che ne derivano sono le più versatili e dinamiche possibili.
+[Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) è un&#39;applicazione progettata per la creazione di texture, materiali e filtri 2D in un&#39;interfaccia basata su nodi, con particolare attenzione alla generazione di procedurali, alla parametrizzazione e ai flussi di lavoro non distruttivi. Si tratta dell&#39;applicazione più longeva dell&#39;ecosistema Substance 3D e le risorse che ne derivano sono le più versatili e dinamiche possibili.
 
 Ecco come viene confrontato con altre applicazioni:
 
@@ -77,7 +77,7 @@ I file di Substance sono i **file di origine principali** per Designer. Quando a
 
 *(\*.SBSAR)*
 
-Gli archivi Substance sono <b> file Substance compilati e ottimizzati</b>. Sono molto più veloci da calcolare e possono essere facilmente condivisi senza problemi di riferimento. I parametri possono ancora essere modificati, ma la modifica del grafico è <b>bloccata</b>. Gli archivi Substance possono essere utilizzati in tutte le applicazioni Substance 3D e in tutte le applicazioni con [integrazione Substance 3D](https://experienceleague.adobe.com/it/docs/substance-3d/ecosystem/home) (alcune con un plug-in esterno), ad esempio Autodesk 3DS Max &amp; Maya, Unreal Engine o Unity Engine.
+Gli archivi Substance sono <b> file Substance compilati e ottimizzati</b>. Sono molto più veloci da calcolare e possono essere facilmente condivisi senza problemi di riferimento. I parametri possono ancora essere modificati, ma la modifica del grafico è <b>bloccata</b>. Gli archivi Substance possono essere utilizzati in tutte le applicazioni Substance 3D e in tutte le applicazioni con [integrazione Substance 3D](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home) (alcune con un plug-in esterno), ad esempio Autodesk 3DS Max &amp; Maya, Unreal Engine o Unity Engine.
 
 </td>
 <td style="border: 0;" valign="top">
@@ -94,7 +94,7 @@ Substance 3D Designer supporta sempre l’esportazione in tipi di file statici. 
 </tr>
 </table>
 
-Ciò significa che generalmente manterrai il tuo lavoro in formato SBS quando lavori in Designer, che esporterai in SBSAR se la destinazione lo supporta (ad esempio, Painter) o che utilizzerai file bitmap statici se non è necessario o non è supportato SBSAR.
+In genere, questo significa che manterrai il tuo lavoro nel formato SBS quando lavori in Designer, che esporterai in SBSAR se la destinazione lo supporta (Painter, ad esempio) o che utilizzerai file bitmap statici se non è necessario o non è supportato SBSAR.
 
 ## Tipi di risorse
 
@@ -111,7 +111,7 @@ I file Substance 3D possono contenere un’ampia gamma di risorse con scopi dive
 
 ### Grafici Substance
 
-I grafici a Substance consentono di generare ed elaborare *dati immagine 2D* e quindi di inviarli a uno o più output di texture. In molti casi d’uso, un progetto ruoterà attorno a uno o più grafici a Substance.
+I grafici a Substance consentono di generare ed elaborare *dati immagine 2D* e quindi di inviarli a uno o più output texture. In molti casi d’uso, un progetto ruoterà attorno a uno o più grafici a Substance.
 
 [Vai alla sezione dedicata ai grafici Substance.](../../compositing-graphs/substance-compositing-graphs.md)
 
@@ -154,7 +154,7 @@ Le risorse non grafiche possono provenire da applicazioni esterne (come Photosho
 Esistono i seguenti tipi di risorse:
 
 * [Bitmap](../../resources/bitmap-resource/bitmap-resource.md)
-* [Grafica vettoriale (SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
+* [Grafiche vettoriali (SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
 * [Scene 3D](../../resources/3d-scene-resource/3d-scene-resource.md)
 * [Font](../../resources/font-resource/font-resource.md)
 * [File AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)

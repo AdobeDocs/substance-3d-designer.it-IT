@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs.html"
 breadcrumb-title: ''
-description: Scoprite come creare Substance di grafici di composizione in Substance 3D Designer per texture procedurali e flussi di lavoro dei materiali.
+description: Scoprite come creare grafici di composizione delle Substance in Substance 3D Designer per flussi di lavoro di texture e materiale procedurali.
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs
 helpx_experience_level: ""
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 [I grafici Substance](https://substance3d.adobe.com/) sono il tipo principale di grafico creato in Substance 3D Designer. Il loro scopo è <b>generare ed elaborare dati di immagini 2D</b> che non siano vincolati a una risoluzione, un colore o una forma impostata. Sono intesi come strumenti di elaborazione e generazione delle immagini estremamente versatili, non solo come risultati statici preimpostati.
 
-I risultati possono presentarsi sotto forma di semplici pattern in bianco e nero, di filtri che vengono eseguiti solo su altre immagini e non generano contenuti di per sé, o anche di materiale procedurale completo con più canali.
+I risultati possono presentarsi sotto forma di semplici pattern in bianco e nero, di filtri che vengono eseguiti solo su altre immagini e non generano contenuti di per sé, o anche di materiale di procedurali a pieno titolo con più canali.
 
 I grafici a Substance sono[il tipo di grafico più supportato](../getting-started/overview/overview.md) e possono essere esportati e utilizzati in numerosi flussi di lavoro diversi.
 

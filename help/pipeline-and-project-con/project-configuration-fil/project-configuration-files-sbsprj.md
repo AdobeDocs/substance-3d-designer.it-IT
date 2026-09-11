@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
 breadcrumb-title: ''
 description: Scopri come utilizzare i file di configurazione del progetto SBSPRJ in Substance 3D Designer per gestire le impostazioni del progetto.
 helpx_creative_field: ""
@@ -104,7 +104,7 @@ Un <b>alias</b> è una parola chiave che sostituisce (parte di) un percorso. È 
 > | <b>sbs</b> | *C:\Program Files\Adobe\Adobe Substance 3D Designer\resources\packages* |
 > | <b>personalizzato</b> | *D:\Dev\CustomProject\Substance* |
 > 
-> Per impostazione predefinita, la libreria predefinita si trova in *C:\Program Files\Adobe\Adobe Substance 3D Designer\resources\packages* e tutti i grafici che utilizzano il contenuto predefinito fanno riferimento a questa directory. Anziché fare riferimento al percorso completo, è definito un alias di &#39;<b>SBS</b>&#39; (senza virgolette). Nel caso di una libreria predefinita, il valore esatto del percorso SBS viene impostato al momento dell&#39;installazione sulla directory scelta dall&#39;utente per Designer.
+> Per impostazione predefinita, la libreria predefinita si trova in *C:\Program Files\Adobe\Adobe Substance 3D Designer\resources\packages* e tutti i grafici che utilizzano il contenuto predefinito fanno riferimento a questa directory. Anziché fare riferimento al percorso completo, è definito un alias di &#39;<b>SBS</b>&#39; (senza virgolette). Nel caso di una libreria predefinita, il valore esatto del percorso SBS viene impostato al momento dell&#39;installazione nella directory scelta dall&#39;utente per Designer.
 > 
 > Internamente, un riferimento viene modificato nel modo seguente, quando contiene un percorso con un alias:
 > 

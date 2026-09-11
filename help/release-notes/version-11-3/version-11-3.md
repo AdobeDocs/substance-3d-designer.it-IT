@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/release-notes/version-11-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-11-3.html"
 breadcrumb-title: ''
 description: Consulta le note sulla versione per Substance 3D Designer versione 11.3 per informazioni sulle nuove funzioni, i miglioramenti e le correzioni di bug.
 helpx_creative_field: ""
@@ -130,18 +130,18 @@ Questa versione aggiunge nuovi nodi di diffusione e miglioramenti per il nodo de
 * [Modelli di Substance] Migliorare la visualizzazione della visualizzazione della base
 * [Modelli Substance] Mantiene la gerarchia degli oggetti durante l&#39;esportazione di un grafico Modello Substance in .fbx
 * [Modelli Substance] Supporto di più materiali nell&#39;esportazione FBX/OBJ dal grafico dei modelli Substance
-* [Modelli Substance]&#x200B;[Contenuto] Nodo particelle
-* [Modelli di Substance]&#x200B;[Contenuto] Nodo Trasformazione generativa
-* [Modelli Substance]&#x200B;[Contenuto] Nodo Pattern organico
-* [Modelli Substance]&#x200B;[Contenuto] Particelle dal nodo Istanze
-* [Modelli di Substance]&#x200B;[Contenuto] Nodo di potatura delle particelle
-* [Modelli Substance]&#x200B;[Contenuto] Nodo tornio
-* [Modelli di Substance]&#x200B;[Contenuto] Nodo shell
-* [Modelli Substance]&#x200B;[Contenuto] Nodo di proiezione
-* [Modelli Substance]&#x200B;[Contenuto] Nodo di rifilo curva
-* [Modelli Substance]&#x200B;[Contenuto] Aggiorna nodo Sampler curva
-* [Modelli Substance]&#x200B;[Contenuto] Aggiornamento del nodo Sampler mesh
-* [Modelli di Substance]&#x200B;[Contenuto] Aggiorna nodo variazione
+* [Modelli Substance][Contenuto] Nodo particelle
+* [Modelli di Substance][Contenuto] Nodo Trasformazione generativa
+* [Modelli Substance][Contenuto] Nodo Pattern organico
+* [Modelli Substance][Contenuto] Particelle dal nodo Istanze
+* [Modelli di Substance][Contenuto] Nodo di potatura delle particelle
+* [Modelli Substance][Contenuto] Nodo tornio
+* [Modelli di Substance][Contenuto] Nodo shell
+* [Modelli Substance][Contenuto] Nodo di proiezione
+* [Modelli Substance][Contenuto] Nodo di rifilo curva
+* [Modelli Substance][Contenuto] Aggiorna nodo Sampler curva
+* [Modelli Substance][Contenuto] Aggiornamento del nodo Sampler mesh
+* [Modelli di Substance][Contenuto] Aggiorna nodo variazione
 * Pulsante [UX] per ingrandire la visualizzazione corrente
 * [UX] Aggiornare la finestra Nuovo grafico
 * [UX] Aggiungi l&#39;opzione &quot;Scarica lettore&quot; nel menu Strumenti e aggrega con &quot;Trova lettore&quot;
@@ -179,7 +179,7 @@ Questa versione aggiunge nuovi nodi di diffusione e miglioramenti per il nodo de
 * [UI] Il tasto Tab deve essere premuto due volte per spostarsi tra i valori
 * [UI] Lo zoom con il trascinamento del mouse è invertito tra Vista 3D e altre Finestre
 * [UI] Il caricamento di un SBS già aperto utilizzando l’elenco &quot;File recenti&quot; attiva in modo errato un messaggio &quot;Pacchetto non trovato&quot;
-* [UI]&#x200B;[macOS] Layout di interfaccia predefinito non corretto dopo l&#39;avvio dell&#39;applicazione
+* [UI][macOS] Layout di interfaccia predefinito non corretto dopo l&#39;avvio dell&#39;applicazione
 * [UI] Impossibile salvare i pacchetti nella directory principale di un&#39;unità (solo Windows)
 * [Grafico] L&#39;opzione &quot;Visualizza automaticamente nella vista 2D&quot; non è coerente in un caso specifico
 * [Graph] L&#39;opzione &#39;Apri riferimento&#39; è disponibile per i nodi dell&#39;istanza SBSAR

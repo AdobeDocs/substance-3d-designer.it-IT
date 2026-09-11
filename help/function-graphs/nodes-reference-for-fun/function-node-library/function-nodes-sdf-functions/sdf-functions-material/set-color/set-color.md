@@ -1,6 +1,6 @@
 ---
 title: Imposta colore
-description: Imposta il colore di base del materiale di una scena SDF.
+description: Impostate il colore di base del materiale di una scena SDF.
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '89'
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 ## Descrizione
 
-Imposta il colore di base del materiale di una scena SDF.
+Impostate il colore di base del materiale di una scena SDF.
 
 Questo colore può quindi essere recuperato per tutte le forme SDF schizzate nell&#39;output *Colore SDF* dello splatter [Forma v2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md).
 
@@ -41,7 +41,7 @@ Questo colore può quindi essere recuperato per tutte le forme SDF schizzate nel
 |                            |                                  |
 |----------------------------|----------------------------------|
 | <b>Scena SDF</b> *Mobile* | Scena SDF di input. |
-| <b>Colore di base</b> *Float3* | Valore del colore di base RGB da impostare. |
+| <b>Colore di base</b> *Float3* | Il valore del colore di base di RGB da impostare. |
 
 
 

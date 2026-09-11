@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/the-graph-view/graph-items/comment.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/comment.html"
 breadcrumb-title: ''
 description: Aggiungere commenti ai grafici di Substance 3D Designer per documentare il flusso di lavoro e spiegare le connessioni ai nodi.
 helpx_creative_field: ""
@@ -55,7 +55,7 @@ Digita &quot;commento&quot; nel campo di ricerca per posizionare la superficie d
 +++
 
 +++Scelta rapida
-Se una scelta rapida da tastiera è associata all&#39;elemento &#39;Comment&#39; nelle [Preferenze](../../../../interface/preferences-window/preferences-window.md), premi la scelta rapida quando la visualizzazione Grafico è attiva.
+Se una scelta rapida da tastiera da tastiera è mappata all&#39;elemento &quot;Commento&quot; nelle [Preferenze](../../../../interface/preferences-window/preferences-window.md), premi la scelta rapida da tastiera quando è attiva la visualizzazione Grafico.
 
 +++
 

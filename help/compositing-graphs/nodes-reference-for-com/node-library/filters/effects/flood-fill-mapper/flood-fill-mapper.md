@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-mapper.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-mapper.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo Mappatura Flood Fill per mappare i valori tra aree connesse utilizzando algoritmi di riempimento del flusso per l’elaborazione delle texture.
+description: Utilizzare il nodo Mappatura Flood Fill per mappare i valori tra aree connesse utilizzando algoritmi di riempimento del flusso per l'elaborazione delle texture.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Flood Fill Mapper
 helpx_experience_level: ""
@@ -33,9 +33,9 @@ ht-degree: 6%
 
 ## Descrizione
 
-Mappatura Flood Fill consente di rimappare un motivo o una texture esistente su ogni singola cella da un [Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md). A differenza di altre conversioni di Flood Fill, ad esempio [Scala di grigi casuale](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-random-gra/flood-fill-to-random-grayscale.md) o [Sfumatura](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-to-gradient/flood-fill-to-gradient.md), non genera colori o valori in tinta unita, ma consente di utilizzare mappe di input personalizzate. Può essere visto come una sorta di combinazione di [Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md) e [Affianca Sampler](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md) o [Mappatura forme](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-mapper/shape-mapper.md), in quanto fornisce alcuni controlli e interfacce simili.
+Mappatura Flood Fill consente di rimappare un pattern o una Texture esistente su ogni singola cella da un [Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md). A differenza di altre conversioni di Flood Fill, ad esempio [Scala di grigi casuale](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-random-gra/flood-fill-to-random-grayscale.md) o [Sfumatura](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-to-gradient/flood-fill-to-gradient.md), non genera colori o valori in tinta unita, ma consente di utilizzare mappe di input personalizzate. Può essere visto come una sorta di combinazione di [Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md) e [Affianca Sampler](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md) o [Mappatura forme](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-mapper/shape-mapper.md), in quanto fornisce alcuni controlli e interfacce simili.
 
-La versione a colori dispone di controlli aggiuntivi per l&#39;utilizzo delle mappe normali, in cui può [compensare le rotazioni delle mappe di norma nello spazio tangente](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-vector-rotation/normal-vector-rotation.md).
+La versione a colori dispone di controlli aggiuntivi per l&#39;utilizzo della Mappa normale, in cui può [compensare le rotazioni delle mappe Normali nello spazio tangente](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-vector-rotation/normal-vector-rotation.md).
 
 </td>
 </tr>
@@ -60,7 +60,7 @@ La versione a colori dispone di controlli aggiuntivi per l&#39;utilizzo delle ma
 
 |  |  |
 |:---|:---|
-| <b>Modalità Porzione</b> <i>Nessun Affiancamento, H+V</i> | Impostare se utilizzare o meno l&#39;Affiancamento. Visibile solo se Dimensione o Scala sono impostate su un valore inferiore a 1. |
+| <b>Modalità affiancamento</b> <i>Nessun Affiancamento, H+V</i> | Impostare se utilizzare o meno l&#39;Affiancamento. Visibile solo se Dimensione o Scala sono impostate su un valore inferiore a 1. |
 | <b>Pattern</b> |  |
 | <b>Numero di input del modello</b> <i>1 - 8</i> | Impostate la quantità di input pattern personalizzati da utilizzare. |
 | <b>Modalità distribuzione pattern</b> <i>Input casuale, dimensioni forma, mappa di distribuzione</i> | Impostare il metodo per determinare quale motivo viene visualizzato in una cella. |
@@ -89,7 +89,7 @@ La versione a colori dispone di controlli aggiuntivi per l&#39;utilizzo delle ma
 | <b>Colore di sfondo</b> <i>(valore scala di grigi)</i> | Imposta il colore di sfondo su cui viene eseguita la fusione delle texture. |
 | <b>Colore (solo per la versione a colori)</b> |  |
 | <b>Mappa normale</b> <i>Falso/Vero</i> | Imposta questa opzione per interpretare l&#39;input del pattern come Mappa normale. Compenserà e correggerà la rotazione normale dello spazio tangente. |
-| <b>Formato Normale</b> <i>DirectX, OpenGL</i> | Consente di passare da un Formato mappa normale all’altro (inverte il canale verde). Attivo solo quando Is Normal Map è True. |
+| <b>Formato Normale</b> <i>DirectX, OpenGL</i> | Consente di passare da un Formato mappa normale all’altro (inverte il canale verde). Attivo solo quando Is Mappe normali è True. |
 | <b>Regolazione HSL</b> <i>-1.0 - 1.0</i> | Regolare l’HSL a livello globale. |
 | <b>HSL casuale</b> <i>-1.0 - 1.0</i> | Impostare la randomizzazione HSL per cellula. |
 | <b>Regolazione Alpha</b> <i>-1.0 - 1.0</i> | Impostate la regolazione dell&#39;Alpha globale e riducete il contrasto Alpha. |

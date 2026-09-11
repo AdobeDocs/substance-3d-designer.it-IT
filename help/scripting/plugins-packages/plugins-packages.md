@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/scripting/plugins-packages.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/plugins-packages.html"
 breadcrumb-title: ''
 description: Scoprite come creare e strutturare i pacchetti di plug-in per lo scripting Substance 3D Designer Python.
 helpx_creative_field: ""

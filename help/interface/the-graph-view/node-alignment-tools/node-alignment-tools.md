@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/the-graph-view/node-alignment-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/node-alignment-tools.html"
 breadcrumb-title: ''
 description: Utilizza gli strumenti di allineamento dei nodi per organizzare e allineare i nodi nella vista del grafico per grafici più nitidi e leggibili.
 helpx_creative_field: ""
@@ -32,7 +32,7 @@ Agiscono solo sui <b>nodi attualmente selezionati</b>.
 > 
 > Alcune azioni dispongono di scelte rapide da tastiera per un accesso rapido: H, V e S. Vengono visualizzate tra parentesi nell&#39;elenco di azioni seguente.
 > 
-> Si noti che queste scelte rapide da tastiera sostituiranno qualsiasi [scelta rapida da tastiera assegnata ai nodi](../../../interface/preferences-window/preferences-window.md).
+> Si noti che tali impostazioni sostituiranno qualsiasi [scelta rapida da tastiera da tastiera assegnata ai nodi](../../../interface/preferences-window/preferences-window.md).
 
 ## Allineamenti
 

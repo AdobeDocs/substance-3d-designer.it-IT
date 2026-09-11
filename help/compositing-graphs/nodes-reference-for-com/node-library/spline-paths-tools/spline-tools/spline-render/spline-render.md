@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-render.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-render.html"
 breadcrumb-title: ''
-description: Utilizzate il nodo Rendering spline per eseguire il rendering delle spline come texture con metodi personalizzabili di larghezza, colore e fusione.
+description: Utilizzate il nodo Rendering spline per eseguire il rendering delle spline come texture con larghezza, colore e metodi di fusione personalizzabili.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Render
 helpx_experience_level: ""

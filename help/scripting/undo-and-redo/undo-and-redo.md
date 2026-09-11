@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/scripting/undo-and-redo.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/undo-and-redo.html"
 breadcrumb-title: ''
 description: Scoprite come implementare la funzionalità di annullamento e ripetizione negli script Substance 3D Designer Python per le azioni degli utenti.
 helpx_creative_field: ""

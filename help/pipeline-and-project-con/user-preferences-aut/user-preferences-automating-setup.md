@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/pipeline-and-project-configuration/user-preferences-automating-setup.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/user-preferences-automating-setup.html"
 breadcrumb-title: ''
 description: Scopri come automatizzare la configurazione delle preferenze utente in Substance 3D Designer per una configurazione del flusso di lavoro semplificata.
 helpx_creative_field: ""
@@ -194,7 +194,7 @@ def SetConfigurationFile(p_ConfigPath):
 ```
 
 
-## Scelta rapida da tastiera degli argomenti della riga di comando
+## Scelta rapida degli argomenti della riga di comando
 
 In modo molto più semplice, Designer può essere avvisato di utilizzare un SBSCFG specifico all&#39;avvio tramite l&#39;argomento &quot;—config-file&quot; (opzionale).
 

@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## Descrizione
 
-Ruota lo spazio globale attorno a un asse con un angolo regolabile.<br>La posizione del mondo trasformato in output può essere collegata all&#39;input <b>P</b> della maggior parte delle Funzioni SDF per definirle in questo spazio del mondo trasformato.<br><br>Utilizzare l&#39;helper <b>Trasforma pivot</b> di <b>Visualizzatore 3D</b> per visualizzare la rotazione eseguita.<br><br><i>Suggerimento:</i> le trasformazioni P possono essere concatenate, ma tenete presente che i risultati dipendono dall&#39;ordine delle operazioni.
+Ruota lo spazio globale attorno a un asse con un angolo regolabile.<br>La posizione del mondo Trasforma di output può essere collegata all&#39;input <b>P</b> della maggior parte delle Funzioni SDF per definirle in questo spazio del mondo Trasforma.<br><br>Utilizzare l&#39;helper <b>Trasforma pivot</b> di <b>Visualizzatore 3D</b> per visualizzare la rotazione eseguita.<br><br><i>Suggerimento:</i> Trasforma P possono essere concatenati, ma tenete presente che i risultati dipendono dall&#39;ordine delle operazioni.
 
 </td>
 </tr>
@@ -43,4 +43,4 @@ Ruota lo spazio globale attorno a un asse con un angolo regolabile.<br>La posizi
 | <b>Angolo</b> *Mobile* | L&#39;angolo, a rotazione, a cui ruota lo spazio mondiale.<br><br>L&#39;angolo viene visualizzato da un cerchio nell&#39;helper <b>Trasforma pivot</b> del <b>Visualizzatore 3D</b>. Allineate la fotocamera in modo da visualizzare la freccia <b>Asse</b> come centro di questo cerchio per visualizzare chiaramente l&#39;angolo di rotazione come frazione di una curva. |
 | <b>Asse</b> *Float3* | Vettore normalizzato che definisce l&#39;asse attorno al quale viene ruotato lo spazio globale.<br>Ad esempio (0, 1, 0) ruoterà lo spazio globale attorno all’asse Y del punto fulcro.<br><br>L&#39;asse è visualizzato da una freccia nell&#39;helper <b>Trasforma pivot</b> del <b>Visualizzatore 3D</b>. Il colore della freccia è mappato sui componenti XYZ di questo vettore.<br><br><i>Impostazione predefinita: (0, 1, 0)</i> |
 | <b>Posizione dei punti cardini</b> *Float3* | Posizione dello spazio globale del perno che definisce l&#39;origine della rotazione.<br><br>Il punto pivot viene visualizzato dall&#39;inizio della freccia nell&#39;helper <b>Trasforma pivot</b> del <b>Visualizzatore 3D</b>. |
-| <b>P</b> *Float3* | La posizione trasformata dello spazio mondiale. Utilizza questo input per applicare trasformazioni aggiuntive utilizzando i nodi <b>Offset P</b> e <b>Rotazione P</b>.<br><br><i>Impostazione predefinita: la posizione dello spazio globale non trasformata.</i> |
+| <b>P</b> *Virgola mobile 3* | La posizione Trasforma nello spazio mondiale. Utilizza questo input per applicare trasformazioni aggiuntive utilizzando i nodi <b>Offset P</b> e <b>Rotazione P</b>.<br><br><i>Impostazione predefinita: la posizione dello spazio globale non trasformata.</i> |

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/3d-view/scene-browser.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/scene-browser.html"
 breadcrumb-title: ''
 description: Utilizza l’Elenco scene per navigare e gestire elementi, materiali e oggetti della scena 3D nella finestra della vista.
 helpx_creative_field: ""
@@ -132,11 +132,11 @@ Gli oggetti principali dispongono delle seguenti azioni aggiuntive:
 
 ### Ambienti
 
-La visibilità di qualsiasi luce ambiente (DomeLight) può essere attivata e disattivata allo stesso modo degli altri oggetti.
+La visibilità di qualsiasi luce ambientale (DomeLight) può essere attivata e disattivata allo stesso modo degli altri oggetti.
 
-Quando una luce ambiente è disattivata, anche il suo contributo di illuminazione alla scena è disattivato.
+Quando una luce ambientale è disattivata, anche il suo contributo alla luce della scena è disattivato.
 
-Se sono abilitate più luci ambiente, i relativi contributi di illuminazione sono *aggiunti cumulativamente*.
+Se sono abilitate più luci ambientali, i relativi contributi di illuminazione sono *aggiunti cumulativamente*.
 
 ![Browser scene - Attivazione/disattivazione della visibilità dell&#39;ambiente](../../../assets/sceneBrowser-toggleEnvLights.gif "Browser scene - Attivazione/disattivazione della visibilità dell&#39;ambiente"){zoomable="yes"}
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/scripting/using-spot-colors.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/using-spot-colors.html"
 breadcrumb-title: ''
 description: Scoprite come utilizzare le tinte piatte nello scripting Substance 3D Designer Python per flussi di lavoro a colori specializzati.
 helpx_creative_field: ""

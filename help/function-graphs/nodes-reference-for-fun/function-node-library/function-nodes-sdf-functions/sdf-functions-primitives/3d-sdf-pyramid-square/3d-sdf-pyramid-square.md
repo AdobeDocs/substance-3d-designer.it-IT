@@ -40,7 +40,7 @@ Funzione SDF per una piramide con base quadrata, con height e posizione di base 
 
 |  |  |
 | :--- | :--- |
-| <b>Height</b> *Mobile* | Height Z-up dell&#39;apice della piramide dalla base.<br><br><i>Impostazione predefinita: 1</i> |
-| <b>Dimensioni base</b> *Mobile* | Lunghezza degli spigoli di base della piramide.<br>Tutti i bordi hanno lunghezza uguale.<br><br><i>Impostazione predefinita: 1</i> |
-| <b>Posizione di base</b> *Float3* | Posizione nello spazio globale della base della piramide.<br><br><i>Impostazione predefinita: (0, 0, 0)</i> |
-| <b>P</b> *Float3* | La posizione trasformata dello spazio mondiale. Utilizza questo input per applicare trasformazioni aggiuntive utilizzando i nodi <b>Offset P</b> e <b>Rotazione P</b>.<br><br><i>Impostazione predefinita: la posizione dello spazio globale non trasformata.</i> |
+| <b>Height</b> *Virgola mobile* | Height Z-up dell&#39;apice della piramide dalla base.<br><br><i>Impostazione predefinita: 1</i> |
+| <b>Dimensioni base</b> *Virgola mobile* | Lunghezza degli spigoli di base della piramide.<br>Tutti i bordi hanno lunghezza uguale.<br><br><i>Impostazione predefinita: 1</i> |
+| <b>Posizione di base</b> *Virgola mobile 3* | Posizione nello spazio globale della base della piramide.<br><br><i>Impostazione predefinita: (0, 0, 0)</i> |
+| <b>P</b> *Virgola mobile 3* | La posizione Trasforma nello spazio mondiale. Utilizza questo input per applicare trasformazioni aggiuntive utilizzando i nodi <b>Offset P</b> e <b>Rotazione P</b>.<br><br><i>Impostazione predefinita: la posizione dello spazio globale non trasformata.</i> |

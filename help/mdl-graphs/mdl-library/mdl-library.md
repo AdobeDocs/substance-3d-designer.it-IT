@@ -60,9 +60,9 @@ La sezione *&quot;mdl&quot; nella libreria, nella libreria vMaterials e nel cont
 </tr>
 </table>
 
-## Contenuto MDL nel vista 3D
+## Contenuto MDL nella vista 3D
 
-Tutti i moduli MDL disponibili nella libreria possono essere utilizzati in [vista 3D](../../interface/3d-view/3d-view.md) quando viene utilizzato il modulo di rendering Iray.
+Tutti i moduli MDL disponibili nella libreria possono essere utilizzati nella [vista 3D](../../interface/3d-view/3d-view.md) quando viene utilizzato il modulo di rendering Iray.
 
 Aprite il menu <b>Materiali</b> e aprite un sottomenu *del materiale della scena* per sfogliare i moduli MDL disponibili. Gli elenchi includono:
 

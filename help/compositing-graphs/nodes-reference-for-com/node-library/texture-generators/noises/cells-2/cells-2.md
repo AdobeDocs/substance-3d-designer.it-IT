@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-2.html"
 breadcrumb-title: ''
-description: Utilizza il nodo Celle 2 per generare pattern cellulari intermedi per la creazione di effetti di texture organici e biologici.
+description: Utilizza il nodo Celle 2 per generare modelli cellulari intermedi per la creazione di effetti di texture organici e biologici.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Cells 2
 helpx_experience_level: ""
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 ![Celle 2 - Icona](cells-2.resources/cells_2.png "Celle 2 - Icona"){width="200px"}
 
-<b>Ingresso:</b> Generatori di texture > Rumori
+<b>Ingresso:</b> generatori di Texture > Rumori
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -58,9 +58,9 @@ Vedere anche: [Celle 1](../../../../../../compositing-graphs/nodes-reference-for
 |  |  |
 |:---|:---|
 | <b>Scala</b> <i>Numero intero</i> | Suddivisione della griglia utilizzata per generare le porzioni di disturbo.    Un valore più elevato determina la creazione di più riquadri e un disturbo maggiore. |
-| <b>Larghezza bordo</b> <i>Mobile</i> | Regola il thickness delle pareti tra le celle, come rapporto della griglia. (ovvero non dipendente dalla risoluzione) |
+| <b>Larghezza bordo</b> <i>Virgola mobile</i> | Regola il thickness delle pareti tra le celle, come rapporto della griglia. (ovvero non dipendente dalla risoluzione) |
 | <b>Inverti</b> <i>Booleano</i> | Scambia i neri e i bianchi nell&#39;immagine di output. |
-| <b>Disturbo</b> <i>Mobile</i> | Sposta gli ingredienti del disturbo.    Può essere utilizzato per animare il disturbo. |
+| <b>Disturbo</b> <i>Virgola mobile</i> | Sposta gli ingredienti del disturbo.    Può essere utilizzato per animare il disturbo. |
 | <b>Velocità del disturbo</b> <i>Mobile</i> | Regola la distanza di spostamento applicata dal parametro <b>Disturbo</b>.    Questa opzione consente di controllare la velocità di spostamento durante l’animazione del disturbo. |
 | <b>Espansione non quadrata</b> <i>Booleano</i> | Nelle immagini non quadrate, mantiene il riquadro quadrato generato ed espande la generazione del disturbo fino ai limiti dell&#39;immagine. |
 

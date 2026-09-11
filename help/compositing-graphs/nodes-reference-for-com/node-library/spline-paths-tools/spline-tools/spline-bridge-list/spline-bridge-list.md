@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-list.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-list.html"
 breadcrumb-title: ''
 description: Utilizzare il nodo Elenco ponti spline per creare un ponte tra più spline di un elenco per creare pattern complessi.
 helpx_creative_field: ""
@@ -80,12 +80,12 @@ Le spline generate possono essere lineari (dritte) o quadratiche (curve).
 | <b>Le spline di input sono chiuse</b> <i>Booleano</i> | Controlla se il primo e l&#39;ultimo punto delle spline di input devono essere elaborati come un singolo punto. Ciò impedisce la duplicazione della prima e dell&#39;ultima spline di attraversamento. |
 | <b>Direzione capovolgimento</b> <i>Booleano</i> | Inverte la direzione della spline. |
 | <b>Chiudi spline del bridge</b> <i>Booleano</i> | Estende le spline trasversali per riconnetterle alla prima spline dell&#39;elenco di input. |
-| <b>Primo scostamento spline ponte</b> <i>Virgola mobile 2</i> | Applica un offset all&#39;inizio di tutte le spline attraversate. Il valore è la lunghezza normalizzata delle spline di input.<br>Le spline generate che soddisfano l&#39;inizio o la fine delle spline attraversate vengono lasciate lì. |
-| <b>Ultimo scostamento spline ponte</b> <i>Virgola mobile 2</i> | Applica uno scostamento alla fine di tutte le spline attraversate. Il valore è la lunghezza normalizzata delle spline di input.<br>Le spline generate che soddisfano l&#39;inizio o la fine delle spline attraversate vengono lasciate lì. |
+| <b>Primo scostamento spline ponte</b> <i>Float2</i> | Applica un offset all&#39;inizio di tutte le spline attraversate. Il valore è la lunghezza normalizzata delle spline di input.<br>Le spline generate che soddisfano l&#39;inizio o la fine delle spline attraversate vengono lasciate lì. |
+| <b>Ultimo scostamento spline ponte</b> <i>Float2</i> | Applica uno scostamento alla fine di tutte le spline attraversate. Il valore è la lunghezza normalizzata delle spline di input.<br>Le spline generate che soddisfano l&#39;inizio o la fine delle spline attraversate vengono lasciate lì. |
 | <b>Intervallo scostamento casuale</b> <i>Numero intero</i> | Distanza massima utilizzata per l&#39;offset casuale applicato alle spline.<br><br>- <i>Spline padre:</i> Viene utilizzata l&#39;intera lunghezza delle spline padre. Può causare sovrapposizioni.<br>- <i>Intervallo:</i> Viene utilizzato l&#39;intervallo tra le spline del bridge. Ciò riduce le sovrapposizioni. Questa distanza diminuisce con l&#39;aumentare della quantità di spline del ponte. |
-| <b>Avvia scostamento casuale</b> <i>Virgola mobile</i> | Moltiplicatore per l&#39;offset casuale applicato alla posizione iniziale delle spline del ponte, in cui la distanza massima è specificata dal parametro <b>Intervallo di offset casuale</b>. |
-| <b>Fine Scostamento Casuale</b> <i>Virgola mobile</i> | Moltiplicatore per l&#39;offset casuale applicato alla posizione finale delle spline del ponte, in cui la distanza massima è specificata dal parametro <b>Intervallo di offset casuale</b>. |
-| <b>Scostamento casuale globale</b> <i>Virgola mobile</i> | Un moltiplicatore per *uguale quantità* di offset casuale applicato su *entrambi* la posizione iniziale e finale delle spline del ponte, in cui la distanza massima è specificata dal parametro <b>Intervallo di offset casuale</b>. |
+| <b>Avvia scostamento casuale</b> <i>Mobile</i> | Moltiplicatore per l&#39;offset casuale applicato alla posizione iniziale delle spline del ponte, in cui la distanza massima è specificata dal parametro <b>Intervallo di offset casuale</b>. |
+| <b>Fine Scostamento Casuale</b> <i>Mobile</i> | Moltiplicatore per l&#39;offset casuale applicato alla posizione finale delle spline del ponte, in cui la distanza massima è specificata dal parametro <b>Intervallo di offset casuale</b>. |
+| <b>Scostamento casuale globale</b> <i>Mobile</i> | Un moltiplicatore per *uguale quantità* di offset casuale applicato su *entrambi* la posizione iniziale e finale delle spline del ponte, in cui la distanza massima è specificata dal parametro <b>Intervallo di offset casuale</b>. |
 | <b>Distribuzione uniforme</b> <i>Booleano</i> | Se è impostato su True, i punti delle spline generate vengono distribuiti uniformemente dall&#39;inizio alla fine. |
 | <b>Thickness</b> |  |
 | <b>Modalità Thickness</b> <i>Numero intero</i> | Metodo di acquisizione del valore thickness per le spline del ponte.<br><br>- <i>Eredita dalle spline padre:</i> Viene utilizzato il thickness delle spline padre nelle posizioni iniziale e finale delle spline del ponte<br>- <i>Ignora:</i> Viene utilizzato il valore arbitrario specificato nel parametro <b>Thickness</b> |

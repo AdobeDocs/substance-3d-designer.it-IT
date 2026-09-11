@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators.html"
 breadcrumb-title: ''
 description: Accedete ai nodi di utilità per i generatori basati su trama in Substance 3D Designer per manipolare i dati e le proiezioni della trama.
 helpx_creative_field: ""
@@ -20,6 +20,6 @@ ht-degree: 0%
 
 # Utilità (generatori basati su trama)
 
-Questi nodi sono strumenti più astratti che consentono di lavorare con i nodi adattativi della trama. In alcuni casi, la loro funzionalità è strettamente collegata anche ai [filtri materiale](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/material-filters.md).
+Questi nodi sono strumenti più astratti che consentono di lavorare con i nodi adattativi della trama. In alcuni casi, la loro funzionalità è strettamente collegata anche a [Filtri materiali](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/material-filters.md).
 
 In questa categoria sono presenti solo alcuni nodi, quindi assicurati di estrarli tutti.

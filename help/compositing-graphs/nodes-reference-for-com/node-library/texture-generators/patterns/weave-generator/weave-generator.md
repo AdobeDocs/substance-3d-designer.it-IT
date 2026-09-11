@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/weave-generator.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/weave-generator.html"
 breadcrumb-title: ''
-description: Utilizza il nodo Generatore di tessere per creare pattern di tessuti e texture tessili procedurali in Substance 3D Designer.
+description: Usa il nodo Generatore tessitura per creare procedurali motivi di tessuto e texture tessili in Substance 3D Designer.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Weave Generator
 helpx_experience_level: ""
@@ -50,7 +50,7 @@ Questo nodo genera un semplice motivo a trama con alcune opzioni. Consente un ma
 | <b>Forma</b> <i>0.0 - 1.0</i> | Imposta il profilo del height di curve del punto. |
 | <b>Tessuto</b> <i>1 - 10</i> | Consente di impostare il numero di punti per blocco. |
 | <b>Spazio vuoto</b> <i>0.0 - 1.0</i> | Imposta lo spazio tra i punti sugli assi X e Y. |
-| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati. |
+| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di squash e allungamento con rapporti non quadrati. |
 
 ## Esempi
 

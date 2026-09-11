@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/replace-color-range.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/replace-color-range.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Sostituisci intervallo colori per sostituire i colori all’interno di un intervallo specificato con nuovi colori per la correzione del colore.
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 5%
 
 ## Descrizione
 
-Sostituisce il colore di origine con il colore di destinazione, con controlli aggiuntivi. Può essere utilizzato, ad esempio, per ricolorare parti di una mappa ID materiale (eseguo i baking).
+Sostituisce il colore di origine con il colore di destinazione, con controlli aggiuntivi. Può essere utilizzato, ad esempio, per ricolorare parti di una mappa ID materiale (bake).
 
 Per una versione più avanzata, vedere [Corrispondenza colori.](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/color-match/color-match.md)
 

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/channel-shuffle.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/channel-shuffle.html"
 breadcrumb-title: ''
-description: Usate il nodo Riproduzione casuale canali per riordinare i canali di colore nelle texture e creare effetti colore e scambio di canali.
+description: Usa il nodo Riproduzione casuale canali per riordinare i canali di colore nelle texture per la creazione di effetti colore e lo scambio di canali.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Channels shuffle
 helpx_experience_level: ""
@@ -31,7 +31,7 @@ ht-degree: 7%
 
 Riordina i canali colore di una o due immagini di input nell’immagine di output.
 
-Cioè, prende due input e ti permette di restituire un output in cui uno qualsiasi dei canali Rosso, Verde, Blu e Alpha sono scambiati o impostati su uno qualsiasi dei canali dall&#39;input.
+Cioè, prende due input e ti consente di restituire un output in cui uno qualsiasi dei Canali alfa Rosso, Verde, Blu e Rosso sono scambiati o impostati su uno qualsiasi dei canali dall&#39;input.
 
 Essenzialmente consente di imballare e scambiare i canali di RGB in qualsiasi modo possibile. Gli input in scala di grigi vengono trattati come se fossero Colore: rosso, verde, blu e Alpha restituiscono tutti gli stessi valori.
 
@@ -39,7 +39,7 @@ Essenzialmente consente di imballare e scambiare i canali di RGB in qualsiasi mo
 </tr>
 </table>
 
-Lo slittamento dei canali include opzioni di base, ma nella maggior parte dei casi lo striping e l&#39;impostazione dei canali di Alpha consentono di utilizzare più rapidamente [unione RGBA](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-merge/rgba-merge.md), [divisione RGBA](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-split/rgba-split.md), [unione Alpha](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/alpha-merge/alpha-merge.md) e [divisione Alpha](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/alpha-split/alpha-split.md). Sono configurati per eseguire azioni predefinite che non richiedono la modifica di più parametri e la successiva conversione in scala di grigi. Se stai cercando una versione più avanzata con più opzioni di fusione, guarda [Miscelatore canale](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/channel-mixer/channel-mixer.md).
+Lo slittamento dei canali include opzioni di base, ma nella maggior parte dei casi è più rapido utilizzare [Unione RGBA](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-merge/rgba-merge.md), [Divisione RGBA](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-split/rgba-split.md), [Unione Alpha](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/alpha-merge/alpha-merge.md) e [Divisione Alpha](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/alpha-split/alpha-split.md) in Canali alfa di striping e impostazione dei canali. Sono configurati per eseguire azioni predefinite che non richiedono la modifica di più parametri e la successiva conversione in scala di grigi. Se stai cercando una versione più avanzata con più opzioni di fusione, guarda [Miscelatore canale](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/channel-mixer/channel-mixer.md).
 
 <table>
 <tr style="border: 0;">
@@ -83,7 +83,7 @@ Lo slittamento dei canali include opzioni di base, ma nella maggior parte dei ca
 | <b>Canale rosso</b> *Numero intero* | Scegliete il canale sorgente da inserire nel canale Rosso dell’immagine di output. |
 | <b>Canale verde</b> *Numero intero* | Scegliete il canale sorgente da inserire nel canale verde dell’immagine di output. |
 | <b>Canale blu</b> *Numero intero* | Scegliete il canale sorgente da inserire nel canale blu dell’immagine di output. |
-| <b>Canale di Alpha</b> *Numero intero* | Scegliete il canale sorgente da inserire nel canale di Alpha dell’immagine di output. |
+| <b>Canale alfa</b> *Numero intero* | Scegliete il canale sorgente da inserire nel Canale alfa dell’immagine di output. |
 
 ## Connettori di ingresso
 

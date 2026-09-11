@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/path-2d-transform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/path-2d-transform.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Trasforma tracciato 2D per Trasforma tracciati con operazioni di traslazione, rotazione e ridimensionamento.
 helpx_creative_field: ""
@@ -53,7 +53,7 @@ Trasforma tracciati usando un gizmo.
 
 |  |  |
 |:---|:---|
-| <b>Tracciati</b> <i>Colore</i> | I tracciati trasformati. Potete utilizzare [Anteprima tracciati](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) per avere un&#39;idea di ciò che rappresenta il risultato, utilizzare un altro nodo di elaborazione tracciati o inserirlo in un [Tracciati da spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) per elaborarlo ulteriormente come spline. |
+| <b>Tracciati</b> <i>Colore</i> | I Tracciati Trasforma. Potete utilizzare [Anteprima tracciati](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) per avere un&#39;idea di ciò che rappresenta il risultato, utilizzare un altro nodo di elaborazione tracciati o inserirlo in un [Tracciati da spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) per elaborarlo ulteriormente come spline. |
 
 <a name="parameters"></a>
 
@@ -61,8 +61,8 @@ Trasforma tracciati usando un gizmo.
 
 |  |  |
 |:---|:---|
-| <b>Matrice di trasformazione</b> <i>Float4</i> | Matrice di trasformazione applicata alle spline. Sono disponibili tre modalità di modifica dei parametri della matrice:<br>*- Gizmo Trasformazione:* modificare le maniglie del gizmo visualizzato in [vista 2D](../../../../../../interface/2d-view/2d-view.md) quando è selezionato il nodo di Trasforma 2D della spline;<br>*- Rotazione/Allungamento:* controllare singolarmente la rotazione e il allungamento delle spline. Si noti che i valori vengono sempre applicati relativamente alla trasformazione corrente. Ad esempio, se si applica due volte la larghezza del 50% si ottiene il 25% della larghezza;<br>*- Valori matrice:* Fare clic sul pulsante <b>Modifica valori matrice</b> per immettere direttamente i valori numerici non elaborati della matrice. |
-| <b>Scostamento</b> <i>Float2</i> | Applica uno scostamento di posizione alle spline in X (orizzontale) e Y (verticale). |
+| <b>Matrice di trasformazione</b> <i>Virgola mobile 4</i> | Matrice di trasformazione applicata alle spline. Sono disponibili tre modalità di modifica dei parametri della matrice:<br>*- Gizmo Trasformazione:* modificare le maniglie del gizmo visualizzato in [vista 2D](../../../../../../interface/2d-view/2d-view.md) quando è selezionato il nodo di Trasforma 2D della spline;<br>*- Rotazione/Allungamento:* controllare singolarmente la rotazione e il allungamento delle spline. Si noti che i valori vengono sempre applicati relativamente alla trasformazione corrente. Ad esempio, se si applica due volte la larghezza del 50% si ottiene il 25% della larghezza;<br>*- Valori matrice:* Fare clic sul pulsante <b>Modifica valori matrice</b> per immettere direttamente i valori numerici non elaborati della matrice. |
+| <b>Scostamento</b> <i>Virgola mobile 2</i> | Applica uno scostamento di posizione alle spline in X (orizzontale) e Y (verticale). |
 
 ## Esempi
 

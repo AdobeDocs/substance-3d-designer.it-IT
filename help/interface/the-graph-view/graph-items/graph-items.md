@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/the-graph-view/graph-items.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items.html"
 breadcrumb-title: ''
 description: Scopri gli elementi del grafico in Substance 3D Designer, tra cui cornici, commenti, perni e nodi di portale per organizzare i grafici.
 helpx_creative_field: ""

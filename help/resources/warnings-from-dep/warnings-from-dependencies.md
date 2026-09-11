@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/resources/warnings-from-dependencies.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/warnings-from-dependencies.html"
 breadcrumb-title: ''
 description: Informazioni sugli avvisi relativi alle dipendenze tra risorse in Substance 3D Designer e su come risolverli.
 helpx_creative_field: ""
@@ -140,7 +140,7 @@ Un riquadro UV per una [risorsa scena 3D](../3d-scene-resource/3d-scene-resource
 
 <b>![(tick)](../../assets/check.svg) Soluzione</b>
 
-Per ogni set UV di una risorsa trama 3D, accertatevi che non sia presente alcun indice UDIM *più di una volta* nell&#39;elenco <b>Riquadri UV</b>.
+Per ogni set UV di una risorsa trama 3D, accertatevi che nell&#39;elenco <b>Porzioni UV</b> non sia presente alcun indice UDIM *più di una*.
 
 ![&#39;I riquadri UV vengono assegnati più volte&#39; soluzione](../../assets/warnings-dep-udim-same.gif "&#39;I riquadri UV vengono assegnati più volte&#39; soluzione")
 
@@ -150,7 +150,7 @@ Una tessera UV elencata per una [risorsa scena 3D](../3d-scene-resource/3d-scene
 
 <b>![(tick)](../../assets/check.svg) Soluzione</b>
 
-Per ogni set UV di una risorsa con trama 3D, assicuratevi che tutti gli elementi nell&#39;elenco <b>Riquadri UV</b> facciano riferimento agli UDIM che *esistono* nella risorsa collegata.
+Per ogni set UV di una risorsa con trama 3D, assicuratevi che tutti gli elementi nell&#39;elenco <b>Porzioni UV</b> facciano riferimento agli UDIM che *esistono* nella risorsa collegata.
 
 >[!NOTE]
 >

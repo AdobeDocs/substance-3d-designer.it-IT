@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes.html"
 breadcrumb-title: ''
 description: Accesso ai nodi atomici in Substance 3D Designer per le operazioni di base, tra cui input, output, fusione e regolazione del colore.
 helpx_creative_field: ""
@@ -35,7 +35,7 @@ Tutti gli altri nodi del grafico a Substance nella [libreria](../../../interface
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nodo atomico: Fusione](atomic-nodes.resources/comp_blend.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)
+[![Nodo atomico: fusione](atomic-nodes.resources/comp_blend.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)
 
 [Fusione](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)
 
@@ -58,7 +58,7 @@ Tutti gli altri nodi del grafico a Substance nella [libreria](../../../interface
 
 [![Nodo atomico: sfocatura direzionale](atomic-nodes.resources/comp_dirmotionblur.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md)
 
-[Sfocatura direzionale](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md) [&#128279;](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md)
+[Sfocatura direzionale](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md)[](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md)
 
 </td>
 </tr>
@@ -75,7 +75,7 @@ Tutti gli altri nodi del grafico a Substance nella [libreria](../../../interface
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nodo atomico: Effetto rilievo](atomic-nodes.resources/comp_emboss.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/emboss/emboss.md)
+[![Nodo atomico: Rilievo](atomic-nodes.resources/comp_emboss.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/emboss/emboss.md)
 
 [Effetto rilievo](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/emboss/emboss.md)
 
@@ -138,7 +138,7 @@ Tutti gli altri nodi del grafico a Substance nella [libreria](../../../interface
 
 [![Nodo atomico: input scala di grigi](atomic-nodes.resources/comp_inputgrayscale.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
 
-[Scala di grigi di input](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) [&#128279;](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[Scala di grigi di input](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)[](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
 
 </td>
 </tr>
@@ -176,7 +176,7 @@ Tutti gli altri nodi del grafico a Substance nella [libreria](../../../interface
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nodo atomico: Elaboratore pixel](atomic-nodes.resources/comp_pixelprocessor.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)
+[![Nodo atomico: processore pixel](atomic-nodes.resources/comp_pixelprocessor.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)
 
 [Elaboratore pixel](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)
 

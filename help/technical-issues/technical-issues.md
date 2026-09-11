@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/technical-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues.html"
 breadcrumb-title: ''
 description: Trovate le guide per la risoluzione dei problemi tecnici in Substance 3D Designer per risolvere rapidamente i problemi.
 helpx_creative_field: ""
@@ -29,11 +29,11 @@ In ognuna delle pagine elencate sono disponibili *passaggi per la risoluzione de
 * [Arresto anomalo durante il rendering dei grafici](../technical-issues/crash-when-rendering-gra/crash-when-rendering-graphs.md)
 * [I parametri non funzionano come previsto](../technical-issues/parameters-not-working/parameters-not-working-as-expected.md)
 * [Output immagine errato](../technical-issues/incorrect-image-output/incorrect-image-output.md)
-* [Problemi della vista 3D](../technical-issues/3d-view-issues/3d-view-issues.md)
-* [Problemi di cottura](../technical-issues/baking-issues/baking-issues.md)
+* [Problemi di vista 3D](../technical-issues/3d-view-issues/3d-view-issues.md)
+* [Eseguire i baking i problemi](../technical-issues/baking-issues/baking-issues.md)
 * [Problemi dell&#39;interfaccia utente](../technical-issues/user-interface-issues/user-interface-issues.md)
 * [Problemi con Python](../technical-issues/python-issues/python-issues.md)
-* [Manca la feature di Substance grafica modello](../technical-issues/model-graph-eol/substance-model-graph-eol.md)
+* [Feature grafica del modello Substance mancante](../technical-issues/model-graph-eol/substance-model-graph-eol.md)
 
 ## Segnala un problema
 
@@ -43,7 +43,7 @@ Designer include metodi per segnalare direttamente arresti anomali e bug.
 >
 > Sii descrittivo!
 > 
-> *Ogni* segnalazione di arresto anomalo e bug che ci invii *verrà* esaminata da un membro del team di Designer.
+> *Ogni* rapporto arresto anomalo e bug che ci invii *verrà* esaminato da un membro del team Designer.
 > 
 > Durante la segnalazione di un problema, <b>includi tutti i dettagli e il contesto possibili</b>, in modo da semplificare e velocizzare notevolmente la comprensione del problema e trovare una soluzione.
 > 
@@ -55,16 +55,16 @@ Designer include metodi per segnalare direttamente arresti anomali e bug.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Quando l’applicazione si blocca, nella maggior parte dei casi viene visualizzata la finestra di dialogo di Crash Reporter.
+Durante l’arresto anomalo dell’applicazione, nella maggior parte dei casi viene visualizzata la finestra di dialogo Report Arresto anomalo.
 
-Puoi farci sapere le circostanze dell&#39;arresto anomalo nel campo Descrizione in modo da poterlo indagare e speriamo di risolverlo in una futura versione di Designer.
+Puoi farci sapere le circostanze dell’arresto anomalo nel campo Descrizione in modo da poterlo esaminare e, si spera, correggerlo in una futura versione di Designer.
 
-Condividi un <b>indirizzo di posta elettronica valido</b> in modo da poterti contattare se abbiamo bisogno di ulteriori dettagli e/o possiamo fornire una soluzione per l&#39;arresto anomalo che hai subito.
+Condividi un <b>indirizzo di posta elettronica valido</b> in modo che possiamo contattarti se abbiamo bisogno di ulteriori dettagli e/o possiamo fornire una soluzione alternativa per l&#39;arresto anomalo che hai sperimentato.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Finestra di dialogo di Crash Reporter](../assets/crash-reporter-2.png "Finestra di dialogo di Crash Reporter"){zoomable="yes"}
+![Finestra di dialogo del report di Arresto anomalo](../assets/crash-reporter-2.png "Finestra di dialogo del report di Arresto anomalo"){zoomable="yes"}
 
 *Fare clic per ingrandire*
 
@@ -74,7 +74,7 @@ Condividi un <b>indirizzo di posta elettronica valido</b> in modo da poterti con
 
 >[!NOTE]
 >
-> I report di arresto anomalo includono il file di registro di Designer, le preferenze e i file di progetto *per impostazione predefinita*. Di conseguenza, in questi file potrebbero essere visualizzati alcuni <b>percorsi di sistema e di file</b>.
+> I report di Arresto anomalo includono il file di registro di Designer, le preferenze e i file di progetto *per impostazione predefinita*. Di conseguenza, in questi file potrebbero essere visualizzati alcuni <b>percorsi di sistema e di file</b>.
 > 
 > L&#39;utilizzo di questi file è <b>strettamente interno e limitato</b> all&#39;ambito dell&#39;analisi del problema segnalato.
 

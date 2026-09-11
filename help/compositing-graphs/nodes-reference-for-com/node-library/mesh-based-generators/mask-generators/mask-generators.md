@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators.html"
 breadcrumb-title: ''
-description: Accedete ai nodi del generatore di maschere in Substance 3D Designer per creare maschere basate sulla geometria e le proprietà della trama.
+description: Accedete ai nodi dei generatori di maschere in Substance 3D Designer per creare maschere basate sulla geometria e le proprietà della trama.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 # Generatori di maschere
 
-Questa categoria contiene una selezione di nodi di generazione maschere in bianco e nero. Sulla base delle informazioni di mappa con baking, generano maschere che possono quindi essere utilizzate per fondere insieme materiali e altri effetti. Questi nodi sono simili alle [maschere avanzate](https://experienceleague.adobe.com/it/docs/substance-3d-painter/using/features/smart-materials-and-masks) e ai [generatori](https://experienceleague.adobe.com/it/docs/substance-3d-painter/using/content/creating-custom-effects/generators) in Substance Painter.
+Questa categoria contiene una selezione di nodi di generazione maschere in bianco e nero. Sulla base delle informazioni di mappa con baking, generano maschere che possono quindi essere utilizzate per fondere insieme materiali e altri effetti. Questi nodi sono simili a [Maschere avanzate](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/features/smart-materials-and-masks) e [Generatori](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/generators) in Substance Painter.
 
 Per tutti questi nodi sono necessarie [mappe con baking,](../../../../../bakers/bakers.md) poiché senza [mappe con baking](../../../../../bakers/bakers.md) non ci sarà molto risultato.
 

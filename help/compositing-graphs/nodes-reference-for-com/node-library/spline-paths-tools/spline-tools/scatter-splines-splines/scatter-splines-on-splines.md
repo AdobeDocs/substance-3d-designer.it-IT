@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-splines-on-splines.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-splines-on-splines.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Dispersione spline su spline per distribuire spline figlio lungo tracciati spline padre.
 helpx_creative_field: ""
@@ -109,9 +109,9 @@ Fare clic sull&#39;immagine a destra per accedere al nostro <b>tutorial dedicato
 | <b>Posizione assoluta pivot</b> *Float2* | Posizione del perno nello spazio UV. |
 | <b>Correzione non quadrata</b> *Booleano* | Regolate le posizioni e il thickness delle spline in modo da mantenere la forma con risoluzioni non quadrate.<br><i>Nota:</i> Quando si utilizzano spline personalizzate, la spline personalizzata deve utilizzare le *stesse proporzioni dell&#39;immagine* dei nodi <b>Spline Dispersioni sulle spline</b>. |
 | <b>Dimensioni</b> |  |
-| <b>Scala spline</b> *Mobile* | Controllo globale per le dimensioni di tutte le spline, dove 1 rappresenta la dimensione originale completa.<br>Il ridimensionamento viene applicato relativamente al perno di una spline. È possibile spostare la posizione dei punti cardini utilizzando il parametro <b>Spline Pivot</b>. |
-| <b>Scala spline casuale</b> *Mobile* | Applica un moltiplicatore casuale fino al valore specificato per ridurre le dimensioni delle spline. |
-| <b>Moltiplicatore input mappa scala</b> *Mobile* | Controlla l&#39;intensità dell&#39;input <b>Mappa scala</b>. Questa mappa funge da moltiplicatore per le dimensioni correnti dei pattern.<br>L&#39;effetto di questa mappa è combinato con gli altri parametri nel gruppo <b>Dimensioni</b>. |
+| <b>Scala spline</b> *Virgola mobile* | Controllo globale per le dimensioni di tutte le spline, dove 1 rappresenta la dimensione originale completa.<br>Il ridimensionamento viene applicato relativamente al perno di una spline. È possibile spostare la posizione dei punti cardini utilizzando il parametro <b>Spline Pivot</b>. |
+| <b>Scala spline casuale</b> *Virgola mobile* | Applica un moltiplicatore casuale fino al valore specificato per ridurre le dimensioni delle spline. |
+| <b>Moltiplicatore input mappa scala</b> *Virgola mobile* | Controlla l&#39;intensità dell&#39;input <b>Mappa scala</b>. Questa mappa funge da moltiplicatore per le dimensioni correnti dei pattern.<br>L&#39;effetto di questa mappa è combinato con gli altri parametri nel gruppo <b>Dimensioni</b>. |
 | <b>Modalità campionamento input mappa scala</b> *Numero intero* | Metodo di mappatura dei valori nella <b>mappa scala</b> alle spline:<br><br>- <b>spazio Texture</b> I valori vengono applicati alle spline in cui si troverebbero se inseriti in una texture utilizzando le coordinate UV della texture. In questo modo il valore viene applicato alle spline &#39;in posizione&#39;<br>- <b>Orizzontale lungo la spline</b> I valori vengono applicati direttamente alle coordinate delle spline codificate (vedere l&#39;<b>input delle spline</b>), in cui ogni riga viene applicata a una spline diversa dall&#39;alto verso il basso<br>- <b>Ora. lungo spline (rand. offset X)</b> I valori vengono applicati direttamente alle coordinate delle spline codificate (vedere l&#39;input <b>Coord spline</b>), con uno scostamento orizzontale casuale nella <b>Mappa scala</b> per ogni spline (ovvero ogni riga in <b>Coord spline</b>)<br>- <b>Hor. lungo spline (rand. offset Y)</b> I valori vengono applicati direttamente alle coordinate delle spline codificate (vedere l&#39;input <b>Coord spline</b>), con uno scostamento verticale casuale nella <b>Mappa scala</b> per ogni spline (ad esempio, ogni riga in <b>Coord spline</b>) |
 | <b>Attenuazione inizio/fine</b> *Float2* | Fattori nella distanza dal punto medio della spline al suo <b>Inizio</b> e <b>Fine</b> durante il ridimensionamento delle spline.<br>Questo significa che le dimensioni vengono ridotte per le spline più vicine alle estremità di una spline. |
 | <b>Posizione</b> |  |
@@ -144,15 +144,15 @@ Fare clic sull&#39;immagine a destra per accedere al nostro <b>tutorial dedicato
 | <b>Avvia modalità Thickness</b> *Numero intero* | Metodo di calcolo del thickness iniziale delle spline sparse.<br><br>- <b>Manuale</b> Impostare lo stesso valore assoluto per tutte le spline sparse.<br>- <b>Dalla spline padre</b> Utilizzare il thickness della spline padre.<br>- <b>Dalla spline personalizzata</b> Utilizzare il thickness della spline personalizzata.<br><br><i>Nota:</i> Impostare <b>Tipo spline</b> su Spline personalizzata e collegare gli input <b>Spline personalizzata</b> per utilizzare il thickness di spline personalizzate. |
 | <b>Avvia moltiplicatore Thickness</b> *Mobile* | Ridimensiona il thickness iniziale delle spline sparse, dove 1 rappresenta il thickness completo. |
 | <b>Scostamento Thickness iniziale</b> *Mobile* | Applica uno scostamento assoluto al thickness iniziale della spline dispersa. |
-| <b>Inizia Thickness</b> *Mobile* | Imposta un valore assoluto per il thickness iniziale della spline dispersa. |
+| <b>Inizia Thickness</b> *Virgola mobile* | Imposta un valore assoluto per il thickness iniziale della spline dispersa. |
 | <b>Modalità Thickness finale</b> *Numero intero* | Metodo di calcolo del thickness finale delle spline sparse.<br><br>- <b>Manuale</b> Impostare lo stesso valore assoluto per tutte le spline sparse.<br>- <b>Dalla spline padre</b> Utilizzare il thickness della spline padre.<br>- <b>Dalla spline personalizzata</b> Utilizzare il thickness della spline personalizzata.<br><br><i>Nota:</i> Impostare <b>Tipo spline</b> su Spline personalizzata e collegare gli input <b>Spline personalizzata</b> per utilizzare il thickness di spline personalizzate. |
-| <b>Moltiplicatore Thickness finale</b> *Mobile* | Ridimensiona il thickness iniziale delle spline sparse, dove 1 rappresenta il thickness completo. |
-| <b>Scostamento Thickness finale</b> *Mobile* | Applica uno scostamento assoluto al thickness finale della spline dispersa. |
-| <b>Fine Thickness</b> *Mobile* | Imposta un valore assoluto per il thickness finale della spline dispersa. |
+| <b>Moltiplicatore Thickness finale</b> *Virgola mobile* | Ridimensiona il thickness iniziale delle spline sparse, dove 1 rappresenta il thickness completo. |
+| <b>Scostamento Thickness finale</b> *Virgola mobile* | Applica uno scostamento assoluto al thickness finale della spline dispersa. |
+| <b>Fine Thickness</b> *Virgola mobile* | Imposta un valore assoluto per il thickness finale della spline dispersa. |
 | <b>Anteprima</b> |  |
 | <b>Mostra helper direzione</b> *Booleano* | Visualizza un punto all&#39;inizio della spline e una freccia alla fine nell&#39;output <b>Anteprima</b>. |
 | <b>Mostra busta Thickness</b> *Booleano* | Visualizza le linee aggiuntive ai bordi del thickness della spline. |
-| <b>Thickness (px)</b> *Mobile* | Regola il thickness della visualizzazione della spline nell&#39;output <b>Anteprima</b>, in numero di pixel. |
+| <b>Thickness (px)</b> *Virgola mobile* | Regola il thickness della visualizzazione della spline nell&#39;output <b>Anteprima</b>, in numero di pixel. |
 | <b>Importo segmenti</b> *Numero intero* | Regola il numero di segmenti utilizzati per disegnare la visualizzazione della spline nell&#39;output <b>Anteprima</b>. Un valore più alto genera una linea più morbida. |
 | <b>Intensità sfondo</b> *Mobile* | Intensità dell&#39;input <b>Anteprima</b> nella visualizzazione dell&#39;output <b>Anteprima</b>. |
 

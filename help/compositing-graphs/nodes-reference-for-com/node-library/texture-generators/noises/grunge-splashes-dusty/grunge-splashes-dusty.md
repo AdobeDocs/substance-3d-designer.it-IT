@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-splashes-dusty.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-splashes-dusty.html"
 breadcrumb-title: ''
 description: Usa il nodo Splash di Grunge Polveroso per creare pattern di schizzi polverosi per aggiungere dettagli della texture usurata dal tempo.
 helpx_creative_field: ""
@@ -52,8 +52,8 @@ Il nodo **Schizzi di Grunge polverosi** genera una mappa di grunge simile a schi
 | <b>Avanzate</b> |  |
 | <b>Quantità splash</b> <i>Mobile</i> | Regola la quantità di spruzzi sulla superficie. |
 | <b>Distorsione schizzi</b> <i>Mobile</i> | Regola l’intensità dell’effetto di alterazione applicato agli schizzi. |
-| <b>Rapporto splash/Dirt</b> <i>Mobile</i> | Regola le *proporzioni* del dirt e ne provoca l&#39;apertura. |
-| <b>Pagine affiancate di Dirt</b> <i>Mobile</i> | Regola la diffusione del dirt. |
+| <b>Rapporto splash/Dirt</b> <i>Virgola mobile</i> | Regola le *proporzioni* del dirt e ne provoca l&#39;apertura. |
+| <b>Pagine affiancate di Dirt</b> <i>Virgola mobile</i> | Regola la diffusione del dirt. |
 
 ## Esempi
 
