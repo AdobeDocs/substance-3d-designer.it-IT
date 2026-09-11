@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/scene-browser.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/3d-view/scene-browser.html"
 breadcrumb-title: ''
 description: Utilizza l’Elenco scene per navigare e gestire elementi, materiali e oggetti della scena 3D nella finestra della vista.
 helpx_creative_field: ""
