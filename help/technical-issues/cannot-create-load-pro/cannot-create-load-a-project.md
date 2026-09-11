@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/technical-issues/cannot-create-load-a-project.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/cannot-create-load-a-project.html"
 breadcrumb-title: ''
 description: Risolvi i problemi con la creazione o il caricamento dei progetti in Substance 3D Designer e trova soluzioni.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Impossibile creare un progetto
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f72773d86b681ce0e815c5595067b1593cdd1f0a
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1101'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ In questa pagina sono elencate le cause più comuni di mancata creazione o caric
 
 ## Applicazione troppo vecchia per aprire l&#39;URL
 
-**![(errore)](../../assets/error.svg) Problema**
+**![(errore)](cannot-create-load-a-project.resources/error.svg) Problema**
 
 Il file **Substance 3D (SBS)** è caricato da una versione di Substance 3D Designer che *non supporta il formato*. Il file Substance 3D è stato probabilmente *salvato in una versione più recente* del software che utilizza un formato aggiornato per questi file.
 
-**![(tick)](../../assets/check.svg) Passaggi consigliati**
+**![(tick)](cannot-create-load-a-project.resources/check.svg) Passaggi consigliati**
 
 Con l&#39;evoluzione di Substance 3D Designer, si evolve anche il formato di file Substance 3D (SBS). Nella maggior parte dei casi, una nuova versione del software dovrà *aggiornare i file* in modo che possano supportare le funzionalità più recenti.
 
@@ -43,7 +43,7 @@ Ti viene *richiesto* di eseguire questo aggiornamento quando *carichi il file pe
 Innanzitutto, controlla di utilizzare la versione più recente di Substance 3D Designer consentita dalla tua licenza corrente. Di seguito sono riportati i punti di accesso agli aggiornamenti per ogni edizione:
 
 * <b>Abbonamento ad Substance 3D:</b> vai alla sezione Aggiornamenti della scheda App nell’applicazione [Adobe Creative Cloud Desktop](https://creativecloud.adobe.com/en/apps/download/creative-cloud)
-* Abbonamento a <b>[Substance3d.com](http://Substance3d.com):</b> aggiornamento quando richiesto in Substance 3D Designer o download del programma di installazione più recente nella sezione [Licenze personali](https://store.substance3d.com/user) del sito Web [Substance3d.com](http://substance3d.com)
+* <b>[abbonamento a Substance3d.com](http://Substance3d.com):</b> aggiornamento quando richiesto in Substance 3D Designer o download del programma di installazione più recente nella sezione [Licenze personali](https://store.substance3d.com/user) del sito Web [Substance3d.com](http://substance3d.com)
 * <b>Steam:</b> l&#39;applicazione verrà aggiornata automaticamente per impostazione predefinita. Puoi attivare manualmente l&#39;aggiornamento avviando Substance 3D Designer o accedendo alla schermata Download
 
 >[!WARNING]
@@ -52,19 +52,19 @@ Innanzitutto, controlla di utilizzare la versione più recente di Substance 3D D
 > 
 > In alternativa, puoi *creare una copia* del file *prima* di caricarlo in una nuova versione di Substance 3D Designer, in modo da avere sempre un file a cui tornare se devi utilizzare una versione precedente del software.
 
-## Arresto anomalo durante la creazione o il caricamento di un progetto
+## Arresto anomalo di creazione o caricamento di un progetto
 
-<b>![(errore)](../../assets/error.svg) Problema</b>
+<b>![(errore)](cannot-create-load-a-project.resources/error.svg) Problema</b>
 
-Un arresto anomalo durante la creazione o il caricamento di un progetto è spesso causato da un errore durante l&#39;inizializzazione della [vista 3D](../../interface/3d-view/3d-view.md), che si verifica quando viene impostata l&#39;area di lavoro.
+Un arresto anomalo durante la creazione o il caricamento di un progetto è spesso causato da un errore durante l&#39;inizializzazione del [vista 3D](../../interface/3d-view/3d-view.md), che si verifica quando viene impostata l&#39;area di lavoro.
 
-Se il sistema è un laptop, un&#39;applicazione di terze parti potrebbe applicare un *piano di risparmio energia* che impedisce alla vista 3D di utilizzare la GPU del sistema. Questo può causare un arresto anomalo se nessun altro dispositivo GPU può eseguire l&#39;operazione al suo posto.
+Se si tratta di un laptop, un&#39;applicazione di terze parti potrebbe applicare un *piano di risparmio energia* che impedisce al vista 3D di utilizzare la GPU. Questo può risultare in un arresto anomalo se nessun altro dispositivo GPU può eseguire l&#39;operazione al suo posto.
 
-Può verificarsi un arresto anomalo anche quando la configurazione o il ridimensionamento della visualizzazione *sono stati modificati* tra una sessione e l’altra, per cui il fotogramma di rendering della vista 3D viene creato con coordinate non valide.
+Un arresto anomalo può verificarsi anche quando la configurazione o il ridimensionamento *della visualizzazione* è stato modificato tra una sessione e l&#39;altra, in modo che il fotogramma di rendering del vista 3D venga creato con coordinate non valide.
 
-<b>![(tick)](../../assets/check.svg) Passaggi consigliati</b>
+<b>![(tick)](cannot-create-load-a-project.resources/check.svg) Passaggi consigliati</b>
 
-Considerando le molteplici cause possibili di questo arresto anomalo, consigliamo di eseguire i seguenti passaggi per la risoluzione dei problemi:
+Considerando le molteplici cause possibili per questo arresto anomalo, suggeriamo di seguire i seguenti passaggi per la risoluzione dei problemi:
 
 Aggiornare i driver grafici
 
@@ -180,13 +180,13 @@ Scollega il secondo monitor dal sistema e ricollegalo (ignora questo passaggio s
 
 Avvia Designer, ma *non* crea o apre alcun progetto
 
-* Nella barra superiore, apri il menu <b>Windows</b> e seleziona l&#39;opzione <b>Nuova vista 3D</b>
+* Nella barra superiore, apri il menu <b>Windows</b> e seleziona l&#39;opzione <b>Nuovo vista 3D</b>
 
-Nella barra superiore, apri il menu <b>Windows</b> e seleziona l&#39;opzione <b>Nuova vista 3D</b>
+Nella barra superiore, apri il menu <b>Windows</b> e seleziona l&#39;opzione <b>Nuovo vista 3D</b>
 
-* Verifica che la <b>vista 3D</b> sia inizializzata correttamente e prova diverse trame di anteprima nel menu <b>Scena</b> della barra superiore del pannello
+* Verifica che <b>vista 3D</b> sia inizializzato correttamente e prova diverse trame di anteprima nel menu <b>Scena</b> della barra superiore del pannello
 
-Verifica che la <b>vista 3D</b> sia inizializzata correttamente e prova diverse trame di anteprima nel menu <b>Scena</b> della barra superiore del pannello
+Verifica che <b>vista 3D</b> sia inizializzato correttamente e prova diverse trame di anteprima nel menu <b>Scena</b> della barra superiore del pannello
 
 * Creare o aprire un materiale
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
 breadcrumb-title: ''
 description: ''
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Output
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+source-git-commit: 31d4d930c789d693362ef3a16c72016bd030a89b
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
@@ -22,12 +22,12 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width: 30%; vertical-align: top">
 
 ![Nodo atomico: Output](output.resources/comp_output_1.png "Nodo atomico: Output"){width="200px"}
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; vertical-align: top">
 
 Il nodo di output specifica il <b>risultato</b> di un grafico a Substance o uno dei suoi risultati se in esso sono presenti più nodi di output.
 
@@ -47,12 +47,12 @@ Ogni grafico Substance deve avere *almeno un* nodo di output. Se non esiste alcu
 
 ## Attributi
 
-|  |  |
-| --- | --- |
+|                             |                                                                                                                                                                                                                                                                                                                                      |
+|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <b>Identificatore</b> *Stringa* | Identificatore univoco dell&#39;output. Questa proprietà non può essere lasciata vuota e non può contenere spazi o caratteri speciali.   L&#39;identificatore viene utilizzato perché l&#39;etichetta del nodo è la proprietà &#39;Label&#39; viene lasciata vuota. Può essere utilizzato anche per denominare [texture esportate](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md). |
 | <b>Descrizione</b> *Stringa* | Descrizione facoltativa utilizzata come descrizione dell&#39;output sono i grafici a Substance. |
 | <b>Etichetta</b> *Stringa* | Viene utilizzata come etichetta per il nodo di output e il connettore corrispondente nei [nodi di istanza](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) che rappresentano questo grafico. L&#39;etichetta può contenere spazi e caratteri speciali. |
-| <b>Dati utente</b> *Stringa* | Metadati facoltativi che possono essere utilizzati per operazioni di filtro specifiche. [Substance 3D Painter](https://www.adobe.com/it/products/substance3d/apps/painter.html) utilizza questi dati per [attivare alcune funzionalità](https://experienceleague.adobe.com/it/docs/substance-3d-painter/using/content/creating-custom-effects/user-data). |
+| <b>Dati utente</b> *Stringa* | Metadati facoltativi che possono essere utilizzati per operazioni di filtro specifiche. [Substance 3D Painter](https://www.adobe.com/products/substance3d/apps/painter.html) utilizza questi dati per [attivare alcune funzionalità](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/user-data). |
 | <b>Gruppo</b> *Stringa* | Attributo utilizzato per raggruppare gli output per le [modalità di creazione dei collegamenti](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) di Designer.   Gli output con un attributo &quot;Group&quot; identico vengono presentati come una singola connessione nella modalità di creazione del collegamento &quot;Compact Material&quot;. |
 
 ## Attributi integrazione
@@ -61,32 +61,34 @@ Si tratta di attributi che devono essere utilizzati da integrazioni/plug-in che 
 
 Di conseguenza, non influiscono sul formato delle [esportazioni bitmap](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md). Inoltre, in Designer viene utilizzato solo l&#39;attributo <b>Utilizzo</b>. Per ulteriori informazioni, vedere di seguito.
 
-<b>Utilizzo</b>
++++ Utilizzo
 
-|  |  |
-| --- | --- |
+|                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|-----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <b>Componente</b> *Stringa* | Questa tecnica viene utilizzata per associare alcuni canali texture agli input di shader SVBRDF appropriati nei flussi di lavoro AxF. |
-| <b>Utilizzo</b> *Stringa* | Definisce il tipo e l&#39;utilizzo del nodo di output. Questa proprietà è importante in quanto guida:<ul data-preserve-html="true"> <li data-preserve-html="true">Connessione di nodi nei grafici a Substance quando si utilizzano alcune [modalità di creazione del collegamento](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) </li> <li data-preserve-html="true">Connessione delle texture agli shader nella vista 3D (vedere di seguito: &#39;[Informazioni sul ruolo degli usi nella vista 3D](#usages-role-3dview)&#39;)</li> <li data-preserve-html="true">Connessione della texture ai materiali nelle integrazioni/plug-in</li> </ul> |
+| <b>Utilizzo</b> *Stringa* | Definisce il tipo e l&#39;utilizzo del nodo di output. Questa proprietà è importante in quanto guida:<ul data-preserve-html="true"> <li data-preserve-html="true">Connessione di nodi nei grafici a Substance quando si utilizzano alcune [modalità di creazione del collegamento](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) </li> <li data-preserve-html="true">Connessione delle texture agli shader nella vista 3D (vedere di seguito: &#39;[Informazioni sul ruolo degli usi nella vista 3D](#about-the-role-of-usages-in-the-3d-view)&#39;)</li> <li data-preserve-html="true">Connessione della texture ai materiali nelle integrazioni/plug-in</li> </ul> |
 | <b>Spazio colore</b> *Stringa* | Imposta lo spazio cromatico in cui deve essere interpretato questo output. Viene utilizzato da alcune integrazioni in altre applicazioni e non ha alcun impatto su Designer. |
+
++++
 
 ### Informazioni sul ruolo degli utilizzi nel vista 3D
 
 Poiché le uscite dei grafici sono spesso intese come il risultato finale per un canale di texture specifico, le uscite possono essere inviate automaticamente al campionatore appropriato dello shader utilizzato nel vista 3D.
 
-Infatti, un output la cui proprietà *Utilizzo</b> corrisponde all&#39;utilizzo di un campionatore* nel vista 3D verrà collegato a tale campionatore. <b>Ad esempio, un output con utilizzo `basecolor` verrà collegato al campionatore `basecolor` dello shader di vista 3D. Ulteriori informazioni sono disponibili nella sezione [Visualizza dati nella vista 3D](../../../../interface/3d-view/3d-view.md) della pagina [vista 3D](https://substance3d.adobe.com/documentation/display/draftdesigner/.3d%20view%20vdraftversion).
+In effetti, un output la cui proprietà *Utilizzo</b> corrisponde all&#39;utilizzo di un campionatore* nella vista 3D verrà collegato a tale campionatore. <b>Ad esempio, un output con utilizzo `basecolor` verrà collegato al campionatore `basecolor` dello shader vista 3D. (Ulteriori informazioni: [Visualizzare i dati nella vista 3D](../../../../interface/3d-view/3d-view.md#view-data-in-3d-view))
 
-Fate clic su RMB in un&#39;area vuota della [visualizzazione Grafico](../../../../interface/the-graph-view/the-graph-view.md) e selezionate l&#39;opzione <b>Visualizza output in visualizzazione 3D</b> nel menu di scelta rapida per connettere tutti gli output ai campionatori di vista 3D con *utilizzi corrispondenti*.
+Fate clic su RMB in un&#39;area vuota della [vista Grafico](../../../../interface/the-graph-view/the-graph-view.md) e selezionate l&#39;opzione <b>Visualizza output in vista 3D</b> nel menu di scelta rapida per connettere tutti gli output ai campionatori della vista 3D con *usi corrispondenti*.
 
 >[!IMPORTANT]
 >
-> Se sono impostati più usi, ad esempio per assegnare gli usi ai canali di una texture compressa, solo il *primo utilizzo* dell&#39;elenco sarà connesso alla vista 3D. Si tratta di una limitazione nota.
+> Se sono impostati più utilizzi, ad esempio per assegnare gli utilizzi ai canali in una texture compressa, solo il *primo utilizzo* nell&#39;elenco sarà connesso alla vista 3D. Si tratta di una limitazione nota.
 
 ## Output predefinito
 
 Quando un grafico ha più di un output, uno di questi può essere impostato come output predefinito per quel grafico. Specifica quali output devono essere utilizzati per:
 
 * Miniatura di qualsiasi nodo di istanza che rappresenta il grafico
-* Visualizzazione di questi nodi di istanza nel vista 2D
+* Visualizzazione di questi nodi di istanza nella vista 2D
 * Miniatura del grafico nella libreria (ulteriori informazioni sull&#39;aggiunta di risorse proprie [qui](../../../../interface/preferences-window/project-settings/project-settings.md))
 
 Questa funzione consente di disporre gli output del grafico in qualsiasi ordine indipendentemente da come verrà visualizzato il grafico come nodo.
