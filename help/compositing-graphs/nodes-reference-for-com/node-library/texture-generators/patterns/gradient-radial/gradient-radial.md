@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-radial.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-radial.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo radiale sfumatura per creare sfumature radiali che si irradiano da un punto centrale per transizioni di colore circolari.
 helpx_creative_field: ""

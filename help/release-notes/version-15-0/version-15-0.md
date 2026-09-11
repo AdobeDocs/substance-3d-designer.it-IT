@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-15-0.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/release-notes/version-15-0.html"
 breadcrumb-title: ''
 description: Consulta le note sulla versione per Substance 3D Designer versione 15.0 per informazioni sul nuovo modulo di rendering 3D e sul supporto nativo per USD.
 helpx_creative_field: ""

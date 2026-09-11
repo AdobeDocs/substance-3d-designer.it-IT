@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises.html"
 breadcrumb-title: ''
 description: Accedere ai nodi dei generatori di rumore in Substance 3D Designer per creare pattern di disturbo procedurali per la generazione e la variazione delle texture.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 I rumori sono elementi grafici procedurali organici e caotici. Gli output generati dai rumori sono molto diversi dalle forme dall&#39;aspetto artificiale della categoria [Pattern.](../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/patterns.md)
 
-Puoi usare i rumori in [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) come punto di partenza o livello di dettaglio per elementi quali grana, dirt, crescita casuale, per qualsiasi tipo di variazione sottile dei livelli, ecc...
+Puoi usare i rumori in [Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html) come punto di partenza o livello di dettaglio per elementi quali grana, dirt, crescita casuale, per qualsiasi tipo di variazione sottile dei livelli, ecc...
 
 Tutti i rumori sono completamente indipendenti dalla risoluzione, quindi puoi aumentare o ridurre il risultato senza temere di perdere qualità.
 

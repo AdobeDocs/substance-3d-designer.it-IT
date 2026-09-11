@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/star.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/star.html"
 breadcrumb-title: ''
 description: Utilizza il nodo Stella per generare motivi a stella con punti e dimensioni personalizzabili per la texture geometrica.
 helpx_creative_field: ""

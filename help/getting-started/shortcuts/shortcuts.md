@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/shortcuts.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/getting-started/shortcuts.html"
 breadcrumb-title: ''
 description: Scopri le scelte rapide da tastiera in Substance 3D Designer per velocizzare il flusso di lavoro e migliorare la produttività.
 helpx_creative_field: ""

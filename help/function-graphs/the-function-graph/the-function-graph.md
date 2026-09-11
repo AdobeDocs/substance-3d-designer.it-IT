@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/the-function-graph.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/function-graphs/the-function-graph.html"
 breadcrumb-title: ''
 description: Informazioni sui grafici delle funzioni Substance in Designer per la creazione di funzioni personalizzate e reti di nodi riutilizzabili.
 helpx_creative_field: ""

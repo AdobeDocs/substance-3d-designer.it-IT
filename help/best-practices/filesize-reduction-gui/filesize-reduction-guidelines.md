@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/filesize-reduction-guidelines.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/best-practices/filesize-reduction-guidelines.html"
 breadcrumb-title: ''
 description: Linee guida per la riduzione delle dimensioni dei file dei grafici Substance al fine di ottimizzare le prestazioni e i requisiti di storage.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 In alcuni casi la dimensione totale dei file di [risorse Substance 3D (SBSAR)](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) può essere un fattore importante. Questa pagina contiene alcune aree critiche e impostazioni da tenere presenti quando si tenta di ridurre le dimensioni dei file.
 
-La dimensione del file è determinata principalmente da [bitmap incorporate.](../../resources/bitmap-resource/bitmap-resource.md) Si tratta di file collegati, incorporati o in batch e aggiunti al file [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) come risorsa. Nella risorsa Substance 3D vengono pubblicate solo le bitmap utilizzate in un grafico, ovvero connesse a un output direttamente o attraverso la catena di nodi. In un file di Substance 3D, le bitmap non hanno alcun impatto sulle dimensioni del file, poiché tutte le risorse bitmap sono ancora memorizzate all&#39;esterno del file.
+La dimensione del file è determinata principalmente da [bitmap incorporate.](../../resources/bitmap-resource/bitmap-resource.md) Si tratta di file collegati, incorporati o in batch e aggiunti al file [Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html) come risorsa. Nella risorsa Substance 3D vengono pubblicate solo le bitmap utilizzate in un grafico, ovvero connesse a un output direttamente o attraverso la catena di nodi. In un file di Substance 3D, le bitmap non hanno alcun impatto sulle dimensioni del file, poiché tutte le risorse bitmap sono ancora memorizzate all&#39;esterno del file.
 
 >[!IMPORTANT]
 >

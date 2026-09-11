@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities.html"
 breadcrumb-title: ''
 description: Accedere ai nodi dell'utilità PBR in Substance 3D Designer per lavorare con le proprietà e le conversioni dei materiali di rendering basate fisicamente.
 helpx_creative_field: ""

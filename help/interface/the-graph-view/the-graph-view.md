@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/the-graph-view.html"
 breadcrumb-title: ''
 description: Scoprite come utilizzare la vista del grafico in Substance 3D Designer per creare e modificare grafici dei materiali basati su nodi.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Questa pagina presenta il dock della vista Grafico di Substance 3D Designer.
 
-La vista grafico è la finestra principale di [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html), in cui puoi creare e modificare i tuoi grafici. La vista del grafico ha due aree principali: una barra degli strumenti nella parte superiore, che fornisce un accesso rapido a determinate funzioni, e l&#39;area del grafico effettiva in cui vengono posizionati i nodi.
+La vista grafico è la finestra principale di [Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html), in cui puoi creare e modificare i tuoi grafici. La vista del grafico ha due aree principali: una barra degli strumenti nella parte superiore, che fornisce un accesso rapido a determinate funzioni, e l&#39;area del grafico effettiva in cui vengono posizionati i nodi.
 
 La vista grafico viene utilizzata per tutti i tipi di grafico, ma differisce leggermente tra [grafici a Substance](../../compositing-graphs/substance-compositing-graphs.md), [grafici a funzione](../../function-graphs/function-graphs.md) e [grafici FX-Map](../../function-graphs/fxmaps/fxmaps.md), principalmente nell&#39;area della barra degli strumenti.
 

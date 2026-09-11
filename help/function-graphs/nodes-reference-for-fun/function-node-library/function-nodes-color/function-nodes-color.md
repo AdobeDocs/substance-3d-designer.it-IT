@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-color.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-color.html"
 breadcrumb-title: ''
 description: Utilizzate i nodi delle funzioni colore per eseguire le conversioni dei colori e le operazioni di mappatura dei toni nei grafici delle funzioni.
 helpx_creative_field: ""

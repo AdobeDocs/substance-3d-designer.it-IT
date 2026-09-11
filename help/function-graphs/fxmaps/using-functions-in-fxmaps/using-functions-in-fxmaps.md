@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps.html"
 breadcrumb-title: ''
 description: Scoprite come utilizzare i grafici delle funzioni in FXMaps per creare pattern ed effetti di materiale di procedurali avanzati.
 helpx_creative_field: ""

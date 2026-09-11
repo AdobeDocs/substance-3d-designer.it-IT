@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/extracting-materials-values-and-textures.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/working-with-3d-scenes/extracting-materials-values-and-textures.html"
 breadcrumb-title: ''
 description: Estrai le proprietà del materiale da scene 3D da utilizzare nei grafici Substance per i flussi di lavoro di creazione del materiale.
 helpx_creative_field: ""

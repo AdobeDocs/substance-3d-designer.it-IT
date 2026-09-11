@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes.html"
 breadcrumb-title: ''
 description: Informazioni sui nodi a funzione atomica, le unità di nodi più piccole nei grafici a funzione Substance per la creazione di funzioni personalizzate.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-spots-dirty.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-spots-dirty.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Grunge macchie sporche per aggiungere pattern di macchie sporche per creare effetti di materiale invecchiati e soggetti ad agenti atmosferici.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/material-properties.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/3d-view/material-properties.html"
 breadcrumb-title: ''
 description: Configura le proprietà del materiale nella vista 3D per visualizzare in anteprima e regolare l'aspetto dei materiali Substance sugli oggetti 3D.
 helpx_creative_field: ""
@@ -202,7 +202,7 @@ fino alla versione 15.1
 Mentre Designer viene spostato in OpenPBR come nuovo modello predefinito, ASM è ancora incluso e le sue proprietà sono condivise
 attraverso i moduli di rendering Rasterizer, Pathtracer GPU e OpenGL [3D](../3d-renderers/3d-renderers.md).
 
-Modello documentato [qui](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material).
+Modello documentato [qui](https://experienceleague.adobe.com/it/docs/substance-3d/general-knowledge/asm/adobe-standard-material).
 
 <a name="usdpreviewsurface"></a>
 
