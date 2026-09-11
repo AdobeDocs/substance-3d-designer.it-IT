@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/alveolus.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/alveolus.html"
 breadcrumb-title: ''
 description: Usa il nodo Alveolo per generare pattern cellulari simili a nido d’ape per creare effetti di texture organici e geometrici.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Alveolo
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: db5ad9a6ad1d03fedcc3d760cc8886501d16b87f
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/alveolus-1.png){width="128px"}
+![](alveolus.resources/alveolus-1.png){width="128px"}
 
 <b>Ingresso:</b> Generatori Texture > Pattern
 
@@ -55,7 +55,7 @@ Pattern a sfera morbida che può generare alternativamente porzioni esagonali.
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/alveolus.gif" />
+            <img src="alveolus.resources/alveolus.gif" />
         </td>
     </tr>
 </table>

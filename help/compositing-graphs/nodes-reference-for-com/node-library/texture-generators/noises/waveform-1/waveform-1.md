@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/waveform-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/waveform-1.html"
 breadcrumb-title: ''
 description: Utilizza il nodo Forma d’onda 1 per generare pattern di forma d’onda per creare texture organiche e variazioni procedurali.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Forma d’onda 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
+source-git-commit: db5ad9a6ad1d03fedcc3d760cc8886501d16b87f
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Forma d&#39;onda 1 - Icona](../../../../../../assets/waveform_01_v2.png "Forma d&#39;onda 1 - Icona"){width="200px"}
+![Forma d&#39;onda 1 - Icona](waveform-1.resources/waveform_01_v2.png "Forma d&#39;onda 1 - Icona"){width="200px"}
 
 <b>Ingresso:</b> Generatori di texture > Rumori
 
@@ -73,7 +73,7 @@ Disposizione orizzontale di motivi selezionati dall&#39;utente impilati in una f
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Forma d&#39;onda 1 - Esempio 1](../../../../../../assets/waveform_01_v2_speed0.1_aniso0.gif "Forma d&#39;onda 1 - Esempio 1"){zoomable="yes"}
+![Forma d&#39;onda 1 - Esempio 1](waveform-1.resources/waveform_01_v2_speed0.1_aniso0.gif "Forma d&#39;onda 1 - Esempio 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
