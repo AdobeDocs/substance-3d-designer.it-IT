@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-radial.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-radial.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo radiale sfumatura per creare sfumature radiali che si irradiano da un punto centrale per transizioni di colore circolari.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Sfumatura radiale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: 827e738d5db4d64bf366d332a62a7bbd2fa840fc
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/gradient-radial.png){width="128px"}
+![](gradient-radial.resources/gradient-radial.png){width="128px"}
 
 <b>Ingresso:</b> Generatori Texture > Pattern
 
@@ -48,4 +48,4 @@ Simile a [Sfumatura circolare](../../../../../../compositing-graphs/nodes-refere
 | <b>Forma</b> <i>Cono, Emisfero</i> | Determina il profilo di transizione. Il cono è una transizione netta e lineare, l&#39;emisfero è morbido e arrotondato al centro. |
 | <b>Punto 1</b> | Punto centrale della sfumatura. Inizia con il bianco. |
 | <b>Punto 2</b> | Punto del raggio per determinare l’estensione della sfumatura. Termina in nero. |
-| <b>Non square expansion</b> <i>Falso/Vero</i> | Abilita la compensazione di schiaccia e allunga con rapporti non quadrati. |
+| <b>Non square expansion</b> <i>Falso/Vero</i> | Abilita la compensazione della compressione e allungamento con rapporti non quadrati. |

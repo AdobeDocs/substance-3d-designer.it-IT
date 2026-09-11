@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/fibers-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/fibers-1.html"
 breadcrumb-title: ''
 description: Usa il nodo Fibre 1 per creare trame di fibre di base per simulare tessuto, capelli e materiali fibrosi.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Fibre 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: 827e738d5db4d64bf366d332a62a7bbd2fa840fc
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 12%
@@ -24,7 +24,7 @@ ht-degree: 12%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/fibers-1.png){width="128px"}
+![](fibers-1.resources/fibers-1.png){width="128px"}
 
 <b>Ingresso:</b> Generatori Texture > Pattern
 
@@ -33,7 +33,7 @@ ht-degree: 12%
 
 ## Descrizione
 
-Semplice motivo simile a una fibra. Può essere utilizzato in [Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html) per le mappe di altezza e i dettagli di corde, trame o tessuti.
+Semplice motivo simile a una fibra. Può essere utilizzato in [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) per le mappe di altezza e i dettagli di corde, trame o tessuti.
 
 </td>
 </tr>
@@ -53,7 +53,7 @@ Semplice motivo simile a una fibra. Può essere utilizzato in [Substance 3D Desi
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/fibers-1-ex.gif" />
+            <img src="fibers-1.resources/fibers-1-ex.gif" />
         </td>
     </tr>
 </table>
