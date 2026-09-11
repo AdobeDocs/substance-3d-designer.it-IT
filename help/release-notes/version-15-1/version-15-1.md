@@ -199,8 +199,8 @@ Ad esempio, il rilevamento dell’assenza di una variabile consente di fornire u
 * [vista 3D] Specular level non applicato correttamente
 * [vista 3D] Il Specular edge color non funziona quando si utilizza il rasterizzatore Eclair
 * [vista 3D] Il materiale aggiunto dall&#39;utente non viene applicato alle scene predefinite
-* [vista 3D][Baker] Il colore del materiale è troppo scuro una volta modificato localmente o quando si utilizza un baker &quot;Colore&quot;
-* [vista 3D][Baker] Nessun colore materiale dal file FBX
+* [vista 3D]&#x200B;[Baker] Il colore del materiale è troppo scuro una volta modificato localmente o quando si utilizza un baker &quot;Colore&quot;
+* [vista 3D]&#x200B;[Baker] Nessun colore materiale dal file FBX
 * [Baker] I colori dei materiali nei file FBX non vengono rilevati correttamente
 * [Baker] L’opzione &quot;ricalcola\_tangenti&quot; è sempre &quot;false&quot; nelle esportazioni di predefiniti JSON
 * [Baker] CLI: Arresto anomalo quando si esegue lo stesso baker consecutivamente tramite File JSON
