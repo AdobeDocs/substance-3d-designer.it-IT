@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Grafici MDL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 2a6e26cc03e887569a518cadd171ae1b51ae6abd
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Questa pagina presenta i grafici MDL in Substance 3D Designer, che consentono di creare materiali MDL e visualizzare in anteprima il loro comportamento in tempo reale.
 
-![Materiale MDL malachita](../assets/mdl-malachite-example.jpg "Materiale MDL malachita")
+![Materiale MDL malachita](mdl-graphs.resources/mdl-malachite-example.jpg "Materiale MDL malachita")
 
 *Malachite con Chrysocolla, materiale MDL di [Mark Foreman](https://www.artstation.com/oggyart)* *disponibile sul nostro [Substance share legacy](https://share-legacy.substance3d.com/libraries/4043)* *piattaforma*
 
@@ -53,7 +53,7 @@ Utilizzando questo linguaggio, una definizione completa del materiale è portati
 
 Durante la creazione di materiali, puoi utilizzare il modulo di rendering [Iray](../interface/3d-view/iray/iray.md) di NVIDIA, incorporato in Designer e disponibile nel pannello [Vista 3D](../interface/3d-view/3d-view.md), per visualizzare in anteprima il comportamento del materiale *in modo interattivo*.
 
-I grafici MDL sono complementari ai [grafici a Substance](../compositing-graphs/substance-compositing-graphs.md) in quanto quest&#39;ultimo genera *texture* che possono essere *campionati* dal materiale MDL per influenzarne il comportamento e l&#39;aspetto.
+I grafici MDL sono complementari con i [grafici a Substance](../compositing-graphs/substance-compositing-graphs.md) in quanto quest&#39;ultimi generano *texture* che possono essere *campionati* dal materiale MDL per influenzarne il comportamento e l&#39;aspetto.
 
 Ti consigliamo di scorrere le sezioni di questa documentazione *in ordine* per un percorso di apprendimento guidato, iniziando dalle proprietà di una risorsa grafico MDL, appena sotto.\
 Vuoi entrare? Introduzione ai grafici MDL nella sezione Risorse di apprendimento MDL.
@@ -62,7 +62,7 @@ Vuoi entrare? Introduzione ai grafici MDL nella sezione Risorse di apprendimento
 >
 > Ulteriori informazioni sull&#39;implementazione tecnica del linguaggio di definizione dei materiali sono disponibili nella [documentazione NVIDIA MDL](https://raytracing-docs.nvidia.com/mdl/index.html), che include collegamenti alla specifica MDL e al [manuale MDL](http://mdlhandbook.com/), tutti creati e gestiti da NVIDIA.
 
-![Proprietà grafico MDL](../assets/mdl-main.png "Proprietà grafico MDL")
+![Proprietà grafico MDL](mdl-graphs.resources/mdl-main.png "Proprietà grafico MDL")
 
 *Proprietà del grafico MDL nel pannello Proprietà*
 
@@ -93,11 +93,11 @@ In questa sezione vengono elencati i parametri interattivi collegati ai parametr
 
 L&#39;interfaccia e il comportamento di questi input sono definiti dal *tipo di valore* e dagli *intervalli* dei parametri esposti a cui sono connessi. Ad esempio:
 
-* Un valore esposto di tipo <b>Virgola mobile</b> impostato su un intervallo soft di [0.0,4.0] verrà visualizzato come *cursore singolo* compreso tra 0,0 e 4,0
+* Un valore esposto di tipo <b>Float</b> impostato su un intervallo soft di [0.0,4.0] verrà visualizzato come *cursore singolo* compreso tra 0,0 e 4,0
 * Un valore esposto di tipo <b>Colore</b> verrà visualizzato come *widget colore*, che include una sfumatura di selezione e una miniatura di colore
 
 Per riordinare gli input del grafico, posiziona il cursore sulla *maniglia scura* a sinistra del parametro, fai clic e *tieni premuto* <b>LMB</b> e trascina il cursore verso l&#39;alto o il basso. Questo ordine personalizzato verrà utilizzato per visualizzare le proprietà del materiale MDL nei seguenti contesti:
 
 * Nodi di istanza che fanno riferimento al grafico MDL per questo materiale
-* Proprietà del materiale in [vista 3D](../interface/3d-view/3d-view.md)
+* Proprietà del materiale nella [vista 3D](../interface/3d-view/3d-view.md)
 * Integrazioni MDL di terze parti
