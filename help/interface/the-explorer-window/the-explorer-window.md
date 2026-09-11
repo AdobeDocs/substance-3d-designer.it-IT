@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/the-explorer-window.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-explorer-window.html"
 breadcrumb-title: ''
 description: Utilizzare la finestra Esplora risorse di Substance 3D Designer per sfogliare, organizzare e gestire i file di progetto e le risorse.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Explorer
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 16eb8a173e984f842c820f3b8f0c3e140040bdfa
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 2%
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 # Explorer
 
-Questa pagina descrive il dock di Esplora risorse in [Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html). Questo dock consente di gestire i pacchetti e le relative risorse.
+Questa pagina descrive il dock di Esplora risorse in [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html). Questo dock consente di gestire i pacchetti e le relative risorse.
 
 <table>
 <tr style="border: 0;">
@@ -35,7 +35,7 @@ In Esplora risorse puoi avviare e terminare i progetti, poiché consente di crea
 </td>
 <td style="border: 0;" valign="top">
 
-![Ancoraggio Esplora risorse](../../assets/explorer-3.jpg "Ancoraggio Esplora risorse")
+![Ancoraggio Esplora risorse](the-explorer-window.resources/explorer-3.jpg "Ancoraggio Esplora risorse")
 
 </td>
 </tr>
@@ -56,16 +56,16 @@ Puoi eseguire alcune azioni importanti tramite il dock di Esplora risorse:
 
 Questa barra degli strumenti consente di eseguire rapidamente le funzioni relative al flusso di lavoro generale. Tutti i pulsanti sono *sensibili al contesto*, il che significa che si attivano e cambiano il comportamento in base alla selezione corrente in Esplora risorse.
 
-![](../../assets/save.png) <b>Salva</b> pacchetto selezionato.
+![](the-explorer-window.resources/save.png) <b>Salva</b> pacchetto selezionato.
 
-![](../../assets/sendto-icon.jpg) <b>Publish o [invia](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)</b> elementi selezionati:
+![](the-explorer-window.resources/sendto-icon.jpg) <b>Publish o [invia](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)</b> elementi selezionati:
 
 * [Publish di qualsiasi pacchetto selezionato in una risorsa Substance 3D (SBSAR)](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md);
-* Invia il pacchetto selezionato a [Substance 3D Sampler](https://www.adobe.com/it/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/it/products/substance3d-painter.html) o [Substance 3D Stager](https://www.adobe.com/it/products/substance3d-stager.html).
+* Invia il pacchetto selezionato a [Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) o [Substance 3D Stager](https://www.adobe.com/products/substance3d-stager.html).
 
-![](../../assets/republish.png) <b>Publish o invia come precedente:</b> Publish o invia gli elementi selezionati con le stesse impostazioni di prima. Questa opzione è disponibile solo in un pacchetto che è già stato pubblicato *almeno una volta* nella sessione *corrente*.
+![](the-explorer-window.resources/republish.png) <b>Publish o invia come precedente:</b> Publish o invia gli elementi selezionati con le stesse impostazioni di prima. Questa opzione è disponibile solo in un pacchetto che è già stato pubblicato *almeno una volta* nella sessione *corrente*.
 
-![](../../assets/graph-cleaner.jpg) <b>Rimuovere i nodi inutilizzati</b> nei grafici selezionati. Lo strumento segue queste regole:
+![](the-explorer-window.resources/graph-cleaner.jpg) <b>Rimuovere i nodi inutilizzati</b> nei grafici selezionati. Lo strumento segue queste regole:
 
 * Lo strumento è disponibile solo se gli elementi selezionati sono dello *stesso tipo*: solo grafici, cartelle o pacchetti;
 * Quando la selezione include cartelle o pacchetti, lo strumento pulisce tutti i grafici in esse *in modo ricorsivo*;
@@ -77,14 +77,14 @@ Ulteriori informazioni sullo strumento sono disponibili nella sezione &#39;Rimuo
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Menu a discesa Publish/Invia](../../assets/explorer-sendto-displayed.jpg "Menu a discesa Publish/Invia")
+![Menu a discesa Publish/Invia](the-explorer-window.resources/explorer-sendto-displayed.jpg "Menu a discesa Publish/Invia")
 
 *Publish/Invia*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Rimuovi i nodi inutilizzati dal menu a discesa](../../assets/explorer-graph-cleaner.jpg "Rimuovi i nodi inutilizzati dal menu a discesa")
+![Rimuovi i nodi inutilizzati dal menu a discesa](the-explorer-window.resources/explorer-graph-cleaner.jpg "Rimuovi i nodi inutilizzati dal menu a discesa")
 
 *Rimuovi nodi inutilizzati*
 
@@ -120,7 +120,7 @@ Lo spazio vuoto è disponibile solo al di sotto di qualsiasi pacchetto attualmen
 
 <b>L&#39;esportazione con dipendenze</b> è diversa dal salvataggio e dalla pubblicazione. Prende i tuoi file SBS, raccoglie tutte le risorse e le dipendenze di riferimento e crea un pacchetto autonomo. La finestra di dialogo consente di scegliere quali librerie raccogliere e se il file deve essere un archivio compresso (7-zip). Questa è una buona scelta per condividere un file SBS con qualcun altro, senza preoccuparsi di dipendenze mancanti.
 
-<b>Invia a...</b> apre un sottomenu che consente di [inviare](send-to-interoperability/send-to-interoperability.md) direttamente il pacchetto a [Substance 3D Sampler](https://www.adobe.com/it/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/it/products/substance3d-painter.html), [Substance 3D Stager](https://www.adobe.com/it/products/substance3d-stager.html) o [Substance Player](https://helpx.adobe.com/substance-3d-player/home.html).
+<b>Invia a...</b> apre un sottomenu che consente di [inviare](send-to-interoperability/send-to-interoperability.md) direttamente il pacchetto a [Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html), [Substance 3D Stager](https://www.adobe.com/products/substance3d-stager.html) o [Substance Player](https://helpx.adobe.com/substance-3d-player/home.html).
 
 <b>Copia</b> copia il pacchetto selezionato.
 
@@ -200,9 +200,9 @@ Lo spazio vuoto è disponibile solo al di sotto di qualsiasi pacchetto attualmen
 
 La barra degli strumenti nella parte inferiore dell&#39;ancoraggio di Esplora risorse fornisce informazioni su un pacchetto o una risorsa del pacchetto:
 
-<b>![](../../assets/explorer-dependencies.jpg) dipendenze:</b> Quando si seleziona un pacchetto, le relative dipendenze vengono elencate in un pannello dedicato.
+<b>![](the-explorer-window.resources/explorer-dependencies.jpg) dipendenze:</b> Quando si seleziona un pacchetto, le relative dipendenze vengono elencate in un pannello dedicato.
 
-<b>![](../../assets/explorer-information.jpg) Informazioni:</b> Fornisce i metadati relativi al pacchetto o alla risorsa attualmente selezionata:
+<b>![](the-explorer-window.resources/explorer-information.jpg) Informazioni:</b> Fornisce i metadati relativi al pacchetto o alla risorsa attualmente selezionata:
 
 * Pacchetto: il percorso completo del file del pacchetto
 * [Risorsa bitmap](../../resources/bitmap-resource/bitmap-resource.md): il percorso completo del file della risorsa, il relativo [profilo ICC](../../color-management/color-management.md), le dimensioni dell&#39;immagine e il [metodo di importazione](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md) (ovvero *collegato* o *importato*)
@@ -211,14 +211,14 @@ La barra degli strumenti nella parte inferiore dell&#39;ancoraggio di Esplora ri
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Pannello Dipendenze](../../assets/explorer-dependencies-displayed.jpg "Pannello Dipendenze")
+![Pannello Dipendenze](the-explorer-window.resources/explorer-dependencies-displayed.jpg "Pannello Dipendenze")
 
 *Dipendenze*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Pannello Informazioni](../../assets/explorer-information-displayed.jpg "Pannello Informazioni")
+![Pannello Informazioni](the-explorer-window.resources/explorer-information-displayed.jpg "Pannello Informazioni")
 
 *Informazioni*
 
