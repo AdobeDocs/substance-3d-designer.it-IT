@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/get-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/get-nodes.html"
 breadcrumb-title: ''
 description: Accedere Ottieni nodi nei grafici delle funzioni di Substance 3D Designer per recuperare valori e dati delle variabili.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Variabili
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f28a2ba2531cfc4456744ff151432ed8308275ec
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 6%
@@ -22,7 +22,7 @@ ht-degree: 6%
 
 Le variabili consentono di <b>archiviare valori</b> per recuperarli in seguito (<b>Get</b>) e/o modificarli (<b>Set</b>).
 
-![Substance grafico funzioni - Ottieni grafico a virgola mobile](../../../../assets/assign-getfloat.gif "Substance grafico funzioni - Ottieni grafico a virgola mobile"){zoomable="yes"}
+![Substance grafico funzioni - Ottieni grafico a virgola mobile](get-nodes.resources/assign-getfloat.gif "Substance grafico funzioni - Ottieni grafico a virgola mobile"){zoomable="yes"}
 
 In pratica, un nodo Get acquisisce una variabile dinamica e la restituisce dall&#39;output di Get Nodes per utilizzarla in una funzione. Questi nodi Get formano il collegamento tra i parametri di input definiti in [parametri del grafico](../../../../compositing-graphs/graph-parameters/graph-parameters.md) e [funzioni dei parametri](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
 
@@ -58,7 +58,7 @@ Quando un parametro è [esposto](../../../../compositing-graphs/manage-parameter
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Ottieni float2 - Icona](../../../../assets/fn_variables_getfloat2.png "Ottieni float2 - Icona"){width="200px"}
+![Ottieni float2 - Icona](get-nodes.resources/fn_variables_getfloat2.png "Ottieni float2 - Icona"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -81,32 +81,32 @@ Nodi &#39;Get&#39; alcune limitazioni di cui è necessario tenere conto:
 >
 > Variabili incorporate
 > 
-> Diversi nodi &quot;Get&quot; offriranno variabili incorporate per accedere ai valori esistenti in base al contesto corrente, ad esempio: la posizione corrente dei pixel in un processore Pixel, la modalità di suddivisione in porzioni corrente di un nodo...
+> Diversi nodi &quot;Get&quot; offriranno variabili incorporate per accedere ai valori esistenti in base al contesto corrente, ad esempio: la posizione corrente dei pixel in un Elaboratore pixel, la modalità di Affiancamento corrente di un nodo...
 > 
 > Tutte le variabili incorporate sono elencate in [questa pagina dedicata](../../../../function-graphs/variables/system-variables/system-variables.md).
 
 ### Ottieni nodi
 
-+++Galleggianti
-![Ottieni float - Icona](../../../../assets/fn_variables_getfloat.png "Ottieni float - Icona"){width="200px"}
++++Virgole mobili
+![Ottieni float - Icona](get-nodes.resources/fn_variables_getfloat.png "Ottieni float - Icona"){width="200px"}
 
 
 
 Ottieni virgola mobile
 
-![Ottieni float2 - Icona](../../../../assets/fn_variables_getfloat2.png "Ottieni float2 - Icona"){width="200px"}
+![Ottieni float2 - Icona](get-nodes.resources/fn_variables_getfloat2.png "Ottieni float2 - Icona"){width="200px"}
 
 
 
 Ottieni Float2
 
-![Ottieni float3 - Icona](../../../../assets/fn_variables_getfloat3.png "Ottieni float3 - Icona"){width="200px"}
+![Ottieni float3 - Icona](get-nodes.resources/fn_variables_getfloat3.png "Ottieni float3 - Icona"){width="200px"}
 
 
 
 Ottieni Float3
 
-![Ottieni float4 - Icona](../../../../assets/fn_variables_getfloat4.png "Ottieni float4 - Icona"){width="200px"}
+![Ottieni float4 - Icona](get-nodes.resources/fn_variables_getfloat4.png "Ottieni float4 - Icona"){width="200px"}
 
 
 
@@ -115,25 +115,25 @@ Ottieni Float4
 +++
 
 +++Interi
-![Ottieni numero intero - Icona](../../../../assets/fn_variables_getint.png "Ottieni numero intero - Icona"){width="200px"}
+![Ottieni numero intero - Icona](get-nodes.resources/fn_variables_getint.png "Ottieni numero intero - Icona"){width="200px"}
 
 
 
 Ottieni numero intero
 
-![Ottieni numero intero2 - Icona](../../../../assets/fn_variables_getint2.png "Ottieni numero intero2 - Icona"){width="200px"}
+![Ottieni numero intero2 - Icona](get-nodes.resources/fn_variables_getint2.png "Ottieni numero intero2 - Icona"){width="200px"}
 
 
 
 Ottieni Integer2
 
-![Ottieni numero intero3 - Icona](../../../../assets/fn_variables_getint3.png "Ottieni numero intero3 - Icona"){width="200px"}
+![Ottieni numero intero3 - Icona](get-nodes.resources/fn_variables_getint3.png "Ottieni numero intero3 - Icona"){width="200px"}
 
 
 
 Ottieni Integer3
 
-![Ottieni numero intero4 - Icona](../../../../assets/fn_variables_getint4.png "Ottieni numero intero4 - Icona"){width="200px"}
+![Ottieni numero intero4 - Icona](get-nodes.resources/fn_variables_getint4.png "Ottieni numero intero4 - Icona"){width="200px"}
 
 
 
@@ -142,13 +142,13 @@ Ottieni Integer4
 +++
 
 +++Altri
-![Ottieni booleano - Icona](../../../../assets/fn_variables_getboolean.png "Ottieni booleano - Icona"){width="200px"}
+![Ottieni booleano - Icona](get-nodes.resources/fn_variables_getboolean.png "Ottieni booleano - Icona"){width="200px"}
 
 
 
 Ottieni booleano
 
-![Ottieni stringa - Icona](../../../../assets/fn_variables_getstring.png "Ottieni stringa - Icona"){width="200px"}
+![Ottieni stringa - Icona](get-nodes.resources/fn_variables_getstring.png "Ottieni stringa - Icona"){width="200px"}
 
 
 
@@ -162,7 +162,7 @@ Ottieni stringa
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Imposta: icona nodo](../../../../assets/fn_variables_set.png "Imposta: icona nodo"){width="200px"}
+![Imposta: icona nodo](get-nodes.resources/fn_variables_set.png "Imposta: icona nodo"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -179,7 +179,7 @@ Testo
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![È definito: icona nodo](../../../../assets/fn_variables_isdefined.png "È definito: icona nodo"){width="200px"}
+![È definito: icona nodo](get-nodes.resources/fn_variables_isdefined.png "È definito: icona nodo"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
