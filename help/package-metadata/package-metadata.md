@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/package-metadata.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/package-metadata.html"
 breadcrumb-title: ''
 description: Scopri come creare e gestire i metadati dei pacchetti in Substance 3D Designer per le librerie di risorse organizzate.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Metadati pacchetto
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ea2e2d76d225a0e17c84c3312934f62aa5ef3915
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 0%
@@ -28,34 +28,34 @@ Se state sviluppando un plug-in Python, potete modificare manualmente i metadati
 
 1. Se fai doppio clic su un pacchetto nell&#39;esploratore, si apre il pannello Proprietà su questo pacchetto.
 
-   ![Metadati pacchetto](../assets/empty.png "Metadati pacchetto")
+   ![Metadati pacchetto](package-metadata.resources/empty.png "Metadati pacchetto")
 1. Ecco una sezione dedicata, &quot;Metadati&quot;. Nel tuo caso potrebbe essere vuoto, come nell’immagine precedente.
 
    Potete aggiungere nuovi metadati mediante il pulsante &quot;più&quot;.
 
-   ![Pulsante Aggiungi metadati](../assets/hoveradd.png "Pulsante Aggiungi metadati")
+   ![Pulsante Aggiungi metadati](package-metadata.resources/hoveradd.png "Pulsante Aggiungi metadati")
 1. Viene visualizzato un nuovo elemento nella sezione:
 
-   ![Nuovi metadati](../assets/newitem-1.png "Nuovi metadati")
+   ![Nuovi metadati](package-metadata.resources/newitem-1.png "Nuovi metadati")
 1. Sono disponibili i campi &quot;Chiave&quot; e &quot;Valore&quot;. Entrambi possono essere impostati su qualsiasi cosa si adatti alle vostre esigenze. Il campo &quot;Chiave&quot; deve avere un valore univoco in tutto l’elenco.
 
-   ![Nuovo valore metadati](../assets/newitemfilled.png "Nuovo valore metadati")
+   ![Nuovo valore metadati](package-metadata.resources/newitemfilled.png "Nuovo valore metadati")
 1. Potete anche scegliere il &quot;Tipo&quot; dell&#39;elemento. Al momento può essere &quot;String&quot; o &quot;URL&quot;:
 
-   ![Modifica tipo metadati](../assets/typecombo.png "Modifica tipo metadati")
+   ![Modifica tipo metadati](package-metadata.resources/typecombo.png "Modifica tipo metadati")
 1. Qui &quot;URL&quot; indica un riferimento a una risorsa inclusa nel pacchetto. A tale scopo, scegli un file sul disco rigido e trascinalo sul pacchetto in Esplora risorse. Può essere una risorsa normale, come un&#39;immagine, o qualsiasi altro file, come un file di testo.
 
-   ![Risorsa generica nel pacchetto](../assets/resourceinpackage.png "Risorsa generica nel pacchetto")
+   ![Risorsa generica nel pacchetto](package-metadata.resources/resourceinpackage.png "Risorsa generica nel pacchetto")
 1. Il file viene visualizzato come nuova risorsa nel pacchetto.
 
    Ora torna al pannello Proprietà del pacchetto, crea un nuovo metadati, assegnagli una chiave appropriata e scegli &quot;URL&quot; come tipo. Quindi seleziona &quot;...&quot; nel campo &quot;Valore&quot; e scegliere &quot;Da risorsa&quot;. Infine, scegli il file appena incluso e convalidalo:
 
-   ![Metadati URL](../assets/urlmetadata.gif "Metadati URL")
+   ![Metadati URL](package-metadata.resources/urlmetadata.gif "Metadati URL")
 1. Ora puoi vedere che l&#39;&quot;URL&quot; della risorsa è memorizzato nel campo &quot;Valore&quot;.
 
    Puoi anche eliminare i metadati utilizzando il pulsante &quot;X&quot; a destra dell’elemento:
 
-   ![Eliminare i metadati](../assets/hoverdelete.png "Eliminare i metadati")
+   ![Eliminare i metadati](package-metadata.resources/hoverdelete.png "Eliminare i metadati")
 
 >[!NOTE]
 >
@@ -63,7 +63,7 @@ Se state sviluppando un plug-in Python, potete modificare manualmente i metadati
 
 ## Metadati nei file SBSAR pubblicati
 
-In alcuni casi, potrebbe essere necessario recuperare i metadati definiti in un pacchetto nel SBSAR pubblicato corrispondente. Di seguito potete leggere come i metadati vengono Trasforma e archiviati nell&#39;archivio e il modo corretto per sfruttarli.
+In alcuni casi, potrebbe essere necessario recuperare i metadati definiti in un pacchetto nel SBSAR pubblicato corrispondente. Di seguito potete leggere come i metadati vengono trasformati e archiviati nell&#39;archivio e il modo corretto per sfruttarli.
 
 I metadati vengono memorizzati in base al formato JSON in un file denominato /assemblies/content/0000/metadata.json (il percorso è relativo alla cartella principale dell&#39;archivio .sbsar).
 

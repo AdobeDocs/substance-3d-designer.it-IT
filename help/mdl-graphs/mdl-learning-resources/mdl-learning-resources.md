@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Risorse di apprendimento MDL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ea2e2d76d225a0e17c84c3312934f62aa5ef3915
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Il nostro sito Web [Substance 3D Tutorials](https://www.adobe.com/learn/substanc
 </td>
 <td style="border: 0;" valign="top">
 
-[![Materiale malachite MDL](../../assets/mdl-malachite-example.jpg)](https://substance3d.adobe.com/tutorials/courses/mdl-malachite-material-breakdown)
+[![Materiale malachite MDL](mdl-learning-resources.resources/mdl-malachite-example.jpg)](https://substance3d.adobe.com/tutorials/courses/mdl-malachite-material-breakdown)
 
 *Fare clic sull&#39;immagine per accedere all&#39;esercitazione*
 

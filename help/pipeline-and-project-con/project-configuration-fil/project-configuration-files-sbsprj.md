@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
 breadcrumb-title: ''
 description: Scopri come utilizzare i file di configurazione del progetto SBSPRJ in Substance 3D Designer per gestire le impostazioni del progetto.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: File di configurazione del progetto - SBSPRJ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ea2e2d76d225a0e17c84c3312934f62aa5ef3915
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Sono speciali in quanto consentono di utilizzare più file di configurazione del
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Icona file SBSPRJ](../../assets/sbsprj.png "Icona file SBSPRJ")
+![Icona file SBSPRJ](project-configuration-files-sbsprj.resources/sbsprj.png "Icona file SBSPRJ")
 
 </td>
 </tr>
@@ -85,7 +85,7 @@ Per Windows, [Blocco note++](https://notepad-plus-plus.org) è una buona opzione
 
 Una volta aperto il file SBSPRJ in un editor, dovresti vedere un layout strutturato abbastanza semplice, con sezioni corrispondenti alle schede nell&#39;interfaccia utente. Non tutte le impostazioni saranno documentate qui, poiché è abbastanza autoesplicativo.
 
-![Modifica XML](../../assets/project-xml.png "Modifica XML")
+![Modifica XML](project-configuration-files-sbsprj.resources/project-xml.png "Modifica XML")
 
 ## Percorsi e alias relativi
 
@@ -104,7 +104,7 @@ Un <b>alias</b> è una parola chiave che sostituisce (parte di) un percorso. È 
 > | <b>sbs</b> | *C:\Program Files\Adobe\Adobe Substance 3D Designer\resources\packages* |
 > | <b>personalizzato</b> | *D:\Dev\CustomProject\Substance* |
 > 
-> Per impostazione predefinita, la libreria predefinita si trova in *C:\Program Files\Adobe\Adobe Substance 3D Designer\resources\packages* e tutti i grafici che utilizzano il contenuto predefinito fanno riferimento a questa directory. Anziché fare riferimento al percorso completo, è definito un alias di &#39;<b>SBS</b>&#39; (senza virgolette). Nel caso di una libreria predefinita, il valore esatto del percorso SBS viene impostato al momento dell&#39;installazione nella directory scelta dall&#39;utente per Designer.
+> Per impostazione predefinita, la libreria predefinita si trova in *C:\Program Files\Adobe\Adobe Substance 3D Designer\resources\packages* e tutti i grafici che utilizzano il contenuto predefinito fanno riferimento a questa directory. Anziché fare riferimento al percorso completo, è definito un alias di &#39;<b>SBS</b>&#39; (senza virgolette). Nel caso di una libreria predefinita, il valore esatto del percorso SBS viene impostato al momento dell&#39;installazione sulla directory scelta dall&#39;utente per Designer.
 > 
 > Internamente, un riferimento viene modificato nel modo seguente, quando contiene un percorso con un alias:
 > 
