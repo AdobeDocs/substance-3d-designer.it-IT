@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/moisture-noise.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/moisture-noise.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Disturbo umidità per generare pattern di umidità e condensazione per creare effetti di superficie bagnata.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Rumore di umidità 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
+source-git-commit: 5a6c28b9acabf15714a1fd8bb4e7593192555fa2
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Disturbo umidità 1 - Icona](../../../../../../assets/moisture_noise_1.png "Disturbo umidità 1 - Icona"){width="200px"}
+![Disturbo umidità 1 - Icona](moisture-noise.resources/moisture_noise_1.png "Disturbo umidità 1 - Icona"){width="200px"}
 
 <b>Ingresso:</b> Generatori di texture > Rumori
 
@@ -75,12 +75,12 @@ Vedere anche: [Rumore di umidità 2](../../../../../../compositing-graphs/nodes-
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Rumore di umidità 1 - Esempio 1](../../../../../../assets/moisture_noise_1_1.png "Rumore di umidità 1 - Esempio 1"){zoomable="yes"}
+![Rumore di umidità 1 - Esempio 1](moisture-noise.resources/moisture_noise_1_1.png "Rumore di umidità 1 - Esempio 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Rumore di umidità 1 - Esempio 2](../../../../../../assets/noise_moisture_noise_1_v2_speed0.6_aniso0.gif "Rumore di umidità 1 - Esempio 2"){zoomable="yes"}
+![Rumore di umidità 1 - Esempio 2](moisture-noise.resources/noise_moisture_noise_1_v2_speed0.6_aniso0.gif "Rumore di umidità 1 - Esempio 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -90,12 +90,12 @@ Vedere anche: [Rumore di umidità 2](../../../../../../compositing-graphs/nodes-
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Rumore di umidità 1 - Esempio 3](../../../../../../assets/noise_moisture_noise_1_v2_speed0.6_aniso1.gif "Rumore di umidità 1 - Esempio 3"){zoomable="yes"}
+![Rumore di umidità 1 - Esempio 3](moisture-noise.resources/noise_moisture_noise_1_v2_speed0.6_aniso1.gif "Rumore di umidità 1 - Esempio 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Rumore di umidità 1 - Esempio 4](../../../../../../assets/noise_moisture_noise_1_v2_speed0.3_aniso0.6.gif "Rumore di umidità 1 - Esempio 4"){zoomable="yes"}
+![Rumore di umidità 1 - Esempio 4](moisture-noise.resources/noise_moisture_noise_1_v2_speed0.3_aniso0.6.gif "Rumore di umidità 1 - Esempio 4"){zoomable="yes"}
 
 </td>
 </tr>
