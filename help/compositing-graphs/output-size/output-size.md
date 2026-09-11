@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/output-size.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/output-size.html"
 breadcrumb-title: ''
 description: Configura le impostazioni delle dimensioni di output per Substance grafici di composizione per controllare la risoluzione e la qualità delle texture.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Dimensioni output
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 46563ec789547cc1add76655dbad02f5099927a6
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 5%
@@ -28,7 +28,7 @@ Si tratta del primo dei <b>parametri di base</b> di un grafico e, insieme al <b>
 
 >[!NOTE]
 >
-> Utilizza il pulsante di blocco ![](../../assets/props-output-size-lock.jpg) per fare in modo che il valore Height *corrisponda* al valore della larghezza.
+> Utilizza il pulsante di blocco ![](output-size.resources/props-output-size-lock.jpg) per fare in modo che il valore Height *corrisponda* al valore della larghezza.
 
 <table>
 <tr style="border: 0;">
@@ -98,16 +98,16 @@ Nella maggior parte dei casi, il [metodo di ereditarietà](../../compositing-gra
 
 Visualizzare le proprietà di un nodo o di un grafico facendo clic sull&#39;elemento, quindi nel pannello [Proprietà](../../interface/properties/properties.md) individuare la proprietà <b>Dimensione output</b> nella sezione <b>Parametri di base</b>. Fare clic sul menu a discesa del metodo di ereditarietà per selezionare il metodo di ereditarietà desiderato.
 
-![Metodo di ereditarietà delle dimensioni di output](../../assets/change-mode.gif "Metodo di ereditarietà delle dimensioni di output"){width="512px"}
+![Metodo di ereditarietà delle dimensioni di output](output-size.resources/change-mode.gif "Metodo di ereditarietà delle dimensioni di output"){width="512px"}
 
 ## Problemi di esempio
 
-Se sei un nuovo utente di [Adobe Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html), potresti riscontrare alcuni problemi comuni. Di seguito sono riportati alcuni esempi e alcune soluzioni.
+Se sei un nuovo utente di [Adobe Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html), potresti riscontrare alcuni problemi comuni. Di seguito sono riportati alcuni esempi e alcune soluzioni.
 
 +++Problema 1
-**![(errore)](../../assets/error.svg) Problema**
+**![(errore)](output-size.resources/error.svg) Problema**
 
-![Esempio di problema 1](../../assets/problem2-bad.png "Esempio di problema 1")
+![Esempio di problema 1](output-size.resources/problem2-bad.png "Esempio di problema 1")
 
 
 
@@ -115,9 +115,9 @@ L&#39;impostazione **Dimensione principale** è *disattivata* e il grafico utili
 
 Nelle proprietà del grafico, il metodo di ereditarietà della proprietà Dimensione output è stato impostato su *Assoluto*, che interrompe l&#39;ereditarietà a favore di un valore arbitrario.
 
-**![(tick)](../../assets/check.svg) Soluzione**
+**![(tick)](output-size.resources/check.svg) Soluzione**
 
-![Esempio di problema 1 Soluzione](../../assets/problem2-good.png "Esempio di problema 1 Soluzione")
+![Esempio di problema 1 Soluzione](output-size.resources/problem2-good.png "Esempio di problema 1 Soluzione")
 
 
 
@@ -126,9 +126,9 @@ Imposta il metodo di ereditarietà per le dimensioni di output del grafico su *R
 +++
 
 +++Problema 2
-**![(errore)](../../assets/error.svg) Problema**
+**![(errore)](output-size.resources/error.svg) Problema**
 
-![Esempio di problema 2](../../assets/problem1-bad.png "Esempio di problema 2")
+![Esempio di problema 2](output-size.resources/problem1-bad.png "Esempio di problema 2")
 
 
 
@@ -136,9 +136,9 @@ Sopra si vede un caso in cui l&#39;output di un grafico risulta in una risoluzio
 
 Il problema deriva dal nodo [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md). Per impostazione predefinita, viene utilizzato il metodo di ereditarietà *Assoluto* e selezionato 512\*512 come risoluzione basata sulla [risorsa Bitmap](../../resources/bitmap-resource/bitmap-resource.md). Il nodo connesso è impostato su *Rispetto all&#39;input*, quindi eredita le dimensioni di output dal nodo Bitmap.
 
-**![(tick)](../../assets/check.svg) Soluzione**
+**![(tick)](output-size.resources/check.svg) Soluzione**
 
-![Esempio di problema 2 Soluzione](../../assets/problem1-good.png "Esempio di problema 2 Soluzione")
+![Esempio di problema 2 Soluzione](output-size.resources/problem1-good.png "Esempio di problema 2 Soluzione")
 
 
 
@@ -147,9 +147,9 @@ Impostate il metodo di ereditarietà delle dimensioni di output del nodo Bitmap 
 +++
 
 +++Problema 3
-**![(errore)](../../assets/error.svg) Problema**
+**![(errore)](output-size.resources/error.svg) Problema**
 
-![Esempio di problema 3](../../assets/problem3-bad.png "Esempio di problema 3")
+![Esempio di problema 3](output-size.resources/problem3-bad.png "Esempio di problema 3")
 
 
 
@@ -157,9 +157,9 @@ Sopra vedete un problema in cui la risoluzione salta molto più in alto a metà 
 
 Il problema è causato da un modificatore relativo di 3 sul nodo [Trasformazione 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md), che rende l&#39;output 8 volte più grande.
 
-**![(tick)](../../assets/check.svg) Soluzione**
+**![(tick)](output-size.resources/check.svg) Soluzione**
 
-![Esempio di problema 3 Soluzione](../../assets/problem3-good.png "Esempio di problema 3 Soluzione")
+![Esempio di problema 3 Soluzione](output-size.resources/problem3-good.png "Esempio di problema 3 Soluzione")
 
 
 
