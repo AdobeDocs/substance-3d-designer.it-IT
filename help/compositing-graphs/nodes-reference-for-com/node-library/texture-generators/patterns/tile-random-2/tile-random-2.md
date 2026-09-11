@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-random-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-random-2.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Tile Random 2 per creare pattern di riquadri casuali con controlli di variazione avanzati in Substance 3D Designer.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Affianca casuale 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: b63bc7a45aa6eadef1b72eb05d4a6aded05866a8
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/tilerandom2.jpg){width="200px"}
+![](tile-random-2.resources/tilerandom2.jpg){width="200px"}
 
 <b>Ingresso:</b> Generatori Texture > Pattern
 
@@ -95,8 +95,8 @@ Un output dedicato consente di immettere i **UV** della forma in **Flood Fill a 
 | <b>Mult mappa input distanza smussata</b> <i>Mobile</i> | Regola la distanza di smussatura utilizzando la mappa di input <b>Mappa di distanza smussata</b> come moltiplicatore <i>per pixel</i>. |
 | <b>Curva arrotondata in rilievo</b> <i>Mobile</i> | Regola l&#39;intensità dell&#39;arrotondamento applicato all&#39;angolo di smussatura per renderla più <i>convessa</i>. |
 | <b>Abilita controllo smusso per asse</b> <i>Booleano</i> | Se <i>è True</i>, è possibile applicare la smussatura e regolarla <i>separatamente</i> sugli assi <b>X</b> e <b>Y</b>.<br><br><i>Nota</i>: questa operazione <i>annulla</i> l&#39;effetto <b>Angoli arrotondati</b>. |
-| <b>Distanza Smussata X</b> <i>Virgola mobile</i> | Regola la distanza di smussatura sull&#39;asse <b>X</b> <i>only</i>. Questa distanza dipende dal valore del parametro <b>Modalità distanza smussata</b>.<br><br><i>Nota</i>: questo parametro è disponibile solo quando il parametro <b>Abilita controllo smussato per asse</b> è impostato su <i>True</i>. |
-| <b>Distanza smussata Y</b> <i>Virgola mobile</i> | Regola la distanza di smussatura sull&#39;asse <b>Y</b> <i>only</i>. Questa distanza dipende dal valore del parametro <b>Modalità distanza smussata</b>.<br><br><i>Nota</i>: questo parametro è disponibile solo quando il parametro <b>Abilita controllo smussato per asse</b> è impostato su <i>True</i>. |
+| <b>Distanza Smussata X</b> <i>Mobile</i> | Regola la distanza di smussatura sull&#39;asse <b>X</b> <i>only</i>. Questa distanza dipende dal valore del parametro <b>Modalità distanza smussata</b>.<br><br><i>Nota</i>: questo parametro è disponibile solo quando il parametro <b>Abilita controllo smussato per asse</b> è impostato su <i>True</i>. |
+| <b>Distanza smussata Y</b> <i>Mobile</i> | Regola la distanza di smussatura sull&#39;asse <b>Y</b> <i>only</i>. Questa distanza dipende dal valore del parametro <b>Modalità distanza smussata</b>.<br><br><i>Nota</i>: questo parametro è disponibile solo quando il parametro <b>Abilita controllo smussato per asse</b> è impostato su <i>True</i>. |
 | <b>Maschera</b> |  |
 | <b>Inversione casuale maschera</b> <i>Booleano</i> | Inverte la maschera casuale delle forme. |
 | <b>Inizio casuale maschera</b> <i>Mobile</i> | Per un dato <b>Numero casuale</b>, la mascheratura pseudo-casuale viene applicata seguendo un <i>ordine specifico</i> da una forma iniziale a una forma finale. Questo parametro consente di <i>scostare l&#39;indice</i> della forma <i>start</i>.<br><br><i>Nota</i>: determina un limite di un <i>intervallo di valori</i> per la mascheratura. Il valore può quindi essere <i>maggiore</i> del valore <b>Fine casuale maschera</b>. |
@@ -113,25 +113,25 @@ Un output dedicato consente di immettere i **UV** della forma in **Flood Fill a 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/tilerandom2-variant.jpg" />
+            <img src="tile-random-2.resources/tilerandom2-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/tilerandom2-variant2.jpg" />
+            <img src="tile-random-2.resources/tilerandom2-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/tilerandom2-variant3.jpg" />
+            <img src="tile-random-2.resources/tilerandom2-variant3.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/tilerandom2-inputs.gif" />
+            <img src="tile-random-2.resources/tilerandom2-inputs.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/tilerandom2-demo.gif" />
+            <img src="tile-random-2.resources/tilerandom2-demo.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/tilerandom2-demo2.gif" />
+            <img src="tile-random-2.resources/tilerandom2-demo2.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/tilerandom2-node.png" />
+            <img src="tile-random-2.resources/tilerandom2-node.png" />
         </td>
     </tr>
 </table>
