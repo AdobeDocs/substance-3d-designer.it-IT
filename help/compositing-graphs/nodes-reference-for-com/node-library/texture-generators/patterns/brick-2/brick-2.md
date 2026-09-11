@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/brick-2.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/brick-2.html"
 breadcrumb-title: ''
 description: Utilizzate il nodo Mattone 2 per generare pattern di mattoni avanzati con controlli avanzati per creare texture di muratura realistiche.
 helpx_creative_field: ""
