@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/output-size.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/output-size.html"
 breadcrumb-title: ''
 description: Configura le impostazioni delle dimensioni di output per Substance grafici di composizione per controllare la risoluzione e la qualità delle texture.
 helpx_creative_field: ""
@@ -102,7 +102,7 @@ Visualizzare le proprietà di un nodo o di un grafico facendo clic sull&#39;elem
 
 ## Problemi di esempio
 
-Se sei un nuovo utente di [Adobe Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html), potresti riscontrare alcuni problemi comuni. Di seguito sono riportati alcuni esempi e alcune soluzioni.
+Se sei un nuovo utente di [Adobe Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html), potresti riscontrare alcuni problemi comuni. Di seguito sono riportati alcuni esempi e alcune soluzioni.
 
 +++Problema 1
 **![(errore)](output-size.resources/error.svg) Problema**

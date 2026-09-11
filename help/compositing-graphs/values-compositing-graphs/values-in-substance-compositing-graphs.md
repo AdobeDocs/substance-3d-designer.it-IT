@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/values-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/values-in-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Scoprite i tipi di valore e la gestione dei dati nei grafici di composizione delle Substance per una creazione efficace dei materiali.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 # Valori nei grafici Substance
 
-Dopo l&#39;introduzione del motore [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) v7 nella versione 2019.1.0, è ora possibile elaborare i valori nel grafico della Substance e[non solo nelle funzioni](../../function-graphs/function-graphs.md). I dati dei valori sono gli stessi dati utilizzati nelle funzioni (tra cui valori interi, mobili e booleani) e sono quindi nettamente diversi dai dati dell’immagine a colori o in scala di grigi, che rappresentano i valori dei pixel di un’intera immagine. In particolare, quando si menzionano i dati Valori, ciò significa *Intero 1, Intero 2, Intero 3 e Intero 4, Float 1, Float 2, Float 3 e Float 4 e Booleano*. Ognuno di essi ha una codifica a colori distinta e nella maggior parte dei casi non è interscambiato tra loro.
+Dopo l&#39;introduzione del motore [Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html) v7 nella versione 2019.1.0, è ora possibile elaborare i valori nel grafico della Substance e[non solo nelle funzioni](../../function-graphs/function-graphs.md). I dati dei valori sono gli stessi dati utilizzati nelle funzioni (tra cui valori interi, mobili e booleani) e sono quindi nettamente diversi dai dati dell’immagine a colori o in scala di grigi, che rappresentano i valori dei pixel di un’intera immagine. In particolare, quando si menzionano i dati Valori, ciò significa *Intero 1, Intero 2, Intero 3 e Intero 4, Float 1, Float 2, Float 3 e Float 4 e Booleano*. Ognuno di essi ha una codifica a colori distinta e nella maggior parte dei casi non è interscambiato tra loro.
 
 Sono disponibili alcuni casi di utilizzo, ad esempio:
 
