@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-random/hash-functions.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-random/hash-functions.html"
 breadcrumb-title: ''
 description: Usa le funzioni hash nei grafici delle funzioni per generare valori casuali deterministici basati sulle coordinate di input.
 helpx_creative_field: ""
