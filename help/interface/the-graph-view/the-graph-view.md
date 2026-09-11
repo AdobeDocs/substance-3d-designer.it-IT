@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/the-graph-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view.html"
 breadcrumb-title: ''
 description: Scoprite come utilizzare la vista del grafico in Substance 3D Designer per creare e modificare grafici dei materiali basati su nodi.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Vista Grafico
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 4b938349fed501f5f6b3e3a70a1006519749e4e1
 workflow-type: tm+mt
 source-wordcount: '3558'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Questa pagina presenta il dock della vista Grafico di Substance 3D Designer.
 
-La vista grafico è la finestra principale di [Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html), in cui puoi creare e modificare i tuoi grafici. La vista del grafico ha due aree principali: una barra degli strumenti nella parte superiore, che fornisce un accesso rapido a determinate funzioni, e l&#39;area del grafico effettiva in cui vengono posizionati i nodi.
+La vista grafico è la finestra principale di [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html), in cui puoi creare e modificare i tuoi grafici. La vista del grafico ha due aree principali: una barra degli strumenti nella parte superiore, che fornisce un accesso rapido a determinate funzioni, e l&#39;area del grafico effettiva in cui vengono posizionati i nodi.
 
 La vista grafico viene utilizzata per tutti i tipi di grafico, ma differisce leggermente tra [grafici a Substance](../../compositing-graphs/substance-compositing-graphs.md), [grafici a funzione](../../function-graphs/function-graphs.md) e [grafici FX-Map](../../function-graphs/fxmaps/fxmaps.md), principalmente nell&#39;area della barra degli strumenti.
 
@@ -49,7 +49,7 @@ Utilizzo di un trackpad (solo macOS)
 > 
 > La direzione dello zoom può essere invertita nelle [Preferenze](../../interface/preferences-window/preferences-window.md).
 
-![Navigazione viewport](../../assets/navigating.gif "Navigazione viewport")
+![Navigazione viewport](the-graph-view.resources/navigating.gif "Navigazione viewport")
 
 <b>focalizza</b> sui nodi selezionati o sull&#39;intero grafico se non è selezionato nulla, con il tasto F.
 
@@ -150,7 +150,7 @@ I nodi possono essere inseriti nei grafici in 5 modi, indipendentemente dal tipo
 * Premi <b>Barra spaziatrice</b> per accedere al <b>menu Nodo</b>. Vedi di seguito.
 * Utilizzo della scelta rapida da tastiera da tastiera associata a un nodo. Mapping eseguito nella [finestra Preferenze](../../interface/preferences-window/preferences-window.md).
 
-![Inserimento di nodi](../../assets/nodecreation.gif "Inserimento di nodi")
+![Inserimento di nodi](the-graph-view.resources/nodecreation.gif "Inserimento di nodi")
 
 Se viene inserito un nodo quando viene selezionato un altro nodo, Designer tenterà di connettere automaticamente il nuovo nodo al nodo precedente.\
 Questa connessione automatica posiziona sempre il nuovo nodo *dopo* quello precedente nel flusso.
@@ -180,7 +180,7 @@ Ad esempio, solo i nodi con un [Input primario](../../compositing-graphs/inherit
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Visualizzazione grafico: menu Nodo](../../assets/graph-node-menu_fuzzy-search.png "Visualizzazione grafico: menu Nodo")
+![Visualizzazione grafico: menu Nodo](the-graph-view.resources/graph-node-menu_fuzzy-search.png "Visualizzazione grafico: menu Nodo")
 
 </td>
 </tr>
@@ -199,7 +199,7 @@ Per selezionare *più* nodi, sono disponibili diversi metodi:
 * <b>Upstream:</b> Fare clic su RMB su un nodo e selezionare l&#39;opzione <b>Seleziona nodi upstream</b>: il nodo e tutti i nodi che fanno parte dei flussi connessi ai *input* del nodo sono selezionati;
 * <b>Downstream:</b> Fare clic su RMB su un nodo e selezionare l&#39;opzione <b>Seleziona nodi downstream</b>: il nodo e tutti i nodi che fanno parte dei flussi connessi agli *output* del nodo sono selezionati.
 
-![Selezione dei nodi](../../assets/graph-selecting-nodes.gif "Selezione dei nodi")
+![Selezione dei nodi](the-graph-view.resources/graph-selecting-nodes.gif "Selezione dei nodi")
 
 ### Menu contestuale nodo
 
@@ -268,7 +268,7 @@ Il *connettore di output* di un nodo A può essere connesso al *connettore di in
 > * per un connettore *input*: il nodo torna a un valore predefinito impostato per tale input;
 > * per un connettore *output*: i dati vengono ignorati e scartati durante l&#39;elaborazione del grafico.
 
-![Connessione dei nodi](../../assets/links.gif "Connessione dei nodi")
+![Connessione dei nodi](the-graph-view.resources/links.gif "Connessione dei nodi")
 
 Puoi <b>creare</b> un nuovo collegamento facendo clic su LMB su ciascuno di questi connettori, in *qualsiasi ordine*.\
 Inoltre, se viene creato un nodo B mentre è selezionato un nodo A, il *primo output* del nodo A verrà automaticamente connesso all&#39;*input primario* del nodo B.
@@ -291,7 +291,7 @@ I nodi possono essere disattivati in modo che non abbiano *alcun effetto* nel gr
 
 I nodi disabilitati hanno il seguente comportamento:
 
-* Vengono visualizzati con il badge ![](../../assets/graph-badge-disabled.png) <b>Disattivato</b>*,* una *struttura tratteggiata* e un collegamento interno *reindirizzamento* anziché una miniatura;
+* Vengono visualizzati con il badge ![](the-graph-view.resources/graph-badge-disabled.png) <b>Disattivato</b>*,* una *struttura tratteggiata* e un collegamento interno *reindirizzamento* anziché una miniatura;
 * I nodi eseguiranno l&#39;output dei dati ricevuti nell&#39;*input principale*;
 * I nodi disabilitati possono essere *concatenati* insieme;
 * Le proprietà e le connessioni sono *non modificate*;
@@ -309,7 +309,7 @@ I nodi disabilitati hanno il seguente comportamento:
 > * I *tipi* dell&#39;input principale e dell&#39;output devono *corrispondere*, ovvero da scala di grigi a scala di grigi, da colore a colore
 > * Tutti i nodi selezionati devono avere lo *stesso stato*, ovvero tutti devono essere abilitati e per abilitarli vale la stessa regola
 
-![Disabilitazione dei nodi](../../assets/graph-disable-node.gif "Disabilitazione dei nodi"){width="512px"}
+![Disabilitazione dei nodi](the-graph-view.resources/graph-disable-node.gif "Disabilitazione dei nodi"){width="512px"}
 
 ## Interazione con la vista 2D
 
@@ -317,9 +317,9 @@ I nodi disabilitati hanno il seguente comportamento:
 >
 > Questo vale solo per [grafici Substance](../../compositing-graphs/substance-compositing-graphs.md).
 
-Per visualizzare l&#39;output di un nodo nella [vista 2D](../../interface/2d-view/2d-view.md), fare doppio clic su LMB su un nodo o su RMB sul nodo e selezionare l&#39;opzione [Visualizza output nella vista 2D](#interacting-with-the-2d-view) nel menu di scelta rapida. Se il nodo dispone di più output, selezionare l&#39;output desiderato nel sottomenu.
+Per visualizzare l&#39;output di un nodo in [Vista 2D](../../interface/2d-view/2d-view.md), fare doppio clic su LMB su un nodo oppure fare clic su RMB sul nodo e selezionare l&#39;opzione [Visualizza output in Vista 2D](#interacting-with-the-2d-view) nel menu di scelta rapida. Se il nodo dispone di più output, selezionare l&#39;output desiderato nel sottomenu.
 
-Potete visualizzare qualsiasi output del grafico nella vista 2D facendo clic su RMB in un&#39;area vuota della [vista Grafico](https://substance3d.adobe.com/) e selezionando l&#39;opzione [Visualizza output nella vista 2D](#interacting-with-the-2d-view) nel menu di scelta rapida. Se il grafico ha più di un output, selezionate l’output desiderato nel sottomenu.
+È possibile visualizzare qualsiasi output del grafico nel Vista 2D facendo clic su RMB in un&#39;area vuota nella [visualizzazione Grafico](https://substance3d.adobe.com/) e selezionando l&#39;opzione [Visualizza output in Vista 2D](#interacting-with-the-2d-view) nel menu di scelta rapida. Se il grafico ha più di un output, selezionate l’output desiderato nel sottomenu.
 
 ## Interazione con la vista 3D
 
@@ -341,78 +341,78 @@ Per applicare l&#39;output di un nodo nella [vista 3D](../../interface/3d-view/3
 
 La barra degli strumenti principale si trova in ogni tipo di grafico e fornisce funzioni generali, nonché interruttori per la visibilità delle altre barre degli strumenti. Sono disponibili le seguenti funzioni:
 
-![](../../assets/image2020-6-26-16-25-57.png) <b>Selezione elemento attivo</b> (F)\
+![](the-graph-view.resources/image2020-6-26-16-25-57.png) <b>Selezione elemento attivo</b> (F)\
 Attiva la vista sulla selezione o l’intera scena se la selezione è vuota.
 
-![](../../assets/image2020-6-26-16-26-8.png) <b>Ripristina zoom</b> (Z)\
+![](the-graph-view.resources/image2020-6-26-16-26-8.png) <b>Ripristina zoom</b> (Z)\
 Ripristina lo stato predefinito del livello di zoom corrente e centra la vista al centro del grafico. Può voler dire ingrandire o ridurre la visualizzazione.
 
-![](../../assets/image2020-6-26-16-26-26.png) <b>Esporta visualizzazione grafico\
+![](the-graph-view.resources/image2020-6-26-16-26-26.png) <b>Esporta visualizzazione grafico\
 </b>Esporta l&#39;intero grafico con una risoluzione 1:1 come immagine. Utile per condividere uno screenshot dell&#39;intero grafico.
 
-![](../../assets/image2020-6-26-16-26-37.png) <b>Informazioni sul nodo\
+![](the-graph-view.resources/image2020-6-26-16-26-37.png) <b>Informazioni sul nodo\
 </b>*- Visualizza nome connettore:* Attiva/disattiva la visualizzazione del nome di ogni singolo connettore su un nodo.\
 *- Visualizza i badge del nodo:* Attiva/disattiva i badge del nodo in tutti i nodi.\
 *- Visualizza dimensioni nodo:* Attiva/disattiva la visualizzazione della risoluzione del nodo ([Substance grafico](../../compositing-graphs/substance-compositing-graphs.md)).\
 *- Intervalli visualizzazione:* Attiva/disattiva la visualizzazione degli intervalli di millisecondi per ogni nodo ([Substance grafico](../../compositing-graphs/substance-compositing-graphs.md)).\
 *- Limitare il ridimensionamento del testo quando si esegue lo zoom out:* Mantiene il testo di [elementi del grafico](../../interface/the-graph-view/graph-items/graph-items.md) a dimensioni dello schermo costanti oltre la soglia di zoom, mantenendo il testo chiaramente visibile quando si esegue lo zoom out.
 
-Ricerca nodo ![](../../assets/image2020-6-26-16-26-52.png)<b></b> (CTRL+F)\
+Ricerca nodo ![](the-graph-view.resources/image2020-6-26-16-26-52.png)<b></b> (CTRL+F)\
 Consente a uno strumento di trovare nodi, parametri esposti e altre variabili nel grafico. Ulteriori informazioni nella [pagina dedicata](../../interface/the-graph-view/node-finder/node-finder.md).
 
-![](../../assets/image2020-6-26-16-27-43.png) <b>Flusso evidenziazione\
+![](the-graph-view.resources/image2020-6-26-16-27-43.png) <b>Flusso evidenziazione\
 </b>Evidenziare tutti i nodi connessi prima o dopo il nodo attualmente selezionato. Ideale per tracciare un percorso complesso di nodi.
 
-![](../../assets/image2020-6-26-16-28-30.png) <b>Palette dei nodi\
+![](the-graph-view.resources/image2020-6-26-16-28-30.png) <b>Palette dei nodi\
 </b>Mostra o nasconde la barra degli strumenti del nodo, vedere di seguito.
 
-![](../../assets/image2020-6-26-16-32-33.png) <b>Collegamenti rettangolari\
+![](the-graph-view.resources/image2020-6-26-16-32-33.png) <b>Collegamenti rettangolari\
 </b>Consente di passare da un nodo all&#39;altro con collegamenti arrotondati o rettangolari. Non disponibile per [FX-Maps.](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)
 
-![](../../assets/image2020-6-26-16-38-2.png) <b>Strumenti di allineamento dei nodi\
+![](the-graph-view.resources/image2020-6-26-16-38-2.png) <b>Strumenti di allineamento dei nodi\
 </b>Consente agli strumenti di disporre i nodi selezionati nel grafico. Ulteriori informazioni nella [pagina dedicata](../../interface/the-graph-view/node-alignment-tools/node-alignment-tools.md).
 
 Solo su [Substance grafici](../../compositing-graphs/substance-compositing-graphs.md):
 
-![](../../assets/image2020-6-26-16-29-6.png) <b>Dimensione padre\
+![](the-graph-view.resources/image2020-6-26-16-29-6.png) <b>Dimensione padre\
 </b>Attiva/disattiva la visualizzazione delle impostazioni del controllo Risoluzione principale, vedere di seguito.
 
-![](../../assets/image2020-6-26-16-31-15.png) <b>Modalità di creazione del collegamento</b> (1, 2, 3)\
+![](the-graph-view.resources/image2020-6-26-16-31-15.png) <b>Modalità di creazione del collegamento</b> (1, 2, 3)\
 Scegliere tra le modalità di creazione dei collegamenti Standard (1), Materiale (2) e Materiale compatto (3) per collegare i connettori dei nodi singolarmente o in batch. Ulteriori informazioni nella [pagina dedicata](../../interface/the-graph-view/link-creation-modes/link-creation-modes.md).
 
-![](../../assets/image2020-6-26-16-33-35.png) <b>Controllo intervalli\
+![](the-graph-view.resources/image2020-6-26-16-33-35.png) <b>Controllo intervalli\
 </b>Consente di reimpostare tutti i nodi e tutti gli intervalli.
 
-![](../../assets/image2020-6-26-16-34-12.png) <b>Strumenti\
+![](the-graph-view.resources/image2020-6-26-16-34-12.png) <b>Strumenti\
 </b>*- Pulizia:* Rimuove tutti i nodi che fanno parte di un flusso non connesso a un nodo [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).\
 *- Esporta output:* Apre l&#39;[interfaccia di esportazione bitmap](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md).\
 *- Esporta nuovamente gli output:* Esegue nuovamente l&#39;operazione di esportazione precedente.\
 *- PSD Exporter:* Apre l&#39;interfaccia [PSD Exporter](../../compositing-graphs/exporting-psd-files/exporting-psd-files.md).
 
-![](../../assets/image2020-6-26-16-37-16.png) <b>Cache immagini nodo\
+![](the-graph-view.resources/image2020-6-26-16-37-16.png) <b>Cache immagini nodo\
 </b>Attiva/disattiva la visualizzazione della cache delle immagini del nodo, vedere di seguito.
 
-![](../../assets/graph-cleaner.jpg) Rimozione dei nodi inutilizzati\
+![](the-graph-view.resources/graph-cleaner.jpg) Rimozione dei nodi inutilizzati\
 </b>Visualizza le opzioni per la rimozione dei nodi inutilizzati nei grafici, vedere di seguito.
 
 ### Palette dei nodi
 
 La barra degli strumenti del nodo varia a seconda del tipo di grafico:
 
-[![Palette dei nodi](../../assets/image2020-6-26-16-45-31.png)](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)<br>
+[![Palette dei nodi](the-graph-view.resources/image2020-6-26-16-45-31.png)](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)<br>
 <b>[Substance grafici](../../compositing-graphs/substance-compositing-graphs.md):</b> vedere [nodi atomici](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) e [elementi del grafico](../../interface/the-graph-view/graph-items/graph-items.md).
 
 
-![Tavolozza degli elementi del grafico](../../assets/image2020-6-26-16-46-32.png "Tavolozza degli elementi del grafico")<br>
+![Tavolozza degli elementi del grafico](the-graph-view.resources/image2020-6-26-16-46-32.png "Tavolozza degli elementi del grafico")<br>
 <b>[Substance grafici delle funzioni](../../function-graphs/function-graphs.md):</b> vedere [elementi del grafico](../../interface/the-graph-view/graph-items/graph-items.md).
 
 
-![Tavolozza FX-Map](../../assets/image2020-6-26-16-48-4.png "Tavolozza FX-Map")<br>
+![Tavolozza FX-Map](the-graph-view.resources/image2020-6-26-16-48-4.png "Tavolozza FX-Map")<br>
 <b>[Grafici FX-Map](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md):</b> vedi [elementi del grafico.](../../interface/the-graph-view/graph-items/graph-items.md)
 
 ### Dimensione principale
 
-![Barra degli strumenti dimensioni principale](../../assets/image2020-6-26-17-0-48.png "Barra degli strumenti dimensioni principale")
+![Barra degli strumenti dimensioni principale](the-graph-view.resources/image2020-6-26-17-0-48.png "Barra degli strumenti dimensioni principale")
 
 Questa barra degli strumenti è disponibile solo in [grafici a Substance](../../compositing-graphs/substance-compositing-graphs.md) e imposta la [dimensione di output](../../compositing-graphs/output-size/output-size.md) del *elemento padre* del grafico, che influisce sulla dimensione di output del grafico se utilizza il *metodo di ereditarietà [relativo al elemento padre*.](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)
 
@@ -420,7 +420,7 @@ Le dimensioni orizzontali e verticali sono collegate per impostazione predefinit
 
 ### Cache immagini nodo
 
-![Impostazione della cache delle immagini dei nodi](../../assets/graph-toolbar-node-cache.png "Impostazione della cache delle immagini dei nodi")
+![Impostazione della cache delle immagini dei nodi](the-graph-view.resources/graph-toolbar-node-cache.png "Impostazione della cache delle immagini dei nodi")
 
 Questa opzione consente di attivare o disattivare la cache per l&#39;elaborazione dei nodi in [Substance grafici](../../compositing-graphs/substance-compositing-graphs.md).
 
@@ -432,13 +432,13 @@ L’attivazione di questa opzione comporta un notevole incremento della reattivi
 
 ### Rimuovi nodi inutilizzati
 
-![Rimuovi i nodi inutilizzati dal menu a discesa](../../assets/graph-cleaner-menu.jpg "Rimuovi i nodi inutilizzati dal menu a discesa")
+![Rimuovi i nodi inutilizzati dal menu a discesa](the-graph-view.resources/graph-cleaner-menu.jpg "Rimuovi i nodi inutilizzati dal menu a discesa")
 
 Durante l&#39;iterazione nei grafici e la prova, alcuni nodi che non hanno alcun effetto sul risultato finale possono rimanere indietro. Questo aggiunge calcoli ingombranti e dispendiosi, poiché tutti i nodi vengono valutati nelle prime fasi del rendering dei grafici.
 
-Lo strumento ![](../../assets/graph-cleaner.jpg) Rimuovi nodi inutilizzati</b> elimina tutti i nodi che fanno parte *non* di un flusso che *termina in un nodo di output*. L&#39;unica eccezione è rappresentata dai nodi *input*, poiché l&#39;eliminazione di questi nodi modificherebbe l&#39;interfaccia dei [nodi di istanza](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) che fanno riferimento a questo grafico.
+Lo strumento ![](the-graph-view.resources/graph-cleaner.jpg) Rimuovi nodi inutilizzati</b> elimina tutti i nodi che fanno parte *non* di un flusso che *termina in un nodo di output*. L&#39;unica eccezione è rappresentata dai nodi *input*, poiché l&#39;eliminazione di questi nodi modificherebbe l&#39;interfaccia dei [nodi di istanza](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) che fanno riferimento a questo grafico.
 
-![Rimuovere i nodi inutilizzati](../../assets/graph-cleaner.gif "Rimuovere i nodi inutilizzati")
+![Rimuovere i nodi inutilizzati](the-graph-view.resources/graph-cleaner.gif "Rimuovere i nodi inutilizzati")
 
 La prima opzione applica la pulizia esclusivamente al grafico *corrente*.
 
