@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/3d-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view.html"
 breadcrumb-title: ''
 description: Utilizzate la vista 3D in Substance 3D Designer per visualizzare in anteprima i materiali sugli oggetti 3D e verificare le condizioni di illuminazione.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Visualizzazione 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: c7bf2522b15bef308d1471ca234c6619091f95fc
 workflow-type: tm+mt
 source-wordcount: '3514'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Visualizzazione 3D
 
-Il vista 3D consente di visualizzare e comprendere i materiali con trame personalizzate e materiali PBR renderizzati.<br>Analogamente a tutte le finestre di Substance 3D Designer, funziona insieme ad altre finestre tramite le opzioni del menu di scelta rapida e le operazioni di trascinamento.
+La vista 3D consente di visualizzare e comprendere i materiali con trame personalizzate e materiali PBR renderizzati.<br>Analogamente a tutte le finestre di Substance 3D Designer, funziona insieme ad altre finestre tramite le opzioni del menu di scelta rapida e le operazioni di trascinamento.
 
 La vista 3D fornisce anche due metodi principali per il rendering dei materiali nelle scene 3D:
 * Visualizzazione rapida in tempo reale con i moduli di rendering **Rasterizer** e **OpenGL**
@@ -38,11 +38,11 @@ Ulteriori informazioni qui: [moduli di rendering 3D](3d-renderers/3d-renderers.m
 
 In breve, la sezione seguente spiega come eseguire le azioni più comuni insieme a una gif animata per illustrare il processo.
 
-![Navigazione viewport](../../assets/3d-navigate.gif "Navigazione viewport")
+![Navigazione viewport](3d-view.resources/3d-navigate.gif "Navigazione viewport")
 
 ### Navigazione
 
-La vista 3D e l&#39;ambiente possono essere gestiti in tre modi:
+La videocamera e l’ambiente della vista 3D possono essere gestiti in tre modi:
 
 * <b>Orbita:</b> LMB+trascinamento
 * <b>Panning</b>: MMB+Drag/Ctrl+RMB+Drag
@@ -84,11 +84,11 @@ Potete interagire con le trame direttamente nella finestra della vista:
 
 <b>Premere Esc per deselezionare.</b> Non è necessario che il cursore si trovi sulla trama.
 
-![Vista 3D - Attiva e deseleziona](../../assets/sceneBrowser-focus.gif "Vista 3D - Attiva e deseleziona"){zoomable="yes"}
+![Vista 3D - Attiva e deseleziona](3d-view.resources/sceneBrowser-focus.gif "Vista 3D - Attiva e deseleziona"){zoomable="yes"}
 
 *Selezionare, attivare, deselezionare*
 
-![Visualizzazione 3D - Menu contestuale](../../assets/sceneBrowser-contextualMenu.gif "Visualizzazione 3D - Menu contestuale"){zoomable="yes"}
+![Visualizzazione 3D - Menu contestuale](3d-view.resources/sceneBrowser-contextualMenu.gif "Visualizzazione 3D - Menu contestuale"){zoomable="yes"}
 
 *Seleziona, menu di scelta rapida*
 
@@ -100,39 +100,39 @@ Potete interagire con le trame direttamente nella finestra della vista:
 
 Per impostazione predefinita, Designer funziona con l’illuminazione basata su immagini (IBL). Per eseguire il rendering dell’illuminazione ambientale viene utilizzata una bitmap a intervallo dinamico elevato.
 
-Potete ruotare l’ambiente attorno all’oggetto 3D oppure caricare ambienti con luci HDR predefiniti o personalizzati. Si prega di notare che le immagini dell&#39;HDR dovrebbero utilizzare una proiezione equirettangolare e avere una precisione di virgola mobile a 32 bit.
+Potete ruotare l’ambiente attorno all’oggetto 3D oppure caricare ambienti con luci HDR predefinite o personalizzate. Tieni presente che le immagini HDR devono utilizzare una proiezione equirettangolare e avere una precisione di virgola mobile a 32 bit.
 
 ⇧+RMB+Trascina <b>ruota l&#39;ambiente</b> nella vista 3D.
 
-Per impostare una rotazione precisa, utilizzare <b>Ambiente > Modifica</b> nella barra degli strumenti superiore del vista 3D e modificare il cursore <b>Angolo di rotazione</b> nella finestra delle proprietà.
+Per impostare una rotazione precisa, utilizzare <b>Ambiente > Modifica</b> nella barra degli strumenti della vista 3D superiore e modificare il cursore <b>Angolo di rotazione</b> nella finestra delle proprietà.
 
-Per utilizzare un ambiente chiaro HDR predefinito, fate clic sulla sezione <b> ambienti HDRI</b> della <b>categoria </b>nella [libreria](../../interface/the-library/the-library.md), quindi trascinate le icone nella vista 3D.
+Per utilizzare un ambiente leggero HDR predefinito, fate clic sulla sezione <b> ambienti HDRI</b> della categoria <b>Vista 3D </b>nella [Libreria](../../interface/the-library/the-library.md), quindi trascinate le icone nella vista 3D.
 
-Per utilizzare un ambiente HDR leggero personalizzato, importare un&#39;immagine HDR trascinando e rilasciando il file in un pacchetto nella finestra Esplora risorse (<b>Collegare</b> il file quando richiesto). Trascinate quindi la risorsa e scegliete come destinazione <b>Latitude/Longitude Panorama</b>.
+Per utilizzare un ambiente leggero HDR personalizzato, importare un&#39;immagine HDR trascinando e rilasciando il file in un pacchetto nella finestra Esplora risorse (<b>Collega</b> il file quando richiesto). Trascinate quindi la risorsa e scegliete come destinazione <b>Latitude/Longitude Panorama</b>.
 
 ### Luci puntiformi
 
 Vai a <b>Luci > Modifica proprietà</b> per attivare/disattivare le luci di punto nella scena.
 
-È possibile spostare Point Light 1 nell&#39;origine della scena tenendo premuto LMB o RMB e trascinando nella finestra della vista in modalità Illuminazione. <img src="../../assets/image2020-9-17-10-30-37.png" width="24" />
+È possibile spostare Point Light 1 nell&#39;origine della scena tenendo premuto LMB o RMB e trascinando nella finestra della vista in modalità Illuminazione. <img src="3d-view.resources/image2020-9-17-10-30-37.png" width="24" />
 
-In modalità Videocamera <img src="../../assets/image2020-9-17-10-31-32.png" width="24" /> , è inoltre possibile passare temporaneamente alla modalità Illuminazione tenendo premuti i tasti Ctrl+⇧ insieme ai pulsanti del mouse.
+In modalità Videocamera <img src="3d-view.resources/image2020-9-17-10-31-32.png" width="24" /> , è inoltre possibile passare temporaneamente alla modalità Illuminazione tenendo premuti i tasti Ctrl+⇧ insieme ai pulsanti del mouse.
 
-## Visualizzare i dati in vista 3D
+## Visualizzare i dati in una vista 3D
 
-![Visualizzare gli output del grafico a Substance](../../assets/3d-material.gif "Visualizzare gli output del grafico a Substance")
+![Visualizzare gli output del grafico a Substance](3d-view.resources/3d-material.gif "Visualizzare gli output del grafico a Substance")
 
 ### Grafici Substance
 
-Potete visualizzare interi materiali come materiale completo nel vista 3D. Questo è il modo più comune di lavorare e corrisponderà gli [attributi di utilizzo sui nodi di output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) agli slot di texture pertinenti del materiale della vista 3D. Ciò significa che gli output devono essere impostati correttamente (l’utilizzo di Modelli garantisce che sia così) e che il materiale selezionato/la finestra di shader supporta
+Potete visualizzare interi materiali come materiale completo nella vista 3D. Questo è il modo più comune di lavorare e corrisponderà gli [attributi di utilizzo sui nodi di output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) agli slot di texture pertinenti del materiale della vista 3D. Ciò significa che gli output devono essere impostati correttamente (l’utilizzo di Modelli garantisce che sia così) e che lo shader materiale/viewport selezionato supporta
 
-Per visualizzare tutti gli output di un grafico, fate clic su *RMB* un&#39;area vuota nella [vista Grafico](../../interface/the-graph-view/the-graph-view.md) e scegliete l&#39;opzione **Visualizza output in vista 3D** nel menu di scelta rapida.
+Per visualizzare tutti gli output di un grafico, fate clic su *RMB* un’area vuota nella [vista Grafico](../../interface/the-graph-view/the-graph-view.md) e scegliete l’opzione **Visualizza output in vista 3D** nel menu di scelta rapida.
 
-Potete anche visualizzare gli output di un grafico senza doverlo aprire, facendo clic su RMB su una risorsa grafico nel dock [Esplora risorse](../the-explorer-window/the-explorer-window.md) e scegliendo l&#39;opzione **Visualizza output in vista 3D** nel menu di scelta rapida.
+Potete anche visualizzare gli output di un grafico senza doverlo aprire, facendo clic su RMB su una risorsa grafico nell&#39;ancoraggio [Esplora risorse](../the-explorer-window/the-explorer-window.md) e scegliendo l&#39;opzione **Visualizza output in visualizzazione 3D** nel menu di scelta rapida.
 
-In alternativa al menu di scelta rapida del grafico, potete ottenere lo stesso risultato trascinando il grafico dall&#39;ancoraggio [Esplora risorse](../the-explorer-window/the-explorer-window.md) al vista 3D.
+In alternativa al menu di scelta rapida del grafico, potete ottenere lo stesso risultato trascinando il grafico dall&#39;ancoraggio [Esplora risorse](../the-explorer-window/the-explorer-window.md) alla vista 3D.
 
-Quando *caricate un grafico*, per impostazione predefinita gli output vengono applicati automaticamente nel vista 3D. Puoi disabilitare questo comportamento nelle [Preferenze](../../interface/preferences-window/preferences-window.md). Vai a **Modifica > Preferenze > Grafico > Comune** e deseleziona l&#39;opzione **Visualizza output nella vista 3D quando apri un grafico**.
+Quando *caricate un grafico*, per impostazione predefinita gli output vengono applicati automaticamente nella vista 3D. Puoi disabilitare questo comportamento nelle [Preferenze](../../interface/preferences-window/preferences-window.md). Vai a **Modifica > Preferenze > Grafico > Comune** e deseleziona l&#39;opzione **Visualizza output nella vista 3D quando apri un grafico**.
 
 >[!NOTE]
 >
@@ -140,7 +140,7 @@ Quando *caricate un grafico*, per impostazione predefinita gli output vengono ap
 > 
 > Se utilizzate mesh personalizzate con più di un materiale, vi verrà chiesto di scegliere a quale slot di materiale assegnare il materiale. Con uno dei metodi precedenti, fare clic su uno slot per confermare la scelta. Per ulteriori informazioni sui Materiali e sulla loro assegnazione, leggete la sezione dettagliata riportata di seguito.
 
-![Visualizzazione degli output dei nodi e dei grafici nella vista 3D](../../assets/3d-channel.gif "Visualizzazione degli output dei nodi e dei grafici nella vista 3D")
+![Visualizzazione degli output dei nodi e dei grafici nella vista 3D](3d-view.resources/3d-channel.gif "Visualizzazione degli output dei nodi e dei grafici nella vista 3D")
 
 ### Output singolo nodo/grafico
 
@@ -152,7 +152,7 @@ Puoi anche usare *RMB* per trascinare e rilasciare qualsiasi nodo dalla vista Gr
 
 Potete visualizzare qualsiasi singolo output del grafico espandendo la risorsa del grafico nel dock di [Esplora risorse](../the-explorer-window/the-explorer-window.md) e utilizzando *LMB* per trascinare l’output nella vista 3D. Verrà visualizzato un elenco con i canali disponibili a cui assegnare il nodo. Fai clic su qualsiasi per confermare.
 
-![Visualizzazione di trame 3D personalizzate](../../assets/3d-mesh.gif "Visualizzazione di trame 3D personalizzate")
+![Visualizzazione di trame 3D personalizzate](3d-view.resources/3d-mesh.gif "Visualizzazione di trame 3D personalizzate")
 
 ## Visualizza scene 3D (personalizzate)
 
@@ -161,7 +161,7 @@ Scegliete una delle trame predefinite dal menu a discesa <b>Scena</b> nella barr
 
 Per le scene 3D personalizzate, consulta la sezione [Utilizzo delle scene 3D](../../working-with-3d-scenes/working-with-3d-scenes.md).
 
-![Modifica delle proprietà dei materiali](../../assets/3d-materials.gif "Modifica delle proprietà dei materiali")
+![Modifica delle proprietà dei materiali](3d-view.resources/3d-materials.gif "Modifica delle proprietà dei materiali")
 
 ## Modificare le proprietà dello shader
 
@@ -184,7 +184,7 @@ Gli ombreggiatori possono essere ripristinati mediante le azioni &quot;Ripristin
 > * <b>Rasterizzatore/Pathtracer GPU:</b> situato nelle impostazioni del modulo di rendering (Rendering > Impostazioni di modifica), influisce sull&#39;*intera scena*.
 > * <b>OpenGL:</b> situato nelle proprietà del materiale, influisce sul materiale.
 
-![Esportazione della scena](../../assets/3d-view-export-scene.gif "Esportazione della scena")
+![Esportazione della scena](3d-view.resources/3d-view-export-scene.gif "Esportazione della scena")
 
 ## Esporta scena
 
@@ -221,7 +221,7 @@ Per esportare la trama della vista 3D, accedete a <b>Scena > Esporta trama tasse
 >
 > **TDR (solo Windows)**
 > 
-> Per questa funzione è necessario che <b>Rilevamento e ripristino del timeout</b> corrisponda ai valori consigliati nella [pagina](https://experienceleague.adobe.com/it/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) della documentazione, come indicato nei [Requisiti tecnici](../../getting-started/system-requirements/system-requirements.md) di Designer.
+> Per questa funzione è necessario che <b>Rilevamento e ripristino del timeout</b> corrisponda ai valori consigliati nella [pagina](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) della documentazione, come indicato nei [Requisiti tecnici](../../getting-started/system-requirements/system-requirements.md) di Designer.
 
 ## Barra dei menu
 
@@ -230,7 +230,7 @@ La barra dei menu fornisce 7 menu con opzioni relative alla vista 3D. di seguito
 +++Scena
 Il menu <b>Scena</b> riguarda la geometria (risorsa 3D) visualizzata e gli stati della vista 3D. Risorsa 3D: condividi solo la trama, gli stati della scena sono luci, videocamera e impostazioni correlate e possono anche contenere la trama.
 
-![Trame di menu Scena](../../assets/3d-view-meshes.png "Trame di menu Scena")
+![Trame di menu Scena](3d-view.resources/3d-view-meshes.png "Trame di menu Scena")
 
 
 
@@ -305,7 +305,7 @@ Il menu Materiali presenta un elenco di tutti i materiali assegnati a una trama 
 
 <b>Carica definizione...: </b>(solo rendering OpenGL) Consente di caricare il tuo [shader GLSLFX personalizzato.](../../interface/3d-view/glslfx-shaders/glslfx-shaders.md) Lo shader viene aggiunto all’elenco precedente.
 
-<b>Reimposta parametri comuni:</b> Reimposta tutti i parametri comuni tra gli shader. Ad esempio, quando si passa dal modulo di rendering Rasterizer/Pathtracer GPU al modulo di rendering OpenGL e viceversa, vengono riportati diversi valori dei parametri nel [Materiale standard Adobe](https://experienceleague.adobe.com/it/docs/substance-3d/general-knowledge/asm/adobe-standard-material).
+<b>Reimposta parametri comuni:</b> Reimposta tutti i parametri comuni tra gli shader. Ad esempio, quando si passa dal modulo di rendering Rasterizer/Pathtracer GPU al modulo di rendering OpenGL e viceversa, vengono riportati diversi valori dei parametri nel [Materiale standard Adobe](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material).
 
 <b>Rinomina:</b> Modificare l&#39;etichetta per questo materiale.
 
@@ -526,25 +526,25 @@ Attiva/disattiva la visualizzazione dell&#39;asse 3D nella finestra della vista.
 
 <br>
 
-![](../../assets/3d-view-display-backface-culling.jpg) <b>Eliminazione sfondo</b>
+![](3d-view.resources/3d-view-display-backface-culling.jpg) <b>Eliminazione sfondo</b>
 
 La disattivazione di questa opzione consente di visualizzare una faccia con trama da *entrambi i lati*. L’opzione funziona in combinazione con Wireframi.
 
 <br>
 
-![](../../assets/3d-view-display-bounding-box.jpg) <b>Rettangolo di selezione</b>
+![](3d-view.resources/3d-view-display-bounding-box.jpg) <b>Rettangolo di selezione</b>
 
 Attiva/disattiva la visualizzazione del rettangolo di selezione della trama.
 
 <br>
 
-![](../../assets/3d-view-display-vertex-tangent-space.jpg) <b>Spazio tangente vertice</b>
+![](3d-view.resources/3d-view-display-vertex-tangent-space.jpg) <b>Spazio tangente vertice</b>
 
 Visualizza i vettori tangente, binnormale e normale per tutti i vertici come gizmo colorati.
 
 <br>
 
-![](../../assets/3d-view-display-wireframe.jpg) <b>Wireframe</b>
+![](3d-view.resources/3d-view-display-wireframe.jpg) <b>Wireframe</b>
 
 Attiva/disattiva la visualizzazione della trama come wireframe.
 
@@ -574,7 +574,7 @@ La barra degli strumenti <b>Visualizzazione</b>, disponibile per impostazione pr
 
 ### Canali di colore
 
-È possibile visualizzare un singolo canale dell&#39;immagine utilizzando il pulsante ![](../../assets/2d-view-icon-channels.png) <b>Canali di colore</b>. Viene aperta una casella combinata che consente di selezionare i canali <b>Rosso</b>, <b>Verde</b> e <b>Blu</b> da visualizzare. L&#39;aspetto normale dell&#39;immagine con tutti i canali viene ripristinato selezionando l&#39;opzione <b>RGB</b>.
+È possibile visualizzare un singolo canale dell&#39;immagine utilizzando il pulsante ![](3d-view.resources/2d-view-icon-channels.png) <b>Canali di colore</b>. Viene aperta una casella combinata che consente di selezionare i canali <b>Rosso</b>, <b>Verde</b> e <b>Blu</b> da visualizzare. L&#39;aspetto normale dell&#39;immagine con tutti i canali viene ripristinato selezionando l&#39;opzione <b>RGB</b>.
 
 L&#39;*icona* del pulsante <b>Canali di colore</b> *cambia* a seconda dei canali attualmente visualizzati.
 
