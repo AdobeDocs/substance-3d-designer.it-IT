@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Macchie di grunge
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
+source-git-commit: 988f0cb19339a2ab3ca4ef392fef7ca723254cd9
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungespots.jpg){width="200px"}
+![](grunge-spots.resources/grungespots.jpg){width="200px"}
 
 <b>Ingresso:</b> Generatori di Texture > Rumori
 
@@ -45,13 +45,13 @@ Il nodo **macchie Grungi** genera una mappa delle grungi simile alle macchie sch
 
 |  |  |
 |:---|:---|
-| <b>Saldo</b> <i>Mobile</i> | Regola il bilanciamento tra i valori di luminosità e oscurità. |
-| <b>Contrasto</b> <i>Mobile</i> | Regola il contrasto dell’immagine. |
+| <b>Saldo</b> <i>Virgola mobile</i> | Regola il bilanciamento tra i valori di luminosità e oscurità. |
+| <b>Contrasto</b> <i>Virgola mobile</i> | Regola il contrasto dell’immagine. |
 | <b>Inverti</b> <i>Booleano</i> | Inverte l&#39;output dell&#39;immagine utilizzando un&#39;operazione `1-x`. |
-| <b>Non square expansion</b> <i>Booleano</i> | Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati. |
+| <b>Non square expansion</b> <i>Booleano</i> | Consente la compensazione di squash e allungamento con rapporti non quadrati. |
 | <b>Avanzate</b> |  |
-| <b>Dettagli</b> <i>Mobile</i> | Regola la quantità di macchie *alterate* e suddivise in macchie più fini. |
-| <b>Copertura</b> <i>Mobile</i> | Regola la copertura delle macchie nell’immagine. |
+| <b>Dettagli</b> <i>Virgola mobile</i> | Regola la quantità di macchie *alterate* e suddivise in macchie più fini. |
+| <b>Copertura</b> <i>Virgola mobile</i> | Regola la copertura delle macchie nell’immagine. |
 | <b>Contrasto copertura</b> <i>Mobile</i> | Regola il contrasto della *maschera* utilizzata per controllare la copertura delle macchie nell&#39;immagine. |
 
 ## Esempi
@@ -59,10 +59,10 @@ Il nodo **macchie Grungi** genera una mappa delle grungi simile alle macchie sch
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungespots-variant2.jpg" />
+            <img src="grunge-spots.resources/grungespots-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungespots-variant.jpg" />
+            <img src="grunge-spots.resources/grungespots-variant.jpg" />
         </td>
     </tr>
 </table>

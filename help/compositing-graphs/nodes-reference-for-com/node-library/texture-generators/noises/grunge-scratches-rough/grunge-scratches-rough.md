@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Scratches di grunge ruvidi
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
+source-git-commit: 988f0cb19339a2ab3ca4ef392fef7ca723254cd9
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungescratchesrough.jpg){width="200px"}
+![](grunge-scratches-rough.resources/grungescratchesrough.jpg){width="200px"}
 
 <b>Ingresso:</b> Generatori di Texture > Rumori
 
@@ -52,27 +52,27 @@ Il nodo **Scratches di Grunge su superficie ruvida** genera una mappa di grunge 
 | <b>Avanzate</b> |  |
 | <b>Quantità memoria virtuale</b> <i>Virgola mobile</i> | Regola la quantità di graffi sulla superficie. |
 | <b>Affiancamento memoria virtuale</b> <i>Numero intero</i> | Regola la quantità di Affiancamento applicata ai graffi. |
-| <b>Sfocatura graffio</b> <i>Mobile</i> | Regola la sfocatura dei graffi. |
-| <b>Larghezza memoria virtuale</b> <i>Mobile</i> | Regola la larghezza dei graffi. |
-| <b>Lunghezza memoria virtuale</b> <i>Mobile</i> | Regola la lunghezza dei graffi. |
-| <b>Mascheratura graffi</b> <i>Mobile</i> | Regola l’intensità della maschera applicata a parti dei graffi. |
-| <b>Irritazione memoria virtuale</b> <i>Mobile</i> | Regola la sporcizia dei graffi, interrompendone la nitidezza e la continuità. |
-| <b>Doppio graffio</b> <i>Mobile</i> | Regola l’opacità di un secondo graffio applicato accanto a ciascun graffio, con un leggero effetto di alterazione. |
-| <b>Intensità macchie memoria virtuale</b> <i>Mobile</i> | Regola l’intensità delle macchie danneggiate applicate accanto ai graffi. |
+| <b>Sfocatura graffio</b> <i>Virgola mobile</i> | Regola la sfocatura dei graffi. |
+| <b>Larghezza memoria virtuale</b> <i>Virgola mobile</i> | Regola la larghezza dei graffi. |
+| <b>Lunghezza memoria virtuale</b> <i>Virgola mobile</i> | Regola la lunghezza dei graffi. |
+| <b>Mascheratura graffi</b> <i>Virgola mobile</i> | Regola l’intensità della maschera applicata a parti dei graffi. |
+| <b>Irritazione memoria virtuale</b> <i>Virgola mobile</i> | Regola la sporcizia dei graffi, interrompendone la nitidezza e la continuità. |
+| <b>Doppio graffio</b> <i>Virgola mobile</i> | Regola l’opacità di un secondo graffio applicato accanto a ciascun graffio, con un leggero effetto di alterazione. |
+| <b>Intensità macchie memoria virtuale</b> <i>Virgola mobile</i> | Regola l’intensità delle macchie danneggiate applicate accanto ai graffi. |
 | <b>Affiancamento macchie memoria virtuale</b> <i>Numero intero</i> | Regola l’Affiancamento delle macchie danneggiate. |
-| <b>Intensità Dust</b> <i>Mobile</i> | Regola l’intensità della sovrapposizione del dust. |
+| <b>Intensità Dust</b> <i>Virgola mobile</i> | Regola l’intensità della sovrapposizione del dust. |
 | <b>Affiancamento Dust</b> <i>Numero intero</i> | Regola l’Affiancamento della sovrapposizione dust. |
-| <b>Intensità nitidezza</b> <i>Mobile</i> | Regola l’intensità dell’effetto di nitidezza globale. |
+| <b>Intensità nitidezza</b> <i>Virgola mobile</i> | Regola l’intensità dell’effetto di nitidezza globale. |
 
 ## Esempi
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungescratchesrough-variant.jpg" />
+            <img src="grunge-scratches-rough.resources/grungescratchesrough-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungescratchesrough-variant2.jpg" />
+            <img src="grunge-scratches-rough.resources/grungescratchesrough-variant2.jpg" />
         </td>
     </tr>
 </table>
