@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versione 13.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: e540abf8ed046d72f116e9e43ae0743c5ae39c24
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 *Data di pubblicazione: 12 dicembre 2023*
 
-![Banner per Substance 3D Designer 13.1](../../assets/24-library-hero-1920x620.png "Banner per Substance 3D Designer 13.1")
+![Banner per Substance 3D Designer 13.1](version-13-1.resources/24-library-hero-1920x620.png "Banner per Substance 3D Designer 13.1")
 
 ## Miglioramenti per le cornici
 
@@ -34,19 +34,19 @@ Le cornici sono uno strumento obbligatorio per mantenere il grafico ben organizz
 
 Man mano che il grafico cresce, potrebbe essere necessario riorganizzare il contenuto delle cornici. I nodi potrebbero spostarsi per fare spazio ad aggiunte o potrebbe essere necessario spaziare di più i contenuti per promuovere la leggibilità. Per facilitare queste regolazioni, è ora possibile espandere automaticamente una cornice quando si spostano gli oggetti inclusi: tenete premuto <b>Maiusc</b> in qualsiasi punto mentre spostate un oggetto in modo che i bordi della cornice vengano regolati automaticamente per mantenere l&#39;oggetto entro i limiti.
 
-![espansione automatica](../../assets/autoexpand.gif)
+![espansione automatica](version-13-1.resources/autoexpand.gif)
 
 ### Adatta dimensione a contenuto
 
 Man mano che apportate le regolazioni nel grafico, una cornice potrebbe non essere più adattata correttamente al suo contenuto. Questo nuovo comando consente di regolare automaticamente la posizione e le dimensioni della cornice in modo che si adatti all’estensione del suo contenuto, con una spaziatura interna di una cella della griglia media. Se la cornice ha una descrizione, questa viene regolata in modo da utilizzare eventuale spazio vuoto accanto alla descrizione, se possibile.
 
-![dimensioni_filtro](../../assets/fitsize.gif)
+![dimensioni_filtro](version-13-1.resources/fitsize.gif)
 
 ### Descrizioni migliorate
 
 Il codice HTML consente ora di formattare il testo nella descrizione di una cornice. Questo vale anche per i commenti.
 
-![testo RTF](../../assets/description-3.png)
+![testo RTF](version-13-1.resources/description-3.png)
 
 ### <b>...e molto altro!</b>
 
@@ -64,7 +64,7 @@ Sono state ripensate molte cose, come l&#39;appartenenza a regole più tollerant
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Icona file AxF](../../assets/axf-file-icon.png "Icona file AxF")
+![Icona file AxF](version-13-1.resources/axf-file-icon.png "Icona file AxF")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -77,7 +77,7 @@ In questa nuova versione, viene introdotta la possibilità di modificare i mater
 </tr>
 </table>
 
-![Esporta AxF](../../assets/exportaxf.gif)
+![Esporta AxF](version-13-1.resources/exportaxf.gif)
 
 ## API
 

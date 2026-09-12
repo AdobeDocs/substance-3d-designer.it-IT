@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Spazio di lavoro
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
+source-git-commit: 65a0ec6dc38e7595406c0c531be72ad1670dfb86
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '504'
 ht-degree: 1%
 
 ---
@@ -117,6 +117,6 @@ La barra degli strumenti principale consente di accedere a menu aggiuntivi, come
 
 ## Libreria
 
-[Il dock della libreria](../interface/the-library/the-library.md) consente di accedere a tutti i contenuti inclusi nella libreria di Designer per impostazione predefinita, nonché ai [contenuti personalizzati](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md). Per comprendere meglio la differenza tra i nodi atomici e i nodi di istanza nella libreria, assicurati di leggere la [panoramica dei nodi](https://helpx.adobe.com/substance-designer/using/nodes-overview.html).
+[Il dock della libreria](../interface/the-library/the-library.md) consente di accedere a tutti i contenuti inclusi nella libreria di Designer per impostazione predefinita, nonché ai [contenuti personalizzati](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md).
 
 ![Libreria](interface.resources/library-3.jpg "Libreria")

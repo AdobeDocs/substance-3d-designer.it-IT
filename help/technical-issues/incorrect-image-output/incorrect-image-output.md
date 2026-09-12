@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Output immagine errato
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f72773d86b681ce0e815c5595067b1593cdd1f0a
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Questa pagina elenca i problemi tecnici che si verificano in Substance 3D Design
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-**![(errore)](../../assets/error.svg) Problema**
+**![(errore)](incorrect-image-output.resources/error.svg) Problema**
 
 Le sfumature nell’output dell’immagine vengono sfumate e non uniformi. Il passaggio è causato dall&#39;intervallo di valori *utilizzato dall&#39;immagine troppo stretta*.\
 Questo significa che non ci sono abbastanza valori per una transizione uniforme da un passaggio di una sfumatura al successivo.
@@ -43,13 +43,13 @@ Se non è necessario lavorare specificamente con le immagini HDR, è probabile c
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/demo-stepping-8-bit.png){width="256px"}![](../../assets/demo-stepping-8-bit-2.png){width="256px"}![](../../assets/demo-stepping-8-bit-3.png){width="256px"}
+![](incorrect-image-output.resources/demo-stepping-8-bit.png){width="256px"}![](incorrect-image-output.resources/demo-stepping-8-bit-2.png){width="256px"}![](incorrect-image-output.resources/demo-stepping-8-bit-3.png){width="256px"}
 
 </td>
 </tr>
 </table>
 
-**![(tick)](../../assets/check.svg) Passaggi consigliati**
+**![(tick)](incorrect-image-output.resources/check.svg) Passaggi consigliati**
 
 Controllare il **formato di output** (ovvero la profondità di bit) del nodo e di tutti i nodi a monte e assicurarsi che questi nodi utilizzino *una precisione Integer di almeno 16 bit*.
 
@@ -73,7 +73,7 @@ Ad esempio:
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-<b>![(errore)](../../assets/error.svg) Problema</b>
+<b>![(errore)](incorrect-image-output.resources/error.svg) Problema</b>
 
 La qualità delle immagini generate da un archivio Substance 3D (SBSAR) è notevolmente inferiore rispetto al grafico del file Substance 3D da cui viene pubblicato, come mostrato nell&#39;immagine a destra.\
 L’output appare a bassa risoluzione.
@@ -81,13 +81,13 @@ L’output appare a bassa risoluzione.
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/issues-sbsar-bitmap-relative-to.jpg){width="256px"}
+![](incorrect-image-output.resources/issues-sbsar-bitmap-relative-to.jpg){width="256px"}
 
 </td>
 </tr>
 </table>
 
-<b>![(tick)](../../assets/check.svg) Passaggi consigliati</b>
+<b>![(tick)](incorrect-image-output.resources/check.svg) Passaggi consigliati</b>
 
 Assicuratevi che la proprietà [Dimensione output](../../compositing-graphs/output-size/output-size.md) di tutti i nodi [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) sia impostata sul metodo *Assoluto* [di ereditarietà](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md).
 
@@ -99,29 +99,29 @@ In caso contrario, la [risorsa bitmap](../../resources/bitmap-resource/bitmap-re
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-**![(errore)](../../assets/error.svg) Problema**
+**![(errore)](incorrect-image-output.resources/error.svg) Problema**
 
-Le forme risultano leggermente sfocate dopo aver utilizzato alcuni nodi, ad esempio [Trasformazione 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) o [Fusione](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md).
+Le forme risultano leggermente sfocate dopo l&#39;utilizzo di alcuni nodi, ad esempio [Trasformazione 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) o [Fusione](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md).
 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/issues-bilinear.jpg){width="256px"}
+![](incorrect-image-output.resources/issues-bilinear.jpg){width="256px"}
 
 </td>
 </tr>
 </table>
 
-**![(tick)](../../assets/check.svg) Passaggi consigliati**
+**![(tick)](incorrect-image-output.resources/check.svg) Passaggi consigliati**
 
 Quando si riordinano i pixel in un&#39;immagine, ad esempio quando si ridimensiona una forma o si modifica la risoluzione di un&#39;immagine, esistono due modi per determinare in che modo i pixel dell&#39;origine devono essere *mappati* alla destinazione:
 
 * **Più vicino**: il pixel verrà mappato alla destinazione *così com&#39;è* in corrispondenza della coordinata corrispondente. Se la destinazione è di risoluzione inferiore, il pixel può essere completamente ignorato. Se la destinazione ha una risoluzione maggiore, verrà mappata a tutti i pixel che la coprono. L&#39;output è *più nitido* e avrà un aspetto leggermente *con alias*.
 * **Filtro bilineare**: all&#39;immagine di origine viene applicato un processo di filtro in modo che i pixel vengano mappati alla risoluzione di destinazione in modo da *attenuare* le transizioni tra i pixel. L&#39;output è *più uniforme* e avrà un aspetto leggermente *sfocato*.
 
-Il nodo [Transformation 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) fornisce un&#39;opzione **Metodo di filtro** per selezionare quale di questi due metodi di mapping deve essere utilizzato.
+Il nodo [Trasformazione 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) fornisce un&#39;opzione **Metodo di filtro** per selezionare quale di questi due metodi di mapping deve essere utilizzato.
 
-La maggior parte dei nodi, ad esempio [Fusione](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md), utilizza per impostazione predefinita *un filtro bilineare* quando si campiona una texture di input con risoluzione diversa, il che può introdurre una sfocatura indesiderata.\
-Poiché il nodo Trasformazione 2D è *atomico*, quindi molto leggero, può essere utilizzato *anche se non sono necessarie trasformazioni* per modificare la risoluzione di una texture utilizzando la relativa proprietà [Dimensione output](../../compositing-graphs/output-size/output-size.md) prima di inviare la texture a un altro nodo, in modo da poter *controllare l&#39;impatto* di questo ridimensionamento.
+La maggior parte dei nodi, ad esempio [Fusione](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md), utilizza per impostazione predefinita *filtri bilineari* quando si campiona una texture di input con risoluzione diversa, il che può introdurre una sfocatura indesiderata.\
+Poiché il nodo di Trasformazione 2D è *atomico*, quindi molto leggero, può essere utilizzato *anche se non sono necessarie trasformazioni* per modificare la risoluzione di una texture utilizzando la relativa proprietà [Dimensioni output](../../compositing-graphs/output-size/output-size.md) prima di inviare la texture a un altro nodo, in modo da poter *controllare l&#39;impatto* di questo ridimensionamento.
 
-Nel [grafico delle funzioni](../../function-graphs/function-graphs.md) del nodo [Pixel processor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), i nodi **Sample** includono la *stessa opzione* per controllare il modo in cui la texture campionata deve essere mappata alla risoluzione del nodo.
+Nel [grafico delle funzioni](../../function-graphs/function-graphs.md) del nodo [Elaboratore pixel](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), i nodi **Esempio** includono la *stessa opzione* per controllare il modo in cui la texture campionata deve essere mappata alla risoluzione del nodo.

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versione 13.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: e540abf8ed046d72f116e9e43ae0743c5ae39c24
 workflow-type: tm+mt
 source-wordcount: '1671'
 ht-degree: 2%
@@ -26,7 +26,7 @@ Come accennato nella versione precedente, questa versione non supporta più i gr
 
 *Data di pubblicazione: 6 giugno 2023*
 
-![Materiale che utilizza i tracciati](../../assets/Paths2.png "Materiale che utilizza i tracciati")
+![Materiale che utilizza i tracciati](version-13-0.resources/Paths2.png "Materiale che utilizza i tracciati")
 
 *Illustrazione di [Celine Dameron](https://www.artstation.com/cline)*
 
@@ -39,7 +39,7 @@ Questa versione 13.0 introduce molti nuovi contenuti. Sono disponibili principal
 
 Tutti questi nodi offriranno un sacco di possibilità e avranno sicuramente un sacco di applicazioni creative. Consulta la sezione [Utilizzo di tracciati e Strumenti spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/working-with-path-and-spl/working-with-path-and-spline-tools.md) per un tour dei concetti importanti da comprendere per conoscere bene questo set di strumenti.
 
-![Materiale che utilizza spline](../../assets/Splines.png "Materiale che utilizza spline")
+![Materiale che utilizza spline](version-13-0.resources/Splines.png "Materiale che utilizza spline")
 
 *Illustrazione di [Louise Melin](https://www.artstation.com/troglodette)*
 
@@ -61,22 +61,22 @@ La prima categoria è naturalmente quella per generare spline:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Spline Cubic](../../assets/SplineCubic-Demo.gif "Spline Cubic")
+![Spline Cubic](version-13-0.resources/SplineCubic-Demo.gif "Spline Cubic")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Spline Poly Quadratic](../../assets/SplinePolyQuadratic-Demo.gif "Spline Poly Quadratic")
+![Spline Poly Quadratic](version-13-0.resources/SplinePolyQuadratic-Demo.gif "Spline Poly Quadratic")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Cerchio spline](../../assets/SplineCircle-Demo.gif "Cerchio spline")
+![Cerchio spline](version-13-0.resources/SplineCircle-Demo.gif "Cerchio spline")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Elenco Spline Bridge](../../assets/SplineBridge-List_Demo.gif "Elenco Spline Bridge")
+![Elenco Spline Bridge](version-13-0.resources/SplineBridge-List_Demo.gif "Elenco Spline Bridge")
 
 </td>
 </tr>
@@ -94,17 +94,17 @@ Forniamo anche strumenti per rielaborare e rifinire le spline. Troverai un nodo 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Spline 2D Trasforma](../../assets/Spline2DTransform-Demo1.gif "Spline 2D Trasforma")
+![Spline 2D Transform](version-13-0.resources/Spline2DTransform-Demo1.gif "Spline 2D Transform")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Alterazione spline](../../assets/SplineWarp-Demo.gif "Alterazione spline")
+![Alterazione spline](version-13-0.resources/SplineWarp-Demo.gif "Alterazione spline")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Thickness di campioni di spline](../../assets/SplineSampleThickness-Demo.gif "Thickness di campioni di spline")
+![Thickness di campioni di spline](version-13-0.resources/SplineSampleThickness-Demo.gif "Thickness di campioni di spline")
 
 </td>
 <td style="border: 0;" valign="top">
@@ -125,22 +125,22 @@ Grazie a [Riempimento spline](../../compositing-graphs/nodes-reference-for-com/n
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dispersione su scala di grigi spline](../../assets/ScatterOnSplineGrayscale-Demo.gif "Dispersione su scala di grigi spline")
+![Dispersione su scala di grigi spline](version-13-0.resources/ScatterOnSplineGrayscale-Demo.gif "Dispersione su scala di grigi spline")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Riempimento spline](../../assets/SplineFill-Demo.gif "Riempimento spline")
+![Riempimento spline](version-13-0.resources/SplineFill-Demo.gif "Riempimento spline")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Colore mappatura spline](../../assets/SplineMapperColor-Demo.gif "Colore mappatura spline")
+![Colore mappatura spline](version-13-0.resources/SplineMapperColor-Demo.gif "Colore mappatura spline")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Spline Flow Mapper](../../assets/SplineFlowMapper-Demo.gif "Spline Flow Mapper")
+![Spline Flow Mapper](version-13-0.resources/SplineFlowMapper-Demo.gif "Spline Flow Mapper")
 
 </td>
 </tr>
@@ -156,12 +156,12 @@ Il nodo [Maschera su tracciati](../../compositing-graphs/nodes-reference-for-com
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Maschera su tracciati](../../assets/MaskToPaths-Demo2.gif "Maschera su tracciati")
+![Maschera su tracciati](version-13-0.resources/MaskToPaths-Demo2.gif "Maschera su tracciati")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Maschera nei percorsi 2](../../assets/MaskToPaths-Demo1.gif "Maschera nei percorsi 2")
+![Maschera nei percorsi 2](version-13-0.resources/MaskToPaths-Demo1.gif "Maschera nei percorsi 2")
 
 </td>
 <td style="border: 0;" valign="top">
@@ -205,7 +205,7 @@ Grazie a questa funzione, puoi migliorare la leggibilità del grafico nascondend
 
 Questa nuova funzione è stata spiegata dettagliatamente in questo [tutorial](https://www.adobe.com/go/designer-tutorial-portals) dedicato.
 
-![Nodo portale](../../assets/PortalNodeFinal.gif "Nodo portale")
+![Nodo portale](version-13-0.resources/PortalNodeFinal.gif "Nodo portale")
 
 ## Schermata Home
 
@@ -216,9 +216,9 @@ Quando avvii Designer, sai di avere accesso a una [schermata Home](../../interfa
 * Una pagina di apprendimento in cui è disponibile un collegamento a risorse di apprendimento, ad esempio esercitazioni per presentarti nuove funzioni o per scoprire suggerimenti rapidi;
 * Collegamenti diretti alla schermata Novità, alla schermata Informazioni su, al sito Web di Substance 3D, al forum della community di supporto e così via.
 
-![Schermata Home - Schermata Home](../../assets/HomeScreen.png "Schermata Home - Home")
+![Schermata Home - Schermata Home](version-13-0.resources/HomeScreen.png "Schermata Home - Home")
 
-![Schermata Home - Apprendimento](../../assets/LearnPage.png "Schermata Home - Apprendimento")
+![Schermata Home - Apprendimento](version-13-0.resources/LearnPage.png "Schermata Home - Apprendimento")
 
 ## Nuove lingue
 
@@ -281,12 +281,12 @@ Ti ricordiamo che, per modificare la lingua in Designer, è sufficiente accedere
 * [Motore] Aggiungi modalità solida a Sfumatura
 * [Engine] Nodo atomic pow() nel grafico delle funzioni
 * [Engine] Aggiungi opzioni di disposizione dei bordi (blocco a spigolo / ripetizione) nel nodo Sampler
-* [Engine] Campionamento più vicino nei nodi Altera e Alterazione direzionale
+* [Engine] Campionamento più vicino nel nodo Altera e Alterazione direzionale
 * [Motore] Aggiungete una modalità &quot;punchthrough alfa&quot; al filtro Nitidezza per gli input di colore
 * [Engine] FxMap: morphlet Emisfero
 * [Engine] Operazioni Atomic Get/Set nei grafici delle funzioni
 * [Motore] Funzioni: utilizzare la funzione precisa di log/log2/exp, 2pow - Unificare le funzioni tra la cucina e il motore
-* [Engine] Aggiungete un parametro di &quot;offset intensità&quot; al filtro Alterazione direzione
+* [Engine] Aggiunge un parametro di &quot;offset intensità&quot; al filtro di Alterazione direzionale
 * [API] Supporto della gestione dei predefiniti per la composizione di grafici
 * [Funzioni] Modificare il nome di input per le funzioni nodi atomici
 * [Localizzazione] Aggiungere le lingue portoghese (Brasile), italiano (Italia) e spagnolo (Spagna)
@@ -296,7 +296,7 @@ Ti ricordiamo che, per modificare la lingua in Designer, è sufficiente accedere
 
 ### Correzioni
 
-* [Vista 3D] La visualizzazione di stringhe lunghe nelle statistiche delle scene è tagliata (solo macOS)
+* [vista 3D] La visualizzazione di stringhe lunghe nelle statistiche delle scene è tagliata (solo macOS)
 * [API] Il modulo &#39;structure::Structure&#39; è ancora incluso nel riferimento API
 * [API] I nodi dei punti nei grafici MDL non hanno definizioni né proprietà
 * [API] Comportamento errato durante l&#39;impostazione del parametro dei nodi di funzione

@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Controllo
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 65827855542d37bf8c090d4d3072684848b73515
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '508'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ Questa pagina descrive i nodi di [grafici di funzione](../../../../function-grap
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Se...nodo secondario](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/IfElse_Node.jpg "Nodo If...Else")
+![If...Else node](../../../../assets/IfElse_Node.jpg "If...Else node")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -55,7 +55,7 @@ Condizione che controlla l&#39;output del nodo.
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo sequenza](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/Sequence_Node.jpg "Nodo sequenza")
+![Nodo sequenza](../../../../assets/Sequence_Node.jpg "Nodo sequenza")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -85,7 +85,7 @@ Parte del grafico da calcolare per ultima
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo Loop completo](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/WhileLoop-Node.jpg "Intero nodo Loop")
+![Nodo Whle Loop](../../../../assets/WhileLoop-Node.jpg "Nodo Whle Loop")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -128,7 +128,7 @@ Numero massimo di iterazioni eseguite dal nodo.\
 Il nodo interrompe l&#39;iterazione quando viene soddisfatto per primo uno dei seguenti criteri: questo numero massimo viene raggiunto o la condizione di uscita diventa vera.\
 Questo valore massimo può essere disabilitato impostando il valore su *-1*. A questo punto, solo la condizione di uscita può interrompere le iterazioni.
 
-Impostazione di &#39;Max. iterazioni a -1 migliorano le prestazioni in loop di piccole dimensioni poiché è disponibile un contatore in meno per tenere traccia e aggiornare.
+Impostazione di &#39;Max. iterazioni&#39; a -1 migliora le prestazioni in loop di piccole dimensioni in quanto è disponibile un contatore in meno per tenere traccia e aggiornare.
 
 Tuttavia, tieni presente che il nodo è configurato in quanto è possibile produrre un <b>ciclo infinito</b> che potrebbe causare la mancata risposta di Designer.
 

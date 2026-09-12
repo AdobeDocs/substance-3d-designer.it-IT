@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Pubblicazione di file di risorse Substance 3D (SBSAR)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 46563ec789547cc1add76655dbad02f5099927a6
+source-git-commit: 65a0ec6dc38e7595406c0c531be72ad1670dfb86
 workflow-type: tm+mt
-source-wordcount: '1234'
+source-wordcount: '1238'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 Questa pagina spiega come Substance 3D Designer può pubblicare pacchetti come file <b>Substance 3D asset</b>, un formato di file speciale con estensione <b>SBSAR</b>, utilizzato sia nell&#39;ecosistema Substance che in altre applicazioni che lo supportano.
 
-In genere è preferibile utilizzare una risorsa di Substance 3D anziché le bitmap, poiché è molto più flessibile e leggera. Se li utilizzi in Substance 3D [Painter](https://experienceleague.adobe.com/it/docs/substance-3d-painter/using/home), [Sampler](https://helpx.adobe.com/it/substance-3d-sampler.html) o [Player](https://helpx.adobe.com/substance-3d-player/home.html), è più veloce utilizzare la funzionalità [&#39;Invia a...&#39;](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md).
+In genere è preferibile utilizzare una risorsa di Substance 3D anziché le bitmap, poiché è molto più flessibile e leggera. Se li utilizzi in Substance 3D [Painter](https://experienceleague.adobe.com/it/docs/substance-3d-painter/using/home), [Sampler](https://experienceleague.adobe.com/it/docs/substance-3d-sampler/using/home) o [Player](https://helpx.adobe.com/substance-3d-player/home.html), è più veloce utilizzare la funzionalità [&#39;Invia a...&#39;](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md).
 
 ![Pubblicazione dei file SBSAR semplificata](publishing-substance-3d-asset-files-sbsar.resources/exportflow.png "Pubblicazione dei file SBSAR semplificata")
 
@@ -38,7 +38,7 @@ quando pubblicate un grafico a Substance, è bene tenere presente quanto segue:
 
 ## Preparazione alla pubblicazione
 
-La pubblicazione richiede più preparazione dell&#39;esportazione delle bitmap. Questo perché le risorse Substance 3D pubblicate sono strumenti dinamici, non solo un&#39;istantanea statica dello stato corrente delle texture. In particolare, tenete presente quanto segue:
+La pubblicazione richiede più preparazione dell&#39;esportazione delle bitmap. Questo perché le risorse Substance 3D pubblicate sono strumenti dinamici, non solo un&#39;istantanea statica dello stato corrente delle tue texture. In particolare, tenete presente quanto segue:
 
 * Assicuratevi che le risoluzioni dei grafici ([Dimensioni output](../../compositing-graphs/output-size/output-size.md)) siano impostate sul *Metodo relativo all&#39;elemento padre* [metodo di ereditarietà](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md), il che significa che sono dinamiche e possono essere modificate al volo.
 * Assicurati che [gli output del grafico](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) siano impostati correttamente con nomi, etichette e tag di utilizzo.

@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Risorsa grafici vettoriali (SVG)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 65a0ec6dc38e7595406c0c531be72ad1670dfb86
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '733'
 ht-degree: 2%
 
 ---
@@ -60,7 +60,7 @@ In generale, è vero quanto segue:
 * Il tratto è supportato ma produce solo un tratto di 1 pixel di larghezza e lo stile del tratto viene ignorato;
 * Gli stili di linea tratteggiata si interrompono definitivamente;
 * Il testo deve essere convertito in tracciati/contorni per essere sottoposto a rendering;
-* [I percorsi composti](https://helpx.adobe.com/ie/illustrator/using/combining-objects.html#compound_paths) non sono supportati;
+* [I percorsi composti](https://helpx.adobe.com/ie/illustrator/desktop/manage-objects/reshape-transform-objects/create-compound-paths.html) non sono supportati;
 * Le funzioni avanzate, come le sfumature, non sono supportate;
 * Gli elementi di stile per le proprietà CSS non sono supportati.
 
@@ -87,7 +87,7 @@ L’immagine a destra mostra le opzioni di esportazione consigliate, fai clic su
 > Le tavole da disegno possono influire sul risultato del file SVG generato. Alcuni modelli di file Illustrator presentano più tavole da disegno.\
 > Provate a fare in modo che una sola tavola da disegno sia ritagliata correttamente e a farla selezionare nella finestra Tavola da disegno quando viene salvata come SVG.
 
-![Opzioni di esportazione di Illustrator SVG](../../assets/svg-export-options-ai.jpg "Opzioni di esportazione di Illustrator SVG"){width="512px"}
+![Opzioni di esportazione di Illustrator SVG](vector-graphics-svg-resource.resources/svg-export-options-ai.jpg "Opzioni di esportazione di Illustrator SVG"){width="512px"}
 
 ### Inkscape
 
@@ -98,7 +98,7 @@ Inkscape viene salvato in modo nativo come SVG, ma con un minore controllo sul f
 
 ### Adobe Photoshop
 
-Photoshop ha un esportatore di SVG molto limitato (<b>File > Esporta > Esporta come..</b>) che al momento non è in grado di produrre risultati corretti per Substance 3D Designer. Potete ottenere le informazioni su forma e tracciato, ma Stile viene sempre salvato come Elementi, il che non è compatibile.
+Photoshop ha un&#39;esportazione SVG molto limitata (<b>File > Esporta > Esporta come..</b>) che al momento non è in grado di produrre risultati corretti per Substance 3D Designer. Potete ottenere le informazioni su forma e tracciato, ma Stile viene sempre salvato come Elementi, il che non è compatibile.
 
 Può essere utilizzato per semplici maschere di forma in bianco e nero, in cui una soluzione consiste nell&#39;estrarre l&#39;Alpha dalle SVG utilizzando [Divisione Alpha](../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/alpha-split/alpha-split.md).
 

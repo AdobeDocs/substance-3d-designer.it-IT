@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Problemi di vista 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f72773d86b681ce0e815c5595067b1593cdd1f0a
 workflow-type: tm+mt
-source-wordcount: '1643'
+source-wordcount: '1629'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ In questa pagina sono elencati i problemi tecnici relativi alla [vista 3D](../..
 
 ## Prestazioni ridotte: la GPU discreta non viene utilizzata
 
-**![(errore)](../../assets/error.svg) Problema**
+**![(errore)](3d-view-issues.resources/error.svg) Problema**
 
 Substance 3D Designer non utilizza la GPU *separata* del sistema (<b>dGPU</b>) e utilizza invece la GPU *integrata* (<b>iGPU</b>). Questo comporta prestazioni ridotte durante il rendering dei grafici e/o della [vista 3D](../../interface/3d-view/3d-view.md).
 
-**![(tick)](../../assets/check.svg) Passaggi consigliati**
+**![(tick)](3d-view-issues.resources/check.svg) Passaggi consigliati**
 
 I sistemi con grafica commutabile possono *forzare la dGPU* che deve essere utilizzata per *un&#39;applicazione specifica* in un software dedicato, a seconda del produttore della GPU.
 
@@ -47,27 +47,27 @@ Ad esempio, gli utenti con una <b>Nvidia dGPU</b> possono effettuare le seguenti
 
 ## L&#39;oggetto 3D è piatto
 
-**![(errore)](../../assets/error.svg) Problema**
+**![(errore)](3d-view-issues.resources/error.svg) Problema**
 
-Un oggetto 3D che presentava volumi dettagliati in una sessione diventa piatto nella sessione successiva, tuttavia il grafico non è cambiato e la mappa del Height contiene gli stessi dati.
+Un oggetto 3D che presentava volumi dettagliati in una sessione diventa piatto nella sessione successiva, tuttavia il grafico non è cambiato e la mappa Altezza contiene gli stessi dati.
 
-**![(tick)](../../assets/check.svg) Passaggi consigliati**
+**![(tick)](3d-view-issues.resources/check.svg) Passaggi consigliati**
 
-L&#39;effetto di deformazione di un oggetto 3D in base a una mappa del Height viene eseguito utilizzando una tecnica denominata **spostamento di tassellatura**. Questa tecnica prevede due fasi:
+L&#39;effetto di deformazione di un oggetto 3D in base a una mappa dell&#39;altezza viene eseguito utilizzando una tecnica denominata **spostamento di tassellatura**. Questa tecnica prevede due fasi:
 
 1. **Tassellatura**: la geometria dell&#39;oggetto è *suddivisa* in vertici, risultando in una *geometria più densa* per supportare dettagli di volume più precisi
 2. **Spostamento**: i vertici sono *spostati*, ovvero spostati, lungo il *vettore normale*. Il vettore normale segue la direzione verso cui è rivolto un poligono e ha una grandezza (cioè lunghezza) di 1
 
 La *direzione* dello spostamento è nota: la direzione del vettore normale.\
-Lo spostamento *distanza* in base al quale vengono spostati i vertici viene calcolato come segue: `Distance = Height scale * Height map`. Poiché la mappa Height *non è stata modificata* nel grafico, rimane la **scala Height**.
+Lo spostamento *distanza* in base al quale vengono spostati i vertici viene calcolato come segue: `Distance = Height scale * Height map`. Poiché la mappa dell&#39;altezza *non è stata modificata* nel grafico, rimane la **scala dei Height**.
 
-Il valore di scala Height predefinito è **1.0** e questo può causare un effetto di spostamento *non visibile* a seconda della trama visualizzata nella vista 3D e della mappa del Height ad essa applicata.
+Il valore di scala Height predefinito è **1.0** e questo può causare un effetto di spostamento *non visibile* a seconda della trama visualizzata nel vista 3D e della mappa di altezza ad esso applicata.
 
 Questo valore può essere modificato nei modi seguenti:
 
 | Nella vista 3D | Nella vista Grafico |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Utilizza la finestra a comparsa **Spostamento** nella barra degli strumenti a sinistra.<br>Ulteriori informazioni nella [pagina dedicata](../../interface/3d-view/displacement/displacement.md). | Creare un nodo [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) e impostare l&#39;utilizzo `heightScale` nelle relative proprietà.<br>Fornire un valore a questo output con un valore, utilizzando ad esempio un [nodo mobile costante](../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.md#floats), quindi *riapplicare il grafico* nella vista 3D. |
+| Utilizza la finestra a comparsa **Spostamento** nella barra degli strumenti a sinistra.<br>Ulteriori informazioni nella [pagina dedicata](../../interface/3d-view/displacement/displacement.md). | Creare un nodo [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) e impostare l&#39;utilizzo `heightScale` nelle relative proprietà.<br>Fornire un valore a questo output con un valore, utilizzando ad esempio un [nodo di Virgola mobile costante](../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.md#floats), quindi *riapplicare il grafico* nella vista 3D. |
 
 >[!TIP]
 >
@@ -75,11 +75,11 @@ Questo valore può essere modificato nei modi seguenti:
 
 ## La vista 3D è completamente nera
 
-**![(errore)](../../assets/error.svg) Problema**
+**![(errore)](3d-view-issues.resources/error.svg) Problema**
 
 Nelle versioni 15.0.0 e successive, il riquadro della vista 3D è nero piatto. Vedo alcune sovrapposizioni di testo (ad esempio, campioni e tempo di rendering) ma la scena 3D non è visibile.
 
-**![(tick)](../../assets/check.svg) Passaggi consigliati**
+**![(tick)](3d-view-issues.resources/check.svg) Passaggi consigliati**
 
 Versione 15.1 e successive
 
@@ -97,11 +97,11 @@ Per impostazione predefinita, potete continuare a utilizzare il modulo di render
 
 1. Seleziona Modifica > Preferenze > Progetti.
 2. Seleziona l’ultimo file di progetto nell’elenco
-3. Nell’elenco dei file di progetto, seleziona la scheda vista 3D
+3. Nell’elenco dei file di progetto, seleziona la scheda Visualizzazione 3D
 4. Imposta l’opzione &quot;Modulo di rendering predefinito&quot; su &quot;OpenGL (obsoleto)&quot;
 5. Fare clic su &#39;OK&#39; per convalidare le modifiche
 
-Ora tutti i nuovi vista 3D useranno il modulo di rendering OpenGL per impostazione predefinita, che consente di continuare a lavorare come prima.
+Ora, per impostazione predefinita, in tutte le nuove viste 3D viene utilizzato il modulo di rendering OpenGL, che consente di continuare a lavorare come prima.
 
 >[!NOTE]
 >
@@ -113,30 +113,30 @@ Ora tutti i nuovi vista 3D useranno il modulo di rendering OpenGL per impostazio
 
 ## Viene visualizzato il messaggio &quot;Rendering non supportato&quot;
 
-**![(errore)](../../assets/error.svg) Problema**
+**![(errore)](3d-view-issues.resources/error.svg) Problema**
 
 Nelle versioni 15.0.0 e successive, il messaggio &quot;Modulo di rendering non supportato&quot; viene visualizzato nell’angolo inferiore destro della finestra della vista quando si utilizzano i nuovi moduli di rendering 3D (Rasterizzatore, Tracciatore percorso GPU). La scena 3D non è visibile.
 
-**![(tick)](../../assets/check.svg) Passaggi consigliati**
+**![(tick)](3d-view-issues.resources/check.svg) Passaggi consigliati**
 
 In Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md) sono stati introdotti nuovi [moduli di rendering 3D](../../interface/3d-view/3d-renderers/3d-renderers.md) interni, che utilizzano tecnologie moderne e non sono pertanto supportati dalle GPU meno recenti.
 
 Le GPU supportate includono NVIDIA RTX 20 Series (Turing) o versioni successive, in base ai [requisiti di sistema](../../getting-started/system-requirements/system-requirements.md) di Designer.
 
-In base alle impostazioni predefinite, la Vista 3D tornerà automaticamente al modulo di rendering OpenGL se l’opzione &quot;Modulo di rendering predefinito&quot; è impostata su &quot;Predefinito (modulo di rendering predefinito)&quot; nelle [Impostazioni progetto](../../interface/preferences-window/project-settings/project-settings.md).
+In base alle impostazioni predefinite, il vista 3D tornerà automaticamente al modulo di rendering OpenGL se l’opzione &quot;Modulo di rendering predefinito&quot; è impostata su &quot;Predefinito (modulo di rendering predefinito)&quot; nelle [Impostazioni progetto](../../interface/preferences-window/project-settings/project-settings.md).
 
 Questa opzione può essere individuata e regolata come descritto di seguito:
 
 1. Seleziona Modifica > Preferenze > Progetti.
 2. Seleziona l’ultimo file di progetto nell’elenco
-3. Nell’elenco dei file di progetto, seleziona la scheda Visualizzazione 3D
+3. Nell’elenco dei file di progetto, seleziona la scheda vista 3D
 4. L’opzione &quot;Modulo di rendering predefinito&quot; è elencata nelle impostazioni della scheda
 
 >[!NOTE]
 >
 > Al momento è possibile rilevare come non supportate solo le GPU della <b>serie NVIDIA GTX</b>.
 > 
-> Tuttavia, anche la maggior parte delle GPU AMD e Intel non è supportata e produrrà un rendering nero senza alcun messaggio. Consulta l&#39;elemento &quot;La vista 3D è completamente nera&quot; qui sopra per indicazioni su tali GPU.
+> Tuttavia, anche la maggior parte delle GPU AMD e Intel non è supportata e produrrà un rendering nero senza alcun messaggio. Consulta la voce &quot;vista 3D è completamente nero&quot; qui sopra per indicazioni su tali GPU.
 
 >[!IMPORTANT]
 >
@@ -144,7 +144,7 @@ Questa opzione può essere individuata e regolata come descritto di seguito:
 
 ## L&#39;oggetto 3D appare perfettamente uniforme
 
-**![(errore)](../../assets/error.svg) Problema**
+**![(errore)](3d-view-issues.resources/error.svg) Problema**
 
 Dopo aver lavorato sui dati inviati al **Height** [output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md), l&#39;oggetto sembra avere un certo volume ma *sembra perfettamente fluido*, come se le informazioni sul height fossero state ignorate nell&#39;ombreggiatura.
 
@@ -152,7 +152,7 @@ Dopo aver lavorato sui dati inviati al **Height** [output](../../compositing-gra
 <tr style="border: 0;">
 <td style="border: 0; width: 60%; vertical-align: top">
 
-**![(tick)](../../assets/check.svg) Passaggi consigliati**
+**![(tick)](3d-view-issues.resources/check.svg) Passaggi consigliati**
 
 Assicurati che i dati di height siano *convertiti in normali* connessi all&#39;**normale** [output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).
 
@@ -163,7 +163,7 @@ La soluzione è piuttosto semplice: connettere l&#39;ultimo nodo del flusso che 
 </td>
 <td style="border: 0; width: 40%; vertical-align: top">
 
-![](../../assets/3dview-height-without-normals.gif){width="256px"}
+![](3d-view-issues.resources/3dview-height-without-normals.gif){width="256px"}
 
 </td>
 </tr>
@@ -171,7 +171,7 @@ La soluzione è piuttosto semplice: connettere l&#39;ultimo nodo del flusso che 
 
 ## Il rendering è sfocato/pixelato
 
-**![(errore)](../../assets/error.svg) Problema**
+**![(errore)](3d-view-issues.resources/error.svg) Problema**
 
 L&#39;immagine sottoposta a rendering appare sfocata o pixelata quando il sistema utilizza *il ridimensionamento dello schermo*.
 
@@ -179,7 +179,7 @@ L&#39;immagine sottoposta a rendering appare sfocata o pixelata quando il sistem
 <tr style="border: 0;">
 <td style="border: 0; width: 60%; vertical-align: top">
 
-**![(tick)](../../assets/check.svg) Passaggi consigliati**
+**![(tick)](3d-view-issues.resources/check.svg) Passaggi consigliati**
 
 Per impostazione predefinita, Designer utilizza la risoluzione di visualizzazione *ridimensionata* per definire la risoluzione di rendering della [vista 3D](../../interface/3d-view/3d-view.md). Puoi modificare questa impostazione in modo che venga utilizzata la risoluzione di visualizzazione *nativa* per un rendering nitido.
 
@@ -188,7 +188,7 @@ Apri il menu **Modifica** e seleziona l&#39;opzione **Preferenze...**. Nella fin
 </td>
 <td style="border: 0; width: 40%; vertical-align: top">
 
-![](../../assets/demo-viewport-scaling-option.png){width="256px"}
+![](3d-view-issues.resources/demo-viewport-scaling-option.png){width="256px"}
 
 </td>
 </tr>
@@ -196,11 +196,11 @@ Apri il menu **Modifica** e seleziona l&#39;opzione **Preferenze...**. Nella fin
 
 ## Impossibile trovare la proprietà &#39;Fattore di tassellatura&#39;
 
-**![(errore)](../../assets/error.svg) Problema**
+**![(errore)](3d-view-issues.resources/error.svg) Problema**
 
 Dopo aver aggiornato Designer alla versione 15.0.0, non è possibile trovare il parametro &#39;Fattore di tassellatura&#39; nelle proprietà del materiale in cui si trovava.
 
-**![(tick)](../../assets/check.svg) Passaggi consigliati**
+**![(tick)](3d-view-issues.resources/check.svg) Passaggi consigliati**
 
 Quando si utilizzano nuovi moduli di rendering (rasterizzatore e Pathtracer GPU), il &quot;fattore di tassellatura&quot; si trova nelle proprietà di questi moduli di rendering. Nella vista 3D, selezionate <b>Modulo di rendering > Modifica impostazioni</b>. La proprietà verrà elencata nel Dock proprietà.
 
@@ -214,11 +214,11 @@ Quando si utilizzano nuovi moduli di rendering (rasterizzatore e Pathtracer GPU)
 
 ## Gli oggetti 3D non vengono visualizzati correttamente: la loro ombreggiatura non è adatta all&#39;illuminazione
 
-**![(errore)](../../assets/error.svg) Problema**
+**![(errore)](3d-view-issues.resources/error.svg) Problema**
 
-L’ombreggiatura degli oggetti si basa sui loro vettori normali, tangenti e binormali. Le loro coordinate usano l&#39;intervallo [-1, 1], mentre le mappe normali usano l&#39;intervallo [0, 1] nella maggior parte dei casi. Per adattare i valori da uno all&#39;altro, è necessario applicare un <b>bias e una scala</b>: valore\*scala+bias.
+L’ombreggiatura degli oggetti si basa sui loro vettori normali, tangenti e binormali. Le coordinate utilizzano l&#39;intervallo `[-1, 1]`, mentre le mappe normali utilizzano l&#39;intervallo `[0, 1]` nella maggior parte dei casi. Per adattare i valori da uno all&#39;altro, è necessario applicare <b>distorsioni e scale</b>: `value * scale + bias`.
 
-Ad esempio, una scala pari a 2 e una distorsione pari a -1 adatta il valore x da [0, 1] a [-1, 1]: x\*2-1.
+Ad esempio, una scala pari a 2 e una distorsione pari a -1 adattano il valore x da `[0, 1]` a `[-1, 1]` in modo uniforme: `x * 2 - 1`.
 
 Designer non applica una scala e una distorsione normali a meno che non siano specificate da una trama 3D. Se tali informazioni mancano, verrà generato un avviso nella console quando [si sostituisce uno dei materiali](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md):
 
@@ -227,19 +227,19 @@ Designer non applica una scala e una distorsione normali a meno che non siano sp
 ```
 
 
-**![(tick)](../../assets/check.svg) Passaggi consigliati**
+**![(tick)](3d-view-issues.resources/check.svg) Passaggi consigliati**
 
 Per le scene esportate nei formati USD poco tempo fa: riesporta la scena utilizzando una versione recente di USD, che includerà i dati necessari. Presta attenzione alle proprietà relative alla scala normale e ai pregiudizi, se presenti, che dipenderanno dal software utilizzato per esportare la scena.
 
 Quando [si esegue l&#39;override di un materiale](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md), Designer elabora la trama e calcola eventuali dati mancanti relativi alle sue normali, tangenti e binormali. Se la scala e la distorsione predefinite di Designer corrispondono a quelle richieste per la trama, quest’ultima avrà un aspetto corretto quando viene sostituita.
 
-## Arresto anomalo all’avvio della vista 3D
+## Arresto anomalo all&#39;avvio del vista 3D
 
-**![(errore)](../../assets/error.svg) Problema**
+**![(errore)](3d-view-issues.resources/error.svg) Problema**
 
-Designer si arresta in modo anomalo all’avvio della vista 3D, durante la creazione di un progetto, il caricamento di un progetto o l’avvio manuale di una vista 3D.
+Designer arresto anomalo al momento dell’avvio del vista 3D, durante la creazione di un progetto, il caricamento di un progetto o l’avvio manuale di un vista 3D.
 
-**![(tick)](../../assets/check.svg) Passaggi consigliati**
+**![(tick)](3d-view-issues.resources/check.svg) Passaggi consigliati**
 
 Per prima cosa, assicurati che il tuo sistema soddisfi i [requisiti di sistema](../../getting-started/system-requirements/system-requirements.md) di Designer.
 

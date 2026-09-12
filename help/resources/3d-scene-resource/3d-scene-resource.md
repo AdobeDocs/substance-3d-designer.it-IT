@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Risorsa scena 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: fde9d7a455c1c7b366323c119f4c1f9a2c114952
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 1%
@@ -56,7 +56,7 @@ Il collegamento di una scena 3D nel pacchetto è l&#39;unico modo per [eseguire 
 * Con la risorsa caricata in [Esplora risorse](../../interface/the-explorer-window/the-explorer-window.md), fare clic su *RMB* e selezionare l&#39;opzione <b>Esegue i baking informazioni modello</b> nel menu di scelta rapida
 * Viene visualizzata la finestra di dialogo [Esegue i baking informazioni sul modello](../../bakers/bakers.md) che consente di impostare ed eseguire tutti i esegue i baking delle mappe trama
 
-![Eseguire i baking le mappe trama](../../assets/bake-model-information.gif "Eseguire i baking le mappe trama"){width="512px"}
+![Eseguire i baking le mappe trama](3d-scene-resource.resources/bake-model-information.gif "Eseguire i baking le mappe trama"){width="512px"}
 
 ## Utilizzo riquadro UDIM/UV
 

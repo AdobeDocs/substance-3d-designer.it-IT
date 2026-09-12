@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Attivazione e licenze
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
+source-git-commit: 65a0ec6dc38e7595406c0c531be72ad1670dfb86
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,8 @@ ht-degree: 0%
 Il processo di attivazione dipende da dove hai acquistato o hai accesso a Designer:
 
 | Edizione | Processo di attivazione |
-| --- | --- |
-| Creative Cloud desktop | Consulta la pagina dedicata nella [documentazione HelpX](https://helpx.adobe.com/it/support/substance-3d-designer.html). In caso di problemi, la [documentazione di Creative Cloud](https://helpx.adobe.com/it/creative-cloud/user-guide.html) può fornire risposte aggiuntive. |
+|------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Creative Cloud desktop (CCD) | Installa il prodotto dall&#39;app CCD, quindi avvialo. Visita queste pagine se riscontri problemi con la tua licenza: [Le app non verranno avviate a causa di un errore di abbonamento](https://helpx.adobe.com/it/creative-cloud/apps/troubleshoot/launch-issues/apps-wont-launch-due-to-subscription-error.html) / [Account, piani e Guida alla fatturazione](https://helpx.adobe.com/it/account/individual.html) |
 | Vapore | Avvia il prodotto direttamente dalla libreria Steam. |
 | Substance (indipendente) | Consulta il processo di attivazione descritto di seguito. |
 

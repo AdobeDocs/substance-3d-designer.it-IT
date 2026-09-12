@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Pacchetti di plug-in
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f0ba7fcd041b7c683b77de11d923d71bec338d08
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Si tratta di singoli file con estensione sdplugin che contengono tutto ciò di c
 
 ## Installazione dei pacchetti di plug-in
 
-![Gestione plug-in](../../assets/screenshot-from-2019-07-18-11-48-56.png "Gestione plug-in")
+![Gestione plug-in](plugins-packages.resources/screenshot-from-2019-07-18-11-48-56.png "Gestione plug-in")
 
 I pacchetti di plug-in vengono installati utilizzando <b>Gestione plug-in</b>, nel menu <b>Strumenti</b>:
 

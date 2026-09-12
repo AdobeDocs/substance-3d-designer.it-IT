@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Esportazione di scene
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: fa12f0ba789f700924fa0a6f3cbc0726c5f468e9
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Per gli altri formati, il contenuto della scena e la sua struttura interna dipen
 >
 > Tutti gli elementi aggiunti alla scena da Designer verranno inclusi nella scena esportata: la videocamera predefinita, l’ambiente predefinito, tutto il materiale copia eventuali luci aggiuntive.
 
-![Azioni di esportazione scene](../../assets/exportActions.png "Azioni di esportazione scene"){zoomable="yes"}
+![Azioni di esportazione scene](exporting-scenes.resources/exportActions.png "Azioni di esportazione scene"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -65,7 +65,7 @@ Ciò significa che le modifiche apportate alla scena originale non influiscono a
 </td>
 <td style="border: 0;" valign="top">
 
-![File di scena esportati - Con unico livello](../../assets/exportFlattened.png "File di scena esportati - Con unico livello"){zoomable="yes"}
+![File di scena esportati - Con unico livello](exporting-scenes.resources/exportFlattened.png "File di scena esportati - Con unico livello"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,7 +84,7 @@ Questo significa che le modifiche apportate alla scena originale vengono trasfer
 </td>
 <td style="border: 0;" valign="top">
 
-![File di scena esportati - Con livelli](../../assets/exportLayered.png "File di scena esportati - Con livelli"){zoomable="yes"}
+![File di scena esportati - Con livelli](exporting-scenes.resources/exportLayered.png "File di scena esportati - Con livelli"){zoomable="yes"}
 
 </td>
 </tr>
@@ -102,6 +102,6 @@ I file esportati seguono questa struttura:
 
 ## Texture
 
-Le texture vengono esportate in una directory accanto al file esportato e prendono il nome da esso, con il suffisso ‘<b>\_textures</b>’.
+Le texture vengono esportate in una directory accanto al file esportato e prendono il nome da esso, con il suffisso ‘<b>\_texture</b>’.
 
 Utilizzano il formato <b>PNG</b>, ad eccezione delle texture HDR (a virgola mobile) che utilizzano il formato <b>EXR</b>.
