@@ -198,7 +198,7 @@ Tieni presente che questi aggiornamenti hanno due conseguenze principali:
 * [Content] Nodo &#39;Negate Float1&#39; deprecato nel grafico della funzione Substance
 * [Content] Rinomina &quot;Quantizza colore&quot; in &quot;Quantizza colore (semplice)&quot;
 * [Vista 2D] Visualizza i valori nel pannello Informazioni per i pixel esterni all’intervallo 0-1
-* [Engine][Testo] Nuova crenatura per alcuni font
+* [Engine]&#x200B;[Testo] Nuova crenatura per alcuni font
 * [Grafico] Miglioramento del tempo di invalidamento durante la modifica di grafici secondari profondi durante l&#39;utilizzo di un&#39;edizione contestuale
 * [Linker] Non duplicare bitmap in SBSASM
 * [Parameters] Aggiungere un nuovo widget &quot;function&quot; per tutti i tipi di parametri di input
