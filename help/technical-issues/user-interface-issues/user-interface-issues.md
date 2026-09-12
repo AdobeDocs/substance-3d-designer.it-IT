@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/technical-issues/user-interface-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/user-interface-issues.html"
 breadcrumb-title: ''
 description: Risoluzione dei problemi dell'interfaccia utente in Substance 3D Designer, inclusi problemi di visualizzazione e problemi dell'interfaccia utente.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Problemi dell'interfaccia utente
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 734525cdd187aac666168f8a9e1f9e49f3dad03e
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 5%
@@ -28,14 +28,14 @@ In questa pagina vengono elencati i problemi tecnici relativi all&#39;[interfacc
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-**![(出错)](../../assets/error.svg) Problema**
+**![(出错)](user-interface-issues.resources/error.svg) Problema**
 
 Gli elementi dell&#39;interfaccia utente sono troppo piccoli o troppo grandi.
 
 </td>
 <td style="border: 0;" valign="top">
 
-**![(滴答)](../../assets/check.svg) Passaggi consigliati**
+**![(滴答)](user-interface-issues.resources/check.svg) Passaggi consigliati**
 
 Designer acquisisce la scala specifica degli elementi dell&#39;interfaccia utente *dal sistema operativo*. Pertanto, qualsiasi regolazione del ridimensionamento dell&#39;interfaccia utente deve essere effettuata nelle impostazioni di visualizzazione del sistema operativo.
 
