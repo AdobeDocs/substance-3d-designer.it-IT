@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
+breadcrumb-title: ""
 description: Scoprite come gestire e organizzare i parametri nei grafici di composizione delle Substance per una migliore organizzazione del flusso di lavoro.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Manage parameters
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Gestisci i parametri
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: de08d20ea8428939ccfd3f31497c0f17421b9254
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 3%
-
 ---
-
 
 # Gestisci i parametri
 
@@ -108,7 +106,7 @@ Le stesse limitazioni elencate di seguito per i nodi atomici si applicano a ques
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
 
-![&#x200B; menu &#39;Gestisci parametri&#39; nel menu contestuale del nodo](manage-parameters.resources/manage-parameters-node-menu.png " menu &#39;Gestisci parametri&#39; nel menu contestuale del nodo"){zoomable="yes"}
+![ menu &#39;Gestisci parametri&#39; nel menu contestuale del nodo](manage-parameters.resources/manage-parameters-node-menu.png " menu &#39;Gestisci parametri&#39; nel menu contestuale del nodo"){zoomable="yes"}
 
 </td>
 </tr>
@@ -122,7 +120,7 @@ Le stesse limitazioni elencate di seguito per i nodi atomici si applicano a ques
 
 È possibile copiare tutti i valori dei parametri per un nodo di origine e incollarli in un nodo di destinazione. I parametri dei nodi di origine e di destinazione sono <b>corrispondenti in base ai relativi identificatori e tipi</b>.
 
-Ad esempio, un parametro &#39;Scale&#39; con identificatore &#39;scale&#39; e tipo &#39;Float&#39; può essere copiato e incollato in un altro parametro &#39;Shape Scale&#39; quando anche l&#39;identificatore è &#39;scale&#39; e il relativo tipo è &#39;Float&#39;.
+Un parametro &#39;Scale&#39;, ad identificatore &#39;scale&#39; e il tipo &#39;Virgola mobile&#39;, può essere copiato e incollato su un altro parametro &#39;Shape Scale&#39;, quando l&#39;identificatore è anche &#39;scale&#39; e il tipo è anche &#39;Virgola mobile&#39;.
 
 Questa funzionalità funziona come l&#39;utilizzo di un [file di parametri predefiniti](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md). In effetti, i dati copiati negli Appunti sono gli stessi dei dati memorizzati nei file dei predefiniti SBSPRS e possono essere incollati in qualsiasi editor di testo per essere rivisti e modificati.
 
@@ -165,11 +163,11 @@ Queste azioni...
 
 [Mappa sfumatura](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)
 
-[Colore di input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[Colore di input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)
 
-[Scala di grigi di input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[Scala di grigi di input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-grayscale/input-grayscale.md)
 
-[Valore di input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[Valore di input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)
 
 [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
 

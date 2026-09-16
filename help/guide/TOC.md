@@ -3,9 +3,9 @@ user-guide-title: Substance 3D Designer
 breadcrumb-title: Substance 3D Designer
 user-guide-description: Substance 3D Designer
 nudge: true
-source-git-commit: 881117156de44a7776822e05c585a8d52d24afbc
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
-source-wordcount: '1900'
+source-wordcount: '1905'
 ht-degree: 21%
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 21%
       + [Effetti post](/help/interface/3d-view/camera/post-effects/post-effects.md)
     + [Proprietà dei materiali](/help/interface/3d-view/material-properties/material-properties.md)
     + Obsoleto{#deprecated}
-      + [OpenGL - Shader GLSLFX](/help/interface/3d-view/glslfx-shaders/glslfx-shaders.md)
+      + [OpenGL - Ombreggiatori GLSLFX](/help/interface/3d-view/glslfx-shaders/glslfx-shaders.md)
       + [OpenGL - Passaggio degli shader al profilo principale OpenGL](/help/interface/3d-view/switching-your-shaders/switching-your-shaders-to-opengl-core-profile.md)
   + [Gestione dipendenze](/help/interface/dependency-manager/dependency-manager.md)
 + Risorse{#resources}
@@ -130,7 +130,9 @@ ht-degree: 21%
       + [Elaboratore valori](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)
       + [Altera](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)
       + [Output](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
-      + [Input](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+      + [Colore di input](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)
+      + [Scala di grigi di input](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input-grayscale/input-grayscale.md)
+      + [Valore di input](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)
     + Libreria nodi{#node-library}
       + [Libreria nodi](/help/compositing-graphs/nodes-reference-for-com/node-library/node-library.md)
       + Generatori di texture{#texture-generators}

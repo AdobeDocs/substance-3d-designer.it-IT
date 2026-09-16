@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/getting-started/shortcuts.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/shortcuts.html"
+breadcrumb-title: ""
 description: Scopri le scelte rapide da tastiera in Substance 3D Designer per velocizzare il flusso di lavoro e migliorare la produttività.
 helpx_creative_field: ""
 helpx_description: Designer > Getting started > Shortcuts
@@ -8,25 +8,17 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Scelte rapide
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '339'
 ht-degree: 17%
-
 ---
-
 
 # Scelte rapide
 
 In questa pagina puoi trovare una panoramica di tutte le scelte rapide per Substance 3D Designer.
-
-## Sommario
-
-[Keymap](#keymaps)
-
-[Elenchi di collegamenti](#shortcuts-lists)
 
 ## Keymap
 

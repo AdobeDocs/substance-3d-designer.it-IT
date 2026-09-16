@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html"
+breadcrumb-title: ""
 description: Utilizzate le istanze e i grafici secondari del grafico per creare componenti grafici riutilizzabili e flussi di lavoro di materiale modulare.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Creating a Substance compositing graph > Graph instances and subgraphs
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Istanze e grafici secondari del grafico
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 7e53313d3c368803a95ebb1f9eee712ae2a05817
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 0%
-
 ---
-
 
 # Istanze e grafici secondari del grafico
 
@@ -42,7 +40,7 @@ Trascinare un grafico A da Esplora risorse in un altro grafico B per creare un <
 
 I nodi possono essere rapidamente divisi in un nuovo grafico selezionando i nodi e utilizzando &quot;Crea grafico da selezione&quot; nel menu di scelta rapida. Viene quindi richiesto di impostare l&#39;identificatore del nuovo grafico, che deve essere univoco.
 
-Si noti che se i nodi selezionati erano connessi ad altri nodi nel grafico, è necessario creare anche nodi [Input](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) e [Output](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) nel nuovo grafico per trasferire queste connessioni al grafico secondario.
+Si noti che se i nodi selezionati erano connessi ad altri nodi nel grafico, è necessario creare anche nodi [Input](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) e [Output](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) nel nuovo grafico per trasferire queste connessioni al grafico secondario.
 
 Inoltre, la sostituzione dei nodi originali con un nodo di istanza che fa riferimento al nuovo grafico deve essere eseguita manualmente in seguito.
 

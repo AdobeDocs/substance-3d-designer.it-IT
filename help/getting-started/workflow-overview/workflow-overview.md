@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/getting-started/workflow-overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/workflow-overview.html"
 breadcrumb-title: ""
-description: Scopri il flusso di lavoro essenziale per la creazione di materiali procedurali in Substance 3D Designer dall’inizio alla fine.
+description: Scopri il flusso di lavoro essenziale per creare materiali procedurali in Substance 3D Designer dall’inizio alla fine.
 helpx_creative_field: ""
 helpx_description: Designer > Getting started > Workflow overview
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Panoramica del flusso di lavoro
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: f475b696f2d3ff6c453c5dc27e5672d55d72116e
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 0%
@@ -85,7 +85,7 @@ Il testo con il numero o il thickness del bordo può essere esposto esternamente
 
 ![Filtro di regolazione nel grafico della Substance](workflow-overview.resources/simplefilter.png "Filtro di regolazione nel grafico della Substance"){width="512px" zoomable="yes"}
 
-Un grafico di filtro prende una mappa normale come [input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) (con un&#39;anteprima personalizzata), [la converte in curvatura](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md) e quindi [regola il contrasto](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md) per creare una maschera di bordi convessi come [output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) finale.
+Un grafico di filtro prende una mappa normale come [input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) (con un&#39;anteprima personalizzata), [la converte in curvatura](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md) e quindi [regola il contrasto](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md) per creare una maschera di bordi convessi come [output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) finale.
 
 I valori di contrasto impostati nell’istogramma possono essere esposti, rendendo questo un filtro semplice ma utile in combinazione con lo slot di input dinamico.
 

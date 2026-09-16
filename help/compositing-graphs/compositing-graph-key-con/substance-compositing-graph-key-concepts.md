@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/substance-compositing-graph-key-concepts.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/substance-compositing-graph-key-concepts.html"
+breadcrumb-title: ""
 description: Scoprite i concetti chiave dei grafici per la composizione delle Substance, inclusi nodi, connessioni e nozioni di base del flusso di lavoro.
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs > Substance graph key concepts
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Concetti fondamentali del grafico Substance
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '859'
 ht-degree: 1%
-
 ---
-
 
 # Concetti fondamentali del grafico Substance
 
@@ -43,7 +41,7 @@ Ecco alcuni aspetti da considerare sugli Output:
 * Gli output possono e devono essere <b>denominati in modo univoco</b> per identificarli; è utile durante l&#39;esportazione.
 * Ogni connettore sul lato destro di qualsiasi nodo è in realtà un output (vedere &quot;Sottografi per maggiori informazioni)
 
-Un [input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) è simile a un output, ma è uno slot vuoto e aperto a cui è possibile connettersi con i propri dati. Consente di creare un grafico con dati immagine esterni definiti dall’utente, ad esempio un filtro che modifica un’immagine di input (ad esempio, una Sfocatura o una regolazione Contrasto).
+Un [input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) è simile a un output, ma è uno slot vuoto e aperto a cui è possibile connettersi con i propri dati. Consente di creare un grafico con dati immagine esterni definiti dall’utente, ad esempio un filtro che modifica un’immagine di input (ad esempio, una Sfocatura o una regolazione Contrasto).
 
 Ecco alcuni aspetti da considerare:
 

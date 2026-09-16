@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/properties.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/properties.html"
+breadcrumb-title: ""
 description: Usate il pannello Proprietà in Substance 3D Designer per visualizzare e modificare le proprietà dei nodi e i parametri dei grafici.
 helpx_creative_field: ""
 helpx_description: Designer > Interface > Properties
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Proprietà
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 16eb8a173e984f842c820f3b8f0c3e140040bdfa
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '406'
 ht-degree: 0%
-
 ---
-
 
 # Proprietà
 
@@ -61,7 +59,7 @@ I nodi e i [grafici a Substance](../../compositing-graphs/substance-compositing-
 
 I nodi offrono <b>parametri specifici</b> o<b> parametri di istanza</b> (a seconda che siano [nodi atomici](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) o [istanze](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)), nonché <b>valori di input</b> per l&#39;utilizzo di [valori](../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md).
 
-I nodi [Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)e [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)atomici sono eccezioni in quanto presentano <b>Attributi di integrazione</b> e <b>Condizioni</b> per la visibilità. È possibile accedere a questi due insiemi di proprietà anche in modo centralizzato nelle proprietà del grafico, in Input e Output.
+I nodi atomici [Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) e [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) sono eccezioni in quanto presentano <b>Attributi di integrazione</b> e <b>Condizioni</b> per la visibilità. È possibile accedere a questi due insiemi di proprietà anche in modo centralizzato nelle proprietà del grafico, in Input e Output.
 
 I grafici hanno alcune categorie in più. <b>I parametri di input</b> elencano [parametri esposti](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), <b>Input</b> e <b>Output</b> elencano tutte le proprietà dei nodi di input e di output. [Tutte le proprietà del grafico illustrate in dettaglio sono disponibili in una pagina dedicata.](../../compositing-graphs/graph-parameters/graph-parameters.md)
 
