@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
 breadcrumb-title: ""
 description: Utilizza il nodo Curva per regolare i valori della texture utilizzando curve personalizzabili per un controllo preciso del colore e della luminosità.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Curva
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 2%
@@ -20,14 +20,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![Nodo atomico: curva](curve.resources/comp_curve_1.png "Nodo atomico: curva"){width="100%"}
 
 <b>In:</b> Nodi Atomici
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Modifica i valori di un’immagine utilizzando una curva personalizzata.
 
@@ -39,9 +39,9 @@ Il nodo fornisce un&#39;interfaccia per la modifica della tonalità dell&#39;imm
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="curve.resources/curve-tooltip.gif" alt="descrizione comando curva" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="curve.resources/curve-tooltip.gif" alt="descrizione comando curva" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 

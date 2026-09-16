@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
 breadcrumb-title: ""
 description: Utilizzate il nodo Mappa sfumatura per mappare i valori della scala di grigio ai colori utilizzando le sfumature per la colorizzazione e gli effetti.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mappa sfumatura
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '1160'
 ht-degree: 2%
@@ -20,14 +20,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![Nodo atomico: mappa sfumatura](gradient-map.resources/comp_gradient_1.png "Nodo atomico: mappa sfumatura"){width="100%"}
 
 <b>In:</b> Nodi Atomici
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Modifica i valori in scala di grigi di un’immagine utilizzando una sfumatura personalizzata.
 
@@ -39,9 +39,9 @@ Questo nodo ha un duplice scopo: può essere utilizzato semplicemente come <b> <
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="descrizione di gradient-map" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="descrizione di gradient-map" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
@@ -59,14 +59,14 @@ Il nodo offre un editor delle sfumature avanzato e ricco di funzionalità per ma
 
 Questa finestra offre controlli per modificare la sfumatura di riferimento utilizzata dal nodo Mappa sfumatura per mappare i valori della scala di grigio ai colori.
 
-È possibile aprirlo dalle <b>Proprietà</b> del nodo della Mappa sfumatura nei modi seguenti:
+Può essere aperto dalle <b>Proprietà</b> del nodo Mappa sfumatura nei modi seguenti:
 
 * Fai clic su LMB sul pulsante <b>Editore sfumatura</b>.
-* Fate doppio clic su LMB su un segnaposto nella barra della sfumatura. Il segnaposto su cui si fa clic verrà selezionato automaticamente in Editore sfumatura, per consentirvi di modificarne direttamente i valori.
+* Fate doppio clic su LMB su una puntina nella barra della sfumatura. La puntina su cui hai fatto clic verrà selezionata automaticamente in Editore sfumatura, così potrai modificarne direttamente i valori.
 
 ![Editore sfumatura](gradient-map.resources/image2017-2-17-16-13-5.png "Editore sfumatura")
 
-### Modifica dei segnaposti delle sfumature
+### Modifica delle puntine della sfumatura
 
 I colori e la loro posizione lungo la sfumatura sono controllati dai segnaposti posizionati lungo la barra della sfumatura.
 

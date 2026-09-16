@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
 breadcrumb-title: ""
 description: Utilizzate il nodo Sfumatura (Dinamica) per creare sfumature dinamiche che possono essere controllate dai parametri e dai valori di input.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Sfumatura (dinamica)
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 8%
@@ -20,14 +20,14 @@ ht-degree: 8%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![Nodo atomico: Sfumatura dinamica](gradient-dynamic.resources/comp_dyngradient_1.png "Nodo atomico: Sfumatura dinamica"){width="100%"}
 
 <b>In:</b> Nodi Atomici
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Modifica i valori in scala di grigi di un’immagine utilizzando una sfumatura fornita da una riga o colonna di pixel in un’altra immagine.
 
@@ -39,9 +39,9 @@ Funziona come una leggera alternativa al nodo sfumatura, ma a differenza del nod
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="gradient-dynamic.resources/gradient-dynamic-tooltip.gif" alt="descrizione-dinamica-sfumatura" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="gradient-dynamic.resources/gradient-dynamic-tooltip.gif" alt="descrizione-dinamica-sfumatura" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
@@ -59,9 +59,9 @@ In alternativa, il cursore Posizione input sfumatura può essere utilizzato per 
 
 |  |  |
 | --- | --- |
-| <b>Indirizzamento sfumatura</b> *Booleano* | Consente di impostare se la sfumatura deve essere ripetuta (affiancata) o bloccata.   Questo parametro determina come vengono gestiti i pixel HDR fuori dall’intervallo [0, 1] dell’input in scala di grigio: bloccati o piegati fino a [0, 1]. |
+| <b>Indirizzamento sfumatura</b> *Booleano* | Consente di impostare se la sfumatura deve essere ripetuta (affiancata) o bloccata.   Questo parametro determina il modo in cui vengono gestiti i pixel HDR fuori dall’intervallo [0, 1] dell’input in scala di grigio: bloccati o piegati fino a [0, 1]. |
 | <b>Orientamento sfumatura</b> *Numero intero* | Imposta l’asse lungo il quale deve essere campionato l’input della sfumatura:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Orizzontale:</i> campionare una riga di pixel sull&#39;asse X.</li> <li data-preserve-html="true"><i>Verticale:</i> campionare una colonna di pixel sull&#39;asse Y.</li> </ul> |
-| <b>Posizione di input sfumatura</b> *Mobile* | Posizione normalizzata della riga o colonna di pixel da campionare nell’input sfumatura. |
+| <b>Posizione di input sfumatura</b> *Virgola mobile* | Posizione normalizzata della riga o colonna di pixel da campionare nell’input sfumatura. |
 
 ## Connettori di ingresso
 

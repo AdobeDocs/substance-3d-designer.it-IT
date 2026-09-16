@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
 breadcrumb-title: ""
 description: Utilizzate il nodo SVG per importare ed eseguire il rendering della grafica vettoriale di SVG come texture per la creazione di elementi grafici scalabili.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: SVG
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
@@ -20,14 +20,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![Nodo atomico: SVG](svg.resources/comp_svg_1.png "Nodo atomico: SVG"){width="100%"}
 
 <b>In:</b> Nodi Atomici
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Esegue il rendering di un&#39;immagine [SVG](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) come bitmap. In altre parole, mappa le forme vettoriali sui pixel.
 
@@ -39,9 +39,9 @@ Esistono alcuni modi per creare questo nodo e tutti richiedono di comprendere[la
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="svg.resources/svg-tooltip.gif" alt="descrizione comando svg" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="svg.resources/svg-tooltip.gif" alt="descrizione comando svg" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 

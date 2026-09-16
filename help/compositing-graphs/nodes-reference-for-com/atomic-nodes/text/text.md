@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/text.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/text.html"
 breadcrumb-title: ""
 description: Utilizza il nodo Testo per generare texture di testo con font e stili personalizzabili per creare pattern basati su testo.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Testo
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 1%
@@ -20,14 +20,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![Nodo atomico: Testo](text.resources/comp_text_1.png "Nodo atomico: Testo"){width="100%"}
 
 <b>In:</b> Nodi Atomici
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Il nodo Testo fornisce un modo per inserire il testo creato dall&#39;utente nei grafici. Gli utenti possono anche selezionare impostazioni come Font, Allineamento e rotazione per personalizzare il posizionamento del testo.
 
@@ -39,9 +39,9 @@ Il nodo Testo è molto potente e l&#39;unico modo per inserire facilmente il tes
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="text.resources/text-tooltip.gif" alt="descrizione comando testo" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="text.resources/text-tooltip.gif" alt="descrizione comando testo" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 

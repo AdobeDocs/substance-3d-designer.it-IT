@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/warp.html"
 breadcrumb-title: ""
 description: Usate il nodo Altera per applicare alle texture gli effetti di distorsione e di spostamento necessari per la creazione di effetti di alterazione.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Altera
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 9%
@@ -20,14 +20,14 @@ ht-degree: 9%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![Nodo atomico: Altera](warp.resources/comp_warp_1.png "Nodo atomico: Altera"){width="100%"}
 
 <b>In:</b> Nodi Atomici
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Disperde i valori dei pixel nell’immagine di input in base alle pendenze calcolate da un input di sfumatura a parte, con conseguente deformazione.
 
@@ -39,9 +39,9 @@ A differenza dell’Alterazione direzionale, questo nodo si allontana in modo un
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="warp.resources/warp-tooltip.gif" alt="descrizione comando altera" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="warp.resources/warp-tooltip.gif" alt="descrizione comando altera" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 

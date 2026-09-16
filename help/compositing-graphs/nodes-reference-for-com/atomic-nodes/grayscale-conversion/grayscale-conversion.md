@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/grayscale-conversion.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/grayscale-conversion.html"
 breadcrumb-title: ""
-description: Utilizzare il nodo Conversione gradazioni di grigio per convertire le texture di colore in gradazioni di grigio utilizzando vari metodi di conversione.
+description: Utilizzare il nodo Conversione in scala di grigi per convertire le texture a colori in scala di grigio utilizzando vari metodi di conversione.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Grayscale conversion
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Conversione in scala di grigi
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 7%
@@ -20,14 +20,14 @@ ht-degree: 7%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![Nodo atomico: conversione in scala di grigi](grayscale-conversion.resources/comp_grayscaleconversion_1.png "Nodo atomico: conversione in scala di grigi"){width="100%"}
 
 <b>In:</b> Nodi Atomici
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Converte un’immagine a colori in scala di grigi pesando la luminanza di ciascun canale di colore.
 
@@ -39,9 +39,9 @@ Questo nodo può essere utilizzato come metodo ottimizzato per estrarre un canal
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="grayscale-conversion.resources/grayscale-conversion-tooltip.gif" alt="descrizione comando conversione scala di grigi" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="grayscale-conversion.resources/grayscale-conversion-tooltip.gif" alt="descrizione comando conversione scala di grigi" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
@@ -57,9 +57,9 @@ Ciò significa che un nodo di conversione della scala di grigi è generalmente r
 
 |  |  |
 | --- | --- |
-| <b>Spessori canale</b> *Float4* | Imposta lo spessore di ciascuno dei canali RGBA nella conversione in scala di grigio.   Per impostazione predefinita, viene effettuata una divisione uniforme sui canali RGB. |
-| <b>Alfa unico livello</b> *Booleano* | Imposta il comportamento dell&#39;Alpha sul risultato finale in scala di grigio, in quanto i valori in scala di grigio non possono contenere informazioni Alpha.   Se *è True*, la conversione in scala di grigio viene moltiplicata per il canale di Alpha dell&#39;immagine di input. |
-| <b>Valore sfondo</b> *Mobile* | Imposta il valore dello sfondo di base quando l’input ha una maschera alfa. Ad esempio, determina quali pixel devono essere trattati come trasparenti.   *Disponibile quando &#39;Unico livello alfa&#39; è impostato su &#39;True&#39;.* |
+| <b>Spessori canale</b> *Virgola mobile 4* | Imposta lo spessore di ciascuno dei canali RGBA nella conversione in scala di grigio.   Per impostazione predefinita, viene effettuata una divisione uniforme sui canali RGB. |
+| <b>Alfa unico livello</b> *Booleano* | Imposta il comportamento dell&#39;Alpha sul risultato finale in scala di grigio, in quanto i valori in scala di grigio non possono contenere informazioni Alpha.   Se *è True*, la conversione in scala di grigio viene moltiplicata per il Canale alfa dell&#39;immagine di input. |
+| <b>Valore sfondo</b> *Virgola mobile* | Imposta il valore dello sfondo di base quando l’input ha una maschera alfa. Ad esempio, determina quali pixel devono essere trattati come trasparenti.   *Disponibile quando &#39;Unico livello alfa&#39; è impostato su &#39;True&#39;.* |
 
 ## Connettori di ingresso
 

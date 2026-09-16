@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/emboss.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/emboss.html"
 breadcrumb-title: ""
 description: Usate il nodo Effetto rilievo per creare effetti in rilievo sulle texture e aggiungere profondità e rilievo ai dettagli delle superfici.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Effetto rilievo
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 9%
@@ -20,14 +20,14 @@ ht-degree: 9%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![Nodo atomico: Effetto rilievo](emboss.resources/comp_emboss_1.png "Nodo atomico: Effetto rilievo"){width="100%"}
 
 <b>In:</b> Nodi Atomici
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Applica un effetto rilievo illuminando i lati delle forme in un’immagine a seconda della direzione della sorgente di luce specificata.
 
@@ -39,9 +39,9 @@ Ad esempio, il nodo esegue una semplice ombreggiatura 2D basata su 2 input, simu
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="emboss.resources/emboss-tooltip.gif" alt="Descrizione comando effetto rilievo" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="emboss.resources/emboss-tooltip.gif" alt="Descrizione comando effetto rilievo" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
 breadcrumb-title: ""
 description: Utilizzate il nodo Fusione per fondere due texture insieme utilizzando vari metodi di fusione per la creazione di effetti compositi.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Fusione
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 8%
@@ -20,18 +20,18 @@ ht-degree: 8%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![Nodo atomico: Fusione](blend.resources/comp_blend_1.png "Nodo atomico: Fusione"){width="100%"}
 
 <b>In:</b> Nodi Atomici
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Combina due immagini usando un metodo di fusione specificato e una maschera facoltativa.
 
-È il nodo più utile di tutti i nodi atomici, quasi tutti i grafici creati in [Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html) utilizzeranno questo nodo.
+È il nodo più utile di tutti i nodi atomici, quasi tutti i grafici creati in [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) utilizzeranno questo nodo.
 
 </td>
 </tr>
@@ -39,13 +39,13 @@ Combina due immagini usando un metodo di fusione specificato e una maschera faco
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="blend.resources/blend-tooltip.gif" alt="descrizione comando fusione" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="blend.resources/blend-tooltip.gif" alt="descrizione comando fusione" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
-La sua funzionalità è simile a quella di due livelli sovrapposti in [Substance 3D Painter](https://www.adobe.com/it/products/substance3d-painter.html) o [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html), che si fondono insieme in base al metodo di fusione impostato sul livello superiore.
+La sua funzionalità è simile a quella di due livelli sovrapposti in [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) o [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html), che si fondono insieme in base al metodo di fusione impostato sul livello superiore.
 
 >[!TIP]
 >
@@ -66,13 +66,13 @@ La sua funzionalità è simile a quella di due livelli sovrapposti in [Substance
 
 |  |  |
 | --- | --- |
-| <b>Primo piano</b> *Scala di grigi/Colore* | Livello superiore o di primo piano dell’operazione Fusione. |
+| <b>Primo piano</b> *Scala di grigi/Colore* | Livello superiore o di primo piano dell&#39;operazione di fusione. |
 | <b>Sfondo</b> *Scala di grigi/Colore* PRIMARIO | Livello inferiore o di sfondo dell&#39;operazione di fusione. |
 | <b>Opacità</b> *Scala di grigi* | Input maschera di Alpha opzionale. |
 
 >[!IMPORTANT]
 >
-> I nodi Fusione dispongono di input dinamici che passano da Scala di grigio a Colore a seconda delle connessioni.<b> Un nodo Fusione può unire solo due input dello stesso tipo</b>.
+> I nodi di fusione hanno input dinamici che passano dalla scala di grigi al colore a seconda delle connessioni.<b> Un nodo di blend può unire solo due input dello stesso tipo</b>.
 > 
 > Collegando un input a colori e in scala di grigi a primo piano e sfondo si ottiene una linea di connessione tratteggiata rossa, a indicare un errore di calcolo.
 > 
