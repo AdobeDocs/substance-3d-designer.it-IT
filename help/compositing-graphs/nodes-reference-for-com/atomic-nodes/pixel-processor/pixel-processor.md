@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
 breadcrumb-title: ""
-description: Utilizzate il nodo di Elaboratore pixel per elaborare i singoli pixel utilizzando espressioni personalizzate per una manipolazione avanzata della texture.
+description: Utilizzate il nodo Processore pixel per elaborare singoli pixel utilizzando espressioni personalizzate per una manipolazione avanzata delle texture.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Pixel processor
 helpx_experience_level: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Elaboratore pixel
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '353'
 ht-degree: 1%
 ---
 
@@ -20,16 +20,18 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td width="20%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
-![Nodo atomico: Elaboratore pixel](pixel-processor.resources/comp_pixelprocessor_1.png "Nodo atomico: Elaboratore pixel"){width="100%"}
+![Nodo atomico: processore pixel](pixel-processor.resources/comp_pixelprocessor_1.png "Nodo atomico: processore pixel"){width="100%"}
+
+<b>In:</b> Nodi Atomici
 
 </td>
 <td style="border: 0;" valign="top">
 
 Genera un&#39;immagine in cui il valore di ogni pixel è il risultato del [grafico della funzione Substance](../../../../function-graphs/the-function-graph/the-function-graph.md) specificato.
 
-L’Elaboratore pixel consente di eseguire una funzione personalizzata per ogni pixel restituito come output, su un input opzionale.
+Il processore pixel consente di eseguire una funzione personalizzata per ogni pixel restituito come output, su un input opzionale.
 
 È di gran lunga il nodo più versatile, in quanto consente di eseguire qualsiasi operazione matematica e di restituire risultati all&#39;interno del grafico.
 
@@ -37,24 +39,30 @@ L’Elaboratore pixel consente di eseguire una funzione personalizzata per ogni 
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="pixel-processor.resources/pixel-processor-tooltip.gif" alt="descrizione comando del processore pixel" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="pixel-processor.resources/pixel-processor-tooltip.gif" alt="descrizione comando del processore pixel" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
-Analogamente a [FX-Map](../../../../function-graphs/fxmaps/fxmaps.md), richiede la configurazione della funzionalità interna per eseguire qualsiasi operazione. L’Elaboratore pixel che differisce da FX-Map è il fatto che non è focalizzato sul posizionamento di pattern, con funzioni multiple che controllano la forma e il posizionamento di un pattern. Viene invece eseguita in parallelo una singola funzione per ogni pixel, in cui ciascun pixel non è a conoscenza dei risultati del calcolo dei pixel vicini.
+Analogamente a [FX-Map](../../../../function-graphs/fxmaps/fxmaps.md), richiede la configurazione della funzionalità interna per eseguire qualsiasi operazione. La differenza tra il processore Pixel e FX-Map risiede nel fatto che non è focalizzato sul posizionamento dei pattern, con funzioni multiple che controllano la forma e il posizionamento dei pattern. Viene invece eseguita in parallelo una singola funzione per ogni pixel, in cui ciascun pixel non è a conoscenza dei risultati del calcolo dei pixel vicini.
 
-L&#39;Elaboratore pixel è simile al [Processore di valori](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md), che viene eseguito solo su valori singoli e può fornire una buona ottimizzazione rispetto all&#39;Elaboratore pixel.
+Il processore pixel è simile al [processore valore](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md), che viene eseguito solo su valori singoli e può fornire una buona ottimizzazione rispetto al processore pixel.
 
-Per tutti gli utenti abituati a creare le funzioni [shader](../../../../glossary/glossary.md) in editor basati su nodi, l&#39;Elaboratore pixel deve offrire un ambiente familiare.
+Per tutti coloro che sono abituati a creare funzioni [shader](../../../../glossary/glossary.md) in editor basati su nodi, il processore Pixel deve offrire un ambiente familiare.
 
 
 >[!TIP]
 >
-> Nella sezione [Grafici di Substance di esempio](../../../../compositing-graphs/sample-compositing-graphs/sample-substance-compositing-graphs.md) di questa documentazione è disponibile un file di progetto annotato che illustra gli usi semplici del nodo di Elaboratore pixel.
+> Nella sezione [Esempi di grafici a Substance](../../../../compositing-graphs/sample-compositing-graphs/sample-substance-compositing-graphs.md) di questa documentazione è disponibile un file di progetto annotato che illustra gli usi semplici del nodo del processore Pixel.
 > 
-> Il nodo [Processore di valori](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) è un buon punto di partenza per conoscere i [grafici delle funzioni Substance](../../../../function-graphs/the-function-graph/the-function-graph.md).
+> Il nodo [Processore valori](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) è un buon punto di partenza per conoscere i [grafici delle funzioni Substance](../../../../function-graphs/the-function-graph/the-function-graph.md).
 > 
 > Tenete inoltre presente che l&#39;utilizzo di questo tipo di grafico e l&#39;esecuzione di operazioni matematiche sono obbligatori per ottenere qualsiasi risultato da questo nodo.
 > 
-> Ti consigliamo inoltre di familiarizzare con il concetto di [UV](../../../../glossary/glossary.md), [campionamento della texture](../../../../glossary/glossary.md) e vettori.
+> Ti consigliamo inoltre di familiarizzare con il concetto di [UV](../../../../glossary/glossary.md), [campionamento delle texture](../../../../glossary/glossary.md) e vettori.
 
 
 ## Parametri
@@ -62,7 +70,7 @@ Per tutti gli utenti abituati a creare le funzioni [shader](../../../../glossary
 |  |  |
 | --- | --- |
 | <b>Metodo colore</b> *Booleano* | Alterna tra un’immagine in scala di grigio e un’immagine a colori in output. |
-| <b>Funzione per pixel</b> *Virgola mobile/Virgola mobile4* | [Grafico a funzioni Substance](../../../../function-graphs/the-function-graph/the-function-graph.md) valutato per pixel nell&#39;immagine di output.   Utilizzare il nodo [Get Virgola mobile2](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md) impostato sulla variabile <b>$pos</b> per accedere alla posizione [normalizzata](../../../../glossary/glossary.md) del pixel corrente. |
+| <b>Funzione per pixel</b> *Float/Float4* | [Grafico a funzioni Substance](../../../../function-graphs/the-function-graph/the-function-graph.md) valutato per pixel nell&#39;immagine di output.   Utilizzare il nodo [Get Float2](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md) impostato sulla variabile <b>$pos</b> per accedere alla posizione [normalizzata](../../../../glossary/glossary.md) del pixel corrente. |
 
 ## Connettori di ingresso
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/distance.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/distance.html"
 breadcrumb-title: ""
 description: Utilizzate il nodo Distanza per calcolare le mappe di distanza dalle forme per la creazione di maschere ed effetti procedurali.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Distanza
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '395'
 ht-degree: 8%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 8%
 
 <table>
 <tr style="border: 0;">
-<td width="20%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![Nodo atomico: Distanza](distance.resources/comp_distance_1.png "Nodo atomico: Distanza"){width="100%"}
+
+<b>In:</b> Nodi Atomici
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +37,13 @@ Questo nodo crea una dissolvenza lineare (sfumatura) verso l’esterno da qualsi
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="distance.resources/distance-tooltip.gif" alt="descrizione comando distanza" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="distance.resources/distance-tooltip.gif" alt="descrizione comando distanza" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 La dissolvenza verso l&#39;esterno in espansione terminerà non appena incontrerà un&#39;altra cella: non si sovrapporrà mai. Internamente, questo è in realtà il calcolo e la visualizzazione della distanza al pixel più vicino > 0,5, con il nodo distanza impostato come un morsetto/massimo.
 

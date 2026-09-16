@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/normal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/normal.html"
 breadcrumb-title: ""
 description: Utilizzate il nodo Normale (Normal) per elaborare e manipolare le texture delle mappe normali per controllare i dettagli e l'illuminazione della superficie.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Normale
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '220'
 ht-degree: 7%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 7%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![Nodo atomico: Normale](normal.resources/comp_normal_1.png "Nodo atomico: Normale"){width="100%"}
+
+<b>In:</b> Nodi Atomici
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +37,13 @@ Il nodo converte una mappa in scala di grigi di input in un output di mappa norm
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="normal.resources/normal-tooltip.gif" alt="descrizione comandi normale" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="normal.resources/normal-tooltip.gif" alt="descrizione comandi normale" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 Si tratta di un nodo molto utile che viene spesso utilizzato per convertire gli input di mappe di height in mappe normali per materiali pronti in tempo reale. Esistono alternative in [Sobel normale](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-sobel/normal-sobel.md) e nelle unità Height-mondo normali.
 
@@ -53,7 +61,7 @@ Si tratta di un nodo molto utile che viene spesso utilizzato per convertire gli 
 
 |  |  |
 | --- | --- |
-| <b>Input</b> *Scala di grigi* PRIMARIO | Immagine di input interpretata come mappa di height. |
+| <b>Input</b> *Scala di grigi* PRIMARIO | Immagine di input interpretata come mappa di altezza. |
 
 
 ## Esempi

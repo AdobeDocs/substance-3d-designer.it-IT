@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
 breadcrumb-title: ""
 description: Utilizza il nodo Curva per regolare i valori della texture utilizzando curve personalizzabili per un controllo preciso del colore e della luminosità.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Curva
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '611'
 ht-degree: 2%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![Nodo atomico: curva](curve.resources/comp_curve_1.png "Nodo atomico: curva"){width="100%"}
+
+<b>In:</b> Nodi Atomici
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +37,13 @@ Il nodo fornisce un&#39;interfaccia per la modifica della tonalità dell&#39;imm
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="curve.resources/curve-tooltip.gif" alt="descrizione comando curva" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="curve.resources/curve-tooltip.gif" alt="descrizione comando curva" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 A differenza della maggior parte degli altri nodi, il nodo Curva non dispone di un&#39;interfaccia standard tipica con cursori e parametri, ma presenta invece un editor di curve completo. Vedere la sezione espandibile riportata di seguito su come utilizzarlo.
 
@@ -48,7 +56,7 @@ A differenza della maggior parte degli altri nodi, il nodo Curva non dispone di 
 |  |  |
 | --- | --- |
 | <b>Applica/Esporta curva</b> *Booleano* | Consente di copiare la curva utente nell&#39;output invece di applicarla all&#39;immagine di input |
-| <b>Indirizzamento della curva</b> *Booleano* | Questo parametro determina il modo in cui vengono gestiti i pixel HDR che non rientrano nell’intervallo [0, 1] nell’input: bloccati o piegati fino a [0, 1]. |
+| <b>Indirizzamento della curva</b> *Booleano* | Questo parametro determina il modo in cui vengono gestiti i pixel HDR fuori dall’intervallo [0, 1] nell’input: bloccati o piegati fino a [0, 1]. |
 | <b>Curva</b> *Matrice di chiavi di curva* | Curva personalizzata utilizzata per mappare i valori in scala di grigio di input.   Può essere modificato utilizzando l&#39;[editor curva](#curve-editor). |
 
 ## Editor curva
@@ -68,7 +76,7 @@ Per creare un punto, fate doppio clic in un punto qualsiasi della vista Curva:
 Per ottenere risultati precisi, i nodi della curva offrono diverse modalità per ciascun punto:
 
 </td>
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ![](curve.resources/image2017-2-17-14-5-36.png)
 
@@ -107,7 +115,7 @@ Quando immettete è un nodo di colore, potete regolare la curva per ciascun cana
 Seleziona la curva da regolare nell’elenco a discesa in alto a destra:
 
 </td>
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ![](curve.resources/image2017-2-17-14-52-43.png)
 

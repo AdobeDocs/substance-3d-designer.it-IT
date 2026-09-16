@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
 breadcrumb-title: ""
 description: Utilizzate il nodo FX-Map per applicare grafici a funzioni alle texture per creare pattern ed effetti procedurali.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: FX-Map
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '321'
 ht-degree: 1%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![Nodo atomico: FX-Map](fx-map.resources/fxmap.png "Nodo atomico: FX-Map"){width="100%"}
+
+<b>In:</b> Nodi Atomici
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +37,13 @@ FX-Map è in grado di replicare e suddividere un&#39;immagine o un pattern di in
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="fx-map.resources/fxmap-tooltip.gif" alt="descrizione comando fx-map" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="fx-map.resources/fxmap-tooltip.gif" alt="descrizione comando fx-map" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 Analogamente al [Processore pixel](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), spetta a te definire e creare le funzioni che determinano il comportamento e l&#39;output di questo nodo.
 
@@ -58,8 +66,8 @@ Tenete presente che, a differenza di altri nodi, la maggior parte del comportame
 | <b>Area di rendering</b> *Float4* | Consente di impostare l’intervallo di pixel iniziale per ciascun lato dell’FX-Map, con conseguente effetto di dilatazione. |
 | <b>Area in porzioni</b> *Float4* | Consente di spostare la distanza di affiancamento di FX-Map. |
 | <b>Cull all&#39;esterno</b> *Booleano* | Esegue un&#39;ottimizzazione [eliminando](../../../../glossary/glossary.md) modelli che non rientrano nell&#39;intervallo normale. |
-| <b>Rugosità</b> *Virgola mobile* | Funge da moltiplicatore di profondità e opacità. Applica una distorsione al processo di fusione FX-map. |
-| <b>Opacità globale</b> *Virgola mobile* | Imposta l’opacità globale dell’output di FX-map. |
+| <b>Rugosità</b> *Mobile* | Funge da moltiplicatore di profondità e opacità. Applica una distorsione al processo di fusione FX-map. |
+| <b>Opacità globale</b> *Mobile* | Imposta l’opacità globale dell’output di FX-map. |
 
 ## Guida FX-Map
 

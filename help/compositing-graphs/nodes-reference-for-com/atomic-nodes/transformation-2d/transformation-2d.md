@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
 breadcrumb-title: ""
 description: Usa il nodo Trasformazione 2D per applicare trasformazioni 2D alle texture, tra cui traslazione, rotazione e ridimensionamento.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Trasformazione 2D
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '375'
 ht-degree: 5%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 5%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![Nodo atomico: trasformazione 2D](transformation-2d.resources/comp_transformation_1.png "Nodo atomico: trasformazione 2D"){width="100%"}
+
+<b>In:</b> Nodi Atomici
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +37,13 @@ Applica all’immagine una matrice di trasformazione 2D: traslazione, rotazione,
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="transformation-2d.resources/transformation2d-tooltip.gif" alt="descrizione di transform-2d" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="transformation-2d.resources/transformation2d-tooltip.gif" alt="descrizione di transform-2d" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 Si tratta di un nodo estremamente utile e ampiamente applicato, che consente di aumentare la suddivisione in porzioni, rimuovere la suddivisione in porzioni, posizionare un&#39;immagine in una posizione specifica, allungare o schiacciare un input, ecc.
 
@@ -46,7 +54,7 @@ Tuttavia, non può essere perfetto per alcune applicazioni, quindi i seguenti no
 >
 > Disabilitazione della suddivisione in porzioni
 > 
-> Impostare il [metodo di ereditarietà](../../../../glossary/glossary.md) del parametro di base [&#x200B; &#39;Tiling mode&#39; &#x200B;](../../../../glossary/glossary.md) su &#39;Absolute&#39;, che consente di impostare il valore del parametro su &#39;No Tiling&#39;:
+> Impostare il [metodo di ereditarietà](../../../../glossary/glossary.md) del parametro di base [ &#39;Tiling mode&#39; ](../../../../glossary/glossary.md) su &#39;Absolute&#39;, che consente di impostare il valore del parametro su &#39;No Tiling&#39;:
 > 
 > ![](transformation-2d.resources/tilingmode.png)
 
@@ -63,14 +71,14 @@ Tuttavia, non può essere perfetto per alcune applicazioni, quindi i seguenti no
 | <b>Scostamento</b> *Float2* | Definisce lo spostamento 2D dell’immagine. Consente di modificare la posizione o lo scostamento. Può essere regolato anche tramite il gizmo nella vista 2D.   Si riferisce direttamente all&#39;output della vista 2D. |
 | <b>Modalità Mipmap</b> *Numero intero* | Consente di passare a un livello [mipmap](../../../../glossary/glossary.md) manuale, che riduce gli artefatti in un&#39;immagine utilizzando il filtro delle texture. |
 | <b>Livello mipmap</b> *Numero intero* | Imposta il livello [mipmap](../../../../glossary/glossary.md) da utilizzare.     *Disponibile quando la modalità Mipmap è impostata su Manuale* |
-| <b>Colore mascherino</b> *Float4* | Il colore utilizzato come sfondo quando la suddivisione in porzioni della trasformazione è disattivata. Imposta il colore usato quando l&#39;input trasformato non copre un&#39;area dell&#39;output.   Può essere reso trasparente se si lavora con il colore RGBA. |
+| <b>Colore mascherino</b> *Virgola mobile 4* | Colore utilizzato come sfondo quando l’Affiancamento della trasformazione è disattivato. Cioè, imposta il colore usato quando l&#39;input Trasforma non copre un&#39;area dell&#39;output.   Può essere reso trasparente se si lavora con il colore RGBA. |
 | <b>Filtraggio</b> *Numero intero* | Imposta il metodo di downsampling utilizzato. Non funziona particolarmente bene con la riduzione del Livello mipmap. |
 
 ## Connettori di ingresso
 
 |  |  |
 | --- | --- |
-| <b>Input</b> *Scala di grigi/Colore* PRIMARIO | Immagine da trasformare. |
+| <b>Input</b> *Scala di grigi/Colore* PRIMARIO | Immagine da Trasforma. |
 
 
 ## Esempi

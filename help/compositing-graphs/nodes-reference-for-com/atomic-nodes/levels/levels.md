@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
 breadcrumb-title: ""
 description: Utilizza il nodo Livelli per regolare la luminosità, il contrasto e la gamma tonale delle texture per la correzione e il miglioramento del colore.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Livelli
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '552'
 ht-degree: 3%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td width="20%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![Nodo atomico: Livelli](levels.resources/comp_levels_1.png "Nodo atomico: Livelli"){width="100%"}
+
+<b>In:</b> Nodi Atomici
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +37,13 @@ Il nodo Livelli consente di rimappare i toni di un input impostando i fattori di
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="levels.resources/levels-tooltip.gif" alt="descrizione comandi livelli" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="levels.resources/levels-tooltip.gif" alt="descrizione comandi livelli" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 È uno dei nodi principali e più utili di Substance 3D Designer ed è molto spesso utilizzato per rielaborare e regolare i valori in un grafico, in quanto fornisce l’interfaccia più precisa e precisa per modificare i valori.
 
@@ -64,11 +72,11 @@ Il pulsante giallo evidenziato alterna l’interfaccia tra i cursori dei valori 
 
 |  |  |
 | --- | --- |
-| <b>Livello in entrata basso</b> *Float/Float4* | Definisce i livelli di scarsa illuminazione dell&#39;immagine di input. Modifica i valori di input Bassi in modo che diventino nero intero. |
-| <b>Livello in entrata alto</b> *Float/Float4* | Definisce i livelli di luce dell&#39;immagine di input.  Modifica l’input con valori alti per rendere il bianco intero. |
-| <b>Livello a metà</b> *Float/Float4* | Definisce i livelli dei mezzitoni dell’immagine di input.  Modifica i valori di input di Mid in modo che diventino grigio medio. |
-| <b>Livella in basso</b> *Float/Float4* | Definisce i livelli di scarsa illuminazione dell&#39;immagine di output.  Blocca i valori di nero di output per impostare il limite. |
-| <b>Livello in uscita alto</b> *Virgola mobile/Virgola mobile4* | Definisce i livelli di luce dell’immagine di output.  Blocca i valori bianchi di output per impostare il limite. |
+| <b>Livello in entrata basso</b> *Virgola mobile/Virgola mobile4* | Definisce i livelli di scarsa illuminazione dell&#39;immagine di input. Modifica i valori di input Bassi in modo che diventino nero intero. |
+| <b>Livello in entrata alto</b> *Virgola mobile/Virgola mobile4* | Definisce i livelli di luce dell&#39;immagine di input.  Modifica l’input con valori alti per rendere il bianco intero. |
+| <b>Livello in entrata medio</b> *Virgola mobile/Virgola mobile4* | Definisce i livelli dei mezzitoni dell’immagine di input.  Modifica i valori di input di Mid in modo che diventino grigio medio. |
+| <b>Livella in basso</b> *Virgola mobile/Virgola mobile4* | Definisce i livelli di scarsa illuminazione dell&#39;immagine di output.  Blocca i valori di nero di output per impostare il limite. |
+| <b>Livella in alto</b> *Float/Float4* | Definisce i livelli di luce dell’immagine di output.  Blocca i valori bianchi di output per impostare il limite. |
 | <b>Morsetto intermedio</b> *Booleano* | Determina se il valore di input Trasforma è bloccato su [0, 1] prima di calcolare il livello di output. |
 
 ## Guida all’uso

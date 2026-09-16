@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Scala di grigi di input
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '804'
 ht-degree: 1%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![Nodo atomico: Scala di grigi di input](input-grayscale.resources/comp_inputgrayscale_1.png "Nodo atomico: Scala di grigi di input"){width="100%"}
+
+<b>In:</b> Nodi Atomici
 
 </td>
 <td style="border: 0;" valign="top">
@@ -33,7 +35,7 @@ I nodi di input sono un tipo speciale di nodo che crea uno slot dinamico nel gra
 
 A differenza dei [nodi di output](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md), dovete inserire esplicitamente un input di colore, scala di grigi o valore. Non è possibile creare input &quot;agnostici&quot; personalizzati che cambiano tipo a seconda del tipo di connessione.
 
-I nodi di input non sono cruciali quanto [nodi di output](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md): puoi avere grafici avanzati perfettamente funzionanti che non richiedono input. Gli input vengono utilizzati solo quando si desidera basare il risultato dell&#39;istanza del grafico o del nodo su un input esterno, ad esempio durante la creazione di un [istanza](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) o di un [filtro](https://experienceleague.adobe.com/it/docs/substance-3d-painter/using/effects/filter) per Substance 3D Painter.
+I nodi di input non sono cruciali quanto [nodi di output](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md): puoi avere grafici avanzati perfettamente funzionanti che non richiedono input. Gli input vengono utilizzati solo quando si desidera basare il risultato dell&#39;istanza del grafico o del nodo su un input esterno, ad esempio durante la creazione di un [istanza](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) o di un [filtro](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter) per Substance 3D Painter.
 
 Vedere anche: [Colore di input](../input-color/input-color.md), [Valore di input](../input-value/input-value.md)
 
@@ -41,7 +43,13 @@ Vedere anche: [Colore di input](../input-color/input-color.md), [Valore di input
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="input-grayscale.resources/input-grayscale-tooltip.gif" alt="Descrizione comando della scala di grigi di input" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="input-grayscale.resources/input-grayscale-tooltip.gif" alt="Descrizione comando della scala di grigi di input" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 ## Parametri
 
@@ -60,7 +68,7 @@ Per visualizzarlo con gli output di un altro grafico, dovrete esportare il grafi
 | --- | --- |
 | <b>Identificatore</b> *Stringa* | L&#39;unico attributo univoco obbligatorio. Impossibile contenere spazi. Questa opzione viene utilizzata per etichettare gli input se non è impostata alcuna etichetta e per distinguere tra output diversi. Non lasciatele solo su &quot;input\_1&quot;! |
 | <b>Descrizione</b> *Stringa* | Descrizione facoltativa utilizzata nella libreria di Designer e nello scaffale di Painter. |
-| <b>Etichetta</b> *Stringa* | Etichetta dell&#39;interfaccia utente utilizzata per un&#39;etichettatura ottimale nell&#39;interfaccia utente di Designer e Painter. Può contenere spazi. Consigliato per impostare un nome simile a quello dell&#39;Identificatore, con le sole barre spaziatrici invece dei caratteri di sottolineatura. |
+| <b>Etichetta</b> *Stringa* | Etichetta dell&#39;interfaccia utente utilizzata per un&#39;etichettatura ottimale nell&#39;interfaccia utente di Designer e Painter. Può contenere spazi. Si consiglia di impostare un nome simile all&#39;identificatore, con le sole barre spaziatrici invece dei caratteri di sottolineatura. |
 | <b>Dati utente</b> *Stringa* | Dati utente aggiuntivi e facoltativi che possono essere utilizzati per operazioni di filtro specifiche, in pratica un campo dati personalizzato con caratteri jolly. |
 | <b>Gruppo</b> *Stringa* | Attributo gruppo utilizzato per raggruppare gli input per le [modalità di creazione dei collegamenti](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) di Designer. Gli input con un attributo di gruppo identico (con distinzione tra maiuscole e minuscole) verranno presentati come una singola connessione in modalità Materiale compatto. |
 
@@ -71,7 +79,7 @@ Per visualizzarlo con gli output di un altro grafico, dovrete esportare il grafi
 <td style="border: 0; vertical-align: top">
 
 Quando sono presenti più input, è necessario prestare attenzione al modo in cui il grafico [eredita i parametri di base](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) da questi input.\
-I parametri di base includono, tra gli altri, <b>Dimensioni output</b>, <b>Formato output</b> e <b>Modalità affiancamento</b>.
+I parametri di base includono, tra gli altri, <b>Dimensioni output</b>, <b>Formato output</b> e <b>Modalità di porzioni</b>.
 
 È possibile definire un input come [input primario](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md). Questo input determina quindi gli attributi di tutti gli input il cui metodo di ereditarietà è impostato su *Rispetto al padre*. Metodo di ereditarietà *impostato per impostazione predefinita* nei nodi di input.
 
@@ -101,7 +109,7 @@ In alternativa, qualsiasi set di input per il metodo di ereditarietà *Relativo 
 
 ## Attributi integrazione
 
-Gli input non vengono inviati direttamente alla vista 3D, ma i relativi attributi di utilizzo vengono utilizzati da [Substance 3D Painter](https://experienceleague.adobe.com/it/docs/substance-3d-painter/using/home) per riempire automaticamente gli slot con determinate mappe (utilizzati principalmente con [filtri](https://experienceleague.adobe.com/it/docs/substance-3d-painter/using/effects/filter)).
+Gli input non vengono inviati direttamente alla vista 3D, ma i relativi attributi di utilizzo vengono utilizzati da [Substance 3D Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home) per riempire automaticamente gli slot con determinate mappe (utilizzati principalmente con [filtri](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter)).
 
 Inoltre, gli attributi di utilizzo vengono utilizzati anche con le [modalità di creazione del collegamento](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md), in modo che corrispondano agli slot di input e output corretti.
 

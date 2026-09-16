@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/value-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/value-processor.html"
 breadcrumb-title: ""
 description: Utilizzare il nodo Processore di valori per elaborare e manipolare i valori delle texture mediante operazioni matematiche per le regolazioni personalizzate.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Elaboratore valori
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '156'
 ht-degree: 3%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td width="20%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![Nodo atomico: Processore di valori](value-processor.resources/comp_valueprocessor_1.png "Nodo atomico: Processore di valori"){width="100%"}
+
+<b>In:</b> Nodi Atomici
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +37,13 @@ Calcola un [grafico della funzione Substance](../../../../function-graphs/the-fu
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="value-processor.resources/value-processor-tooltip.gif" alt="descrizione comando di value-processor" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="value-processor.resources/value-processor-tooltip.gif" alt="descrizione comando di value-processor" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 
 >[!TIP]

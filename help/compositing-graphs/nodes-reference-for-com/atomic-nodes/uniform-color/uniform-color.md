@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/uniform-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/uniform-color.html"
 breadcrumb-title: ""
-description: Utilizzate il nodo Colore uniforme per generare texture di colore uniforme per la creazione di riempimenti in tinta unita e livelli di base.
+description: Utilizzate il nodo Colore uniforme per generare texture di colore uniformi per la creazione di riempimenti di colore uniforme e livelli base.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Uniform color
 helpx_experience_level: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Colore uniforme
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '179'
 ht-degree: 7%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 7%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width: 30%; vertical-align: top">
+<td style="border: 0; width: 33.33%; vertical-align: top">
 
-![Nodo atomico: Colore uniforme](uniform-color.resources/comp_uniform_1.png "Nodo atomico: Colore uniforme"){width="100%"}
+![Nodo atomico: colore uniforme](uniform-color.resources/comp_uniform_1.png "Nodo atomico: colore uniforme"){width="100%"}
+
+<b>In:</b> Nodi Atomici
 
 </td>
 <td style="border: 0; vertical-align: top">
@@ -35,7 +37,14 @@ Si tratta di un nodo semplice che viene utilizzato molto spesso come punto di pa
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="uniform-color.resources/uniform-color-tooltip.gif" alt="descrizione comando uniforme" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="uniform-color.resources/uniform-color-tooltip.gif" alt="descrizione comando uniforme" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
+
 
 
 >[!TIP]
@@ -53,7 +62,7 @@ Si tratta di un nodo semplice che viene utilizzato molto spesso come punto di pa
 |  |  |
 | --- | --- |
 | <b>Metodo colore</b> *Booleano* | Alterna tra un’immagine in scala di grigio e un’immagine a colori in output. |
-| <b>Colore di output</b> *Virgola mobile/Virgola mobile4* | Seleziona il colore piatto da usare nell’immagine di output.   Quando si utilizza il metodo colore, il Canale alfa viene utilizzato per l&#39;opacità in cui 0 è completamente trasparente e 1 è completamente opaco. |
+| <b>Colore di output</b> *Float/Float4* | Seleziona il colore piatto da usare nell’immagine di output.   Quando si utilizza il metodo colore, il canale di Alpha viene usato per l’opacità, dove 0 è completamente trasparente e 1 è completamente opaco. |
 
 
 ## Esempi
