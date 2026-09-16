@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Colore di input
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atomico: colore di input](input-color.resources/comp_inputcolor_1.png "Nodo atomico: colore di input")
+![Nodo atomico: colore di input](input-color.resources/comp_inputcolor_1.png "Nodo atomico: colore di input"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -33,7 +33,7 @@ I nodi di input sono un tipo speciale di nodo che crea uno slot dinamico nel gra
 
 A differenza dei [nodi di output](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md), dovete inserire esplicitamente un input di colore, scala di grigi o valore. Non è possibile creare input &quot;agnostici&quot; personalizzati che cambiano tipo a seconda del tipo di connessione.
 
-I nodi di input non sono cruciali quanto [nodi di output](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md): puoi avere grafici avanzati perfettamente funzionanti che non richiedono input. Gli input vengono utilizzati solo quando si desidera basare il risultato dell&#39;istanza del grafico o del nodo su un input esterno, ad esempio durante la creazione di un [istanza](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) o di un [filtro](https://experienceleague.adobe.com/it/docs/substance-3d-painter/using/effects/filter) per Substance 3D Painter.
+I nodi di input non sono cruciali quanto [nodi di output](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md): puoi avere grafici avanzati perfettamente funzionanti che non richiedono input. Gli input vengono utilizzati solo quando si desidera basare il risultato dell&#39;istanza del grafico o del nodo su un input esterno, ad esempio durante la creazione di un [istanza](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) o di un [filtro](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter) per Substance 3D Painter.
 
 Vedere anche: [Scala di grigi di input](../input-grayscale/input-grayscale.md), [Valore di input](../input-value/input-value.md)
 
@@ -41,7 +41,7 @@ Vedere anche: [Scala di grigi di input](../input-grayscale/input-grayscale.md), 
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="input-color.resources/input-color-tooltip.gif" alt="Descrizione comando del colore di input" /></div>
+<div data-preserve-html="true" align="center"><img src="input-color.resources/input-color-tooltip.gif" alt="Descrizione comando del colore di input" /></div>
 
 ## Parametri
 
@@ -101,7 +101,7 @@ In alternativa, qualsiasi set di input per il metodo di ereditarietà *Relativo 
 
 ## Attributi integrazione
 
-Gli input non vengono inviati direttamente alla vista 3D, ma i relativi attributi di utilizzo vengono utilizzati da [Substance 3D Painter](https://experienceleague.adobe.com/it/docs/substance-3d-painter/using/home) per riempire automaticamente gli slot con determinate mappe (utilizzati principalmente con [filtri](https://experienceleague.adobe.com/it/docs/substance-3d-painter/using/effects/filter)).
+Gli input non vengono inviati direttamente alla vista 3D, ma i relativi attributi di utilizzo vengono utilizzati da [Substance 3D Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home) per riempire automaticamente gli slot con determinate mappe (utilizzati principalmente con [filtri](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter)).
 
 Inoltre, gli attributi di utilizzo vengono utilizzati anche con le [modalità di creazione del collegamento](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md), in modo che corrispondano agli slot di input e output corretti.
 

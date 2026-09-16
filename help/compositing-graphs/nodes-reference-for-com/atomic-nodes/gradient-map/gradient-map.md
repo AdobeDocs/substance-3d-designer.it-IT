@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
 breadcrumb-title: ""
 description: Utilizzate il nodo Mappa sfumatura per mappare i valori della scala di grigio ai colori utilizzando le sfumature per la colorizzazione e gli effetti.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mappa sfumatura
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '1157'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atomico: mappa sfumatura](gradient-map.resources/comp_gradient_1.png "Nodo atomico: mappa sfumatura")
+![Nodo atomico: mappa sfumatura](gradient-map.resources/comp_gradient_1.png "Nodo atomico: mappa sfumatura"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +35,7 @@ Questo nodo ha un duplice scopo: può essere utilizzato semplicemente come <b> <
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="descrizione di gradient-map" /></div>
+<div data-preserve-html="true" align="center"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="descrizione di gradient-map" /></div>
 
 Il nodo offre un editor delle sfumature avanzato e ricco di funzionalità per mappare più colori con precisione: per ulteriori informazioni, vai alla sezione [Editor delle sfumature](#gradient-editor) di questa pagina.
 
@@ -281,7 +281,7 @@ Nella metà inferiore viene visualizzato il colore utilizzato in precedenza. Fat
 </tr>
 </table>
 
-Quando sono selezionati più segnaposti, i cursori RGB, HSV e Alpha si trasformano in cursori delta (Δ), ovvero vengono utilizzati per compensare il valore di ciascun segnaposto della stessa quantità.
+Quando sono selezionati più pin, i cursori RGB, HSV e Alpha si trasformano in cursori delta (Δ), ovvero vengono utilizzati per compensare il valore di ciascun pin della stessa quantità.
 
 <table>
 <tr style="border: 0;">
@@ -299,7 +299,7 @@ Inoltre, sotto la miniatura a colori, sono disponibili come pulsanti le seguenti
 
 <b>sRGB</b>: usate lo spazio colore sRGB per visualizzare i colori. Se è disattivata, viene utilizzato lo spazio colore lineare;
 
-<b>Virgola mobile:</b> Visualizza i valori di RGB, HSV e del cursore Alpha in virgola mobile.
+<b>Float:</b> visualizzare i valori di RGB, HSV e cursore Alpha in virgola mobile.
 
 </td>
 <td width="25.00%" style="border: 0;" valign="top">

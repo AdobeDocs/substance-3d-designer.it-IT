@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/warp.html"
 breadcrumb-title: ""
-description: Usate il nodo Altera per applicare alle texture gli effetti di distorsione e di spostamento necessari per la creazione di effetti di alterazione.
+description: Usate il nodo Altera per applicare gli effetti distorsione alle texture per la creazione di effetti di alterazione e spostamento.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Warp
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Altera
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 9%
@@ -22,24 +22,24 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atomico: Altera](warp.resources/comp_warp_1.png "Nodo atomico: Altera")
+![Nodo atomico: Altera](warp.resources/comp_warp_1.png "Nodo atomico: Altera"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
 
 Disperde i valori dei pixel nell’immagine di input in base alle pendenze calcolate da un input di sfumatura a parte, con conseguente deformazione.
 
-A differenza dell’Alterazione direzionale, questo nodo si allontana in modo uniforme dalle aree bianche, in una direzione definita dalla pendenza o dalla sfumatura dell’Input sfumatura.
+A differenza dell’Alterazione direzionale, questo nodo si allontana in modo uniforme dalle aree bianche, in una direzione definita dalla pendenza o dalla sfumatura dell’input sfumatura.
 
 </td>
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="warp.resources/warp-tooltip.gif" alt="descrizione comando altera" /></div>
+<div data-preserve-html="true" align="center"><img src="warp.resources/warp-tooltip.gif" alt="descrizione comando altera" /></div>
 
 L’utilizzo del nodo può essere un po’ complicato, in quanto il risultato dell’effetto dipende in larga misura dall’input sfumatura: piccole modifiche alla sfumatura possono fare un’enorme differenza visiva con gli stessi valori di intensità. Assicurati di provare Contrasto, Luminanza e scala dell&#39;Input sfumatura, nonché il cursore Intensità su questo nodo.
 
-Se hai familiarità con le mappe normali, puoi immaginare che il funzionamento di questo nodo sia simile alla conversione dell&#39;input sfumatura in una [mappa normale](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md), quindi alla distorsione dell&#39;input base nella direzione definita dai vettori della mappa normale. La stessa cosa si può ottenere con [Alterazione vettoriale](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-warp/vector-warp.md). Effetti simili sono disponibili anche in [Sfocatura Pendenza](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/slope-blur/slope-blur.md).
+Se hai familiarità con la Mappa normale, puoi immaginare che il funzionamento di questo nodo sia simile alla conversione dell&#39;input sfumatura in una [Mappa normale](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md) e quindi alla distorsione dell&#39;input base nella direzione definita dai vettori della Mappa normale. La stessa cosa si può ottenere con [Alterazione vettoriale](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-warp/vector-warp.md). Effetti simili sono disponibili anche in [Sfocatura Pendenza](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/slope-blur/slope-blur.md).
 
 
 
@@ -47,8 +47,8 @@ Se hai familiarità con le mappe normali, puoi immaginare che il funzionamento d
 
 |  |  |
 | --- | --- |
-| <b>Intensità</b> *Mobile* | Consente di impostare l’intensità dell’alterazione. |
-| <b>Modalità filtro input</b> *Booleano* | Controlla se per il campionamento dell’input viene utilizzato il filtro più vicino o bilineare. |
+| <b>Intensità</b> *Virgola mobile* | Consente di impostare l’intensità dell’alterazione. |
+| <b>modalità di filtro di input</b> *Booleano* | Controlla se per il campionamento dell’input viene utilizzato il filtro più vicino o bilineare. |
 
 ## Connettori di ingresso
 

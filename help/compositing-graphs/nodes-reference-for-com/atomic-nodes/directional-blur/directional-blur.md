@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
 breadcrumb-title: ""
 description: Usate il nodo Sfocatura direzione per applicare gli effetti di sfocatura in una direzione specifica per creare l’effetto movimento e la striatura.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Sfocatura direzionale
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 8%
@@ -22,7 +22,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="20%" style="border: 0;" valign="top">
 
-![Nodo atomico: sfocatura direzione](directional-blur.resources/comp_dirmotionblur_1.png "Nodo atomico: sfocatura direzione")
+![Nodo atomico: sfocatura direzione](directional-blur.resources/comp_dirmotionblur_1.png "Nodo atomico: sfocatura direzione"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +35,7 @@ Questo nodo esegue un&#39;operazione simile a un effetto movimento su un input. 
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="directional-blur.resources/directional-blur-tooltip.gif" alt="descrizione comando sfocatura direzione" /></div>
+<div data-preserve-html="true" align="center"><img src="directional-blur.resources/directional-blur-tooltip.gif" alt="descrizione comando sfocatura direzione" /></div>
 
 Simile alla funzione &quot;Sfoca&quot;, offre un&#39;operazione più veloce e di bassa qualità. In [Sfocatura anisotropa](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/anisotropic-blur/anisotropic-blur.md) è disponibile un&#39;alternativa estesa e di qualità superiore, con un compromesso tra prestazioni e prestazioni
 

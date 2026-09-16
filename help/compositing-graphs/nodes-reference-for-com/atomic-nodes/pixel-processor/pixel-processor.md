@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
 breadcrumb-title: ""
 description: Utilizzate il nodo di Elaboratore pixel per elaborare i singoli pixel utilizzando espressioni personalizzate per una manipolazione avanzata della texture.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Elaboratore pixel
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="20%" style="border: 0;" valign="top">
 
-![Nodo atomico: Elaboratore pixel](pixel-processor.resources/comp_pixelprocessor_1.png "Nodo atomico: Elaboratore pixel")
+![Nodo atomico: Elaboratore pixel](pixel-processor.resources/comp_pixelprocessor_1.png "Nodo atomico: Elaboratore pixel"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -37,7 +37,7 @@ L’Elaboratore pixel consente di eseguire una funzione personalizzata per ogni 
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="pixel-processor.resources/pixel-processor-tooltip.gif" alt="descrizione comando del processore pixel" /></div>
+<div data-preserve-html="true" align="center"><img src="pixel-processor.resources/pixel-processor-tooltip.gif" alt="descrizione comando del processore pixel" /></div>
 
 Analogamente a [FX-Map](../../../../function-graphs/fxmaps/fxmaps.md), richiede la configurazione della funzionalità interna per eseguire qualsiasi operazione. L’Elaboratore pixel che differisce da FX-Map è il fatto che non è focalizzato sul posizionamento di pattern, con funzioni multiple che controllano la forma e il posizionamento di un pattern. Viene invece eseguita in parallelo una singola funzione per ogni pixel, in cui ciascun pixel non è a conoscenza dei risultati del calcolo dei pixel vicini.
 

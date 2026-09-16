@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/grayscale-conversion.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/grayscale-conversion.html"
 breadcrumb-title: ""
-description: Utilizzare il nodo Conversione gradazioni di grigio per convertire le texture di colore in gradazioni di grigio utilizzando vari metodi di conversione.
+description: Utilizzare il nodo Conversione in scala di grigi per convertire le texture a colori in scala di grigio utilizzando vari metodi di conversione.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Grayscale conversion
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Conversione in scala di grigi
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 7%
@@ -22,7 +22,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atomico: conversione in scala di grigi](grayscale-conversion.resources/comp_grayscaleconversion_1.png "Nodo atomico: conversione in scala di grigi")
+![Nodo atomico: conversione in scala di grigi](grayscale-conversion.resources/comp_grayscaleconversion_1.png "Nodo atomico: conversione in scala di grigi"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +35,7 @@ Questo nodo può essere utilizzato come metodo ottimizzato per estrarre un canal
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="grayscale-conversion.resources/grayscale-conversion-tooltip.gif" alt="descrizione comando conversione scala di grigi" /></div>
+<div data-preserve-html="true" align="center"><img src="grayscale-conversion.resources/grayscale-conversion-tooltip.gif" alt="descrizione comando conversione scala di grigi" /></div>
 
 La maggior parte dei nodi può essere impostata per l&#39;output in scala di grigio o a colori, in cui il primo è preferito per motivi di semplicità e prestazioni.
 
@@ -49,9 +49,9 @@ Ciò significa che un nodo di conversione della scala di grigi è generalmente r
 
 |  |  |
 | --- | --- |
-| <b>Spessori canale</b> *Float4* | Imposta lo spessore di ciascuno dei canali RGBA nella conversione in scala di grigio.   Per impostazione predefinita, viene effettuata una divisione uniforme sui canali RGB. |
-| <b>Alfa unico livello</b> *Booleano* | Imposta il comportamento dell&#39;Alpha sul risultato finale in scala di grigio, in quanto i valori in scala di grigio non possono contenere informazioni Alpha.   Se *è True*, la conversione in scala di grigio viene moltiplicata per il canale di Alpha dell&#39;immagine di input. |
-| <b>Valore sfondo</b> *Mobile* | Imposta il valore dello sfondo di base quando l’input ha una maschera alfa. Ad esempio, determina quali pixel devono essere trattati come trasparenti.   *Disponibile quando &#39;Unico livello alfa&#39; è impostato su &#39;True&#39;.* |
+| <b>Spessori canale</b> *Virgola mobile 4* | Imposta lo spessore di ciascuno dei canali RGBA nella conversione in scala di grigio.   Per impostazione predefinita, viene effettuata una divisione uniforme sui canali RGB. |
+| <b>Alfa unico livello</b> *Booleano* | Imposta il comportamento dell&#39;Alpha sul risultato finale in scala di grigio, in quanto i valori in scala di grigio non possono contenere informazioni Alpha.   Se *è True*, la conversione in scala di grigio viene moltiplicata per il Canale alfa dell&#39;immagine di input. |
+| <b>Valore sfondo</b> *Virgola mobile* | Imposta il valore dello sfondo di base quando l’input ha una maschera alfa. Ad esempio, determina quali pixel devono essere trattati come trasparenti.   *Disponibile quando &#39;Unico livello alfa&#39; è impostato su &#39;True&#39;.* |
 
 ## Connettori di ingresso
 

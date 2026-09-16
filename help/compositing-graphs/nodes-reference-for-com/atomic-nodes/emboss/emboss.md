@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/emboss.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/emboss.html"
 breadcrumb-title: ""
 description: Utilizzate il nodo Rilievo per creare effetti in rilievo sulle texture e aggiungere profondità e rilievo ai dettagli delle superfici.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Effetto rilievo
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 9%
@@ -22,7 +22,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="20%" style="border: 0;" valign="top">
 
-![Nodo atomico: Rilievo](emboss.resources/comp_emboss_1.png "Nodo atomico: Rilievo")
+![Nodo atomico: Rilievo](emboss.resources/comp_emboss_1.png "Nodo atomico: Rilievo"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +35,7 @@ Ad esempio, il nodo esegue una semplice ombreggiatura 2D basata su 2 input, simu
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="emboss.resources/emboss-tooltip.gif" alt="Descrizione comando effetto rilievo" /></div>
+<div data-preserve-html="true" align="center"><img src="emboss.resources/emboss-tooltip.gif" alt="Descrizione comando effetto rilievo" /></div>
 
 Questo nodo non viene utilizzato spesso per progetti di tipo PBR, ma può essere utile in alcuni casi in cui si desidera una semplice illuminazione al forno nella texture. In alternativa, [Rilievo con lucentezza](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/emboss-with-gloss/emboss-with-gloss.md) e [Rilievo di Uber](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/uber-emboss/uber-emboss.md) offrono una funzionalità simile ma più ampia.
 
