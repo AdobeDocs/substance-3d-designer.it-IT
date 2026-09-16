@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/distance.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/distance.html"
+breadcrumb-title: ""
 description: Utilizzate il nodo Distanza per calcolare le mappe di distanza dalle forme per la creazione di maschere ed effetti procedurali.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Distance
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Distanza
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '392'
 ht-degree: 8%
-
 ---
-
 
 # Distanza
 
@@ -24,7 +22,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atomico: Distanza](distance.resources/comp_distance_1.png "Nodo atomico: Distanza"){width="200px"}
+![Nodo atomico: Distanza](distance.resources/comp_distance_1.png "Nodo atomico: Distanza"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,6 +35,8 @@ Questo nodo crea una dissolvenza lineare (sfumatura) verso l’esterno da qualsi
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="distance.resources/distance-tooltip.gif" alt="descrizione comando distanza" /></div>
+
 La dissolvenza verso l&#39;esterno in espansione terminerà non appena incontrerà un&#39;altra cella: non si sovrapporrà mai. Internamente, questo è in realtà il calcolo e la visualizzazione della distanza al pixel più vicino > 0,5, con il nodo distanza impostato come un morsetto/massimo.
 
 Una mappa sorgente opzionale consente di combinare le celle con la texture da una mappa di input secondaria.
@@ -45,40 +45,7 @@ Il nodo distanza non è un nodo facile da padroneggiare, ma i suoi principali ca
 
 Per ulteriori informazioni, consultate i seguenti [esempi](#examples).
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Connettori di uscita
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Esempi
-
-</td>
-</tr>
-</table>
 
 ## Parametri
 
@@ -96,11 +63,6 @@ Per ulteriori informazioni, consultate i seguenti [esempi](#examples).
 | <b>Input maschera</b> *Scala di grigi* PRIMARIO | Maschera in scala di grigio, i cui bordi devono essere calcolati con un valore di distanza.   Una maschera binaria viene estratta dall’immagine con un valore di soglia pari a 0,5, in cui tutti i valori al di sopra di tale soglia sono bianchi e tutti i valori al di sotto sono neri. |
 | <b>Input di origine</b> *Colore/Scala di grigi* | Immagine in scala di grigio facoltativa dalla quale deve essere copiato il valore del pixel sul bordo più vicino dell’input della maschera. |
 
-## Connettori di uscita
-
-|  |  |
-| --- | --- |
-| <b>Output</b> *Colore/Scala di grigi* |  |
 
 ## Esempi
 
@@ -108,17 +70,17 @@ Per ulteriori informazioni, consultate i seguenti [esempi](#examples).
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](distance.resources/distance-ex01.gif){width="250px"}
+![](distance.resources/distance-ex01.gif){width="20%"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](distance.resources/distance-ex02.gif){width="250px"}
+![](distance.resources/distance-ex02.gif){width="20%"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](distance.resources/distance-ex03.gif){width="250px"}
+![](distance.resources/distance-ex03.gif){width="20%"}
 
 </td>
 </tr>

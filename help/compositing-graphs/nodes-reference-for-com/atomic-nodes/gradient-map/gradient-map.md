@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
+breadcrumb-title: ""
 description: Utilizzate il nodo Mappa sfumatura per mappare i valori della scala di grigio ai colori utilizzando le sfumature per la colorizzazione e gli effetti.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Gradient map
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Mappa sfumatura
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '1160'
+source-wordcount: '1157'
 ht-degree: 2%
-
 ---
-
 
 # Mappa sfumatura
 
@@ -24,7 +22,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atomico: mappa sfumatura](gradient-map.resources/comp_gradient_1.png "Nodo atomico: mappa sfumatura"){width="200px"}
+![Nodo atomico: mappa sfumatura](gradient-map.resources/comp_gradient_1.png "Nodo atomico: mappa sfumatura"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,31 +35,11 @@ Questo nodo ha un duplice scopo: può essere utilizzato semplicemente come <b> <
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="descrizione di gradient-map" /></div>
+
 Il nodo offre un editor delle sfumature avanzato e ricco di funzionalità per mappare più colori con precisione: per ulteriori informazioni, vai alla sezione [Editor delle sfumature](#gradient-editor) di questa pagina.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-## Esempi
-
-## Parametri
 
 |  |  |
 | --- | --- |
@@ -78,13 +56,13 @@ Può essere aperto dalle <b>Proprietà</b> del nodo Mappa sfumatura nei modi seg
 * Fai clic su LMB sul pulsante <b>Editore sfumatura</b>.
 * Fate doppio clic su LMB su una puntina nella barra della sfumatura. La puntina su cui hai fatto clic verrà selezionata automaticamente in Editore sfumatura, così potrai modificarne direttamente i valori.
 
-![Editore sfumatura](gradient-map.resources/image2017-2-17-16-13-5.png "Editore sfumatura")
+![Editore sfumatura](gradient-map.resources/image2017-2-17-16-13-5.png "Editore sfumatura"){width="20%"}
 
 ### Modifica delle puntine della sfumatura
 
 I colori e la loro posizione lungo la sfumatura sono controllati dai perni posizionati lungo la barra della sfumatura.
 
-Ogni puntina imposta un colore nella sua posizione lungo la sfumatura.
+Ogni segnaposto imposta un colore nella sua posizione lungo la sfumatura.
 
 Le parti della sfumatura prima e dopo il primo e l’ultimo segnaposto vengono impostate rispettivamente sui colori di tali segnaposti.
 
@@ -177,7 +155,7 @@ Riflette le posizioni dei segnaposti selezionati sulla sfumatura.
 
 <b>Cancella tutto</b>
 
-Rimuove tutti i segnaposti dalla barra della sfumatura.
+Rimuove tutti i perni dalla barra della sfumatura.
 
 </td>
 <td style="border: 0;" valign="top">
@@ -346,11 +324,6 @@ Il cursore <b>Precisione</b> ti aiuterà a regolare la sfumatura appena creata a
 | --- | --- |
 | <b>Input</b> *Scala di grigi* PRIMARIO | Immagine in scala di grigio da elaborare. |
 
-## Connettori di uscita
-
-|  |  |
-| --- | --- |
-| <b>Output</b> *Scala di grigi* |  |
 
 ## Esempi
 

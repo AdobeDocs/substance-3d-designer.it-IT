@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
+breadcrumb-title: ""
 description: Utilizzate il nodo Sfumatura (Dinamica) per creare sfumature dinamiche che possono essere controllate dai parametri e dai valori di input.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Gradient (Dynamic)
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Sfumatura (dinamica)
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 9%
-
+source-wordcount: '310'
+ht-degree: 8%
 ---
-
 
 # Sfumatura (dinamica)
 
@@ -24,7 +22,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atomico: Sfumatura dinamica](gradient-dynamic.resources/comp_dyngradient_1.png "Nodo atomico: Sfumatura dinamica"){width="200px"}
+![Nodo atomico: Sfumatura dinamica](gradient-dynamic.resources/comp_dyngradient_1.png "Nodo atomico: Sfumatura dinamica"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,6 +35,8 @@ Funziona come una leggera alternativa al nodo sfumatura, ma a differenza del nod
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="gradient-dynamic.resources/gradient-dynamic-tooltip.gif" alt="descrizione-dinamica-sfumatura" /></div>
+
 Ciò consente principalmente di evitare il problema in cui i parametri non possono essere esposti, in quanto i parametri per il colore vengono spostati all&#39;esterno del nodo. Questo è ciò che lo rende &quot;dinamico&quot;.
 
 Anche se Sfumatura (Dinamica) non è un nodo difficile da usare da solo, i suoi casi d&#39;uso sono un po&#39; più avanzati: la maggior parte degli usi standard possono essere coperti dal normale nodo Sfumatura.
@@ -45,50 +45,7 @@ Questo nodo viene riprodotto quando il sistema chiave dell’editor sfumatura ti
 
 In alternativa, il cursore Posizione input sfumatura può essere utilizzato per alternare più sfumature memorizzate all’interno di un singolo input sfumatura.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Parametri
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Connettori di ingresso
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Connettori di uscita
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Esempi
-
-</td>
-</tr>
-</table>
 
 ## Parametri
 
@@ -105,11 +62,6 @@ In alternativa, il cursore Posizione input sfumatura può essere utilizzato per 
 | <b>Input in scala di grigi</b> *Scala di grigi* PRIMARIO | Immagine in scala di grigio da ridefinire. |
 | <b>Input sfumatura</b> *Colore/Scala di grigi* | La sfumatura viene campionata da questa immagine |
 
-## Connettori di uscita
-
-|  |  |
-| --- | --- |
-| <b>Output</b> *Colore/Scala di grigi* |  |
 
 ## Esempi
 

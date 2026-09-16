@@ -1,22 +1,20 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blur.html"
-breadcrumb-title: ''
-description: Utilizzate il nodo Sfocatura per applicare effetti di sfocatura alla texture per attenuare i dettagli e creare effetti di sfocatura leggera.
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blur.html"
+breadcrumb-title: ""
+description: Utilizzate il nodo Sfocatura per applicare effetti di sfocatura alle texture, per attenuare i dettagli e creare effetti di sfocatura leggera.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Blur
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Sfocatura
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '170'
 ht-degree: 6%
-
 ---
-
 
 # Sfocatura
 
@@ -24,7 +22,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![Icona nodo sfocatura](blur.resources/blur-9.png){width="200px"}
+![Icona nodo sfocatura](blur.resources/blur-9.png){width="20%"}
 
 **In:** Nodi Atomici
 
@@ -35,13 +33,15 @@ ht-degree: 6%
 
 ## Descrizione
 
-Il nodo Sfocatura esegue un’operazione di &quot;sfocatura in rettangolo&quot;: calcolando la media dei valori dei pixel su una distanza impostata, il risultato è un aspetto sfocato e poco nitido. Offre l&#39;operazione di sfocatura più semplice, veloce e semplice disponibile in [Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html).
+Il nodo Sfocatura esegue un’operazione di &quot;sfocatura in rettangolo&quot;: calcolando la media dei valori dei pixel su una distanza impostata, il risultato è un aspetto sfocato e poco nitido. Offre l&#39;operazione di sfocatura più semplice, veloce e semplice disponibile in [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html).
 
 Anche se la sfocatura funziona bene per operazioni semplici e veloci, come ad esempio ammorbidire leggermente alcuni bordi, in uno scenario più impegnativo [Sfoca HQ](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/blur-hq/blur-hq.md) è una scelta migliore, compromettendo le prestazioni per la qualità.
 
 </td>
 </tr>
 </table>
+
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="blur.resources/blur-tooltip.gif" alt="descrizione comando sfoca" /></div>
 
 ## Parametri
 

@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
+breadcrumb-title: ""
 description: Utilizza il nodo Livelli per regolare la luminosità, il contrasto e la gamma tonale delle texture per la correzione e il miglioramento del colore.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Levels
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Livelli
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 4%
-
+source-wordcount: '549'
+ht-degree: 3%
 ---
-
 
 # Livelli
 
@@ -24,7 +22,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atomico: Livelli](levels.resources/comp_levels_1.png "Nodo atomico: Livelli"){width="200px"}
+![Nodo atomico: Livelli](levels.resources/comp_levels_1.png "Nodo atomico: Livelli"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,33 +35,13 @@ Il nodo Livelli consente di rimappare i toni di un input impostando i fattori di
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="levels.resources/levels-tooltip.gif" alt="descrizione comandi livelli" /></div>
+
 È uno dei nodi principali e più utili di Substance 3D Designer ed è molto spesso utilizzato per rielaborare e regolare i valori in un grafico, in quanto fornisce l’interfaccia più precisa e precisa per modificare i valori.
 
 Sebbene si tratti di un nodo importante, in alcuni casi l&#39;interfaccia può essere un po&#39; scomoda, quindi assicuratevi di esaminare [Livelli automatici](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/auto-levels/auto-levels.md), [Contrasto/Luminosità](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/contrast-luminosity/contrast-luminosity.md) e [Scansione istogramma](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md) per trovare alternative.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-## Esempi
-
-## Parametri
 
 Il nodo offre due interfacce per regolarne i valori: istogramma e cursori. Puoi passare da uno all’altro con il pulsante più a destra nella barra di intestazione &quot;Parametri specifici&quot;:
 
@@ -76,7 +54,7 @@ Il pulsante giallo evidenziato alterna l’interfaccia tra i cursori dei valori 
 </td>
 <td width="66.67%" style="border: 0;" valign="top">
 
-![](levels.resources/levels-2-1.png)
+![](levels.resources/levels-2-1.png){width="20%"}
 
 ![](levels.resources/levels-1-1.png)
 
@@ -86,11 +64,11 @@ Il pulsante giallo evidenziato alterna l’interfaccia tra i cursori dei valori 
 
 |  |  |
 | --- | --- |
-| <b>Livello in entrata basso</b> *Virgola mobile/Virgola mobile4* | Definisce i livelli di scarsa illuminazione dell&#39;immagine di input. Modifica i valori di input Bassi in modo che diventino nero intero. |
-| <b>Livello in entrata alto</b> *Virgola mobile/Virgola mobile4* | Definisce i livelli di luce dell&#39;immagine di input.  Modifica l’input con valori alti per rendere il bianco intero. |
-| <b>Livello in entrata medio</b> *Virgola mobile/Virgola mobile4* | Definisce i livelli dei mezzitoni dell’immagine di input.  Modifica i valori di input di Mid in modo che diventino grigio medio. |
-| <b>Livella in basso</b> *Virgola mobile/Virgola mobile4* | Definisce i livelli di scarsa illuminazione dell&#39;immagine di output.  Blocca i valori di nero di output per impostare il limite. |
-| <b>Livello in uscita alto</b> *Virgola mobile/Virgola mobile4* | Definisce i livelli di luce dell’immagine di output.  Blocca i valori bianchi di output per impostare il limite. |
+| <b>Livello in entrata basso</b> *Float/Float4* | Definisce i livelli di scarsa illuminazione dell&#39;immagine di input. Modifica i valori di input Bassi in modo che diventino nero intero. |
+| <b>Livello in entrata alto</b> *Float/Float4* | Definisce i livelli di luce dell&#39;immagine di input.  Modifica l’input con valori alti per rendere il bianco intero. |
+| <b>Livello a metà</b> *Float/Float4* | Definisce i livelli dei mezzitoni dell’immagine di input.  Modifica i valori di input di Mid in modo che diventino grigio medio. |
+| <b>Livella in basso</b> *Float/Float4* | Definisce i livelli di scarsa illuminazione dell&#39;immagine di output.  Blocca i valori di nero di output per impostare il limite. |
+| <b>Livella in alto</b> *Float/Float4* | Definisce i livelli di luce dell’immagine di output.  Blocca i valori bianchi di output per impostare il limite. |
 | <b>Morsetto intermedio</b> *Booleano* | Determina se il valore di input Trasforma è bloccato su [0, 1] prima di calcolare il livello di output. |
 
 ## Guida all’uso
@@ -129,11 +107,6 @@ I cursori variano a seconda dell’input di un colore o di una scala di grigi: g
 | --- | --- |
 | <b>Input</b> *Scala di grigi/Colore* PRIMARIO | Immagine da elaborare. |
 
-## Connettori di uscita
-
-|  |  |
-| --- | --- |
-| <b>Output</b> *Scala di grigi/Colore* |  |
 
 ## Esempi
 

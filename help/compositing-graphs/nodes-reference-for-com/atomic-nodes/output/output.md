@@ -1,22 +1,20 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
-breadcrumb-title: ''
-description: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
+breadcrumb-title: ""
+description: ""
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Output
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Output
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 31d4d930c789d693362ef3a16c72016bd030a89b
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '790'
 ht-degree: 0%
-
 ---
-
 
 # Output
 
@@ -24,7 +22,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0; width: 30%; vertical-align: top">
 
-![Nodo atomico: Output](output.resources/comp_output_1.png "Nodo atomico: Output"){width="200px"}
+![Nodo atomico: Output](output.resources/comp_output_1.png "Nodo atomico: Output"){width="20%"}
 
 </td>
 <td style="border: 0; vertical-align: top">
@@ -36,6 +34,8 @@ L&#39;immagine o il valore connesso al nodo di output di un grafico viene genera
 </td>
 </tr>
 </table>
+
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="output.resources/output-tooltip.gif" alt="descrizione comando dell&apos;output" /></div>
 
 Analogamente, quando un [file SBSAR pubblicato](../../../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) include questo grafico, tale file può generare l&#39;immagine in qualsiasi integrazione o plug-in che utilizza il file.
 
@@ -52,7 +52,7 @@ Ogni grafico Substance deve avere *almeno un* nodo di output. Se non esiste alcu
 | <b>Identificatore</b> *Stringa* | Identificatore univoco dell&#39;output. Questa proprietà non può essere lasciata vuota e non può contenere spazi o caratteri speciali.   L&#39;identificatore viene utilizzato perché l&#39;etichetta del nodo è la proprietà &#39;Label&#39; viene lasciata vuota. Può essere utilizzato anche per denominare [texture esportate](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md). |
 | <b>Descrizione</b> *Stringa* | Descrizione facoltativa utilizzata come descrizione dell&#39;output sono i grafici a Substance. |
 | <b>Etichetta</b> *Stringa* | Viene utilizzata come etichetta per il nodo di output e il connettore corrispondente nei [nodi di istanza](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) che rappresentano questo grafico. L&#39;etichetta può contenere spazi e caratteri speciali. |
-| <b>Dati utente</b> *Stringa* | Metadati facoltativi che possono essere utilizzati per operazioni di filtro specifiche. [Substance 3D Painter](https://www.adobe.com/it/products/substance3d/apps/painter.html) utilizza questi dati per [attivare alcune funzionalità](https://experienceleague.adobe.com/it/docs/substance-3d-painter/using/content/creating-custom-effects/user-data). |
+| <b>Dati utente</b> *Stringa* | Metadati facoltativi che possono essere utilizzati per operazioni di filtro specifiche. [Substance 3D Painter](https://www.adobe.com/products/substance3d/apps/painter.html) utilizza questi dati per [attivare alcune funzionalità](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/user-data). |
 | <b>Gruppo</b> *Stringa* | Attributo utilizzato per raggruppare gli output per le [modalità di creazione dei collegamenti](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) di Designer.   Gli output con un attributo &quot;Group&quot; identico vengono presentati come una singola connessione nella modalità di creazione del collegamento &quot;Compact Material&quot;. |
 
 ## Attributi integrazione
@@ -71,9 +71,9 @@ Di conseguenza, non influiscono sul formato delle [esportazioni bitmap](../../..
 
 +++
 
-### Informazioni sul ruolo degli utilizzi nel vista 3D
+### Informazioni sul ruolo degli utilizzi nella vista 3D
 
-Poiché le uscite dei grafici sono spesso intese come il risultato finale per un canale di texture specifico, le uscite possono essere inviate automaticamente al campionatore appropriato dello shader utilizzato nel vista 3D.
+Poiché gli output dei grafici sono spesso destinati a essere il risultato finale per un canale di texture specifico, gli output possono essere inviati automaticamente al campionatore appropriato dello shader utilizzato nella vista 3D.
 
 In effetti, un output la cui proprietà *Utilizzo</b> corrisponde all&#39;utilizzo di un campionatore* nella vista 3D verrà collegato a tale campionatore. <b>Ad esempio, un output con utilizzo `basecolor` verrà collegato al campionatore `basecolor` dello shader vista 3D. (Ulteriori informazioni: [Visualizzare i dati nella vista 3D](../../../../interface/3d-view/3d-view.md#view-data-in-3d-view))
 

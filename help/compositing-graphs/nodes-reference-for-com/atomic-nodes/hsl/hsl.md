@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/hsl.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/hsl.html"
+breadcrumb-title: ""
 description: Usa il nodo HSL per regolare tonalità, saturazione e Luminosità della texture per la manipolazione e la correzione del colore.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > HSL
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: HSL
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '149'
 ht-degree: 9%
-
 ---
-
 
 # HSL
 
@@ -24,7 +22,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atomico: HSL](hsl.resources/comp_hsl_1.png "Nodo atomico: HSL"){width="200px"}
+![Nodo atomico: HSL](hsl.resources/comp_hsl_1.png "Nodo atomico: HSL"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -39,40 +37,9 @@ Se cercate altri modi per modificare i toni di un’immagine, osservate [Curva](
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="hsl.resources/hsl-tooltip.gif" alt="descrizione comando hsl" /></div>
 
 
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Connettori di uscita
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Esempi
-
-</td>
-</tr>
-</table>
 
 ## Parametri
 
@@ -88,11 +55,6 @@ Se cercate altri modi per modificare i toni di un’immagine, osservate [Curva](
 | --- | --- |
 | <b>Input</b> *Colore* PRIMARIO | Immagine da elaborare. |
 
-## Connettori di uscita
-
-|  |  |
-| --- | --- |
-| <b>Output</b> *Colore* |  |
 
 ## Esempi
 

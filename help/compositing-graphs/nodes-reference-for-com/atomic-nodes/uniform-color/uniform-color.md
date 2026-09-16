@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/uniform-color.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/uniform-color.html"
+breadcrumb-title: ""
 description: Utilizzate il nodo Colore uniforme per generare texture di colore uniformi per la creazione di riempimenti di colore uniforme e livelli base.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Uniform color
@@ -8,26 +8,24 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Colore uniforme
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9aaf135d4c336ea0cff865524ad1ccd5dcc225bd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 8%
-
+source-wordcount: '176'
+ht-degree: 7%
 ---
-
 
 # Colore uniforme
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width: 30%; vertical-align: top">
 
-![Nodo atomico: colore uniforme](uniform-color.resources/comp_uniform_1.png "Nodo atomico: colore uniforme"){width="200px"}
+![Nodo atomico: colore uniforme](uniform-color.resources/comp_uniform_1.png "Nodo atomico: colore uniforme"){width="20%"}
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; vertical-align: top">
 
 Genera un valore piatto a colori o in scala di grigi.
 
@@ -37,25 +35,8 @@ Si tratta di un nodo semplice che viene utilizzato molto spesso come punto di pa
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="uniform-color.resources/uniform-color-tooltip.gif" alt="descrizione comando uniforme" /></div>
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
 
 >[!TIP]
 >
@@ -66,30 +47,6 @@ Si tratta di un nodo semplice che viene utilizzato molto spesso come punto di pa
 > * Se è necessario un valore in scala di grigio, assicurarsi di impostare il [metodo colore](#parameters) del nodo su &#39;Scala di grigio&#39;.
 > * Poiché l&#39;output del nodo è un colore piatto, è possibile utilizzare la risoluzione più bassa possibile. Impostare il parametro &#39;[Dimensioni output](../../../../compositing-graphs/output-size/output-size.md)&#39; del nodo per utilizzare il [metodo di ereditarietà &#39;Absolute&#39;](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) e una risoluzione di 16x16 pixel.
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Parametri
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Connettori di uscita
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Esempi
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
 
 ## Parametri
 
@@ -98,11 +55,6 @@ Si tratta di un nodo semplice che viene utilizzato molto spesso come punto di pa
 | <b>Metodo colore</b> *Booleano* | Alterna tra un’immagine in scala di grigio e un’immagine a colori in output. |
 | <b>Colore di output</b> *Float/Float4* | Seleziona il colore piatto da usare nell’immagine di output.   Quando si utilizza il metodo colore, il canale di Alpha viene usato per l’opacità, dove 0 è completamente trasparente e 1 è completamente opaco. |
 
-## Connettori di uscita
-
-|  |  |
-| --- | --- |
-| <b>Output</b> *Colore/Scala di grigi* |  |
 
 ## Esempi
 
