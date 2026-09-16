@@ -1,33 +1,33 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
-breadcrumb-title: ''
-description: Utilizzate il nodo Fusione per fondere due texture insieme utilizzando vari metodi di fusione per creare effetti compositi.
+breadcrumb-title: ""
+description: Utilizzate il nodo Fusione per fondere due texture insieme utilizzando vari metodi di fusione per la creazione di effetti compositi.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Blend
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Fusione
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 989234054615406114d2f7664ebee6f8c86f4bf2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 9%
-
+source-wordcount: '329'
+ht-degree: 8%
 ---
-
 
 # Fusione
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![Nodo atomico: Fusione](blend.resources/comp_blend_1.png "Nodo atomico: Fusione"){width="200px"}
+![Nodo atomico: Fusione](blend.resources/comp_blend_1.png "Nodo atomico: Fusione"){width="100%"}
+
+<b>In:</b> Nodi Atomici
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Combina due immagini usando un metodo di fusione specificato e una maschera facoltativa.
 
@@ -37,55 +37,30 @@ Combina due immagini usando un metodo di fusione specificato e una maschera faco
 </tr>
 </table>
 
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="blend.resources/blend-tooltip.gif" alt="descrizione comando fusione" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+</tr>
+</table>
+
 La sua funzionalità è simile a quella di due livelli sovrapposti in [Substance 3D Painter](https://www.adobe.com/it/products/substance3d-painter.html) o [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html), che si fondono insieme in base al metodo di fusione impostato sul livello superiore.
 
 >[!TIP]
 >
-> Scopri i metodi di fusione disponibili nel nodo Fusione in [questa pagina dedicata](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md).
-
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+> Informazioni sui metodi di fusione disponibili nel nodo Fusione in [questa pagina dedicata](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md).
 
 
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Connettori di uscita
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Esempi
-
-</td>
-</tr>
-</table>
 
 ## Parametri
 
 |  |  |
 | --- | --- |
-| <b>Opacità</b> *Mobile* | Opacità del livello di primo piano che si fonde con lo sfondo. Funziona indipendentemente dall’input Opacità e funge da moltiplicatore aggiuntivo. |
+| <b>Opacità</b> *Virgola mobile* | Opacità del livello di primo piano che si fonde con lo sfondo. Funziona indipendentemente dall’input Opacità e funge da moltiplicatore aggiuntivo. |
 | <b>Metodo fusione</b> *Intero* [Statico](../../../../glossary/glossary.md) | Imposta l&#39;operazione di fusione da utilizzare.   Consulta la [pagina dedicata sui metodi di fusione](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md). |
-| <b>Fusione Alpha</b> *Intero* [Statico](../../../../glossary/glossary.md) | Determina il comportamento di fusione quando gli input di colore hanno canali di Alpha:<ul data-preserve-html="true"> <li data-preserve-html="true">Usa alfa sorgente</li> <li data-preserve-html="true">Ignora alfa</li> <li data-preserve-html="true">Fusione alfa semplice</li> <li data-preserve-html="true">Fusione alfa premoltiplicata</li> </ul> |
-| <b>Area di ritaglio</b> *Float4* [Statico](../../../../glossary/glossary.md) | Consente di impostare un’area di ritaglio personalizzata che si comporti come una maschera di opacità aggiuntiva. Qualsiasi area ritagliata mostra solo lo sfondo. |
+| <b>Fusione alfa</b> *Intero* [Statico](../../../../glossary/glossary.md) | Determina il comportamento di fusione quando gli input di colore hanno Canali alfa:<ul data-preserve-html="true"> <li data-preserve-html="true">Usa alfa sorgente</li> <li data-preserve-html="true">Ignora alfa</li> <li data-preserve-html="true">Fusione alfa semplice</li> <li data-preserve-html="true">Fusione alfa premoltiplicata</li> </ul> |
+| <b>Area di ritaglio</b> *Virgola mobile 4* [Statico](../../../../glossary/glossary.md) | Consente di impostare un’area di ritaglio personalizzata che si comporti come una maschera di opacità aggiuntiva. Qualsiasi area ritagliata mostra solo lo sfondo. |
 
 ## Connettori di ingresso
 
@@ -103,11 +78,6 @@ La sua funzionalità è simile a quella di due livelli sovrapposti in [Substance
 > 
 > Questo è il motivo principale per cui i nuovi utenti incontrano problemi con le connessioni a colori e in scala di grigi: assicurati che entrambe le connessioni siano dello stesso tipo!
 
-## Connettori di uscita
-
-|  |  |
-| --- | --- |
-| <b>Output</b> *Scala di grigi/Colore* |  |
 
 ## Esempi
 

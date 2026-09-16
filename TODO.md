@@ -1,9 +1,8 @@
 ---
-source-git-commit: 31d4d930c789d693362ef3a16c72016bd030a89b
+source-git-commit: cd632984ee7783acd19a9a8ea2945130a1855935
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 12%
-
+source-wordcount: '87'
+ht-degree: 13%
 ---
 # TODO
 
@@ -22,7 +21,7 @@ ht-degree: 12%
   * Metallicità/Metallica
   * HDR
   * Speculare
-  * Mappa altezza
+  * Mappa height
   * Opacità
   * Frustum
   * Spazio tangente
@@ -34,7 +33,6 @@ ht-degree: 12%
 ## Correzioni
 
 * Correggi collegamento per immagine di primo esempio nelle pagine del nodo (ad es. nuovi rumori)
-* Elemento &#39;Numero intero negativo&#39; mancante e collegamenti interrotti in [parameters-not-working-as-expect.md](help/technical-issues/parameters-not-working/parameters-not-working-as-expected.md)
 
 ## Indagare
 

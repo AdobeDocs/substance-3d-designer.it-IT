@@ -1,22 +1,20 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blur.html"
-breadcrumb-title: ''
-description: Utilizzate il nodo Sfocatura per applicare effetti di sfocatura alla texture per attenuare i dettagli e creare effetti di sfocatura leggera.
+breadcrumb-title: ""
+description: Utilizzate il nodo Sfocatura per applicare effetti di sfocatura alle texture, per attenuare i dettagli e creare effetti di sfocatura leggera.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Blur
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Sfocatura
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '170'
 ht-degree: 6%
-
 ---
-
 
 # Sfocatura
 
@@ -24,7 +22,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![Icona nodo sfocatura](blur.resources/blur-9.png){width="200px"}
+![Icona nodo sfocatura](blur.resources/blur-9.png)
 
 **In:** Nodi Atomici
 
@@ -40,6 +38,14 @@ Il nodo Sfocatura esegue un’operazione di &quot;sfocatura in rettangolo&quot;:
 Anche se la sfocatura funziona bene per operazioni semplici e veloci, come ad esempio ammorbidire leggermente alcuni bordi, in uno scenario più impegnativo [Sfoca HQ](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/blur-hq/blur-hq.md) è una scelta migliore, compromettendo le prestazioni per la qualità.
 
 </td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="blur.resources/blur-tooltip.gif" alt="descrizione comando sfoca" /></td>
+<td style="border: 0; width: 15%"></td>
 </tr>
 </table>
 

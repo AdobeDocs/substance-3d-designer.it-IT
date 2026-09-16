@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Scoprite come funziona l’ereditarietà nella composizione dei grafici per Substance gerarchie grafiche e variazioni riutilizzabili.
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs > Inheritance in Substance graphs
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Ereditarietà nei grafici Substance
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: de08d20ea8428939ccfd3f31497c0f17421b9254
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '1681'
 ht-degree: 0%
-
 ---
-
 
 # Ereditarietà nei grafici Substance
 
@@ -196,7 +194,7 @@ L’input eredita dal grafico e i dati che riceve vengono adattati di conseguenz
 </tr>
 </table>
 
-È possibile impostare uno degli input come **input principale** del grafico facendo clic su **RMB** nel nodo [Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) e selezionando l&#39;opzione **Imposta come input principale** nel menu di scelta rapida.
+È possibile impostare uno degli input come **input principale** del grafico facendo clic su **RMB** nel nodo [Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) e selezionando l&#39;opzione **Imposta come input principale** nel menu di scelta rapida.
 
 </td>
 <td style="border: 0;" valign="top">

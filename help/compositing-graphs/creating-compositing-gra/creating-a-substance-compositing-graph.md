@@ -1,26 +1,24 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph.html"
-breadcrumb-title: ''
-description: Scoprite come creare grafici di composizione Substance in Substance 3D Designer per creare flussi di lavoro texture procedurali.
+breadcrumb-title: ""
+description: Scoprite come creare grafici di composizione Substance in Substance 3D Designer per creare flussi di lavoro procedurali per le texture.
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs > Creating a Substance graph
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Creazione di un grafico Substance
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 7e53313d3c368803a95ebb1f9eee712ae2a05817
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '1107'
 ht-degree: 1%
-
 ---
-
 
 # Creazione di un grafico Substance
 
-La creazione di texture in Designer inizia con la creazione di un grafico a Substance, da un modello predefinito o da un grafico vuoto.
+La creazione delle texture in Designer inizia con la creazione di un grafico a Substance, da un modello predefinito o da un grafico vuoto.
 
 <a name="create-graph"></a>
 
@@ -106,7 +104,7 @@ Indipendentemente dal metodo utilizzato per creare un nuovo grafico Substance, v
 
 ### Modelli
 
-Designer include modelli di grafici con nodi preconfigurati per iniziare più rapidamente. Possono includere [nodi di output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md), nodi semplici per passare valori a questi output, ad esempio [Colore uniforme](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md), nonché nodi [di input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md).
+Designer include modelli di grafici con nodi preconfigurati per iniziare più rapidamente. Possono includere [nodi di output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md), nodi semplici per passare valori a questi output, ad esempio [colori uniformi](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md), nonché nodi [di input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md).
 
 Fai doppio clic su un modello nell&#39;elenco oppure selezionalo e fai clic sul pulsante <b>Crea</b> per creare un nuovo grafico a Substance utilizzando tale modello. Per impostazione predefinita, il nuovo grafico viene inserito in un nuovo pacchetto non salvato.
 

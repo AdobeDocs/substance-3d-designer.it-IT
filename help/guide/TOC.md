@@ -3,13 +3,11 @@ user-guide-title: Substance 3D Designer
 breadcrumb-title: Substance 3D Designer
 user-guide-description: Substance 3D Designer
 nudge: true
-source-git-commit: 447b0e3beb6c147063de7e2642d646a988de060e
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
-source-wordcount: '1900'
+source-wordcount: '1905'
 ht-degree: 21%
-
 ---
-
 
 # Substance 3D Designer {#using}
 
@@ -64,7 +62,7 @@ ht-degree: 21%
       + [Effetti post](/help/interface/3d-view/camera/post-effects/post-effects.md)
     + [Proprietà dei materiali](/help/interface/3d-view/material-properties/material-properties.md)
     + Obsoleto{#deprecated}
-      + [OpenGL - Shader GLSLFX](/help/interface/3d-view/glslfx-shaders/glslfx-shaders.md)
+      + [OpenGL - Ombreggiatori GLSLFX](/help/interface/3d-view/glslfx-shaders/glslfx-shaders.md)
       + [OpenGL - Passaggio degli shader al profilo principale OpenGL](/help/interface/3d-view/switching-your-shaders/switching-your-shaders-to-opengl-core-profile.md)
   + [Gestione dipendenze](/help/interface/dependency-manager/dependency-manager.md)
 + Risorse{#resources}
@@ -132,7 +130,9 @@ ht-degree: 21%
       + [Elaboratore valori](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)
       + [Altera](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)
       + [Output](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
-      + [Input](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+      + [Colore di input](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)
+      + [Scala di grigi di input](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input-grayscale/input-grayscale.md)
+      + [Valore di input](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)
     + Libreria nodi{#node-library}
       + [Libreria nodi](/help/compositing-graphs/nodes-reference-for-com/node-library/node-library.md)
       + Generatori di texture{#texture-generators}
@@ -374,7 +374,7 @@ ht-degree: 21%
           + [Sezione trasversale](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/cross-section/cross-section.md)
           + [Curvatura](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-filter-node/curvature-filter-node.md)
           + [Curvatura uniforme](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md)
-          + [Curvatura sobel](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-sobel/curvature-sobel.md)
+          + [Sobel curvatura](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-sobel/curvature-sobel.md)
           + [Colore diffusione](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/diffusion-color/diffusion-color.md)
           + [Scala di grigi diffusione](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/diffusion-grayscale/diffusion-grayscale.md)
           + [UV diffusione](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/diffusion-uv/diffusion-uv.md)
@@ -418,7 +418,7 @@ ht-degree: 21%
           + [Combinazione normale](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md)
           + [Inverti normale](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-invert/normal-invert.md)
           + [Normale](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-normalize/normal-normalize.md)
-          + [Normale sobel](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-sobel/normal-sobel.md)
+          + [Sobel normale](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-sobel/normal-sobel.md)
           + [Normale al height](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-to-height/normal-to-height.md)
           + [Normale alla sede centrale del height](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-to-height-hq/normal-to-height-hq.md)
           + [Trasforma normale](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-transform/normal-transform.md)
@@ -459,8 +459,8 @@ ht-degree: 21%
           + [Filtro Stagione](/help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/season-filter/season-filter.md)
           + [Coperchio Snow](/help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/snow-cover/snow-cover.md)
           + [Livello dell&#39;acqua](/help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/water-level/water-level.md)
-        + Trasformazioni - Materiale{#transforms-material}
-          + [Trasformazioni - Materiale](/help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/transforms-material/transforms-material.md)
+        + Trasforma - Materiale{#transforms-material}
+          + [Trasforma - Materiale](/help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/transforms-material/transforms-material.md)
           + [Trasforma materiale](/help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/transforms-material/material-transform/material-transform.md)
         + Fusione - Materiale{#blending-material}
           + [Fusione - Materiale](/help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/blending-material.md)
@@ -518,7 +518,7 @@ ht-degree: 21%
           + [Usura in pelle](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/leather-wear/leather-wear.md)
           + [Luce](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/light/light.md)
           + [Generatore maschera](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/mask-builder/mask-builder.md)
-          + [Orecchio metallico](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/metal-edge-wear/metal-edge-wear.md)
+          + [Usura dei bordi in metallo](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/metal-edge-wear/metal-edge-wear.md)
           + [usura della pittura](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/paint-wear/paint-wear.md)
           + [Dirt selettivo](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/selective-dirt/selective-dirt.md)
           + [Sbiancamento](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/sun-bleach/sun-bleach.md)
@@ -547,7 +547,7 @@ ht-degree: 21%
           + [Strumenti percorso](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-tools.md)
           + [Specifiche formato tracciati](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-format-spe/paths-format-specifications.md)
           + [Tracciati 2D Trasforma](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md)
-          + [Maschera a tracciati](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md)
+          + [Maschera su tracciati](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md)
           + [Poligono tracciati](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-polygon/paths-polygon.md)
           + [Anteprima tracciati](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)
           + [Alterazione tracciati](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md)
@@ -622,7 +622,7 @@ ht-degree: 21%
     + [Nodo iterazione](/help/function-graphs/fxmaps/the-iterate-node/the-iterate-node.md)
     + [Nodo quadrante](/help/function-graphs/fxmaps/the-quadrant-node/the-quadrant-node.md)
     + Utilizzo dei grafici delle funzioni Substance in FX-Maps{#using-substance-function-graphs-in-fx-maps}
-      + [Utilizzo di grafici a funzione Substance in FX-Maps](/help/function-graphs/fxmaps/using-functions-in-fxmaps/using-functions-in-fxmaps.md)
+      + [Utilizzo dei grafici delle funzioni Substance in FX-Maps](/help/function-graphs/fxmaps/using-functions-in-fxmaps/using-functions-in-fxmaps.md)
       + [Itera e variabile $number](/help/function-graphs/fxmaps/using-functions-in-fxmaps/iterate-and-number-var/iterate-and-number-variable.md)
       + [Utilizzo dei nodi di Sampler](/help/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-sampler-nodes/using-the-sampler-nodes.md)
       + [Utilizzo dei nodi Set/Sequence](/help/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence/using-the-set-sequence-nodes.md)
@@ -755,12 +755,12 @@ ht-degree: 21%
   + [Arresto anomalo durante il rendering dei grafici](/help/technical-issues/crash-when-rendering-gra/crash-when-rendering-graphs.md)
   + [I parametri non funzionano come previsto](/help/technical-issues/parameters-not-working/parameters-not-working-as-expected.md)
   + [Output immagine errato](/help/technical-issues/incorrect-image-output/incorrect-image-output.md)
-  + [Problemi di vista 3D](/help/technical-issues/3d-view-issues/3d-view-issues.md)
-  + [Eseguire i baking i problemi](/help/technical-issues/baking-issues/baking-issues.md)
+  + [Problemi della vista 3D](/help/technical-issues/3d-view-issues/3d-view-issues.md)
+  + [Problemi di cottura](/help/technical-issues/baking-issues/baking-issues.md)
   + [Problemi dell&#39;interfaccia utente](/help/technical-issues/user-interface-issues/user-interface-issues.md)
   + [Problemi con Python](/help/technical-issues/python-issues/python-issues.md)
   + [Mancano le funzioni del grafico MDL e del modulo di rendering Iray](/help/technical-issues/mdl-graph-iray-eol/mdl-graph-iray-eol.md)
-  + [Feature grafica del modello Substance mancante](/help/technical-issues/model-graph-eol/substance-model-graph-eol.md)
+  + [Manca la feature di Substance grafica modello](/help/technical-issues/model-graph-eol/substance-model-graph-eol.md)
 + Note sulla versione{#release-notes}
   + [Note sulla versione](/help/release-notes/release-notes.md)
   + [Tutte le modifiche](/help/release-notes/all-changes/all-changes.md)

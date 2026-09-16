@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilizzate il nodo SVG per importare ed eseguire il rendering della grafica vettoriale di SVG come texture per la creazione di elementi grafici scalabili.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > SVG
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: SVG
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 1%
-
+source-wordcount: '425'
+ht-degree: 0%
 ---
-
 
 # SVG
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![Nodo atomico: SVG](svg.resources/comp_svg_1.png "Nodo atomico: SVG"){width="200px"}
+![Nodo atomico: SVG](svg.resources/comp_svg_1.png "Nodo atomico: SVG"){width="100%"}
+
+<b>In:</b> Nodi Atomici
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Esegue il rendering di un&#39;immagine [SVG](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) come bitmap. In altre parole, mappa le forme vettoriali sui pixel.
 
@@ -37,27 +37,16 @@ Esistono alcuni modi per creare questo nodo e tutti richiedono di comprendere[la
 </tr>
 </table>
 
-Potete creare il nodo da zero o rilasciando un file SVG nella vista Grafico.
-
 <table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="svg.resources/svg-tooltip.gif" alt="descrizione comando svg" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
+
+Potete creare il nodo da zero o rilasciando un file SVG nella vista Grafico.
+
 
 >[!TIP]
 >
@@ -79,20 +68,6 @@ Potete creare il nodo da zero o rilasciando un file SVG nella vista Grafico.
 > 
 > Ulteriori informazioni su queste limitazioni [qui](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md).
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Esempi
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
 
 ## Parametri
 
@@ -112,11 +87,6 @@ Le forme vettoriali possono essere modificate in Designer. Ulteriori informazion
 | --- | --- |
 | <b>Sfondo</b> *Scala di grigi/Colore* PRIMARIO | Imposta il colore di sfondo dell&#39;immagine di output da utilizzare nelle aree non coperte da una forma vettoriale.   *Ignora il parametro &#39;[Colore di sfondo](#parameters)&#39; quando è connesso.* |
 
-## Connettori di uscita
-
-|  |  |
-| --- | --- |
-| <b>Output</b> *Scala di grigi/Colore* |  |
 
 ## Esempi
 

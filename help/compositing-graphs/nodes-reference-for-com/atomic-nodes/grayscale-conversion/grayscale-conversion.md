@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/grayscale-conversion.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilizzare il nodo Conversione in scala di grigi per convertire le texture a colori in scala di grigio utilizzando vari metodi di conversione.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Grayscale conversion
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Conversione in scala di grigi
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '278'
 ht-degree: 7%
-
 ---
-
 
 # Conversione in scala di grigi
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![Nodo atomico: conversione in scala di grigi](grayscale-conversion.resources/comp_grayscaleconversion_1.png "Nodo atomico: conversione in scala di grigi"){width="200px"}
+![Nodo atomico: conversione in scala di grigi](grayscale-conversion.resources/comp_grayscaleconversion_1.png "Nodo atomico: conversione in scala di grigi"){width="100%"}
+
+<b>In:</b> Nodi Atomici
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Converte un’immagine a colori in scala di grigi pesando la luminanza di ciascun canale di colore.
 
@@ -37,56 +37,21 @@ Questo nodo può essere utilizzato come metodo ottimizzato per estrarre un canal
 </tr>
 </table>
 
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="grayscale-conversion.resources/grayscale-conversion-tooltip.gif" alt="descrizione comando conversione scala di grigi" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+</tr>
+</table>
+
 La maggior parte dei nodi può essere impostata per l&#39;output in scala di grigio o a colori, in cui il primo è preferito per motivi di semplicità e prestazioni.
 
 In effetti, si consiglia di lavorare in scala di grigi sin dall&#39;inizio e colorare le immagini in un secondo momento del flusso di lavoro, utilizzando ad esempio un nodo [Mappa sfumatura](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md).
 
 Ciò significa che un nodo di conversione della scala di grigi è generalmente riservato solo per i casi in cui si desidera convertire specificamente un&#39;immagine a colori in scala di grigi. In questi casi potete anche osservare la [conversione avanzata della scala di grigi](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/grayscale-conversion-adv/grayscale-conversion-advanced.md) e il [colore da mascherare](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/color-to-mask/color-to-mask.md).
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Parametri
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Connettori di ingresso
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Connettori di uscita
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Esempi
-
-</td>
-</tr>
-</table>
 
 ## Parametri
 
@@ -102,11 +67,6 @@ Ciò significa che un nodo di conversione della scala di grigi è generalmente r
 | --- | --- |
 | <b>Input</b> *Colore* PRIMARIO | Immagine a colori da elaborare. |
 
-## Connettori di uscita
-
-|  |  |
-| --- | --- |
-| <b>Output</b> *Scala di grigi* |  |
 
 ## Esempi
 

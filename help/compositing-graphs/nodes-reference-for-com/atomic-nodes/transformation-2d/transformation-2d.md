@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Usa il nodo Trasformazione 2D per applicare trasformazioni 2D alle texture, tra cui traslazione, rotazione e ridimensionamento.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Transformation 2D
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Trasformazione 2D
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9aaf135d4c336ea0cff865524ad1ccd5dcc225bd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '375'
 ht-degree: 5%
-
 ---
-
 
 # Trasformazione 2D
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![Nodo atomico: Trasformazione 2D](transformation-2d.resources/comp_transformation_1.png "Nodo atomico: Trasformazione 2D"){width="200px"}
+![Nodo atomico: Trasformazione 2D](transformation-2d.resources/comp_transformation_1.png "Nodo atomico: Trasformazione 2D"){width="100%"}
+
+<b>In:</b> Nodi Atomici
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Applica all’immagine una matrice di trasformazione 2D: traslazione, rotazione, ridimensionamento, simmetria e inclinazione.
 
@@ -37,29 +37,18 @@ Applica all’immagine una matrice di trasformazione 2D: traslazione, rotazione,
 </tr>
 </table>
 
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="transformation-2d.resources/transformation2d-tooltip.gif" alt="descrizione di transform-2d" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+</tr>
+</table>
+
 Si tratta di un nodo estremamente utile e ampiamente applicato, che consente di aumentare l&#39;Affiancamento, rimuovere l&#39;Affiancamento, posizionare un&#39;immagine in una posizione specifica, allungamento o schiacciare un input, ecc.
 
 Tuttavia, non può essere una corrispondenza perfetta per alcune applicazioni, quindi i seguenti nodi possono essere di interesse: [Trasforma sicura](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/safe-transform/safe-transform.md), [Trasforma non quadrata](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/non-square-transform/non-square-transform.md), [Trasforma quadrata](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/quad-transform/quad-transform.md) e [Trasforma trapezoidale](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/trapezoid-transform/trapezoid-transform.md).
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
 
 >[!TIP]
 >
@@ -73,20 +62,6 @@ Tuttavia, non può essere una corrispondenza perfetta per alcune applicazioni, q
 >
 > I valori di ridimensionamento e rotazione nelle proprietà del nodo sono *relativi alla trasformazione corrente* e non vengono applicati al vista 2D finché non si fa clic sul pulsante &#39;Applica&#39;.
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Connettori di uscita
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Esempi
-
-</td>
-</tr>
-</table>
 
 ## Parametri
 
@@ -105,11 +80,6 @@ Tuttavia, non può essere una corrispondenza perfetta per alcune applicazioni, q
 | --- | --- |
 | <b>Input</b> *Scala di grigi/Colore* PRIMARIO | Immagine da Trasforma. |
 
-## Connettori di uscita
-
-|  |  |
-| --- | --- |
-| <b>Output</b> *Scala di grigi/Colore* |  |
 
 ## Esempi
 

@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/values-in-substance-compositing-graphs.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Scoprite i tipi di valore e la gestione dei dati nei grafici di composizione delle Substance per una creazione efficace dei materiali.
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs > Values in Substance graphs
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Valori nei grafici Substance
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 46563ec789547cc1add76655dbad02f5099927a6
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '508'
 ht-degree: 2%
-
 ---
-
 
 # Valori nei grafici Substance
 
@@ -32,10 +30,10 @@ Sono disponibili alcuni casi di utilizzo, ad esempio:
 
 Due nuovi nodi atomici funzionano con valori:
 
-|  |  |
-| --- | --- |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                       |  |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| --- |
 | <div><img alt="Icona nodo processore valori" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="values-in-substance-compositing-graphs.resources/valueprocessor.png" title="Icona nodo processore valori" width="100px"/></div>  <b>[Processore valori](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)</b> | [Elaboratore valori](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) accetta un numero qualsiasi di input in scala di grigio o a colori e consente di restituire un singolo valore dai calcoli basati su tali input. |
-| <div><img alt="Icona nodo di input valore" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="values-in-substance-compositing-graphs.resources/inputnumeric.png" title="Icona nodo di input valore" width="100px"/></div>  **[Input valore](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)** | L&#39;[Input valore](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)consente di creare uno slot di input nei sottografi definito in modo esplicito come valore. |
+| <div><img alt="Icona nodo di input valore" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="values-in-substance-compositing-graphs.resources/inputnumeric.png" title="Icona nodo di input valore" width="100px"/></div>  **[Valore di input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)** | L&#39;[Input valore](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)consente di creare uno slot di input nei sottografi definito in modo esplicito come valore. |
 
 Inoltre, altri nodi li gestiscono in un modo specifico:
 
@@ -51,9 +49,9 @@ Su ogni singolo nodo ([Atomic](../../compositing-graphs/nodes-reference-for-com/
 
 L’utilizzo di Valori è leggermente diverso dal normale lavoro del grafico a Substance:
 
-Le connessioni di valore possono essere effettuate solo da un [processore di valore](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md), da un [input di valore](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) o da un [sotto-grafico](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md). Ciò significa che un processore di valori è l&#39;unico modo per creare una connessione di valore da zero, non c&#39;è un nodo di &quot;valore statico&quot; o qualcosa di simile. Create invece un processore valori, inserite un valore statico e impostatelo come output per ottenere lo stesso risultato.
+Le connessioni di valori possono essere effettuate solo da un [Processore di valori](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md), da un [valore di input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md) o da un [grafico secondario](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md). Ciò significa che un processore di valori è l&#39;unico modo per creare una connessione di valore da zero, non c&#39;è un nodo di &quot;valore statico&quot; o qualcosa di simile. Create invece un processore valori, inserite un valore statico e impostatelo come output per ottenere lo stesso risultato.
 
-Elaboratore valori può restituire un solo valore. Se si desidera restituire più valori o set o gruppi di valori, sarà necessario creare un [grafico secondario](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md).
+Processori di valori può restituire un solo valore. Se si desidera restituire più valori o set o gruppi di valori, sarà necessario creare un [grafico secondario](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md).
 
 Per evidenziare la posizione in cui i valori sono esposti o in uso, qualsiasi nodo con input di valori o output di valori viene evidenziato con un bordo giallo spesso:
 

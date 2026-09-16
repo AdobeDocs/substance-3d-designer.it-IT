@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilizzate il nodo Bitmap per importare e utilizzare immagini bitmap come texture nei grafici di composizione delle Substance.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Bitmap
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Bitmap
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 989234054615406114d2f7664ebee6f8c86f4bf2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 1%
-
+source-wordcount: '456'
+ht-degree: 0%
 ---
-
 
 # Bitmap
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![Nodo atomico: Bitmap](bitmap.resources/comp_bitmap.png "Nodo atomico: Bitmap"){width="200px"}
+![Nodo atomico: Bitmap](bitmap.resources/comp_bitmap.png "Nodo atomico: Bitmap"){width="100%"}
+
+<b>In:</b> Nodi Atomici
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Carica una [risorsa bitmap](../../../../resources/bitmap-resource/bitmap-resource.md) nel grafico.
 
@@ -39,27 +39,16 @@ Esistono alcuni modi per creare questo nodo e tutti richiedono che tu comprenda[
 </tr>
 </table>
 
-Potete creare il nodo da zero o rilasciando una [bitmap](../../../../glossary/glossary.md) in un formato supportato nella vista Grafico.
-
 <table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="bitmap.resources/bitmap-tooltip.gif" alt="descrizione comando bitmap" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
+
+Potete creare il nodo da zero o rilasciando una [bitmap](../../../../glossary/glossary.md) in un formato supportato nella vista Grafico.
+
 
 >[!TIP]
 >
@@ -74,30 +63,6 @@ Potete creare il nodo da zero o rilasciando una [bitmap](../../../../glossary/gl
 > * D&#39;altra parte, prestare attenzione quando si elimina una [risorsa bitmap](../../../../resources/bitmap-resource/bitmap-resource.md) in Esplora risorse: funzionerà ancora nel grafico per quella sessione poiché è mantenuta nella cache, ma la risorsa verrà contrassegnata come mancante al successivo caricamento del [pacchetto](../../../../glossary/glossary.md).
 > * Quando un grafico a Substance è [cucinato](../../../../glossary/glossary.md), la risoluzione della bitmap verrà fissata in base alla sua risoluzione all&#39;interno del grafico e non in base alle sue dimensioni originali. Si consiglia di verificare che il parametro &#39;Output size&#39; [base](../../../../glossary/glossary.md) di un nodo Bitmap utilizzi il [metodo di ereditarietà](../../../../glossary/glossary.md) &#39;Absolute&#39; e che il nodo sia seguito da un nodo [Transform 2D](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) impostato su &#39;Relative to parent&#39; (ovvero, la risoluzione del grafico host).
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Parametri
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Strumenti di pittura Bitmap
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Connettori di uscita
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Esempi
-
-</td>
-</tr>
-</table>
 
 ## Parametri
 
@@ -111,11 +76,6 @@ Potete creare il nodo da zero o rilasciando una [bitmap](../../../../glossary/gl
 
 Le bitmap possono essere modificate in Designer. Ulteriori informazioni sugli strumenti di modifica in [questa sezione](../../../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md).
 
-## Connettori di uscita
-
-|  |  |
-| --- | --- |
-| <b>Output</b> *Scala di grigi/Colore* |  |
 
 ## Esempi
 

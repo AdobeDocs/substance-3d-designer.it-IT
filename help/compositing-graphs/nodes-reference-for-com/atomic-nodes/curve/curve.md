@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilizza il nodo Curva per regolare i valori della texture utilizzando curve personalizzabili per un controllo preciso del colore e della luminosità.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Curve
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Curva
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '611'
 ht-degree: 2%
-
 ---
-
 
 # Curva
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![Nodo atomico: curva](curve.resources/comp_curve_1.png "Nodo atomico: curva"){width="200px"}
+![Nodo atomico: curva](curve.resources/comp_curve_1.png "Nodo atomico: curva"){width="100%"}
+
+<b>In:</b> Nodi Atomici
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Modifica i valori di un’immagine utilizzando una curva personalizzata.
 
@@ -37,53 +37,19 @@ Il nodo fornisce un&#39;interfaccia per la modifica della tonalità dell&#39;imm
 </tr>
 </table>
 
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="curve.resources/curve-tooltip.gif" alt="descrizione comando curva" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+</tr>
+</table>
+
 A differenza della maggior parte degli altri nodi, il nodo Curva non dispone di un&#39;interfaccia standard tipica con cursori e parametri, ma presenta invece un editor di curve completo. Vedere la sezione espandibile riportata di seguito su come utilizzarlo.
 
 [Ciò significa tuttavia che nessuno dei parametri di un nodo Curva può essere esposto a un grafico secondario](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md). L&#39;unica opzione disponibile è quella di utilizzare un [switch multiplo](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/multi-switch/multi-switch.md) per passare da un profilo di curva all&#39;altro.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Parametri
-
-### Editor curva
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Connettori di ingresso
-
-### Connettori di uscita
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Esempi
-
-</td>
-</tr>
-</table>
 
 ## Parametri
 
@@ -105,12 +71,12 @@ Per creare un punto, fate doppio clic in un punto qualsiasi della vista Curva:
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Per ottenere risultati precisi, i nodi della curva offrono diverse modalità per ciascun punto:
 
 </td>
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ![](curve.resources/image2017-2-17-14-5-36.png)
 
@@ -142,14 +108,14 @@ Puoi mostrare/nascondere l&#39;istogramma del tuo input semplicemente facendo cl
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Quando immettete è un nodo di colore, potete regolare la curva per ciascun canale:
 
 Seleziona la curva da regolare nell’elenco a discesa in alto a destra:
 
 </td>
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ![](curve.resources/image2017-2-17-14-52-43.png)
 
@@ -165,7 +131,7 @@ Nella modalità Curva RGB puoi nascondere/mostrare le singole curve dei canali p
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Se fate clic con il pulsante destro del mouse sulla vista curva, verranno visualizzate altre opzioni.
 
@@ -259,11 +225,6 @@ Il pulsante ![](curve.resources/image2017-2-20-19-12-45.png) ripristina il livel
 | --- | --- |
 | <b>Input</b> *Scala di grigi/Colore* PRIMARIO | Immagine da elaborare. |
 
-## Connettori di uscita
-
-|  |  |
-| --- | --- |
-| <b>Output</b> *Scala di grigi/Colore* |  |
 
 ## Esempi
 

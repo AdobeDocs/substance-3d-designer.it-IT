@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/release-notes/version-12-4.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulta le note sulla versione per Substance 3D Designer versione 12.4 per informazioni sulle nuove funzioni, i miglioramenti e le correzioni di bug.
 helpx_creative_field: ""
 helpx_description: Designer > Release Notes > Version 12.4
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Versione 12.4
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ba25885fb45039d7cbdc79af4792a1fa0f83564a
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 1%
-
 ---
-
 
 # Versione 12.4
 
@@ -58,7 +56,7 @@ Ora puoi bloccare la larghezza e il height delle dimensioni di output per assicu
 
 ### Trasforma l&#39;input dell&#39;immagine in scala di colori/grigi
 
-Passate rapidamente da un [colore di input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) a un [scala di grigi di input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) tramite il menu di scelta rapida del nodo.
+Passare rapidamente da un [colore di input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) a un [scala di grigi di input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-grayscale/input-grayscale.md) tramite il menu di scelta rapida del nodo.
 
 ![](version-12-4.resources/final-switch.gif){width="640px"}
 
@@ -76,7 +74,7 @@ Nuova voce nel menu contestuale [nodo](../../interface/the-graph-view/the-graph-
 
 ## Aggiornamenti dell’API Python
 
-Questa versione 12.4 offre anche il supporto completo dei grafici dei modelli di Substance tramite l’API Python. Ciò significa che ora disponi di tutti gli strumenti necessari per creare, modificare o valutare i grafici dei modelli di Substance. Per informazioni dettagliate, vedere la documentazione disponibile nel menu Guida del software.
+Questa versione 12.4 offre anche il supporto completo dei grafici dei modelli Substance tramite l’API Python. Significa che ora hai tutti gli strumenti necessari per creare, modificare o valutare i grafici dei modelli Substance. Per informazioni dettagliate, vedere la documentazione disponibile nel menu Guida del software.
 
 ## Note sulla versione
 
@@ -86,12 +84,12 @@ Questa versione 12.4 offre anche il supporto completo dei grafici dei modelli di
 
 <b>Aggiunto:</b>
 
-* [Vista 3D] Aggiungi pulsanti di accesso rapido per impostare le opzioni di visualizzazione (Wireframe, mappa dell&#39;ambiente, statistiche delle scene, ecc.)
-* [Gestione colore] Migliorare la qualità delle LUT 3D al forno in modalità ACE
+* [vista 3D] Aggiungi pulsanti di accesso rapido per impostare le opzioni di visualizzazione (Wireframe, mappa dell&#39;ambiente, statistiche delle scene, ecc.)
+* [Gestione colore] Migliorare la qualità delle LUT 3D eseguite i baking in modalità ACE
 * [Documentazione] Progetti di esempio per grafici Substance
 * [Documentazione] Progetto di esempio per i grafici delle funzioni
 * [Explorer] Consente di spostare il grafico e le risorse da un elemento padre a un altro senza chiudere o invalidare i widget
-* [Editore sfumatura] Seleziona la puntina su cui hai fatto clic quando visualizzi l’editor della sfumatura
+* [Editore sfumatura] Seleziona il segnaposto su cui si fa clic durante la visualizzazione dell’editor delle sfumature
 * [Grafico] Aggiungere l&#39;opzione nel menu di scelta rapida di un nodo per selezionare tutti i relativi figli
 * [Grafico] Pulisci lo strumento grafico per rilevare e rimuovere i nodi inutilizzati in tutti i tipi di grafico e i grafici delle proprietà
 * [Grafico] Trasforma l&#39;input dell&#39;immagine in scala di colori/grigi
@@ -99,7 +97,7 @@ Questa versione 12.4 offre anche il supporto completo dei grafici dei modelli di
 * [Parametri] Consente di digitare formule di base come parametro
 * [Substance modello] Attiva/disattiva per passare da valori a icone per i nodi di valori e viceversa
 * [UI] Pulsante per generare un valore casuale quando è richiesto un valore di inizializzazione casuale
-* [UI] Evidenzia nella vista 3D l’elemento attualmente selezionato nell’Elenco scene
+* [UI] Evidenzia nel vista 3D l’elemento attualmente selezionato nell’Elenco scene
 * [UX] Reimposta gli intervalli del cursore quando il loro valore viene reimpostato
 * [API] Consenti l’aggiunta di azioni alle barre degli strumenti della visualizzazione grafico
 * [API] Consenti di creare, modificare o valutare un grafico del modello di Substance dall’API

@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/resources/axf-appearance-exchange-format.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Scoprite come importare e utilizzare le risorse per il formato di scambio dell’aspetto AxF in Substance 3D Designer per l’importazione dei materiali.
 helpx_creative_field: ""
 helpx_description: Designer > Resources > AxF (Appearance eXchange Format)
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: AxF (Appearance eXchange Format)
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9b772dfaab124991f6c6420f451179304d2731cd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '2140'
 ht-degree: 0%
-
 ---
-
 
 # AxF (Appearance eXchange Format)
 
@@ -31,28 +29,28 @@ ht-degree: 0%
 
 Substance 3D Designer supporta il formato eXchange di aspetto di [X-Rite.](https://www.xrite.com/axf) I creatori del formato lo descrivono come segue:
 
-&quot;I file AxF vengono utilizzati per acquisire, archiviare, modificare e comunicare le caratteristiche dei materiali complesse durante il flusso di lavoro di progettazione digitale. AxF fornisce un metodo standard per archiviare e condividere tutti i dati di aspetto rilevanti (colore, texture, lucido, rifrazione, traslucidità, effetti speciali (scintille) e proprietà di riflessione) tra le applicazioni di rendering di PLM (Product Lifecycle Management), CAD (Computer Aided Design) e allo stato dell&#39;arte.
+&quot;I file AxF vengono utilizzati per acquisire, archiviare, modificare e comunicare le caratteristiche dei materiali complesse durante il flusso di lavoro di progettazione digitale. AxF fornisce un metodo standard per archiviare e condividere tutti i dati di aspetto rilevanti (colore, texture, lucidità, rifrazione, traslucidità, effetti speciali (scintille) e proprietà di riflessione) in tutte le applicazioni PLM (Product Lifecycle Management), CAD (Computer Aided Design) e di rendering all&#39;avanguardia.
 
 </td>
 </tr>
 </table>
 
-In parole povere, i file AxF ospitano una serie di texture estratte dall&#39;hardware scanner TAC7 di X-Rite, insieme a metadati che descrivono proprietà aggiuntive del materiale. Ciò significa che un AxF è più di un semplice dato di texture: ha anche proprietà di ombreggiatura.
+In parole povere, i file AxF ospitano un certo numero di texture estratte dall&#39;hardware scanner TAC7 di X-Rite, insieme a metadati che descrivono proprietà aggiuntive del materiale. Ciò significa che un AxF è più di semplici dati di texture: ha anche delle proprietà di ombreggiatura.
 
 I file AxF sono *non* importati come pacchetto [risorsa](../../resources/resources.md). Piuttosto, il [processo di importazione](#import) prevede l&#39;estrazione di texture e metadati dal file AxF e l&#39;utilizzo di tali elementi per preparare grafici creati da [modelli dedicati](#graph-templates).
 
 I modelli disponibili sono destinati a due flussi di lavoro AxF:
 
-* <b>Conversione</b> di materiale SVBRDF in un file AxF in un materiale PBR;
+* <b>Conversione</b> di un materiale SVBRDF in un file AxF in un materiale PBR;
 * <b>Modifica</b> di un materiale SVBRDF in posizione e [esportazione](#export) in un file AxF esistente come nuovo livello.
 
 >[!NOTE]
 >
 > Modelli di materiale supportati
 > 
-> Solo i materiali che utilizzano un modello <b>SVBRDF</b> (BRDF con variazione spaziale) possono essere *completamente* caricati e modificati in Designer.
+> In Designer è possibile caricare e modificare *completamente* solo i materiali che utilizzano un modello <b>SVBRDF</b> (BRDF con variazione spaziale).
 > 
-> I materiali che utilizzano il modello <b>EP-SVBRDF</b> (Energy Preserving SVBRDF) possono essere caricati, ma solo le funzionalità esistenti nel modello SVBRDF possono essere modificate e visualizzate. Non sono supportate funzioni esclusive per EP-SVBRDF.
+> I materiali che utilizzano il modello <b>EP-SVBRDF</b> (Energy Preserving SVBRDF) possono essere caricati, ma solo le funzionalità esistenti nel modello SVBRDF possono essere modificate e visualizzate. Le funzioni esclusive di EP-SVBRDF non sono supportate.
 > 
 > Altri modelli non sono supportati.
 
@@ -143,8 +141,8 @@ Fai clic sul pulsante <b>Aggiungi modello</b> e seleziona il tipo di grafico des
 
 Sono disponibili due tipi di modelli di grafici a Substance:
 
-<b>AxF to Rugosità metallica</b> e <b>AxF to Specular Lucentezze</b> sono *modelli di conversione* che consentono di mappare i materiali AxF ai modelli PBR standard.\
-Questi possono quindi essere utilizzati con i vista 3D shader predefiniti e combinati con altri materiali PBR prodotti in Designer, [Sampler](https://www.adobe.com/it/products/substance3d-sampler.html) o acquisiti dalla nostra libreria [Risorse 3D](https://substance3d.adobe.com/assets/).
+<b>Da AxF a rugosità metallica</b> e <b>Da AxF a lucidità Specular</b> sono *modelli di conversione* che consentono di mappare i materiali AxF ai modelli PBR standard.\
+Questi possono quindi essere utilizzati con gli shader della vista 3D predefiniti e combinati con altri materiali PBR prodotti in Designer, [Sampler](https://www.adobe.com/it/products/substance3d-sampler.html) o acquisiti dalla nostra libreria [Risorse 3D](https://substance3d.adobe.com/assets/).
 
 <b>Da AxF a AxF</b> è un modello *passthrough* che consente di modificare i materiali AxF in posizione ed esportare queste modifiche come nuovi livelli nei file AxF esistenti. Per ulteriori informazioni, consultate Esportazione di file AxF di seguito.
 
@@ -163,9 +161,9 @@ Questi possono quindi essere utilizzati con i vista 3D shader predefiniti e comb
 
 Per tutti i modelli di grafici Substance aggiunti all&#39;elenco <b>Modelli</b>, vengono eseguite le seguenti operazioni aggiuntive:
 
-Per qualsiasi nodo [<b>Input</b>](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) che *Usage* corrisponde all&#39;*identificatore* di una texture estratta dal file AxF, tale nodo Input viene sostituito da un nodo [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) che fa riferimento a tale texture;
+Per qualsiasi nodo [Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) che *Usage* corrisponde all&#39;*identificatore* di una texture estratta dal file AxF, tale nodo Input viene sostituito da un nodo [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) che fa riferimento a tale texture;
 
-La proprietà <b>Resolution</b> del grafico (ad esempio, Dimensione output) viene impostata automaticamente sulla potenza di due valori uguali o superiori alla risoluzione della texture estratta *più grande*.
+La proprietà <b>Risoluzione</b> del grafico (ovvero, Dimensione di output) viene impostata automaticamente sulla potenza di due valori uguali o superiori alla risoluzione della texture estratta *più grande*.
 
 La proprietà <b>Resolution</b> dei nodi [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) (ad esempio, la dimensione dell&#39;output) è impostata automaticamente per corrispondere a quella del grafico, dopo l&#39;applicazione dell&#39;operazione precedente.
 
@@ -179,9 +177,9 @@ I *metadati* estratti dal materiale nel file AxF vengono copiati nella propriet�
 >
 > I valori di default dei parametri del grafico non devono essere modificati dopo questa configurazione iniziale.
 > 
-> Specificano le proprietà di ombreggiatura essenziali per interpretare correttamente i valori nelle texture.
+> Specificano le proprietà di ombreggiatura essenziali per interpretare correttamente i valori delle texture.
 > 
-> Pertanto, la modifica di queste impostazioni determinerà un rendering errato durante la visualizzazione del materiale in [vista 3D](../../interface/3d-view/3d-view.md).
+> Pertanto, la modifica di queste impostazioni determinerà un rendering errato durante la visualizzazione del materiale nella [vista 3D](../../interface/3d-view/3d-view.md).
 
 </td>
 <td style="border: 0;" valign="top">
@@ -200,7 +198,7 @@ Grazie alla possibilità di esportare gli output dei grafici in file AxF, un tip
 
 1. Importa file AxF
 1. Usa il modello di grafico da &#39;AxF a AxF&#39; per la Substance
-1. Modificare la texture estratta utilizzando le funzioni e i nodi disponibili nei grafici a Substance
+1. Modificate le texture estratte utilizzando le funzioni e i nodi disponibili nei grafici a Substance
 1. Esportate gli output del grafico nello stesso file AxF
 
 La proprietà <b>Dimensioni fisiche</b> del grafico viene utilizzata per impostare l&#39;attributo <b>Dimensioni fisiche</b> delle texture aggiornate nel file AxF modificato.

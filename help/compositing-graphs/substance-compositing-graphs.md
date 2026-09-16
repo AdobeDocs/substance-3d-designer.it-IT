@@ -1,22 +1,20 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs.html"
-breadcrumb-title: ''
-description: Scoprite come creare grafici di composizione delle Substance in Substance 3D Designer per flussi di lavoro di texture e materiale procedurali.
+breadcrumb-title: ""
+description: Scoprite come creare Substance di grafici di composizione in Substance 3D Designer per texture procedurali e flussi di lavoro dei materiali.
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Grafici Substance
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 7e53313d3c368803a95ebb1f9eee712ae2a05817
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 1%
-
 ---
-
 
 # Grafici Substance
 
@@ -31,7 +29,7 @@ ht-degree: 1%
 
 [I grafici Substance](https://substance3d.adobe.com/) sono il tipo principale di grafico creato in Substance 3D Designer. Il loro scopo è <b>generare ed elaborare dati di immagini 2D</b> che non siano vincolati a una risoluzione, un colore o una forma impostata. Sono intesi come strumenti di elaborazione e generazione delle immagini estremamente versatili, non solo come risultati statici preimpostati.
 
-I risultati possono presentarsi sotto forma di semplici pattern in bianco e nero, di filtri che vengono eseguiti solo su altre immagini e non generano contenuti di per sé, o anche di materiale di procedurali a pieno titolo con più canali.
+I risultati possono presentarsi sotto forma di semplici pattern in bianco e nero, di filtri che vengono eseguiti solo su altre immagini e non generano contenuti di per sé, o anche di materiale procedurale completo con più canali.
 
 I grafici a Substance sono[il tipo di grafico più supportato](../getting-started/overview/overview.md) e possono essere esportati e utilizzati in numerosi flussi di lavoro diversi.
 
@@ -59,7 +57,7 @@ Il testo con il numero o il thickness del bordo può essere esposto esternamente
 
 
 
-Un grafico di filtro prende una mappa normale come [input](../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)(con un&#39;anteprima personalizzata), [la converte in curvatura](../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md) e quindi [regola il contrasto](../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md) per creare una maschera di bordi convessi come [output](../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) finale.
+Un grafico di filtro prende una mappa normale come [input](../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) (con un&#39;anteprima personalizzata), [la converte in curvatura](../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md) e quindi [regola il contrasto](../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md) per creare una maschera di bordi convessi come [output](../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) finale.
 
 I valori di contrasto impostati nell’istogramma possono essere esposti, rendendo questo un filtro semplice ma utile in combinazione con lo slot di input dinamico.
 

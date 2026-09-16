@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilizzate il nodo Mappa sfumatura per mappare i valori della scala di grigio ai colori utilizzando le sfumature per la colorizzazione e gli effetti.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Gradient map
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Mappa sfumatura
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '1160'
 ht-degree: 2%
-
 ---
-
 
 # Mappa sfumatura
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![Nodo atomico: mappa sfumatura](gradient-map.resources/comp_gradient_1.png "Nodo atomico: mappa sfumatura"){width="200px"}
+![Nodo atomico: mappa sfumatura](gradient-map.resources/comp_gradient_1.png "Nodo atomico: mappa sfumatura"){width="100%"}
+
+<b>In:</b> Nodi Atomici
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Modifica i valori in scala di grigi di un’immagine utilizzando una sfumatura personalizzata.
 
@@ -37,31 +37,17 @@ Questo nodo ha un duplice scopo: può essere utilizzato semplicemente come <b> <
 </tr>
 </table>
 
-Il nodo offre un editor delle sfumature avanzato e ricco di funzionalità per mappare più colori con precisione: per ulteriori informazioni, vai alla sezione [Editor delle sfumature](#gradient-editor) di questa pagina.
-
 <table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="descrizione di gradient-map" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
-## Esempi
+Il nodo offre un editor delle sfumature avanzato e ricco di funzionalità per mappare più colori con precisione: per ulteriori informazioni, vai alla sezione [Editor delle sfumature](#gradient-editor) di questa pagina.
 
-## Parametri
+
 
 |  |  |
 | --- | --- |
@@ -82,9 +68,9 @@ Può essere aperto dalle <b>Proprietà</b> del nodo Mappa sfumatura nei modi seg
 
 ### Modifica delle puntine della sfumatura
 
-I colori e la loro posizione lungo la sfumatura sono controllati dai perni posizionati lungo la barra della sfumatura.
+I colori e la loro posizione lungo la sfumatura sono controllati dai segnaposti posizionati lungo la barra della sfumatura.
 
-Ogni puntina imposta un colore nella sua posizione lungo la sfumatura.
+Ogni segnaposto imposta un colore nella sua posizione lungo la sfumatura.
 
 Le parti della sfumatura prima e dopo il primo e l’ultimo segnaposto vengono impostate rispettivamente sui colori di tali segnaposti.
 
@@ -177,7 +163,7 @@ Riflette le posizioni dei segnaposti selezionati sulla sfumatura.
 
 <b>Cancella tutto</b>
 
-Rimuove tutti i segnaposti dalla barra della sfumatura.
+Rimuove tutti i perni dalla barra della sfumatura.
 
 </td>
 <td style="border: 0;" valign="top">
@@ -255,14 +241,14 @@ Il Selettore colore consente di impostare un colore in diversi modi:
 
   <table>
   <tr style="border: 0;">
-  <td width="100.00%" style="border: 0;" valign="top">
+  <td style="border: 0;" valign="top">
 
   I cursori RGB, HSV e Alpha consentono di impostare un colore con precisione, modificando i cursori o impostandone direttamente i valori numerici.
 
   In alternativa, utilizza un codice esadecimale nel campo di input dedicato sotto i cursori.
 
   </td>
-  <td width="33.33%" style="border: 0;" valign="top">
+  <td style="border: 0;" valign="top">
 
   ![Selettore colore - Cursori RGB, HSV e Alpha](gradient-map.resources/image2017-2-17-18-31-41.png "Selettore colore - Cursori RGB, HSV e Alpha")
 
@@ -289,7 +275,7 @@ Il Selettore colore consente di impostare un colore in diversi modi:
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Il colore selezionato viene visualizzato in anteprima nella metà superiore della miniatura del colore.\
 Nella metà inferiore viene visualizzato il colore utilizzato in precedenza. Fate doppio clic su LMB per ripristinare il colore modificato.
@@ -303,11 +289,11 @@ Nella metà inferiore viene visualizzato il colore utilizzato in precedenza. Fat
 </tr>
 </table>
 
-Quando sono selezionati più pin, i cursori RGB, HSV e Alpha si trasformano in cursori delta (Δ), ovvero vengono utilizzati per compensare il valore di ciascun pin della stessa quantità.
+Quando sono selezionati più segnaposti, i cursori RGB, HSV e Alpha si trasformano in cursori delta (Δ), ovvero vengono utilizzati per compensare il valore di ciascun segnaposto della stessa quantità.
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Inoltre, sotto la miniatura a colori, sono disponibili come pulsanti le seguenti funzionalità:
 
@@ -321,7 +307,7 @@ Inoltre, sotto la miniatura a colori, sono disponibili come pulsanti le seguenti
 
 <b>sRGB</b>: usate lo spazio colore sRGB per visualizzare i colori. Se è disattivata, viene utilizzato lo spazio colore lineare;
 
-<b>Float:</b> visualizzare i valori di RGB, HSV e cursore Alpha in virgola mobile.
+<b>Virgola mobile:</b> Visualizza i valori di RGB, HSV e del cursore Alpha in virgola mobile.
 
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
@@ -346,11 +332,6 @@ Il cursore <b>Precisione</b> ti aiuterà a regolare la sfumatura appena creata a
 | --- | --- |
 | <b>Input</b> *Scala di grigi* PRIMARIO | Immagine in scala di grigio da elaborare. |
 
-## Connettori di uscita
-
-|  |  |
-| --- | --- |
-| <b>Output</b> *Scala di grigi* |  |
 
 ## Esempi
 
