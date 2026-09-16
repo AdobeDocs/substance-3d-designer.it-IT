@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/distance.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/distance.html"
 breadcrumb-title: ""
 description: Utilizzate il nodo Distanza per calcolare le mappe di distanza dalle forme per la creazione di maschere ed effetti procedurali.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Distanza
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 8%
@@ -20,12 +20,12 @@ ht-degree: 8%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="20%" style="border: 0;" valign="top">
 
-![Nodo atomico: Distanza](distance.resources/comp_distance_1.png "Nodo atomico: Distanza"){width="20%"}
+![Nodo atomico: Distanza](distance.resources/comp_distance_1.png "Nodo atomico: Distanza")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Trova la posizione del pixel bianco più vicino in una maschera e genera una sfumatura da quella posizione o il colore in quella posizione in un’immagine di origine.
 
@@ -35,7 +35,7 @@ Questo nodo crea una dissolvenza lineare (sfumatura) verso l’esterno da qualsi
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="distance.resources/distance-tooltip.gif" alt="descrizione comando distanza" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="distance.resources/distance-tooltip.gif" alt="descrizione comando distanza" /></div>
 
 La dissolvenza verso l&#39;esterno in espansione terminerà non appena incontrerà un&#39;altra cella: non si sovrapporrà mai. Internamente, questo è in realtà il calcolo e la visualizzazione della distanza al pixel più vicino > 0,5, con il nodo distanza impostato come un morsetto/massimo.
 
@@ -70,17 +70,17 @@ Per ulteriori informazioni, consultate i seguenti [esempi](#examples).
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](distance.resources/distance-ex01.gif){width="20%"}
+![](distance.resources/distance-ex01.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](distance.resources/distance-ex02.gif){width="20%"}
+![](distance.resources/distance-ex02.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](distance.resources/distance-ex03.gif){width="20%"}
+![](distance.resources/distance-ex03.gif)
 
 </td>
 </tr>

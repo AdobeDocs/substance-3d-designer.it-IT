@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/grayscale-conversion.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/grayscale-conversion.html"
 breadcrumb-title: ""
 description: Utilizzare il nodo Conversione gradazioni di grigio per convertire le texture di colore in gradazioni di grigio utilizzando vari metodi di conversione.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Conversione in scala di grigi
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 7%
@@ -22,10 +22,10 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atomico: conversione in scala di grigi](grayscale-conversion.resources/comp_grayscaleconversion_1.png "Nodo atomico: conversione in scala di grigi"){width="20%"}
+![Nodo atomico: conversione in scala di grigi](grayscale-conversion.resources/comp_grayscaleconversion_1.png "Nodo atomico: conversione in scala di grigi")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Converte un’immagine a colori in scala di grigi pesando la luminanza di ciascun canale di colore.
 
@@ -35,7 +35,7 @@ Questo nodo può essere utilizzato come metodo ottimizzato per estrarre un canal
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="grayscale-conversion.resources/grayscale-conversion-tooltip.gif" alt="descrizione comando conversione scala di grigi" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="grayscale-conversion.resources/grayscale-conversion-tooltip.gif" alt="descrizione comando conversione scala di grigi" /></div>
 
 La maggior parte dei nodi può essere impostata per l&#39;output in scala di grigio o a colori, in cui il primo è preferito per motivi di semplicità e prestazioni.
 

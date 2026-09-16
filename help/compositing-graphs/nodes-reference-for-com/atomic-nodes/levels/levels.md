@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
 breadcrumb-title: ""
 description: Utilizza il nodo Livelli per regolare la luminosità, il contrasto e la gamma tonale delle texture per la correzione e il miglioramento del colore.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Livelli
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 3%
@@ -20,12 +20,12 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="20%" style="border: 0;" valign="top">
 
-![Nodo atomico: Livelli](levels.resources/comp_levels_1.png "Nodo atomico: Livelli"){width="20%"}
+![Nodo atomico: Livelli](levels.resources/comp_levels_1.png "Nodo atomico: Livelli")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Regola la gamma tonale globale e il bilanciamento del colore di ombre, mezzitoni e luci di un’immagine.
 
@@ -35,7 +35,7 @@ Il nodo Livelli consente di rimappare i toni di un input impostando i fattori di
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="levels.resources/levels-tooltip.gif" alt="descrizione comandi livelli" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="levels.resources/levels-tooltip.gif" alt="descrizione comandi livelli" /></div>
 
 È uno dei nodi principali e più utili di Substance 3D Designer ed è molto spesso utilizzato per rielaborare e regolare i valori in un grafico, in quanto fornisce l’interfaccia più precisa e precisa per modificare i valori.
 
@@ -47,14 +47,14 @@ Il nodo offre due interfacce per regolarne i valori: istogramma e cursori. Puoi 
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Il pulsante giallo evidenziato alterna l’interfaccia tra i cursori dei valori dell’istogramma (in alto) (in basso)
 
 </td>
 <td width="66.67%" style="border: 0;" valign="top">
 
-![](levels.resources/levels-2-1.png){width="20%"}
+![](levels.resources/levels-2-1.png)
 
 ![](levels.resources/levels-1-1.png)
 

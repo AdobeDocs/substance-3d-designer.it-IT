@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
 breadcrumb-title: ""
 description: Utilizzate il nodo SVG per importare ed eseguire il rendering della grafica vettoriale di SVG come texture per la creazione di elementi grafici scalabili.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: SVG
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 0%
@@ -20,12 +20,12 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="20%" style="border: 0;" valign="top">
 
-![Nodo atomico: SVG](svg.resources/comp_svg_1.png "Nodo atomico: SVG"){width="20%"}
+![Nodo atomico: SVG](svg.resources/comp_svg_1.png "Nodo atomico: SVG")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Esegue il rendering di un&#39;immagine [SVG](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) come bitmap. In altre parole, mappa le forme vettoriali sui pixel.
 
@@ -35,7 +35,7 @@ Esistono alcuni modi per creare questo nodo e tutti richiedono di comprendere[la
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="svg.resources/svg-tooltip.gif" alt="descrizione comando svg" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="svg.resources/svg-tooltip.gif" alt="descrizione comando svg" /></div>
 
 Potete creare il nodo da zero o rilasciando un file SVG nella vista Grafico.
 

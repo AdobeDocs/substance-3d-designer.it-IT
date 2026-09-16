@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
 breadcrumb-title: ""
 description: Utilizzate il nodo Mappa sfumatura per mappare i valori della scala di grigio ai colori utilizzando le sfumature per la colorizzazione e gli effetti.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mappa sfumatura
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '1157'
 ht-degree: 2%
@@ -22,10 +22,10 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atomico: mappa sfumatura](gradient-map.resources/comp_gradient_1.png "Nodo atomico: mappa sfumatura"){width="20%"}
+![Nodo atomico: mappa sfumatura](gradient-map.resources/comp_gradient_1.png "Nodo atomico: mappa sfumatura")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Modifica i valori in scala di grigi di un’immagine utilizzando una sfumatura personalizzata.
 
@@ -35,7 +35,7 @@ Questo nodo ha un duplice scopo: può essere utilizzato semplicemente come <b> <
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="descrizione di gradient-map" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="descrizione di gradient-map" /></div>
 
 Il nodo offre un editor delle sfumature avanzato e ricco di funzionalità per mappare più colori con precisione: per ulteriori informazioni, vai alla sezione [Editor delle sfumature](#gradient-editor) di questa pagina.
 
@@ -56,34 +56,34 @@ Può essere aperto dalle <b>Proprietà</b> del nodo Mappa sfumatura nei modi seg
 * Fai clic su LMB sul pulsante <b>Editore sfumatura</b>.
 * Fate doppio clic su LMB su una puntina nella barra della sfumatura. La puntina su cui hai fatto clic verrà selezionata automaticamente in Editore sfumatura, così potrai modificarne direttamente i valori.
 
-![Editore sfumatura](gradient-map.resources/image2017-2-17-16-13-5.png "Editore sfumatura"){width="20%"}
+![Editore sfumatura](gradient-map.resources/image2017-2-17-16-13-5.png "Editore sfumatura")
 
 ### Modifica delle puntine della sfumatura
 
 I colori e la loro posizione lungo la sfumatura sono controllati dai perni posizionati lungo la barra della sfumatura.
 
-Ogni segnaposto imposta un colore nella sua posizione lungo la sfumatura.
+Ogni puntina imposta un colore nella sua posizione lungo la sfumatura.
 
-Le parti della sfumatura prima e dopo il primo e l’ultimo segnaposto vengono impostate rispettivamente sui colori di tali segnaposti.
+Le parti della sfumatura prima e dopo il primo e l’ultimo perno vengono impostate rispettivamente sui colori del perno.
 
 ![Editore sfumatura - Vista sfumatura](gradient-map.resources/image2017-2-17-17-27-46.png "Editore sfumatura - Vista sfumatura")
 
-Per modificare i segnaposti sono disponibili i seguenti controlli:
+Per modificare le puntine sono disponibili i seguenti controlli:
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-<b>Aggiungi segnaposto</b>
+<b>Aggiungi pin</b>
 
-Fate clic su LMB sulla sfumatura o appena sotto per aggiungere un segnaposto nella posizione in cui avete fatto clic nella barra della sfumatura.
+Fate clic su LMB sulla sfumatura o appena sotto per aggiungere una puntina nella posizione in cui avete fatto clic nella barra della sfumatura.
 
-Il nuovo segnaposto verrà impostato sul colore della sfumatura in quella posizione.
+Il nuovo perno verrà impostato sul colore della sfumatura in quella posizione.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Editore sfumatura - Aggiungi segnaposto](gradient-map.resources/move-pin.gif "Editore sfumatura - Aggiungi segnaposto")
+![Editore sfumatura - Aggiungi pin](gradient-map.resources/move-pin.gif "Editore sfumatura - Aggiungi pin")
 
 </td>
 </tr>
@@ -93,40 +93,40 @@ Il nuovo segnaposto verrà impostato sul colore della sfumatura in quella posizi
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-<b>Sposta segnaposto</b>
+<b>Sposta pin</b>
 
-Tenete premuto LMB e trascinate i segnaposti selezionati lungo la barra della sfumatura per spostarli.
+Tenete premuto LMB e trascinate i perni selezionati lungo la barra della sfumatura per spostarli.
 
-È inoltre possibile impostare la posizione di un segnaposto con un valore numerico selezionandolo e utilizzando il parametro <b>Posizione</b>. La posizione è un valore nell&#39;intervallo [0;1] in cui 0 rappresenta l&#39;inizio del gradiente e 1 la sua fine.
+È inoltre possibile impostare la posizione di un perno con un valore numerico selezionandolo e utilizzando il parametro <b>Posizione</b>. La posizione è un valore nell&#39;intervallo [0;1] in cui 0 rappresenta l&#39;inizio del gradiente e 1 la sua fine.
 
-![Editore sfumatura - Parametro posizione Segnaposto](gradient-map.resources/image2015-8-27-13-56-2.png "Editore sfumatura - Parametro posizione Segnaposto")
+![Editore sfumatura - Parametro posizione perno](gradient-map.resources/image2015-8-27-13-56-2.png "Editore sfumatura - Parametro posizione perno")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Editore sfumatura - Sposta segnaposto](gradient-map.resources/movepin2.gif "Editore sfumatura - Sposta segnaposto")
+![Editore sfumatura - Sposta perno](gradient-map.resources/movepin2.gif "Editore sfumatura - Sposta perno")
 
 </td>
 </tr>
 </table>
 
-Quando sono selezionati più segnaposti, è possibile spostarli tutti *contemporaneamente*. Quando uno o più segnaposti raggiungono e terminano la sfumatura mentre vengono spostati, sono disponibili due comportamenti a seconda del pulsante del mouse utilizzato per lo spostamento:
+Quando sono selezionati più perni, è possibile spostarli tutti *contemporaneamente*. Quando una o più puntine raggiungono e terminano la sfumatura mentre vengono spostate, sono disponibili due comportamenti a seconda del pulsante del mouse utilizzato per lo spostamento:
 
-* <b>LMB:</b> Segnaposti rimanenti alla fine, ovvero verranno impilati in quella posizione mentre lo raggiungono e le loro posizioni relative verranno modificate;
-* <b>MMB:</b> Segnaposti tornano all&#39;altra estremità della sfumatura, il che significa che le loro posizioni relative rimangono invariate.
+* <b>LMB:</b> i perni rimangono alla fine, il che significa che verranno impilati in quella posizione mentre lo raggiungono e le loro posizioni relative vengono modificate;
+* <b>MMB:</b> i perni tornano indietro all&#39;altra estremità della sfumatura, il che significa che le loro posizioni relative rimangono invariate.
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-<b>Elimina segnaposto</b>
+<b>Elimina pin</b>
 
-Selezionate i segnaposti e premete Elimina, oppure trascinate i segnaposti fuori dalla barra della sfumatura per eliminarli.
+Selezionate i perni e premete Elimina, oppure trascinateli fuori dalla barra della sfumatura per eliminarli.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Editore sfumatura - Elimina segnaposto](gradient-map.resources/removepin.gif "Editore sfumatura - Elimina segnaposto")
+![Editore sfumatura - Elimina perno](gradient-map.resources/removepin.gif "Editore sfumatura - Elimina perno")
 
 </td>
 </tr>
@@ -138,7 +138,7 @@ Selezionate i segnaposti e premete Elimina, oppure trascinate i segnaposti fuori
 
 <b>Inverti posizioni</b>
 
-Riflette le posizioni dei segnaposti selezionati sulla sfumatura.
+Riflette le posizioni dei perni selezionati sulla sfumatura.
 
 </td>
 <td style="border: 0;" valign="top">
@@ -233,7 +233,7 @@ Il Selettore colore consente di impostare un colore in diversi modi:
 
   <table>
   <tr style="border: 0;">
-  <td width="100.00%" style="border: 0;" valign="top">
+  <td style="border: 0;" valign="top">
 
   I cursori RGB, HSV e Alpha consentono di impostare un colore con precisione, modificando i cursori o impostandone direttamente i valori numerici.
 
@@ -267,7 +267,7 @@ Il Selettore colore consente di impostare un colore in diversi modi:
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Il colore selezionato viene visualizzato in anteprima nella metà superiore della miniatura del colore.\
 Nella metà inferiore viene visualizzato il colore utilizzato in precedenza. Fate doppio clic su LMB per ripristinare il colore modificato.
@@ -281,11 +281,11 @@ Nella metà inferiore viene visualizzato il colore utilizzato in precedenza. Fat
 </tr>
 </table>
 
-Quando sono selezionati più pin, i cursori RGB, HSV e Alpha si trasformano in cursori delta (Δ), ovvero vengono utilizzati per compensare il valore di ciascun pin della stessa quantità.
+Quando sono selezionati più segnaposti, i cursori RGB, HSV e Alpha si trasformano in cursori delta (Δ), ovvero vengono utilizzati per compensare il valore di ciascun segnaposto della stessa quantità.
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Inoltre, sotto la miniatura a colori, sono disponibili come pulsanti le seguenti funzionalità:
 
@@ -299,7 +299,7 @@ Inoltre, sotto la miniatura a colori, sono disponibili come pulsanti le seguenti
 
 <b>sRGB</b>: usate lo spazio colore sRGB per visualizzare i colori. Se è disattivata, viene utilizzato lo spazio colore lineare;
 
-<b>Float:</b> visualizzare i valori di RGB, HSV e cursore Alpha in virgola mobile.
+<b>Virgola mobile:</b> Visualizza i valori di RGB, HSV e del cursore Alpha in virgola mobile.
 
 </td>
 <td width="25.00%" style="border: 0;" valign="top">

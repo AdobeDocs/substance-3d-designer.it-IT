@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/value-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/value-processor.html"
 breadcrumb-title: ""
-description: Utilizzate il nodo Processore valori per elaborare e manipolare i valori della texture utilizzando le operazioni matematiche per le regolazioni personalizzate.
+description: Utilizzare il nodo Processore di valori per elaborare e manipolare i valori delle texture mediante operazioni matematiche per le regolazioni personalizzate.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Value processor
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Elaboratore valori
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 3%
@@ -20,22 +20,22 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="20%" style="border: 0;" valign="top">
 
-![Nodo atomico: processore valori](value-processor.resources/comp_valueprocessor_1.png "Nodo atomico: processore valori"){width="20%"}
+![Nodo atomico: Processore di valori](value-processor.resources/comp_valueprocessor_1.png "Nodo atomico: Processore di valori")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Calcola un [grafico della funzione Substance](../../../../function-graphs/the-function-graph/the-function-graph.md) e ne genera il risultato.
 
-È paragonabile a un [processore pixel](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), con la differenza che non calcola una funzione per ogni pixel, ma piuttosto un singolo valore e lo rende [disponibile in un grafico a Substance](../../../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md).
+È paragonabile a un [Elaboratore pixel](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), con la differenza che non calcola una funzione per ogni pixel, ma piuttosto un singolo valore e lo rende [disponibile in un grafico a Substance](../../../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md).
 
 </td>
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="value-processor.resources/value-processor-tooltip.gif" alt="descrizione comando di value-processor" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="value-processor.resources/value-processor-tooltip.gif" alt="descrizione comando di value-processor" /></div>
 
 
 >[!TIP]
@@ -49,7 +49,7 @@ Calcola un [grafico della funzione Substance](../../../../function-graphs/the-fu
 
 |  |  |
 | --- | --- |
-| <b>Funzione processore di valore</b> *Qualsiasi tipo di valore disponibile* | [Il grafico della funzione Substance](../../../../function-graphs/the-function-graph/the-function-graph.md) è stato valutato per calcolare il valore di output. |
+| <b>Funzione Processore di valori</b> *Qualsiasi tipo di valore disponibile* | [Il grafico della funzione Substance](../../../../function-graphs/the-function-graph/the-function-graph.md) è stato valutato per calcolare il valore di output. |
 
 ## Connettori di ingresso
 

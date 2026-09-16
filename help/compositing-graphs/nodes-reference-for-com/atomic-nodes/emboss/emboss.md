@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/emboss.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/emboss.html"
 breadcrumb-title: ""
-description: Usate il nodo Effetto rilievo per creare effetti in rilievo sulle texture e aggiungere profondità e rilievo ai dettagli delle superfici.
+description: Utilizzate il nodo Rilievo per creare effetti in rilievo sulle texture e aggiungere profondità e rilievo ai dettagli delle superfici.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Emboss
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Effetto rilievo
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 9%
@@ -20,12 +20,12 @@ ht-degree: 9%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="20%" style="border: 0;" valign="top">
 
-![Nodo atomico: Effetto rilievo](emboss.resources/comp_emboss_1.png "Nodo atomico: Effetto rilievo"){width="20%"}
+![Nodo atomico: Rilievo](emboss.resources/comp_emboss_1.png "Nodo atomico: Rilievo")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Applica un effetto rilievo illuminando i lati delle forme in un’immagine a seconda della direzione della sorgente di luce specificata.
 
@@ -35,9 +35,9 @@ Ad esempio, il nodo esegue una semplice ombreggiatura 2D basata su 2 input, simu
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="emboss.resources/emboss-tooltip.gif" alt="Descrizione comando effetto rilievo" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="emboss.resources/emboss-tooltip.gif" alt="Descrizione comando effetto rilievo" /></div>
 
-Questo nodo non viene utilizzato spesso per progetti di tipo PBR, ma può essere utilizzato in alcuni casi in cui si desidera una luce semplice e eseguita i baking nella texture. In alternativa, [gli Effetti rilievi lucidi](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/emboss-with-gloss/emboss-with-gloss.md) e [gli Effetti rilievi Uber](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/uber-emboss/uber-emboss.md) offrono funzionalità simili ma più estese.
+Questo nodo non viene utilizzato spesso per progetti di tipo PBR, ma può essere utile in alcuni casi in cui si desidera una semplice illuminazione al forno nella texture. In alternativa, [Rilievo con lucentezza](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/emboss-with-gloss/emboss-with-gloss.md) e [Rilievo di Uber](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/uber-emboss/uber-emboss.md) offrono una funzionalità simile ma più ampia.
 
 
 
@@ -45,10 +45,10 @@ Questo nodo non viene utilizzato spesso per progetti di tipo PBR, ma può essere
 
 |  |  |
 | --- | --- |
-| <b>Intensità</b> *Virgola mobile* | Regola l’intensità globale dell’effetto di illuminazione.   Consente di impostare l’intensità della mappa del &quot;height&quot; e quindi l’intensità dell’effetto di luce. |
-| <b>Angolo chiaro</b> *Virgola mobile* | Consente di impostare l’angolo di simulazione della luce.   Definisce l’angolo di illuminazione della luce dell’immagine in rilievo. |
-| <b>Colore evidenziazione</b> *Virgola mobile/Virgola mobile4* | Consente di impostare il colore delle aree rivolte verso l’angolo di luce.   Consente di impostare il colore dell’evidenziazione se l’immagine di input è a colori. |
-| <b>Colore ombra</b> *Virgola mobile/Virgola mobile4* | Consente di impostare il colore delle aree rivolte all’esterno dell’angolo di luce.   Imposta il colore delle aree in ombra dell’immagine in rilievo. |
+| <b>Intensità</b> *Mobile* | Regola l’intensità globale dell’effetto di illuminazione.   Consente di impostare l’intensità della mappa del &quot;height&quot; e quindi l’intensità dell’effetto di luce. |
+| <b>Angolo chiaro</b> *Mobile* | Consente di impostare l’angolo di simulazione della luce.   Definisce l’angolo di illuminazione della luce dell’immagine in rilievo. |
+| <b>Colore evidenziazione</b> *Float/Float4* | Consente di impostare il colore delle aree rivolte verso l’angolo di luce.   Consente di impostare il colore dell’evidenziazione se l’immagine di input è a colori. |
+| <b>Colore ombra</b> *Float/Float4* | Consente di impostare il colore delle aree rivolte all’esterno dell’angolo di luce.   Imposta il colore delle aree in ombra dell’immagine in rilievo. |
 
 ## Connettori di ingresso
 

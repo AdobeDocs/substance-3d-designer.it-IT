@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
 breadcrumb-title: ""
 description: Utilizza il nodo Curva per regolare i valori della texture utilizzando curve personalizzabili per un controllo preciso del colore e della luminosità.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Curva
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 2%
@@ -22,10 +22,10 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nodo atomico: curva](curve.resources/comp_curve_1.png "Nodo atomico: curva"){width="20%"}
+![Nodo atomico: curva](curve.resources/comp_curve_1.png "Nodo atomico: curva")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Modifica i valori di un’immagine utilizzando una curva personalizzata.
 
@@ -35,7 +35,7 @@ Il nodo fornisce un&#39;interfaccia per la modifica della tonalità dell&#39;imm
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="curve.resources/curve-tooltip.gif" alt="descrizione comando curva" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="curve.resources/curve-tooltip.gif" alt="descrizione comando curva" /></div>
 
 A differenza della maggior parte degli altri nodi, il nodo Curva non dispone di un&#39;interfaccia standard tipica con cursori e parametri, ma presenta invece un editor di curve completo. Vedere la sezione espandibile riportata di seguito su come utilizzarlo.
 
@@ -48,7 +48,7 @@ A differenza della maggior parte degli altri nodi, il nodo Curva non dispone di 
 |  |  |
 | --- | --- |
 | <b>Applica/Esporta curva</b> *Booleano* | Consente di copiare la curva utente nell&#39;output invece di applicarla all&#39;immagine di input |
-| <b>Indirizzamento della curva</b> *Booleano* | Questo parametro determina il modo in cui vengono gestiti i pixel HDR che non rientrano nell’intervallo [0, 1] nell’input: bloccati o piegati fino a [0, 1]. |
+| <b>Indirizzamento della curva</b> *Booleano* | Questo parametro determina il modo in cui vengono gestiti i pixel HDR fuori dall’intervallo [0, 1] nell’input: bloccati o piegati fino a [0, 1]. |
 | <b>Curva</b> *Matrice di chiavi di curva* | Curva personalizzata utilizzata per mappare i valori in scala di grigio di input.   Può essere modificato utilizzando l&#39;[editor curva](#curve-editor). |
 
 ## Editor curva
@@ -57,13 +57,13 @@ A differenza della maggior parte degli altri nodi, il nodo Curva non dispone di 
 
 Per creare un punto, fate doppio clic in un punto qualsiasi della vista Curva:
 
-![](curve.resources/createmovepoint.gif){width="20%"}
+![](curve.resources/createmovepoint.gif)
 
 ### Controllo dell&#39;influenza di un punto
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Per ottenere risultati precisi, i nodi della curva offrono diverse modalità per ciascun punto:
 
@@ -100,7 +100,7 @@ Puoi mostrare/nascondere l&#39;istogramma del tuo input semplicemente facendo cl
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Quando immettete è un nodo di colore, potete regolare la curva per ciascun canale:
 
@@ -123,7 +123,7 @@ Nella modalità Curva RGB puoi nascondere/mostrare le singole curve dei canali p
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Se fate clic con il pulsante destro del mouse sulla vista curva, verranno visualizzate altre opzioni.
 
