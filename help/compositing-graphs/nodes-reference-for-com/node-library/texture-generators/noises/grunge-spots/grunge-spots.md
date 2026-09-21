@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-spots.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-spots.html"
+breadcrumb-title: ""
 description: Utilizza il nodo Macchie Grungi per generare pattern di macchie per aggiungere effetti di usura e grunge ai materiali.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Spots
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Macchie di grunge
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 988f0cb19339a2ab3ca4ef392fef7ca723254cd9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '138'
 ht-degree: 2%
-
 ---
-
 
 # Macchie di grunge
 
@@ -56,13 +54,14 @@ Il nodo **macchie Grungi** genera una mappa delle grungi simile alle macchie sch
 
 ## Esempi
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-spots.resources/grungespots-variant2.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="grunge-spots.resources/grungespots-variant2.jpg" class="modal-image" alt="Macchie di grunge - Esempio 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-spots.resources/grungespots-variant.jpg" />
+        <td style="border: 0;">
+            <img src="grunge-spots.resources/grungespots-variant.jpg" class="modal-image" alt="Macchie di grunge - Esempio 2" />
         </td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

@@ -1,8 +1,8 @@
 ---
-source-git-commit: cd632984ee7783acd19a9a8ea2945130a1855935
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 13%
+source-wordcount: '103'
+ht-degree: 11%
 ---
 # TODO
 
@@ -21,7 +21,7 @@ ht-degree: 13%
   * Metallicità/Metallica
   * HDR
   * Speculare
-  * Mappa height
+  * Mappa altezza
   * Opacità
   * Frustum
   * Spazio tangente
@@ -29,6 +29,9 @@ ht-degree: 13%
   * FX-Map
   * Elaboratore pixel
   * Predefinito
+* Aggiornamento di AGENTS.md e competenze per la gestione:
+  * Immagini: centrare, ingrandire
+  * Tabelle: layout fisso/automatico, allineamento del testo
 
 ## Correzioni
 
