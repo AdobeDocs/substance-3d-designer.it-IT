@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/waveform-1.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/waveform-1.html"
 breadcrumb-title: ""
 description: Utilizza il nodo Forma d’onda 1 per generare pattern di forma d’onda per la creazione di texture organiche e variazioni di procedurali.
 helpx_creative_field: ""
