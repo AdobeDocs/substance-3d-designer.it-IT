@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/working-with-3d-scenes.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes.html"
+breadcrumb-title: ""
 description: Scopri come importare, modificare e lavorare con le scene 3D in Substance 3D Designer per visualizzare in anteprima e testare i materiali.
 helpx_creative_field: ""
 helpx_description: Designer > Working with 3D scenes
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Utilizzo di scene 3D
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: fa12f0ba789f700924fa0a6f3cbc0726c5f468e9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b1404a9f03e3156f5fba0e499bbe41dbc79b7308
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '862'
 ht-degree: 0%
-
 ---
-
 
 # Utilizzo di scene 3D
 
@@ -25,33 +23,13 @@ ht-degree: 0%
 Designer consente di caricare [scene 3D](../glossary/glossary.md) per lavorare sui materiali nel contesto. Qui trovi un elenco dei formati di file supportati per le scene 3D e un elenco delle funzioni supportate per ogni formato. <b>&lt;collegamento necessario></b>
 
 Per lavorare nel contesto, [modificate](../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) uno dei [materiali](../glossary/glossary.md) della scena per sostituirlo con un materiale creato in Designer.\
-Potete iniziare da zero utilizzando uno qualsiasi dei modelli di grafico a Substance disponibili in Designer o [estrarre valori e texture](../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md) dal materiale della scena 3D come punto di partenza.
+Potete iniziare da zero utilizzando uno qualsiasi dei modelli di grafico delle Substance disponibili in Designer o [estrarre valori e texture](../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md) dal materiale della scena 3D come punto di partenza.
 
 Al termine della scena 3D, puoi [esportarla](../working-with-3d-scenes/exporting-scenes/exporting-scenes.md) in un nuovo file da assimilare in un&#39;altra applicazione.
 
 Durante l’esportazione nei formati USD., questo flusso di lavoro può essere completamente <b>non distruttivo</b>, ovvero vengono esportate solo le modifiche e le aggiunte.
 
 Innanzitutto, è necessario caricare una scena 3D su cui lavorare e poter mantenere il suo stato in Designer nelle varie sessioni.
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Contenuto delle scene 3D
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Caricamento di una scena
-
-</td>
-<td style="border: 0;" valign="top">
-
-### file di stato della scena
-
-</td>
-</tr>
-</table>
 
 ## Contenuto delle scene 3D
 

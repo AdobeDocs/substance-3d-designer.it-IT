@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-4.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-4.html"
+breadcrumb-title: ""
 description: Utilizza il nodo Celle 4 per generare pattern cellulari avanzati per la creazione di effetti di texture organici e biologici.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Cells 4
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: CELLE 4
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 77626800e9c3434a519ca045aad1e185d9dc1476
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '251'
 ht-degree: 1%
-
 ---
-
 
 # CELLE 4
 
@@ -74,17 +72,14 @@ Vedere anche: [Celle 1](../../../../../../compositing-graphs/nodes-reference-for
 
 ## Esempi
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Celle 4 - Esempio 1](cells-4.resources/cells_4_1.png "Celle 4 - Esempio 1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Celle 4 - Esempio 2](cells-4.resources/noise_cells_4_v2_speed0.3_aniso0.6.gif "Celle 4 - Esempio 2"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="cells-4.resources/cells_4_1.png" class="modal-image" alt="Celle 4 - Esempio 1" />
+        </td>
+        <td style="border: 0;">
+            <img src="cells-4.resources/noise_cells_4_v2_speed0.3_aniso0.6.gif" class="modal-image" alt="Celle 4 - Esempio 2" />
+        </td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>

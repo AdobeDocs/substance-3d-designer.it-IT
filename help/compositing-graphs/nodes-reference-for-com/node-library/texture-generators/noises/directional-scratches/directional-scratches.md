@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-scratches.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-scratches.html"
+breadcrumb-title: ""
 description: Utilizza il nodo Scratches direzionali per creare pattern di graffi direzionali per aggiungere effetti di usura e danneggiamento ai materiali.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Directional scratches
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Graffi direzionali
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 1241ebb4d1e67c9ed9d86285a6397ddc335e0f37
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '345'
 ht-degree: 1%
-
 ---
-
 
 # Graffi direzionali
 
@@ -68,47 +66,25 @@ Dispersione casuale di pattern di graffi con angolo e dimensioni regolabili.
 
 ## Esempi
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Graffi direzionali - Esempio 1](directional-scratches.resources/directional_scratches_1.png "Graffi direzionali - Esempio 1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Graffi direzionali - Esempio 2](directional-scratches.resources/noise-directional-scratches-speed0.3-aniso0.gif "Graffi direzionali - Esempio 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Graffi direzionali - Esempio 3](directional-scratches.resources/noise-directional-scratches-speed0.3-aniso0.6.gif "Graffi direzionali - Esempio 3"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Graffi direzionali - Esempio 4](directional-scratches.resources/noise-directional-scrat-1.gif "Graffi direzionali - Esempio 4"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Graffi direzionali - Esempio 5](directional-scratches.resources/noise-directional-scrat-2.gif "Graffi direzionali - Esempio 5"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="directional-scratches.resources/directional_scratches_1.png" class="modal-image" alt="Graffi direzionali - Esempio 1" />
+        </td>
+        <td style="border: 0;">
+            <img src="directional-scratches.resources/noise-directional-scratches-speed0.3-aniso0.gif" class="modal-image" alt="Graffi direzionali - Esempio 2" />
+        </td>
+        <td style="border: 0;">
+            <img src="directional-scratches.resources/noise-directional-scratches-speed0.3-aniso0.6.gif" class="modal-image" alt="Graffi direzionali - Esempio 3" />
+        </td>
+    </tr>
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="directional-scratches.resources/noise-directional-scrat-1.gif" class="modal-image" alt="Graffi direzionali - Esempio 4" />
+        </td>
+        <td style="border: 0;">
+            <img src="directional-scratches.resources/noise-directional-scrat-2.gif" class="modal-image" alt="Graffi direzionali - Esempio 5" />
+        </td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>

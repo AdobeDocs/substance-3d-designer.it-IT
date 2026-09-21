@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/working-with-3d-scenes/extracting-materials-values-and-textures.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/extracting-materials-values-and-textures.html"
+breadcrumb-title: ""
 description: Estrai le proprietà del materiale da scene 3D da utilizzare nei grafici Substance per i flussi di lavoro di creazione del materiale.
 helpx_creative_field: ""
 helpx_description: Designer > Working with 3D scenes > Extracting materials values and textures
@@ -8,39 +8,17 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Estrazione di valori e texture dei materiali
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: fa12f0ba789f700924fa0a6f3cbc0726c5f468e9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b1404a9f03e3156f5fba0e499bbe41dbc79b7308
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '853'
 ht-degree: 0%
-
 ---
-
 
 # Estrazione di valori e texture dei materiali
 
 Le proprietà dei materiali possono essere estratte per essere utilizzate nei grafici a Substance.
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Nuovo grafico da texture
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Estrai texture
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Valore di estrazione
-
-</td>
-</tr>
-</table>
 
 ## Nuovo grafico da texture
 
@@ -106,7 +84,7 @@ L&#39;azione &quot;Estrai texture sul grafico&quot; crea un nuovo nodo bitmap in
 Quando si utilizza questa azione, si verificano alcuni problemi:
 
 * Viene creata una [risorsa bitmap](../../resources/bitmap-resource/bitmap-resource.md) per la texture utilizzata dal materiale e inserita in una cartella denominata in base al materiale, sotto una cartella &quot;Risorse&quot;.
-* Nel grafico selezionato viene creato un nodo [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) per la risorsa bitmap e viene automaticamente connesso a un nodo [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) configurato dopo la proprietà dei materiali utilizzando tale texture.
+* Nel grafico selezionato viene creato un nodo [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) per la risorsa bitmap e viene automaticamente connesso a un nodo [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) configurato dopo la proprietà dei materiali utilizzando tali texture.
 
 Se un output configurato per la proprietà del materiale *esiste già* nel grafico, *non vengono creati nodi* e viene eseguita solo la creazione della risorsa bitmap.
 
@@ -151,16 +129,16 @@ L’azione &quot;Estrai texture come risorsa&quot; crea solo una risorsa bitmap 
 
 >[!NOTE]
 >
-> Per i formati che utilizzano *texture incorporata* (ad esempio: USDZ), la texture deve essere estratta e copiata sul disco. In questo modo viene eseguito un ulteriore passaggio per selezionare la posizione in cui estrarre la texture.
+> Per i formati che utilizzano *texture incorporate* (ad esempio: USDZ), la texture deve essere estratta e copiata su disco. In questo modo viene effettuato un ulteriore passaggio per selezionare la posizione in cui estrarre la texture.
 
 ## Valore di estrazione
 
-L&#39;azione &quot;Estrai valore su grafico&quot; crea un nuovo nodo [Processore di valori](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) in un grafico esistente per un valore di proprietà del materiale.
+L&#39;azione &quot;Estrai valore su grafico&quot; crea un nuovo nodo [Processore valore](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) in un grafico esistente per un valore di proprietà del materiale.
 
 Quando si utilizza questa azione, si verificano alcuni problemi:
 
-* Nel grafico selezionato viene creato un nodo [Processore di valori](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) per il valore della proprietà e viene automaticamente connesso a un nodo [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) configurato dopo tale proprietà materiale.
-* Nel [grafico della funzione Substance](../../function-graphs/function-graphs.md) del nodo di Processore di valori viene creato un [nodo costante](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) corrispondente al tipo di valore, impostato sul valore estratto come impostato nell&#39;output del grafico.
+* Nel grafico selezionato viene creato un nodo [Processore valore](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) per il valore della proprietà e viene automaticamente connesso a un nodo [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) configurato dopo tale proprietà materiale.
+* Nel [grafico della funzione Substance](../../function-graphs/function-graphs.md) del nodo del processore di valori viene creato un [nodo costante](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) corrispondente al tipo di valore, impostato sul valore estratto come impostato nell&#39;output del grafico.
 
 Se un output configurato per la proprietà del materiale *esiste già* nel grafico, *non vengono creati nodi*.
 
