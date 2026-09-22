@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-fine.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Usa il nodo Fine degli Scratches di Grunge per aggiungere motivi di graffio fini per un'usura delicata e effetti di dettaglio superficiali.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Scratches Fine
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Scratches di grunge fini
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 988f0cb19339a2ab3ca4ef392fef7ca723254cd9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '138'
 ht-degree: 2%
-
 ---
-
 
 # Scratches di grunge fini
 
@@ -56,13 +54,14 @@ Il nodo **Scratches fini** delle Grungi genera una mappa delle grungi simile a u
 
 ## Esempi
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-scratches-fine.resources/grungescratchesfine-variant.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="grunge-scratches-fine.resources/grungescratchesfine-variant.jpg" class="modal-image" alt="Scratches di grunge fini - Esempio 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-scratches-fine.resources/grungescratchesfine-variant2.jpg" />
+        <td style="border: 0;">
+            <img src="grunge-scratches-fine.resources/grungescratchesfine-variant2.jpg" class="modal-image" alt="Scratches di grunge fini - Esempio 2" />
         </td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

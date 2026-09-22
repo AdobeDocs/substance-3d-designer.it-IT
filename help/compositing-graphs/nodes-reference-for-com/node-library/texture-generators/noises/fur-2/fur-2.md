@@ -1,22 +1,20 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fur-2.html"
-breadcrumb-title: ''
-description: Usa il nodo Pelliccia 2 per creare trame di pelliccia con controlli avanzati per simulare capelli e materiali fibrosi.
+breadcrumb-title: ""
+description: Usa il nodo Pelliccia 2 per creare texture di pelliccia con controlli avanzati per simulare capelli e materiali fibrosi.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Fur 2
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Pelliccia 2
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: a2d6381b9bf224008fa412ef70c9b63b9b2756e8
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 9%
-
+source-wordcount: '112'
+ht-degree: 17%
 ---
-
 
 # Pelliccia 2
 
@@ -26,7 +24,7 @@ ht-degree: 9%
 
 ![](fur-2.resources/fur-2.png){width="128px"}
 
-<b>Ingresso:</b> Generatori di texture > Rumori
+<b>Ingresso:</b> generatori di Texture > Rumori
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -48,14 +46,16 @@ Questo genera un tipo ondulato di rumore simile a quello delle pellicce.
 | <b>Scala</b> <i>1 - 8</i> | Imposta la scala globale per l’effetto. |
 | <b>Scala Onde</b> <i>0.0 - 1.0</i> | Modifica la scala delle onde, maggiore significa meno ripetizioni. |
 | <b>Rotazione Onde</b> <i>0.0 - 1.0</i> | Ruota le onde di più. Questo valore dovrebbe probabilmente essere mantenuto basso, in quanto i risultati possono essere estremi. |
-| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati. |
+| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di squash e allungamento con rapporti non quadrati. |
 
 ## Esempi
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="fur-2.resources/fur-2-ex.gif" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="fur-2.resources/fur-2-ex.gif" class="modal-image" alt="Pelliccia 2 - Esempio 1" />
         </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/working-with-3d-scenes/exporting-scenes.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Esporta scene 3D con tutte le modifiche apportate in Designer utilizzando l’azione Esporta scena nel menu Scena vista 3D.
 helpx_creative_field: ""
 helpx_description: Designer > Working with 3D scenes > Exporting scenes
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Esportazione di scene
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: fa12f0ba789f700924fa0a6f3cbc0726c5f468e9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b1404a9f03e3156f5fba0e499bbe41dbc79b7308
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '366'
 ht-degree: 0%
-
 ---
-
 
 # Esportazione di scene
 
@@ -31,26 +29,6 @@ Per gli altri formati, il contenuto della scena e la sua struttura interna dipen
 > Tutti gli elementi aggiunti alla scena da Designer verranno inclusi nella scena esportata: la videocamera predefinita, l’ambiente predefinito, tutto il materiale copia eventuali luci aggiuntive.
 
 ![Azioni di esportazione scene](exporting-scenes.resources/exportActions.png "Azioni di esportazione scene"){zoomable="yes"}
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Esporta scena
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Esportare una scena come livelli
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Texture
-
-</td>
-</tr>
-</table>
 
 ## Esporta scena
 
@@ -102,6 +80,6 @@ I file esportati seguono questa struttura:
 
 ## Texture
 
-Le texture vengono esportate in una directory accanto al file esportato e prendono il nome da esso, con il suffisso ‘<b>\_texture</b>’.
+Le texture vengono esportate in una directory accanto al file esportato e prendono il nome da esso, con il suffisso ‘<b>\_textures</b>’.
 
 Utilizzano il formato <b>PNG</b>, ad eccezione delle texture HDR (a virgola mobile) che utilizzano il formato <b>EXR</b>.

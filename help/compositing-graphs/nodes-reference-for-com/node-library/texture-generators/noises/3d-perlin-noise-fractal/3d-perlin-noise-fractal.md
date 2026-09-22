@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-perlin-noise-fractal.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilizzate il nodo Frattale disturbo Perlin 3D per generare pattern di disturbo Perlin frattale nello spazio 3D per creare texture volumetriche dettagliate.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Perlin Noise Fractal
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Rumore frattale Perlin 3D
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8be4dabbdf7bd618ca2ee21c64655952474b9df2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '439'
 ht-degree: 0%
-
 ---
-
 
 # Rumore frattale Perlin 3D
 
@@ -63,22 +61,22 @@ Questo nodo può essere testato con [Cubo 3D GBuffers](../../../../../../composi
 | <b>Lacunarità</b> <i>Mobile</i> | Controlla la modalità di riempimento dello spazio del pattern frattale applicato <i></i>. Un valore <i>maggiore</i> genera <i>meno spazi vuoti</i> nel pattern e un disturbo <i>più denso</i>. |
 | <b>Opacità globale</b> <i>Mobile</i> | Controlla l&#39;<i>intervallo</i> dei valori di disturbo frattale di Perlin 3D <i>attorno</i> al valore <b>Linea di base</b>. |
 | <b>Previsione</b> <i>Mobile</i> | Applica un <i>offset</i> al valore di <i>luminanza</i> della linea di base per la distribuzione del valore di disturbo Perlin 3D. |
-| <b>Contrasto</b> <i>Virgola mobile</i> | Regola il contrasto del disturbo 3D di Perlin. |
+| <b>Contrasto</b> <i>Mobile</i> | Regola il contrasto del disturbo 3D di Perlin. |
 | <b>Assoluto</b> <i>Booleano</i> | Usa valori assoluti nel disturbo di Perlin 3D. In questo modo <i>viene invertita</i> la distribuzione dei valori <i>inferiori a 0,5</i>. |
 | <b>Abilita Affiancamento</b> <i>Booleano</i> | Regola il disturbo di Perlin 3D in modo che il relativo pattern <i>si ripeta</i> sugli assi X, Y e Z. |
 
 ## Esempi
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="3d-perlin-noise-fractal.resources/3dfractal.gif" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="3d-perlin-noise-fractal.resources/3dfractal.gif" class="modal-image" alt="Disturbo Perlin Frattale 3D - Esempio 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-perlin-noise-fractal.resources/3dperlinnoisefractal-variant.jpg" />
+        <td style="border: 0;">
+            <img src="3d-perlin-noise-fractal.resources/3dperlinnoisefractal-variant.jpg" class="modal-image" alt="Disturbo Perlin Frattale 3D - Esempio 2" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-perlin-noise-fractal.resources/3dperlinnoisefractal-variant2.jpg" />
+        <td style="border: 0;">
+            <img src="3d-perlin-noise-fractal.resources/3dperlinnoisefractal-variant2.jpg" class="modal-image" alt="Disturbo Perlin Frattale 3D - Esempio 3" />
         </td>
     </tr>
 </table>

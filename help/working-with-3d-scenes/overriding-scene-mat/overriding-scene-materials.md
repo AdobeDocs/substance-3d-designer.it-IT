@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/working-with-3d-scenes/overriding-scene-materials.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Sostituisci i materiali esistenti nelle scene 3D per sostituirli con i tuoi materiali Substance per il test e l'anteprima.
 helpx_creative_field: ""
 helpx_description: Designer > Working with 3D scenes > Overriding scene materials
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Sostituzione dei materiali della scena
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: fa12f0ba789f700924fa0a6f3cbc0726c5f468e9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b1404a9f03e3156f5fba0e499bbe41dbc79b7308
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '889'
 ht-degree: 0%
-
 ---
-
 
 # Sostituzione dei materiali della scena
 
@@ -25,26 +23,6 @@ Quando si lavora con scene 3D con materiali esistenti, è necessario ignorare qu
 Il materiale può essere creato da zero o una versione regolata del materiale di una scena che è stato [estratto in un grafico di Substance](../../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md).
 
 ![Modificare il materiale di una scena e reimpostarlo sullo stato della scena](overriding-scene-materials.resources/tweakOverriddenMaterial.gif "Modificare il materiale di una scena, ignorarlo e reimpostarne lo stato "){zoomable="yes"}
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Sovrascrivi materiale scena
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Ripristina stato scena
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Materiale connesso
-
-</td>
-</tr>
-</table>
 
 ## Sovrascrivi materiale scena
 
@@ -61,7 +39,7 @@ L’azione &quot;Sostituisci materiale&quot; può essere trovata in due posizion
 
 ![Sostituisci materiale - Azione nella finestra della vista &#39;vista 3D&#39;](overriding-scene-materials.resources/overrideMaterialActionViewport.png "Sostituisci materiale - Azione nella finestra della vista &#39;vista 3D&#39;"){zoomable="yes"}
 
-*Azione in vista 3D viewport*
+*Azione nella finestra della vista 3D*
 
 </td>
 <td style="border: 0;" valign="top">

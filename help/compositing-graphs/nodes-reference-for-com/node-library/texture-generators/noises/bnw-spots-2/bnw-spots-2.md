@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/bnw-spots-2.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilizzate il nodo Tinte piatte BnW 2 per creare pattern di punti in bianco e nero con controlli ottimizzati per le variazioni della texture.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > BnW spots 2
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: BnW macchie 2
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 77626800e9c3434a519ca045aad1e185d9dc1476
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '256'
 ht-degree: 1%
-
 ---
-
 
 # BnW macchie 2
 
@@ -65,32 +63,23 @@ Consultate anche: [macchie BnW 1](../../../../../../compositing-graphs/nodes-ref
 
 ## Esempi
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Macchie BnW 2 - Esempio 1](bnw-spots-2.resources/bnw_spots_2_1.png "Macchie BnW 2 - Esempio 1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Macchie BnW 2 - Esempio 2](bnw-spots-2.resources/noise_bnw_spots_2_v2_speed0.6_aniso0.gif "Macchie BnW 2 - Esempio 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Macchie BnW 2 - Esempio 3](bnw-spots-2.resources/noise_bnw_spots_2_v2_speed0.6_aniso1.gif "Macchie BnW 2 - Esempio 3"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Macchie BnW 2 - Esempio 4](bnw-spots-2.resources/noise_bnw_spots_2_v2_speed0.3_aniso0.6.gif "Macchie BnW 2 - Esempio 4"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="bnw-spots-2.resources/bnw_spots_2_1.png" class="modal-image" alt="Macchie BnW 2 - Esempio 1" />
+        </td>
+        <td style="border: 0;">
+            <img src="bnw-spots-2.resources/noise_bnw_spots_2_v2_speed0.6_aniso0.gif" class="modal-image" alt="Macchie BnW 2 - Esempio 2" />
+        </td>
+        <td style="border: 0;">
+            <img src="bnw-spots-2.resources/noise_bnw_spots_2_v2_speed0.6_aniso1.gif" class="modal-image" alt="Macchie BnW 2 - Esempio 3" />
+        </td>
+    </tr>
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="bnw-spots-2.resources/noise_bnw_spots_2_v2_speed0.3_aniso0.6.gif" class="modal-image" alt="Macchie BnW 2 - Esempio 4" />
+        </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>

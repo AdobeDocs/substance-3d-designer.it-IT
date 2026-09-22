@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-leaks.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilizzate il nodo Perdite di Grunge per generare pattern di perdite per la creazione di macchie d'acqua ed effetti atmosferici sulle superfici.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Leaks
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Perdite di grunge
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 1668632724231982c98a508ae7f87642c5888648
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '139'
 ht-degree: 2%
-
 ---
-
 
 # Perdite di grunge
 
@@ -52,18 +50,19 @@ Il nodo **perdite di Grungi** genera una mappa delle grungi simile a quella che 
 | <b>Avanzate</b> |  |
 | <b>Lunghezza sgocciolamento</b> <i>Mobile</i> | Regola la lunghezza delle striature di goccia. |
 | <b>Contrasto forma</b> <i>Mobile</i> | Si sposta tra forme chiare e scure, creando contrasto tra le gocce. |
-| <b>Croccantezza goccia</b> <i>Mobile</i> | Regola la nitidezza e la debolezza delle gocce. |
-| <b>Intensità nitidezza</b> <i>Mobile</i> | Regolate la granulosità complessiva dell&#39;immagine. |
+| <b>Croccantezza goccia</b> <i>Virgola mobile</i> | Regola la nitidezza e la debolezza delle gocce. |
+| <b>Intensità nitidezza</b> <i>Virgola mobile</i> | Regolate la granulosità complessiva dell&#39;immagine. |
 
 ## Esempi
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-leaks.resources/grungeleaks-variant2.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="grunge-leaks.resources/grungeleaks-variant2.jpg" class="modal-image" alt="Perdite grungi - Esempio 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-leaks.resources/grungeleaks-variant.jpg" />
+        <td style="border: 0;">
+            <img src="grunge-leaks.resources/grungeleaks-variant.jpg" class="modal-image" alt="Perdite di grunge - Esempio 2" />
         </td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/liquid.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilizza il nodo Liquid per generare pattern di liquidi e fluidi per creare effetti di superficie di acqua, olio e altri fluidi.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Liquid
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Liquido
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 5a6c28b9acabf15714a1fd8bb4e7593192555fa2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '96'
 ht-degree: 9%
-
 ---
-
 
 # Liquido
 
@@ -48,14 +46,16 @@ Si tratta di una semplice variante di [Disturbo gaussiano](../../../../../../com
 | <b>Scala</b> <i>1 - 128</i> | Imposta la scala globale per l’effetto. |
 | <b>Disturbo</b> <i>0.0 - 1.0</i> | Fase che sposta il disturbo per introdurre piccole variazioni |
 | <b>Intensità alterazione</b> <i>0.0 - 1.0</i> | Imposta l’intensità dell’effetto di alterazione. |
-| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di squash e allungamento con rapporti non quadrati. |
+| <b>Non square expansion</b> <i>Falso/Vero</i> | Consente la compensazione di schiacciamento e allungamento con rapporti non quadrati. |
 
 ## Esempi
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="liquid.resources/liquid-ex.gif" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="liquid.resources/liquid-ex.gif" class="modal-image" alt="Liquido - Esempio 1" />
         </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
     </tr>
 </table>
