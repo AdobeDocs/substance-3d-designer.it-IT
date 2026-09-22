@@ -18,7 +18,7 @@ ht-degree: 1%
 
 # Scopri i termini e i concetti utilizzati in Designer.
 
-## #
+## #&#x200B;
 
 |  |  |
 | --- | --- |
@@ -147,7 +147,7 @@ ht-degree: 1%
 |----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <a id="renderer" data-preserve-html="true"></a><b>Modulo di rendering</b> | Programma che elabora informazioni 3D quali luci, [trame](#mesh) e [materiali](#material) per creare immagini 2D. |
 | <a id="rendering" data-preserve-html="true"></a><b>Rendering di </b>(Vista 3D) | Processo di elaborazione di un&#39;immagine in base ai dati di input, utilizzando un programma quale un [modulo di rendering](#renderer). |
-| <a id="resolution" data-preserve-html="true"></a><b>Risoluzione</b> | La quantità di pixel orizzontali e verticali che formano una [bitmap](#bitmap). Un numero maggiore di pixel consente di rappresentare dettagli più fini.<br><br>Nei grafici a Substance, la risoluzione di una bitmap calcolata da un [nodo](#node) è controllata dal [parametro base](#base-parameter) delle dimensioni di output](#output-size) del nodo.[ |
+| <a id="resolution" data-preserve-html="true"></a><b>Risoluzione</b> | La quantità di pixel orizzontali e verticali che formano una [bitmap](#bitmap). Un numero maggiore di pixel consente di rappresentare dettagli più fini.<br><br>Nei grafici a Substance, la risoluzione di una bitmap calcolata da un [nodo](#node) è controllata dal [parametro base](#base-parameter) delle dimensioni di output[&#128279;](#output-size) del nodo. |
 | <a id="roughness" data-preserve-html="true"></a><b>Rugosità</b> | Canale di un [materiale](#material) definito utilizzando il modello di [ombreggiatura](#shader) di rugosità metallica PBR. Rugosità specifica la rugosità di una superficie, ovvero le variazioni microscopiche del height, dette anche *microsfaccettature*.<br><br>L&#39;elevata ruvidezza dà un aspetto opaco, mentre la bassa ruvidezza dà un aspetto uniforme e lucido.<br><br>È l&#39;opposto di [Lucidità](#glossiness). |
 
 ## S
