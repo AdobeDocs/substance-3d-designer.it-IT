@@ -25,7 +25,7 @@ lint gotchas) segui l’abilità `write-experience-league-markdown`.
   `.../node-library/<category>/<subcategory>/<node-name>/<node-name>.md`.
 * La cartella è denominata come titolo del nodo kebab-case. Contiene **un** file `.md`
 con lo stesso nome.
-* Tutti i file multimediali incorporati per la pagina (icona, ad esempio immagini, GIF) sono contenuti in un elemento di pari livello **  `<node-name>.resources/` cartella **accanto a `.md` e a cui viene fatto riferimento con un
+* Tutti i file multimediali incorporati per la pagina (icona, ad esempio immagini, GIF) sono contenuti in un elemento di pari livello **&#x200B;  `<node-name>.resources/` cartella &#x200B;** accanto a `.md` e a cui viene fatto riferimento con un
   percorso relativo (ad esempio `<node-name>.resources/<file>.png`). Non puntare le pagine del nodo a
   la cartella `help/assets/` condivisa, ovvero un modello legacy in fase di eliminazione; nuovo e
   le pagine modificate utilizzano la propria cartella `.resources`.
@@ -88,8 +88,8 @@ Convenzioni prosa cella descrizione:
 nomi di sottocategorie dal nodo stesso; non inventarli.
 * Per nodi con più versioni (ad esempio colore/scala di grigi/valore o varianti numerate)
 come Celle 1 / Celle 2), aggiungi un paragrafo di descrizione finale che faccia riferimento all&#39;altro
-versioni con collegamenti relativi, separate da un&#39;unica interruzione di riga. Esempio: `See also: [Input
-grayscale](../input-grayscale/input-grayscale.md), [Input value](../input-value/input-value.md)`.
+versioni con collegamenti relativi, separate da un&#39;unica interruzione di riga. Esempio: &grave;See also: [&#128279;](../input-grayscale/input-grayscale.md)Input
+grayscale, [Input value](../input-value/input-value.md)&grave;.
 
 ### &#x200B;3. Callout facoltativi
 
