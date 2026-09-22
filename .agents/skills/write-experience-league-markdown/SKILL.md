@@ -1,7 +1,7 @@
 ---
 name: write-experience-league-markdown
 description: |
-  Regole di sintassi, estensioni personalizzate e gotchas per la scrittura di contenuto Markdown pubblicato su Adobe Experience League. Questa competenza è utile per la creazione o la modifica di pagine in help/ in questo repository (o in qualsiasi altro repository di contenuto di Experience League): intestazioni, collegamenti, immagini, tabelle, blocchi di note/avvisi, tag UICONTROL/DNL, incorporamenti video, ancoraggi e insiemi di rendering noti. Fonte: https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/writing-essentials/markdown
+  Regole di sintassi, estensioni personalizzate e gotchas per la scrittura di contenuto Markdown pubblicato su Adobe Experience League. Questa competenza è utile per la creazione o la modifica di pagine in help/ in questo repository (o in qualsiasi altro repository di contenuto di Experience League): intestazioni, collegamenti, immagini, tabelle, blocchi di note/avvisi, tag UICONTROL/DNL, incorporamenti video, ancoraggi e insiemi di rendering noti. Fonte: https://experienceleague.adobe.com/it/docs/contributor/contributor-guide/writing-essentials/markdown
 source-git-commit: ed17c57a1aa9669a602d4523bdef20cd7d82db75
 workflow-type: tm+mt
 source-wordcount: '1263'
