@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/3d-view.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilizzate la vista 3D in Substance 3D Designer per visualizzare in anteprima i materiali sugli oggetti 3D e verificare le condizioni di illuminazione.
 helpx_creative_field: ""
 helpx_description: Designer > Interface > 3D view
@@ -8,19 +8,17 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Visualizzazione 3D
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: c7bf2522b15bef308d1471ca234c6619091f95fc
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 10be7678f386c925d4bff6d59e2b85ffc04becd8
 workflow-type: tm+mt
-source-wordcount: '3514'
+source-wordcount: '3549'
 ht-degree: 1%
-
 ---
-
 
 # Visualizzazione 3D
 
-La vista 3D consente di visualizzare e comprendere i materiali con trame personalizzate e materiali PBR renderizzati.<br>Analogamente a tutte le finestre di Substance 3D Designer, funziona insieme ad altre finestre tramite le opzioni del menu di scelta rapida e le operazioni di trascinamento.
+Il vista 3D consente di visualizzare e comprendere i materiali con trame personalizzate e materiali PBR renderizzati.<br>Analogamente a tutte le finestre di Substance 3D Designer, funziona insieme ad altre finestre tramite le opzioni del menu di scelta rapida e le operazioni di trascinamento.
 
 La vista 3D fornisce anche due metodi principali per il rendering dei materiali nelle scene 3D:
 * Visualizzazione rapida in tempo reale con i moduli di rendering **Rasterizer** e **OpenGL**
@@ -42,7 +40,7 @@ In breve, la sezione seguente spiega come eseguire le azioni più comuni insieme
 
 ### Navigazione
 
-La videocamera e l’ambiente della vista 3D possono essere gestiti in tre modi:
+La vista 3D e l&#39;ambiente possono essere gestiti in tre modi:
 
 * <b>Orbita:</b> LMB+trascinamento
 * <b>Panning</b>: MMB+Drag/Ctrl+RMB+Drag
@@ -78,17 +76,17 @@ Potete interagire con le trame direttamente nella finestra della vista:
 
 <b>Per selezionare una trama, tenete premuto ⇧ e fate clic su LMB su di essa.</b> Le trame selezionate hanno un contorno blu.
 
-<b>Premete F per concentrarvi su una trama selezionata</b>. Mettendo a fuoco una trama, la videocamera si sposta per incorniciarla e girare in orbita attorno ad essa.
+<b>Premete F per concentrarvi su una trama selezionata</b>. Mettendo a fuoco una trama, la videocamera si sposta per creare un fotogramma e muoversi attorno ad essa.
 
 <b>Fare clic su RMB mentre è selezionata una trama</b> per accedere alle sue [azioni materiali](#material-actions) in un menu di scelta rapida.
 
 <b>Premere Esc per deselezionare.</b> Non è necessario che il cursore si trovi sulla trama.
 
-![Vista 3D - Attiva e deseleziona](3d-view.resources/sceneBrowser-focus.gif "Vista 3D - Attiva e deseleziona"){zoomable="yes"}
+![vista 3D - Attiva e deseleziona](3d-view.resources/sceneBrowser-focus.gif "vista 3D - Attiva e deseleziona"){zoomable="yes"}
 
 *Selezionare, attivare, deselezionare*
 
-![Visualizzazione 3D - Menu contestuale](3d-view.resources/sceneBrowser-contextualMenu.gif "Visualizzazione 3D - Menu contestuale"){zoomable="yes"}
+![vista 3D - Menu contestuale](3d-view.resources/sceneBrowser-contextualMenu.gif "vista 3D - Menu contestuale"){zoomable="yes"}
 
 *Seleziona, menu di scelta rapida*
 
@@ -169,20 +167,21 @@ In Designer sono disponibili alcuni [shader](../../glossary/glossary.md) diversi
 
 Tieni presente che gli ombreggiatori differiscono tra i [moduli di rendering 3D](../../interface/3d-view/3d-renderers/3d-renderers.md) di Designer e che al passaggio di un modulo di rendering verranno mantenute solo le impostazioni contrassegnate con un&#39;etichetta &quot;Comune&quot;.
 
-Per modificare lo shader corrente, passa a <b> Menu &#39;</b>Materiali&#39;, quindi aprite il sottomenu del materiale da modificare.
+Per modificare lo shader corrente, accedete al menu **Materiali**, quindi aprite il sottomenu del materiale da modificare.
 
-Ad esempio, per regolare la proprietà &quot;Scala di Height&quot; del materiale &quot;Predefinito&quot; nella scena &quot;Piano (alta risoluzione)&quot;, accedete a &quot;Materiali > Predefinito > Modifica proprietà&quot;. Individua quindi la proprietà &#39;Scala Height&#39; nel Dock proprietà.
+Ad esempio, per regolare la proprietà di un materiale per il materiale &#39;`Default`&#39; nella scena &#39;Piano (alta risoluzione)&#39;, vai a **Materiali > Predefinito > Modifica proprietà**. Quindi trova la proprietà del materiale nel Dock Proprietà.
 
 Gli ombreggiatori possono essere ripristinati mediante le azioni &quot;Ripristina materiale&quot; o &quot;Ripristina stato scena&quot; nel sottomenu. Se stavi visualizzando gli output del grafico Substance nella vista 3D, dovrai riapplicarli.
 
 >[!NOTE]
 >
-> Informazioni sulla tassellatura
+> **Informazioni sulla tassellatura**
 > 
-> La proprietà &quot;Fattore di tassellatura&quot; varia a seconda del modulo di rendering 3D selezionato:
+> La tassellatura di una trama può essere regolata utilizzando il parametro **Fattore di tassellatura** nella finestra a comparsa [Spostamento](displacement/displacement.md#tessellation).
+> La proprietà specifica controllata da tale parametro varia in base al modulo di rendering 3D corrente:
 > 
-> * <b>Rasterizzatore/Pathtracer GPU:</b> situato nelle impostazioni del modulo di rendering (Rendering > Impostazioni di modifica), influisce sull&#39;*intera scena*.
-> * <b>OpenGL:</b> situato nelle proprietà del materiale, influisce sul materiale.
+> * **Rasterizzatore/Pathtracer GPU:** proprietà per oggetto denominata **Livello di perfezionamento**. Selezionare un oggetto `Mesh` nell&#39;[Visualizzatore scene](scene-browser/scene-browser.md) per visualizzarne le proprietà e modificarne direttamente le impostazioni.
+> * **OpenGL:** proprietà per materiale denominata **Fattore di tassellatura**. Vai alle [proprietà dei materiali](#change-shader-properties) per modificarle direttamente.
 
 ![Esportazione della scena](3d-view.resources/3d-view-export-scene.gif "Esportazione della scena")
 
@@ -305,13 +304,13 @@ Il menu Materiali presenta un elenco di tutti i materiali assegnati a una trama 
 
 <b>Carica definizione...: </b>(solo rendering OpenGL) Consente di caricare il tuo [shader GLSLFX personalizzato.](../../interface/3d-view/glslfx-shaders/glslfx-shaders.md) Lo shader viene aggiunto all’elenco precedente.
 
-<b>Reimposta parametri comuni:</b> Reimposta tutti i parametri comuni tra gli shader. Ad esempio, quando si passa dal modulo di rendering Rasterizer/Pathtracer GPU al modulo di rendering OpenGL e viceversa, vengono riportati diversi valori dei parametri nel [Materiale standard Adobe](https://experienceleague.adobe.com/it/docs/substance-3d/general-knowledge/asm/adobe-standard-material).
+<b>Reimposta parametri comuni:</b> Reimposta tutti i parametri comuni tra gli shader. Ad esempio, quando si passa dal modulo di rendering Rasterizzatore/Pathtracer GPU a quello OpenGL, vengono riportati diversi valori di parametro nell&#39;[Adobe Standard Material](https://experienceleague.adobe.com/it/docs/substance-3d/general-knowledge/asm/adobe-standard-material).
 
 <b>Rinomina:</b> Modificare l&#39;etichetta per questo materiale.
 
-<b>Reimposta materiale:</b> reimposta tutti i parametri dello shader sui valori predefiniti. Se le texture sono collegate a uno dei campionatori dello shader, vengono scollegate.
+<b>Ripristina materiale:</b> ripristina tutti i parametri di shader sui valori predefiniti. Se le texture sono collegate a uno qualsiasi dei campionatori dello shader, vengono scollegate.
 
-<b>Ripristina lo stato della scena per il materiale: </b>*(solo per i moduli di rendering Rasterizzatore e Pathtracer GPU)* Ripristina tutte le proprietà di [materiali sostituiti](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) ai valori originali della scena, incluse le eventuali texture originali.
+<b>Ripristina lo stato della scena per il materiale: </b>*(solo per i moduli di rendering Rasterizzatore e Pathtracer GPU)* Ripristina tutte le proprietà di [materiali sostituiti](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) ai valori originali della scena, inclusa l&#39;eventuale texture originale.
 
 <b>Aggiungi: </b>Aggiunge un nuovo materiale all&#39;elenco. Non viene utilizzato per impostazione predefinita e potrebbe essere [connesso a un materiale della scena](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) utilizzando il [browser della scena](../../interface/3d-view/scene-browser/scene-browser.md).
 
@@ -331,7 +330,7 @@ Il menu <b>Fotocamera</b> consente di modificare le impostazioni della videocame
 
 <b>Modifica proprietà:</b> apre le impostazioni predefinite della videocamera nel Dock proprietà.
 
-<b>Stato attivo: </b>(F) Attiva la videocamera predefinita sulla trama attualmente selezionata. Ad esempio, inquadra la trama e allinea il perno della fotocamera ad essa. Se non è presente alcuna selezione attiva, viene utilizzato il rettangolo di selezione globale della scena.
+<b>Stato attivo: </b>(F) Attiva la videocamera predefinita sulla trama attualmente selezionata. Ad esempio, fotogramma la trama e allinea il perno della fotocamera ad essa. Se non è presente alcuna selezione attiva, viene utilizzato il rettangolo di selezione globale della scena.
 
 <b>Fotocamere di scena:</b> se le scene includono una o più fotocamere, vengono elencate qui e le relative impostazioni vengono utilizzate come predefiniti da applicare alla videocamera predefinita della scena.
 

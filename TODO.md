@@ -1,8 +1,8 @@
 ---
-source-git-commit: 2266f844db20e938884afc335de4a6f753dff288
+source-git-commit: e888ac71160a080fffba861f2bb716dcd56008a6
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 11%
+source-wordcount: '181'
+ht-degree: 6%
 ---
 # TODO
 
@@ -14,7 +14,6 @@ ht-degree: 11%
 ## Incrementi
 
 * Punti di ingresso per la documentazione delle API Python su AdobeDocs
-* Vista 3D: utilizza `refineLevel = 0` per migliorare le prestazioni quando utilizzi lo spostamento su trame a poli elevato
 * Esempi nella pagina a comparsa Documentazione
 * Glossario:
   * HDR
@@ -41,3 +40,17 @@ ht-degree: 11%
 ## Indagare
 
 * Componente prima/dopo
+
+## HUB DI APPRENDIMENTO
+
+- Scopri cosa blocca il download dei file SBS ([qui](https://adobe-3di.slack.com/archives/CMF1JGMLY/p1790005804708379))
+- Scopri come testare le pagine in tempo reale senza essere esposti al pubblico o inclusi nel ToC
+- Opzioni di filtraggio di Esplora risorse per l&#39;elenco di esempi: Microsito? ([Esempio](https://experienceleague.adobe.com/it/tools/campaign-error-codes))
+- Automatizzare la creazione dell&#39;elemento di esempio
+  - Assimila metadati da file (JSON, YAML, ...)
+  - Miniatura agganciata (clic per ingrandire)
+  - Indicatore di complessità negli elementi campione
+- Fornisci agli autori campione lo strumento di convalida SBS
+- Citazione dei file SBS scaricabili da risorse 3D (con abbonamento attivo)
+
+Il microsito per il glossario?

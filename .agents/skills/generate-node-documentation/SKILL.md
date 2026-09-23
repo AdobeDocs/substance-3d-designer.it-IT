@@ -1,13 +1,12 @@
 ---
 name: generate-node-documentation
-description: ""
-source-git-commit: 475af5f27b827f66289993dbd8367904c1baf42b
+description: |
+  Come creare una pagina di riferimento a nodo di Substance 3D Designer in modo che corrisponda al layout standard utilizzato in Guida/composizione-grafici/nodi-riferimento-per-com/node-library/. Utilizzare questa abilità ogni volta che si crea o si modifica una pagina nodo (descrizione di un nodo, Input, Output, Parametri o Esempi) sotto la struttura della libreria di nodi o le pagine di riferimento del nodo funzione/nodo atomico equivalenti. Include la convenzione cartella/sommario, l'argomento anteriore minimo, la tabella icona/descrizione, le tabelle Input/Output/Parametri ancorate e la raccolta Esempi. Per le regole generali di Adobe Experience League Markdown (didascalie, collegamenti, UICONTROL/DNL, immagini), utilizza l’abilità write-experience-league-markdown; questa abilità copre solo la struttura a pagina nodo. Esempio canonico: help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md
+source-git-commit: ed17c57a1aa9669a602d4523bdef20cd7d82db75
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 4%
-
+source-wordcount: '976'
+ht-degree: 3%
 ---
-
 
 # Generazione della documentazione dei nodi
 
@@ -31,13 +30,13 @@ con lo stesso nome.
   la cartella `help/assets/` condivisa, ovvero un modello legacy in fase di eliminazione; nuovo e
   le pagine modificate utilizzano la propria cartella `.resources`.
 * Ogni pagina ha una voce corrispondente in `help/guide/TOC.md`. Quando si aggiunge o si sposta un
-pagina, aggiorna `TOC.md` e il layout della cartella (vedere la cartella/sommario di CLAUDE.md
+pagina, aggiorna `TOC.md` e il layout della cartella (vedere la cartella/sommario di AGENTS.md
 convenzione).
 
 ## Fattore anteriore
 
 Le pagine del nodo utilizzano il blocco **minimo**, solo `title` e uno stile breadcrumb
-`description`. (Questo è diverso dal blocco legacy di 11 campi CLAUDE.md documenti per
+`description`. (Questo è diverso dai documenti legacy a 11 campi AGENTS.md per
 pagine con contenuto normale.)
 
 ```yaml
@@ -87,6 +86,10 @@ Convenzioni prosa cella descrizione:
 * I lead-in secondari utilizzano `<i>Note:</i>` / `<i>Tip:</i>` all&#39;inizio della frase.
 * Usa `&gt;` per `>` nella riga `In:` (è all&#39;interno di HTML). Prendi la categoria /
 nomi di sottocategorie dal nodo stesso; non inventarli.
+* Per nodi con più versioni (ad esempio colore/scala di grigi/valore o varianti numerate)
+come Celle 1 / Celle 2), aggiungi un paragrafo di descrizione finale che faccia riferimento all&#39;altro
+versioni con collegamenti relativi, separate da un&#39;unica interruzione di riga. Esempio: &grave;See also: [&#128279;](../input-grayscale/input-grayscale.md)Input
+grayscale, [Input value](../input-value/input-value.md)&grave;.
 
 ### &#x200B;3. Callout facoltativi
 
@@ -148,27 +151,35 @@ righe del gruppo:
 
 ### &#x200B;7. Esempi
 
-Includi solo se sono presenti immagini/GIF di esempio. Utilizzare una tabella raccolta HTML; una `<td>`
-per immagine con una didascalia facoltativa; contornare con un nuovo `<tr>` dopo 3 immagini. Percorsi dei file multimediali
-puntare nella cartella `.resources` della pagina.
+Includi solo se sono presenti immagini/GIF di esempio. Usare un HTML senza bordi e a layout fisso
+tabella della raccolta; un `<td>` per immagine; eseguire il wrapping in un nuovo `<tr>` dopo 3 immagini. Percorsi dei file multimediali
+puntare nella cartella `.resources` della pagina. Utilizza un elemento HTML `<img>` per ogni
+ad esempio, con `class="modal-image"` in modo che l&#39;immagine pubblicata si apra nello standard
+visualizzatore immagini. Specificare un testo `alt` significativo che identifichi il nodo e l&#39;esempio
+numero. Non utilizzare la sintassi dell&#39;immagine Markdown in questa raccolta.
 
 ```html
 ## Examples
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="./<node-name>.resources/<file>.gif" /><br><i>Caption</i>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="<node-name>.resources/<file>.gif" class="modal-image" alt="<Node title> - Example 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="./<node-name>.resources/<file2>.jpg" /><br><i>Another caption</i>
+        <td style="border: 0;">
+            <img src="<node-name>.resources/<file2>.jpg" class="modal-image" alt="<Node title> - Example 2" />
         </td>
     </tr>
 </table>
 ```
 
-Lascia vuote le celle finali in una riga finale parzialmente riempita (`<td …></td>`) anziché
-riflusso. Ometti i sottotitoli se la sorgente non ne ha.
+Mantieni `style="table-layout:fixed"` e `style="border: 0;"`
+gli attributi esattamente come mostrato; non aggiungere bordi, margini o stili di sfondo.
+Lascia vuote le celle finali in una riga finale parzialmente riempita
+(`<td style="border: 0;"></td>`) anziché eseguire la ridisposizione. Usa l’immagine esistente
+ordine e nomi dei file. Se una pagina contiene sottotitoli, conservali come testo `alt`
+di aggiungere markup di sottotitoli visibili. Ometti l’intera sezione quando la pagina non contiene
+file multimediali di esempio.
 
 ## Valori tipo canonico
 

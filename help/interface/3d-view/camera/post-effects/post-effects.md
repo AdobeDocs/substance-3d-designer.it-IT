@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/3d-view/camera/post-effects.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Applicate effetti di post-elaborazione alla videocamera con vista 3D per visualizzare e visualizzare materiale migliorato.
 helpx_creative_field: ""
 helpx_description: Designer > Interface > 3D view > Camera > Post effects
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Effetti post
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 45cd3aec3baf2c35bae9e48540f6e7fb3a665541
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 10be7678f386c925d4bff6d59e2b85ffc04becd8
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '726'
 ht-degree: 4%
-
 ---
-
 
 # Effetti post
 
@@ -27,31 +25,6 @@ Nelle proprietà della videocamera, potete attivare gli effetti di postproduzion
 Questi effetti sono sviluppati internamente e sono disponibili solo per il rasterizzatore e i [moduli di rendering](../../../../interface/3d-view/3d-renderers/3d-renderers.md) di Pathtracer GPU.
 
 Qualsiasi effetto post attivato al momento del salvataggio di [risorse scena 3D](../../../../resources/3d-scene-resource/3d-scene-resource.md) o [file di stato scena](../../../../working-with-3d-scenes/working-with-3d-scenes.md) verrà salvato come parte dello stato della scena.
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Mappatura toni
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Bloom
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Profondità di campo
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
 
 ## Mappatura toni
 

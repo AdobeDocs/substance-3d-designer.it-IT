@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/3d-view/scene-browser.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilizza l’Elenco scene per navigare e gestire elementi, materiali e oggetti della scena 3D nella finestra della vista.
 helpx_creative_field: ""
 helpx_description: Designer > Interface > 3D view > Scene browser
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Browser scene
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9297416d538a70b80b8be3b2d23a3c442a79a23b
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 10be7678f386c925d4bff6d59e2b85ffc04becd8
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '789'
 ht-degree: 1%
-
 ---
-
 
 # Browser scene
 
@@ -30,26 +28,6 @@ Viene visualizzato facendo clic sul relativo pulsante di attivazione/disattivazi
 
 ![Browser scene - Scena 3D caricata](scene-browser.resources/loaded3DScene.png "Browser scene - Scena 3D caricata"){zoomable="yes"}
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Albero delle scene
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Alternare gli oggetti nella scena
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Materiali connessi
-
-</td>
-</tr>
-</table>
-
 ## Albero delle scene
 
 <table>
@@ -59,6 +37,8 @@ Viene visualizzato facendo clic sul relativo pulsante di attivazione/disattivazi
 L’elenco delle scene visualizza un elenco di oggetti disposti in una struttura gerarchica.
 
 Gli oggetti sono associati ad altri oggetti, fino alla radice della scena. Un oggetto principale è dotato di un pulsante freccia che consente di espandere o comprimere l’elenco dei relativi oggetti secondari.
+
+Alcuni oggetti dispongono di proprietà che possono essere visualizzate e modificate nel dock [Proprietà](../../../interface/properties/properties.md) se selezionate: ambiente, fotocamera, luci, `Mesh` oggetti e materiale [sostituzioni](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md).
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">

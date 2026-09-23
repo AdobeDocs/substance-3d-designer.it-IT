@@ -1,6 +1,6 @@
 ---
 helpx_url: ""
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilizzate la finestra a comparsa Spostamento per regolare rapidamente lo spostamento e la tassellatura applicati alle trame in una scena 3D.
 helpx_creative_field: ""
 helpx_description: ""
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Popup vista 3D - Spostamento
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 10be7678f386c925d4bff6d59e2b85ffc04becd8
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '499'
 ht-degree: 2%
-
 ---
-
 
 # finestra a comparsa Spostamento
 
@@ -74,6 +72,13 @@ valore di suddivisione.
 
 La suddivisione è contestuale: è ottimizzata in modo che solo le superfici con un *valore height non uniforme* o
 una *mappa di height non piatta* verrà suddivisa, indipendentemente dal valore del parametro.
+
+>[!TIP]
+>
+>La tecnica di tassellatura prevede una fase di preparazione che viene eseguita indipendentemente dalla tassellatura effettivamente eseguita. (Ad esempio `Tessellation factor = 1`)
+>Per le trame poly elevate, questo passaggio può richiedere molto tempo e influire in modo significativo sulle prestazioni quando si utilizza lo spostamento.
+>
+>Se la tassellatura non è necessaria, è possibile disabilitare completamente la tecnica impostando il parametro **Rifinisci livello** su `0` nelle proprietà degli oggetti `Mesh` elencati nel [Browser scene](../scene-browser/scene-browser.md#scene-tree).
 
 ### Per materiale
 
