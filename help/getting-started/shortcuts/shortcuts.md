@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/getting-started/shortcuts.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/shortcuts.html"
 breadcrumb-title: ""
 description: Scopri le scelte rapide da tastiera in Substance 3D Designer per velocizzare il flusso di lavoro e migliorare la produttività.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Scelte rapide
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: c460f605a97021efd2143941c28a977e12452299
+source-git-commit: aeb517a0def4b5bc2de723633f8932dfc03f052c
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '333'
 ht-degree: 17%
 ---
 
@@ -35,7 +35,7 @@ In questa pagina puoi trovare una panoramica di tutte le scelte rapide per Subst
 ### Globale
 
 | Azione | Windows | macOS |
-| --- | --- | --- |
+|:-------------------------------------------------------------------------------------------------------------------|:----------|:------|
 | [Nuovo grafico Substance](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) | Ctrl + N | ⌘ + N |
 | Carica pacchetto | Ctrl + O | ⌘ + O |
 | Chiudi pacchetti selezionati | Ctrl + F4 | ⌘ + W |
@@ -45,13 +45,13 @@ In questa pagina puoi trovare una panoramica di tutte le scelte rapide per Subst
 
 ### Visualizzazione grafico
 
-<b>Viewport</b>
+**Viewport**
 
 | Azione | Windows | macOS |
-| --- | --- | --- |
-| Zoom | Alt rotellina del mouse + RMB + trascinamento | Rotellina del mouse ⌥ + RMB + trascinamento |
-| Zoom veloce | ⇧ + ⇧ rotellina del mouse + Alt + RMB + trascinamento | ⇧ + ⇧ rotellina del mouse + ⌥ + RMB + trascinamento |
-| Panning | MMB + trascina Ctrl + RMB + trascina | MMB + Trascina ⌘ + RMB + Trascina |
+|:-----------------------------------------------------------------------------------|:---------------------------------------|:-------------------------------------|
+| Zoom | Rotellina del mouse<br>Alt + RMB + Trascina | Rotellina del mouse<br>⌥ + RMB + trascinamento |
+| Zoom veloce | ⇧ + rotellina del mouse<br>⇧ + Alt + RMB + trascinamento | ⇧ + rotellina del mouse<br>⇧ + ⌥ + RMB + trascinamento |
+| Panning | MMB + Drag<br>Ctrl + RMB + Drag | MMB + Drag<br>⌘ + RMB + Drag |
 | Ripristina zoom | Z | Z |
 | Adatta alla visualizzazione | F | F |
 | Copia | Ctrl + C | ⌘ + C |
@@ -60,22 +60,22 @@ In questa pagina puoi trovare una panoramica di tutte le scelte rapide per Subst
 | Menu Nodo | Barra spaziatrice | Barra spaziatrice |
 | Esegui ciclo di [puntine di navigazione](../../interface/the-graph-view/graph-items/graph-items.md) | F2 | F2 |
 
-<b>Modalità di creazione del collegamento</b>
+**Modalità di creazione del collegamento**
 
 >[!NOTE]
 >
 > Scopri le modalità di creazione dei collegamenti in [questa pagina](../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) di questa documentazione.
 
 | Modalità | Windows | macOS |
-| --- | --- | --- |
+|:-----------------|:--------|:------|
 | Standard | 1 | 1 |
 | Materiale | 2 | 2 |
 | Materiale compatto | 3 | 3 |
 
-<b>Quando un oggetto è selezionato nel grafico</b>
+**Quando un oggetto è selezionato nel grafico**
 
 | Azione | Windows | macOS |
-| --- | --- | --- |
+|:------------------------------------|:-------------|:----------|
 | Copia selezione | Ctrl + C | ⌘ + C |
 | Duplica la selezione | Ctrl + D | ⌘ + D |
 | Duplica senza collegamenti | Ctrl + ⇧ + D | ⌘ + ⇧ + D |
@@ -87,10 +87,10 @@ In questa pagina puoi trovare una panoramica di tutte le scelte rapide per Subst
 ### Vista 2D
 
 | Azione | Windows | macOS |
-| --- | --- | --- |
-| Zoom | Alt rotellina del mouse + RMB + trascinamento | Rotellina del mouse ⌥ + RMB + trascinamento |
-| Zoom veloce | ⇧ + ⇧ rotellina del mouse + Alt + RMB + trascinamento | ⇧ + ⇧ rotellina del mouse + ⌥ + RMB + trascinamento |
-| Panning | MMB + trascina Ctrl + RMB + trascina | MMB + Trascina ⌘ + RMB + Trascina |
+|:---------------------|:---------------------------------------|:-------------------------------------|
+| Zoom | Rotellina del mouse<br>Alt + RMB + Trascina | Rotellina del mouse<br>⌥ + RMB + trascinamento |
+| Zoom veloce | ⇧ + rotellina del mouse<br>⇧ + Alt + RMB + trascinamento | ⇧ + rotellina del mouse<br>⇧ + ⌥ + RMB + trascinamento |
+| Panning | MMB + Drag<br>Ctrl + RMB + Drag | MMB + Drag<br>⌘ + RMB + Drag |
 | Reimposta su scala 100% | Z | Z |
 | Adatta alla visualizzazione | F | F |
 | Attiva/disattiva visualizzazione affiancata | Barra spaziatrice | Barra spaziatrice |
@@ -98,10 +98,10 @@ In questa pagina puoi trovare una panoramica di tutte le scelte rapide per Subst
 ### Vista 3D
 
 | Azione | Windows | macOS |
-| --- | --- | --- |
-| Videocamera Dolly (Pan avanti/indietro) | Alt rotellina del mouse + RMB + trascinamento | Rotellina del mouse ⌥ + RMB + trascinamento |
+|:---------------------------------------------------------|:--------------------------------|:-----------------------------|
+| Videocamera Dolly (Pan avanti/indietro) | Rotellina del mouse<br>Alt + RMB + Trascina | Rotellina del mouse<br>⌥ + RMB + trascinamento |
 | Rotazione fotocamera | LMB + trascina | LMB + trascina |
-| Telecamera per autocarri e piedistalli (orizzontale e verticale) | MMB + trascina Ctrl + RMB + trascina | MMB + Trascina ⌘ + RMB + Trascina |
+| Telecamera per autocarri e piedistalli (orizzontale e verticale) | MMB + Drag<br>Ctrl + RMB + Drag | MMB + Drag<br>⌘ + RMB + Drag |
 | Ruota l&#39;ambiente | Ctrl + ⇧ + RMB | Ctrl + ⇧ + RMB |
 | Passa temporaneamente ai controlli Point Light 1 | ⇧ (blocco) | ⇧ (blocco) |
 | Luce punto orbita 1 | LMB + trascina | LMB + trascina |

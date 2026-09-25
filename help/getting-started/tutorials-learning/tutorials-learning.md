@@ -1,37 +1,37 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/getting-started/tutorials-learning.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/tutorials-learning.html"
+breadcrumb-title: ""
 description: Accedi a tutorial e risorse di apprendimento per Substance 3D Designer per conoscere le tecniche di creazione di materiali procedurali.
 helpx_creative_field: ""
-helpx_description: Designer > Getting started > Tutorials  learning
+helpx_description: Designer > Getting started > Tutorials & learning
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Apprendimento Tutorials
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
+title: Tutorials e apprendimento
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: aeb517a0def4b5bc2de723633f8932dfc03f052c
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '304'
 ht-degree: 0%
-
 ---
 
-
-# Apprendimento Tutorials
+# Tutorials e apprendimento
 
 La documentazione è intesa principalmente come riferimento tecnico completo. Se preferisci immergerti in video e altro materiale di apprendimento più mirato, questi tutorial sono utili per iniziare.
 
+## Tutorial
+
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td style="border: 0;" width="30%">
 
 [Illustrazione dell&#39;esercitazione ![&#39;Primi passi&#39;](tutorials-learning.resources/64d93414-7ea9-49d9-b962-a4e6f4a12765.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/first-steps-with-substance-3d-designer?locale=en)
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; vertical-align: top;">
 
-## Primi passi
+### Primi passi
 
 Una serie per principianti incentrata sui primi passi con Designer. Introduce l&#39;interfaccia utente, i concetti di base, quindi passa alle tecniche di base e infine spiega come esporre i parametri e creare un materiale completo. È corto e focalizzato, ma mantiene le cose leggere, rendendolo il miglior inizio per principianti assoluti.
 
@@ -41,14 +41,14 @@ Una serie per principianti incentrata sui primi passi con Designer. Introduce l&
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td style="border: 0;" width="30%">
 
 [![&#39;Creazione del primo materiale&#39; illustrazione dell&#39;esercitazione](tutorials-learning.resources/d18e3495-5683-4024-a8af-d255380c0739.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/getting-started-with-substance-3d-designer?locale=en)
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; vertical-align: top;">
 
-### Creazione del tuo primo materiale
+### Creazione del primo materiale
 
 Grande serie di video di partenza che ti guida attraverso l&#39;intero processo di creazione di un materiale esteso e completamente procedurale. Ogni fase del processo è trattata e spiegata, quindi imparerete molto al termine, ma può essere intensivo per i principianti assoluti.
 
@@ -58,12 +58,12 @@ Grande serie di video di partenza che ti guida attraverso l&#39;intero processo 
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td style="border: 0;" width="30%">
 
 [![&#39;Suggerimenti rapidi&#39; illustrazione dell&#39;esercitazione](tutorials-learning.resources/ds-learn-quicktips.jpg)](https://www.youtube.com/playlist?list=PLB0wXHrWAmCy457vxKM4rQuJ-nvYm9j4M)
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; vertical-align: top;">
 
 ### Suggerimenti rapidi
 
@@ -73,14 +73,16 @@ Ogni video con suggerimento rapido si concentra su un insieme di nodi e tecniche
 </tr>
 </table>
 
+## Articoli
+
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td style="border: 0;" width="30%">
 
 [![&#39;Il tuo smartphone è uno scanner di materiale&#39; illustrazione dell&#39;esercitazione](tutorials-learning.resources/73d18800-637b-410b-8ceb-22ad6b61ec89.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/your-smartphone-is-a-material-scanner?locale=en)
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; vertical-align: top;">
 
 ### Lo smartphone è uno scanner di materiali
 
