@@ -50,7 +50,7 @@ ht-degree: 5%
 
 - Scopri cosa blocca il download dei file SBS ([qui](https://adobe-3di.slack.com/archives/CMF1JGMLY/p1790005804708379))
 - Scopri come testare le pagine in tempo reale senza essere esposti al pubblico o inclusi nel ToC
-- Opzioni di filtraggio di Esplora risorse per l&#39;elenco di esempi: Microsito? ([Esempio](https://experienceleague.adobe.com/en/tools/campaign-error-codes))
+- Opzioni di filtraggio di Esplora risorse per l&#39;elenco di esempi: Microsito? ([Esempio](https://experienceleague.adobe.com/it/tools/campaign-error-codes))
 - Automatizzare la creazione dell&#39;elemento di esempio
   - Assimila metadati da file (JSON, YAML, ...)
   - Miniatura agganciata (clic per ingrandire)

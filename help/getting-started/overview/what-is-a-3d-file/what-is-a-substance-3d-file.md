@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview/what-is-a-substance-3d-file.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/getting-started/overview/what-is-a-substance-3d-file.html"
 breadcrumb-title: ""
 description: Scopri di più sui formati di file Substance 3D e su come memorizzano materiali procedurali e texture per l’uso in più applicazioni.
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ I grafici a Substance sono dinamici perché, a differenza di un file bitmap clas
 
 Ad esempio, è possibile modificare in tempo reale la quantità di dust di un oggetto, il colore di una maglia della squadra di calcio o il motivo di un pavimento in pietra tagliata. La vostra immaginazione è virtualmente l&#39;unico limite.
 
-Un pacchetto può essere *pubblicato* in un **file di archivio di Substance 3D** (`*.sbsar`) compilato e autonomo in modo che il grafico in esso contenuto possa essere utilizzato in applicazioni esterne per le quali esiste una [integrazione Substance](https://www.adobe.com/products/substance3d/plugins.html).
+Un pacchetto può essere *pubblicato* in un **file di archivio di Substance 3D** (`*.sbsar`) compilato e autonomo in modo che il grafico in esso contenuto possa essere utilizzato in applicazioni esterne per le quali esiste una [integrazione Substance](https://www.adobe.com/it/products/substance3d/plugins.html).
 
 I grafici a Substance possono produrre texture che sono **100% procedurali**, con conseguenti dimensioni dei file del pacchetto molto leggere.
 
