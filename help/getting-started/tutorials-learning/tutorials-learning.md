@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/getting-started/tutorials-learning.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/tutorials-learning.html"
 breadcrumb-title: ""
 description: Accedi a tutorial e risorse di apprendimento per Substance 3D Designer per conoscere le tecniche di creazione di materiali procedurali.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Tutorials e apprendimento
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: aeb517a0def4b5bc2de723633f8932dfc03f052c
+source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '262'
 ht-degree: 0%
 ---
 
@@ -22,72 +22,14 @@ La documentazione è intesa principalmente come riferimento tecnico completo. Se
 
 ## Tutorial
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" width="30%">
-
-[Illustrazione dell&#39;esercitazione ![&#39;Primi passi&#39;](tutorials-learning.resources/64d93414-7ea9-49d9-b962-a4e6f4a12765.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/first-steps-with-substance-3d-designer?locale=en)
-
-</td>
-<td style="border: 0; vertical-align: top;">
-
-### Primi passi
-
-Una serie per principianti incentrata sui primi passi con Designer. Introduce l&#39;interfaccia utente, i concetti di base, quindi passa alle tecniche di base e infine spiega come esporre i parametri e creare un materiale completo. È corto e focalizzato, ma mantiene le cose leggere, rendendolo il miglior inizio per principianti assoluti.
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" width="30%">
-
-[![&#39;Creazione del primo materiale&#39; illustrazione dell&#39;esercitazione](tutorials-learning.resources/d18e3495-5683-4024-a8af-d255380c0739.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/getting-started-with-substance-3d-designer?locale=en)
-
-</td>
-<td style="border: 0; vertical-align: top;">
-
-### Creazione del primo materiale
-
-Grande serie di video di partenza che ti guida attraverso l&#39;intero processo di creazione di un materiale esteso e completamente procedurale. Ogni fase del processo è trattata e spiegata, quindi imparerete molto al termine, ma può essere intensivo per i principianti assoluti.
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" width="30%">
-
-[![&#39;Suggerimenti rapidi&#39; illustrazione dell&#39;esercitazione](tutorials-learning.resources/ds-learn-quicktips.jpg)](https://www.youtube.com/playlist?list=PLB0wXHrWAmCy457vxKM4rQuJ-nvYm9j4M)
-
-</td>
-<td style="border: 0; vertical-align: top;">
-
-### Suggerimenti rapidi
-
-Ogni video con suggerimento rapido si concentra su un insieme di nodi e tecniche delle dimensioni di un morso. Illustriamo il risultato, i nodi e i parametri più importanti e poi vi mostreremo alcuni modi per ampliare l&#39;idea.
-
-</td>
-</tr>
-</table>
+|                                                                                                                                                                                                                                      |                                  |                                                                                                                                                                                                                                                                                                                                |
+|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [![Illustrazione del tutorial &quot;Primi passi&quot;](tutorials-learning.resources/tutorial-first-steps.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/first-steps-with-substance-3d-designer?locale=en){width="200px"} | **Primi passi** | Una serie per principianti incentrata sui primi passi con Designer. Introduce l&#39;interfaccia utente, i concetti di base, quindi passa alle tecniche di base e infine spiega come esporre i parametri e creare un materiale completo.<br><br>È breve e mirato, ma mantiene la luce, rendendolo il miglior inizio per i principianti assoluti. |
+| [![Creazione del primo materiale](tutorials-learning.resources/tutorial-getting-started.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/getting-started-with-substance-3d-designer?locale=en){width="200px"} | **Creazione del primo materiale** | Grande serie di video di partenza che ti guida attraverso l&#39;intero processo di creazione di un materiale esteso e completamente procedurale.<br><br>Ogni fase del processo è trattata e spiegata, in modo da imparare molto al termine, ma può essere intensa per i principianti assoluti. |
+| [![Illustrazione del tutorial &quot;Suggerimenti rapidi&quot;](tutorials-learning.resources/tutorial-quicktips.jpg)](https://www.youtube.com/playlist?list=PLB0wXHrWAmCy457vxKM4rQuJ-nvYm9j4M){width="200px"} | **Suggerimenti rapidi** | Ogni video con suggerimento rapido si concentra su un insieme di nodi e tecniche delle dimensioni di un morso.<br><br>Vengono illustrati il risultato, i nodi e i parametri più importanti, quindi vengono illustrati alcuni modi per espandere l&#39;idea. |
 
 ## Articoli
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" width="30%">
-
-[![&#39;Il tuo smartphone è uno scanner di materiale&#39; illustrazione dell&#39;esercitazione](tutorials-learning.resources/73d18800-637b-410b-8ceb-22ad6b61ec89.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/your-smartphone-is-a-material-scanner?locale=en)
-
-</td>
-<td style="border: 0; vertical-align: top;">
-
-### Lo smartphone è uno scanner di materiali
-
-Articolo in-profondità che illustra l&#39;intero processo di scatto delle foto ed elaborazione con Designer. Rappresenta un buon esempio di utilizzo di Substance 3D Designer per l&#39;automazione di determinate attività.
-
-</td>
-</tr>
-</table>
+|                                                                                                                                                                                                                                                                             |                                           |                                                                                                                                                                                                                   |
+|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [![Illustrazione dell&#39;esercitazione &#39;Il tuo smartphone è uno scanner di materiale&#39;](tutorials-learning.resources/article-smartphone-material-scanner.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/your-smartphone-is-a-material-scanner?locale=en){width="200px"} | **Lo smartphone è uno scanner di materiali** | Articolo in-profondità che illustra l&#39;intero processo di acquisizione ed elaborazione delle foto tramite Designer.<br><br>Rappresenta un ottimo esempio di utilizzo di Substance 3D Designer per automatizzare determinate attività. |

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/getting-started/overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview.html"
 breadcrumb-title: ""
 description: Ottieni una panoramica di Substance 3D Designer e scopri le sue funzionalità per la creazione di materiali e texture procedurali.
 helpx_creative_field: ""
@@ -10,15 +10,15 @@ helpx_tags: ""
 title: Panoramica
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: aeb517a0def4b5bc2de723633f8932dfc03f052c
+source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '923'
 ht-degree: 2%
 ---
 
 # Panoramica
 
-[Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html) è un&#39;applicazione progettata per la creazione di texture, materiali e filtri 2D in un&#39;interfaccia basata su nodi, con particolare attenzione alla generazione di procedurali, alla parametrizzazione e ai flussi di lavoro non distruttivi. Si tratta dell&#39;applicazione più longeva dell&#39;ecosistema Substance 3D e le risorse che ne derivano sono le più versatili e dinamiche possibili.
+[Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) è un&#39;applicazione progettata per la creazione di texture, materiali e filtri 2D in un&#39;interfaccia basata su nodi, con particolare attenzione alla generazione di procedurali, alla parametrizzazione e ai flussi di lavoro non distruttivi. Si tratta dell&#39;applicazione più longeva dell&#39;ecosistema Substance 3D e le risorse che ne derivano sono le più versatili e dinamiche possibili.
 
 Ecco come viene confrontato con altre applicazioni:
 
@@ -60,9 +60,10 @@ L&#39;applicazione e il relativo ecosistema utilizzano 4 diversi tipi di file. P
 
 ![](overview.resources/ds-sbs-48.png)
 
-### File Substance 3D
+**File Substance 3D**\
+(pacchetto)
 
-*(\*.SBS)*
+`\*.sbs`
 
 I file di Substance sono i **file di origine principali** per Designer. Quando apri un file di Substance, puoi **visualizzare e modificare tutti i nodi in un grafico**. Sono rappresentati come pacchetti, che possono contenere un numero qualsiasi di risorse come Grafici, Funzioni, Bitmap, Trame, ecc. Sono più difficili da condividere e meno veloci da calcolare. Possono essere aperti solo in Substance 3D Designer e nella Substance Player.
 
@@ -71,20 +72,20 @@ I file di Substance sono i **file di origine principali** per Designer. Quando a
 
 ![](overview.resources/sbsar-48.png)
 
-### Risorsa Substance 3D
+**Archivio Substance 3D**
 
-*(\*.SBSAR)*
+`\*.sbsar`
 
-Gli archivi Substance sono <b> file Substance compilati e ottimizzati</b>. Sono molto più veloci da calcolare e possono essere facilmente condivisi senza problemi di riferimento. I parametri possono ancora essere modificati, ma la modifica del grafico è <b>bloccata</b>. Gli archivi Substance possono essere utilizzati in tutte le applicazioni Substance 3D e in tutte le applicazioni con [integrazione Substance 3D](https://experienceleague.adobe.com/it/docs/substance-3d/ecosystem/home) (alcune con un plug-in esterno), ad esempio Autodesk 3DS Max &amp; Maya, Unreal Engine o Unity Engine.
+Gli archivi Substance sono <b> file Substance compilati e ottimizzati</b>. Sono molto più veloci da calcolare e possono essere facilmente condivisi senza problemi di riferimento. I parametri possono ancora essere modificati, ma la modifica del grafico è <b>bloccata</b>. Gli archivi Substance possono essere utilizzati in tutte le applicazioni Substance 3D e in tutte le applicazioni con [integrazione Substance 3D](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home) (alcune con un plug-in esterno), ad esempio Autodesk 3DS Max &amp; Maya, Unreal Engine o Unity Engine.
 
 </td>
 <td style="border: 0;">
 
 ![](overview.resources/bmp-96.png){width="48px"}
 
-### File statici
+**File statici**
 
-*(\*.TGA, \*.BMP, \*.PNG, \*.FBX, \*.OBJ ecc...)*
+`\*.tga, \*.bmp, \*.png, \*.fbx, \*.obj , ...`
 
 Substance 3D Designer supporta sempre l’esportazione in tipi di file statici. Un&#39;immagine 2D può essere esportata in un file bitmap, un modello 3D può essere esportato nei tipi di file 3D più comuni. Quando viene esportato in file statici, **tutte le funzionalità dinamiche vengono perse**. Le immagini sono bloccate in risoluzione, i modelli 3D sono bloccati in conteggio multiplo.
 
@@ -152,7 +153,7 @@ Le risorse non grafiche possono provenire da applicazioni esterne (come Photosho
 Esistono i seguenti tipi di risorse:
 
 * [Bitmap](../../resources/bitmap-resource/bitmap-resource.md)
-* [Grafiche vettoriali (SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
+* [Grafica vettoriale (SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
 * [Scene 3D](../../resources/3d-scene-resource/3d-scene-resource.md)
 * [Font](../../resources/font-resource/font-resource.md)
 * [File AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)

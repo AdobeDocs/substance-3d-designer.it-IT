@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/getting-started/shortcuts.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/shortcuts.html"
 breadcrumb-title: ""
 description: Scopri le scelte rapide da tastiera in Substance 3D Designer per velocizzare il flusso di lavoro e migliorare la produttività.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Scelte rapide
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: aeb517a0def4b5bc2de723633f8932dfc03f052c
+source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 17%
@@ -43,6 +43,8 @@ In questa pagina puoi trovare una panoramica di tutte le scelte rapide per Subst
 | Annulla | Ctrl + Z | ⌘ + Z |
 | Ripristina | Ctrl + Y | ⌘ + Y |
 
+{style="table-layout:fixed"}
+
 ### Visualizzazione grafico
 
 **Viewport**
@@ -58,7 +60,9 @@ In questa pagina puoi trovare una panoramica di tutte le scelte rapide per Subst
 | Incolla | Ctrl + V | ⌘ + V |
 | Menu contestuale | RMB | RMB |
 | Menu Nodo | Barra spaziatrice | Barra spaziatrice |
-| Esegui ciclo di [puntine di navigazione](../../interface/the-graph-view/graph-items/graph-items.md) | F2 | F2 |
+| Esegui ciclo di [segnaposti di navigazione](../../interface/the-graph-view/graph-items/graph-items.md) | F2 | F2 |
+
+{style="table-layout:fixed"}
 
 **Modalità di creazione del collegamento**
 
@@ -72,6 +76,8 @@ In questa pagina puoi trovare una panoramica di tutte le scelte rapide per Subst
 | Materiale | 2 | 2 |
 | Materiale compatto | 3 | 3 |
 
+{style="table-layout:fixed"}
+
 **Quando un oggetto è selezionato nel grafico**
 
 | Azione | Windows | macOS |
@@ -84,6 +90,8 @@ In questa pagina puoi trovare una panoramica di tutte le scelte rapide per Subst
 | Ancorare/disancorare il nodo | D | D |
 | Disattiva nodo/i | ⇧ + D | ⇧ + D |
 
+{style="table-layout:fixed"}
+
 ### Vista 2D
 
 | Azione | Windows | macOS |
@@ -94,6 +102,8 @@ In questa pagina puoi trovare una panoramica di tutte le scelte rapide per Subst
 | Reimposta su scala 100% | Z | Z |
 | Adatta alla visualizzazione | F | F |
 | Attiva/disattiva visualizzazione affiancata | Barra spaziatrice | Barra spaziatrice |
+
+{style="table-layout:fixed"}
 
 ### Vista 3D
 
@@ -106,3 +116,5 @@ In questa pagina puoi trovare una panoramica di tutte le scelte rapide per Subst
 | Passa temporaneamente ai controlli Point Light 1 | ⇧ (blocco) | ⇧ (blocco) |
 | Luce punto orbita 1 | LMB + trascina | LMB + trascina |
 | Luce Dolly Point 1 | RMB + trascina | RMB + trascina |
+
+{style="table-layout:fixed"}
