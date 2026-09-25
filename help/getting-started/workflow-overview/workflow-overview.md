@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/getting-started/workflow-overview.html"
 breadcrumb-title: ""
-description: Scopri il flusso di lavoro essenziale per creare materiali procedurali in Substance 3D Designer dall’inizio alla fine.
+description: Scopri il flusso di lavoro essenziale per la creazione di materiali procedurali in Substance 3D Designer dall’inizio alla fine.
 helpx_creative_field: ""
 helpx_description: Designer > Getting started > Workflow overview
 helpx_experience_level: ""
@@ -10,37 +10,43 @@ helpx_tags: ""
 title: Panoramica del flusso di lavoro
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: c460f605a97021efd2143941c28a977e12452299
+source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1117'
 ht-degree: 0%
 ---
 
 # Panoramica del flusso di lavoro
 
-Substance 3D Designer è un editor basato su nodi. Ciò significa che quasi ogni tipo di progetto o risorsa comporterà l&#39;inserimento di nodi (blocchi predefiniti) e la loro connessione per creare una catena di operazioni (un grafico).Questa pagina spiega il concetto di flussi di lavoro basati su nodi e fornisce un riepilogo dei 3 tipi principali di grafici che è possibile creare in Designer.
+Substance 3D Designer è un editor basato su nodi. Ciò significa che quasi ogni tipo di progetto o risorsa comporterà l&#39;inserimento di nodi (blocchi costitutivi) e la loro connessione per creare una catena di operazioni (un grafico).\
+Questa pagina spiega il concetto di flussi di lavoro basati su nodi e fornisce un riepilogo dei 3 tipi principali di grafici che è possibile creare in Designer.
 
 ![Flusso di dati semplificato](workflow-overview.resources/graph-direction.png "Flusso di dati semplificato"){zoomable="yes"}
 
 ## Flusso di lavoro basato su nodi
 
-L’utilizzo di Designer è diverso da quello di altri software di editing di immagini 2D, come Photoshop. Invece di eseguire un&#39;azione manualmente (ad esempio, regolando la saturazione selezionando un&#39;opzione di menu e modificando un cursore), <b>crei i passaggi logici</b> della modifica o della creazione dell&#39;immagine. Questo avviene creando una rete di piccoli blocchi costitutivi chiamati &quot;nodi&quot;. I dati delle immagini vengono spostati da <b> a sinistra a destra</b> attraverso i blocchi predefiniti, collegati da collegamenti che determinano il percorso delle informazioni. Ogni nodo, se connesso, contribuirà ai risultati finali.
+L’utilizzo di Designer è diverso da quello di altri software di editing di immagini 2D, come Photoshop. Invece di eseguire un’azione manualmente (come regolare la saturazione selezionando un’opzione di menu e cambiando un cursore), dovete costruire i passaggi logici della modifica o della creazione dell’immagine. Questo avviene creando una rete di piccoli blocchi costitutivi chiamati &quot;nodi&quot;. I dati delle immagini vengono spostati da <b> a sinistra a destra</b> attraverso i blocchi predefiniti, collegati da collegamenti che determinano il percorso delle informazioni. Ogni nodo, se connesso, contribuirà ai risultati finali.
 
-Il vantaggio principale è che il flusso di lavoro diventa <b>non lineare</b>. A differenza delle azioni eseguite manualmente che vengono inserite in una pila della cronologia, potete sempre scambiare o modificare un nodo in qualsiasi momento. Se decidete che la vostra primissima regolazione Contrasto, che influisce sul risultato dell&#39;immagine fino alla fine, è stata eccessiva, potete comunque tornare indietro e regolarla o addirittura ritagliarla completamente, senza perdere tutto il lavoro che avete eseguito successivamente.
+Il vantaggio principale è che il flusso di lavoro diventa **non lineare**: a differenza delle azioni eseguite manualmente che vengono inserite in uno stack di cronologia, potete sempre scambiare o modificare un nodo in qualsiasi momento.
+Se decidete che la vostra primissima regolazione Contrasto che influisce sul risultato finale è stata troppo intensa, potete comunque tornare indietro e regolarla o addirittura ritagliarla completamente senza perdere tutto il lavoro eseguito successivamente.
 
 ![Istanze del grafico semplificate](workflow-overview.resources/sub-graph.png "Istanze del grafico semplificate")
 
 ## Flusso di lavoro dell’istanza del grafico
 
-L’istanza di Grafica è un processo chiave in Designer. Consente di creare nodi personalizzati assumendo qualsiasi dimensione o tipo di grafico e creando un nuovo blocco predefinito per i nodi. Questi tipi di nodi sono chiamati &quot;Istanze del grafico&quot;. Ciò consente di essere molto più efficienti, risparmiare tempo e condividere il lavoro con altri utenti. Avete sviluppato una grande tecnica per l&#39;usura dei bordi, per esempio? Crea un’istanza di Graph e riutilizzala, condividila con la community o il tuo team.
+L’istanza dei grafici è un processo chiave in Designer. Consente di creare nodi personalizzati creando un pacchetto di un grafico o di una sua parte come nodo riutilizzabile. Questi sono chiamati [nodi di istanza](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) e consentono di lavorare in modo più efficiente riutilizzando i grafici.\
+Per esempio: Hai sviluppato una tecnica eccellente per l&#39;usura dei bordi? Dividete tutto questo in un grafico separato e riutilizzatelo in altri progetti.
 
-Per ulteriori informazioni sulle istanze del grafico in [Substance grafici](../../compositing-graphs/substance-compositing-graphs.md), nella documentazione è disponibile una [sezione dedicata](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) su di esse.
+Per ulteriori informazioni sulle istanze dei grafici, è disponibile una [sezione dedicata](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) sul loro utilizzo in [Substance grafici](../../compositing-graphs/substance-compositing-graphs.md).
 
 ![Parametri del grafico semplificati](workflow-overview.resources/parameters-5.png "Parametri del grafico semplificati"){zoomable="yes"}
 
 ## Parametri personalizzati
 
-Qualsiasi nodo nella catena di operazioni avrà una qualche forma di controllo: pulsanti, cursori, impostazioni da modificare, che influenzano il risultato finale. Se create un sotto-grafico o volete esportare il vostro file Substance in un’altra applicazione, potete creare il vostro &quot;pannello di controllo&quot; per i vostri file, consentendo a chiunque utilizzi il grafico di modificarlo e modificarlo con un pannello di controllo completamente unico, esponendo infinite possibilità. [Informazioni generali sui parametri personalizzati](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md) o ulteriori informazioni in profondità e [iniziare a esporre i parametri](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
+Qualsiasi nodo nella catena di operazioni avrà una qualche forma di controlli: pulsanti, cursori, impostazioni che potrai modificare per influenzare il risultato finale.\
+Se create un grafico secondario o desiderate esportare il file di Substance in un’altra applicazione, potete creare un &quot;pannello di controllo&quot; personalizzato per i vostri grafici, che consenta agli altri utenti di modificarli con un pannello di controllo completamente univoco.
+
+Scopri il concetto generale dei parametri personalizzati [qui](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md) oppure accedi a profondità e [inizia a esporre i parametri](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
 
 ## Tipi di grafici
 
@@ -48,28 +54,28 @@ Di seguito sono riportati un riepilogo dei tre tipi di grafici che è possibile 
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width: 20%; vertical-align: top">
+<td style="border: 0;">
 
 ![](workflow-overview.resources/graph-5.png){width="120px"}
 
 </td>
-<td style="border: 0; vertical-align: top">
+<td style="border: 0;">
 
 ### Grafici Substance
-
-[I grafici Substance](https://substance3d.adobe.com/) sono il tipo principale di grafico creato in Substance 3D Designer. Il loro scopo è <b>generare ed elaborare dati di immagini 2D</b> che non siano vincolati a una risoluzione, un colore o una forma impostata. Sono intesi come strumenti di elaborazione e generazione delle immagini estremamente versatili, non solo come risultati statici preimpostati.
-
-I risultati possono presentarsi sotto forma di semplici pattern in bianco e nero, di filtri che vengono eseguiti solo su altre immagini e non generano contenuti di per sé, o anche di materiale procedurale completo con più canali.
-
-I grafici a Substance sono [il tipo di grafico più supportato](../../getting-started/overview/overview.md) e possono essere esportati e utilizzati in numerosi flussi di lavoro diversi.
 
 </td>
 </tr>
 </table>
 
+[I grafici Substance](https://substance3d.adobe.com/) sono il tipo principale di grafico creato in Substance 3D Designer. Il loro scopo è <b>generare ed elaborare dati di immagini 2D</b> che non siano vincolati a una risoluzione, un colore o una forma impostata. Sono intesi come strumenti di elaborazione e generazione delle immagini estremamente versatili, non solo come risultati statici preimpostati.
+
+I risultati possono presentarsi sotto forma di semplici pattern in bianco e nero, di filtri che vengono eseguiti solo su altre immagini e non generano contenuti di per sé, o anche di materiale di procedurali a pieno titolo con più canali.
+
+I grafici a Substance sono [il tipo di grafico più supportato](../../getting-started/overview/overview.md) e possono essere esportati e utilizzati in numerosi flussi di lavoro diversi.
+
 #### Esempi
 
-Di seguito sono riportati alcuni esempi tipici di casi di utilizzo comuni.
+Di seguito sono riportati alcuni esempi tipici di casi d’uso comuni.
 
 +++ Forma semplice
 
@@ -103,22 +109,27 @@ In questo esempio vengono utilizzate [modalità di creazione del collegamento](.
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width: 20%; vertical-align: top">
+<td style="border: 0;">
 
 ![](workflow-overview.resources/function-1.png){width="120px"}
 
 </td>
-<td style="border: 0; vertical-align: top">
+<td style="border: 0;">
 
 ### Substance grafici delle funzioni
-
-Le funzioni <b>elaborano valori singoli</b> (interi, a virgola mobile, vettoriali) anziché dati immagine (interi set di pixel). Le funzioni sono anche grafici con reti di nodi, ma i [nodi utilizzati](../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md) e l&#39;interfaccia sono diversi dai [normali grafici a Substance](../../compositing-graphs/substance-compositing-graphs.md). Il flusso di lavoro è completamente basato su <b>operazioni matematiche</b> e non mostra miniature di anteprima delle immagini, il che lo rende un <b>modo di lavorare molto più avanzato</b> con Substance 3D Designer.
-
-Le funzioni possono essere utilizzate in molti contesti diversi, principalmente per modificare il comportamento di [un parametro esposto](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), per creare il comportamento di [processori pixel](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) o [FX-Maps](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) e per utilizzare [valori](../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md) in un grafico a Substance.
 
 </td>
 </tr>
 </table>
+
+Le funzioni elaborano **valori singoli** (numeri interi, valori mobili, vettori) anziché set di pixel (immagini). Anche le funzioni sono grafici a nodi, ma i [nodi coinvolti](../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md) e la loro interfaccia sono diversi dai grafici a Substance.
+
+In effetti, il flusso di lavoro si basa su **operazioni matematiche e logiche**, il che rende il loro utilizzo in Designer molto più avanzato.
+
+Le funzioni possono essere utilizzate in molti contesti diversi, i principali dei quali sono:
+* Modifica del comportamento di [un parametro esposto](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)
+* Creazione del comportamento di [Elaboratori pixel](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) o [FX-Maps](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)
+* Utilizzo di [valori](../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md) al posto delle immagini nei grafici delle Substance, per scopi specifici
 
 #### Esempi
 
@@ -130,7 +141,7 @@ Di seguito sono riportati alcuni esempi da casi d&#39;uso comuni per i grafici d
 
 Funzione semplice nel contesto di un parametro esposto. Ottiene un valore float di input chiamato &quot;Intensità&quot; che è determinato per andare da 0 a 1 (un intervallo facile da capire) e rimappa a un intervallo impostato di 0,1 - 0,8. Ciò significa che se l’utente imposta Intensità su 0, verrà utilizzato internamente 0,1, se l’interfaccia utente è impostata su 1, verrà utilizzato 0,8 e qualsiasi valore intermedio verrà interpolato linearmente. Questo tipo di funzione è in genere utilizzato quando si [espongono parametri](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), ma si utilizzano funzioni personalizzate.
 
-Questa funzione potrebbe anche essere scritta come *lerp(0.1, 0.8, Intensità)* in uno pseudocodice simile a HLSL o GLSL.
+Questa funzione potrebbe anche essere scritta come `lerp(0.1, 0.8, Intensity)` in uno pseudocodice simile a HLSL o GLSL.
 
 +++
 
@@ -138,10 +149,10 @@ Questa funzione potrebbe anche essere scritta come *lerp(0.1, 0.8, Intensità)* 
 
 ![Funzione avanzata](workflow-overview.resources/pixel-function.png "Funzione avanzata"){width="512px" zoomable="yes"}
 
-Questa funzione avanzata mostra il funzionamento interno di un [processore pixel](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) pensato per regolare la tonalità di un input della mappa colore in base all’intensità di un secondo input della maschera in scala di grigio.
+Questa funzione avanzata mostra il funzionamento interno di un [Elaboratore pixel](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) destinato a regolare la tonalità di un input della mappa colore in base all&#39;intensità di un secondo input della maschera in scala di grigio.
 
 Campiona entrambi gli input con la variabile di Alpha &quot;$pos&quot;, quindi rimuove l’input, converte il valore del colore in HSL e modifica il componente Tonalità moltiplicandolo per il valore della scala di grigi campionata. Successivamente riassembla il vettore, converte nuovamente l&#39;HSL in RGB e aggiunge nuovamente l&#39;Alpha per l&#39;output finale.
 
-nello pseudo-codice questa sarebbe una funzione molto più complicata che non si adatta a una singola riga.
+nello pseudocodice questa sarebbe una funzione molto più complicata che non si adatta a una singola riga.
 
 +++
