@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/release-notes/version-13-0.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-13-0.html"
+breadcrumb-title: ""
 description: Consulta le note sulla versione per Substance 3D Designer versione 13.0 per informazioni sui nuovi nodi, Substance Engine 9.0 e i nodi portale.
 helpx_creative_field: ""
 helpx_description: Designer > Release Notes > Version 13.0
@@ -8,21 +8,19 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Versione 13.0
-user-guide-description: ''
-user-guide-title: ''
+user-guide-description: ""
+user-guide-title: ""
 source-git-commit: e540abf8ed046d72f116e9e43ae0743c5ae39c24
 workflow-type: tm+mt
 source-wordcount: '1671'
 ht-degree: 2%
-
 ---
-
 
 # Versione 13.0
 
 Questa versione 13.0.0 di Substance 3D Designer porta molto amore agli artisti dei materiali, con un&#39;enorme quantità di nuovi nodi, la Substance Engine 9.0 che introduce i loop per la prima volta e con una grande aggiunta al grafico: il nodo del portale. Inoltre, per soddisfare un numero maggiore di utenti, viene introdotta una nuova schermata iniziale e vengono fornite ulteriori lingue.
 
-Come accennato nella versione precedente, questa versione non supporta più i grafici dei modelli di Substance: ciò significa che non è più possibile aprire, modificare o esportare tali grafici in Designer. Puoi trovare tutti i motivi per cui abbiamo preso questa decisione in questo [post](https://community.adobe.com/t5/substance-3d-designer-discussions/substance-model-graphs-end-of-life/td-p/13693731)sul forum della community.
+Come accennato nella versione precedente, questa versione non supporta più i grafici del modello Substance: ciò significa che non è più possibile aprire, modificare o esportare tali grafici in Designer. Puoi trovare tutti i motivi per cui abbiamo preso questa decisione in questo [post](https://community.adobe.com/t5/substance-3d-designer-discussions/substance-model-graphs-end-of-life/td-p/13693731)sul forum della community.
 
 *Data di pubblicazione: 6 giugno 2023*
 
@@ -94,7 +92,7 @@ Forniamo anche strumenti per rielaborare e rifinire le spline. Troverai un nodo 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Spline 2D Transform](version-13-0.resources/Spline2DTransform-Demo1.gif "Spline 2D Transform")
+![Spline 2D Trasforma](version-13-0.resources/Spline2DTransform-Demo1.gif "Spline 2D Trasforma")
 
 </td>
 <td style="border: 0;" valign="top">
@@ -249,7 +247,7 @@ Ti ricordiamo che, per modificare la lingua in Designer, è sufficiente accedere
 * [Content] Spline - Aggiungi nodo
 * [Content] Spline Seleziona nodo
 * [Contenuto] Nodo Elenco unione spline
-* [Content] Spline 2D Transform, nodo
+* [Content] Spline 2D nodo di Trasforma
 * [Contenuto] Nodo Alterazione spline
 * [Content] Spline Nodo Height di esempio
 * [Content] Spline Nodo Thickness di esempio
@@ -265,14 +263,14 @@ Ti ricordiamo che, per modificare la lingua in Designer, è sufficiente accedere
 * [Contenuto] Nodo in scala di grigi con mappatura UV
 * [Content] Percorsi al nodo Spline
 * Nodo [Contenuto] Maschere su tracciati
-* [Content] Nodenode trasformazione tracciati 2D
+* [Content] Nodenode Trasforma tracciati 2D
 * Nodo poligono [Content] Paths
 * [Contenuto] Nodo Anteprima tracciati
 * [Contenuto] Nodo Alterazione tracciati
 * [Content] Seleziona tracciati, nodo
 * [Content] Nodo processore vertici tracciati
 * [Content] Elaboratore vertici tracciati Nodo semplice
-* [Content] Quad Transform sul nodo Path
+* [Content] Trasforma quadruplo nel nodo Percorso
 * [Content] Occlusione ambientale con ray tracing v2
 * [Contenuto] Normale curvato con ray tracing v2
 * [Content] Ombre con ray tracing v2
@@ -308,7 +306,7 @@ Ti ricordiamo che, per modificare la lingua in Designer, è sufficiente accedere
 * [Grafico] Attivazione errata nella finestra di dialogo &#39;Esporta parametro&#39; quando si utilizza il tasto &#39;Invio&#39;
 * [Grafico] Risultato errato nella scansione dell&#39;istogramma con bitmap nella modifica del contesto
 * [Localizzazione] Risolvere vari problemi di ritaglio
-* [Parametri] Arresto anomalo quando si elimina un parametro di input
+* arresto anomalo di [Parameters] quando si elimina un parametro di input
 * [Publish] I grafici nelle cartelle vengono spostati nella cartella principale nel pacchetto pubblicato
 * [Resources] Arresto anomalo durante l&#39;aggiornamento di una risorsa caricata sul disco
 * [VisibleIf] Correggere la regressione nella valutazione della visibilità condizionale

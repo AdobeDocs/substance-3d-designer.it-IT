@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library.html"
+breadcrumb-title: ""
 description: Accesso a grafici preconfigurati delle funzioni Substance come nodi di istanza per velocizzare il flusso di lavoro e migliorare le funzionalità.
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Nodes reference for function graphs > Function node library
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Libreria nodo di funzione
-user-guide-description: ''
-user-guide-title: ''
+user-guide-description: ""
+user-guide-title: ""
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 6%
-
 ---
-
 
 # Libreria nodo di funzione
 
@@ -465,15 +463,15 @@ Globale casuale
 
 Distribuzione normale
 
-Uniforme casuale &lbrack;-1, 1&lbrack;
+Uniforme casuale [-1, 1[
 
-Uniforme casuale &lbrack;a, b&lbrack;
+Uniforme casuale [a, b[
 
-Variabile casuale uniforme 2 &lbrack;a, b&lbrack;
+Variabile casuale uniforme 2 [a, b[
 
-Variabile casuale uniforme 3 &lbrack;a, b&lbrack;
+Variabile casuale uniforme 3 [a, b[
 
-Variabile casuale uniforme 4 &lbrack;a, b&lbrack;
+Variabile casuale uniforme 4 [a, b[
 
 </td>
 </tr>
