@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Accedere ai nodi dei filtri dei canali in Substance 3D Designer per manipolare e combinare i dati dei canali RGBA.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Channels
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Canali
-user-guide-description: ''
-user-guide-title: ''
+user-guide-description: ""
+user-guide-title: ""
 source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
 workflow-type: tm+mt
 source-wordcount: '53'
 ht-degree: 3%
-
 ---
-
 
 # Canali
 

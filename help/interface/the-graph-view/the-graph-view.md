@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/the-graph-view.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Scoprite come utilizzare la vista del grafico in Substance 3D Designer per creare e modificare grafici dei materiali basati su nodi.
 helpx_creative_field: ""
 helpx_description: Designer > Interface > Graph view
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Vista Grafico
-user-guide-description: ''
-user-guide-title: ''
+user-guide-description: ""
+user-guide-title: ""
 source-git-commit: 4b938349fed501f5f6b3e3a70a1006519749e4e1
 workflow-type: tm+mt
 source-wordcount: '3558'
 ht-degree: 0%
-
 ---
-
 
 # Vista Grafico
 
@@ -70,11 +68,11 @@ Sono disponibili diversi oggetti di supporto per organizzare e navigare nel graf
 
 <b>I nodi punto</b> consentono di reindirizzare e unire le connessioni e possono essere utilizzati come <b>portali</b> per nascondere connessioni lunghe o inefficienti;
 
-<b>Frame</b> consente di raggruppare i nodi con un titolo e un colore visibili;
+<b>Fotogrammi</b> consente di raggruppare i nodi con un titolo e un colore visibili;
 
 <b>I commenti</b> consentono di tenere traccia dello scopo di un nodo o di un gruppo di nodi e di creare eventuali altre annotazioni utili.
 
-I <b>pin di navigazione</b> consentono di passare rapidamente ai punti di interesse nel grafico.
+I <b>segnaposti di navigazione</b> consentono di passare rapidamente ai punti di interesse nel grafico.
 
 >[!NOTE]
 >
@@ -88,9 +86,9 @@ Quando si fa clic su RMB in uno spazio vuoto del grafico, viene visualizzato un 
 
 <b>Aggiungi commento:</b> Aggiungi un oggetto grafico [Commento](../../interface/the-graph-view/graph-items/graph-items.md) senza elementi padre;
 
-<b>Aggiungi fotogramma:</b> Aggiungere un oggetto grafico [Frame](../../interface/the-graph-view/graph-items/graph-items.md);
+<b>Aggiungi fotogramma:</b> Aggiungere un oggetto grafico [Fotogramma](../../interface/the-graph-view/graph-items/graph-items.md);
 
-<b>Aggiungi pin:</b> Aggiungi un oggetto grafico [Pin](../../interface/the-graph-view/graph-items/graph-items.md);
+<b>Aggiungi segnaposto:</b> Aggiungere un oggetto grafico [Segnaposto](../../interface/the-graph-view/graph-items/graph-items.md);
 
 <b>Aggiungi nodo punto:</b> Aggiungere un nodo [punto](../../interface/the-graph-view/graph-items/graph-items.md);
 
@@ -98,7 +96,7 @@ Quando si fa clic su RMB in uno spazio vuoto del grafico, viene visualizzato un 
 
 <b>Reimposta e visualizza gli output nella vista 3D:</b> Reimposta un materiale nella [vista 3D](../../interface/3d-view/3d-view.md) e assegna tutti gli output del grafico a tale materiale corrispondendo agli usi. Consulta [Interazione con la vista 3D](#interacting-with-the-3d-view) di seguito;
 
-<b>Visualizza output nella vista 2D:</b> Visualizza uno degli output del grafico nella [vista 2D](../../interface/2d-view/2d-view.md). Vedere [Interazione con la vista 2D](#interacting-with-the-2d-view) di seguito;
+<b>Visualizza output in Vista 2D:</b> Visualizza uno degli output del grafico in [Vista 2D](../../interface/2d-view/2d-view.md). Vedere [Interazione con il Vista 2D](#interacting-with-the-2d-view) di seguito.
 
 <b>Calcola miniature nodi:</b> Attiva il calcolo del risultato di tutti i nodi nel grafico, che verranno memorizzati nella [cache immagini](../../interface/preferences-window/preferences-window.md), e utilizza il primo output come miniatura.
 
@@ -112,9 +110,9 @@ Quando si fa clic su RMB in uno spazio vuoto del grafico, viene visualizzato un 
 
 <b>Seleziona tutti:</b> Seleziona tutti i nodi nel grafico;
 
-<b>Pin precedente:</b> Passare al precedente oggetto [Pin](../../interface/the-graph-view/graph-items/graph-items.md) nel grafico;
+<b>segnaposto precedente:</b> passare all&#39;oggetto [Segnaposto](../../interface/the-graph-view/graph-items/graph-items.md) precedente nel grafico;
 
-<b>Pin successivo:</b> spostarsi sul successivo oggetto [Pin](../../interface/the-graph-view/graph-items/graph-items.md) nel grafico;
+<b>segnaposto successivo:</b> passare all&#39;oggetto [Segnaposto](../../interface/the-graph-view/graph-items/graph-items.md) successivo nel grafico;
 
 <b>Copia selezione:</b> Copia negli Appunti i nodi, le connessioni e i valori dei parametri selezionati;
 
@@ -205,9 +203,9 @@ Per selezionare *più* nodi, sono disponibili diversi metodi:
 
 Quando si fa clic su RMB in un nodo, viene visualizzato un menu contestuale che può includere le seguenti opzioni:
 
-<b>Visualizza output nella vista 2D:</b> Visualizza uno degli output del nodo nella [vista 2D](../../interface/2d-view/2d-view.md). Vedere [Interazione con la vista 2D](#interacting-with-the-2d-view) di seguito;
+<b>Visualizza output in Vista 2D:</b> Visualizza uno degli output del nodo in [Vista 2D](../../interface/2d-view/2d-view.md). Vedere [Interazione con il Vista 2D](#interacting-with-the-2d-view) di seguito.
 
-<b>Visualizzazione nella vista 3D</b>: assegnare tutti gli output del nodo a un materiale nella [vista 3D](../../interface/3d-view/3d-view.md) mediante usi corrispondenti. Vedere [Interazione con la vista 3D](#interacting-with-the-3d-view) di seguito;
+<b>Visualizzazione nella vista 3D</b>: assegnare tutti gli output del nodo a un materiale nella [vista 3D](../../interface/3d-view/3d-view.md) mediante utilizzi corrispondenti. Vedere [Interazione con la vista 3D](#interacting-with-the-3d-view) di seguito;
 
 <b>Reimposta e visualizza nella vista 3D:</b> Reimposta un materiale nella [vista 3D](../../interface/3d-view/3d-view.md) e assegna tutti gli output del nodo a tale materiale corrispondendo agli usi. Vedere [Interazione con la vista 3D](#interacting-with-the-3d-view) di seguito;
 
@@ -215,7 +213,7 @@ Quando si fa clic su RMB in un nodo, viene visualizzato un menu contestuale che 
 
 <b>Aggiungi commento:</b> Crea un oggetto grafico [Comment](../../interface/the-graph-view/graph-items/graph-items.md) e lo padre in questo nodo;
 
-<b>Aggiungi cornice:</b> Creare un oggetto grafico [Frame](../../interface/the-graph-view/graph-items/graph-items.md) e adattarlo ai nodi selezionati;
+<b>Aggiungi fotogramma:</b> Creare un oggetto grafico [Fotogramma](../../interface/the-graph-view/graph-items/graph-items.md) e adattarlo ai nodi selezionati;
 
 <b>Copia informazioni negli Appunti:</b> Copia l&#39;identificatore univoco (UID) del nodo negli Appunti;
 
@@ -311,7 +309,7 @@ I nodi disabilitati hanno il seguente comportamento:
 
 ![Disabilitazione dei nodi](the-graph-view.resources/graph-disable-node.gif "Disabilitazione dei nodi"){width="512px"}
 
-## Interazione con la vista 2D
+## Interazione con il Vista 2D
 
 >[!NOTE]
 >
@@ -387,7 +385,7 @@ Scegliere tra le modalità di creazione dei collegamenti Standard (1), Materiale
 </b>*- Pulizia:* Rimuove tutti i nodi che fanno parte di un flusso non connesso a un nodo [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).\
 *- Esporta output:* Apre l&#39;[interfaccia di esportazione bitmap](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md).\
 *- Esporta nuovamente gli output:* Esegue nuovamente l&#39;operazione di esportazione precedente.\
-*- PSD Exporter:* Apre l&#39;interfaccia [PSD Exporter](../../compositing-graphs/exporting-psd-files/exporting-psd-files.md).
+*- Esportazione PSD:* Apre l&#39;interfaccia [Esportazione PSD](../../compositing-graphs/exporting-psd-files/exporting-psd-files.md).
 
 ![](the-graph-view.resources/image2020-6-26-16-37-16.png) <b>Cache immagini nodo\
 </b>Attiva/disattiva la visualizzazione della cache delle immagini del nodo, vedere di seguito.
@@ -416,7 +414,7 @@ La barra degli strumenti del nodo varia a seconda del tipo di grafico:
 
 Questa barra degli strumenti è disponibile solo in [grafici a Substance](../../compositing-graphs/substance-compositing-graphs.md) e imposta la [dimensione di output](../../compositing-graphs/output-size/output-size.md) del *elemento padre* del grafico, che influisce sulla dimensione di output del grafico se utilizza il *metodo di ereditarietà [relativo al elemento padre*.](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)
 
-Le dimensioni orizzontali e verticali sono collegate per impostazione predefinita, ma possono essere *scollegate* per le texture non quadrate. I valori possono anche essere ripristinati al valore predefinito di 256 x 256.
+Le dimensioni orizzontale e verticale sono collegate per impostazione predefinita, ma possono essere *scollegate* per le texture non quadrate. I valori possono anche essere ripristinati al valore predefinito di 256 x 256.
 
 ### Cache immagini nodo
 
