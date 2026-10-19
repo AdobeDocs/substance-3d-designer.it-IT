@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/system-requirements.html"
+helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/getting-started/system-requirements.html"
 breadcrumb-title: ""
 description: Esaminare i requisiti di sistema di Substance 3D Designer per verificare che il computer soddisfi le specifiche necessarie.
 helpx_creative_field: ""
@@ -74,7 +74,7 @@ Di seguito è riportato un elenco della GPU compatibile con l&#39;applicazione:
 >
 > **TDR (solo Windows)**
 >
-> Per una migliore stabilità complessiva durante l’esecuzione di calcoli complessi sulla GPU, ad esempio il rendering di grafici complessi, il rendering nella vista 3D, l’esportazione di una scena dalla vista 3D e così via, si consiglia vivamente di assicurarsi che i valori di **Rilevamento e ripristino del timeout** corrispondano ai consigli riportati in [questa pagina](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) della documentazione.
+> Per una migliore stabilità complessiva durante l’esecuzione di calcoli complessi sulla GPU, ad esempio il rendering di grafici complessi, il rendering nella vista 3D, l’esportazione di una scena dalla vista 3D e così via, si consiglia vivamente di assicurarsi che i valori di **Rilevamento e ripristino del timeout** corrispondano ai consigli riportati in [questa pagina](https://experienceleague.adobe.com/it/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) della documentazione.
 
 ## Configurazione non supportata
 
@@ -104,7 +104,7 @@ Di seguito è riportato un elenco della GPU compatibile con l&#39;applicazione:
 
 Di seguito è riportato un elenco delle versioni minime dei driver della GPU necessarie per l&#39;esecuzione dell&#39;applicazione senza problemi. Questo elenco è soggetto a modifiche come nuove versioni.
 
-Per scaricare nuovi driver, vedere: [La GPU contiene driver obsoleti](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers).
+Per scaricare nuovi driver, vedere: [La GPU contiene driver obsoleti](https://experienceleague.adobe.com/it/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers).
 
 | SO | NVIDIA | AMD | Intel |
 | --- | --- | --- | --- |
@@ -121,7 +121,7 @@ Per attivare il Raytracing GPU tramite Optix o DXR, è necessario installare i d
 
 **DXR** richiede la seguente configurazione minima:
 
-* **Windows 10** versione 1809; per ulteriori informazioni, vedere [questa pagina](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing)
+* **Windows 10** versione 1809; per ulteriori informazioni, vedere [questa pagina](https://experienceleague.adobe.com/it/docs/substance-3d/bakers/features/gpu-raytracing)
 * **GPU con architettura Pascal** (Nvidia GeForce 10XX)
 
 >[!TIP]
@@ -130,7 +130,7 @@ Per attivare il Raytracing GPU tramite Optix o DXR, è necessario installare i d
 
 ## Uso delle compresse
 
-Gli utenti della tavoletta su **Windows** devono applicare le impostazioni descritte nella pagina seguente per ottenere l&#39;esperienza più affidabile: [Configurazione di penne e tablet](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/configuring-pens-and-tablets).
+Gli utenti della tavoletta su **Windows** devono applicare le impostazioni descritte nella pagina seguente per ottenere l&#39;esperienza più affidabile: [Configurazione di penne e tablet](https://experienceleague.adobe.com/it/docs/substance-3d-painter/using/technical-support/configuring-pens-and-tablets).
 
 ## Lingue
 
