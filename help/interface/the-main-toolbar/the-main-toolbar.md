@@ -171,4 +171,4 @@ Questa pagina descrive la barra degli strumenti principale e il menu di [Substan
 
 <b>Informazioni su Substance 3D Designer...:</b> Visualizza informazioni sull&#39;applicazione e i relativi componenti, ad esempio il numero di versione.
 
-\*: queste opzioni sono disponibili solo nella versione di Designer installata tramite [Adobe Creative Cloud Desktop](https://creativecloud.adobe.com/en/apps/download/creative-cloud), che richiede un abbonamento a [Substance 3D](https://www.adobe.com/creativecloud/plans.html?amp%3Bplan=individual#filter=3dar).
+\*: queste opzioni sono disponibili solo nella versione di Designer installata tramite [Adobe Creative Cloud Desktop](https://creativecloud.adobe.com/en/apps/download/creative-cloud), che richiede un abbonamento a [Substance 3D](https://www.adobe.com/it/creativecloud/plans.html?amp%3Bplan=individual#filter=3dar).
