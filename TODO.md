@@ -1,8 +1,8 @@
 ---
-source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
+source-git-commit: d52b7765f51d2f7702d9a6d1b590e24db76c7d9d
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 5%
+source-wordcount: '243'
+ht-degree: 4%
 ---
 # TODO
 
@@ -13,6 +13,7 @@ ht-degree: 5%
 
 ## Incrementi
 
+* Scelte rapide: aggiungere scelte rapide da touchpad per macOS
 * Punti di ingresso per la documentazione delle API Python su AdobeDocs
 * Esempi nella pagina a comparsa Documentazione
 * Glossario:
@@ -20,7 +21,7 @@ ht-degree: 5%
   * Metallicità/Metallica
   * HDR
   * Speculare
-  * Mappa height
+  * Mappa altezza
   * Opacità
   * Frustum
   * Spazio tangente
@@ -36,6 +37,9 @@ ht-degree: 5%
 * DESIGNER-11866: funzioni di mappatura tonale
 * DESIGNER-10655: aggiungere esempi + riferimenti a progetti di Elaboratore pixel e FX-Maps
 
+## Modifiche
+
+* [Lavoro in corso]: aggiornamento e completamento della pagina &#39;Scelte rapide da tastiera&#39;
 
 ## Correzioni
 
@@ -51,7 +55,7 @@ ht-degree: 5%
 
 - Scopri cosa blocca il download dei file SBS ([qui](https://adobe-3di.slack.com/archives/CMF1JGMLY/p1790005804708379))
 - Scopri come testare le pagine in tempo reale senza essere esposti al pubblico o inclusi nel ToC
-- Opzioni di filtraggio di Esplora risorse per l&#39;elenco di esempi: Microsito? ([Esempio](https://experienceleague.adobe.com/it/tools/campaign-error-codes))
+- Opzioni di filtraggio di Esplora risorse per l&#39;elenco di esempi: Microsito? ([Esempio](https://experienceleague.adobe.com/en/tools/campaign-error-codes))
 - Automatizzare la creazione dell&#39;elemento di esempio
   - Assimila metadati da file (JSON, YAML, ...)
   - Miniatura agganciata (clic per ingrandire)
