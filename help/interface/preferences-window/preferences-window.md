@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/preferences-window.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window.html"
+breadcrumb-title: ""
 description: Accedete alla finestra Preferenze di Substance 3D Designer per personalizzare le impostazioni e il comportamento dell’applicazione.
 helpx_creative_field: ""
 helpx_description: Designer > Interface > Preferences
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Preferenze
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9297416d538a70b80b8be3b2d23a3c442a79a23b
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
 workflow-type: tm+mt
 source-wordcount: '1973'
 ht-degree: 1%
-
 ---
-
 
 # Finestra Preferenze
 
@@ -55,14 +53,14 @@ Ti consigliamo di rivedere tutte queste impostazioni per comprendere meglio come
 
 |  |  |
 | --- | --- |
-| <b>Inverti zoom nelle visualizzazioni</b>  *Impostazione predefinita: deselezionata* | Se selezionata, i controlli di zoom verranno invertiti nelle [viste 2D](../../interface/2d-view/2d-view.md), [viste 3D](../../interface/3d-view/3d-view.md) e [grafiche](../../interface/the-graph-view/the-graph-view.md). |
+| <b>Inverti zoom nelle visualizzazioni</b>  *Impostazione predefinita: deselezionata* | Se selezionata, i controlli di zoom verranno invertiti nei [vista 2D](../../interface/2d-view/2d-view.md), [vista 3D](../../interface/3d-view/3d-view.md) e [grafici](../../interface/the-graph-view/the-graph-view.md). |
 
 ### Percorsi
 
 |  |  |
 | --- | --- |
 | <b>Salva/Esporta percorso</b>  *Impostazione predefinita: ultimo percorso* | Determina se il percorso di salvataggio/esportazione suggerito è l&#39;ultimo percorso selezionato o il percorso del [pacchetto SBS](../../getting-started/overview/overview.md). L’ultimo percorso selezionato viene salvato tra le sessioni. |
-| <b>Cartella temporanea</b>  *Impostazione predefinita: percorso a seconda del sistema operativo di sistema* | Quando i dati immagine di un grafico superano il pool di memoria allocato (vedere di seguito <b>Memoria > Cache immagini</b>), i dati in overflow vengono scritti sul disco. Questa impostazione consente di definire la posizione in cui vengono scritti i dati della cache delle immagini in overflow.   Questa posizione viene utilizzata anche per archiviare una copia del pacchetto SBS attualmente aperto con le ultime modifiche dall&#39;ultimo salvataggio manuale. |
+| <b>Cartella temporanea</b>  *Impostazione predefinita: percorso a seconda del sistema operativo di sistema* | Quando i dati immagine di un grafico superano il pool di memoria allocato (vedere di seguito <b>Memoria > Cache immagini</b>), i dati in overflow vengono scritti sul disco. Questa impostazione consente di definire la posizione in cui vengono scritti i dati della cache delle immagini in overflow.   Questo percorso viene utilizzato anche per archiviare una copia del pacchetto SBS attualmente aperto con le ultime modifiche dall&#39;ultimo salvataggio manuale. |
 
 ### Memoria
 
@@ -78,11 +76,11 @@ Potete impostare la dimensione massima della cache allocata alle miniature e all
 | <b>Budget memoria</b>  *Predefinito: Automatico* | Questa allocazione viene calcolata automaticamente su circa il 75% del pool totale di memoria di sistema. Per impostare questo valore manualmente, selezionare l&#39;opzione &#39;*Personalizzato*&#39; e impostare un valore nel campo di input adiacente. |
 
 Si noti che la scrittura su disco è *più lenta* rispetto alla scrittura nella memoria di sistema. Di conseguenza, il tempo di rendering del grafico *aumenterà in modo esponenziale* poiché i dati in overflow devono essere scritti nella cartella temporanea.\
-Per evitare che ciò accada, si consiglia di esaminare i suggerimenti per la riduzione dell&#39;ingombro di memoria di un grafico nella sezione [Linee guida per l&#39;ottimizzazione delle prestazioni](../../best-practices/performance-optimization/performance-optimization-guidelines.md) della documentazione.
+Per evitare che ciò accada, si consiglia di esaminare i suggerimenti per la riduzione dell&#39;ingombro di memoria di un grafico nella sezione [Linee guida per l&#39;ottimizzazione delle prestazioni](../../learning-tutorials/essentials/best-practices/performance-optimization/performance-optimization-guidelines.md) della documentazione.
 
 #### Pianificazione lavori
 
-Durante attività specifiche, ad esempio le conversioni delle immagini per le miniature o la [vista 2D](../../interface/2d-view/2d-view.md), verranno creati e distribuiti processi separati tra i core di elaborazione del sistema per una maggiore efficienza. Ogni processo scriverà i dati nella memoria di sistema per eseguire le operazioni.\
+Durante attività specifiche, ad esempio le conversioni delle immagini per le miniature o il [vista 2D](../../interface/2d-view/2d-view.md), verranno creati e distribuiti processi separati tra i core di elaborazione del sistema per una maggiore efficienza. Ogni processo scriverà i dati nella memoria di sistema per eseguire le operazioni.\
 Questa impostazione consente di definire il pool di memoria allocato per *tutti i processi simultanei*. Quando questo pool viene utilizzato completamente, i nuovi processi verranno accodati fino al completamento di quelli correnti.
 
 |  |  |
@@ -97,7 +95,7 @@ Questa impostazione consente di definire il pool di memoria allocato per *tutti 
 
 ### Backup automatico
 
-Per impostazione predefinita è inclusa una funzione di salvataggio automatico che crea copie dello stato corrente dei [pacchetti SBS](https://docs.substance3d.com/display/DRAFTDESIGNER/.Overview+vDraftVersion) aperti in periodi di tempo impostati. I salvataggi automatici si trovano in una cartella <b>.autosave</b> nel percorso del pacchetto SBS.
+Per impostazione predefinita è inclusa una funzione di salvataggio automatico che crea copie dello stato corrente dei [pacchetti SBS](https://docs.substance3d.com/display/DRAFTDESIGNER/.Overview+vDraftVersion) aperti in periodi di tempo prestabiliti. I salvataggi automatici si trovano in una cartella <b>.autosave</b> nel percorso del pacchetto SBS.
 
 |  |  |
 | --- | --- |
@@ -127,7 +125,7 @@ Si noti inoltre che i salvataggi automatici devono essere aperti *dopo averli sp
 
 >[!NOTE]
 >
-> Si consiglia di esaminare i suggerimenti per ridurre l&#39;ingombro di memoria di un grafico nella sezione [Linee guida per l&#39;ottimizzazione delle prestazioni](../../best-practices/performance-optimization/performance-optimization-guidelines.md) della documentazione.
+> Si consiglia di esaminare i suggerimenti per ridurre l&#39;ingombro di memoria di un grafico nella sezione [Linee guida per l&#39;ottimizzazione delle prestazioni](../../learning-tutorials/essentials/best-practices/performance-optimization/performance-optimization-guidelines.md) della documentazione.
 
 ## Progetti
 
@@ -148,9 +146,9 @@ Consultare la pagina [Impostazioni progetti](../../interface/preferences-window/
 |  |  |
 | --- | --- |
 | <b>Calcolo automatico delle miniature di tutti i nodi all&#39;apertura di un grafico</b>  *Impostazione predefinita: selezionata* | Se selezionata, durante il caricamento del grafico viene eseguito automaticamente il rendering di tutte le miniature dei nodi. |
-| <b>Visualizzare l&#39;output nella vista 2D all&#39;apertura di un grafico</b>  *Impostazione predefinita: selezionata* | Se questa opzione è selezionata, il primo output del grafico viene visualizzato automaticamente nella [vista 2D](../../interface/2d-view/2d-view.md) quando il grafico viene aperto. In questo modo viene eseguito anche il rendering di tutti i nodi che fanno parte di un flusso che conduce al nodo [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md). |
-| <b>Visualizza automaticamente il nodo di composizione appena creato</b>  *Impostazione predefinita: selezionata* | Se questa opzione è selezionata, la [vista 2D](../../interface/2d-view/2d-view.md) verrà aggiornata automaticamente per visualizzare l&#39;output di un nodo appena creato. |
-| <b>Inserire automaticamente il nodo di conversione colore/scala di grigi</b>  *Impostazione predefinita: deselezionata* | Se selezionata, risolvi automaticamente le mancate corrispondenze dei tipi di connessione a colori/scala di grigi *posizionando nodi specifici* per eseguire la conversione appropriata.   Quando un output *Scala di grigio* (connettore grigio) è collegato a un input *Colore* (connettore giallo), tra i due connettori viene automaticamente inserito un nodo [Mappa sfumatura](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md).   Quando un output *Color* (connettore giallo) è collegato a un input *Grayscale* (connettore grigio), tra i due connettori viene automaticamente inserito un nodo [Conversione gradazioni di grigio](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/grayscale-conversion/grayscale-conversion.md). |
+| <b>Visualizzare l&#39;output in Vista 2D all&#39;apertura di un grafico</b>  *Impostazione predefinita: selezionata* | Se questa opzione è selezionata, il primo output del grafico viene visualizzato automaticamente nel [vista 2D](../../interface/2d-view/2d-view.md) quando il grafico viene aperto. In questo modo viene eseguito anche il rendering di tutti i nodi che fanno parte di un flusso che conduce al nodo [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md). |
+| <b>Visualizza automaticamente il nodo di composizione appena creato</b>  *Impostazione predefinita: selezionata* | Se questa opzione è selezionata, il [vista 2D](../../interface/2d-view/2d-view.md) verrà aggiornato automaticamente per visualizzare l&#39;output di un nodo appena creato. |
+| <b>Inserire automaticamente il nodo di conversione colore/scala di grigi</b>  *Impostazione predefinita: deselezionata* | Se selezionata, risolvi automaticamente le mancate corrispondenze dei tipi di connessione a colori/scala di grigi *posizionando nodi specifici* per eseguire la conversione appropriata.   Quando un output *Scala di grigio* (connettore grigio) è collegato a un input *Colore* (connettore giallo), viene automaticamente inserito un nodo [Mappa sfumatura](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) tra i due connettori.   Quando un output *Color* (connettore giallo) è collegato a un input *Grayscale* (connettore grigio), viene automaticamente inserito un nodo [Conversione in scala di grigi](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/grayscale-conversion/grayscale-conversion.md) tra i due connettori. |
 | <b>Abilita modifica grafico nel contesto</b>  *Impostazione predefinita: deselezionata* | Per impostazione predefinita, quando si apre un grafico a cui fa riferimento un [nodo di istanza](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) con un clic destro sul nodo e si seleziona <b>Riferimento aperto</b>, tale grafico viene caricato e modificato *in modalità isolamento*.   Se questa opzione è selezionata, è possibile modificare i grafici a cui fanno riferimento le istanze *utilizzando le informazioni passate nell&#39;istanza* dal grafico corrente. A tale scopo, fare clic con il pulsante destro del mouse su un nodo di istanza e selezionare <b>Apri riferimento nel contesto</b> oppure utilizzare la combinazione di tasti Ctrl+E.   Ciò significa che un grafico istanza può essere modificato nel contesto del grafico in cui viene creata l’istanza. Questa funzione è molto utile per visualizzare gli effetti delle modifiche sul grafico su cui si stava lavorando. Vedere l&#39;esempio riportato di seguito.  **Nota:** le schede <b>Anteprima</b> e <b>Predefiniti</b> sono *disabilitate* nelle [proprietà del grafico](../../compositing-graphs/graph-parameters/graph-parameters.md) quando si utilizza la modifica contestuale. |
 
 <table>
@@ -191,7 +189,7 @@ Consultare la pagina [Impostazioni progetti](../../interface/preferences-window/
 
 |  |  |
 | --- | --- |
-| <b>Raytracing GPU</b>  *Impostazione predefinita: selezionata* | Se selezionata, il raytracing verrà eseguito sulla GPU per [baker compatibili](https://experienceleague.adobe.com/it/docs/substance-3d/bakers/features/gpu-raytracing).   I seguenti backend Raytracing GPU saranno i predefiniti, a seconda dell’architettura della GPU NVIDIA:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i>: Turing e versioni successive</li> <li data-preserve-html="true"><i>Optix</i>: Pascal e Maxwell</li> </ul>  **Nota:** ulteriori informazioni sui baker basati su GPU sono disponibili nella sezione [Raytracing GPU](https://experienceleague.adobe.com/it/docs/substance-3d/bakers/features/gpu-raytracing) della documentazione [Substance Bakers](https://experienceleague.adobe.com/it/docs/substance-3d/bakers/home).  **Suggerimento:** è possibile utilizzare i seguenti *argomenti della riga di comando* quando si avvia l&#39;applicazione per *forzare* l&#39;utilizzo di un back-end di Raytracing GPU diverso: <ul data-preserve-html="true"> <li data-preserve-html="true"><code>—force-optix</code> : forzare l&#39;uso di Optix su Nvidia Turing o GPU più recenti</li> <li data-preserve-html="true"><code>—force-dxr</code> : forzare l&#39;uso dell&#39;DXR sulle GPU Nvidia Pascal</li> </ul> |
+| <b>Raytracing GPU</b>  *Impostazione predefinita: selezionata* | Se selezionata, il raytracing verrà eseguito sulla GPU per [baker compatibili](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing).   I seguenti backend Raytracing GPU saranno i predefiniti, a seconda dell’architettura della GPU NVIDIA:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i>: Turing e versioni successive</li> <li data-preserve-html="true"><i>Optix</i>: Pascal e Maxwell</li> </ul>  **Nota:** ulteriori informazioni sui baker basati su GPU sono disponibili nella sezione [Raytracing GPU](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing) della documentazione [Substance Bakers](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home).  **Suggerimento:** è possibile utilizzare i seguenti *argomenti della riga di comando* quando si avvia l&#39;applicazione per *forzare* l&#39;utilizzo di un back-end di Raytracing GPU diverso: <ul data-preserve-html="true"> <li data-preserve-html="true"><code>—force-optix</code> : forzare l&#39;uso di Optix su Nvidia Turing o GPU più recenti</li> <li data-preserve-html="true"><code>—force-dxr</code> : forzare l&#39;uso dell&#39;DXR sulle GPU Nvidia Pascal</li> </ul> |
 
 ## Libreria
 

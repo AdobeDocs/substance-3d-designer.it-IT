@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/release-notes/version-13-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-13-0.html"
 breadcrumb-title: ""
 description: Consulta le note sulla versione per Substance 3D Designer versione 13.0 per informazioni sui nuovi nodi, Substance Engine 9.0 e i nodi portale.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versione 13.0
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: e540abf8ed046d72f116e9e43ae0743c5ae39c24
+source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
 workflow-type: tm+mt
 source-wordcount: '1671'
 ht-degree: 2%
@@ -35,7 +35,7 @@ Questa versione 13.0 introduce molti nuovi contenuti. Sono disponibili principal
 * [Gli Strumenti spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-tools.md) sono una raccolta di nodi per la generazione e la regolazione di spline e per il loro utilizzo per la mappatura, la dispersione o l&#39;alterazione delle immagini.
 * [Gli strumenti tracciato](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-tools.md) sono un altro insieme di nodi da estrarre, sotto forma di elenco di segmenti, i contorni da una maschera e quindi modificarli e migliorarli.
 
-Tutti questi nodi offriranno un sacco di possibilità e avranno sicuramente un sacco di applicazioni creative. Consulta la sezione [Utilizzo di tracciati e Strumenti spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/working-with-path-and-spl/working-with-path-and-spline-tools.md) per un tour dei concetti importanti da comprendere per conoscere bene questo set di strumenti.
+Tutti questi nodi offriranno un sacco di possibilità e avranno sicuramente un sacco di applicazioni creative. Consulta la sezione [Utilizzo di tracciati e Strumenti spline](../../learning-tutorials/nodes/working-with-path-and-splines/working-with-path-and-spline-tools.md) per un tour dei concetti importanti da comprendere per conoscere bene questo set di strumenti.
 
 ![Materiale che utilizza spline](version-13-0.resources/Splines.png "Materiale che utilizza spline")
 

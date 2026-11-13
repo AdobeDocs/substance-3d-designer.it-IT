@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/3d-view/scene-browser.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/scene-browser.html"
 breadcrumb-title: ""
 description: Utilizza l’Elenco scene per navigare e gestire elementi, materiali e oggetti della scena 3D nella finestra della vista.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Browser scene
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 10be7678f386c925d4bff6d59e2b85ffc04becd8
+source-git-commit: 44076f66b3e266dc57516b743f7cfe35c2ff82d1
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 1%
@@ -20,9 +20,9 @@ ht-degree: 1%
 
 Il browser scene della vista 3D elenca tutti gli elementi della scena e la loro gerarchia.
 
-Offre controlli per la selezione degli oggetti, l&#39;attivazione della loro visibilità e la selezione del materiale che deve [sostituire un materiale della scena](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md).
+Offre controlli per la selezione degli oggetti, l&#39;attivazione della loro visibilità e la selezione del materiale che deve [sostituire un materiale della scena](../../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md).
 
-Poiché Designer utilizza [USD](https://openusd.org/release/index.html) per descrivere e gestire le scene, la terminologia e i concetti utilizzati sono disponibili nell&#39;albero delle scene.
+Poiché Designer utilizza [USD](https://openusd.org/release/index.html) per descrivere e gestire le scene, la terminologia e i concetti corrispondenti si trovano nell&#39;albero delle scene.
 
 Viene visualizzato facendo clic sul relativo pulsante di attivazione/disattivazione dedicato ![](scene-browser.resources/sceneBrowser-toggleButton.png) nella barra degli strumenti [della scena della vista 3D](../../../interface/3d-view/3d-view.md).
 
@@ -38,7 +38,7 @@ L’elenco delle scene visualizza un elenco di oggetti disposti in una struttura
 
 Gli oggetti sono associati ad altri oggetti, fino alla radice della scena. Un oggetto principale è dotato di un pulsante freccia che consente di espandere o comprimere l’elenco dei relativi oggetti secondari.
 
-Alcuni oggetti dispongono di proprietà che possono essere visualizzate e modificate nel dock [Proprietà](../../../interface/properties/properties.md) se selezionate: ambiente, fotocamera, luci, `Mesh` oggetti e materiale [sostituzioni](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md).
+Alcuni oggetti dispongono di proprietà che possono essere visualizzate e modificate nel dock [Proprietà](../../../interface/properties/properties.md) se selezionate: ambiente, fotocamera, luci, `Mesh` oggetti e materiale [sostituzioni](../../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md).
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
@@ -53,7 +53,7 @@ Lasciare il cursore su qualsiasi elemento nella struttura per un paio di secondi
 
 * <b>Percorso:</b> il percorso completo dell&#39;oggetto nella scena.
 * <b>TypeName:</b> il tipo USD dell&#39;oggetto.
-* <b>Documentazione:</b> informazioni dettagliate sull&#39;oggetto come elemento di scena USD.
+* <b>Documentazione:</b> informazioni dettagliate sull&#39;oggetto come elemento della scena USD.
 
 Le trame hanno ulteriori informazioni: conteggio dei vertici, conteggio dei volti e conteggio UV.
 
@@ -67,7 +67,7 @@ Designer aggiunge alcuni oggetti a qualsiasi scena caricata. Gli oggetti aggiunt
 
 Quando si utilizza l&#39;azione &quot;Modifica...&quot; nei menu Luci, Videocamera e Ambiente, questi sono gli oggetti che vengono modificati, indipendentemente dal fatto che ci siano altre luci, videocamere o ambienti nella scena.
 
-Questi oggetti sono inclusi nella scena quando [viene esportato](../../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md).
+Questi oggetti sono inclusi nella scena quando [viene esportato](../../../learning-tutorials/3d-view/working-with-3d-scenes/exporting-scenes/exporting-scenes.md).
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
@@ -80,7 +80,7 @@ Questi oggetti sono inclusi nella scena quando [viene esportato](../../../workin
 
 * <b>Fotocamera:</b> La videocamera predefinita della scena. Questa è l’unica videocamera con cui potete interagire in Designer. Tutte le fotocamere incluse in una scena caricata vengono aggiunte come predefiniti per la videocamera predefinita.
 * <b>Ambiente:</b> l&#39;ambiente predefinito della scena. Qualsiasi texture applicata all’ambiente della scena verrà applicata solo a tale ambiente. Allo stesso modo, la rotazione dell&#39;ambiente influisce solo su quell&#39;ambiente.\
-  Quando una scena caricata include una o più luci ambiente ([DomeLight](https://openusd.org/release/user_guides/schemas/usdLux/DomeLight.html) in USD), l&#39;ambiente predefinito viene disattivato automaticamente per non interferire con l&#39;illuminazione ambiente della scena.
+  Quando una scena caricata include una o più luci ambientali ([DomeLight](https://openusd.org/release/user_guides/schemas/usdLux/DomeLight.html) nell&#39;USD), l&#39;ambiente predefinito viene disattivato automaticamente per non interferire con l&#39;illuminazione dell&#39;ambiente della scena.
 * <b>Luce puntiforme #:</b> Se una delle luci puntiformi di Designer è abilitata in Luci > Modifica proprietà, ogni luce puntiforme viene aggiunta alla scena.
 
 ## Alternare gli oggetti nella scena
@@ -112,11 +112,11 @@ Gli oggetti principali dispongono delle seguenti azioni aggiuntive:
 
 ### Ambienti
 
-La visibilità di qualsiasi luce ambiente (DomeLight) può essere attivata e disattivata allo stesso modo degli altri oggetti.
+La visibilità di qualsiasi luce ambientale (DomeLight) può essere attivata e disattivata allo stesso modo degli altri oggetti.
 
-Quando una luce ambiente è disattivata, anche il suo contributo di illuminazione alla scena è disattivato.
+Quando una luce ambientale è disattivata, anche il suo contributo alla luce della scena è disattivato.
 
-Se sono abilitate più luci ambiente, i relativi contributi di illuminazione sono *aggiunti cumulativamente*.
+Se sono abilitate più luci ambientali, i relativi contributi di illuminazione sono *aggiunti cumulativamente*.
 
 ![Browser scene - Attivazione/disattivazione della visibilità dell&#39;ambiente](scene-browser.resources/sceneBrowser-toggleEnvLights.gif "Browser scene - Attivazione/disattivazione della visibilità dell&#39;ambiente"){zoomable="yes"}
 
@@ -136,9 +136,9 @@ L&#39;elenco scene consente inoltre di collegare qualsiasi materiale sottoposto 
 
 I materiali elencati da Designer sono gli oggetti Materiali nell&#39;albero della scena utilizzati su almeno una trama.
 
-Quando [sostituisci](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) uno di questi materiali, Designer crea una copia con suffisso numerico.
+Quando [sostituisci](../../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md) uno di questi materiali, Designer crea una copia con suffisso numerico.
 
-Un materiale sottoposto a override offre un elemento aggiuntivo nel relativo menu di scelta rapida: il sottomenu &#39;[Materiale connesso](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)&#39; elenca tutti gli altri materiali disponibili che possono essere utilizzati per sovrascrivere questo materiale.
+Un materiale sottoposto a override offre un elemento aggiuntivo nel relativo menu di scelta rapida: il sottomenu &#39;[Materiale connesso](../../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md)&#39; elenca tutti gli altri materiali disponibili che possono essere utilizzati per sovrascrivere questo materiale.
 
 </td>
 <td style="border: 0;" valign="top">

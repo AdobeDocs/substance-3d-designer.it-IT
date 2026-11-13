@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/resources/bitmap-resource.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/bitmap-resource.html"
+breadcrumb-title: ""
 description: Scoprite come importare, creare e utilizzare le risorse bitmap in Substance 3D Designer per la creazione di materiale basato su texture.
 helpx_creative_field: ""
 helpx_description: Designer > Resources > Bitmap resource
@@ -8,19 +8,17 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Risorsa bitmap
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 2%
-
 ---
-
 
 # Risorsa bitmap
 
-Una risorsa bitmap è una risorsa in un pacchetto di Substance. È diverso dal nodo bitmap [&#x200B; atomico. Il nodo bitmap atomica](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) è una rappresentazione specifica della bitmap all&#39;interno di[un grafico a Substance](../../compositing-graphs/substance-compositing-graphs.md).
+Una risorsa bitmap è una risorsa in un pacchetto di Substance. È diverso dal nodo bitmap [ atomico. Il nodo bitmap atomica](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) è una rappresentazione specifica della bitmap all&#39;interno di[un grafico a Substance](../../compositing-graphs/substance-compositing-graphs.md).
 
 Le bitmap sono tra le risorse non grafiche più comuni di Substance 3D Designer, di solito il loro utilizzo rientra in una delle seguenti categorie:
 
@@ -48,7 +46,7 @@ Substance 3D Designer è in grado di modificare e riorganizzare facilmente i dat
 
 * Imposta le risoluzioni su 2, ovvero segui le dimensioni standard della texture in tempo reale come <b>256, 512, 1024 ,2048,</b> ecc. Designer ridimensionerà le texture al di fuori di questo intervallo alla risoluzione corrispondente più vicina. Si noti che non devono essere in proporzioni quadrate.
 * Sono supportati molti tipi di file, ma scegline uno che sia il più adatto alle tue esigenze. <b>La compressione senza perdita di dati o anche i tipi di file non compressi</b> come PNG o TGA offrono una qualità migliore rispetto a JPG o DDS.
-* Assicuratevi di <b>impostare correttamente il metodo colore</b>, a seconda che siano necessari colori, scala di grigi o un canale alfa.
+* Assicurati di <b>impostare correttamente il metodo colore</b>, a seconda che tu abbia bisogno di colori, scala di grigi o canali alfa.
 
 ## Attributi bitmap
 
@@ -66,9 +64,9 @@ Le risorse bitmap in un pacchetto hanno una serie di attributi che è possibile 
 | Tag | Utilizzato per [ordinare e gestire la risorsa](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) nella [libreria](../../interface/the-library/the-library.md). |
 | Dati utente | Dati aggiuntivi opzionali, non utilizzati sulle bitmap. |
 | Mostra nella libreria | Determina se la bitmap deve essere nascosta in [visualizzazione Libreria.](../../interface/the-library/the-library.md) |
-| Formato bitmap | Raw o Jpeg, ha un grande effetto sulla dimensione del file SBSAR. Per ulteriori informazioni, consulta le [linee guida per la riduzione del file](../../best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md). |
+| Formato bitmap | Raw o Jpeg, ha un grande effetto sulla dimensione del file SBSAR. Per ulteriori informazioni, consulta le [linee guida per la riduzione del file](../../learning-tutorials/essentials/best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md). |
 | Qualità di compressione bitmap | Ha effetto solo con la compressione Jpeg e determina il bilanciamento tra qualità e dimensione dei file. |
 
 ## Riduzione della dimensione dei file
 
-Per consigli su come ridurre al minimo le dimensioni dei file delle bitmap incorporate nelle [risorse Substance 3D pubblicate (SBSAR)](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md), consultate la pagina [Linee guida per la riduzione dei file](../../best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md) nella sezione [Procedure ottimali](../../best-practices/best-practices.md).
+Per consigli su come ridurre al minimo le dimensioni dei file delle bitmap incorporate nelle [risorse Substance 3D pubblicate (SBSAR)](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md), consultate la pagina [Linee guida per la riduzione dei file](../../learning-tutorials/essentials/best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md) nella sezione [Procedure ottimali](../../learning-tutorials/essentials/best-practices/best-practices.md).

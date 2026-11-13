@@ -1,13 +1,11 @@
 ---
 title: Arrotondamento
 description: Designer > Substance grafici composizione > Nodi di riferimento per i grafici composizione Substance > Libreria nodi > Funzione SDF > Operatore > Arrotondamento
-source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
+source-git-commit: 3f5ca55e459e04f5b81755565c6f674dbc3c845c
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 2%
-
 ---
-
 
 # Arrotondamento
 
@@ -34,11 +32,11 @@ Espande una forma SDF, gonfiandola e levigandone i bordi netti.
 
 >[!INFO]
 > 
-> Per ulteriori informazioni sui concetti e i flussi di lavoro relativi alla Funzione SDF, consulta la pagina dedicata: [Utilizzo della Funzione SDF](../../working-with-sdf-functions.md)
+> Per ulteriori informazioni sui concetti e i flussi di lavoro relativi alla Funzione SDF, consulta la pagina dedicata: [Utilizzo della Funzione SDF](../../../../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md)
 
 ## Input
 
 |  |  |
 | :--- | :--- |
-| <b>SDF</b> *Mobile* | Forma SDF di input. |
-| <b>Raggio</b> *Mobile* | Raggio degli archi arrotondati applicati ai bordi della forma.<br><br><i>Nota:</i> i bordi rigidi possono apparire nel punto in cui i raggi di arrotondamento si intersecano.<br><br><i>Impostazione predefinita: 0.05</i> |
+| <b>SDF</b> *Virgola mobile* | Forma SDF di input. |
+| <b>Raggio</b> *Virgola mobile* | Raggio degli archi arrotondati applicati ai bordi della forma.<br><br><i>Nota:</i> i bordi rigidi possono apparire nel punto in cui i raggi di arrotondamento si intersecano.<br><br><i>Impostazione predefinita: 0.05</i> |

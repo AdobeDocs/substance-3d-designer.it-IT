@@ -1,22 +1,20 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools.html"
-breadcrumb-title: ''
-description: Accedere ai nodi degli strumenti spline e tracciato per la creazione di pattern procedurali, curve e forme organiche nei grafici a Substance.
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools.html"
+breadcrumb-title: ""
+description: Accedi ai nodi degli strumenti spline e tracciato per creare pattern di procedurali, curve e forme organiche nei grafici a Substance.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Strumenti tracciato spline
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 0%
-
 ---
-
 
 # Strumenti spline e tracciato
 
@@ -36,4 +34,4 @@ Consulta queste esercitazioni per iniziare:
 
 >[!TIP]
 >
-> Ti consigliamo di imparare a [utilizzare il percorso e gli Strumenti spline](../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/working-with-path-and-spl/working-with-path-and-spline-tools.md) per sfruttare al meglio il set di strumenti.
+> Ti consigliamo di imparare a [utilizzare il percorso e gli Strumenti spline](../../../../learning-tutorials/nodes/working-with-path-and-splines/working-with-path-and-spline-tools.md) per sfruttare al meglio il set di strumenti.

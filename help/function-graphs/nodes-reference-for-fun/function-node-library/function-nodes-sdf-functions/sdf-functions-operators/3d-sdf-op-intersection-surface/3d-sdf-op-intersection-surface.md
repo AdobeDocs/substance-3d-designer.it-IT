@@ -1,13 +1,11 @@
 ---
 title: Superficie di intersezione
 description: Designer > Substance grafici composizione > Nodi riferimento per Substance grafici composizione > Libreria nodi > Funzione SDF > Operatore > Superficie di intersezione
-source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
+source-git-commit: 3f5ca55e459e04f5b81755565c6f674dbc3c845c
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 1%
-
 ---
-
 
 # Superficie di intersezione
 
@@ -34,12 +32,12 @@ Restituisce la superficie della porzione di una forma SDF di base intersecata da
 
 >[!INFO]
 > 
-> Per ulteriori informazioni sui concetti e i flussi di lavoro relativi alla Funzione SDF, consulta la pagina dedicata: [Utilizzo della Funzione SDF](../../working-with-sdf-functions.md)
+> Per ulteriori informazioni sui concetti e i flussi di lavoro relativi alla Funzione SDF, consulta la pagina dedicata: [Utilizzo della Funzione SDF](../../../../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md)
 
 ## Input
 
 |  |  |
 | :--- | :--- |
-| <b>SDF di base</b> *Mobile* | Forma SDF su cui è basata la superficie risultante. |
-| <b>SDF intersecante</b> *Mobile* | La forma SDF che interseca la forma SDF di base. |
-| <b>Thickness</b> *Mobile* | Thickness della superficie risultante.<br><br><i>Impostazione predefinita: 0.02</i> |
+| <b>SDF di base</b> *Virgola mobile* | Forma SDF su cui è basata la superficie risultante. |
+| <b>SDF intersecante</b> *Virgola mobile* | La forma SDF che interseca la forma SDF di base. |
+| <b>Thickness</b> *Virgola mobile* | Thickness della superficie risultante.<br><br><i>Impostazione predefinita: 0.02</i> |

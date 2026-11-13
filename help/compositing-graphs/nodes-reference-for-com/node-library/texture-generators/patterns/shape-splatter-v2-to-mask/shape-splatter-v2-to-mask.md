@@ -1,13 +1,11 @@
 ---
 title: Splatter forma v2 a maschera
 description: Designer > Substance grafici composizione > Nodi riferimento per Substance grafici composizione > Libreria nodi > Generatore > Pattern > Splatter forme v2 per maschera
-source-git-commit: f688c618b01d3ca8059e67cf0797268e44e94b17
+source-git-commit: 3f5ca55e459e04f5b81755565c6f674dbc3c845c
 workflow-type: tm+mt
 source-wordcount: '621'
 ht-degree: 0%
-
 ---
-
 
 # Splatter forma v2 a maschera
 
@@ -40,9 +38,9 @@ Calcola una maschera da una selezione di forme generate dal nodo [Splatter forma
 
 >[!TIP]
 > 
-> Per iniziare con i nodi Shape splatter v2, è disponibile il materiale [**&#39;Rusty bolts&#39;** sample](../../../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.md#material-sample).
+> Per iniziare con i nodi Shape splatter v2, è disponibile il materiale [**&#39;Rusty bolts&#39;** sample](../../../../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md#material-sample).
 > 
-> Per ulteriori informazioni sui concetti e i flussi di lavoro relativi alla Funzione SDF, consulta la pagina dedicata: [Utilizzo della Funzione SDF](../../../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.md)
+> Per ulteriori informazioni sui concetti e i flussi di lavoro relativi alla Funzione SDF, consulta la pagina dedicata: [Utilizzo della Funzione SDF](../../../../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md)
 
 <a name="inputs"></a>
 
@@ -50,7 +48,7 @@ Calcola una maschera da una selezione di forme generate dal nodo [Splatter forma
 
 |                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |:----------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <b>Splatter UVW</b> *Colore* | <b>R</b> - Componente U degli UV delle forme.<br><b>G</b> - Componente V degli UV delle forme.<br><b>B</b> - height delle forme. (W)<br><b>A</b> - Dati compressi:<br> - <i>Parte intera:</i> Identificatore univoco delle forme. (ID)<br> - <i>Parte frazionale:</i> dipende dal <b>Tipo di forma</b>: ID materiale se SDF/primitivo, ID motivo* se input/atlante griglia motivo.<br><br><b>*:</b> L&#39;ID motivo è l&#39;indice della forma nell&#39;elenco/atlas. |
+| <b>Splatter UVW</b> *Colore* | <b>R</b> - Componente U degli UV delle forme.<br><b>G</b> - Componente V degli UV delle forme.<br><b>B</b> - height delle forme. (W)<br><b>A</b> - Dati compressi:<br> - <i>Parte intera:</i> identificatore univoco delle forme. (ID)<br> - <i>Parte frazionale:</i> dipende dal <b>Tipo di forma</b>: ID materiale se SDF/primitivo, ID motivo* se input/atlante griglia motivo.<br><br><b>*:</b> L&#39;ID motivo è l&#39;indice della forma nell&#39;elenco/atlas. |
 
 <a name="outputs"></a>
 
@@ -66,12 +64,12 @@ Calcola una maschera da una selezione di forme generate dal nodo [Splatter forma
 
 |                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |:--------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <b>Output</b> *Numero intero* | I valori utilizzati per le forme selezionate nella maschera di output.<br><br>- <b>Maschera binaria:</b> Tutte le forme selezionate utilizzano un valore di 1.<br>- <b>ID forma (numero intero):</b> Le forme selezionate utilizzano il relativo identificatore univoco. (ID)<br>- <b>ID materiale (numero intero):</b> Le forme selezionate utilizzano il relativo ID materiale.<br>- <b>ID forma (normalizzato):</b> Le forme selezionate utilizzano il proprio identificatore univoco (ID) mappato sull&#39;intervallo [0, 1] compreso tra l&#39;ID selezionato più basso e quello più alto.<br>- <b>ID materiale (normalizzato):</b> Le forme selezionate utilizzano l&#39;ID materiale mappato sull&#39;intervallo [0, 1] compreso tra l&#39;ID materiale selezionato più basso e quello più alto. |
+| <b>Output</b> *Numero intero* | I valori utilizzati per le forme selezionate nella maschera di output.<br><br>- <b>Maschera binaria:</b> Tutte le forme selezionate utilizzano un valore di 1.<br>- <b>ID forma (numero intero):</b> Le forme selezionate utilizzano il loro identificatore univoco. (ID)<br>- <b>ID materiale (numero intero):</b> Le forme selezionate utilizzano il relativo ID materiale.<br>- <b>ID forma (normalizzato):</b> Le forme selezionate utilizzano il proprio identificatore univoco (ID) mappato sull&#39;intervallo [0, 1] compreso tra l&#39;ID selezionato più basso e quello più alto.<br>- <b>ID materiale (normalizzato):</b> Le forme selezionate utilizzano l&#39;ID materiale mappato sull&#39;intervallo [0, 1] compreso tra l&#39;ID materiale selezionato più basso e quello più alto. |
 | <b>Intervallo iniziale ID forma</b> *Numero intero* | Identificatore univoco (ID) della forma utilizzato come inizio dell&#39;intervallo di selezione. (Incluso) |
 | <b>Intervallo finale ID forma</b> *Numero intero* | Identificatore univoco (ID) della forma utilizzato come fine dell&#39;intervallo di selezione. (Incluso) |
 | <b>Offset ID forma</b> *Numero intero* | Sposta gli identificatori univoci delle forme in base al valore specificato, nel contesto dell&#39;intervallo di selezione.<br><br>In questo modo è più semplice spostare la selezione corrente in base al valore specificato senza dover regolare manualmente i limiti iniziale e finale. |
 | <b>Combinazione di materiali/ID pattern</b> *Numero intero* | Specificato l&#39;operatore logico utilizzato per combinare la selezione in base all&#39;identificatore univoco (ID) con la selezione in base all&#39;ID materiale/ID pattern.<br><br>- <b>Nessuno:</b> Ignorare completamente l&#39;ID materiale/ID pattern per la selezione.<br>- <b>AND:</b> Le forme selezionate devono essere incluse negli intervalli ID e ID materiale/ID pattern. (Include meno forme)<br>- <b>OR:</b> Le forme selezionate devono essere incluse negli intervalli ID o ID materiale/ID motivo. (Include più forme) |
 | <b>Intervallo di inizio materiale/ID pattern</b> *Numero intero* | ID materiale o ID pattern* utilizzato come inizio dell&#39;intervallo di selezione. (Incluso)<br><br><b>*:</b> Per informazioni dettagliate, vedere la descrizione del nodo. |
 | <b>Intervallo finale ID materiale/modello</b> *Numero intero* | ID materiale o ID pattern* utilizzato come fine dell&#39;intervallo di selezione. (Incluso)<br><br><b>*:</b> Per informazioni dettagliate, vedere la descrizione del nodo. |
-| <b>Forma maschera casuale</b> *Mobile* | Fattore per la maschera casuale delle forme, in cui 1 indica che tutte le forme sono mascherate. |
+| <b>Forma maschera casuale</b> *Virgola mobile* | Fattore per la maschera casuale delle forme, in cui 1 indica che tutte le forme sono mascherate. |
 

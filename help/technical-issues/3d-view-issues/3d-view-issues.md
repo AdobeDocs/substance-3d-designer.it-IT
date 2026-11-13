@@ -1,22 +1,22 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/technical-issues/3d-view-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/3d-view-issues.html"
 breadcrumb-title: ""
-description: Risoluzione dei problemi di Visualizzazione 3D in Substance 3D Designer, inclusi problemi di rendering, visualizzazione e prestazioni.
+description: Risoluzione dei problemi di vista 3D in Substance 3D Designer, inclusi problemi di rendering, visualizzazione e prestazioni.
 helpx_creative_field: ""
 helpx_description: Designer > Technical issues > 3D View issues
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Problemi della vista 3D
+title: Problemi di vista 3D
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 10be7678f386c925d4bff6d59e2b85ffc04becd8
+source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
 workflow-type: tm+mt
 source-wordcount: '1723'
 ht-degree: 0%
 ---
 
-# Problemi della vista 3D
+# Problemi di vista 3D
 
 In questa pagina sono elencati i problemi tecnici relativi alla [vista 3D](../../interface/3d-view/3d-view.md) in Substance 3D Designer e sono disponibili procedure per la risoluzione dei problemi per ciascuno di essi.
 
@@ -58,25 +58,25 @@ Il [suggerimento in questa sezione](../../interface/3d-view/displacement/displac
 
 ![(errore)](3d-view-issues.resources/error.svg) **Problema**
 
-Un oggetto 3D che presentava volumi dettagliati in una sessione diventa piatto nella sessione successiva, tuttavia il grafico non è cambiato e la mappa del Height contiene gli stessi dati.
+Un oggetto 3D che presentava volumi dettagliati in una sessione diventa piatto nella sessione successiva, tuttavia il grafico non è cambiato e la mappa Altezza contiene gli stessi dati.
 
 ![(tick)](3d-view-issues.resources/check.svg) **Passaggi consigliati**
 
-L&#39;effetto di deformazione di un oggetto 3D in base a una mappa del Height viene eseguito utilizzando una tecnica denominata **spostamento di tassellatura**. Questa tecnica prevede due fasi:
+L&#39;effetto di deformazione di un oggetto 3D in base a una mappa dell&#39;altezza viene eseguito utilizzando una tecnica denominata **spostamento di tassellatura**. Questa tecnica prevede due fasi:
 
 1. **Tassellatura**: la geometria dell&#39;oggetto è *suddivisa* in vertici, risultando in una *geometria più densa* per supportare dettagli di volume più precisi
 2. **Spostamento**: i vertici sono *spostati*, ovvero spostati, lungo il *vettore normale*. Il vettore normale segue la direzione verso cui è rivolto un poligono e ha una grandezza (cioè lunghezza) di 1
 
 La *direzione* dello spostamento è nota: la direzione del vettore normale.\
-Lo spostamento *distanza* in base al quale vengono spostati i vertici viene calcolato come segue: `Distance = Height scale * Height map`. Poiché la mappa Height *non è stata modificata* nel grafico, rimane la **scala Height**.
+Lo spostamento *distanza* in base al quale vengono spostati i vertici viene calcolato come segue: `Distance = Height scale * Height map`. Poiché la mappa dell&#39;altezza *non è stata modificata* nel grafico, rimane la **scala dei Height**.
 
-Il valore di scala Height predefinito è **1.0** e questo può causare un effetto di spostamento *non visibile* a seconda della trama visualizzata nella vista 3D e della mappa del Height ad essa applicata.
+Il valore di scala Height predefinito è **1.0** e questo può causare un effetto di spostamento *non visibile* a seconda della trama visualizzata nel vista 3D e della mappa di altezza ad esso applicata.
 
 Questo valore può essere modificato nei modi seguenti:
 
 | Nella vista 3D | Nella vista Grafico |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Utilizza la finestra a comparsa **Spostamento** nella barra degli strumenti a sinistra.<br>Ulteriori informazioni nella [pagina dedicata](../../interface/3d-view/displacement/displacement.md). | Creare un nodo [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) e impostare l&#39;utilizzo `heightScale` nelle relative proprietà.<br>Fornire un valore a questo output con un valore, utilizzando ad esempio un [nodo mobile costante](../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.md#floats), quindi *riapplicare il grafico* nella vista 3D. |
+| Utilizza la finestra a comparsa **Spostamento** nella barra degli strumenti a sinistra.<br>Ulteriori informazioni nella [pagina dedicata](../../interface/3d-view/displacement/displacement.md). | Creare un nodo [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) e impostare l&#39;utilizzo `heightScale` nelle relative proprietà.<br>Fornire un valore a questo output con un valore, utilizzando ad esempio un [nodo di Virgola mobile costante](../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.md#floats), quindi *riapplicare il grafico* nella vista 3D. |
 
 {style="table-layout:fixed"}
 
@@ -108,11 +108,11 @@ Per impostazione predefinita, potete continuare a utilizzare il modulo di render
 
 1. Seleziona Modifica > Preferenze > Progetti.
 2. Seleziona l’ultimo file di progetto nell’elenco
-3. Nell’elenco dei file di progetto, seleziona la scheda Visualizzazione 3D
+3. Nell’elenco dei file di progetto, seleziona la scheda vista 3D
 4. Imposta l’opzione &quot;Modulo di rendering predefinito&quot; su &quot;OpenGL (obsoleto)&quot;
 5. Fare clic su &#39;OK&#39; per convalidare le modifiche
 
-Ora, per impostazione predefinita, in tutte le nuove viste 3D viene utilizzato il modulo di rendering OpenGL, che consente di continuare a lavorare come prima.
+Ora tutti i nuovi vista 3D useranno il modulo di rendering OpenGL per impostazione predefinita, che consente di continuare a lavorare come prima.
 
 >[!NOTE]
 >
@@ -134,20 +134,20 @@ In Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md) sono stat
 
 Le GPU supportate includono NVIDIA RTX 20 Series (Turing) o versioni successive, in base ai [requisiti di sistema](../../getting-started/system-requirements/system-requirements.md) di Designer.
 
-In base alle impostazioni predefinite, la Vista 3D tornerà automaticamente al modulo di rendering OpenGL se l’opzione &quot;Modulo di rendering predefinito&quot; è impostata su &quot;Predefinito (modulo di rendering predefinito)&quot; nelle [Impostazioni progetto](../../interface/preferences-window/project-settings/project-settings.md).
+In base alle impostazioni predefinite, il vista 3D tornerà automaticamente al modulo di rendering OpenGL se l’opzione &quot;Modulo di rendering predefinito&quot; è impostata su &quot;Predefinito (modulo di rendering predefinito)&quot; nelle [Impostazioni progetto](../../interface/preferences-window/project-settings/project-settings.md).
 
 Questa opzione può essere individuata e regolata come descritto di seguito:
 
 1. Seleziona Modifica > Preferenze > Progetti.
 2. Seleziona l’ultimo file di progetto nell’elenco
-3. Nell’elenco dei file di progetto, seleziona la scheda Visualizzazione 3D
+3. Nell’elenco dei file di progetto, seleziona la scheda vista 3D
 4. L’opzione &quot;Modulo di rendering predefinito&quot; è elencata nelle impostazioni della scheda
 
 >[!NOTE]
 >
 > Al momento è possibile rilevare come non supportate solo le GPU della <b>serie NVIDIA GTX</b>.
 > 
-> Tuttavia, anche la maggior parte delle GPU AMD e Intel non è supportata e produrrà un rendering nero senza alcun messaggio. Consulta l&#39;elemento &quot;La vista 3D è completamente nera&quot; qui sopra per indicazioni su tali GPU.
+> Tuttavia, anche la maggior parte delle GPU AMD e Intel non è supportata e produrrà un rendering nero senza alcun messaggio. Consulta la voce &quot;vista 3D è completamente nero&quot; qui sopra per indicazioni su tali GPU.
 
 >[!IMPORTANT]
 >
@@ -194,7 +194,7 @@ L&#39;immagine sottoposta a rendering appare sfocata o pixelata quando il sistem
 
 Per impostazione predefinita, Designer utilizza la risoluzione di visualizzazione *ridimensionata* per definire la risoluzione di rendering della [vista 3D](../../interface/3d-view/3d-view.md). Puoi modificare questa impostazione in modo che venga utilizzata la risoluzione di visualizzazione *nativa* per un rendering nitido.
 
-Apri il menu **Modifica** e seleziona l&#39;opzione **Preferenze...**. Nella finestra [Preferenze](../../interface/preferences-window/preferences-window.md), aprite la sezione **Visualizzazione 3D** e impostate il parametro **Ridimensionamento finestra** su *Nessuno*.
+Apri il menu **Modifica** e seleziona l&#39;opzione **Preferenze...**. Nella finestra [Preferenze](../../interface/preferences-window/preferences-window.md), aprite la sezione **vista 3D** e impostate il parametro **Ridimensionamento finestra** su *Nessuno*.
 
 </td>
 <td style="border: 0; width: 40%; vertical-align: top">
@@ -213,7 +213,7 @@ Dopo aver aggiornato Designer alla versione 15.0.0, non è possibile trovare il 
 
 ![(tick)](3d-view-issues.resources/check.svg) **Passaggi consigliati**
 
-Quando si utilizzano nuovi moduli di rendering (rasterizzatore e Pathtracer GPU), il &quot;fattore di tassellatura&quot; si trova nelle proprietà di questi moduli di rendering. Nella vista 3D, selezionate <b>Modulo di rendering > Modifica impostazioni</b>. La proprietà verrà elencata nel Dock proprietà.
+Quando si utilizzano nuovi moduli di rendering (rasterizzatore e Pathtracer GPU), il &quot;fattore di tassellatura&quot; si trova nelle proprietà di questi moduli di rendering. Nel vista 3D, vai a <b>Modulo di rendering > Modifica impostazioni</b>. La proprietà verrà elencata nel Dock proprietà.
 
 >[!NOTE]
 >
@@ -231,7 +231,7 @@ L’ombreggiatura degli oggetti si basa sui loro vettori normali, tangenti e bin
 
 Ad esempio, una scala pari a 2 e una distorsione pari a -1 adattano il valore x da `[0, 1]` a `[-1, 1]` in modo uniforme: `x * 2 - 1`.
 
-Designer non applica una scala e una distorsione normali a meno che non siano specificate da una trama 3D. Se tali informazioni mancano, verrà generato un avviso nella console quando [si sostituisce uno dei materiali](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md):
+Designer non applica una scala e una distorsione normali a meno che non siano specificate da una trama 3D. Se tali informazioni mancano, verrà generato un avviso nella console quando [si sostituisce uno dei materiali](../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md):
 
 ```
 [SceneGraph]No 'scale' or 'bias' defined on the UsdUVTexture shader '/root/material/<materialName>' (the rendering may be incorrect)
@@ -240,15 +240,15 @@ Designer non applica una scala e una distorsione normali a meno che non siano sp
 
 ![(tick)](3d-view-issues.resources/check.svg) **Passaggi consigliati**
 
-Per le scene esportate nei formati USD poco tempo fa: riesporta la scena utilizzando una versione recente di USD, che includerà i dati necessari. Presta attenzione alle proprietà relative alla scala normale e ai pregiudizi, se presenti, che dipenderanno dal software utilizzato per esportare la scena.
+Per le scene esportate nei formati USD qualche tempo fa: riesporta la scena utilizzando una versione recente dell’USD, che includerà i dati necessari. Presta attenzione alle proprietà relative alla scala normale e ai pregiudizi, se presenti, che dipenderanno dal software utilizzato per esportare la scena.
 
-Quando [si esegue l&#39;override di un materiale](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md), Designer elabora la trama e calcola eventuali dati mancanti relativi alle sue normali, tangenti e binormali. Se la scala e la distorsione predefinite di Designer corrispondono a quelle richieste per la trama, quest’ultima avrà un aspetto corretto quando viene sostituita.
+Quando [si esegue l&#39;override di un materiale](../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md), Designer elabora la trama e calcola eventuali dati mancanti relativi alle sue normali, tangenti e binormali. Se la scala e la distorsione predefinite di Designer corrispondono a quelle richieste per la trama, quest’ultima avrà un aspetto corretto quando viene sostituita.
 
-## Arresto anomalo all’avvio della vista 3D
+## Arresto anomalo all&#39;avvio del vista 3D
 
 ![(errore)](3d-view-issues.resources/error.svg) **Problema**
 
-Designer si arresta in modo anomalo all’avvio della vista 3D, durante la creazione di un progetto, il caricamento di un progetto o l’avvio manuale di una vista 3D.
+Designer arresto anomalo al momento dell’avvio del vista 3D, durante la creazione di un progetto, il caricamento di un progetto o l’avvio manuale di un vista 3D.
 
 ![(tick)](3d-view-issues.resources/check.svg) **Passaggi consigliati**
 

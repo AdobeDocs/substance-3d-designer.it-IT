@@ -1,13 +1,11 @@
 ---
 title: Imposta ID materiale
 description: Impostate l’ID materiale di una scena SDF.
-source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
+source-git-commit: 3f5ca55e459e04f5b81755565c6f674dbc3c845c
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 2%
-
 ---
-
 
 # Imposta ID materiale
 
@@ -34,7 +32,7 @@ Questo valore può quindi essere recuperato per tutte le forme SDF schizzate nel
 
 >[!INFO]
 > 
-> Per ulteriori informazioni sui concetti e i flussi di lavoro relativi alla Funzione SDF, consulta la pagina dedicata: [Utilizzo della Funzione SDF](../../working-with-sdf-functions.md)
+> Per ulteriori informazioni sui concetti e i flussi di lavoro relativi alla Funzione SDF, consulta la pagina dedicata: [Utilizzo della Funzione SDF](../../../../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md)
 
 ## Input
 

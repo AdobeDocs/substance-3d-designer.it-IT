@@ -1,13 +1,11 @@
 ---
 title: Piegatura (inesatta)
 description: Designer > Substance grafici composizione > Nodi riferimento per Substance grafici composizione > Libreria nodi > Funzione SDF > Trasforma > Piega (inesatto)
-source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
+source-git-commit: 3f5ca55e459e04f5b81755565c6f674dbc3c845c
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 1%
-
 ---
-
 
 # Piegatura (inesatta)
 
@@ -34,14 +32,14 @@ Consente di piegare una forma SDF attorno all&#39;asse Y locale tra un punto ini
 
 >[!INFO]
 > 
-> Per ulteriori informazioni sui concetti e i flussi di lavoro relativi alla Funzione SDF, consulta la pagina dedicata: [Utilizzo della Funzione SDF](../../working-with-sdf-functions.md)
+> Per ulteriori informazioni sui concetti e i flussi di lavoro relativi alla Funzione SDF, consulta la pagina dedicata: [Utilizzo della Funzione SDF](../../../../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md)
 
 ## Input
 
 |  |  |
 | :--- | :--- |
-| <b>SDF</b> *Mobile* | Forma SDF di input. |
-| <b>Angolo</b> *Mobile* | Angolo, in giri, della rotazione applicata alla fine della piegatura. |
-| <b>Inizio</b> *Mobile* | Posizione del mondo sull&#39;asse Z in cui inizia la piegatura. Tutto il volume sottostante non è piegato. |
-| <b>Fine</b> *Mobile* | Posizione del mondo sull&#39;asse Z in cui termina la piegatura. Tutto il volume di cui sopra viene ruotato in modo uniforme all’angolo specificato. |
-| <b>P</b> *Float3* | La posizione trasformata dello spazio mondiale. Utilizza questo input per applicare trasformazioni aggiuntive utilizzando i nodi <b>Offset P</b> e <b>Rotazione P</b>.<br><br><i>Impostazione predefinita: la posizione dello spazio globale non trasformata.</i> |
+| <b>SDF</b> *Virgola mobile* | Forma SDF di input. |
+| <b>Angolo</b> *Virgola mobile* | Angolo, in giri, della rotazione applicata alla fine della piegatura. |
+| <b>Inizio</b> *Virgola mobile* | Posizione del mondo sull&#39;asse Z in cui inizia la piegatura. Tutto il volume sottostante non è piegato. |
+| <b>Fine</b> *Virgola mobile* | Posizione del mondo sull&#39;asse Z in cui termina la piegatura. Tutto il volume di cui sopra viene ruotato in modo uniforme all’angolo specificato. |
+| <b>P</b> *Virgola mobile 3* | La posizione Trasforma nello spazio mondiale. Utilizza questo input per applicare trasformazioni aggiuntive utilizzando i nodi <b>Offset P</b> e <b>Rotazione P</b>.<br><br><i>Impostazione predefinita: la posizione dello spazio globale non trasformata.</i> |

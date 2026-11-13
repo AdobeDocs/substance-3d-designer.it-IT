@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/release-notes/version-15-0.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-15-0.html"
+breadcrumb-title: ""
 description: Consulta le note sulla versione per Substance 3D Designer versione 15.0 per informazioni sul nuovo modulo di rendering 3D e sul supporto nativo per USD.
 helpx_creative_field: ""
 helpx_description: Designer > Release Notes > Version 15.0
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Versione 15.0
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: fde9d7a455c1c7b366323c119f4c1f9a2c114952
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
 workflow-type: tm+mt
 source-wordcount: '1894'
 ht-degree: 0%
-
 ---
-
 
 # Versione 15.0
 
@@ -55,16 +53,16 @@ Inoltre, il tasto di scelta rapida per ruotare la luce ambientale è stato modif
 
 ## Edizione delle risorse nel contesto
 
-Quando lavori sui tuoi materiali, potresti voler [visualizzarli in anteprima nel contesto di una scena 3D specifica](../../working-with-3d-scenes/working-with-3d-scenes.md). Ecco perché abbiamo aggiunto la possibilità di importare ed eseguire il rendering di una scena completa, con tutte le texture, le telecamere e le luci. E ciliegia in alto, se questa scena fa riferimento a Ombreggiature MaterialX, verranno renderizzati correttamente con il rasterizzatore!
+Quando lavori sui tuoi materiali, potresti voler [visualizzarli in anteprima nel contesto di una scena 3D specifica](../../learning-tutorials/3d-view/working-with-3d-scenes/working-with-3d-scenes.md). Ecco perché abbiamo aggiunto la possibilità di importare ed eseguire il rendering di una scena completa, con tutte le texture, le telecamere e le luci. E ciliegia in alto, se questa scena fa riferimento a Ombreggiature MaterialX, verranno renderizzati correttamente con il rasterizzatore!
 
 ![Scena USD caricata e renderizzata in Designer](version-15-0.resources/feature_2.png)
 
-Una volta importato, puoi lavorare sulla scena selezionando una trama (con MAIUSC + clic o grazie al browser scene) e [ignorandone uno qualsiasi dei materiali](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md). L’Utente può quindi:
+Una volta importato, puoi lavorare sulla scena selezionando una trama (con MAIUSC + clic o grazie al browser scene) e [ignorandone uno qualsiasi dei materiali](../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md). L’Utente può quindi:
 
 * Create o caricate un grafico e applicatelo a un materiale della scena.
-* Apportate le regolazioni a un materiale esistente [estraendone le texture](../../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md) in un nuovo grafico.
+* Apportate le regolazioni a un materiale esistente [estraendone le texture](../../learning-tutorials/3d-view/working-with-3d-scenes/extracting-materials/extracting-materials.md) in un nuovo grafico.
 
-Infine, una volta modificata la scena 3D, puoi [esportarla](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md) come nuovo file o come nuovo livello del file originale, per evitare la perdita di dati (solo per il formato USD).
+Infine, una volta modificata la scena 3D, puoi [esportarla](../../learning-tutorials/3d-view/working-with-3d-scenes/exporting-scenes/exporting-scenes.md) come nuovo file o come nuovo livello del file originale, per evitare la perdita di dati (solo per il formato USD).
 
 Infine, sono ora supportati più formati 3D sia per l’importazione che per l’esportazione: USD (+ usda, usdc, usdz), STL, PLY e GLTF, oltre ai formati già disponibili FBX e OBJ.
 
@@ -120,23 +118,23 @@ Ogni anno, la [VFX Reference Platform](https://vfxplatform.com/) pubblica un ele
 
 ### Aggiunto
 
-* [Vista 3D] Nuovo modulo di rendering, con modalità rasterizzatore e tracciatore tracciatore
-* [Vista 3D] Aggiungi uno strumento di selezione per selezionare un oggetto nella scena 3D
-* [Vista 3D] Aggiungi nuova &quot;Esporta scena con livelli...&quot; azione nel menu &quot;Scena&quot;
-* [Vista 3D] Aggiungere nuovi pulsanti della barra degli strumenti
-* [Vista 3D] Aggiungi la possibilità di passare da una videocamera all’altra contenuta in una scena USD
-* [Vista 3D] Consente di attivare l&#39;oggetto selezionato quando si preme &#39;F&#39; nella finestra della vista
-* [Vista 3D] Consente di generare un grafico di composizione Substance da un materiale esistente
-* [Vista 3D] Consenti l’invio di un grafico composizione SBS nella vista 3D e assegna il suo output univoco all’utilizzo Ambiente/Panorama
-* [Vista 3D] Cancella la selezione corrente premendo il tasto Esc
-* [Vista 3D] Visualizza una scena 3D importata con texture
-* [Vista 3D] Distinguere i controlli di ripetizione delle texture X e Y
-* [Vista 3D] Attivare/Disattivare le ombre
-* [Vista 3D] Attivare/Disattivare il piano terreno
-* [Vista 3D] Nel menu &quot;Materiali&quot;, aggiungi &quot;Rimuovi&quot; solo per il Materiale che è stato aggiunto manualmente e che non è utilizzato
-* [Vista 3D] Nel menu &quot;Materiali&quot;, rimuovi l&#39;azione &quot;Rimuovi tutto&quot;
-* [Vista 3D] Rendere i file USDZ esportati autonomi
-* [Vista 3D] Rendi persistenti le proprietà del modulo di rendering quando si cambia modalità
+* [vista 3D] Nuovo modulo di rendering, con modalità rasterizzatore e tracciatore tracciatore
+* [vista 3D] Aggiungi uno strumento di selezione per selezionare un oggetto nella scena 3D
+* [vista 3D] Aggiungi nuova &quot;Esporta scena con livelli...&quot; azione nel menu &quot;Scena&quot;
+* [vista 3D] Aggiungi nuovi pulsanti della barra degli strumenti
+* [vista 3D] Aggiungete la possibilità di passare da una videocamera all’altra contenuta in una scena USD
+* [vista 3D] Consente di attivare l&#39;oggetto selezionato quando si preme &#39;F&#39; nella finestra della vista
+* [vista 3D] Consente di generare un grafico di composizione Substance da un materiale esistente
+* [vista 3D] Consenti l’invio di un grafico composizione SBS nel vista 3D e assegna il suo output univoco all’utilizzo di Ambiente/Panorama
+* [vista 3D] Cancella la selezione corrente premendo il tasto Esc
+* [vista 3D] Visualizzare una scena 3D importata con la texture
+* [vista 3D] Distinguere i controlli di ripetizione delle texture X e Y
+* [vista 3D] Attivare/Disattivare le ombre
+* [vista 3D] Attivare/Disattivare il piano terreno
+* [vista 3D] Nel menu &quot;Materiali&quot;, aggiungi &quot;Rimuovi&quot; solo per il Materiale che è stato aggiunto manualmente e che non è stato utilizzato
+* [vista 3D] Nel menu &quot;Materiali&quot;, rimuovi l&#39;azione &quot;Rimuovi tutto&quot;
+* [vista 3D] Rendere i file USDZ esportati autonomi
+* [vista 3D] Rendi persistenti le proprietà del modulo di rendering quando si cambia modalità
 * [vista 3D] Mantenere gli input di materiale esistenti quando si esegue l&#39;override di un materiale
 * [vista 3D] Ridisporre le proprietà della videocamera
 * [vista 3D] Rimuovi le azioni &quot;Fotocamera/Salva schermata...&quot; e &quot;Videocamera/Copia schermata negli Appunti&quot;
@@ -161,16 +159,16 @@ Ogni anno, la [VFX Reference Platform](https://vfxplatform.com/) pubblica un ele
 * [Baker] Consente di rinominare un baker senza interrompere i collegamenti
 * [Baker] Modifica le dimensioni predefinite del pannello centrale
 * [Baker] texture di input per flusso di lavoro UDIM
-* [Bakers] Imposta l&#39;ordine dell&#39;elenco di mappe 2D View come ordine dell&#39;elenco di rendering Bakers
-* [Panettieri] Rendete modale la finestra di cottura
-* [Panettieri] Gestire i parametri di mappatura tonale
-* [Bakers] Rimuovi selezione plug-in spazio tangente
-* [Panettieri] Salva stato &quot;abilitato&quot; o &quot;disabilitato&quot; per i panettieri durante il salvataggio di un predefinito
-* [Panettieri] Selezionare il materiale per impostazione predefinita nel widget di selezione
-* [Bakers] Impostare l&#39;orientamento predefinito della texture di output Normale rispetto alla preferenza
-* [Panettieri] Per impostazione predefinita, imposta le porzioni UV su Tutto
-* [Bakers] Opzione di aggiunta WordSpaceDirection FromTexture/FromValue
-* [Pannelli] Da universale a tangente: imposta l’input predefinito su &quot;Da texture&quot;
+* [Baker] Imposta l&#39;ordine dell&#39;elenco di vista 2D come Baker l&#39;ordine dell&#39;elenco di rendering
+* [Baker] Rendi modale la finestra di esegue i baking
+* [Baker] Gestire i parametri di mappatura tonale
+* [Baker] Rimuovi selezione plug-in spazio tangente
+* [Baker] Salvare lo stato &quot;abilitato&quot; o &quot;disabilitato&quot; per i Baker durante il salvataggio di un predefinito
+* [Baker] Selezionare il materiale per impostazione predefinita nel widget di selezione
+* [Baker] Imposta l’orientamento predefinito della texture di output Normale in relazione alla preferenza
+* [Baker] Per impostazione predefinita, imposta le porzioni UV su Tutto
+* [Baker] Opzione di aggiunta WordSpaceDirection FromTexture/FromValue
+* [Baker] Da mondo a tangente: imposta l&#39;input predefinito su &quot;Da texture&quot;
 * [SBSBaker] Create un&#39;opzione per controllare l&#39;ordine backend
 * [SBSBaker] Migliore utilizzo dell&#39;argomento StringList
 * [SBSBaker] Rinominare &quot;match\_source\_instance&quot; in &quot;match\_mesh\_name&quot;
@@ -185,7 +183,7 @@ Ogni anno, la [VFX Reference Platform](https://vfxplatform.com/) pubblica un ele
 * [Nodes] Aggiungere descrizioni comandi avanzate per i nodi atomici
 * [Parameters] Chiude la sezione &#39;Attributes&#39; per impostazione predefinita
 * [Parametri] Consente all&#39;utente di specificare i valori di default dei parametri di base per le nuove istanze
-* [Preferenze] Pannelli: aggiungi un&#39;opzione booleana per calcolare lo spazio tangente per frammento
+* [Preferenze] Baker: aggiungi un&#39;opzione booleana per calcolare lo spazio tangente per frammento
 * [Preferenze] Rimuovi i plug-in dello spazio tangente
 * [Preferenze] Memorizzare le preferenze per le versioni secondarie di SD (XX.X)
 * [VFX] Aggiornamento incrementale alla versione 1.85.0
@@ -217,18 +215,18 @@ Ogni anno, la [VFX Reference Platform](https://vfxplatform.com/) pubblica un ele
 * [Security] Vulnerabilità di scrittura II non associata, durante l&#39;analisi del file NEF
 * [Sicurezza] Vulnerabilità di lettura non associata III, durante l&#39;analisi del file DNG
 * [Preferenze] Problemi UX nelle impostazioni del progetto per progetti di sola lettura
-* [Risorse] Più set UV non vengono visualizzati quando si aprono file FBX
+* [Risorse] Più set UV non vengono visualizzati quando si aprono i file FBX
 * [UI] Etichette sovrapposte nella barra di stato
 * [UI] Le descrizioni del menu a discesa &quot;Modalità creazione collegamento&quot; non vengono visualizzate
 
 ### PROBLEMI NOTI
 
-* [Bakers] Arresto anomalo durante la cottura con alcuni driver NVidia specifici
-* [Vista 3D] OpenGL: alcune scene importate potrebbero non essere renderizzate
-* [Vista 3D] Rasterizzatore: artefatti di ombra quando si utilizza lo spostamento su una scena piatta
-* [Vista 3D] Tracciatore: prestazioni lente durante l&#39;aggiornamento delle texture con tasselation/spostamento abilitato
-* [Vista 3D] Alcune proprietà del materiale cromatico non sono gestite correttamente dal colore quando vengono modificate localmente
-* [Vista 3D] Le scene con forme di base animate non sono supportate correttamente
-* [Vista 3D] La trama con più elementi UDim non è ancora supportata
-* [Vista 3D] Le trame con più UV non sono supportate e potrebbero causare un rendering del materiale non valido
-* [Vista 3D] Tracciatore non supportato sulle schede grafiche AMD
+* [Baker] Arresti anomali durante la esegue i baking con alcuni driver NVidia specifici
+* [vista 3D] OpenGL: alcune scene importate potrebbero non essere renderizzate
+* [vista 3D] Rasterizzatore: artefatti di ombra quando si utilizza lo spostamento su una scena piatta
+* [vista 3D] Tracciatore: prestazioni lente durante l&#39;aggiornamento della texture con tasselation/spostamento abilitato
+* [vista 3D] Alcune proprietà del materiale cromatico non vengono gestite correttamente quando vengono modificate localmente
+* [vista 3D] Le scene con forme di base animate non sono supportate correttamente
+* [vista 3D] La trama con più UDim non è ancora supportata
+* [vista 3D] Le trame con più UV non sono supportate in modo affermativo e potrebbero causare una resa del materiale non valida
+* [vista 3D] Tracciatore non supportato sulle schede grafiche AMD

@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools.html"
+breadcrumb-title: ""
 description: Accedi a tutti i nodi degli strumenti tracciato per creare, manipolare e convertire i tracciati nei grafici Substance.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Strumenti tracciato
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 1%
-
 ---
-
 
 # Strumenti percorso
 
@@ -28,13 +26,13 @@ Seguite questo tutorial per iniziare:
 
 >[!TIP]
 >
-> Ti consigliamo di imparare a [utilizzare il percorso e gli Strumenti spline](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/working-with-path-and-spl/working-with-path-and-spline-tools.md) per sfruttare al meglio il set di strumenti.
+> Ti consigliamo di imparare a [utilizzare il percorso e gli Strumenti spline](../../../../../learning-tutorials/nodes/working-with-path-and-splines/working-with-path-and-spline-tools.md) per sfruttare al meglio il set di strumenti.
 > 
 > Per gli utenti esperti, la [Specifica formato tracciati](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-format-spe/paths-format-specifications.md) spiega come i dati dei tracciati vengono codificati in immagini a colori e fornisce suggerimenti per la modifica diretta di questi dati.
 
 ## Elenco nodi
 
-[Trasformazione tracciati 2D](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md)
+[Tracciati 2D Trasforma](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md)
 
 [Maschera su tracciati](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md)
 
@@ -46,7 +44,7 @@ Seguite questo tutorial per iniziare:
 
 [Alterazione tracciati](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md)
 
-[Quad Transform on Path](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/quad-transform-on-path/quad-transform-on-path.md)
+[Trasforma quadrupla su tracciato](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/quad-transform-on-path/quad-transform-on-path.md)
 
 [Selezione tracciati](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-select/paths-select.md)
 

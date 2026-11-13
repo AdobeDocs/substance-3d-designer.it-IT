@@ -3,16 +3,36 @@ user-guide-title: Substance 3D Designer
 breadcrumb-title: Substance 3D Designer
 user-guide-description: Substance 3D Designer
 nudge: true
-source-git-commit: c460f605a97021efd2143941c28a977e12452299
+source-git-commit: 44076f66b3e266dc57516b743f7cfe35c2ff82d1
 workflow-type: tm+mt
-source-wordcount: '1905'
+source-wordcount: '1915'
 ht-degree: 21%
 ---
 
 # Substance 3D Designer {#using}
 
 + [Guida utente](/help/home/home.md)
-+ [Glossario](/help/glossary/glossary.md)
++ Apprendimento ed esercitazioni{#learning-tutorials}
+  + Essenziali{#essentials}
+    + Procedure ottimali{#best-practices}
+      + [Procedure ottimali](/help/learning-tutorials/essentials/best-practices/best-practices.md)
+      + [Linee guida per la riduzione delle dimensioni dei file](/help/learning-tutorials/essentials/best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md)
+      + [Query per la creazione di grafici](/help/learning-tutorials/essentials/best-practices/graph-creation-etiquette/graph-creation-etiquette.md)
+      + [Linee guida per l&#39;ottimizzazione delle prestazioni](/help/learning-tutorials/essentials/best-practices/performance-optimization/performance-optimization-guidelines.md)
+    + Concetti chiave{#key-concepts}
+      + [Concetti fondamentali del grafico Substance](/help/learning-tutorials/essentials/key-concepts/substance-graph-key-concepts.md)
+    + [Glossario](/help/learning-tutorials/essentials/glossary/glossary.md)
+  + [Guida introduttiva](../learning-tutorials/getting-started/getting-started.md)
+  + Nodi{#nodes}
+    + [Operazioni con le spline](/help/learning-tutorials/nodes/working-with-path-and-splines/working-with-path-and-spline-tools.md)
+    + [Utilizzo della Funzione SDF](/help/learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md)
+  + Visualizzazione 3D{#3d-view}
+    + Utilizzo di scene 3D{#working-with-3d-scenes}
+      + [Utilizzo di scene 3D](/help/learning-tutorials/3d-view/working-with-3d-scenes/working-with-3d-scenes.md)
+      + [Sostituzione dei materiali della scena](/help/learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md)
+      + [Valori e texture dei materiali di estrazione](/help/learning-tutorials/3d-view/working-with-3d-scenes/extracting-materials/extracting-materials.md)
+      + [Esportazione di scene](/help/learning-tutorials/3d-view/working-with-3d-scenes/exporting-scenes/exporting-scenes.md)
+  + [Tutti i campioni](../learning-tutorials/all-samples/all-samples.md)
 + Guida introduttiva{#getting-started}
   + [Guida introduttiva](/help/getting-started/getting-started.md)
   + [Attivazione e licenze](/help/getting-started/activation-and-licenses/activation-and-licenses.md)
@@ -80,7 +100,6 @@ ht-degree: 21%
   + [Avvisi da dipendenze](/help/resources/warnings-from-dep/warnings-from-dependencies.md)
 + Grafici Substance{#substance-graphs}
   + [Grafici Substance](/help/compositing-graphs/substance-compositing-graphs.md)
-  + [Concetti fondamentali del grafico Substance](/help/compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md)
   + Creazione di un grafico Substance{#creating-a-substance-graph}
     + [Creazione di un grafico Substance](/help/compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)
     + [Campioni di materiale](/help/compositing-graphs/creating-compositing-gra/material-samples/material-samples.md)
@@ -541,7 +560,6 @@ ht-degree: 21%
           + [Triplanare](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/tri-planar/tri-planar.md)
       + Strumenti Tracciato spline{#spline-path-tools}
         + [Strumenti Tracciato spline](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-paths-tools.md)
-        + [Utilizzo degli Strumenti spline di tracciato](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/working-with-path-and-spl/working-with-path-and-spline-tools.md)
         + [Tracciati da spline](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)
         + Strumenti percorso{#path-tools}
           + [Strumenti percorso](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-tools.md)
@@ -646,7 +664,6 @@ ht-degree: 21%
     + Libreria nodo di funzione{#function-node-library}
       + [Libreria nodo di funzione](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-node-library.md)
       + Funzioni SDF{#sdf-functions}
-        + [Utilizzo della Funzione SDF](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.md)
         + Primitivi{#sdf-functions-primitives}
           + [Cono chiuso](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/sdf-functions-primitives/3d-sdf-capped-cone/3d-sdf-capped-cone.md)
           + [Cono chiuso (2 punti)](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/sdf-functions-primitives/3d-sdf-capped-cone-2-points/3d-sdf-capped-cone-2-points.md)
@@ -702,19 +719,9 @@ ht-degree: 21%
       + Casuale{#random}
         + [Casuale](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-random/function-nodes-random.md)
         + [Funzioni Hash](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-random/hash-functions/hash-functions.md)
-+ Utilizzo di scene 3D{#working-with-3d-scenes}
-  + [Utilizzo di scene 3D](/help/working-with-3d-scenes/working-with-3d-scenes.md)
-  + [Sostituzione dei materiali della scena](/help/working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)
-  + [Valori e texture dei materiali di estrazione](/help/working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md)
-  + [Esportazione di scene](/help/working-with-3d-scenes/exporting-scenes/exporting-scenes.md)
 + Baker{#bakers}
   + [Baker](/help/bakers/bakers.md)
   + [Interfaccia legacy baker](/help/bakers/bakers-legacy-interface/bakers-legacy-interface.md)
-+ Procedure ottimali{#best-practices}
-  + [Procedure ottimali](/help/best-practices/best-practices.md)
-  + [Linee guida per la riduzione delle dimensioni dei file](/help/best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md)
-  + [Query per la creazione di grafici](/help/best-practices/graph-creation-etiquette/graph-creation-etiquette.md)
-  + [Linee guida per l&#39;ottimizzazione delle prestazioni](/help/best-practices/performance-optimization/performance-optimization-guidelines.md)
 + Configurazione della pipeline e del progetto{#pipeline-and-project-configuration}
   + [Configurazione della pipeline e del progetto](/help/pipeline-and-project-con/pipeline-and-project-configuration.md)
   + [File di configurazione del progetto - SBSPRJ](/help/pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md)
