@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Sfocatura direzionale
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 8%
@@ -83,7 +83,7 @@ Le immagini seguenti mostrano la sfocatura direzionale e la [sfocatura anisotrop
 
 |  |  |
 | --- | --- |
-| <b>Input</b> *Scala di grigi/Colore* [PRIMARIO](../../../../learning-tutorials/essentials/glossary/glossary.md#primary-input) | Immagine da elaborare. |
+| <b>Input</b> *Scala di grigi/Colore* [PRIMARIO](../../../../glossary/glossary.md) | Immagine da elaborare. |
 
 
 ## Esempi

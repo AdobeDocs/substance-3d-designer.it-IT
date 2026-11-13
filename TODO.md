@@ -1,7 +1,7 @@
 ---
-source-git-commit: 44076f66b3e266dc57516b743f7cfe35c2ff82d1
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '243'
 ht-degree: 4%
 ---
 # TODO
@@ -41,10 +41,6 @@ ht-degree: 4%
 
 * [Lavoro in corso]: aggiornamento e completamento della pagina &#39;Scelte rapide da tastiera&#39;
 
-## Modifiche
-
-* Ristrutturazione [Utilizzo delle spline](help/learning-tutorials/nodes/working-with-path-and-splines/working-with-path-and-spline-tools.md) per assegnare le priorità alle spline
-
 ## Correzioni
 
 * Correggere la dimensione delle icone in [overview.md](help/getting-started/overview/overview.md)
@@ -66,11 +62,5 @@ ht-degree: 4%
   - Indicatore di complessità negli elementi campione
 - Fornisci agli autori campione lo strumento di convalida SBS
 - Citazione dei file SBS scaricabili da risorse 3D (con abbonamento attivo)
-
-### Incrementi
-
-* Pagina di destinazione
-* Sezione &quot;Nuove funzioni&quot;
-* Sezione &quot;Funzioni&quot; (?)
 
 Il microsito per il glossario?

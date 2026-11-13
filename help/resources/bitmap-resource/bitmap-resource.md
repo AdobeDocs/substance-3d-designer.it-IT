@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Risorsa bitmap
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 2%
@@ -64,9 +64,9 @@ Le risorse bitmap in un pacchetto hanno una serie di attributi che è possibile 
 | Tag | Utilizzato per [ordinare e gestire la risorsa](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) nella [libreria](../../interface/the-library/the-library.md). |
 | Dati utente | Dati aggiuntivi opzionali, non utilizzati sulle bitmap. |
 | Mostra nella libreria | Determina se la bitmap deve essere nascosta in [visualizzazione Libreria.](../../interface/the-library/the-library.md) |
-| Formato bitmap | Raw o Jpeg, ha un grande effetto sulla dimensione del file SBSAR. Per ulteriori informazioni, consulta le [linee guida per la riduzione del file](../../learning-tutorials/essentials/best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md). |
+| Formato bitmap | Raw o Jpeg, ha un grande effetto sulla dimensione del file SBSAR. Per ulteriori informazioni, consulta le [linee guida per la riduzione del file](../../best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md). |
 | Qualità di compressione bitmap | Ha effetto solo con la compressione Jpeg e determina il bilanciamento tra qualità e dimensione dei file. |
 
 ## Riduzione della dimensione dei file
 
-Per consigli su come ridurre al minimo le dimensioni dei file delle bitmap incorporate nelle [risorse Substance 3D pubblicate (SBSAR)](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md), consultate la pagina [Linee guida per la riduzione dei file](../../learning-tutorials/essentials/best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md) nella sezione [Procedure ottimali](../../learning-tutorials/essentials/best-practices/best-practices.md).
+Per consigli su come ridurre al minimo le dimensioni dei file delle bitmap incorporate nelle [risorse Substance 3D pubblicate (SBSAR)](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md), consultate la pagina [Linee guida per la riduzione dei file](../../best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md) nella sezione [Procedure ottimali](../../best-practices/best-practices.md).

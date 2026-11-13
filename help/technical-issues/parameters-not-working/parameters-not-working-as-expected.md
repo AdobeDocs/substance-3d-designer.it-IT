@@ -10,7 +10,7 @@ helpx_tags: ""
 title: I parametri non funzionano come previsto
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 6%
@@ -28,7 +28,7 @@ Alcuni parametri esposti per un grafico sono *non elencati* quando si utilizza l
 
 ![(tick)](parameters-not-working-as-expected.resources/check.svg) <b>Passaggi consigliati</b>
 
-I parametri mancanti sono probabilmente [parametri statici](../../learning-tutorials/essentials/glossary/glossary.md#static-parameter), che *non possono essere modificati al volo* dopo che il grafico è stato *elaborato*, ovvero elaborato per eseguire il relativo algoritmo in modo rapido ed efficiente. La cottura avviene in Designer ogni volta che il grafico viene *modificato* o *pubblicato*. I parametri interessati da tali limitazioni sono elencati nella sezione [Limitazioni](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) della pagina [Esposizione di un parametro](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) di questa documentazione.
+I parametri mancanti sono probabilmente [parametri statici](../../glossary/glossary.md), che *non possono essere modificati al volo* dopo che il grafico è stato *elaborato*, ovvero elaborato per eseguire il relativo algoritmo in modo rapido ed efficiente. La cottura avviene in Designer ogni volta che il grafico viene *modificato* o *pubblicato*. I parametri interessati da tali limitazioni sono elencati nella sezione [Limitazioni](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) della pagina [Esposizione di un parametro](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) di questa documentazione.
 
 Di conseguenza, i parametri statici sono visibili e modificabili in Designer, ma sono *nascosti* in una risorsa Substance 3D pubblicata. È possibile utilizzare la [modalità anteprima](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) per verificare l&#39;applicazione di queste limitazioni prima della pubblicazione in una risorsa di Substance 3D.
 

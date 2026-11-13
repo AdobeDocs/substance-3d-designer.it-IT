@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Browser scene
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 44076f66b3e266dc57516b743f7cfe35c2ff82d1
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 Il browser scene della vista 3D elenca tutti gli elementi della scena e la loro gerarchia.
 
-Offre controlli per la selezione degli oggetti, l&#39;attivazione della loro visibilità e la selezione del materiale che deve [sostituire un materiale della scena](../../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md).
+Offre controlli per la selezione degli oggetti, l&#39;attivazione della loro visibilità e la selezione del materiale che deve [sostituire un materiale della scena](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md).
 
 Poiché Designer utilizza [USD](https://openusd.org/release/index.html) per descrivere e gestire le scene, la terminologia e i concetti corrispondenti si trovano nell&#39;albero delle scene.
 
@@ -38,7 +38,7 @@ L’elenco delle scene visualizza un elenco di oggetti disposti in una struttura
 
 Gli oggetti sono associati ad altri oggetti, fino alla radice della scena. Un oggetto principale è dotato di un pulsante freccia che consente di espandere o comprimere l’elenco dei relativi oggetti secondari.
 
-Alcuni oggetti dispongono di proprietà che possono essere visualizzate e modificate nel dock [Proprietà](../../../interface/properties/properties.md) se selezionate: ambiente, fotocamera, luci, `Mesh` oggetti e materiale [sostituzioni](../../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md).
+Alcuni oggetti dispongono di proprietà che possono essere visualizzate e modificate nel dock [Proprietà](../../../interface/properties/properties.md) se selezionate: ambiente, fotocamera, luci, `Mesh` oggetti e materiale [sostituzioni](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md).
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
@@ -67,7 +67,7 @@ Designer aggiunge alcuni oggetti a qualsiasi scena caricata. Gli oggetti aggiunt
 
 Quando si utilizza l&#39;azione &quot;Modifica...&quot; nei menu Luci, Videocamera e Ambiente, questi sono gli oggetti che vengono modificati, indipendentemente dal fatto che ci siano altre luci, videocamere o ambienti nella scena.
 
-Questi oggetti sono inclusi nella scena quando [viene esportato](../../../learning-tutorials/3d-view/working-with-3d-scenes/exporting-scenes/exporting-scenes.md).
+Questi oggetti sono inclusi nella scena quando [viene esportato](../../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md).
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
@@ -136,9 +136,9 @@ L&#39;elenco scene consente inoltre di collegare qualsiasi materiale sottoposto 
 
 I materiali elencati da Designer sono gli oggetti Materiali nell&#39;albero della scena utilizzati su almeno una trama.
 
-Quando [sostituisci](../../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md) uno di questi materiali, Designer crea una copia con suffisso numerico.
+Quando [sostituisci](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) uno di questi materiali, Designer crea una copia con suffisso numerico.
 
-Un materiale sottoposto a override offre un elemento aggiuntivo nel relativo menu di scelta rapida: il sottomenu &#39;[Materiale connesso](../../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md)&#39; elenca tutti gli altri materiali disponibili che possono essere utilizzati per sovrascrivere questo materiale.
+Un materiale sottoposto a override offre un elemento aggiuntivo nel relativo menu di scelta rapida: il sottomenu &#39;[Materiale connesso](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)&#39; elenca tutti gli altri materiali disponibili che possono essere utilizzati per sovrascrivere questo materiale.
 
 </td>
 <td style="border: 0;" valign="top">

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Strumenti spline
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 1%
@@ -26,7 +26,7 @@ Seguite questo tutorial per iniziare:
 
 >[!TIP]
 >
-> Ti consigliamo di imparare a [utilizzare il percorso e gli Strumenti spline](../../../../../learning-tutorials/nodes/working-with-path-and-splines/working-with-path-and-spline-tools.md) per sfruttare al meglio il set di strumenti.
+> Ti consigliamo di imparare a [utilizzare il percorso e gli Strumenti spline](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/working-with-path-and-spl/working-with-path-and-spline-tools.md) per sfruttare al meglio il set di strumenti.
 
 ## Elenco nodi
 

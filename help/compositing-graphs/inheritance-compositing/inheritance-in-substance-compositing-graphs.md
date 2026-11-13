@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ereditarietà nei grafici Substance
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1681'
 ht-degree: 0%
@@ -128,7 +128,7 @@ L&#39;elemento padre di un grafico è il *contesto* in cui esiste:
 >[!WARNING]
 >
 > La parentela è *applicata così com&#39;è* quando si pubblica un pacchetto in file di risorse Substance 3D (SBSAR). Ciò significa che l&#39;impostazione di qualsiasi parametro sul metodo di ereditarietà *Assoluto* determinerà il *blocco* di tale parametro sul valore corrente nella risorsa pubblicata.\
-> Anche se ciò è auspicabile per [nodi Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) o [scopi di ottimizzazione](../../learning-tutorials/essentials/best-practices/performance-optimization/performance-optimization-guidelines.md), ad esempio, si consiglia *vivamente* di utilizzare i metodi di ereditarietà *Relativi a...* quando si utilizzano grafici Substance, a meno che non vi sia uno *scopo chiaro* nel fare diversamente.
+> Anche se ciò è auspicabile per [nodi Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) o [scopi di ottimizzazione](../../best-practices/performance-optimization/performance-optimization-guidelines.md), ad esempio, si consiglia *vivamente* di utilizzare i metodi di ereditarietà *Relativi a...* quando si utilizzano grafici Substance, a meno che non vi sia uno *scopo chiaro* nel fare diversamente.
 
 ### MODIFICA IN CONTESTO
 

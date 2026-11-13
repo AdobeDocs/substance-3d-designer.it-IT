@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Panoramica
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 44076f66b3e266dc57516b743f7cfe35c2ff82d1
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 2%
@@ -44,7 +44,7 @@ Substance 3D Designer è un editor basato su nodi che consente di creare contenu
 
 **[Non lineare](../../compositing-graphs/substance-compositing-graphs.md):** puoi creare più output di texture contemporaneamente. Modifica una maschera o un cursore e ricalcola automaticamente qualsiasi output collegato. Non è più necessario creare separatamente mappe quali colore di base, rugosità, normale e così via.
 
-**[Non distruttivo](../../learning-tutorials/essentials/key-concepts/substance-graph-key-concepts.md):** puoi annullare qualsiasi azione *senza* perdere il tuo lavoro. Le iterazioni e le sperimentazioni risultano molto più rapide e la ricerca di flussi di lavoro ancora più efficienti.
+**[Non distruttivo](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md):** puoi annullare qualsiasi azione *senza* perdere il tuo lavoro. Le iterazioni e le sperimentazioni risultano molto più rapide e la ricerca di flussi di lavoro ancora più efficienti.
 
 **[esegue i baking integrata](../../bakers/bakers.md):** consente di accedere a strumenti di esegue i baking a trama avanzati e veloci direttamente all&#39;interno del software. Non è più necessario eseguire i baking in un software separato ed eseguire lunghi processi di importazione ed esportazione.
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versione 14.0
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1626'
 ht-degree: 0%
@@ -129,11 +129,11 @@ Separa normale
 
 ## Miglioramenti della qualità della vita
 
-* <b>Sono state migliorate le prestazioni </b>e la <b>reattività</b> quando si lavora su grandi progetti. Ad esempio, la rimozione dei nodi può essere fino a 75 volte più veloce. Anche il tempo di [cottura](../../learning-tutorials/essentials/glossary/glossary.md#cooking) è stato ridotto per i grafici che fanno riferimento più volte alla stessa bitmap.
-* <b>Parametri ereditati</b>: quando un parametro è [ereditato](../../learning-tutorials/essentials/glossary/glossary.md#inheritance), invece di visualizzare il valore predefinito, viene visualizzato quello ereditato in modo da conoscere il valore attualmente utilizzato. Ulteriori informazioni sull&#39;ereditarietà in [questa pagina dedicata della nostra documentazione](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md).
+* <b>Sono state migliorate le prestazioni </b>e la <b>reattività</b> quando si lavora su grandi progetti. Ad esempio, la rimozione dei nodi può essere fino a 75 volte più veloce. Anche il tempo di [cottura](../../glossary/glossary.md) è stato ridotto per i grafici che fanno riferimento più volte alla stessa bitmap.
+* <b>Parametri ereditati</b>: quando un parametro è [ereditato](../../glossary/glossary.md), invece di visualizzare il valore predefinito, viene visualizzato quello ereditato in modo da conoscere il valore attualmente utilizzato. Ulteriori informazioni sull&#39;ereditarietà in [questa pagina dedicata della nostra documentazione](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md).
 * Il supporto per <b>trackpad</b> su MacOS è stato completamente rielaborato per essere più naturale e in linea con altri software. Anche lo spostamento di nodi oltre i bordi della [Visualizzazione grafico](../../interface/the-graph-view/the-graph-view.md) è stato riprogettato per garantire maggiore fluidità e coerenza in tutti i sistemi operativi.
 
-* <b>vista 2D: </b>quando la visualizzazione in porzioni è abilitata in [vista 2D](../../interface/2d-view/2d-view.md), ora puoi ottenere valori anche per i pixel che non si trovano nella porzione originale: è molto utile controllare il [campionamento](../../learning-tutorials/essentials/glossary/glossary.md#texture-sampling) e le transizioni dei valori tra le porzioni.
+* <b>vista 2D: </b>quando la visualizzazione in porzioni è abilitata in [vista 2D](../../interface/2d-view/2d-view.md), ora puoi ottenere valori anche per i pixel che non si trovano nella porzione originale: è molto utile controllare il [campionamento](../../glossary/glossary.md) e le transizioni dei valori tra le porzioni.
 
 ![vista 2d](version-14-0.resources/2dview.gif){width="320px" zoomable="yes"}
 

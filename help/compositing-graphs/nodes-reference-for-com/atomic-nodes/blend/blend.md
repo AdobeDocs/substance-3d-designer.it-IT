@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Fusione
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 8%
@@ -58,9 +58,9 @@ La sua funzionalità è simile a quella di due livelli sovrapposti in [Substance
 |  |  |
 | --- | --- |
 | <b>Opacità</b> *Virgola mobile* | Opacità del livello di primo piano che si fonde con lo sfondo. Funziona indipendentemente dall’input Opacità e funge da moltiplicatore aggiuntivo. |
-| <b>Metodo fusione</b> *Intero* [Statico](../../../../learning-tutorials/essentials/glossary/glossary.md#static-parameter) | Imposta l&#39;operazione di fusione da utilizzare.   Consulta la [pagina dedicata sui metodi di fusione](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md). |
-| <b>Fusione alfa</b> *Intero* [Statico](../../../../learning-tutorials/essentials/glossary/glossary.md#static-parameter) | Determina il comportamento di fusione quando gli input di colore hanno Canali alfa:<ul data-preserve-html="true"> <li data-preserve-html="true">Usa alfa sorgente</li> <li data-preserve-html="true">Ignora alfa</li> <li data-preserve-html="true">Fusione alfa semplice</li> <li data-preserve-html="true">Fusione alfa premoltiplicata</li> </ul> |
-| <b>Area di ritaglio</b> *Virgola mobile 4* [Statico](../../../../learning-tutorials/essentials/glossary/glossary.md#static-parameter) | Consente di impostare un’area di ritaglio personalizzata che si comporti come una maschera di opacità aggiuntiva. Qualsiasi area ritagliata mostra solo lo sfondo. |
+| <b>Metodo fusione</b> *Intero* [Statico](../../../../glossary/glossary.md) | Imposta l&#39;operazione di fusione da utilizzare.   Consulta la [pagina dedicata sui metodi di fusione](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md). |
+| <b>Fusione alfa</b> *Intero* [Statico](../../../../glossary/glossary.md) | Determina il comportamento di fusione quando gli input di colore hanno Canali alfa:<ul data-preserve-html="true"> <li data-preserve-html="true">Usa alfa sorgente</li> <li data-preserve-html="true">Ignora alfa</li> <li data-preserve-html="true">Fusione alfa semplice</li> <li data-preserve-html="true">Fusione alfa premoltiplicata</li> </ul> |
+| <b>Area di ritaglio</b> *Virgola mobile 4* [Statico](../../../../glossary/glossary.md) | Consente di impostare un’area di ritaglio personalizzata che si comporti come una maschera di opacità aggiuntiva. Qualsiasi area ritagliata mostra solo lo sfondo. |
 
 ## Connettori di ingresso
 

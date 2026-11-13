@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Elaboratore pixel
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 1%
@@ -51,7 +51,7 @@ Analogamente a [FX-Map](../../../../function-graphs/fxmaps/fxmaps.md), richiede 
 
 L&#39;Elaboratore pixel è simile al [Processore di valori](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md), che viene eseguito solo su valori singoli e può fornire una buona ottimizzazione rispetto all&#39;Elaboratore pixel.
 
-Per tutti gli utenti abituati a creare le funzioni [shader](../../../../learning-tutorials/essentials/glossary/glossary.md#shader) in editor basati su nodi, l&#39;Elaboratore pixel deve offrire un ambiente familiare.
+Per tutti gli utenti abituati a creare le funzioni [shader](../../../../glossary/glossary.md) in editor basati su nodi, l&#39;Elaboratore pixel deve offrire un ambiente familiare.
 
 
 >[!TIP]
@@ -62,7 +62,7 @@ Per tutti gli utenti abituati a creare le funzioni [shader](../../../../learning
 > 
 > Tenete inoltre presente che l&#39;utilizzo di questo tipo di grafico e l&#39;esecuzione di operazioni matematiche sono obbligatori per ottenere qualsiasi risultato da questo nodo.
 > 
-> Ti consigliamo inoltre di familiarizzare con il concetto di [UV](../../../../learning-tutorials/essentials/glossary/glossary.md#uv), [campionamento della texture](../../../../learning-tutorials/essentials/glossary/glossary.md#texture-sampling) e vettori.
+> Ti consigliamo inoltre di familiarizzare con il concetto di [UV](../../../../glossary/glossary.md), [campionamento della texture](../../../../glossary/glossary.md) e vettori.
 
 
 ## Parametri
@@ -70,7 +70,7 @@ Per tutti gli utenti abituati a creare le funzioni [shader](../../../../learning
 |  |  |
 | --- | --- |
 | <b>Metodo colore</b> *Booleano* | Alterna tra un’immagine in scala di grigio e un’immagine a colori in output. |
-| <b>Funzione per pixel</b> *Virgola mobile/Virgola mobile4* | [Grafico a funzioni Substance](../../../../function-graphs/the-function-graph/the-function-graph.md) valutato per pixel nell&#39;immagine di output.   Utilizzare il nodo [Get Virgola mobile2](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md) impostato sulla variabile <b>$pos</b> per accedere alla posizione [normalizzata](../../../../learning-tutorials/essentials/glossary/glossary.md#normalization) del pixel corrente. |
+| <b>Funzione per pixel</b> *Virgola mobile/Virgola mobile4* | [Grafico a funzioni Substance](../../../../function-graphs/the-function-graph/the-function-graph.md) valutato per pixel nell&#39;immagine di output.   Utilizzare il nodo [Get Virgola mobile2](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md) impostato sulla variabile <b>$pos</b> per accedere alla posizione [normalizzata](../../../../glossary/glossary.md) del pixel corrente. |
 
 ## Connettori di ingresso
 

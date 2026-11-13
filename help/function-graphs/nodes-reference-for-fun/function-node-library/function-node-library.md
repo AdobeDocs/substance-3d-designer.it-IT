@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Libreria nodo di funzione
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 3f5ca55e459e04f5b81755565c6f674dbc3c845c
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 6%
@@ -30,7 +30,7 @@ Questi nodi consentono di creare Funzioni SDF che possono essere utilizzate per 
 
 >[!INFO]
 > 
-> Per ulteriori informazioni sui concetti e i flussi di lavoro relativi alla Funzione SDF, consulta la pagina dedicata: [Utilizzo della Funzione SDF](../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md)
+> Per ulteriori informazioni sui concetti e i flussi di lavoro relativi alla Funzione SDF, consulta la pagina dedicata: [Utilizzo della Funzione SDF](function-nodes-sdf-functions/working-with-sdf-functions.md)
 
 <table>
 <tr style="border: 0;">

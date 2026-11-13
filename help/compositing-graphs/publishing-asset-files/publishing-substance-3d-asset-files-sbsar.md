@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Pubblicazione di file di risorse Substance 3D (SBSAR)
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1238'
 ht-degree: 2%
@@ -30,7 +30,7 @@ quando pubblicate un grafico a Substance, è bene tenere presente quanto segue:
 
 * L&#39;utente <b> pubblica un pacchetto</b>, con tutto il relativo contenuto, non un [grafico Substance](../../compositing-graphs/substance-compositing-graphs.md) singolo. Una risorsa Substance 3D consente quindi di generare contenuti da tutti i grafici Substance all&#39;interno di questo pacchetto.
 * I pacchetti pubblicati sono <b>completamente autonomi</b>: tutte le risorse necessarie sono incorporate nel file. Questo significa che sono molto più facili da condividere rispetto ai file SBS.
-* L&#39;output delle risorse Substance 3D può essere <b>completamente dinamico</b>. [Risoluzione non impostata. È possibile modificare i parametri esposti.](../../learning-tutorials/essentials/key-concepts/substance-graph-key-concepts.md) Tuttavia, la modifica del grafico non è più possibile.
+* L&#39;output delle risorse Substance 3D può essere <b>completamente dinamico</b>. [Risoluzione non impostata. È possibile modificare i parametri esposti.](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md) Tuttavia, la modifica del grafico non è più possibile.
 * Le risorse Substance 3D possono essere utilizzate al di fuori di Designer, in tutti i prodotti Substance 3D di Adobe, Adobe Dimension e in qualsiasi altra applicazione con [integrazione Substance](https://experienceleague.adobe.com/it/docs/substance-3d/ecosystem/home).
 * La pubblicazione è diversa dall&#39;[esportazione](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md). Assicurati di aver compreso bene la differenza.
 

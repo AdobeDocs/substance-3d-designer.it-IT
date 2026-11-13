@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Panoramica del flusso di lavoro
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1117'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Per ulteriori informazioni sulle istanze dei grafici, è disponibile una [sezion
 Qualsiasi nodo nella catena di operazioni avrà una qualche forma di controlli: pulsanti, cursori, impostazioni che potrai modificare per influenzare il risultato finale.\
 Se create un grafico secondario o desiderate esportare il file di Substance in un’altra applicazione, potete creare un &quot;pannello di controllo&quot; personalizzato per i vostri grafici, che consenta agli altri utenti di modificarli con un pannello di controllo completamente univoco.
 
-Scopri il concetto generale dei parametri personalizzati [qui](../../learning-tutorials/essentials/key-concepts/substance-graph-key-concepts.md) oppure accedi a profondità e [inizia a esporre i parametri](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
+Scopri il concetto generale dei parametri personalizzati [qui](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md) oppure accedi a profondità e [inizia a esporre i parametri](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
 
 ## Tipi di grafici
 

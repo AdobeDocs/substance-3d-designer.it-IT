@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Guida utente di Substance 3D Designer
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 89%
@@ -22,7 +22,7 @@ ht-degree: 89%
 
 [Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html) è un software per la creazione di materiali. Consente di utilizzare un grafico a nodi per generare texture da pattern e rumori procedurali, nonché per manipolare le bitmap.
 
-Una parola o un concetto utilizzato in Designer non è familiare? Per ulteriori informazioni, consultate il nostro [Glossario](../learning-tutorials/essentials/glossary/glossary.md).
+Una parola o un concetto utilizzato in Designer non è familiare? Per ulteriori informazioni, consultate il nostro [Glossario](../glossary/glossary.md).
 
 In caso di domande a cui non ha risposto questo manuale, è possibile scrivere nel [forum di supporto della community](https://community.adobe.com/t5/substance-3d-designer/ct-p/ct-substance-3d-designer). È possibile anche scaricare la nostra [Guida al rendering basato su dati fisici](https://substance3d.adobe.com/tutorials/courses/the-pbr-guide-part-1) per ulteriori informazioni su PBR.
 
@@ -66,7 +66,7 @@ In caso di domande a cui non ha risposto questo manuale, è possibile scrivere n
 
 ## Grafici Substance
 
-* [Concetti fondamentali del grafico Substance](../learning-tutorials/essentials/key-concepts/substance-graph-key-concepts.md)
+* [Concetti fondamentali del grafico Substance](../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md)
 * [Creazione di un grafico Substance](../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)
 * [Esposizione di un parametro](../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)
 * [Parametri del grafico](../compositing-graphs/graph-parameters/graph-parameters.md)

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: FX-Map
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 1%
@@ -65,7 +65,7 @@ Tenete presente che, a differenza di altri nodi, la maggior parte del comportame
 | <b>Sfondo</b> *Virgola mobile/Virgola mobile4* | Imposta il colore iniziale dello sfondo su cui comporre i risultati. |
 | <b>Area di rendering</b> *Virgola mobile 4* | Consente di impostare l’intervallo di pixel iniziale per ciascun lato dell’FX-Map, ottenendo così un effetto allungamento. |
 | <b>Area Affiancamento</b> *Virgola mobile 4* | Consente di scostare la distanza di Affiancamento dell’FX-Map. |
-| <b>Cull all&#39;esterno</b> *Booleano* | Esegue un&#39;ottimizzazione [eliminando](../../../../learning-tutorials/essentials/glossary/glossary.md#culling) modelli che non rientrano nell&#39;intervallo normale. |
+| <b>Cull all&#39;esterno</b> *Booleano* | Esegue un&#39;ottimizzazione [eliminando](../../../../glossary/glossary.md) modelli che non rientrano nell&#39;intervallo normale. |
 | <b>Rugosità</b> *Virgola mobile* | Funge da moltiplicatore di profondità e opacità. Applica una distorsione al processo di fusione FX-map. |
 | <b>Opacità globale</b> *Virgola mobile* | Imposta l’opacità globale dell’output di FX-map. |
 

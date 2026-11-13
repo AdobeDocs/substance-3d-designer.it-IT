@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versione 15.0
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1894'
 ht-degree: 0%
@@ -53,16 +53,16 @@ Inoltre, il tasto di scelta rapida per ruotare la luce ambientale è stato modif
 
 ## Edizione delle risorse nel contesto
 
-Quando lavori sui tuoi materiali, potresti voler [visualizzarli in anteprima nel contesto di una scena 3D specifica](../../learning-tutorials/3d-view/working-with-3d-scenes/working-with-3d-scenes.md). Ecco perché abbiamo aggiunto la possibilità di importare ed eseguire il rendering di una scena completa, con tutte le texture, le telecamere e le luci. E ciliegia in alto, se questa scena fa riferimento a Ombreggiature MaterialX, verranno renderizzati correttamente con il rasterizzatore!
+Quando lavori sui tuoi materiali, potresti voler [visualizzarli in anteprima nel contesto di una scena 3D specifica](../../working-with-3d-scenes/working-with-3d-scenes.md). Ecco perché abbiamo aggiunto la possibilità di importare ed eseguire il rendering di una scena completa, con tutte le texture, le telecamere e le luci. E ciliegia in alto, se questa scena fa riferimento a Ombreggiature MaterialX, verranno renderizzati correttamente con il rasterizzatore!
 
 ![Scena USD caricata e renderizzata in Designer](version-15-0.resources/feature_2.png)
 
-Una volta importato, puoi lavorare sulla scena selezionando una trama (con MAIUSC + clic o grazie al browser scene) e [ignorandone uno qualsiasi dei materiali](../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md). L’Utente può quindi:
+Una volta importato, puoi lavorare sulla scena selezionando una trama (con MAIUSC + clic o grazie al browser scene) e [ignorandone uno qualsiasi dei materiali](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md). L’Utente può quindi:
 
 * Create o caricate un grafico e applicatelo a un materiale della scena.
-* Apportate le regolazioni a un materiale esistente [estraendone le texture](../../learning-tutorials/3d-view/working-with-3d-scenes/extracting-materials/extracting-materials.md) in un nuovo grafico.
+* Apportate le regolazioni a un materiale esistente [estraendone le texture](../../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md) in un nuovo grafico.
 
-Infine, una volta modificata la scena 3D, puoi [esportarla](../../learning-tutorials/3d-view/working-with-3d-scenes/exporting-scenes/exporting-scenes.md) come nuovo file o come nuovo livello del file originale, per evitare la perdita di dati (solo per il formato USD).
+Infine, una volta modificata la scena 3D, puoi [esportarla](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md) come nuovo file o come nuovo livello del file originale, per evitare la perdita di dati (solo per il formato USD).
 
 Infine, sono ora supportati più formati 3D sia per l’importazione che per l’esportazione: USD (+ usda, usdc, usdz), STL, PLY e GLTF, oltre ai formati già disponibili FBX e OBJ.
 

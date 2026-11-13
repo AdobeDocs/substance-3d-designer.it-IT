@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Preferenze
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1973'
 ht-degree: 1%
@@ -76,7 +76,7 @@ Potete impostare la dimensione massima della cache allocata alle miniature e all
 | <b>Budget memoria</b>  *Predefinito: Automatico* | Questa allocazione viene calcolata automaticamente su circa il 75% del pool totale di memoria di sistema. Per impostare questo valore manualmente, selezionare l&#39;opzione &#39;*Personalizzato*&#39; e impostare un valore nel campo di input adiacente. |
 
 Si noti che la scrittura su disco è *più lenta* rispetto alla scrittura nella memoria di sistema. Di conseguenza, il tempo di rendering del grafico *aumenterà in modo esponenziale* poiché i dati in overflow devono essere scritti nella cartella temporanea.\
-Per evitare che ciò accada, si consiglia di esaminare i suggerimenti per la riduzione dell&#39;ingombro di memoria di un grafico nella sezione [Linee guida per l&#39;ottimizzazione delle prestazioni](../../learning-tutorials/essentials/best-practices/performance-optimization/performance-optimization-guidelines.md) della documentazione.
+Per evitare che ciò accada, si consiglia di esaminare i suggerimenti per la riduzione dell&#39;ingombro di memoria di un grafico nella sezione [Linee guida per l&#39;ottimizzazione delle prestazioni](../../best-practices/performance-optimization/performance-optimization-guidelines.md) della documentazione.
 
 #### Pianificazione lavori
 
@@ -125,7 +125,7 @@ Si noti inoltre che i salvataggi automatici devono essere aperti *dopo averli sp
 
 >[!NOTE]
 >
-> Si consiglia di esaminare i suggerimenti per ridurre l&#39;ingombro di memoria di un grafico nella sezione [Linee guida per l&#39;ottimizzazione delle prestazioni](../../learning-tutorials/essentials/best-practices/performance-optimization/performance-optimization-guidelines.md) della documentazione.
+> Si consiglia di esaminare i suggerimenti per ridurre l&#39;ingombro di memoria di un grafico nella sezione [Linee guida per l&#39;ottimizzazione delle prestazioni](../../best-practices/performance-optimization/performance-optimization-guidelines.md) della documentazione.
 
 ## Progetti
 
