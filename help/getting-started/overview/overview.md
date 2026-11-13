@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Panoramica
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
+source-git-commit: 44076f66b3e266dc57516b743f7cfe35c2ff82d1
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 2%
@@ -44,9 +44,9 @@ Substance 3D Designer è un editor basato su nodi che consente di creare contenu
 
 **[Non lineare](../../compositing-graphs/substance-compositing-graphs.md):** puoi creare più output di texture contemporaneamente. Modifica una maschera o un cursore e ricalcola automaticamente qualsiasi output collegato. Non è più necessario creare separatamente mappe quali colore di base, rugosità, normale e così via.
 
-**[Non distruttivo](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md):** puoi annullare qualsiasi azione *senza* perdere il tuo lavoro. Le iterazioni e le sperimentazioni risultano molto più rapide e la ricerca di flussi di lavoro ancora più efficienti.
+**[Non distruttivo](../../learning-tutorials/essentials/key-concepts/substance-graph-key-concepts.md):** puoi annullare qualsiasi azione *senza* perdere il tuo lavoro. Le iterazioni e le sperimentazioni risultano molto più rapide e la ricerca di flussi di lavoro ancora più efficienti.
 
-**[esegue i baking integrata](../../bakers/bakers.md):** consente di accedere a strumenti di esegue i baking a trama avanzati e veloci direttamente all&#39;interno del software. Non è più necessario eseguire il baking in un software separato ed eseguire lunghi processi di importazione ed esportazione.
+**[esegue i baking integrata](../../bakers/bakers.md):** consente di accedere a strumenti di esegue i baking a trama avanzati e veloci direttamente all&#39;interno del software. Non è più necessario eseguire i baking in un software separato ed eseguire lunghi processi di importazione ed esportazione.
 
 **[Parametrico](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md):** è possibile impostare il controllo di quasi tutti gli aspetti di una texture tramite un unico cursore o menu a discesa. Ciò consente di aggiungere un controllo e una variazione infiniti a una singola risorsa.
 
@@ -153,7 +153,7 @@ Le risorse non grafiche possono provenire da applicazioni esterne (come Photosho
 Esistono i seguenti tipi di risorse:
 
 * [Bitmap](../../resources/bitmap-resource/bitmap-resource.md)
-* [Grafica vettoriale (SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
+* [Grafiche vettoriali (SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
 * [Scene 3D](../../resources/3d-scene-resource/3d-scene-resource.md)
 * [Font](../../resources/font-resource/font-resource.md)
 * [File AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)

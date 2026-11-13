@@ -1,22 +1,20 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/output-size.html"
-breadcrumb-title: ''
-description: Configura le impostazioni delle dimensioni di output per Substance grafici di composizione per controllare la risoluzione e la qualità delle texture.
+breadcrumb-title: ""
+description: Configura le impostazioni delle dimensioni di output per i grafici di composizione delle Substance per controllare la risoluzione e la qualità delle texture.
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs > Output size
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Dimensioni output
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 46563ec789547cc1add76655dbad02f5099927a6
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 5%
-
 ---
-
 
 # Dimensioni output
 
@@ -38,7 +36,7 @@ Si tratta del primo dei <b>parametri di base</b> di un grafico e, insieme al <b>
 
 Il parametro Dimensione output determina la risoluzione dell&#39;output *texture* da parte di un grafico o di un nodo.
 
-Texture che è un oggetto nel computing grafico vincolato da alcune restrizioni imposte dal modo in cui l&#39;hardware di elaborazione grafica esegue i suoi calcoli. Una di queste restrizioni è che la texture deve rappresentare un&#39;immagine il cui numero di pixel in X e Y è una *potenza di due*.
+Texture che è un oggetto nell&#39;elaborazione grafica vincolato da alcune restrizioni imposte dal modo in cui l&#39;hardware di elaborazione grafica esegue i suoi calcoli. Una di queste restrizioni è che la texture deve rappresentare un&#39;immagine il cui numero di pixel in X e Y è una *potenza di due*.
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
@@ -64,11 +62,11 @@ Questo vale anche quando il valore Dimensione output è controllato da una [funz
 >[!IMPORTANT]
 >
 > Aumentando o diminuendo la risoluzione sia in X che in Y, il numero di pixel viene moltiplicato o diviso per *4*, con un impatto significativo sulle *prestazioni* e sull&#39;*ingombro di memoria* di un grafico.\
-> Pertanto, si consiglia vivamente di utilizzare la *risoluzione minima* effettivamente necessaria per ottenere il risultato desiderato. Tenere sotto controllo le risoluzioni è una delle [linee guida per l&#39;ottimizzazione delle prestazioni](../../best-practices/performance-optimization/performance-optimization-guidelines.md).
+> Pertanto, si consiglia vivamente di utilizzare la *risoluzione minima* effettivamente necessaria per ottenere il risultato desiderato. Tenere sotto controllo le risoluzioni è una delle [linee guida per l&#39;ottimizzazione delle prestazioni](../../learning-tutorials/essentials/best-practices/performance-optimization/performance-optimization-guidelines.md).
 
 >[!NOTE]
 >
-> In [Grafici a funzione](../../function-graphs/function-graphs.md), le `$size` e `$sizelog2` [variabili di sistema](../../function-graphs/variables/system-variables/system-variables.md) restituiscono un valore Float2 corrispondente alla risoluzione corrente del nodo o del grafico, rispettivamente come un numero di pixel non elaborati o una potenza di due.\
+> Nei [grafici delle funzioni](../../function-graphs/function-graphs.md), le `$size` e le `$sizelog2` [variabili di sistema](../../function-graphs/variables/system-variables/system-variables.md) restituiscono un valore Virgola mobile 2 corrispondente alla risoluzione corrente del nodo o del grafico, rispettivamente come numero di pixel raw o potenza di due.\
 > Ad esempio, per un&#39;immagine 1024\*512, `$size` restituisce `(1024,512)` mentre `$sizelog2` restituisce `(10,9)`.
 
 ## Dimensioni relative
@@ -77,7 +75,7 @@ Quando la proprietà Dimensione output utilizza un *Relativo a...* [metodo di er
 
 Modificatori relativi all’intervallo di risoluzione ereditato compreso tra -12 e +12 su una scala logaritmica; il valore predefinito è 0. Questo significa che ogni passaggio sopra o sotto comporta il raddoppio o il dimezzamento della risoluzione. La tabella a destra fornisce un esempio di come la risoluzione relativa cambia in una dimensione per un valore ereditato di 9 (ovvero, 512 = 2^9) e 11 (ovvero, 2048 = 2^11):
 
-Al di sopra di 8196, la dimensione è *limitata*. Questo limite è controllato dall&#39;impostazione <b>Limite dimensione cottura</b> nella sezione <b>Generali</b> delle [Preferenze](../../interface/preferences-window/preferences-window.md). Notate che lavorare con risoluzioni molto elevate comporta un costo delle prestazioni proporzionale e un ingombro di memoria esponenziale. Inoltre, i limiti nell’elaborazione grafica pongono un limite rigido alla dimensione massima di una texture.
+Al di sopra di 8196, la dimensione è *limitata*. Questo limite è controllato dall&#39;impostazione <b>Limite dimensione cottura</b> nella sezione <b>Generali</b> delle [Preferenze](../../interface/preferences-window/preferences-window.md). Notate che lavorare con risoluzioni molto elevate comporta un costo delle prestazioni proporzionale e un ingombro di memoria esponenziale. Inoltre, i limiti nell’elaborazione grafica pongono un limite rigido alle dimensioni massime di una texture.
 
 | -5 | -4 | -3 | -2 | -1 | 0 | +1 | +2 | +3 | +4 | +5 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -94,7 +92,7 @@ Nella maggior parte dei casi, il [metodo di ereditarietà](../../compositing-gra
 
 * Grafico: *relativo all&#39;elemento padre*
 * Nodo: *Rispetto all&#39;input* - In questo caso vengono utilizzati i valori ereditati dall&#39;[input primario](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) del nodo
-* Nodo [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md): *Assoluto*. Per ulteriori informazioni, vedere la pagina [Risorsa bitmap](../../resources/bitmap-resource/bitmap-resource.md) e le [linee guida per l&#39;ottimizzazione delle prestazioni](../../best-practices/performance-optimization/performance-optimization-guidelines.md)
+* Nodo [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md): *Assoluto*. Per ulteriori informazioni, vedere la pagina [Risorsa bitmap](../../resources/bitmap-resource/bitmap-resource.md) e le [linee guida per l&#39;ottimizzazione delle prestazioni](../../learning-tutorials/essentials/best-practices/performance-optimization/performance-optimization-guidelines.md)
 
 Visualizzare le proprietà di un nodo o di un grafico facendo clic sull&#39;elemento, quindi nel pannello [Proprietà](../../interface/properties/properties.md) individuare la proprietà <b>Dimensione output</b> nella sezione <b>Parametri di base</b>. Fare clic sul menu a discesa del metodo di ereditarietà per selezionare il metodo di ereditarietà desiderato.
 

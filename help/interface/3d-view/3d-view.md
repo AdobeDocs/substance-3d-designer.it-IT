@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Visualizzazione 3D
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 10be7678f386c925d4bff6d59e2b85ffc04becd8
+source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
 workflow-type: tm+mt
 source-wordcount: '3549'
 ht-degree: 1%
@@ -98,15 +98,15 @@ Potete interagire con le trame direttamente nella finestra della vista:
 
 Per impostazione predefinita, Designer funziona con l’illuminazione basata su immagini (IBL). Per eseguire il rendering dell’illuminazione ambientale viene utilizzata una bitmap a intervallo dinamico elevato.
 
-Potete ruotare l’ambiente attorno all’oggetto 3D oppure caricare ambienti con luci HDR predefinite o personalizzate. Tieni presente che le immagini HDR devono utilizzare una proiezione equirettangolare e avere una precisione di virgola mobile a 32 bit.
+Potete ruotare l’ambiente attorno all’oggetto 3D oppure caricare ambienti con luci HDR predefiniti o personalizzati. Si prega di notare che le immagini dell&#39;HDR dovrebbero utilizzare una proiezione equirettangolare e avere una precisione di virgola mobile a 32 bit.
 
 ⇧+RMB+Trascina <b>ruota l&#39;ambiente</b> nella vista 3D.
 
-Per impostare una rotazione precisa, utilizzare <b>Ambiente > Modifica</b> nella barra degli strumenti della vista 3D superiore e modificare il cursore <b>Angolo di rotazione</b> nella finestra delle proprietà.
+Per impostare una rotazione precisa, utilizzare <b>Ambiente > Modifica</b> nella barra degli strumenti superiore del vista 3D e modificare il cursore <b>Angolo di rotazione</b> nella finestra delle proprietà.
 
-Per utilizzare un ambiente leggero HDR predefinito, fate clic sulla sezione <b> ambienti HDRI</b> della categoria <b>Vista 3D </b>nella [Libreria](../../interface/the-library/the-library.md), quindi trascinate le icone nella vista 3D.
+Per utilizzare un ambiente chiaro HDR predefinito, fate clic sulla sezione <b> ambienti HDRI</b> della <b>categoria </b>nella [libreria](../../interface/the-library/the-library.md), quindi trascinate le icone nella vista 3D.
 
-Per utilizzare un ambiente leggero HDR personalizzato, importare un&#39;immagine HDR trascinando e rilasciando il file in un pacchetto nella finestra Esplora risorse (<b>Collega</b> il file quando richiesto). Trascinate quindi la risorsa e scegliete come destinazione <b>Latitude/Longitude Panorama</b>.
+Per utilizzare un ambiente HDR leggero personalizzato, importare un&#39;immagine HDR trascinando e rilasciando il file in un pacchetto nella finestra Esplora risorse (<b>Collegare</b> il file quando richiesto). Trascinate quindi la risorsa e scegliete come destinazione <b>Latitude/Longitude Panorama</b>.
 
 ### Luci puntiformi
 
@@ -116,21 +116,21 @@ Vai a <b>Luci > Modifica proprietà</b> per attivare/disattivare le luci di punt
 
 In modalità Videocamera <img src="3d-view.resources/image2020-9-17-10-31-32.png" width="24" /> , è inoltre possibile passare temporaneamente alla modalità Illuminazione tenendo premuti i tasti Ctrl+⇧ insieme ai pulsanti del mouse.
 
-## Visualizzare i dati in una vista 3D
+## Visualizzare i dati in vista 3D
 
 ![Visualizzare gli output del grafico a Substance](3d-view.resources/3d-material.gif "Visualizzare gli output del grafico a Substance")
 
 ### Grafici Substance
 
-Potete visualizzare interi materiali come materiale completo nella vista 3D. Questo è il modo più comune di lavorare e corrisponderà gli [attributi di utilizzo sui nodi di output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) agli slot di texture pertinenti del materiale della vista 3D. Ciò significa che gli output devono essere impostati correttamente (l’utilizzo di Modelli garantisce che sia così) e che lo shader materiale/viewport selezionato supporta
+Potete visualizzare interi materiali come materiale completo nel vista 3D. Questo è il modo più comune di lavorare e corrisponderà gli [attributi di utilizzo sui nodi di output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) agli slot di texture pertinenti del materiale della vista 3D. Ciò significa che gli output devono essere impostati correttamente (l’utilizzo di Modelli garantisce che sia così) e che il materiale selezionato/la finestra di shader supporta
 
-Per visualizzare tutti gli output di un grafico, fate clic su *RMB* un’area vuota nella [vista Grafico](../../interface/the-graph-view/the-graph-view.md) e scegliete l’opzione **Visualizza output in vista 3D** nel menu di scelta rapida.
+Per visualizzare tutti gli output di un grafico, fate clic su *RMB* un&#39;area vuota nella [vista Grafico](../../interface/the-graph-view/the-graph-view.md) e scegliete l&#39;opzione **Visualizza output in vista 3D** nel menu di scelta rapida.
 
-Potete anche visualizzare gli output di un grafico senza doverlo aprire, facendo clic su RMB su una risorsa grafico nell&#39;ancoraggio [Esplora risorse](../the-explorer-window/the-explorer-window.md) e scegliendo l&#39;opzione **Visualizza output in visualizzazione 3D** nel menu di scelta rapida.
+Potete anche visualizzare gli output di un grafico senza doverlo aprire, facendo clic su RMB su una risorsa grafico nel dock [Esplora risorse](../the-explorer-window/the-explorer-window.md) e scegliendo l&#39;opzione **Visualizza output in vista 3D** nel menu di scelta rapida.
 
-In alternativa al menu di scelta rapida del grafico, potete ottenere lo stesso risultato trascinando il grafico dall&#39;ancoraggio [Esplora risorse](../the-explorer-window/the-explorer-window.md) alla vista 3D.
+In alternativa al menu di scelta rapida del grafico, potete ottenere lo stesso risultato trascinando il grafico dall&#39;ancoraggio [Esplora risorse](../the-explorer-window/the-explorer-window.md) al vista 3D.
 
-Quando *caricate un grafico*, per impostazione predefinita gli output vengono applicati automaticamente nella vista 3D. Puoi disabilitare questo comportamento nelle [Preferenze](../../interface/preferences-window/preferences-window.md). Vai a **Modifica > Preferenze > Grafico > Comune** e deseleziona l&#39;opzione **Visualizza output nella vista 3D quando apri un grafico**.
+Quando *caricate un grafico*, per impostazione predefinita gli output vengono applicati automaticamente nel vista 3D. Puoi disabilitare questo comportamento nelle [Preferenze](../../interface/preferences-window/preferences-window.md). Vai a **Modifica > Preferenze > Grafico > Comune** e deseleziona l&#39;opzione **Visualizza output nella vista 3D quando apri un grafico**.
 
 >[!NOTE]
 >
@@ -138,32 +138,32 @@ Quando *caricate un grafico*, per impostazione predefinita gli output vengono ap
 > 
 > Se utilizzate mesh personalizzate con più di un materiale, vi verrà chiesto di scegliere a quale slot di materiale assegnare il materiale. Con uno dei metodi precedenti, fare clic su uno slot per confermare la scelta. Per ulteriori informazioni sui Materiali e sulla loro assegnazione, leggete la sezione dettagliata riportata di seguito.
 
-![Visualizzazione degli output dei nodi e dei grafici nella vista 3D](3d-view.resources/3d-channel.gif "Visualizzazione degli output dei nodi e dei grafici nella vista 3D")
+![Visualizzazione degli output dei nodi e dei grafici nel vista 3D](3d-view.resources/3d-channel.gif "Visualizzazione degli output dei nodi e dei grafici nel vista 3D")
 
 ### Output singolo nodo/grafico
 
-Puoi visualizzare un solo output in qualsiasi canale di materiale disponibile nella [vista 3D](https://substance3d.adobe.com/). Questa opzione è meno comune, ma è utile per visualizzare in anteprima i test rapidi o i singoli nodi senza output.
+Puoi visualizzare un solo output in qualsiasi canale di materiale disponibile in [vista 3D](https://substance3d.adobe.com/). Questa opzione è meno comune, ma è utile per visualizzare in anteprima i test rapidi o i singoli nodi senza output.
 
-È possibile visualizzare qualsiasi nodo, non solo i nodi di output, facendo clic con il pulsante destro del mouse su di esso nella [visualizzazione Grafico](../../interface/the-graph-view/the-graph-view.md) e scegliendo <b>Visualizzazione in visualizzazione 3D</b>. Verrà visualizzato un elenco con i canali disponibili a cui assegnare il nodo. Fai clic su qualsiasi per confermare.
+È possibile visualizzare qualsiasi nodo, non solo i nodi di output, facendo clic con il pulsante destro del mouse su di esso nella [visualizzazione Grafico](../../interface/the-graph-view/the-graph-view.md) e scegliendo <b>Visualizzazione in vista 3D</b>. Verrà visualizzato un elenco con i canali disponibili a cui assegnare il nodo. Fai clic su qualsiasi per confermare.
 
-Puoi anche usare *RMB* per trascinare e rilasciare qualsiasi nodo dalla vista Grafico alla vista 3D. Verrà visualizzato un elenco con i canali disponibili a cui assegnare il nodo. Fai clic su qualsiasi per confermare.
+Puoi anche usare *RMB* per trascinare e rilasciare qualsiasi nodo dalla vista Grafico al vista 3D. Verrà visualizzato un elenco con i canali disponibili a cui assegnare il nodo. Fai clic su qualsiasi per confermare.
 
-Potete visualizzare qualsiasi singolo output del grafico espandendo la risorsa del grafico nel dock di [Esplora risorse](../the-explorer-window/the-explorer-window.md) e utilizzando *LMB* per trascinare l’output nella vista 3D. Verrà visualizzato un elenco con i canali disponibili a cui assegnare il nodo. Fai clic su qualsiasi per confermare.
+Potete visualizzare qualsiasi singolo output grafico espandendo la risorsa grafico nel dock di [Esplora risorse](../the-explorer-window/the-explorer-window.md) e utilizzando *LMB* per trascinare l’output nel vista 3D. Verrà visualizzato un elenco con i canali disponibili a cui assegnare il nodo. Fai clic su qualsiasi per confermare.
 
 ![Visualizzazione di trame 3D personalizzate](3d-view.resources/3d-mesh.gif "Visualizzazione di trame 3D personalizzate")
 
 ## Visualizza scene 3D (personalizzate)
 
-Designer offre una dozzina di trame predefinite. Queste trame hanno coordinate UV uniformi e utilizzabili e servono la maggior parte degli scenari per le texture in porzioni. È anche possibile importare e visualizzare le proprie trame 3D.\
+Designer offre una dozzina di trame predefinite. Queste trame hanno coordinate UV uniformi e utilizzabili e servono la maggior parte degli scenari per texture Affiancamenti. È anche possibile importare e visualizzare le proprie trame 3D.\
 Scegliete una delle trame predefinite dal menu a discesa <b>Scena</b> nella barra superiore.
 
-Per le scene 3D personalizzate, consulta la sezione [Utilizzo delle scene 3D](../../working-with-3d-scenes/working-with-3d-scenes.md).
+Per le scene 3D personalizzate, consulta la sezione [Utilizzo delle scene 3D](../../learning-tutorials/3d-view/working-with-3d-scenes/working-with-3d-scenes.md).
 
 ![Modifica delle proprietà dei materiali](3d-view.resources/3d-materials.gif "Modifica delle proprietà dei materiali")
 
-## Modificare le proprietà dello shader
+## Modifica proprietà shader
 
-In Designer sono disponibili alcuni [shader](../../glossary/glossary.md) diversi per impostazione predefinita e ogni shader ha opzioni che vanno oltre i semplici canali delle texture. Possono essere configurati singolarmente.
+In Designer sono disponibili alcuni [shader](../../learning-tutorials/essentials/glossary/glossary.md#shader) diversi per impostazione predefinita e ogni shader ha opzioni che vanno oltre i semplici canali di texture. Possono essere configurati singolarmente.
 
 Tieni presente che gli ombreggiatori differiscono tra i [moduli di rendering 3D](../../interface/3d-view/3d-renderers/3d-renderers.md) di Designer e che al passaggio di un modulo di rendering verranno mantenute solo le impostazioni contrassegnate con un&#39;etichetta &quot;Comune&quot;.
 
@@ -187,18 +187,18 @@ Gli ombreggiatori possono essere ripristinati mediante le azioni &quot;Ripristin
 
 ## Esporta scena
 
-Informazioni sull&#39;esportazione di scene 3D in [questa pagina](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md).
+Informazioni sull&#39;esportazione di scene 3D in [questa pagina](../../learning-tutorials/3d-view/working-with-3d-scenes/exporting-scenes/exporting-scenes.md).
 
 ### Esportare trame tassellate (solo per il modulo di rendering OpenGL)
 
-Potete esportare la trama dalla <b>vista 3D</b> in un file nei formati <b>OBJ</b>, <b>FBX</b> o <b>PLY</b>. Se lo spostamento *tassellatura* è abilitato, la suddivisione della geometria viene inserita nella trama esportata.
+Puoi esportare la trama dal <b>vista 3D</b> in un file nei formati <b>OBJ</b>, <b>FBX</b> o <b>PLY</b>. Se lo spostamento *tassellatura* è abilitato, la suddivisione della geometria viene eseguita i baking nella trama esportata.
 
 Tuttavia, le normali dei vertici della trama originale potrebbero non corrispondere alla nuova forma spostata, il che significa che la trama spostata potrebbe non essere renderizzata correttamente. Puoi gestire questa operazione in due modi:
 
 * Utilizza la trama *mappa normale* che fornirà le normali corrette
-* *Calcolare nuovamente le normali della trama* durante l&#39;esportazione utilizzando la mappa normale della trama, il che significa che tali normali vengono inseriti nella trama esportata e che la mappa normale non è più necessaria
+* *Calcolare nuovamente le normali della trama* durante l&#39;esportazione utilizzando la mappa normale della trama, il che significa che queste normali vengono eseguite i baking nella trama esportata e che la mappa normale non è più necessaria
 
-Per esportare la trama della vista 3D, accedete a <b>Scena > Esporta trama tassellata...</b>, impostate la vostra scelta riguardo al ricalcolo delle normali, quindi selezionate una posizione, un nome e un formato di file per la trama esportata.
+Per esportare la trama di vista 3D, vai a <b>Scena > Esporta trama tassellata...</b>, imposta la tua scelta per quanto riguarda la ricalcolo delle normali, quindi seleziona una posizione, un nome e un formato di file per la trama esportata.
 
 >[!NOTE]
 >
@@ -214,7 +214,7 @@ Per esportare la trama della vista 3D, accedete a <b>Scena > Esporta trama tasse
 > 
 > Ciò detto, il conteggio dei vertici della trama tassellata deve essere compreso nello *stesso intervallo* del conteggio dei pixel della mappa *height*.
 > 
-> Una trama più densa di quella della mappa del height può creare una trama leggermente più fluida quando si utilizza la tassellatura <b>Phong</b>. Tuttavia, è necessario cercare di esportare in modo affidabile la trama con i dettagli della mappa del height richiesti, quindi perfezionare la trama esportata in altri software, se necessario.
+> Una trama più densa della mappa dell&#39;altezza può creare una trama leggermente più fluida quando si utilizza la tassellatura <b>Phong</b>, tuttavia è necessario cercare di esportare in modo affidabile la trama con i dettagli della mappa dell&#39;altezza richiesti, quindi perfezionare la trama esportata in altri software, se necessario.
 
 >[!WARNING]
 >
@@ -224,7 +224,7 @@ Per esportare la trama della vista 3D, accedete a <b>Scena > Esporta trama tasse
 
 ## Barra dei menu
 
-La barra dei menu fornisce 7 menu con opzioni relative alla vista 3D. di seguito è riportata una panoramica di tutte le opzioni disponibili.
+La barra dei menu fornisce 7 menu con opzioni relative al vista 3D. di seguito è riportata una panoramica di tutte le opzioni disponibili.
 
 +++Scena
 Il menu <b>Scena</b> riguarda la geometria (risorsa 3D) visualizzata e gli stati della vista 3D. Risorsa 3D: condividi solo la trama, gli stati della scena sono luci, videocamera e impostazioni correlate e possono anche contenere la trama.
@@ -235,7 +235,7 @@ Il menu <b>Scena</b> riguarda la geometria (risorsa 3D) visualizzata e gli stati
 
 <b>Modifica: </b>Carica le opzioni della scena nel pannello [Proprietà](../../interface/properties/properties.md). Consente di attivare/disattivare la visibilità della trama 3D.
 
-<b>Primitive standard:</b> mostra una delle seguenti semplici trame 3D nella vista 3D.
+<b>Primitive standard:</b> mostra una delle seguenti semplici trame 3D nel vista 3D.
 
 * Cubo
 
@@ -251,7 +251,7 @@ Il menu <b>Scena</b> riguarda la geometria (risorsa 3D) visualizzata e gli stati
 
 * Sfera
 
-<b>Primitive estese:</b> mostra una delle seguenti trame 3D nella vista 3D.
+<b>Primitive estese:</b> mostra una delle seguenti trame 3D nel vista 3D.
 
 * Tessuto
 
@@ -265,22 +265,22 @@ Il menu <b>Scena</b> riguarda la geometria (risorsa 3D) visualizzata e gli stati
 
 * Toroide
 
-<b>Visualizza UV nella vista 2D:</b> consente la visualizzazione degli UV per la trama attualmente selezionata come sovrapposizione nella [vista 2D](../2d-view/2d-view.md).
+<b>Visualizza UV nella vista 2D:</b> Consente la visualizzazione degli UV per la trama attualmente selezionata come sovrapposizione nella [vista 2D](../2d-view/2d-view.md).
 
 <b>Crea risorsa 3D dalla scena corrente...:</b> Crea una nuova [risorsa scena 3D](../../resources/3d-scene-resource/3d-scene-resource.md) in un pacchetto esterno alla scena corrente.
 
-<b>Carica file di stato...: </b>Carica un [file di stato scena](../../working-with-3d-scenes/working-with-3d-scenes.md) salvato esternamente (\*.sbsscn). Non sostituisce la trama 3D, carica solo le impostazioni per il modulo di rendering 3D, la videocamera e le luci.
+<b>Carica file di stato...: </b>Carica un [file di stato scena](../../learning-tutorials/3d-view/working-with-3d-scenes/working-with-3d-scenes.md) salvato esternamente (\*.sbsscn). Non sostituisce la trama 3D, carica solo le impostazioni per il modulo di rendering 3D, la videocamera e le luci.
 
-<b>Carica file di stato con trama...:</b> Carica un [file di stato scena](../../working-with-3d-scenes/working-with-3d-scenes.md) salvato esternamente (\*.sbsscn). Carica le impostazioni per il modulo di rendering 3D, la videocamera, le luci e la scena 3D di riferimento. .
+<b>Carica file di stato con trama...:</b> Carica un [file di stato scena](../../learning-tutorials/3d-view/working-with-3d-scenes/working-with-3d-scenes.md) salvato esternamente (\*.sbsscn). Carica le impostazioni per il modulo di rendering 3D, la videocamera, le luci e la scena 3D di riferimento. .
 
-<b>Salva file di stato...: </b>Salva lo stato corrente della vista 3D in un [file di stato della scena](../../working-with-3d-scenes/working-with-3d-scenes.md) (\*.sbsscn).
+<b>Salva file di stato...: </b>Salva lo stato corrente della vista 3D in un [file di stato della scena](../../learning-tutorials/3d-view/working-with-3d-scenes/working-with-3d-scenes.md) (\*.sbsscn).
 
-<b>Salva stato corrente come predefinito: </b>Imposta lo stato corrente della vista 3D come [file di stato della scena](../../working-with-3d-scenes/working-with-3d-scenes.md) da utilizzare per impostazione predefinita durante la creazione di nuove viste 3D. Questo file viene caricato ogni volta che la vista 3D viene ripristinata o inizializzata e può essere impostato nelle [impostazioni del progetto](../../interface/preferences-window/project-settings/project-settings.md).
+<b>Salva stato corrente come predefinito: </b>Imposta lo stato corrente della vista 3D come [file di stato della scena](../../learning-tutorials/3d-view/working-with-3d-scenes/working-with-3d-scenes.md) da utilizzare per impostazione predefinita durante la creazione di nuove viste 3D. Questo file viene caricato ogni volta che la vista 3D viene ripristinata o inizializzata e può essere impostato nelle [impostazioni del progetto](../../interface/preferences-window/project-settings/project-settings.md).
 
-<b>Esporta scena:</b> *(Solo per i renderer con rasterizzatore e Pathtracer GPU)* Esporta la scena corrente come [scena appiattita](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md), in cui viene scritta solo la scena del risultato e vengono persi eventuali riferimenti alla scena originale. Il contenuto della scena esportata dipende dalle funzioni supportate dal formato di esportazione selezionato.\
+<b>Esporta scena:</b> *(Solo per i renderer con rasterizzatore e Pathtracer GPU)* Esporta la scena corrente come [scena appiattita](../../learning-tutorials/3d-view/working-with-3d-scenes/exporting-scenes/exporting-scenes.md), in cui viene scritta solo la scena del risultato e vengono persi eventuali riferimenti alla scena originale. Il contenuto della scena esportata dipende dalle funzioni supportate dal formato di esportazione selezionato.\
 Formati disponibili: STL, FBX, GLB, GLTF, PLY, USDC, USD, USDA, USDZ, OBJ.
 
-<b>Esporta scena con livelli:</b> *(solo per rendering di rasterizzatori/Pathtracer GPU)*Esporta la scena corrente come [scena con livelli](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md), in cui tutte le modifiche alla scena originale vengono salvate in file separati in un flusso di lavoro non distruttivo. Questa opzione è disponibile solo per i formati di file USD.\
+<b>Esporta scena con livelli:</b> *(solo per rendering di rasterizzatori/Pathtracer GPU)*Esporta la scena corrente come [scena con livelli](../../learning-tutorials/3d-view/working-with-3d-scenes/exporting-scenes/exporting-scenes.md), in cui tutte le modifiche alla scena originale vengono salvate in file separati in un flusso di lavoro non distruttivo. Questa opzione è disponibile solo per i formati di file USD.\
 I formati disponibili sono: USDC, USD, USDA.
 
 <b>Esporta geometria tassellata:</b> *(solo per il modulo di rendering OpenGL)* Esporta la scena corrente con tassellatura come geometria non elaborata, consultate la sezione Esporta scena.
@@ -300,9 +300,9 @@ Il menu Materiali presenta un elenco di tutti i materiali assegnati a una trama 
 
 <b>Modifica</b> - Modificare le impostazioni del materiale corrente nella finestra Proprietà.
 
-<b>Elenco shader</b> - Tutti i [shader](../../glossary/glossary.md) disponibili per il [modulo di rendering 3D](../../interface/3d-view/3d-renderers/3d-renderers.md) corrente.
+<b>Elenco shader</b> - Tutti i [shader](../../learning-tutorials/essentials/glossary/glossary.md#shader) disponibili per il [modulo di rendering 3D](../../interface/3d-view/3d-renderers/3d-renderers.md) corrente.
 
-<b>Carica definizione...: </b>(solo rendering OpenGL) Consente di caricare il tuo [shader GLSLFX personalizzato.](../../interface/3d-view/glslfx-shaders/glslfx-shaders.md) Lo shader viene aggiunto all’elenco precedente.
+<b>Carica definizione...: </b>(solo per il modulo di rendering OpenGL) Consente di caricare [shader GLSLFX personalizzato.](../../interface/3d-view/glslfx-shaders/glslfx-shaders.md) Lo shader viene aggiunto all’elenco precedente.
 
 <b>Reimposta parametri comuni:</b> Reimposta tutti i parametri comuni tra gli shader. Ad esempio, quando si passa dal modulo di rendering Rasterizzatore/Pathtracer GPU a quello OpenGL, vengono riportati diversi valori di parametro nell&#39;[Adobe Standard Material](https://experienceleague.adobe.com/it/docs/substance-3d/general-knowledge/asm/adobe-standard-material).
 
@@ -310,9 +310,9 @@ Il menu Materiali presenta un elenco di tutti i materiali assegnati a una trama 
 
 <b>Ripristina materiale:</b> ripristina tutti i parametri di shader sui valori predefiniti. Se le texture sono collegate a uno qualsiasi dei campionatori dello shader, vengono scollegate.
 
-<b>Ripristina lo stato della scena per il materiale: </b>*(solo per i moduli di rendering Rasterizzatore e Pathtracer GPU)* Ripristina tutte le proprietà di [materiali sostituiti](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) ai valori originali della scena, inclusa l&#39;eventuale texture originale.
+<b>Ripristina lo stato della scena per il materiale: </b>*(solo per i moduli di rendering Rasterizzatore e Pathtracer GPU)* Ripristina tutte le proprietà di [materiali sostituiti](../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md) ai valori originali della scena, inclusa l&#39;eventuale texture originale.
 
-<b>Aggiungi: </b>Aggiunge un nuovo materiale all&#39;elenco. Non viene utilizzato per impostazione predefinita e potrebbe essere [connesso a un materiale della scena](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) utilizzando il [browser della scena](../../interface/3d-view/scene-browser/scene-browser.md).
+<b>Aggiungi: </b>Aggiunge un nuovo materiale all&#39;elenco. Non viene utilizzato per impostazione predefinita e potrebbe essere [connesso a un materiale della scena](../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md) utilizzando il [browser della scena](../../interface/3d-view/scene-browser/scene-browser.md).
 
 +++
 
@@ -382,7 +382,7 @@ Il menu di visualizzazione consente di attivare/disattivare le modalità di visu
 
 <b>Tempo di rendering:</b> tempo necessario per calcolare un campione per l&#39;intera immagine.
 
-<b>Campioni:</b> la quantità di campioni di pixel calcolati per l&#39;antialiasing di accumulo (rasterizzatore) o il tracciamento del percorso (tracciatore del percorso GPU).
+<b>Campioni:</b> la quantità di campioni di pixel calcolati per l&#39;anti-alias di accumulo (rasterizzatore) o il tracciamento dei percorsi (tracciatore dei percorsi GPU).
 
 <b>Eliminazione sfondo:</b> disattivando questa opzione è possibile visualizzare una trama da *entrambi i lati*. L’opzione funziona in combinazione con Wireframi
 
@@ -407,13 +407,13 @@ I moduli di rendering disponibili e le relative impostazioni sono documentati in
 
 ## Barra degli strumenti Scena
 
-La barra degli strumenti **Scena**, che per impostazione predefinita si trova sul bordo sinistro della vista 3D, offre controlli per la visualizzazione e l&#39;interazione con la scena.
+La barra degli strumenti **Scena**, che per impostazione predefinita si trova sul bordo sinistro del vista 3D, offre controlli per la visualizzazione e l&#39;interazione con la scena.
 
 Consente inoltre di accedere alla [finestra a comparsa Spostamento](displacement/displacement.md) e al dock [per browser scene](scene-browser/scene-browser.md).
 
 >[!NOTE]
 >
-> La barra degli strumenti può essere *riposizionata* attorno all&#39;ancoraggio **Vista 3D** utilizzando l&#39;*impugnatura* più a sinistra rappresentata da tre linee parallele.
+> La barra degli strumenti può essere *riposizionata* attorno all&#39;ancoraggio **vista 3D** utilizzando l&#39;*impugnatura* più a sinistra rappresentata da tre linee parallele.
 
 
 
@@ -549,11 +549,11 @@ Attiva/disattiva la visualizzazione della trama come wireframe.
 
 ## Visualizza barra degli strumenti
 
-La barra degli strumenti <b>Visualizzazione</b>, disponibile per impostazione predefinita nella *parte inferiore* del pannello <b>Visualizzazione 3D</b>, consente di controllare la modalità di visualizzazione dell&#39;immagine di rendering nella finestra della vista.
+Per impostazione predefinita, la barra degli strumenti <b>Visualizzazione</b>, disponibile nella parte *inferiore* del pannello <b>vista 3D</b>, consente di controllare la modalità di visualizzazione dell&#39;immagine renderizzata nella finestra della vista.
 
 >[!NOTE]
 >
-> La barra degli strumenti può essere *riposizionata* attorno all&#39;ancoraggio **Vista 3D** utilizzando l&#39;*impugnatura* più a sinistra rappresentata da tre linee parallele.
+> La barra degli strumenti può essere *riposizionata* attorno all&#39;ancoraggio **vista 3D** utilizzando l&#39;*impugnatura* più a sinistra rappresentata da tre linee parallele.
 
 ### AOV di rendering 3D
 

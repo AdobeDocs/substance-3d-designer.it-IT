@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Scopri come esporre i parametri nei grafici di composizione di Substance 3D Designer per rendere i materiali personalizzabili e riutilizzabili.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Exposing a parameter
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Esposizione di un parametro
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 69056338cc47db71e0754c72495d33a2a3c36dea
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
 workflow-type: tm+mt
 source-wordcount: '2267'
 ht-degree: 4%
-
 ---
-
 
 # Esposizione di un parametro
 
@@ -44,7 +42,7 @@ I parametri possono assumere diverse forme: cursori, quadranti, caselle di testo
 +++
 
 +++Perché l&#39;esposizione è utile?
-***L&#39;esposizione dei parametri porta Substance 3D Designer oltre un semplice editor di texture, consentendoti di creare strumenti personalizzabili e dinamici per la generazione delle texture*** **.** Senza esporre, i Materiali Substance non sarebbero molto diversi dalle texture statiche: non avresti modo di modificarne gli output.
+***L&#39;esposizione dei parametri porta Substance 3D Designer oltre un semplice editor di texture, consentendoti di creare strumenti personalizzabili e dinamici per la generazione di texture*** **.** Senza esporre, i Materiali della Substance non sarebbero molto diversi dalle texture statiche: non avresti modo di modificarne gli output.
 
 +++
 
@@ -54,7 +52,7 @@ I parametri possono assumere diverse forme: cursori, quadranti, caselle di testo
 +++
 
 +++Devo sapere la matematica per esporre? È necessario comprendere i grafici delle funzioni di Substance?
-***Non è richiesta la conoscenza matematica per utilizzare correttamente i parametri di esposizione, né l&#39;uso delle funzioni.***  Come utente iniziale, potete evitare quasi completamente di dover eseguire operazioni matematiche in [Grafici delle funzioni](../../../function-graphs/function-graphs.md). L&#39;unica cosa fortemente consigliata è una [conoscenza di base decente dei diversi tipi di dati, ad esempio Integer, Float e Boolean.](../../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md)
+***Non è richiesta la conoscenza matematica per utilizzare correttamente i parametri di esposizione, né l&#39;uso delle funzioni.***  Come utente iniziale, potete evitare quasi completamente di dover eseguire operazioni matematiche in [Grafici delle funzioni](../../../function-graphs/function-graphs.md). L&#39;unica cosa fortemente consigliata è una [conoscenza di base decente dei diversi tipi di dati, ad esempio Integer, Virgola mobile e Boolean.](../../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md)
 
 +++
 
@@ -71,7 +69,7 @@ Attualmente esistono due metodi principali per esporre i parametri. Un metodo è
 1. Scegli ![](exposing-a-parameter.resources/image2020-9-17-15-37-7.png) <b>Esporta come nuovo input grafico</b> dall&#39;elenco a discesa, la prima opzione.
 1. Viene visualizzata la finestra di dialogo <b>Esponi parametro</b>. Impostare le proprietà desiderate.
 
-   È consigliabile modificare almeno l&#39;<b>identificatore</b> e l&#39;<b>etichetta</b>
+   È consigliabile modificare almeno l&#39;<b>Identificatore</b> e l&#39;<b>etichetta</b>
 1. Premi <b>OK</b> per confermare
 1. Il nome del parametro diventa *blu* e ![](exposing-a-parameter.resources/image2020-9-17-15-35-46.png)\
    <b> Il pulsante Modifica funzione parametro</b> viene visualizzato accanto alle opzioni del menu a discesa per confermare che il parametro è esposto
@@ -91,9 +89,9 @@ Quando si espone un parametro, questo metodo sarà un po’ più lento rispetto 
 1. Scegli <b>Parametri di visualizzazione batch...</b> dal menu a discesa.
 1. Viene visualizzata la finestra di dialogo <b>Esposizione batch</b>, che consente di personalizzare l&#39;esposizione di tutti i <b>parametri specifici</b> di un nodo
 1. Utilizza <b>Tutti</b>, <b>Nessuno</b> o caselle di controllo specifiche per decidere quali parametri esporre
-1. Fare clic su un nome di parametro nella colonna <b>Identificatore di input grafico</b> dell&#39;elenco per modificarne il nome.
+1. Fare clic su un nome di parametro nella colonna <b>identificatore di input grafico</b> dell&#39;elenco per modificarne il nome.
 1. Fare clic su un <b>nome gruppo</b> nella colonna <b>Gruppo di input grafico</b> dell&#39;elenco per aggiungere un (sotto)gruppo per un parametro specifico
-1. Utilizza le caselle di tipo <b>Identificatore di input grafico</b> e <b>Gruppo di input grafico</b> nella parte inferiore per aggiungere prefisso, suffisso e gruppi di input a tutti i parametri esposti contemporaneamente. Tutti questi valori vengono applicati sopra le impostazioni per parametro.
+1. Utilizza le caselle di tipo <b>identificatore di input grafico</b> e <b>Gruppo di input grafico</b> nella parte inferiore per aggiungere prefisso, suffisso e gruppi di input a tutti i parametri esposti contemporaneamente. Tutti questi valori vengono applicati sopra le impostazioni per parametro.
 1. Fai clic su <b>OK</b> per confermare ed esporre tutti i parametri selezionati. I nomi dei parametri ora mostrano *blu* per confermare che i parametri sono esposti, nonché un pulsante ![](exposing-a-parameter.resources/image2020-9-17-15-35-46.png) <b>Modifica funzione</b>.
 
 ## Limitazioni
@@ -104,7 +102,7 @@ Ci sono alcune limitazioni legate all&#39;esposizione dei parametri, come elenca
 | --- | --- |
 | [Gradient Ramp](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md), [Curve Editor](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md), [Font](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md), [Istogramma Livelli](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) | Richiedi widget che non sono disponibili per i parametri creati dall&#39;utente. |
 
-Un&#39;altra limitazione significativa è correlata a [parametri statici](../../../glossary/glossary.md). Non è possibile modificare queste impostazioni in una [risorsa Substance 3D pubblicata (SBSAR)](../../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md).
+Un&#39;altra limitazione significativa è correlata a [parametri statici](../../../learning-tutorials/essentials/glossary/glossary.md#static-parameter). Non è possibile modificare queste impostazioni in una [risorsa Substance 3D pubblicata (SBSAR)](../../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md).
 
 I parametri statici, a differenza dei parametri dinamici, *non possono essere modificati al volo* dopo che il grafico è stato *elaborato*, ovvero elaborato per eseguire l&#39;algoritmo in modo rapido ed efficiente. La cottura avviene in Designer ogni volta che il grafico viene *modificato* o *pubblicato*.
 
@@ -114,10 +112,10 @@ Come soluzione alternativa, è possibile utilizzare un nodo [Switch](../../../co
 
 | Nodo | Parametro |
 | --- | --- |
-| Tutti i nodi | Modalità di stampa in porzioni |
+| Tutti i nodi | Modalità di Affiancamento Rapporto pixel |
 | [Colore uniforme](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md) | Metodo colore |
-| [Processore pixel](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) | Metodo colore |
-| [Fusione](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) | Metodo fusione Alpha fusione Area di ritaglio |
+| [Elaboratore pixel](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) | Metodo colore |
+| [Fusione](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) | Metodo fusione Area di ritaglio fusione alfa |
 | [FX-Map](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) | Metodo fusione |
 | [Quadrante](../../../function-graphs/fxmaps/the-quadrant-node/the-quadrant-node.md) | Immagine di input pattern alfa Filtraggio dell&#39;immagine di input |
 
@@ -136,17 +134,17 @@ Per modificare le opzioni di un parametro esposto:
 
 ### PARAMETRI DI INPUT
 
-Tutti i parametri esposti sono elencati nella scheda Parametri di input. Le seguenti proprietà sono disponibili per i casi più comuni, ad esempio Float e Integer con tipo di editor predefinito.
+Tutti i parametri esposti sono elencati nella scheda Parametri di input. Le seguenti proprietà sono disponibili per i casi più comuni, ad esempio Virgole mobili e Interi con tipo di editor predefinito.
 
 1. <b>Identificatore</b>: identificatore univoco per questo parametro. Non può contenere spazi o caratteri speciali.
-1. <b>Etichetta</b>: etichetta solo interfaccia utente. Se non è definito alcun Label, l&#39;identificatore viene visualizzato nell&#39;interfaccia utente. Può contenere spazi e caratteri speciali
+1. <b>Etichetta</b>: etichetta solo interfaccia utente. Se non è definito alcun promemoria, l&#39;identificatore viene visualizzato nell&#39;interfaccia utente. Può contenere spazi e caratteri speciali
 1. <b>Gruppo</b>: raggruppa i parametri in una sezione comprimibile per mantenere elenchi lunghi di parametri puliti e gestibili. I parametri vengono raggruppati insieme se condividono lo *stesso nome di gruppo*. Utilizza il carattere `/` per creare *sottogruppi*, ad esempio `My Group/My Sub-group`
 1. <b>Descrizione</b>: campo di testo per la descrizione, utilizzato come descrizione.
 1. <b>Tipo / Editor</b>: impostare il tipo di dati e il tipo di editor dell&#39;interfaccia utente. Alcuni editor sono disponibili solo per determinati tipi di dati (ad esempio, un elenco a discesa solo per Integer). *La modifica dell&#39;editor in molti casi cancellerà i valori predefiniti. Prestare attenzione.*
 1. <b>Predefinito</b>: valore predefinito a cui inizia il parametro. Questo è anche il valore utilizzato nel grafico durante l’anteprima dei nodi. Cercate di utilizzare un valore semplice e utilizzabile in questo caso, evitando casi estremi.
 1. <b>Min</b>: valore minimo per l’interfaccia utente.
 1. <b>Max</b>: valore massimo per l’interfaccia utente.
-1. <b>Blocco</b>: impostare se Min e Max sono limiti non superabili o rigidi (consentire all&#39;utente di superare i limiti).
+1. <b>Blocca</b>: impostare se Min e Max sono limiti non superabili o rigidi (consentire all&#39;utente di superare i limiti).
 1. <b>Passaggio</b>:Set della precisione o granularità del valore.
 1. <b>Dati utente: </b>dati utente personalizzati, disponibili per qualsiasi scopo.
 1. <b>Visibile se</b>: sistema di espressione speciale per mostrare o nascondere i parametri in base alle condizioni esterne. Consulta [Visibile se: controlla la visibilità di input, output e parametri](../../../compositing-graphs/visible-control-vis/visible-if-control-visibility-of-inputs-outputs-and-parameters.md)

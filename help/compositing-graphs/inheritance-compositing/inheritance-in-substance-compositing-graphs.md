@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ereditarietà nei grafici Substance
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: c460f605a97021efd2143941c28a977e12452299
+source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
 workflow-type: tm+mt
 source-wordcount: '1681'
 ht-degree: 0%
@@ -72,10 +72,10 @@ I metodi di ereditarietà vengono applicati per i [parametri di base](../../comp
 * **Formato di output** (ovvero, profondità di bit)
 * **Dimensione pixel**
 * **Proporzioni pixel**
-* **Modalità Porzione**
+* **Modalità affiancamento**
 * **Numero casuale**
 
-Ciò dovrebbe consentirti di comprendere come le modifiche in *un* nodo possano influire sulla risoluzione, la precisione e il comportamento di suddivisione in porzioni di *tutti i nodi a valle* da esso.
+Ciò dovrebbe consentirti di apprezzare il modo in cui le modifiche in *un* nodo possono influire sulla risoluzione, la precisione e il comportamento Affiancamento di *tutti i nodi a valle* da esso.
 
 >[!WARNING]
 >
@@ -96,7 +96,7 @@ Questo pulsante consente di selezionare il metodo di ereditarietà da utilizzare
 
 ![Modifica del metodo di ereditarietà](inheritance-in-substance-compositing-graphs.resources/inheritance-change.gif "Modifica del metodo di ereditarietà"){width="512px"}
 
-Nella maggior parte dei casi, i parametri di base di un *nodo* sono impostati su *Rispetto all&#39;input*, per sfruttare il comportamento procedurale del concatenamento dei nodi, mentre i parametri di base di un *grafico* sono impostati su *Rispetto all&#39;elemento padre*, in modo che i parametri globali possano adattarsi al contesto in cui viene utilizzato il grafico.
+Nella maggior parte dei casi, i parametri di base di un *nodo* sono impostati su *Rispetto all&#39;input*, per sfruttare il comportamento procedurale di concatenamento dei nodi, mentre i parametri di base di un *grafico* sono impostati su *Rispetto all&#39;elemento padre*, in modo che i parametri globali possano adattarsi al contesto in cui viene utilizzato il grafico.
 
 ### MODIFICA DEI VALORI EREDITATI
 
@@ -128,7 +128,7 @@ L&#39;elemento padre di un grafico è il *contesto* in cui esiste:
 >[!WARNING]
 >
 > La parentela è *applicata così com&#39;è* quando si pubblica un pacchetto in file di risorse Substance 3D (SBSAR). Ciò significa che l&#39;impostazione di qualsiasi parametro sul metodo di ereditarietà *Assoluto* determinerà il *blocco* di tale parametro sul valore corrente nella risorsa pubblicata.\
-> Anche se ciò è auspicabile per [nodi Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) o [scopi di ottimizzazione](../../best-practices/performance-optimization/performance-optimization-guidelines.md), ad esempio, si consiglia *vivamente* di utilizzare i metodi di ereditarietà *Relativi a...* quando si utilizzano grafici Substance, a meno che non vi sia uno *scopo chiaro* nel fare diversamente.
+> Anche se ciò è auspicabile per [nodi Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) o [scopi di ottimizzazione](../../learning-tutorials/essentials/best-practices/performance-optimization/performance-optimization-guidelines.md), ad esempio, si consiglia *vivamente* di utilizzare i metodi di ereditarietà *Relativi a...* quando si utilizzano grafici Substance, a meno che non vi sia uno *scopo chiaro* nel fare diversamente.
 
 ### MODIFICA IN CONTESTO
 
@@ -280,7 +280,7 @@ Un buon punto di partenza è il controllo dei dati visualizzati appena sotto un 
 
 Se il nodo dispone di più output, è possibile verificarne la risoluzione e la precisione in due semplici modi:
 
-* Fate doppio clic su <b>LMB</b> nel *connettore di output* per visualizzare l&#39;immagine nella [vista 2D](../../interface/2d-view/2d-view.md) e verificate le informazioni sull&#39;immagine visualizzate nell&#39;*angolo inferiore sinistro* della vista 2D
+* Fate doppio clic su <b>LMB</b> nel *connettore di output* per visualizzare l&#39;immagine nella [Vista 2D](../../interface/2d-view/2d-view.md) e verificate le informazioni sull&#39;immagine visualizzate nell&#39;*angolo inferiore sinistro* della finestra della vista del Vista 2D
 * Creare un nodo [Livelli](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) o [Trasformazione 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) e collegarne l&#39;input all&#39;output che si desidera controllare. Per impostazione predefinita, il nodo *eredita dall&#39;output* ed è quindi possibile controllare i valori al di sotto del nodo.
 
 È ora possibile spostarsi in alto nella catena di nodi nel grafico e cercare di trovare il *primo nodo* in cui vengono visualizzati i valori imprevisti. Controllare il metodo di ereditarietà dei relativi parametri Base.
@@ -291,8 +291,8 @@ Se non vi sono errori e il nodo è un nodo di istanza, è necessario andare più
 
 In particolare, il concetto di *input primario* è facilmente *ignorato* e può causare problemi di ereditarietà.
 
-Il nodo [Fusione](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) è molto sensibile a questo, in quanto viene utilizzato molto frequentemente. L&#39;input <b>Background</b> è l&#39;input principale.
+Il nodo [Fusione](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) è molto sensibile a questo problema, in quanto viene utilizzato molto frequentemente. L&#39;input <b>Background</b> è l&#39;input principale.
 
 ![Ereditarietà delle dimensioni di output](inheritance-in-substance-compositing-graphs.resources/inheritance-blend.jpg "Ereditarietà delle dimensioni di output"){width="512px"}
 
-È necessario prestare attenzione all&#39;ordine in cui si fondono i due input: l&#39;input che la risoluzione e la precisione che si desidera mantenere in basso il grafico dovrebbe essere collegato all&#39;input Sfondo, se il metodo di fusione necessario lo rende possibile. In caso contrario, potrebbe essere necessario modificare i parametri di base del nodo di blend e il relativo metodo di ereditarietà per compensare.
+È necessario prestare attenzione all&#39;ordine in cui si fondono i due input: l&#39;input che la risoluzione e la precisione che si desidera mantenere in basso il grafico dovrebbe essere collegato all&#39;input Sfondo, se il metodo di fusione necessario lo rende possibile. In caso contrario, potrebbe essere necessario modificare i parametri di base del nodo Fusione e il relativo metodo di ereditarietà per compensare.

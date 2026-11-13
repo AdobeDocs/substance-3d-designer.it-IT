@@ -1,13 +1,11 @@
 ---
 title: Ripeti intervallo specchio
 description: Designer > Substance grafici composizione > Nodi riferimento per Substance grafici composizione > Libreria nodi > Funzione SDF > Operatore > Ripeti intervallo specchiatura
-source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
+source-git-commit: 3f5ca55e459e04f5b81755565c6f674dbc3c845c
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%
-
 ---
-
 
 # Ripeti intervallo specchio
 
@@ -34,13 +32,13 @@ Riflette e duplica una forma SDF un numero qualsiasi di volte a una spaziatura r
 
 >[!INFO]
 > 
-> Per ulteriori informazioni sui concetti e i flussi di lavoro relativi alla Funzione SDF, consulta la pagina dedicata: [Utilizzo della Funzione SDF](../../working-with-sdf-functions.md)
+> Per ulteriori informazioni sui concetti e i flussi di lavoro relativi alla Funzione SDF, consulta la pagina dedicata: [Utilizzo della Funzione SDF](../../../../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md)
 
 ## Input
 
 |  |  |
 | :--- | :--- |
-| <b>SDF</b> *Mobile* | Forma SDF di input. |
+| <b>SDF</b> *Virgola mobile* | Forma SDF di input. |
 | <b>Importo +</b> *Intero3* | Quantità di duplicazioni lungo gli assi X, Y e Z positivi.<br><br><i>Impostazione predefinita: (2, 0, 0)</i> |
 | <b>Importo -</b> *Intero3* | Quantità di duplicazioni lungo gli assi X, Y e Z negativi.<br><br><i>Impostazione predefinita: (2, 0, 0)</i> |
 | <b>Spaziatura</b> *Virgola mobile 3* | Spazio mondiale tra ogni duplicato.<br><br>La spaziatura viene visualizzata da un helper cubico, che rappresenta lo spazio tra i duplicati nelle direzioni X, Y e Z. La spaziatura inizia in corrispondenza della <b>posizione di origine</b> e viene aumentata simmetricamente da essa.<br><br><i>Impostazione predefinita: (2, 2, 2)</i> |

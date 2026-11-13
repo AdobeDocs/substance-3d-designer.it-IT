@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
 breadcrumb-title: ""
-description: Utilizzate il nodo SVG per importare ed eseguire il rendering della grafica vettoriale di SVG come texture per la creazione di elementi grafici scalabili.
+description: Utilizza il nodo SVG per importare ed eseguire il rendering della grafica vettoriale SVG come texture per la creazione di elementi grafici scalabili.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > SVG
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: SVG
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
+source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
@@ -50,19 +50,19 @@ Potete creare il nodo da zero o rilasciando un file SVG nella vista Grafico.
 
 >[!TIP]
 >
-> Le immagini SVG generate o importate possono essere modificate utilizzando gli [strumenti di modifica vettoriale](../../../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md) nell&#39;ancoraggio [vista 2D](../../../../interface/2d-view/2d-view.md).
+> Le immagini SVG generate o importate possono essere modificate utilizzando gli [strumenti di modifica vettoriale](../../../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md) nel dock [Vista 2D](../../../../interface/2d-view/2d-view.md).
 
 >[!IMPORTANT]
 >
 > Questo nodo dipende da una risorsa esterna, pertanto è necessario tenere presente alcuni punti quando si lavora con tali risorse:
 > 
 > * I nodi SVG possono restituire colore o scala di grigi, ma per impostazione predefinita il colore viene applicato anche se la risorsa è un vettore in scala di grigi. Questo può influire sulle prestazioni e sulla complessità del grafico, quindi assicuratevi sempre di passare al [metodo colore](#parameters) in scala di grigi, se necessario.
-> * L&#39;eliminazione di un nodo SVG non comporta l&#39;eliminazione della [risorsa SVG](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) nel [pacchetto](../../../../glossary/glossary.md). È necessario eseguire questa operazione manualmente in [Esplora risorse](../../../../interface/the-explorer-window/the-explorer-window.md).
-> * Le forme SVG sono [tassellate](../../../../glossary/glossary.md) in geometria/poligoni, quindi *rasterizzate* per essere utilizzate nei grafici a Substance come bitmap. La tecnologia utilizzata per queste operazioni non supporta diverse proprietà vettoriali, ad esempio i contorni. Ulteriori informazioni su queste limitazioni [qui](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md).
+> * L&#39;eliminazione di un nodo SVG non comporta l&#39;eliminazione della [risorsa SVG](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) nel [pacchetto](../../../../learning-tutorials/essentials/glossary/glossary.md#package). È necessario eseguire questa operazione manualmente in [Esplora risorse](../../../../interface/the-explorer-window/the-explorer-window.md).
+> * Le forme SVG sono [tassellate](../../../../learning-tutorials/essentials/glossary/glossary.md#tessellation) in geometria/poligoni, quindi *rasterizzate* per essere utilizzate nei grafici a Substance come bitmap. La tecnologia utilizzata per queste operazioni non supporta diverse proprietà vettoriali, ad esempio i contorni. Ulteriori informazioni su queste limitazioni [qui](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md).
 
 >[!WARNING]
 >
-> Le forme SVG sono [tassellate](../../../../glossary/glossary.md) in geometria/poligoni, quindi *rasterizzate* per essere utilizzate nei grafici a Substance come bitmap.
+> Le forme SVG sono [tassellate](../../../../learning-tutorials/essentials/glossary/glossary.md#tessellation) in geometria/poligoni, quindi *rasterizzate* per essere utilizzate nei grafici a Substance come bitmap.
 > 
 > La tecnologia utilizzata per queste operazioni non supporta diverse proprietà vettoriali, ad esempio i contorni.
 > 

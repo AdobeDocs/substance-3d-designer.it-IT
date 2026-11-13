@@ -1,13 +1,11 @@
 ---
 title: Rock
 description: Designer > Substance grafici composizione > Nodi di riferimento per i grafici composizione Substance > Libreria nodi > Funzione SDF > Di base > Rock
-source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
+source-git-commit: 3f5ca55e459e04f5b81755565c6f674dbc3c845c
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 1%
-
 ---
-
 
 # Rock
 
@@ -34,7 +32,7 @@ Una Funzione SDF per una forma rocciosa parametrica e casuale, costruita con Fun
 
 >[!INFO]
 > 
-> Per ulteriori informazioni sui concetti e i flussi di lavoro relativi alla Funzione SDF, consulta la pagina dedicata: [Utilizzo della Funzione SDF](../../working-with-sdf-functions.md)
+> Per ulteriori informazioni sui concetti e i flussi di lavoro relativi alla Funzione SDF, consulta la pagina dedicata: [Utilizzo della Funzione SDF](../../../../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md)
 
 ## Input
 
@@ -45,5 +43,5 @@ Una Funzione SDF per una forma rocciosa parametrica e casuale, costruita con Fun
 | <b>Casualità</b> *Virgola mobile* | Modifica l&#39;orientamento e la distanza delle facce rispetto al centro.<br>Di conseguenza, valori maggiori producono una roccia più piccola.<br><br><i>Impostazione predefinita: 0</i> |
 | <b>Valore di inizializzazione</b> *Virgola mobile* | Valore di inizializzazione per il parametro <b>Casualità</b>.<br><br><i>Impostazione predefinita: 0</i> |
 | <b>Scala</b> *Virgola mobile* | Scala globale della forma della roccia.<br>Applicato dopo <b>Casualità</b> e prima di <b>Smoothness</b>.<br><br><i>Impostazione predefinita: 0.5</i> |
-| <b>Posizione centrale</b> *Float3* | Posizione dello spazio globale del perno della roccia.<br><br><i>Impostazione predefinita: (0, 0, 0.5)</i> |
-| <b>P</b> *Float3* | La posizione trasformata dello spazio mondiale. Utilizza questo input per applicare trasformazioni aggiuntive utilizzando i nodi <b>Offset P</b> e <b>Rotazione P</b>.<br><i>Impostazione predefinita: la posizione dello spazio globale non trasformata.</i> |
+| <b>Posizione centrale</b> *Virgola mobile 3* | Posizione dello spazio globale del perno della roccia.<br><br><i>Impostazione predefinita: (0, 0, 0.5)</i> |
+| <b>P</b> *Virgola mobile 3* | La posizione Trasforma nello spazio mondiale. Utilizza questo input per applicare trasformazioni aggiuntive utilizzando i nodi <b>Offset P</b> e <b>Rotazione P</b>.<br><i>Impostazione predefinita: la posizione dello spazio globale non trasformata.</i> |

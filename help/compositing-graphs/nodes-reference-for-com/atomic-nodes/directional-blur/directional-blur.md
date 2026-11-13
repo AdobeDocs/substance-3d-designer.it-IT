@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
 breadcrumb-title: ""
-description: Usate il nodo Sfocatura direzione per applicare gli effetti di sfocatura in una direzione specifica per creare l’effetto movimento e la striatura.
+description: Utilizzate il nodo Sfocatura direzionale per applicare gli effetti di sfocatura in una direzione specifica per la creazione di effetti di sfocatura movimento e di striatura.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Directional blur
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Sfocatura direzionale
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
+source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 8%
@@ -76,14 +76,14 @@ Le immagini seguenti mostrano la sfocatura direzionale e la [sfocatura anisotrop
 
 |  |  |
 | --- | --- |
-| <b>Intensità</b> *Mobile* | Imposta il raggio di sfocatura in pixel. |
-| <b>Angolo</b> *Mobile* | La direzione dell’effetto di sfocatura in numero di giri in senso orario, a partire da orizzontale, ad esempio vettore di direzione (1, 0). |
+| <b>Intensità</b> *Virgola mobile* | Imposta il raggio di sfocatura in pixel. |
+| <b>Angolo</b> *Virgola mobile* | La direzione dell&#39;effetto di sfocatura in numero di giri in senso orario, a partire da orizzontale, ad esempio vettore di direzione (1, 0). |
 
 ## Connettori di ingresso
 
 |  |  |
 | --- | --- |
-| <b>Input</b> *Scala di grigi/Colore* [PRIMARIO](../../../../glossary/glossary.md) | Immagine da elaborare. |
+| <b>Input</b> *Scala di grigi/Colore* [PRIMARIO](../../../../learning-tutorials/essentials/glossary/glossary.md#primary-input) | Immagine da elaborare. |
 
 
 ## Esempi
