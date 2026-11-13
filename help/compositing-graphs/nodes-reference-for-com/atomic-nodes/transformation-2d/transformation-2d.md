@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
 breadcrumb-title: ""
 description: Usa il nodo Trasformazione 2D per applicare trasformazioni 2D alle texture, tra cui traslazione, rotazione e ridimensionamento.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Trasformazione 2D
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 5%
@@ -54,7 +54,7 @@ Tuttavia, non può essere una corrispondenza perfetta per alcune applicazioni, q
 >
 > Disabilitazione dell&#39;Affiancamento
 > 
-> Impostare il [metodo di ereditarietà](../../../../learning-tutorials/essentials/glossary/glossary.md#inheritance) del parametro &#39;Modalità Affiancamento&#39; [parametro base](../../../../learning-tutorials/essentials/glossary/glossary.md#base-parameter) su &#39;Assoluto&#39;, che consente quindi di impostare il valore del parametro su &#39;Nessun Affiancamento&#39;:
+> Impostare il [metodo di ereditarietà](../../../../glossary/glossary.md) del parametro &#39;Modalità Affiancamento&#39; [parametro base](../../../../glossary/glossary.md) su &#39;Assoluto&#39;, che consente quindi di impostare il valore del parametro su &#39;Nessun Affiancamento&#39;:
 > 
 > ![](transformation-2d.resources/tilingmode.png)
 
@@ -69,8 +69,8 @@ Tuttavia, non può essere una corrispondenza perfetta per alcune applicazioni, q
 | --- | --- |
 | <b>Matrice di trasformazione</b> *Virgola mobile 4* | Aprite la matrice di trasformazione sottostante per la modifica diretta. Consente di modificare la rotazione e il ridimensionamento. Può essere regolato anche attraverso il gizmo nel Vista 2D.   Avvertenza: non sono correlate direttamente alla vista e sono regolazioni relative che possono essere applicate in più passaggi. |
 | <b>Scostamento</b> *Virgola mobile 2* | Definisce lo spostamento 2D dell’immagine. Consente di modificare la posizione o lo scostamento. Può essere regolato anche tramite il gizmo nel Vista 2D.   Si riferisce direttamente all&#39;output del Vista 2D. |
-| <b>Modalità Mipmap</b> *Numero intero* | Consente di passare a un livello [mipmap](../../../../learning-tutorials/essentials/glossary/glossary.md#mipmap) manuale, che riduce gli artefatti in un&#39;immagine utilizzando il filtro texture. |
-| <b>Livello mipmap</b> *Numero intero* | Imposta il livello [mipmap](../../../../learning-tutorials/essentials/glossary/glossary.md#mipmap) da utilizzare.     *Disponibile quando la modalità Mipmap è impostata su Manuale* |
+| <b>Modalità Mipmap</b> *Numero intero* | Consente di passare a un livello [mipmap](../../../../glossary/glossary.md) manuale, che riduce gli artefatti in un&#39;immagine utilizzando il filtro texture. |
+| <b>Livello mipmap</b> *Numero intero* | Imposta il livello [mipmap](../../../../glossary/glossary.md) da utilizzare.     *Disponibile quando la modalità Mipmap è impostata su Manuale* |
 | <b>Colore mascherino</b> *Virgola mobile 4* | Colore utilizzato come sfondo quando l’Affiancamento della trasformazione è disattivato. Cioè, imposta il colore usato quando l&#39;input Trasforma non copre un&#39;area dell&#39;output.   Può essere reso trasparente se si lavora con il colore RGBA. |
 | <b>Filtraggio</b> *Numero intero* | Imposta il metodo di downsampling utilizzato. Non funziona particolarmente bene con la riduzione del Livello mipmap. |
 

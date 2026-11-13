@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/output-size.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/output-size.html"
 breadcrumb-title: ""
 description: Configura le impostazioni delle dimensioni di output per i grafici di composizione delle Substance per controllare la risoluzione e la qualità delle texture.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Dimensioni output
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 5%
@@ -62,7 +62,7 @@ Questo vale anche quando il valore Dimensione output è controllato da una [funz
 >[!IMPORTANT]
 >
 > Aumentando o diminuendo la risoluzione sia in X che in Y, il numero di pixel viene moltiplicato o diviso per *4*, con un impatto significativo sulle *prestazioni* e sull&#39;*ingombro di memoria* di un grafico.\
-> Pertanto, si consiglia vivamente di utilizzare la *risoluzione minima* effettivamente necessaria per ottenere il risultato desiderato. Tenere sotto controllo le risoluzioni è una delle [linee guida per l&#39;ottimizzazione delle prestazioni](../../learning-tutorials/essentials/best-practices/performance-optimization/performance-optimization-guidelines.md).
+> Pertanto, si consiglia vivamente di utilizzare la *risoluzione minima* effettivamente necessaria per ottenere il risultato desiderato. Tenere sotto controllo le risoluzioni è una delle [linee guida per l&#39;ottimizzazione delle prestazioni](../../best-practices/performance-optimization/performance-optimization-guidelines.md).
 
 >[!NOTE]
 >
@@ -92,7 +92,7 @@ Nella maggior parte dei casi, il [metodo di ereditarietà](../../compositing-gra
 
 * Grafico: *relativo all&#39;elemento padre*
 * Nodo: *Rispetto all&#39;input* - In questo caso vengono utilizzati i valori ereditati dall&#39;[input primario](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) del nodo
-* Nodo [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md): *Assoluto*. Per ulteriori informazioni, vedere la pagina [Risorsa bitmap](../../resources/bitmap-resource/bitmap-resource.md) e le [linee guida per l&#39;ottimizzazione delle prestazioni](../../learning-tutorials/essentials/best-practices/performance-optimization/performance-optimization-guidelines.md)
+* Nodo [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md): *Assoluto*. Per ulteriori informazioni, vedere la pagina [Risorsa bitmap](../../resources/bitmap-resource/bitmap-resource.md) e le [linee guida per l&#39;ottimizzazione delle prestazioni](../../best-practices/performance-optimization/performance-optimization-guidelines.md)
 
 Visualizzare le proprietà di un nodo o di un grafico facendo clic sull&#39;elemento, quindi nel pannello [Proprietà](../../interface/properties/properties.md) individuare la proprietà <b>Dimensione output</b> nella sezione <b>Parametri di base</b>. Fare clic sul menu a discesa del metodo di ereditarietà per selezionare il metodo di ereditarietà desiderato.
 
@@ -100,7 +100,7 @@ Visualizzare le proprietà di un nodo o di un grafico facendo clic sull&#39;elem
 
 ## Problemi di esempio
 
-Se sei un nuovo utente di [Adobe Substance 3D Designer](https://www.adobe.com/it/products/substance3d-designer.html), potresti riscontrare alcuni problemi comuni. Di seguito sono riportati alcuni esempi e alcune soluzioni.
+Se sei un nuovo utente di [Adobe Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html), potresti riscontrare alcuni problemi comuni. Di seguito sono riportati alcuni esempi e alcune soluzioni.
 
 +++Problema 1
 **![(errore)](output-size.resources/error.svg) Problema**

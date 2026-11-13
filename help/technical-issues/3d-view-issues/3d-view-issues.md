@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/technical-issues/3d-view-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/3d-view-issues.html"
 breadcrumb-title: ""
 description: Risoluzione dei problemi di vista 3D in Substance 3D Designer, inclusi problemi di rendering, visualizzazione e prestazioni.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Problemi di vista 3D
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1723'
 ht-degree: 0%
@@ -231,7 +231,7 @@ L’ombreggiatura degli oggetti si basa sui loro vettori normali, tangenti e bin
 
 Ad esempio, una scala pari a 2 e una distorsione pari a -1 adattano il valore x da `[0, 1]` a `[-1, 1]` in modo uniforme: `x * 2 - 1`.
 
-Designer non applica una scala e una distorsione normali a meno che non siano specificate da una trama 3D. Se tali informazioni mancano, verrà generato un avviso nella console quando [si sostituisce uno dei materiali](../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md):
+Designer non applica una scala e una distorsione normali a meno che non siano specificate da una trama 3D. Se tali informazioni mancano, verrà generato un avviso nella console quando [si sostituisce uno dei materiali](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md):
 
 ```
 [SceneGraph]No 'scale' or 'bias' defined on the UsdUVTexture shader '/root/material/<materialName>' (the rendering may be incorrect)
@@ -242,7 +242,7 @@ Designer non applica una scala e una distorsione normali a meno che non siano sp
 
 Per le scene esportate nei formati USD qualche tempo fa: riesporta la scena utilizzando una versione recente dell’USD, che includerà i dati necessari. Presta attenzione alle proprietà relative alla scala normale e ai pregiudizi, se presenti, che dipenderanno dal software utilizzato per esportare la scena.
 
-Quando [si esegue l&#39;override di un materiale](../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md), Designer elabora la trama e calcola eventuali dati mancanti relativi alle sue normali, tangenti e binormali. Se la scala e la distorsione predefinite di Designer corrispondono a quelle richieste per la trama, quest’ultima avrà un aspetto corretto quando viene sostituita.
+Quando [si esegue l&#39;override di un materiale](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md), Designer elabora la trama e calcola eventuali dati mancanti relativi alle sue normali, tangenti e binormali. Se la scala e la distorsione predefinite di Designer corrispondono a quelle richieste per la trama, quest’ultima avrà un aspetto corretto quando viene sostituita.
 
 ## Arresto anomalo all&#39;avvio del vista 3D
 

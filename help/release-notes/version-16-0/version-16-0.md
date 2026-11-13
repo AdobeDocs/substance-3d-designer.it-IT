@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versione 16.0
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 3f5ca55e459e04f5b81755565c6f674dbc3c845c
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '2246'
 ht-degree: 0%
@@ -115,7 +115,7 @@ Anche in questo caso, gli utenti avanzati possono configurare *mappature texture
             <p>I <b>bulloni arrugginiti</b> <a href="../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md">campioni di materiale</a> sono disponibili per saltare la famiglia di nodi Shape splatter v2 e le relative funzionalità.</p><p>Il grafico è organizzato e annotato per guidarvi attraverso la struttura, le impostazioni e le tecniche dei nodi.</p><p>È anche <i>completamente modificabile</i>, quindi può essere utilizzato come sandbox per comprendere meglio il set di strumenti Shape splatter v2. Puoi creare tutti i grafici campione che desideri, quindi non esitare a giocare!</p>
         </td>
         <td style="border: none; width: 20%; vertical-align: top; text-align: right">
-            <img src="../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.resources/working-with-sdf-functions-material-sample.png" alt="Funzione fotogramma di delimitazione del nodo del visualizzatore 3D, per la Funzione SDF." />
+            <img src="../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.resources/working-with-sdf-functions-material-sample.png" alt="Funzione fotogramma di delimitazione del nodo del visualizzatore 3D, per la Funzione SDF." />
         </td>
     </tr>
 </table>
@@ -144,9 +144,9 @@ Le funzioni SDF coinvolgono una [nuova famiglia di nodi](../../function-graphs/n
 
 >[!INFO]
 > 
-> Andare alla pagina [Utilizzo della Funzione SDF](../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md) per iniziare a utilizzare questi nodi.
+> Andare alla pagina [Utilizzo della Funzione SDF](../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.md) per iniziare a utilizzare questi nodi.
 
-<img style="display: block; margin: auto" src="../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.resources/working-with-sdf-mograph.gif" alt="Funzione SDF nodi" />
+<img style="display: block; margin: auto" src="../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.resources/working-with-sdf-mograph.gif" alt="Funzione SDF nodi" />
 
 I nodi leggeri con icone chiare e leggibili semplificano la creazione di Funzione SDF 3D, soprattutto con questa nuova aggiunta al set di strumenti...
 

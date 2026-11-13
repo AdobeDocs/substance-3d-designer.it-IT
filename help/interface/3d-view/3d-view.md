@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/3d-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view.html"
 breadcrumb-title: ""
 description: Utilizzate la vista 3D in Substance 3D Designer per visualizzare in anteprima i materiali sugli oggetti 3D e verificare le condizioni di illuminazione.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Visualizzazione 3D
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '3549'
 ht-degree: 1%
@@ -157,13 +157,13 @@ Potete visualizzare qualsiasi singolo output grafico espandendo la risorsa grafi
 Designer offre una dozzina di trame predefinite. Queste trame hanno coordinate UV uniformi e utilizzabili e servono la maggior parte degli scenari per texture Affiancamenti. È anche possibile importare e visualizzare le proprie trame 3D.\
 Scegliete una delle trame predefinite dal menu a discesa <b>Scena</b> nella barra superiore.
 
-Per le scene 3D personalizzate, consulta la sezione [Utilizzo delle scene 3D](../../learning-tutorials/3d-view/working-with-3d-scenes/working-with-3d-scenes.md).
+Per le scene 3D personalizzate, consulta la sezione [Utilizzo delle scene 3D](../../working-with-3d-scenes/working-with-3d-scenes.md).
 
 ![Modifica delle proprietà dei materiali](3d-view.resources/3d-materials.gif "Modifica delle proprietà dei materiali")
 
 ## Modifica proprietà shader
 
-In Designer sono disponibili alcuni [shader](../../learning-tutorials/essentials/glossary/glossary.md#shader) diversi per impostazione predefinita e ogni shader ha opzioni che vanno oltre i semplici canali di texture. Possono essere configurati singolarmente.
+In Designer sono disponibili alcuni [shader](../../glossary/glossary.md) diversi per impostazione predefinita e ogni shader ha opzioni che vanno oltre i semplici canali di texture. Possono essere configurati singolarmente.
 
 Tieni presente che gli ombreggiatori differiscono tra i [moduli di rendering 3D](../../interface/3d-view/3d-renderers/3d-renderers.md) di Designer e che al passaggio di un modulo di rendering verranno mantenute solo le impostazioni contrassegnate con un&#39;etichetta &quot;Comune&quot;.
 
@@ -187,7 +187,7 @@ Gli ombreggiatori possono essere ripristinati mediante le azioni &quot;Ripristin
 
 ## Esporta scena
 
-Informazioni sull&#39;esportazione di scene 3D in [questa pagina](../../learning-tutorials/3d-view/working-with-3d-scenes/exporting-scenes/exporting-scenes.md).
+Informazioni sull&#39;esportazione di scene 3D in [questa pagina](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md).
 
 ### Esportare trame tassellate (solo per il modulo di rendering OpenGL)
 
@@ -220,7 +220,7 @@ Per esportare la trama di vista 3D, vai a <b>Scena > Esporta trama tassellata...
 >
 > **TDR (solo Windows)**
 > 
-> Per questa funzione è necessario che <b>Rilevamento e ripristino del timeout</b> corrisponda ai valori consigliati nella [pagina](https://experienceleague.adobe.com/it/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) della documentazione, come indicato nei [Requisiti tecnici](../../getting-started/system-requirements/system-requirements.md) di Designer.
+> Per questa funzione è necessario che <b>Rilevamento e ripristino del timeout</b> corrisponda ai valori consigliati nella [pagina](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) della documentazione, come indicato nei [Requisiti tecnici](../../getting-started/system-requirements/system-requirements.md) di Designer.
 
 ## Barra dei menu
 
@@ -269,18 +269,18 @@ Il menu <b>Scena</b> riguarda la geometria (risorsa 3D) visualizzata e gli stati
 
 <b>Crea risorsa 3D dalla scena corrente...:</b> Crea una nuova [risorsa scena 3D](../../resources/3d-scene-resource/3d-scene-resource.md) in un pacchetto esterno alla scena corrente.
 
-<b>Carica file di stato...: </b>Carica un [file di stato scena](../../learning-tutorials/3d-view/working-with-3d-scenes/working-with-3d-scenes.md) salvato esternamente (\*.sbsscn). Non sostituisce la trama 3D, carica solo le impostazioni per il modulo di rendering 3D, la videocamera e le luci.
+<b>Carica file di stato...: </b>Carica un [file di stato scena](../../working-with-3d-scenes/working-with-3d-scenes.md) salvato esternamente (\*.sbsscn). Non sostituisce la trama 3D, carica solo le impostazioni per il modulo di rendering 3D, la videocamera e le luci.
 
-<b>Carica file di stato con trama...:</b> Carica un [file di stato scena](../../learning-tutorials/3d-view/working-with-3d-scenes/working-with-3d-scenes.md) salvato esternamente (\*.sbsscn). Carica le impostazioni per il modulo di rendering 3D, la videocamera, le luci e la scena 3D di riferimento. .
+<b>Carica file di stato con trama...:</b> Carica un [file di stato scena](../../working-with-3d-scenes/working-with-3d-scenes.md) salvato esternamente (\*.sbsscn). Carica le impostazioni per il modulo di rendering 3D, la videocamera, le luci e la scena 3D di riferimento. .
 
-<b>Salva file di stato...: </b>Salva lo stato corrente della vista 3D in un [file di stato della scena](../../learning-tutorials/3d-view/working-with-3d-scenes/working-with-3d-scenes.md) (\*.sbsscn).
+<b>Salva file di stato...: </b>Salva lo stato corrente della vista 3D in un [file di stato della scena](../../working-with-3d-scenes/working-with-3d-scenes.md) (\*.sbsscn).
 
-<b>Salva stato corrente come predefinito: </b>Imposta lo stato corrente della vista 3D come [file di stato della scena](../../learning-tutorials/3d-view/working-with-3d-scenes/working-with-3d-scenes.md) da utilizzare per impostazione predefinita durante la creazione di nuove viste 3D. Questo file viene caricato ogni volta che la vista 3D viene ripristinata o inizializzata e può essere impostato nelle [impostazioni del progetto](../../interface/preferences-window/project-settings/project-settings.md).
+<b>Salva stato corrente come predefinito: </b>Imposta lo stato corrente della vista 3D come [file di stato della scena](../../working-with-3d-scenes/working-with-3d-scenes.md) da utilizzare per impostazione predefinita durante la creazione di nuove viste 3D. Questo file viene caricato ogni volta che la vista 3D viene ripristinata o inizializzata e può essere impostato nelle [impostazioni del progetto](../../interface/preferences-window/project-settings/project-settings.md).
 
-<b>Esporta scena:</b> *(Solo per i renderer con rasterizzatore e Pathtracer GPU)* Esporta la scena corrente come [scena appiattita](../../learning-tutorials/3d-view/working-with-3d-scenes/exporting-scenes/exporting-scenes.md), in cui viene scritta solo la scena del risultato e vengono persi eventuali riferimenti alla scena originale. Il contenuto della scena esportata dipende dalle funzioni supportate dal formato di esportazione selezionato.\
+<b>Esporta scena:</b> *(Solo per i renderer con rasterizzatore e Pathtracer GPU)* Esporta la scena corrente come [scena appiattita](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md), in cui viene scritta solo la scena del risultato e vengono persi eventuali riferimenti alla scena originale. Il contenuto della scena esportata dipende dalle funzioni supportate dal formato di esportazione selezionato.\
 Formati disponibili: STL, FBX, GLB, GLTF, PLY, USDC, USD, USDA, USDZ, OBJ.
 
-<b>Esporta scena con livelli:</b> *(solo per rendering di rasterizzatori/Pathtracer GPU)*Esporta la scena corrente come [scena con livelli](../../learning-tutorials/3d-view/working-with-3d-scenes/exporting-scenes/exporting-scenes.md), in cui tutte le modifiche alla scena originale vengono salvate in file separati in un flusso di lavoro non distruttivo. Questa opzione è disponibile solo per i formati di file USD.\
+<b>Esporta scena con livelli:</b> *(solo per rendering di rasterizzatori/Pathtracer GPU)*Esporta la scena corrente come [scena con livelli](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md), in cui tutte le modifiche alla scena originale vengono salvate in file separati in un flusso di lavoro non distruttivo. Questa opzione è disponibile solo per i formati di file USD.\
 I formati disponibili sono: USDC, USD, USDA.
 
 <b>Esporta geometria tassellata:</b> *(solo per il modulo di rendering OpenGL)* Esporta la scena corrente con tassellatura come geometria non elaborata, consultate la sezione Esporta scena.
@@ -300,19 +300,19 @@ Il menu Materiali presenta un elenco di tutti i materiali assegnati a una trama 
 
 <b>Modifica</b> - Modificare le impostazioni del materiale corrente nella finestra Proprietà.
 
-<b>Elenco shader</b> - Tutti i [shader](../../learning-tutorials/essentials/glossary/glossary.md#shader) disponibili per il [modulo di rendering 3D](../../interface/3d-view/3d-renderers/3d-renderers.md) corrente.
+<b>Elenco shader</b> - Tutti i [shader](../../glossary/glossary.md) disponibili per il [modulo di rendering 3D](../../interface/3d-view/3d-renderers/3d-renderers.md) corrente.
 
 <b>Carica definizione...: </b>(solo per il modulo di rendering OpenGL) Consente di caricare [shader GLSLFX personalizzato.](../../interface/3d-view/glslfx-shaders/glslfx-shaders.md) Lo shader viene aggiunto all’elenco precedente.
 
-<b>Reimposta parametri comuni:</b> Reimposta tutti i parametri comuni tra gli shader. Ad esempio, quando si passa dal modulo di rendering Rasterizzatore/Pathtracer GPU a quello OpenGL, vengono riportati diversi valori di parametro nell&#39;[Adobe Standard Material](https://experienceleague.adobe.com/it/docs/substance-3d/general-knowledge/asm/adobe-standard-material).
+<b>Reimposta parametri comuni:</b> Reimposta tutti i parametri comuni tra gli shader. Ad esempio, quando si passa dal modulo di rendering Rasterizzatore/Pathtracer GPU a quello OpenGL, vengono riportati diversi valori di parametro nell&#39;[Adobe Standard Material](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material).
 
 <b>Rinomina:</b> Modificare l&#39;etichetta per questo materiale.
 
 <b>Ripristina materiale:</b> ripristina tutti i parametri di shader sui valori predefiniti. Se le texture sono collegate a uno qualsiasi dei campionatori dello shader, vengono scollegate.
 
-<b>Ripristina lo stato della scena per il materiale: </b>*(solo per i moduli di rendering Rasterizzatore e Pathtracer GPU)* Ripristina tutte le proprietà di [materiali sostituiti](../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md) ai valori originali della scena, inclusa l&#39;eventuale texture originale.
+<b>Ripristina lo stato della scena per il materiale: </b>*(solo per i moduli di rendering Rasterizzatore e Pathtracer GPU)* Ripristina tutte le proprietà di [materiali sostituiti](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) ai valori originali della scena, inclusa l&#39;eventuale texture originale.
 
-<b>Aggiungi: </b>Aggiunge un nuovo materiale all&#39;elenco. Non viene utilizzato per impostazione predefinita e potrebbe essere [connesso a un materiale della scena](../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md) utilizzando il [browser della scena](../../interface/3d-view/scene-browser/scene-browser.md).
+<b>Aggiungi: </b>Aggiunge un nuovo materiale all&#39;elenco. Non viene utilizzato per impostazione predefinita e potrebbe essere [connesso a un materiale della scena](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) utilizzando il [browser della scena](../../interface/3d-view/scene-browser/scene-browser.md).
 
 +++
 

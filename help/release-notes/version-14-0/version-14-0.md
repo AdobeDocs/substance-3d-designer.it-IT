@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/release-notes/version-14-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-14-0.html"
 breadcrumb-title: ""
 description: Consulta le note sulla versione per Substance 3D Designer versione 14.0 per informazioni sui nuovi nodi, la navigazione del grafico e i miglioramenti delle prestazioni.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versione 14.0
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1626'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Questa versione 14.0 introduce molti nuovi contenuti con i nuovi nodi elencati d
 
 * <b>Filtro Kuwahara</b>: se desiderate migliorare ulteriormente la stilizzazione, potete generare alcuni effetti pittorici grazie ai filtri [Colore Kuwahara anisotropo](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara/anisotropic-kuwahara.md) / [Scala di grigi](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara-gra/anisotropic-kuwahara-grayscale.md). Nei dettagli, applica una sfocatura direzionale anisotropa conforme ai dettagli dell&#39;immagine. Il risultato è un’immagine che sembra scorrere nella direzione delle forme al suo interno.
 
-Questi nodi (Quantizza colore e Kuwahara anisotropo) sono spiegati in [questa esercitazione](https://www.adobe.com/go/designer-tutorial-quantize_it). Mostra come utilizzarli per stilizzare i materiali e gestire i colori in modo più efficiente e intuitivo.
+Questi nodi (Quantizza colore e Kuwahara anisotropo) sono spiegati in [questa esercitazione](https://www.adobe.com/go/designer-tutorial-quantize). Mostra come utilizzarli per stilizzare i materiali e gestire i colori in modo più efficiente e intuitivo.
 
 Altri nodi potenti si uniscono al gruppo:
 
@@ -129,11 +129,11 @@ Separa normale
 
 ## Miglioramenti della qualità della vita
 
-* <b>Sono state migliorate le prestazioni </b>e la <b>reattività</b> quando si lavora su grandi progetti. Ad esempio, la rimozione dei nodi può essere fino a 75 volte più veloce. Anche il tempo di [cottura](../../learning-tutorials/essentials/glossary/glossary.md#cooking) è stato ridotto per i grafici che fanno riferimento più volte alla stessa bitmap.
-* <b>Parametri ereditati</b>: quando un parametro è [ereditato](../../learning-tutorials/essentials/glossary/glossary.md#inheritance), invece di visualizzare il valore predefinito, viene visualizzato quello ereditato in modo da conoscere il valore attualmente utilizzato. Ulteriori informazioni sull&#39;ereditarietà in [questa pagina dedicata della nostra documentazione](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md).
+* <b>Sono state migliorate le prestazioni </b>e la <b>reattività</b> quando si lavora su grandi progetti. Ad esempio, la rimozione dei nodi può essere fino a 75 volte più veloce. Anche il tempo di [cottura](../../glossary/glossary.md) è stato ridotto per i grafici che fanno riferimento più volte alla stessa bitmap.
+* <b>Parametri ereditati</b>: quando un parametro è [ereditato](../../glossary/glossary.md), invece di visualizzare il valore predefinito, viene visualizzato quello ereditato in modo da conoscere il valore attualmente utilizzato. Ulteriori informazioni sull&#39;ereditarietà in [questa pagina dedicata della nostra documentazione](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md).
 * Il supporto per <b>trackpad</b> su MacOS è stato completamente rielaborato per essere più naturale e in linea con altri software. Anche lo spostamento di nodi oltre i bordi della [Visualizzazione grafico](../../interface/the-graph-view/the-graph-view.md) è stato riprogettato per garantire maggiore fluidità e coerenza in tutti i sistemi operativi.
 
-* <b>vista 2D: </b>quando la visualizzazione in porzioni è abilitata in [vista 2D](../../interface/2d-view/2d-view.md), ora puoi ottenere valori anche per i pixel che non si trovano nella porzione originale: è molto utile controllare il [campionamento](../../learning-tutorials/essentials/glossary/glossary.md#texture-sampling) e le transizioni dei valori tra le porzioni.
+* <b>vista 2D: </b>quando la visualizzazione in porzioni è abilitata in [vista 2D](../../interface/2d-view/2d-view.md), ora puoi ottenere valori anche per i pixel che non si trovano nella porzione originale: è molto utile controllare il [campionamento](../../glossary/glossary.md) e le transizioni dei valori tra le porzioni.
 
 ![vista 2d](version-14-0.resources/2dview.gif){width="320px" zoomable="yes"}
 
@@ -196,7 +196,7 @@ Tieni presente che questi aggiornamenti hanno due conseguenze principali:
 * [Content] Nodo deprecato &#39;Nega Virgola mobile 1&#39; nel grafico delle funzioni della Substance
 * [Content] Rinomina &quot;Quantizza colore&quot; in &quot;Quantizza colore (semplice)&quot;
 * [vista 2D] Visualizza i valori nel pannello Informazioni per i pixel al di fuori dell’intervallo 0-1
-* [Engine]&#x200B;[Testo] Nuova crenatura per alcuni font
+* [Engine][Testo] Nuova crenatura per alcuni font
 * [Grafico] Miglioramento del tempo di invalidamento durante la modifica di grafici secondari profondi durante l&#39;utilizzo di un&#39;edizione contestuale
 * [Linker] Non duplicare bitmap in SBSASM
 * [Parameters] Aggiungere un nuovo widget &quot;function&quot; per tutti i tipi di parametri di input

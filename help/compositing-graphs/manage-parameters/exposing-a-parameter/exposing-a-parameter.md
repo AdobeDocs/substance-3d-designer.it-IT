@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
 breadcrumb-title: ""
 description: Scopri come esporre i parametri nei grafici di composizione di Substance 3D Designer per rendere i materiali personalizzabili e riutilizzabili.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Esposizione di un parametro
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '2267'
 ht-degree: 4%
@@ -102,7 +102,7 @@ Ci sono alcune limitazioni legate all&#39;esposizione dei parametri, come elenca
 | --- | --- |
 | [Gradient Ramp](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md), [Curve Editor](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md), [Font](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md), [Istogramma Livelli](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) | Richiedi widget che non sono disponibili per i parametri creati dall&#39;utente. |
 
-Un&#39;altra limitazione significativa è correlata a [parametri statici](../../../learning-tutorials/essentials/glossary/glossary.md#static-parameter). Non è possibile modificare queste impostazioni in una [risorsa Substance 3D pubblicata (SBSAR)](../../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md).
+Un&#39;altra limitazione significativa è correlata a [parametri statici](../../../glossary/glossary.md). Non è possibile modificare queste impostazioni in una [risorsa Substance 3D pubblicata (SBSAR)](../../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md).
 
 I parametri statici, a differenza dei parametri dinamici, *non possono essere modificati al volo* dopo che il grafico è stato *elaborato*, ovvero elaborato per eseguire l&#39;algoritmo in modo rapido ed efficiente. La cottura avviene in Designer ogni volta che il grafico viene *modificato* o *pubblicato*.
 

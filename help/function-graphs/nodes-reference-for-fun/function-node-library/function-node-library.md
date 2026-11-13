@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library.html"
 breadcrumb-title: ""
 description: Accesso a grafici preconfigurati delle funzioni Substance come nodi di istanza per velocizzare il flusso di lavoro e migliorare le funzionalità.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Libreria nodo di funzione
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 3f5ca55e459e04f5b81755565c6f674dbc3c845c
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 6%
@@ -30,7 +30,7 @@ Questi nodi consentono di creare Funzioni SDF che possono essere utilizzate per 
 
 >[!INFO]
 > 
-> Per ulteriori informazioni sui concetti e i flussi di lavoro relativi alla Funzione SDF, consulta la pagina dedicata: [Utilizzo della Funzione SDF](../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md)
+> Per ulteriori informazioni sui concetti e i flussi di lavoro relativi alla Funzione SDF, consulta la pagina dedicata: [Utilizzo della Funzione SDF](function-nodes-sdf-functions/working-with-sdf-functions.md)
 
 <table>
 <tr style="border: 0;">
@@ -463,15 +463,15 @@ Globale casuale
 
 Distribuzione normale
 
-Uniforme casuale &lbrack;-1, 1&lbrack;
+Uniforme casuale [-1, 1[
 
-Uniforme casuale &lbrack;a, b&lbrack;
+Uniforme casuale [a, b[
 
-Variabile casuale uniforme 2 &lbrack;a, b&lbrack;
+Variabile casuale uniforme 2 [a, b[
 
-Variabile casuale uniforme 3 &lbrack;a, b&lbrack;
+Variabile casuale uniforme 3 [a, b[
 
-Variabile casuale uniforme 4 &lbrack;a, b&lbrack;
+Variabile casuale uniforme 4 [a, b[
 
 </td>
 </tr>

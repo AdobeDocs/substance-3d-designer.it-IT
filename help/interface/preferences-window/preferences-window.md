@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/it/substance-3d-designer/interface/preferences-window.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window.html"
 breadcrumb-title: ""
 description: Accedete alla finestra Preferenze di Substance 3D Designer per personalizzare le impostazioni e il comportamento dell’applicazione.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Preferenze
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1973'
 ht-degree: 1%
@@ -76,7 +76,7 @@ Potete impostare la dimensione massima della cache allocata alle miniature e all
 | <b>Budget memoria</b>  *Predefinito: Automatico* | Questa allocazione viene calcolata automaticamente su circa il 75% del pool totale di memoria di sistema. Per impostare questo valore manualmente, selezionare l&#39;opzione &#39;*Personalizzato*&#39; e impostare un valore nel campo di input adiacente. |
 
 Si noti che la scrittura su disco è *più lenta* rispetto alla scrittura nella memoria di sistema. Di conseguenza, il tempo di rendering del grafico *aumenterà in modo esponenziale* poiché i dati in overflow devono essere scritti nella cartella temporanea.\
-Per evitare che ciò accada, si consiglia di esaminare i suggerimenti per la riduzione dell&#39;ingombro di memoria di un grafico nella sezione [Linee guida per l&#39;ottimizzazione delle prestazioni](../../learning-tutorials/essentials/best-practices/performance-optimization/performance-optimization-guidelines.md) della documentazione.
+Per evitare che ciò accada, si consiglia di esaminare i suggerimenti per la riduzione dell&#39;ingombro di memoria di un grafico nella sezione [Linee guida per l&#39;ottimizzazione delle prestazioni](../../best-practices/performance-optimization/performance-optimization-guidelines.md) della documentazione.
 
 #### Pianificazione lavori
 
@@ -125,7 +125,7 @@ Si noti inoltre che i salvataggi automatici devono essere aperti *dopo averli sp
 
 >[!NOTE]
 >
-> Si consiglia di esaminare i suggerimenti per ridurre l&#39;ingombro di memoria di un grafico nella sezione [Linee guida per l&#39;ottimizzazione delle prestazioni](../../learning-tutorials/essentials/best-practices/performance-optimization/performance-optimization-guidelines.md) della documentazione.
+> Si consiglia di esaminare i suggerimenti per ridurre l&#39;ingombro di memoria di un grafico nella sezione [Linee guida per l&#39;ottimizzazione delle prestazioni](../../best-practices/performance-optimization/performance-optimization-guidelines.md) della documentazione.
 
 ## Progetti
 
@@ -189,7 +189,7 @@ Consultare la pagina [Impostazioni progetti](../../interface/preferences-window/
 
 |  |  |
 | --- | --- |
-| <b>Raytracing GPU</b>  *Impostazione predefinita: selezionata* | Se selezionata, il raytracing verrà eseguito sulla GPU per [baker compatibili](https://experienceleague.adobe.com/it/docs/substance-3d/bakers/features/gpu-raytracing).   I seguenti backend Raytracing GPU saranno i predefiniti, a seconda dell’architettura della GPU NVIDIA:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i>: Turing e versioni successive</li> <li data-preserve-html="true"><i>Optix</i>: Pascal e Maxwell</li> </ul>  **Nota:** ulteriori informazioni sui baker basati su GPU sono disponibili nella sezione [Raytracing GPU](https://experienceleague.adobe.com/it/docs/substance-3d/bakers/features/gpu-raytracing) della documentazione [Substance Bakers](https://experienceleague.adobe.com/it/docs/substance-3d/bakers/home).  **Suggerimento:** è possibile utilizzare i seguenti *argomenti della riga di comando* quando si avvia l&#39;applicazione per *forzare* l&#39;utilizzo di un back-end di Raytracing GPU diverso: <ul data-preserve-html="true"> <li data-preserve-html="true"><code>—force-optix</code> : forzare l&#39;uso di Optix su Nvidia Turing o GPU più recenti</li> <li data-preserve-html="true"><code>—force-dxr</code> : forzare l&#39;uso dell&#39;DXR sulle GPU Nvidia Pascal</li> </ul> |
+| <b>Raytracing GPU</b>  *Impostazione predefinita: selezionata* | Se selezionata, il raytracing verrà eseguito sulla GPU per [baker compatibili](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing).   I seguenti backend Raytracing GPU saranno i predefiniti, a seconda dell’architettura della GPU NVIDIA:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i>: Turing e versioni successive</li> <li data-preserve-html="true"><i>Optix</i>: Pascal e Maxwell</li> </ul>  **Nota:** ulteriori informazioni sui baker basati su GPU sono disponibili nella sezione [Raytracing GPU](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing) della documentazione [Substance Bakers](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home).  **Suggerimento:** è possibile utilizzare i seguenti *argomenti della riga di comando* quando si avvia l&#39;applicazione per *forzare* l&#39;utilizzo di un back-end di Raytracing GPU diverso: <ul data-preserve-html="true"> <li data-preserve-html="true"><code>—force-optix</code> : forzare l&#39;uso di Optix su Nvidia Turing o GPU più recenti</li> <li data-preserve-html="true"><code>—force-dxr</code> : forzare l&#39;uso dell&#39;DXR sulle GPU Nvidia Pascal</li> </ul> |
 
 ## Libreria
 
